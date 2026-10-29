@@ -10339,12 +10339,6 @@
     },
     "22:3:12": {
       "episode_key": "rodina sopránů:s3:e12",
-      "claim": {
-        "worker_id": "62987d8c51d641b5bdd68f65266443b6-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:30:13.915664+00:00",
-        "lease_expires_at": "2026-10-30T05:30:13.915676+00:00"
-      },
       "source": {
         "source_id": "5816005",
         "source_url": "https://sdilej.cz/5816005/the-sopranos.s03e12.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10369,15 +10363,22 @@
         "display_name": "The Sopranos S03E12 Amour Fou 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:30:15.313723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621380",
-        "size_bytes": 922472716
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621380",
+          "size_bytes": 922472716,
+          "source_bytes_read": 922472716,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5816005",
+        "source_url": "https://sdilej.cz/5816005/the-sopranos.s03e12.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621380",
-        "size_bytes": 922472716,
-        "source_bytes_read": 922472716,
-        "http_status": 201
+        "display_name": "The Sopranos S03E12 Amour Fou 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:33:29.943903+00:00"
       }
     },
     "22:3:13": {
@@ -10423,5 +10424,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:33:24.923518+00:00"
+  "updated_at": "2026-10-29T23:33:29.943923+00:00"
 }
