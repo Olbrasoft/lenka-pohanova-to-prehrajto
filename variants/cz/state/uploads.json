@@ -5166,12 +5166,6 @@
     },
     "1575:5:6": {
       "episode_key": "the wire – špína baltimoru:s5:e6",
-      "claim": {
-        "worker_id": "ace08686b2d44c85b7c01ba8c64d4ff3-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:54:31.730151+00:00",
-        "lease_expires_at": "2026-10-29T23:54:31.730164+00:00"
-      },
       "source": {
         "source_id": "28794513",
         "source_url": "https://sdilej.cz/28794513/the-wire-s05e06-1080p-cz-dabing.mkv",
@@ -5196,15 +5190,22 @@
         "display_name": "The Wire S05E06 The Dickensian Aspect 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:54:34.521713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615741",
-        "size_bytes": 1805474992
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615741",
+          "size_bytes": 1805474992,
+          "source_bytes_read": 1805474992,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28794513",
+        "source_url": "https://sdilej.cz/28794513/the-wire-s05e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615741",
-        "size_bytes": 1805474992,
-        "source_bytes_read": 1805474992,
-        "http_status": 201
+        "display_name": "The Wire S05E06 The Dickensian Aspect 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T18:01:03.004461+00:00"
       }
     },
     "1575:5:7": {
@@ -5327,5 +5328,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:01:00.233990+00:00"
+  "updated_at": "2026-10-29T18:01:03.004476+00:00"
 }
