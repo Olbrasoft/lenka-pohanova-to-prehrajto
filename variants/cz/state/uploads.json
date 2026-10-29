@@ -9290,12 +9290,6 @@
     },
     "22:2:1": {
       "episode_key": "rodina sopránů:s2:e1",
-      "claim": {
-        "worker_id": "7192ab57e9a94a72a9d83bcaccffd09e-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:04:15.660884+00:00",
-        "lease_expires_at": "2026-10-30T05:04:15.660894+00:00"
-      },
       "source": {
         "source_id": "29135783",
         "source_url": "https://sdilej.cz/29135783/rodina-sopranu-the-sopranos-s02e01-hd-cz-dabing.mkv",
@@ -9320,15 +9314,22 @@
         "display_name": "The Sopranos S02E01 Guy Walks into a Psychiatrist's Office 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:04:16.989887+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621052",
-        "size_bytes": 983436119
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621052",
+          "size_bytes": 983436119,
+          "source_bytes_read": 983436119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29135783",
+        "source_url": "https://sdilej.cz/29135783/rodina-sopranu-the-sopranos-s02e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621052",
-        "size_bytes": 983436119,
-        "source_bytes_read": 983436119,
-        "http_status": 201
+        "display_name": "The Sopranos S02E01 Guy Walks into a Psychiatrist's Office 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:07:11.045081+00:00"
       }
     },
     "22:2:2": {
@@ -9411,5 +9412,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:07:07.826143+00:00"
+  "updated_at": "2026-10-29T23:07:11.045096+00:00"
 }
