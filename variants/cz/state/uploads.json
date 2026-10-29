@@ -5555,12 +5555,6 @@
     },
     "14:1:2": {
       "episode_key": "hra o trůny:s1:e2",
-      "claim": {
-        "worker_id": "545b1a30fde1439bb3c78ec09aca8806-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:06:56.094944+00:00",
-        "lease_expires_at": "2026-10-30T00:06:56.094956+00:00"
-      },
       "source": {
         "source_id": "34402219",
         "source_url": "https://sdilej.cz/34402219/hra-o-truny-s01e02-kralovska-cesta-the-kingsroad-.mkv",
@@ -5585,15 +5579,22 @@
         "display_name": "Game of Thrones S01E02 The Kingsroad 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:06:57.823864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615996",
-        "size_bytes": 2429253245
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615996",
+          "size_bytes": 2429253245,
+          "source_bytes_read": 2429253245,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402219",
+        "source_url": "https://sdilej.cz/34402219/hra-o-truny-s01e02-kralovska-cesta-the-kingsroad-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615996",
-        "size_bytes": 2429253245,
-        "source_bytes_read": 2429253245,
-        "http_status": 201
+        "display_name": "Game of Thrones S01E02 The Kingsroad 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:14:38.437492+00:00"
       }
     },
     "14:1:3": {
@@ -5639,5 +5640,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:14:34.481736+00:00"
+  "updated_at": "2026-10-29T18:14:38.437507+00:00"
 }
