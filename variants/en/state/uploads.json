@@ -528,12 +528,6 @@
     },
     "26:2:4": {
       "episode_key": "perníkový táta:s2:e4",
-      "claim": {
-        "worker_id": "92fe46fa7b9e4b9299aa2f0c7fb17619-worker-0",
-        "run_id": "40884876623",
-        "claimed_at": "2026-10-29T13:51:00.264703+00:00",
-        "lease_expires_at": "2026-10-29T19:51:00.264714+00:00"
-      },
       "source": {
         "source_id": "32631324",
         "source_url": "https://sdilej.cz/32631324/breaking-bad-s02e04-cz-dabing-full-hd.mkv",
@@ -563,15 +557,22 @@
         "display_name": "Breaking Bad S02E04 Down 1080p",
         "prepared_at": "2026-10-29T13:51:01.783721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30611715",
-        "size_bytes": 401971042
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30611715",
+          "size_bytes": 401971042,
+          "source_bytes_read": 401971042,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "32631324",
+        "source_url": "https://sdilej.cz/32631324/breaking-bad-s02e04-cz-dabing-full-hd.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30611715",
-        "size_bytes": 401971042,
-        "source_bytes_read": 401971042,
-        "http_status": 201
+        "display_name": "Breaking Bad S02E04 Down 1080p",
+        "uploaded_at": "2026-10-29T13:52:42.462917+00:00"
       }
     }
   },
@@ -580,5 +581,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T13:52:39.477698+00:00"
+  "updated_at": "2026-10-29T13:52:42.462932+00:00"
 }
