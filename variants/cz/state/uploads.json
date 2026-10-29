@@ -9730,12 +9730,6 @@
     },
     "22:2:11": {
       "episode_key": "rodina sopránů:s2:e11",
-      "claim": {
-        "worker_id": "ab93db4e58444545b9948f4b8524aa3f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:15:48.956043+00:00",
-        "lease_expires_at": "2026-10-30T05:15:48.956052+00:00"
-      },
       "source": {
         "source_id": "29135800",
         "source_url": "https://sdilej.cz/29135800/rodina-sopranu-the-sopranos-s02e11-hd-cz-dabing.mkv",
@@ -9760,15 +9754,22 @@
         "display_name": "The Sopranos S02E11 House Arrest 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:15:51.901849+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621198",
-        "size_bytes": 1101747691
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621198",
+          "size_bytes": 1101747691,
+          "source_bytes_read": 1101747691,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29135800",
+        "source_url": "https://sdilej.cz/29135800/rodina-sopranu-the-sopranos-s02e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621198",
-        "size_bytes": 1101747691,
-        "source_bytes_read": 1101747691,
-        "http_status": 201
+        "display_name": "The Sopranos S02E11 House Arrest 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:18:54.570076+00:00"
       }
     },
     "22:2:12": {
@@ -9895,5 +9896,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:18:52.397847+00:00"
+  "updated_at": "2026-10-29T23:18:54.570099+00:00"
 }
