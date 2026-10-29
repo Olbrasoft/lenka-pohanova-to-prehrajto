@@ -7486,12 +7486,6 @@
     },
     "14:5:5": {
       "episode_key": "hra o trůny:s5:e5",
-      "claim": {
-        "worker_id": "66c3f8e9e72342b7ba13a4ce8503e25c-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T20:07:03.195674+00:00",
-        "lease_expires_at": "2026-10-30T02:07:03.195686+00:00"
-      },
       "source": {
         "source_id": "29051259",
         "source_url": "https://sdilej.cz/29051259/hra-o-truny-game-of-thrones-s05e05-cz.mkv",
@@ -7516,15 +7510,22 @@
         "display_name": "Game of Thrones S05E05 Kill the Boy 4K CZ Dabing",
         "prepared_at": "2026-10-29T20:07:04.647685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30618234",
-        "size_bytes": 12069445841
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30618234",
+          "size_bytes": 12069445841,
+          "source_bytes_read": 12069445841,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29051259",
+        "source_url": "https://sdilej.cz/29051259/hra-o-truny-game-of-thrones-s05e05-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30618234",
-        "size_bytes": 12069445841,
-        "source_bytes_read": 12069445841,
-        "http_status": 201
+        "display_name": "Game of Thrones S05E05 Kill the Boy 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T20:54:02.342926+00:00"
       }
     },
     "14:5:6": {
@@ -7922,5 +7923,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T20:53:58.696051+00:00"
+  "updated_at": "2026-10-29T20:54:02.342945+00:00"
 }
