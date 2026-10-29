@@ -9855,12 +9855,6 @@
     },
     "22:3:1": {
       "episode_key": "rodina sopránů:s3:e1",
-      "claim": {
-        "worker_id": "7eb1d1ed067a44ebb3db2bb38c5950a6-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:18:03.322769+00:00",
-        "lease_expires_at": "2026-10-30T05:18:03.322779+00:00"
-      },
       "source": {
         "source_id": "14660812",
         "source_url": "https://sdilej.cz/14660812/the-sopranos.s03e01.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -9885,15 +9879,22 @@
         "display_name": "The Sopranos S03E01 Mr. Ruggerio's Neighborhood 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:18:04.731815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621218",
-        "size_bytes": 713411361
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621218",
+          "size_bytes": 713411361,
+          "source_bytes_read": 713411361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660812",
+        "source_url": "https://sdilej.cz/14660812/the-sopranos.s03e01.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621218",
-        "size_bytes": 713411361,
-        "source_bytes_read": 713411361,
-        "http_status": 201
+        "display_name": "The Sopranos S03E01 Mr. Ruggerio's Neighborhood 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:20:59.588064+00:00"
       }
     },
     "22:3:2": {
@@ -9939,5 +9940,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:20:18.945079+00:00"
+  "updated_at": "2026-10-29T23:20:59.588079+00:00"
 }
