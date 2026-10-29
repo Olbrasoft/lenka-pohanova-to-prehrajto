@@ -4726,12 +4726,6 @@
     },
     "1575:4:9": {
       "episode_key": "the wire – špína baltimoru:s4:e9",
-      "claim": {
-        "worker_id": "46d393153168406d84e8c7b6fe8e2937-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:32:51.262890+00:00",
-        "lease_expires_at": "2026-10-29T23:32:51.262903+00:00"
-      },
       "source": {
         "source_id": "28617135",
         "source_url": "https://sdilej.cz/28617135/the-wire-s04e09-1080p-cz-dabing.mkv",
@@ -4756,15 +4750,22 @@
         "display_name": "The Wire S04E09 Know Your Place 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:32:53.466215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615383",
-        "size_bytes": 1803817926
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615383",
+          "size_bytes": 1803817926,
+          "source_bytes_read": 1803817926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28617135",
+        "source_url": "https://sdilej.cz/28617135/the-wire-s04e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615383",
-        "size_bytes": 1803817926,
-        "source_bytes_read": 1803817926,
-        "http_status": 201
+        "display_name": "The Wire S04E09 Know Your Place 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:39:03.568989+00:00"
       }
     },
     "1575:4:10": {
@@ -4847,5 +4848,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:38:56.641072+00:00"
+  "updated_at": "2026-10-29T17:39:03.569006+00:00"
 }
