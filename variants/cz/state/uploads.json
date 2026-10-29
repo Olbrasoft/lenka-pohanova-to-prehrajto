@@ -2922,12 +2922,6 @@
     },
     "1575:1:5": {
       "episode_key": "the wire – špína baltimoru:s1:e5",
-      "claim": {
-        "worker_id": "c2d2690ac5314006be8d19983e2605c8-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:13:17.808376+00:00",
-        "lease_expires_at": "2026-10-29T22:13:17.808387+00:00"
-      },
       "source": {
         "source_id": "28560696",
         "source_url": "https://sdilej.cz/28560696/the-wire-spina-baltimoru-s01e05-tvrip-czdab.mp4",
@@ -2952,15 +2946,22 @@
         "display_name": "The Wire S01E05 The Pager 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:13:21.308284+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613765",
-        "size_bytes": 699230818
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613765",
+          "size_bytes": 699230818,
+          "source_bytes_read": 699230818,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28560696",
+        "source_url": "https://sdilej.cz/28560696/the-wire-spina-baltimoru-s01e05-tvrip-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613765",
-        "size_bytes": 699230818,
-        "source_bytes_read": 699230818,
-        "http_status": 201
+        "display_name": "The Wire S01E05 The Pager 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:15:34.524835+00:00"
       }
     },
     "1575:1:6": {
@@ -3083,5 +3084,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:15:33.088745+00:00"
+  "updated_at": "2026-10-29T16:15:34.524852+00:00"
 }
