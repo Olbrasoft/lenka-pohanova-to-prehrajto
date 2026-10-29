@@ -7567,12 +7567,6 @@
     },
     "14:5:7": {
       "episode_key": "hra o trůny:s5:e7",
-      "claim": {
-        "worker_id": "cfd04faf513243fbbd4cbb2e008c2fa8-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T20:12:19.135494+00:00",
-        "lease_expires_at": "2026-10-30T02:12:19.135504+00:00"
-      },
       "source": {
         "source_id": "34402448",
         "source_url": "https://sdilej.cz/34402448/hra-o-truny-s05e07-dar-the-gift-.mkv",
@@ -7597,15 +7591,22 @@
         "display_name": "Game of Thrones S05E07 The Gift 4K CZ Dabing",
         "prepared_at": "2026-10-29T20:12:20.732458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30618349",
-        "size_bytes": 2607265555
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30618349",
+          "size_bytes": 2607265555,
+          "source_bytes_read": 2607265555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402448",
+        "source_url": "https://sdilej.cz/34402448/hra-o-truny-s05e07-dar-the-gift-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30618349",
-        "size_bytes": 2607265555,
-        "source_bytes_read": 2607265555,
-        "http_status": 201
+        "display_name": "Game of Thrones S05E07 The Gift 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T20:21:45.740413+00:00"
       }
     },
     "14:5:8": {
@@ -7651,5 +7652,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T20:21:42.289812+00:00"
+  "updated_at": "2026-10-29T20:21:45.740432+00:00"
 }
