@@ -198,12 +198,6 @@
           "reviewed_at": "2026-10-29T13:30:37.953167+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4b0f3f7176a0426d93b369a91ca97366-worker-0",
-        "run_id": "40884876623",
-        "claimed_at": "2026-10-29T13:46:02.158101+00:00",
-        "lease_expires_at": "2026-10-29T19:46:02.158114+00:00"
-      },
       "source": {
         "source_id": "32631139",
         "source_url": "https://sdilej.cz/32631139/breaking-bad-s01e04-cz-dabing-full-hd.mkv",
@@ -233,15 +227,22 @@
         "display_name": "Breaking Bad S01E04 Cancer Man 1080p",
         "prepared_at": "2026-10-29T13:46:05.498663+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30611640",
-        "size_bytes": 409283682
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30611640",
+          "size_bytes": 409283682,
+          "source_bytes_read": 409283682,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "32631139",
+        "source_url": "https://sdilej.cz/32631139/breaking-bad-s01e04-cz-dabing-full-hd.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30611640",
-        "size_bytes": 409283682,
-        "source_bytes_read": 409283682,
-        "http_status": 201
+        "display_name": "Breaking Bad S01E04 Cancer Man 1080p",
+        "uploaded_at": "2026-10-29T13:47:48.219513+00:00"
       }
     },
     "26:1:5": {
@@ -386,5 +387,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T13:47:47.235670+00:00"
+  "updated_at": "2026-10-29T13:47:48.219529+00:00"
 }
