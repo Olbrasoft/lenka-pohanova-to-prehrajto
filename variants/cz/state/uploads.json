@@ -7178,12 +7178,6 @@
     },
     "14:4:8": {
       "episode_key": "hra o trůny:s4:e8",
-      "claim": {
-        "worker_id": "62d858db6aae4e8bad4d27aef90d83b5-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T19:46:58.351748+00:00",
-        "lease_expires_at": "2026-10-30T01:46:58.351760+00:00"
-      },
       "source": {
         "source_id": "34402397",
         "source_url": "https://sdilej.cz/34402397/hra-o-truny-s04e08-hora-a-ruda-zmije-the-mountain-and-the-viper-.mkv",
@@ -7208,15 +7202,22 @@
         "display_name": "Game of Thrones S04E08 The Mountain and the Viper 4K CZ Dabing",
         "prepared_at": "2026-10-29T19:47:00.099923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30617920",
-        "size_bytes": 2321230834
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30617920",
+          "size_bytes": 2321230834,
+          "source_bytes_read": 2321230834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402397",
+        "source_url": "https://sdilej.cz/34402397/hra-o-truny-s04e08-hora-a-ruda-zmije-the-mountain-and-the-viper-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30617920",
-        "size_bytes": 2321230834,
-        "source_bytes_read": 2321230834,
-        "http_status": 201
+        "display_name": "Game of Thrones S04E08 The Mountain and the Viper 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:54:08.676031+00:00"
       }
     },
     "14:4:9": {
@@ -7299,5 +7300,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:54:03.985752+00:00"
+  "updated_at": "2026-10-29T19:54:08.676048+00:00"
 }
