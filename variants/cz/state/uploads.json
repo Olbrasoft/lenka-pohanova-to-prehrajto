@@ -4902,12 +4902,6 @@
     },
     "1575:4:13": {
       "episode_key": "the wire – špína baltimoru:s4:e13",
-      "claim": {
-        "worker_id": "9da57f36a03a4d11a81a586864dd4c28-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:39:59.255346+00:00",
-        "lease_expires_at": "2026-10-29T23:39:59.255356+00:00"
-      },
       "source": {
         "source_id": "28791471",
         "source_url": "https://sdilej.cz/28791471/the-wire-s04e13-1080p-cz-dabing.mkv",
@@ -4932,15 +4926,22 @@
         "display_name": "The Wire S04E13 Final Grades 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:40:01.110958+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615484",
-        "size_bytes": 2421660495
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615484",
+          "size_bytes": 2421660495,
+          "source_bytes_read": 2421660495,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28791471",
+        "source_url": "https://sdilej.cz/28791471/the-wire-s04e13-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615484",
-        "size_bytes": 2421660495,
-        "source_bytes_read": 2421660495,
-        "http_status": 201
+        "display_name": "The Wire S04E13 Final Grades 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:47:35.729550+00:00"
       }
     },
     "1575:5:1": {
@@ -5067,5 +5068,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:47:31.612636+00:00"
+  "updated_at": "2026-10-29T17:47:35.729566+00:00"
 }
