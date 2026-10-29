@@ -10515,12 +10515,6 @@
     },
     "22:4:3": {
       "episode_key": "rodina sopránů:s4:e3",
-      "claim": {
-        "worker_id": "dabbf47d5d60443286e45fa407e97bd0-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:35:34.932839+00:00",
-        "lease_expires_at": "2026-10-30T05:35:34.932851+00:00"
-      },
       "source": {
         "source_id": "5816030",
         "source_url": "https://sdilej.cz/5816030/the-sopranos.s04e03.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10545,15 +10539,22 @@
         "display_name": "The Sopranos S04E03 Christopher 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:35:36.723472+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621464",
-        "size_bytes": 577414433
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621464",
+          "size_bytes": 577414433,
+          "source_bytes_read": 577414433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5816030",
+        "source_url": "https://sdilej.cz/5816030/the-sopranos.s04e03.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621464",
-        "size_bytes": 577414433,
-        "source_bytes_read": 577414433,
-        "http_status": 201
+        "display_name": "The Sopranos S04E03 Christopher 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:37:17.720687+00:00"
       }
     },
     "22:4:4": {
@@ -10599,5 +10600,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:37:15.385735+00:00"
+  "updated_at": "2026-10-29T23:37:17.720706+00:00"
 }
