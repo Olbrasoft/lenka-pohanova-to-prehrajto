@@ -430,12 +430,6 @@
     },
     "26:2:1": {
       "episode_key": "perníkový táta:s2:e1",
-      "claim": {
-        "worker_id": "e7f23f615a76492a83bc0a87d257e73b-worker-0",
-        "run_id": "40884876623",
-        "claimed_at": "2026-10-29T13:47:56.308279+00:00",
-        "lease_expires_at": "2026-10-29T19:47:56.308283+00:00"
-      },
       "source": {
         "source_id": "32631241",
         "source_url": "https://sdilej.cz/32631241/breaking-bad-s02e01-cz-dabing-full-hd.mkv",
@@ -465,15 +459,22 @@
         "display_name": "Breaking Bad S02E01 Seven Thirty-Seven 1080p",
         "prepared_at": "2026-10-29T13:48:00.601945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30611668",
-        "size_bytes": 400541942
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30611668",
+          "size_bytes": 400541942,
+          "source_bytes_read": 400541942,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "32631241",
+        "source_url": "https://sdilej.cz/32631241/breaking-bad-s02e01-cz-dabing-full-hd.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30611668",
-        "size_bytes": 400541942,
-        "source_bytes_read": 400541942,
-        "http_status": 201
+        "display_name": "Breaking Bad S02E01 Seven Thirty-Seven 1080p",
+        "uploaded_at": "2026-10-29T13:49:51.569746+00:00"
       }
     },
     "26:2:3": {
@@ -524,5 +525,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T13:49:49.181035+00:00"
+  "updated_at": "2026-10-29T13:49:51.569760+00:00"
 }
