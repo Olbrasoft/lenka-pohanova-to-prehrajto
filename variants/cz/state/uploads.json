@@ -5930,12 +5930,6 @@
     },
     "14:1:10": {
       "episode_key": "hra o trůny:s1:e10",
-      "claim": {
-        "worker_id": "b5fd1496803a4b29ba6731014c502010-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:31:07.770437+00:00",
-        "lease_expires_at": "2026-10-30T00:31:07.770449+00:00"
-      },
       "source": {
         "source_id": "34402256",
         "source_url": "https://sdilej.cz/34402256/hra-o-truny-s01e10-ohen-a-krev-fire-and-blood-.mkv",
@@ -5960,15 +5954,22 @@
         "display_name": "Game of Thrones S01E10 Fire and Blood 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:31:09.523718+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616549",
-        "size_bytes": 2345109523
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616549",
+          "size_bytes": 2345109523,
+          "source_bytes_read": 2345109523,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402256",
+        "source_url": "https://sdilej.cz/34402256/hra-o-truny-s01e10-ohen-a-krev-fire-and-blood-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616549",
-        "size_bytes": 2345109523,
-        "source_bytes_read": 2345109523,
-        "http_status": 201
+        "display_name": "Game of Thrones S01E10 Fire and Blood 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:38:18.625920+00:00"
       }
     },
     "14:2:1": {
@@ -6102,5 +6103,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:38:14.824699+00:00"
+  "updated_at": "2026-10-29T18:38:18.625935+00:00"
 }
