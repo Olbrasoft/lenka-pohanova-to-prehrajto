@@ -9,7 +9,7 @@ def setup_transfer(monkeypatch):
     monkeypatch.setattr(transfer, "rename_video", lambda *_: None)
     monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
     monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 1)
-    monkeypatch.setattr(transfer, "existing_episode", lambda *_: None)
+    monkeypatch.setattr(transfer, "existing_episode", lambda *_, **__: None)
     monkeypatch.setattr(transfer, "prepare_source", lambda _, candidate, __: candidate)
     monkeypatch.setattr(transfer, "target_confirmed", lambda *_: True)
 

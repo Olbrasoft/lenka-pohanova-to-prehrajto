@@ -62,7 +62,7 @@ def test_incomplete_scan_cannot_choose_subtitled_source_either(czech_row):
         discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
 
 
-def test_highest_resolution_wins_even_without_subtitles(czech_row):
+def test_higher_plain_resolution_keeps_lower_subtitled_variant(czech_row):
     candidate = Candidate.from_dict(czech_row["selected"])
     high = copy.deepcopy(candidate)
     high.source_id, high.width, high.height = "999", 3840, 2160
@@ -71,10 +71,12 @@ def test_highest_resolution_wins_even_without_subtitles(czech_row):
         selected,
         {"method": "none" if selected.source_id == "999" else "original_text"},
     )
-    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "999"
+    found = discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
+    assert found["en"][0].source_id == "123"
+    assert found["en_plain"][0].source_id == "999"
 
 
-def test_smallest_file_at_same_resolution_wins_even_without_subtitles(czech_row):
+def test_smaller_plain_file_keeps_larger_subtitled_variant(czech_row):
     subtitled = Candidate.from_dict(czech_row["selected"])
     smaller = copy.deepcopy(subtitled)
     smaller.source_id, smaller.size_bytes = "999", subtitled.size_bytes - 1
@@ -83,10 +85,12 @@ def test_smallest_file_at_same_resolution_wins_even_without_subtitles(czech_row)
         selected,
         {"method": "none" if selected.source_id == "999" else "original_text"},
     )
-    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "999"
+    found = discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
+    assert found["en"][0].source_id == "123"
+    assert found["en_plain"][0].source_id == "999"
 
 
-def test_subtitles_break_ties_only_after_resolution_and_size(czech_row):
+def test_equal_quality_also_keeps_both_subtitle_variants(czech_row):
     subtitled = Candidate.from_dict(czech_row["selected"])
     bare = copy.deepcopy(subtitled)
     bare.source_id = "001"
@@ -95,17 +99,33 @@ def test_subtitles_break_ties_only_after_resolution_and_size(czech_row):
         selected,
         {"method": "none" if selected.source_id == "001" else "original_text"},
     )
-    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "123"
+    found = discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
+    assert found["en"][0].source_id == "123"
+    assert found["en_plain"][0].source_id == "001"
 
 
 def test_complete_scan_allows_highest_resolution_without_subtitles(czech_row):
     candidate = Candidate.from_dict(czech_row["selected"])
     discovery = EnglishDiscovery(SimpleNamespace(search=lambda _: [candidate]), None)
     discovery.verify = lambda _, selected, __: (selected, {"method": "none"})
-    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"}) == (
-        candidate,
-        {"method": "none"},
-    )
+    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"}) == {
+        "en_plain": (candidate, {"method": "none"}),
+    }
+
+
+def test_each_subtitle_variant_selects_highest_resolution_then_smallest_file(czech_row):
+    candidates, methods = [], {}
+    for index, method in enumerate(["original_text", "none"], start=1):
+        for offset, (width, height, size) in enumerate([(1920, 1080, 1), (3840, 2160, 900), (3840, 2160, 600)]):
+            candidate = Candidate.from_dict(czech_row["selected"])
+            candidate.source_id = str(index * 10 + offset)
+            candidate.width, candidate.height, candidate.size_bytes = width, height, size
+            candidates.append(candidate)
+            methods[candidate.source_id] = method
+    discovery = EnglishDiscovery(SimpleNamespace(search=lambda _: candidates), None)
+    discovery.verify = lambda _, candidate, __: (candidate, {"method": methods[candidate.source_id]})
+    found = discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
+    assert {variant: result[0].source_id for variant, result in found.items()} == {"en": "12", "en_plain": "22"}
 
 
 def test_speech_requires_two_agreeing_first_track_samples(monkeypatch):

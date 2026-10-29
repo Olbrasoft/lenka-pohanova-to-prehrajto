@@ -20,7 +20,7 @@ def validate_target_ownership(states):
 
 class VariantState(EpisodeState):
     def __init__(self, path, variant, *, on_save=None, lock=None):
-        if variant not in {"cz", "en"}:
+        if variant not in policy.VARIANTS:
             raise ValueError("Unknown variant")
         super().__init__(path, on_save=on_save)
         expected = {"account_hash": policy.TARGET_ACCOUNT_HASH, "variant": variant, "policy": policy.POLICY}

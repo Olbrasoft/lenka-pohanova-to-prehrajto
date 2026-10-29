@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from .naming import display_name
 from .storage import read_json, atomic_json
 from .target import owned_name, clean_name, name_variant, rename_video
+from .policy import VARIANTS
 
 
 def repair_cross_variant_records(root, states, session, *, persist=None):
@@ -69,8 +70,10 @@ def repair_cross_variant_records(root, states, session, *, persist=None):
 def rename_tracked(root, queue, states, titles, session, *, persist=None):
     subtitles = read_json(root / "variants/en/state/subtitles.json", {}).get("videos", {})
     result = {"renamed": 0, "already_correct": 0, "deferred": []}
-    for variant in ("cz", "en"):
-        by_identity = {r["identity"]: r for r in queue[variant]}
+    for variant in VARIANTS:
+        if variant not in states:
+            continue
+        by_identity = {r["identity"]: r for r in queue.get(variant, [])}
         for identity, record in states[variant].data["episodes"].items():
             upload, source = record.get("upload"), record.get("source", {})
             if not upload:
@@ -94,7 +97,8 @@ def rename_tracked(root, queue, states, titles, session, *, persist=None):
                 )
                 continue
             current = owned_name(session, video_id)
-            if current is None or name_variant(current) != variant:
+            allowed = {"en", "en_plain"} if variant == "en" else {variant}
+            if current is None or name_variant(current) not in allowed:
                 raise ValueError("Owned video does not match its recorded variant")
             if clean_name(current) != clean_name(wanted):
                 if clean_name(current) != clean_name(upload["display_name"]):

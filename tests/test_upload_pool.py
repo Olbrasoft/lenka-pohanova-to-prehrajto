@@ -27,8 +27,9 @@ def seed(root, czech_row, english_row, titles):
     atomic_json(root / "state/titles.json", titles)
 
 
-def test_three_workers_are_shared_across_variants(tmp_path, czech_row, english_row, titles, monkeypatch):
+def test_three_workers_are_shared_across_variants(tmp_path, czech_row, english_row, plain_row, titles, monkeypatch):
     seed(tmp_path, czech_row, english_row, titles)
+    write_rows(tmp_path / "variants/en_plain/manifests/selected-episodes.jsonl", [plain_row])
     monkeypatch.setattr(
         pipeline,
         "credentials",
@@ -54,11 +55,12 @@ def test_three_workers_are_shared_across_variants(tmp_path, czech_row, english_r
         return {"uploaded_or_reconciled": 1}
 
     monkeypatch.setattr(pipeline, "upload_continuously", transfer)
-    result = pipeline.upload(tmp_path, workers=3, limit=4, runtime_minutes=1)
-    assert result["confirmed_uploads"] == 4
+    result = pipeline.upload(tmp_path, workers=3, limit=5, runtime_minutes=1)
+    assert result["confirmed_uploads"] == 5
     assert maximum == 3
     for variant in ("cz", "en"):
         assert len(read_json(tmp_path / f"variants/{variant}/state/uploads.json")["episodes"]) == 2
+    assert len(read_json(tmp_path / "variants/en_plain/state/uploads.json")["episodes"]) == 1
 
 
 def test_source_login_outage_defers_without_losing_other_variant(tmp_path, czech_row, english_row, titles, monkeypatch):

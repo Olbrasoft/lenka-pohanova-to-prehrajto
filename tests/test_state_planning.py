@@ -17,6 +17,18 @@ def test_same_episode_has_two_independent_variants(tmp_path, czech_row, english_
     )
 
 
+def test_subtitled_completion_does_not_block_plain_version(tmp_path, czech_row, english_row, plain_row, titles):
+    states = {variant: VariantState(tmp_path / f"{variant}.json", variant) for variant in ("cz", "en", "en_plain")}
+    queue = {"cz": [czech_row], "en": [english_row], "en_plain": [plain_row]}
+    assert [r["variant"] for r in planned(queue, titles, states)] == ["cz", "en", "en_plain"]
+    episode = Episode.from_dict(czech_row["episode"])
+    states["cz"].success(episode, "1000", "uploaded Czech")
+    states["en"].success(episode, "1001", "uploaded Czech subtitles")
+    ready = planned(queue, titles, states)
+    assert len(ready) == 1 and ready[0]["variant"] == "en_plain"
+    assert ready[0]["display_name"] == "The Big Bang Theory S01E01 Pilot 4K"
+
+
 def test_foreign_history_is_rejected(tmp_path):
     path = tmp_path / "old.json"
     atomic_json(path, {"schema_version": 1, "episodes": {"1:1:1": {"upload": {"target_video_id": "99"}}}})

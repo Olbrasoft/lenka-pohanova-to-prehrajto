@@ -11,6 +11,18 @@ def test_names_follow_marketa(czech_row, english_row, titles):
     assert display_name(english_row, titles).endswith("Pilot 1080p CZ Titulky")
 
 
+def test_plain_version_never_gets_subtitle_suffix(plain_row, titles):
+    assert upload_eligible(plain_row)
+    assert display_name(plain_row, titles, subtitles_ready=True) == "The Big Bang Theory S01E01 Pilot 4K"
+    plain_row["subtitles"] = {"method": "original_text"}
+    assert not upload_eligible(plain_row)
+
+
+def test_subtitled_variant_requires_proven_subtitles(english_row):
+    english_row["subtitles"] = {"method": "none"}
+    assert not upload_eligible(english_row)
+
+
 def test_original_title_and_missing_episode_title(czech_row, titles):
     titles["series"]["42"].update(
         english_title="Money Heist", original_title="La casa de papel", original_language="es"

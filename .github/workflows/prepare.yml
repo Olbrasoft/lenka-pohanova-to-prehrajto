@@ -1,6 +1,17 @@
 name: prepare-sources
 on:
   workflow_dispatch:
+    inputs:
+      stage:
+        type: choice
+        options: [all, english]
+        default: all
+      limit:
+        type: number
+        default: 100
+      runtime_minutes:
+        type: number
+        default: 40
   schedule:
     - cron: '7 * * * *'
 permissions:
@@ -14,6 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 110
     env:
+      STAGE: ${{ inputs.stage || 'all' }}
+      LIMIT: ${{ inputs.limit || '100' }}
+      RUNTIME_MINUTES: ${{ inputs.runtime_minutes || '40' }}
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
       SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
@@ -46,9 +60,18 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Validate preparation inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$STAGE" =~ ^(all|english)$ ]]
+          [[ "$LIMIT" =~ ^[0-9]+$ && "$RUNTIME_MINUTES" =~ ^[0-9]+$ ]]
+          (( LIMIT >= 1 && LIMIT <= 500 && RUNTIME_MINUTES >= 1 && RUNTIME_MINUTES <= 60 ))
       - name: Import newly verified Czech sources
+        if: env.STAGE == 'all'
         run: lenka-sync import --upstream .upstream-runtime --persist-git-state
       - name: Resolve official titles
+        if: env.STAGE == 'all'
         run: lenka-sync titles --limit 200 --runtime-minutes 20 --persist-git-state
       - name: Discover English versions of imported episodes
-        run: lenka-sync prepare --limit 100 --runtime-minutes 40 --persist-git-state
+        run: lenka-sync prepare --limit "$LIMIT" --runtime-minutes "$RUNTIME_MINUTES" --persist-git-state

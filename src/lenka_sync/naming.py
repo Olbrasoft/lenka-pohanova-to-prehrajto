@@ -63,6 +63,8 @@ def display_name(row: dict, titles: dict, *, subtitles_ready=False, names=None) 
     title = title.replace("...", "…")
     if row["variant"] == "cz":
         return title + " CZ Dabing"
+    if row["variant"] == "en_plain":
+        return title
     proof = row.get("subtitles", {})
     title = title.replace("...", "…")
     return title + " CZ Titulky" if (proof.get("method") == "burned_in_ocr_verified" or subtitles_ready) else title

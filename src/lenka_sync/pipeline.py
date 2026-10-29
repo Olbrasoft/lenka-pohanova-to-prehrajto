@@ -1,4 +1,4 @@
-"""One shared transfer pool, two independent per-episode variant histories."""
+"""One shared transfer pool, independent Czech, subtitled and plain histories."""
 
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ from .discovery import EnglishDiscovery
 from .language import WhisperLanguageDetector
 from .metadata import Metadata
 from .naming import display_name, series_names
-from .policy import POLICY, target_credentials, upload_eligible
+from .policy import POLICY, VARIANTS, ENGLISH_VARIANTS, ENGLISH_SELECTION_POLICY, target_credentials, upload_eligible
 from .state import VariantState, validate_target_ownership
 from .storage import Publisher, atomic_json, read_json, rows, write_rows
 from .subtitles import followup
@@ -38,7 +38,7 @@ def credentials(environ=os.environ):
 
 
 def sources(root):
-    queue = {variant: rows(root / f"variants/{variant}/manifests/selected-episodes.jsonl") for variant in ("cz", "en")}
+    queue = {variant: rows(root / f"variants/{variant}/manifests/selected-episodes.jsonl") for variant in VARIANTS}
     return validate_sources(queue)
 
 
@@ -49,18 +49,18 @@ def validate_sources(queue):
             row.get("variant") != variant for row in selected
         ):
             raise ValueError("Source queue has duplicate identities or a wrong variant")
-    if any(row["identity"] not in czech for row in queue["en"]):
+    if any(row["identity"] not in czech for variant in ENGLISH_VARIANTS for row in queue.get(variant, [])):
         raise ValueError("English queue contains an episode without an imported Czech source")
     return queue
 
 
-def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=("cz", "en")):
+def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None):
     ready = []
     names = series_names(titles["series"])
-    for variant in variants:
+    for variant in states if variants is None else variants:
         state = states[variant]
         deferred = state.retry_deferred_identities()
-        for source in queue[variant]:
+        for source in queue.get(variant, []):
             identity = source["identity"]
             record = state.data["episodes"].get(identity, {})
             active_claim = record.get("claim", {}).get("lease_expires_at", "") > datetime.now(UTC).isoformat()
@@ -84,26 +84,27 @@ def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=("cz
             if record.get("prepared_target") and record.get("source", {}).get("display_name"):
                 row["display_name"] = record["source"]["display_name"]
             ready.append(row)
-    ready.sort(key=lambda row: (row["catalog"].get("priority_rank") or 10**9, row["variant"] != "cz", row["identity"]))
+    ready.sort(key=lambda row: (row["catalog"].get("priority_rank") or 10**9, row["identity"], VARIANTS.index(row["variant"])))
     return ready[:limit]
 
 
 def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None):
-    path = root / "variants/en/manifests/selected-episodes.jsonl"
+    paths = {variant: root / f"variants/{variant}/manifests/selected-episodes.jsonl" for variant in ENGLISH_VARIANTS}
     progress_path = root / "variants/en/state/discovery.json"
-    selected = {row["identity"]: row for row in rows(path)}
+    selected = {variant: {row["identity"]: row for row in rows(path)} for variant, path in paths.items()}
     progress = read_json(progress_path)
     titles = Metadata(root).snapshot()
-    publisher = GitCheckpointPersister(root, (path, progress_path), min_interval_seconds=5) if persist else None
+    publisher = GitCheckpointPersister(root, (*paths.values(), progress_path), min_interval_seconds=5) if persist else None
     if discovery is None:
         provider = EpisodeSourceProvider.authenticated(os.environ["SDILEJ_EMAIL"], os.environ["SDILEJ_PASSWORD"])
         discovery = EnglishDiscovery(provider, WhisperLanguageDetector())
     deadline, checked = time.monotonic() + runtime_minutes * 60, 0
     czech = sources(root)["cz"]
     # Four fresh episodes, then one older retry, preserving catalog order in both lanes.
-    fresh = [r for r in czech if r["identity"] not in progress]
+    fresh = [r for r in czech if progress.get(r["identity"], {}).get("selection_policy") != ENGLISH_SELECTION_POLICY]
     retries = sorted(
-        (r for r in czech if r["identity"] in progress), key=lambda r: progress[r["identity"]].get("checked_at", "")
+        (r for r in czech if progress.get(r["identity"], {}).get("selection_policy") == ENGLISH_SELECTION_POLICY),
+        key=lambda r: progress[r["identity"]].get("checked_at", ""),
     )
     ordered = []
     while fresh or retries:
@@ -118,40 +119,56 @@ def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None
         series = titles["series"].get(str(source["episode"]["series_id"]), {})
         now = datetime.now(UTC)
         if (
-            identity in selected
+            all(identity in selected[variant] for variant in ENGLISH_VARIANTS)
             or not series.get("original_title")
-            or progress.get(identity, {}).get("retry_after", "") > now.isoformat()
+            or progress.get(identity, {}).get("selection_policy") == ENGLISH_SELECTION_POLICY
+            and progress.get(identity, {}).get("retry_after", "") > now.isoformat()
         ):
             continue
         checked += 1
         status, delay = "not_found", timedelta(days=7)
         try:
-            found = discovery.discover(source, series, runtime_seconds=min(300, max(1, deadline - time.monotonic())))
-            if found:
-                candidate, proof = found
+            found = discovery.discover(source, series, runtime_seconds=min(600, max(1, deadline - time.monotonic())))
+            discovered = {}
+            for variant, (candidate, proof) in found.items():
+                if variant not in ENGLISH_VARIANTS:
+                    raise ValueError("Unknown discovered English variant")
                 row = {key: source[key] for key in ("identity", "episode", "catalog")}
-                row.update(selected=candidate.to_dict(), variant="en", lenka_policy=POLICY, subtitles=proof)
+                row.update(selected=candidate.to_dict(), variant=variant, lenka_policy=POLICY, subtitles=proof)
                 if not upload_eligible(row):
                     raise ValueError("English source did not pass the variant policy")
-                selected[identity] = row
-                status, delay = "verified", timedelta(0)
+                discovered[variant] = row
+            if len({row["selected"]["source_id"] for row in discovered.values()}) != len(discovered):
+                raise ValueError("One original cannot represent both subtitle variants")
+            for variant, row in discovered.items():
+                # Existing rows may already be claimed by the live uploader. Never replace their source.
+                selected[variant].setdefault(identity, row)
+            if found:
+                status = "verified"
         except Exception as error:
             status, delay = type(error).__name__, timedelta(hours=1)
-        progress[identity] = dict(status=status, checked_at=now.isoformat(), retry_after=(now + delay).isoformat())
-        write_rows(path, list(selected.values()))
+        progress[identity] = dict(
+            status=status,
+            selection_policy=ENGLISH_SELECTION_POLICY,
+            available_variants=[variant for variant in ENGLISH_VARIANTS if identity in selected[variant]],
+            checked_at=now.isoformat(),
+            retry_after=(now + delay).isoformat(),
+        )
+        for variant, path in paths.items():
+            write_rows(path, list(selected[variant].values()))
         atomic_json(progress_path, progress)
         if publisher:
             publisher(progress_path)
-    return dict(checked=checked, selected=len(selected))
+    return dict(checked=checked, selected={variant: len(values) for variant, values in selected.items()})
 
 
 def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, persist=False, variant="all"):
     creds = credentials()
     lock = threading.RLock()
-    paths = tuple(root / f"variants/{variant}/state/uploads.json" for variant in ("cz", "en"))
+    paths = tuple(root / f"variants/{variant}/state/uploads.json" for variant in VARIANTS)
     publisher = Publisher(root, paths + (root / "variants/en/state/subtitles.json",)) if persist else None
     states = {
-        variant: VariantState(path, variant, on_save=publisher, lock=lock) for variant, path in zip(("cz", "en"), paths)
+        variant: VariantState(path, variant, on_save=publisher, lock=lock) for variant, path in zip(VARIANTS, paths)
     }
     validate_target_ownership(states)
     for state in states.values():
@@ -220,12 +237,12 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
             if now < deadline and not draining and not stop.is_set() and not paused.is_set():
                 if publisher:
                     manifest_paths = {
-                        variant: f"variants/{variant}/manifests/selected-episodes.jsonl" for variant in ("cz", "en")
+                        variant: f"variants/{variant}/manifests/selected-episodes.jsonl" for variant in VARIANTS
                     }
                     snapshot = publisher.read_snapshot(
                         [*manifest_paths.values(), "state/titles.json", "config/titles.json", "config/runtime.json"]
                     )
-                    for variant in ("cz", "en"):
+                    for variant in VARIANTS:
                         remote = snapshot[manifest_paths[variant]]
                         queue[variant] = [json.loads(line) for line in remote.splitlines() if line.strip()]
                     validate_sources(queue)
@@ -251,7 +268,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                         states,
                         max(0, capacity),
                         reserved,
-                        variants=("cz", "en") if variant == "all" else (variant,),
+                        variants=VARIANTS if variant == "all" else (variant,),
                     )
                 for row in selected:
                     reserved.add((row["variant"], row["identity"]))

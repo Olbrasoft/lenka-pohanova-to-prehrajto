@@ -1,7 +1,8 @@
 # Lenka Pohanová → Přehraj.to
 
 Samostatný seriálový uploader pro jediný účet Lenky.
-Každá epizoda může mít českou a anglickou variantu. České zdroje přebírá
+Každá epizoda může mít českou variantu a dvě samostatné anglické varianty:
+s českými titulky a bez českých titulků. České zdroje přebírá
 z `Olbrasoft/sdilej-serialy`; pouze anglické verze dohledává na Sdílej.cz.
 Zdrojová videa se proudově přenášejí na Přehraj.to bez ukládání celého videa.
 Přihlašovací údaje patří do prostředí nebo GitHub Secrets. Veřejný kód
@@ -65,12 +66,14 @@ vzorcích; alespoň dva musí jazyk potvrdit s důvěrou 0,65. Druhá anglická 
 v jinak českém souboru nestačí. Vyhledávají se anglické verze i u seriálů,
 jejichž původní jazyk je jiný.
 
-Přednost má nejvyšší skutečné rozlišení, potom nejmenší soubor v této kvalitě.
-České titulky rozhodují až při shodě rozlišení i velikosti. Například 4K bez
-titulků má přednost před 1080p s titulky; menší 4K bez titulků má přednost
-před větším 4K s titulky. Při neúplné kontrole kandidátů se výběr odloží:
-neověřený originál může mít vyšší rozlišení nebo menší velikost. Příprava
-střídá čtyři nové epizody s jedním starším opakováním kontroly.
+Verze s českými titulky (`en`) a bez nich (`en_plain`) se vybírají a nahrávají
+samostatně. V každé skupině má přednost nejvyšší skutečné rozlišení, potom
+nejmenší soubor v této kvalitě. Například nalezené 1080p s titulky a 4K bez
+titulků se nahrají obě; stejně tak se zachovají obě varianty při shodném rozlišení.
+Chybějící varianta se nenahrazuje kopií druhé. Při neúplné kontrole kandidátů
+se výběr odloží: neověřený originál může mít vyšší rozlišení nebo menší velikost.
+Příprava střídá čtyři nové epizody s jedním starším opakováním kontroly a znovu
+prověří také dříve vybrané epizody, kterým druhá varianta zatím chybí.
 
 Textové české titulky se získávají výhradně z přesného původního souboru
 nebo jeho vlastní stránky. Po zpracování videa se připojí, ověří se jejich jazyk
@@ -83,13 +86,14 @@ Samostatné obrazové PGS stopy neopravňují k českému titulkovému označen�
 
 - `variants/cz/manifests/selected-episodes.jsonl`: převzaté české zdroje.
 - `variants/en/manifests/selected-episodes.jsonl`: ověřené anglické zdroje.
+- `variants/en_plain/manifests/selected-episodes.jsonl`: anglické zdroje bez českých titulků.
 - `variants/*/state/uploads.json`: vlastní historie každé varianty na účtu Lenky.
 - `variants/en/state/discovery.json`: odložené kontroly anglických zdrojů.
 - `variants/en/state/subtitles.json`: odeslání a ověření titulků.
 - `state/titles.json`: doložené názvy, identifikátory a odložená metadata.
 
 Jeden společný fond má výchozí tři přenosy; `--workers` dovoluje 1 až 6.
-České a anglické varianty sdílejí tento limit. Po dokončení úlohy volný worker
+Všechny tři varianty sdílejí tento limit. Po dokončení úlohy volný worker
 převezme další epizodu. Titulkový worker používá vlastní relace a běží na pozadí
 po deseti minutách, také během doběhu velkých přenosů.
 
@@ -125,6 +129,8 @@ zapisovatelný remote `origin` s větví `main`; stav se potvrdí v Gitu před p
 
 - `test`: testy a kontrola kódu při změně.
 - `prepare-sources`: hodinový import českých zdrojů, doplnění názvů a příprava anglických verzí.
+  Ruční `stage=english` provede pouze vyhledání obou anglických variant; `limit`
+  a `runtime_minutes` omezují počet epizod a délku vyhledávání.
 - `continuous-upload`: hodinový start, nejvýše 210 minut přijímá nové přenosy,
   poté nechá rozběhnuté přenosy doběhnout. Limit runneru je 350 minut.
   Ruční spuštění nabízí `plan`, `upload`, `continuous` a `subtitles`.
@@ -145,14 +151,19 @@ titulků a izolovaný Whisper z Markétina projektu. Původ a revize jsou v
 
 ## Rozlišení jazykových variant a provozní kontrola
 
-Vyhledávání na cíli rozlišuje českou a anglickou variantu stejné epizody.
+Vyhledávání na cíli rozlišuje český dabing, anglickou variantu s českými titulky
+a anglickou variantu bez českých titulků stejné epizody.
 Samotný název nebo shodné `SxxExx` nepotvrzuje přenos vybraného zdroje.
 Dokončení vyžaduje vlastní cílové ID, úplnou přenosovou účtenku a ověření
-celého názvu na účtu. Jedno cílové ID nesmí být sdílené českou a anglickou historií.
+celého názvu na účtu. Jedno cílové ID nesmí být sdílené historiemi různých variant.
 Neznámé existující video se odloží k prověření, nikoli označí za hotový upload.
 
-`--variant en` umožňuje ověřit samostatnou anglickou dávku. `--variant all`
-je výchozí pro průběžný běh a zachovává společný limit přenosů.
+`--variant en` umožňuje ověřit anglickou dávku s českými titulky, `--variant en_plain`
+anglickou dávku bez českých titulků. `--variant all` zahrnuje všechny tři varianty,
+je výchozí pro průběžný běh a zachovává společný limit přenosů. Každá varianta má
+vlastní manifest, stav, cílové ID a potvrzení přijetí celého souboru. Nahrání jedné
+anglické varianty neoznačí druhou za hotovou. Ověřené vlastní cílové identifikátory
+ostatních variant se vynechají při kontrole nového uploadu, také během zpracování.
 V `config/runtime.json` lze nastavit `admit_uploads=false`: worker dokončí
 rozběhnuté přenosy a skončí bez přijímání dalších úloh.
 Modul `reconcile` uchovává audit oprav starých chybných záznamů a bezpečně

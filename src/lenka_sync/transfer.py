@@ -241,10 +241,23 @@ def upload_continuously(
                                 completed += 1
                                 continue
                         raise TargetPending("Allocated target requires confirmation; no new upload")
+                    def peer_targets():
+                        with state._lock:
+                            return {
+                                str(record[field]["target_video_id"])
+                                for variant, peer in getattr(state, "peers", {}).items()
+                                if variant != state.variant
+                                for record in peer.data["episodes"].values()
+                                for field in ("upload", "prepared_target")
+                                if record.get(field, {}).get("target_video_id")
+                            }
+
                     existing = existing_episode(
                         target,
                         row["display_name"],
                         state.row(episode).get("prepared_target", {}).get("target_video_id"),
+                        variant=state.variant,
+                        excluded_ids=peer_targets,
                     )
                     if existing:
                         # A title alone is not evidence that our selected file was transferred.

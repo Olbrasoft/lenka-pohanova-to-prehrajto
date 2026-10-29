@@ -9,6 +9,9 @@ from sdilej_serialy.models import Episode
 
 TARGET_ACCOUNT_HASH = "19da1e635356d18e87b35f2950dec4e0fbefbea7bcaef2bd12f29c52ed4343e8"
 POLICY = "lenka-series-variants-v1"
+VARIANTS = ("cz", "en", "en_plain")
+ENGLISH_VARIANTS = ("en", "en_plain")
+ENGLISH_SELECTION_POLICY = "independent-subtitled-and-plain-v1"
 
 
 def stable_source(selected: dict) -> bool:
@@ -53,17 +56,23 @@ def verified_media(row: dict, language: str) -> bool:
 
 
 def upload_eligible(row: dict) -> bool:
-    if row.get("lenka_policy") != POLICY or row.get("variant") not in {"cz", "en"}:
+    if row.get("lenka_policy") != POLICY or row.get("variant") not in VARIANTS:
         return False
     if not verified_media(row, "cs" if row["variant"] == "cz" else "en"):
         return False
     if row["variant"] == "cz":
         return row["selected"].get("language_tier") == "czech_audio"
     evidence = row["selected"].get("match_evidence", {}).get("lenka", {})
+    method = row.get("subtitles", {}).get("method")
     return (
         evidence.get("policy") == POLICY
         and evidence.get("first_audio_verified") is True
         and evidence.get("subtitles_checked") is True
+        and (
+            method in {"original_text", "burned_in_ocr_verified"}
+            if row["variant"] == "en"
+            else method == "none"
+        )
     )
 
 

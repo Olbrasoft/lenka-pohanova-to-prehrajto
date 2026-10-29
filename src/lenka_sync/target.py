@@ -27,7 +27,7 @@ def name_variant(value):
         return "cz"
     if re.search(r"\b(?:sk|de|fr)\s+dabing$", name):
         return "other"
-    return "en"
+    return "en" if re.search(r"\bcz\s+titulky$", name) else "en_plain"
 
 
 def owned_name(session, video_id):
@@ -79,7 +79,7 @@ def rename_video(session, video_id, name):
             session.mount(prehrajto.BASE_URL + "/", adapter)
 
 
-def existing_episode(session, name, known_id=None):
+def existing_episode(session, name, known_id=None, *, variant=None, excluded_ids=()):
     """A saved ID must match exactly; fresh lookups retain the language variant."""
     if known_id is not None:
         visible = owned_name(session, known_id)
@@ -93,10 +93,14 @@ def existing_episode(session, name, known_id=None):
     response.raise_for_status()
     if "uploadedVideoListing" not in response.text:
         raise RuntimeError("Target listing unavailable; refusing new upload")
+    variant = variant or name_variant(name)
+    # Evaluate after the request: another worker may allocate its target during the read.
+    excluded_ids = set(excluded_ids() if callable(excluded_ids) else excluded_ids)
+    allowed = {"en", "en_plain"} if variant == "en" else {variant}
     matches = [
         row
         for row in listing_rows(response.text)
-        if row["key"] == episode_key(name) and name_variant(row["name"]) == name_variant(name)
+        if row["key"] == episode_key(name) and name_variant(row["name"]) in allowed and row["id"] not in excluded_ids
     ]
     if len(matches) > 1:
         raise RuntimeError("Multiple targets exist for the same episode variant")

@@ -1,4 +1,4 @@
-"""Inspect English originals, selecting the highest resolution then smallest file."""
+"""Select independent subtitled and plain English originals by resolution and size."""
 
 from __future__ import annotations
 
@@ -130,14 +130,14 @@ class EnglishDiscovery:
                 incomplete = True
         if incomplete:
             raise SdilejError("English verification incomplete; best resolution and size are unconfirmed")
-        selected = min(
-            resolved,
-            key=lambda value: (
-                -resolution_rank(value[0].width, value[0].height),
-                value[0].size_bytes,
-                value[1]["method"] == "none",
-                value[0].source_id,
-            ),
-            default=None,
-        )
+
+        def rank(item):
+            return (-resolution_rank(item[0].width, item[0].height), item[0].size_bytes, item[0].source_id)
+
+        selected = {}
+        for found in resolved:
+            candidate, proof = found
+            variant = "en_plain" if proof["method"] == "none" else "en"
+            if variant not in selected or rank(found) < rank(selected[variant]):
+                selected[variant] = found
         return selected

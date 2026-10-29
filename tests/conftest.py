@@ -51,7 +51,16 @@ def english_row(czech_row):
             "lenka": dict(policy="lenka-series-variants-v1", first_audio_verified=True, subtitles_checked=True)
         },
     )
+    row["subtitles"] = {"method": "original_text", "sha256": "a" * 64, "language": "cs"}
+    return row
+
+
+@pytest.fixture
+def plain_row(english_row):
+    row = copy.deepcopy(english_row)
+    row["variant"] = "en_plain"
     row["subtitles"] = {"method": "none"}
+    row["selected"].update(source_id="789", url="https://sdilej.cz/789/plain.mkv", width=3840, height=2160)
     return row
 
 

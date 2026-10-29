@@ -14,7 +14,7 @@ on:
         default: 3
       variant:
         type: choice
-        options: [all, cz, en]
+        options: [all, cz, en, en_plain]
         default: all
   schedule:
     - cron: '17 * * * *'
@@ -59,7 +59,7 @@ jobs:
           set -euo pipefail
           [[ "$MODE" =~ ^(plan|upload|continuous|subtitles|reconcile)$ ]]
           [[ "$LIMIT" =~ ^[0-9]+$ && "$WORKERS" =~ ^[0-9]+$ ]]
-          [[ "$VARIANT" =~ ^(all|cz|en)$ ]]
+          [[ "$VARIANT" =~ ^(all|cz|en|en_plain)$ ]]
           lenka-sync "$MODE" --variant "$VARIANT" --limit "$LIMIT" --workers "$WORKERS" --runtime-minutes 210 --persist-git-state
       - name: Preserve diagnostics
         if: always()
