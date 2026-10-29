@@ -4939,12 +4939,6 @@
     },
     "1575:5:1": {
       "episode_key": "the wire – špína baltimoru:s5:e1",
-      "claim": {
-        "worker_id": "7732ec9df66d4efc9b651b9a08b6a99d-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:40:48.826144+00:00",
-        "lease_expires_at": "2026-10-29T23:40:48.826155+00:00"
-      },
       "source": {
         "source_id": "29387456",
         "source_url": "https://sdilej.cz/29387456/the-wire-s05e01-spina-baltimoru-czdub-56.16-more-with-less.mp4",
@@ -4969,15 +4963,22 @@
         "display_name": "The Wire S05E01 More with Less 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:40:50.431464+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615500",
-        "size_bytes": 1411120113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615500",
+          "size_bytes": 1411120113,
+          "source_bytes_read": 1411120113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29387456",
+        "source_url": "https://sdilej.cz/29387456/the-wire-s05e01-spina-baltimoru-czdub-56.16-more-with-less.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615500",
-        "size_bytes": 1411120113,
-        "source_bytes_read": 1411120113,
-        "http_status": 201
+        "display_name": "The Wire S05E01 More with Less 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:46:32.873824+00:00"
       }
     },
     "1575:5:2": {
@@ -5023,5 +5024,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:46:29.101358+00:00"
+  "updated_at": "2026-10-29T17:46:32.873841+00:00"
 }
