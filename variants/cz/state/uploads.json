@@ -6467,12 +6467,6 @@
     },
     "14:3:2": {
       "episode_key": "hra o trůny:s3:e2",
-      "claim": {
-        "worker_id": "b8865e071fee47ab8fdbcaea84872574-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:56:20.364058+00:00",
-        "lease_expires_at": "2026-10-30T00:56:20.364072+00:00"
-      },
       "source": {
         "source_id": "34402316",
         "source_url": "https://sdilej.cz/34402316/hra-o-truny-s03e02-temna-kridla-temna-slova-dark-wings-dark-words-.mkv",
@@ -6497,15 +6491,22 @@
         "display_name": "Game of Thrones S03E02 Dark Wings, Dark Words 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:56:22.047499+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30617004",
-        "size_bytes": 2531745916
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30617004",
+          "size_bytes": 2531745916,
+          "source_bytes_read": 2531745916,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402316",
+        "source_url": "https://sdilej.cz/34402316/hra-o-truny-s03e02-temna-kridla-temna-slova-dark-wings-dark-words-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30617004",
-        "size_bytes": 2531745916,
-        "source_bytes_read": 2531745916,
-        "http_status": 201
+        "display_name": "Game of Thrones S03E02 Dark Wings, Dark Words 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:03:45.957130+00:00"
       }
     },
     "14:3:3": {
@@ -6551,5 +6552,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:03:40.518173+00:00"
+  "updated_at": "2026-10-29T19:03:45.957146+00:00"
 }
