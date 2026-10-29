@@ -163,6 +163,7 @@ def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None
 
 
 def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, persist=False, variant="all"):
+    selected_variants = VARIANTS if variant == "all" else (variant,)
     creds = credentials()
     lock = threading.RLock()
     paths = tuple(root / f"variants/{variant}/state/uploads.json" for variant in VARIANTS)
@@ -242,9 +243,9 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     snapshot = publisher.read_snapshot(
                         [*manifest_paths.values(), "state/titles.json", "config/titles.json", "config/runtime.json"]
                     )
-                    for variant in VARIANTS:
-                        remote = snapshot[manifest_paths[variant]]
-                        queue[variant] = [json.loads(line) for line in remote.splitlines() if line.strip()]
+                    for source_variant in VARIANTS:
+                        remote = snapshot[manifest_paths[source_variant]]
+                        queue[source_variant] = [json.loads(line) for line in remote.splitlines() if line.strip()]
                     validate_sources(queue)
                     titles = json.loads(snapshot["state/titles.json"] or '{"series":{},"episodes":{}}')
                     overrides = json.loads(snapshot["config/titles.json"] or '{"series":{},"episodes":{}}')
@@ -268,7 +269,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                         states,
                         max(0, capacity),
                         reserved,
-                        variants=VARIANTS if variant == "all" else (variant,),
+                        variants=selected_variants,
                     )
                 for row in selected:
                     reserved.add((row["variant"], row["identity"]))
