@@ -6062,12 +6062,6 @@
     },
     "14:2:3": {
       "episode_key": "hra o trůny:s2:e3",
-      "claim": {
-        "worker_id": "fcbc16bb78b8491698d1cad8b4bbad5b-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:37:50.736718+00:00",
-        "lease_expires_at": "2026-10-30T00:37:50.736728+00:00"
-      },
       "source": {
         "source_id": "34402270",
         "source_url": "https://sdilej.cz/34402270/hra-o-truny-s02e03-co-je-mrtve-nemuze-nikdy-zemrit-what-is-dead-may-never-die-.mkv",
@@ -6092,15 +6086,22 @@
         "display_name": "Game of Thrones S02E03 What Is Dead May Never Die 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:37:52.472806+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616678",
-        "size_bytes": 2296419452
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616678",
+          "size_bytes": 2296419452,
+          "source_bytes_read": 2296419452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402270",
+        "source_url": "https://sdilej.cz/34402270/hra-o-truny-s02e03-co-je-mrtve-nemuze-nikdy-zemrit-what-is-dead-may-never-die-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616678",
-        "size_bytes": 2296419452,
-        "source_bytes_read": 2296419452,
-        "http_status": 201
+        "display_name": "Game of Thrones S02E03 What Is Dead May Never Die 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:46:58.244364+00:00"
       }
     },
     "14:2:4": {
@@ -6271,5 +6272,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:46:55.344433+00:00"
+  "updated_at": "2026-10-29T18:46:58.244380+00:00"
 }
