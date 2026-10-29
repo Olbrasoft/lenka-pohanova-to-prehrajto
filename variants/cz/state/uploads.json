@@ -2127,12 +2127,6 @@
     },
     "1418:1:6": {
       "episode_key": "bratrstvo neohrožených:s1:e6",
-      "claim": {
-        "worker_id": "643a2fc0b53b486b87f17a1bd1725c10-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T15:37:17.485650+00:00",
-        "lease_expires_at": "2026-10-29T21:37:17.485663+00:00"
-      },
       "source": {
         "source_id": "32875905",
         "source_url": "https://sdilej.cz/32875905/band-of-brothers-s01e06-cz-dabing.mkv",
@@ -2157,15 +2151,22 @@
         "display_name": "Band of Brothers S01E06 Bastogne 1080p CZ Dabing",
         "prepared_at": "2026-10-29T15:37:21.421886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613207",
-        "size_bytes": 1366721805
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613207",
+          "size_bytes": 1366721805,
+          "source_bytes_read": 1366721805,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875905",
+        "source_url": "https://sdilej.cz/32875905/band-of-brothers-s01e06-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613207",
-        "size_bytes": 1366721805,
-        "source_bytes_read": 1366721805,
-        "http_status": 201
+        "display_name": "Band of Brothers S01E06 Bastogne 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T15:41:35.496988+00:00"
       }
     },
     "1418:1:4": {
@@ -2291,5 +2292,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T15:41:32.445855+00:00"
+  "updated_at": "2026-10-29T15:41:35.497006+00:00"
 }
