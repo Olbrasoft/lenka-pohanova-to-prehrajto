@@ -9994,12 +9994,6 @@
     },
     "22:3:4": {
       "episode_key": "rodina sopránů:s3:e4",
-      "claim": {
-        "worker_id": "c7f68838be964761b890b0e524bad5fc-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:22:09.277968+00:00",
-        "lease_expires_at": "2026-10-30T05:22:09.277981+00:00"
-      },
       "source": {
         "source_id": "8676030",
         "source_url": "https://sdilej.cz/8676030/the.sopranos.s03e04.bluray.1080p.ac3.x265.hevc-lion-utr-czaudio-.mkv",
@@ -10024,15 +10018,22 @@
         "display_name": "The Sopranos S03E04 Employee of the Month 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:22:11.717562+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621265",
-        "size_bytes": 1065814538
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621265",
+          "size_bytes": 1065814538,
+          "source_bytes_read": 1065814538,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8676030",
+        "source_url": "https://sdilej.cz/8676030/the.sopranos.s03e04.bluray.1080p.ac3.x265.hevc-lion-utr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621265",
-        "size_bytes": 1065814538,
-        "source_bytes_read": 1065814538,
-        "http_status": 201
+        "display_name": "The Sopranos S03E04 Employee of the Month 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:25:38.773323+00:00"
       }
     },
     "22:3:5": {
@@ -10115,5 +10116,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:25:15.552174+00:00"
+  "updated_at": "2026-10-29T23:25:38.773339+00:00"
 }
