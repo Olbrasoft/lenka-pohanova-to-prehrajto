@@ -7882,12 +7882,6 @@
     },
     "14:6:4": {
       "episode_key": "hra o trůny:s6:e4",
-      "claim": {
-        "worker_id": "5e8835ea788345cfaf209821275b58da-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T20:42:53.317770+00:00",
-        "lease_expires_at": "2026-10-30T02:42:53.317782+00:00"
-      },
       "source": {
         "source_id": "34402497",
         "source_url": "https://sdilej.cz/34402497/hra-o-truny-s06e04-kniha-cizince-book-of-the-stranger-.mkv",
@@ -7912,15 +7906,22 @@
         "display_name": "Game of Thrones S06E04 Book of the Stranger 4K CZ Dabing",
         "prepared_at": "2026-10-29T20:42:54.762345+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30618914",
-        "size_bytes": 2619523617
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30618914",
+          "size_bytes": 2619523617,
+          "source_bytes_read": 2619523617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402497",
+        "source_url": "https://sdilej.cz/34402497/hra-o-truny-s06e04-kniha-cizince-book-of-the-stranger-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30618914",
-        "size_bytes": 2619523617,
-        "source_bytes_read": 2619523617,
-        "http_status": 201
+        "display_name": "Game of Thrones S06E04 Book of the Stranger 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T20:54:19.688372+00:00"
       }
     }
   },
@@ -7929,5 +7930,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T20:54:17.088353+00:00"
+  "updated_at": "2026-10-29T20:54:19.688385+00:00"
 }
