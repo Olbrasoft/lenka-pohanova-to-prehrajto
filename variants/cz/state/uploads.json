@@ -5254,12 +5254,6 @@
     },
     "1575:5:8": {
       "episode_key": "the wire – špína baltimoru:s5:e8",
-      "claim": {
-        "worker_id": "e567dd6587544b1ab0d8fcb92084fbce-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:58:56.427454+00:00",
-        "lease_expires_at": "2026-10-29T23:58:56.427466+00:00"
-      },
       "source": {
         "source_id": "28795218",
         "source_url": "https://sdilej.cz/28795218/the-wire-s05e08-1080p-cz-dabing.mkv",
@@ -5284,15 +5278,22 @@
         "display_name": "The Wire S05E08 Clarifications 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:58:58.135705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615822",
-        "size_bytes": 1805602984
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615822",
+          "size_bytes": 1805602984,
+          "source_bytes_read": 1805602984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28795218",
+        "source_url": "https://sdilej.cz/28795218/the-wire-s05e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615822",
-        "size_bytes": 1805602984,
-        "source_bytes_read": 1805602984,
-        "http_status": 201
+        "display_name": "The Wire S05E08 Clarifications 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T18:03:35.869508+00:00"
       }
     },
     "1575:5:9": {
@@ -5375,5 +5376,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:03:31.197767+00:00"
+  "updated_at": "2026-10-29T18:03:35.869524+00:00"
 }
