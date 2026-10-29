@@ -42,9 +42,7 @@ def test_rename_uses_transferred_dimensions_even_if_manifest_upgraded(tmp_path, 
     czech_row["selected"].update(width=3840, height=2160)
     visible = {"11": old}
     monkeypatch.setattr(reconcile, "owned_name", lambda _, video_id: visible[video_id])
-    monkeypatch.setattr(
-        reconcile.prehrajto, "rename_video", lambda _, video_id, title: visible.update({video_id: title})
-    )
+    monkeypatch.setattr(reconcile, "rename_video", lambda _, video_id, title: visible.update({video_id: title}))
     result = reconcile.rename_tracked(tmp_path, {"cz": [czech_row], "en": []}, states, titles, object())
     assert result["renamed"] == 1
     assert visible["11"] == "The Big Bang Theory S01E01 Pilot 1080p CZ Dabing"

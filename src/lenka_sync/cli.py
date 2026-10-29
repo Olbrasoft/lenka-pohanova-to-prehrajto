@@ -131,8 +131,10 @@ def entrypoint():
     try:
         raise SystemExit(main())
     except Exception as error:
-        # Exceptions may carry authenticated request URLs. Output their class only.
-        print(f"failed={type(error).__name__}")
+        # Exceptions may carry authenticated request URLs. Output only the type, status and stack locations.
+        from sdilej_serialy.resilience import error_evidence
+
+        print(json.dumps({"failed": error_evidence(error)}))
         raise SystemExit(1) from None
 
 

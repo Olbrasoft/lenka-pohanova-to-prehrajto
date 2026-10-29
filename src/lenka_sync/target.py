@@ -7,6 +7,8 @@ import unicodedata
 from bs4 import BeautifulSoup
 from sdilej_serialy.target import episode_key, listing_rows
 from sdilej_to_prehrajto import prehrajto
+import requests
+from requests.adapters import HTTPAdapter
 
 MEDIA_EXTENSION = re.compile(r"\.(?:mkv|mp4|avi|m4v|webm|mov|ts|m2ts|mpeg|mpg|wmv)$", re.I)
 
@@ -14,7 +16,9 @@ MEDIA_EXTENSION = re.compile(r"\.(?:mkv|mp4|avi|m4v|webm|mov|ts|m2ts|mpeg|mpg|wm
 def clean_name(value):
     value = re.sub(r"\s*\(zpracovává se\)\s*$", "", value, flags=re.I)
     value = MEDIA_EXTENSION.sub("", value.strip())
-    return " ".join(re.sub(r"\*+", " ", unicodedata.normalize("NFKC", value)).casefold().split())
+    value = unicodedata.normalize("NFKC", value).casefold()
+    # Uploaded filenames lose punctuation; keep words, resolution and language markers.
+    return " ".join(re.sub(r"[^\w\s]", " ", value).split())
 
 
 def name_variant(value):
@@ -38,10 +42,41 @@ def owned_name(session, video_id):
     soup = BeautifulSoup(response.text, "html.parser")
     if not any("Změna složky videa" in heading.get_text(" ", strip=True) for heading in soup.select("h1")):
         raise RuntimeError("Owned target page is unavailable")
-    headings = [h.get_text(" ", strip=True) for h in soup.select("h2") if episode_key(h.get_text(" ", strip=True))]
+    headings = []
+    for heading in soup.select("h2"):
+        visible = heading.select_one(".show-for-large") or heading.select_one(".hide-for-large") or heading
+        text = visible.get_text(" ", strip=True)
+        if episode_key(text):
+            headings.append(text)
     if len(headings) != 1:
         raise RuntimeError("Owned target heading is ambiguous")
     return headings[0]
+
+
+def rename_video(session, video_id, name):
+    """Use the observed Naja GET contract, without transport retries of mutations."""
+    adapter = session.get_adapter(prehrajto.BASE_URL) if isinstance(session, requests.Session) else None
+    if adapter is not None:
+        session.mount(prehrajto.BASE_URL + "/", HTTPAdapter(max_retries=0))
+    try:
+        response = session.get(
+            prehrajto.BASE_URL + "/profil/nahrana-videa",
+            params={
+                "uploadedVideoListing-videoId": str(video_id),
+                "do": "uploadedVideoListing-changeVideoName",
+                "uploadedVideoListing-name": name,
+            },
+            headers={"X-Requested-With": "XMLHttpRequest", "Accept": "application/json"},
+            allow_redirects=False,
+            timeout=30,
+        )
+        response.raise_for_status()
+        if "application/json" in getattr(response, "headers", {}).get("Content-Type", ""):
+            if response.json().get("nameError"):
+                raise ValueError("Target rejected the requested title")
+    finally:
+        if adapter is not None:
+            session.mount(prehrajto.BASE_URL + "/", adapter)
 
 
 def existing_episode(session, name, known_id=None):

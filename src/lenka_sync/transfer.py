@@ -18,7 +18,7 @@ from sdilej_to_prehrajto.sdilej import SdilejError
 from sdilej_serialy.episodes import EpisodeSourceProvider
 from sdilej_serialy.models import Episode
 from sdilej_serialy.pipeline import EpisodeState, target_session
-from .target import existing_episode
+from .target import existing_episode, rename_video
 from .policy import upload_eligible
 from sdilej_serialy.git_state import CheckpointError
 from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
@@ -303,6 +303,7 @@ def upload_continuously(
                         upload_request.finished.wait()
                         if not receipt_matches(state.row(episode)):
                             raise TargetPending("Relay returned without a complete accepted-transfer receipt")
+                    rename_video(target, result.video_id, row["display_name"])
                     if not target_confirmed(target, result.video_id, row["display_name"]):
                         if recover_target_errors and receipt_matches(state.row(episode)):
                             raise TargetPending("Accepted transfer awaits matching target listing and statistics")

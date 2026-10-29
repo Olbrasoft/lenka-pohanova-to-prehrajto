@@ -13,6 +13,7 @@ from sdilej_serialy.subtitle_target import SubtitleTarget, TargetUnavailable, pa
 from sdilej_to_prehrajto import prehrajto
 
 from .naming import display_name, episode_search_phrase
+from .target import rename_video
 from . import policy
 from .storage import atomic_json, read_json
 
@@ -74,7 +75,7 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                     return read_target_view(api, video_id, owned, entry.get("detail_url", ""))
 
                 def rename(title):
-                    prehrajto.rename_video(session, video_id, title)
+                    rename_video(session, video_id, title)
                     from .transfer import target_confirmed
 
                     if not target_confirmed(session, video_id, title):

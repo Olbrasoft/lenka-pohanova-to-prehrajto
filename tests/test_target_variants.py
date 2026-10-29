@@ -30,7 +30,38 @@ def test_known_czech_id_cannot_confirm_english_variant():
     )
     assert existing_episode(session, "Show S01E01 Pilot 1080p", "11") is None
     assert existing_episode(session, "Show S01E01 Pilot 1080p CZ Dabing", "11") == "11"
-    assert clean_name("Show S01E01 ...And the Bag 1080p.mkv (zpracovává se)") == "show s01e01 ...and the bag 1080p"
+    assert clean_name("Show S01E01 ...And the Bag 1080p.mkv (zpracovává se)") == "show s01e01 and the bag 1080p"
+
+
+def test_owned_heading_does_not_duplicate_mobile_and_desktop_text():
+    session = SimpleNamespace(
+        get=lambda *_, **__: response("""<h1>Změna složky videa</h1><h2>
+      <span class="hide-for-large">Show S01E01 Pilot CZ Dabing.mkv</span>
+      <span class="show-for-large color-g650">Show S01E01 Pilot CZ Dabing.mkv</span></h2>""")
+    )
+    from lenka_sync.target import owned_name
+
+    assert owned_name(session, "11") == "Show S01E01 Pilot CZ Dabing.mkv"
+
+
+def test_rename_uses_the_live_naja_get_contract():
+    from lenka_sync.target import rename_video
+
+    calls = []
+
+    def get(url, **kwargs):
+        calls.append((url, kwargs))
+        return SimpleNamespace(
+            headers={"Content-Type": "application/json"}, json=lambda: {}, raise_for_status=lambda: None
+        )
+
+    rename_video(SimpleNamespace(get=get), "88", "Show S01E01 Pilot 1080p")
+    assert calls[0][1]["params"] == {
+        "uploadedVideoListing-videoId": "88",
+        "do": "uploadedVideoListing-changeVideoName",
+        "uploadedVideoListing-name": "Show S01E01 Pilot 1080p",
+    }
+    assert calls[0][1]["allow_redirects"] is False
 
 
 def test_same_target_id_cannot_belong_to_both_variants(tmp_path, czech_row):

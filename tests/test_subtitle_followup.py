@@ -88,9 +88,7 @@ def test_czech_label_is_added_only_after_target_content_verification(tmp_path, e
     track = dict(id="11", czech=True, processing=False, language_action="")
     state = setup(tmp_path, english_row, monkeypatch, tracks=[track])
     renamed = []
-    monkeypatch.setattr(
-        subtitles.prehrajto, "rename_video", lambda _, video_id, title: renamed.append((video_id, title))
-    )
+    monkeypatch.setattr(subtitles, "rename_video", lambda _, video_id, title: renamed.append((video_id, title)))
     monkeypatch.setattr("lenka_sync.transfer.target_confirmed", lambda *_: True)
     subtitles.followup(tmp_path, [english_row], state, titles, credentials())
     assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]

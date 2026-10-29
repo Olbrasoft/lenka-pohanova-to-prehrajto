@@ -5,8 +5,7 @@ from __future__ import annotations
 from datetime import UTC, datetime
 from .naming import display_name
 from .storage import read_json, atomic_json
-from .target import owned_name, clean_name, name_variant
-from sdilej_to_prehrajto import prehrajto
+from .target import owned_name, clean_name, name_variant, rename_video
 
 
 def repair_cross_variant_records(root, states, session, *, persist=None):
@@ -100,7 +99,7 @@ def rename_tracked(root, queue, states, titles, session, *, persist=None):
             if clean_name(current) != clean_name(wanted):
                 if clean_name(current) != clean_name(upload["display_name"]):
                     raise ValueError("Target title changed outside the tracked state")
-                prehrajto.rename_video(session, video_id, wanted)
+                rename_video(session, video_id, wanted)
                 if clean_name(owned_name(session, video_id) or "") != clean_name(wanted):
                     raise RuntimeError("Target rename was not confirmed")
                 result["renamed"] += 1

@@ -6,6 +6,7 @@ from lenka_sync.state import VariantState
 
 
 def setup_transfer(monkeypatch):
+    monkeypatch.setattr(transfer, "rename_video", lambda *_: None)
     monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
     monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 1)
     monkeypatch.setattr(transfer, "existing_episode", lambda *_: None)
