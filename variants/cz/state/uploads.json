@@ -11175,12 +11175,6 @@
     },
     "22:5:4": {
       "episode_key": "rodina sopránů:s5:e4",
-      "claim": {
-        "worker_id": "411cf163b9d84ea39e71a9cb63ed7563-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:48:39.212185+00:00",
-        "lease_expires_at": "2026-10-30T05:48:39.212196+00:00"
-      },
       "source": {
         "source_id": "14660823",
         "source_url": "https://sdilej.cz/14660823/the-sopranos.s05e04.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -11205,15 +11199,22 @@
         "display_name": "The Sopranos S05E04 All Happy Families 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:48:41.506239+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621704",
-        "size_bytes": 626465279
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621704",
+          "size_bytes": 626465279,
+          "source_bytes_read": 626465279,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660823",
+        "source_url": "https://sdilej.cz/14660823/the-sopranos.s05e04.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621704",
-        "size_bytes": 626465279,
-        "source_bytes_read": 626465279,
-        "http_status": 201
+        "display_name": "The Sopranos S05E04 All Happy Families 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:51:03.851371+00:00"
       }
     },
     "22:5:6": {
@@ -11259,5 +11260,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:51:01.475701+00:00"
+  "updated_at": "2026-10-29T23:51:03.851390+00:00"
 }
