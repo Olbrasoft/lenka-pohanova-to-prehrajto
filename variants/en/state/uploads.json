@@ -69,12 +69,6 @@
           "reviewed_at": "2026-10-29T13:30:37.953157+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a639f71fb0064530bc20049a80205b50-worker-0",
-        "run_id": "40883176851",
-        "claimed_at": "2026-10-29T13:35:08.636872+00:00",
-        "lease_expires_at": "2026-10-29T19:35:08.636882+00:00"
-      },
       "source": {
         "source_id": "32631080",
         "source_url": "https://sdilej.cz/32631080/breaking-bad-s01e02-cz-dabing-full-hd.mkv",
@@ -104,15 +98,22 @@
         "display_name": "Breaking Bad S01E02 Cat's in the Bag… 1080p",
         "prepared_at": "2026-10-29T13:35:11.802917+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30611477",
-        "size_bytes": 409043165
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30611477",
+          "size_bytes": 409043165,
+          "source_bytes_read": 409043165,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "32631080",
+        "source_url": "https://sdilej.cz/32631080/breaking-bad-s01e02-cz-dabing-full-hd.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30611477",
-        "size_bytes": 409043165,
-        "source_bytes_read": 409043165,
-        "http_status": 201
+        "display_name": "Breaking Bad S01E02 Cat's in the Bag… 1080p",
+        "uploaded_at": "2026-10-29T13:36:57.964514+00:00"
       }
     },
     "26:1:3": {
@@ -242,5 +243,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T13:36:55.090993+00:00"
+  "updated_at": "2026-10-29T13:36:57.964530+00:00"
 }
