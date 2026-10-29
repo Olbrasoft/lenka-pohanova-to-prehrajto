@@ -10464,12 +10464,6 @@
     },
     "22:4:2": {
       "episode_key": "rodina sopránů:s4:e2",
-      "claim": {
-        "worker_id": "09ec0a4bd80a4b9f9c94442facc9164f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:34:06.507422+00:00",
-        "lease_expires_at": "2026-10-30T05:34:06.507433+00:00"
-      },
       "source": {
         "source_id": "13782795",
         "source_url": "https://sdilej.cz/13782795/the-sopranos.s04e02.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10494,15 +10488,22 @@
         "display_name": "The Sopranos S04E02 No-Show 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:34:07.883795+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621429",
-        "size_bytes": 553306938
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621429",
+          "size_bytes": 553306938,
+          "source_bytes_read": 553306938,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13782795",
+        "source_url": "https://sdilej.cz/13782795/the-sopranos.s04e02.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621429",
-        "size_bytes": 553306938,
-        "source_bytes_read": 553306938,
-        "http_status": 201
+        "display_name": "The Sopranos S04E02 No-Show 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:35:27.300941+00:00"
       }
     }
   },
@@ -10511,5 +10512,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:35:24.685059+00:00"
+  "updated_at": "2026-10-29T23:35:27.300957+00:00"
 }
