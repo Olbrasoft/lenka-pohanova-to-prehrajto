@@ -6650,12 +6650,6 @@
     },
     "14:3:8": {
       "episode_key": "hra o trůny:s3:e8",
-      "claim": {
-        "worker_id": "339a2c97fda14de993c9690f2db173cc-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T19:12:10.474832+00:00",
-        "lease_expires_at": "2026-10-30T01:12:10.474842+00:00"
-      },
       "source": {
         "source_id": "34402360",
         "source_url": "https://sdilej.cz/34402360/hra-o-truny-s03e08-druzi-synove-second-sons-.mkv",
@@ -6680,15 +6674,22 @@
         "display_name": "Game of Thrones S03E08 Second Sons 4K CZ Dabing",
         "prepared_at": "2026-10-29T19:12:13.217792+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30617297",
-        "size_bytes": 2491353340
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30617297",
+          "size_bytes": 2491353340,
+          "source_bytes_read": 2491353340,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402360",
+        "source_url": "https://sdilej.cz/34402360/hra-o-truny-s03e08-druzi-synove-second-sons-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30617297",
-        "size_bytes": 2491353340,
-        "source_bytes_read": 2491353340,
-        "http_status": 201
+        "display_name": "Game of Thrones S03E08 Second Sons 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:20:20.344927+00:00"
       }
     },
     "14:3:6": {
@@ -6815,5 +6816,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:20:10.856304+00:00"
+  "updated_at": "2026-10-29T19:20:20.344946+00:00"
 }
