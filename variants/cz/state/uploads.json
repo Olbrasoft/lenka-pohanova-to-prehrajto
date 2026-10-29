@@ -10610,12 +10610,6 @@
     },
     "22:4:5": {
       "episode_key": "rodina sopránů:s4:e5",
-      "claim": {
-        "worker_id": "bff992a5db0444e0a02cf107d69fdacc-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:37:24.317704+00:00",
-        "lease_expires_at": "2026-10-30T05:37:24.317716+00:00"
-      },
       "source": {
         "source_id": "14660817",
         "source_url": "https://sdilej.cz/14660817/the-sopranos.s04e05.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10640,15 +10634,22 @@
         "display_name": "The Sopranos S04E05 Pie-O-My 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:37:26.929370+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621502",
-        "size_bytes": 615569304
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621502",
+          "size_bytes": 615569304,
+          "source_bytes_read": 615569304,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660817",
+        "source_url": "https://sdilej.cz/14660817/the-sopranos.s04e05.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621502",
-        "size_bytes": 615569304,
-        "source_bytes_read": 615569304,
-        "http_status": 201
+        "display_name": "The Sopranos S04E05 Pie-O-My 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:39:37.237816+00:00"
       }
     },
     "22:4:6": {
@@ -10731,5 +10732,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:39:34.161256+00:00"
+  "updated_at": "2026-10-29T23:39:37.237831+00:00"
 }
