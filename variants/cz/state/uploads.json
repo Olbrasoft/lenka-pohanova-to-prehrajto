@@ -2215,12 +2215,6 @@
     },
     "1418:1:7": {
       "episode_key": "bratrstvo neohrožených:s1:e7",
-      "claim": {
-        "worker_id": "5f4aa772c3484e7bafbd92dd8cec06b5-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T15:41:13.916081+00:00",
-        "lease_expires_at": "2026-10-29T21:41:13.916092+00:00"
-      },
       "source": {
         "source_id": "32875928",
         "source_url": "https://sdilej.cz/32875928/band-of-brothers-s01e07-cz-dabing.mkv",
@@ -2245,15 +2239,22 @@
         "display_name": "Band of Brothers S01E07 The Breaking Point 1080p CZ Dabing",
         "prepared_at": "2026-10-29T15:41:16.813680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613258",
-        "size_bytes": 1468983113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613258",
+          "size_bytes": 1468983113,
+          "source_bytes_read": 1468983113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875928",
+        "source_url": "https://sdilej.cz/32875928/band-of-brothers-s01e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613258",
-        "size_bytes": 1468983113,
-        "source_bytes_read": 1468983113,
-        "http_status": 201
+        "display_name": "Band of Brothers S01E07 The Breaking Point 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T15:45:10.387859+00:00"
       }
     },
     "1418:1:8": {
@@ -2424,5 +2425,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T15:45:06.766871+00:00"
+  "updated_at": "2026-10-29T15:45:10.387876+00:00"
 }
