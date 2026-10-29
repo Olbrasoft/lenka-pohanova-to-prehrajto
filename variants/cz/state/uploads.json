@@ -9466,12 +9466,6 @@
     },
     "22:2:5": {
       "episode_key": "rodina sopránů:s2:e5",
-      "claim": {
-        "worker_id": "23b30d7df7644e9b9af8ccc55c2a6dec-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:10:07.435131+00:00",
-        "lease_expires_at": "2026-10-30T05:10:07.435141+00:00"
-      },
       "source": {
         "source_id": "14660786",
         "source_url": "https://sdilej.cz/14660786/the-sopranos.s02e05.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -9496,15 +9490,22 @@
         "display_name": "The Sopranos S02E05 Big Girls Don't Cry 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:10:08.881968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621131",
-        "size_bytes": 580081886
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621131",
+          "size_bytes": 580081886,
+          "source_bytes_read": 580081886,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660786",
+        "source_url": "https://sdilej.cz/14660786/the-sopranos.s02e05.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621131",
-        "size_bytes": 580081886,
-        "source_bytes_read": 580081886,
-        "http_status": 201
+        "display_name": "The Sopranos S02E05 Big Girls Don't Cry 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:12:08.562248+00:00"
       }
     },
     "22:2:6": {
@@ -9587,5 +9588,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:12:04.387138+00:00"
+  "updated_at": "2026-10-29T23:12:08.562257+00:00"
 }
