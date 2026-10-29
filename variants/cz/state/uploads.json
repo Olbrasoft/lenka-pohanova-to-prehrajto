@@ -6342,12 +6342,6 @@
     },
     "14:2:9": {
       "episode_key": "hra o trůny:s2:e9",
-      "claim": {
-        "worker_id": "9224c3aca56d4319b617f747960483fe-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:49:29.511238+00:00",
-        "lease_expires_at": "2026-10-30T00:49:29.511249+00:00"
-      },
       "source": {
         "source_id": "34402298",
         "source_url": "https://sdilej.cz/34402298/hra-o-truny-s02e09-ohen-a-voda-blackwater-.mkv",
@@ -6372,15 +6366,22 @@
         "display_name": "Game of Thrones S02E09 Blackwater 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:49:31.083008+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616871",
-        "size_bytes": 2376262895
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616871",
+          "size_bytes": 2376262895,
+          "source_bytes_read": 2376262895,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402298",
+        "source_url": "https://sdilej.cz/34402298/hra-o-truny-s02e09-ohen-a-voda-blackwater-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616871",
-        "size_bytes": 2376262895,
-        "source_bytes_read": 2376262895,
-        "http_status": 201
+        "display_name": "Game of Thrones S02E09 Blackwater 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:56:10.073494+00:00"
       }
     },
     "14:2:10": {
@@ -6463,5 +6464,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:56:05.884614+00:00"
+  "updated_at": "2026-10-29T18:56:10.073511+00:00"
 }
