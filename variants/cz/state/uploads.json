@@ -11446,12 +11446,6 @@
     },
     "22:5:11": {
       "episode_key": "rodina sopránů:s5:e11",
-      "claim": {
-        "worker_id": "4fd33ccf8f6e45859514ec281e5c8748-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:56:37.307158+00:00",
-        "lease_expires_at": "2026-10-30T05:56:37.307169+00:00"
-      },
       "source": {
         "source_id": "14660827",
         "source_url": "https://sdilej.cz/14660827/the-sopranos.s05e11.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -11476,15 +11470,22 @@
         "display_name": "The Sopranos S05E11 The Test Dream 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:56:38.702573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621816",
-        "size_bytes": 508564875
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621816",
+          "size_bytes": 508564875,
+          "source_bytes_read": 508564875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660827",
+        "source_url": "https://sdilej.cz/14660827/the-sopranos.s05e11.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621816",
-        "size_bytes": 508564875,
-        "source_bytes_read": 508564875,
-        "http_status": 201
+        "display_name": "The Sopranos S05E11 The Test Dream 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:58:28.990290+00:00"
       }
     },
     "22:5:12": {
@@ -11567,5 +11568,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:58:26.071966+00:00"
+  "updated_at": "2026-10-29T23:58:28.990304+00:00"
 }
