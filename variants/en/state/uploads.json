@@ -724,12 +724,6 @@
     },
     "1418:1:6": {
       "episode_key": "bratrstvo neohrožených:s1:e6",
-      "claim": {
-        "worker_id": "7ff9c303676b48aabdd1b420c1f1250a-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T21:01:11.225761+00:00",
-        "lease_expires_at": "2026-10-30T03:01:11.225772+00:00"
-      },
       "source": {
         "source_id": "35159657",
         "source_url": "https://sdilej.cz/35159657/band-of-brothers-s01e06-bastogne.mkv",
@@ -759,15 +753,22 @@
         "display_name": "Band of Brothers S01E06 Bastogne 1080p",
         "prepared_at": "2026-10-29T21:01:13.743214+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30619248",
-        "size_bytes": 1652727800
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30619248",
+          "size_bytes": 1652727800,
+          "source_bytes_read": 1652727800,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "35159657",
+        "source_url": "https://sdilej.cz/35159657/band-of-brothers-s01e06-bastogne.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30619248",
-        "size_bytes": 1652727800,
-        "source_bytes_read": 1652727800,
-        "http_status": 201
+        "display_name": "Band of Brothers S01E06 Bastogne 1080p",
+        "uploaded_at": "2026-10-29T21:08:20.638784+00:00"
       }
     }
   },
@@ -776,5 +777,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T21:08:16.334175+00:00"
+  "updated_at": "2026-10-29T21:08:20.638804+00:00"
 }
