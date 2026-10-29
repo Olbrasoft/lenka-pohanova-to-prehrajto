@@ -5666,12 +5666,6 @@
     },
     "14:1:4": {
       "episode_key": "hra o trůny:s1:e4",
-      "claim": {
-        "worker_id": "03bb14a313eb4351952630416e342cbb-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:14:46.784784+00:00",
-        "lease_expires_at": "2026-10-30T00:14:46.784796+00:00"
-      },
       "source": {
         "source_id": "34402232",
         "source_url": "https://sdilej.cz/34402232/hra-o-truny-s01e04-mrzaci-bastardi-a-zlamane-veci-cripples-bastards-and-broken-things-.mkv",
@@ -5696,15 +5690,22 @@
         "display_name": "Game of Thrones S01E04 Cripples, Bastards, and Broken Things 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:14:49.326226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616128",
-        "size_bytes": 2444961125
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616128",
+          "size_bytes": 2444961125,
+          "source_bytes_read": 2444961125,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402232",
+        "source_url": "https://sdilej.cz/34402232/hra-o-truny-s01e04-mrzaci-bastardi-a-zlamane-veci-cripples-bastards-and-broken-things-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616128",
-        "size_bytes": 2444961125,
-        "source_bytes_read": 2444961125,
-        "http_status": 201
+        "display_name": "Game of Thrones S01E04 Cripples, Bastards, and Broken Things 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:21:38.511673+00:00"
       }
     },
     "14:1:5": {
@@ -5787,5 +5788,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:21:34.089664+00:00"
+  "updated_at": "2026-10-29T18:21:38.511689+00:00"
 }
