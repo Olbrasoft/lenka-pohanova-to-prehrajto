@@ -1,0 +1,66 @@
+name: continuous-upload
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [plan, upload, continuous, subtitles]
+        default: plan
+      limit:
+        type: number
+        default: 3
+      workers:
+        type: number
+        default: 3
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: lenka-target-and-state
+  cancel-in-progress: false
+jobs:
+  upload:
+    if: github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      MODE: ${{ inputs.mode || 'continuous' }}
+      LIMIT: ${{ inputs.limit || '3' }}
+      WORKERS: ${{ inputs.workers || '3' }}
+      SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+      SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+      PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+      PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: |
+          pip install .
+          sudo apt-get -o Acquire::Retries=2 update
+          sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg
+      - name: Configure checkpoints
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Run the selected operation
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$MODE" =~ ^(plan|upload|continuous|subtitles)$ ]]
+          [[ "$LIMIT" =~ ^[0-9]+$ && "$WORKERS" =~ ^[0-9]+$ ]]
+          lenka-sync "$MODE" --limit "$LIMIT" --workers "$WORKERS" --runtime-minutes 210 --persist-git-state
+      - name: Preserve diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lenka-state-${{ github.run_id }}
+          path: |
+            variants/*/state/
+            reports/
+          if-no-files-found: ignore

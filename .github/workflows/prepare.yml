@@ -1,0 +1,54 @@
+name: prepare-sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: lenka-source-preparation
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+      SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+      WHISPER_CPU_THREADS: '2'
+      WHISPER_NUM_WORKERS: '1'
+      HF_HOME: /tmp/huggingface
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/checkout@v4
+        with:
+          repository: Olbrasoft/sdilej-serialy
+          path: .upstream-runtime
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HF_HOME }}
+          key: lenka-whisper-small-${{ runner.os }}-v1
+      - name: Install media inspection runtime
+        run: |
+          pip install '.[discovery]'
+          sudo apt-get -o Acquire::Retries=2 update
+          sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg tesseract-ocr tesseract-ocr-ces tesseract-ocr-eng
+      - name: Configure checkpoints
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Import newly verified Czech sources
+        run: lenka-sync import --upstream .upstream-runtime --persist-git-state
+      - name: Resolve official titles
+        run: lenka-sync titles --limit 200 --runtime-minutes 20 --persist-git-state
+      - name: Discover English versions of imported episodes
+        run: lenka-sync prepare --limit 100 --runtime-minutes 40 --persist-git-state

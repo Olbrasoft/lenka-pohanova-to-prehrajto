@@ -1,0 +1,418 @@
+"""Concurrent, leased upload workers for an already verified source manifest."""
+
+from __future__ import annotations
+
+import concurrent.futures
+import collections
+import math
+import threading
+import time
+import uuid
+from collections.abc import Callable
+
+import requests
+from sdilej_to_prehrajto import prehrajto
+from sdilej_to_prehrajto.models import Candidate
+from sdilej_to_prehrajto.sdilej import SdilejError
+
+from sdilej_serialy.episodes import EpisodeSourceProvider
+from sdilej_serialy.models import Episode
+from sdilej_serialy.pipeline import EpisodeState, target_session
+from sdilej_serialy.target import existing_episode
+from .policy import upload_eligible
+from sdilej_serialy.git_state import CheckpointError
+from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
+from sdilej_serialy.resilience import TargetPending, error_evidence, receipt_matches, receipt_requester, transient_http
+
+
+def prepare_source(provider, candidate, require_original_size):
+    for attempt in range(3):
+        try:
+            refreshed = provider.refresh(candidate, session=provider.session)
+            if (refreshed.source_id, refreshed.url) != (candidate.source_id, candidate.url):
+                raise RuntimeError("Verified source identity changed before upload")
+            if require_original_size:
+                from sdilej_serialy.source_detail import resolve_original
+
+                refreshed = resolve_original(provider.session, refreshed)
+                if not candidate.size_bytes or refreshed.size_bytes != candidate.size_bytes:
+                    raise RuntimeError("Recovery original size changed; source requires review")
+            return refreshed
+        except (SdilejError, requests.RequestException) as error:
+            if attempt == 2:
+                raise SourceUnavailable("Source preparation failed before target allocation") from error
+            print(f"source_retry={attempt + 1} error={type(error).__name__}", flush=True)
+            time.sleep(2 ** (attempt + 1))
+
+
+def uploaded_identities(state: EpisodeState) -> set[str]:
+    return {
+        identity for identity, row in state.data["episodes"].items() if row.get("upload", {}).get("target_video_id")
+    }
+
+
+def target_confirmed(session, video_id: str, display_name: str) -> bool:
+    # The default listing searches only its current folder. A moved video can
+    # still be verified by its account-owned ID and semantic episode heading.
+    # Callers must also have a completed relay or a matching durable receipt.
+    return prehrajto.uploaded_video_count(session) is not None and existing_episode(
+        session, display_name, video_id
+    ) == str(video_id)
+
+
+def upload_continuously(
+    rows: list[dict],
+    state: EpisodeState,
+    *,
+    workers: int,
+    source_email: str,
+    source_password: str,
+    target_email: str,
+    target_password: str,
+    refill_rows: Callable[[], list[dict] | None] | None = None,
+    refill_interval_seconds: float = 15,
+    idle_refill_seconds: float = 0,
+    keep_waiting: Callable[[], bool] | None = None,
+    claim_deadline: float | None = None,
+    require_original_size: bool = False,
+    target_login: Callable[[], object] | None = None,
+    stop_event: threading.Event | None = None,
+    select_source: Callable[[dict], dict] | None = None,
+    recover_source_errors: bool = False,
+    recover_target_errors: bool = False,
+    transient_pause: threading.Event | None = None,
+) -> dict:
+    if not 1 <= workers <= 6:
+        raise ValueError("workers must be between 1 and 6")
+    if not 0 <= idle_refill_seconds <= 300:
+        raise ValueError("Invalid idle refill duration")
+    if claim_deadline is not None and not math.isfinite(claim_deadline):
+        raise ValueError("Invalid monotonic claim deadline")
+
+    def admission_closed():
+        return claim_deadline is not None and time.monotonic() >= claim_deadline
+
+    released = state.release_orphaned_claims()
+    pending = collections.deque(rows)
+    known_identities = {str(row["identity"]) for row in rows}
+    known_versions = {(str(row["identity"]), row.get("_dispatch_repair_token")) for row in rows}
+    queue_condition = threading.Condition()
+    in_flight = 0
+    refilling = False
+    refill_closed = False
+    idle_since = None
+
+    def login_pair(_index: int):
+        try:
+            provider = EpisodeSourceProvider.authenticated(source_email, source_password)
+        except (SdilejError, requests.RequestException) as error:
+            if recover_source_errors:
+                raise SourceUnavailable("Source login unavailable") from error
+            raise
+        return provider, (target_login() if target_login else target_session(target_email, target_password))
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        pairs = list(executor.map(login_pair, range(workers)))
+        before = prehrajto.uploaded_video_count(pairs[0][1])
+        execution = uuid.uuid4().hex
+
+        def take_next_row() -> dict | None:
+            nonlocal in_flight, refilling, refill_closed, idle_since
+            while True:
+                refill_leader = False
+                with queue_condition:
+                    # Drain existing transfers instead of starting the rest of
+                    # a preloaded batch past the workflow's admission deadline.
+                    if admission_closed():
+                        return None
+                    if stop_event is not None and stop_event.is_set():
+                        return None
+                    if transient_pause is not None and transient_pause.is_set():
+                        return None
+                    if pending:
+                        idle_since = None
+                        in_flight += 1
+                        return pending.popleft()
+                    if in_flight == 0 and idle_since is None:
+                        idle_since = time.monotonic()
+                    elif in_flight:
+                        idle_since = None
+                    idle_expired = in_flight == 0 and time.monotonic() - idle_since >= idle_refill_seconds
+                    peer_active = (
+                        idle_expired and idle_refill_seconds > 0 and keep_waiting is not None and keep_waiting()
+                    )
+                    if refill_rows is None or refill_closed or idle_expired and not peer_active:
+                        return None
+                    if not refilling:
+                        refilling = True
+                        refill_leader = True
+                    else:
+                        queue_condition.wait()
+                        continue
+                if refill_leader:
+                    fresh_rows: list[dict] = []
+                    try:
+                        fresh_rows = refill_rows()
+                    except Exception as error:
+                        if recover_target_errors and isinstance(error, CheckpointError):
+                            # A failed read of the append-only feed is not an
+                            # integrity violation. Drain current relays and
+                            # retry the same durable queue in the next batch.
+                            if transient_pause is not None:
+                                transient_pause.set()
+                            with queue_condition:
+                                refilling = False
+                                queue_condition.notify_all()
+                            return None
+                        if not transient_http(error):
+                            # A bad live queue/checkpoint is an integrity failure,
+                            # not an empty reserve. Wake peers and fail closed.
+                            if stop_event is not None:
+                                stop_event.set()
+                            with queue_condition:
+                                refilling = False
+                                queue_condition.notify_all()
+                            raise
+                        print(f"queue_refill_failed={type(error).__name__}", flush=True)
+                    added = 0
+                    with queue_condition:
+                        if fresh_rows is None:
+                            # The owner-specific budget is exhausted, not a
+                            # temporary lack of new verified sources.
+                            refill_closed = True
+                            refilling = False
+                            queue_condition.notify_all()
+                            return None
+                        for row in fresh_rows:
+                            identity = str(row["identity"])
+                            token = row.get("_dispatch_repair_token")
+                            version = (identity, token)
+                            if version in known_versions:
+                                continue
+                            if identity in known_identities:
+                                revision = getattr(state, "source_revision", None)
+                                if not token or not callable(revision) or revision(identity) != token:
+                                    continue
+                            known_versions.add(version)
+                            known_identities.add(identity)
+                            pending.append(row)
+                            added += 1
+                    if added:
+                        with queue_condition:
+                            refilling = False
+                            queue_condition.notify_all()
+                        print(f"queue_refilled={added}", flush=True)
+                    else:
+                        time.sleep(refill_interval_seconds)
+                        with queue_condition:
+                            refilling = False
+                            queue_condition.notify_all()
+
+        def worker(index: int) -> int:
+            nonlocal in_flight
+            provider, target = pairs[index]
+            completed = 0
+            while True:
+                row = take_next_row()
+                if row is None:
+                    return completed
+                upload_request = None
+                source_request = None
+                try:
+                    if not upload_eligible(row):
+                        print(f"upload_deferred=quality_review identity={row['identity']}", flush=True)
+                        continue
+                    if admission_closed():
+                        continue
+                    episode = Episode.from_dict(row["episode"])
+                    with state._lock:
+                        # Check after acquiring the shared state lock as well:
+                        # another worker's checkpoint can outlive the deadline.
+                        if admission_closed() or not state.claim(episode, f"{execution}-worker-{index}"):
+                            continue
+                    candidate = Candidate.from_dict(row["selected"])
+                    if recover_target_errors and state.row(episode).get("prepared_target"):
+                        record = state.row(episode)
+                        if receipt_matches(record):
+                            target_id = record["prepared_target"]["target_video_id"]
+                            name = record.get("source", {}).get("display_name", row["display_name"])
+                            if target_confirmed(target, target_id, name):
+                                state.success(episode, target_id, name)
+                                completed += 1
+                                continue
+                        raise TargetPending("Allocated target requires confirmation; no new upload")
+                    existing = existing_episode(
+                        target,
+                        row["display_name"],
+                        state.row(episode).get("prepared_target", {}).get("target_video_id"),
+                    )
+                    if existing:
+                        if require_original_size and state.row(episode).get("prepared_target"):
+                            raise RuntimeError("Recovery transfer is uncertain; retain target for review")
+                        state.success(episode, existing, row["display_name"])
+                        completed += 1
+                        continue
+                    if state.row(episode).get("prepared_target"):
+                        raise RuntimeError("Existing upload requires reconciliation")
+                    if select_source:
+                        # Resolve an upgrade only after the global episode claim,
+                        # and never change a source with an allocated target.
+                        row = select_source(row)
+                        candidate = Candidate.from_dict(row["selected"])
+                        with state._lock:
+                            if row.get("source_repair"):
+                                # Consume a fresh repair before the first network
+                                # attempt. A failing replacement keeps its backoff.
+                                state.row(episode)["source_repair_token"] = row["source_repair"]["token"]
+                            state.prepared(episode, candidate, row["display_name"])
+                    refreshed = prepare_source(provider, candidate, require_original_size)
+
+                    def prepared(video_id: str, size: int) -> None:
+                        state.row(episode)["prepared_target"] = {"target_video_id": video_id, "size_bytes": size}
+                        state.save()
+
+                    state.row(episode)["prepared_target"] = {"creation_intent": True}
+                    state.save()
+                    upload_request = receipt_requester(state, episode) if recover_target_errors else None
+                    # The SDK's full-name listing check cannot find moved videos.
+                    # Do not spend five minutes repeating that check: on failure,
+                    # reconcile the accepted full transfer against the saved ID.
+                    options = (
+                        {"upload_requester": upload_request, "confirmation_timeout_seconds": 0}
+                        if upload_request
+                        else {}
+                    )
+                    # Checkpoints and the SDK's statistics can outlive a media
+                    # URL. Resolve again at its actual GET and retain that stream.
+                    source_request = FreshSourceSession(
+                        provider, candidate, require_original_size=require_original_size
+                    )
+                    result = prehrajto.relay_upload(
+                        target,
+                        source_request,
+                        refreshed,
+                        row["display_name"],
+                        episode.description,
+                        on_prepared=prepared,
+                        **options,
+                    )
+                    if upload_request:
+                        # The SDK may return from its monitor while the POST is
+                        # still awaiting a response. Keep this worker occupied
+                        # and retain the allocation until acceptance is durable.
+                        upload_request.finished.wait()
+                        if not receipt_matches(state.row(episode)):
+                            raise TargetPending("Relay returned without a complete accepted-transfer receipt")
+                    if not target_confirmed(target, result.video_id, row["display_name"]):
+                        if recover_target_errors and receipt_matches(state.row(episode)):
+                            raise TargetPending("Accepted transfer awaits matching target listing and statistics")
+                        raise RuntimeError("Target listing and statistics did not confirm the uploaded episode")
+                    state.success(episode, result.video_id, row["display_name"])
+                    completed += 1
+                except Exception as error:
+                    if source_request is not None and source_request.failure_before_return is error:
+                        with state._lock:
+                            record = state.row(episode)
+                            if record.get("prepared_target") == {"creation_intent": True} and not record.get(
+                                "transfer_receipt"
+                            ):
+                                # The source GET failed before the SDK could
+                                # allocate anything. Persist removal with failure;
+                                # never remove an ID or an older uncertain intent.
+                                record.pop("prepared_target")
+                    if upload_request and not upload_request.finished.is_set():
+                        # The relay monitor can fail before its HTTP thread ends.
+                        # Do not let a new batch exceed the two-transfer limit.
+                        if transient_pause is not None:
+                            transient_pause.set()
+                        print(f"waiting_for_transfer_exit identity={row['identity']}", flush=True)
+                        upload_request.finished.wait()
+                    if recover_target_errors and isinstance(error, CheckpointError):
+                        # Halt new claims until the entire shared state (including
+                        # the allocation intent/ID) is successfully pushed. If this
+                        # retry also fails, propagate to the fatal circuit breaker.
+                        if transient_pause is not None:
+                            transient_pause.set()
+                        state.failure(episode, error)
+                        print(
+                            f"checkpoint_recovered identity={row['identity']} error={error_evidence(error)}", flush=True
+                        )
+                        continue
+                    source_deferred = (
+                        recover_source_errors
+                        and isinstance(error, SourceUnavailable)
+                        and not state.row(episode).get("prepared_target")
+                    )
+                    target_deferred = (
+                        recover_target_errors
+                        and not source_deferred
+                        and (
+                            transient_http(error)
+                            or isinstance(error, TargetPending)
+                            or isinstance(error, prehrajto.PrehrajtoError)
+                            and bool(state.row(episode).get("prepared_target"))
+                        )
+                    )
+                    if target_deferred and transient_http(error) and transient_pause is not None:
+                        transient_pause.set()
+                    if stop_event is not None and not (source_deferred or target_deferred):
+                        stop_event.set()
+                    try:
+                        # A newly allocated target can appear in the listing
+                        # before its bytes arrive. Strict replay must not call
+                        # that a successful transfer after an exception.
+                        reconciled = None
+                        record = state.row(episode)
+                        if require_original_size:
+                            if (
+                                recover_target_errors
+                                and isinstance(error, prehrajto.PrehrajtoError)
+                                and receipt_matches(record)
+                            ):
+                                saved_id = record["prepared_target"]["target_video_id"]
+                                if target_confirmed(target, saved_id, row["display_name"]):
+                                    reconciled = saved_id
+                        else:
+                            reconciled = existing_episode(
+                                target, row["display_name"], record.get("prepared_target", {}).get("target_video_id")
+                            )
+                    except Exception:
+                        reconciled = None
+                    if reconciled:
+                        state.success(episode, reconciled, row["display_name"])
+                        completed += 1
+                    else:
+                        state.failure(episode, error)
+                    outcome = (
+                        "upload_reconciled"
+                        if reconciled
+                        else "source_deferred"
+                        if source_deferred
+                        else "target_deferred"
+                        if target_deferred
+                        else "upload_failed"
+                    )
+                    print(f"{outcome} identity={row.get('identity')} error={error_evidence(error)}", flush=True)
+                finally:
+                    with queue_condition:
+                        in_flight -= 1
+                        queue_condition.notify_all()
+
+        completed = sum(executor.map(worker, range(workers)))
+        try:
+            after = prehrajto.uploaded_video_count(pairs[0][1])
+        except Exception as error:
+            if not recover_target_errors or not transient_http(error):
+                raise
+            after = None
+            if transient_pause is not None:
+                transient_pause.set()
+            print(f"target_statistics_deferred error={error_evidence(error)}", flush=True)
+    return {
+        "released_orphaned_claims": released,
+        "queued": len(known_identities),
+        "uploaded_or_reconciled": completed,
+        "target_video_count_before": before,
+        "target_video_count_after": after,
+        "claim_deadline_reached": admission_closed(),
+    }
