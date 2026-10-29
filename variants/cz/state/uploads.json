@@ -6248,12 +6248,6 @@
     },
     "14:2:7": {
       "episode_key": "hra o trůny:s2:e7",
-      "claim": {
-        "worker_id": "505c037898d0473889cf26cd19164292-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:46:33.372177+00:00",
-        "lease_expires_at": "2026-10-30T00:46:33.372188+00:00"
-      },
       "source": {
         "source_id": "34402281",
         "source_url": "https://sdilej.cz/34402281/hra-o-truny-s02e07-muz-beze-cti-a-man-without-honor-.mkv",
@@ -6278,15 +6272,22 @@
         "display_name": "Game of Thrones S02E07 A Man Without Honor 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:46:35.085565+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616820",
-        "size_bytes": 2411963089
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616820",
+          "size_bytes": 2411963089,
+          "source_bytes_read": 2411963089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402281",
+        "source_url": "https://sdilej.cz/34402281/hra-o-truny-s02e07-muz-beze-cti-a-man-without-honor-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616820",
-        "size_bytes": 2411963089,
-        "source_bytes_read": 2411963089,
-        "http_status": 201
+        "display_name": "Game of Thrones S02E07 A Man Without Honor 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:54:56.125454+00:00"
       }
     },
     "14:2:8": {
@@ -6376,5 +6377,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:54:51.309082+00:00"
+  "updated_at": "2026-10-29T18:54:56.125471+00:00"
 }
