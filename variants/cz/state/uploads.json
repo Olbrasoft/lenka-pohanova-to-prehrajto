@@ -3626,12 +3626,6 @@
     },
     "1575:2:8": {
       "episode_key": "the wire – špína baltimoru:s2:e8",
-      "claim": {
-        "worker_id": "084cbbae6e824adc87bcfadbbb55e9ed-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:37:35.937679+00:00",
-        "lease_expires_at": "2026-10-29T22:37:35.937691+00:00"
-      },
       "source": {
         "source_id": "28544266",
         "source_url": "https://sdilej.cz/28544266/the-wire-s02e08-1080p-cz-dabing.mkv",
@@ -3656,15 +3650,22 @@
         "display_name": "The Wire S02E08 Duck and Cover 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:37:37.741094+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614230",
-        "size_bytes": 1768271082
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614230",
+          "size_bytes": 1768271082,
+          "source_bytes_read": 1768271082,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28544266",
+        "source_url": "https://sdilej.cz/28544266/the-wire-s02e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614230",
-        "size_bytes": 1768271082,
-        "source_bytes_read": 1768271082,
-        "http_status": 201
+        "display_name": "The Wire S02E08 Duck and Cover 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:43:50.021314+00:00"
       }
     },
     "1575:2:9": {
@@ -3747,5 +3748,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:43:46.562362+00:00"
+  "updated_at": "2026-10-29T16:43:50.021331+00:00"
 }
