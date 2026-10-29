@@ -4110,12 +4110,6 @@
     },
     "1575:3:7": {
       "episode_key": "the wire – špína baltimoru:s3:e7",
-      "claim": {
-        "worker_id": "64a4a2723cdf4e3c86f6aed15b76f2e8-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:02:00.102774+00:00",
-        "lease_expires_at": "2026-10-29T23:02:00.102785+00:00"
-      },
       "source": {
         "source_id": "28558080",
         "source_url": "https://sdilej.cz/28558080/the-wire-s03e07-1080p-cz-dabing.mkv",
@@ -4140,15 +4134,22 @@
         "display_name": "The Wire S03E07 Back Burners 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:02:01.910942+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614678",
-        "size_bytes": 1710237769
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614678",
+          "size_bytes": 1710237769,
+          "source_bytes_read": 1710237769,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28558080",
+        "source_url": "https://sdilej.cz/28558080/the-wire-s03e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614678",
-        "size_bytes": 1710237769,
-        "source_bytes_read": 1710237769,
-        "http_status": 201
+        "display_name": "The Wire S03E07 Back Burners 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:07:51.813151+00:00"
       }
     },
     "1575:3:8": {
@@ -4231,5 +4232,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:07:44.576993+00:00"
+  "updated_at": "2026-10-29T17:07:51.813168+00:00"
 }
