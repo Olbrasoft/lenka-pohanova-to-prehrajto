@@ -6775,12 +6775,6 @@
     },
     "14:3:9": {
       "episode_key": "hra o trůny:s3:e9",
-      "claim": {
-        "worker_id": "0e04307aa49e4c2e9f3d95d6ccdf5f20-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T19:19:46.045284+00:00",
-        "lease_expires_at": "2026-10-30T01:19:46.045296+00:00"
-      },
       "source": {
         "source_id": "34402359",
         "source_url": "https://sdilej.cz/34402359/hra-o-truny-s03e09-deste-kastameru-the-rains-of-castamere-.mkv",
@@ -6805,15 +6799,22 @@
         "display_name": "Game of Thrones S03E09 The Rains of Castamere 4K CZ Dabing",
         "prepared_at": "2026-10-29T19:19:47.548163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30617452",
-        "size_bytes": 2231617412
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30617452",
+          "size_bytes": 2231617412,
+          "source_bytes_read": 2231617412,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402359",
+        "source_url": "https://sdilej.cz/34402359/hra-o-truny-s03e09-deste-kastameru-the-rains-of-castamere-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30617452",
-        "size_bytes": 2231617412,
-        "source_bytes_read": 2231617412,
-        "http_status": 201
+        "display_name": "Game of Thrones S03E09 The Rains of Castamere 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:26:33.824714+00:00"
       }
     },
     "14:3:10": {
@@ -6859,5 +6860,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:26:26.958702+00:00"
+  "updated_at": "2026-10-29T19:26:33.824731+00:00"
 }
