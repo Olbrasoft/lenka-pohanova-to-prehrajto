@@ -11401,12 +11401,6 @@
     },
     "22:5:10": {
       "episode_key": "rodina sopránů:s5:e10",
-      "claim": {
-        "worker_id": "141c2e8966aa4d7bbdd1cd8d380bbd1d-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:54:14.951577+00:00",
-        "lease_expires_at": "2026-10-30T05:54:14.951588+00:00"
-      },
       "source": {
         "source_id": "14660826",
         "source_url": "https://sdilej.cz/14660826/the-sopranos.s05e10.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -11431,15 +11425,22 @@
         "display_name": "The Sopranos S05E10 Cold Cuts 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:54:16.315035+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621788",
-        "size_bytes": 652313426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621788",
+          "size_bytes": 652313426,
+          "source_bytes_read": 652313426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660826",
+        "source_url": "https://sdilej.cz/14660826/the-sopranos.s05e10.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621788",
-        "size_bytes": 652313426,
-        "source_bytes_read": 652313426,
-        "http_status": 201
+        "display_name": "The Sopranos S05E10 Cold Cuts 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:56:54.714188+00:00"
       }
     },
     "22:5:11": {
@@ -11485,5 +11486,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:56:52.585891+00:00"
+  "updated_at": "2026-10-29T23:56:54.714204+00:00"
 }
