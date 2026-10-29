@@ -5071,12 +5071,6 @@
     },
     "1575:5:4": {
       "episode_key": "the wire – špína baltimoru:s5:e4",
-      "claim": {
-        "worker_id": "e96d62cc7a3e48708f28b57caea0a475-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:47:43.493352+00:00",
-        "lease_expires_at": "2026-10-29T23:47:43.493363+00:00"
-      },
       "source": {
         "source_id": "28793951",
         "source_url": "https://sdilej.cz/28793951/the-wire-s05e04-1080p-cz-dabing.mkv",
@@ -5101,15 +5095,22 @@
         "display_name": "The Wire S05E04 Transitions 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:47:45.229280+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615597",
-        "size_bytes": 1804636643
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615597",
+          "size_bytes": 1804636643,
+          "source_bytes_read": 1804636643,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28793951",
+        "source_url": "https://sdilej.cz/28793951/the-wire-s05e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615597",
-        "size_bytes": 1804636643,
-        "source_bytes_read": 1804636643,
-        "http_status": 201
+        "display_name": "The Wire S05E04 Transitions 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:54:22.918178+00:00"
       }
     },
     "1575:5:5": {
@@ -5155,5 +5156,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:54:18.195110+00:00"
+  "updated_at": "2026-10-29T17:54:22.918193+00:00"
 }
