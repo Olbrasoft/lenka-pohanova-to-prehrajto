@@ -4374,12 +4374,6 @@
     },
     "1575:3:12": {
       "episode_key": "the wire – špína baltimoru:s3:e12",
-      "claim": {
-        "worker_id": "03cb01f87de14f8fb970777e65f71905-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:15:26.771251+00:00",
-        "lease_expires_at": "2026-10-29T23:15:26.771260+00:00"
-      },
       "source": {
         "source_id": "28562558",
         "source_url": "https://sdilej.cz/28562558/the-wire-s03e12-1080p-cz-dabing.mkv",
@@ -4404,15 +4398,22 @@
         "display_name": "The Wire S03E12 Mission Accomplished 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:15:30.575208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614914",
-        "size_bytes": 1948451486
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614914",
+          "size_bytes": 1948451486,
+          "source_bytes_read": 1948451486,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28562558",
+        "source_url": "https://sdilej.cz/28562558/the-wire-s03e12-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614914",
-        "size_bytes": 1948451486,
-        "source_bytes_read": 1948451486,
-        "http_status": 201
+        "display_name": "The Wire S03E12 Mission Accomplished 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:22:27.747679+00:00"
       }
     },
     "1575:4:2": {
@@ -4495,5 +4496,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:22:25.092895+00:00"
+  "updated_at": "2026-10-29T17:22:27.747697+00:00"
 }
