@@ -10786,12 +10786,6 @@
     },
     "22:4:9": {
       "episode_key": "rodina sopránů:s4:e9",
-      "claim": {
-        "worker_id": "59309d3d14294959ac5c7f35bad9e28f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:40:11.606973+00:00",
-        "lease_expires_at": "2026-10-30T05:40:11.606983+00:00"
-      },
       "source": {
         "source_id": "5816036",
         "source_url": "https://sdilej.cz/5816036/the-sopranos.s04e09.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10816,15 +10810,22 @@
         "display_name": "The Sopranos S04E09 Whoever Did This 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:40:12.983659+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621545",
-        "size_bytes": 721252482
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621545",
+          "size_bytes": 721252482,
+          "source_bytes_read": 721252482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5816036",
+        "source_url": "https://sdilej.cz/5816036/the-sopranos.s04e09.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621545",
-        "size_bytes": 721252482,
-        "source_bytes_read": 721252482,
-        "http_status": 201
+        "display_name": "The Sopranos S04E09 Whoever Did This 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:42:52.134548+00:00"
       }
     },
     "22:4:10": {
@@ -10907,5 +10908,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:42:48.712973+00:00"
+  "updated_at": "2026-10-29T23:42:52.134565+00:00"
 }
