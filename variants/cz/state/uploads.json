@@ -8894,12 +8894,6 @@
     },
     "22:1:5": {
       "episode_key": "rodina sopránů:s1:e5",
-      "claim": {
-        "worker_id": "00013fe8b8614609b9a627c6efa02fb6-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T22:55:05.348900+00:00",
-        "lease_expires_at": "2026-10-30T04:55:05.348911+00:00"
-      },
       "source": {
         "source_id": "8589889",
         "source_url": "https://sdilej.cz/8589889/the.sopranos.s01e05.bluray.1080p.x265.hevc-lion-utr-czaudio-.mkv",
@@ -8924,15 +8918,22 @@
         "display_name": "The Sopranos S01E05 College 1080p CZ Dabing",
         "prepared_at": "2026-10-29T22:55:06.773398+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30620924",
-        "size_bytes": 1210217008
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30620924",
+          "size_bytes": 1210217008,
+          "source_bytes_read": 1210217008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8589889",
+        "source_url": "https://sdilej.cz/8589889/the.sopranos.s01e05.bluray.1080p.x265.hevc-lion-utr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30620924",
-        "size_bytes": 1210217008,
-        "source_bytes_read": 1210217008,
-        "http_status": 201
+        "display_name": "The Sopranos S01E05 College 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T22:59:26.435615+00:00"
       }
     },
     "22:1:6": {
@@ -9103,5 +9104,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T22:59:23.935773+00:00"
+  "updated_at": "2026-10-29T22:59:26.435632+00:00"
 }
