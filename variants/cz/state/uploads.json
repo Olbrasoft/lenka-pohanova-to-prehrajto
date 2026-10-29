@@ -11036,12 +11036,6 @@
     },
     "22:5:2": {
       "episode_key": "rodina sopránů:s5:e2",
-      "claim": {
-        "worker_id": "b5e0887a59ab44118203c1bbc4a9c91e-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:45:44.352765+00:00",
-        "lease_expires_at": "2026-10-30T05:45:44.352777+00:00"
-      },
       "source": {
         "source_id": "6806824",
         "source_url": "https://sdilej.cz/6806824/the-sopranos.s05e02.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -11066,15 +11060,22 @@
         "display_name": "The Sopranos S05E02 Rat Pack 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:45:45.722087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621646",
-        "size_bytes": 657432273
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621646",
+          "size_bytes": 657432273,
+          "source_bytes_read": 657432273,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6806824",
+        "source_url": "https://sdilej.cz/6806824/the-sopranos.s05e02.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621646",
-        "size_bytes": 657432273,
-        "source_bytes_read": 657432273,
-        "http_status": 201
+        "display_name": "The Sopranos S05E02 Rat Pack 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:47:36.423720+00:00"
       }
     }
   },
@@ -11083,5 +11084,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:47:34.169018+00:00"
+  "updated_at": "2026-10-29T23:47:36.423739+00:00"
 }
