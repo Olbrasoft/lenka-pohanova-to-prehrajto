@@ -7611,12 +7611,6 @@
     },
     "14:5:8": {
       "episode_key": "hra o trůny:s5:e8",
-      "claim": {
-        "worker_id": "e8194f1910754e0fa873caf7b0866bad-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T20:19:21.794520+00:00",
-        "lease_expires_at": "2026-10-30T02:19:21.794530+00:00"
-      },
       "source": {
         "source_id": "34402450",
         "source_url": "https://sdilej.cz/34402450/hra-o-truny-s05e08-tvrdodomov-hardhome-.mkv",
@@ -7641,15 +7635,22 @@
         "display_name": "Game of Thrones S05E08 Hardhome 4K CZ Dabing",
         "prepared_at": "2026-10-29T20:19:24.302927+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30618445",
-        "size_bytes": 2633926560
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30618445",
+          "size_bytes": 2633926560,
+          "source_bytes_read": 2633926560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402450",
+        "source_url": "https://sdilej.cz/34402450/hra-o-truny-s05e08-tvrdodomov-hardhome-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30618445",
-        "size_bytes": 2633926560,
-        "source_bytes_read": 2633926560,
-        "http_status": 201
+        "display_name": "Game of Thrones S05E08 Hardhome 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T20:29:06.111591+00:00"
       }
     },
     "14:5:9": {
@@ -7695,5 +7696,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T20:29:00.468781+00:00"
+  "updated_at": "2026-10-29T20:29:06.111625+00:00"
 }
