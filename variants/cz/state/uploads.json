@@ -9767,12 +9767,6 @@
     },
     "22:2:12": {
       "episode_key": "rodina sopránů:s2:e12",
-      "claim": {
-        "worker_id": "45f535885fc242f195d796f030ac2264-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:16:00.821399+00:00",
-        "lease_expires_at": "2026-10-30T05:16:00.821408+00:00"
-      },
       "source": {
         "source_id": "14660788",
         "source_url": "https://sdilej.cz/14660788/the-sopranos.s02e12.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -9797,15 +9791,22 @@
         "display_name": "The Sopranos S02E12 The Knight in White Satin Armor 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:16:02.124214+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621201",
-        "size_bytes": 677759709
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621201",
+          "size_bytes": 677759709,
+          "source_bytes_read": 677759709,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660788",
+        "source_url": "https://sdilej.cz/14660788/the-sopranos.s02e12.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621201",
-        "size_bytes": 677759709,
-        "source_bytes_read": 677759709,
-        "http_status": 201
+        "display_name": "The Sopranos S02E12 The Knight in White Satin Armor 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:17:57.070516+00:00"
       }
     },
     "22:2:13": {
@@ -9851,5 +9852,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:17:53.192487+00:00"
+  "updated_at": "2026-10-29T23:17:57.070532+00:00"
 }
