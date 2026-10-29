@@ -8630,12 +8630,6 @@
     },
     "14:8:5": {
       "episode_key": "hra o trůny:s8:e5",
-      "claim": {
-        "worker_id": "d3ec477fa3a24367808dfae9c1c7fc39-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T22:34:36.532560+00:00",
-        "lease_expires_at": "2026-10-30T04:34:36.532572+00:00"
-      },
       "source": {
         "source_id": "34402625",
         "source_url": "https://sdilej.cz/34402625/hra-o-truny-s08e05-zvony-the-bells-.mkv",
@@ -8660,15 +8654,22 @@
         "display_name": "Game of Thrones S08E05 The Bells 4K CZ Dabing",
         "prepared_at": "2026-10-29T22:34:38.340905+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30620670",
-        "size_bytes": 3421649280
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30620670",
+          "size_bytes": 3421649280,
+          "source_bytes_read": 3421649280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402625",
+        "source_url": "https://sdilej.cz/34402625/hra-o-truny-s08e05-zvony-the-bells-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30620670",
-        "size_bytes": 3421649280,
-        "source_bytes_read": 3421649280,
-        "http_status": 201
+        "display_name": "Game of Thrones S08E05 The Bells 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T22:47:55.858812+00:00"
       }
     },
     "14:8:6": {
@@ -8758,5 +8759,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T22:47:51.142262+00:00"
+  "updated_at": "2026-10-29T22:47:55.858829+00:00"
 }
