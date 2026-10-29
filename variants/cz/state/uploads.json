@@ -8484,12 +8484,6 @@
     },
     "14:8:1": {
       "episode_key": "hra o trůny:s8:e1",
-      "claim": {
-        "worker_id": "90c623e682264a7ea7de4d117c3793f8-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T22:21:32.886458+00:00",
-        "lease_expires_at": "2026-10-30T04:21:32.886470+00:00"
-      },
       "source": {
         "source_id": "34402590",
         "source_url": "https://sdilej.cz/34402590/hra-o-truny-s08e01-zimohrad-winterfell-.mkv",
@@ -8514,15 +8508,22 @@
         "display_name": "Game of Thrones S08E01 Winterfell 4K CZ Dabing",
         "prepared_at": "2026-10-29T22:21:34.561790+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30620511",
-        "size_bytes": 2333796068
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30620511",
+          "size_bytes": 2333796068,
+          "source_bytes_read": 2333796068,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402590",
+        "source_url": "https://sdilej.cz/34402590/hra-o-truny-s08e01-zimohrad-winterfell-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30620511",
-        "size_bytes": 2333796068,
-        "source_bytes_read": 2333796068,
-        "http_status": 201
+        "display_name": "Game of Thrones S08E01 Winterfell 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T22:29:55.537688+00:00"
       }
     }
   },
@@ -8531,5 +8532,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T22:29:51.794162+00:00"
+  "updated_at": "2026-10-29T22:29:55.537702+00:00"
 }
