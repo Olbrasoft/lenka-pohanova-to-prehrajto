@@ -4594,12 +4594,6 @@
     },
     "1575:4:6": {
       "episode_key": "the wire – špína baltimoru:s4:e6",
-      "claim": {
-        "worker_id": "26da241d19644ce6a1886604519f04fa-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:27:35.355060+00:00",
-        "lease_expires_at": "2026-10-29T23:27:35.355072+00:00"
-      },
       "source": {
         "source_id": "28615960",
         "source_url": "https://sdilej.cz/28615960/the-wire-s04e06-1080p-cz-dabing.mkv",
@@ -4624,15 +4618,22 @@
         "display_name": "The Wire S04E06 Margin of Error 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:27:37.041216+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615270",
-        "size_bytes": 1787860291
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615270",
+          "size_bytes": 1787860291,
+          "source_bytes_read": 1787860291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28615960",
+        "source_url": "https://sdilej.cz/28615960/the-wire-s04e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615270",
-        "size_bytes": 1787860291,
-        "source_bytes_read": 1787860291,
-        "http_status": 201
+        "display_name": "The Wire S04E06 Margin of Error 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:32:40.296207+00:00"
       }
     },
     "1575:4:7": {
@@ -4715,5 +4716,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:32:37.531438+00:00"
+  "updated_at": "2026-10-29T17:32:40.296224+00:00"
 }
