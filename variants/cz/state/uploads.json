@@ -9950,12 +9950,6 @@
     },
     "22:3:3": {
       "episode_key": "rodina sopránů:s3:e3",
-      "claim": {
-        "worker_id": "9ba5aaee63354982b18f308bd3b49a61-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:21:38.277038+00:00",
-        "lease_expires_at": "2026-10-30T05:21:38.277047+00:00"
-      },
       "source": {
         "source_id": "14660772",
         "source_url": "https://sdilej.cz/14660772/the-sopranos.s03e03.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -9980,15 +9974,22 @@
         "display_name": "The Sopranos S03E03 Fortunate Son 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:21:40.130594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621259",
-        "size_bytes": 813541189
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621259",
+          "size_bytes": 813541189,
+          "source_bytes_read": 813541189,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660772",
+        "source_url": "https://sdilej.cz/14660772/the-sopranos.s03e03.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621259",
-        "size_bytes": 813541189,
-        "source_bytes_read": 813541189,
-        "http_status": 201
+        "display_name": "The Sopranos S03E03 Fortunate Son 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:24:30.354695+00:00"
       }
     },
     "22:3:4": {
@@ -10071,5 +10072,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:24:23.595732+00:00"
+  "updated_at": "2026-10-29T23:24:30.354713+00:00"
 }
