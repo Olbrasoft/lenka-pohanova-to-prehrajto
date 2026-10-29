@@ -4638,12 +4638,6 @@
     },
     "1575:4:7": {
       "episode_key": "the wire – špína baltimoru:s4:e7",
-      "claim": {
-        "worker_id": "cf50d5c446fb4c95874fe828e26765fd-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:30:10.738730+00:00",
-        "lease_expires_at": "2026-10-29T23:30:10.738742+00:00"
-      },
       "source": {
         "source_id": "28616317",
         "source_url": "https://sdilej.cz/28616317/the-wire-s04e07-1080p-cz-dabing.mkv",
@@ -4668,15 +4662,22 @@
         "display_name": "The Wire S04E07 Unto Others 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:30:14.796651+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615326",
-        "size_bytes": 1801932974
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615326",
+          "size_bytes": 1801932974,
+          "source_bytes_read": 1801932974,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28616317",
+        "source_url": "https://sdilej.cz/28616317/the-wire-s04e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615326",
-        "size_bytes": 1801932974,
-        "source_bytes_read": 1801932974,
-        "http_status": 201
+        "display_name": "The Wire S04E07 Unto Others 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:35:21.843219+00:00"
       }
     },
     "1575:4:8": {
@@ -4759,5 +4760,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:35:17.654186+00:00"
+  "updated_at": "2026-10-29T17:35:21.843235+00:00"
 }
