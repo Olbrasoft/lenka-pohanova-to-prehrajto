@@ -6275,12 +6275,6 @@
     },
     "14:2:8": {
       "episode_key": "hra o trůny:s2:e8",
-      "claim": {
-        "worker_id": "6f0c5377f7274da3ba2a4e00df1166c2-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:47:10.134619+00:00",
-        "lease_expires_at": "2026-10-30T00:47:10.134636+00:00"
-      },
       "source": {
         "source_id": "34402280",
         "source_url": "https://sdilej.cz/34402280/hra-o-truny-s02e08-princ-ze-zimohradu-the-prince-of-winterfell-.mkv",
@@ -6305,15 +6299,22 @@
         "display_name": "Game of Thrones S02E08 The Prince of Winterfell 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:47:13.119067+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616830",
-        "size_bytes": 2331815873
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616830",
+          "size_bytes": 2331815873,
+          "source_bytes_read": 2331815873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402280",
+        "source_url": "https://sdilej.cz/34402280/hra-o-truny-s02e08-princ-ze-zimohradu-the-prince-of-winterfell-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616830",
-        "size_bytes": 2331815873,
-        "source_bytes_read": 2331815873,
-        "http_status": 201
+        "display_name": "Game of Thrones S02E08 The Prince of Winterfell 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:54:19.977683+00:00"
       }
     },
     "14:2:9": {
@@ -6359,5 +6360,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:54:13.420191+00:00"
+  "updated_at": "2026-10-29T18:54:19.977700+00:00"
 }
