@@ -10214,12 +10214,6 @@
     },
     "22:3:9": {
       "episode_key": "rodina sopránů:s3:e9",
-      "claim": {
-        "worker_id": "b47496a79f90464e8ac017e0cd6d5e87-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:27:18.525519+00:00",
-        "lease_expires_at": "2026-10-30T05:27:18.525530+00:00"
-      },
       "source": {
         "source_id": "14660773",
         "source_url": "https://sdilej.cz/14660773/the-sopranos.s03e09.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10244,15 +10238,22 @@
         "display_name": "The Sopranos S03E09 The Telltale Moozadell 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:27:23.899294+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621323",
-        "size_bytes": 762067742
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621323",
+          "size_bytes": 762067742,
+          "source_bytes_read": 762067742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660773",
+        "source_url": "https://sdilej.cz/14660773/the-sopranos.s03e09.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621323",
-        "size_bytes": 762067742,
-        "source_bytes_read": 762067742,
-        "http_status": 201
+        "display_name": "The Sopranos S03E09 The Telltale Moozadell 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:30:06.979622+00:00"
       }
     },
     "22:3:10": {
@@ -10335,5 +10336,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:30:03.952196+00:00"
+  "updated_at": "2026-10-29T23:30:06.979634+00:00"
 }
