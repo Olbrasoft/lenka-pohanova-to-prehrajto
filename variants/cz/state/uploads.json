@@ -9415,12 +9415,6 @@
     },
     "22:2:4": {
       "episode_key": "rodina sopránů:s2:e4",
-      "claim": {
-        "worker_id": "600314421e3541cdb64c93398b485b97-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:07:17.684050+00:00",
-        "lease_expires_at": "2026-10-30T05:07:17.684061+00:00"
-      },
       "source": {
         "source_id": "14660785",
         "source_url": "https://sdilej.cz/14660785/the-sopranos.s02e04.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -9445,15 +9439,22 @@
         "display_name": "The Sopranos S02E04 Commendatori 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:07:18.946652+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621107",
-        "size_bytes": 709423982
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621107",
+          "size_bytes": 709423982,
+          "source_bytes_read": 709423982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660785",
+        "source_url": "https://sdilej.cz/14660785/the-sopranos.s02e04.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621107",
-        "size_bytes": 709423982,
-        "source_bytes_read": 709423982,
-        "http_status": 201
+        "display_name": "The Sopranos S02E04 Commendatori 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:09:59.169590+00:00"
       }
     }
   },
@@ -9462,5 +9463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:09:55.637584+00:00"
+  "updated_at": "2026-10-29T23:09:59.169607+00:00"
 }
