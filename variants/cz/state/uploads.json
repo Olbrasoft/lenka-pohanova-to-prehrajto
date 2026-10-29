@@ -3802,12 +3802,6 @@
     },
     "1575:2:12": {
       "episode_key": "the wire – špína baltimoru:s2:e12",
-      "claim": {
-        "worker_id": "427a2595312e4313880e1c6f501433f7-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:47:38.798681+00:00",
-        "lease_expires_at": "2026-10-29T22:47:38.798693+00:00"
-      },
       "source": {
         "source_id": "28545241",
         "source_url": "https://sdilej.cz/28545241/the-wire-s02e12-1080p-cz-dabing.mkv",
@@ -3832,15 +3826,22 @@
         "display_name": "The Wire S02E12 Port in a Storm 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:47:40.567634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614426",
-        "size_bytes": 1938429605
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614426",
+          "size_bytes": 1938429605,
+          "source_bytes_read": 1938429605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28545241",
+        "source_url": "https://sdilej.cz/28545241/the-wire-s02e12-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614426",
-        "size_bytes": 1938429605,
-        "source_bytes_read": 1938429605,
-        "http_status": 201
+        "display_name": "The Wire S02E12 Port in a Storm 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:53:26.458954+00:00"
       }
     },
     "1575:3:1": {
@@ -3923,5 +3924,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:53:21.377323+00:00"
+  "updated_at": "2026-10-29T16:53:26.458973+00:00"
 }
