@@ -8315,12 +8315,6 @@
     },
     "14:7:4": {
       "episode_key": "hra o trůny:s7:e4",
-      "claim": {
-        "worker_id": "aa10061108aa4b9c9901852b017b384c-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T21:50:12.499219+00:00",
-        "lease_expires_at": "2026-10-30T03:50:12.499229+00:00"
-      },
       "source": {
         "source_id": "29051682",
         "source_url": "https://sdilej.cz/29051682/hra-o-truny-game-of-thrones-s07e04-cz.mkv",
@@ -8345,15 +8339,22 @@
         "display_name": "Game of Thrones S07E04 The Spoils of War 4K CZ Dabing",
         "prepared_at": "2026-10-29T21:50:13.922409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30620096",
-        "size_bytes": 7435272045
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30620096",
+          "size_bytes": 7435272045,
+          "source_bytes_read": 7435272045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29051682",
+        "source_url": "https://sdilej.cz/29051682/hra-o-truny-game-of-thrones-s07e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30620096",
-        "size_bytes": 7435272045,
-        "source_bytes_read": 7435272045,
-        "http_status": 201
+        "display_name": "Game of Thrones S07E04 The Spoils of War 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T22:20:39.653659+00:00"
       }
     },
     "14:7:5": {
@@ -8443,5 +8444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T22:20:36.589681+00:00"
+  "updated_at": "2026-10-29T22:20:39.653674+00:00"
 }
