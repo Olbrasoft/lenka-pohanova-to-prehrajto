@@ -3362,12 +3362,6 @@
     },
     "1575:2:2": {
       "episode_key": "the wire – špína baltimoru:s2:e2",
-      "claim": {
-        "worker_id": "ec94ceece9bb4e02a9c3950a894bf05b-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:25:35.765160+00:00",
-        "lease_expires_at": "2026-10-29T22:25:35.765171+00:00"
-      },
       "source": {
         "source_id": "28541291",
         "source_url": "https://sdilej.cz/28541291/the-wire-s02e02-1080p-cz-dabing.mkv",
@@ -3392,15 +3386,22 @@
         "display_name": "The Wire S02E02 Collateral Damage 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:25:37.911277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613964",
-        "size_bytes": 1804409248
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613964",
+          "size_bytes": 1804409248,
+          "source_bytes_read": 1804409248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28541291",
+        "source_url": "https://sdilej.cz/28541291/the-wire-s02e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613964",
-        "size_bytes": 1804409248,
-        "source_bytes_read": 1804409248,
-        "http_status": 201
+        "display_name": "The Wire S02E02 Collateral Damage 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:31:14.255421+00:00"
       }
     },
     "1575:2:3": {
@@ -3483,5 +3484,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:31:09.492333+00:00"
+  "updated_at": "2026-10-29T16:31:14.255435+00:00"
 }
