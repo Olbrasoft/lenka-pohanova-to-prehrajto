@@ -3846,12 +3846,6 @@
     },
     "1575:3:1": {
       "episode_key": "the wire – špína baltimoru:s3:e1",
-      "claim": {
-        "worker_id": "cd390a6fc7d544c096f28bc34fa06610-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:49:35.433585+00:00",
-        "lease_expires_at": "2026-10-29T22:49:35.433597+00:00"
-      },
       "source": {
         "source_id": "28554534",
         "source_url": "https://sdilej.cz/28554534/the-wire-s03e01-1080p-cz-dabing.mkv",
@@ -3876,15 +3870,22 @@
         "display_name": "The Wire S03E01 Time After Time 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:49:37.352290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614465",
-        "size_bytes": 1802908065
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614465",
+          "size_bytes": 1802908065,
+          "source_bytes_read": 1802908065,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28554534",
+        "source_url": "https://sdilej.cz/28554534/the-wire-s03e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614465",
-        "size_bytes": 1802908065,
-        "source_bytes_read": 1802908065,
-        "http_status": 201
+        "display_name": "The Wire S03E01 Time After Time 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:55:32.018229+00:00"
       }
     },
     "1575:3:2": {
@@ -3967,5 +3968,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:55:28.965869+00:00"
+  "updated_at": "2026-10-29T16:55:32.018246+00:00"
 }
