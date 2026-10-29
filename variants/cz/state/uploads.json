@@ -5034,12 +5034,6 @@
     },
     "1575:5:3": {
       "episode_key": "the wire – špína baltimoru:s5:e3",
-      "claim": {
-        "worker_id": "a112f3914c8340bb8d5f9f5391df3e39-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T17:46:41.237722+00:00",
-        "lease_expires_at": "2026-10-29T23:46:41.237735+00:00"
-      },
       "source": {
         "source_id": "28793683",
         "source_url": "https://sdilej.cz/28793683/the-wire-s05e03-1080p-cz-dabing.mkv",
@@ -5064,15 +5058,22 @@
         "display_name": "The Wire S05E03 Not for Attribution 1080p CZ Dabing",
         "prepared_at": "2026-10-29T17:46:43.010641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615583",
-        "size_bytes": 1805910547
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615583",
+          "size_bytes": 1805910547,
+          "source_bytes_read": 1805910547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28793683",
+        "source_url": "https://sdilej.cz/28793683/the-wire-s05e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615583",
-        "size_bytes": 1805910547,
-        "source_bytes_read": 1805910547,
-        "http_status": 201
+        "display_name": "The Wire S05E03 Not for Attribution 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T17:54:40.472874+00:00"
       }
     },
     "1575:5:4": {
@@ -5198,5 +5199,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T17:54:37.786979+00:00"
+  "updated_at": "2026-10-29T17:54:40.472891+00:00"
 }
