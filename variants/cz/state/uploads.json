@@ -3670,12 +3670,6 @@
     },
     "1575:2:9": {
       "episode_key": "the wire – špína baltimoru:s2:e9",
-      "claim": {
-        "worker_id": "31b41b186f1a438eac863cf4daf8c6f0-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:41:58.913750+00:00",
-        "lease_expires_at": "2026-10-29T22:41:58.913766+00:00"
-      },
       "source": {
         "source_id": "28544416",
         "source_url": "https://sdilej.cz/28544416/the-wire-s02e09-1080p-cz-dabing.mkv",
@@ -3700,15 +3694,22 @@
         "display_name": "The Wire S02E09 Stray Rounds 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:42:01.641089+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614339",
-        "size_bytes": 1796665239
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614339",
+          "size_bytes": 1796665239,
+          "source_bytes_read": 1796665239,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28544416",
+        "source_url": "https://sdilej.cz/28544416/the-wire-s02e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614339",
-        "size_bytes": 1796665239,
-        "source_bytes_read": 1796665239,
-        "http_status": 201
+        "display_name": "The Wire S02E09 Stray Rounds 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:47:29.098130+00:00"
       }
     },
     "1575:2:10": {
@@ -3791,5 +3792,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:47:22.489030+00:00"
+  "updated_at": "2026-10-29T16:47:29.098148+00:00"
 }
