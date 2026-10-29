@@ -8095,12 +8095,6 @@
     },
     "14:6:9": {
       "episode_key": "hra o trůny:s6:e9",
-      "claim": {
-        "worker_id": "79e9374473174586840b7df44e4e43f9-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T21:08:27.940053+00:00",
-        "lease_expires_at": "2026-10-30T03:08:27.940064+00:00"
-      },
       "source": {
         "source_id": "34402534",
         "source_url": "https://sdilej.cz/34402534/hra-o-truny-s06e09-bitva-bastardu-battle-of-the-bastards-.mkv",
@@ -8125,15 +8119,22 @@
         "display_name": "Game of Thrones S06E09 Battle of the Bastards 4K CZ Dabing",
         "prepared_at": "2026-10-29T21:08:29.290155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30619385",
-        "size_bytes": 2623506238
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30619385",
+          "size_bytes": 2623506238,
+          "source_bytes_read": 2623506238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402534",
+        "source_url": "https://sdilej.cz/34402534/hra-o-truny-s06e09-bitva-bastardu-battle-of-the-bastards-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30619385",
-        "size_bytes": 2623506238,
-        "source_bytes_read": 2623506238,
-        "http_status": 201
+        "display_name": "Game of Thrones S06E09 Battle of the Bastards 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T21:22:11.818107+00:00"
       }
     },
     "14:6:10": {
@@ -8179,5 +8180,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T21:22:08.424662+00:00"
+  "updated_at": "2026-10-29T21:22:11.818126+00:00"
 }
