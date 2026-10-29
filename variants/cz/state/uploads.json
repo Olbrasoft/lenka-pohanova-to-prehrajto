@@ -2526,12 +2526,6 @@
     },
     "703:1:1": {
       "episode_key": "černobyl:s1:e1",
-      "claim": {
-        "worker_id": "f8704c5da35b448b817ba34af53d8799-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T15:56:42.289280+00:00",
-        "lease_expires_at": "2026-10-29T21:56:42.289291+00:00"
-      },
       "source": {
         "source_id": "34377414",
         "source_url": "https://sdilej.cz/34377414/chernobyl-s01e01-cz-dabing-2160p-uhd.mkv",
@@ -2556,15 +2550,22 @@
         "display_name": "Chernobyl S01E01 1:23:45 4K CZ Dabing",
         "prepared_at": "2026-10-29T15:56:44.043277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613463",
-        "size_bytes": 2508593230
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613463",
+          "size_bytes": 2508593230,
+          "source_bytes_read": 2508593230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34377414",
+        "source_url": "https://sdilej.cz/34377414/chernobyl-s01e01-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613463",
-        "size_bytes": 2508593230,
-        "source_bytes_read": 2508593230,
-        "http_status": 201
+        "display_name": "Chernobyl S01E01 1:23:45 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T16:03:45.977104+00:00"
       }
     },
     "703:1:2": {
@@ -2647,5 +2648,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:03:40.872894+00:00"
+  "updated_at": "2026-10-29T16:03:45.977124+00:00"
 }
