@@ -3758,12 +3758,6 @@
     },
     "1575:2:11": {
       "episode_key": "the wire – špína baltimoru:s2:e11",
-      "claim": {
-        "worker_id": "1c6b6008094c46dc866efc3bd10e13c8-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:43:57.932426+00:00",
-        "lease_expires_at": "2026-10-29T22:43:57.932437+00:00"
-      },
       "source": {
         "source_id": "28545002",
         "source_url": "https://sdilej.cz/28545002/the-wire-s02e11-1080p-cz-dabing.mkv",
@@ -3788,15 +3782,22 @@
         "display_name": "The Wire S02E11 Bad Dreams 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:43:59.655444+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614367",
-        "size_bytes": 1796439169
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614367",
+          "size_bytes": 1796439169,
+          "source_bytes_read": 1796439169,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28545002",
+        "source_url": "https://sdilej.cz/28545002/the-wire-s02e11-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614367",
-        "size_bytes": 1796439169,
-        "source_bytes_read": 1796439169,
-        "http_status": 201
+        "display_name": "The Wire S02E11 Bad Dreams 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:51:12.471598+00:00"
       }
     },
     "1575:2:12": {
@@ -3879,5 +3880,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:51:09.485452+00:00"
+  "updated_at": "2026-10-29T16:51:12.471615+00:00"
 }
