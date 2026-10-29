@@ -1,4 +1,4 @@
-"""Inspect English originals, preferring verified Czech subtitles."""
+"""Inspect English originals, selecting the highest resolution then smallest file."""
 
 from __future__ import annotations
 
@@ -126,18 +126,18 @@ class EnglishDiscovery:
                 if found:
                     resolved.append(found)
             except Exception:
-                # One unavailable candidate cannot hide a proven subtitled source.
+                # An unresolved original may have a higher resolution or smaller size.
                 incomplete = True
+        if incomplete:
+            raise SdilejError("English verification incomplete; best resolution and size are unconfirmed")
         selected = min(
             resolved,
             key=lambda value: (
-                value[1]["method"] == "none",
                 -resolution_rank(value[0].width, value[0].height),
                 value[0].size_bytes,
+                value[1]["method"] == "none",
                 value[0].source_id,
             ),
             default=None,
         )
-        if incomplete and (selected is None or selected[1]["method"] == "none"):
-            raise SdilejError("English verification incomplete; subtitle-free fallback deferred")
         return selected

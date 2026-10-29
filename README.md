@@ -65,11 +65,12 @@ vzorcích; alespoň dva musí jazyk potvrdit s důvěrou 0,65. Druhá anglická 
 v jinak českém souboru nestačí. Vyhledávají se anglické verze i u seriálů,
 jejichž původní jazyk je jiný.
 
-Přednost má verze s českými titulky, poté nejvyšší skutečné rozlišení
-a nejmenší soubor v této kvalitě. Chyba kontroly není důkazem absence titulků:
-bez úplné kontroly se nevybere varianta bez titulků. Doložený titulkový zdroj
-lze přijmout i při chybě jiného kandidáta. Příprava střídá čtyři nové epizody
-s jedním starším opakováním kontroly.
+Přednost má nejvyšší skutečné rozlišení, potom nejmenší soubor v této kvalitě.
+České titulky rozhodují až při shodě rozlišení i velikosti. Například 4K bez
+titulků má přednost před 1080p s titulky; menší 4K bez titulků má přednost
+před větším 4K s titulky. Při neúplné kontrole kandidátů se výběr odloží:
+neověřený originál může mít vyšší rozlišení nebo menší velikost. Příprava
+střídá čtyři nové epizody s jedním starším opakováním kontroly.
 
 Textové české titulky se získávají výhradně z přesného původního souboru
 nebo jeho vlastní stránky. Po zpracování videa se připojí, ověří se jejich jazyk

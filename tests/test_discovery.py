@@ -46,7 +46,7 @@ def test_incomplete_scan_cannot_choose_subtitle_free_fallback(czech_row):
         discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
 
 
-def test_proven_subtitled_source_survives_other_candidate_error(czech_row):
+def test_incomplete_scan_cannot_choose_subtitled_source_either(czech_row):
     first = Candidate.from_dict(czech_row["selected"])
     second = copy.deepcopy(first)
     second.source_id = "456"
@@ -58,10 +58,11 @@ def test_proven_subtitled_source_survives_other_candidate_error(czech_row):
         return candidate, {"method": "original_text", "sha256": "a" * 64}
 
     discovery.verify = verify
-    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "123"
+    with pytest.raises(SdilejError):
+        discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})
 
 
-def test_subtitles_have_priority_over_resolution(czech_row):
+def test_highest_resolution_wins_even_without_subtitles(czech_row):
     candidate = Candidate.from_dict(czech_row["selected"])
     high = copy.deepcopy(candidate)
     high.source_id, high.width, high.height = "999", 3840, 2160
@@ -70,7 +71,41 @@ def test_subtitles_have_priority_over_resolution(czech_row):
         selected,
         {"method": "none" if selected.source_id == "999" else "original_text"},
     )
+    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "999"
+
+
+def test_smallest_file_at_same_resolution_wins_even_without_subtitles(czech_row):
+    subtitled = Candidate.from_dict(czech_row["selected"])
+    smaller = copy.deepcopy(subtitled)
+    smaller.source_id, smaller.size_bytes = "999", subtitled.size_bytes - 1
+    discovery = EnglishDiscovery(SimpleNamespace(search=lambda _: [subtitled, smaller]), None)
+    discovery.verify = lambda _, selected, __: (
+        selected,
+        {"method": "none" if selected.source_id == "999" else "original_text"},
+    )
+    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "999"
+
+
+def test_subtitles_break_ties_only_after_resolution_and_size(czech_row):
+    subtitled = Candidate.from_dict(czech_row["selected"])
+    bare = copy.deepcopy(subtitled)
+    bare.source_id = "001"
+    discovery = EnglishDiscovery(SimpleNamespace(search=lambda _: [bare, subtitled]), None)
+    discovery.verify = lambda _, selected, __: (
+        selected,
+        {"method": "none" if selected.source_id == "001" else "original_text"},
+    )
     assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"})[0].source_id == "123"
+
+
+def test_complete_scan_allows_highest_resolution_without_subtitles(czech_row):
+    candidate = Candidate.from_dict(czech_row["selected"])
+    discovery = EnglishDiscovery(SimpleNamespace(search=lambda _: [candidate]), None)
+    discovery.verify = lambda _, selected, __: (selected, {"method": "none"})
+    assert discovery.discover(czech_row, {"english_title": "The Big Bang Theory"}) == (
+        candidate,
+        {"method": "none"},
+    )
 
 
 def test_speech_requires_two_agreeing_first_track_samples(monkeypatch):
