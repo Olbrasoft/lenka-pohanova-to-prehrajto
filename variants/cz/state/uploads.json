@@ -7134,12 +7134,6 @@
     },
     "14:4:7": {
       "episode_key": "hra o trůny:s4:e7",
-      "claim": {
-        "worker_id": "38f3dcd081b449f0a870924f2476e72e-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T19:42:45.307138+00:00",
-        "lease_expires_at": "2026-10-30T01:42:45.307149+00:00"
-      },
       "source": {
         "source_id": "34402396",
         "source_url": "https://sdilej.cz/34402396/hra-o-truny-s04e07-drozd-mockingbird-.mkv",
@@ -7164,15 +7158,22 @@
         "display_name": "Game of Thrones S04E07 Mockingbird 4K CZ Dabing",
         "prepared_at": "2026-10-29T19:42:46.675928+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30617839",
-        "size_bytes": 2226091065
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30617839",
+          "size_bytes": 2226091065,
+          "source_bytes_read": 2226091065,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402396",
+        "source_url": "https://sdilej.cz/34402396/hra-o-truny-s04e07-drozd-mockingbird-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30617839",
-        "size_bytes": 2226091065,
-        "source_bytes_read": 2226091065,
-        "http_status": 201
+        "display_name": "Game of Thrones S04E07 Mockingbird 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:49:27.172472+00:00"
       }
     },
     "14:4:8": {
@@ -7255,5 +7256,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:49:23.477135+00:00"
+  "updated_at": "2026-10-29T19:49:27.172488+00:00"
 }
