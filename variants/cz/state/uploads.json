@@ -10258,12 +10258,6 @@
     },
     "22:3:10": {
       "episode_key": "rodina sopránů:s3:e10",
-      "claim": {
-        "worker_id": "b15d261690774fd99d99057215c1f2ec-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:28:48.581346+00:00",
-        "lease_expires_at": "2026-10-30T05:28:48.581352+00:00"
-      },
       "source": {
         "source_id": "29085168",
         "source_url": "https://sdilej.cz/29085168/the.sopranos.s03e10.mkv",
@@ -10288,15 +10282,22 @@
         "display_name": "The Sopranos S03E10 To Save Us All from Satan's Power 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:28:49.987303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621346",
-        "size_bytes": 1042334018
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621346",
+          "size_bytes": 1042334018,
+          "source_bytes_read": 1042334018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29085168",
+        "source_url": "https://sdilej.cz/29085168/the.sopranos.s03e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621346",
-        "size_bytes": 1042334018,
-        "source_bytes_read": 1042334018,
-        "http_status": 201
+        "display_name": "The Sopranos S03E10 To Save Us All from Satan's Power 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:32:21.510843+00:00"
       }
     },
     "22:3:11": {
@@ -10379,5 +10380,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:32:18.648693+00:00"
+  "updated_at": "2026-10-29T23:32:21.510860+00:00"
 }
