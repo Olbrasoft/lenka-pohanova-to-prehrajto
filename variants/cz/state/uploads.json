@@ -5518,12 +5518,6 @@
     },
     "14:1:1": {
       "episode_key": "hra o trůny:s1:e1",
-      "claim": {
-        "worker_id": "913ddeb523d7458d970c2dfc9563fe9c-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:05:08.057161+00:00",
-        "lease_expires_at": "2026-10-30T00:05:08.057172+00:00"
-      },
       "source": {
         "source_id": "34402223",
         "source_url": "https://sdilej.cz/34402223/hra-o-truny-s01e01-zima-se-blizi-winter-is-coming-.mkv",
@@ -5548,15 +5542,22 @@
         "display_name": "Game of Thrones S01E01 Winter Is Coming 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:05:09.781654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30615980",
-        "size_bytes": 2739233728
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30615980",
+          "size_bytes": 2739233728,
+          "source_bytes_read": 2739233728,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402223",
+        "source_url": "https://sdilej.cz/34402223/hra-o-truny-s01e01-zima-se-blizi-winter-is-coming-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30615980",
-        "size_bytes": 2739233728,
-        "source_bytes_read": 2739233728,
-        "http_status": 201
+        "display_name": "Game of Thrones S01E01 Winter Is Coming 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:15:00.773696+00:00"
       }
     },
     "14:1:2": {
@@ -5683,5 +5684,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:14:59.451187+00:00"
+  "updated_at": "2026-10-29T18:15:00.773712+00:00"
 }
