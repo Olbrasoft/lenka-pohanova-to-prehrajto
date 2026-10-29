@@ -3274,12 +3274,6 @@
     },
     "1575:1:13": {
       "episode_key": "the wire – špína baltimoru:s1:e13",
-      "claim": {
-        "worker_id": "86600d5debff4d508770b0447ac0a27c-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:20:02.470305+00:00",
-        "lease_expires_at": "2026-10-29T22:20:02.470316+00:00"
-      },
       "source": {
         "source_id": "28536990",
         "source_url": "https://sdilej.cz/28536990/the-wire-s01e13-1080p-cz-dabing.mkv",
@@ -3304,15 +3298,22 @@
         "display_name": "The Wire S01E13 Sentencing 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:20:04.221384+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613894",
-        "size_bytes": 2018407893
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613894",
+          "size_bytes": 2018407893,
+          "source_bytes_read": 2018407893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28536990",
+        "source_url": "https://sdilej.cz/28536990/the-wire-s01e13-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613894",
-        "size_bytes": 2018407893,
-        "source_bytes_read": 2018407893,
-        "http_status": 201
+        "display_name": "The Wire S01E13 Sentencing 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:29:09.023703+00:00"
       }
     },
     "1575:2:1": {
@@ -3395,5 +3396,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:29:03.930371+00:00"
+  "updated_at": "2026-10-29T16:29:09.023719+00:00"
 }
