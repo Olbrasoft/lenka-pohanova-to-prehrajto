@@ -3047,12 +3047,6 @@
     },
     "1575:1:8": {
       "episode_key": "the wire – špína baltimoru:s1:e8",
-      "claim": {
-        "worker_id": "42cf4eb9638b428eadde8fae65ea34f8-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:15:22.736771+00:00",
-        "lease_expires_at": "2026-10-29T22:15:22.736783+00:00"
-      },
       "source": {
         "source_id": "28560806",
         "source_url": "https://sdilej.cz/28560806/the-wire-spina-baltimoru-s01e08-tvrip-czdab.mp4",
@@ -3077,15 +3071,22 @@
         "display_name": "The Wire S01E08 Lessons 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:15:33.088725+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613816",
-        "size_bytes": 649648070
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613816",
+          "size_bytes": 649648070,
+          "source_bytes_read": 649648070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28560806",
+        "source_url": "https://sdilej.cz/28560806/the-wire-spina-baltimoru-s01e08-tvrip-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613816",
-        "size_bytes": 649648070,
-        "source_bytes_read": 649648070,
-        "http_status": 201
+        "display_name": "The Wire S01E08 Lessons 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:17:39.446604+00:00"
       }
     },
     "1575:1:9": {
@@ -3131,5 +3132,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:17:36.285869+00:00"
+  "updated_at": "2026-10-29T16:17:39.446629+00:00"
 }
