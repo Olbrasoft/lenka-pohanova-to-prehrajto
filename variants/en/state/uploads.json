@@ -479,12 +479,6 @@
     },
     "26:2:3": {
       "episode_key": "perníkový táta:s2:e3",
-      "claim": {
-        "worker_id": "c027557aa0eb4f04b4a9d492245b009a-worker-0",
-        "run_id": "40884876623",
-        "claimed_at": "2026-10-29T13:48:03.200423+00:00",
-        "lease_expires_at": "2026-10-29T19:48:03.200433+00:00"
-      },
       "source": {
         "source_id": "32631295",
         "source_url": "https://sdilej.cz/32631295/breaking-bad-s02e03-cz-dabing-full-hd.mkv",
@@ -514,15 +508,22 @@
         "display_name": "Breaking Bad S02E03 Bit by a Dead Bee 1080p",
         "prepared_at": "2026-10-29T13:48:08.240404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30611671",
-        "size_bytes": 398427409
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30611671",
+          "size_bytes": 398427409,
+          "source_bytes_read": 398427409,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "32631295",
+        "source_url": "https://sdilej.cz/32631295/breaking-bad-s02e03-cz-dabing-full-hd.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30611671",
-        "size_bytes": 398427409,
-        "source_bytes_read": 398427409,
-        "http_status": 201
+        "display_name": "Breaking Bad S02E03 Bit by a Dead Bee 1080p",
+        "uploaded_at": "2026-10-29T13:50:00.119868+00:00"
       }
     }
   },
@@ -531,5 +532,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T13:49:53.882976+00:00"
+  "updated_at": "2026-10-29T13:50:00.119885+00:00"
 }
