@@ -6423,12 +6423,6 @@
     },
     "14:3:1": {
       "episode_key": "hra o trůny:s3:e1",
-      "claim": {
-        "worker_id": "a94bcea81d6f43b2a17ac4634dfa7bd5-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:55:36.268708+00:00",
-        "lease_expires_at": "2026-10-30T00:55:36.268716+00:00"
-      },
       "source": {
         "source_id": "34402300",
         "source_url": "https://sdilej.cz/34402300/hra-o-truny-s03e01-kazdy-musi-slouzit-valar-dohaeris-.mkv",
@@ -6453,15 +6447,22 @@
         "display_name": "Game of Thrones S03E01 Valar Dohaeris 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:55:37.993211+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616980",
-        "size_bytes": 2386004793
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616980",
+          "size_bytes": 2386004793,
+          "source_bytes_read": 2386004793,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402300",
+        "source_url": "https://sdilej.cz/34402300/hra-o-truny-s03e01-kazdy-musi-slouzit-valar-dohaeris-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616980",
-        "size_bytes": 2386004793,
-        "source_bytes_read": 2386004793,
-        "http_status": 201
+        "display_name": "Game of Thrones S03E01 Valar Dohaeris 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T19:01:30.808654+00:00"
       }
     },
     "14:3:2": {
@@ -6507,5 +6508,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T19:01:25.404571+00:00"
+  "updated_at": "2026-10-29T19:01:30.808672+00:00"
 }
