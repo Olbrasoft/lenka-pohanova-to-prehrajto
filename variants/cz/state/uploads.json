@@ -8447,12 +8447,6 @@
     },
     "14:7:7": {
       "episode_key": "hra o trůny:s7:e7",
-      "claim": {
-        "worker_id": "ed7bed4d1c484de9ade4650a25df38bc-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T22:20:47.874728+00:00",
-        "lease_expires_at": "2026-10-30T04:20:47.874740+00:00"
-      },
       "source": {
         "source_id": "34402593",
         "source_url": "https://sdilej.cz/34402593/hra-o-truny-s07e07-drak-a-vlk-the-dragon-and-the-wolf-.mkv",
@@ -8477,15 +8471,22 @@
         "display_name": "Game of Thrones S07E07 The Dragon and the Wolf 4K CZ Dabing",
         "prepared_at": "2026-10-29T22:20:49.280153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30620502",
-        "size_bytes": 3525939334
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30620502",
+          "size_bytes": 3525939334,
+          "source_bytes_read": 3525939334,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402593",
+        "source_url": "https://sdilej.cz/34402593/hra-o-truny-s07e07-drak-a-vlk-the-dragon-and-the-wolf-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30620502",
-        "size_bytes": 3525939334,
-        "source_bytes_read": 3525939334,
-        "http_status": 201
+        "display_name": "Game of Thrones S07E07 The Dragon and the Wolf 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T22:32:59.410549+00:00"
       }
     },
     "14:8:1": {
@@ -8575,5 +8576,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T22:32:55.832789+00:00"
+  "updated_at": "2026-10-29T22:32:59.410566+00:00"
 }
