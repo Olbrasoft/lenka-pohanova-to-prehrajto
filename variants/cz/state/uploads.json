@@ -3494,12 +3494,6 @@
     },
     "1575:2:5": {
       "episode_key": "the wire – špína baltimoru:s2:e5",
-      "claim": {
-        "worker_id": "7cdfe673dba64bfcab6c050e52f88a3c-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:31:23.770080+00:00",
-        "lease_expires_at": "2026-10-29T22:31:23.770090+00:00"
-      },
       "source": {
         "source_id": "28542311",
         "source_url": "https://sdilej.cz/28542311/the-wire-s02e05-1080p-cz-dabing.mkv",
@@ -3524,15 +3518,22 @@
         "display_name": "The Wire S02E05 Undertow 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:31:25.920613+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30614080",
-        "size_bytes": 1752984107
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30614080",
+          "size_bytes": 1752984107,
+          "source_bytes_read": 1752984107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28542311",
+        "source_url": "https://sdilej.cz/28542311/the-wire-s02e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30614080",
-        "size_bytes": 1752984107,
-        "source_bytes_read": 1752984107,
-        "http_status": 201
+        "display_name": "The Wire S02E05 Undertow 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:37:27.739338+00:00"
       }
     },
     "1575:2:6": {
@@ -3615,5 +3616,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:37:23.387802+00:00"
+  "updated_at": "2026-10-29T16:37:27.739357+00:00"
 }
