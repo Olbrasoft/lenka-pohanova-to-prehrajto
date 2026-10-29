@@ -88,6 +88,28 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                     attach(
                         row, record, entry, refresh(), api, provider, refresh, save, lambda _: None, deadline=deadline
                     )
+                    # Reconcile the same durable intent immediately; never repeat its POST.
+                    for _ in range(3):
+                        if (
+                            not entry.get("intent")
+                            or entry.get("status")
+                            not in {"upload_unconfirmed", "verifying_language", "verifying_content"}
+                            or time.monotonic() >= deadline - 30
+                        ):
+                            break
+                        time.sleep(2)
+                        attach(
+                            row,
+                            record,
+                            entry,
+                            refresh(),
+                            api,
+                            provider,
+                            refresh,
+                            save,
+                            lambda _: None,
+                            deadline=deadline,
+                        )
                     if entry.get("status") == "attached_verified":
                         entry["title_updated"] = False
                         save()
@@ -103,7 +125,10 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                         error=type(error).__name__,
                         title_updated=False,
                     )
-                entry["retry_after"] = (datetime.now(UTC) + timedelta(minutes=10)).isoformat()
+                delay = (
+                    2 if entry.get("status") in {"target_processing", "verifying_language", "verifying_content"} else 10
+                )
+                entry["retry_after"] = (datetime.now(UTC) + timedelta(minutes=delay)).isoformat()
                 save()
                 checked += 1
     finally:

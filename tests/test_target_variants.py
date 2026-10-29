@@ -1,0 +1,125 @@
+import html
+from types import SimpleNamespace
+import pytest
+
+from sdilej_serialy.models import Episode
+from lenka_sync import transfer
+from lenka_sync.target import existing_episode, clean_name
+from lenka_sync.state import VariantState
+
+
+def response(body):
+    return SimpleNamespace(status_code=200, text=body, raise_for_status=lambda: None)
+
+
+def listing(video_id, name):
+    return f"""<div id="uploadedVideoListing"><div><h3>{html.escape(name)}</h3>
+        <a href="?do=uploadedVideoListing-deleteVideo&amp;uploadedVideoListing-videoId={video_id}">Delete</a>
+        </div></div>"""
+
+
+def test_czech_episode_cannot_satisfy_english_lookup():
+    session = SimpleNamespace(get=lambda *_, **__: response(listing("11", "Show S01E01 Pilot 1080p CZ Dabing")))
+    assert existing_episode(session, "Show S01E01 Pilot 1080p") is None
+    assert existing_episode(session, "Show S01E01 Pilot 1080p CZ Dabing") == "11"
+
+
+def test_known_czech_id_cannot_confirm_english_variant():
+    session = SimpleNamespace(
+        get=lambda *_, **__: response("<h1>Změna složky videa</h1><h2>Show S01E01 Pilot 1080p CZ Dabing.mkv</h2>")
+    )
+    assert existing_episode(session, "Show S01E01 Pilot 1080p", "11") is None
+    assert existing_episode(session, "Show S01E01 Pilot 1080p CZ Dabing", "11") == "11"
+    assert clean_name("Show S01E01 ...And the Bag 1080p.mkv (zpracovává se)") == "show s01e01 ...and the bag 1080p"
+
+
+def test_same_target_id_cannot_belong_to_both_variants(tmp_path, czech_row):
+    states = {v: VariantState(tmp_path / f"{v}.json", v) for v in ("cz", "en")}
+    for state in states.values():
+        state.peers = states
+    episode = Episode.from_dict(czech_row["episode"])
+    states["cz"].success(episode, "11", "Show S01E01 1080p CZ Dabing")
+    with pytest.raises(RuntimeError, match="another language variant"):
+        states["en"].success(episode, "11", "Show S01E01 1080p")
+
+
+def test_real_english_transfer_allocates_a_different_id_than_existing_czech(tmp_path, english_row, monkeypatch):
+    states = {v: VariantState(tmp_path / f"{v}.json", v) for v in ("cz", "en")}
+    for state in states.values():
+        state.peers = states
+    episode = Episode.from_dict(english_row["episode"])
+    base = "The Big Bang Theory S01E01 Pilot 1080p"
+    states["cz"].success(episode, "11", base + " CZ Dabing")
+    english_row["display_name"] = base
+
+    def get(url, **kwargs):
+        if "uprava-slozky" in url:
+            title = base if kwargs["params"]["videoId"] == "88" else base + " CZ Dabing"
+            return response("<h1>Změna složky videa</h1><h2>" + html.escape(title) + "</h2>")
+        return response(listing("11", base + " CZ Dabing"))
+
+    session = SimpleNamespace(get=get)
+    monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
+    monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 2)
+    monkeypatch.setattr(transfer, "prepare_source", lambda _, candidate, __: candidate)
+    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
+    calls = []
+
+    def relay(_, __, candidate, *args, **kwargs):
+        calls.append(candidate.source_id)
+        kwargs["on_prepared"]("88", candidate.size_bytes)
+        reader = SimpleNamespace(position=candidate.size_bytes, total=candidate.size_bytes)
+        kwargs["upload_requester"](
+            "https://upload.invalid", data=SimpleNamespace(fields=[("files", ("episode.mkv", reader, "video/mp4"))])
+        )
+        return SimpleNamespace(video_id="88")
+
+    monkeypatch.setattr(transfer.prehrajto, "relay_upload", relay)
+    result = transfer.upload_continuously(
+        [english_row],
+        states["en"],
+        workers=1,
+        source_email="source",
+        source_password="test",
+        target_email="target@example.invalid",
+        target_password="test",
+        target_login=lambda: session,
+        require_original_size=True,
+        select_source=lambda row: row,
+        recover_source_errors=True,
+        recover_target_errors=True,
+    )
+    assert result["uploaded_or_reconciled"] == 1
+    assert calls == ["456"]
+    assert states["en"].row(episode)["upload"]["target_video_id"] == "88"
+    assert states["en"].row(episode)["source"]["audio_language"] == "en"
+    assert states["en"].row(episode)["completion_evidence"]["receipt"]["http_status"] == 201
+
+
+def test_untracked_existing_variant_is_not_counted_as_a_completed_transfer(tmp_path, english_row, monkeypatch):
+    state = VariantState(tmp_path / "en.json", "en")
+    english_row["display_name"] = "The Big Bang Theory S01E01 Pilot 1080p"
+    session = SimpleNamespace(get=lambda *_, **__: response(listing("99", english_row["display_name"])))
+    monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
+    monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 1)
+    monkeypatch.setattr(
+        transfer.prehrajto,
+        "relay_upload",
+        lambda *_, **__: pytest.fail("Untracked existing variant must not be replayed"),
+    )
+    result = transfer.upload_continuously(
+        [english_row],
+        state,
+        workers=1,
+        source_email="source",
+        source_password="test",
+        target_email="target@example.invalid",
+        target_password="test",
+        target_login=lambda: session,
+        require_original_size=True,
+        recover_target_errors=True,
+    )
+    assert result["uploaded_or_reconciled"] == 0
+    record = state.row(Episode.from_dict(english_row["episode"]))
+    assert not record.get("upload")
+    assert record["review_target_id"] == "99"

@@ -110,7 +110,7 @@ class EnglishDiscovery:
         # Search exactly the semantic episode whose Czech source was imported.
         episode = replace(
             Episode.from_dict(source["episode"]),
-            series_title=series["english_title"],
+            series_title=series.get("english_title") or series["original_title"],
             series_original_title=series.get("original_title"),
         )
         deadline = time.monotonic() + runtime_seconds

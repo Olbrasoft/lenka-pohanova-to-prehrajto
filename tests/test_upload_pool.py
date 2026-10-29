@@ -74,3 +74,26 @@ def test_source_login_outage_defers_without_losing_other_variant(tmp_path, czech
     assert result["confirmed_uploads"] == 0
     state = read_json(tmp_path / "variants/cz/state/uploads.json")
     assert state["episodes"]["42:1:1"]["attempts"][-1]["error"] == "SourceUnavailable"
+
+
+def test_short_english_batch_runs_subtitle_followup_after_completion(
+    tmp_path, czech_row, english_row, titles, monkeypatch
+):
+    seed(tmp_path, czech_row, english_row, titles)
+    monkeypatch.setattr(pipeline, "credentials", lambda: {})
+    observed = []
+
+    def followup(_, __, state, *args, **kwargs):
+        observed.append(sum(bool(r.get("upload")) for r in state.data["episodes"].values()))
+        return {}
+
+    def transfer(selected, state, **kwargs):
+        row = selected[0]
+        state.success(Episode.from_dict(row["episode"]), "88", row["display_name"])
+        return {}
+
+    monkeypatch.setattr(pipeline, "followup", followup)
+    monkeypatch.setattr(pipeline, "upload_continuously", transfer)
+    result = pipeline.upload(tmp_path, workers=1, limit=1, runtime_minutes=1, variant="en")
+    assert result["confirmed_uploads"] == 1
+    assert 1 in observed

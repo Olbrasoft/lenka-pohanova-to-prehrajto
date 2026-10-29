@@ -18,7 +18,7 @@ from sdilej_to_prehrajto.sdilej import SdilejError
 from sdilej_serialy.episodes import EpisodeSourceProvider
 from sdilej_serialy.models import Episode
 from sdilej_serialy.pipeline import EpisodeState, target_session
-from sdilej_serialy.target import existing_episode
+from .target import existing_episode
 from .policy import upload_eligible
 from sdilej_serialy.git_state import CheckpointError
 from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
@@ -247,11 +247,11 @@ def upload_continuously(
                         state.row(episode).get("prepared_target", {}).get("target_video_id"),
                     )
                     if existing:
-                        if require_original_size and state.row(episode).get("prepared_target"):
-                            raise RuntimeError("Recovery transfer is uncertain; retain target for review")
-                        state.success(episode, existing, row["display_name"])
-                        completed += 1
-                        continue
+                        # A title alone is not evidence that our selected file was transferred.
+                        # Reconciliation of owned IDs requires the receipt above.
+                        state.row(episode)["review_target_id"] = existing
+                        state.save()
+                        raise TargetPending("Existing variant has no owned complete-transfer receipt")
                     if state.row(episode).get("prepared_target"):
                         raise RuntimeError("Existing upload requires reconciliation")
                     if select_source:

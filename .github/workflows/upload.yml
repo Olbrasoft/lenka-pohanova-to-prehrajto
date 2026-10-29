@@ -4,7 +4,7 @@ on:
     inputs:
       mode:
         type: choice
-        options: [plan, upload, continuous, subtitles]
+        options: [plan, upload, continuous, subtitles, reconcile]
         default: plan
       limit:
         type: number
@@ -12,6 +12,10 @@ on:
       workers:
         type: number
         default: 3
+      variant:
+        type: choice
+        options: [all, cz, en]
+        default: all
   schedule:
     - cron: '17 * * * *'
 permissions:
@@ -28,6 +32,7 @@ jobs:
       MODE: ${{ inputs.mode || 'continuous' }}
       LIMIT: ${{ inputs.limit || '3' }}
       WORKERS: ${{ inputs.workers || '3' }}
+      VARIANT: ${{ inputs.variant || 'all' }}
       SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
       SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
       PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
@@ -52,9 +57,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          [[ "$MODE" =~ ^(plan|upload|continuous|subtitles)$ ]]
+          [[ "$MODE" =~ ^(plan|upload|continuous|subtitles|reconcile)$ ]]
           [[ "$LIMIT" =~ ^[0-9]+$ && "$WORKERS" =~ ^[0-9]+$ ]]
-          lenka-sync "$MODE" --limit "$LIMIT" --workers "$WORKERS" --runtime-minutes 210 --persist-git-state
+          [[ "$VARIANT" =~ ^(all|cz|en)$ ]]
+          lenka-sync "$MODE" --variant "$VARIANT" --limit "$LIMIT" --workers "$WORKERS" --runtime-minutes 210 --persist-git-state
       - name: Preserve diagnostics
         if: always()
         uses: actions/upload-artifact@v4

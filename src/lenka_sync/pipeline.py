@@ -21,7 +21,7 @@ from .language import WhisperLanguageDetector
 from .metadata import Metadata
 from .naming import display_name, series_names
 from .policy import POLICY, target_credentials, upload_eligible
-from .state import VariantState
+from .state import VariantState, validate_target_ownership
 from .storage import Publisher, atomic_json, read_json, rows, write_rows
 from .subtitles import followup
 from .transfer import upload_continuously
@@ -54,10 +54,10 @@ def validate_sources(queue):
     return queue
 
 
-def planned(queue, titles, states, limit=10, excluded=frozenset()):
+def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=("cz", "en")):
     ready = []
     names = series_names(titles["series"])
-    for variant in ("cz", "en"):
+    for variant in variants:
         state = states[variant]
         deferred = state.retry_deferred_identities()
         for source in queue[variant]:
@@ -69,6 +69,7 @@ def planned(queue, titles, states, limit=10, excluded=frozenset()):
                 or identity in deferred
                 or record.get("upload")
                 or active_claim
+                or record.get("review_target_id")
                 or record.get("prepared_target")
                 and not receipt_matches(record)
                 or not upload_eligible(source)
@@ -118,7 +119,7 @@ def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None
         now = datetime.now(UTC)
         if (
             identity in selected
-            or not series.get("english_title")
+            or not series.get("original_title")
             or progress.get(identity, {}).get("retry_after", "") > now.isoformat()
         ):
             continue
@@ -144,7 +145,7 @@ def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None
     return dict(checked=checked, selected=len(selected))
 
 
-def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, persist=False):
+def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, persist=False, variant="all"):
     creds = credentials()
     lock = threading.RLock()
     paths = tuple(root / f"variants/{variant}/state/uploads.json" for variant in ("cz", "en"))
@@ -152,14 +153,18 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
     states = {
         variant: VariantState(path, variant, on_save=publisher, lock=lock) for variant, path in zip(("cz", "en"), paths)
     }
+    validate_target_ownership(states)
     for state in states.values():
+        state.peers = states
         state.release_orphaned_claims()
     stop, paused = threading.Event(), threading.Event()
     deadline = time.monotonic() + runtime_minutes * 60
     subtitle_deadline = min(deadline + 90 * 60, time.monotonic() + 330 * 60)
     pending, reserved, submitted, completed = {}, set(), 0, 0
+    draining = False
     maintenance = None
     next_subtitles = 0
+    subtitle_dirty = False
     queue, titles = sources(root), Metadata(root).snapshot()
 
     def execute(row):
@@ -198,6 +203,8 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     row = pending.pop(future)
                     reserved.remove((row["variant"], row["identity"]))
                     future.result()
+                    if row["variant"] == "en":
+                        subtitle_dirty = True
                     completed += 1
             if maintenance is not None and maintenance.done():
                 try:
@@ -210,13 +217,13 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     print(f"subtitle_followup_deferred={type(error).__name__}", flush=True)
                 maintenance = None
             now = time.monotonic()
-            if now < deadline and not stop.is_set() and not paused.is_set():
+            if now < deadline and not draining and not stop.is_set() and not paused.is_set():
                 if publisher:
                     manifest_paths = {
                         variant: f"variants/{variant}/manifests/selected-episodes.jsonl" for variant in ("cz", "en")
                     }
                     snapshot = publisher.read_snapshot(
-                        [*manifest_paths.values(), "state/titles.json", "config/titles.json"]
+                        [*manifest_paths.values(), "state/titles.json", "config/titles.json", "config/runtime.json"]
                     )
                     for variant in ("cz", "en"):
                         remote = snapshot[manifest_paths[variant]]
@@ -227,13 +234,25 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     titles = {
                         kind: {**titles.get(kind, {}), **overrides.get(kind, {})} for kind in ("series", "episodes")
                     }
+                    runtime = json.loads(snapshot["config/runtime.json"] or "{}")
                 else:
                     queue, titles = sources(root), Metadata(root).snapshot()
+                    runtime = read_json(root / "config/runtime.json")
+                draining = runtime.get("admit_uploads", True) is False
                 capacity = workers - len(pending)
+                if draining:
+                    capacity = 0
                 if not continuous:
                     capacity = min(capacity, limit - submitted)
                 with lock:
-                    selected = planned(queue, titles, states, max(0, capacity), reserved)
+                    selected = planned(
+                        queue,
+                        titles,
+                        states,
+                        max(0, capacity),
+                        reserved,
+                        variants=("cz", "en") if variant == "all" else (variant,),
+                    )
                 for row in selected:
                     reserved.add((row["variant"], row["identity"]))
                     pending[transfers.submit(execute, row)] = row
@@ -241,7 +260,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
             # Separate sessions and a separate thread keep subtitles moving while uploads run.
             if (
                 maintenance is None
-                and now >= next_subtitles
+                and (now >= next_subtitles or subtitle_dirty)
                 and now < subtitle_deadline
                 and (now < deadline or pending)
             ):
@@ -256,10 +275,11 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     runtime_minutes=min(10, max(1, int((subtitle_deadline - now) / 60))),
                 )
                 next_subtitles = now + 600
+                subtitle_dirty = False
             active = [*pending, *([maintenance] if maintenance else [])]
             if active:
                 wait(active, timeout=15, return_when=FIRST_COMPLETED)
-            elif stop.is_set() or now >= deadline or not continuous and submitted >= limit:
+            elif stop.is_set() or draining or now >= deadline or not continuous and submitted >= limit:
                 break
             elif continuous:
                 if paused.is_set():

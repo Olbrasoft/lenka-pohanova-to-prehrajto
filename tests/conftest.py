@@ -58,7 +58,11 @@ def english_row(czech_row):
 @pytest.fixture
 def titles():
     return {
-        "series": {"42": dict(english_title="The Big Bang Theory", original_title="The Big Bang Theory")},
+        "series": {
+            "42": dict(
+                english_title="The Big Bang Theory", original_title="The Big Bang Theory", original_language="en"
+            )
+        },
         "episodes": {"42:1:1": {"english_title": "Pilot"}},
     }
 

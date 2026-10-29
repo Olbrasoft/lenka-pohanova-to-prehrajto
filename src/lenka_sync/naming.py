@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import Counter
 import re
 import unicodedata
+from sdilej_serialy.quality import resolution_label
 
 
 def normalized(value: str) -> str:
@@ -20,13 +21,13 @@ def combined_title(english: str, original: str | None) -> str:
 
 
 def series_names(metadata: dict) -> dict[str, str]:
-    ready = {key: value for key, value in metadata.items() if value.get("english_title")}
-    counts = Counter(normalized(value["english_title"]) for value in ready.values())
-    dated = Counter((normalized(value["english_title"]), value.get("year")) for value in ready.values())
+    ready = {key: value for key, value in metadata.items() if value.get("original_title")}
+    counts = Counter(normalized(value["original_title"]) for value in ready.values())
+    dated = Counter((normalized(value["original_title"]), value.get("year")) for value in ready.values())
     result = {}
     for key, value in ready.items():
-        title = combined_title(value["english_title"], value.get("original_title"))
-        identity, year = normalized(value["english_title"]), value.get("year")
+        title = value["original_title"].strip()
+        identity, year = normalized(value["original_title"]), value.get("year")
         if counts[identity] > 1:
             title += f" ({year})" if year else ""
             if not year or dated[identity, year] > 1:
@@ -43,9 +44,22 @@ def display_name(row: dict, titles: dict, *, subtitles_ready=False, names=None) 
     episode_metadata = titles.get("episodes", {}).get(row["identity"], {})
     if not episode_metadata or episode_metadata.get("status") == "deferred":
         raise KeyError("Official episode title has not been checked yet")
-    episode_title = episode_metadata.get("english_title")
+    original_language = titles["series"][series_id].get("original_language")
+    episode_title = episode_metadata.get("original_title")
+    if not episode_title and original_language == "en":
+        episode_title = episode_metadata.get("english_title")
+    if (
+        not episode_title
+        and original_language != "en"
+        and episode_metadata.get("status") != "official_original_episode_title_unavailable"
+    ):
+        raise KeyError("Original-language episode title has not been checked yet")
     if episode_title and normalized(episode_title) != normalized(title):
         title += " " + episode_title.strip()
+    selected = row["selected"]
+    if not selected.get("width") or not selected.get("height"):
+        raise ValueError("Verified original resolution is required")
+    title += " " + resolution_label(selected["width"], selected["height"])
     if row["variant"] == "cz":
         return title + " CZ Dabing"
     proof = row.get("subtitles", {})

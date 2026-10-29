@@ -4,23 +4,39 @@ from lenka_sync.policy import upload_eligible, target_credentials
 
 
 def test_names_follow_marketa(czech_row, english_row, titles):
-    assert display_name(czech_row, titles) == "The Big Bang Theory S01E01 Pilot CZ Dabing"
-    assert display_name(english_row, titles) == "The Big Bang Theory S01E01 Pilot"
-    assert display_name(english_row, titles, subtitles_ready=True).endswith("Pilot CZ Titulky")
+    assert display_name(czech_row, titles) == "The Big Bang Theory S01E01 Pilot 1080p CZ Dabing"
+    assert display_name(english_row, titles) == "The Big Bang Theory S01E01 Pilot 1080p"
+    assert display_name(english_row, titles, subtitles_ready=True).endswith("Pilot 1080p CZ Titulky")
     english_row["subtitles"] = {"method": "burned_in_ocr_verified"}
-    assert display_name(english_row, titles).endswith("Pilot CZ Titulky")
+    assert display_name(english_row, titles).endswith("Pilot 1080p CZ Titulky")
 
 
 def test_original_title_and_missing_episode_title(czech_row, titles):
-    titles["series"]["42"].update(english_title="Money Heist", original_title="La casa de papel")
-    titles["episodes"] = {czech_row["identity"]: {"status": "official_english_episode_title_unavailable"}}
-    assert display_name(czech_row, titles) == "Money Heist (La casa de papel) S01E01 CZ Dabing"
+    titles["series"]["42"].update(
+        english_title="Money Heist", original_title="La casa de papel", original_language="es"
+    )
+    titles["episodes"] = {czech_row["identity"]: {"status": "official_original_episode_title_unavailable"}}
+    assert display_name(czech_row, titles) == "La casa de papel S01E01 1080p CZ Dabing"
     assert "Pilotní" not in display_name(czech_row, titles)
     assert combined_title(" DARK ", "Dark") == "DARK"
 
 
+def test_original_language_names_and_actual_resolution(czech_row, titles):
+    titles["series"]["42"].update(
+        english_title="Money Heist", original_title="La casa de papel", original_language="es"
+    )
+    titles["episodes"][czech_row["identity"]] = {
+        "original_title": "Efectuar lo acordado",
+        "english_title": "Do as Planned",
+    }
+    czech_row["selected"].update(width=2560, height=1440)
+    assert display_name(czech_row, titles) == "La casa de papel S01E01 Efectuar lo acordado 1440p CZ Dabing"
+    czech_row["selected"].update(width=3840, height=2160)
+    assert display_name(czech_row, titles).endswith("4K CZ Dabing")
+
+
 def test_series_name_collisions():
-    data = {"1": dict(english_title="The Office", year="2001"), "2": dict(english_title="The Office", year="2005")}
+    data = {"1": dict(original_title="The Office", year="2001"), "2": dict(original_title="The Office", year="2005")}
     assert series_names(data) == {"1": "The Office (2001)", "2": "The Office (2005)"}
     data["2"]["year"] = "2001"
     assert "[ID 1]" in series_names(data)["1"]

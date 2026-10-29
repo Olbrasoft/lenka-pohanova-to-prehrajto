@@ -21,6 +21,7 @@ class Session:
 
 
 def setup(tmp_path, english_row, monkeypatch, *, tracks):
+    monkeypatch.setattr(subtitles.time, "sleep", lambda _: None)
     row = english_row
     row["subtitles"] = dict(method="original_text", sha256=hashlib.sha256(b"subtitle").hexdigest())
     state = VariantState(tmp_path / "variants/en/state/uploads.json", "en")
@@ -92,6 +93,6 @@ def test_czech_label_is_added_only_after_target_content_verification(tmp_path, e
     )
     monkeypatch.setattr("lenka_sync.transfer.target_confirmed", lambda *_: True)
     subtitles.followup(tmp_path, [english_row], state, titles, credentials())
-    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot CZ Titulky")]
+    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]
     saved = read_json(tmp_path / "variants/en/state/subtitles.json")
     assert saved["videos"]["777"]["title_updated"] is True

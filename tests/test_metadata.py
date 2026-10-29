@@ -16,7 +16,7 @@ def test_series_identity_is_exact_and_unique(tmp_path, monkeypatch):
         api.resolve_series({"series_original_title": "Dark"})
 
 
-def test_episode_missing_english_translation_is_omitted(tmp_path, monkeypatch):
+def test_episode_uses_original_language_without_english_translation(tmp_path, monkeypatch):
     api = Metadata(tmp_path, api_key="test")
 
     def get(endpoint, **_):
@@ -28,7 +28,10 @@ def test_episode_missing_english_translation_is_omitted(tmp_path, monkeypatch):
         }
 
     monkeypatch.setattr(api, "get", get)
-    assert api.resolve_episode({"season": 1, "episode": 1}, {"tmdb_id": 10, "original_language": "de"}) is None
+    assert (
+        api.resolve_episode({"season": 1, "episode": 1}, {"tmdb_id": 10, "original_language": "de"})["original_title"]
+        == "Geheimnisse"
+    )
 
 
 def test_wrong_episode_numbering_cannot_supply_name(tmp_path, monkeypatch):

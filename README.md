@@ -9,40 +9,49 @@ obsahuje pouze otisk povoleného cílového e-mailu.
 
 ## Pojmenování
 
-Stejně jako u Markéty se použije oficiální anglický název seriálu a odlišný
-původní název v závorce. Názvy se nepřekládají ani neodhadují z názvů souborů.
-Následuje `S01E01` a dostupný oficiální anglický název epizody.
-Pokud anglický název epizody není doložený, vynechá se; český se nedosazuje.
-Dokud kontrola názvu epizody neproběhla nebo skončila technickou chybou,
-epizoda čeká na metadata, aby se dostupný název předčasně nevynechal.
-Nejednoznačná identita seriálu nebo chybějící anglický název odloží jeho upload.
+Název seriálu i epizody se používá v původním jazyce díla. Názvy se
+nepřekládají ani neodhadují z názvů souborů. Následuje `S01E01`, dostupný
+oficiální původní název epizody, skutečné rozlišení originálu a jazykový dodatek.
+U anglických seriálů jsou tedy názvy anglické, u ostatních v jejich původním jazyce.
+Pokud původní název epizody po ověření není dostupný, vynechá se.
+Nedokončená kontrola nebo technická chyba odloží upload do vyřešení metadat.
 Stejně pojmenované seriály se rozlišují rokem, případně katalogovým ID.
 
 | Varianta | Příklad názvu |
 | --- | --- |
-| Ověřený český zvuk | `The Big Bang Theory S01E01 Pilot CZ Dabing` |
-| Anglický zvuk a potvrzené české titulky | `The Big Bang Theory S01E01 Pilot CZ Titulky` |
-| Anglický zvuk bez českých titulků | `The Big Bang Theory S01E01 Pilot` |
-| Odlišný původní název | `Money Heist (La casa de papel) S01E01 CZ Dabing` |
+| Ověřený český zvuk | `The Big Bang Theory S01E01 Pilot 1080p CZ Dabing` |
+| Anglický zvuk a potvrzené české titulky | `The Big Bang Theory S01E01 Pilot 1080p CZ Titulky` |
+| Anglický zvuk bez českých titulků | `The Big Bang Theory S01E01 Pilot 1080p` |
+| Neanglický původní název | `La casa de papel S01E01 Efectuar lo acordado 1440p CZ Dabing` |
+
+Rozlišení je vždy před jazykovým dodatkem: `SD`, `720p`, `1080p`, `1440p`
+nebo `4K`, stejně jako v původním seriálovém uploaderu. Přejmenování již
+nahraných souborů používá rozměry skutečně přeneseného zdroje, i když se
+mezitím ve frontě objevil kvalitnější originál.
 
 Metadata pocházejí z identitou ověřených záznamů TMDB: [vyhledávání seriálů](https://developer.themoviedb.org/reference/search-tv),
 [překlady názvů seriálů](https://developer.themoviedb.org/reference/tv-series-translations),
 [detail řady](https://developer.themoviedb.org/reference/tv-season-details)
 a [překlady názvů epizod](https://developer.themoviedb.org/reference/tv-episode-translations).
 Vyhledávání musí vrátit právě jeden seriál se shodným původním názvem;
-u neanglických seriálů se požaduje výslovný anglický databázový název.
+u neanglických epizod se požaduje výslovný název v původním jazyce.
+Starší doložený anglický název je původním názvem pouze u anglického seriálu.
 Ověřené výjimky lze zadat do `config/titles.json` ve skupinách `series` a `episodes`.
 
 ## České zdroje a pořadí
 
 Import čte katalog, ověřený manifest a uložené fronty obou původních účtů.
-Doložený zdroj dokončeného přenosu má přednost před nově vybraným zdrojem.
+Ze všech ověřených zdrojů se vybírá nejvyšší rozlišení a v něm nejmenší soubor.
+Zahrnují se i publikovaná vylepšení kvality z původního projektu; dokončený
+starší upload nesmí přebít kvalitnější ověřený zdroj.
 Importují se pouze skutečně ověřené české zvukové verze s důvěrou alespoň 0,65,
 platnými rozměry, délkou, velikostí a stabilním detailovým odkazem.
 Z historie jiných účtů se nepřenášejí cílová ID, příznaky nahrání,
 rezervace, cookies ani dočasné autorizované adresy.
 
-Další import doplňuje nové epizody a zachovává již převzaté zdroje.
+Další import doplňuje nové epizody a vylepšuje dosud nepřidělené zdroje.
+Zdroj již nahraného nebo rezervovaného videa zůstává vázaný na skutečně
+přenesený soubor; jeho historie se nepřepisuje nově nalezenou kvalitou.
 Jeden zdrojový soubor se nepřiřadí více epizodám. Pořadí se přebírá z
 `priority_rank` původního hodnoceného katalogu, tedy z hodnocení a počtu hlasů,
 nikoli z počtu přehrání. U stejné epizody má česká varianta přednost.
@@ -132,3 +141,18 @@ slouží jako zdroj ověřených dat; tento projekt do nich nezapisuje.
 Přenosový adaptér vychází ze `sdilej-serialy/continuous.py`, detekce vypálených
 titulků a izolovaný Whisper z Markétina projektu. Původ a revize jsou v
 `upstream/revisions.json`; ostatní podpůrné moduly používá připnutá závislost.
+
+## Rozlišení jazykových variant a provozní kontrola
+
+Vyhledávání na cíli rozlišuje českou a anglickou variantu stejné epizody.
+Samotný název nebo shodné `SxxExx` nepotvrzuje přenos vybraného zdroje.
+Dokončení vyžaduje vlastní cílové ID, úplnou přenosovou účtenku a ověření
+celého názvu na účtu. Jedno cílové ID nesmí být sdílené českou a anglickou historií.
+Neznámé existující video se odloží k prověření, nikoli označí za hotový upload.
+
+`--variant en` umožňuje ověřit samostatnou anglickou dávku. `--variant all`
+je výchozí pro průběžný běh a zachovává společný limit přenosů.
+V `config/runtime.json` lze nastavit `admit_uploads=false`: worker dokončí
+rozběhnuté přenosy a skončí bez přijímání dalších úloh.
+Modul `reconcile` uchovává audit oprav starých chybných záznamů a bezpečně
+přejmenovává vlastní videa bez opakovaného nahrávání jejich obsahu.

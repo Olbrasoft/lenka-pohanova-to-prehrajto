@@ -68,10 +68,8 @@ class Metadata:
             names.discard("")
             if len(names) == 1:
                 english = names.pop()
-        if not english:
-            raise MetadataUnavailable("Official English title is missing or ambiguous")
         return dict(
-            english_title=english.strip(),
+            english_title=english.strip() if english else None,
             original_title=detail["original_name"].strip(),
             original_language=detail.get("original_language"),
             tmdb_id=tmdb_id,
@@ -83,9 +81,12 @@ class Metadata:
         tmdb_id, season, number = series.get("tmdb_id"), row["season"], row["episode"]
         if not tmdb_id:
             return None
-        key = (tmdb_id, season)
+        language = series.get("original_language")
+        if not language:
+            raise MetadataUnavailable("Original language is missing")
+        key = (tmdb_id, season, language)
         if key not in self.seasons:
-            self.seasons[key] = self.get(f"tv/{tmdb_id}/season/{season}", language="en-US")
+            self.seasons[key] = self.get(f"tv/{tmdb_id}/season/{season}", language=language)
         data = self.seasons[key]
         if data.get("season_number") != season:
             raise MetadataUnavailable("Season numbering mismatch")
@@ -98,12 +99,12 @@ class Metadata:
         ]
         if len(matching) != 1:
             return None
-        title = matching[0].get("name") if series.get("original_language") == "en" else None
-        if series.get("original_language") != "en":
+        title = matching[0].get("name") if language == "en" else None
+        if language != "en":
             translations = self.get(f"tv/{tmdb_id}/season/{season}/episode/{number}/translations").get(
                 "translations", []
             )
-            names = {t.get("data", {}).get("name", "").strip() for t in translations if t.get("iso_639_1") == "en"}
+            names = {t.get("data", {}).get("name", "").strip() for t in translations if t.get("iso_639_1") == language}
             names.discard("")
             if len(names) == 1:
                 title = names.pop()
@@ -111,7 +112,8 @@ class Metadata:
         if not title or normalized(title) in {f"episode {number}", f"epizoda {number}"}:
             return None
         return dict(
-            english_title=title.strip(),
+            original_title=title.strip(),
+            original_language=language,
             tmdb_id=matching[0]["id"],
             source=f"https://www.themoviedb.org/tv/{tmdb_id}/season/{season}/episode/{number}",
         )
@@ -131,7 +133,7 @@ class Metadata:
             identity = f"{key}:{row['season']}:{row['episode']}"
             now = datetime.now(UTC)
             episode = snapshot["episodes"].get(identity, {})
-            if not series.get("english_title"):
+            if not series.get("original_title"):
                 if series.get("retry_after", "") > now.isoformat():
                     continue
                 checked += 1
@@ -145,12 +147,33 @@ class Metadata:
                     )
                     self.save()
                     continue
-            if not episode or episode.get("retry_after", "") <= now.isoformat() and not episode.get("english_title"):
+            if (
+                series.get("original_language") == "en"
+                and episode.get("english_title")
+                and not episode.get("original_title")
+            ):
+                self.data["episodes"][identity] = {
+                    **episode,
+                    "original_title": episode["english_title"],
+                    "original_language": "en",
+                }
+                self.save()
+                continue
+            needs_original = not episode.get("original_title")
+            legacy_non_english = (
+                series.get("original_language") != "en"
+                and episode.get("status") == "official_english_episode_title_unavailable"
+            )
+            if (
+                not episode
+                or needs_original
+                and (legacy_non_english or episode.get("retry_after", "") <= now.isoformat())
+            ):
                 checked += 1
                 try:
                     found = self.resolve_episode(row, series)
                     self.data["episodes"][identity] = found or dict(
-                        status="official_english_episode_title_unavailable",
+                        status="official_original_episode_title_unavailable",
                         retry_after=(now + timedelta(days=7)).isoformat(),
                     )
                 except MetadataUnavailable:
@@ -162,7 +185,7 @@ class Metadata:
         return dict(
             checked=checked,
             resolved_series=resolved,
-            named_series=sum(bool(v.get("english_title")) for v in self.snapshot()["series"].values()),
+            named_series=sum(bool(v.get("original_title")) for v in self.snapshot()["series"].values()),
         )
 
     def save(self):
