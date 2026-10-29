@@ -10082,12 +10082,6 @@
     },
     "22:3:6": {
       "episode_key": "rodina sopránů:s3:e6",
-      "claim": {
-        "worker_id": "baa4985b31574c8ab9aceb4cdf51fcc5-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:24:37.050106+00:00",
-        "lease_expires_at": "2026-10-30T05:24:37.050116+00:00"
-      },
       "source": {
         "source_id": "29135814",
         "source_url": "https://sdilej.cz/29135814/rodina-sopranu-the-sopranos-s03e06-hd-cz-dabing.mkv",
@@ -10112,15 +10106,22 @@
         "display_name": "The Sopranos S03E06 University 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:24:38.487210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621289",
-        "size_bytes": 1000293931
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621289",
+          "size_bytes": 1000293931,
+          "source_bytes_read": 1000293931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29135814",
+        "source_url": "https://sdilej.cz/29135814/rodina-sopranu-the-sopranos-s03e06-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621289",
-        "size_bytes": 1000293931,
-        "source_bytes_read": 1000293931,
-        "http_status": 201
+        "display_name": "The Sopranos S03E06 University 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:27:10.418172+00:00"
       }
     },
     "22:3:7": {
@@ -10203,5 +10204,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:27:00.552853+00:00"
+  "updated_at": "2026-10-29T23:27:10.418190+00:00"
 }
