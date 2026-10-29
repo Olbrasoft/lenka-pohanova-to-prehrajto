@@ -2436,12 +2436,6 @@
     },
     "5964:1:3": {
       "episode_key": "zázračná planeta ii:s1:e3",
-      "claim": {
-        "worker_id": "1b2996068dfb4afcb426d0855217f4a7-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T15:45:19.998045+00:00",
-        "lease_expires_at": "2026-10-29T21:45:19.998055+00:00"
-      },
       "source": {
         "source_id": "10975002",
         "source_url": "https://sdilej.cz/10975002/zazracna-planeta-ii-03-dzungle.mkv",
@@ -2467,15 +2461,22 @@
         "display_name": "Planet Earth II S01E03 Jungles 1080p CZ Dabing",
         "prepared_at": "2026-10-29T15:45:21.710672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613305",
-        "size_bytes": 3969312100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613305",
+          "size_bytes": 3969312100,
+          "source_bytes_read": 3969312100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10975002",
+        "source_url": "https://sdilej.cz/10975002/zazracna-planeta-ii-03-dzungle.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613305",
-        "size_bytes": 3969312100,
-        "source_bytes_read": 3969312100,
-        "http_status": 201
+        "display_name": "Planet Earth II S01E03 Jungles 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T15:57:35.501820+00:00"
       }
     },
     "5964:1:5": {
@@ -2559,5 +2560,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T15:57:31.689420+00:00"
+  "updated_at": "2026-10-29T15:57:35.501836+00:00"
 }
