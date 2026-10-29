@@ -5606,12 +5606,6 @@
     },
     "14:1:3": {
       "episode_key": "hra o trůny:s1:e3",
-      "claim": {
-        "worker_id": "0be98861e4dc48cd8dd594d7c1a0cb47-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:09:40.301120+00:00",
-        "lease_expires_at": "2026-10-30T00:09:40.301130+00:00"
-      },
       "source": {
         "source_id": "34402222",
         "source_url": "https://sdilej.cz/34402222/hra-o-truny-s01e03-lord-snih-lord-snow-.mkv",
@@ -5636,15 +5630,22 @@
         "display_name": "Game of Thrones S01E03 Lord Snow 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:09:42.015155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616039",
-        "size_bytes": 2519028970
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616039",
+          "size_bytes": 2519028970,
+          "source_bytes_read": 2519028970,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402222",
+        "source_url": "https://sdilej.cz/34402222/hra-o-truny-s01e03-lord-snih-lord-snow-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616039",
-        "size_bytes": 2519028970,
-        "source_bytes_read": 2519028970,
-        "http_status": 201
+        "display_name": "Game of Thrones S01E03 Lord Snow 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:19:22.196189+00:00"
       }
     },
     "14:1:4": {
@@ -5727,5 +5728,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:19:17.877507+00:00"
+  "updated_at": "2026-10-29T18:19:22.196206+00:00"
 }
