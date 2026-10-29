@@ -94,3 +94,34 @@ def test_czech_label_is_added_only_after_target_content_verification(tmp_path, e
     assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]
     saved = read_json(tmp_path / "variants/en/state/subtitles.json")
     assert saved["videos"]["777"]["title_updated"] is True
+
+
+def test_uncertain_post_with_truncated_player_name_is_verified_without_another_post(
+    tmp_path, english_row, titles, monkeypatch
+):
+    track = dict(id="11", name="CS - 11 - episode…", czech=True, processing=False, language_action="")
+    state = setup(tmp_path, english_row, monkeypatch, tracks=[track])
+    path = tmp_path / "variants/en/state/subtitles.json"
+    atomic_json(
+        path,
+        dict(
+            account_hash=__import__("hashlib").sha256(b"target@example.invalid").hexdigest(),
+            videos={
+                "777": dict(
+                    identity=english_row["identity"],
+                    status="upload_unconfirmed",
+                    intent=dict(filename="episode-777-cs-full-digest.srt", before_ids=[]),
+                )
+            },
+        ),
+    )
+    renamed = []
+    monkeypatch.setattr(subtitles, "rename_video", lambda _, video_id, title: renamed.append((video_id, title)))
+    monkeypatch.setattr("lenka_sync.transfer.target_confirmed", lambda *_: True)
+    subtitles.followup(tmp_path, [english_row], state, titles, credentials())
+    saved = read_json(path)["videos"]["777"]
+    assert saved["status"] == "attached_verified"
+    assert saved["title_updated"] is True
+    assert saved["intent"]["subtitle_id"] == "11"
+    assert saved["verified_sha256"] == english_row["subtitles"]["sha256"]
+    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]

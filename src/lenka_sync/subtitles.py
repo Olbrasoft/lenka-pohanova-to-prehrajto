@@ -6,7 +6,7 @@ from datetime import UTC, datetime, timedelta
 import time
 from requests.adapters import HTTPAdapter
 
-from sdilej_serialy.episode_subtitles import attach, read_target_view
+from sdilej_serialy.episode_subtitles import attach, exact_source, read_target_view
 from sdilej_serialy.episodes import EpisodeSourceProvider
 from sdilej_serialy.pipeline import target_session
 from sdilej_serialy.subtitle_target import SubtitleTarget, TargetUnavailable, parse_listing, trusted_detail
@@ -16,6 +16,26 @@ from .naming import display_name, episode_search_phrase
 from .target import rename_video
 from . import policy
 from .storage import atomic_json, read_json
+
+
+def reconcile_exact_track(row, record, entry, view, api, save):
+    """Resolve an uncertain POST even when the player truncates its filename."""
+    if not entry.get("intent") or not view.ready or not exact_source(row, record):
+        return False
+    expected = row["subtitles"]["sha256"]
+    for track in view.tracks:
+        if track["czech"] and not track["processing"] and api.verify_content(track, expected):
+            entry.update(
+                status="attached_verified",
+                verified_at=datetime.now(UTC).isoformat(),
+                verified_track_id=track["id"],
+                verified_sha256=expected,
+            )
+            if track["id"] not in entry["intent"]["before_ids"]:
+                entry["intent"]["subtitle_id"] = track["id"]
+            save()
+            return True
+    return False
 
 
 def followup(root, queue, state, titles, credentials, *, persist=None, runtime_minutes=10, limit=20):
@@ -86,9 +106,9 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
 
                 try:
                     # The upstream helper's marker removal is separate from our final title.
-                    attach(
-                        row, record, entry, refresh(), api, provider, refresh, save, lambda _: None, deadline=deadline
-                    )
+                    view = refresh()
+                    if not reconcile_exact_track(row, record, entry, view, api, save):
+                        attach(row, record, entry, view, api, provider, refresh, save, lambda _: None, deadline=deadline)
                     # Reconcile the same durable intent immediately; never repeat its POST.
                     for _ in range(3):
                         if (
@@ -99,11 +119,14 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                         ):
                             break
                         time.sleep(2)
+                        view = refresh()
+                        if reconcile_exact_track(row, record, entry, view, api, save):
+                            break
                         attach(
                             row,
                             record,
                             entry,
-                            refresh(),
+                            view,
                             api,
                             provider,
                             refresh,
