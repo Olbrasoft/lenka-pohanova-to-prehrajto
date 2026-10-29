@@ -10830,12 +10830,6 @@
     },
     "22:4:10": {
       "episode_key": "rodina sopránů:s4:e10",
-      "claim": {
-        "worker_id": "5f70987130584e4bb16e2629507ede33-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-29T23:41:08.931110+00:00",
-        "lease_expires_at": "2026-10-30T05:41:08.931121+00:00"
-      },
       "source": {
         "source_id": "13782585",
         "source_url": "https://sdilej.cz/13782585/the-sopranos.s04e10.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -10860,15 +10854,22 @@
         "display_name": "The Sopranos S04E10 The Strong, Silent Type 1080p CZ Dabing",
         "prepared_at": "2026-10-29T23:41:10.284754+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621564",
-        "size_bytes": 692318797
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621564",
+          "size_bytes": 692318797,
+          "source_bytes_read": 692318797,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13782585",
+        "source_url": "https://sdilej.cz/13782585/the-sopranos.s04e10.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621564",
-        "size_bytes": 692318797,
-        "source_bytes_read": 692318797,
-        "http_status": 201
+        "display_name": "The Sopranos S04E10 The Strong, Silent Type 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T23:43:58.316868+00:00"
       }
     },
     "22:4:11": {
@@ -10951,5 +10952,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T23:43:54.627957+00:00"
+  "updated_at": "2026-10-29T23:43:58.316885+00:00"
 }
