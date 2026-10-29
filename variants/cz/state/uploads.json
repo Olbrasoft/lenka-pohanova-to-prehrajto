@@ -6194,12 +6194,6 @@
     },
     "14:2:6": {
       "episode_key": "hra o trůny:s2:e6",
-      "claim": {
-        "worker_id": "94cb552d60374123aeefbb118932861d-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T18:40:41.197063+00:00",
-        "lease_expires_at": "2026-10-30T00:40:41.197073+00:00"
-      },
       "source": {
         "source_id": "34402279",
         "source_url": "https://sdilej.cz/34402279/hra-o-truny-s02e06-bohove-stari-a-novi-the-old-gods-and-the-new-.mkv",
@@ -6224,15 +6218,22 @@
         "display_name": "Game of Thrones S02E06 The Old Gods and the New 4K CZ Dabing",
         "prepared_at": "2026-10-29T18:40:43.166698+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30616731",
-        "size_bytes": 2385293077
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30616731",
+          "size_bytes": 2385293077,
+          "source_bytes_read": 2385293077,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402279",
+        "source_url": "https://sdilej.cz/34402279/hra-o-truny-s02e06-bohove-stari-a-novi-the-old-gods-and-the-new-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30616731",
-        "size_bytes": 2385293077,
-        "source_bytes_read": 2385293077,
-        "http_status": 201
+        "display_name": "Game of Thrones S02E06 The Old Gods and the New 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T18:49:20.101498+00:00"
       }
     },
     "14:2:7": {
@@ -6315,5 +6316,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T18:49:14.631282+00:00"
+  "updated_at": "2026-10-29T18:49:20.101510+00:00"
 }
