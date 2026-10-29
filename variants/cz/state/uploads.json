@@ -8227,12 +8227,6 @@
     },
     "14:7:2": {
       "episode_key": "hra o trůny:s7:e2",
-      "claim": {
-        "worker_id": "dea15305fb37484bb34f1831cdf873dc-worker-0",
-        "run_id": "40931013520",
-        "claimed_at": "2026-10-29T21:38:12.207460+00:00",
-        "lease_expires_at": "2026-10-30T03:38:12.207468+00:00"
-      },
       "source": {
         "source_id": "34402553",
         "source_url": "https://sdilej.cz/34402553/hra-o-truny-s07e02-za-boure-zrozena-stormborn-.mkv",
@@ -8257,15 +8251,22 @@
         "display_name": "Game of Thrones S07E02 Stormborn 4K CZ Dabing",
         "prepared_at": "2026-10-29T21:38:14.774955+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30619874",
-        "size_bytes": 2589156790
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30619874",
+          "size_bytes": 2589156790,
+          "source_bytes_read": 2589156790,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34402553",
+        "source_url": "https://sdilej.cz/34402553/hra-o-truny-s07e02-za-boure-zrozena-stormborn-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30619874",
-        "size_bytes": 2589156790,
-        "source_bytes_read": 2589156790,
-        "http_status": 201
+        "display_name": "Game of Thrones S07E02 Stormborn 4K CZ Dabing",
+        "uploaded_at": "2026-10-29T21:50:05.699137+00:00"
       }
     },
     "14:7:3": {
@@ -8311,5 +8312,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T21:50:00.164159+00:00"
+  "updated_at": "2026-10-29T21:50:05.699154+00:00"
 }
