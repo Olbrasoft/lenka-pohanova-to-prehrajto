@@ -3318,12 +3318,6 @@
     },
     "1575:2:1": {
       "episode_key": "the wire – špína baltimoru:s2:e1",
-      "claim": {
-        "worker_id": "15229ffc2bc145caafd0878136f9a0d8-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:23:44.763885+00:00",
-        "lease_expires_at": "2026-10-29T22:23:44.763896+00:00"
-      },
       "source": {
         "source_id": "28541120",
         "source_url": "https://sdilej.cz/28541120/the-wire-s02e01-1080p-cz-dabing.mkv",
@@ -3348,15 +3342,22 @@
         "display_name": "The Wire S02E01 Ebb Tide 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:23:49.925420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613945",
-        "size_bytes": 1804069465
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613945",
+          "size_bytes": 1804069465,
+          "source_bytes_read": 1804069465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28541120",
+        "source_url": "https://sdilej.cz/28541120/the-wire-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613945",
-        "size_bytes": 1804069465,
-        "source_bytes_read": 1804069465,
-        "http_status": 201
+        "display_name": "The Wire S02E01 Ebb Tide 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:29:43.067162+00:00"
       }
     },
     "1575:2:2": {
@@ -3439,5 +3440,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:29:39.149465+00:00"
+  "updated_at": "2026-10-29T16:29:43.067181+00:00"
 }
