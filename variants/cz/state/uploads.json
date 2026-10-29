@@ -2776,12 +2776,6 @@
     },
     "1575:1:2": {
       "episode_key": "the wire – špína baltimoru:s1:e2",
-      "claim": {
-        "worker_id": "c7b8e033cbd94acf86e19e79e3d0194f-worker-0",
-        "run_id": "40901124475",
-        "claimed_at": "2026-10-29T16:07:30.141389+00:00",
-        "lease_expires_at": "2026-10-29T22:07:30.141405+00:00"
-      },
       "source": {
         "source_id": "28560078",
         "source_url": "https://sdilej.cz/28560078/the-wire-spina-baltimoru-s01e02-tvrip-czdab.mp4",
@@ -2806,15 +2800,22 @@
         "display_name": "The Wire S01E02 The Detail 1080p CZ Dabing",
         "prepared_at": "2026-10-29T16:07:32.171119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30613637",
-        "size_bytes": 663667123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30613637",
+          "size_bytes": 663667123,
+          "source_bytes_read": 663667123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28560078",
+        "source_url": "https://sdilej.cz/28560078/the-wire-spina-baltimoru-s01e02-tvrip-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30613637",
-        "size_bytes": 663667123,
-        "source_bytes_read": 663667123,
-        "http_status": 201
+        "display_name": "The Wire S01E02 The Detail 1080p CZ Dabing",
+        "uploaded_at": "2026-10-29T16:09:25.722720+00:00"
       }
     }
   },
@@ -2823,5 +2824,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-29T16:09:22.221337+00:00"
+  "updated_at": "2026-10-29T16:09:25.722738+00:00"
 }
