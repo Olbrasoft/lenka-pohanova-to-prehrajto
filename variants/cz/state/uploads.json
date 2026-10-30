@@ -56245,12 +56245,6 @@
     },
     "1180:3:13": {
       "episode_key": "odpočívej v pokoji:s3:e13",
-      "claim": {
-        "worker_id": "86416317a56f4d90b38bf6bca35adf9f-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:06:24.724402+00:00",
-        "lease_expires_at": "2026-10-31T03:06:24.724413+00:00"
-      },
       "source": {
         "source_id": "25928737",
         "source_url": "https://sdilej.cz/25928737/odpocivej-v-pokoji-six-feet-under-s03e13-hd-cz-dabing.mkv",
@@ -56275,15 +56269,22 @@
         "display_name": "Six Feet Under S03E13 I'm Sorry, I'm Lost 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:06:28.706919+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644984",
-        "size_bytes": 1567542479
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644984",
+          "size_bytes": 1567542479,
+          "source_bytes_read": 1567542479,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25928737",
+        "source_url": "https://sdilej.cz/25928737/odpocivej-v-pokoji-six-feet-under-s03e13-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644984",
-        "size_bytes": 1567542479,
-        "source_bytes_read": 1567542479,
-        "http_status": 201
+        "display_name": "Six Feet Under S03E13 I'm Sorry, I'm Lost 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T21:10:22.973098+00:00"
       }
     },
     "1180:4:1": {
@@ -56329,5 +56330,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T21:10:20.411502+00:00"
+  "updated_at": "2026-10-30T21:10:22.973115+00:00"
 }
