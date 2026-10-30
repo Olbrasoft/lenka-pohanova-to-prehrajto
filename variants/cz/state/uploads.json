@@ -54089,12 +54089,6 @@
     },
     "1154:5:3": {
       "episode_key": "panství downton:s5:e3",
-      "claim": {
-        "worker_id": "900be935dce54c0fac65a69ef290d67b-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:15:41.614592+00:00",
-        "lease_expires_at": "2026-10-31T01:15:41.614603+00:00"
-      },
       "source": {
         "source_id": "33828288",
         "source_url": "https://sdilej.cz/33828288/panstvi-downton-s05e03-cz-dabing.mkv",
@@ -54119,15 +54113,22 @@
         "display_name": "Downton Abbey S05E03 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:15:43.239412+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30642750",
-        "size_bytes": 1093439216
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30642750",
+          "size_bytes": 1093439216,
+          "source_bytes_read": 1093439216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33828288",
+        "source_url": "https://sdilej.cz/33828288/panstvi-downton-s05e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30642750",
-        "size_bytes": 1093439216,
-        "source_bytes_read": 1093439216,
-        "http_status": 201
+        "display_name": "Downton Abbey S05E03 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:19:31.193012+00:00"
       }
     }
   },
@@ -54136,5 +54137,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:19:30.002427+00:00"
+  "updated_at": "2026-10-30T19:19:31.193027+00:00"
 }
