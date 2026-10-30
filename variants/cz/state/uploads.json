@@ -61595,12 +61595,6 @@
     },
     "956:4:26": {
       "episode_key": "star trek: nová generace:s4:e26",
-      "claim": {
-        "worker_id": "ee773bb262dd4583a5f69d61f3300b43-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:38:52.029792+00:00",
-        "lease_expires_at": "2026-10-31T05:38:52.029804+00:00"
-      },
       "source": {
         "source_id": "28165160",
         "source_url": "https://sdilej.cz/28165160/star-trek-nova-generace-s04e26-usmireni-1.-cast-.mkv",
@@ -61625,15 +61619,22 @@
         "display_name": "Star Trek: The Next Generation S04E26 Redemption (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:38:53.663888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648689",
-        "size_bytes": 439835914
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648689",
+          "size_bytes": 439835914,
+          "source_bytes_read": 439835914,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165160",
+        "source_url": "https://sdilej.cz/28165160/star-trek-nova-generace-s04e26-usmireni-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648689",
-        "size_bytes": 439835914,
-        "source_bytes_read": 439835914,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E26 Redemption (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:39:55.012655+00:00"
       }
     },
     "956:5:1": {
@@ -61715,5 +61716,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:39:52.777802+00:00"
+  "updated_at": "2026-10-30T23:39:55.012674+00:00"
 }
