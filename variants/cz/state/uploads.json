@@ -38926,12 +38926,6 @@
     },
     "673:3:5": {
       "episode_key": "městečko south park:s3:e5",
-      "claim": {
-        "worker_id": "96110c5e05094fc3b0d7cfae7aa506d5-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:34:32.499483+00:00",
-        "lease_expires_at": "2026-10-30T19:34:32.499494+00:00"
-      },
       "source": {
         "source_id": "32876137",
         "source_url": "https://sdilej.cz/32876137/mestecko-south-park-s03e05-17-1999-cz-dab-1080p-tweek-vs.-craig.mkv",
@@ -38956,15 +38950,22 @@
         "display_name": "South Park S03E05 Tweek vs. Craig 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:34:34.327897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636938",
-        "size_bytes": 247432418
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636938",
+          "size_bytes": 247432418,
+          "source_bytes_read": 247432418,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876137",
+        "source_url": "https://sdilej.cz/32876137/mestecko-south-park-s03e05-17-1999-cz-dab-1080p-tweek-vs.-craig.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636938",
-        "size_bytes": 247432418,
-        "source_bytes_read": 247432418,
-        "http_status": 201
+        "display_name": "South Park S03E05 Tweek vs. Craig 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:35:39.740957+00:00"
       }
     },
     "673:3:6": {
@@ -39047,5 +39048,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:35:37.255927+00:00"
+  "updated_at": "2026-10-30T13:35:39.740975+00:00"
 }
