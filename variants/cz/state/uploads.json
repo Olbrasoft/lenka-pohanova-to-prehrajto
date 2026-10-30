@@ -46948,12 +46948,6 @@
     },
     "673:16:8": {
       "episode_key": "městečko south park:s16:e8",
-      "claim": {
-        "worker_id": "b712353e4d0f40cdbe63a796f73bb568-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:12:46.421576+00:00",
-        "lease_expires_at": "2026-10-30T21:12:46.421591+00:00"
-      },
       "source": {
         "source_id": "34015595",
         "source_url": "https://sdilej.cz/34015595/south-park-s16e08.-sarkastabal.mkv",
@@ -46978,15 +46972,22 @@
         "display_name": "South Park S16E08 Sarcastaball 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:12:48.387042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638542",
-        "size_bytes": 249499532
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638542",
+          "size_bytes": 249499532,
+          "source_bytes_read": 249499532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34015595",
+        "source_url": "https://sdilej.cz/34015595/south-park-s16e08.-sarkastabal.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638542",
-        "size_bytes": 249499532,
-        "source_bytes_read": 249499532,
-        "http_status": 201
+        "display_name": "South Park S16E08 Sarcastaball 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:13:47.119971+00:00"
       }
     }
   },
@@ -46995,5 +46996,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:13:45.537245+00:00"
+  "updated_at": "2026-10-30T15:13:47.119990+00:00"
 }
