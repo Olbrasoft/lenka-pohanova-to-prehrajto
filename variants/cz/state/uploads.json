@@ -32371,12 +32371,6 @@
     },
     "1927:1:8": {
       "episode_key": "boj o moc:s1:e8",
-      "claim": {
-        "worker_id": "18eb6fdecb5d41e0b0fa68d191e001ff-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:27:17.284738+00:00",
-        "lease_expires_at": "2026-10-30T15:27:17.284750+00:00"
-      },
       "source": {
         "source_id": "32616998",
         "source_url": "https://sdilej.cz/32616998/succession-2018-s01e08-cz-dabing-1080p.mkv",
@@ -32401,15 +32395,22 @@
         "display_name": "Succession S01E08 Prague 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:27:20.090139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630290",
-        "size_bytes": 1536617767
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630290",
+          "size_bytes": 1536617767,
+          "source_bytes_read": 1536617767,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32616998",
+        "source_url": "https://sdilej.cz/32616998/succession-2018-s01e08-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630290",
-        "size_bytes": 1536617767,
-        "source_bytes_read": 1536617767,
-        "http_status": 201
+        "display_name": "Succession S01E08 Prague 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:32:12.034651+00:00"
       }
     },
     "1927:1:9": {
@@ -32455,5 +32456,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:32:06.579642+00:00"
+  "updated_at": "2026-10-30T09:32:12.034670+00:00"
 }
