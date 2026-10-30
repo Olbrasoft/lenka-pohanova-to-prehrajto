@@ -55447,12 +55447,6 @@
     },
     "1180:2:7": {
       "episode_key": "odpočívej v pokoji:s2:e7",
-      "claim": {
-        "worker_id": "a883757c00da4d10bd7ddc7b4e44eff6-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:32:43.457079+00:00",
-        "lease_expires_at": "2026-10-31T02:32:43.457091+00:00"
-      },
       "source": {
         "source_id": "25922060",
         "source_url": "https://sdilej.cz/25922060/odpocivej-v-pokoji-six-feet-under-s02e07-hd-cz-dabing.mkv",
@@ -55477,15 +55471,22 @@
         "display_name": "Six Feet Under S02E07 Back to the Garden 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:32:45.089766+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644195",
-        "size_bytes": 1422668937
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644195",
+          "size_bytes": 1422668937,
+          "source_bytes_read": 1422668937,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25922060",
+        "source_url": "https://sdilej.cz/25922060/odpocivej-v-pokoji-six-feet-under-s02e07-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644195",
-        "size_bytes": 1422668937,
-        "source_bytes_read": 1422668937,
-        "http_status": 201
+        "display_name": "Six Feet Under S02E07 Back to the Garden 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:36:36.572653+00:00"
       }
     },
     "1180:2:8": {
@@ -55568,5 +55569,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:36:31.581856+00:00"
+  "updated_at": "2026-10-30T20:36:36.572673+00:00"
 }
