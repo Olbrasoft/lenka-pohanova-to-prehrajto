@@ -34336,12 +34336,6 @@
     },
     "201:1:2": {
       "episode_key": "gangy z birminghamu:s1:e2",
-      "claim": {
-        "worker_id": "37b5b81a27f14386854c8caaffad3903-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:52:28.228524+00:00",
-        "lease_expires_at": "2026-10-30T16:52:28.228535+00:00"
-      },
       "source": {
         "source_id": "33819661",
         "source_url": "https://sdilej.cz/33819661/gangy-z-birminghamu-s01e02-002-2013-fhd-epizoda-2-s-.mp4",
@@ -34366,15 +34360,22 @@
         "display_name": "Peaky Blinders S01E02 1080p CZ Dabing",
         "prepared_at": "2026-10-30T10:52:29.647000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631445",
-        "size_bytes": 1204833804
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631445",
+          "size_bytes": 1204833804,
+          "source_bytes_read": 1204833804,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33819661",
+        "source_url": "https://sdilej.cz/33819661/gangy-z-birminghamu-s01e02-002-2013-fhd-epizoda-2-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631445",
-        "size_bytes": 1204833804,
-        "source_bytes_read": 1204833804,
-        "http_status": 201
+        "display_name": "Peaky Blinders S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T10:55:17.201101+00:00"
       }
     },
     "201:1:3": {
@@ -34420,5 +34421,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:55:12.230200+00:00"
+  "updated_at": "2026-10-30T10:55:17.201115+00:00"
 }
