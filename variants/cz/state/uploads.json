@@ -38882,12 +38882,6 @@
     },
     "673:3:4": {
       "episode_key": "městečko south park:s3:e4",
-      "claim": {
-        "worker_id": "478ace1059554d7fb33509e788b85ee6-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:33:49.962942+00:00",
-        "lease_expires_at": "2026-10-30T19:33:49.962955+00:00"
-      },
       "source": {
         "source_id": "32876134",
         "source_url": "https://sdilej.cz/32876134/mestecko-south-park-s03e04-17-1999-cz-dab-1080p-jakovasauri.mkv",
@@ -38912,15 +38906,22 @@
         "display_name": "South Park S03E04 Jakovasaurs 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:33:51.764524+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636931",
-        "size_bytes": 248033140
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636931",
+          "size_bytes": 248033140,
+          "source_bytes_read": 248033140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876134",
+        "source_url": "https://sdilej.cz/32876134/mestecko-south-park-s03e04-17-1999-cz-dab-1080p-jakovasauri.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636931",
-        "size_bytes": 248033140,
-        "source_bytes_read": 248033140,
-        "http_status": 201
+        "display_name": "South Park S03E04 Jakovasaurs 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:34:57.020216+00:00"
       }
     },
     "673:3:5": {
@@ -38999,5 +39000,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:34:55.457777+00:00"
+  "updated_at": "2026-10-30T13:34:57.020233+00:00"
 }
