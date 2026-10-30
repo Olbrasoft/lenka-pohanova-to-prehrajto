@@ -61199,12 +61199,6 @@
     },
     "956:4:17": {
       "episode_key": "star trek: nová generace:s4:e17",
-      "claim": {
-        "worker_id": "589eeca9e11d4794bb47b07fadefefe5-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:31:19.590844+00:00",
-        "lease_expires_at": "2026-10-31T05:31:19.590856+00:00"
-      },
       "source": {
         "source_id": "28165050",
         "source_url": "https://sdilej.cz/28165050/star-trek-nova-generace-s04e17-nocni-mury.mkv",
@@ -61229,15 +61223,22 @@
         "display_name": "Star Trek: The Next Generation S04E17 Night Terrors 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:31:21.457956+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648423",
-        "size_bytes": 439759493
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648423",
+          "size_bytes": 439759493,
+          "source_bytes_read": 439759493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165050",
+        "source_url": "https://sdilej.cz/28165050/star-trek-nova-generace-s04e17-nocni-mury.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648423",
-        "size_bytes": 439759493,
-        "source_bytes_read": 439759493,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E17 Night Terrors 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:32:30.568632+00:00"
       }
     },
     "956:4:18": {
@@ -61320,5 +61321,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:32:28.404664+00:00"
+  "updated_at": "2026-10-30T23:32:30.568648+00:00"
 }
