@@ -24424,12 +24424,6 @@
     },
     "1831:1:13": {
       "episode_key": "městečko záhad:s1:e13",
-      "claim": {
-        "worker_id": "90074705d2514a39927683fd854db7f1-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:36:24.907820+00:00",
-        "lease_expires_at": "2026-10-30T11:36:24.907829+00:00"
-      },
       "source": {
         "source_id": "32876972",
         "source_url": "https://sdilej.cz/32876972/mestecko-zahad-s01e13-mabel-je-sef.mkv",
@@ -24454,15 +24448,22 @@
         "display_name": "Gravity Falls S01E13 Boss Mabel 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:36:26.681261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627181",
-        "size_bytes": 214197551
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627181",
+          "size_bytes": 214197551,
+          "source_bytes_read": 214197551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876972",
+        "source_url": "https://sdilej.cz/32876972/mestecko-zahad-s01e13-mabel-je-sef.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627181",
-        "size_bytes": 214197551,
-        "source_bytes_read": 214197551,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E13 Boss Mabel 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:38:36.259620+00:00"
       }
     }
   },
@@ -24471,5 +24472,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:38:32.285266+00:00"
+  "updated_at": "2026-10-30T05:38:36.259635+00:00"
 }
