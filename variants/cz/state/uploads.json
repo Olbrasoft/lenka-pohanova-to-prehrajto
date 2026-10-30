@@ -42560,12 +42560,6 @@
     },
     "673:9:2": {
       "episode_key": "městečko south park:s9:e2",
-      "claim": {
-        "worker_id": "d48495948a5b42b8af43c6b1e5b7c299-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:10:08.156087+00:00",
-        "lease_expires_at": "2026-10-30T20:10:08.156099+00:00"
-      },
       "source": {
         "source_id": "32876687",
         "source_url": "https://sdilej.cz/32876687/mestecko-south-park-s09e02-14-2005-cz-dab-1080p-chcipni-hipiku-chcipni.mkv",
@@ -42590,15 +42584,22 @@
         "display_name": "South Park S09E02 Die Hippie, Die 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:10:10.012640+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637486",
-        "size_bytes": 267400060
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637486",
+          "size_bytes": 267400060,
+          "source_bytes_read": 267400060,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876687",
+        "source_url": "https://sdilej.cz/32876687/mestecko-south-park-s09e02-14-2005-cz-dab-1080p-chcipni-hipiku-chcipni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637486",
-        "size_bytes": 267400060,
-        "source_bytes_read": 267400060,
-        "http_status": 201
+        "display_name": "South Park S09E02 Die Hippie, Die 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:11:06.913926+00:00"
       }
     },
     "673:9:3": {
@@ -42644,5 +42645,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:11:05.553348+00:00"
+  "updated_at": "2026-10-30T14:11:06.913950+00:00"
 }
