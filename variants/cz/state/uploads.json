@@ -48634,12 +48634,6 @@
     },
     "673:20:1": {
       "episode_key": "městečko south park:s20:e1",
-      "claim": {
-        "worker_id": "b17939257a1648a7b80d95939472fa98-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:43:32.766072+00:00",
-        "lease_expires_at": "2026-10-30T21:43:32.766084+00:00"
-      },
       "source": {
         "source_id": "34699260",
         "source_url": "https://sdilej.cz/34699260/mestecko-south-park-s20e01-10-2016-cz-dab-1080p-plody-zacleneni.mkv",
@@ -48664,15 +48658,22 @@
         "display_name": "South Park S20E01 Member Berries 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:43:36.344849+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639012",
-        "size_bytes": 244168694
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639012",
+          "size_bytes": 244168694,
+          "source_bytes_read": 244168694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699260",
+        "source_url": "https://sdilej.cz/34699260/mestecko-south-park-s20e01-10-2016-cz-dab-1080p-plody-zacleneni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639012",
-        "size_bytes": 244168694,
-        "source_bytes_read": 244168694,
-        "http_status": 201
+        "display_name": "South Park S20E01 Member Berries 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:45:03.834346+00:00"
       }
     },
     "673:20:2": {
@@ -48788,5 +48789,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:45:00.384715+00:00"
+  "updated_at": "2026-10-30T15:45:03.834363+00:00"
 }
