@@ -48557,12 +48557,6 @@
     },
     "673:19:9": {
       "episode_key": "městečko south park:s19:e9",
-      "claim": {
-        "worker_id": "01f7ff34d91e47a180a50918469586e1-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:42:02.456500+00:00",
-        "lease_expires_at": "2026-10-30T21:42:02.456511+00:00"
-      },
       "source": {
         "source_id": "32893239",
         "source_url": "https://sdilej.cz/32893239/mestecko-south-park-s19e09-10-2015-cz-dab-1080p-pravda-a-reklama.mkv",
@@ -48587,15 +48581,22 @@
         "display_name": "South Park S19E09 Truth and Advertising 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:42:05.295353+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638997",
-        "size_bytes": 248431532
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638997",
+          "size_bytes": 248431532,
+          "source_bytes_read": 248431532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893239",
+        "source_url": "https://sdilej.cz/32893239/mestecko-south-park-s19e09-10-2015-cz-dab-1080p-pravda-a-reklama.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638997",
-        "size_bytes": 248431532,
-        "source_bytes_read": 248431532,
-        "http_status": 201
+        "display_name": "South Park S19E09 Truth and Advertising 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:43:39.498919+00:00"
       }
     },
     "673:19:10": {
@@ -48670,5 +48671,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:43:37.973560+00:00"
+  "updated_at": "2026-10-30T15:43:39.498936+00:00"
 }
