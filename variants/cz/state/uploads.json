@@ -16763,12 +16763,6 @@
     },
     "28:1:8": {
       "episode_key": "rick a morty:s1:e8",
-      "claim": {
-        "worker_id": "74bfa278a18a40d5aea06cbee6b18222-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:29:24.827268+00:00",
-        "lease_expires_at": "2026-10-30T08:29:24.827277+00:00"
-      },
       "source": {
         "source_id": "11044375",
         "source_url": "https://sdilej.cz/11044375/rick-a-morty-1080p-cz-s01e08-interdimenzionalni-televize.mkv",
@@ -16793,15 +16787,22 @@
         "display_name": "Rick and Morty S01E08 Rixty Minutes 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:29:37.212489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624085",
-        "size_bytes": 262811344
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624085",
+          "size_bytes": 262811344,
+          "source_bytes_read": 262811344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11044375",
+        "source_url": "https://sdilej.cz/11044375/rick-a-morty-1080p-cz-s01e08-interdimenzionalni-televize.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624085",
-        "size_bytes": 262811344,
-        "source_bytes_read": 262811344,
-        "http_status": 201
+        "display_name": "Rick and Morty S01E08 Rixty Minutes 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:30:29.260178+00:00"
       }
     },
     "28:1:9": {
@@ -16847,5 +16848,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:30:26.627978+00:00"
+  "updated_at": "2026-10-30T02:30:29.260193+00:00"
 }
