@@ -43215,12 +43215,6 @@
     },
     "673:10:3": {
       "episode_key": "městečko south park:s10:e3",
-      "claim": {
-        "worker_id": "fa2caf7c46204fd29f3bf3e07745949c-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:19:31.562336+00:00",
-        "lease_expires_at": "2026-10-30T20:19:31.562349+00:00"
-      },
       "source": {
         "source_id": "32876835",
         "source_url": "https://sdilej.cz/32876835/mestecko-south-park-s10e03-14-2006-cz-dab-1080p-boje-o-kresleny-serial-1.-cast-.mkv",
@@ -43245,15 +43239,22 @@
         "display_name": "South Park S10E03 Cartoon Wars (1) 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:19:33.610048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637668",
-        "size_bytes": 272470410
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637668",
+          "size_bytes": 272470410,
+          "source_bytes_read": 272470410,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876835",
+        "source_url": "https://sdilej.cz/32876835/mestecko-south-park-s10e03-14-2006-cz-dab-1080p-boje-o-kresleny-serial-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637668",
-        "size_bytes": 272470410,
-        "source_bytes_read": 272470410,
-        "http_status": 201
+        "display_name": "South Park S10E03 Cartoon Wars (1) 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:20:24.212970+00:00"
       }
     },
     "673:10:4": {
@@ -43299,5 +43300,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:20:21.349398+00:00"
+  "updated_at": "2026-10-30T14:20:24.212988+00:00"
 }
