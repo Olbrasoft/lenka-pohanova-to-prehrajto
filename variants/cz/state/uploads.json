@@ -12018,12 +12018,6 @@
     },
     "22:6:11": {
       "episode_key": "rodina sopránů:s6:e11",
-      "claim": {
-        "worker_id": "71fd502d714447f0985a62d771749f09-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:08:54.461169+00:00",
-        "lease_expires_at": "2026-10-30T06:08:54.461180+00:00"
-      },
       "source": {
         "source_id": "29098491",
         "source_url": "https://sdilej.cz/29098491/the-sopranos-s06e11.mkv",
@@ -12048,15 +12042,22 @@
         "display_name": "The Sopranos S06E11 Cold Stones 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:08:58.009191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622001",
-        "size_bytes": 937735253
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622001",
+          "size_bytes": 937735253,
+          "source_bytes_read": 937735253,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29098491",
+        "source_url": "https://sdilej.cz/29098491/the-sopranos-s06e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622001",
-        "size_bytes": 937735253,
-        "source_bytes_read": 937735253,
-        "http_status": 201
+        "display_name": "The Sopranos S06E11 Cold Stones 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:12:18.357920+00:00"
       }
     },
     "22:6:12": {
@@ -12155,5 +12156,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:12:16.476528+00:00"
+  "updated_at": "2026-10-30T00:12:18.357937+00:00"
 }
