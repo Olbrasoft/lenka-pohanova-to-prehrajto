@@ -31139,12 +31139,6 @@
     },
     "66:4:1": {
       "episode_key": "fargo:s4:e1",
-      "claim": {
-        "worker_id": "1a1f21e7a8f546b09c8b0ffe9c32ea04-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:59:40.336871+00:00",
-        "lease_expires_at": "2026-10-30T14:59:40.336883+00:00"
-      },
       "source": {
         "source_id": "33114176",
         "source_url": "https://sdilej.cz/33114176/fargo-s04e01-cz-dabing.mkv",
@@ -31169,15 +31163,22 @@
         "display_name": "Fargo S04E01 Welcome to the Alternate Economy 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:59:42.797312+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629946",
-        "size_bytes": 233222089
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629946",
+          "size_bytes": 233222089,
+          "source_bytes_read": 233222089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33114176",
+        "source_url": "https://sdilej.cz/33114176/fargo-s04e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629946",
-        "size_bytes": 233222089,
-        "source_bytes_read": 233222089,
-        "http_status": 201
+        "display_name": "Fargo S04E01 Welcome to the Alternate Economy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:00:42.833227+00:00"
       }
     },
     "66:4:2": {
@@ -31223,5 +31224,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:00:40.474572+00:00"
+  "updated_at": "2026-10-30T09:00:42.833249+00:00"
 }
