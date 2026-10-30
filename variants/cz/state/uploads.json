@@ -49887,12 +49887,6 @@
     },
     "673:22:10": {
       "episode_key": "městečko south park:s22:e10",
-      "claim": {
-        "worker_id": "37d0fe3871f041b3bc0e19d15bb196d2-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:01:30.407390+00:00",
-        "lease_expires_at": "2026-10-30T22:01:30.407401+00:00"
-      },
       "source": {
         "source_id": "34699374",
         "source_url": "https://sdilej.cz/34699374/mestecko-south-park-s22e10-10-2018-cz-dab-1080p-prehlidka-kol.mkv",
@@ -49917,15 +49911,22 @@
         "display_name": "South Park S22E10 Bike Parade 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:01:34.832491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639243",
-        "size_bytes": 250086233
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639243",
+          "size_bytes": 250086233,
+          "source_bytes_read": 250086233,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699374",
+        "source_url": "https://sdilej.cz/34699374/mestecko-south-park-s22e10-10-2018-cz-dab-1080p-prehlidka-kol.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639243",
-        "size_bytes": 250086233,
-        "source_bytes_read": 250086233,
-        "http_status": 201
+        "display_name": "South Park S22E10 Bike Parade 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:02:36.971583+00:00"
       }
     }
   },
@@ -49934,5 +49935,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:02:32.482454+00:00"
+  "updated_at": "2026-10-30T16:02:36.971602+00:00"
 }
