@@ -44337,12 +44337,6 @@
     },
     "673:12:1": {
       "episode_key": "městečko south park:s12:e1",
-      "claim": {
-        "worker_id": "94932871e7b44275b4727333ae91dd27-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:41:56.512485+00:00",
-        "lease_expires_at": "2026-10-30T20:41:56.512498+00:00"
-      },
       "source": {
         "source_id": "34957541",
         "source_url": "https://sdilej.cz/34957541/south-park-s12e01.-problemy-s-mandlemi.mp4",
@@ -44367,15 +44361,22 @@
         "display_name": "South Park S12E01 Tonsil Trouble 1080p CZ Dabing",
         "prepared_at": "2026-10-30T14:42:00.685389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638080",
-        "size_bytes": 570306025
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638080",
+          "size_bytes": 570306025,
+          "source_bytes_read": 570306025,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957541",
+        "source_url": "https://sdilej.cz/34957541/south-park-s12e01.-problemy-s-mandlemi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638080",
-        "size_bytes": 570306025,
-        "source_bytes_read": 570306025,
-        "http_status": 201
+        "display_name": "South Park S12E01 Tonsil Trouble 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T14:43:31.775032+00:00"
       }
     },
     "673:12:2": {
@@ -44542,5 +44543,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:43:30.287118+00:00"
+  "updated_at": "2026-10-30T14:43:31.775050+00:00"
 }
