@@ -54919,12 +54919,6 @@
     },
     "1180:1:6": {
       "episode_key": "odpočívej v pokoji:s1:e6",
-      "claim": {
-        "worker_id": "8e2abf76e1d642c386c39d0410c474ed-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T20:02:09.870840+00:00",
-        "lease_expires_at": "2026-10-31T02:02:09.870851+00:00"
-      },
       "source": {
         "source_id": "25987378",
         "source_url": "https://sdilej.cz/25987378/six.feet.under.s01e06.1080p.cz.en.mkv",
@@ -54949,15 +54943,22 @@
         "display_name": "Six Feet Under S01E06 The Room 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:02:11.698785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643599",
-        "size_bytes": 1460491094
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643599",
+          "size_bytes": 1460491094,
+          "source_bytes_read": 1460491094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25987378",
+        "source_url": "https://sdilej.cz/25987378/six.feet.under.s01e06.1080p.cz.en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643599",
-        "size_bytes": 1460491094,
-        "source_bytes_read": 1460491094,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E06 The Room 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:07:09.830247+00:00"
       }
     },
     "1180:1:7": {
@@ -55047,5 +55048,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:07:07.805960+00:00"
+  "updated_at": "2026-10-30T20:07:09.830264+00:00"
 }
