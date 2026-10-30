@@ -51795,12 +51795,6 @@
     },
     "40:2:22": {
       "episode_key": "městečko twin peaks:s2:e22",
-      "claim": {
-        "worker_id": "6a06f7d44b954e67838da5af85805915-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:17:13.620586+00:00",
-        "lease_expires_at": "2026-10-30T23:17:13.620597+00:00"
-      },
       "source": {
         "source_id": "33203058",
         "source_url": "https://sdilej.cz/33203058/mestecko-twin-peaks-s02e22-beyond-life-and-death.mkv",
@@ -51825,15 +51819,22 @@
         "display_name": "Twin Peaks S02E22 Beyond Life and Death 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:17:15.534261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640477",
-        "size_bytes": 1088102476
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640477",
+          "size_bytes": 1088102476,
+          "source_bytes_read": 1088102476,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203058",
+        "source_url": "https://sdilej.cz/33203058/mestecko-twin-peaks-s02e22-beyond-life-and-death.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640477",
-        "size_bytes": 1088102476,
-        "source_bytes_read": 1088102476,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E22 Beyond Life and Death 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:20:13.797559+00:00"
       }
     },
     "40:3:1": {
@@ -51916,5 +51917,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:20:09.974063+00:00"
+  "updated_at": "2026-10-30T17:20:13.797576+00:00"
 }
