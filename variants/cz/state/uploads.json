@@ -28939,12 +28939,6 @@
     },
     "704:2:2": {
       "episode_key": "temný případ:s2:e2",
-      "claim": {
-        "worker_id": "71b82a7889084794973f2825e1232c37-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:09:16.944395+00:00",
-        "lease_expires_at": "2026-10-30T14:09:16.944408+00:00"
-      },
       "source": {
         "source_id": "32747065",
         "source_url": "https://sdilej.cz/32747065/true-detective-s02e02-cz-dabing-1080p.mkv",
@@ -28969,15 +28963,22 @@
         "display_name": "True Detective S02E02 Night Finds You 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:09:18.573907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629287",
-        "size_bytes": 675585603
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629287",
+          "size_bytes": 675585603,
+          "source_bytes_read": 675585603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32747065",
+        "source_url": "https://sdilej.cz/32747065/true-detective-s02e02-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629287",
-        "size_bytes": 675585603,
-        "source_bytes_read": 675585603,
-        "http_status": 201
+        "display_name": "True Detective S02E02 Night Finds You 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:11:01.969232+00:00"
       }
     }
   },
@@ -28986,5 +28987,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:10:57.426379+00:00"
+  "updated_at": "2026-10-30T08:11:01.969253+00:00"
 }
