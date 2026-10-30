@@ -44819,12 +44819,6 @@
     },
     "673:12:11": {
       "episode_key": "městečko south park:s12:e11",
-      "claim": {
-        "worker_id": "1365c1dfb7d5425983168bacba2ac22a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:51:21.225870+00:00",
-        "lease_expires_at": "2026-10-30T20:51:21.225882+00:00"
-      },
       "source": {
         "source_id": "33507772",
         "source_url": "https://sdilej.cz/33507772/mestecko-south-park-s12e11-14-2008-cz-dab-1080p-pandemie-2-zdeseni.mkv",
@@ -44849,15 +44843,22 @@
         "display_name": "South Park S12E11 Pandemic 2: The Startling 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:51:26.952246+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638241",
-        "size_bytes": 356841395
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638241",
+          "size_bytes": 356841395,
+          "source_bytes_read": 356841395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507772",
+        "source_url": "https://sdilej.cz/33507772/mestecko-south-park-s12e11-14-2008-cz-dab-1080p-pandemie-2-zdeseni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638241",
-        "size_bytes": 356841395,
-        "source_bytes_read": 356841395,
-        "http_status": 201
+        "display_name": "South Park S12E11 Pandemic 2: The Startling 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:52:53.831643+00:00"
       }
     },
     "673:12:12": {
@@ -44973,5 +44974,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:52:49.697728+00:00"
+  "updated_at": "2026-10-30T14:52:53.831660+00:00"
 }
