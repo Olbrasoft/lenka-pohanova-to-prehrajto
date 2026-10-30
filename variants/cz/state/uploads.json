@@ -25507,12 +25507,6 @@
     },
     "1831:2:20": {
       "episode_key": "městečko záhad:s2:e20",
-      "claim": {
-        "worker_id": "759079a44eba48ce80f3dd4e4a5ea84f-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T06:04:39.152536+00:00",
-        "lease_expires_at": "2026-10-30T12:04:39.152549+00:00"
-      },
       "source": {
         "source_id": "16809476",
         "source_url": "https://sdilej.cz/16809476/mestecko-zahad-s02e20-divnogeddon-3-ziskat-mestecko-zpatky.mkv",
@@ -25537,15 +25531,22 @@
         "display_name": "Gravity Falls S02E20 Weirdmageddon (3): Take Back the Falls 720p CZ Dabing",
         "prepared_at": "2026-10-30T06:04:41.993036+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627613",
-        "size_bytes": 647892639
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627613",
+          "size_bytes": 647892639,
+          "source_bytes_read": 647892639,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16809476",
+        "source_url": "https://sdilej.cz/16809476/mestecko-zahad-s02e20-divnogeddon-3-ziskat-mestecko-zpatky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627613",
-        "size_bytes": 647892639,
-        "source_bytes_read": 647892639,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E20 Weirdmageddon (3): Take Back the Falls 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T06:06:39.579406+00:00"
       }
     },
     "585:1:1": {
@@ -25635,5 +25636,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T06:06:35.198236+00:00"
+  "updated_at": "2026-10-30T06:06:39.579426+00:00"
 }
