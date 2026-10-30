@@ -12106,12 +12106,6 @@
     },
     "22:6:13": {
       "episode_key": "rodina sopránů:s6:e13",
-      "claim": {
-        "worker_id": "d2c99e32bfe9473e9f76a7b926bf6af1-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:10:38.485207+00:00",
-        "lease_expires_at": "2026-10-30T06:10:38.485219+00:00"
-      },
       "source": {
         "source_id": "14083642",
         "source_url": "https://sdilej.cz/14083642/the-sopranos.s06e13.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -12136,15 +12130,22 @@
         "display_name": "The Sopranos S06E13 Soprano Home Movies 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:10:39.795283+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622027",
-        "size_bytes": 663353492
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622027",
+          "size_bytes": 663353492,
+          "source_bytes_read": 663353492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14083642",
+        "source_url": "https://sdilej.cz/14083642/the-sopranos.s06e13.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622027",
-        "size_bytes": 663353492,
-        "source_bytes_read": 663353492,
-        "http_status": 201
+        "display_name": "The Sopranos S06E13 Soprano Home Movies 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:13:07.724454+00:00"
       }
     },
     "22:6:14": {
@@ -12227,5 +12228,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:13:04.262318+00:00"
+  "updated_at": "2026-10-30T00:13:07.724469+00:00"
 }
