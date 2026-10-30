@@ -14174,12 +14174,6 @@
     },
     "25:1:9": {
       "episode_key": "volejte saulovi:s1:e9",
-      "claim": {
-        "worker_id": "272f0eccf0de42dd93379d5fb8448133-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:28:45.687879+00:00",
-        "lease_expires_at": "2026-10-30T07:28:45.687891+00:00"
-      },
       "source": {
         "source_id": "29526332",
         "source_url": "https://sdilej.cz/29526332/volejte-saulovi-s01e09-1.mkv",
@@ -14204,15 +14198,22 @@
         "display_name": "Better Call Saul S01E09 Pimento 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:28:47.174356+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623295",
-        "size_bytes": 830972315
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623295",
+          "size_bytes": 830972315,
+          "source_bytes_read": 830972315,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29526332",
+        "source_url": "https://sdilej.cz/29526332/volejte-saulovi-s01e09-1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623295",
-        "size_bytes": 830972315,
-        "source_bytes_read": 830972315,
-        "http_status": 201
+        "display_name": "Better Call Saul S01E09 Pimento 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:31:41.937217+00:00"
       }
     },
     "25:1:10": {
@@ -14295,5 +14296,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:31:38.653426+00:00"
+  "updated_at": "2026-10-30T01:31:41.937234+00:00"
 }
