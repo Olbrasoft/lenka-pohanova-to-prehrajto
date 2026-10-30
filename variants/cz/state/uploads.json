@@ -52103,12 +52103,6 @@
     },
     "40:3:7": {
       "episode_key": "městečko twin peaks:s3:e7",
-      "claim": {
-        "worker_id": "51b5a37a233b46fc8d99a9569e344471-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:34:01.693265+00:00",
-        "lease_expires_at": "2026-10-30T23:34:01.693277+00:00"
-      },
       "source": {
         "source_id": "29296915",
         "source_url": "https://sdilej.cz/29296915/mestecko-twin-peaks-twin-peaks-s03e07-hd-cz-dabing.mkv",
@@ -52133,15 +52127,22 @@
         "display_name": "Twin Peaks S03E07 Part 7 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:34:03.704496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641019",
-        "size_bytes": 2027863480
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641019",
+          "size_bytes": 2027863480,
+          "source_bytes_read": 2027863480,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296915",
+        "source_url": "https://sdilej.cz/29296915/mestecko-twin-peaks-twin-peaks-s03e07-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641019",
-        "size_bytes": 2027863480,
-        "source_bytes_read": 2027863480,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E07 Part 7 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:40:32.648614+00:00"
       }
     },
     "40:3:8": {
@@ -52224,5 +52225,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:40:28.148661+00:00"
+  "updated_at": "2026-10-30T17:40:32.648631+00:00"
 }
