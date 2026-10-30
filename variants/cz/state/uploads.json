@@ -29254,12 +29254,6 @@
     },
     "704:3:1": {
       "episode_key": "temný případ:s3:e1",
-      "claim": {
-        "worker_id": "8c6ae45d8fdc4f5fb2a5ef1703495a16-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:16:41.375086+00:00",
-        "lease_expires_at": "2026-10-30T14:16:41.375097+00:00"
-      },
       "source": {
         "source_id": "32744108",
         "source_url": "https://sdilej.cz/32744108/temny-pripad-s03e01-cz-dabing-1080p-full-hd.mkv",
@@ -29284,15 +29278,22 @@
         "display_name": "True Detective S03E01 The Great War and Modern Memory 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:16:42.963707+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629373",
-        "size_bytes": 638877798
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629373",
+          "size_bytes": 638877798,
+          "source_bytes_read": 638877798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32744108",
+        "source_url": "https://sdilej.cz/32744108/temny-pripad-s03e01-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629373",
-        "size_bytes": 638877798,
-        "source_bytes_read": 638877798,
-        "http_status": 201
+        "display_name": "True Detective S03E01 The Great War and Modern Memory 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:18:58.968457+00:00"
       }
     },
     "704:3:2": {
@@ -29375,5 +29376,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:18:56.404632+00:00"
+  "updated_at": "2026-10-30T08:18:58.968478+00:00"
 }
