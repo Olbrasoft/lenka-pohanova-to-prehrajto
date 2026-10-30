@@ -33654,12 +33654,6 @@
     },
     "1927:4:8": {
       "episode_key": "boj o moc:s4:e8",
-      "claim": {
-        "worker_id": "e29e634b901545a0a32a3be30b238018-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:36:05.142416+00:00",
-        "lease_expires_at": "2026-10-30T16:36:05.142427+00:00"
-      },
       "source": {
         "source_id": "26485646",
         "source_url": "https://sdilej.cz/26485646/succession-s04e08-cz-dabing-1080p.mkv",
@@ -33684,15 +33678,22 @@
         "display_name": "Succession S04E08 America Decides 1080p CZ Dabing",
         "prepared_at": "2026-10-30T10:36:06.647261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631154",
-        "size_bytes": 3060923558
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631154",
+          "size_bytes": 3060923558,
+          "source_bytes_read": 3060923558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26485646",
+        "source_url": "https://sdilej.cz/26485646/succession-s04e08-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631154",
-        "size_bytes": 3060923558,
-        "source_bytes_read": 3060923558,
-        "http_status": 201
+        "display_name": "Succession S04E08 America Decides 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T10:44:08.040367+00:00"
       }
     },
     "1927:4:9": {
@@ -33782,5 +33783,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:44:04.646071+00:00"
+  "updated_at": "2026-10-30T10:44:08.040380+00:00"
 }
