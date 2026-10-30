@@ -52763,12 +52763,6 @@
     },
     "1154:1:4": {
       "episode_key": "panství downton:s1:e4",
-      "claim": {
-        "worker_id": "dc6a443273a0411bbfa8714bc19e7951-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T18:21:10.266039+00:00",
-        "lease_expires_at": "2026-10-31T00:21:10.266049+00:00"
-      },
       "source": {
         "source_id": "35121169",
         "source_url": "https://sdilej.cz/35121169/panstvi-downton-s01e04-004-2010-fhd-epizoda-4-s-.mp4",
@@ -52793,15 +52787,22 @@
         "display_name": "Downton Abbey S01E04 1080p CZ Dabing",
         "prepared_at": "2026-10-30T18:21:12.409697+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641756",
-        "size_bytes": 1008382874
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641756",
+          "size_bytes": 1008382874,
+          "source_bytes_read": 1008382874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35121169",
+        "source_url": "https://sdilej.cz/35121169/panstvi-downton-s01e04-004-2010-fhd-epizoda-4-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641756",
-        "size_bytes": 1008382874,
-        "source_bytes_read": 1008382874,
-        "http_status": 201
+        "display_name": "Downton Abbey S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T18:23:47.919841+00:00"
       }
     },
     "1154:1:5": {
@@ -52884,5 +52885,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T18:23:43.235686+00:00"
+  "updated_at": "2026-10-30T18:23:47.919857+00:00"
 }
