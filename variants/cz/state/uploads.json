@@ -28374,12 +28374,6 @@
     },
     "4704:7:19": {
       "episode_key": "západní křídlo:s7:e19",
-      "claim": {
-        "worker_id": "fb246374e8f142ce9ab9c6a3f7c58b75-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:59:31.074532+00:00",
-        "lease_expires_at": "2026-10-30T13:59:31.074544+00:00"
-      },
       "source": {
         "source_id": "34863072",
         "source_url": "https://sdilej.cz/34863072/zapadni-kridlo-s07e19-152-2006-hd-predani-moci-s-.mp4",
@@ -28404,15 +28398,22 @@
         "display_name": "The West Wing S07E19 Transition 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:59:33.629505+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629135",
-        "size_bytes": 845598745
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629135",
+          "size_bytes": 845598745,
+          "source_bytes_read": 845598745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863072",
+        "source_url": "https://sdilej.cz/34863072/zapadni-kridlo-s07e19-152-2006-hd-predani-moci-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629135",
-        "size_bytes": 845598745,
-        "source_bytes_read": 845598745,
-        "http_status": 201
+        "display_name": "The West Wing S07E19 Transition 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:02:02.657135+00:00"
       }
     },
     "4704:7:20": {
@@ -28539,5 +28540,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:01:58.999467+00:00"
+  "updated_at": "2026-10-30T08:02:02.657156+00:00"
 }
