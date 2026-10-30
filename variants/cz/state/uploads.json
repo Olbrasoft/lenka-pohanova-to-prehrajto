@@ -59549,12 +59549,6 @@
     },
     "956:3:6": {
       "episode_key": "star trek: nová generace:s3:e6",
-      "claim": {
-        "worker_id": "5a63c491b818447ea75530125f84d537-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:43:28.377124+00:00",
-        "lease_expires_at": "2026-10-31T04:43:28.377134+00:00"
-      },
       "source": {
         "source_id": "28164274",
         "source_url": "https://sdilej.cz/28164274/star-trek-nova-generace-s03e06-past.mkv",
@@ -59579,15 +59573,22 @@
         "display_name": "Star Trek: The Next Generation S03E06 Booby Trap 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:43:30.011212+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647122",
-        "size_bytes": 461222433
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647122",
+          "size_bytes": 461222433,
+          "source_bytes_read": 461222433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164274",
+        "source_url": "https://sdilej.cz/28164274/star-trek-nova-generace-s03e06-past.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647122",
-        "size_bytes": 461222433,
-        "source_bytes_read": 461222433,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E06 Booby Trap 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:44:47.335465+00:00"
       }
     },
     "956:3:7": {
@@ -59633,5 +59634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:44:43.196717+00:00"
+  "updated_at": "2026-10-30T22:44:47.335480+00:00"
 }
