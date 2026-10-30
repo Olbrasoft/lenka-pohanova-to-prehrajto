@@ -53775,12 +53775,6 @@
     },
     "1154:4:4": {
       "episode_key": "panství downton:s4:e4",
-      "claim": {
-        "worker_id": "76ae3229ac5c4b9bb7b4a807edc7bc5a-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:06:26.974518+00:00",
-        "lease_expires_at": "2026-10-31T01:06:26.974527+00:00"
-      },
       "source": {
         "source_id": "33828245",
         "source_url": "https://sdilej.cz/33828245/panstvi-downton-s04e04-cz-dabing.mkv",
@@ -53805,15 +53799,22 @@
         "display_name": "Downton Abbey S04E04 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:06:31.237546+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30642542",
-        "size_bytes": 1094565073
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30642542",
+          "size_bytes": 1094565073,
+          "source_bytes_read": 1094565073,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33828245",
+        "source_url": "https://sdilej.cz/33828245/panstvi-downton-s04e04-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30642542",
-        "size_bytes": 1094565073,
-        "source_bytes_read": 1094565073,
-        "http_status": 201
+        "display_name": "Downton Abbey S04E04 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:10:24.056357+00:00"
       }
     },
     "1154:4:5": {
@@ -53859,5 +53860,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:10:21.443344+00:00"
+  "updated_at": "2026-10-30T19:10:24.056374+00:00"
 }
