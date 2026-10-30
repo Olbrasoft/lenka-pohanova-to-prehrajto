@@ -44597,12 +44597,6 @@
     },
     "673:12:6": {
       "episode_key": "městečko south park:s12:e6",
-      "claim": {
-        "worker_id": "462bc074570a40d9a67bf0206ae29d01-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:47:49.425672+00:00",
-        "lease_expires_at": "2026-10-30T20:47:49.425686+00:00"
-      },
       "source": {
         "source_id": "34957576",
         "source_url": "https://sdilej.cz/34957576/south-park-s12e06.-kolaps-site.mp4",
@@ -44627,15 +44621,22 @@
         "display_name": "South Park S12E06 Over Logging 1080p CZ Dabing",
         "prepared_at": "2026-10-30T14:47:51.298701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638172",
-        "size_bytes": 642484718
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638172",
+          "size_bytes": 642484718,
+          "source_bytes_read": 642484718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957576",
+        "source_url": "https://sdilej.cz/34957576/south-park-s12e06.-kolaps-site.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638172",
-        "size_bytes": 642484718,
-        "source_bytes_read": 642484718,
-        "http_status": 201
+        "display_name": "South Park S12E06 Over Logging 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T14:49:50.242193+00:00"
       }
     },
     "673:12:7": {
@@ -44681,5 +44682,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:49:46.122556+00:00"
+  "updated_at": "2026-10-30T14:49:50.242207+00:00"
 }
