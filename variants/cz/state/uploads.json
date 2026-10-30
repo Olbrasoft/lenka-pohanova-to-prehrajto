@@ -55843,12 +55843,6 @@
     },
     "1180:3:4": {
       "episode_key": "odpočívej v pokoji:s3:e4",
-      "claim": {
-        "worker_id": "814b0bb56d2a4629986958b2f6bf2d71-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:49:16.146890+00:00",
-        "lease_expires_at": "2026-10-31T02:49:16.146901+00:00"
-      },
       "source": {
         "source_id": "25928150",
         "source_url": "https://sdilej.cz/25928150/odpocivej-v-pokoji-six-feet-under-s03e04-hd-cz-dabing.mkv",
@@ -55873,15 +55867,22 @@
         "display_name": "Six Feet Under S03E04 Nobody Sleeps 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:49:17.932610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644550",
-        "size_bytes": 1352997804
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644550",
+          "size_bytes": 1352997804,
+          "source_bytes_read": 1352997804,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25928150",
+        "source_url": "https://sdilej.cz/25928150/odpocivej-v-pokoji-six-feet-under-s03e04-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644550",
-        "size_bytes": 1352997804,
-        "source_bytes_read": 1352997804,
-        "http_status": 201
+        "display_name": "Six Feet Under S03E04 Nobody Sleeps 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:53:29.144866+00:00"
       }
     },
     "1180:3:5": {
@@ -56008,5 +56009,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:53:26.661772+00:00"
+  "updated_at": "2026-10-30T20:53:29.144881+00:00"
 }
