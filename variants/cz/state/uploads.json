@@ -18134,12 +18134,6 @@
     },
     "28:4:8": {
       "episode_key": "rick a morty:s4:e8",
-      "claim": {
-        "worker_id": "94de81ffd9324436bc46125179637229-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:44:47.557761+00:00",
-        "lease_expires_at": "2026-10-30T08:44:47.557770+00:00"
-      },
       "source": {
         "source_id": "34786187",
         "source_url": "https://sdilej.cz/34786187/rick-a-morty-s04e08-epizoda-s-kadi-kyseliny.mkv",
@@ -18164,15 +18158,22 @@
         "display_name": "Rick and Morty S04E08 The Vat of Acid Episode 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:44:49.133824+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624361",
-        "size_bytes": 396835454
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624361",
+          "size_bytes": 396835454,
+          "source_bytes_read": 396835454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786187",
+        "source_url": "https://sdilej.cz/34786187/rick-a-morty-s04e08-epizoda-s-kadi-kyseliny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624361",
-        "size_bytes": 396835454,
-        "source_bytes_read": 396835454,
-        "http_status": 201
+        "display_name": "Rick and Morty S04E08 The Vat of Acid Episode 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:46:07.561910+00:00"
       }
     },
     "28:4:9": {
@@ -18254,5 +18255,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:46:04.778822+00:00"
+  "updated_at": "2026-10-30T02:46:07.561943+00:00"
 }
