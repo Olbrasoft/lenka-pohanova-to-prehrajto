@@ -58780,12 +58780,6 @@
     },
     "956:2:10": {
       "episode_key": "star trek: nová generace:s2:e10",
-      "claim": {
-        "worker_id": "e65e7df6f3544d9b84a6053b8412dce3-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:29:58.803959+00:00",
-        "lease_expires_at": "2026-10-31T04:29:58.803995+00:00"
-      },
       "source": {
         "source_id": "33220760",
         "source_url": "https://sdilej.cz/33220760/star-trek-nova-generace-s02e10-22-1988-cz-dab-vladarka.mp4",
@@ -58810,15 +58804,22 @@
         "display_name": "Star Trek: The Next Generation S02E10 The Dauphin SD CZ Dabing",
         "prepared_at": "2026-10-30T22:30:02.235921+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646784",
-        "size_bytes": 469647278
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646784",
+          "size_bytes": 469647278,
+          "source_bytes_read": 469647278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220760",
+        "source_url": "https://sdilej.cz/33220760/star-trek-nova-generace-s02e10-22-1988-cz-dab-vladarka.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646784",
-        "size_bytes": 469647278,
-        "source_bytes_read": 469647278,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E10 The Dauphin SD CZ Dabing",
+        "uploaded_at": "2026-10-30T22:31:25.335143+00:00"
       }
     },
     "956:2:11": {
@@ -58908,5 +58909,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:31:21.216198+00:00"
+  "updated_at": "2026-10-30T22:31:25.335153+00:00"
 }
