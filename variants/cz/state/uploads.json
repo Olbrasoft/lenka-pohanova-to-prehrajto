@@ -30178,12 +30178,6 @@
     },
     "66:1:8": {
       "episode_key": "fargo:s1:e8",
-      "claim": {
-        "worker_id": "6e68cf3cb98f42e1a78fd6d9513e90da-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:37:54.096788+00:00",
-        "lease_expires_at": "2026-10-30T14:37:54.096800+00:00"
-      },
       "source": {
         "source_id": "28455055",
         "source_url": "https://sdilej.cz/28455055/fargo-s01e08-1080p-cz-dabing.mkv",
@@ -30208,15 +30202,22 @@
         "display_name": "Fargo S01E08 The Heap 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:37:56.541892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629685",
-        "size_bytes": 628169532
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629685",
+          "size_bytes": 628169532,
+          "source_bytes_read": 628169532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28455055",
+        "source_url": "https://sdilej.cz/28455055/fargo-s01e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629685",
-        "size_bytes": 628169532,
-        "source_bytes_read": 628169532,
-        "http_status": 201
+        "display_name": "Fargo S01E08 The Heap 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:39:54.435304+00:00"
       }
     },
     "66:1:9": {
@@ -30306,5 +30307,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:39:51.319497+00:00"
+  "updated_at": "2026-10-30T08:39:54.435324+00:00"
 }
