@@ -36550,12 +36550,6 @@
     },
     "82:1:9": {
       "episode_key": "narcos:s1:e9",
-      "claim": {
-        "worker_id": "194106d94c97472da4dfae7c5276f29e-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:40:27.814084+00:00",
-        "lease_expires_at": "2026-10-30T18:40:27.814093+00:00"
-      },
       "source": {
         "source_id": "13330541",
         "source_url": "https://sdilej.cz/13330541/narcos-s01e09-cz.mkv",
@@ -36580,15 +36574,22 @@
         "display_name": "Narcos S01E09 La Catedral 1080p CZ Dabing",
         "prepared_at": "2026-10-30T12:40:29.261140+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633059",
-        "size_bytes": 3300935364
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633059",
+          "size_bytes": 3300935364,
+          "source_bytes_read": 3300935364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13330541",
+        "source_url": "https://sdilej.cz/13330541/narcos-s01e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633059",
-        "size_bytes": 3300935364,
-        "source_bytes_read": 3300935364,
-        "http_status": 201
+        "display_name": "Narcos S01E09 La Catedral 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T12:50:06.210360+00:00"
       }
     },
     "82:1:10": {
@@ -36715,5 +36716,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:50:01.738746+00:00"
+  "updated_at": "2026-10-30T12:50:06.210380+00:00"
 }
