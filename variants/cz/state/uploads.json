@@ -17870,12 +17870,6 @@
     },
     "28:4:2": {
       "episode_key": "rick a morty:s4:e2",
-      "claim": {
-        "worker_id": "bf4e4343ca374a2f976a2c2534f924d4-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:42:04.757417+00:00",
-        "lease_expires_at": "2026-10-30T08:42:04.757429+00:00"
-      },
       "source": {
         "source_id": "34922930",
         "source_url": "https://sdilej.cz/34922930/rick-and-morty-s04e02-czen-dabing.mp4",
@@ -17900,15 +17894,22 @@
         "display_name": "Rick and Morty S04E02 The Old Man and the Seat 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:42:08.888210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624332",
-        "size_bytes": 256659865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624332",
+          "size_bytes": 256659865,
+          "source_bytes_read": 256659865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34922930",
+        "source_url": "https://sdilej.cz/34922930/rick-and-morty-s04e02-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624332",
-        "size_bytes": 256659865,
-        "source_bytes_read": 256659865,
-        "http_status": 201
+        "display_name": "Rick and Morty S04E02 The Old Man and the Seat 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:43:17.758133+00:00"
       }
     },
     "28:4:3": {
@@ -17963,5 +17964,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:43:16.527281+00:00"
+  "updated_at": "2026-10-30T02:43:17.758150+00:00"
 }
