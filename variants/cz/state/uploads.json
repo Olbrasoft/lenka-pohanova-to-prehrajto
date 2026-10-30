@@ -12634,12 +12634,6 @@
     },
     "1733:1:4": {
       "episode_key": "vyvolení:s1:e4",
-      "claim": {
-        "worker_id": "cf8cf42561204f1b8d963db330354f59-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:21:59.949652+00:00",
-        "lease_expires_at": "2026-10-30T06:21:59.949665+00:00"
-      },
       "source": {
         "source_id": "28906787",
         "source_url": "https://sdilej.cz/28906787/the-chosen-s01e04-hd-cz-en-dabing.mkv",
@@ -12664,15 +12658,22 @@
         "display_name": "The Chosen S01E04 The Rock on Which it is Built 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:22:01.171023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622153",
-        "size_bytes": 1313653577
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622153",
+          "size_bytes": 1313653577,
+          "source_bytes_read": 1313653577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28906787",
+        "source_url": "https://sdilej.cz/28906787/the-chosen-s01e04-hd-cz-en-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622153",
-        "size_bytes": 1313653577,
-        "source_bytes_read": 1313653577,
-        "http_status": 201
+        "display_name": "The Chosen S01E04 The Rock on Which it is Built 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:25:40.047415+00:00"
       }
     },
     "1733:1:5": {
@@ -12755,5 +12756,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:25:36.496895+00:00"
+  "updated_at": "2026-10-30T00:25:40.047433+00:00"
 }
