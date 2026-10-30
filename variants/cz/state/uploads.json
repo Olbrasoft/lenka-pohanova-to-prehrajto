@@ -36103,12 +36103,6 @@
     },
     "595:7:4": {
       "episode_key": "černé zrcadlo:s7:e4",
-      "claim": {
-        "worker_id": "7d2f4c35c1b541288946659a7d523032-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:16:34.601481+00:00",
-        "lease_expires_at": "2026-10-30T18:16:34.601493+00:00"
-      },
       "source": {
         "source_id": "32700470",
         "source_url": "https://sdilej.cz/32700470/black-mirror-s07e04-cz-dabing-2160p.mkv",
@@ -36133,15 +36127,22 @@
         "display_name": "Black Mirror S07E04 Plaything 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:16:36.077672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632767",
-        "size_bytes": 2176020992
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632767",
+          "size_bytes": 2176020992,
+          "source_bytes_read": 2176020992,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700470",
+        "source_url": "https://sdilej.cz/32700470/black-mirror-s07e04-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632767",
-        "size_bytes": 2176020992,
-        "source_bytes_read": 2176020992,
-        "http_status": 201
+        "display_name": "Black Mirror S07E04 Plaything 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:22:38.299407+00:00"
       }
     },
     "595:7:5": {
@@ -36187,5 +36188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:22:35.768743+00:00"
+  "updated_at": "2026-10-30T12:22:38.299425+00:00"
 }
