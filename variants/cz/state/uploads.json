@@ -58439,12 +58439,6 @@
     },
     "956:2:2": {
       "episode_key": "star trek: nová generace:s2:e2",
-      "claim": {
-        "worker_id": "3d6ebb0ce25444a2bef2de5ca5eee893-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:23:33.540128+00:00",
-        "lease_expires_at": "2026-10-31T04:23:33.540137+00:00"
-      },
       "source": {
         "source_id": "28163791",
         "source_url": "https://sdilej.cz/28163791/star-trek-nova-generace-s02e02-kde-vladne-ticho.mkv",
@@ -58469,15 +58463,22 @@
         "display_name": "Star Trek: The Next Generation S02E02 Where Silence Has Lease 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:23:36.335401+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646643",
-        "size_bytes": 573666834
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646643",
+          "size_bytes": 573666834,
+          "source_bytes_read": 573666834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163791",
+        "source_url": "https://sdilej.cz/28163791/star-trek-nova-generace-s02e02-kde-vladne-ticho.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646643",
-        "size_bytes": 573666834,
-        "source_bytes_read": 573666834,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E02 Where Silence Has Lease 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:25:51.674003+00:00"
       }
     },
     "956:2:3": {
@@ -58523,5 +58524,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:25:48.344383+00:00"
+  "updated_at": "2026-10-30T22:25:51.674015+00:00"
 }
