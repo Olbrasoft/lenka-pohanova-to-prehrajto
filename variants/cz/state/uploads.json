@@ -44128,12 +44128,6 @@
     },
     "673:11:10": {
       "episode_key": "městečko south park:s11:e10",
-      "claim": {
-        "worker_id": "f32379a5e5c44ead98c7b0487d36cd0d-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:40:09.241872+00:00",
-        "lease_expires_at": "2026-10-30T20:40:09.241885+00:00"
-      },
       "source": {
         "source_id": "32919657",
         "source_url": "https://sdilej.cz/32919657/mestecko-south-park-s11e10-14-2007-cz-dab-1080p-rise-fantazie-1.-cast-.mkv",
@@ -44158,15 +44152,22 @@
         "display_name": "South Park S11E10 Imaginationland 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:40:12.569379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638036",
-        "size_bytes": 307062544
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638036",
+          "size_bytes": 307062544,
+          "source_bytes_read": 307062544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32919657",
+        "source_url": "https://sdilej.cz/32919657/mestecko-south-park-s11e10-14-2007-cz-dab-1080p-rise-fantazie-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638036",
-        "size_bytes": 307062544,
-        "source_bytes_read": 307062544,
-        "http_status": 201
+        "display_name": "South Park S11E10 Imaginationland 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:41:01.607985+00:00"
       }
     },
     "673:11:11": {
@@ -44245,5 +44246,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:40:58.887889+00:00"
+  "updated_at": "2026-10-30T14:41:01.608002+00:00"
 }
