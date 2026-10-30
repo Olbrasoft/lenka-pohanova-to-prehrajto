@@ -15964,12 +15964,6 @@
     },
     "25:5:10": {
       "episode_key": "volejte saulovi:s5:e10",
-      "claim": {
-        "worker_id": "7d621825ccdb48aa8b72cc77acd6ca97-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:12:07.997096+00:00",
-        "lease_expires_at": "2026-10-30T08:12:07.997109+00:00"
-      },
       "source": {
         "source_id": "29537360",
         "source_url": "https://sdilej.cz/29537360/volejte-saulovi-s05e10.mkv",
@@ -15994,15 +15988,22 @@
         "display_name": "Better Call Saul S05E10 Something Unforgivable 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:12:09.382369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623893",
-        "size_bytes": 689807547
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623893",
+          "size_bytes": 689807547,
+          "source_bytes_read": 689807547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29537360",
+        "source_url": "https://sdilej.cz/29537360/volejte-saulovi-s05e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623893",
-        "size_bytes": 689807547,
-        "source_bytes_read": 689807547,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E10 Something Unforgivable 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:14:26.779068+00:00"
       }
     }
   },
@@ -16011,5 +16012,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:14:23.080760+00:00"
+  "updated_at": "2026-10-30T02:14:26.779086+00:00"
 }
