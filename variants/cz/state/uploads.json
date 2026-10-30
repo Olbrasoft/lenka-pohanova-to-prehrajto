@@ -58692,12 +58692,6 @@
     },
     "956:2:8": {
       "episode_key": "star trek: nová generace:s2:e8",
-      "claim": {
-        "worker_id": "06133135e2344e829613e69af3878d07-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:28:12.189183+00:00",
-        "lease_expires_at": "2026-10-31T04:28:12.189193+00:00"
-      },
       "source": {
         "source_id": "28163894",
         "source_url": "https://sdilej.cz/28163894/star-trek-nova-generace-s02e08-vec-cti.mkv",
@@ -58722,15 +58716,22 @@
         "display_name": "Star Trek: The Next Generation S02E08 A Matter of Honor 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:28:16.258527+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646737",
-        "size_bytes": 566292128
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646737",
+          "size_bytes": 566292128,
+          "source_bytes_read": 566292128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163894",
+        "source_url": "https://sdilej.cz/28163894/star-trek-nova-generace-s02e08-vec-cti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646737",
-        "size_bytes": 566292128,
-        "source_bytes_read": 566292128,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E08 A Matter of Honor 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:29:55.979493+00:00"
       }
     },
     "956:2:9": {
@@ -58776,5 +58777,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:29:53.543810+00:00"
+  "updated_at": "2026-10-30T22:29:55.979509+00:00"
 }
