@@ -22555,12 +22555,6 @@
     },
     "925:1:24": {
       "episode_key": "zápisník smrti:s1:e24",
-      "claim": {
-        "worker_id": "59d0e6f31e7b4503b27e07ab5654dc61-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:05:54.295804+00:00",
-        "lease_expires_at": "2026-10-30T11:05:54.295814+00:00"
-      },
       "source": {
         "source_id": "23472593",
         "source_url": "https://sdilej.cz/23472593/death-note-s01e24-720p-cz-dabing.mkv",
@@ -22594,7 +22588,13 @@
         "size_bytes": 455143266,
         "source_bytes_read": 455143266,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-10-30T05:07:23.052376+00:00",
+          "error": "PrehrajtoError"
+        }
+      ]
     },
     "925:1:25": {
       "episode_key": "zápisník smrti:s1:e25",
@@ -22676,5 +22676,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:07:20.184171+00:00"
+  "updated_at": "2026-10-30T05:07:23.052391+00:00"
 }
