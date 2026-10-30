@@ -45317,12 +45317,6 @@
     },
     "673:13:10": {
       "episode_key": "městečko south park:s13:e10",
-      "claim": {
-        "worker_id": "3e5fe082d6c545209cd65f30a988587d-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:55:53.445237+00:00",
-        "lease_expires_at": "2026-10-30T20:55:53.445249+00:00"
-      },
       "source": {
         "source_id": "32919739",
         "source_url": "https://sdilej.cz/32919739/mestecko-south-park-s13e10-14-2009-cz-dab-1080p-finale-wrestlingu.mkv",
@@ -45347,15 +45341,22 @@
         "display_name": "South Park S13E10 W.T.F. 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:55:55.308551+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638301",
-        "size_bytes": 247928773
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638301",
+          "size_bytes": 247928773,
+          "source_bytes_read": 247928773,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32919739",
+        "source_url": "https://sdilej.cz/32919739/mestecko-south-park-s13e10-14-2009-cz-dab-1080p-finale-wrestlingu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638301",
-        "size_bytes": 247928773,
-        "source_bytes_read": 247928773,
-        "http_status": 201
+        "display_name": "South Park S13E10 W.T.F. 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:56:56.292382+00:00"
       }
     },
     "673:13:11": {
@@ -45401,5 +45402,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:56:52.645075+00:00"
+  "updated_at": "2026-10-30T14:56:56.292401+00:00"
 }
