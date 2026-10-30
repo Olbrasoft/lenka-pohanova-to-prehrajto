@@ -41786,12 +41786,6 @@
     },
     "673:7:12": {
       "episode_key": "městečko south park:s7:e12",
-      "claim": {
-        "worker_id": "fc9f734947264a549d99818915b7c42f-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:04:08.233786+00:00",
-        "lease_expires_at": "2026-10-30T20:04:08.233799+00:00"
-      },
       "source": {
         "source_id": "32876535",
         "source_url": "https://sdilej.cz/32876535/mestecko-south-park-s07e12-15-2003-cz-dab-1080p-vsechno-o-mormonech.mkv",
@@ -41816,15 +41810,22 @@
         "display_name": "South Park S07E12 All About Mormons 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:04:11.116153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637382",
-        "size_bytes": 250339747
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637382",
+          "size_bytes": 250339747,
+          "source_bytes_read": 250339747,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876535",
+        "source_url": "https://sdilej.cz/32876535/mestecko-south-park-s07e12-15-2003-cz-dab-1080p-vsechno-o-mormonech.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637382",
-        "size_bytes": 250339747,
-        "source_bytes_read": 250339747,
-        "http_status": 201
+        "display_name": "South Park S07E12 All About Mormons 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:05:03.688488+00:00"
       }
     },
     "673:7:14": {
@@ -41946,5 +41947,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:05:02.188920+00:00"
+  "updated_at": "2026-10-30T14:05:03.688506+00:00"
 }
