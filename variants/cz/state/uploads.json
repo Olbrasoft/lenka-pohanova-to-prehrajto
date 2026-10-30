@@ -57207,12 +57207,6 @@
     },
     "1180:5:11": {
       "episode_key": "odpočívej v pokoji:s5:e11",
-      "claim": {
-        "worker_id": "297c0de5f74e4e09b598b08b4d0dd111-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:50:10.652548+00:00",
-        "lease_expires_at": "2026-10-31T03:50:10.652559+00:00"
-      },
       "source": {
         "source_id": "25966190",
         "source_url": "https://sdilej.cz/25966190/odpocivej-v-pokoji-six-feet-under-s05e11-hd-cz-dabing.mkv",
@@ -57237,15 +57231,22 @@
         "display_name": "Six Feet Under S05E11 Static 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:50:14.442360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646042",
-        "size_bytes": 1413852294
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646042",
+          "size_bytes": 1413852294,
+          "source_bytes_read": 1413852294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25966190",
+        "source_url": "https://sdilej.cz/25966190/odpocivej-v-pokoji-six-feet-under-s05e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646042",
-        "size_bytes": 1413852294,
-        "source_bytes_read": 1413852294,
-        "http_status": 201
+        "display_name": "Six Feet Under S05E11 Static 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T21:55:04.456352+00:00"
       }
     },
     "1180:5:12": {
@@ -57328,5 +57329,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T21:55:00.794540+00:00"
+  "updated_at": "2026-10-30T21:55:04.456365+00:00"
 }
