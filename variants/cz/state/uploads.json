@@ -37826,12 +37826,6 @@
     },
     "673:1:11": {
       "episode_key": "městečko south park:s1:e11",
-      "claim": {
-        "worker_id": "b0f08719da42463a8dc4c1258031fcca-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:22:35.171634+00:00",
-        "lease_expires_at": "2026-10-30T19:22:35.171647+00:00"
-      },
       "source": {
         "source_id": "32876024",
         "source_url": "https://sdilej.cz/32876024/mestecko-south-park-s01e11-13-1997-cz-dab-1080p-tomova-plasticka-chirurgie.mkv",
@@ -37856,15 +37850,22 @@
         "display_name": "South Park S01E11 Tom's Rhinoplasty 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:22:36.872036+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30635970",
-        "size_bytes": 247162387
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30635970",
+          "size_bytes": 247162387,
+          "source_bytes_read": 247162387,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876024",
+        "source_url": "https://sdilej.cz/32876024/mestecko-south-park-s01e11-13-1997-cz-dab-1080p-tomova-plasticka-chirurgie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30635970",
-        "size_bytes": 247162387,
-        "source_bytes_read": 247162387,
-        "http_status": 201
+        "display_name": "South Park S01E11 Tom's Rhinoplasty 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:23:27.442825+00:00"
       }
     },
     "673:1:12": {
@@ -37947,5 +37948,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:23:23.853462+00:00"
+  "updated_at": "2026-10-30T13:23:27.442844+00:00"
 }
