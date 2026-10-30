@@ -62210,12 +62210,6 @@
     },
     "956:5:14": {
       "episode_key": "star trek: nová generace:s5:e14",
-      "claim": {
-        "worker_id": "16a5340409b84618b076e3f97e625839-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:46:38.865626+00:00",
-        "lease_expires_at": "2026-10-31T05:46:38.865635+00:00"
-      },
       "source": {
         "source_id": "28165313",
         "source_url": "https://sdilej.cz/28165313/star-trek-nova-generace-s05e14-zahada.mkv",
@@ -62240,15 +62234,22 @@
         "display_name": "Star Trek: The Next Generation S05E14 Conundrum 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:46:40.484486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648991",
-        "size_bytes": 439628129
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648991",
+          "size_bytes": 439628129,
+          "source_bytes_read": 439628129,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165313",
+        "source_url": "https://sdilej.cz/28165313/star-trek-nova-generace-s05e14-zahada.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648991",
-        "size_bytes": 439628129,
-        "source_bytes_read": 439628129,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E14 Conundrum 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:48:04.502187+00:00"
       }
     },
     "956:5:15": {
@@ -62266,5 +62267,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:48:03.195350+00:00"
+  "updated_at": "2026-10-30T23:48:04.502202+00:00"
 }
