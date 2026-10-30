@@ -12766,12 +12766,6 @@
     },
     "1733:1:7": {
       "episode_key": "vyvolení:s1:e7",
-      "claim": {
-        "worker_id": "870a0403283446c2a40e606ff7e09f05-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:25:46.719848+00:00",
-        "lease_expires_at": "2026-10-30T06:25:46.719859+00:00"
-      },
       "source": {
         "source_id": "29065376",
         "source_url": "https://sdilej.cz/29065376/the-chosen-s01e07-hd-cz-en-dabing.mkv",
@@ -12796,15 +12790,22 @@
         "display_name": "The Chosen S01E07 Invitations 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:25:48.133678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622233",
-        "size_bytes": 1000647358
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622233",
+          "size_bytes": 1000647358,
+          "source_bytes_read": 1000647358,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29065376",
+        "source_url": "https://sdilej.cz/29065376/the-chosen-s01e07-hd-cz-en-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622233",
-        "size_bytes": 1000647358,
-        "source_bytes_read": 1000647358,
-        "http_status": 201
+        "display_name": "The Chosen S01E07 Invitations 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:28:35.876515+00:00"
       }
     },
     "1733:1:8": {
@@ -12887,5 +12888,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:28:31.575332+00:00"
+  "updated_at": "2026-10-30T00:28:35.876531+00:00"
 }
