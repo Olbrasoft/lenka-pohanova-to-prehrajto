@@ -19278,12 +19278,6 @@
     },
     "28:7:4": {
       "episode_key": "rick a morty:s7:e4",
-      "claim": {
-        "worker_id": "9d7c2d913660404ea29a204ca9466a06-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:57:33.839595+00:00",
-        "lease_expires_at": "2026-10-30T08:57:33.839606+00:00"
-      },
       "source": {
         "source_id": "27384104",
         "source_url": "https://sdilej.cz/27384104/rick.and.morty.s07e04.1080p.x265-czdab.mkv",
@@ -19308,15 +19302,22 @@
         "display_name": "Rick and Morty S07E04 That's Amorte 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:57:35.636968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624528",
-        "size_bytes": 305928960
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624528",
+          "size_bytes": 305928960,
+          "source_bytes_read": 305928960,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27384104",
+        "source_url": "https://sdilej.cz/27384104/rick.and.morty.s07e04.1080p.x265-czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624528",
-        "size_bytes": 305928960,
-        "source_bytes_read": 305928960,
-        "http_status": 201
+        "display_name": "Rick and Morty S07E04 That's Amorte 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:59:00.340942+00:00"
       }
     },
     "28:7:5": {
@@ -19399,5 +19400,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:58:57.334349+00:00"
+  "updated_at": "2026-10-30T02:59:00.340960+00:00"
 }
