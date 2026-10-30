@@ -45721,12 +45721,6 @@
     },
     "673:14:5": {
       "episode_key": "městečko south park:s14:e5",
-      "claim": {
-        "worker_id": "f7123e9ff873400eb8d1ff68ac707fc0-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:03:15.157763+00:00",
-        "lease_expires_at": "2026-10-30T21:03:15.157775+00:00"
-      },
       "source": {
         "source_id": "21699086",
         "source_url": "https://sdilej.cz/21699086/south-park-14x05-zmrzaceny-leto.avi",
@@ -45751,15 +45745,22 @@
         "display_name": "South Park S14E05 200 SD CZ Dabing",
         "prepared_at": "2026-10-30T15:03:17.041582+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638419",
-        "size_bytes": 189068262
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638419",
+          "size_bytes": 189068262,
+          "source_bytes_read": 189068262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21699086",
+        "source_url": "https://sdilej.cz/21699086/south-park-14x05-zmrzaceny-leto.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638419",
-        "size_bytes": 189068262,
-        "source_bytes_read": 189068262,
-        "http_status": 201
+        "display_name": "South Park S14E05 200 SD CZ Dabing",
+        "uploaded_at": "2026-10-30T15:04:02.028864+00:00"
       }
     },
     "673:14:6": {
@@ -45871,5 +45872,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:04:00.701230+00:00"
+  "updated_at": "2026-10-30T15:04:02.028884+00:00"
 }
