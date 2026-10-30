@@ -49975,12 +49975,6 @@
     },
     "673:23:2": {
       "episode_key": "městečko south park:s23:e2",
-      "claim": {
-        "worker_id": "5ed9775d70594b8a90267a6445da603c-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:06:36.730080+00:00",
-        "lease_expires_at": "2026-10-30T22:06:36.730091+00:00"
-      },
       "source": {
         "source_id": "32893342",
         "source_url": "https://sdilej.cz/32893342/mestecko-south-park-s23e02-10-2019-cz-dab-1080p-banda-v-cine.mkv",
@@ -50005,15 +49999,22 @@
         "display_name": "South Park S23E02 Band in China 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:06:38.648858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639303",
-        "size_bytes": 251409309
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639303",
+          "size_bytes": 251409309,
+          "source_bytes_read": 251409309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893342",
+        "source_url": "https://sdilej.cz/32893342/mestecko-south-park-s23e02-10-2019-cz-dab-1080p-banda-v-cine.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639303",
-        "size_bytes": 251409309,
-        "source_bytes_read": 251409309,
-        "http_status": 201
+        "display_name": "South Park S23E02 Band in China 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:07:55.187012+00:00"
       }
     },
     "673:23:3": {
@@ -50066,5 +50067,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:07:53.693787+00:00"
+  "updated_at": "2026-10-30T16:07:55.187030+00:00"
 }
