@@ -35230,12 +35230,6 @@
     },
     "595:3:3": {
       "episode_key": "černé zrcadlo:s3:e3",
-      "claim": {
-        "worker_id": "aee0e70f42464100aa2d9cb192332738-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T11:18:21.248502+00:00",
-        "lease_expires_at": "2026-10-30T17:18:21.248511+00:00"
-      },
       "source": {
         "source_id": "32700086",
         "source_url": "https://sdilej.cz/32700086/black-mirror-s03e03-cz-dabing-2160p.mkv",
@@ -35260,15 +35254,22 @@
         "display_name": "Black Mirror S03E03 Shut Up and Dance 4K CZ Dabing",
         "prepared_at": "2026-10-30T11:18:22.688574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631816",
-        "size_bytes": 2325044310
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631816",
+          "size_bytes": 2325044310,
+          "source_bytes_read": 2325044310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700086",
+        "source_url": "https://sdilej.cz/32700086/black-mirror-s03e03-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631816",
-        "size_bytes": 2325044310,
-        "source_bytes_read": 2325044310,
-        "http_status": 201
+        "display_name": "Black Mirror S03E03 Shut Up and Dance 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T11:25:34.119646+00:00"
       }
     },
     "595:3:4": {
@@ -35314,5 +35315,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T11:25:31.676763+00:00"
+  "updated_at": "2026-10-30T11:25:34.119660+00:00"
 }
