@@ -36235,12 +36235,6 @@
     },
     "82:1:1": {
       "episode_key": "narcos:s1:e1",
-      "claim": {
-        "worker_id": "1e0ec27bc74d40798aade95b1d24d654-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:27:20.572107+00:00",
-        "lease_expires_at": "2026-10-30T18:27:20.572116+00:00"
-      },
       "source": {
         "source_id": "30648109",
         "source_url": "https://sdilej.cz/30648109/narcos-s01e01-1080p-hdtv-cz.mkv",
@@ -36265,15 +36259,22 @@
         "display_name": "Narcos S01E01 Descenso 1080p CZ Dabing",
         "prepared_at": "2026-10-30T12:27:24.467907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632899",
-        "size_bytes": 723963646
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632899",
+          "size_bytes": 723963646,
+          "source_bytes_read": 723963646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30648109",
+        "source_url": "https://sdilej.cz/30648109/narcos-s01e01-1080p-hdtv-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632899",
-        "size_bytes": 723963646,
-        "source_bytes_read": 723963646,
-        "http_status": 201
+        "display_name": "Narcos S01E01 Descenso 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T12:29:09.619063+00:00"
       }
     },
     "82:1:2": {
@@ -36319,5 +36320,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:29:04.496214+00:00"
+  "updated_at": "2026-10-30T12:29:09.619080+00:00"
 }
