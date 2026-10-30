@@ -33031,12 +33031,6 @@
     },
     "1927:3:3": {
       "episode_key": "boj o moc:s3:e3",
-      "claim": {
-        "worker_id": "0865125877fd4f928862672559efd743-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:01:21.744088+00:00",
-        "lease_expires_at": "2026-10-30T16:01:21.744099+00:00"
-      },
       "source": {
         "source_id": "23033126",
         "source_url": "https://sdilej.cz/23033126/boj.o.moc.03x03.1080i.hevc.hdtv.cz.mkv",
@@ -33061,15 +33055,22 @@
         "display_name": "Succession S03E03 The Disruption 1080p CZ Dabing",
         "prepared_at": "2026-10-30T10:01:23.132720+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630687",
-        "size_bytes": 692847377
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630687",
+          "size_bytes": 692847377,
+          "source_bytes_read": 692847377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23033126",
+        "source_url": "https://sdilej.cz/23033126/boj.o.moc.03x03.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630687",
-        "size_bytes": 692847377,
-        "source_bytes_read": 692847377,
-        "http_status": 201
+        "display_name": "Succession S03E03 The Disruption 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T10:03:12.515083+00:00"
       }
     },
     "1927:3:4": {
@@ -33115,5 +33116,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:03:10.308086+00:00"
+  "updated_at": "2026-10-30T10:03:12.515099+00:00"
 }
