@@ -27362,12 +27362,6 @@
     },
     "4704:1:14": {
       "episode_key": "západní křídlo:s1:e14",
-      "claim": {
-        "worker_id": "09183aa27cce419d94c52117115ef05d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:32:33.149016+00:00",
-        "lease_expires_at": "2026-10-30T13:32:33.149028+00:00"
-      },
       "source": {
         "source_id": "34861728",
         "source_url": "https://sdilej.cz/34861728/zapadni-kridlo-s01e14-014-2000-hd-den-klidu-s-.mp4",
@@ -27392,15 +27386,22 @@
         "display_name": "The West Wing S01E14 Take This Sabbath Day 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:32:34.674203+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628747",
-        "size_bytes": 860068893
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628747",
+          "size_bytes": 860068893,
+          "source_bytes_read": 860068893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861728",
+        "source_url": "https://sdilej.cz/34861728/zapadni-kridlo-s01e14-014-2000-hd-den-klidu-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628747",
-        "size_bytes": 860068893,
-        "source_bytes_read": 860068893,
-        "http_status": 201
+        "display_name": "The West Wing S01E14 Take This Sabbath Day 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:35:44.685873+00:00"
       }
     },
     "4704:2:1": {
@@ -27483,5 +27484,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:35:40.946267+00:00"
+  "updated_at": "2026-10-30T07:35:44.685894+00:00"
 }
