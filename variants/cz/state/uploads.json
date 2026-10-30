@@ -25382,12 +25382,6 @@
     },
     "1831:2:17": {
       "episode_key": "městečko záhad:s2:e17",
-      "claim": {
-        "worker_id": "2bdb10e8370840b38957d9b384ea8c7b-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T06:03:05.909176+00:00",
-        "lease_expires_at": "2026-10-30T12:03:05.909187+00:00"
-      },
       "source": {
         "source_id": "32877119",
         "source_url": "https://sdilej.cz/32877119/mestecko-zahad-s02e17-dipper-a-mabel-proti-budoucnosti.mkv",
@@ -25412,15 +25406,22 @@
         "display_name": "Gravity Falls S02E17 Dipper and Mabel vs. the Future 720p CZ Dabing",
         "prepared_at": "2026-10-30T06:03:08.183270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627587",
-        "size_bytes": 325447219
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627587",
+          "size_bytes": 325447219,
+          "source_bytes_read": 325447219,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32877119",
+        "source_url": "https://sdilej.cz/32877119/mestecko-zahad-s02e17-dipper-a-mabel-proti-budoucnosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627587",
-        "size_bytes": 325447219,
-        "source_bytes_read": 325447219,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E17 Dipper and Mabel vs. the Future 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T06:04:08.833522+00:00"
       }
     },
     "1831:2:18": {
@@ -25503,5 +25504,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T06:04:05.637844+00:00"
+  "updated_at": "2026-10-30T06:04:08.833543+00:00"
 }
