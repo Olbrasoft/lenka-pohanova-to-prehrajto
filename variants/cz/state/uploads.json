@@ -51185,12 +51185,6 @@
     },
     "40:2:8": {
       "episode_key": "městečko twin peaks:s2:e8",
-      "claim": {
-        "worker_id": "ed5e1cb900d24237afa0dcbb84543c0b-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T16:57:19.183285+00:00",
-        "lease_expires_at": "2026-10-30T22:57:19.183296+00:00"
-      },
       "source": {
         "source_id": "33238502",
         "source_url": "https://sdilej.cz/33238502/mestecko-twin-peaks-s02e08-drive-with-a-dead-girl.mkv",
@@ -51215,15 +51209,22 @@
         "display_name": "Twin Peaks S02E08 Drive with a Dead Girl 1080p CZ Dabing",
         "prepared_at": "2026-10-30T16:57:20.937361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640119",
-        "size_bytes": 1019839162
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640119",
+          "size_bytes": 1019839162,
+          "source_bytes_read": 1019839162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238502",
+        "source_url": "https://sdilej.cz/33238502/mestecko-twin-peaks-s02e08-drive-with-a-dead-girl.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640119",
-        "size_bytes": 1019839162,
-        "source_bytes_read": 1019839162,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E08 Drive with a Dead Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:00:28.073495+00:00"
       }
     }
   },
@@ -51232,5 +51233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:00:26.183757+00:00"
+  "updated_at": "2026-10-30T17:00:28.073510+00:00"
 }
