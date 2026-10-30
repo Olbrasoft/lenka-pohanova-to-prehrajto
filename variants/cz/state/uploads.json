@@ -41561,12 +41561,6 @@
     },
     "673:7:7": {
       "episode_key": "městečko south park:s7:e7",
-      "claim": {
-        "worker_id": "45e00213e26748038ecd4edadd0302b7-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:00:47.180545+00:00",
-        "lease_expires_at": "2026-10-30T20:00:47.180559+00:00"
-      },
       "source": {
         "source_id": "33507481",
         "source_url": "https://sdilej.cz/33507481/mestecko-south-park-s07e07-15-2003-cz-dab-1080p-rudochova-hamiznost.mkv",
@@ -41591,15 +41585,22 @@
         "display_name": "South Park S07E07 Red Man's Greed 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:00:49.646796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637344",
-        "size_bytes": 250162001
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637344",
+          "size_bytes": 250162001,
+          "source_bytes_read": 250162001,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507481",
+        "source_url": "https://sdilej.cz/33507481/mestecko-south-park-s07e07-15-2003-cz-dab-1080p-rudochova-hamiznost.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637344",
-        "size_bytes": 250162001,
-        "source_bytes_read": 250162001,
-        "http_status": 201
+        "display_name": "South Park S07E07 Red Man's Greed 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:01:48.860294+00:00"
       }
     },
     "673:7:8": {
@@ -41641,5 +41642,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:01:42.901974+00:00"
+  "updated_at": "2026-10-30T14:01:48.860317+00:00"
 }
