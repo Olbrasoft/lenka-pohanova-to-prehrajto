@@ -35362,12 +35362,6 @@
     },
     "595:3:6": {
       "episode_key": "černé zrcadlo:s3:e6",
-      "claim": {
-        "worker_id": "9c54b50660ee45ab8f6c0262d63802c5-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T11:25:42.854642+00:00",
-        "lease_expires_at": "2026-10-30T17:25:42.854650+00:00"
-      },
       "source": {
         "source_id": "34575819",
         "source_url": "https://sdilej.cz/34575819/cerne-zrcadlo-s03e06-cz-dabing-2160p-uhd.mkv",
@@ -35392,15 +35386,22 @@
         "display_name": "Black Mirror S03E06 Hated in the Nation 4K CZ Dabing",
         "prepared_at": "2026-10-30T11:25:44.337690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631988",
-        "size_bytes": 3987576522
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631988",
+          "size_bytes": 3987576522,
+          "source_bytes_read": 3987576522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34575819",
+        "source_url": "https://sdilej.cz/34575819/cerne-zrcadlo-s03e06-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631988",
-        "size_bytes": 3987576522,
-        "source_bytes_read": 3987576522,
-        "http_status": 201
+        "display_name": "Black Mirror S03E06 Hated in the Nation 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T11:35:26.195242+00:00"
       }
     },
     "595:4:1": {
@@ -35483,5 +35484,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T11:35:19.816214+00:00"
+  "updated_at": "2026-10-30T11:35:26.195257+00:00"
 }
