@@ -57911,12 +57911,6 @@
     },
     "956:1:15": {
       "episode_key": "star trek: nová generace:s1:e15",
-      "claim": {
-        "worker_id": "7f6804b3f80b4dca944148c5480b22b1-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:14:14.677382+00:00",
-        "lease_expires_at": "2026-10-31T04:14:14.677392+00:00"
-      },
       "source": {
         "source_id": "28742947",
         "source_url": "https://sdilej.cz/28742947/star-trek-nova-generace-s01e15-heslo.mkv",
@@ -57941,15 +57935,22 @@
         "display_name": "Star Trek: The Next Generation S01E15 Too Short a Season 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:14:16.379020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646460",
-        "size_bytes": 460742364
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646460",
+          "size_bytes": 460742364,
+          "source_bytes_read": 460742364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28742947",
+        "source_url": "https://sdilej.cz/28742947/star-trek-nova-generace-s01e15-heslo.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646460",
-        "size_bytes": 460742364,
-        "source_bytes_read": 460742364,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E15 Too Short a Season 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:15:54.356333+00:00"
       }
     },
     "956:1:16": {
@@ -58032,5 +58033,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:15:51.031664+00:00"
+  "updated_at": "2026-10-30T22:15:54.356350+00:00"
 }
