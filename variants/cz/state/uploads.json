@@ -30354,12 +30354,6 @@
     },
     "66:2:2": {
       "episode_key": "fargo:s2:e2",
-      "claim": {
-        "worker_id": "f407a186e6b6414ba70c00f7f634c47a-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:40:02.017972+00:00",
-        "lease_expires_at": "2026-10-30T14:40:02.017984+00:00"
-      },
       "source": {
         "source_id": "28506670",
         "source_url": "https://sdilej.cz/28506670/fargo-s02e02-1080p-cz-dabing.mkv",
@@ -30384,15 +30378,22 @@
         "display_name": "Fargo S02E02 Before the Law 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:40:05.329184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629721",
-        "size_bytes": 968903112
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629721",
+          "size_bytes": 968903112,
+          "source_bytes_read": 968903112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28506670",
+        "source_url": "https://sdilej.cz/28506670/fargo-s02e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629721",
-        "size_bytes": 968903112,
-        "source_bytes_read": 968903112,
-        "http_status": 201
+        "display_name": "Fargo S02E02 Before the Law 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:43:43.639823+00:00"
       }
     }
   },
@@ -30401,5 +30402,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:43:39.747413+00:00"
+  "updated_at": "2026-10-30T08:43:43.639840+00:00"
 }
