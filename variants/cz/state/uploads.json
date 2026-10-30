@@ -14790,12 +14790,6 @@
     },
     "25:3:3": {
       "episode_key": "volejte saulovi:s3:e3",
-      "claim": {
-        "worker_id": "f06696195c794b5fbda8ba8c047b9abe-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:47:51.220853+00:00",
-        "lease_expires_at": "2026-10-30T07:47:51.220864+00:00"
-      },
       "source": {
         "source_id": "29535554",
         "source_url": "https://sdilej.cz/29535554/volejte-saulovi-s03e03.mkv",
@@ -14820,15 +14814,22 @@
         "display_name": "Better Call Saul S03E03 Sunk Costs 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:47:52.516438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623503",
-        "size_bytes": 561552980
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623503",
+          "size_bytes": 561552980,
+          "source_bytes_read": 561552980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535554",
+        "source_url": "https://sdilej.cz/29535554/volejte-saulovi-s03e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623503",
-        "size_bytes": 561552980,
-        "source_bytes_read": 561552980,
-        "http_status": 201
+        "display_name": "Better Call Saul S03E03 Sunk Costs 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:50:05.569998+00:00"
       }
     },
     "25:3:4": {
@@ -14911,5 +14912,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:50:02.473198+00:00"
+  "updated_at": "2026-10-30T01:50:05.570009+00:00"
 }
