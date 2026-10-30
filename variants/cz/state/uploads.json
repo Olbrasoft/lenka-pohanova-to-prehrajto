@@ -39202,12 +39202,6 @@
     },
     "673:3:12": {
       "episode_key": "městečko south park:s3:e12",
-      "claim": {
-        "worker_id": "e414e6de45404f66a8784dd9c80428b4-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:36:32.157146+00:00",
-        "lease_expires_at": "2026-10-30T19:36:32.157159+00:00"
-      },
       "source": {
         "source_id": "32876168",
         "source_url": "https://sdilej.cz/32876168/mestecko-south-park-s03e12-17-1999-cz-dab-1080p-pravopisna-akusticka-opice.mkv",
@@ -39232,15 +39226,22 @@
         "display_name": "South Park S03E12 Hooked on Monkey Fonics 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:36:33.905897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636967",
-        "size_bytes": 247593038
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636967",
+          "size_bytes": 247593038,
+          "source_bytes_read": 247593038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876168",
+        "source_url": "https://sdilej.cz/32876168/mestecko-south-park-s03e12-17-1999-cz-dab-1080p-pravopisna-akusticka-opice.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636967",
-        "size_bytes": 247593038,
-        "source_bytes_read": 247593038,
-        "http_status": 201
+        "display_name": "South Park S03E12 Hooked on Monkey Fonics 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:37:34.686195+00:00"
       }
     }
   },
@@ -39249,5 +39250,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:37:33.249468+00:00"
+  "updated_at": "2026-10-30T13:37:34.686215+00:00"
 }
