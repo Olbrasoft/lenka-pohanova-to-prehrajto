@@ -15890,12 +15890,6 @@
     },
     "25:5:8": {
       "episode_key": "volejte saulovi:s5:e8",
-      "claim": {
-        "worker_id": "808ddebfa0e84e0da14afe6bfb1e4c6b-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:11:04.800065+00:00",
-        "lease_expires_at": "2026-10-30T08:11:04.800076+00:00"
-      },
       "source": {
         "source_id": "30974838",
         "source_url": "https://sdilej.cz/30974838/volejte-saulovi-s05e08-2160p-cz.mkv",
@@ -15920,15 +15914,22 @@
         "display_name": "Better Call Saul S05E08 Bagman 4K CZ Dabing",
         "prepared_at": "2026-10-30T02:11:06.265729+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623881",
-        "size_bytes": 1928701805
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623881",
+          "size_bytes": 1928701805,
+          "source_bytes_read": 1928701805,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974838",
+        "source_url": "https://sdilej.cz/30974838/volejte-saulovi-s05e08-2160p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623881",
-        "size_bytes": 1928701805,
-        "source_bytes_read": 1928701805,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E08 Bagman 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T02:17:29.034996+00:00"
       }
     },
     "25:5:9": {
@@ -16055,5 +16056,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:17:25.352224+00:00"
+  "updated_at": "2026-10-30T02:17:29.035006+00:00"
 }
