@@ -43178,12 +43178,6 @@
     },
     "673:10:2": {
       "episode_key": "městečko south park:s10:e2",
-      "claim": {
-        "worker_id": "0a11e51e1e944eaab07ecef32f781f75-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:18:58.959916+00:00",
-        "lease_expires_at": "2026-10-30T20:18:58.959927+00:00"
-      },
       "source": {
         "source_id": "34957440",
         "source_url": "https://sdilej.cz/34957440/south-park-s10e02.-nebezpeci-snobu.mp4",
@@ -43208,15 +43202,22 @@
         "display_name": "South Park S10E02 Smug Alert! 1080p CZ Dabing",
         "prepared_at": "2026-10-30T14:19:00.758658+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637649",
-        "size_bytes": 460900370
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637649",
+          "size_bytes": 460900370,
+          "source_bytes_read": 460900370,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957440",
+        "source_url": "https://sdilej.cz/34957440/south-park-s10e02.-nebezpeci-snobu.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637649",
-        "size_bytes": 460900370,
-        "source_bytes_read": 460900370,
-        "http_status": 201
+        "display_name": "South Park S10E02 Smug Alert! 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T14:20:31.318740+00:00"
       }
     },
     "673:10:3": {
@@ -43306,5 +43307,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:20:25.718646+00:00"
+  "updated_at": "2026-10-30T14:20:31.318845+00:00"
 }
