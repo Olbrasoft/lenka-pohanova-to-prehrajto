@@ -36323,12 +36323,6 @@
     },
     "82:1:4": {
       "episode_key": "narcos:s1:e4",
-      "claim": {
-        "worker_id": "681b6854bd9549dc9f95cde2e04e5b70-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:29:16.505492+00:00",
-        "lease_expires_at": "2026-10-30T18:29:16.505503+00:00"
-      },
       "source": {
         "source_id": "34646083",
         "source_url": "https://sdilej.cz/34646083/narcos-s01e04-cz-dabing.mkv",
@@ -36353,15 +36347,22 @@
         "display_name": "Narcos S01E04 The Palace in Flames 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:29:17.920409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632929",
-        "size_bytes": 1932571278
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632929",
+          "size_bytes": 1932571278,
+          "source_bytes_read": 1932571278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34646083",
+        "source_url": "https://sdilej.cz/34646083/narcos-s01e04-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632929",
-        "size_bytes": 1932571278,
-        "source_bytes_read": 1932571278,
-        "http_status": 201
+        "display_name": "Narcos S01E04 The Palace in Flames 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:33:47.121594+00:00"
       }
     }
   },
@@ -36370,5 +36371,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:33:44.275537+00:00"
+  "updated_at": "2026-10-30T12:33:47.121612+00:00"
 }
