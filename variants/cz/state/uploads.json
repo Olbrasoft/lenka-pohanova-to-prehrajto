@@ -49419,12 +49419,6 @@
     },
     "673:21:8": {
       "episode_key": "městečko south park:s21:e8",
-      "claim": {
-        "worker_id": "feafff662c3d4cf39531a7910ab5a43c-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:56:53.380002+00:00",
-        "lease_expires_at": "2026-10-30T21:56:53.380013+00:00"
-      },
       "source": {
         "source_id": "34699310",
         "source_url": "https://sdilej.cz/34699310/mestecko-south-park-s21e08-17-2017-cz-dab-1080p-neco-co-muzes-udelat-prstem.mkv",
@@ -49449,15 +49443,22 @@
         "display_name": "South Park S21E08 Moss Piglets 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:56:58.106402+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639175",
-        "size_bytes": 247736953
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639175",
+          "size_bytes": 247736953,
+          "source_bytes_read": 247736953,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699310",
+        "source_url": "https://sdilej.cz/34699310/mestecko-south-park-s21e08-17-2017-cz-dab-1080p-neco-co-muzes-udelat-prstem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639175",
-        "size_bytes": 247736953,
-        "source_bytes_read": 247736953,
-        "http_status": 201
+        "display_name": "South Park S21E08 Moss Piglets 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:58:00.556366+00:00"
       }
     },
     "673:21:9": {
@@ -49508,5 +49509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:57:59.188814+00:00"
+  "updated_at": "2026-10-30T15:58:00.556382+00:00"
 }
