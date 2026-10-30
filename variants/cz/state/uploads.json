@@ -20290,12 +20290,6 @@
     },
     "28:9:10": {
       "episode_key": "rick a morty:s9:e10",
-      "claim": {
-        "worker_id": "fe39d257415041a1825b5cc3e280b183-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T03:09:52.239813+00:00",
-        "lease_expires_at": "2026-10-30T09:09:52.239825+00:00"
-      },
       "source": {
         "source_id": "34738135",
         "source_url": "https://sdilej.cz/34738135/rick-and-morty-s09e10-czen-dabing.mp4",
@@ -20320,15 +20314,22 @@
         "display_name": "Rick and Morty S09E10 Field of Dreams 1080p CZ Dabing",
         "prepared_at": "2026-10-30T03:09:53.922012+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624689",
-        "size_bytes": 355688130
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624689",
+          "size_bytes": 355688130,
+          "source_bytes_read": 355688130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34738135",
+        "source_url": "https://sdilej.cz/34738135/rick-and-morty-s09e10-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624689",
-        "size_bytes": 355688130,
-        "source_bytes_read": 355688130,
-        "http_status": 201
+        "display_name": "Rick and Morty S09E10 Field of Dreams 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T03:11:06.608634+00:00"
       }
     },
     "436:1:1": {
@@ -20411,5 +20412,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T03:11:03.959006+00:00"
+  "updated_at": "2026-10-30T03:11:06.608650+00:00"
 }
