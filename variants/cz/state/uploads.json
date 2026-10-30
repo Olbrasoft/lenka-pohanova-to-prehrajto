@@ -18838,12 +18838,6 @@
     },
     "28:6:4": {
       "episode_key": "rick a morty:s6:e4",
-      "claim": {
-        "worker_id": "d6be18be9fff4419962fd4a8ef8d2aef-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:51:54.123492+00:00",
-        "lease_expires_at": "2026-10-30T08:51:54.123504+00:00"
-      },
       "source": {
         "source_id": "34923983",
         "source_url": "https://sdilej.cz/34923983/rick-and-morty-s06e04-czen-dabing.mp4",
@@ -18868,15 +18862,22 @@
         "display_name": "Rick and Morty S06E04 Night Family 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:51:55.816446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624460",
-        "size_bytes": 297856894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624460",
+          "size_bytes": 297856894,
+          "source_bytes_read": 297856894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34923983",
+        "source_url": "https://sdilej.cz/34923983/rick-and-morty-s06e04-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624460",
-        "size_bytes": 297856894,
-        "source_bytes_read": 297856894,
-        "http_status": 201
+        "display_name": "Rick and Morty S06E04 Night Family 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:53:19.774371+00:00"
       }
     },
     "28:6:5": {
@@ -18959,5 +18960,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:53:16.936917+00:00"
+  "updated_at": "2026-10-30T02:53:19.774388+00:00"
 }
