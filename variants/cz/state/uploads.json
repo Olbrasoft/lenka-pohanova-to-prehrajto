@@ -38134,12 +38134,6 @@
     },
     "673:2:5": {
       "episode_key": "městečko south park:s2:e5",
-      "claim": {
-        "worker_id": "bc191ef9c53e45b38b0f126ac0d8df29-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:26:31.520808+00:00",
-        "lease_expires_at": "2026-10-30T19:26:31.520819+00:00"
-      },
       "source": {
         "source_id": "33507183",
         "source_url": "https://sdilej.cz/33507183/mestecko-south-park-s02e05-18-1998-cz-dab-1080p-sestricka-s-mrtvym-embryem-na-ksichte.mkv",
@@ -38164,15 +38158,22 @@
         "display_name": "South Park S02E05 Conjoined Fetus Lady 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:26:35.779924+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636158",
-        "size_bytes": 238004975
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636158",
+          "size_bytes": 238004975,
+          "source_bytes_read": 238004975,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507183",
+        "source_url": "https://sdilej.cz/33507183/mestecko-south-park-s02e05-18-1998-cz-dab-1080p-sestricka-s-mrtvym-embryem-na-ksichte.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636158",
-        "size_bytes": 238004975,
-        "source_bytes_read": 238004975,
-        "http_status": 201
+        "display_name": "South Park S02E05 Conjoined Fetus Lady 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:27:29.909443+00:00"
       }
     }
   },
@@ -38181,5 +38182,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:27:28.434453+00:00"
+  "updated_at": "2026-10-30T13:27:29.909460+00:00"
 }
