@@ -59719,12 +59719,6 @@
     },
     "956:3:10": {
       "episode_key": "star trek: nová generace:s3:e10",
-      "claim": {
-        "worker_id": "894843079f3144b68fcab9dbe9ed9bb1-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:45:41.987945+00:00",
-        "lease_expires_at": "2026-10-31T04:45:41.987955+00:00"
-      },
       "source": {
         "source_id": "28164334",
         "source_url": "https://sdilej.cz/28164334/star-trek-nova-generace-s03e10-prebehlik.mkv",
@@ -59749,15 +59743,22 @@
         "display_name": "Star Trek: The Next Generation S03E10 The Defector 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:45:44.512987+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647188",
-        "size_bytes": 461304262
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647188",
+          "size_bytes": 461304262,
+          "source_bytes_read": 461304262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164334",
+        "source_url": "https://sdilej.cz/28164334/star-trek-nova-generace-s03e10-prebehlik.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647188",
-        "size_bytes": 461304262,
-        "source_bytes_read": 461304262,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E10 The Defector 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:47:25.965771+00:00"
       }
     }
   },
@@ -59766,5 +59767,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:47:22.394418+00:00"
+  "updated_at": "2026-10-30T22:47:25.965783+00:00"
 }
