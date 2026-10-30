@@ -59319,12 +59319,6 @@
     },
     "956:3:1": {
       "episode_key": "star trek: nová generace:s3:e1",
-      "claim": {
-        "worker_id": "0dbb35289b73471c86504def751329d7-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:39:56.386157+00:00",
-        "lease_expires_at": "2026-10-31T04:39:56.386167+00:00"
-      },
       "source": {
         "source_id": "33993078",
         "source_url": "https://sdilej.cz/33993078/star-trek-nova-generace-s03e01-evoluce.mkv",
@@ -59349,15 +59343,22 @@
         "display_name": "Star Trek: The Next Generation S03E01 Evolution 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:39:58.235110+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647031",
-        "size_bytes": 439257336
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647031",
+          "size_bytes": 439257336,
+          "source_bytes_read": 439257336,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33993078",
+        "source_url": "https://sdilej.cz/33993078/star-trek-nova-generace-s03e01-evoluce.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647031",
-        "size_bytes": 439257336,
-        "source_bytes_read": 439257336,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E01 Evolution 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:41:32.932564+00:00"
       }
     },
     "956:3:2": {
@@ -59436,5 +59437,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:41:31.650522+00:00"
+  "updated_at": "2026-10-30T22:41:32.932577+00:00"
 }
