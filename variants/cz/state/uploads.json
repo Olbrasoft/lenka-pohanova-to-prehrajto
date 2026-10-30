@@ -12363,12 +12363,6 @@
     },
     "22:6:19": {
       "episode_key": "rodina sopránů:s6:e19",
-      "claim": {
-        "worker_id": "c2f0164bb788436c827622be44e07ee6-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:16:00.815648+00:00",
-        "lease_expires_at": "2026-10-30T06:16:00.815660+00:00"
-      },
       "source": {
         "source_id": "14660837",
         "source_url": "https://sdilej.cz/14660837/the-sopranos.s06e19.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -12393,15 +12387,22 @@
         "display_name": "The Sopranos S06E19 The Second Coming 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:16:02.179186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622080",
-        "size_bytes": 520027819
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622080",
+          "size_bytes": 520027819,
+          "source_bytes_read": 520027819,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660837",
+        "source_url": "https://sdilej.cz/14660837/the-sopranos.s06e19.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622080",
-        "size_bytes": 520027819,
-        "source_bytes_read": 520027819,
-        "http_status": 201
+        "display_name": "The Sopranos S06E19 The Second Coming 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:17:33.691454+00:00"
       }
     },
     "22:6:20": {
@@ -12447,5 +12448,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:17:31.052612+00:00"
+  "updated_at": "2026-10-30T00:17:33.691470+00:00"
 }
