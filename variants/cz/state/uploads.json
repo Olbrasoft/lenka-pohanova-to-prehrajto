@@ -51355,12 +51355,6 @@
     },
     "40:2:12": {
       "episode_key": "městečko twin peaks:s2:e12",
-      "claim": {
-        "worker_id": "e0786f0b46a14a9a9d697415c080d07f-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:03:30.979665+00:00",
-        "lease_expires_at": "2026-10-30T23:03:30.979676+00:00"
-      },
       "source": {
         "source_id": "33203044",
         "source_url": "https://sdilej.cz/33203044/mestecko-twin-peaks-s02e12-the-black-widow.mkv",
@@ -51385,15 +51379,22 @@
         "display_name": "Twin Peaks S02E12 The Black Widow 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:03:35.956950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640240",
-        "size_bytes": 1008650798
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640240",
+          "size_bytes": 1008650798,
+          "source_bytes_read": 1008650798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203044",
+        "source_url": "https://sdilej.cz/33203044/mestecko-twin-peaks-s02e12-the-black-widow.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640240",
-        "size_bytes": 1008650798,
-        "source_bytes_read": 1008650798,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E12 The Black Widow 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:06:04.088387+00:00"
       }
     },
     "40:2:13": {
@@ -51476,5 +51477,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:06:00.236051+00:00"
+  "updated_at": "2026-10-30T17:06:04.088404+00:00"
 }
