@@ -56157,12 +56157,6 @@
     },
     "1180:3:11": {
       "episode_key": "odpočívej v pokoji:s3:e11",
-      "claim": {
-        "worker_id": "1b22650415d54e25b005f148bfb1ffbc-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:55:27.429383+00:00",
-        "lease_expires_at": "2026-10-31T02:55:27.429393+00:00"
-      },
       "source": {
         "source_id": "25928647",
         "source_url": "https://sdilej.cz/25928647/odpocivej-v-pokoji-six-feet-under-s03e11-hd-cz-dabing.mkv",
@@ -56187,15 +56181,22 @@
         "display_name": "Six Feet Under S03E11 Death Works Overtime 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:55:29.386222+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644707",
-        "size_bytes": 1291986865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644707",
+          "size_bytes": 1291986865,
+          "source_bytes_read": 1291986865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25928647",
+        "source_url": "https://sdilej.cz/25928647/odpocivej-v-pokoji-six-feet-under-s03e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644707",
-        "size_bytes": 1291986865,
-        "source_bytes_read": 1291986865,
-        "http_status": 201
+        "display_name": "Six Feet Under S03E11 Death Works Overtime 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:59:12.806666+00:00"
       }
     }
   },
@@ -56204,5 +56205,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:59:11.439880+00:00"
+  "updated_at": "2026-10-30T20:59:12.806682+00:00"
 }
