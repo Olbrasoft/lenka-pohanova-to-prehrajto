@@ -25595,12 +25595,6 @@
     },
     "585:1:2": {
       "episode_key": "urgent:s1:e2",
-      "claim": {
-        "worker_id": "81f4c34b71d147a98744fb9dd5b41135-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T06:06:13.348315+00:00",
-        "lease_expires_at": "2026-10-30T12:06:13.348329+00:00"
-      },
       "source": {
         "source_id": "33849909",
         "source_url": "https://sdilej.cz/33849909/urgent-s01e02-08-00.mkv",
@@ -25625,15 +25619,22 @@
         "display_name": "The Pitt S01E02 8:00 A.M. 4K CZ Dabing",
         "prepared_at": "2026-10-30T06:06:15.102676+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627638",
-        "size_bytes": 196673536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627638",
+          "size_bytes": 196673536,
+          "source_bytes_read": 196673536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33849909",
+        "source_url": "https://sdilej.cz/33849909/urgent-s01e02-08-00.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627638",
-        "size_bytes": 196673536,
-        "source_bytes_read": 196673536,
-        "http_status": 201
+        "display_name": "The Pitt S01E02 8:00 A.M. 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T06:06:59.023445+00:00"
       }
     },
     "585:1:3": {
@@ -25679,5 +25680,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T06:06:55.544059+00:00"
+  "updated_at": "2026-10-30T06:06:59.023452+00:00"
 }
