@@ -45023,12 +45023,6 @@
     },
     "673:13:2": {
       "episode_key": "městečko south park:s13:e2",
-      "claim": {
-        "worker_id": "54a41615089f4ac9bc9882f4fd63b8d3-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:53:24.033316+00:00",
-        "lease_expires_at": "2026-10-30T20:53:24.033327+00:00"
-      },
       "source": {
         "source_id": "32888476",
         "source_url": "https://sdilej.cz/32888476/mestecko-south-park-s13e02-14-2009-cz-dab-1080p-myval-a-mysterion.mkv",
@@ -45053,15 +45047,22 @@
         "display_name": "South Park S13E02 The Coon 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:53:25.816928+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638258",
-        "size_bytes": 259720197
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638258",
+          "size_bytes": 259720197,
+          "source_bytes_read": 259720197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32888476",
+        "source_url": "https://sdilej.cz/32888476/mestecko-south-park-s13e02-14-2009-cz-dab-1080p-myval-a-mysterion.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638258",
-        "size_bytes": 259720197,
-        "source_bytes_read": 259720197,
-        "http_status": 201
+        "display_name": "South Park S13E02 The Coon 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:54:13.086937+00:00"
       }
     }
   },
@@ -45070,5 +45071,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:54:09.506369+00:00"
+  "updated_at": "2026-10-30T14:54:13.086955+00:00"
 }
