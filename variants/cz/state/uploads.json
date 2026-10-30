@@ -40433,12 +40433,6 @@
     },
     "673:5:9": {
       "episode_key": "městečko south park:s5:e9",
-      "claim": {
-        "worker_id": "2a585b7ba7c84997869c33a0a965f88f-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:49:39.322714+00:00",
-        "lease_expires_at": "2026-10-30T19:49:39.322729+00:00"
-      },
       "source": {
         "source_id": "32876327",
         "source_url": "https://sdilej.cz/32876327/mestecko-south-park-s05e09-14-2001-cz-dab-1080p-usama-bin-ladin-ma-zaprdeny-trencle.mkv",
@@ -40463,15 +40457,22 @@
         "display_name": "South Park S05E09 Osama Bin Laden Has Farty Pants 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:49:42.349076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637184",
-        "size_bytes": 257137308
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637184",
+          "size_bytes": 257137308,
+          "source_bytes_read": 257137308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876327",
+        "source_url": "https://sdilej.cz/32876327/mestecko-south-park-s05e09-14-2001-cz-dab-1080p-usama-bin-ladin-ma-zaprdeny-trencle.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637184",
-        "size_bytes": 257137308,
-        "source_bytes_read": 257137308,
-        "http_status": 201
+        "display_name": "South Park S05E09 Osama Bin Laden Has Farty Pants 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:50:36.433510+00:00"
       }
     },
     "673:5:10": {
@@ -40550,5 +40551,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:50:33.938097+00:00"
+  "updated_at": "2026-10-30T13:50:36.433528+00:00"
 }
