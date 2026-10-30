@@ -59994,12 +59994,6 @@
     },
     "956:3:16": {
       "episode_key": "star trek: nová generace:s3:e16",
-      "claim": {
-        "worker_id": "8c913f2ad0734bdd8ca57194325e007d-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:53:39.508926+00:00",
-        "lease_expires_at": "2026-10-31T04:53:39.508936+00:00"
-      },
       "source": {
         "source_id": "28164416",
         "source_url": "https://sdilej.cz/28164416/star-trek-nova-generace-s03e16-potomek.mkv",
@@ -60024,15 +60018,22 @@
         "display_name": "Star Trek: The Next Generation S03E16 The Offspring 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:53:41.048152+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647401",
-        "size_bytes": 461505071
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647401",
+          "size_bytes": 461505071,
+          "source_bytes_read": 461505071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164416",
+        "source_url": "https://sdilej.cz/28164416/star-trek-nova-generace-s03e16-potomek.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647401",
-        "size_bytes": 461505071,
-        "source_bytes_read": 461505071,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E16 The Offspring 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:55:34.037794+00:00"
       }
     }
   },
@@ -60041,5 +60042,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:55:32.711295+00:00"
+  "updated_at": "2026-10-30T22:55:34.037808+00:00"
 }
