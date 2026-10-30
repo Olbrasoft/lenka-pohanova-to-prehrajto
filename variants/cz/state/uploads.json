@@ -59767,12 +59767,6 @@
     },
     "956:3:11": {
       "episode_key": "star trek: nová generace:s3:e11",
-      "claim": {
-        "worker_id": "da0ff361b1224a4bab552bc4441b3f55-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:51:24.304000+00:00",
-        "lease_expires_at": "2026-10-31T04:51:24.304010+00:00"
-      },
       "source": {
         "source_id": "28164346",
         "source_url": "https://sdilej.cz/28164346/star-trek-nova-generace-s03e11-stvanec.mkv",
@@ -59797,15 +59791,22 @@
         "display_name": "Star Trek: The Next Generation S03E11 The Hunted 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:51:28.242289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647337",
-        "size_bytes": 460879608
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647337",
+          "size_bytes": 460879608,
+          "source_bytes_read": 460879608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164346",
+        "source_url": "https://sdilej.cz/28164346/star-trek-nova-generace-s03e11-stvanec.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647337",
-        "size_bytes": 460879608,
-        "source_bytes_read": 460879608,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E11 The Hunted 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:52:53.083858+00:00"
       }
     },
     "956:3:12": {
@@ -59895,5 +59896,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:52:51.629584+00:00"
+  "updated_at": "2026-10-30T22:52:53.083872+00:00"
 }
