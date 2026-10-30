@@ -18618,12 +18618,6 @@
     },
     "28:5:9": {
       "episode_key": "rick a morty:s5:e9",
-      "claim": {
-        "worker_id": "5563b54a92814f8aa3e416861d267d36-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:49:29.105319+00:00",
-        "lease_expires_at": "2026-10-30T08:49:29.105331+00:00"
-      },
       "source": {
         "source_id": "34923996",
         "source_url": "https://sdilej.cz/34923996/rick-and-morty-s05e09-czen-dabing.mp4",
@@ -18648,15 +18642,22 @@
         "display_name": "Rick and Morty S05E09 Forgetting Sarick Mortshall 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:49:30.644065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624425",
-        "size_bytes": 271102118
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624425",
+          "size_bytes": 271102118,
+          "source_bytes_read": 271102118,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34923996",
+        "source_url": "https://sdilej.cz/34923996/rick-and-morty-s05e09-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624425",
-        "size_bytes": 271102118,
-        "source_bytes_read": 271102118,
-        "http_status": 201
+        "display_name": "Rick and Morty S05E09 Forgetting Sarick Mortshall 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:50:52.337271+00:00"
       }
     },
     "28:5:10": {
@@ -18739,5 +18740,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:50:49.377085+00:00"
+  "updated_at": "2026-10-30T02:50:52.337289+00:00"
 }
