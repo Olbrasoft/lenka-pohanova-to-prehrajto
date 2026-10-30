@@ -39366,12 +39366,6 @@
     },
     "673:3:16": {
       "episode_key": "městečko south park:s3:e16",
-      "claim": {
-        "worker_id": "632bf572add446e19100fcc5ebfb5df2-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:38:54.800462+00:00",
-        "lease_expires_at": "2026-10-30T19:38:54.800473+00:00"
-      },
       "source": {
         "source_id": "32876185",
         "source_url": "https://sdilej.cz/32876185/mestecko-south-park-s03e16-17-1999-cz-dab-1080p-jsi-tam-boze-to-jsem-ja-jezis.mkv",
@@ -39396,15 +39390,22 @@
         "display_name": "South Park S03E16 Are You There God? It's Me, Jesus 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:38:56.717125+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637009",
-        "size_bytes": 255243386
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637009",
+          "size_bytes": 255243386,
+          "source_bytes_read": 255243386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876185",
+        "source_url": "https://sdilej.cz/32876185/mestecko-south-park-s03e16-17-1999-cz-dab-1080p-jsi-tam-boze-to-jsem-ja-jezis.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637009",
-        "size_bytes": 255243386,
-        "source_bytes_read": 255243386,
-        "http_status": 201
+        "display_name": "South Park S03E16 Are You There God? It's Me, Jesus 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:39:55.309919+00:00"
       }
     },
     "673:3:17": {
@@ -39483,5 +39484,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:39:52.053089+00:00"
+  "updated_at": "2026-10-30T13:39:55.309937+00:00"
 }
