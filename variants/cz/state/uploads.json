@@ -16374,12 +16374,6 @@
     },
     "25:6:10": {
       "episode_key": "volejte saulovi:s6:e10",
-      "claim": {
-        "worker_id": "50e97f409f1446cd90673e70eb6fb7cc-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:21:04.782554+00:00",
-        "lease_expires_at": "2026-10-30T08:21:04.782566+00:00"
-      },
       "source": {
         "source_id": "29544053",
         "source_url": "https://sdilej.cz/29544053/volejte-saulovi-s06e10.mkv",
@@ -16404,15 +16398,22 @@
         "display_name": "Better Call Saul S06E10 Nippy 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:21:06.168537+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623977",
-        "size_bytes": 670239546
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623977",
+          "size_bytes": 670239546,
+          "source_bytes_read": 670239546,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544053",
+        "source_url": "https://sdilej.cz/29544053/volejte-saulovi-s06e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623977",
-        "size_bytes": 670239546,
-        "source_bytes_read": 670239546,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E10 Nippy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:23:25.711875+00:00"
       }
     },
     "25:6:11": {
@@ -16458,5 +16459,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:23:22.430127+00:00"
+  "updated_at": "2026-10-30T02:23:25.711893+00:00"
 }
