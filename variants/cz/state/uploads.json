@@ -45663,12 +45663,6 @@
     },
     "673:14:4": {
       "episode_key": "městečko south park:s14:e4",
-      "claim": {
-        "worker_id": "5a29f08bed604d84ab640f0c5a10109d-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:59:56.272428+00:00",
-        "lease_expires_at": "2026-10-30T20:59:56.272441+00:00"
-      },
       "source": {
         "source_id": "32892933",
         "source_url": "https://sdilej.cz/32892933/mestecko-south-park-s14e04-14-2010-cz-dab-1080p-mas-0-pratel.mkv",
@@ -45693,15 +45687,22 @@
         "display_name": "South Park S14E04 You Have 0 Friends 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:00:01.482394+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638375",
-        "size_bytes": 255499793
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638375",
+          "size_bytes": 255499793,
+          "source_bytes_read": 255499793,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32892933",
+        "source_url": "https://sdilej.cz/32892933/mestecko-south-park-s14e04-14-2010-cz-dab-1080p-mas-0-pratel.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638375",
-        "size_bytes": 255499793,
-        "source_bytes_read": 255499793,
-        "http_status": 201
+        "display_name": "South Park S14E04 You Have 0 Friends 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:00:51.368624+00:00"
       }
     }
   },
@@ -45710,5 +45711,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:00:49.761744+00:00"
+  "updated_at": "2026-10-30T15:00:51.368644+00:00"
 }
