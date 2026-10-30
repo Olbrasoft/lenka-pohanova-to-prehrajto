@@ -27538,12 +27538,6 @@
     },
     "4704:2:4": {
       "episode_key": "západní křídlo:s2:e4",
-      "claim": {
-        "worker_id": "54946050aed8490c821f760db341eee7-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:37:17.337693+00:00",
-        "lease_expires_at": "2026-10-30T13:37:17.337704+00:00"
-      },
       "source": {
         "source_id": "34861832",
         "source_url": "https://sdilej.cz/34861832/zapadni-kridlo-s02e04-026-2000-hd-v-tomhle-bilem-dome-s-.mp4",
@@ -27568,15 +27562,22 @@
         "display_name": "The West Wing S02E04 In this White House 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:37:19.020369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628816",
-        "size_bytes": 849382223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628816",
+          "size_bytes": 849382223,
+          "source_bytes_read": 849382223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861832",
+        "source_url": "https://sdilej.cz/34861832/zapadni-kridlo-s02e04-026-2000-hd-v-tomhle-bilem-dome-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628816",
-        "size_bytes": 849382223,
-        "source_bytes_read": 849382223,
-        "http_status": 201
+        "display_name": "The West Wing S02E04 In this White House 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:40:04.675518+00:00"
       }
     },
     "4704:2:5": {
@@ -27622,5 +27623,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:39:59.561477+00:00"
+  "updated_at": "2026-10-30T07:40:04.675538+00:00"
 }
