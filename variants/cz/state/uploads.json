@@ -54617,12 +54617,6 @@
     },
     "1154:6:7": {
       "episode_key": "panství downton:s6:e7",
-      "claim": {
-        "worker_id": "f5a58c24d99749768ce590239243efee-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:39:39.774141+00:00",
-        "lease_expires_at": "2026-10-31T01:39:39.774149+00:00"
-      },
       "source": {
         "source_id": "33829290",
         "source_url": "https://sdilej.cz/33829290/panstvi-downton-s06e07-cz-dabing.mkv",
@@ -54647,15 +54641,22 @@
         "display_name": "Downton Abbey S06E07 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:39:45.056291+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643126",
-        "size_bytes": 1088753955
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643126",
+          "size_bytes": 1088753955,
+          "source_bytes_read": 1088753955,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33829290",
+        "source_url": "https://sdilej.cz/33829290/panstvi-downton-s06e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643126",
-        "size_bytes": 1088753955,
-        "source_bytes_read": 1088753955,
-        "http_status": 201
+        "display_name": "Downton Abbey S06E07 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:43:13.102601+00:00"
       }
     }
   },
@@ -54664,5 +54665,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:43:11.810188+00:00"
+  "updated_at": "2026-10-30T19:43:13.102617+00:00"
 }
