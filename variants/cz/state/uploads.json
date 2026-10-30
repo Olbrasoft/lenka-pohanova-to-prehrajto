@@ -24854,12 +24854,6 @@
     },
     "1831:2:1": {
       "episode_key": "městečko záhad:s2:e1",
-      "claim": {
-        "worker_id": "e56decaf92f64d06abe17b6bc072f751-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:45:15.974699+00:00",
-        "lease_expires_at": "2026-10-30T11:45:15.974711+00:00"
-      },
       "source": {
         "source_id": "21441608",
         "source_url": "https://sdilej.cz/21441608/mestecko-zahad-gravity-falls-s02e1-hd-cz-dabing.mkv",
@@ -24884,15 +24878,22 @@
         "display_name": "Gravity Falls S02E01 Scary-oke 1080p CZ Dabing",
         "prepared_at": "2026-10-30T05:45:18.837674+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627323",
-        "size_bytes": 1476294442
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627323",
+          "size_bytes": 1476294442,
+          "source_bytes_read": 1476294442,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21441608",
+        "source_url": "https://sdilej.cz/21441608/mestecko-zahad-gravity-falls-s02e1-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627323",
-        "size_bytes": 1476294442,
-        "source_bytes_read": 1476294442,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E01 Scary-oke 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:49:30.093711+00:00"
       }
     },
     "1831:2:3": {
@@ -25078,5 +25079,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:49:28.887694+00:00"
+  "updated_at": "2026-10-30T05:49:30.093727+00:00"
 }
