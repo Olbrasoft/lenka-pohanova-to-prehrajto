@@ -57559,12 +57559,6 @@
     },
     "956:1:7": {
       "episode_key": "star trek: nová generace:s1:e7",
-      "claim": {
-        "worker_id": "938ff0ea87154ef890efe515c37f9bd2-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:59:30.501308+00:00",
-        "lease_expires_at": "2026-10-31T03:59:30.501319+00:00"
-      },
       "source": {
         "source_id": "28163389",
         "source_url": "https://sdilej.cz/28163389/star-trek-nova-generace-s01e07-opusteny-mezi-nami.mkv",
@@ -57589,15 +57583,22 @@
         "display_name": "Star Trek: The Next Generation S01E07 Justice 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:59:32.179888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646192",
-        "size_bytes": 461080457
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646192",
+          "size_bytes": 461080457,
+          "source_bytes_read": 461080457,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163389",
+        "source_url": "https://sdilej.cz/28163389/star-trek-nova-generace-s01e07-opusteny-mezi-nami.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646192",
-        "size_bytes": 461080457,
-        "source_bytes_read": 461080457,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E07 Justice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:00:59.593010+00:00"
       }
     },
     "956:1:8": {
@@ -57643,5 +57644,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:00:58.279132+00:00"
+  "updated_at": "2026-10-30T22:00:59.593026+00:00"
 }
