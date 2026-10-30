@@ -45146,12 +45146,6 @@
     },
     "673:13:5": {
       "episode_key": "městečko south park:s13:e5",
-      "claim": {
-        "worker_id": "496ee6fad877484cae7ff5cf89759c4b-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:54:28.106916+00:00",
-        "lease_expires_at": "2026-10-30T20:54:28.106928+00:00"
-      },
       "source": {
         "source_id": "32889312",
         "source_url": "https://sdilej.cz/32889312/mestecko-south-park-s13e05-14-2009-cz-dab-1080p-rybi-koule.mkv",
@@ -45176,15 +45170,22 @@
         "display_name": "South Park S13E05 Fishsticks 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:54:31.256213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638282",
-        "size_bytes": 250972558
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638282",
+          "size_bytes": 250972558,
+          "source_bytes_read": 250972558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32889312",
+        "source_url": "https://sdilej.cz/32889312/mestecko-south-park-s13e05-14-2009-cz-dab-1080p-rybi-koule.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638282",
-        "size_bytes": 250972558,
-        "source_bytes_read": 250972558,
-        "http_status": 201
+        "display_name": "South Park S13E05 Fishsticks 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:55:23.546703+00:00"
       }
     },
     "673:13:6": {
@@ -45230,5 +45231,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:55:20.398342+00:00"
+  "updated_at": "2026-10-30T14:55:23.546722+00:00"
 }
