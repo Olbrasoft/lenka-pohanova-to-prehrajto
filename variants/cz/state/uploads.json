@@ -55798,12 +55798,6 @@
     },
     "1180:3:3": {
       "episode_key": "odpočívej v pokoji:s3:e3",
-      "claim": {
-        "worker_id": "cf662707b70c4abf9ca3b9d68b80f275-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:45:40.229830+00:00",
-        "lease_expires_at": "2026-10-31T02:45:40.229840+00:00"
-      },
       "source": {
         "source_id": "25928127",
         "source_url": "https://sdilej.cz/25928127/odpocivej-v-pokoji-six-feet-under-s03e03-hd-cz-dabing.mkv",
@@ -55828,15 +55822,22 @@
         "display_name": "Six Feet Under S03E03 The Eye Inside 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:45:44.053618+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644468",
-        "size_bytes": 1339778514
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644468",
+          "size_bytes": 1339778514,
+          "source_bytes_read": 1339778514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25928127",
+        "source_url": "https://sdilej.cz/25928127/odpocivej-v-pokoji-six-feet-under-s03e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644468",
-        "size_bytes": 1339778514,
-        "source_bytes_read": 1339778514,
-        "http_status": 201
+        "display_name": "Six Feet Under S03E03 The Eye Inside 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:49:03.802554+00:00"
       }
     }
   },
@@ -55845,5 +55846,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:49:00.007175+00:00"
+  "updated_at": "2026-10-30T20:49:03.802569+00:00"
 }
