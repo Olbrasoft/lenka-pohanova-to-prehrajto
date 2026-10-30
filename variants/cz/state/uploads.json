@@ -47869,12 +47869,6 @@
     },
     "673:18:3": {
       "episode_key": "městečko south park:s18:e3",
-      "claim": {
-        "worker_id": "2475249b112e469ea7b919917c37c10f-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:28:06.607533+00:00",
-        "lease_expires_at": "2026-10-30T21:28:06.607547+00:00"
-      },
       "source": {
         "source_id": "32893180",
         "source_url": "https://sdilej.cz/32893180/mestecko-south-park-s18e03-10-2014-cz-dab-1080p-ciska.mkv",
@@ -47899,15 +47893,22 @@
         "display_name": "South Park S18E03 The Cissy 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:28:11.414070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638801",
-        "size_bytes": 248696641
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638801",
+          "size_bytes": 248696641,
+          "source_bytes_read": 248696641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893180",
+        "source_url": "https://sdilej.cz/32893180/mestecko-south-park-s18e03-10-2014-cz-dab-1080p-ciska.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638801",
-        "size_bytes": 248696641,
-        "source_bytes_read": 248696641,
-        "http_status": 201
+        "display_name": "South Park S18E03 The Cissy 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:29:16.643417+00:00"
       }
     },
     "673:18:4": {
@@ -47953,5 +47954,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:29:13.100226+00:00"
+  "updated_at": "2026-10-30T15:29:16.643434+00:00"
 }
