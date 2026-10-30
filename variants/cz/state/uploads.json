@@ -50199,12 +50199,6 @@
     },
     "673:23:7": {
       "episode_key": "městečko south park:s23:e7",
-      "claim": {
-        "worker_id": "71e048a062774cc4ab4a6c6ef384483a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:09:18.850771+00:00",
-        "lease_expires_at": "2026-10-30T22:09:18.850784+00:00"
-      },
       "source": {
         "source_id": "32893356",
         "source_url": "https://sdilej.cz/32893356/mestecko-south-park-s23e07-10-2019-cz-dab-1080p-holky-proti-klukum.mkv",
@@ -50229,15 +50223,22 @@
         "display_name": "South Park S23E07 Board Girls 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:09:20.772883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639340",
-        "size_bytes": 256780264
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639340",
+          "size_bytes": 256780264,
+          "source_bytes_read": 256780264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893356",
+        "source_url": "https://sdilej.cz/32893356/mestecko-south-park-s23e07-10-2019-cz-dab-1080p-holky-proti-klukum.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639340",
-        "size_bytes": 256780264,
-        "source_bytes_read": 256780264,
-        "http_status": 201
+        "display_name": "South Park S23E07 Board Girls 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:10:43.472432+00:00"
       }
     },
     "673:23:8": {
@@ -50327,5 +50328,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:10:39.598400+00:00"
+  "updated_at": "2026-10-30T16:10:43.472447+00:00"
 }
