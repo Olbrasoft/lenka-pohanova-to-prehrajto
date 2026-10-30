@@ -52147,12 +52147,6 @@
     },
     "40:3:8": {
       "episode_key": "městečko twin peaks:s3:e8",
-      "claim": {
-        "worker_id": "c1cdcad558a24fc5a55e09da9ff78785-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:34:13.442441+00:00",
-        "lease_expires_at": "2026-10-30T23:34:13.442451+00:00"
-      },
       "source": {
         "source_id": "33063677",
         "source_url": "https://sdilej.cz/33063677/mestecko-twin-peaks-s03e08-cz-dabing.mkv",
@@ -52177,15 +52171,22 @@
         "display_name": "Twin Peaks S03E08 Part 8 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:34:15.394561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641022",
-        "size_bytes": 2218008503
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641022",
+          "size_bytes": 2218008503,
+          "source_bytes_read": 2218008503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33063677",
+        "source_url": "https://sdilej.cz/33063677/mestecko-twin-peaks-s03e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641022",
-        "size_bytes": 2218008503,
-        "source_bytes_read": 2218008503,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E08 Part 8 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:41:20.562358+00:00"
       }
     },
     "40:3:9": {
@@ -52231,5 +52232,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:41:17.928389+00:00"
+  "updated_at": "2026-10-30T17:41:20.562374+00:00"
 }
