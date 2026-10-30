@@ -15934,12 +15934,6 @@
     },
     "25:5:9": {
       "episode_key": "volejte saulovi:s5:e9",
-      "claim": {
-        "worker_id": "60e9014f9f8d4b3185607fd831d8aa90-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:11:58.118134+00:00",
-        "lease_expires_at": "2026-10-30T08:11:58.118145+00:00"
-      },
       "source": {
         "source_id": "30974839",
         "source_url": "https://sdilej.cz/30974839/volejte-saulovi-s05e09-2160p-cz.mkv",
@@ -15964,15 +15958,22 @@
         "display_name": "Better Call Saul S05E09 Bad Choice Road 4K CZ Dabing",
         "prepared_at": "2026-10-30T02:11:59.572639+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623892",
-        "size_bytes": 1732912762
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623892",
+          "size_bytes": 1732912762,
+          "source_bytes_read": 1732912762,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974839",
+        "source_url": "https://sdilej.cz/30974839/volejte-saulovi-s05e09-2160p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623892",
-        "size_bytes": 1732912762,
-        "source_bytes_read": 1732912762,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E09 Bad Choice Road 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T02:17:50.023819+00:00"
       }
     },
     "25:5:10": {
@@ -16099,5 +16100,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:17:46.151885+00:00"
+  "updated_at": "2026-10-30T02:17:50.023836+00:00"
 }
