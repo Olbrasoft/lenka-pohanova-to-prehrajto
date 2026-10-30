@@ -16022,12 +16022,6 @@
     },
     "25:6:1": {
       "episode_key": "volejte saulovi:s6:e1",
-      "claim": {
-        "worker_id": "d7f1e62f4cbb479eab612d81a419107c-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:15:49.834950+00:00",
-        "lease_expires_at": "2026-10-30T08:15:49.834963+00:00"
-      },
       "source": {
         "source_id": "29544018",
         "source_url": "https://sdilej.cz/29544018/volejte-saulovi-s06e01.mkv",
@@ -16052,15 +16046,22 @@
         "display_name": "Better Call Saul S06E01 Wine and Roses 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:15:51.171533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623920",
-        "size_bytes": 574257441
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623920",
+          "size_bytes": 574257441,
+          "source_bytes_read": 574257441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544018",
+        "source_url": "https://sdilej.cz/29544018/volejte-saulovi-s06e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623920",
-        "size_bytes": 574257441,
-        "source_bytes_read": 574257441,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E01 Wine and Roses 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:18:06.159670+00:00"
       }
     },
     "25:6:2": {
@@ -16143,5 +16144,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:18:03.814941+00:00"
+  "updated_at": "2026-10-30T02:18:06.159688+00:00"
 }
