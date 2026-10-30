@@ -43912,12 +43912,6 @@
     },
     "673:11:6": {
       "episode_key": "městečko south park:s11:e6",
-      "claim": {
-        "worker_id": "9dfeb380318144efbfd0d57124f3b24a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:36:19.469333+00:00",
-        "lease_expires_at": "2026-10-30T20:36:19.469348+00:00"
-      },
       "source": {
         "source_id": "33507687",
         "source_url": "https://sdilej.cz/33507687/mestecko-south-park-s11e06-14-2007-cz-dab-1080p-les-bos.mkv",
@@ -43942,15 +43936,22 @@
         "display_name": "South Park S11E06 D-Yikes! 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:36:21.348038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637967",
-        "size_bytes": 279479730
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637967",
+          "size_bytes": 279479730,
+          "source_bytes_read": 279479730,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507687",
+        "source_url": "https://sdilej.cz/33507687/mestecko-south-park-s11e06-14-2007-cz-dab-1080p-les-bos.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637967",
-        "size_bytes": 279479730,
-        "source_bytes_read": 279479730,
-        "http_status": 201
+        "display_name": "South Park S11E06 D-Yikes! 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:37:39.003369+00:00"
       }
     },
     "673:11:7": {
@@ -44033,5 +44034,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:37:35.027562+00:00"
+  "updated_at": "2026-10-30T14:37:39.003386+00:00"
 }
