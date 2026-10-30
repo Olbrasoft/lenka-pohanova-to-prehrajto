@@ -19014,12 +19014,6 @@
     },
     "28:6:8": {
       "episode_key": "rick a morty:s6:e8",
-      "claim": {
-        "worker_id": "7b4a714aeca64a64aa438ccec0d1e890-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:54:03.804106+00:00",
-        "lease_expires_at": "2026-10-30T08:54:03.804117+00:00"
-      },
       "source": {
         "source_id": "34923971",
         "source_url": "https://sdilej.cz/34923971/rick-and-morty-s06e08-czen-dabing.mp4",
@@ -19044,15 +19038,22 @@
         "display_name": "Rick and Morty S06E08 Analyze Piss 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:54:05.414424+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624485",
-        "size_bytes": 289928874
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624485",
+          "size_bytes": 289928874,
+          "source_bytes_read": 289928874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34923971",
+        "source_url": "https://sdilej.cz/34923971/rick-and-morty-s06e08-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624485",
-        "size_bytes": 289928874,
-        "source_bytes_read": 289928874,
-        "http_status": 201
+        "display_name": "Rick and Morty S06E08 Analyze Piss 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:55:28.800731+00:00"
       }
     },
     "28:6:9": {
@@ -19134,5 +19135,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:55:27.334331+00:00"
+  "updated_at": "2026-10-30T02:55:28.800751+00:00"
 }
