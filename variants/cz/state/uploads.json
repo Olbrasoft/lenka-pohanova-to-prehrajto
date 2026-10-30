@@ -48717,12 +48717,6 @@
     },
     "673:20:3": {
       "episode_key": "městečko south park:s20:e3",
-      "claim": {
-        "worker_id": "9cda16ecef254056aceec51f80f271a5-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:43:52.249605+00:00",
-        "lease_expires_at": "2026-10-30T21:43:52.249615+00:00"
-      },
       "source": {
         "source_id": "34699273",
         "source_url": "https://sdilej.cz/34699273/mestecko-south-park-s20e03-10-2016-cz-dab-1080p-zatracenec.mkv",
@@ -48747,15 +48741,22 @@
         "display_name": "South Park S20E03 The Damned 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:43:54.209631+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639018",
-        "size_bytes": 256485637
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639018",
+          "size_bytes": 256485637,
+          "source_bytes_read": 256485637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699273",
+        "source_url": "https://sdilej.cz/34699273/mestecko-south-park-s20e03-10-2016-cz-dab-1080p-zatracenec.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639018",
-        "size_bytes": 256485637,
-        "source_bytes_read": 256485637,
-        "http_status": 201
+        "display_name": "South Park S20E03 The Damned 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:45:22.863717+00:00"
       }
     },
     "673:20:4": {
@@ -48801,5 +48802,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:45:21.439507+00:00"
+  "updated_at": "2026-10-30T15:45:22.863734+00:00"
 }
