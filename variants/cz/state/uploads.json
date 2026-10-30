@@ -37379,12 +37379,6 @@
     },
     "673:1:1": {
       "episode_key": "městečko south park:s1:e1",
-      "claim": {
-        "worker_id": "a30b7d1a2d9f41269c844ef5f23892e6-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:16:54.603969+00:00",
-        "lease_expires_at": "2026-10-30T19:16:54.603982+00:00"
-      },
       "source": {
         "source_id": "32875929",
         "source_url": "https://sdilej.cz/32875929/mestecko-south-park-s01e01-13-1997-cz-dab-1080p-cartman-dostava-analni-sondu.mkv",
@@ -37409,15 +37403,22 @@
         "display_name": "South Park S01E01 Cartman Gets an Anal Probe 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:16:56.412154+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30635431",
-        "size_bytes": 365262991
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30635431",
+          "size_bytes": 365262991,
+          "source_bytes_read": 365262991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875929",
+        "source_url": "https://sdilej.cz/32875929/mestecko-south-park-s01e01-13-1997-cz-dab-1080p-cartman-dostava-analni-sondu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30635431",
-        "size_bytes": 365262991,
-        "source_bytes_read": 365262991,
-        "http_status": 201
+        "display_name": "South Park S01E01 Cartman Gets an Anal Probe 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:18:16.041394+00:00"
       }
     },
     "673:1:2": {
@@ -37462,5 +37463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:18:14.128606+00:00"
+  "updated_at": "2026-10-30T13:18:16.041412+00:00"
 }
