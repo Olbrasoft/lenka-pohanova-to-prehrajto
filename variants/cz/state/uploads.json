@@ -38750,12 +38750,6 @@
     },
     "673:3:1": {
       "episode_key": "městečko south park:s3:e1",
-      "claim": {
-        "worker_id": "35c63aa28cc84e5bac0a0da1dfbc93e6-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:32:44.904809+00:00",
-        "lease_expires_at": "2026-10-30T19:32:44.904821+00:00"
-      },
       "source": {
         "source_id": "32876122",
         "source_url": "https://sdilej.cz/32876122/mestecko-south-park-s03e01-17-1999-cz-dab-1080p-destny-prales.mkv",
@@ -38780,15 +38774,22 @@
         "display_name": "South Park S03E01 Rainforest Shmainforest 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:32:48.007439+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636884",
-        "size_bytes": 254308363
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636884",
+          "size_bytes": 254308363,
+          "source_bytes_read": 254308363,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876122",
+        "source_url": "https://sdilej.cz/32876122/mestecko-south-park-s03e01-17-1999-cz-dab-1080p-destny-prales.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636884",
-        "size_bytes": 254308363,
-        "source_bytes_read": 254308363,
-        "http_status": 201
+        "display_name": "South Park S03E01 Rainforest Shmainforest 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:33:41.369039+00:00"
       }
     },
     "673:3:2": {
@@ -38867,5 +38868,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:33:40.011764+00:00"
+  "updated_at": "2026-10-30T13:33:41.369056+00:00"
 }
