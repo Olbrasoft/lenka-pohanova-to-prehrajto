@@ -27802,12 +27802,6 @@
     },
     "4704:7:4": {
       "episode_key": "západní křídlo:s7:e4",
-      "claim": {
-        "worker_id": "da02d3e1664c42fc90a1cd23d0519b63-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:43:29.733806+00:00",
-        "lease_expires_at": "2026-10-30T13:43:29.733818+00:00"
-      },
       "source": {
         "source_id": "34862484",
         "source_url": "https://sdilej.cz/34862484/zapadni-kridlo-s07e04-137-2005-hd-pan-mrazik-s-.mp4",
@@ -27832,15 +27826,22 @@
         "display_name": "The West Wing S07E04 Mr. Frost 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:43:31.286076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628916",
-        "size_bytes": 818437123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628916",
+          "size_bytes": 818437123,
+          "source_bytes_read": 818437123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862484",
+        "source_url": "https://sdilej.cz/34862484/zapadni-kridlo-s07e04-137-2005-hd-pan-mrazik-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628916",
-        "size_bytes": 818437123,
-        "source_bytes_read": 818437123,
-        "http_status": 201
+        "display_name": "The West Wing S07E04 Mr. Frost 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:45:57.480968+00:00"
       }
     },
     "4704:7:5": {
@@ -27885,5 +27886,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:45:54.927595+00:00"
+  "updated_at": "2026-10-30T07:45:57.480983+00:00"
 }
