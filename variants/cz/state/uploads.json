@@ -29159,12 +29159,6 @@
     },
     "704:2:7": {
       "episode_key": "temný případ:s2:e7",
-      "claim": {
-        "worker_id": "9391cd75c85b4d9eb57ce3f1d9e1a176-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:15:26.897396+00:00",
-        "lease_expires_at": "2026-10-30T14:15:26.897404+00:00"
-      },
       "source": {
         "source_id": "35063521",
         "source_url": "https://sdilej.cz/35063521/temny-pripad-s02e07-cz-dabing-1080p-full-hd.mkv",
@@ -29189,15 +29183,22 @@
         "display_name": "True Detective S02E07 Black Maps and Motel Rooms 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:15:29.956440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629359",
-        "size_bytes": 346094122
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629359",
+          "size_bytes": 346094122,
+          "source_bytes_read": 346094122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35063521",
+        "source_url": "https://sdilej.cz/35063521/temny-pripad-s02e07-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629359",
-        "size_bytes": 346094122,
-        "source_bytes_read": 346094122,
-        "http_status": 201
+        "display_name": "True Detective S02E07 Black Maps and Motel Rooms 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:16:34.654294+00:00"
       }
     },
     "704:2:8": {
@@ -29243,5 +29244,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:16:31.004992+00:00"
+  "updated_at": "2026-10-30T08:16:34.654315+00:00"
 }
