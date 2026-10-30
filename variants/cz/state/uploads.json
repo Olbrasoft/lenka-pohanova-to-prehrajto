@@ -31454,12 +31454,6 @@
     },
     "66:4:8": {
       "episode_key": "fargo:s4:e8",
-      "claim": {
-        "worker_id": "0336d864289548d685af5c99b0a79d2b-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:04:28.605976+00:00",
-        "lease_expires_at": "2026-10-30T15:04:28.605988+00:00"
-      },
       "source": {
         "source_id": "28991384",
         "source_url": "https://sdilej.cz/28991384/fargo-s04e08-2020-cz.mkv",
@@ -31484,15 +31478,22 @@
         "display_name": "Fargo S04E08 The Nadir 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:04:30.480759+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629998",
-        "size_bytes": 545220971
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629998",
+          "size_bytes": 545220971,
+          "source_bytes_read": 545220971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28991384",
+        "source_url": "https://sdilej.cz/28991384/fargo-s04e08-2020-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629998",
-        "size_bytes": 545220971,
-        "source_bytes_read": 545220971,
-        "http_status": 201
+        "display_name": "Fargo S04E08 The Nadir 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:06:37.310373+00:00"
       }
     },
     "66:4:9": {
@@ -31575,5 +31576,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:06:33.317248+00:00"
+  "updated_at": "2026-10-30T09:06:37.310394+00:00"
 }
