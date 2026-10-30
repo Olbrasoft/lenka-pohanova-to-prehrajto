@@ -45499,12 +45499,6 @@
     },
     "673:13:14": {
       "episode_key": "městečko south park:s13:e14",
-      "claim": {
-        "worker_id": "d5abdd67e54940bf823ad3f6e0eda5c8-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:57:36.944977+00:00",
-        "lease_expires_at": "2026-10-30T20:57:36.944987+00:00"
-      },
       "source": {
         "source_id": "33077043",
         "source_url": "https://sdilej.cz/33077043/mestecko-south-park-s13e14-14-2009-cz-dab-1080p-moc.mkv",
@@ -45529,15 +45523,22 @@
         "display_name": "South Park S13E14 Pee 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:57:38.980098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638332",
-        "size_bytes": 289990653
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638332",
+          "size_bytes": 289990653,
+          "source_bytes_read": 289990653,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077043",
+        "source_url": "https://sdilej.cz/33077043/mestecko-south-park-s13e14-14-2009-cz-dab-1080p-moc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638332",
-        "size_bytes": 289990653,
-        "source_bytes_read": 289990653,
-        "http_status": 201
+        "display_name": "South Park S13E14 Pee 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:58:36.857370+00:00"
       }
     }
   },
@@ -45546,5 +45547,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:58:33.971927+00:00"
+  "updated_at": "2026-10-30T14:58:36.857385+00:00"
 }
