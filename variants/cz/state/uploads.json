@@ -27179,12 +27179,6 @@
     },
     "4704:1:8": {
       "episode_key": "západní křídlo:s1:e8",
-      "claim": {
-        "worker_id": "7f1077ab17c446bf8285a2013e0362c3-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:27:04.482885+00:00",
-        "lease_expires_at": "2026-10-30T13:27:04.482895+00:00"
-      },
       "source": {
         "source_id": "34861698",
         "source_url": "https://sdilej.cz/34861698/zapadni-kridlo-s01e08-008-1999-hd-nepratele-s-.mp4",
@@ -27209,15 +27203,22 @@
         "display_name": "The West Wing S01E08 Enemies 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:27:06.647088+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628669",
-        "size_bytes": 854931414
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628669",
+          "size_bytes": 854931414,
+          "source_bytes_read": 854931414,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861698",
+        "source_url": "https://sdilej.cz/34861698/zapadni-kridlo-s01e08-008-1999-hd-nepratele-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628669",
-        "size_bytes": 854931414,
-        "source_bytes_read": 854931414,
-        "http_status": 201
+        "display_name": "The West Wing S01E08 Enemies 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:30:28.876022+00:00"
       }
     },
     "4704:1:9": {
@@ -27263,5 +27264,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:30:25.292564+00:00"
+  "updated_at": "2026-10-30T07:30:28.876040+00:00"
 }
