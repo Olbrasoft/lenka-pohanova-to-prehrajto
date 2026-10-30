@@ -40477,12 +40477,6 @@
     },
     "673:5:10": {
       "episode_key": "městečko south park:s5:e10",
-      "claim": {
-        "worker_id": "30694b94b42a4ece902e717a743edfdb-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:49:54.360145+00:00",
-        "lease_expires_at": "2026-10-30T19:49:54.360156+00:00"
-      },
       "source": {
         "source_id": "33072502",
         "source_url": "https://sdilej.cz/33072502/mestecko-south-park-s05e10-14-2001-cz-dab-1080p-jak-se-ji-zadkem.mkv",
@@ -40507,15 +40501,22 @@
         "display_name": "South Park S05E10 How to Eat with Your Butt 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:49:56.322485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637187",
-        "size_bytes": 251656378
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637187",
+          "size_bytes": 251656378,
+          "source_bytes_read": 251656378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33072502",
+        "source_url": "https://sdilej.cz/33072502/mestecko-south-park-s05e10-14-2001-cz-dab-1080p-jak-se-ji-zadkem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637187",
-        "size_bytes": 251656378,
-        "source_bytes_read": 251656378,
-        "http_status": 201
+        "display_name": "South Park S05E10 How to Eat with Your Butt 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:50:54.969373+00:00"
       }
     },
     "673:5:11": {
@@ -40590,5 +40591,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:50:52.331741+00:00"
+  "updated_at": "2026-10-30T13:50:54.969396+00:00"
 }
