@@ -61375,12 +61375,6 @@
     },
     "956:4:21": {
       "episode_key": "star trek: nová generace:s4:e21",
-      "claim": {
-        "worker_id": "44c09b9b2bb748e6a0a88f0107373037-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:33:21.924616+00:00",
-        "lease_expires_at": "2026-10-31T05:33:21.924627+00:00"
-      },
       "source": {
         "source_id": "28165103",
         "source_url": "https://sdilej.cz/28165103/star-trek-nova-generace-s04e21-polni-soud.mkv",
@@ -61405,15 +61399,22 @@
         "display_name": "Star Trek: The Next Generation S04E21 The Drumhead 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:33:23.547471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648493",
-        "size_bytes": 439392662
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648493",
+          "size_bytes": 439392662,
+          "source_bytes_read": 439392662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165103",
+        "source_url": "https://sdilej.cz/28165103/star-trek-nova-generace-s04e21-polni-soud.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648493",
-        "size_bytes": 439392662,
-        "source_bytes_read": 439392662,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E21 The Drumhead 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:34:37.679402+00:00"
       }
     },
     "956:4:22": {
@@ -61459,5 +61460,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:34:33.739500+00:00"
+  "updated_at": "2026-10-30T23:34:37.679419+00:00"
 }
