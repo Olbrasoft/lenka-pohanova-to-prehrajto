@@ -12451,12 +12451,6 @@
     },
     "22:6:21": {
       "episode_key": "rodina sopránů:s6:e21",
-      "claim": {
-        "worker_id": "5e14caabfa2745d4b8b9c89b316f0717-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:17:40.358107+00:00",
-        "lease_expires_at": "2026-10-30T06:17:40.358118+00:00"
-      },
       "source": {
         "source_id": "14660776",
         "source_url": "https://sdilej.cz/14660776/the-sopranos.s06e21.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
@@ -12481,15 +12475,22 @@
         "display_name": "The Sopranos S06E21 Made in America 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:17:41.780220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622107",
-        "size_bytes": 648260286
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622107",
+          "size_bytes": 648260286,
+          "source_bytes_read": 648260286,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14660776",
+        "source_url": "https://sdilej.cz/14660776/the-sopranos.s06e21.1080p.bluray.aac.x265.hevc-cz.en-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622107",
-        "size_bytes": 648260286,
-        "source_bytes_read": 648260286,
-        "http_status": 201
+        "display_name": "The Sopranos S06E21 Made in America 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:19:44.805312+00:00"
       }
     },
     "1733:1:1": {
@@ -12535,5 +12536,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:19:41.451483+00:00"
+  "updated_at": "2026-10-30T00:19:44.805328+00:00"
 }
