@@ -13074,12 +13074,6 @@
     },
     "1733:2:8": {
       "episode_key": "vyvolení:s2:e8",
-      "claim": {
-        "worker_id": "f376cb79559c4da7894f21a3a4cf7940-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:34:08.379768+00:00",
-        "lease_expires_at": "2026-10-30T06:34:08.379777+00:00"
-      },
       "source": {
         "source_id": "33687541",
         "source_url": "https://sdilej.cz/33687541/the-chosen-s02e08-za-horami-2021-1080p.-cz-sk-en-dabing.cz-sk-en-titulky.mkv",
@@ -13104,15 +13098,22 @@
         "display_name": "The Chosen S02E08 Beyond Mountains 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:34:09.753113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622392",
-        "size_bytes": 2205609899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622392",
+          "size_bytes": 2205609899,
+          "source_bytes_read": 2205609899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33687541",
+        "source_url": "https://sdilej.cz/33687541/the-chosen-s02e08-za-horami-2021-1080p.-cz-sk-en-dabing.cz-sk-en-titulky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622392",
-        "size_bytes": 2205609899,
-        "source_bytes_read": 2205609899,
-        "http_status": 201
+        "display_name": "The Chosen S02E08 Beyond Mountains 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:41:44.118519+00:00"
       }
     },
     "1733:3:1": {
@@ -13195,5 +13196,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:41:40.512867+00:00"
+  "updated_at": "2026-10-30T00:41:44.118538+00:00"
 }
