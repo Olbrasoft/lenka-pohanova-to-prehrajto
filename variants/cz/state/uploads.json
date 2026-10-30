@@ -47433,12 +47433,6 @@
     },
     "673:17:4": {
       "episode_key": "městečko south park:s17:e4",
-      "claim": {
-        "worker_id": "1a808f904a2d489688120cab750b05da-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:22:09.988422+00:00",
-        "lease_expires_at": "2026-10-30T21:22:09.988432+00:00"
-      },
       "source": {
         "source_id": "34015571",
         "source_url": "https://sdilej.cz/34015571/south-park-s17e04.-gotikove-usvit-pozeru.mkv",
@@ -47463,15 +47457,22 @@
         "display_name": "South Park S17E04 Goth Kids 3: Dawn of the Posers 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:22:15.669937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638702",
-        "size_bytes": 249209176
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638702",
+          "size_bytes": 249209176,
+          "source_bytes_read": 249209176,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34015571",
+        "source_url": "https://sdilej.cz/34015571/south-park-s17e04.-gotikove-usvit-pozeru.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638702",
-        "size_bytes": 249209176,
-        "source_bytes_read": 249209176,
-        "http_status": 201
+        "display_name": "South Park S17E04 Goth Kids 3: Dawn of the Posers 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:23:21.585199+00:00"
       }
     }
   },
@@ -47480,5 +47481,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:23:17.992832+00:00"
+  "updated_at": "2026-10-30T15:23:21.585216+00:00"
 }
