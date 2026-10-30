@@ -42441,12 +42441,6 @@
     },
     "673:8:13": {
       "episode_key": "městečko south park:s8:e13",
-      "claim": {
-        "worker_id": "0ff780f2c8884220b99fd26838b6eb65-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:08:49.239381+00:00",
-        "lease_expires_at": "2026-10-30T20:08:49.239394+00:00"
-      },
       "source": {
         "source_id": "33507561",
         "source_url": "https://sdilej.cz/33507561/mestecko-south-park-s08e13-14-2004-cz-dab-1080p-cartmanuv-neuveritelny-dar.mkv",
@@ -42471,15 +42465,22 @@
         "display_name": "South Park S08E13 Cartman's Incredible Gift 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:08:54.610201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637456",
-        "size_bytes": 260103177
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637456",
+          "size_bytes": 260103177,
+          "source_bytes_read": 260103177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507561",
+        "source_url": "https://sdilej.cz/33507561/mestecko-south-park-s08e13-14-2004-cz-dab-1080p-cartmanuv-neuveritelny-dar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637456",
-        "size_bytes": 260103177,
-        "source_bytes_read": 260103177,
-        "http_status": 201
+        "display_name": "South Park S08E13 Cartman's Incredible Gift 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:09:44.733717+00:00"
       }
     }
   },
@@ -42488,5 +42489,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:09:43.350759+00:00"
+  "updated_at": "2026-10-30T14:09:44.733737+00:00"
 }
