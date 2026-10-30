@@ -41281,12 +41281,6 @@
     },
     "673:6:17": {
       "episode_key": "městečko south park:s6:e17",
-      "claim": {
-        "worker_id": "84cbb90c699143fd9b6341c6f3f093b1-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:58:23.190748+00:00",
-        "lease_expires_at": "2026-10-30T19:58:23.190759+00:00"
-      },
       "source": {
         "source_id": "32876446",
         "source_url": "https://sdilej.cz/32876446/mestecko-south-park-s06e17-17-2002-cz-dab-1080p-cervene-sane-sestreleny.mkv",
@@ -41311,15 +41305,22 @@
         "display_name": "South Park S06E17 Red Sleigh Down 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:58:27.421721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637316",
-        "size_bytes": 258427112
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637316",
+          "size_bytes": 258427112,
+          "source_bytes_read": 258427112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876446",
+        "source_url": "https://sdilej.cz/32876446/mestecko-south-park-s06e17-17-2002-cz-dab-1080p-cervene-sane-sestreleny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637316",
-        "size_bytes": 258427112,
-        "source_bytes_read": 258427112,
-        "http_status": 201
+        "display_name": "South Park S06E17 Red Sleigh Down 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:59:29.902652+00:00"
       }
     },
     "673:7:1": {
@@ -41361,5 +41362,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:59:28.435303+00:00"
+  "updated_at": "2026-10-30T13:59:29.902667+00:00"
 }
