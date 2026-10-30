@@ -15230,12 +15230,6 @@
     },
     "25:4:3": {
       "episode_key": "volejte saulovi:s4:e3",
-      "claim": {
-        "worker_id": "643f0a66c47c488fac6c3e5e6c8fd52e-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:55:34.707540+00:00",
-        "lease_expires_at": "2026-10-30T07:55:34.707551+00:00"
-      },
       "source": {
         "source_id": "29535605",
         "source_url": "https://sdilej.cz/29535605/volejte-saulovi-s04e03.mkv",
@@ -15260,15 +15254,22 @@
         "display_name": "Better Call Saul S04E03 Something Beautiful 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:55:36.167317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623615",
-        "size_bytes": 554794680
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623615",
+          "size_bytes": 554794680,
+          "source_bytes_read": 554794680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535605",
+        "source_url": "https://sdilej.cz/29535605/volejte-saulovi-s04e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623615",
-        "size_bytes": 554794680,
-        "source_bytes_read": 554794680,
-        "http_status": 201
+        "display_name": "Better Call Saul S04E03 Something Beautiful 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:57:23.022084+00:00"
       }
     },
     "25:4:4": {
@@ -15351,5 +15352,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:57:19.887785+00:00"
+  "updated_at": "2026-10-30T01:57:23.022099+00:00"
 }
