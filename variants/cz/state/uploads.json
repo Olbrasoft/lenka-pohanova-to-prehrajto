@@ -15538,12 +15538,6 @@
     },
     "25:4:10": {
       "episode_key": "volejte saulovi:s4:e10",
-      "claim": {
-        "worker_id": "57da439d1c5244a08de2712d00904210-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:00:03.358727+00:00",
-        "lease_expires_at": "2026-10-30T08:00:03.358737+00:00"
-      },
       "source": {
         "source_id": "29535686",
         "source_url": "https://sdilej.cz/29535686/volejte-saulovi-s04e10.mkv",
@@ -15568,15 +15562,22 @@
         "display_name": "Better Call Saul S04E10 Winner 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:00:04.692436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623691",
-        "size_bytes": 802734763
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623691",
+          "size_bytes": 802734763,
+          "source_bytes_read": 802734763,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535686",
+        "source_url": "https://sdilej.cz/29535686/volejte-saulovi-s04e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623691",
-        "size_bytes": 802734763,
-        "source_bytes_read": 802734763,
-        "http_status": 201
+        "display_name": "Better Call Saul S04E10 Winner 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:02:54.726649+00:00"
       }
     },
     "25:5:1": {
@@ -15659,5 +15660,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:02:51.353830+00:00"
+  "updated_at": "2026-10-30T02:02:54.726666+00:00"
 }
