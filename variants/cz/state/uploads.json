@@ -51561,12 +51561,6 @@
     },
     "40:2:17": {
       "episode_key": "městečko twin peaks:s2:e17",
-      "claim": {
-        "worker_id": "939597559d90435c800c8ec9815358b8-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:10:41.383284+00:00",
-        "lease_expires_at": "2026-10-30T23:10:41.383292+00:00"
-      },
       "source": {
         "source_id": "33238638",
         "source_url": "https://sdilej.cz/33238638/mestecko-twin-peaks-s02e17-wounds-and-scars.mkv",
@@ -51591,15 +51585,22 @@
         "display_name": "Twin Peaks S02E17 Wounds and Scars 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:10:43.012418+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640367",
-        "size_bytes": 985879281
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640367",
+          "size_bytes": 985879281,
+          "source_bytes_read": 985879281,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238638",
+        "source_url": "https://sdilej.cz/33238638/mestecko-twin-peaks-s02e17-wounds-and-scars.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640367",
-        "size_bytes": 985879281,
-        "source_bytes_read": 985879281,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E17 Wounds and Scars 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:12:57.776307+00:00"
       }
     }
   },
@@ -51608,5 +51609,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:12:54.289041+00:00"
+  "updated_at": "2026-10-30T17:12:57.776325+00:00"
 }
