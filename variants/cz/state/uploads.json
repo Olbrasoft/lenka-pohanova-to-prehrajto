@@ -24135,12 +24135,6 @@
     },
     "1831:1:6": {
       "episode_key": "městečko záhad:s1:e6",
-      "claim": {
-        "worker_id": "f781a95ce44a48ba946d01fe3ece42f2-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:32:01.754682+00:00",
-        "lease_expires_at": "2026-10-30T11:32:01.754692+00:00"
-      },
       "source": {
         "source_id": "25184908",
         "source_url": "https://sdilej.cz/25184908/mestecko-zahad-gravity-falls-s01e06.mkv",
@@ -24165,15 +24159,22 @@
         "display_name": "Gravity Falls S01E06 Dipper vs. Manliness 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:32:06.062523+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627123",
-        "size_bytes": 259521207
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627123",
+          "size_bytes": 259521207,
+          "source_bytes_read": 259521207,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25184908",
+        "source_url": "https://sdilej.cz/25184908/mestecko-zahad-gravity-falls-s01e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627123",
-        "size_bytes": 259521207,
-        "source_bytes_read": 259521207,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E06 Dipper vs. Manliness 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:33:02.832459+00:00"
       }
     }
   },
@@ -24182,5 +24183,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:32:58.807522+00:00"
+  "updated_at": "2026-10-30T05:33:02.832473+00:00"
 }
