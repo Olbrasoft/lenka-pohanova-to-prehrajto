@@ -31579,12 +31579,6 @@
     },
     "66:4:11": {
       "episode_key": "fargo:s4:e11",
-      "claim": {
-        "worker_id": "c205e7dc53984d6f8165076dc632634d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:06:44.902507+00:00",
-        "lease_expires_at": "2026-10-30T15:06:44.902520+00:00"
-      },
       "source": {
         "source_id": "33114429",
         "source_url": "https://sdilej.cz/33114429/fargo-s04e11-cz-dabing.mkv",
@@ -31609,15 +31603,22 @@
         "display_name": "Fargo S04E11 Storia Americana 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:06:47.564655+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630023",
-        "size_bytes": 762826497
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630023",
+          "size_bytes": 762826497,
+          "source_bytes_read": 762826497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33114429",
+        "source_url": "https://sdilej.cz/33114429/fargo-s04e11-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630023",
-        "size_bytes": 762826497,
-        "source_bytes_read": 762826497,
-        "http_status": 201
+        "display_name": "Fargo S04E11 Storia Americana 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:09:28.543663+00:00"
       }
     },
     "66:5:1": {
@@ -31663,5 +31664,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:09:25.771522+00:00"
+  "updated_at": "2026-10-30T09:09:28.543684+00:00"
 }
