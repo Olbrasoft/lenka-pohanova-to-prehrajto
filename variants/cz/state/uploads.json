@@ -28902,12 +28902,6 @@
     },
     "704:2:1": {
       "episode_key": "temný případ:s2:e1",
-      "claim": {
-        "worker_id": "edf9dddb610a4057b435e2a8064752f4-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:08:57.728178+00:00",
-        "lease_expires_at": "2026-10-30T14:08:57.728190+00:00"
-      },
       "source": {
         "source_id": "32747032",
         "source_url": "https://sdilej.cz/32747032/true-detective-s02e01-cz-dabing-1080p.mkv",
@@ -28932,15 +28926,22 @@
         "display_name": "True Detective S02E01 The Western Book of the Dead 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:08:59.257942+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629279",
-        "size_bytes": 693465516
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629279",
+          "size_bytes": 693465516,
+          "source_bytes_read": 693465516,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32747032",
+        "source_url": "https://sdilej.cz/32747032/true-detective-s02e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629279",
-        "size_bytes": 693465516,
-        "source_bytes_read": 693465516,
-        "http_status": 201
+        "display_name": "True Detective S02E01 The Western Book of the Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:11:13.935024+00:00"
       }
     },
     "704:2:2": {
@@ -28993,5 +28994,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:11:12.709824+00:00"
+  "updated_at": "2026-10-30T08:11:13.935045+00:00"
 }
