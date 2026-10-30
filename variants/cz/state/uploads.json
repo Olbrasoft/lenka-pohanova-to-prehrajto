@@ -39416,12 +39416,6 @@
     },
     "673:3:17": {
       "episode_key": "městečko south park:s3:e17",
-      "claim": {
-        "worker_id": "ecc70669f8f74201bf98445f9bb5b014-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:39:34.296464+00:00",
-        "lease_expires_at": "2026-10-30T19:39:34.296475+00:00"
-      },
       "source": {
         "source_id": "32876191",
         "source_url": "https://sdilej.cz/32876191/mestecko-south-park-s03e17-17-1999-cz-dab-1080p-svetovy-koncert.mkv",
@@ -39446,15 +39440,22 @@
         "display_name": "South Park S03E17 World Wide Recorder Concert 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:39:35.967316+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637027",
-        "size_bytes": 248469531
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637027",
+          "size_bytes": 248469531,
+          "source_bytes_read": 248469531,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876191",
+        "source_url": "https://sdilej.cz/32876191/mestecko-south-park-s03e17-17-1999-cz-dab-1080p-svetovy-koncert.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637027",
-        "size_bytes": 248469531,
-        "source_bytes_read": 248469531,
-        "http_status": 201
+        "display_name": "South Park S03E17 World Wide Recorder Concert 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:40:43.332164+00:00"
       }
     },
     "673:4:1": {
@@ -39496,5 +39497,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:40:41.970149+00:00"
+  "updated_at": "2026-10-30T13:40:43.332181+00:00"
 }
