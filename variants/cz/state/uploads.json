@@ -28807,12 +28807,6 @@
     },
     "704:1:7": {
       "episode_key": "temný případ:s1:e7",
-      "claim": {
-        "worker_id": "dda6d3262301455e97f78fe87c19319b-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:07:05.114628+00:00",
-        "lease_expires_at": "2026-10-30T14:07:05.114638+00:00"
-      },
       "source": {
         "source_id": "32746977",
         "source_url": "https://sdilej.cz/32746977/true-detective-s01e07-cz-dabing-1080p.mkv",
@@ -28837,15 +28831,22 @@
         "display_name": "True Detective S01E07 After You've Gone 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:07:06.730314+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629254",
-        "size_bytes": 655674449
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629254",
+          "size_bytes": 655674449,
+          "source_bytes_read": 655674449,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32746977",
+        "source_url": "https://sdilej.cz/32746977/true-detective-s01e07-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629254",
-        "size_bytes": 655674449,
-        "source_bytes_read": 655674449,
-        "http_status": 201
+        "display_name": "True Detective S01E07 After You've Gone 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:08:50.788820+00:00"
       }
     },
     "704:1:8": {
@@ -28891,5 +28892,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:08:47.016031+00:00"
+  "updated_at": "2026-10-30T08:08:50.788842+00:00"
 }
