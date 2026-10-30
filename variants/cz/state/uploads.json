@@ -31102,12 +31102,6 @@
     },
     "66:3:10": {
       "episode_key": "fargo:s3:e10",
-      "claim": {
-        "worker_id": "afcd10d7342044b9a3007e466fd7b80d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:58:50.045139+00:00",
-        "lease_expires_at": "2026-10-30T14:58:50.045153+00:00"
-      },
       "source": {
         "source_id": "28527573",
         "source_url": "https://sdilej.cz/28527573/fargo-s03e10-1080p-cz-dabing.mkv",
@@ -31132,15 +31126,22 @@
         "display_name": "Fargo S03E10 Somebody to Love 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:58:52.320625+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629935",
-        "size_bytes": 754615530
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629935",
+          "size_bytes": 754615530,
+          "source_bytes_read": 754615530,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28527573",
+        "source_url": "https://sdilej.cz/28527573/fargo-s03e10-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629935",
-        "size_bytes": 754615530,
-        "source_bytes_read": 754615530,
-        "http_status": 201
+        "display_name": "Fargo S03E10 Somebody to Love 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:01:01.412505+00:00"
       }
     },
     "66:4:1": {
@@ -31267,5 +31268,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:01:00.189097+00:00"
+  "updated_at": "2026-10-30T09:01:01.412520+00:00"
 }
