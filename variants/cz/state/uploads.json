@@ -14482,12 +14482,6 @@
     },
     "25:2:6": {
       "episode_key": "volejte saulovi:s2:e6",
-      "claim": {
-        "worker_id": "a812c68ed2ed43f992c75a35711ca7ca-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:38:49.076099+00:00",
-        "lease_expires_at": "2026-10-30T07:38:49.076112+00:00"
-      },
       "source": {
         "source_id": "29526556",
         "source_url": "https://sdilej.cz/29526556/volejte-saulovi-s02e06.mkv",
@@ -14512,15 +14506,22 @@
         "display_name": "Better Call Saul S02E06 Bali Ha'i 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:38:51.232369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623412",
-        "size_bytes": 1052721590
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623412",
+          "size_bytes": 1052721590,
+          "source_bytes_read": 1052721590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29526556",
+        "source_url": "https://sdilej.cz/29526556/volejte-saulovi-s02e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623412",
-        "size_bytes": 1052721590,
-        "source_bytes_read": 1052721590,
-        "http_status": 201
+        "display_name": "Better Call Saul S02E06 Bali Ha'i 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:42:28.114637+00:00"
       }
     },
     "25:2:7": {
@@ -14603,5 +14604,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:42:24.283044+00:00"
+  "updated_at": "2026-10-30T01:42:28.114654+00:00"
 }
