@@ -22692,12 +22692,6 @@
     },
     "925:1:27": {
       "episode_key": "zápisník smrti:s1:e27",
-      "claim": {
-        "worker_id": "704c9ef4d891463880325faa8c91e124-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:07:40.301515+00:00",
-        "lease_expires_at": "2026-10-30T11:07:40.301526+00:00"
-      },
       "source": {
         "source_id": "23472601",
         "source_url": "https://sdilej.cz/23472601/death-note-s01e27-720p-cz-dabing.mkv",
@@ -22731,7 +22725,13 @@
         "size_bytes": 469299087,
         "source_bytes_read": 469299087,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-10-30T05:09:06.469492+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     },
     "925:1:28": {
       "episode_key": "zápisník smrti:s1:e28",
@@ -22812,5 +22812,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:09:04.763533+00:00"
+  "updated_at": "2026-10-30T05:09:06.469508+00:00"
 }
