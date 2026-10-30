@@ -62424,12 +62424,6 @@
     },
     "956:5:19": {
       "episode_key": "star trek: nová generace:s5:e19",
-      "claim": {
-        "worker_id": "760f890c72d444df99e6f83297e5002b-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-30T23:55:05.331883+00:00",
-        "lease_expires_at": "2026-10-31T05:55:05.331895+00:00"
-      },
       "source": {
         "source_id": "28165381",
         "source_url": "https://sdilej.cz/28165381/star-trek-nova-generace-s05e19-zakladni-povinost.mkv",
@@ -62454,15 +62448,22 @@
         "display_name": "Star Trek: The Next Generation S05E19 The First Duty 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:55:07.211993+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649201",
-        "size_bytes": 438978116
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649201",
+          "size_bytes": 438978116,
+          "source_bytes_read": 438978116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165381",
+        "source_url": "https://sdilej.cz/28165381/star-trek-nova-generace-s05e19-zakladni-povinost.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649201",
-        "size_bytes": 438978116,
-        "source_bytes_read": 438978116,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E19 The First Duty 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:56:45.822678+00:00"
       }
     },
     "956:5:20": {
@@ -62515,5 +62516,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:56:42.054371+00:00"
+  "updated_at": "2026-10-30T23:56:45.822690+00:00"
 }
