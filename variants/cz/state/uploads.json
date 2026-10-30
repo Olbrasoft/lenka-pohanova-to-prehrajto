@@ -29870,12 +29870,6 @@
     },
     "66:1:1": {
       "episode_key": "fargo:s1:e1",
-      "claim": {
-        "worker_id": "3a1e60dd715a441bb1d7e5df3d2a757d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:28:19.542280+00:00",
-        "lease_expires_at": "2026-10-30T14:28:19.542289+00:00"
-      },
       "source": {
         "source_id": "33251268",
         "source_url": "https://sdilej.cz/33251268/fargo-s01e01-krokodyli-dilema.mkv",
@@ -29900,15 +29894,22 @@
         "display_name": "Fargo S01E01 The Crocodile's Dilemma 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:28:21.060071+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629571",
-        "size_bytes": 1481283162
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629571",
+          "size_bytes": 1481283162,
+          "source_bytes_read": 1481283162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33251268",
+        "source_url": "https://sdilej.cz/33251268/fargo-s01e01-krokodyli-dilema.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629571",
-        "size_bytes": 1481283162,
-        "source_bytes_read": 1481283162,
-        "http_status": 201
+        "display_name": "Fargo S01E01 The Crocodile's Dilemma 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:34:46.899211+00:00"
       }
     },
     "66:1:2": {
@@ -29991,5 +29992,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:34:43.116470+00:00"
+  "updated_at": "2026-10-30T08:34:46.899232+00:00"
 }
