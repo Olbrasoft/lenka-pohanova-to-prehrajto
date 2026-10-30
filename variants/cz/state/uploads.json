@@ -32114,12 +32114,6 @@
     },
     "1927:1:2": {
       "episode_key": "boj o moc:s1:e2",
-      "claim": {
-        "worker_id": "31fb184e7928425da75cf8991129c80d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:15:23.858784+00:00",
-        "lease_expires_at": "2026-10-30T15:15:23.858795+00:00"
-      },
       "source": {
         "source_id": "26200805",
         "source_url": "https://sdilej.cz/26200805/succession.s01e02.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -32144,15 +32138,22 @@
         "display_name": "Succession S01E02 Sh*t Show at the F**k Factory 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:15:27.452135+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630132",
-        "size_bytes": 1799023430
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630132",
+          "size_bytes": 1799023430,
+          "source_bytes_read": 1799023430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26200805",
+        "source_url": "https://sdilej.cz/26200805/succession.s01e02.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630132",
-        "size_bytes": 1799023430,
-        "source_bytes_read": 1799023430,
-        "http_status": 201
+        "display_name": "Succession S01E02 Sh*t Show at the F**k Factory 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:21:01.338431+00:00"
       }
     },
     "1927:1:3": {
@@ -32198,5 +32199,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:20:59.626902+00:00"
+  "updated_at": "2026-10-30T09:21:01.338453+00:00"
 }
