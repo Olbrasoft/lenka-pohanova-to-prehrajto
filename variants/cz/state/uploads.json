@@ -15010,12 +15010,6 @@
     },
     "25:3:8": {
       "episode_key": "volejte saulovi:s3:e8",
-      "claim": {
-        "worker_id": "a0ebe3efc41e4288bec9a4dea190647d-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:51:49.430519+00:00",
-        "lease_expires_at": "2026-10-30T07:51:49.430543+00:00"
-      },
       "source": {
         "source_id": "29535567",
         "source_url": "https://sdilej.cz/29535567/volejte-saulovi-s03e08.mkv",
@@ -15040,15 +15034,22 @@
         "display_name": "Better Call Saul S03E08 Slip 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:51:50.756556+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623559",
-        "size_bytes": 557465192
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623559",
+          "size_bytes": 557465192,
+          "source_bytes_read": 557465192,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535567",
+        "source_url": "https://sdilej.cz/29535567/volejte-saulovi-s03e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623559",
-        "size_bytes": 557465192,
-        "source_bytes_read": 557465192,
-        "http_status": 201
+        "display_name": "Better Call Saul S03E08 Slip 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:54:00.769930+00:00"
       }
     },
     "25:3:9": {
@@ -15131,5 +15132,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:53:58.379615+00:00"
+  "updated_at": "2026-10-30T01:54:00.769948+00:00"
 }
