@@ -32070,12 +32070,6 @@
     },
     "1927:1:1": {
       "episode_key": "boj o moc:s1:e1",
-      "claim": {
-        "worker_id": "c7672553fc604ae8b6f704a94f61164a-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:15:21.965584+00:00",
-        "lease_expires_at": "2026-10-30T15:15:21.965594+00:00"
-      },
       "source": {
         "source_id": "26200725",
         "source_url": "https://sdilej.cz/26200725/succession.s01e01.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -32100,15 +32094,22 @@
         "display_name": "Succession S01E01 Celebration 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:15:26.237193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630131",
-        "size_bytes": 1884274514
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630131",
+          "size_bytes": 1884274514,
+          "source_bytes_read": 1884274514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26200725",
+        "source_url": "https://sdilej.cz/26200725/succession.s01e01.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630131",
-        "size_bytes": 1884274514,
-        "source_bytes_read": 1884274514,
-        "http_status": 201
+        "display_name": "Succession S01E01 Celebration 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:20:49.998287+00:00"
       }
     },
     "1927:1:2": {
@@ -32191,5 +32192,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:20:45.672228+00:00"
+  "updated_at": "2026-10-30T09:20:49.998305+00:00"
 }
