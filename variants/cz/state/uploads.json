@@ -12891,12 +12891,6 @@
     },
     "1733:2:2": {
       "episode_key": "vyvolení:s2:e2",
-      "claim": {
-        "worker_id": "efefd3168e7e45ebba572c7822e0c2e8-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:28:42.419027+00:00",
-        "lease_expires_at": "2026-10-30T06:28:42.419038+00:00"
-      },
       "source": {
         "source_id": "29139872",
         "source_url": "https://sdilej.cz/29139872/the-chosen-s02e02-hd-cz-dabing.mkv",
@@ -12921,15 +12915,22 @@
         "display_name": "The Chosen S02E02 I Saw You 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:28:43.761475+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622282",
-        "size_bytes": 1708510382
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622282",
+          "size_bytes": 1708510382,
+          "source_bytes_read": 1708510382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29139872",
+        "source_url": "https://sdilej.cz/29139872/the-chosen-s02e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622282",
-        "size_bytes": 1708510382,
-        "source_bytes_read": 1708510382,
-        "http_status": 201
+        "display_name": "The Chosen S02E02 I Saw You 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:33:32.365552+00:00"
       }
     },
     "1733:2:3": {
@@ -12975,5 +12976,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:33:28.297897+00:00"
+  "updated_at": "2026-10-30T00:33:32.365570+00:00"
 }
