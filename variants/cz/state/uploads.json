@@ -46816,12 +46816,6 @@
     },
     "673:16:5": {
       "episode_key": "městečko south park:s16:e5",
-      "claim": {
-        "worker_id": "27e42d5dd6fa4a69a247757deec1b187-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:11:28.198608+00:00",
-        "lease_expires_at": "2026-10-30T21:11:28.198619+00:00"
-      },
       "source": {
         "source_id": "34015593",
         "source_url": "https://sdilej.cz/34015593/south-park-s16e05.-butters-ma-koule.mkv",
@@ -46846,15 +46840,22 @@
         "display_name": "South Park S16E05 Butterballs 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:11:32.421087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638527",
-        "size_bytes": 250606830
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638527",
+          "size_bytes": 250606830,
+          "source_bytes_read": 250606830,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34015593",
+        "source_url": "https://sdilej.cz/34015593/south-park-s16e05.-butters-ma-koule.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638527",
-        "size_bytes": 250606830,
-        "source_bytes_read": 250606830,
-        "http_status": 201
+        "display_name": "South Park S16E05 Butterballs 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:12:37.467979+00:00"
       }
     },
     "673:16:6": {
@@ -46936,5 +46937,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:12:33.857240+00:00"
+  "updated_at": "2026-10-30T15:12:37.467995+00:00"
 }
