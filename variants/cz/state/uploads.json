@@ -56371,12 +56371,6 @@
     },
     "1180:4:3": {
       "episode_key": "odpočívej v pokoji:s4:e3",
-      "claim": {
-        "worker_id": "ee33012c0016421fb90afa6140463c69-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:11:39.131367+00:00",
-        "lease_expires_at": "2026-10-31T03:11:39.131377+00:00"
-      },
       "source": {
         "source_id": "25944906",
         "source_url": "https://sdilej.cz/25944906/odpocivej-v-pokoji-six-feet-under-s04e03-hd-cz-dabing.mkv",
@@ -56401,15 +56395,22 @@
         "display_name": "Six Feet Under S04E03 Parallel Play 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:11:42.097779+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30645088",
-        "size_bytes": 1455539252
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30645088",
+          "size_bytes": 1455539252,
+          "source_bytes_read": 1455539252,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25944906",
+        "source_url": "https://sdilej.cz/25944906/odpocivej-v-pokoji-six-feet-under-s04e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30645088",
-        "size_bytes": 1455539252,
-        "source_bytes_read": 1455539252,
-        "http_status": 201
+        "display_name": "Six Feet Under S04E03 Parallel Play 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T21:16:30.592364+00:00"
       }
     }
   },
@@ -56418,5 +56419,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T21:16:26.977383+00:00"
+  "updated_at": "2026-10-30T21:16:30.592381+00:00"
 }
