@@ -61683,12 +61683,6 @@
     },
     "956:5:2": {
       "episode_key": "star trek: nová generace:s5:e2",
-      "claim": {
-        "worker_id": "69cc6e24bd944238bdc64938f4a8142f-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:39:44.201843+00:00",
-        "lease_expires_at": "2026-10-31T05:39:44.201853+00:00"
-      },
       "source": {
         "source_id": "28165182",
         "source_url": "https://sdilej.cz/28165182/star-trek-nova-generace-s05e02-darmok.mkv",
@@ -61713,15 +61707,22 @@
         "display_name": "Star Trek: The Next Generation S05E02 Darmok 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:39:46.929505+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648725",
-        "size_bytes": 440154887
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648725",
+          "size_bytes": 440154887,
+          "source_bytes_read": 440154887,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165182",
+        "source_url": "https://sdilej.cz/28165182/star-trek-nova-generace-s05e02-darmok.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648725",
-        "size_bytes": 440154887,
-        "source_bytes_read": 440154887,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E02 Darmok 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:41:34.819763+00:00"
       }
     },
     "956:5:3": {
@@ -61783,5 +61784,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:41:32.142640+00:00"
+  "updated_at": "2026-10-30T23:41:34.819783+00:00"
 }
