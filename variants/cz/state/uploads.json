@@ -59033,12 +59033,6 @@
     },
     "956:2:16": {
       "episode_key": "star trek: nová generace:s2:e16",
-      "claim": {
-        "worker_id": "e68951810ae946fc9e4ac91c21394ccd-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:36:34.505865+00:00",
-        "lease_expires_at": "2026-10-31T04:36:34.505876+00:00"
-      },
       "source": {
         "source_id": "28164067",
         "source_url": "https://sdilej.cz/28164067/star-trek-nova-generace-s02e16-kdo-je-q.mkv",
@@ -59063,15 +59057,22 @@
         "display_name": "Star Trek: The Next Generation S02E16 Q Who 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:36:36.174285+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646970",
-        "size_bytes": 566529742
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646970",
+          "size_bytes": 566529742,
+          "source_bytes_read": 566529742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164067",
+        "source_url": "https://sdilej.cz/28164067/star-trek-nova-generace-s02e16-kdo-je-q.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646970",
-        "size_bytes": 566529742,
-        "source_bytes_read": 566529742,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E16 Q Who 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:39:05.122064+00:00"
       }
     },
     "956:2:17": {
@@ -59154,5 +59155,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:38:59.807767+00:00"
+  "updated_at": "2026-10-30T22:39:05.122079+00:00"
 }
