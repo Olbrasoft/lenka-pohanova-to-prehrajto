@@ -56899,12 +56899,6 @@
     },
     "1180:5:4": {
       "episode_key": "odpočívej v pokoji:s5:e4",
-      "claim": {
-        "worker_id": "f42c1910f5074affbe71bd3f0f0a0236-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:35:04.490521+00:00",
-        "lease_expires_at": "2026-10-31T03:35:04.490533+00:00"
-      },
       "source": {
         "source_id": "25965065",
         "source_url": "https://sdilej.cz/25965065/odpocivej-v-pokoji-six-feet-under-s05e04-hd-cz-dabing.mkv",
@@ -56929,15 +56923,22 @@
         "display_name": "Six Feet Under S05E04 Time Flies 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:35:07.781532+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30645806",
-        "size_bytes": 1364413790
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30645806",
+          "size_bytes": 1364413790,
+          "source_bytes_read": 1364413790,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25965065",
+        "source_url": "https://sdilej.cz/25965065/odpocivej-v-pokoji-six-feet-under-s05e04-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30645806",
-        "size_bytes": 1364413790,
-        "source_bytes_read": 1364413790,
-        "http_status": 201
+        "display_name": "Six Feet Under S05E04 Time Flies 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T21:39:35.066800+00:00"
       }
     },
     "1180:5:5": {
@@ -56979,5 +56980,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T21:39:33.836838+00:00"
+  "updated_at": "2026-10-30T21:39:35.066815+00:00"
 }
