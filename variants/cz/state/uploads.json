@@ -58868,12 +58868,6 @@
     },
     "956:2:12": {
       "episode_key": "star trek: nová generace:s2:e12",
-      "claim": {
-        "worker_id": "d301064f1c3d4e1ca2960933e86bc0d7-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:30:13.769029+00:00",
-        "lease_expires_at": "2026-10-31T04:30:13.769038+00:00"
-      },
       "source": {
         "source_id": "28163997",
         "source_url": "https://sdilej.cz/28163997/star-trek-nova-generace-s02e12-hotel-royal.mkv",
@@ -58898,15 +58892,22 @@
         "display_name": "Star Trek: The Next Generation S02E12 The Royale 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:30:15.386733+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646791",
-        "size_bytes": 564698440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646791",
+          "size_bytes": 564698440,
+          "source_bytes_read": 564698440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163997",
+        "source_url": "https://sdilej.cz/28163997/star-trek-nova-generace-s02e12-hotel-royal.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646791",
-        "size_bytes": 564698440,
-        "source_bytes_read": 564698440,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E12 The Royale 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:31:53.805112+00:00"
       }
     }
   },
@@ -58915,5 +58916,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:31:48.212524+00:00"
+  "updated_at": "2026-10-30T22:31:53.805129+00:00"
 }
