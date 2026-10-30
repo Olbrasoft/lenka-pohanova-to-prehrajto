@@ -16330,12 +16330,6 @@
     },
     "25:6:9": {
       "episode_key": "volejte saulovi:s6:e9",
-      "claim": {
-        "worker_id": "da048f1e50514ef8a3d8a2897016bd42-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:20:49.225763+00:00",
-        "lease_expires_at": "2026-10-30T08:20:49.225775+00:00"
-      },
       "source": {
         "source_id": "29544040",
         "source_url": "https://sdilej.cz/29544040/volejte-saulovi-s06e09.mkv",
@@ -16360,15 +16354,22 @@
         "display_name": "Better Call Saul S06E09 Fun and Games 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:20:50.620586+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623975",
-        "size_bytes": 441510927
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623975",
+          "size_bytes": 441510927,
+          "source_bytes_read": 441510927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544040",
+        "source_url": "https://sdilej.cz/29544040/volejte-saulovi-s06e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623975",
-        "size_bytes": 441510927,
-        "source_bytes_read": 441510927,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E09 Fun and Games 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:22:22.940450+00:00"
       }
     },
     "25:6:10": {
@@ -16451,5 +16452,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:22:20.695315+00:00"
+  "updated_at": "2026-10-30T02:22:22.940468+00:00"
 }
