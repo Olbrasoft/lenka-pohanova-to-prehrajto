@@ -16418,12 +16418,6 @@
     },
     "25:6:11": {
       "episode_key": "volejte saulovi:s6:e11",
-      "claim": {
-        "worker_id": "e3d6b8a834004b789a8ba7f04d8167e5-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:21:28.050932+00:00",
-        "lease_expires_at": "2026-10-30T08:21:28.050944+00:00"
-      },
       "source": {
         "source_id": "29544070",
         "source_url": "https://sdilej.cz/29544070/volejte-saulovi-s06e11.mkv",
@@ -16448,15 +16442,22 @@
         "display_name": "Better Call Saul S06E11 Breaking Bad 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:21:29.343751+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623978",
-        "size_bytes": 740204314
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623978",
+          "size_bytes": 740204314,
+          "source_bytes_read": 740204314,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544070",
+        "source_url": "https://sdilej.cz/29544070/volejte-saulovi-s06e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623978",
-        "size_bytes": 740204314,
-        "source_bytes_read": 740204314,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E11 Breaking Bad 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:24:06.503243+00:00"
       }
     }
   },
@@ -16465,5 +16466,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:24:01.339376+00:00"
+  "updated_at": "2026-10-30T02:24:06.503261+00:00"
 }
