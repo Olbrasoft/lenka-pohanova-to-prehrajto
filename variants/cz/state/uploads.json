@@ -45455,12 +45455,6 @@
     },
     "673:13:13": {
       "episode_key": "městečko south park:s13:e13",
-      "claim": {
-        "worker_id": "57174335c4664336832fd8bb5db81e99-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:57:26.738961+00:00",
-        "lease_expires_at": "2026-10-30T20:57:26.738972+00:00"
-      },
       "source": {
         "source_id": "32892364",
         "source_url": "https://sdilej.cz/32892364/mestecko-south-park-s13e13-14-2009-cz-dab-1080p-tanec-se-smouly.mkv",
@@ -45485,15 +45479,22 @@
         "display_name": "South Park S13E13 Dances With Smurfs 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:57:31.122292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638331",
-        "size_bytes": 249265681
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638331",
+          "size_bytes": 249265681,
+          "source_bytes_read": 249265681,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32892364",
+        "source_url": "https://sdilej.cz/32892364/mestecko-south-park-s13e13-14-2009-cz-dab-1080p-tanec-se-smouly.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638331",
-        "size_bytes": 249265681,
-        "source_bytes_read": 249265681,
-        "http_status": 201
+        "display_name": "South Park S13E13 Dances With Smurfs 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:58:21.652255+00:00"
       }
     },
     "673:13:14": {
@@ -45539,5 +45540,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:58:17.818352+00:00"
+  "updated_at": "2026-10-30T14:58:21.652274+00:00"
 }
