@@ -26878,12 +26878,6 @@
     },
     "4704:1:1": {
       "episode_key": "západní křídlo:s1:e1",
-      "claim": {
-        "worker_id": "d9d5ccd8291642c6ad004c59f59cc4fc-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:17:25.799760+00:00",
-        "lease_expires_at": "2026-10-30T13:17:25.799770+00:00"
-      },
       "source": {
         "source_id": "34861659",
         "source_url": "https://sdilej.cz/34861659/zapadni-kridlo-s01e01-001-1999-hd-pilot-s-.mp4",
@@ -26908,15 +26902,22 @@
         "display_name": "The West Wing S01E01 Pilot 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:17:27.361540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628544",
-        "size_bytes": 841186475
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628544",
+          "size_bytes": 841186475,
+          "source_bytes_read": 841186475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861659",
+        "source_url": "https://sdilej.cz/34861659/zapadni-kridlo-s01e01-001-1999-hd-pilot-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628544",
-        "size_bytes": 841186475,
-        "source_bytes_read": 841186475,
-        "http_status": 201
+        "display_name": "The West Wing S01E01 Pilot 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:20:11.400578+00:00"
       }
     },
     "4704:1:2": {
@@ -26999,5 +27000,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:20:07.993993+00:00"
+  "updated_at": "2026-10-30T07:20:11.400597+00:00"
 }
