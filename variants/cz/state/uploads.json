@@ -17826,12 +17826,6 @@
     },
     "28:4:1": {
       "episode_key": "rick a morty:s4:e1",
-      "claim": {
-        "worker_id": "15f4a70c80f246cfac5834ff819f8d2a-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:41:59.314824+00:00",
-        "lease_expires_at": "2026-10-30T08:41:59.314833+00:00"
-      },
       "source": {
         "source_id": "34791557",
         "source_url": "https://sdilej.cz/34791557/rick-a-morty-s04e01-na-hrane-zmortrka-cz-dabing-hevc-2019-.mkv",
@@ -17856,15 +17850,22 @@
         "display_name": "Rick and Morty S04E01 Edge of Tomorty: Rick Die Rickpeat 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:42:02.184650+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624329",
-        "size_bytes": 236886280
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624329",
+          "size_bytes": 236886280,
+          "source_bytes_read": 236886280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34791557",
+        "source_url": "https://sdilej.cz/34791557/rick-a-morty-s04e01-na-hrane-zmortrka-cz-dabing-hevc-2019-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624329",
-        "size_bytes": 236886280,
-        "source_bytes_read": 236886280,
-        "http_status": 201
+        "display_name": "Rick and Morty S04E01 Edge of Tomorty: Rick Die Rickpeat 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:43:08.563809+00:00"
       }
     },
     "28:4:2": {
@@ -17947,5 +17948,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:43:04.876468+00:00"
+  "updated_at": "2026-10-30T02:43:08.563825+00:00"
 }
