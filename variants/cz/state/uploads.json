@@ -23127,12 +23127,6 @@
     },
     "925:1:37": {
       "episode_key": "zápisník smrti:s1:e37",
-      "claim": {
-        "worker_id": "a0b05af627224d5ba73976ea02ff85d7-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:16:00.038461+00:00",
-        "lease_expires_at": "2026-10-30T11:16:00.038471+00:00"
-      },
       "source": {
         "source_id": "31747006",
         "source_url": "https://sdilej.cz/31747006/zapisnik-smrti-s01e37-720p-cz.mkv",
@@ -23166,7 +23160,13 @@
         "size_bytes": 424369181,
         "source_bytes_read": 424369181,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-10-30T05:17:18.609263+00:00",
+          "error": "PrehrajtoError"
+        }
+      ]
     },
     "925:1:36": {
       "episode_key": "zápisník smrti:s1:e36",
@@ -23255,5 +23255,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:17:15.298647+00:00"
+  "updated_at": "2026-10-30T05:17:18.609276+00:00"
 }
