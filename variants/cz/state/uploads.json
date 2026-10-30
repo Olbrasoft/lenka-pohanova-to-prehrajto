@@ -27846,12 +27846,6 @@
     },
     "4704:7:5": {
       "episode_key": "západní křídlo:s7:e5",
-      "claim": {
-        "worker_id": "1e098a1790fe4475bd88f9131b9a87e1-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:45:48.692158+00:00",
-        "lease_expires_at": "2026-10-30T13:45:48.692170+00:00"
-      },
       "source": {
         "source_id": "34862487",
         "source_url": "https://sdilej.cz/34862487/zapadni-kridlo-s07e05-138-2005-hd-dnes-tady-zitra-pryc-s-.mp4",
@@ -27876,15 +27870,22 @@
         "display_name": "The West Wing S07E05 Here Today 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:45:51.517503+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628940",
-        "size_bytes": 844577681
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628940",
+          "size_bytes": 844577681,
+          "source_bytes_read": 844577681,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862487",
+        "source_url": "https://sdilej.cz/34862487/zapadni-kridlo-s07e05-138-2005-hd-dnes-tady-zitra-pryc-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628940",
-        "size_bytes": 844577681,
-        "source_bytes_read": 844577681,
-        "http_status": 201
+        "display_name": "The West Wing S07E05 Here Today 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:48:34.403280+00:00"
       }
     },
     "4704:7:6": {
@@ -27967,5 +27968,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:48:30.994633+00:00"
+  "updated_at": "2026-10-30T07:48:34.403302+00:00"
 }
