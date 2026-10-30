@@ -871,12 +871,6 @@
     },
     "1418:1:7": {
       "episode_key": "bratrstvo neohrožených:s1:e7",
-      "claim": {
-        "worker_id": "0dac034641014dcb902ba6a79bba0d43-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T03:53:00.827825+00:00",
-        "lease_expires_at": "2026-10-30T09:53:00.827836+00:00"
-      },
       "source": {
         "source_id": "35159695",
         "source_url": "https://sdilej.cz/35159695/band-of-brothers-s01e07-bod-zlomu.mkv",
@@ -906,15 +900,22 @@
         "display_name": "Band of Brothers S01E07 The Breaking Point 1080p",
         "prepared_at": "2026-10-30T03:53:02.444044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30625288",
-        "size_bytes": 1805123451
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30625288",
+          "size_bytes": 1805123451,
+          "source_bytes_read": 1805123451,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "35159695",
+        "source_url": "https://sdilej.cz/35159695/band-of-brothers-s01e07-bod-zlomu.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30625288",
-        "size_bytes": 1805123451,
-        "source_bytes_read": 1805123451,
-        "http_status": 201
+        "display_name": "Band of Brothers S01E07 The Breaking Point 1080p",
+        "uploaded_at": "2026-10-30T03:58:23.534039+00:00"
       }
     }
   },
@@ -923,5 +924,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T03:58:18.373953+00:00"
+  "updated_at": "2026-10-30T03:58:23.534055+00:00"
 }
