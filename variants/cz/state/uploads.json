@@ -30310,12 +30310,6 @@
     },
     "66:2:1": {
       "episode_key": "fargo:s2:e1",
-      "claim": {
-        "worker_id": "1f3ae6c3d0244f2ba5bcf637198a3103-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:40:00.692498+00:00",
-        "lease_expires_at": "2026-10-30T14:40:00.692509+00:00"
-      },
       "source": {
         "source_id": "28506525",
         "source_url": "https://sdilej.cz/28506525/fargo-s02e01-1080p-cz-dabing.mkv",
@@ -30340,15 +30334,22 @@
         "display_name": "Fargo S02E01 Waiting for Dutch 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:40:03.296062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629720",
-        "size_bytes": 818714640
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629720",
+          "size_bytes": 818714640,
+          "source_bytes_read": 818714640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28506525",
+        "source_url": "https://sdilej.cz/28506525/fargo-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629720",
-        "size_bytes": 818714640,
-        "source_bytes_read": 818714640,
-        "http_status": 201
+        "display_name": "Fargo S02E01 Waiting for Dutch 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:42:53.847829+00:00"
       }
     },
     "66:2:2": {
@@ -30394,5 +30395,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:42:52.573080+00:00"
+  "updated_at": "2026-10-30T08:42:53.847846+00:00"
 }
