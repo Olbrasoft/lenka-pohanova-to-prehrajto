@@ -39322,12 +39322,6 @@
     },
     "673:3:15": {
       "episode_key": "městečko south park:s3:e15",
-      "claim": {
-        "worker_id": "f9a095906be44f60b8cf745b8defa9fd-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:38:34.527945+00:00",
-        "lease_expires_at": "2026-10-30T19:38:34.527958+00:00"
-      },
       "source": {
         "source_id": "32876180",
         "source_url": "https://sdilej.cz/32876180/mestecko-south-park-s03e15-17-1999-cz-dab-1080p-vanocni-koledy-pana-hankeyho.mkv",
@@ -39352,15 +39346,22 @@
         "display_name": "South Park S03E15 Mr. Hankey's Christmas Classics 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:38:36.462067+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637000",
-        "size_bytes": 278269114
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637000",
+          "size_bytes": 278269114,
+          "source_bytes_read": 278269114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876180",
+        "source_url": "https://sdilej.cz/32876180/mestecko-south-park-s03e15-17-1999-cz-dab-1080p-vanocni-koledy-pana-hankeyho.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637000",
-        "size_bytes": 278269114,
-        "source_bytes_read": 278269114,
-        "http_status": 201
+        "display_name": "South Park S03E15 Mr. Hankey's Christmas Classics 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:39:39.220481+00:00"
       }
     },
     "673:3:16": {
@@ -39439,5 +39440,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:39:35.967335+00:00"
+  "updated_at": "2026-10-30T13:39:39.220499+00:00"
 }
