@@ -31322,12 +31322,6 @@
     },
     "66:4:5": {
       "episode_key": "fargo:s4:e5",
-      "claim": {
-        "worker_id": "57bdf2432bd14dcdaa16bd1f4ef3ac0e-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:02:03.206519+00:00",
-        "lease_expires_at": "2026-10-30T15:02:03.206532+00:00"
-      },
       "source": {
         "source_id": "28991365",
         "source_url": "https://sdilej.cz/28991365/fargo-s04e05-2020-cz.mkv",
@@ -31352,15 +31346,22 @@
         "display_name": "Fargo S04E05 The Birthplace of Civilization 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:02:04.812564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629970",
-        "size_bytes": 650553733
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629970",
+          "size_bytes": 650553733,
+          "source_bytes_read": 650553733,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28991365",
+        "source_url": "https://sdilej.cz/28991365/fargo-s04e05-2020-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629970",
-        "size_bytes": 650553733,
-        "source_bytes_read": 650553733,
-        "http_status": 201
+        "display_name": "Fargo S04E05 The Birthplace of Civilization 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:04:21.918477+00:00"
       }
     },
     "66:4:6": {
@@ -31443,5 +31444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:04:18.387952+00:00"
+  "updated_at": "2026-10-30T09:04:21.918495+00:00"
 }
