@@ -23440,12 +23440,6 @@
     },
     "178:1:6": {
       "episode_key": "firefly:s1:e6",
-      "claim": {
-        "worker_id": "8ebc44b61dfa4fe48a8fe2c67d2649ef-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:20:20.479115+00:00",
-        "lease_expires_at": "2026-10-30T11:20:20.479124+00:00"
-      },
       "source": {
         "source_id": "34847385",
         "source_url": "https://sdilej.cz/34847385/firefly-s01e06-nase-pani-reynoldsova.mkv",
@@ -23470,15 +23464,22 @@
         "display_name": "Firefly S01E06 Shindig 1080p CZ Dabing",
         "prepared_at": "2026-10-30T05:20:24.281403+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30626916",
-        "size_bytes": 689262693
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626916",
+          "size_bytes": 689262693,
+          "source_bytes_read": 689262693,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34847385",
+        "source_url": "https://sdilej.cz/34847385/firefly-s01e06-nase-pani-reynoldsova.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30626916",
-        "size_bytes": 689262693,
-        "source_bytes_read": 689262693,
-        "http_status": 201
+        "display_name": "Firefly S01E06 Shindig 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:23:26.196004+00:00"
       }
     },
     "178:1:5": {
@@ -23575,5 +23576,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:23:22.472989+00:00"
+  "updated_at": "2026-10-30T05:23:26.196040+00:00"
 }
