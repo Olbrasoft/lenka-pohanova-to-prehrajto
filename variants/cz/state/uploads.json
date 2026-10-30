@@ -13551,12 +13551,6 @@
     },
     "1733:5:2": {
       "episode_key": "vyvolení:s5:e2",
-      "claim": {
-        "worker_id": "304f71f847f54a97b80c8be79c14a20c-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:05:49.727166+00:00",
-        "lease_expires_at": "2026-10-30T07:05:49.727177+00:00"
-      },
       "source": {
         "source_id": "33694411",
         "source_url": "https://sdilej.cz/33694411/the-chosen-s05e02-domek-z-karet-2025-1080p.-cz-sk-en-dabing.cz-sk-en-titulky.mkv",
@@ -13581,15 +13575,22 @@
         "display_name": "The Chosen S05E02 House of Cards 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:05:51.168303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622818",
-        "size_bytes": 1961146604
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622818",
+          "size_bytes": 1961146604,
+          "source_bytes_read": 1961146604,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33694411",
+        "source_url": "https://sdilej.cz/33694411/the-chosen-s05e02-domek-z-karet-2025-1080p.-cz-sk-en-dabing.cz-sk-en-titulky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622818",
-        "size_bytes": 1961146604,
-        "source_bytes_read": 1961146604,
-        "http_status": 201
+        "display_name": "The Chosen S05E02 House of Cards 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:11:50.884097+00:00"
       }
     },
     "1733:5:4": {
@@ -13635,5 +13636,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:11:46.352002+00:00"
+  "updated_at": "2026-10-30T01:11:50.884115+00:00"
 }
