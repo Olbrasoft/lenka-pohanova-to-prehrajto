@@ -24419,12 +24419,6 @@
     },
     "1831:1:12": {
       "episode_key": "městečko záhad:s1:e12",
-      "claim": {
-        "worker_id": "3b20bde81ec340369730474bce1e0cd2-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:34:48.461569+00:00",
-        "lease_expires_at": "2026-10-30T11:34:48.461577+00:00"
-      },
       "source": {
         "source_id": "25184963",
         "source_url": "https://sdilej.cz/25184963/mestecko-zahad-gravity-falls-s01e12.mkv",
@@ -24449,15 +24443,22 @@
         "display_name": "Gravity Falls S01E12 Summerween 1080p CZ Dabing",
         "prepared_at": "2026-10-30T05:34:51.644978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627155",
-        "size_bytes": 1457433972
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627155",
+          "size_bytes": 1457433972,
+          "source_bytes_read": 1457433972,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25184963",
+        "source_url": "https://sdilej.cz/25184963/mestecko-zahad-gravity-falls-s01e12.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627155",
-        "size_bytes": 1457433972,
-        "source_bytes_read": 1457433972,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E12 Summerween 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:40:42.070465+00:00"
       }
     },
     "1831:1:13": {
@@ -24519,5 +24520,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:40:40.600370+00:00"
+  "updated_at": "2026-10-30T05:40:42.070478+00:00"
 }
