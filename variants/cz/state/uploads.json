@@ -56056,12 +56056,6 @@
     },
     "1180:3:9": {
       "episode_key": "odpočívej v pokoji:s3:e9",
-      "claim": {
-        "worker_id": "dbaf600d66bd4998841f61352c8c1054-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:53:59.619536+00:00",
-        "lease_expires_at": "2026-10-31T02:53:59.619548+00:00"
-      },
       "source": {
         "source_id": "6286281",
         "source_url": "https://sdilej.cz/6286281/odpocivej-v-pokoji-s03e09-vernisaz-cz-dabing-by-led.avi",
@@ -56086,15 +56080,22 @@
         "display_name": "Six Feet Under S03E09 The Opening SD CZ Dabing",
         "prepared_at": "2026-10-30T20:54:02.197243+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644670",
-        "size_bytes": 366784512
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644670",
+          "size_bytes": 366784512,
+          "source_bytes_read": 366784512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6286281",
+        "source_url": "https://sdilej.cz/6286281/odpocivej-v-pokoji-s03e09-vernisaz-cz-dabing-by-led.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644670",
-        "size_bytes": 366784512,
-        "source_bytes_read": 366784512,
-        "http_status": 201
+        "display_name": "Six Feet Under S03E09 The Opening SD CZ Dabing",
+        "uploaded_at": "2026-10-30T20:55:19.422502+00:00"
       }
     },
     "1180:3:10": {
@@ -56140,5 +56141,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:55:16.910100+00:00"
+  "updated_at": "2026-10-30T20:55:19.422519+00:00"
 }
