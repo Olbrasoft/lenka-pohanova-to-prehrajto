@@ -60879,12 +60879,6 @@
     },
     "956:4:10": {
       "episode_key": "star trek: nová generace:s4:e10",
-      "claim": {
-        "worker_id": "a0457e8e41914d4898bd7057d3db4be7-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:16:54.166732+00:00",
-        "lease_expires_at": "2026-10-31T05:16:54.166742+00:00"
-      },
       "source": {
         "source_id": "28164982",
         "source_url": "https://sdilej.cz/28164982/star-trek-nova-generace-s04e10-ztrata.mkv",
@@ -60909,15 +60903,22 @@
         "display_name": "Star Trek: The Next Generation S04E10 The Loss 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:16:55.921757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647998",
-        "size_bytes": 439129026
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647998",
+          "size_bytes": 439129026,
+          "source_bytes_read": 439129026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164982",
+        "source_url": "https://sdilej.cz/28164982/star-trek-nova-generace-s04e10-ztrata.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647998",
-        "size_bytes": 439129026,
-        "source_bytes_read": 439129026,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E10 The Loss 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:18:34.648387+00:00"
       }
     },
     "956:4:11": {
@@ -61000,5 +61001,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:18:29.143586+00:00"
+  "updated_at": "2026-10-30T23:18:34.648403+00:00"
 }
