@@ -30736,12 +30736,6 @@
     },
     "66:3:1": {
       "episode_key": "fargo:s3:e1",
-      "claim": {
-        "worker_id": "9598d5dc079f449a8c5618f3fc22d0b5-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:50:49.625930+00:00",
-        "lease_expires_at": "2026-10-30T14:50:49.625939+00:00"
-      },
       "source": {
         "source_id": "28518501",
         "source_url": "https://sdilej.cz/28518501/fargo-s03e01-1080p-cz-dabing.mkv",
@@ -30766,15 +30760,22 @@
         "display_name": "Fargo S03E01 The Law of Vacant Places 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:50:52.212006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629852",
-        "size_bytes": 772083196
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629852",
+          "size_bytes": 772083196,
+          "source_bytes_read": 772083196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28518501",
+        "source_url": "https://sdilej.cz/28518501/fargo-s03e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629852",
-        "size_bytes": 772083196,
-        "source_bytes_read": 772083196,
-        "http_status": 201
+        "display_name": "Fargo S03E01 The Law of Vacant Places 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:53:00.086926+00:00"
       }
     }
   },
@@ -30783,5 +30784,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:52:56.654643+00:00"
+  "updated_at": "2026-10-30T08:53:00.086948+00:00"
 }
