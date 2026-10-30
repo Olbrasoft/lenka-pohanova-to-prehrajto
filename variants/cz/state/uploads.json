@@ -55711,12 +55711,6 @@
     },
     "1180:2:13": {
       "episode_key": "odpočívej v pokoji:s2:e13",
-      "claim": {
-        "worker_id": "5b9bc70cb0284828aeec35553ba30a4e-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:45:31.414630+00:00",
-        "lease_expires_at": "2026-10-31T02:45:31.414640+00:00"
-      },
       "source": {
         "source_id": "25922189",
         "source_url": "https://sdilej.cz/25922189/odpocivej-v-pokoji-six-feet-under-s02e13-hd-cz-dabing.mkv",
@@ -55741,15 +55735,22 @@
         "display_name": "Six Feet Under S02E13 The Last Time 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:45:36.358251+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30644463",
-        "size_bytes": 1520922695
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30644463",
+          "size_bytes": 1520922695,
+          "source_bytes_read": 1520922695,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25922189",
+        "source_url": "https://sdilej.cz/25922189/odpocivej-v-pokoji-six-feet-under-s02e13-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30644463",
-        "size_bytes": 1520922695,
-        "source_bytes_read": 1520922695,
-        "http_status": 201
+        "display_name": "Six Feet Under S02E13 The Last Time 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:49:47.451193+00:00"
       }
     },
     "1180:3:2": {
@@ -55920,5 +55921,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:49:42.338130+00:00"
+  "updated_at": "2026-10-30T20:49:47.451209+00:00"
 }
