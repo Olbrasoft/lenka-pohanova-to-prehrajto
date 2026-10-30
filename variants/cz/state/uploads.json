@@ -47612,12 +47612,6 @@
     },
     "673:17:7": {
       "episode_key": "městečko south park:s17:e7",
-      "claim": {
-        "worker_id": "2c8ad14d0d63473aa18ee61bbc522b4a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:25:48.015110+00:00",
-        "lease_expires_at": "2026-10-30T21:25:48.015125+00:00"
-      },
       "source": {
         "source_id": "34015570",
         "source_url": "https://sdilej.cz/34015570/south-park-s17e07.-cerny-patek.mkv",
@@ -47642,15 +47636,22 @@
         "display_name": "South Park S17E07 Black Friday 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:25:51.145076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638762",
-        "size_bytes": 260416193
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638762",
+          "size_bytes": 260416193,
+          "source_bytes_read": 260416193,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34015570",
+        "source_url": "https://sdilej.cz/34015570/south-park-s17e07.-cerny-patek.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638762",
-        "size_bytes": 260416193,
-        "source_bytes_read": 260416193,
-        "http_status": 201
+        "display_name": "South Park S17E07 Black Friday 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:26:59.081684+00:00"
       }
     },
     "673:17:8": {
@@ -47739,5 +47740,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:26:56.784503+00:00"
+  "updated_at": "2026-10-30T15:26:59.081721+00:00"
 }
