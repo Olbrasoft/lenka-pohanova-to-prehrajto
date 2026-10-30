@@ -60435,12 +60435,6 @@
     },
     "956:3:26": {
       "episode_key": "star trek: nová generace:s3:e26",
-      "claim": {
-        "worker_id": "496fb7ac331146fc8c4f5263e7fa91e3-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:00:54.442300+00:00",
-        "lease_expires_at": "2026-10-31T05:00:54.442311+00:00"
-      },
       "source": {
         "source_id": "28164546",
         "source_url": "https://sdilej.cz/28164546/star-trek-nova-generace-s03e26-to-nejlepsi-z-obou-svetu-1.-cast-.mkv",
@@ -60465,15 +60459,22 @@
         "display_name": "Star Trek: The Next Generation S03E26 The Best of Both Worlds (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:00:56.075660+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647566",
-        "size_bytes": 462020478
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647566",
+          "size_bytes": 462020478,
+          "source_bytes_read": 462020478,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164546",
+        "source_url": "https://sdilej.cz/28164546/star-trek-nova-generace-s03e26-to-nejlepsi-z-obou-svetu-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647566",
-        "size_bytes": 462020478,
-        "source_bytes_read": 462020478,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E26 The Best of Both Worlds (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:02:43.428181+00:00"
       }
     },
     "956:4:1": {
@@ -60562,5 +60563,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:02:38.432556+00:00"
+  "updated_at": "2026-10-30T23:02:43.428195+00:00"
 }
