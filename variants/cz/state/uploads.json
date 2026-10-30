@@ -27318,12 +27318,6 @@
     },
     "4704:1:11": {
       "episode_key": "západní křídlo:s1:e11",
-      "claim": {
-        "worker_id": "a05eb2acac4a4ce695065de7d9f973ab-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:31:28.450101+00:00",
-        "lease_expires_at": "2026-10-30T13:31:28.450111+00:00"
-      },
       "source": {
         "source_id": "34861711",
         "source_url": "https://sdilej.cz/34861711/zapadni-kridlo-s01e11-011-2000-hd-lord-john-marbury-s-.mp4",
@@ -27348,15 +27342,22 @@
         "display_name": "The West Wing S01E11 Lord John Marbury 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:31:30.044318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628728",
-        "size_bytes": 842101868
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628728",
+          "size_bytes": 842101868,
+          "source_bytes_read": 842101868,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861711",
+        "source_url": "https://sdilej.cz/34861711/zapadni-kridlo-s01e11-011-2000-hd-lord-john-marbury-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628728",
-        "size_bytes": 842101868,
-        "source_bytes_read": 842101868,
-        "http_status": 201
+        "display_name": "The West Wing S01E11 Lord John Marbury 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:34:27.269468+00:00"
       }
     },
     "4704:1:14": {
@@ -27439,5 +27440,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:34:26.078328+00:00"
+  "updated_at": "2026-10-30T07:34:27.269484+00:00"
 }
