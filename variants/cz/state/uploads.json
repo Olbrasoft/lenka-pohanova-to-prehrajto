@@ -50713,12 +50713,6 @@
     },
     "40:1:6": {
       "episode_key": "městečko twin peaks:s1:e6",
-      "claim": {
-        "worker_id": "838ff4ee94b54ce0acf8c786585d1b38-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:23:16.647589+00:00",
-        "lease_expires_at": "2026-10-30T22:23:16.647602+00:00"
-      },
       "source": {
         "source_id": "34971470",
         "source_url": "https://sdilej.cz/34971470/mestecko-twin-peaks-s01e06-cz-dabing.mkv",
@@ -50743,15 +50737,22 @@
         "display_name": "Twin Peaks S01E06 Cooper's Dreams 1080p CZ Dabing",
         "prepared_at": "2026-10-30T16:23:18.609169+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639551",
-        "size_bytes": 994698420
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639551",
+          "size_bytes": 994698420,
+          "source_bytes_read": 994698420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34971470",
+        "source_url": "https://sdilej.cz/34971470/mestecko-twin-peaks-s01e06-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639551",
-        "size_bytes": 994698420,
-        "source_bytes_read": 994698420,
-        "http_status": 201
+        "display_name": "Twin Peaks S01E06 Cooper's Dreams 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T16:27:17.617362+00:00"
       }
     }
   },
@@ -50760,5 +50761,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:27:11.907163+00:00"
+  "updated_at": "2026-10-30T16:27:17.617379+00:00"
 }
