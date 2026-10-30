@@ -37078,12 +37078,6 @@
     },
     "82:3:3": {
       "episode_key": "narcos:s3:e3",
-      "claim": {
-        "worker_id": "0d64c91f37ec4b32b17038fcef707d89-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T13:02:57.810364+00:00",
-        "lease_expires_at": "2026-10-30T19:02:57.810376+00:00"
-      },
       "source": {
         "source_id": "34531020",
         "source_url": "https://sdilej.cz/34531020/narcos-s03e03-sleduj-tok-penez.mkv",
@@ -37108,15 +37102,22 @@
         "display_name": "Narcos S03E03 Follow the Money 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:02:59.281075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633981",
-        "size_bytes": 2622242962
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633981",
+          "size_bytes": 2622242962,
+          "source_bytes_read": 2622242962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34531020",
+        "source_url": "https://sdilej.cz/34531020/narcos-s03e03-sleduj-tok-penez.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633981",
-        "size_bytes": 2622242962,
-        "source_bytes_read": 2622242962,
-        "http_status": 201
+        "display_name": "Narcos S03E03 Follow the Money 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:08:51.951676+00:00"
       }
     }
   },
@@ -37125,5 +37126,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:08:48.503837+00:00"
+  "updated_at": "2026-10-30T13:08:51.951695+00:00"
 }
