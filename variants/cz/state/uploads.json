@@ -57867,12 +57867,6 @@
     },
     "956:1:14": {
       "episode_key": "star trek: nová generace:s1:e14",
-      "claim": {
-        "worker_id": "a4383c6b6360485c8d997d127e396ae6-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:12:31.547506+00:00",
-        "lease_expires_at": "2026-10-31T04:12:31.547519+00:00"
-      },
       "source": {
         "source_id": "28163485",
         "source_url": "https://sdilej.cz/28163485/star-trek-nova-generace-s01e14-trosecnici.mkv",
@@ -57897,15 +57891,22 @@
         "display_name": "Star Trek: The Next Generation S01E14 11001001 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:12:34.413770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646424",
-        "size_bytes": 460755237
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646424",
+          "size_bytes": 460755237,
+          "source_bytes_read": 460755237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163485",
+        "source_url": "https://sdilej.cz/28163485/star-trek-nova-generace-s01e14-trosecnici.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646424",
-        "size_bytes": 460755237,
-        "source_bytes_read": 460755237,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E14 11001001 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:14:35.062297+00:00"
       }
     },
     "956:1:15": {
@@ -57951,5 +57952,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:14:30.682102+00:00"
+  "updated_at": "2026-10-30T22:14:35.062313+00:00"
 }
