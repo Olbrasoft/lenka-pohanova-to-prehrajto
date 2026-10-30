@@ -15626,12 +15626,6 @@
     },
     "25:5:2": {
       "episode_key": "volejte saulovi:s5:e2",
-      "claim": {
-        "worker_id": "d7d4265ae818480a87f9f3c960ca5047-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:01:40.555997+00:00",
-        "lease_expires_at": "2026-10-30T08:01:40.556007+00:00"
-      },
       "source": {
         "source_id": "30974811",
         "source_url": "https://sdilej.cz/30974811/volejte-saulovi-s05e02-2160p-cz.mkv",
@@ -15656,15 +15650,22 @@
         "display_name": "Better Call Saul S05E02 50% Off 4K CZ Dabing",
         "prepared_at": "2026-10-30T02:01:41.925077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623729",
-        "size_bytes": 1345547355
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623729",
+          "size_bytes": 1345547355,
+          "source_bytes_read": 1345547355,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974811",
+        "source_url": "https://sdilej.cz/30974811/volejte-saulovi-s05e02-2160p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623729",
-        "size_bytes": 1345547355,
-        "source_bytes_read": 1345547355,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E02 50% Off 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T02:05:57.511820+00:00"
       }
     },
     "25:5:3": {
@@ -15747,5 +15748,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:05:53.756064+00:00"
+  "updated_at": "2026-10-30T02:05:57.511836+00:00"
 }
