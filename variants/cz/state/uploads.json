@@ -25872,12 +25872,6 @@
     },
     "585:1:8": {
       "episode_key": "urgent:s1:e8",
-      "claim": {
-        "worker_id": "7c37167e9ff64eddbb988109f88fa602-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T06:13:54.206233+00:00",
-        "lease_expires_at": "2026-10-30T12:13:54.206246+00:00"
-      },
       "source": {
         "source_id": "32474465",
         "source_url": "https://sdilej.cz/32474465/the-pitt-s01e08-cz-dabing.mkv",
@@ -25902,15 +25896,22 @@
         "display_name": "The Pitt S01E08 2:00 P.M. 4K CZ Dabing",
         "prepared_at": "2026-10-30T06:13:55.831951+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627760",
-        "size_bytes": 2198542452
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627760",
+          "size_bytes": 2198542452,
+          "source_bytes_read": 2198542452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32474465",
+        "source_url": "https://sdilej.cz/32474465/the-pitt-s01e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627760",
-        "size_bytes": 2198542452,
-        "source_bytes_read": 2198542452,
-        "http_status": 201
+        "display_name": "The Pitt S01E08 2:00 P.M. 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T06:20:09.045259+00:00"
       }
     }
   },
@@ -25919,5 +25920,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T06:20:07.893451+00:00"
+  "updated_at": "2026-10-30T06:20:09.045279+00:00"
 }
