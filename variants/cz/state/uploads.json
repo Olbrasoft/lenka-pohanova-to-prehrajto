@@ -46070,12 +46070,6 @@
     },
     "673:14:13": {
       "episode_key": "městečko south park:s14:e13",
-      "claim": {
-        "worker_id": "135d94e33b334bacaacacb9cdfeb5d11-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:06:17.821723+00:00",
-        "lease_expires_at": "2026-10-30T21:06:17.821735+00:00"
-      },
       "source": {
         "source_id": "33077263",
         "source_url": "https://sdilej.cz/33077263/mestecko-south-park-s14e13-14-2010-cz-dab-1080p-myval-vs.-myval-a-spol..mkv",
@@ -46100,15 +46094,22 @@
         "display_name": "South Park S14E13 Coon vs. Coon & Friends 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:06:21.225931+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638455",
-        "size_bytes": 310375735
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638455",
+          "size_bytes": 310375735,
+          "source_bytes_read": 310375735,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077263",
+        "source_url": "https://sdilej.cz/33077263/mestecko-south-park-s14e13-14-2010-cz-dab-1080p-myval-vs.-myval-a-spol..mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638455",
-        "size_bytes": 310375735,
-        "source_bytes_read": 310375735,
-        "http_status": 201
+        "display_name": "South Park S14E13 Coon vs. Coon & Friends 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:07:14.322734+00:00"
       }
     },
     "673:14:14": {
@@ -46198,5 +46199,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:07:11.489468+00:00"
+  "updated_at": "2026-10-30T15:07:14.322752+00:00"
 }
