@@ -53957,12 +53957,6 @@
     },
     "1154:4:8": {
       "episode_key": "panství downton:s4:e8",
-      "claim": {
-        "worker_id": "743c9bf311a743aa9b67578d901518a7-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:13:16.473914+00:00",
-        "lease_expires_at": "2026-10-31T01:13:16.473925+00:00"
-      },
       "source": {
         "source_id": "35122134",
         "source_url": "https://sdilej.cz/35122134/panstvi-downton-s04e08-035-2013-fhd-epizoda-8-s-.mp4",
@@ -53987,15 +53981,22 @@
         "display_name": "Downton Abbey S04E08 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:13:19.601846+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30642702",
-        "size_bytes": 1371190206
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30642702",
+          "size_bytes": 1371190206,
+          "source_bytes_read": 1371190206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35122134",
+        "source_url": "https://sdilej.cz/35122134/panstvi-downton-s04e08-035-2013-fhd-epizoda-8-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30642702",
-        "size_bytes": 1371190206,
-        "source_bytes_read": 1371190206,
-        "http_status": 201
+        "display_name": "Downton Abbey S04E08 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:18:20.755334+00:00"
       }
     },
     "1154:5:1": {
@@ -54129,5 +54130,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:18:19.462041+00:00"
+  "updated_at": "2026-10-30T19:18:20.755349+00:00"
 }
