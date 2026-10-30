@@ -48851,12 +48851,6 @@
     },
     "673:20:6": {
       "episode_key": "městečko south park:s20:e6",
-      "claim": {
-        "worker_id": "39dd610866f04ec28ab0fddc967398a8-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:46:00.647174+00:00",
-        "lease_expires_at": "2026-10-30T21:46:00.647185+00:00"
-      },
       "source": {
         "source_id": "34699274",
         "source_url": "https://sdilej.cz/34699274/mestecko-south-park-s20e06-10-2016-cz-dab-1080p-fort-collins.mkv",
@@ -48881,15 +48875,22 @@
         "display_name": "South Park S20E06 Fort Collins 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:46:04.203845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639044",
-        "size_bytes": 258744002
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639044",
+          "size_bytes": 258744002,
+          "source_bytes_read": 258744002,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699274",
+        "source_url": "https://sdilej.cz/34699274/mestecko-south-park-s20e06-10-2016-cz-dab-1080p-fort-collins.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639044",
-        "size_bytes": 258744002,
-        "source_bytes_read": 258744002,
-        "http_status": 201
+        "display_name": "South Park S20E06 Fort Collins 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:47:21.075087+00:00"
       }
     },
     "673:20:7": {
@@ -48941,5 +48942,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:47:17.531612+00:00"
+  "updated_at": "2026-10-30T15:47:21.075106+00:00"
 }
