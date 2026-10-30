@@ -25030,12 +25030,6 @@
     },
     "1831:2:7": {
       "episode_key": "městečko záhad:s2:e7",
-      "claim": {
-        "worker_id": "02f73a3119a243b6a23241ac6d85e618-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:49:21.783573+00:00",
-        "lease_expires_at": "2026-10-30T11:49:21.783586+00:00"
-      },
       "source": {
         "source_id": "16809238",
         "source_url": "https://sdilej.cz/16809238/mestecko-zahad-s02e07-tajna-spolecnost.mkv",
@@ -25060,15 +25054,22 @@
         "display_name": "Gravity Falls S02E07 Society of the Blind Eye 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:49:24.513572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627410",
-        "size_bytes": 325354402
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627410",
+          "size_bytes": 325354402,
+          "source_bytes_read": 325354402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16809238",
+        "source_url": "https://sdilej.cz/16809238/mestecko-zahad-s02e07-tajna-spolecnost.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627410",
-        "size_bytes": 325354402,
-        "source_bytes_read": 325354402,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E07 Society of the Blind Eye 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:50:25.870979+00:00"
       }
     },
     "1831:2:8": {
@@ -25158,5 +25159,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:50:24.608627+00:00"
+  "updated_at": "2026-10-30T05:50:25.870995+00:00"
 }
