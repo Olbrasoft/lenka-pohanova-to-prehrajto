@@ -30882,12 +30882,6 @@
     },
     "66:3:5": {
       "episode_key": "fargo:s3:e5",
-      "claim": {
-        "worker_id": "f2b8432be37d49f9b42c25783971b556-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:53:22.752451+00:00",
-        "lease_expires_at": "2026-10-30T14:53:22.752464+00:00"
-      },
       "source": {
         "source_id": "28522297",
         "source_url": "https://sdilej.cz/28522297/fargo-s03e05-1080p-cz-dabing.mkv",
@@ -30912,15 +30906,22 @@
         "display_name": "Fargo S03E05 The House of Special Purpose 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:53:24.962351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629874",
-        "size_bytes": 787404729
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629874",
+          "size_bytes": 787404729,
+          "source_bytes_read": 787404729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28522297",
+        "source_url": "https://sdilej.cz/28522297/fargo-s03e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629874",
-        "size_bytes": 787404729,
-        "source_bytes_read": 787404729,
-        "http_status": 201
+        "display_name": "Fargo S03E05 The House of Special Purpose 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:55:23.172265+00:00"
       }
     },
     "66:3:6": {
@@ -30999,5 +31000,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:55:22.022013+00:00"
+  "updated_at": "2026-10-30T08:55:23.172283+00:00"
 }
