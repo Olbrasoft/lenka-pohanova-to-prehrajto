@@ -54956,12 +54956,6 @@
     },
     "1180:1:7": {
       "episode_key": "odpočívej v pokoji:s1:e7",
-      "claim": {
-        "worker_id": "518e9ff5ee0343fab3aff35eb37dd394-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T20:02:27.098238+00:00",
-        "lease_expires_at": "2026-10-31T02:02:27.098249+00:00"
-      },
       "source": {
         "source_id": "25926881",
         "source_url": "https://sdilej.cz/25926881/six.feet.under.s01e07.1080p.cz.en.mkv",
@@ -54986,15 +54980,22 @@
         "display_name": "Six Feet Under S01E07 Brotherhood 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:02:28.771031+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643601",
-        "size_bytes": 1304597921
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643601",
+          "size_bytes": 1304597921,
+          "source_bytes_read": 1304597921,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25926881",
+        "source_url": "https://sdilej.cz/25926881/six.feet.under.s01e07.1080p.cz.en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643601",
-        "size_bytes": 1304597921,
-        "source_bytes_read": 1304597921,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E07 Brotherhood 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:06:47.309812+00:00"
       }
     },
     "1180:1:8": {
@@ -55040,5 +55041,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:06:42.571587+00:00"
+  "updated_at": "2026-10-30T20:06:47.309830+00:00"
 }
