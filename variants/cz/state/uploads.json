@@ -14966,12 +14966,6 @@
     },
     "25:3:7": {
       "episode_key": "volejte saulovi:s3:e7",
-      "claim": {
-        "worker_id": "ff361162634544bfb7194a963014e882-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:51:00.083445+00:00",
-        "lease_expires_at": "2026-10-30T07:51:00.083458+00:00"
-      },
       "source": {
         "source_id": "29535565",
         "source_url": "https://sdilej.cz/29535565/volejte-saulovi-s03e07.mkv",
@@ -14996,15 +14990,22 @@
         "display_name": "Better Call Saul S03E07 Expenses 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:51:01.450819+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623548",
-        "size_bytes": 623348703
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623548",
+          "size_bytes": 623348703,
+          "source_bytes_read": 623348703,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535565",
+        "source_url": "https://sdilej.cz/29535565/volejte-saulovi-s03e07.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623548",
-        "size_bytes": 623348703,
-        "source_bytes_read": 623348703,
-        "http_status": 201
+        "display_name": "Better Call Saul S03E07 Expenses 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:53:30.183142+00:00"
       }
     },
     "25:3:8": {
@@ -15087,5 +15088,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:53:26.755409+00:00"
+  "updated_at": "2026-10-30T01:53:30.183159+00:00"
 }
