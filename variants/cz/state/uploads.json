@@ -61287,12 +61287,6 @@
     },
     "956:4:19": {
       "episode_key": "star trek: nová generace:s4:e19",
-      "claim": {
-        "worker_id": "5de6c3d2483e48ea92feaf3d25938def-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:32:20.070447+00:00",
-        "lease_expires_at": "2026-10-31T05:32:20.070460+00:00"
-      },
       "source": {
         "source_id": "28233494",
         "source_url": "https://sdilej.cz/28233494/star-trek-the-next-generation-s04e19.mkv",
@@ -61317,15 +61311,22 @@
         "display_name": "Star Trek: The Next Generation S04E19 The Nth Degree 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:32:21.726240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648456",
-        "size_bytes": 384639895
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648456",
+          "size_bytes": 384639895,
+          "source_bytes_read": 384639895,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28233494",
+        "source_url": "https://sdilej.cz/28233494/star-trek-the-next-generation-s04e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648456",
-        "size_bytes": 384639895,
-        "source_bytes_read": 384639895,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E19 The Nth Degree 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:33:28.603907+00:00"
       }
     },
     "956:4:20": {
@@ -61407,5 +61408,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:33:26.348956+00:00"
+  "updated_at": "2026-10-30T23:33:28.603923+00:00"
 }
