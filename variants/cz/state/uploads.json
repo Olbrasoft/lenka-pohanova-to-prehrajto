@@ -42325,12 +42325,6 @@
     },
     "673:8:11": {
       "episode_key": "městečko south park:s8:e11",
-      "claim": {
-        "worker_id": "0c3e7e7bf33c4a5c9fc36a5f505fb47a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:07:06.325542+00:00",
-        "lease_expires_at": "2026-10-30T20:07:06.325554+00:00"
-      },
       "source": {
         "source_id": "32965174",
         "source_url": "https://sdilej.cz/32965174/south-park-s08e11.-skolni-zpravy-bydejv.mkv",
@@ -42355,15 +42349,22 @@
         "display_name": "South Park S08E11 Quest for Ratings 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:07:08.182001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637433",
-        "size_bytes": 249224966
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637433",
+          "size_bytes": 249224966,
+          "source_bytes_read": 249224966,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32965174",
+        "source_url": "https://sdilej.cz/32965174/south-park-s08e11.-skolni-zpravy-bydejv.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637433",
-        "size_bytes": 249224966,
-        "source_bytes_read": 249224966,
-        "http_status": 201
+        "display_name": "South Park S08E11 Quest for Ratings 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:08:05.485789+00:00"
       }
     }
   },
@@ -42372,5 +42373,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:08:02.840276+00:00"
+  "updated_at": "2026-10-30T14:08:05.485800+00:00"
 }
