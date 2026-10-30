@@ -38222,12 +38222,6 @@
     },
     "673:2:7": {
       "episode_key": "městečko south park:s2:e7",
-      "claim": {
-        "worker_id": "fd788f9cc7ba487b93aa336e736ad526-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:27:48.643641+00:00",
-        "lease_expires_at": "2026-10-30T19:27:48.643652+00:00"
-      },
       "source": {
         "source_id": "33071717",
         "source_url": "https://sdilej.cz/33071717/mestecko-south-park-s02e07-18-1998-cz-dab-1080p-na-okraji-vecnosti.mkv",
@@ -38252,15 +38246,22 @@
         "display_name": "South Park S02E07 City on the Edge of Forever (Flashbacks) 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:27:50.939118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636306",
-        "size_bytes": 237938863
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636306",
+          "size_bytes": 237938863,
+          "source_bytes_read": 237938863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33071717",
+        "source_url": "https://sdilej.cz/33071717/mestecko-south-park-s02e07-18-1998-cz-dab-1080p-na-okraji-vecnosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636306",
-        "size_bytes": 237938863,
-        "source_bytes_read": 237938863,
-        "http_status": 201
+        "display_name": "South Park S02E07 City on the Edge of Forever (Flashbacks) 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:28:43.917211+00:00"
       }
     }
   },
@@ -38269,5 +38270,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:28:40.499073+00:00"
+  "updated_at": "2026-10-30T13:28:43.917227+00:00"
 }
