@@ -18354,12 +18354,6 @@
     },
     "28:5:3": {
       "episode_key": "rick a morty:s5:e3",
-      "claim": {
-        "worker_id": "360190800f694c2fb683d896c6f5e732-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:47:24.724322+00:00",
-        "lease_expires_at": "2026-10-30T08:47:24.724335+00:00"
-      },
       "source": {
         "source_id": "21589256",
         "source_url": "https://sdilej.cz/21589256/rick-a-morty-s05e03-cz-dabing.mp4",
@@ -18384,15 +18378,22 @@
         "display_name": "Rick and Morty S05E03 A Rickconvenient Mort 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:47:26.357376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624398",
-        "size_bytes": 206194587
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624398",
+          "size_bytes": 206194587,
+          "source_bytes_read": 206194587,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21589256",
+        "source_url": "https://sdilej.cz/21589256/rick-a-morty-s05e03-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624398",
-        "size_bytes": 206194587,
-        "source_bytes_read": 206194587,
-        "http_status": 201
+        "display_name": "Rick and Morty S05E03 A Rickconvenient Mort 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:48:16.507758+00:00"
       }
     },
     "28:5:4": {
@@ -18475,5 +18476,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:48:13.555431+00:00"
+  "updated_at": "2026-10-30T02:48:16.507774+00:00"
 }
