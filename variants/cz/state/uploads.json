@@ -39597,12 +39597,6 @@
     },
     "673:4:5": {
       "episode_key": "městečko south park:s4:e5",
-      "claim": {
-        "worker_id": "07ef9e938ee04b2a8a448877773de4a5-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:42:56.320919+00:00",
-        "lease_expires_at": "2026-10-30T19:42:56.320930+00:00"
-      },
       "source": {
         "source_id": "32876216",
         "source_url": "https://sdilej.cz/32876216/mestecko-south-park-s04e05-17-2000-cz-dab-1080p-cartman-hleda-vyspele-kamose.mkv",
@@ -39627,15 +39621,22 @@
         "display_name": "South Park S04E05 Cartman Joins NAMBLA 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:42:58.240477+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637092",
-        "size_bytes": 247812837
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637092",
+          "size_bytes": 247812837,
+          "source_bytes_read": 247812837,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876216",
+        "source_url": "https://sdilej.cz/32876216/mestecko-south-park-s04e05-17-2000-cz-dab-1080p-cartman-hleda-vyspele-kamose.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637092",
-        "size_bytes": 247812837,
-        "source_bytes_read": 247812837,
-        "http_status": 201
+        "display_name": "South Park S04E05 Cartman Joins NAMBLA 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:43:59.243577+00:00"
       }
     },
     "673:4:6": {
@@ -39681,5 +39682,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:43:57.790910+00:00"
+  "updated_at": "2026-10-30T13:43:59.243597+00:00"
 }
