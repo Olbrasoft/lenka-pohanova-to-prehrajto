@@ -61067,12 +61067,6 @@
     },
     "956:4:14": {
       "episode_key": "star trek: nová generace:s4:e14",
-      "claim": {
-        "worker_id": "2bd6414eabed44f7a8d60668bdc47723-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:30:06.341160+00:00",
-        "lease_expires_at": "2026-10-31T05:30:06.341173+00:00"
-      },
       "source": {
         "source_id": "28165026",
         "source_url": "https://sdilej.cz/28165026/star-trek-nova-generace-s04e14-stopy.mkv",
@@ -61097,15 +61091,22 @@
         "display_name": "Star Trek: The Next Generation S04E14 Clues 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:30:07.916491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648387",
-        "size_bytes": 439052220
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648387",
+          "size_bytes": 439052220,
+          "source_bytes_read": 439052220,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165026",
+        "source_url": "https://sdilej.cz/28165026/star-trek-nova-generace-s04e14-stopy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648387",
-        "size_bytes": 439052220,
-        "source_bytes_read": 439052220,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E14 Clues 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:31:11.372803+00:00"
       }
     },
     "956:4:15": {
@@ -61187,5 +61188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:31:10.024229+00:00"
+  "updated_at": "2026-10-30T23:31:11.372819+00:00"
 }
