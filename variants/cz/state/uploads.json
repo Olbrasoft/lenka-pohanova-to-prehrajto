@@ -24070,12 +24070,6 @@
     },
     "1831:1:4": {
       "episode_key": "městečko záhad:s1:e4",
-      "claim": {
-        "worker_id": "06639421d0dc42cb97edd3a70a3b5d62-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:31:52.735372+00:00",
-        "lease_expires_at": "2026-10-30T11:31:52.735379+00:00"
-      },
       "source": {
         "source_id": "34104074",
         "source_url": "https://sdilej.cz/34104074/mestecko-zahad-gravity-falls-s01e04-cz-dab-rebelant.mp4",
@@ -24100,15 +24094,22 @@
         "display_name": "Gravity Falls S01E04 The Hand That Rocks the Mabel 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:31:55.990704+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627118",
-        "size_bytes": 726839458
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627118",
+          "size_bytes": 726839458,
+          "source_bytes_read": 726839458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34104074",
+        "source_url": "https://sdilej.cz/34104074/mestecko-zahad-gravity-falls-s01e04-cz-dab-rebelant.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627118",
-        "size_bytes": 726839458,
-        "source_bytes_read": 726839458,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E04 The Hand That Rocks the Mabel 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:34:24.942956+00:00"
       }
     },
     "1831:1:5": {
@@ -24285,5 +24286,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:34:23.599636+00:00"
+  "updated_at": "2026-10-30T05:34:24.942973+00:00"
 }
