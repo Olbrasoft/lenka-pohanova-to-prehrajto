@@ -44172,12 +44172,6 @@
     },
     "673:11:11": {
       "episode_key": "městečko south park:s11:e11",
-      "claim": {
-        "worker_id": "e7d899e9fed34b02af429a7dafbf338a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:40:32.636728+00:00",
-        "lease_expires_at": "2026-10-30T20:40:32.636740+00:00"
-      },
       "source": {
         "source_id": "32919652",
         "source_url": "https://sdilej.cz/32919652/mestecko-south-park-s11e11-14-2007-cz-dab-1080p-rise-fantazie-2.-cast-.mkv",
@@ -44202,15 +44196,22 @@
         "display_name": "South Park S11E11 Imaginationland, Episode II 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:40:34.385231+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638045",
-        "size_bytes": 304759467
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638045",
+          "size_bytes": 304759467,
+          "source_bytes_read": 304759467,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32919652",
+        "source_url": "https://sdilej.cz/32919652/mestecko-south-park-s11e11-14-2007-cz-dab-1080p-rise-fantazie-2.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638045",
-        "size_bytes": 304759467,
-        "source_bytes_read": 304759467,
-        "http_status": 201
+        "display_name": "South Park S11E11 Imaginationland, Episode II 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:41:26.135411+00:00"
       }
     },
     "673:11:12": {
@@ -44293,5 +44294,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:41:21.397308+00:00"
+  "updated_at": "2026-10-30T14:41:26.135429+00:00"
 }
