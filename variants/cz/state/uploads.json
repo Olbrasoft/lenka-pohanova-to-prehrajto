@@ -60615,12 +60615,6 @@
     },
     "956:4:4": {
       "episode_key": "star trek: nová generace:s4:e4",
-      "claim": {
-        "worker_id": "9925a0ccd1da49fd9c2d49920a1dd9a5-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:13:08.037663+00:00",
-        "lease_expires_at": "2026-10-31T05:13:08.037673+00:00"
-      },
       "source": {
         "source_id": "28164605",
         "source_url": "https://sdilej.cz/28164605/star-trek-nova-generace-s04e04-nahle-clovekem.mkv",
@@ -60645,15 +60639,22 @@
         "display_name": "Star Trek: The Next Generation S04E04 Suddenly Human 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:13:11.829955+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647891",
-        "size_bytes": 439006765
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647891",
+          "size_bytes": 439006765,
+          "source_bytes_read": 439006765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164605",
+        "source_url": "https://sdilej.cz/28164605/star-trek-nova-generace-s04e04-nahle-clovekem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647891",
-        "size_bytes": 439006765,
-        "source_bytes_read": 439006765,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E04 Suddenly Human 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:14:37.717282+00:00"
       }
     },
     "956:4:5": {
@@ -60699,5 +60700,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:14:35.838679+00:00"
+  "updated_at": "2026-10-30T23:14:37.717297+00:00"
 }
