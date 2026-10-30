@@ -31366,12 +31366,6 @@
     },
     "66:4:6": {
       "episode_key": "fargo:s4:e6",
-      "claim": {
-        "worker_id": "7bf9641270a84c2aab38cafb0477a369-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:03:10.714568+00:00",
-        "lease_expires_at": "2026-10-30T15:03:10.714582+00:00"
-      },
       "source": {
         "source_id": "28991371",
         "source_url": "https://sdilej.cz/28991371/fargo-s04e06-2020-cz.mkv",
@@ -31396,15 +31390,22 @@
         "display_name": "Fargo S04E06 Camp Elegance 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:03:12.335055+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629983",
-        "size_bytes": 486261131
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629983",
+          "size_bytes": 486261131,
+          "source_bytes_read": 486261131,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28991371",
+        "source_url": "https://sdilej.cz/28991371/fargo-s04e06-2020-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629983",
-        "size_bytes": 486261131,
-        "source_bytes_read": 486261131,
-        "http_status": 201
+        "display_name": "Fargo S04E06 Camp Elegance 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:04:59.435281+00:00"
       }
     },
     "66:4:7": {
@@ -31487,5 +31488,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:04:55.205366+00:00"
+  "updated_at": "2026-10-30T09:04:59.435301+00:00"
 }
