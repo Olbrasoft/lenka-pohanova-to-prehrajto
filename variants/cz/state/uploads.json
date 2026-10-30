@@ -61903,12 +61903,6 @@
     },
     "956:5:7": {
       "episode_key": "star trek: nová generace:s5:e7",
-      "claim": {
-        "worker_id": "63f56a1210be4302aed680369fda6a53-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:43:18.522873+00:00",
-        "lease_expires_at": "2026-10-31T05:43:18.522881+00:00"
-      },
       "source": {
         "source_id": "28165231",
         "source_url": "https://sdilej.cz/28165231/star-trek-nova-generace-s05e07-sjednoceni-1.-cast-.mkv",
@@ -61933,15 +61927,22 @@
         "display_name": "Star Trek: The Next Generation S05E07 Unification (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:43:22.473093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648873",
-        "size_bytes": 441910794
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648873",
+          "size_bytes": 441910794,
+          "source_bytes_read": 441910794,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165231",
+        "source_url": "https://sdilej.cz/28165231/star-trek-nova-generace-s05e07-sjednoceni-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648873",
-        "size_bytes": 441910794,
-        "source_bytes_read": 441910794,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E07 Unification (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:44:27.814713+00:00"
       }
     },
     "956:5:8": {
@@ -62024,5 +62025,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:44:24.875899+00:00"
+  "updated_at": "2026-10-30T23:44:27.814728+00:00"
 }
