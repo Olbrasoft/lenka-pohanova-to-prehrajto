@@ -15142,12 +15142,6 @@
     },
     "25:4:1": {
       "episode_key": "volejte saulovi:s4:e1",
-      "claim": {
-        "worker_id": "13ab1222b3c04bf59b5eb3cf86c7061a-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:54:07.448381+00:00",
-        "lease_expires_at": "2026-10-30T07:54:07.448392+00:00"
-      },
       "source": {
         "source_id": "29535587",
         "source_url": "https://sdilej.cz/29535587/volejte-saulovi-s04e01.mkv",
@@ -15172,15 +15166,22 @@
         "display_name": "Better Call Saul S04E01 Smoke 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:54:08.790741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623592",
-        "size_bytes": 624996652
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623592",
+          "size_bytes": 624996652,
+          "source_bytes_read": 624996652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535587",
+        "source_url": "https://sdilej.cz/29535587/volejte-saulovi-s04e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623592",
-        "size_bytes": 624996652,
-        "source_bytes_read": 624996652,
-        "http_status": 201
+        "display_name": "Better Call Saul S04E01 Smoke 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:56:13.774329+00:00"
       }
     },
     "25:4:2": {
@@ -15270,5 +15271,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:56:11.132212+00:00"
+  "updated_at": "2026-10-30T01:56:13.774350+00:00"
 }
