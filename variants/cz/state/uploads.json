@@ -27663,12 +27663,6 @@
     },
     "4704:7:1": {
       "episode_key": "západní křídlo:s7:e1",
-      "claim": {
-        "worker_id": "9f5eddb5c2a04a09a305fcb68b4cf75f-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:40:53.247076+00:00",
-        "lease_expires_at": "2026-10-30T13:40:53.247084+00:00"
-      },
       "source": {
         "source_id": "29331181",
         "source_url": "https://sdilej.cz/29331181/zapadni-kridlo-s07e01.mkv",
@@ -27693,15 +27687,22 @@
         "display_name": "The West Wing S07E01 The Ticket 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:40:55.994391+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628879",
-        "size_bytes": 595677238
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628879",
+          "size_bytes": 595677238,
+          "source_bytes_read": 595677238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29331181",
+        "source_url": "https://sdilej.cz/29331181/zapadni-kridlo-s07e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628879",
-        "size_bytes": 595677238,
-        "source_bytes_read": 595677238,
-        "http_status": 201
+        "display_name": "The West Wing S07E01 The Ticket 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:42:54.807105+00:00"
       }
     }
   },
@@ -27710,5 +27711,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:42:50.924694+00:00"
+  "updated_at": "2026-10-30T07:42:54.807124+00:00"
 }
