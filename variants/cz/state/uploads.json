@@ -60347,12 +60347,6 @@
     },
     "956:3:24": {
       "episode_key": "star trek: nová generace:s3:e24",
-      "claim": {
-        "worker_id": "8d6b077fc73a4560bb3abd30b797dca1-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:59:32.198178+00:00",
-        "lease_expires_at": "2026-10-31T04:59:32.198189+00:00"
-      },
       "source": {
         "source_id": "28164523",
         "source_url": "https://sdilej.cz/28164523/star-trek-nova-generace-s03e24-milostny-trojuhelnik-pani-troi.mkv",
@@ -60377,15 +60371,22 @@
         "display_name": "Star Trek: The Next Generation S03E24 Ménage à Troi 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:59:34.791295+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647537",
-        "size_bytes": 460450949
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647537",
+          "size_bytes": 460450949,
+          "source_bytes_read": 460450949,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164523",
+        "source_url": "https://sdilej.cz/28164523/star-trek-nova-generace-s03e24-milostny-trojuhelnik-pani-troi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647537",
-        "size_bytes": 460450949,
-        "source_bytes_read": 460450949,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E24 Ménage à Troi 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:01:06.072685+00:00"
       }
     },
     "956:3:25": {
@@ -60473,5 +60474,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:01:04.784374+00:00"
+  "updated_at": "2026-10-30T23:01:06.072701+00:00"
 }
