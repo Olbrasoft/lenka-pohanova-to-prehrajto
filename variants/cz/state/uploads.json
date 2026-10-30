@@ -17650,12 +17650,6 @@
     },
     "28:3:7": {
       "episode_key": "rick a morty:s3:e7",
-      "claim": {
-        "worker_id": "2b6f77ab9e6e40bf8f6881142b636475-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:39:23.872791+00:00",
-        "lease_expires_at": "2026-10-30T08:39:23.872802+00:00"
-      },
       "source": {
         "source_id": "34922937",
         "source_url": "https://sdilej.cz/34922937/rick-and-morty-s03e07-czen-dabing.mp4",
@@ -17680,15 +17674,22 @@
         "display_name": "Rick and Morty S03E07 The Ricklantis Mixup 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:39:25.526273+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624296",
-        "size_bytes": 267345323
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624296",
+          "size_bytes": 267345323,
+          "source_bytes_read": 267345323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34922937",
+        "source_url": "https://sdilej.cz/34922937/rick-and-morty-s03e07-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624296",
-        "size_bytes": 267345323,
-        "source_bytes_read": 267345323,
-        "http_status": 201
+        "display_name": "Rick and Morty S03E07 The Ricklantis Mixup 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:40:33.708963+00:00"
       }
     },
     "28:3:8": {
@@ -17766,5 +17767,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:40:32.389338+00:00"
+  "updated_at": "2026-10-30T02:40:33.708979+00:00"
 }
