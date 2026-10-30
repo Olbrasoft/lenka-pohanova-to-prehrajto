@@ -58648,12 +58648,6 @@
     },
     "956:2:7": {
       "episode_key": "star trek: nová generace:s2:e7",
-      "claim": {
-        "worker_id": "16b4dffb49794fdaa5e7551f41e7b32f-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:28:06.190144+00:00",
-        "lease_expires_at": "2026-10-31T04:28:06.190157+00:00"
-      },
       "source": {
         "source_id": "28163872",
         "source_url": "https://sdilej.cz/28163872/star-trek-nova-generace-s02e07-neprirozeny-vyber.mkv",
@@ -58678,15 +58672,22 @@
         "display_name": "Star Trek: The Next Generation S02E07 Unnatural Selection 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:28:07.743248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646732",
-        "size_bytes": 564158901
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646732",
+          "size_bytes": 564158901,
+          "source_bytes_read": 564158901,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163872",
+        "source_url": "https://sdilej.cz/28163872/star-trek-nova-generace-s02e07-neprirozeny-vyber.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646732",
-        "size_bytes": 564158901,
-        "source_bytes_read": 564158901,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E07 Unnatural Selection 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:29:49.848753+00:00"
       }
     },
     "956:2:8": {
@@ -58769,5 +58770,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:29:46.763028+00:00"
+  "updated_at": "2026-10-30T22:29:49.848769+00:00"
 }
