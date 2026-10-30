@@ -58817,12 +58817,6 @@
     },
     "956:2:11": {
       "episode_key": "star trek: nová generace:s2:e11",
-      "claim": {
-        "worker_id": "05c6c2b44e374b0f8f59bbec4dcbcb83-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:30:07.135988+00:00",
-        "lease_expires_at": "2026-10-31T04:30:07.135999+00:00"
-      },
       "source": {
         "source_id": "28232952",
         "source_url": "https://sdilej.cz/28232952/star-trek-the-next-generation-s02e11.mkv",
@@ -58847,15 +58841,22 @@
         "display_name": "Star Trek: The Next Generation S02E11 Contagion 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:30:09.530048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646788",
-        "size_bytes": 384184249
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646788",
+          "size_bytes": 384184249,
+          "source_bytes_read": 384184249,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28232952",
+        "source_url": "https://sdilej.cz/28232952/star-trek-the-next-generation-s02e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646788",
-        "size_bytes": 384184249,
-        "source_bytes_read": 384184249,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E11 Contagion 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:31:19.435485+00:00"
       }
     },
     "956:2:12": {
@@ -58901,5 +58902,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:31:17.024536+00:00"
+  "updated_at": "2026-10-30T22:31:19.435502+00:00"
 }
