@@ -25155,12 +25155,6 @@
     },
     "1831:2:11": {
       "episode_key": "městečko záhad:s2:e11",
-      "claim": {
-        "worker_id": "3aa5fe21dc53470981a48ac9b0d7e4d5-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:50:33.806225+00:00",
-        "lease_expires_at": "2026-10-30T11:50:33.806238+00:00"
-      },
       "source": {
         "source_id": "21447855",
         "source_url": "https://sdilej.cz/21447855/mestecko-zahad-gravity-falls-s02e11-hd-cz-dabing.mkv",
@@ -25185,15 +25179,22 @@
         "display_name": "Gravity Falls S02E11 Not What He Seems 1080p CZ Dabing",
         "prepared_at": "2026-10-30T05:50:35.483822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627430",
-        "size_bytes": 1444837947
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627430",
+          "size_bytes": 1444837947,
+          "source_bytes_read": 1444837947,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21447855",
+        "source_url": "https://sdilej.cz/21447855/mestecko-zahad-gravity-falls-s02e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627430",
-        "size_bytes": 1444837947,
-        "source_bytes_read": 1444837947,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E11 Not What He Seems 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:54:36.859517+00:00"
       }
     },
     "1831:2:12": {
@@ -25239,5 +25240,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:54:31.091807+00:00"
+  "updated_at": "2026-10-30T05:54:36.859535+00:00"
 }
