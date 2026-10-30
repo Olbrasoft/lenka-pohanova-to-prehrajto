@@ -52021,12 +52021,6 @@
     },
     "40:3:5": {
       "episode_key": "městečko twin peaks:s3:e5",
-      "claim": {
-        "worker_id": "147de127acd5401cb859e82d23248db8-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:29:08.397452+00:00",
-        "lease_expires_at": "2026-10-30T23:29:08.397463+00:00"
-      },
       "source": {
         "source_id": "33238809",
         "source_url": "https://sdilej.cz/33238809/mestecko-twin-peaks-s03e05-case-files.mkv",
@@ -52051,15 +52045,22 @@
         "display_name": "Twin Peaks S03E05 Part 5 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:29:10.075198+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640938",
-        "size_bytes": 1261727940
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640938",
+          "size_bytes": 1261727940,
+          "source_bytes_read": 1261727940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238809",
+        "source_url": "https://sdilej.cz/33238809/mestecko-twin-peaks-s03e05-case-files.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640938",
-        "size_bytes": 1261727940,
-        "source_bytes_read": 1261727940,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E05 Part 5 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:33:23.890707+00:00"
       }
     },
     "40:3:6": {
@@ -52105,5 +52106,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:33:22.570350+00:00"
+  "updated_at": "2026-10-30T17:33:23.890727+00:00"
 }
