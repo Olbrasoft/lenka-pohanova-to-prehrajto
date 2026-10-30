@@ -50431,12 +50431,6 @@
     },
     "673:24:2": {
       "episode_key": "městečko south park:s24:e2",
-      "claim": {
-        "worker_id": "9cfbecdfce674060b0fab08fc2419885-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:11:12.998988+00:00",
-        "lease_expires_at": "2026-10-30T22:11:12.998999+00:00"
-      },
       "source": {
         "source_id": "32893382",
         "source_url": "https://sdilej.cz/32893382/mestecko-south-park-s24e02-02-2020-cz-dab-1080p-ockovaci-special.mkv",
@@ -50461,15 +50455,22 @@
         "display_name": "South Park S24E02 South ParQ Vaccination Special 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:11:15.039355+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639370",
-        "size_bytes": 548051283
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639370",
+          "size_bytes": 548051283,
+          "source_bytes_read": 548051283,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893382",
+        "source_url": "https://sdilej.cz/32893382/mestecko-south-park-s24e02-02-2020-cz-dab-1080p-ockovaci-special.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639370",
-        "size_bytes": 548051283,
-        "source_bytes_read": 548051283,
-        "http_status": 201
+        "display_name": "South Park S24E02 South ParQ Vaccination Special 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:13:37.930319+00:00"
       }
     },
     "40:1:1": {
@@ -50515,5 +50516,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:13:33.861969+00:00"
+  "updated_at": "2026-10-30T16:13:37.930336+00:00"
 }
