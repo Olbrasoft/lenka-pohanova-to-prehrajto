@@ -14746,12 +14746,6 @@
     },
     "25:3:2": {
       "episode_key": "volejte saulovi:s3:e2",
-      "claim": {
-        "worker_id": "7397503740e14b0383d7fe906d5b2087-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:47:34.376909+00:00",
-        "lease_expires_at": "2026-10-30T07:47:34.376921+00:00"
-      },
       "source": {
         "source_id": "29535551",
         "source_url": "https://sdilej.cz/29535551/volejte-saulovi-s03e02.mkv",
@@ -14776,15 +14770,22 @@
         "display_name": "Better Call Saul S03E02 Witness 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:47:35.797496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623497",
-        "size_bytes": 539554654
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623497",
+          "size_bytes": 539554654,
+          "source_bytes_read": 539554654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535551",
+        "source_url": "https://sdilej.cz/29535551/volejte-saulovi-s03e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623497",
-        "size_bytes": 539554654,
-        "source_bytes_read": 539554654,
-        "http_status": 201
+        "display_name": "Better Call Saul S03E02 Witness 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:49:44.655853+00:00"
       }
     },
     "25:3:3": {
@@ -14867,5 +14868,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:49:40.052096+00:00"
+  "updated_at": "2026-10-30T01:49:44.655870+00:00"
 }
