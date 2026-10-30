@@ -32642,12 +32642,6 @@
     },
     "1927:2:4": {
       "episode_key": "boj o moc:s2:e4",
-      "claim": {
-        "worker_id": "90419dafa075407f93607d1fd4cce302-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T09:42:02.155370+00:00",
-        "lease_expires_at": "2026-10-30T15:42:02.155381+00:00"
-      },
       "source": {
         "source_id": "26251377",
         "source_url": "https://sdilej.cz/26251377/succession.s02e04.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -32672,15 +32666,22 @@
         "display_name": "Succession S02E04 Safe Room 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:42:03.622871+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630451",
-        "size_bytes": 1813839318
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630451",
+          "size_bytes": 1813839318,
+          "source_bytes_read": 1813839318,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26251377",
+        "source_url": "https://sdilej.cz/26251377/succession.s02e04.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630451",
-        "size_bytes": 1813839318,
-        "source_bytes_read": 1813839318,
-        "http_status": 201
+        "display_name": "Succession S02E04 Safe Room 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:47:06.619092+00:00"
       }
     },
     "1927:2:5": {
@@ -32726,5 +32727,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:47:03.245309+00:00"
+  "updated_at": "2026-10-30T09:47:06.619108+00:00"
 }
