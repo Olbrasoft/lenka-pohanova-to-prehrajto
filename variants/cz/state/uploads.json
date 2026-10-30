@@ -38184,12 +38184,6 @@
     },
     "673:2:6": {
       "episode_key": "městečko south park:s2:e6",
-      "claim": {
-        "worker_id": "e54662ab89a146d4869db105d0431e8c-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:27:42.758160+00:00",
-        "lease_expires_at": "2026-10-30T19:27:42.758171+00:00"
-      },
       "source": {
         "source_id": "33507171",
         "source_url": "https://sdilej.cz/33507171/mestecko-south-park-s02e06-18-1998-cz-dab-1080p-mexicka-uhranciva-zaba-z-jizni-sri-lanky.mkv",
@@ -38214,15 +38208,22 @@
         "display_name": "South Park S02E06 The Mexican Staring Frog of Southern Sri Lanka 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:27:44.928048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636299",
-        "size_bytes": 237660581
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636299",
+          "size_bytes": 237660581,
+          "source_bytes_read": 237660581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507171",
+        "source_url": "https://sdilej.cz/33507171/mestecko-south-park-s02e06-18-1998-cz-dab-1080p-mexicka-uhranciva-zaba-z-jizni-sri-lanky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636299",
-        "size_bytes": 237660581,
-        "source_bytes_read": 237660581,
-        "http_status": 201
+        "display_name": "South Park S02E06 The Mexican Staring Frog of Southern Sri Lanka 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:28:39.148804+00:00"
       }
     },
     "673:2:7": {
@@ -38274,5 +38275,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:28:37.734003+00:00"
+  "updated_at": "2026-10-30T13:28:39.148820+00:00"
 }
