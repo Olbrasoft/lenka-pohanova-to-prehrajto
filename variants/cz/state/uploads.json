@@ -46164,12 +46164,6 @@
     },
     "673:15:1": {
       "episode_key": "městečko south park:s15:e1",
-      "claim": {
-        "worker_id": "aa765199b59c4216b3de13d8ead069c9-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:06:34.601343+00:00",
-        "lease_expires_at": "2026-10-30T21:06:34.601353+00:00"
-      },
       "source": {
         "source_id": "32893003",
         "source_url": "https://sdilej.cz/32893003/mestecko-south-park-s15e01-14-2011-cz-dab-1080p-ipadnozka.mkv",
@@ -46194,15 +46188,22 @@
         "display_name": "South Park S15E01 HUMANCENTiPAD 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:06:36.808237+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638459",
-        "size_bytes": 249427760
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638459",
+          "size_bytes": 249427760,
+          "source_bytes_read": 249427760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893003",
+        "source_url": "https://sdilej.cz/32893003/mestecko-south-park-s15e01-14-2011-cz-dab-1080p-ipadnozka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638459",
-        "size_bytes": 249427760,
-        "source_bytes_read": 249427760,
-        "http_status": 201
+        "display_name": "South Park S15E01 HUMANCENTiPAD 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:07:25.900901+00:00"
       }
     }
   },
@@ -46211,5 +46212,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:07:21.390691+00:00"
+  "updated_at": "2026-10-30T15:07:25.900919+00:00"
 }
