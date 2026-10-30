@@ -47913,12 +47913,6 @@
     },
     "673:18:4": {
       "episode_key": "městečko south park:s18:e4",
-      "claim": {
-        "worker_id": "66e00a56de894ceb92a5465133207ddc-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:28:23.620420+00:00",
-        "lease_expires_at": "2026-10-30T21:28:23.620432+00:00"
-      },
       "source": {
         "source_id": "33075681",
         "source_url": "https://sdilej.cz/33075681/mestecko-south-park-s18e04-10-2014-cz-dab-1080p-handicar.mkv",
@@ -47943,15 +47937,22 @@
         "display_name": "South Park S18E04 Handicar 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:28:26.424918+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638806",
-        "size_bytes": 269803663
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638806",
+          "size_bytes": 269803663,
+          "source_bytes_read": 269803663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33075681",
+        "source_url": "https://sdilej.cz/33075681/mestecko-south-park-s18e04-10-2014-cz-dab-1080p-handicar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638806",
-        "size_bytes": 269803663,
-        "source_bytes_read": 269803663,
-        "http_status": 201
+        "display_name": "South Park S18E04 Handicar 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:29:36.767310+00:00"
       }
     },
     "673:18:5": {
@@ -48002,5 +48003,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:29:35.309834+00:00"
+  "updated_at": "2026-10-30T15:29:36.767329+00:00"
 }
