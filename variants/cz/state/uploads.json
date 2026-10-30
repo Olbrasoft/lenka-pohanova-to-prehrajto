@@ -40301,12 +40301,6 @@
     },
     "673:5:6": {
       "episode_key": "městečko south park:s5:e6",
-      "claim": {
-        "worker_id": "8f440736bcce45eb9678dee47f79cf32-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:48:40.186956+00:00",
-        "lease_expires_at": "2026-10-30T19:48:40.186968+00:00"
-      },
       "source": {
         "source_id": "33507386",
         "source_url": "https://sdilej.cz/33507386/mestecko-south-park-s05e06-14-2001-cz-dab-1080p-cartmanland.mkv",
@@ -40331,15 +40325,22 @@
         "display_name": "South Park S05E06 Cartmanland 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:48:42.034688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637169",
-        "size_bytes": 253942628
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637169",
+          "size_bytes": 253942628,
+          "source_bytes_read": 253942628,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507386",
+        "source_url": "https://sdilej.cz/33507386/mestecko-south-park-s05e06-14-2001-cz-dab-1080p-cartmanland.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637169",
-        "size_bytes": 253942628,
-        "source_bytes_read": 253942628,
-        "http_status": 201
+        "display_name": "South Park S05E06 Cartmanland 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:49:44.915026+00:00"
       }
     },
     "673:5:7": {
@@ -40462,5 +40463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:49:42.349094+00:00"
+  "updated_at": "2026-10-30T13:49:44.915042+00:00"
 }
