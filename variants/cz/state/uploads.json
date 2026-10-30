@@ -14526,12 +14526,6 @@
     },
     "25:2:7": {
       "episode_key": "volejte saulovi:s2:e7",
-      "claim": {
-        "worker_id": "1b86e1543c4c4a4eaed8b77ff0ff7907-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:39:29.068232+00:00",
-        "lease_expires_at": "2026-10-30T07:39:29.068244+00:00"
-      },
       "source": {
         "source_id": "30974659",
         "source_url": "https://sdilej.cz/30974659/volejte-saulovi-better-call-saul-s02e07-cz.mkv",
@@ -14556,15 +14550,22 @@
         "display_name": "Better Call Saul S02E07 Inflatable 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:39:30.399070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623417",
-        "size_bytes": 1441555416
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623417",
+          "size_bytes": 1441555416,
+          "source_bytes_read": 1441555416,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974659",
+        "source_url": "https://sdilej.cz/30974659/volejte-saulovi-better-call-saul-s02e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623417",
-        "size_bytes": 1441555416,
-        "source_bytes_read": 1441555416,
-        "http_status": 201
+        "display_name": "Better Call Saul S02E07 Inflatable 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:44:18.721373+00:00"
       }
     },
     "25:2:8": {
@@ -14647,5 +14648,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:44:15.545159+00:00"
+  "updated_at": "2026-10-30T01:44:18.721391+00:00"
 }
