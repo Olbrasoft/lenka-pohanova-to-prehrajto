@@ -16066,12 +16066,6 @@
     },
     "25:6:2": {
       "episode_key": "volejte saulovi:s6:e2",
-      "claim": {
-        "worker_id": "de99984d79334ef28b78b2863dd8b174-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:17:35.866722+00:00",
-        "lease_expires_at": "2026-10-30T08:17:35.866737+00:00"
-      },
       "source": {
         "source_id": "29544026",
         "source_url": "https://sdilej.cz/29544026/volejte-saulovi-s06e02.mkv",
@@ -16096,15 +16090,22 @@
         "display_name": "Better Call Saul S06E02 Carrot and Stick 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:17:37.341549+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623943",
-        "size_bytes": 470809590
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623943",
+          "size_bytes": 470809590,
+          "source_bytes_read": 470809590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544026",
+        "source_url": "https://sdilej.cz/29544026/volejte-saulovi-s06e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623943",
-        "size_bytes": 470809590,
-        "source_bytes_read": 470809590,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E02 Carrot and Stick 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:19:23.103694+00:00"
       }
     },
     "25:6:4": {
@@ -16187,5 +16188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:19:19.038014+00:00"
+  "updated_at": "2026-10-30T02:19:23.103713+00:00"
 }
