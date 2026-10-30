@@ -49711,12 +49711,6 @@
     },
     "673:22:6": {
       "episode_key": "městečko south park:s22:e6",
-      "claim": {
-        "worker_id": "ca1ff6d958eb42279d7f928d3dbac0a0-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:59:53.765439+00:00",
-        "lease_expires_at": "2026-10-30T21:59:53.765449+00:00"
-      },
       "source": {
         "source_id": "34699364",
         "source_url": "https://sdilej.cz/34699364/mestecko-south-park-s22e06-10-2018-cz-dab-1080p-cas-brat-to-vlazne.mkv",
@@ -49741,15 +49735,22 @@
         "display_name": "South Park S22E06 Time to Get Cereal 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:59:58.033898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639218",
-        "size_bytes": 252089027
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639218",
+          "size_bytes": 252089027,
+          "source_bytes_read": 252089027,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699364",
+        "source_url": "https://sdilej.cz/34699364/mestecko-south-park-s22e06-10-2018-cz-dab-1080p-cas-brat-to-vlazne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639218",
-        "size_bytes": 252089027,
-        "source_bytes_read": 252089027,
-        "http_status": 201
+        "display_name": "South Park S22E06 Time to Get Cereal 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:01:11.054601+00:00"
       }
     },
     "673:22:7": {
@@ -49802,5 +49803,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:01:09.656930+00:00"
+  "updated_at": "2026-10-30T16:01:11.054620+00:00"
 }
