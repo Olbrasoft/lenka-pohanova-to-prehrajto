@@ -41218,12 +41218,6 @@
     },
     "673:6:16": {
       "episode_key": "městečko south park:s6:e16",
-      "claim": {
-        "worker_id": "1590921d9e8e48e090a00d7d7e85287e-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:54:41.240195+00:00",
-        "lease_expires_at": "2026-10-30T19:54:41.240209+00:00"
-      },
       "source": {
         "source_id": "33507458",
         "source_url": "https://sdilej.cz/33507458/mestecko-south-park-s06e16-17-2002-cz-dab-1080p-ja-a-me-budouci-ja.mkv",
@@ -41248,15 +41242,22 @@
         "display_name": "South Park S06E16 My Future Self n' Me 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:54:43.161217+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637252",
-        "size_bytes": 249612586
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637252",
+          "size_bytes": 249612586,
+          "source_bytes_read": 249612586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507458",
+        "source_url": "https://sdilej.cz/33507458/mestecko-south-park-s06e16-17-2002-cz-dab-1080p-ja-a-me-budouci-ja.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637252",
-        "size_bytes": 249612586,
-        "source_bytes_read": 249612586,
-        "http_status": 201
+        "display_name": "South Park S06E16 My Future Self n' Me 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:55:45.023184+00:00"
       }
     }
   },
@@ -41265,5 +41266,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:55:43.632174+00:00"
+  "updated_at": "2026-10-30T13:55:45.023199+00:00"
 }
