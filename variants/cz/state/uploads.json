@@ -20246,12 +20246,6 @@
     },
     "28:9:6": {
       "episode_key": "rick a morty:s9:e6",
-      "claim": {
-        "worker_id": "626aedff029545c78d42b187db3ac067-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T03:09:03.970597+00:00",
-        "lease_expires_at": "2026-10-30T09:09:03.970607+00:00"
-      },
       "source": {
         "source_id": "34889929",
         "source_url": "https://sdilej.cz/34889929/rick-a-morty-s09e06-rickaci-hlava-cz.mkv",
@@ -20276,15 +20270,22 @@
         "display_name": "Rick and Morty S09E06 Erickerhead 1080p CZ Dabing",
         "prepared_at": "2026-10-30T03:09:05.665183+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624684",
-        "size_bytes": 365530065
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624684",
+          "size_bytes": 365530065,
+          "source_bytes_read": 365530065,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34889929",
+        "source_url": "https://sdilej.cz/34889929/rick-a-morty-s09e06-rickaci-hlava-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624684",
-        "size_bytes": 365530065,
-        "source_bytes_read": 365530065,
-        "http_status": 201
+        "display_name": "Rick and Morty S09E06 Erickerhead 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T03:10:23.258414+00:00"
       }
     },
     "28:9:10": {
@@ -20363,5 +20364,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T03:10:22.011347+00:00"
+  "updated_at": "2026-10-30T03:10:23.258435+00:00"
 }
