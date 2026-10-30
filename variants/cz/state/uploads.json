@@ -57779,12 +57779,6 @@
     },
     "956:1:12": {
       "episode_key": "star trek: nová generace:s1:e12",
-      "claim": {
-        "worker_id": "502fea13d1b342148569a50e2d14351a-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:12:06.208848+00:00",
-        "lease_expires_at": "2026-10-31T04:12:06.208859+00:00"
-      },
       "source": {
         "source_id": "28163465",
         "source_url": "https://sdilej.cz/28163465/star-trek-nova-generace-s01e12-posledni-sbohem.mkv",
@@ -57809,15 +57803,22 @@
         "display_name": "Star Trek: The Next Generation S01E12 Datalore 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:12:10.083331+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646410",
-        "size_bytes": 461078995
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646410",
+          "size_bytes": 461078995,
+          "source_bytes_read": 461078995,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163465",
+        "source_url": "https://sdilej.cz/28163465/star-trek-nova-generace-s01e12-posledni-sbohem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646410",
-        "size_bytes": 461078995,
-        "source_bytes_read": 461078995,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E12 Datalore 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:14:07.027646+00:00"
       }
     },
     "956:1:13": {
@@ -57900,5 +57901,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:14:02.728520+00:00"
+  "updated_at": "2026-10-30T22:14:07.027663+00:00"
 }
