@@ -18259,12 +18259,6 @@
     },
     "28:5:1": {
       "episode_key": "rick a morty:s5:e1",
-      "claim": {
-        "worker_id": "9e146145fcc04b6cab64bc62c26efeb5-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:46:16.712202+00:00",
-        "lease_expires_at": "2026-10-30T08:46:16.712213+00:00"
-      },
       "source": {
         "source_id": "23221877",
         "source_url": "https://sdilej.cz/23221877/rick-a-morty-s05e01-cz-dabing.mp4",
@@ -18289,15 +18283,22 @@
         "display_name": "Rick and Morty S05E01 Mort Dinner Rick Andre 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:46:18.371361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624383",
-        "size_bytes": 195749200
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624383",
+          "size_bytes": 195749200,
+          "source_bytes_read": 195749200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23221877",
+        "source_url": "https://sdilej.cz/23221877/rick-a-morty-s05e01-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624383",
-        "size_bytes": 195749200,
-        "source_bytes_read": 195749200,
-        "http_status": 201
+        "display_name": "Rick and Morty S05E01 Mort Dinner Rick Andre 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:47:17.011616+00:00"
       }
     },
     "28:5:2": {
@@ -18343,5 +18344,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:47:13.503972+00:00"
+  "updated_at": "2026-10-30T02:47:17.011631+00:00"
 }
