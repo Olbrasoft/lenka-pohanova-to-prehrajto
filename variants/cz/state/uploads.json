@@ -48159,12 +48159,6 @@
     },
     "673:18:10": {
       "episode_key": "městečko south park:s18:e10",
-      "claim": {
-        "worker_id": "ed92cb4c93eb4d0b9bf72effec8cbecb-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:35:51.026722+00:00",
-        "lease_expires_at": "2026-10-30T21:35:51.026736+00:00"
-      },
       "source": {
         "source_id": "34699220",
         "source_url": "https://sdilej.cz/34699220/mestecko-south-park-s18e10-10-2014-cz-dab-1080p-stastne-hologramy.mkv",
@@ -48189,15 +48183,22 @@
         "display_name": "South Park S18E10 #HappyHolograms 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:35:55.432779+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638910",
-        "size_bytes": 259901795
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638910",
+          "size_bytes": 259901795,
+          "source_bytes_read": 259901795,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699220",
+        "source_url": "https://sdilej.cz/34699220/mestecko-south-park-s18e10-10-2014-cz-dab-1080p-stastne-hologramy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638910",
-        "size_bytes": 259901795,
-        "source_bytes_read": 259901795,
-        "http_status": 201
+        "display_name": "South Park S18E10 #HappyHolograms 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:37:02.696059+00:00"
       }
     },
     "673:19:1": {
@@ -48280,5 +48281,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:37:00.087485+00:00"
+  "updated_at": "2026-10-30T15:37:02.696076+00:00"
 }
