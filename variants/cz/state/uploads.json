@@ -26746,12 +26746,6 @@
     },
     "585:2:13": {
       "episode_key": "urgent:s2:e13",
-      "claim": {
-        "worker_id": "61c6a84641a846d187dffd33d0114250-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:11:14.341187+00:00",
-        "lease_expires_at": "2026-10-30T13:11:14.341199+00:00"
-      },
       "source": {
         "source_id": "33878008",
         "source_url": "https://sdilej.cz/33878008/urgent-s02e13-uhd-hmax-web-dl-10bit-5.1-cz-dab.mkv",
@@ -26776,15 +26770,22 @@
         "display_name": "The Pitt S02E13 7:00 P.M. 4K CZ Dabing",
         "prepared_at": "2026-10-30T07:11:17.985982+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628460",
-        "size_bytes": 1735610155
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628460",
+          "size_bytes": 1735610155,
+          "source_bytes_read": 1735610155,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33878008",
+        "source_url": "https://sdilej.cz/33878008/urgent-s02e13-uhd-hmax-web-dl-10bit-5.1-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628460",
-        "size_bytes": 1735610155,
-        "source_bytes_read": 1735610155,
-        "http_status": 201
+        "display_name": "The Pitt S02E13 7:00 P.M. 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T07:17:10.482985+00:00"
       }
     },
     "585:2:14": {
@@ -26867,5 +26868,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:17:06.636841+00:00"
+  "updated_at": "2026-10-30T07:17:10.483002+00:00"
 }
