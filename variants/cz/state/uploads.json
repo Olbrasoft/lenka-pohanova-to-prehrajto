@@ -23942,12 +23942,6 @@
     },
     "1831:1:1": {
       "episode_key": "městečko záhad:s1:e1",
-      "claim": {
-        "worker_id": "906091bcb5a147aebeef539293bd5f59-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:30:22.773976+00:00",
-        "lease_expires_at": "2026-10-30T11:30:22.773985+00:00"
-      },
       "source": {
         "source_id": "25056669",
         "source_url": "https://sdilej.cz/25056669/mestecko-zahad-s01e01-past-na-turisty.mkv",
@@ -23972,15 +23966,22 @@
         "display_name": "Gravity Falls S01E01 Tourist Trapped 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:30:26.644482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627092",
-        "size_bytes": 267906426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627092",
+          "size_bytes": 267906426,
+          "source_bytes_read": 267906426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25056669",
+        "source_url": "https://sdilej.cz/25056669/mestecko-zahad-s01e01-past-na-turisty.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627092",
-        "size_bytes": 267906426,
-        "source_bytes_read": 267906426,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E01 Tourist Trapped 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:31:20.935755+00:00"
       }
     },
     "1831:1:3": {
@@ -24033,5 +24034,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:31:19.643744+00:00"
+  "updated_at": "2026-10-30T05:31:20.935770+00:00"
 }
