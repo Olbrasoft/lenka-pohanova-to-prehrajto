@@ -50067,12 +50067,6 @@
     },
     "673:23:4": {
       "episode_key": "městečko south park:s23:e4",
-      "claim": {
-        "worker_id": "e387f4ae98ce4a739953b2c4de5b554b-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:08:04.150577+00:00",
-        "lease_expires_at": "2026-10-30T22:08:04.150589+00:00"
-      },
       "source": {
         "source_id": "32893348",
         "source_url": "https://sdilej.cz/32893348/mestecko-south-park-s23e04-10-2019-cz-dab-1080p-at-jedi-slichtu.mkv",
@@ -50097,15 +50091,22 @@
         "display_name": "South Park S23E04 Let Them Eat Goo 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:08:06.943385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639328",
-        "size_bytes": 237775449
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639328",
+          "size_bytes": 237775449,
+          "source_bytes_read": 237775449,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893348",
+        "source_url": "https://sdilej.cz/32893348/mestecko-south-park-s23e04-10-2019-cz-dab-1080p-at-jedi-slichtu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639328",
-        "size_bytes": 237775449,
-        "source_bytes_read": 237775449,
-        "http_status": 201
+        "display_name": "South Park S23E04 Let Them Eat Goo 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:09:09.088427+00:00"
       }
     },
     "673:23:5": {
@@ -50188,5 +50189,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:09:05.417656+00:00"
+  "updated_at": "2026-10-30T16:09:09.088445+00:00"
 }
