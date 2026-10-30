@@ -34079,12 +34079,6 @@
     },
     "4350:2:2": {
       "episode_key": "hotýlek:s2:e2",
-      "claim": {
-        "worker_id": "8b0c1c2632b743aa9526111e8791b7bc-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:50:39.636971+00:00",
-        "lease_expires_at": "2026-10-30T16:50:39.636981+00:00"
-      },
       "source": {
         "source_id": "11814382",
         "source_url": "https://sdilej.cz/11814382/hotylek-s02e02-psychiatr.cz-dabing.avi",
@@ -34109,15 +34103,22 @@
         "display_name": "Fawlty Towers S02E02 The Psychiatrist SD CZ Dabing",
         "prepared_at": "2026-10-30T10:50:41.030781+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631417",
-        "size_bytes": 280168448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631417",
+          "size_bytes": 280168448,
+          "source_bytes_read": 280168448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11814382",
+        "source_url": "https://sdilej.cz/11814382/hotylek-s02e02-psychiatr.cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631417",
-        "size_bytes": 280168448,
-        "source_bytes_read": 280168448,
-        "http_status": 201
+        "display_name": "Fawlty Towers S02E02 The Psychiatrist SD CZ Dabing",
+        "uploaded_at": "2026-10-30T10:51:25.832391+00:00"
       }
     },
     "4350:2:3": {
@@ -34196,5 +34197,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:51:23.852612+00:00"
+  "updated_at": "2026-10-30T10:51:25.832407+00:00"
 }
