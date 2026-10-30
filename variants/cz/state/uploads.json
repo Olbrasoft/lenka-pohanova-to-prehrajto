@@ -49027,12 +49027,6 @@
     },
     "673:20:9": {
       "episode_key": "městečko south park:s20:e9",
-      "claim": {
-        "worker_id": "c5df5068ca9f4b36a95e624ca84393a4-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:51:38.973414+00:00",
-        "lease_expires_at": "2026-10-30T21:51:38.973427+00:00"
-      },
       "source": {
         "source_id": "34699285",
         "source_url": "https://sdilej.cz/34699285/mestecko-south-park-s20e09-10-2016-cz-dab-1080p-to-neni-vtipne.mkv",
@@ -49057,15 +49051,22 @@
         "display_name": "South Park S20E09 Not Funny 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:51:43.471671+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639115",
-        "size_bytes": 233697718
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639115",
+          "size_bytes": 233697718,
+          "source_bytes_read": 233697718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34699285",
+        "source_url": "https://sdilej.cz/34699285/mestecko-south-park-s20e09-10-2016-cz-dab-1080p-to-neni-vtipne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639115",
-        "size_bytes": 233697718,
-        "source_bytes_read": 233697718,
-        "http_status": 201
+        "display_name": "South Park S20E09 Not Funny 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:52:51.909225+00:00"
       }
     },
     "673:21:1": {
@@ -49111,5 +49112,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:52:49.215406+00:00"
+  "updated_at": "2026-10-30T15:52:51.909241+00:00"
 }
