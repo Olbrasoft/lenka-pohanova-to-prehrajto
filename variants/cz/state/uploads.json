@@ -23802,12 +23802,6 @@
     },
     "178:1:13": {
       "episode_key": "firefly:s1:e13",
-      "claim": {
-        "worker_id": "9e1528a44e244378b1c6ad1f903608be-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:27:44.154113+00:00",
-        "lease_expires_at": "2026-10-30T11:27:44.154125+00:00"
-      },
       "source": {
         "source_id": "23926193",
         "source_url": "https://sdilej.cz/23926193/firefly-s01e13-srdce-ze-zlata.mkv",
@@ -23832,15 +23826,22 @@
         "display_name": "Firefly S01E13 1080p CZ Dabing",
         "prepared_at": "2026-10-30T05:27:45.776816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627044",
-        "size_bytes": 667439517
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627044",
+          "size_bytes": 667439517,
+          "source_bytes_read": 667439517,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23926193",
+        "source_url": "https://sdilej.cz/23926193/firefly-s01e13-srdce-ze-zlata.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627044",
-        "size_bytes": 667439517,
-        "source_bytes_read": 667439517,
-        "http_status": 201
+        "display_name": "Firefly S01E13 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:30:07.976536+00:00"
       }
     },
     "178:1:14": {
@@ -23892,5 +23893,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:30:06.686114+00:00"
+  "updated_at": "2026-10-30T05:30:07.976551+00:00"
 }
