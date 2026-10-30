@@ -27626,12 +27626,6 @@
     },
     "4704:2:6": {
       "episode_key": "západní křídlo:s2:e6",
-      "claim": {
-        "worker_id": "2b34b42801f5499aae31c02f4f28c48a-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:40:38.968397+00:00",
-        "lease_expires_at": "2026-10-30T13:40:38.968410+00:00"
-      },
       "source": {
         "source_id": "34861843",
         "source_url": "https://sdilej.cz/34861843/zapadni-kridlo-s02e06-028-2000-hd-znovu-nezvoleny-senat-s-.mp4",
@@ -27656,15 +27650,22 @@
         "display_name": "The West Wing S02E06 The Lame Duck Congress 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:40:42.606315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628874",
-        "size_bytes": 825910740
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628874",
+          "size_bytes": 825910740,
+          "source_bytes_read": 825910740,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861843",
+        "source_url": "https://sdilej.cz/34861843/zapadni-kridlo-s02e06-028-2000-hd-znovu-nezvoleny-senat-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628874",
-        "size_bytes": 825910740,
-        "source_bytes_read": 825910740,
-        "http_status": 201
+        "display_name": "The West Wing S02E06 The Lame Duck Congress 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:43:22.162488+00:00"
       }
     },
     "4704:7:1": {
@@ -27787,5 +27788,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:43:20.843017+00:00"
+  "updated_at": "2026-10-30T07:43:22.162509+00:00"
 }
