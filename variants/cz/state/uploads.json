@@ -28675,12 +28675,6 @@
     },
     "704:1:4": {
       "episode_key": "temný případ:s1:e4",
-      "claim": {
-        "worker_id": "eacf9e3403b44b74a7618c298be7d776-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:04:10.133360+00:00",
-        "lease_expires_at": "2026-10-30T14:04:10.133373+00:00"
-      },
       "source": {
         "source_id": "32746880",
         "source_url": "https://sdilej.cz/32746880/true-detective-s01e04-cz-dabing-1080p.mkv",
@@ -28705,15 +28699,22 @@
         "display_name": "True Detective S01E04 Who Goes There? 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:04:12.477361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629210",
-        "size_bytes": 694943098
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629210",
+          "size_bytes": 694943098,
+          "source_bytes_read": 694943098,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32746880",
+        "source_url": "https://sdilej.cz/32746880/true-detective-s01e04-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629210",
-        "size_bytes": 694943098,
-        "source_bytes_read": 694943098,
-        "http_status": 201
+        "display_name": "True Detective S01E04 Who Goes There? 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:06:49.821294+00:00"
       }
     },
     "704:1:5": {
@@ -28759,5 +28760,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:06:45.524726+00:00"
+  "updated_at": "2026-10-30T08:06:49.821316+00:00"
 }
