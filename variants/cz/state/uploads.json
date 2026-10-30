@@ -14306,12 +14306,6 @@
     },
     "25:2:2": {
       "episode_key": "volejte saulovi:s2:e2",
-      "claim": {
-        "worker_id": "2d4c6925f77d4c6dbef0ba5c8253e310-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T01:31:48.655089+00:00",
-        "lease_expires_at": "2026-10-30T07:31:48.655100+00:00"
-      },
       "source": {
         "source_id": "30974632",
         "source_url": "https://sdilej.cz/30974632/volejte-saulovi-better-call-saul-s02e02-cz.mkv",
@@ -14336,15 +14330,22 @@
         "display_name": "Better Call Saul S02E02 Cobbler 1080p CZ Dabing",
         "prepared_at": "2026-10-30T01:31:50.029302+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623335",
-        "size_bytes": 1547476664
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623335",
+          "size_bytes": 1547476664,
+          "source_bytes_read": 1547476664,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974632",
+        "source_url": "https://sdilej.cz/30974632/volejte-saulovi-better-call-saul-s02e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623335",
-        "size_bytes": 1547476664,
-        "source_bytes_read": 1547476664,
-        "http_status": 201
+        "display_name": "Better Call Saul S02E02 Cobbler 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:37:29.903239+00:00"
       }
     },
     "25:2:3": {
@@ -14427,5 +14428,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:37:25.216537+00:00"
+  "updated_at": "2026-10-30T01:37:29.903257+00:00"
 }
