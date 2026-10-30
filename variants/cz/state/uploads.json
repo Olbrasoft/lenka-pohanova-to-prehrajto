@@ -36506,12 +36506,6 @@
     },
     "82:1:8": {
       "episode_key": "narcos:s1:e8",
-      "claim": {
-        "worker_id": "fb6035d2f27a429bbb05801b9c4f9878-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:40:07.036391+00:00",
-        "lease_expires_at": "2026-10-30T18:40:07.036404+00:00"
-      },
       "source": {
         "source_id": "34646138",
         "source_url": "https://sdilej.cz/34646138/narcos-s01e08-cz-dabing.mkv",
@@ -36536,15 +36530,22 @@
         "display_name": "Narcos S01E08 La Gran Mentira 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:40:08.560759+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633056",
-        "size_bytes": 2239311511
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633056",
+          "size_bytes": 2239311511,
+          "source_bytes_read": 2239311511,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34646138",
+        "source_url": "https://sdilej.cz/34646138/narcos-s01e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633056",
-        "size_bytes": 2239311511,
-        "source_bytes_read": 2239311511,
-        "http_status": 201
+        "display_name": "Narcos S01E08 La Gran Mentira 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:46:53.122168+00:00"
       }
     },
     "82:1:9": {
@@ -36627,5 +36628,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:46:49.911590+00:00"
+  "updated_at": "2026-10-30T12:46:53.122187+00:00"
 }
