@@ -55051,12 +55051,6 @@
     },
     "1180:1:9": {
       "episode_key": "odpočívej v pokoji:s1:e9",
-      "claim": {
-        "worker_id": "6cc6b21e557f481d8f4cad5b502d51b1-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T20:11:50.819420+00:00",
-        "lease_expires_at": "2026-10-31T02:11:50.819431+00:00"
-      },
       "source": {
         "source_id": "25908303",
         "source_url": "https://sdilej.cz/25908303/odpocivej-v-pokoji-six-feet-under-s01e09-hd-cz-dabing.mkv",
@@ -55081,15 +55075,22 @@
         "display_name": "Six Feet Under S01E09 Life's Too Short 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:11:54.873807+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643779",
-        "size_bytes": 1412231829
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643779",
+          "size_bytes": 1412231829,
+          "source_bytes_read": 1412231829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25908303",
+        "source_url": "https://sdilej.cz/25908303/odpocivej-v-pokoji-six-feet-under-s01e09-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643779",
-        "size_bytes": 1412231829,
-        "source_bytes_read": 1412231829,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E09 Life's Too Short 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:16:02.897998+00:00"
       }
     },
     "1180:1:10": {
@@ -55172,5 +55173,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:15:59.248132+00:00"
+  "updated_at": "2026-10-30T20:16:02.898023+00:00"
 }
