@@ -24731,12 +24731,6 @@
     },
     "1831:1:19": {
       "episode_key": "městečko záhad:s1:e19",
-      "claim": {
-        "worker_id": "19fe4da2e3014c3597d22b9149f492df-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:43:18.225199+00:00",
-        "lease_expires_at": "2026-10-30T11:43:18.225208+00:00"
-      },
       "source": {
         "source_id": "16809107",
         "source_url": "https://sdilej.cz/16809107/mestecko-zahad-s01e19-v-risi-snu.mkv",
@@ -24761,15 +24755,22 @@
         "display_name": "Gravity Falls S01E19 Dreamscaperers (1) 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:43:19.831710+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627293",
-        "size_bytes": 250951122
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627293",
+          "size_bytes": 250951122,
+          "source_bytes_read": 250951122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16809107",
+        "source_url": "https://sdilej.cz/16809107/mestecko-zahad-s01e19-v-risi-snu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627293",
-        "size_bytes": 250951122,
-        "source_bytes_read": 250951122,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E19 Dreamscaperers (1) 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:44:44.007424+00:00"
       }
     },
     "1831:1:20": {
@@ -24815,5 +24816,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:44:40.119730+00:00"
+  "updated_at": "2026-10-30T05:44:44.007441+00:00"
 }
