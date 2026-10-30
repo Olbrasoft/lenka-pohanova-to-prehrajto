@@ -59631,12 +59631,6 @@
     },
     "956:3:8": {
       "episode_key": "star trek: nová generace:s3:e8",
-      "claim": {
-        "worker_id": "bdfeba9980f14755be9cc226e1aac5bf-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:45:07.182643+00:00",
-        "lease_expires_at": "2026-10-31T04:45:07.182654+00:00"
-      },
       "source": {
         "source_id": "28164301",
         "source_url": "https://sdilej.cz/28164301/star-trek-nova-generace-s03e08-cena.mkv",
@@ -59661,15 +59655,22 @@
         "display_name": "Star Trek: The Next Generation S03E08 The Price 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:45:08.792168+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647179",
-        "size_bytes": 460901205
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647179",
+          "size_bytes": 460901205,
+          "source_bytes_read": 460901205,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164301",
+        "source_url": "https://sdilej.cz/28164301/star-trek-nova-generace-s03e08-cena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647179",
-        "size_bytes": 460901205,
-        "source_bytes_read": 460901205,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S03E08 The Price 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:46:50.374088+00:00"
       }
     },
     "956:3:9": {
@@ -59752,5 +59753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:46:44.964131+00:00"
+  "updated_at": "2026-10-30T22:46:50.374104+00:00"
 }
