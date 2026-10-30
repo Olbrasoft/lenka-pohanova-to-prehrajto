@@ -35274,12 +35274,6 @@
     },
     "595:3:4": {
       "episode_key": "černé zrcadlo:s3:e4",
-      "claim": {
-        "worker_id": "c5d81ea7972941688707ed8a1e981c11-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T11:22:33.303286+00:00",
-        "lease_expires_at": "2026-10-30T17:22:33.303297+00:00"
-      },
       "source": {
         "source_id": "32413069",
         "source_url": "https://sdilej.cz/32413069/cerne-zrcadlo-s03e04-san-junipero.mkv",
@@ -35304,15 +35298,22 @@
         "display_name": "Black Mirror S03E04 San Junipero 4K CZ Dabing",
         "prepared_at": "2026-10-30T11:22:34.786646+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631911",
-        "size_bytes": 2668054100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631911",
+          "size_bytes": 2668054100,
+          "source_bytes_read": 2668054100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32413069",
+        "source_url": "https://sdilej.cz/32413069/cerne-zrcadlo-s03e04-san-junipero.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631911",
-        "size_bytes": 2668054100,
-        "source_bytes_read": 2668054100,
-        "http_status": 201
+        "display_name": "Black Mirror S03E04 San Junipero 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T11:28:54.529980+00:00"
       }
     },
     "595:3:5": {
@@ -35395,5 +35396,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T11:28:50.962721+00:00"
+  "updated_at": "2026-10-30T11:28:54.529997+00:00"
 }
