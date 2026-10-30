@@ -41358,12 +41358,6 @@
     },
     "673:7:2": {
       "episode_key": "městečko south park:s7:e2",
-      "claim": {
-        "worker_id": "c09eaac20af947a5abefcc3f306a4dc7-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:59:40.633937+00:00",
-        "lease_expires_at": "2026-10-30T19:59:40.633947+00:00"
-      },
       "source": {
         "source_id": "33507467",
         "source_url": "https://sdilej.cz/33507467/mestecko-south-park-s07e02-15-2003-cz-dab-1080p-sileny-kriplove.mkv",
@@ -41388,15 +41382,22 @@
         "display_name": "South Park S07E02 Krazy Kripples 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:59:44.663977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637331",
-        "size_bytes": 250012573
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637331",
+          "size_bytes": 250012573,
+          "source_bytes_read": 250012573,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507467",
+        "source_url": "https://sdilej.cz/33507467/mestecko-south-park-s07e02-15-2003-cz-dab-1080p-sileny-kriplove.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637331",
-        "size_bytes": 250012573,
-        "source_bytes_read": 250012573,
-        "http_status": 201
+        "display_name": "South Park S07E02 Krazy Kripples 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:00:44.192640+00:00"
       }
     },
     "673:7:3": {
@@ -41541,5 +41542,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:00:40.893047+00:00"
+  "updated_at": "2026-10-30T14:00:44.192660+00:00"
 }
