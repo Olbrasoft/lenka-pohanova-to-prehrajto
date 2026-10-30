@@ -61771,12 +61771,6 @@
     },
     "956:5:4": {
       "episode_key": "star trek: nová generace:s5:e4",
-      "claim": {
-        "worker_id": "88fabf79b7ac4d9e814befb281e80a8e-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:41:32.142620+00:00",
-        "lease_expires_at": "2026-10-31T05:41:32.142632+00:00"
-      },
       "source": {
         "source_id": "28165211",
         "source_url": "https://sdilej.cz/28165211/star-trek-nova-generace-s05e04-marna-obet.mkv",
@@ -61801,15 +61795,22 @@
         "display_name": "Star Trek: The Next Generation S05E04 Silicon Avatar 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:41:36.393598+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648797",
-        "size_bytes": 440676998
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648797",
+          "size_bytes": 440676998,
+          "source_bytes_read": 440676998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165211",
+        "source_url": "https://sdilej.cz/28165211/star-trek-nova-generace-s05e04-marna-obet.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648797",
-        "size_bytes": 440676998,
-        "source_bytes_read": 440676998,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E04 Silicon Avatar 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:42:53.726725+00:00"
       }
     },
     "956:5:5": {
@@ -61905,5 +61906,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:42:52.425149+00:00"
+  "updated_at": "2026-10-30T23:42:53.726741+00:00"
 }
