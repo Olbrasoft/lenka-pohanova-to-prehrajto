@@ -56679,12 +56679,6 @@
     },
     "1180:4:11": {
       "episode_key": "odpočívej v pokoji:s4:e11",
-      "claim": {
-        "worker_id": "8f0d757d43f74af0874239f28f067a7b-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T21:25:44.862669+00:00",
-        "lease_expires_at": "2026-10-31T03:25:44.862680+00:00"
-      },
       "source": {
         "source_id": "25945767",
         "source_url": "https://sdilej.cz/25945767/odpocivej-v-pokoji-six-feet-under-s04e11-hd-cz-dabing.mkv",
@@ -56709,15 +56703,22 @@
         "display_name": "Six Feet Under S04E11 Bomb Shelter 1080p CZ Dabing",
         "prepared_at": "2026-10-30T21:25:46.564317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30645575",
-        "size_bytes": 1280368122
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30645575",
+          "size_bytes": 1280368122,
+          "source_bytes_read": 1280368122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25945767",
+        "source_url": "https://sdilej.cz/25945767/odpocivej-v-pokoji-six-feet-under-s04e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30645575",
-        "size_bytes": 1280368122,
-        "source_bytes_read": 1280368122,
-        "http_status": 201
+        "display_name": "Six Feet Under S04E11 Bomb Shelter 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T21:29:47.463602+00:00"
       }
     },
     "1180:4:12": {
@@ -56800,5 +56801,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T21:29:44.089507+00:00"
+  "updated_at": "2026-10-30T21:29:47.463620+00:00"
 }
