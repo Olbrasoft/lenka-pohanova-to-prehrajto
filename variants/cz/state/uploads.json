@@ -50755,12 +50755,6 @@
     },
     "40:1:7": {
       "episode_key": "městečko twin peaks:s1:e7",
-      "claim": {
-        "worker_id": "6f126ae38f0d49a88016e099bda437cc-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:27:20.116109+00:00",
-        "lease_expires_at": "2026-10-30T22:27:20.116122+00:00"
-      },
       "source": {
         "source_id": "33238373",
         "source_url": "https://sdilej.cz/33238373/mestecko-twin-peaks-s01e07-realization-time.mkv",
@@ -50785,15 +50779,22 @@
         "display_name": "Twin Peaks S01E07 Realization Time 1080p CZ Dabing",
         "prepared_at": "2026-10-30T16:27:25.366267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639621",
-        "size_bytes": 1004844206
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639621",
+          "size_bytes": 1004844206,
+          "source_bytes_read": 1004844206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238373",
+        "source_url": "https://sdilej.cz/33238373/mestecko-twin-peaks-s01e07-realization-time.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639621",
-        "size_bytes": 1004844206,
-        "source_bytes_read": 1004844206,
-        "http_status": 201
+        "display_name": "Twin Peaks S01E07 Realization Time 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T16:31:59.856646+00:00"
       }
     },
     "40:1:8": {
@@ -50876,5 +50877,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:31:54.376384+00:00"
+  "updated_at": "2026-10-30T16:31:59.856664+00:00"
 }
