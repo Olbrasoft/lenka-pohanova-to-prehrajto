@@ -31410,12 +31410,6 @@
     },
     "66:4:7": {
       "episode_key": "fargo:s4:e7",
-      "claim": {
-        "worker_id": "60815c55c4f94a02a2b99d40f4230be9-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:03:27.280352+00:00",
-        "lease_expires_at": "2026-10-30T15:03:27.280364+00:00"
-      },
       "source": {
         "source_id": "27740085",
         "source_url": "https://sdilej.cz/27740085/fargo-s04e07-cz.mkv",
@@ -31440,15 +31434,22 @@
         "display_name": "Fargo S04E07 Lay Away 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:03:28.908531+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629987",
-        "size_bytes": 464046668
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629987",
+          "size_bytes": 464046668,
+          "source_bytes_read": 464046668,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27740085",
+        "source_url": "https://sdilej.cz/27740085/fargo-s04e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629987",
-        "size_bytes": 464046668,
-        "source_bytes_read": 464046668,
-        "http_status": 201
+        "display_name": "Fargo S04E07 Lay Away 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:05:12.518637+00:00"
       }
     },
     "66:4:8": {
@@ -31494,5 +31495,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:05:09.724579+00:00"
+  "updated_at": "2026-10-30T09:05:12.518655+00:00"
 }
