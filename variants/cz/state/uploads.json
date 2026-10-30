@@ -42822,12 +42822,6 @@
     },
     "673:9:8": {
       "episode_key": "městečko south park:s9:e8",
-      "claim": {
-        "worker_id": "32fc87de7e76479cb4ad0ef2f03e1949-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:15:30.047668+00:00",
-        "lease_expires_at": "2026-10-30T20:15:30.047685+00:00"
-      },
       "source": {
         "source_id": "33507584",
         "source_url": "https://sdilej.cz/33507584/mestecko-south-park-s09e08-14-2005-cz-dab-1080p-dva-dny-pred-pozitrkem.mkv",
@@ -42852,15 +42846,22 @@
         "display_name": "South Park S09E08 Two Days Before the Day After Tomorrow 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:15:31.834389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637574",
-        "size_bytes": 273513032
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637574",
+          "size_bytes": 273513032,
+          "source_bytes_read": 273513032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507584",
+        "source_url": "https://sdilej.cz/33507584/mestecko-south-park-s09e08-14-2005-cz-dab-1080p-dva-dny-pred-pozitrkem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637574",
-        "size_bytes": 273513032,
-        "source_bytes_read": 273513032,
-        "http_status": 201
+        "display_name": "South Park S09E08 Two Days Before the Day After Tomorrow 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:16:31.183177+00:00"
       }
     },
     "673:9:9": {
@@ -42906,5 +42907,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:16:27.657008+00:00"
+  "updated_at": "2026-10-30T14:16:31.183195+00:00"
 }
