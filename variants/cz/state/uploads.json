@@ -25073,12 +25073,6 @@
     },
     "1831:2:8": {
       "episode_key": "městečko záhad:s2:e8",
-      "claim": {
-        "worker_id": "888a545e1f104f5a8aeda7db61b3c2b4-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:49:28.887679+00:00",
-        "lease_expires_at": "2026-10-30T11:49:28.887687+00:00"
-      },
       "source": {
         "source_id": "25185170",
         "source_url": "https://sdilej.cz/25185170/mestecko-zahad-gravity-falls-s02e08.mkv",
@@ -25103,15 +25097,22 @@
         "display_name": "Gravity Falls S02E08 Blendin's Game 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:49:34.077803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627412",
-        "size_bytes": 324388486
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627412",
+          "size_bytes": 324388486,
+          "source_bytes_read": 324388486,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25185170",
+        "source_url": "https://sdilej.cz/25185170/mestecko-zahad-gravity-falls-s02e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627412",
-        "size_bytes": 324388486,
-        "source_bytes_read": 324388486,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E08 Blendin's Game 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:50:24.608609+00:00"
       }
     },
     "1831:2:10": {
@@ -25157,5 +25158,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:50:21.916263+00:00"
+  "updated_at": "2026-10-30T05:50:24.608627+00:00"
 }
