@@ -32415,12 +32415,6 @@
     },
     "1927:1:9": {
       "episode_key": "boj o moc:s1:e9",
-      "claim": {
-        "worker_id": "654b81a5dd4e49e38b198ec0e660c80d-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:27:21.370823+00:00",
-        "lease_expires_at": "2026-10-30T15:27:21.370832+00:00"
-      },
       "source": {
         "source_id": "20894026",
         "source_url": "https://sdilej.cz/20894026/boj.o.moc.s01e09.1080p.mkv",
@@ -32445,15 +32439,22 @@
         "display_name": "Succession S01E09 Pre-Nuptial 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:27:23.117173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630292",
-        "size_bytes": 1566721842
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630292",
+          "size_bytes": 1566721842,
+          "source_bytes_read": 1566721842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20894026",
+        "source_url": "https://sdilej.cz/20894026/boj.o.moc.s01e09.1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630292",
-        "size_bytes": 1566721842,
-        "source_bytes_read": 1566721842,
-        "http_status": 201
+        "display_name": "Succession S01E09 Pre-Nuptial 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:32:19.590103+00:00"
       }
     }
   },
@@ -32462,5 +32463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:32:15.731034+00:00"
+  "updated_at": "2026-10-30T09:32:19.590123+00:00"
 }
