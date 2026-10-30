@@ -11886,12 +11886,6 @@
     },
     "22:6:8": {
       "episode_key": "rodina sopránů:s6:e8",
-      "claim": {
-        "worker_id": "a9984d76429048f589e9a54f65c7b533-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:05:11.413303+00:00",
-        "lease_expires_at": "2026-10-30T06:05:11.413314+00:00"
-      },
       "source": {
         "source_id": "29097836",
         "source_url": "https://sdilej.cz/29097836/the-sopranos-s06e08.mkv",
@@ -11916,15 +11910,22 @@
         "display_name": "The Sopranos S06E08 Johnny Cakes 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:05:12.801666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30621956",
-        "size_bytes": 1031398679
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30621956",
+          "size_bytes": 1031398679,
+          "source_bytes_read": 1031398679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29097836",
+        "source_url": "https://sdilej.cz/29097836/the-sopranos-s06e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30621956",
-        "size_bytes": 1031398679,
-        "source_bytes_read": 1031398679,
-        "http_status": 201
+        "display_name": "The Sopranos S06E08 Johnny Cakes 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:08:47.745172+00:00"
       }
     },
     "22:6:9": {
@@ -12007,5 +12008,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:08:44.447367+00:00"
+  "updated_at": "2026-10-30T00:08:47.745187+00:00"
 }
