@@ -52454,12 +52454,6 @@
     },
     "40:3:15": {
       "episode_key": "městečko twin peaks:s3:e15",
-      "claim": {
-        "worker_id": "145963bda9a243fa992f8d786a732e20-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T18:01:49.148418+00:00",
-        "lease_expires_at": "2026-10-31T00:01:49.148429+00:00"
-      },
       "source": {
         "source_id": "33063723",
         "source_url": "https://sdilej.cz/33063723/mestecko-twin-peaks-s03e15-cz-dabing.mkv",
@@ -52484,15 +52478,22 @@
         "display_name": "Twin Peaks S03E15 Part 15 1080p CZ Dabing",
         "prepared_at": "2026-10-30T18:01:54.046919+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641451",
-        "size_bytes": 2110355317
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641451",
+          "size_bytes": 2110355317,
+          "source_bytes_read": 2110355317,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33063723",
+        "source_url": "https://sdilej.cz/33063723/mestecko-twin-peaks-s03e15-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641451",
-        "size_bytes": 2110355317,
-        "source_bytes_read": 2110355317,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E15 Part 15 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T18:08:56.629042+00:00"
       }
     },
     "40:3:16": {
@@ -52538,5 +52539,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T18:08:54.403215+00:00"
+  "updated_at": "2026-10-30T18:08:56.629059+00:00"
 }
