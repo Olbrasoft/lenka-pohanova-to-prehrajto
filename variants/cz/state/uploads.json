@@ -42789,12 +42789,6 @@
     },
     "673:9:7": {
       "episode_key": "městečko south park:s9:e7",
-      "claim": {
-        "worker_id": "b1cdeda444f64ee38e974e199bfc8742-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:15:11.451580+00:00",
-        "lease_expires_at": "2026-10-30T20:15:11.451591+00:00"
-      },
       "source": {
         "source_id": "27840072",
         "source_url": "https://sdilej.cz/27840072/mestecko-south-park-s09e07-cz.mkv",
@@ -42819,15 +42813,22 @@
         "display_name": "South Park S09E07 Erection Day 720p CZ Dabing",
         "prepared_at": "2026-10-30T14:15:14.346681+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637571",
-        "size_bytes": 575120897
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637571",
+          "size_bytes": 575120897,
+          "source_bytes_read": 575120897,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27840072",
+        "source_url": "https://sdilej.cz/27840072/mestecko-south-park-s09e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637571",
-        "size_bytes": 575120897,
-        "source_bytes_read": 575120897,
-        "http_status": 201
+        "display_name": "South Park S09E07 Erection Day 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T14:17:11.363167+00:00"
       }
     },
     "673:9:8": {
@@ -42960,5 +42961,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:17:09.950265+00:00"
+  "updated_at": "2026-10-30T14:17:11.363186+00:00"
 }
