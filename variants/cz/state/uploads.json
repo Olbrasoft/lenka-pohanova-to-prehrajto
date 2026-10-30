@@ -20584,12 +20584,6 @@
     },
     "436:1:7": {
       "episode_key": "arcane:s1:e7",
-      "claim": {
-        "worker_id": "04fe478d77a44cb7a4eff798272432ed-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T03:17:52.400713+00:00",
-        "lease_expires_at": "2026-10-30T09:17:52.400722+00:00"
-      },
       "source": {
         "source_id": "34819756",
         "source_url": "https://sdilej.cz/34819756/arcane-s01e07-internal-1080p-10bit-webrip-6ch-cz-dabing.mkv",
@@ -20614,15 +20608,22 @@
         "display_name": "Arcane S01E07 The Boy Savior 1080p CZ Dabing",
         "prepared_at": "2026-10-30T03:17:54.124143+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624771",
-        "size_bytes": 422493099
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624771",
+          "size_bytes": 422493099,
+          "source_bytes_read": 422493099,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34819756",
+        "source_url": "https://sdilej.cz/34819756/arcane-s01e07-internal-1080p-10bit-webrip-6ch-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624771",
-        "size_bytes": 422493099,
-        "source_bytes_read": 422493099,
-        "http_status": 201
+        "display_name": "Arcane S01E07 The Boy Savior 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T03:19:28.045412+00:00"
       }
     }
   },
@@ -20631,5 +20632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T03:19:25.194392+00:00"
+  "updated_at": "2026-10-30T03:19:28.045428+00:00"
 }
