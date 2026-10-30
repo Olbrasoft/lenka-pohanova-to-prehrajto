@@ -57955,12 +57955,6 @@
     },
     "956:1:16": {
       "episode_key": "star trek: nová generace:s1:e16",
-      "claim": {
-        "worker_id": "f0640570e87448698fba1e1c9e752901-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:14:37.504989+00:00",
-        "lease_expires_at": "2026-10-31T04:14:37.505000+00:00"
-      },
       "source": {
         "source_id": "28163511",
         "source_url": "https://sdilej.cz/28163511/star-trek-nova-generace-s01e16-honba-za-mladim.mkv",
@@ -57985,15 +57979,22 @@
         "display_name": "Star Trek: The Next Generation S01E16 When the Bough Breaks 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:14:40.254446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646465",
-        "size_bytes": 461423743
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646465",
+          "size_bytes": 461423743,
+          "source_bytes_read": 461423743,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163511",
+        "source_url": "https://sdilej.cz/28163511/star-trek-nova-generace-s01e16-honba-za-mladim.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646465",
-        "size_bytes": 461423743,
-        "source_bytes_read": 461423743,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E16 When the Bough Breaks 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:16:16.979121+00:00"
       }
     },
     "956:1:17": {
@@ -58039,5 +58040,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:16:13.050109+00:00"
+  "updated_at": "2026-10-30T22:16:16.979137+00:00"
 }
