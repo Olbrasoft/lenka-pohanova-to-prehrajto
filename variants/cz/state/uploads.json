@@ -33295,12 +33295,6 @@
     },
     "1927:3:9": {
       "episode_key": "boj o moc:s3:e9",
-      "claim": {
-        "worker_id": "86e876de3416463fae876640323b4a4f-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:13:11.466143+00:00",
-        "lease_expires_at": "2026-10-30T16:13:11.466151+00:00"
-      },
       "source": {
         "source_id": "26295627",
         "source_url": "https://sdilej.cz/26295627/succession.s03e09.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -33325,15 +33319,22 @@
         "display_name": "Succession S03E09 All the Bells Say 1080p CZ Dabing",
         "prepared_at": "2026-10-30T10:13:14.918844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630849",
-        "size_bytes": 2017943710
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630849",
+          "size_bytes": 2017943710,
+          "source_bytes_read": 2017943710,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26295627",
+        "source_url": "https://sdilej.cz/26295627/succession.s03e09.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630849",
-        "size_bytes": 2017943710,
-        "source_bytes_read": 2017943710,
-        "http_status": 201
+        "display_name": "Succession S03E09 All the Bells Say 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T10:18:35.274247+00:00"
       }
     },
     "1927:4:1": {
@@ -33423,5 +33424,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:18:32.934855+00:00"
+  "updated_at": "2026-10-30T10:18:35.274264+00:00"
 }
