@@ -21602,12 +21602,6 @@
     },
     "925:1:2": {
       "episode_key": "zápisník smrti:s1:e2",
-      "claim": {
-        "worker_id": "e35c11afeae44b478b26f9467e8a7786-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T04:51:14.560277+00:00",
-        "lease_expires_at": "2026-10-30T10:51:14.560288+00:00"
-      },
       "source": {
         "source_id": "21716902",
         "source_url": "https://sdilej.cz/21716902/death-note-s01e02-720p-cz-dabing.mkv",
@@ -21641,7 +21635,13 @@
         "size_bytes": 466511789,
         "source_bytes_read": 466511789,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-10-30T04:53:07.089344+00:00",
+          "error": "PrehrajtoError"
+        }
+      ]
     },
     "925:1:3": {
       "episode_key": "zápisník smrti:s1:e3",
@@ -21686,5 +21686,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T04:53:03.573337+00:00"
+  "updated_at": "2026-10-30T04:53:07.089362+00:00"
 }
