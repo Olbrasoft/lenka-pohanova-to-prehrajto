@@ -33947,12 +33947,6 @@
     },
     "4350:2:1": {
       "episode_key": "hotýlek:s2:e1",
-      "claim": {
-        "worker_id": "ce4a08d2f2434d8fa2b02780c6b83fde-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:49:29.129174+00:00",
-        "lease_expires_at": "2026-10-30T16:49:29.129184+00:00"
-      },
       "source": {
         "source_id": "11814372",
         "source_url": "https://sdilej.cz/11814372/hotylek-s02e01-problemy-s-komunikaci.cz-dabing.avi",
@@ -33977,15 +33971,22 @@
         "display_name": "Fawlty Towers S02E01 Communication Problems SD CZ Dabing",
         "prepared_at": "2026-10-30T10:49:32.974026+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631407",
-        "size_bytes": 275310592
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631407",
+          "size_bytes": 275310592,
+          "source_bytes_read": 275310592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11814372",
+        "source_url": "https://sdilej.cz/11814372/hotylek-s02e01-problemy-s-komunikaci.cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631407",
-        "size_bytes": 275310592,
-        "source_bytes_read": 275310592,
-        "http_status": 201
+        "display_name": "Fawlty Towers S02E01 Communication Problems SD CZ Dabing",
+        "uploaded_at": "2026-10-30T10:50:31.426391+00:00"
       }
     },
     "4350:1:6": {
@@ -34074,5 +34075,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:50:30.275595+00:00"
+  "updated_at": "2026-10-30T10:50:31.426407+00:00"
 }
