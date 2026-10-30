@@ -24091,12 +24091,6 @@
     },
     "1831:1:5": {
       "episode_key": "městečko záhad:s1:e5",
-      "claim": {
-        "worker_id": "fdf984b20ab64e8b9a0ebbc7d7903adf-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:32:00.488334+00:00",
-        "lease_expires_at": "2026-10-30T11:32:00.488343+00:00"
-      },
       "source": {
         "source_id": "32876942",
         "source_url": "https://sdilej.cz/32876942/mestecko-zahad-s01e05-zavreny-kram.mkv",
@@ -24121,15 +24115,22 @@
         "display_name": "Gravity Falls S01E05 The Inconveniencing 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:32:03.530478+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627122",
-        "size_bytes": 240932005
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627122",
+          "size_bytes": 240932005,
+          "source_bytes_read": 240932005,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876942",
+        "source_url": "https://sdilej.cz/32876942/mestecko-zahad-s01e05-zavreny-kram.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627122",
-        "size_bytes": 240932005,
-        "source_bytes_read": 240932005,
-        "http_status": 201
+        "display_name": "Gravity Falls S01E05 The Inconveniencing 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T05:32:56.312094+00:00"
       }
     },
     "1831:1:6": {
@@ -24175,5 +24176,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:32:53.828506+00:00"
+  "updated_at": "2026-10-30T05:32:56.312112+00:00"
 }
