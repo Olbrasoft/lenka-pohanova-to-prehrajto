@@ -36066,12 +36066,6 @@
     },
     "595:7:3": {
       "episode_key": "černé zrcadlo:s7:e3",
-      "claim": {
-        "worker_id": "09e66120646244bbbfb27510d76c9c5a-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:15:53.985369+00:00",
-        "lease_expires_at": "2026-10-30T18:15:53.985383+00:00"
-      },
       "source": {
         "source_id": "32413504",
         "source_url": "https://sdilej.cz/32413504/cerne-zrcadlo-s07e03-hotel-sen.mkv",
@@ -36096,15 +36090,22 @@
         "display_name": "Black Mirror S07E03 Hotel Reverie 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:15:55.505115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632758",
-        "size_bytes": 3683098538
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632758",
+          "size_bytes": 3683098538,
+          "source_bytes_read": 3683098538,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32413504",
+        "source_url": "https://sdilej.cz/32413504/cerne-zrcadlo-s07e03-hotel-sen.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632758",
-        "size_bytes": 3683098538,
-        "source_bytes_read": 3683098538,
-        "http_status": 201
+        "display_name": "Black Mirror S07E03 Hotel Reverie 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:26:46.390629+00:00"
       }
     },
     "595:7:4": {
@@ -36201,5 +36202,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:26:41.567611+00:00"
+  "updated_at": "2026-10-30T12:26:46.390640+00:00"
 }
