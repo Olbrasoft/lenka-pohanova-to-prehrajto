@@ -48253,12 +48253,6 @@
     },
     "673:19:2": {
       "episode_key": "městečko south park:s19:e2",
-      "claim": {
-        "worker_id": "3d10402c38004d709d033901dfaafcd5-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:36:35.019266+00:00",
-        "lease_expires_at": "2026-10-30T21:36:35.019294+00:00"
-      },
       "source": {
         "source_id": "32893208",
         "source_url": "https://sdilej.cz/32893208/mestecko-south-park-s19e02-10-2015-cz-dab-1080p-kde-domov-muj.mkv",
@@ -48283,15 +48277,22 @@
         "display_name": "South Park S19E02 Where My Country Gone? 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:36:36.726160+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638927",
-        "size_bytes": 248869275
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638927",
+          "size_bytes": 248869275,
+          "source_bytes_read": 248869275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893208",
+        "source_url": "https://sdilej.cz/32893208/mestecko-south-park-s19e02-10-2015-cz-dab-1080p-kde-domov-muj.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638927",
-        "size_bytes": 248869275,
-        "source_bytes_read": 248869275,
-        "http_status": 201
+        "display_name": "South Park S19E02 Where My Country Gone? 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:37:45.516054+00:00"
       }
     }
   },
@@ -48300,5 +48301,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:37:42.100771+00:00"
+  "updated_at": "2026-10-30T15:37:45.516071+00:00"
 }
