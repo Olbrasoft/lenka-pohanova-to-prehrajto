@@ -51487,12 +51487,6 @@
     },
     "40:2:15": {
       "episode_key": "městečko twin peaks:s2:e15",
-      "claim": {
-        "worker_id": "89b5bc9e46f747b2ab57e17589e1f95c-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:10:25.704779+00:00",
-        "lease_expires_at": "2026-10-30T23:10:25.704792+00:00"
-      },
       "source": {
         "source_id": "33238615",
         "source_url": "https://sdilej.cz/33238615/mestecko-twin-peaks-s02e15-slaves-and-masters.mkv",
@@ -51517,15 +51511,22 @@
         "display_name": "Twin Peaks S02E15 Slaves and Masters 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:10:27.545090+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640358",
-        "size_bytes": 997590075
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640358",
+          "size_bytes": 997590075,
+          "source_bytes_read": 997590075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238615",
+        "source_url": "https://sdilej.cz/33238615/mestecko-twin-peaks-s02e15-slaves-and-masters.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640358",
-        "size_bytes": 997590075,
-        "source_bytes_read": 997590075,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E15 Slaves and Masters 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:13:34.393166+00:00"
       }
     },
     "40:2:16": {
@@ -51652,5 +51653,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:13:31.469360+00:00"
+  "updated_at": "2026-10-30T17:13:34.393184+00:00"
 }
