@@ -38530,12 +38530,6 @@
     },
     "673:2:15": {
       "episode_key": "městečko south park:s2:e15",
-      "claim": {
-        "worker_id": "bbbf8c656689490991c69f0b4cf8e284-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:31:26.178552+00:00",
-        "lease_expires_at": "2026-10-30T19:31:26.178564+00:00"
-      },
       "source": {
         "source_id": "32876105",
         "source_url": "https://sdilej.cz/32876105/mestecko-south-park-s02e15-18-1998-cz-dab-1080p-strasidelna-rybicka.mkv",
@@ -38560,15 +38554,22 @@
         "display_name": "South Park S02E15 Spookyfish 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:31:33.148866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636735",
-        "size_bytes": 238543730
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636735",
+          "size_bytes": 238543730,
+          "source_bytes_read": 238543730,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876105",
+        "source_url": "https://sdilej.cz/32876105/mestecko-south-park-s02e15-18-1998-cz-dab-1080p-strasidelna-rybicka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636735",
-        "size_bytes": 238543730,
-        "source_bytes_read": 238543730,
-        "http_status": 201
+        "display_name": "South Park S02E15 Spookyfish 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:32:19.657749+00:00"
       }
     },
     "673:2:14": {
@@ -38658,5 +38659,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:32:18.104598+00:00"
+  "updated_at": "2026-10-30T13:32:19.657769+00:00"
 }
