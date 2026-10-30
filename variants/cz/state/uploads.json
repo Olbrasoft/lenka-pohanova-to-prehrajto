@@ -43783,12 +43783,6 @@
     },
     "673:11:2": {
       "episode_key": "městečko south park:s11:e2",
-      "claim": {
-        "worker_id": "fd78b59e6e464442acffc33644d355dd-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:35:26.131957+00:00",
-        "lease_expires_at": "2026-10-30T20:35:26.131969+00:00"
-      },
       "source": {
         "source_id": "33507670",
         "source_url": "https://sdilej.cz/33507670/mestecko-south-park-s11e02-14-2007-cz-dab-1080p-cartman-kouri.mkv",
@@ -43813,15 +43807,22 @@
         "display_name": "South Park S11E02 Cartman Sucks 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:35:27.842148+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637944",
-        "size_bytes": 246415738
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637944",
+          "size_bytes": 246415738,
+          "source_bytes_read": 246415738,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507670",
+        "source_url": "https://sdilej.cz/33507670/mestecko-south-park-s11e02-14-2007-cz-dab-1080p-cartman-kouri.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637944",
-        "size_bytes": 246415738,
-        "source_bytes_read": 246415738,
-        "http_status": 201
+        "display_name": "South Park S11E02 Cartman Sucks 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:36:18.015173+00:00"
       }
     },
     "673:11:3": {
@@ -43900,5 +43901,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:36:14.649249+00:00"
+  "updated_at": "2026-10-30T14:36:18.015191+00:00"
 }
