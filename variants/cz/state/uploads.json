@@ -12194,12 +12194,6 @@
     },
     "22:6:15": {
       "episode_key": "rodina sopránů:s6:e15",
-      "claim": {
-        "worker_id": "d5f96915efec43469f702df4d5890816-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:12:25.723080+00:00",
-        "lease_expires_at": "2026-10-30T06:12:25.723090+00:00"
-      },
       "source": {
         "source_id": "29136437",
         "source_url": "https://sdilej.cz/29136437/rodina-sopranu-the-sopranos-s06e15-hd-cz-dabing.mkv",
@@ -12224,15 +12218,22 @@
         "display_name": "The Sopranos S06E15 Remember When 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:12:27.965047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622042",
-        "size_bytes": 1021416768
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622042",
+          "size_bytes": 1021416768,
+          "source_bytes_read": 1021416768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29136437",
+        "source_url": "https://sdilej.cz/29136437/rodina-sopranu-the-sopranos-s06e15-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622042",
-        "size_bytes": 1021416768,
-        "source_bytes_read": 1021416768,
-        "http_status": 201
+        "display_name": "The Sopranos S06E15 Remember When 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:15:32.081319+00:00"
       }
     },
     "22:6:16": {
@@ -12278,5 +12279,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:15:28.914416+00:00"
+  "updated_at": "2026-10-30T00:15:32.081335+00:00"
 }
