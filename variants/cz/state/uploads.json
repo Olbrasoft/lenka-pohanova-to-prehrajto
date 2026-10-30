@@ -15582,12 +15582,6 @@
     },
     "25:5:1": {
       "episode_key": "volejte saulovi:s5:e1",
-      "claim": {
-        "worker_id": "7961401900a9475fb967aca0e414c5f8-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:01:06.800918+00:00",
-        "lease_expires_at": "2026-10-30T08:01:06.800930+00:00"
-      },
       "source": {
         "source_id": "29535707",
         "source_url": "https://sdilej.cz/29535707/volejte-saulovi-s05e01.mkv",
@@ -15612,15 +15606,22 @@
         "display_name": "Better Call Saul S05E01 Magic Man 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:01:08.287450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623715",
-        "size_bytes": 558317137
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623715",
+          "size_bytes": 558317137,
+          "source_bytes_read": 558317137,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29535707",
+        "source_url": "https://sdilej.cz/29535707/volejte-saulovi-s05e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623715",
-        "size_bytes": 558317137,
-        "source_bytes_read": 558317137,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E01 Magic Man 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:03:09.964499+00:00"
       }
     },
     "25:5:2": {
@@ -15703,5 +15704,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:03:08.822316+00:00"
+  "updated_at": "2026-10-30T02:03:09.964515+00:00"
 }
