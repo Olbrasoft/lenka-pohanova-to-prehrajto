@@ -31674,12 +31674,6 @@
     },
     "66:5:2": {
       "episode_key": "fargo:s5:e2",
-      "claim": {
-        "worker_id": "6605a3bc0e44441f9420793962b7a489-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T09:09:35.425493+00:00",
-        "lease_expires_at": "2026-10-30T15:09:35.425505+00:00"
-      },
       "source": {
         "source_id": "28833801",
         "source_url": "https://sdilej.cz/28833801/fargo-s05e02-.mkv",
@@ -31704,15 +31698,22 @@
         "display_name": "Fargo S05E02 Trials and Tribulations 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:09:37.020525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630045",
-        "size_bytes": 387899218
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630045",
+          "size_bytes": 387899218,
+          "source_bytes_read": 387899218,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28833801",
+        "source_url": "https://sdilej.cz/28833801/fargo-s05e02-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630045",
-        "size_bytes": 387899218,
-        "source_bytes_read": 387899218,
-        "http_status": 201
+        "display_name": "Fargo S05E02 Trials and Tribulations 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:10:46.997481+00:00"
       }
     },
     "66:5:3": {
@@ -31795,5 +31796,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:10:44.704872+00:00"
+  "updated_at": "2026-10-30T09:10:46.997503+00:00"
 }
