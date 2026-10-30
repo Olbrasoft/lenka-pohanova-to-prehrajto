@@ -51751,12 +51751,6 @@
     },
     "40:2:21": {
       "episode_key": "městečko twin peaks:s2:e21",
-      "claim": {
-        "worker_id": "01d958c16e2d4910b30ca8e57012bab3-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:16:06.377154+00:00",
-        "lease_expires_at": "2026-10-30T23:16:06.377164+00:00"
-      },
       "source": {
         "source_id": "33238686",
         "source_url": "https://sdilej.cz/33238686/mestecko-twin-peaks-s02e21-miss-twin-peaks.mkv",
@@ -51781,15 +51775,22 @@
         "display_name": "Twin Peaks S02E21 Miss Twin Peaks 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:16:08.109213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640459",
-        "size_bytes": 987929884
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640459",
+          "size_bytes": 987929884,
+          "source_bytes_read": 987929884,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238686",
+        "source_url": "https://sdilej.cz/33238686/mestecko-twin-peaks-s02e21-miss-twin-peaks.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640459",
-        "size_bytes": 987929884,
-        "source_bytes_read": 987929884,
-        "http_status": 201
+        "display_name": "Twin Peaks S02E21 Miss Twin Peaks 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:19:10.236347+00:00"
       }
     },
     "40:2:22": {
@@ -51872,5 +51873,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:19:05.917458+00:00"
+  "updated_at": "2026-10-30T17:19:10.236364+00:00"
 }
