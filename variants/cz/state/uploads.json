@@ -42648,12 +42648,6 @@
     },
     "673:9:4": {
       "episode_key": "městečko south park:s9:e4",
-      "claim": {
-        "worker_id": "9a40c52fef7b497f8a30c97fc87aa497-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:13:12.161205+00:00",
-        "lease_expires_at": "2026-10-30T20:13:12.161218+00:00"
-      },
       "source": {
         "source_id": "32876699",
         "source_url": "https://sdilej.cz/32876699/mestecko-south-park-s09e04-14-2005-cz-dab-1080p-naveky-nejlepsi-pratele.mkv",
@@ -42678,15 +42672,22 @@
         "display_name": "South Park S09E04 Best Friends Forever 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:13:14.575840+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637537",
-        "size_bytes": 252981471
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637537",
+          "size_bytes": 252981471,
+          "source_bytes_read": 252981471,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876699",
+        "source_url": "https://sdilej.cz/32876699/mestecko-south-park-s09e04-14-2005-cz-dab-1080p-naveky-nejlepsi-pratele.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637537",
-        "size_bytes": 252981471,
-        "source_bytes_read": 252981471,
-        "http_status": 201
+        "display_name": "South Park S09E04 Best Friends Forever 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:14:16.763665+00:00"
       }
     },
     "673:9:5": {
@@ -42765,5 +42766,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:14:14.212453+00:00"
+  "updated_at": "2026-10-30T14:14:16.763684+00:00"
 }
