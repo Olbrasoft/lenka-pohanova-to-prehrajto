@@ -19674,12 +19674,6 @@
     },
     "28:8:3": {
       "episode_key": "rick a morty:s8:e3",
-      "claim": {
-        "worker_id": "9c0d46a4c45147be83b09a8cd3dfa4c9-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T03:02:07.586610+00:00",
-        "lease_expires_at": "2026-10-30T09:02:07.586623+00:00"
-      },
       "source": {
         "source_id": "31555588",
         "source_url": "https://sdilej.cz/31555588/rick-a-morty-s08e03-rick-mort-a-osklivy-cz-2025-cz.mkv",
@@ -19704,15 +19698,22 @@
         "display_name": "Rick and Morty S08E03 The Rick, the Mort & the Ugly 1080p CZ Dabing",
         "prepared_at": "2026-10-30T03:02:10.763789+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624579",
-        "size_bytes": 370484342
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624579",
+          "size_bytes": 370484342,
+          "source_bytes_read": 370484342,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31555588",
+        "source_url": "https://sdilej.cz/31555588/rick-a-morty-s08e03-rick-mort-a-osklivy-cz-2025-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624579",
-        "size_bytes": 370484342,
-        "source_bytes_read": 370484342,
-        "http_status": 201
+        "display_name": "Rick and Morty S08E03 The Rick, the Mort & the Ugly 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T03:03:43.061177+00:00"
       }
     },
     "28:8:4": {
@@ -19795,5 +19796,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T03:03:41.180523+00:00"
+  "updated_at": "2026-10-30T03:03:43.061195+00:00"
 }
