@@ -61639,12 +61639,6 @@
     },
     "956:5:1": {
       "episode_key": "star trek: nová generace:s5:e1",
-      "claim": {
-        "worker_id": "75464e808aa44edf8c0c50a6bc3671ba-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:39:41.257085+00:00",
-        "lease_expires_at": "2026-10-31T05:39:41.257097+00:00"
-      },
       "source": {
         "source_id": "28165171",
         "source_url": "https://sdilej.cz/28165171/star-trek-nova-generace-s05e01-usmireni-2.-cast-.mkv",
@@ -61669,15 +61663,22 @@
         "display_name": "Star Trek: The Next Generation S05E01 Redemption (2) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:39:42.915093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648720",
-        "size_bytes": 439364797
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648720",
+          "size_bytes": 439364797,
+          "source_bytes_read": 439364797,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165171",
+        "source_url": "https://sdilej.cz/28165171/star-trek-nova-generace-s05e01-usmireni-2.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648720",
-        "size_bytes": 439364797,
-        "source_bytes_read": 439364797,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E01 Redemption (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:40:59.845796+00:00"
       }
     },
     "956:5:2": {
@@ -61760,5 +61761,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:40:56.860340+00:00"
+  "updated_at": "2026-10-30T23:40:59.845813+00:00"
 }
