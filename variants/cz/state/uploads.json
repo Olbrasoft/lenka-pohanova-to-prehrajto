@@ -16110,12 +16110,6 @@
     },
     "25:6:4": {
       "episode_key": "volejte saulovi:s6:e4",
-      "claim": {
-        "worker_id": "c7752da9edd24109bd1ef215325c215f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:17:56.675495+00:00",
-        "lease_expires_at": "2026-10-30T08:17:56.675507+00:00"
-      },
       "source": {
         "source_id": "29544031",
         "source_url": "https://sdilej.cz/29544031/volejte-saulovi-s06e04.mkv",
@@ -16140,15 +16134,22 @@
         "display_name": "Better Call Saul S06E04 Hit and Run 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:17:58.091718+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623947",
-        "size_bytes": 507414726
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623947",
+          "size_bytes": 507414726,
+          "source_bytes_read": 507414726,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29544031",
+        "source_url": "https://sdilej.cz/29544031/volejte-saulovi-s06e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623947",
-        "size_bytes": 507414726,
-        "source_bytes_read": 507414726,
-        "http_status": 201
+        "display_name": "Better Call Saul S06E04 Hit and Run 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:19:41.796073+00:00"
       }
     },
     "25:6:5": {
@@ -16238,5 +16239,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:19:38.656962+00:00"
+  "updated_at": "2026-10-30T02:19:41.796091+00:00"
 }
