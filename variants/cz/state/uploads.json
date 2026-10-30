@@ -59235,12 +59235,6 @@
     },
     "956:2:21": {
       "episode_key": "star trek: nová generace:s2:e21",
-      "claim": {
-        "worker_id": "dfcad3a50bed4b619f9770279f828ca8-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:39:24.032673+00:00",
-        "lease_expires_at": "2026-10-31T04:39:24.032682+00:00"
-      },
       "source": {
         "source_id": "28164163",
         "source_url": "https://sdilej.cz/28164163/star-trek-nova-generace-s02e21-spickovy-vykon.mkv",
@@ -59265,15 +59259,22 @@
         "display_name": "Star Trek: The Next Generation S02E21 Peak Performance 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:39:26.859466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30647019",
-        "size_bytes": 501469184
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30647019",
+          "size_bytes": 501469184,
+          "source_bytes_read": 501469184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164163",
+        "source_url": "https://sdilej.cz/28164163/star-trek-nova-generace-s02e21-spickovy-vykon.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30647019",
-        "size_bytes": 501469184,
-        "source_bytes_read": 501469184,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E21 Peak Performance 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:41:08.195440+00:00"
       }
     },
     "956:2:22": {
@@ -59352,5 +59353,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:41:05.742726+00:00"
+  "updated_at": "2026-10-30T22:41:08.195455+00:00"
 }
