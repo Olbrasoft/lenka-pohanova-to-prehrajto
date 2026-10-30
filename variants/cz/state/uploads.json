@@ -46860,12 +46860,6 @@
     },
     "673:16:6": {
       "episode_key": "městečko south park:s16:e6",
-      "claim": {
-        "worker_id": "96f20e06032d428190a725dd621c2461-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:12:16.384009+00:00",
-        "lease_expires_at": "2026-10-30T21:12:16.384022+00:00"
-      },
       "source": {
         "source_id": "33507980",
         "source_url": "https://sdilej.cz/33507980/mestecko-south-park-s16e06-14-2012-cz-dab-1080p-nikdy-jsem-nemel-jit-ziplinovat.mkv",
@@ -46890,15 +46884,22 @@
         "display_name": "South Park S16E06 I Should Have Never Gone Ziplining 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:12:19.659055+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638537",
-        "size_bytes": 348810547
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638537",
+          "size_bytes": 348810547,
+          "source_bytes_read": 348810547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507980",
+        "source_url": "https://sdilej.cz/33507980/mestecko-south-park-s16e06-14-2012-cz-dab-1080p-nikdy-jsem-nemel-jit-ziplinovat.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638537",
-        "size_bytes": 348810547,
-        "source_bytes_read": 348810547,
-        "http_status": 201
+        "display_name": "South Park S16E06 I Should Have Never Gone Ziplining 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:13:39.018517+00:00"
       }
     },
     "673:16:7": {
@@ -46988,5 +46989,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:13:34.330069+00:00"
+  "updated_at": "2026-10-30T15:13:39.018536+00:00"
 }
