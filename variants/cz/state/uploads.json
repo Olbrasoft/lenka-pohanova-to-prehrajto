@@ -38090,12 +38090,6 @@
     },
     "673:2:4": {
       "episode_key": "městečko south park:s2:e4",
-      "claim": {
-        "worker_id": "209cf74a1f8a411f971667eaa7d1cc77-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:26:29.890745+00:00",
-        "lease_expires_at": "2026-10-30T19:26:29.890757+00:00"
-      },
       "source": {
         "source_id": "33507178",
         "source_url": "https://sdilej.cz/33507178/mestecko-south-park-s02e04-18-1998-cz-dab-1080p-ikeova-obrizka.mkv",
@@ -38120,15 +38114,22 @@
         "display_name": "South Park S02E04 Chickenlover 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:26:34.366002+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636152",
-        "size_bytes": 238264912
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636152",
+          "size_bytes": 238264912,
+          "source_bytes_read": 238264912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507178",
+        "source_url": "https://sdilej.cz/33507178/mestecko-south-park-s02e04-18-1998-cz-dab-1080p-ikeova-obrizka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636152",
-        "size_bytes": 238264912,
-        "source_bytes_read": 238264912,
-        "http_status": 201
+        "display_name": "South Park S02E04 Chickenlover 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:27:22.185516+00:00"
       }
     },
     "673:2:5": {
@@ -38174,5 +38175,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:27:18.677383+00:00"
+  "updated_at": "2026-10-30T13:27:22.185534+00:00"
 }
