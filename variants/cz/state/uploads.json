@@ -53203,12 +53203,6 @@
     },
     "1154:2:8": {
       "episode_key": "panství downton:s2:e8",
-      "claim": {
-        "worker_id": "0479a85738d04eb0ae4443c3d3a8ec8e-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T18:37:10.290725+00:00",
-        "lease_expires_at": "2026-10-31T00:37:10.290733+00:00"
-      },
       "source": {
         "source_id": "35121898",
         "source_url": "https://sdilej.cz/35121898/panstvi-downton-s02e08-015-2011-fhd-epizoda-8-s-.mp4",
@@ -53233,15 +53227,22 @@
         "display_name": "Downton Abbey S02E08 1080p CZ Dabing",
         "prepared_at": "2026-10-30T18:37:15.209943+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30642036",
-        "size_bytes": 1380534107
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30642036",
+          "size_bytes": 1380534107,
+          "source_bytes_read": 1380534107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35121898",
+        "source_url": "https://sdilej.cz/35121898/panstvi-downton-s02e08-015-2011-fhd-epizoda-8-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30642036",
-        "size_bytes": 1380534107,
-        "source_bytes_read": 1380534107,
-        "http_status": 201
+        "display_name": "Downton Abbey S02E08 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T18:42:02.976364+00:00"
       }
     },
     "1154:2:7": {
@@ -53368,5 +53369,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T18:41:59.403301+00:00"
+  "updated_at": "2026-10-30T18:42:02.976381+00:00"
 }
