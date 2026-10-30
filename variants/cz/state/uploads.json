@@ -61990,12 +61990,6 @@
     },
     "956:5:9": {
       "episode_key": "star trek: nová generace:s5:e9",
-      "claim": {
-        "worker_id": "4f08b21045884ce0b393b708b2149a93-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:43:43.193290+00:00",
-        "lease_expires_at": "2026-10-31T05:43:43.193299+00:00"
-      },
       "source": {
         "source_id": "28165258",
         "source_url": "https://sdilej.cz/28165258/star-trek-nova-generace-s05e09-otazka-casu.mkv",
@@ -62020,15 +62014,22 @@
         "display_name": "Star Trek: The Next Generation S05E09 A Matter of Time 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:43:44.739716+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648887",
-        "size_bytes": 439883887
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648887",
+          "size_bytes": 439883887,
+          "source_bytes_read": 439883887,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165258",
+        "source_url": "https://sdilej.cz/28165258/star-trek-nova-generace-s05e09-otazka-casu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648887",
-        "size_bytes": 439883887,
-        "source_bytes_read": 439883887,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E09 A Matter of Time 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:44:51.528292+00:00"
       }
     }
   },
@@ -62037,5 +62038,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:44:49.402548+00:00"
+  "updated_at": "2026-10-30T23:44:51.528307+00:00"
 }
