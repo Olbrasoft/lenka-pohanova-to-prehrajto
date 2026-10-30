@@ -19146,12 +19146,6 @@
     },
     "28:7:1": {
       "episode_key": "rick a morty:s7:e1",
-      "claim": {
-        "worker_id": "06edde274ff642af8aed9b234e3de136-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:55:43.086805+00:00",
-        "lease_expires_at": "2026-10-30T08:55:43.086816+00:00"
-      },
       "source": {
         "source_id": "34887344",
         "source_url": "https://sdilej.cz/34887344/rick-a-morty-s07e01-cz-dabing-1080p-full-hd.mkv",
@@ -19176,15 +19170,22 @@
         "display_name": "Rick and Morty S07E01 How Poopy Got His Poop Back 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:55:46.565294+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624508",
-        "size_bytes": 372008131
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624508",
+          "size_bytes": 372008131,
+          "source_bytes_read": 372008131,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34887344",
+        "source_url": "https://sdilej.cz/34887344/rick-a-morty-s07e01-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624508",
-        "size_bytes": 372008131,
-        "source_bytes_read": 372008131,
-        "http_status": 201
+        "display_name": "Rick and Morty S07E01 How Poopy Got His Poop Back 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:57:26.010236+00:00"
       }
     },
     "28:7:2": {
@@ -19267,5 +19268,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:57:21.723338+00:00"
+  "updated_at": "2026-10-30T02:57:26.010248+00:00"
 }
