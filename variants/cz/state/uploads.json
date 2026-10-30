@@ -37033,12 +37033,6 @@
     },
     "82:3:2": {
       "episode_key": "narcos:s3:e2",
-      "claim": {
-        "worker_id": "2a7266805d2542559b28d957746a038c-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T13:01:46.261996+00:00",
-        "lease_expires_at": "2026-10-30T19:01:46.262009+00:00"
-      },
       "source": {
         "source_id": "34531004",
         "source_url": "https://sdilej.cz/34531004/narcos-s03e02-cali-kgb.mkv",
@@ -37063,15 +37057,22 @@
         "display_name": "Narcos S03E02 The Cali KGB 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:01:47.812194+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633836",
-        "size_bytes": 2213993835
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633836",
+          "size_bytes": 2213993835,
+          "source_bytes_read": 2213993835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34531004",
+        "source_url": "https://sdilej.cz/34531004/narcos-s03e02-cali-kgb.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633836",
-        "size_bytes": 2213993835,
-        "source_bytes_read": 2213993835,
-        "http_status": 201
+        "display_name": "Narcos S03E02 The Cali KGB 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:06:34.693414+00:00"
       }
     },
     "82:3:3": {
@@ -37117,5 +37118,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:06:32.154002+00:00"
+  "updated_at": "2026-10-30T13:06:34.693431+00:00"
 }
