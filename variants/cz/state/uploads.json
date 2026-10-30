@@ -61814,12 +61814,6 @@
     },
     "956:5:5": {
       "episode_key": "star trek: nová generace:s5:e5",
-      "claim": {
-        "worker_id": "3611ca42d6db40e0b4f825b1616b8586-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:41:39.609948+00:00",
-        "lease_expires_at": "2026-10-31T05:41:39.609981+00:00"
-      },
       "source": {
         "source_id": "28165216",
         "source_url": "https://sdilej.cz/28165216/star-trek-nova-generace-s05e05-nestesti.mkv",
@@ -61844,15 +61838,22 @@
         "display_name": "Star Trek: The Next Generation S05E05 Disaster 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:41:42.457649+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648799",
-        "size_bytes": 439653734
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648799",
+          "size_bytes": 439653734,
+          "source_bytes_read": 439653734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165216",
+        "source_url": "https://sdilej.cz/28165216/star-trek-nova-generace-s05e05-nestesti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648799",
-        "size_bytes": 439653734,
-        "source_bytes_read": 439653734,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E05 Disaster 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:42:52.425136+00:00"
       }
     },
     "956:5:6": {
@@ -61904,5 +61905,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:42:49.305771+00:00"
+  "updated_at": "2026-10-30T23:42:52.425149+00:00"
 }
