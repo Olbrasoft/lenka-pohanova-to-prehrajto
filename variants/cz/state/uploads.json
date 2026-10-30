@@ -35186,12 +35186,6 @@
     },
     "595:3:2": {
       "episode_key": "černé zrcadlo:s3:e2",
-      "claim": {
-        "worker_id": "64f681aa418149dcb2168618457b4275-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T11:18:15.710470+00:00",
-        "lease_expires_at": "2026-10-30T17:18:15.710476+00:00"
-      },
       "source": {
         "source_id": "32700077",
         "source_url": "https://sdilej.cz/32700077/black-mirror-s03e02-cz-dabing-2160p.mkv",
@@ -35216,15 +35210,22 @@
         "display_name": "Black Mirror S03E02 Playtest 4K CZ Dabing",
         "prepared_at": "2026-10-30T11:18:17.171727+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631815",
-        "size_bytes": 2496927823
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631815",
+          "size_bytes": 2496927823,
+          "source_bytes_read": 2496927823,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700077",
+        "source_url": "https://sdilej.cz/32700077/black-mirror-s03e02-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631815",
-        "size_bytes": 2496927823,
-        "source_bytes_read": 2496927823,
-        "http_status": 201
+        "display_name": "Black Mirror S03E02 Playtest 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T11:25:27.859273+00:00"
       }
     },
     "595:3:3": {
@@ -35307,5 +35308,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T11:25:25.214226+00:00"
+  "updated_at": "2026-10-30T11:25:27.859290+00:00"
 }
