@@ -54881,12 +54881,6 @@
     },
     "1180:1:5": {
       "episode_key": "odpočívej v pokoji:s1:e5",
-      "claim": {
-        "worker_id": "4127455b6a454a5e8b2d942dd6db49d9-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:48:41.160398+00:00",
-        "lease_expires_at": "2026-10-31T01:48:41.160411+00:00"
-      },
       "source": {
         "source_id": "25981294",
         "source_url": "https://sdilej.cz/25981294/six.feet.under.s01e05.1080p.cz.en.mkv",
@@ -54911,15 +54905,22 @@
         "display_name": "Six Feet Under S01E05 An Open Book 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:48:42.864077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643330",
-        "size_bytes": 1389182978
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643330",
+          "size_bytes": 1389182978,
+          "source_bytes_read": 1389182978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25981294",
+        "source_url": "https://sdilej.cz/25981294/six.feet.under.s01e05.1080p.cz.en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643330",
-        "size_bytes": 1389182978,
-        "source_bytes_read": 1389182978,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E05 An Open Book 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:53:41.019612+00:00"
       }
     }
   },
@@ -54928,5 +54929,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:53:39.168264+00:00"
+  "updated_at": "2026-10-30T19:53:41.019628+00:00"
 }
