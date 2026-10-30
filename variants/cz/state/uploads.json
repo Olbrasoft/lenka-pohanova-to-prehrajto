@@ -53731,12 +53731,6 @@
     },
     "1154:4:3": {
       "episode_key": "panství downton:s4:e3",
-      "claim": {
-        "worker_id": "d9c947df7344484cb9d7f8b7c1e4a5b4-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:06:21.063470+00:00",
-        "lease_expires_at": "2026-10-31T01:06:21.063480+00:00"
-      },
       "source": {
         "source_id": "35122060",
         "source_url": "https://sdilej.cz/35122060/panstvi-downton-s04e03-030-2013-fhd-epizoda-3-s-.mp4",
@@ -53761,15 +53755,22 @@
         "display_name": "Downton Abbey S04E03 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:06:25.584329+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30642539",
-        "size_bytes": 971017178
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30642539",
+          "size_bytes": 971017178,
+          "source_bytes_read": 971017178,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35122060",
+        "source_url": "https://sdilej.cz/35122060/panstvi-downton-s04e03-030-2013-fhd-epizoda-3-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30642539",
-        "size_bytes": 971017178,
-        "source_bytes_read": 971017178,
-        "http_status": 201
+        "display_name": "Downton Abbey S04E03 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:10:01.713512+00:00"
       }
     },
     "1154:4:4": {
@@ -53815,5 +53816,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:09:57.591186+00:00"
+  "updated_at": "2026-10-30T19:10:01.713528+00:00"
 }
