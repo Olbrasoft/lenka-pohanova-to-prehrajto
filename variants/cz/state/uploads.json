@@ -39234,12 +39234,6 @@
     },
     "673:3:13": {
       "episode_key": "městečko south park:s3:e13",
-      "claim": {
-        "worker_id": "25df9f1e151e4c52a69484395fe5deb4-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:37:42.673364+00:00",
-        "lease_expires_at": "2026-10-30T19:37:42.673374+00:00"
-      },
       "source": {
         "source_id": "33071940",
         "source_url": "https://sdilej.cz/33071940/mestecko-south-park-s03e13-17-1999-cz-dab-1080p-hladovej-marvin-ve-vesmiru.mkv",
@@ -39264,15 +39258,22 @@
         "display_name": "South Park S03E13 Starvin' Marvin in Space 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:37:45.389453+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636981",
-        "size_bytes": 246446322
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636981",
+          "size_bytes": 246446322,
+          "source_bytes_read": 246446322,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33071940",
+        "source_url": "https://sdilej.cz/33071940/mestecko-south-park-s03e13-17-1999-cz-dab-1080p-hladovej-marvin-ve-vesmiru.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636981",
-        "size_bytes": 246446322,
-        "source_bytes_read": 246446322,
-        "http_status": 201
+        "display_name": "South Park S03E13 Starvin' Marvin in Space 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:38:45.803114+00:00"
       }
     },
     "673:3:14": {
@@ -39355,5 +39356,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:38:44.481684+00:00"
+  "updated_at": "2026-10-30T13:38:45.803130+00:00"
 }
