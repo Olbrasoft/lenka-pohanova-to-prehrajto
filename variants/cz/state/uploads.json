@@ -50111,12 +50111,6 @@
     },
     "673:23:5": {
       "episode_key": "městečko south park:s23:e5",
-      "claim": {
-        "worker_id": "76b392d4f7d54cd1af2fce5bf49a8565-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T16:08:05.508673+00:00",
-        "lease_expires_at": "2026-10-30T22:08:05.508688+00:00"
-      },
       "source": {
         "source_id": "32893352",
         "source_url": "https://sdilej.cz/32893352/mestecko-south-park-s23e05-10-2019-cz-dab-1080p-halloweensky-special-farmy-tegrida.mkv",
@@ -50141,15 +50135,22 @@
         "display_name": "South Park S23E05 Tegridy Farms Halloween Special 4K CZ Dabing",
         "prepared_at": "2026-10-30T16:08:09.955172+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639329",
-        "size_bytes": 238439369
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639329",
+          "size_bytes": 238439369,
+          "source_bytes_read": 238439369,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893352",
+        "source_url": "https://sdilej.cz/32893352/mestecko-south-park-s23e05-10-2019-cz-dab-1080p-halloweensky-special-farmy-tegrida.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639329",
-        "size_bytes": 238439369,
-        "source_bytes_read": 238439369,
-        "http_status": 201
+        "display_name": "South Park S23E05 Tegridy Farms Halloween Special 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T16:09:14.742300+00:00"
       }
     },
     "673:23:6": {
@@ -50195,5 +50196,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T16:09:10.618917+00:00"
+  "updated_at": "2026-10-30T16:09:14.742319+00:00"
 }
