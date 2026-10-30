@@ -46107,12 +46107,6 @@
     },
     "673:14:14": {
       "episode_key": "městečko south park:s14:e14",
-      "claim": {
-        "worker_id": "656a8877baf742608df7e2abff81c640-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:06:19.286739+00:00",
-        "lease_expires_at": "2026-10-30T21:06:19.286753+00:00"
-      },
       "source": {
         "source_id": "32892996",
         "source_url": "https://sdilej.cz/32892996/mestecko-south-park-s14e14-14-2010-cz-dab-1080p-cr-me-fraiche.mkv",
@@ -46137,15 +46131,22 @@
         "display_name": "South Park S14E14 Crème Fraiche 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:06:24.378743+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638456",
-        "size_bytes": 248218869
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638456",
+          "size_bytes": 248218869,
+          "source_bytes_read": 248218869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32892996",
+        "source_url": "https://sdilej.cz/32892996/mestecko-south-park-s14e14-14-2010-cz-dab-1080p-cr-me-fraiche.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638456",
-        "size_bytes": 248218869,
-        "source_bytes_read": 248218869,
-        "http_status": 201
+        "display_name": "South Park S14E14 Crème Fraiche 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:07:07.731682+00:00"
       }
     },
     "673:15:1": {
@@ -46191,5 +46192,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:07:04.999358+00:00"
+  "updated_at": "2026-10-30T15:07:07.731699+00:00"
 }
