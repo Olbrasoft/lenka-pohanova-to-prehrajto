@@ -28022,12 +28022,6 @@
     },
     "4704:7:9": {
       "episode_key": "západní křídlo:s7:e9",
-      "claim": {
-        "worker_id": "351a36da8b164695885a14055742da9f-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T07:48:55.003284+00:00",
-        "lease_expires_at": "2026-10-30T13:48:55.003296+00:00"
-      },
       "source": {
         "source_id": "34862501",
         "source_url": "https://sdilej.cz/34862501/zapadni-kridlo-s07e09-142-2005-hd-svatba-s-.mp4",
@@ -28052,15 +28046,22 @@
         "display_name": "The West Wing S07E09 The Wedding 720p CZ Dabing",
         "prepared_at": "2026-10-30T07:48:58.403310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30628980",
-        "size_bytes": 844423807
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30628980",
+          "size_bytes": 844423807,
+          "source_bytes_read": 844423807,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862501",
+        "source_url": "https://sdilej.cz/34862501/zapadni-kridlo-s07e09-142-2005-hd-svatba-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30628980",
-        "size_bytes": 844423807,
-        "source_bytes_read": 844423807,
-        "http_status": 201
+        "display_name": "The West Wing S07E09 The Wedding 720p CZ Dabing",
+        "uploaded_at": "2026-10-30T07:51:39.948407+00:00"
       }
     },
     "4704:7:10": {
@@ -28106,5 +28107,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T07:51:36.816052+00:00"
+  "updated_at": "2026-10-30T07:51:39.948416+00:00"
 }
