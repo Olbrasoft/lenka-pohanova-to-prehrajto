@@ -44653,12 +44653,6 @@
     },
     "673:12:7": {
       "episode_key": "městečko south park:s12:e7",
-      "claim": {
-        "worker_id": "d859a030752743beb32ee1a782556300-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:48:08.533397+00:00",
-        "lease_expires_at": "2026-10-30T20:48:08.533409+00:00"
-      },
       "source": {
         "source_id": "34957585",
         "source_url": "https://sdilej.cz/34957585/south-park-s12e07.-super-svanda.mp4",
@@ -44683,15 +44677,22 @@
         "display_name": "South Park S12E07 Super Fun Time 1080p CZ Dabing",
         "prepared_at": "2026-10-30T14:48:11.461019+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638182",
-        "size_bytes": 698717074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638182",
+          "size_bytes": 698717074,
+          "source_bytes_read": 698717074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957585",
+        "source_url": "https://sdilej.cz/34957585/south-park-s12e07.-super-svanda.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638182",
-        "size_bytes": 698717074,
-        "source_bytes_read": 698717074,
-        "http_status": 201
+        "display_name": "South Park S12E07 Super Fun Time 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T14:50:08.834683+00:00"
       }
     }
   },
@@ -44700,5 +44701,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:50:04.481146+00:00"
+  "updated_at": "2026-10-30T14:50:08.834702+00:00"
 }
