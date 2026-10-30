@@ -38838,12 +38838,6 @@
     },
     "673:3:3": {
       "episode_key": "městečko south park:s3:e3",
-      "claim": {
-        "worker_id": "2abf5a2a168f4e3285f4ef45f1c24d31-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:33:35.879997+00:00",
-        "lease_expires_at": "2026-10-30T19:33:35.880009+00:00"
-      },
       "source": {
         "source_id": "32876131",
         "source_url": "https://sdilej.cz/32876131/mestecko-south-park-s03e03-17-1999-cz-dab-1080p-sukuba.mkv",
@@ -38868,15 +38862,22 @@
         "display_name": "South Park S03E03 The Succubus 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:33:40.011747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636927",
-        "size_bytes": 248792880
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636927",
+          "size_bytes": 248792880,
+          "source_bytes_read": 248792880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876131",
+        "source_url": "https://sdilej.cz/32876131/mestecko-south-park-s03e03-17-1999-cz-dab-1080p-sukuba.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636927",
-        "size_bytes": 248792880,
-        "source_bytes_read": 248792880,
-        "http_status": 201
+        "display_name": "South Park S03E03 The Succubus 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:34:40.690849+00:00"
       }
     },
     "673:3:4": {
@@ -38958,5 +38959,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:34:38.188486+00:00"
+  "updated_at": "2026-10-30T13:34:40.690868+00:00"
 }
