@@ -60923,12 +60923,6 @@
     },
     "956:4:11": {
       "episode_key": "star trek: nová generace:s4:e11",
-      "claim": {
-        "worker_id": "85305dd677474d18aa204a2472149445-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T23:17:01.928778+00:00",
-        "lease_expires_at": "2026-10-31T05:17:01.928789+00:00"
-      },
       "source": {
         "source_id": "28164992",
         "source_url": "https://sdilej.cz/28164992/star-trek-nova-generace-s04e11-datuv-den.mkv",
@@ -60953,15 +60947,22 @@
         "display_name": "Star Trek: The Next Generation S04E11 Data's Day 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:17:04.279720+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30648014",
-        "size_bytes": 438975434
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30648014",
+          "size_bytes": 438975434,
+          "source_bytes_read": 438975434,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28164992",
+        "source_url": "https://sdilej.cz/28164992/star-trek-nova-generace-s04e11-datuv-den.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30648014",
-        "size_bytes": 438975434,
-        "source_bytes_read": 438975434,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S04E11 Data's Day 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:18:42.378163+00:00"
       }
     },
     "956:4:12": {
@@ -61007,5 +61008,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:18:36.484079+00:00"
+  "updated_at": "2026-10-30T23:18:42.378181+00:00"
 }
