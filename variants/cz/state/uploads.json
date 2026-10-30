@@ -62461,12 +62461,6 @@
     },
     "956:5:20": {
       "episode_key": "star trek: nová generace:s5:e20",
-      "claim": {
-        "worker_id": "e6002d84e3db43f2a1fa5a00445706b9-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-30T23:55:22.229207+00:00",
-        "lease_expires_at": "2026-10-31T05:55:22.229219+00:00"
-      },
       "source": {
         "source_id": "28165390",
         "source_url": "https://sdilej.cz/28165390/star-trek-nova-generace-s05e20-cena-zivota.mkv",
@@ -62491,15 +62485,22 @@
         "display_name": "Star Trek: The Next Generation S05E20 Cost of Living 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:55:24.187300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649205",
-        "size_bytes": 439176258
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649205",
+          "size_bytes": 439176258,
+          "source_bytes_read": 439176258,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165390",
+        "source_url": "https://sdilej.cz/28165390/star-trek-nova-generace-s05e20-cena-zivota.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649205",
-        "size_bytes": 439176258,
-        "source_bytes_read": 439176258,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E20 Cost of Living 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T23:56:31.321756+00:00"
       }
     }
   },
@@ -62508,5 +62509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T23:56:27.533423+00:00"
+  "updated_at": "2026-10-30T23:56:31.321771+00:00"
 }
