@@ -52059,12 +52059,6 @@
     },
     "40:3:6": {
       "episode_key": "městečko twin peaks:s3:e6",
-      "claim": {
-        "worker_id": "fbdeb0e63a7a4207ba4c0dec70db7187-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:29:12.796838+00:00",
-        "lease_expires_at": "2026-10-30T23:29:12.796847+00:00"
-      },
       "source": {
         "source_id": "29296911",
         "source_url": "https://sdilej.cz/29296911/mestecko-twin-peaks-twin-peaks-s03e06-hd-cz-dabing.mkv",
@@ -52089,15 +52083,22 @@
         "display_name": "Twin Peaks S03E06 Part 6 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:29:16.666737+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640940",
-        "size_bytes": 2044476979
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640940",
+          "size_bytes": 2044476979,
+          "source_bytes_read": 2044476979,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296911",
+        "source_url": "https://sdilej.cz/29296911/mestecko-twin-peaks-twin-peaks-s03e06-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640940",
-        "size_bytes": 2044476979,
-        "source_bytes_read": 2044476979,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E06 Part 6 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:35:58.214314+00:00"
       }
     },
     "40:3:7": {
@@ -52180,5 +52181,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:35:52.099504+00:00"
+  "updated_at": "2026-10-30T17:35:58.214326+00:00"
 }
