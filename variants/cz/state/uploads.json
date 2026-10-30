@@ -36895,12 +36895,6 @@
     },
     "82:2:7": {
       "episode_key": "narcos:s2:e7",
-      "claim": {
-        "worker_id": "a2428a9f9269412aa12dee001befce21-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:59:37.507636+00:00",
-        "lease_expires_at": "2026-10-30T18:59:37.507648+00:00"
-      },
       "source": {
         "source_id": "30648357",
         "source_url": "https://sdilej.cz/30648357/narcos-s02e07-1080p-hdtv-cz.mkv",
@@ -36925,15 +36919,22 @@
         "display_name": "Narcos S02E07 Deutschland 93 1080p CZ Dabing",
         "prepared_at": "2026-10-30T12:59:40.405102+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633579",
-        "size_bytes": 716401694
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633579",
+          "size_bytes": 716401694,
+          "source_bytes_read": 716401694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30648357",
+        "source_url": "https://sdilej.cz/30648357/narcos-s02e07-1080p-hdtv-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633579",
-        "size_bytes": 716401694,
-        "source_bytes_read": 716401694,
-        "http_status": 201
+        "display_name": "Narcos S02E07 Deutschland 93 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T13:01:19.545834+00:00"
       }
     },
     "82:2:8": {
@@ -36979,5 +36980,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:01:15.319622+00:00"
+  "updated_at": "2026-10-30T13:01:19.545852+00:00"
 }
