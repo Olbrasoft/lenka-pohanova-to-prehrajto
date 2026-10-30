@@ -39146,12 +39146,6 @@
     },
     "673:3:11": {
       "episode_key": "městečko south park:s3:e11",
-      "claim": {
-        "worker_id": "f6ade16702194df0ab727de26c3705f9-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:36:16.123844+00:00",
-        "lease_expires_at": "2026-10-30T19:36:16.123856+00:00"
-      },
       "source": {
         "source_id": "32876163",
         "source_url": "https://sdilej.cz/32876163/mestecko-south-park-s03e11-17-1999-cz-dab-1080p-cinpokomoncaci.mkv",
@@ -39176,15 +39170,22 @@
         "display_name": "South Park S03E11 Chinpokomon 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:36:20.274753+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30636963",
-        "size_bytes": 273642223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30636963",
+          "size_bytes": 273642223,
+          "source_bytes_read": 273642223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876163",
+        "source_url": "https://sdilej.cz/32876163/mestecko-south-park-s03e11-17-1999-cz-dab-1080p-cinpokomoncaci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30636963",
-        "size_bytes": 273642223,
-        "source_bytes_read": 273642223,
-        "http_status": 201
+        "display_name": "South Park S03E11 Chinpokomon 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:37:21.443920+00:00"
       }
     },
     "673:3:12": {
@@ -39230,5 +39231,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:37:18.010208+00:00"
+  "updated_at": "2026-10-30T13:37:21.443938+00:00"
 }
