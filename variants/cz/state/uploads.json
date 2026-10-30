@@ -35758,12 +35758,6 @@
     },
     "595:5:3": {
       "episode_key": "černé zrcadlo:s5:e3",
-      "claim": {
-        "worker_id": "fc3b551c48d043b7b36b75cf220eb587-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T11:53:13.552392+00:00",
-        "lease_expires_at": "2026-10-30T17:53:13.552403+00:00"
-      },
       "source": {
         "source_id": "32700317",
         "source_url": "https://sdilej.cz/32700317/black-mirror-s05e03-cz-dabing-2160p.mkv",
@@ -35788,15 +35782,22 @@
         "display_name": "Black Mirror S05E03 Rachel, Jack and Ashley Too 4K CZ Dabing",
         "prepared_at": "2026-10-30T11:53:15.132552+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632429",
-        "size_bytes": 3210152943
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632429",
+          "size_bytes": 3210152943,
+          "source_bytes_read": 3210152943,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700317",
+        "source_url": "https://sdilej.cz/32700317/black-mirror-s05e03-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632429",
-        "size_bytes": 3210152943,
-        "source_bytes_read": 3210152943,
-        "http_status": 201
+        "display_name": "Black Mirror S05E03 Rachel, Jack and Ashley Too 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:00:38.073295+00:00"
       }
     },
     "595:6:1": {
@@ -35879,5 +35880,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:00:34.662603+00:00"
+  "updated_at": "2026-10-30T12:00:38.073305+00:00"
 }
