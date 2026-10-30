@@ -15758,12 +15758,6 @@
     },
     "25:5:5": {
       "episode_key": "volejte saulovi:s5:e5",
-      "claim": {
-        "worker_id": "66bd9986cf3d490a911a646af5e6ad7a-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:06:03.988990+00:00",
-        "lease_expires_at": "2026-10-30T08:06:03.989002+00:00"
-      },
       "source": {
         "source_id": "30974824",
         "source_url": "https://sdilej.cz/30974824/volejte-saulovi-s05e05-2160p-cz.mkv",
@@ -15788,15 +15782,22 @@
         "display_name": "Better Call Saul S05E05 Dedicado a Max 4K CZ Dabing",
         "prepared_at": "2026-10-30T02:06:05.430089+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623819",
-        "size_bytes": 1438423416
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623819",
+          "size_bytes": 1438423416,
+          "source_bytes_read": 1438423416,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974824",
+        "source_url": "https://sdilej.cz/30974824/volejte-saulovi-s05e05-2160p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623819",
-        "size_bytes": 1438423416,
-        "source_bytes_read": 1438423416,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E05 Dedicado a Max 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T02:10:57.729458+00:00"
       }
     },
     "25:5:6": {
@@ -15879,5 +15880,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:10:54.468579+00:00"
+  "updated_at": "2026-10-30T02:10:57.729468+00:00"
 }
