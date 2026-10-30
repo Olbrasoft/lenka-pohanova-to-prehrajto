@@ -36374,12 +36374,6 @@
     },
     "82:1:5": {
       "episode_key": "narcos:s1:e5",
-      "claim": {
-        "worker_id": "36d3913b2a4244a3b706ef0babc51cac-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:33:48.278640+00:00",
-        "lease_expires_at": "2026-10-30T18:33:48.278651+00:00"
-      },
       "source": {
         "source_id": "34646102",
         "source_url": "https://sdilej.cz/34646102/narcos-s01e05-cz-dabing.mkv",
@@ -36404,15 +36398,22 @@
         "display_name": "Narcos S01E05 There Will Be a Future 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:33:50.108003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30632982",
-        "size_bytes": 2451379986
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30632982",
+          "size_bytes": 2451379986,
+          "source_bytes_read": 2451379986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34646102",
+        "source_url": "https://sdilej.cz/34646102/narcos-s01e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30632982",
-        "size_bytes": 2451379986,
-        "source_bytes_read": 2451379986,
-        "http_status": 201
+        "display_name": "Narcos S01E05 There Will Be a Future 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:40:15.497893+00:00"
       }
     },
     "82:1:6": {
@@ -36545,5 +36546,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:40:12.817803+00:00"
+  "updated_at": "2026-10-30T12:40:15.497912+00:00"
 }
