@@ -49581,12 +49581,6 @@
     },
     "673:22:2": {
       "episode_key": "městečko south park:s22:e2",
-      "claim": {
-        "worker_id": "b62eb883223b4a8fbf2267c2b2579ec0-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:58:14.233889+00:00",
-        "lease_expires_at": "2026-10-30T21:58:14.233901+00:00"
-      },
       "source": {
         "source_id": "27850982",
         "source_url": "https://sdilej.cz/27850982/mestecko-south-park-s22e02-cz.mkv",
@@ -49611,15 +49605,22 @@
         "display_name": "South Park S22E02 A Boy and a Priest 1080p CZ Dabing",
         "prepared_at": "2026-10-30T15:58:18.589076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639197",
-        "size_bytes": 465602439
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639197",
+          "size_bytes": 465602439,
+          "source_bytes_read": 465602439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27850982",
+        "source_url": "https://sdilej.cz/27850982/mestecko-south-park-s22e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639197",
-        "size_bytes": 465602439,
-        "source_bytes_read": 465602439,
-        "http_status": 201
+        "display_name": "South Park S22E02 A Boy and a Priest 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T15:59:43.755702+00:00"
       }
     },
     "673:22:3": {
@@ -49672,5 +49673,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:59:39.904431+00:00"
+  "updated_at": "2026-10-30T15:59:43.755720+00:00"
 }
