@@ -36814,12 +36814,6 @@
     },
     "82:2:5": {
       "episode_key": "narcos:s2:e5",
-      "claim": {
-        "worker_id": "2fe93557d89341ac8d6b1706efb807d5-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:56:41.782926+00:00",
-        "lease_expires_at": "2026-10-30T18:56:41.782935+00:00"
-      },
       "source": {
         "source_id": "33181781",
         "source_url": "https://sdilej.cz/33181781/narcos-s02e05-10-2016-cz-dab-nepratele-meho-nepritele.mkv",
@@ -36844,15 +36838,22 @@
         "display_name": "Narcos S02E05 The Enemies of My Enemy 1080p CZ Dabing",
         "prepared_at": "2026-10-30T12:56:43.423225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633251",
-        "size_bytes": 1365594389
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633251",
+          "size_bytes": 1365594389,
+          "source_bytes_read": 1365594389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33181781",
+        "source_url": "https://sdilej.cz/33181781/narcos-s02e05-10-2016-cz-dab-nepratele-meho-nepritele.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633251",
-        "size_bytes": 1365594389,
-        "source_bytes_read": 1365594389,
-        "http_status": 201
+        "display_name": "Narcos S02E05 The Enemies of My Enemy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T12:59:42.947419+00:00"
       }
     },
     "82:2:6": {
@@ -36931,5 +36932,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:59:40.405120+00:00"
+  "updated_at": "2026-10-30T12:59:42.947436+00:00"
 }
