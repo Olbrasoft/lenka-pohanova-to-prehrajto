@@ -57691,12 +57691,6 @@
     },
     "956:1:10": {
       "episode_key": "star trek: nová generace:s1:e10",
-      "claim": {
-        "worker_id": "6ac91bc4db7a48cda199ef70de29b3e2-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:09:07.153513+00:00",
-        "lease_expires_at": "2026-10-31T04:09:07.153524+00:00"
-      },
       "source": {
         "source_id": "28163441",
         "source_url": "https://sdilej.cz/28163441/star-trek-nova-generace-s01e10-hra-na-schovavanou.mkv",
@@ -57721,15 +57715,22 @@
         "display_name": "Star Trek: The Next Generation S01E10 Haven 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:09:10.993617+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646342",
-        "size_bytes": 460853465
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646342",
+          "size_bytes": 460853465,
+          "source_bytes_read": 460853465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163441",
+        "source_url": "https://sdilej.cz/28163441/star-trek-nova-generace-s01e10-hra-na-schovavanou.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646342",
-        "size_bytes": 460853465,
-        "source_bytes_read": 460853465,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S01E10 Haven 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:10:59.434637+00:00"
       }
     },
     "956:1:11": {
@@ -57775,5 +57776,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:10:56.315167+00:00"
+  "updated_at": "2026-10-30T22:10:59.434654+00:00"
 }
