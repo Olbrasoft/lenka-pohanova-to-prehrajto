@@ -28556,12 +28556,6 @@
     },
     "704:1:1": {
       "episode_key": "temný případ:s1:e1",
-      "claim": {
-        "worker_id": "2c01f89f0ee34ee591b86a7c413e72cf-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T08:02:10.391290+00:00",
-        "lease_expires_at": "2026-10-30T14:02:10.391302+00:00"
-      },
       "source": {
         "source_id": "32746775",
         "source_url": "https://sdilej.cz/32746775/true-detective-s01e01-cz-dabing-1080p.mkv",
@@ -28586,15 +28580,22 @@
         "display_name": "True Detective S01E01 The Long Bright Dark 1080p CZ Dabing",
         "prepared_at": "2026-10-30T08:02:12.009153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30629177",
-        "size_bytes": 729237647
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30629177",
+          "size_bytes": 729237647,
+          "source_bytes_read": 729237647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32746775",
+        "source_url": "https://sdilej.cz/32746775/true-detective-s01e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30629177",
-        "size_bytes": 729237647,
-        "source_bytes_read": 729237647,
-        "http_status": 201
+        "display_name": "True Detective S01E01 The Long Bright Dark 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T08:04:00.864682+00:00"
       }
     },
     "704:1:2": {
@@ -28640,5 +28641,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T08:03:59.723016+00:00"
+  "updated_at": "2026-10-30T08:04:00.864702+00:00"
 }
