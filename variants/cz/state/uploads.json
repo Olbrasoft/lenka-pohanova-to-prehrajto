@@ -55264,12 +55264,6 @@
     },
     "1180:1:13": {
       "episode_key": "odpočívej v pokoji:s1:e13",
-      "claim": {
-        "worker_id": "de45ebd45c4145d48576cdf801a36977-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T20:19:30.453534+00:00",
-        "lease_expires_at": "2026-10-31T02:19:30.453544+00:00"
-      },
       "source": {
         "source_id": "25987464",
         "source_url": "https://sdilej.cz/25987464/six.feet.under.s01e13.1080p.cz.en.mkv",
@@ -55294,15 +55288,22 @@
         "display_name": "Six Feet Under S01E13 Knock, Knock 1080p CZ Dabing",
         "prepared_at": "2026-10-30T20:19:35.236425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643949",
-        "size_bytes": 1497971298
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643949",
+          "size_bytes": 1497971298,
+          "source_bytes_read": 1497971298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25987464",
+        "source_url": "https://sdilej.cz/25987464/six.feet.under.s01e13.1080p.cz.en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643949",
-        "size_bytes": 1497971298,
-        "source_bytes_read": 1497971298,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E13 Knock, Knock 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T20:23:59.284555+00:00"
       }
     }
   },
@@ -55311,5 +55312,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T20:23:58.063202+00:00"
+  "updated_at": "2026-10-30T20:23:59.284571+00:00"
 }
