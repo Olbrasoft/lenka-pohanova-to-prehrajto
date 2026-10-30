@@ -33991,12 +33991,6 @@
     },
     "4350:1:6": {
       "episode_key": "hotýlek:s1:e6",
-      "claim": {
-        "worker_id": "d803f904136340c6ac9ecfb5802720f0-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:49:30.378951+00:00",
-        "lease_expires_at": "2026-10-30T16:49:30.378960+00:00"
-      },
       "source": {
         "source_id": "11814342",
         "source_url": "https://sdilej.cz/11814342/hotylek-s01e06-nemci.cz-dabing.avi",
@@ -34021,15 +34015,22 @@
         "display_name": "Fawlty Towers S01E06 The Germans SD CZ Dabing",
         "prepared_at": "2026-10-30T10:49:35.383247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30631409",
-        "size_bytes": 277608448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30631409",
+          "size_bytes": 277608448,
+          "source_bytes_read": 277608448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11814342",
+        "source_url": "https://sdilej.cz/11814342/hotylek-s01e06-nemci.cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30631409",
-        "size_bytes": 277608448,
-        "source_bytes_read": 277608448,
-        "http_status": 201
+        "display_name": "Fawlty Towers S01E06 The Germans SD CZ Dabing",
+        "uploaded_at": "2026-10-30T10:50:33.635422+00:00"
       }
     },
     "4350:1:5": {
@@ -34075,5 +34076,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:50:31.426407+00:00"
+  "updated_at": "2026-10-30T10:50:33.635439+00:00"
 }
