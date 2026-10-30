@@ -43097,12 +43097,6 @@
     },
     "673:9:14": {
       "episode_key": "městečko south park:s9:e14",
-      "claim": {
-        "worker_id": "6bc6a4b3f99649b5a84b3a394434f237-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:18:35.947344+00:00",
-        "lease_expires_at": "2026-10-30T20:18:35.947356+00:00"
-      },
       "source": {
         "source_id": "33507611",
         "source_url": "https://sdilej.cz/33507611/mestecko-south-park-s09e14-14-2005-cz-dab-1080p-krvava-marie.mkv",
@@ -43127,15 +43121,22 @@
         "display_name": "South Park S09E14 Bloody Mary 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:18:39.972670+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637644",
-        "size_bytes": 249087376
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637644",
+          "size_bytes": 249087376,
+          "source_bytes_read": 249087376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33507611",
+        "source_url": "https://sdilej.cz/33507611/mestecko-south-park-s09e14-14-2005-cz-dab-1080p-krvava-marie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637644",
-        "size_bytes": 249087376,
-        "source_bytes_read": 249087376,
-        "http_status": 201
+        "display_name": "South Park S09E14 Bloody Mary 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:19:27.754245+00:00"
       }
     },
     "673:10:1": {
@@ -43214,5 +43215,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:19:23.867941+00:00"
+  "updated_at": "2026-10-30T14:19:27.754264+00:00"
 }
