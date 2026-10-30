@@ -40389,12 +40389,6 @@
     },
     "673:5:8": {
       "episode_key": "městečko south park:s5:e8",
-      "claim": {
-        "worker_id": "e0aecc9fc5f14791a63e037c192809ac-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T13:49:17.310197+00:00",
-        "lease_expires_at": "2026-10-30T19:49:17.310210+00:00"
-      },
       "source": {
         "source_id": "33076284",
         "source_url": "https://sdilej.cz/33076284/mestecko-south-park-s05e08-14-2001-cz-dab-1080p-rucnicek.mkv",
@@ -40419,15 +40413,22 @@
         "display_name": "South Park S05E08 Towelie 4K CZ Dabing",
         "prepared_at": "2026-10-30T13:49:19.119061+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637179",
-        "size_bytes": 275742447
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637179",
+          "size_bytes": 275742447,
+          "source_bytes_read": 275742447,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33076284",
+        "source_url": "https://sdilej.cz/33076284/mestecko-south-park-s05e08-14-2001-cz-dab-1080p-rucnicek.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637179",
-        "size_bytes": 275742447,
-        "source_bytes_read": 275742447,
-        "http_status": 201
+        "display_name": "South Park S05E08 Towelie 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T13:50:20.331509+00:00"
       }
     },
     "673:5:9": {
@@ -40510,5 +40511,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T13:50:17.501846+00:00"
+  "updated_at": "2026-10-30T13:50:20.331528+00:00"
 }
