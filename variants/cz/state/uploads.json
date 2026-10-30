@@ -12414,12 +12414,6 @@
     },
     "22:6:20": {
       "episode_key": "rodina sopránů:s6:e20",
-      "claim": {
-        "worker_id": "b03a6c9019f74ecabd300acf9174e81f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:17:16.421892+00:00",
-        "lease_expires_at": "2026-10-30T06:17:16.421903+00:00"
-      },
       "source": {
         "source_id": "29099222",
         "source_url": "https://sdilej.cz/29099222/the-sopranos-s06e20.mkv",
@@ -12444,15 +12438,22 @@
         "display_name": "The Sopranos S06E20 The Blue Comet 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:17:17.898912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622102",
-        "size_bytes": 901825096
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622102",
+          "size_bytes": 901825096,
+          "source_bytes_read": 901825096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29099222",
+        "source_url": "https://sdilej.cz/29099222/the-sopranos-s06e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622102",
-        "size_bytes": 901825096,
-        "source_bytes_read": 901825096,
-        "http_status": 201
+        "display_name": "The Sopranos S06E20 The Blue Comet 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:20:11.147359+00:00"
       }
     },
     "22:6:21": {
@@ -12579,5 +12580,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:20:03.149134+00:00"
+  "updated_at": "2026-10-30T00:20:11.147392+00:00"
 }
