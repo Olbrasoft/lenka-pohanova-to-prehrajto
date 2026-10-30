@@ -36770,12 +36770,6 @@
     },
     "82:2:4": {
       "episode_key": "narcos:s2:e4",
-      "claim": {
-        "worker_id": "f76e4116a6734ba2a7d97808b4e7d741-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:52:46.697421+00:00",
-        "lease_expires_at": "2026-10-30T18:52:46.697432+00:00"
-      },
       "source": {
         "source_id": "34646313",
         "source_url": "https://sdilej.cz/34646313/narcos-s02e04-cz-dabing.mkv",
@@ -36800,15 +36794,22 @@
         "display_name": "Narcos S02E04 The Good, The Bad, and The Dead 4K CZ Dabing",
         "prepared_at": "2026-10-30T12:52:48.197356+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633212",
-        "size_bytes": 2520815633
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633212",
+          "size_bytes": 2520815633,
+          "source_bytes_read": 2520815633,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34646313",
+        "source_url": "https://sdilej.cz/34646313/narcos-s02e04-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633212",
-        "size_bytes": 2520815633,
-        "source_bytes_read": 2520815633,
-        "http_status": 201
+        "display_name": "Narcos S02E04 The Good, The Bad, and The Dead 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T12:59:28.675658+00:00"
       }
     },
     "82:2:5": {
@@ -36891,5 +36892,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:59:25.076528+00:00"
+  "updated_at": "2026-10-30T12:59:28.675675+00:00"
 }
