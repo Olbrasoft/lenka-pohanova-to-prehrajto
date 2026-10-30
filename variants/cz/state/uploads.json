@@ -33440,12 +33440,6 @@
     },
     "1927:4:3": {
       "episode_key": "boj o moc:s4:e3",
-      "claim": {
-        "worker_id": "80ece0eb99b140388da812627cdb7770-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T10:18:43.796761+00:00",
-        "lease_expires_at": "2026-10-30T16:18:43.796772+00:00"
-      },
       "source": {
         "source_id": "26485620",
         "source_url": "https://sdilej.cz/26485620/succession-s04e03-cz-dabing-1080p.mkv",
@@ -33470,15 +33464,22 @@
         "display_name": "Succession S04E03 Connor's Wedding 1080p CZ Dabing",
         "prepared_at": "2026-10-30T10:18:47.117111+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630915",
-        "size_bytes": 2924228124
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630915",
+          "size_bytes": 2924228124,
+          "source_bytes_read": 2924228124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26485620",
+        "source_url": "https://sdilej.cz/26485620/succession-s04e03-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630915",
-        "size_bytes": 2924228124,
-        "source_bytes_read": 2924228124,
-        "http_status": 201
+        "display_name": "Succession S04E03 Connor's Wedding 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T10:27:49.725892+00:00"
       }
     },
     "1927:4:4": {
@@ -33531,5 +33532,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T10:27:48.521236+00:00"
+  "updated_at": "2026-10-30T10:27:49.725913+00:00"
 }
