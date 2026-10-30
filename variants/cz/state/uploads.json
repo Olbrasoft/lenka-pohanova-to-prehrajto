@@ -13331,12 +13331,6 @@
     },
     "1733:3:8": {
       "episode_key": "vyvolení:s3:e8",
-      "claim": {
-        "worker_id": "1b872221c299407da623d7dccc3579e9-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:54:45.050385+00:00",
-        "lease_expires_at": "2026-10-30T06:54:45.050396+00:00"
-      },
       "source": {
         "source_id": "33130614",
         "source_url": "https://sdilej.cz/33130614/vyvoleni-s03e08-czdab-1080p-sustenance.mkv",
@@ -13361,15 +13355,22 @@
         "display_name": "The Chosen S03E08 Sustenance 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:54:46.570664+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622618",
-        "size_bytes": 1750316982
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622618",
+          "size_bytes": 1750316982,
+          "source_bytes_read": 1750316982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33130614",
+        "source_url": "https://sdilej.cz/33130614/vyvoleni-s03e08-czdab-1080p-sustenance.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622618",
-        "size_bytes": 1750316982,
-        "source_bytes_read": 1750316982,
-        "http_status": 201
+        "display_name": "The Chosen S03E08 Sustenance 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T01:00:20.063250+00:00"
       }
     },
     "1733:4:2": {
@@ -13415,5 +13416,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T01:00:16.659546+00:00"
+  "updated_at": "2026-10-30T01:00:20.063285+00:00"
 }
