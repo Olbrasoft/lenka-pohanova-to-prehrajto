@@ -25426,12 +25426,6 @@
     },
     "1831:2:18": {
       "episode_key": "městečko záhad:s2:e18",
-      "claim": {
-        "worker_id": "38d6995271204298b94d670dea11bdfa-worker-0",
-        "run_id": "41008194227",
-        "claimed_at": "2026-10-30T06:03:12.626931+00:00",
-        "lease_expires_at": "2026-10-30T12:03:12.626941+00:00"
-      },
       "source": {
         "source_id": "21443839",
         "source_url": "https://sdilej.cz/21443839/mestecko-zahad-gravity-falls-s02e18-hd-cz-dabing.mkv",
@@ -25456,15 +25450,22 @@
         "display_name": "Gravity Falls S02E18 Weirdmageddon (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T06:03:14.066344+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30627590",
-        "size_bytes": 1510848992
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30627590",
+          "size_bytes": 1510848992,
+          "source_bytes_read": 1510848992,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21443839",
+        "source_url": "https://sdilej.cz/21443839/mestecko-zahad-gravity-falls-s02e18-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30627590",
-        "size_bytes": 1510848992,
-        "source_bytes_read": 1510848992,
-        "http_status": 201
+        "display_name": "Gravity Falls S02E18 Weirdmageddon (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T06:07:25.326281+00:00"
       }
     },
     "1831:2:19": {
@@ -25723,5 +25724,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T06:07:21.611319+00:00"
+  "updated_at": "2026-10-30T06:07:25.326300+00:00"
 }
