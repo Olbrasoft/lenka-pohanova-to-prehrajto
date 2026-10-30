@@ -18794,12 +18794,6 @@
     },
     "28:6:3": {
       "episode_key": "rick a morty:s6:e3",
-      "claim": {
-        "worker_id": "f045e7238cc540929e9c1a83ab9371cd-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T02:51:38.423476+00:00",
-        "lease_expires_at": "2026-10-30T08:51:38.423488+00:00"
-      },
       "source": {
         "source_id": "34923985",
         "source_url": "https://sdilej.cz/34923985/rick-and-morty-s06e03-czen-dabing.mp4",
@@ -18824,15 +18818,22 @@
         "display_name": "Rick and Morty S06E03 Bethic Twinstinct 1080p CZ Dabing",
         "prepared_at": "2026-10-30T02:51:40.054706+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30624456",
-        "size_bytes": 219648278
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30624456",
+          "size_bytes": 219648278,
+          "source_bytes_read": 219648278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34923985",
+        "source_url": "https://sdilej.cz/34923985/rick-and-morty-s06e03-czen-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30624456",
-        "size_bytes": 219648278,
-        "source_bytes_read": 219648278,
-        "http_status": 201
+        "display_name": "Rick and Morty S06E03 Bethic Twinstinct 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T02:52:44.899338+00:00"
       }
     },
     "28:6:4": {
@@ -18915,5 +18916,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:52:42.431336+00:00"
+  "updated_at": "2026-10-30T02:52:44.899356+00:00"
 }
