@@ -36461,12 +36461,6 @@
     },
     "82:1:7": {
       "episode_key": "narcos:s1:e7",
-      "claim": {
-        "worker_id": "f9479f84681546b4af55806768de3ae7-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T12:38:51.308099+00:00",
-        "lease_expires_at": "2026-10-30T18:38:51.308109+00:00"
-      },
       "source": {
         "source_id": "31991279",
         "source_url": "https://sdilej.cz/31991279/narcos-s01e07.mp4",
@@ -36491,15 +36485,22 @@
         "display_name": "Narcos S01E07 You Will Cry Tears of Blood SD CZ Dabing",
         "prepared_at": "2026-10-30T12:38:52.776123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30633041",
-        "size_bytes": 211404094
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30633041",
+          "size_bytes": 211404094,
+          "source_bytes_read": 211404094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31991279",
+        "source_url": "https://sdilej.cz/31991279/narcos-s01e07.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30633041",
-        "size_bytes": 211404094,
-        "source_bytes_read": 211404094,
-        "http_status": 201
+        "display_name": "Narcos S01E07 You Will Cry Tears of Blood SD CZ Dabing",
+        "uploaded_at": "2026-10-30T12:39:42.940922+00:00"
       }
     }
   },
@@ -36508,5 +36509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T12:39:41.783563+00:00"
+  "updated_at": "2026-10-30T12:39:42.940940+00:00"
 }
