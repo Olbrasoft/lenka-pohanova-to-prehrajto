@@ -44216,12 +44216,6 @@
     },
     "673:11:12": {
       "episode_key": "městečko south park:s11:e12",
-      "claim": {
-        "worker_id": "43426c36e58b439d9c4928947ed4b4a6-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:40:53.426460+00:00",
-        "lease_expires_at": "2026-10-30T20:40:53.426474+00:00"
-      },
       "source": {
         "source_id": "32919655",
         "source_url": "https://sdilej.cz/32919655/mestecko-south-park-s11e12-14-2007-cz-dab-1080p-rise-fantazie-3.-cast-.mkv",
@@ -44246,15 +44240,22 @@
         "display_name": "South Park S11E12 Imaginationland, Episode III 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:40:58.887871+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638056",
-        "size_bytes": 254631659
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638056",
+          "size_bytes": 254631659,
+          "source_bytes_read": 254631659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32919655",
+        "source_url": "https://sdilej.cz/32919655/mestecko-south-park-s11e12-14-2007-cz-dab-1080p-rise-fantazie-3.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638056",
-        "size_bytes": 254631659,
-        "source_bytes_read": 254631659,
-        "http_status": 201
+        "display_name": "South Park S11E12 Imaginationland, Episode III 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:41:49.328810+00:00"
       }
     },
     "673:11:13": {
@@ -44333,5 +44334,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:41:46.260802+00:00"
+  "updated_at": "2026-10-30T14:41:49.328829+00:00"
 }
