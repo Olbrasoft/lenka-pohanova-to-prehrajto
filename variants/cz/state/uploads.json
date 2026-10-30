@@ -32466,12 +32466,6 @@
     },
     "1927:1:10": {
       "episode_key": "boj o moc:s1:e10",
-      "claim": {
-        "worker_id": "ee8783a4ff154b72846661fd8a551224-worker-0",
-        "run_id": "41033258988",
-        "claimed_at": "2026-10-30T09:35:56.198279+00:00",
-        "lease_expires_at": "2026-10-30T15:35:56.198290+00:00"
-      },
       "source": {
         "source_id": "32617006",
         "source_url": "https://sdilej.cz/32617006/succession-2018-s01e10-cz-dabing-1080p.mkv",
@@ -32496,15 +32490,22 @@
         "display_name": "Succession S01E10 Nobody Is Ever Missing 1080p CZ Dabing",
         "prepared_at": "2026-10-30T09:36:00.408690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30630391",
-        "size_bytes": 1638277692
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30630391",
+          "size_bytes": 1638277692,
+          "source_bytes_read": 1638277692,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32617006",
+        "source_url": "https://sdilej.cz/32617006/succession-2018-s01e10-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30630391",
-        "size_bytes": 1638277692,
-        "source_bytes_read": 1638277692,
-        "http_status": 201
+        "display_name": "Succession S01E10 Nobody Is Ever Missing 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T09:41:44.267636+00:00"
       }
     },
     "1927:2:1": {
@@ -32587,5 +32588,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T09:41:41.291792+00:00"
+  "updated_at": "2026-10-30T09:41:44.267652+00:00"
 }
