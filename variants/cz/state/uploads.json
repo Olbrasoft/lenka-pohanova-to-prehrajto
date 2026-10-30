@@ -22512,12 +22512,6 @@
     },
     "925:1:23": {
       "episode_key": "zápisník smrti:s1:e23",
-      "claim": {
-        "worker_id": "755e916b8a2b4dd2ac5c47bea1b42212-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:05:33.130829+00:00",
-        "lease_expires_at": "2026-10-30T11:05:33.130840+00:00"
-      },
       "source": {
         "source_id": "31746970",
         "source_url": "https://sdilej.cz/31746970/zapisnik-smrti-s01e23-720p-cz.mkv",
@@ -22551,7 +22545,13 @@
         "size_bytes": 441149763,
         "source_bytes_read": 441149763,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-10-30T05:06:57.268032+00:00",
+          "error": "PrehrajtoError"
+        }
+      ]
     },
     "925:1:24": {
       "episode_key": "zápisník smrti:s1:e24",
@@ -22633,5 +22633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:06:54.711877+00:00"
+  "updated_at": "2026-10-30T05:06:57.268049+00:00"
 }
