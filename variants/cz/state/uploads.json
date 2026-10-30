@@ -54692,12 +54692,6 @@
     },
     "1180:1:1": {
       "episode_key": "odpočívej v pokoji:s1:e1",
-      "claim": {
-        "worker_id": "ce208887fc444068bfad59270e75c2b0-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T19:43:32.557370+00:00",
-        "lease_expires_at": "2026-10-31T01:43:32.557379+00:00"
-      },
       "source": {
         "source_id": "25908108",
         "source_url": "https://sdilej.cz/25908108/odpocivej-v-pokoji-six-feet-under-s01e01-hd-cz-dabing.mkv",
@@ -54722,15 +54716,22 @@
         "display_name": "Six Feet Under S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-10-30T19:43:35.449077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30643208",
-        "size_bytes": 1595835075
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30643208",
+          "size_bytes": 1595835075,
+          "source_bytes_read": 1595835075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25908108",
+        "source_url": "https://sdilej.cz/25908108/odpocivej-v-pokoji-six-feet-under-s01e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30643208",
-        "size_bytes": 1595835075,
-        "source_bytes_read": 1595835075,
-        "http_status": 201
+        "display_name": "Six Feet Under S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T19:47:50.354106+00:00"
       }
     },
     "1180:1:2": {
@@ -54819,5 +54820,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T19:47:47.819714+00:00"
+  "updated_at": "2026-10-30T19:47:50.354122+00:00"
 }
