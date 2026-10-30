@@ -23197,12 +23197,6 @@
     },
     "178:1:1": {
       "episode_key": "firefly:s1:e1",
-      "claim": {
-        "worker_id": "67c8123e904541469bde8098785eb6b6-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T05:16:12.353125+00:00",
-        "lease_expires_at": "2026-10-30T11:16:12.353136+00:00"
-      },
       "source": {
         "source_id": "31984619",
         "source_url": "https://sdilej.cz/31984619/firefly-s01e01-serenity.mp4",
@@ -23227,15 +23221,22 @@
         "display_name": "Firefly S01E01 The Train Job SD CZ Dabing",
         "prepared_at": "2026-10-30T05:16:16.226968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30626864",
-        "size_bytes": 251790833
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626864",
+          "size_bytes": 251790833,
+          "source_bytes_read": 251790833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31984619",
+        "source_url": "https://sdilej.cz/31984619/firefly-s01e01-serenity.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30626864",
-        "size_bytes": 251790833,
-        "source_bytes_read": 251790833,
-        "http_status": 201
+        "display_name": "Firefly S01E01 The Train Job SD CZ Dabing",
+        "uploaded_at": "2026-10-30T05:17:04.256066+00:00"
       }
     }
   },
@@ -23244,5 +23245,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T05:17:00.980421+00:00"
+  "updated_at": "2026-10-30T05:17:04.256081+00:00"
 }
