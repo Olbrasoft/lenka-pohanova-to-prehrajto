@@ -58571,12 +58571,6 @@
     },
     "956:2:5": {
       "episode_key": "star trek: nová generace:s2:e5",
-      "claim": {
-        "worker_id": "9d7a989388f44ff59f92c8624d7c22f3-worker-0",
-        "run_id": "41114653975",
-        "claimed_at": "2026-10-30T22:25:59.725042+00:00",
-        "lease_expires_at": "2026-10-31T04:25:59.725051+00:00"
-      },
       "source": {
         "source_id": "28163834",
         "source_url": "https://sdilej.cz/28163834/star-trek-nova-generace-s02e05-tichy-jako-sepot.mkv",
@@ -58601,15 +58595,22 @@
         "display_name": "Star Trek: The Next Generation S02E05 Loud as a Whisper 1080p CZ Dabing",
         "prepared_at": "2026-10-30T22:26:02.432197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30646690",
-        "size_bytes": 566379874
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30646690",
+          "size_bytes": 566379874,
+          "source_bytes_read": 566379874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28163834",
+        "source_url": "https://sdilej.cz/28163834/star-trek-nova-generace-s02e05-tichy-jako-sepot.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30646690",
-        "size_bytes": 566379874,
-        "source_bytes_read": 566379874,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S02E05 Loud as a Whisper 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T22:28:02.622246+00:00"
       }
     },
     "956:2:6": {
@@ -58651,5 +58652,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T22:27:59.689627+00:00"
+  "updated_at": "2026-10-30T22:28:02.622264+00:00"
 }
