@@ -47748,12 +47748,6 @@
     },
     "673:17:10": {
       "episode_key": "městečko south park:s17:e10",
-      "claim": {
-        "worker_id": "b486375337344a39844974a4d071b2b8-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:27:10.154812+00:00",
-        "lease_expires_at": "2026-10-30T21:27:10.154824+00:00"
-      },
       "source": {
         "source_id": "34015585",
         "source_url": "https://sdilej.cz/34015585/south-park-s17e10.-hobit.mkv",
@@ -47778,15 +47772,22 @@
         "display_name": "South Park S17E10 The Hobbit 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:27:14.488876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638782",
-        "size_bytes": 248939377
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638782",
+          "size_bytes": 248939377,
+          "source_bytes_read": 248939377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34015585",
+        "source_url": "https://sdilej.cz/34015585/south-park-s17e10.-hobit.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638782",
-        "size_bytes": 248939377,
-        "source_bytes_read": 248939377,
-        "http_status": 201
+        "display_name": "South Park S17E10 The Hobbit 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:28:14.030500+00:00"
       }
     },
     "673:18:1": {
@@ -47898,5 +47899,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:28:11.414088+00:00"
+  "updated_at": "2026-10-30T15:28:14.030519+00:00"
 }
