@@ -46260,12 +46260,6 @@
     },
     "673:15:3": {
       "episode_key": "městečko south park:s15:e3",
-      "claim": {
-        "worker_id": "303a3824994c435590d828181e160483-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:07:40.755982+00:00",
-        "lease_expires_at": "2026-10-30T21:07:40.755995+00:00"
-      },
       "source": {
         "source_id": "32893024",
         "source_url": "https://sdilej.cz/32893024/mestecko-south-park-s15e03-14-2011-cz-dab-1080p-kralovsky-pudink.mkv",
@@ -46290,15 +46284,22 @@
         "display_name": "South Park S15E03 Royal Pudding 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:07:45.611853+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638474",
-        "size_bytes": 261371183
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638474",
+          "size_bytes": 261371183,
+          "source_bytes_read": 261371183,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893024",
+        "source_url": "https://sdilej.cz/32893024/mestecko-south-park-s15e03-14-2011-cz-dab-1080p-kralovsky-pudink.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638474",
-        "size_bytes": 261371183,
-        "source_bytes_read": 261371183,
-        "http_status": 201
+        "display_name": "South Park S15E03 Royal Pudding 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:08:49.562592+00:00"
       }
     },
     "673:15:4": {
@@ -46373,5 +46374,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:08:46.906303+00:00"
+  "updated_at": "2026-10-30T15:08:49.562611+00:00"
 }
