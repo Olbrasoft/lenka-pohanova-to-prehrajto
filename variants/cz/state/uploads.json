@@ -21434,12 +21434,6 @@
     },
     "609:1:8": {
       "episode_key": "dexter: vzkříšení:s1:e8",
-      "claim": {
-        "worker_id": "af27e23515a24bffb4b783cf35765081-worker-0",
-        "run_id": "40985673597",
-        "claimed_at": "2026-10-30T04:42:52.886387+00:00",
-        "lease_expires_at": "2026-10-30T10:42:52.886397+00:00"
-      },
       "source": {
         "source_id": "34520897",
         "source_url": "https://sdilej.cz/34520897/dexter-vzkriseni-s01e08-cz-dabing-2160p-uhd.mkv",
@@ -21464,15 +21458,22 @@
         "display_name": "Dexter: Resurrection S01E08 The Kill Room Where It Happens 4K CZ Dabing",
         "prepared_at": "2026-10-30T04:42:54.495180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30626347",
-        "size_bytes": 2254267689
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626347",
+          "size_bytes": 2254267689,
+          "source_bytes_read": 2254267689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34520897",
+        "source_url": "https://sdilej.cz/34520897/dexter-vzkriseni-s01e08-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30626347",
-        "size_bytes": 2254267689,
-        "source_bytes_read": 2254267689,
-        "http_status": 201
+        "display_name": "Dexter: Resurrection S01E08 The Kill Room Where It Happens 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T04:50:42.133810+00:00"
       }
     },
     "609:1:9": {
@@ -21555,5 +21556,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T04:50:37.497963+00:00"
+  "updated_at": "2026-10-30T04:50:42.133825+00:00"
 }
