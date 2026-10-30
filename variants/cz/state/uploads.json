@@ -52499,12 +52499,6 @@
     },
     "40:3:16": {
       "episode_key": "městečko twin peaks:s3:e16",
-      "claim": {
-        "worker_id": "baf4c0aacda74acbbdd19bf7b3b0c7ab-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T18:06:02.569334+00:00",
-        "lease_expires_at": "2026-10-31T00:06:02.569345+00:00"
-      },
       "source": {
         "source_id": "33063734",
         "source_url": "https://sdilej.cz/33063734/mestecko-twin-peaks-s03e16-cz-dabing.mkv",
@@ -52529,15 +52523,22 @@
         "display_name": "Twin Peaks S03E16 Part 16 1080p CZ Dabing",
         "prepared_at": "2026-10-30T18:06:05.489578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641532",
-        "size_bytes": 2206655280
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641532",
+          "size_bytes": 2206655280,
+          "source_bytes_read": 2206655280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33063734",
+        "source_url": "https://sdilej.cz/33063734/mestecko-twin-peaks-s03e16-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641532",
-        "size_bytes": 2206655280,
-        "source_bytes_read": 2206655280,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E16 Part 16 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T18:12:28.477190+00:00"
       }
     },
     "40:3:17": {
@@ -52620,5 +52621,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T18:12:25.922097+00:00"
+  "updated_at": "2026-10-30T18:12:28.477205+00:00"
 }
