@@ -12942,12 +12942,6 @@
     },
     "1733:2:3": {
       "episode_key": "vyvolení:s2:e3",
-      "claim": {
-        "worker_id": "aad511096a1f4c0592482cd5a0fdcf7f-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T00:29:53.109040+00:00",
-        "lease_expires_at": "2026-10-30T06:29:53.109050+00:00"
-      },
       "source": {
         "source_id": "29166086",
         "source_url": "https://sdilej.cz/29166086/the-chosen-s02e03-hd-cz-en-dabing.mkv",
@@ -12972,15 +12966,22 @@
         "display_name": "The Chosen S02E03 Matthew 4:24 1080p CZ Dabing",
         "prepared_at": "2026-10-30T00:29:54.587685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30622301",
-        "size_bytes": 1403957324
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30622301",
+          "size_bytes": 1403957324,
+          "source_bytes_read": 1403957324,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29166086",
+        "source_url": "https://sdilej.cz/29166086/the-chosen-s02e03-hd-cz-en-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30622301",
-        "size_bytes": 1403957324,
-        "source_bytes_read": 1403957324,
-        "http_status": 201
+        "display_name": "The Chosen S02E03 Matthew 4:24 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T00:34:00.300405+00:00"
       }
     },
     "1733:2:5": {
@@ -13026,5 +13027,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T00:33:55.944730+00:00"
+  "updated_at": "2026-10-30T00:34:00.300424+00:00"
 }
