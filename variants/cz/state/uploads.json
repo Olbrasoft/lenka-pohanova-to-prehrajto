@@ -15707,12 +15707,6 @@
     },
     "25:5:4": {
       "episode_key": "volejte saulovi:s5:e4",
-      "claim": {
-        "worker_id": "6f13f483555946f0aa3dc2dd68592381-worker-0",
-        "run_id": "40965362115",
-        "claimed_at": "2026-10-30T02:03:16.752933+00:00",
-        "lease_expires_at": "2026-10-30T08:03:16.752944+00:00"
-      },
       "source": {
         "source_id": "30974820",
         "source_url": "https://sdilej.cz/30974820/volejte-saulovi-s05e04-2160p-cz.mkv",
@@ -15737,15 +15731,22 @@
         "display_name": "Better Call Saul S05E04 Namaste 4K CZ Dabing",
         "prepared_at": "2026-10-30T02:03:18.183912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30623761",
-        "size_bytes": 1172787758
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30623761",
+          "size_bytes": 1172787758,
+          "source_bytes_read": 1172787758,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30974820",
+        "source_url": "https://sdilej.cz/30974820/volejte-saulovi-s05e04-2160p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30623761",
-        "size_bytes": 1172787758,
-        "source_bytes_read": 1172787758,
-        "http_status": 201
+        "display_name": "Better Call Saul S05E04 Namaste 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T02:06:57.568156+00:00"
       }
     },
     "25:5:5": {
@@ -15791,5 +15792,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T02:06:54.088865+00:00"
+  "updated_at": "2026-10-30T02:06:57.568172+00:00"
 }
