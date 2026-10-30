@@ -51971,12 +51971,6 @@
     },
     "40:3:4": {
       "episode_key": "městečko twin peaks:s3:e4",
-      "claim": {
-        "worker_id": "677dc524e78a4168a9a162a97fede776-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:28:59.517700+00:00",
-        "lease_expires_at": "2026-10-30T23:28:59.517712+00:00"
-      },
       "source": {
         "source_id": "33238785",
         "source_url": "https://sdilej.cz/33238785/mestecko-twin-peaks-s03e04-...brings-back-some-memories.mkv",
@@ -52001,15 +51995,22 @@
         "display_name": "Twin Peaks S03E04 Part 4 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:29:03.375603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30640936",
-        "size_bytes": 1243951015
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30640936",
+          "size_bytes": 1243951015,
+          "source_bytes_read": 1243951015,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238785",
+        "source_url": "https://sdilej.cz/33238785/mestecko-twin-peaks-s03e04-...brings-back-some-memories.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30640936",
-        "size_bytes": 1243951015,
-        "source_bytes_read": 1243951015,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E04 Part 4 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:33:12.267694+00:00"
       }
     },
     "40:3:5": {
@@ -52092,5 +52093,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:33:06.136430+00:00"
+  "updated_at": "2026-10-30T17:33:12.267710+00:00"
 }
