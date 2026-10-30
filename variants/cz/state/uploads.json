@@ -43008,12 +43008,6 @@
     },
     "673:9:12": {
       "episode_key": "městečko south park:s9:e12",
-      "claim": {
-        "worker_id": "98e49f86df8849ba87be109290530f3a-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T14:17:23.161836+00:00",
-        "lease_expires_at": "2026-10-30T20:17:23.161848+00:00"
-      },
       "source": {
         "source_id": "32876796",
         "source_url": "https://sdilej.cz/32876796/mestecko-south-park-s09e12-14-2005-cz-dab-1080p-uvezneny-v-komore.mkv",
@@ -43038,15 +43032,22 @@
         "display_name": "South Park S09E12 Trapped in the Closet 4K CZ Dabing",
         "prepared_at": "2026-10-30T14:17:26.565003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30637614",
-        "size_bytes": 249849133
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30637614",
+          "size_bytes": 249849133,
+          "source_bytes_read": 249849133,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876796",
+        "source_url": "https://sdilej.cz/32876796/mestecko-south-park-s09e12-14-2005-cz-dab-1080p-uvezneny-v-komore.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30637614",
-        "size_bytes": 249849133,
-        "source_bytes_read": 249849133,
-        "http_status": 201
+        "display_name": "South Park S09E12 Trapped in the Closet 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T14:18:25.380894+00:00"
       }
     },
     "673:9:13": {
@@ -43091,5 +43092,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T14:18:22.923207+00:00"
+  "updated_at": "2026-10-30T14:18:25.380911+00:00"
 }
