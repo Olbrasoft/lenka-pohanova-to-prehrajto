@@ -48388,12 +48388,6 @@
     },
     "673:19:5": {
       "episode_key": "městečko south park:s19:e5",
-      "claim": {
-        "worker_id": "8800d0c60e7048f0aead25646720ce4c-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:38:23.000387+00:00",
-        "lease_expires_at": "2026-10-30T21:38:23.000399+00:00"
-      },
       "source": {
         "source_id": "32893220",
         "source_url": "https://sdilej.cz/32893220/mestecko-south-park-s19e05-10-2015-cz-dab-1080p-bezpecna-zona.mkv",
@@ -48418,15 +48412,22 @@
         "display_name": "South Park S19E05 Safe Space 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:38:25.902891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30638957",
-        "size_bytes": 253133239
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30638957",
+          "size_bytes": 253133239,
+          "source_bytes_read": 253133239,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893220",
+        "source_url": "https://sdilej.cz/32893220/mestecko-south-park-s19e05-10-2015-cz-dab-1080p-bezpecna-zona.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30638957",
-        "size_bytes": 253133239,
-        "source_bytes_read": 253133239,
-        "http_status": 201
+        "display_name": "South Park S19E05 Safe Space 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:39:36.838473+00:00"
       }
     }
   },
@@ -48435,5 +48436,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:39:32.961539+00:00"
+  "updated_at": "2026-10-30T15:39:36.838490+00:00"
 }
