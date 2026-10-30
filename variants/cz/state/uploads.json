@@ -49174,12 +49174,6 @@
     },
     "673:21:3": {
       "episode_key": "městečko south park:s21:e3",
-      "claim": {
-        "worker_id": "aa7e4e9a2ff44e14be65c6841d0872be-worker-0",
-        "run_id": "41055991484",
-        "claimed_at": "2026-10-30T15:53:03.154886+00:00",
-        "lease_expires_at": "2026-10-30T21:53:03.154899+00:00"
-      },
       "source": {
         "source_id": "33072954",
         "source_url": "https://sdilej.cz/33072954/mestecko-south-park-s21e03-17-2017-cz-dab-1080p-timmy.mkv",
@@ -49204,15 +49198,22 @@
         "display_name": "South Park S21E03 Holiday Special 4K CZ Dabing",
         "prepared_at": "2026-10-30T15:53:04.937385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30639135",
-        "size_bytes": 256325282
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30639135",
+          "size_bytes": 256325282,
+          "source_bytes_read": 256325282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33072954",
+        "source_url": "https://sdilej.cz/33072954/mestecko-south-park-s21e03-17-2017-cz-dab-1080p-timmy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30639135",
-        "size_bytes": 256325282,
-        "source_bytes_read": 256325282,
-        "http_status": 201
+        "display_name": "South Park S21E03 Holiday Special 4K CZ Dabing",
+        "uploaded_at": "2026-10-30T15:54:13.983044+00:00"
       }
     }
   },
@@ -49221,5 +49222,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T15:54:12.627968+00:00"
+  "updated_at": "2026-10-30T15:54:13.983065+00:00"
 }
