@@ -52191,12 +52191,6 @@
     },
     "40:3:9": {
       "episode_key": "městečko twin peaks:s3:e9",
-      "claim": {
-        "worker_id": "869aedb80a59484d919f79f3f3ff6a9b-worker-0",
-        "run_id": "41089546854",
-        "claimed_at": "2026-10-30T17:36:05.434746+00:00",
-        "lease_expires_at": "2026-10-30T23:36:05.434757+00:00"
-      },
       "source": {
         "source_id": "29296919",
         "source_url": "https://sdilej.cz/29296919/mestecko-twin-peaks-twin-peaks-s03e09-hd-cz-dabing.mkv",
@@ -52221,15 +52215,22 @@
         "display_name": "Twin Peaks S03E09 Part 9 1080p CZ Dabing",
         "prepared_at": "2026-10-30T17:36:07.145025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30641047",
-        "size_bytes": 2054395826
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30641047",
+          "size_bytes": 2054395826,
+          "source_bytes_read": 2054395826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296919",
+        "source_url": "https://sdilej.cz/29296919/mestecko-twin-peaks-twin-peaks-s03e09-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30641047",
-        "size_bytes": 2054395826,
-        "source_bytes_read": 2054395826,
-        "http_status": 201
+        "display_name": "Twin Peaks S03E09 Part 9 1080p CZ Dabing",
+        "uploaded_at": "2026-10-30T17:42:53.810363+00:00"
       }
     }
   },
@@ -52238,5 +52239,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-30T17:42:52.540888+00:00"
+  "updated_at": "2026-10-30T17:42:53.810379+00:00"
 }
