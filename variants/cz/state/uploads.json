@@ -63883,12 +63883,6 @@
     },
     "956:6:26": {
       "episode_key": "star trek: nová generace:s6:e26",
-      "claim": {
-        "worker_id": "e7ae0af210544cdca245f80a6e250c9c-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:26:53.107085+00:00",
-        "lease_expires_at": "2026-10-31T06:26:53.107097+00:00"
-      },
       "source": {
         "source_id": "28165767",
         "source_url": "https://sdilej.cz/28165767/star-trek-nova-generace-s06e26-vpad-1.-cast-.mkv",
@@ -63913,15 +63907,22 @@
         "display_name": "Star Trek: The Next Generation S06E26 Descent (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:26:57.586371+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649813",
-        "size_bytes": 370099673
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649813",
+          "size_bytes": 370099673,
+          "source_bytes_read": 370099673,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165767",
+        "source_url": "https://sdilej.cz/28165767/star-trek-nova-generace-s06e26-vpad-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649813",
-        "size_bytes": 370099673,
-        "source_bytes_read": 370099673,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E26 Descent (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:28:16.307925+00:00"
       }
     },
     "956:7:1": {
@@ -63967,5 +63968,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:28:14.291000+00:00"
+  "updated_at": "2026-10-31T00:28:16.307942+00:00"
 }
