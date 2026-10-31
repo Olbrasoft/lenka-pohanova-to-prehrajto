@@ -108404,12 +108404,6 @@
     },
     "13:33:14": {
       "episode_key": "simpsonovi:s33:e14",
-      "claim": {
-        "worker_id": "969d86d9107e461ba48a2317bcbabcaf-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:07:06.720371+00:00",
-        "lease_expires_at": "2026-11-01T03:07:06.720382+00:00"
-      },
       "source": {
         "source_id": "34980130",
         "source_url": "https://sdilej.cz/34980130/simpsonovi-s33e14-cz.mkv",
@@ -108434,15 +108428,22 @@
         "display_name": "The Simpsons S33E14 You Won't Believe What This Episode Is About -- Act Three Will Shock You! 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:07:08.691567+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678620",
-        "size_bytes": 165046202
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678620",
+          "size_bytes": 165046202,
+          "source_bytes_read": 165046202,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34980130",
+        "source_url": "https://sdilej.cz/34980130/simpsonovi-s33e14-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678620",
-        "size_bytes": 165046202,
-        "source_bytes_read": 165046202,
-        "http_status": 201
+        "display_name": "The Simpsons S33E14 You Won't Believe What This Episode Is About -- Act Three Will Shock You! 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:07:34.283624+00:00"
       }
     }
   },
@@ -108451,5 +108452,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:07:32.584358+00:00"
+  "updated_at": "2026-10-31T21:07:34.283640+00:00"
 }
