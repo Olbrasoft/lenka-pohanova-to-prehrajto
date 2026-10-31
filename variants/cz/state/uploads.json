@@ -112283,12 +112283,6 @@
     },
     "76:1:10": {
       "episode_key": "andor:s1:e10",
-      "claim": {
-        "worker_id": "e2099e548a614af5a4aa2eb28863eecf-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:40:02.207214+00:00",
-        "lease_expires_at": "2026-11-01T04:40:02.207225+00:00"
-      },
       "source": {
         "source_id": "33692655",
         "source_url": "https://sdilej.cz/33692655/andor-s01e10-ted-jdem-ven.mkv",
@@ -112313,15 +112307,22 @@
         "display_name": "Andor S01E10 One Way Out 4K CZ Dabing",
         "prepared_at": "2026-10-31T22:40:04.176563+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680243",
-        "size_bytes": 2163329903
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680243",
+          "size_bytes": 2163329903,
+          "source_bytes_read": 2163329903,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33692655",
+        "source_url": "https://sdilej.cz/33692655/andor-s01e10-ted-jdem-ven.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680243",
-        "size_bytes": 2163329903,
-        "source_bytes_read": 2163329903,
-        "http_status": 201
+        "display_name": "Andor S01E10 One Way Out 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T22:45:33.015227+00:00"
       }
     },
     "76:1:11": {
@@ -112492,5 +112493,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:45:28.967661+00:00"
+  "updated_at": "2026-10-31T22:45:33.015266+00:00"
 }
