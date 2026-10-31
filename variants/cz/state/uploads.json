@@ -96883,12 +96883,6 @@
     },
     "13:21:15": {
       "episode_key": "simpsonovi:s21:e15",
-      "claim": {
-        "worker_id": "40a8115396334f15a66db1e55e5f64e4-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:53:04.689160+00:00",
-        "lease_expires_at": "2026-10-31T23:53:04.689183+00:00"
-      },
       "source": {
         "source_id": "32763809",
         "source_url": "https://sdilej.cz/32763809/simpsonovi-s21e15-cz-dabing.mkv",
@@ -96913,15 +96907,22 @@
         "display_name": "The Simpsons S21E15 Stealing First Base 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:53:07.717339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674573",
-        "size_bytes": 499881139
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674573",
+          "size_bytes": 499881139,
+          "source_bytes_read": 499881139,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763809",
+        "source_url": "https://sdilej.cz/32763809/simpsonovi-s21e15-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674573",
-        "size_bytes": 499881139,
-        "source_bytes_read": 499881139,
-        "http_status": 201
+        "display_name": "The Simpsons S21E15 Stealing First Base 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:54:05.308944+00:00"
       }
     },
     "13:21:16": {
@@ -97003,5 +97004,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:54:02.864345+00:00"
+  "updated_at": "2026-10-31T17:54:05.308956+00:00"
 }
