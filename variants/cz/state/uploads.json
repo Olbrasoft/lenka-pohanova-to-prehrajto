@@ -75851,12 +75851,6 @@
     },
     "88:1:11": {
       "episode_key": "daredevil:s1:e11",
-      "claim": {
-        "worker_id": "6426d9310adf4d91b7f3e4eaaecaa9cb-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:35:11.541603+00:00",
-        "lease_expires_at": "2026-10-31T16:35:11.541613+00:00"
-      },
       "source": {
         "source_id": "32885601",
         "source_url": "https://sdilej.cz/32885601/daredevil-s01e11-cz-dabing-2160p-ultra-hd.mkv",
@@ -75881,15 +75875,22 @@
         "display_name": "Marvel's Daredevil S01E11 The Path of the Righteous 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:35:15.778598+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663645",
-        "size_bytes": 2780391269
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663645",
+          "size_bytes": 2780391269,
+          "source_bytes_read": 2780391269,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885601",
+        "source_url": "https://sdilej.cz/32885601/daredevil-s01e11-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663645",
-        "size_bytes": 2780391269,
-        "source_bytes_read": 2780391269,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S01E11 The Path of the Righteous 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:44:59.264373+00:00"
       }
     }
   },
@@ -75898,5 +75899,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:44:57.516923+00:00"
+  "updated_at": "2026-10-31T10:44:59.264390+00:00"
 }
