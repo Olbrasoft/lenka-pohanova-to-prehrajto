@@ -90459,12 +90459,6 @@
     },
     "13:14:19": {
       "episode_key": "simpsonovi:s14:e19",
-      "claim": {
-        "worker_id": "a1ba813339e147f3a1c3f35a96542d04-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:08:45.297674+00:00",
-        "lease_expires_at": "2026-10-31T22:08:45.297682+00:00"
-      },
       "source": {
         "source_id": "27326606",
         "source_url": "https://sdilej.cz/27326606/simpsonovi-s14e19-cz.mkv",
@@ -90489,15 +90483,22 @@
         "display_name": "The Simpsons S14E19 Old Yeller-Belly 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:08:48.056729+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672413",
-        "size_bytes": 494859725
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672413",
+          "size_bytes": 494859725,
+          "source_bytes_read": 494859725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27326606",
+        "source_url": "https://sdilej.cz/27326606/simpsonovi-s14e19-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672413",
-        "size_bytes": 494859725,
-        "source_bytes_read": 494859725,
-        "http_status": 201
+        "display_name": "The Simpsons S14E19 Old Yeller-Belly 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:10:47.445132+00:00"
       }
     },
     "13:14:20": {
@@ -90674,5 +90675,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:10:46.090599+00:00"
+  "updated_at": "2026-10-31T16:10:47.445152+00:00"
 }
