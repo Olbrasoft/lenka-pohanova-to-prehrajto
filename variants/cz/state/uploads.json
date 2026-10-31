@@ -93011,12 +93011,6 @@
     },
     "13:17:12": {
       "episode_key": "simpsonovi:s17:e12",
-      "claim": {
-        "worker_id": "8df5f332a7de49cb80aa7c0d0a59e76c-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:51:18.738930+00:00",
-        "lease_expires_at": "2026-10-31T22:51:18.738942+00:00"
-      },
       "source": {
         "source_id": "34971210",
         "source_url": "https://sdilej.cz/34971210/simpsonovi-s17e12-pygmalion-v-sukni-cz.mkv",
@@ -93041,15 +93035,22 @@
         "display_name": "The Simpsons S17E12 My Fair Laddy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:51:21.422828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673214",
-        "size_bytes": 166295072
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673214",
+          "size_bytes": 166295072,
+          "source_bytes_read": 166295072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34971210",
+        "source_url": "https://sdilej.cz/34971210/simpsonovi-s17e12-pygmalion-v-sukni-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673214",
-        "size_bytes": 166295072,
-        "source_bytes_read": 166295072,
-        "http_status": 201
+        "display_name": "The Simpsons S17E12 My Fair Laddy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:51:49.463041+00:00"
       }
     },
     "13:17:13": {
@@ -93095,5 +93096,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:51:46.027650+00:00"
+  "updated_at": "2026-10-31T16:51:49.463052+00:00"
 }
