@@ -89667,12 +89667,6 @@
     },
     "13:14:1": {
       "episode_key": "simpsonovi:s14:e1",
-      "claim": {
-        "worker_id": "f46ee9fff17448889a7fa73125e2f11b-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:56:06.416902+00:00",
-        "lease_expires_at": "2026-10-31T21:56:06.416912+00:00"
-      },
       "source": {
         "source_id": "27326495",
         "source_url": "https://sdilej.cz/27326495/simpsonovi-s14e01-cz.mkv",
@@ -89697,15 +89691,22 @@
         "display_name": "The Simpsons S14E01 Treehouse of Horror XIII 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:56:09.510127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672119",
-        "size_bytes": 515833264
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672119",
+          "size_bytes": 515833264,
+          "source_bytes_read": 515833264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27326495",
+        "source_url": "https://sdilej.cz/27326495/simpsonovi-s14e01-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672119",
-        "size_bytes": 515833264,
-        "source_bytes_read": 515833264,
-        "http_status": 201
+        "display_name": "The Simpsons S14E01 Treehouse of Horror XIII 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:57:24.832695+00:00"
       }
     }
   },
@@ -89714,5 +89715,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:57:20.852093+00:00"
+  "updated_at": "2026-10-31T15:57:24.832705+00:00"
 }
