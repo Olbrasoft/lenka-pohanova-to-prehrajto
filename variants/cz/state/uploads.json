@@ -72023,12 +72023,6 @@
     },
     "8623:1:3": {
       "episode_key": "sedm světů, jedna planeta:s1:e3",
-      "claim": {
-        "worker_id": "bd5df9c1ea6c49758be27d4c6e563872-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:57:14.817660+00:00",
-        "lease_expires_at": "2026-10-31T10:57:14.817670+00:00"
-      },
       "source": {
         "source_id": "34298246",
         "source_url": "https://sdilej.cz/34298246/sedm-svetu-jedna-planeta-s01e03-jizni-amerika-czdab-h265-1080p-tvrip-.mkv",
@@ -72053,15 +72047,22 @@
         "display_name": "Seven Worlds, One Planet S01E03 South America 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:57:16.501705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655490",
-        "size_bytes": 943061240
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655490",
+          "size_bytes": 943061240,
+          "source_bytes_read": 943061240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34298246",
+        "source_url": "https://sdilej.cz/34298246/sedm-svetu-jedna-planeta-s01e03-jizni-amerika-czdab-h265-1080p-tvrip-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655490",
-        "size_bytes": 943061240,
-        "source_bytes_read": 943061240,
-        "http_status": 201
+        "display_name": "Seven Worlds, One Planet S01E03 South America 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:59:56.139674+00:00"
       }
     },
     "8623:1:4": {
@@ -72144,5 +72145,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:59:52.461395+00:00"
+  "updated_at": "2026-10-31T04:59:56.139691+00:00"
 }
