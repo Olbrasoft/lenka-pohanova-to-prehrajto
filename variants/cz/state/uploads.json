@@ -64103,12 +64103,6 @@
     },
     "956:7:5": {
       "episode_key": "star trek: nová generace:s7:e5",
-      "claim": {
-        "worker_id": "b6afdc32ef7046fba5bc1cbae6dad788-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:31:10.292166+00:00",
-        "lease_expires_at": "2026-10-31T06:31:10.292176+00:00"
-      },
       "source": {
         "source_id": "28165738",
         "source_url": "https://sdilej.cz/28165738/star-trek-nova-generace-s07e05-gambit-2.-cast-.mkv",
@@ -64133,15 +64127,22 @@
         "display_name": "Star Trek: The Next Generation S07E05 Gambit (2) 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:31:12.435741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649853",
-        "size_bytes": 370593724
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649853",
+          "size_bytes": 370593724,
+          "source_bytes_read": 370593724,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165738",
+        "source_url": "https://sdilej.cz/28165738/star-trek-nova-generace-s07e05-gambit-2.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649853",
-        "size_bytes": 370593724,
-        "source_bytes_read": 370593724,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E05 Gambit (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:32:25.796567+00:00"
       }
     },
     "956:7:6": {
@@ -64224,5 +64225,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:32:22.400784+00:00"
+  "updated_at": "2026-10-31T00:32:25.796586+00:00"
 }
