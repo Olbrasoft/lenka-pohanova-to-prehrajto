@@ -110390,12 +110390,6 @@
     },
     "13:35:15": {
       "episode_key": "simpsonovi:s35:e15",
-      "claim": {
-        "worker_id": "9f3e5d53152f4af5b52301b39fc8eea1-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:41:19.359044+00:00",
-        "lease_expires_at": "2026-11-01T03:41:19.359054+00:00"
-      },
       "source": {
         "source_id": "29395425",
         "source_url": "https://sdilej.cz/29395425/simpsonovi-s35e15.mkv",
@@ -110420,15 +110414,22 @@
         "display_name": "The Simpsons S35E15 Cremains of the Day 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:41:21.133340+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679463",
-        "size_bytes": 416784552
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679463",
+          "size_bytes": 416784552,
+          "source_bytes_read": 416784552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29395425",
+        "source_url": "https://sdilej.cz/29395425/simpsonovi-s35e15.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679463",
-        "size_bytes": 416784552,
-        "source_bytes_read": 416784552,
-        "http_status": 201
+        "display_name": "The Simpsons S35E15 Cremains of the Day 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:42:16.767047+00:00"
       }
     },
     "13:35:16": {
@@ -110474,5 +110475,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:42:14.474096+00:00"
+  "updated_at": "2026-10-31T21:42:16.767061+00:00"
 }
