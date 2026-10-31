@@ -95519,12 +95519,6 @@
     },
     "13:20:5": {
       "episode_key": "simpsonovi:s20:e5",
-      "claim": {
-        "worker_id": "4480a4dd242049799ed34702ce7ca4ed-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:33:37.741011+00:00",
-        "lease_expires_at": "2026-10-31T23:33:37.741019+00:00"
-      },
       "source": {
         "source_id": "28380237",
         "source_url": "https://sdilej.cz/28380237/simpsonovi-s20e05-nebezpecne-zatacky.mkv",
@@ -95549,15 +95543,22 @@
         "display_name": "The Simpsons S20E05 Dangerous Curves 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:33:39.585421+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674236",
-        "size_bytes": 803522466
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674236",
+          "size_bytes": 803522466,
+          "source_bytes_read": 803522466,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380237",
+        "source_url": "https://sdilej.cz/28380237/simpsonovi-s20e05-nebezpecne-zatacky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674236",
-        "size_bytes": 803522466,
-        "source_bytes_read": 803522466,
-        "http_status": 201
+        "display_name": "The Simpsons S20E05 Dangerous Curves 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:35:52.432650+00:00"
       }
     },
     "13:20:6": {
@@ -95684,5 +95685,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:35:49.702878+00:00"
+  "updated_at": "2026-10-31T17:35:52.432663+00:00"
 }
