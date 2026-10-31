@@ -107179,12 +107179,6 @@
     },
     "13:32:8": {
       "episode_key": "simpsonovi:s32:e8",
-      "claim": {
-        "worker_id": "f3a4bfa1d70e40a0b19fab52c5023fff-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:52:44.591324+00:00",
-        "lease_expires_at": "2026-11-01T02:52:44.591333+00:00"
-      },
       "source": {
         "source_id": "32768051",
         "source_url": "https://sdilej.cz/32768051/simpsonovi-s32e08-cz-dabing.mkv",
@@ -107209,15 +107203,22 @@
         "display_name": "The Simpsons S32E08 The Road to Cincinnati 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:52:46.622172+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678326",
-        "size_bytes": 512824802
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678326",
+          "size_bytes": 512824802,
+          "source_bytes_read": 512824802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32768051",
+        "source_url": "https://sdilej.cz/32768051/simpsonovi-s32e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678326",
-        "size_bytes": 512824802,
-        "source_bytes_read": 512824802,
-        "http_status": 201
+        "display_name": "The Simpsons S32E08 The Road to Cincinnati 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:53:33.943770+00:00"
       }
     },
     "13:32:10": {
@@ -107300,5 +107301,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:53:30.222561+00:00"
+  "updated_at": "2026-10-31T20:53:33.943798+00:00"
 }
