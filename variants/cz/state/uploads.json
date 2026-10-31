@@ -66215,12 +66215,6 @@
     },
     "1127:2:2": {
       "episode_key": "policejní odznak:s2:e2",
-      "claim": {
-        "worker_id": "327a54b939ce463a819df340b9c350de-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:57:09.370649+00:00",
-        "lease_expires_at": "2026-10-31T07:57:09.370657+00:00"
-      },
       "source": {
         "source_id": "33817864",
         "source_url": "https://sdilej.cz/33817864/the-shield-s02e02-policejni-odznak-fhd-1080p-cz-mrtvi-vojaci.mkv",
@@ -66245,15 +66239,22 @@
         "display_name": "The Shield S02E02 Dead Soldiers 1080p CZ Dabing",
         "prepared_at": "2026-10-31T01:57:11.306459+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651840",
-        "size_bytes": 488798196
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651840",
+          "size_bytes": 488798196,
+          "source_bytes_read": 488798196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817864",
+        "source_url": "https://sdilej.cz/33817864/the-shield-s02e02-policejni-odznak-fhd-1080p-cz-mrtvi-vojaci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651840",
-        "size_bytes": 488798196,
-        "source_bytes_read": 488798196,
-        "http_status": 201
+        "display_name": "The Shield S02E02 Dead Soldiers 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T01:58:56.985675+00:00"
       }
     },
     "1127:2:3": {
@@ -66299,5 +66300,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:58:53.834767+00:00"
+  "updated_at": "2026-10-31T01:58:56.985692+00:00"
 }
