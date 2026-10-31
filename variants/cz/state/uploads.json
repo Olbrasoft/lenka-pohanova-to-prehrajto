@@ -62651,12 +62651,6 @@
     },
     "956:5:24": {
       "episode_key": "star trek: nová generace:s5:e24",
-      "claim": {
-        "worker_id": "fe741718e48f48cbb071b839c1081ba2-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-30T23:59:35.872696+00:00",
-        "lease_expires_at": "2026-10-31T05:59:35.872703+00:00"
-      },
       "source": {
         "source_id": "28165428",
         "source_url": "https://sdilej.cz/28165428/star-trek-nova-generace-s05e24-dalsi-faze.mkv",
@@ -62681,15 +62675,22 @@
         "display_name": "Star Trek: The Next Generation S05E24 The Next Phase 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:59:37.739383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649319",
-        "size_bytes": 439019416
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649319",
+          "size_bytes": 439019416,
+          "source_bytes_read": 439019416,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165428",
+        "source_url": "https://sdilej.cz/28165428/star-trek-nova-generace-s05e24-dalsi-faze.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649319",
-        "size_bytes": 439019416,
-        "source_bytes_read": 439019416,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E24 The Next Phase 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:01:19.580960+00:00"
       }
     },
     "956:5:25": {
@@ -62779,5 +62780,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:01:15.638151+00:00"
+  "updated_at": "2026-10-31T00:01:19.580972+00:00"
 }
