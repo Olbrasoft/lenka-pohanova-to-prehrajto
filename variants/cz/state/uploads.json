@@ -63003,12 +63003,6 @@
     },
     "956:6:6": {
       "episode_key": "star trek: nová generace:s6:e6",
-      "claim": {
-        "worker_id": "6439b54f014842a7b8e5c1ec7a868a94-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:04:04.051643+00:00",
-        "lease_expires_at": "2026-10-31T06:04:04.051654+00:00"
-      },
       "source": {
         "source_id": "28165509",
         "source_url": "https://sdilej.cz/28165509/star-trek-nova-generace-s06e06-slecna-q.mkv",
@@ -63033,15 +63027,22 @@
         "display_name": "Star Trek: The Next Generation S06E06 True Q 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:04:06.182261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649414",
-        "size_bytes": 374554931
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649414",
+          "size_bytes": 374554931,
+          "source_bytes_read": 374554931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165509",
+        "source_url": "https://sdilej.cz/28165509/star-trek-nova-generace-s06e06-slecna-q.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649414",
-        "size_bytes": 374554931,
-        "source_bytes_read": 374554931,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E06 True Q 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:05:11.573331+00:00"
       }
     },
     "956:6:7": {
@@ -63124,5 +63125,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:05:07.881639+00:00"
+  "updated_at": "2026-10-31T00:05:11.573349+00:00"
 }
