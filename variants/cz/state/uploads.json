@@ -107141,12 +107141,6 @@
     },
     "13:32:7": {
       "episode_key": "simpsonovi:s32:e7",
-      "claim": {
-        "worker_id": "f89203f46cbc4b579e61a56ba8ee080f-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:51:54.853593+00:00",
-        "lease_expires_at": "2026-11-01T02:51:54.853604+00:00"
-      },
       "source": {
         "source_id": "32767926",
         "source_url": "https://sdilej.cz/32767926/simpsonovi-s32e07-cz-dabing.mkv",
@@ -107171,15 +107165,22 @@
         "display_name": "The Simpsons S32E07 Three Dreams Denied 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:51:59.571326+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678307",
-        "size_bytes": 500778488
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678307",
+          "size_bytes": 500778488,
+          "source_bytes_read": 500778488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32767926",
+        "source_url": "https://sdilej.cz/32767926/simpsonovi-s32e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678307",
-        "size_bytes": 500778488,
-        "source_bytes_read": 500778488,
-        "http_status": 201
+        "display_name": "The Simpsons S32E07 Three Dreams Denied 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:52:58.099816+00:00"
       }
     },
     "13:32:8": {
@@ -107225,5 +107226,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:52:54.479761+00:00"
+  "updated_at": "2026-10-31T20:52:58.099830+00:00"
 }
