@@ -103703,12 +103703,6 @@
     },
     "13:28:17": {
       "episode_key": "simpsonovi:s28:e17",
-      "claim": {
-        "worker_id": "894555ab1e0d461399e4fb489a09a01a-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:59:56.693478+00:00",
-        "lease_expires_at": "2026-11-01T01:59:56.693485+00:00"
-      },
       "source": {
         "source_id": "34976195",
         "source_url": "https://sdilej.cz/34976195/simpsonovi-s28e17.mkv",
@@ -103733,15 +103727,22 @@
         "display_name": "The Simpsons S28E17 22 for 30 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:00:01.752827+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676891",
-        "size_bytes": 163660916
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676891",
+          "size_bytes": 163660916,
+          "source_bytes_read": 163660916,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34976195",
+        "source_url": "https://sdilej.cz/34976195/simpsonovi-s28e17.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676891",
-        "size_bytes": 163660916,
-        "source_bytes_read": 163660916,
-        "http_status": 201
+        "display_name": "The Simpsons S28E17 22 for 30 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:00:35.051061+00:00"
       }
     },
     "13:28:18": {
@@ -103831,5 +103832,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:00:31.499044+00:00"
+  "updated_at": "2026-10-31T20:00:35.051076+00:00"
 }
