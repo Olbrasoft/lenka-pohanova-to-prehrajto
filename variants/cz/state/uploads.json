@@ -97323,12 +97323,6 @@
     },
     "13:22:2": {
       "episode_key": "simpsonovi:s22:e2",
-      "claim": {
-        "worker_id": "c5f4c7f15b3e45d694cd51ab54b670c8-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:57:17.629693+00:00",
-        "lease_expires_at": "2026-10-31T23:57:17.629703+00:00"
-      },
       "source": {
         "source_id": "32763910",
         "source_url": "https://sdilej.cz/32763910/simpsonovi-s22e02-cz-dabing.mkv",
@@ -97353,15 +97347,22 @@
         "display_name": "The Simpsons S22E02 Loan-a-Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:57:20.963006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674639",
-        "size_bytes": 508197818
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674639",
+          "size_bytes": 508197818,
+          "source_bytes_read": 508197818,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763910",
+        "source_url": "https://sdilej.cz/32763910/simpsonovi-s22e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674639",
-        "size_bytes": 508197818,
-        "source_bytes_read": 508197818,
-        "http_status": 201
+        "display_name": "The Simpsons S22E02 Loan-a-Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:58:05.825190+00:00"
       }
     },
     "13:22:3": {
@@ -97444,5 +97445,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:58:02.737743+00:00"
+  "updated_at": "2026-10-31T17:58:05.825202+00:00"
 }
