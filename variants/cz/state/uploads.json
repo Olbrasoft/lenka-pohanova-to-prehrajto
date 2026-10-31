@@ -80119,12 +80119,6 @@
     },
     "13:4:15": {
       "episode_key": "simpsonovi:s4:e15",
-      "claim": {
-        "worker_id": "be59b0909fec435780c8264df5f50eae-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:18:11.398232+00:00",
-        "lease_expires_at": "2026-10-31T19:18:11.398244+00:00"
-      },
       "source": {
         "source_id": "28374304",
         "source_url": "https://sdilej.cz/28374304/simpsonovi-s04e15-svateho-valentyna.mkv",
@@ -80149,15 +80143,22 @@
         "display_name": "The Simpsons S04E15 I Love Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:18:14.480525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30666241",
-        "size_bytes": 537491944
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30666241",
+          "size_bytes": 537491944,
+          "source_bytes_read": 537491944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28374304",
+        "source_url": "https://sdilej.cz/28374304/simpsonovi-s04e15-svateho-valentyna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30666241",
-        "size_bytes": 537491944,
-        "source_bytes_read": 537491944,
-        "http_status": 201
+        "display_name": "The Simpsons S04E15 I Love Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:20:18.502202+00:00"
       }
     },
     "13:4:16": {
@@ -80240,5 +80241,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:20:14.945705+00:00"
+  "updated_at": "2026-10-31T13:20:18.502218+00:00"
 }
