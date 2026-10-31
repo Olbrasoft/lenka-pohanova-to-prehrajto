@@ -106607,12 +106607,6 @@
     },
     "13:31:17": {
       "episode_key": "simpsonovi:s31:e17",
-      "claim": {
-        "worker_id": "99608a2c31014299b05f2039d6603b7c-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:44:58.931249+00:00",
-        "lease_expires_at": "2026-11-01T02:44:58.931258+00:00"
-      },
       "source": {
         "source_id": "34979966",
         "source_url": "https://sdilej.cz/34979966/simpsonovi-s31e17-cz.mkv",
@@ -106637,15 +106631,22 @@
         "display_name": "The Simpsons S31E17 Highway to Well 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:45:03.620890+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678108",
-        "size_bytes": 165001669
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678108",
+          "size_bytes": 165001669,
+          "source_bytes_read": 165001669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979966",
+        "source_url": "https://sdilej.cz/34979966/simpsonovi-s31e17-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678108",
-        "size_bytes": 165001669,
-        "source_bytes_read": 165001669,
-        "http_status": 201
+        "display_name": "The Simpsons S31E17 Highway to Well 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:45:32.014211+00:00"
       }
     },
     "13:31:18": {
@@ -106728,5 +106729,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:45:28.976192+00:00"
+  "updated_at": "2026-10-31T20:45:32.014227+00:00"
 }
