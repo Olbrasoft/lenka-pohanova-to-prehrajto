@@ -74920,12 +74920,6 @@
     },
     "49:2:2": {
       "episode_key": "mandalorian:s2:e2",
-      "claim": {
-        "worker_id": "2c3e4d5873d34d51880a4a6539fc1380-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T09:30:10.444981+00:00",
-        "lease_expires_at": "2026-10-31T15:30:10.444993+00:00"
-      },
       "source": {
         "source_id": "34781229",
         "source_url": "https://sdilej.cz/34781229/the-mandalorian-s02e02-08-2020-cz-dabing-2160p-uhd-kapitola-10-pasazerka.mkv",
@@ -74950,15 +74944,22 @@
         "display_name": "The Mandalorian S02E02 Chapter 10: The Passenger 4K CZ Dabing",
         "prepared_at": "2026-10-31T09:30:12.225874+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30662623",
-        "size_bytes": 2131878734
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30662623",
+          "size_bytes": 2131878734,
+          "source_bytes_read": 2131878734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34781229",
+        "source_url": "https://sdilej.cz/34781229/the-mandalorian-s02e02-08-2020-cz-dabing-2160p-uhd-kapitola-10-pasazerka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30662623",
-        "size_bytes": 2131878734,
-        "source_bytes_read": 2131878734,
-        "http_status": 201
+        "display_name": "The Mandalorian S02E02 Chapter 10: The Passenger 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:37:25.649196+00:00"
       }
     },
     "49:2:3": {
@@ -75048,5 +75049,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:37:21.621442+00:00"
+  "updated_at": "2026-10-31T09:37:25.649212+00:00"
 }
