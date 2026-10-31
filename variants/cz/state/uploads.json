@@ -91295,12 +91295,6 @@
     },
     "13:15:16": {
       "episode_key": "simpsonovi:s15:e16",
-      "claim": {
-        "worker_id": "065a4a3e77c3486c8aef66b8efecdc63-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:25:24.427485+00:00",
-        "lease_expires_at": "2026-10-31T22:25:24.427494+00:00"
-      },
       "source": {
         "source_id": "33051698",
         "source_url": "https://sdilej.cz/33051698/simpsonovi-s15e16-cz-dabing.mkv",
@@ -91325,15 +91319,22 @@
         "display_name": "The Simpsons S15E16 The Wandering Juvie 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:25:26.277440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672752",
-        "size_bytes": 515194784
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672752",
+          "size_bytes": 515194784,
+          "source_bytes_read": 515194784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33051698",
+        "source_url": "https://sdilej.cz/33051698/simpsonovi-s15e16-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672752",
-        "size_bytes": 515194784,
-        "source_bytes_read": 515194784,
-        "http_status": 201
+        "display_name": "The Simpsons S15E16 The Wandering Juvie 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:26:37.208295+00:00"
       }
     },
     "13:15:17": {
@@ -91379,5 +91380,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:26:35.660354+00:00"
+  "updated_at": "2026-10-31T16:26:37.208309+00:00"
 }
