@@ -95461,12 +95461,6 @@
     },
     "13:20:4": {
       "episode_key": "simpsonovi:s20:e4",
-      "claim": {
-        "worker_id": "217aee46888d47378263f711746fc4a3-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:30:30.685757+00:00",
-        "lease_expires_at": "2026-10-31T23:30:30.685767+00:00"
-      },
       "source": {
         "source_id": "28380210",
         "source_url": "https://sdilej.cz/28380210/simpsonovi-s20e04-specialni-carodejnicky-dil-ix.mkv",
@@ -95491,15 +95485,22 @@
         "display_name": "The Simpsons S20E04 Treehouse of Horror XIX 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:30:35.388227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674144",
-        "size_bytes": 792639338
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674144",
+          "size_bytes": 792639338,
+          "source_bytes_read": 792639338,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380210",
+        "source_url": "https://sdilej.cz/28380210/simpsonovi-s20e04-specialni-carodejnicky-dil-ix.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674144",
-        "size_bytes": 792639338,
-        "source_bytes_read": 792639338,
-        "http_status": 201
+        "display_name": "The Simpsons S20E04 Treehouse of Horror XIX 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:32:15.298021+00:00"
       }
     }
   },
@@ -95508,5 +95509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:32:11.505786+00:00"
+  "updated_at": "2026-10-31T17:32:15.298034+00:00"
 }
