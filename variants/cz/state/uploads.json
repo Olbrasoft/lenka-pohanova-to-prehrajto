@@ -94991,12 +94991,6 @@
     },
     "13:19:13": {
       "episode_key": "simpsonovi:s19:e13",
-      "claim": {
-        "worker_id": "3c4240311e6846da8bb3a0359f108381-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:22:51.765793+00:00",
-        "lease_expires_at": "2026-10-31T23:22:51.765802+00:00"
-      },
       "source": {
         "source_id": "28379921",
         "source_url": "https://sdilej.cz/28379921/simpsonovi-s19e13-skryta-identita.mkv",
@@ -95021,15 +95015,22 @@
         "display_name": "The Simpsons S19E13 The Debarted 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:22:53.685976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673930",
-        "size_bytes": 870538107
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673930",
+          "size_bytes": 870538107,
+          "source_bytes_read": 870538107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379921",
+        "source_url": "https://sdilej.cz/28379921/simpsonovi-s19e13-skryta-identita.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673930",
-        "size_bytes": 870538107,
-        "source_bytes_read": 870538107,
-        "http_status": 201
+        "display_name": "The Simpsons S19E13 The Debarted 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:24:55.087289+00:00"
       }
     },
     "13:19:14": {
@@ -95156,5 +95157,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:24:51.370211+00:00"
+  "updated_at": "2026-10-31T17:24:55.087303+00:00"
 }
