@@ -113559,12 +113559,6 @@
     },
     "104:1:12": {
       "episode_key": "akta x:s1:e12",
-      "claim": {
-        "worker_id": "976b36cd7a584f379a5283a69a53c67c-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:49:31.035787+00:00",
-        "lease_expires_at": "2026-11-01T05:49:31.035798+00:00"
-      },
       "source": {
         "source_id": "32201128",
         "source_url": "https://sdilej.cz/32201128/akta-x-s01e12-ohen.mkv",
@@ -113589,15 +113583,22 @@
         "display_name": "The X-Files S01E12 Fire 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:49:32.927653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681043",
-        "size_bytes": 970048935
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681043",
+          "size_bytes": 970048935,
+          "source_bytes_read": 970048935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201128",
+        "source_url": "https://sdilej.cz/32201128/akta-x-s01e12-ohen.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681043",
-        "size_bytes": 970048935,
-        "source_bytes_read": 970048935,
-        "http_status": 201
+        "display_name": "The X-Files S01E12 Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:51:14.643437+00:00"
       }
     },
     "104:1:13": {
@@ -113680,5 +113681,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:51:11.836297+00:00"
+  "updated_at": "2026-10-31T23:51:14.643453+00:00"
 }
