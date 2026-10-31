@@ -83639,12 +83639,6 @@
     },
     "13:8:2": {
       "episode_key": "simpsonovi:s8:e2",
-      "claim": {
-        "worker_id": "0f6ecadf68584034b678317efd9f980f-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:23:22.758756+00:00",
-        "lease_expires_at": "2026-10-31T20:23:22.758766+00:00"
-      },
       "source": {
         "source_id": "27322089",
         "source_url": "https://sdilej.cz/27322089/simpsonovi-cz-s08e02.mkv",
@@ -83669,15 +83663,22 @@
         "display_name": "The Simpsons S08E02 You Only Move Twice 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:23:28.355902+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669517",
-        "size_bytes": 532484268
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669517",
+          "size_bytes": 532484268,
+          "source_bytes_read": 532484268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322089",
+        "source_url": "https://sdilej.cz/27322089/simpsonovi-cz-s08e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669517",
-        "size_bytes": 532484268,
-        "source_bytes_read": 532484268,
-        "http_status": 201
+        "display_name": "The Simpsons S08E02 You Only Move Twice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:24:45.399584+00:00"
       }
     }
   },
@@ -83686,5 +83687,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:24:44.088574+00:00"
+  "updated_at": "2026-10-31T14:24:45.399601+00:00"
 }
