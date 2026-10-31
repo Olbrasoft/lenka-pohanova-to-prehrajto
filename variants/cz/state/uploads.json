@@ -98900,12 +98900,6 @@
     },
     "13:23:16": {
       "episode_key": "simpsonovi:s23:e16",
-      "claim": {
-        "worker_id": "ed8ab1b7a5294ab29563fde51fc6e41d-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:34:23.827370+00:00",
-        "lease_expires_at": "2026-11-01T00:34:23.827380+00:00"
-      },
       "source": {
         "source_id": "32764219",
         "source_url": "https://sdilej.cz/32764219/simpsonovi-s23e16-cz-dabing.mkv",
@@ -98930,15 +98924,22 @@
         "display_name": "The Simpsons S23E16 How I Wet Your Mother 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:34:25.770014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675204",
-        "size_bytes": 506078536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675204",
+          "size_bytes": 506078536,
+          "source_bytes_read": 506078536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764219",
+        "source_url": "https://sdilej.cz/32764219/simpsonovi-s23e16-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675204",
-        "size_bytes": 506078536,
-        "source_bytes_read": 506078536,
-        "http_status": 201
+        "display_name": "The Simpsons S23E16 How I Wet Your Mother 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:36:18.603977+00:00"
       }
     },
     "13:23:17": {
@@ -98984,5 +98985,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:36:14.306331+00:00"
+  "updated_at": "2026-10-31T18:36:18.603991+00:00"
 }
