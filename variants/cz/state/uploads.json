@@ -73028,12 +73028,6 @@
     },
     "21:2:1": {
       "episode_key": "stranger things:s2:e1",
-      "claim": {
-        "worker_id": "814d209154a4450b8b31fe5b5968709b-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:47:55.465700+00:00",
-        "lease_expires_at": "2026-10-31T11:47:55.465711+00:00"
-      },
       "source": {
         "source_id": "33165018",
         "source_url": "https://sdilej.cz/33165018/stranger-things-s02e01-kapitola-prvni-silena-max.mkv",
@@ -73058,15 +73052,22 @@
         "display_name": "Stranger Things S02E01 Chapter One: MADMAX 4K CZ Dabing",
         "prepared_at": "2026-10-31T05:47:57.144221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656386",
-        "size_bytes": 2249257075
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656386",
+          "size_bytes": 2249257075,
+          "source_bytes_read": 2249257075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33165018",
+        "source_url": "https://sdilej.cz/33165018/stranger-things-s02e01-kapitola-prvni-silena-max.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656386",
-        "size_bytes": 2249257075,
-        "source_bytes_read": 2249257075,
-        "http_status": 201
+        "display_name": "Stranger Things S02E01 Chapter One: MADMAX 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T05:54:26.988795+00:00"
       }
     },
     "21:2:2": {
@@ -73112,5 +73113,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:54:23.081912+00:00"
+  "updated_at": "2026-10-31T05:54:26.988812+00:00"
 }
