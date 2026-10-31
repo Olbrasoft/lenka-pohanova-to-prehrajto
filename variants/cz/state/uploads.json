@@ -84431,12 +84431,6 @@
     },
     "13:8:20": {
       "episode_key": "simpsonovi:s8:e20",
-      "claim": {
-        "worker_id": "0a8baa5ee0684e20ba9e4133b7e0538f-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:36:27.527107+00:00",
-        "lease_expires_at": "2026-10-31T20:36:27.527116+00:00"
-      },
       "source": {
         "source_id": "27322294",
         "source_url": "https://sdilej.cz/27322294/simpsonovi-cz-s08e20.mkv",
@@ -84461,15 +84455,22 @@
         "display_name": "The Simpsons S08E20 The Canine Mutiny 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:36:29.382749+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669843",
-        "size_bytes": 534603863
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669843",
+          "size_bytes": 534603863,
+          "source_bytes_read": 534603863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322294",
+        "source_url": "https://sdilej.cz/27322294/simpsonovi-cz-s08e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669843",
-        "size_bytes": 534603863,
-        "source_bytes_read": 534603863,
-        "http_status": 201
+        "display_name": "The Simpsons S08E20 The Canine Mutiny 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:38:44.224913+00:00"
       }
     },
     "13:8:21": {
@@ -84559,5 +84560,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:38:40.807401+00:00"
+  "updated_at": "2026-10-31T14:38:44.224930+00:00"
 }
