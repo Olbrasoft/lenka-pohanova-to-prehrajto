@@ -65731,12 +65731,6 @@
     },
     "1127:1:3": {
       "episode_key": "policejní odznak:s1:e3",
-      "claim": {
-        "worker_id": "35c60eb12ad0451c992def4a30c7d758-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:42:36.229949+00:00",
-        "lease_expires_at": "2026-10-31T07:42:36.229960+00:00"
-      },
       "source": {
         "source_id": "33817842",
         "source_url": "https://sdilej.cz/33817842/the-shield-s01e03-policejni-odznak-fhd-1080p-cz-zatah.mkv",
@@ -65761,15 +65755,22 @@
         "display_name": "The Shield S01E03 The Spread 1080p CZ Dabing",
         "prepared_at": "2026-10-31T01:42:38.220912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651468",
-        "size_bytes": 497946623
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651468",
+          "size_bytes": 497946623,
+          "source_bytes_read": 497946623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817842",
+        "source_url": "https://sdilej.cz/33817842/the-shield-s01e03-policejni-odznak-fhd-1080p-cz-zatah.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651468",
-        "size_bytes": 497946623,
-        "source_bytes_read": 497946623,
-        "http_status": 201
+        "display_name": "The Shield S01E03 The Spread 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T01:44:34.399569+00:00"
       }
     },
     "1127:1:5": {
@@ -65852,5 +65853,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:44:31.399072+00:00"
+  "updated_at": "2026-10-31T01:44:34.399583+00:00"
 }
