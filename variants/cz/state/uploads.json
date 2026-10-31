@@ -74267,12 +74267,6 @@
     },
     "21:5:3": {
       "episode_key": "stranger things:s5:e3",
-      "claim": {
-        "worker_id": "cd0ae543e028459c906b61c77dc2401b-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:30:45.271881+00:00",
-        "lease_expires_at": "2026-10-31T14:30:45.271890+00:00"
-      },
       "source": {
         "source_id": "32483417",
         "source_url": "https://sdilej.cz/32483417/stranger-things-s05e03-2160p-cz-dabing.mkv",
@@ -74297,15 +74291,22 @@
         "display_name": "Stranger Things S05E03 Chapter Three: The Turnbow Trap 4K CZ Dabing",
         "prepared_at": "2026-10-31T08:30:49.469848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30661509",
-        "size_bytes": 2323076267
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30661509",
+          "size_bytes": 2323076267,
+          "source_bytes_read": 2323076267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32483417",
+        "source_url": "https://sdilej.cz/32483417/stranger-things-s05e03-2160p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30661509",
-        "size_bytes": 2323076267,
-        "source_bytes_read": 2323076267,
-        "http_status": 201
+        "display_name": "Stranger Things S05E03 Chapter Three: The Turnbow Trap 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T08:41:50.867059+00:00"
       }
     },
     "21:5:5": {
@@ -74388,5 +74389,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T08:41:46.641461+00:00"
+  "updated_at": "2026-10-31T08:41:50.867075+00:00"
 }
