@@ -98033,12 +98033,6 @@
     },
     "13:22:18": {
       "episode_key": "simpsonovi:s22:e18",
-      "claim": {
-        "worker_id": "409448983cb246828ff8f9a3b6fc9807-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:14:56.681749+00:00",
-        "lease_expires_at": "2026-11-01T00:14:56.681761+00:00"
-      },
       "source": {
         "source_id": "28381628",
         "source_url": "https://sdilej.cz/28381628/simpsonovi-s22e18-kouzelna-liza.mkv",
@@ -98063,15 +98057,22 @@
         "display_name": "The Simpsons S22E18 The Great Simpsina 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:14:58.609212+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674890",
-        "size_bytes": 664345339
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674890",
+          "size_bytes": 664345339,
+          "source_bytes_read": 664345339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28381628",
+        "source_url": "https://sdilej.cz/28381628/simpsonovi-s22e18-kouzelna-liza.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674890",
-        "size_bytes": 664345339,
-        "source_bytes_read": 664345339,
-        "http_status": 201
+        "display_name": "The Simpsons S22E18 The Great Simpsina 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:16:01.255525+00:00"
       }
     },
     "13:22:19": {
@@ -98089,5 +98090,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:15:59.726331+00:00"
+  "updated_at": "2026-10-31T18:16:01.255542+00:00"
 }
