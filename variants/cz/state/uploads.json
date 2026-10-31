@@ -104011,12 +104011,6 @@
     },
     "13:29:2": {
       "episode_key": "simpsonovi:s29:e2",
-      "claim": {
-        "worker_id": "6c11a86e2ceb4ef5b6bd69b268d71b51-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:01:47.406921+00:00",
-        "lease_expires_at": "2026-11-01T02:01:47.406930+00:00"
-      },
       "source": {
         "source_id": "32765859",
         "source_url": "https://sdilej.cz/32765859/simpsonovi-s29e02-cz-dabing.mkv",
@@ -104041,15 +104035,22 @@
         "display_name": "The Simpsons S29E02 Springfield Splendor 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:01:50.937191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676940",
-        "size_bytes": 519024857
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676940",
+          "size_bytes": 519024857,
+          "source_bytes_read": 519024857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32765859",
+        "source_url": "https://sdilej.cz/32765859/simpsonovi-s29e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676940",
-        "size_bytes": 519024857,
-        "source_bytes_read": 519024857,
-        "http_status": 201
+        "display_name": "The Simpsons S29E02 Springfield Splendor 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:02:41.782121+00:00"
       }
     },
     "13:29:3": {
@@ -104128,5 +104129,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:02:40.155066+00:00"
+  "updated_at": "2026-10-31T20:02:41.782135+00:00"
 }
