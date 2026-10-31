@@ -75455,12 +75455,6 @@
     },
     "49:3:6": {
       "episode_key": "mandalorian:s3:e6",
-      "claim": {
-        "worker_id": "43932c5533af40b9933df44152a3b179-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:08:34.533609+00:00",
-        "lease_expires_at": "2026-10-31T16:08:34.533621+00:00"
-      },
       "source": {
         "source_id": "34756855",
         "source_url": "https://sdilej.cz/34756855/mandalorian-s03e06.mkv",
@@ -75485,15 +75479,22 @@
         "display_name": "The Mandalorian S03E06 Chapter 22: Guns for Hire 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:08:36.321170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663244",
-        "size_bytes": 2319401458
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663244",
+          "size_bytes": 2319401458,
+          "source_bytes_read": 2319401458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34756855",
+        "source_url": "https://sdilej.cz/34756855/mandalorian-s03e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663244",
-        "size_bytes": 2319401458,
-        "source_bytes_read": 2319401458,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E06 Chapter 22: Guns for Hire 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:14:44.532856+00:00"
       }
     },
     "49:3:7": {
@@ -75539,5 +75540,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:14:40.600440+00:00"
+  "updated_at": "2026-10-31T10:14:44.532876+00:00"
 }
