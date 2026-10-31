@@ -96348,12 +96348,6 @@
     },
     "13:21:3": {
       "episode_key": "simpsonovi:s21:e3",
-      "claim": {
-        "worker_id": "2a877301e95e49638458f98bbe46410b-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:42:22.226311+00:00",
-        "lease_expires_at": "2026-10-31T23:42:22.226321+00:00"
-      },
       "source": {
         "source_id": "32763539",
         "source_url": "https://sdilej.cz/32763539/simpsonovi-s21e03-cz-dabing.mkv",
@@ -96378,15 +96372,22 @@
         "display_name": "The Simpsons S21E03 The Great Wife Hope 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:42:24.214528+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674425",
-        "size_bytes": 508454220
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674425",
+          "size_bytes": 508454220,
+          "source_bytes_read": 508454220,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763539",
+        "source_url": "https://sdilej.cz/32763539/simpsonovi-s21e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674425",
-        "size_bytes": 508454220,
-        "source_bytes_read": 508454220,
-        "http_status": 201
+        "display_name": "The Simpsons S21E03 The Great Wife Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:43:30.637154+00:00"
       }
     }
   },
@@ -96395,5 +96396,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:43:27.526621+00:00"
+  "updated_at": "2026-10-31T17:43:30.637175+00:00"
 }
