@@ -67139,12 +67139,6 @@
     },
     "1127:3:10": {
       "episode_key": "policejní odznak:s3:e10",
-      "claim": {
-        "worker_id": "bbb3073c23f04b63ad51d170da01b24e-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:28:39.850241+00:00",
-        "lease_expires_at": "2026-10-31T08:28:39.850252+00:00"
-      },
       "source": {
         "source_id": "33817913",
         "source_url": "https://sdilej.cz/33817913/the-shield-s03e10-policejni-odznak-fhd-1080p-cz-kouzlo-moci.mkv",
@@ -67169,15 +67163,22 @@
         "display_name": "The Shield S03E10 What Power Is… 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:28:44.376686+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652673",
-        "size_bytes": 507794112
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652673",
+          "size_bytes": 507794112,
+          "source_bytes_read": 507794112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817913",
+        "source_url": "https://sdilej.cz/33817913/the-shield-s03e10-policejni-odznak-fhd-1080p-cz-kouzlo-moci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652673",
-        "size_bytes": 507794112,
-        "source_bytes_read": 507794112,
-        "http_status": 201
+        "display_name": "The Shield S03E10 What Power Is… 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:30:21.790563+00:00"
       }
     },
     "1127:3:11": {
@@ -67260,5 +67261,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:30:18.579846+00:00"
+  "updated_at": "2026-10-31T02:30:21.790580+00:00"
 }
