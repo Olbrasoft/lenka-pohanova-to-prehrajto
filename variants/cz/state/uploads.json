@@ -68421,12 +68421,6 @@
     },
     "1127:5:11": {
       "episode_key": "policejní odznak:s5:e11",
-      "claim": {
-        "worker_id": "37fe71d16b3846d4b22adf8a9a755936-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:58:24.654743+00:00",
-        "lease_expires_at": "2026-10-31T08:58:24.654755+00:00"
-      },
       "source": {
         "source_id": "33817976",
         "source_url": "https://sdilej.cz/33817976/the-shield-s05e11-policejni-odznak-fhd-1080p-cz-postovni-epizoda.mkv",
@@ -68451,15 +68445,22 @@
         "display_name": "The Shield S05E11 Postpartum 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:58:28.017115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653227",
-        "size_bytes": 758295224
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653227",
+          "size_bytes": 758295224,
+          "source_bytes_read": 758295224,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817976",
+        "source_url": "https://sdilej.cz/33817976/the-shield-s05e11-policejni-odznak-fhd-1080p-cz-postovni-epizoda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653227",
-        "size_bytes": 758295224,
-        "source_bytes_read": 758295224,
-        "http_status": 201
+        "display_name": "The Shield S05E11 Postpartum 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:01:01.154133+00:00"
       }
     }
   },
@@ -68468,5 +68469,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:00:59.562793+00:00"
+  "updated_at": "2026-10-31T03:01:01.154151+00:00"
 }
