@@ -73776,12 +73776,6 @@
     },
     "21:4:1": {
       "episode_key": "stranger things:s4:e1",
-      "claim": {
-        "worker_id": "820f029e28fc44a1936b53175c93345a-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:49:43.430508+00:00",
-        "lease_expires_at": "2026-10-31T12:49:43.430519+00:00"
-      },
       "source": {
         "source_id": "33162781",
         "source_url": "https://sdilej.cz/33162781/stranger-things-s04e01-kapitola-prvni-klub-hellfire.mkv",
@@ -73806,15 +73800,22 @@
         "display_name": "Stranger Things S04E01 Chapter One: The Hellfire Club 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:49:45.069992+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30658995",
-        "size_bytes": 3640870199
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30658995",
+          "size_bytes": 3640870199,
+          "source_bytes_read": 3640870199,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33162781",
+        "source_url": "https://sdilej.cz/33162781/stranger-things-s04e01-kapitola-prvni-klub-hellfire.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30658995",
-        "size_bytes": 3640870199,
-        "source_bytes_read": 3640870199,
-        "http_status": 201
+        "display_name": "Stranger Things S04E01 Chapter One: The Hellfire Club 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T07:01:43.606936+00:00"
       }
     }
   },
@@ -73823,5 +73824,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T07:01:38.751811+00:00"
+  "updated_at": "2026-10-31T07:01:43.606952+00:00"
 }
