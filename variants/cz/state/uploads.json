@@ -99831,12 +99831,6 @@
     },
     "13:24:16": {
       "episode_key": "simpsonovi:s24:e16",
-      "claim": {
-        "worker_id": "a039426272a04ed1873fe37ffcb63f20-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:55:55.187979+00:00",
-        "lease_expires_at": "2026-11-01T00:55:55.187989+00:00"
-      },
       "source": {
         "source_id": "33064588",
         "source_url": "https://sdilej.cz/33064588/simpsonovi-s24e16-cz-dabing.mkv",
@@ -99861,15 +99855,22 @@
         "display_name": "The Simpsons S24E16 Dark Knight Court 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:55:59.872393+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675543",
-        "size_bytes": 1369277079
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675543",
+          "size_bytes": 1369277079,
+          "source_bytes_read": 1369277079,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33064588",
+        "source_url": "https://sdilej.cz/33064588/simpsonovi-s24e16-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675543",
-        "size_bytes": 1369277079,
-        "source_bytes_read": 1369277079,
-        "http_status": 201
+        "display_name": "The Simpsons S24E16 Dark Knight Court 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:00:33.040283+00:00"
       }
     },
     "13:24:15": {
@@ -100267,5 +100268,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:00:31.493998+00:00"
+  "updated_at": "2026-10-31T19:00:33.040297+00:00"
 }
