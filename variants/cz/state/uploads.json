@@ -74957,12 +74957,6 @@
     },
     "49:2:3": {
       "episode_key": "mandalorian:s2:e3",
-      "claim": {
-        "worker_id": "b89e6cc1cf9c431e90bbcc317ca95989-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T09:32:57.539842+00:00",
-        "lease_expires_at": "2026-10-31T15:32:57.539853+00:00"
-      },
       "source": {
         "source_id": "27784704",
         "source_url": "https://sdilej.cz/27784704/mandalorian-s02e03-cz.mkv",
@@ -74987,15 +74981,22 @@
         "display_name": "The Mandalorian S02E03 Chapter 11: The Heiress 1080p CZ Dabing",
         "prepared_at": "2026-10-31T09:33:00.258240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30662678",
-        "size_bytes": 652248107
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30662678",
+          "size_bytes": 652248107,
+          "source_bytes_read": 652248107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27784704",
+        "source_url": "https://sdilej.cz/27784704/mandalorian-s02e03-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30662678",
-        "size_bytes": 652248107,
-        "source_bytes_read": 652248107,
-        "http_status": 201
+        "display_name": "The Mandalorian S02E03 Chapter 11: The Heiress 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T09:35:15.895563+00:00"
       }
     }
   },
@@ -75004,5 +75005,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:35:11.994252+00:00"
+  "updated_at": "2026-10-31T09:35:15.895581+00:00"
 }
