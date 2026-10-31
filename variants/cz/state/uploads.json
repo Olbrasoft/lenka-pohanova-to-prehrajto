@@ -91728,12 +91728,6 @@
     },
     "13:16:4": {
       "episode_key": "simpsonovi:s16:e4",
-      "claim": {
-        "worker_id": "b4462499352e46d49f954eccf5a719c4-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:32:23.854863+00:00",
-        "lease_expires_at": "2026-10-31T22:32:23.854872+00:00"
-      },
       "source": {
         "source_id": "28378127",
         "source_url": "https://sdilej.cz/28378127/simpsonovi-s16e04-kamaradky-na-zivot-a-na-smrt.mkv",
@@ -91758,15 +91752,22 @@
         "display_name": "The Simpsons S16E04 She Used to Be My Girl 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:32:25.878654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672873",
-        "size_bytes": 507468832
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672873",
+          "size_bytes": 507468832,
+          "source_bytes_read": 507468832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378127",
+        "source_url": "https://sdilej.cz/28378127/simpsonovi-s16e04-kamaradky-na-zivot-a-na-smrt.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672873",
-        "size_bytes": 507468832,
-        "source_bytes_read": 507468832,
-        "http_status": 201
+        "display_name": "The Simpsons S16E04 She Used to Be My Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:33:34.746744+00:00"
       }
     },
     "13:16:5": {
@@ -91856,5 +91857,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:33:31.398518+00:00"
+  "updated_at": "2026-10-31T16:33:34.746755+00:00"
 }
