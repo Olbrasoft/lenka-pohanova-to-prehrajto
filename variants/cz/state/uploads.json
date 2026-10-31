@@ -75932,12 +75932,6 @@
     },
     "88:1:13": {
       "episode_key": "daredevil:s1:e13",
-      "claim": {
-        "worker_id": "baa5c37c703f4a6a9024218bf5a2a3b1-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:47:49.179944+00:00",
-        "lease_expires_at": "2026-10-31T16:47:49.179955+00:00"
-      },
       "source": {
         "source_id": "32485739",
         "source_url": "https://sdilej.cz/32485739/daredevil-2015-s01e13-czdab-2160p-daredevil.mkv",
@@ -75962,15 +75956,22 @@
         "display_name": "Marvel's Daredevil S01E13 Daredevil 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:47:53.488062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663812",
-        "size_bytes": 2656524182
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663812",
+          "size_bytes": 2656524182,
+          "source_bytes_read": 2656524182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32485739",
+        "source_url": "https://sdilej.cz/32485739/daredevil-2015-s01e13-czdab-2160p-daredevil.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663812",
-        "size_bytes": 2656524182,
-        "source_bytes_read": 2656524182,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S01E13 Daredevil 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:56:46.410567+00:00"
       }
     },
     "88:2:1": {
@@ -76023,5 +76024,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:56:42.303401+00:00"
+  "updated_at": "2026-10-31T10:56:46.410584+00:00"
 }
