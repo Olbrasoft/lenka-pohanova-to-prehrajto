@@ -93495,12 +93495,6 @@
     },
     "13:18:1": {
       "episode_key": "simpsonovi:s18:e1",
-      "claim": {
-        "worker_id": "d64fb6033ee04a1c8d932a1390c5a776-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:54:31.266686+00:00",
-        "lease_expires_at": "2026-10-31T22:54:31.266695+00:00"
-      },
       "source": {
         "source_id": "33064158",
         "source_url": "https://sdilej.cz/33064158/simpsonovi-s18e01-cz-dabing.mkv",
@@ -93525,15 +93519,22 @@
         "display_name": "The Simpsons S18E01 The Mook, the Chef, the Wife and Her Homer 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:54:34.645724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673284",
-        "size_bytes": 514715625
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673284",
+          "size_bytes": 514715625,
+          "source_bytes_read": 514715625,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33064158",
+        "source_url": "https://sdilej.cz/33064158/simpsonovi-s18e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673284",
-        "size_bytes": 514715625,
-        "source_bytes_read": 514715625,
-        "http_status": 201
+        "display_name": "The Simpsons S18E01 The Mook, the Chef, the Wife and Her Homer 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:55:34.158998+00:00"
       }
     },
     "13:18:2": {
@@ -93676,5 +93677,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:55:32.660370+00:00"
+  "updated_at": "2026-10-31T16:55:34.159010+00:00"
 }
