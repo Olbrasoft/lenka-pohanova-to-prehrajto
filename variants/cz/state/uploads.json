@@ -99949,12 +99949,6 @@
     },
     "13:24:18": {
       "episode_key": "simpsonovi:s24:e18",
-      "claim": {
-        "worker_id": "100e46be878e45599603c4ccd3cf6237-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:56:48.166632+00:00",
-        "lease_expires_at": "2026-11-01T00:56:48.166642+00:00"
-      },
       "source": {
         "source_id": "32764387",
         "source_url": "https://sdilej.cz/32764387/simpsonovi-s24e18-cz-dabing.mkv",
@@ -99979,15 +99973,22 @@
         "display_name": "The Simpsons S24E18 Pulpit Friction 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:56:50.220297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675559",
-        "size_bytes": 502629863
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675559",
+          "size_bytes": 502629863,
+          "source_bytes_read": 502629863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764387",
+        "source_url": "https://sdilej.cz/32764387/simpsonovi-s24e18-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675559",
-        "size_bytes": 502629863,
-        "source_bytes_read": 502629863,
-        "http_status": 201
+        "display_name": "The Simpsons S24E18 Pulpit Friction 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:57:46.894193+00:00"
       }
     }
   },
@@ -99996,5 +99997,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:57:42.495146+00:00"
+  "updated_at": "2026-10-31T18:57:46.894209+00:00"
 }
