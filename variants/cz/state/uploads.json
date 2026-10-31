@@ -98849,12 +98849,6 @@
     },
     "13:23:15": {
       "episode_key": "simpsonovi:s23:e15",
-      "claim": {
-        "worker_id": "787948143b6647a1bbb101e25612ca9d-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:33:12.491696+00:00",
-        "lease_expires_at": "2026-11-01T00:33:12.491708+00:00"
-      },
       "source": {
         "source_id": "32764211",
         "source_url": "https://sdilej.cz/32764211/simpsonovi-s23e15-cz-dabing.mkv",
@@ -98879,15 +98873,22 @@
         "display_name": "The Simpsons S23E15 Exit Through the Kwik-E-Mart 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:33:14.502616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675188",
-        "size_bytes": 505204834
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675188",
+          "size_bytes": 505204834,
+          "source_bytes_read": 505204834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764211",
+        "source_url": "https://sdilej.cz/32764211/simpsonovi-s23e15-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675188",
-        "size_bytes": 505204834,
-        "source_bytes_read": 505204834,
-        "http_status": 201
+        "display_name": "The Simpsons S23E15 Exit Through the Kwik-E-Mart 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:34:15.470369+00:00"
       }
     }
   },
@@ -98896,5 +98897,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:34:12.690894+00:00"
+  "updated_at": "2026-10-31T18:34:15.470386+00:00"
 }
