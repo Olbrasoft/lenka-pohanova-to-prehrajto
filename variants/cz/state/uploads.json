@@ -79547,12 +79547,6 @@
     },
     "13:4:2": {
       "episode_key": "simpsonovi:s4:e2",
-      "claim": {
-        "worker_id": "dcb46e88f4cc4df59a69624d06204c14-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:04:10.356330+00:00",
-        "lease_expires_at": "2026-10-31T19:04:10.356341+00:00"
-      },
       "source": {
         "source_id": "27310635",
         "source_url": "https://sdilej.cz/27310635/simpsonovi-cz-s04e02.mkv",
@@ -79577,15 +79571,22 @@
         "display_name": "The Simpsons S04E02 A Streetcar Named Marge 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:04:12.075092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665956",
-        "size_bytes": 537443313
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665956",
+          "size_bytes": 537443313,
+          "source_bytes_read": 537443313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310635",
+        "source_url": "https://sdilej.cz/27310635/simpsonovi-cz-s04e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665956",
-        "size_bytes": 537443313,
-        "source_bytes_read": 537443313,
-        "http_status": 201
+        "display_name": "The Simpsons S04E02 A Streetcar Named Marge 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:05:20.877213+00:00"
       }
     },
     "13:4:3": {
@@ -79668,5 +79669,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:05:17.945309+00:00"
+  "updated_at": "2026-10-31T13:05:20.877231+00:00"
 }
