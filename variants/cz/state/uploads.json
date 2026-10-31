@@ -88875,12 +88875,6 @@
     },
     "13:13:5": {
       "episode_key": "simpsonovi:s13:e5",
-      "claim": {
-        "worker_id": "1b77efcf66a0418896cdea39167742a1-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:48:06.961942+00:00",
-        "lease_expires_at": "2026-10-31T21:48:06.961952+00:00"
-      },
       "source": {
         "source_id": "29398743",
         "source_url": "https://sdilej.cz/29398743/simpsonovi-s13e05-teleci-leta.mkv",
@@ -88905,15 +88899,22 @@
         "display_name": "The Simpsons S13E05 The Blunder Years 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:48:08.755536+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671896",
-        "size_bytes": 541515020
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671896",
+          "size_bytes": 541515020,
+          "source_bytes_read": 541515020,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29398743",
+        "source_url": "https://sdilej.cz/29398743/simpsonovi-s13e05-teleci-leta.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671896",
-        "size_bytes": 541515020,
-        "source_bytes_read": 541515020,
-        "http_status": 201
+        "display_name": "The Simpsons S13E05 The Blunder Years 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:49:04.489994+00:00"
       }
     },
     "13:13:6": {
@@ -88996,5 +88997,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:49:01.354026+00:00"
+  "updated_at": "2026-10-31T15:49:04.490006+00:00"
 }
