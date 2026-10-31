@@ -84255,12 +84255,6 @@
     },
     "13:8:16": {
       "episode_key": "simpsonovi:s8:e16",
-      "claim": {
-        "worker_id": "7e267c77c52f4a7f9004d146b2237f63-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:32:30.420190+00:00",
-        "lease_expires_at": "2026-10-31T20:32:30.420199+00:00"
-      },
       "source": {
         "source_id": "27322243",
         "source_url": "https://sdilej.cz/27322243/simpsonovi-cz-s08e16.mkv",
@@ -84285,15 +84279,22 @@
         "display_name": "The Simpsons S08E16 Brother from Another Series 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:32:32.168583+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669736",
-        "size_bytes": 537715491
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669736",
+          "size_bytes": 537715491,
+          "source_bytes_read": 537715491,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322243",
+        "source_url": "https://sdilej.cz/27322243/simpsonovi-cz-s08e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669736",
-        "size_bytes": 537715491,
-        "source_bytes_read": 537715491,
-        "http_status": 201
+        "display_name": "The Simpsons S08E16 Brother from Another Series 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:34:19.272631+00:00"
       }
     },
     "13:8:17": {
@@ -84372,5 +84373,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:34:17.850074+00:00"
+  "updated_at": "2026-10-31T14:34:19.272643+00:00"
 }
