@@ -110969,12 +110969,6 @@
     },
     "13:36:10": {
       "episode_key": "simpsonovi:s36:e10",
-      "claim": {
-        "worker_id": "0c827a86f85f4e0e9f5d17f5feb26c6d-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:48:30.208500+00:00",
-        "lease_expires_at": "2026-11-01T03:48:30.208511+00:00"
-      },
       "source": {
         "source_id": "33102283",
         "source_url": "https://sdilej.cz/33102283/simpsonovi-s36e10-cz-dabing.mkv",
@@ -110999,15 +110993,22 @@
         "display_name": "The Simpsons S36E10 The Man Who Flew Too Much 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:48:33.204011+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679571",
-        "size_bytes": 781343614
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679571",
+          "size_bytes": 781343614,
+          "source_bytes_read": 781343614,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33102283",
+        "source_url": "https://sdilej.cz/33102283/simpsonovi-s36e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679571",
-        "size_bytes": 781343614,
-        "source_bytes_read": 781343614,
-        "http_status": 201
+        "display_name": "The Simpsons S36E10 The Man Who Flew Too Much 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:49:56.320549+00:00"
       }
     },
     "13:36:11": {
@@ -111097,5 +111098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:49:53.201085+00:00"
+  "updated_at": "2026-10-31T21:49:56.320565+00:00"
 }
