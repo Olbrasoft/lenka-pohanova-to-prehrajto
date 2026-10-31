@@ -63663,12 +63663,6 @@
     },
     "956:6:21": {
       "episode_key": "star trek: nová generace:s6:e21",
-      "claim": {
-        "worker_id": "5689e92508254795893cebefcefaaa38-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:22:21.199290+00:00",
-        "lease_expires_at": "2026-10-31T06:22:21.199302+00:00"
-      },
       "source": {
         "source_id": "30433729",
         "source_url": "https://sdilej.cz/30433729/star-trek-nova-generace-s6e21-stav-mysli-czdab-h265.mkv",
@@ -63693,15 +63687,22 @@
         "display_name": "Star Trek: The Next Generation S06E21 Frame of Mind 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:22:23.119933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649758",
-        "size_bytes": 307136983
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649758",
+          "size_bytes": 307136983,
+          "source_bytes_read": 307136983,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30433729",
+        "source_url": "https://sdilej.cz/30433729/star-trek-nova-generace-s6e21-stav-mysli-czdab-h265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649758",
-        "size_bytes": 307136983,
-        "source_bytes_read": 307136983,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E21 Frame of Mind 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:23:31.476749+00:00"
       }
     }
   },
@@ -63710,5 +63711,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:23:27.969871+00:00"
+  "updated_at": "2026-10-31T00:23:31.476767+00:00"
 }
