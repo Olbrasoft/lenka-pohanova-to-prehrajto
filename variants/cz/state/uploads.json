@@ -108448,12 +108448,6 @@
     },
     "13:33:15": {
       "episode_key": "simpsonovi:s33:e15",
-      "claim": {
-        "worker_id": "06e4744fffd74548861f9031035bea3f-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:07:42.614826+00:00",
-        "lease_expires_at": "2026-11-01T03:07:42.614836+00:00"
-      },
       "source": {
         "source_id": "31072598",
         "source_url": "https://sdilej.cz/31072598/simpsonovi-s33e15-znackovy-bart.mkv",
@@ -108478,15 +108472,22 @@
         "display_name": "The Simpsons S33E15 Bart the Cool Kid 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:07:47.745348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678636",
-        "size_bytes": 461358728
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678636",
+          "size_bytes": 461358728,
+          "source_bytes_read": 461358728,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31072598",
+        "source_url": "https://sdilej.cz/31072598/simpsonovi-s33e15-znackovy-bart.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678636",
-        "size_bytes": 461358728,
-        "source_bytes_read": 461358728,
-        "http_status": 201
+        "display_name": "The Simpsons S33E15 Bart the Cool Kid 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:09:07.571358+00:00"
       }
     },
     "13:33:16": {
@@ -108572,5 +108573,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:09:05.952371+00:00"
+  "updated_at": "2026-10-31T21:09:07.571373+00:00"
 }
