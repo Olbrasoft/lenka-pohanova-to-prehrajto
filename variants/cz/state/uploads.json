@@ -64367,12 +64367,6 @@
     },
     "956:7:11": {
       "episode_key": "star trek: nová generace:s7:e11",
-      "claim": {
-        "worker_id": "22890ee3621f43d086f377cba6e8561b-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:34:16.261330+00:00",
-        "lease_expires_at": "2026-10-31T06:34:16.261342+00:00"
-      },
       "source": {
         "source_id": "28165710",
         "source_url": "https://sdilej.cz/28165710/star-trek-nova-generace-s07e11-paralely.mkv",
@@ -64397,15 +64391,22 @@
         "display_name": "Star Trek: The Next Generation S07E11 Parallels 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:34:21.105229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649910",
-        "size_bytes": 370893363
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649910",
+          "size_bytes": 370893363,
+          "source_bytes_read": 370893363,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165710",
+        "source_url": "https://sdilej.cz/28165710/star-trek-nova-generace-s07e11-paralely.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649910",
-        "size_bytes": 370893363,
-        "source_bytes_read": 370893363,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E11 Parallels 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:35:28.696212+00:00"
       }
     },
     "956:7:12": {
@@ -64488,5 +64489,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:35:23.936911+00:00"
+  "updated_at": "2026-10-31T00:35:28.696228+00:00"
 }
