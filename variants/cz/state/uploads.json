@@ -95123,12 +95123,6 @@
     },
     "13:19:16": {
       "episode_key": "simpsonovi:s19:e16",
-      "claim": {
-        "worker_id": "90c39f2eabdc4806be55c9051945c7a2-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:24:38.078284+00:00",
-        "lease_expires_at": "2026-10-31T23:24:38.078294+00:00"
-      },
       "source": {
         "source_id": "28380021",
         "source_url": "https://sdilej.cz/28380021/simpsonovi-s19e16-tata-na-uteku.mkv",
@@ -95153,15 +95147,22 @@
         "display_name": "The Simpsons S19E16 Papa Don't Leech 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:24:39.906882+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673977",
-        "size_bytes": 789319810
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673977",
+          "size_bytes": 789319810,
+          "source_bytes_read": 789319810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380021",
+        "source_url": "https://sdilej.cz/28380021/simpsonovi-s19e16-tata-na-uteku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673977",
-        "size_bytes": 789319810,
-        "source_bytes_read": 789319810,
-        "http_status": 201
+        "display_name": "The Simpsons S19E16 Papa Don't Leech 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:26:58.912910+00:00"
       }
     },
     "13:19:17": {
@@ -95244,5 +95245,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:26:55.142986+00:00"
+  "updated_at": "2026-10-31T17:26:58.912922+00:00"
 }
