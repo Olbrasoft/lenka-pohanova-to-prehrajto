@@ -94255,12 +94255,6 @@
     },
     "13:18:18": {
       "episode_key": "simpsonovi:s18:e18",
-      "claim": {
-        "worker_id": "9b181b91f798450980747f2706a78728-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:03:21.241643+00:00",
-        "lease_expires_at": "2026-10-31T23:03:21.241653+00:00"
-      },
       "source": {
         "source_id": "35005067",
         "source_url": "https://sdilej.cz/35005067/simpsonovi-s18e18-zmylena-neplati-cz.mkv",
@@ -94285,15 +94279,22 @@
         "display_name": "The Simpsons S18E18 The Boys of Bummer 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:03:25.436742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673469",
-        "size_bytes": 167386089
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673469",
+          "size_bytes": 167386089,
+          "source_bytes_read": 167386089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35005067",
+        "source_url": "https://sdilej.cz/35005067/simpsonovi-s18e18-zmylena-neplati-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673469",
-        "size_bytes": 167386089,
-        "source_bytes_read": 167386089,
-        "http_status": 201
+        "display_name": "The Simpsons S18E18 The Boys of Bummer 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:03:50.589142+00:00"
       }
     }
   },
@@ -94302,5 +94303,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:03:48.239727+00:00"
+  "updated_at": "2026-10-31T17:03:50.589154+00:00"
 }
