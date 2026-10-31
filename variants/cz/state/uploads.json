@@ -105368,12 +105368,6 @@
     },
     "13:30:12": {
       "episode_key": "simpsonovi:s30:e12",
-      "claim": {
-        "worker_id": "0d9ea40a48db465c8dc95dca8630ebb9-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:23:53.190624+00:00",
-        "lease_expires_at": "2026-11-01T02:23:53.190632+00:00"
-      },
       "source": {
         "source_id": "32766435",
         "source_url": "https://sdilej.cz/32766435/simpsonovi-s30e12-cz-dabing.mkv",
@@ -105398,15 +105392,22 @@
         "display_name": "The Simpsons S30E12 The Girl on the Bus 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:23:55.105644+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677548",
-        "size_bytes": 499300414
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677548",
+          "size_bytes": 499300414,
+          "source_bytes_read": 499300414,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766435",
+        "source_url": "https://sdilej.cz/32766435/simpsonovi-s30e12-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677548",
-        "size_bytes": 499300414,
-        "source_bytes_read": 499300414,
-        "http_status": 201
+        "display_name": "The Simpsons S30E12 The Girl on the Bus 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:24:56.334590+00:00"
       }
     },
     "13:30:13": {
@@ -105492,5 +105493,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:24:54.755218+00:00"
+  "updated_at": "2026-10-31T20:24:56.334604+00:00"
 }
