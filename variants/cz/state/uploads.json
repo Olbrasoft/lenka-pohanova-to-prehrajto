@@ -74084,12 +74084,6 @@
     },
     "21:4:8": {
       "episode_key": "stranger things:s4:e8",
-      "claim": {
-        "worker_id": "bd0c1e23ec0b479cbd5f8267fb47766f-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:03:33.306033+00:00",
-        "lease_expires_at": "2026-10-31T14:03:33.306043+00:00"
-      },
       "source": {
         "source_id": "32784898",
         "source_url": "https://sdilej.cz/32784898/stranger-things-s04e08-stranger-things-fhd-1080p-cz.mkv",
@@ -74114,15 +74108,22 @@
         "display_name": "Stranger Things S04E08 Chapter Eight: Papa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T08:03:35.173272+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30660730",
-        "size_bytes": 986787897
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30660730",
+          "size_bytes": 986787897,
+          "source_bytes_read": 986787897,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32784898",
+        "source_url": "https://sdilej.cz/32784898/stranger-things-s04e08-stranger-things-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30660730",
-        "size_bytes": 986787897,
-        "source_bytes_read": 986787897,
-        "http_status": 201
+        "display_name": "Stranger Things S04E08 Chapter Eight: Papa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T08:06:06.697776+00:00"
       }
     },
     "21:4:9": {
@@ -74168,5 +74169,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T08:06:03.822464+00:00"
+  "updated_at": "2026-10-31T08:06:06.697791+00:00"
 }
