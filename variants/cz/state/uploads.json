@@ -82275,12 +82275,6 @@
     },
     "13:6:21": {
       "episode_key": "simpsonovi:s6:e21",
-      "claim": {
-        "worker_id": "66f12b313f224df08dcce63d25696dbe-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:56:36.312024+00:00",
-        "lease_expires_at": "2026-10-31T19:56:36.312033+00:00"
-      },
       "source": {
         "source_id": "28375162",
         "source_url": "https://sdilej.cz/28375162/simpsonovi-s06e21-konec-srps.mkv",
@@ -82305,15 +82299,22 @@
         "display_name": "The Simpsons S06E21 The PTA Disbands 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:56:38.074081+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669067",
-        "size_bytes": 524053440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669067",
+          "size_bytes": 524053440,
+          "source_bytes_read": 524053440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28375162",
+        "source_url": "https://sdilej.cz/28375162/simpsonovi-s06e21-konec-srps.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669067",
-        "size_bytes": 524053440,
-        "source_bytes_read": 524053440,
-        "http_status": 201
+        "display_name": "The Simpsons S06E21 The PTA Disbands 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:57:54.896251+00:00"
       }
     },
     "13:6:22": {
@@ -82396,5 +82397,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:57:51.846362+00:00"
+  "updated_at": "2026-10-31T13:57:54.896267+00:00"
 }
