@@ -69081,12 +69081,6 @@
     },
     "1127:7:5": {
       "episode_key": "policejní odznak:s7:e5",
-      "claim": {
-        "worker_id": "f0778c5438b343e5884b49b1bcd5253e-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:13:46.998223+00:00",
-        "lease_expires_at": "2026-10-31T09:13:46.998239+00:00"
-      },
       "source": {
         "source_id": "33818006",
         "source_url": "https://sdilej.cz/33818006/the-shield-s07e05-policejni-odznak-fhd-1080p-cz-hra-tvari.mkv",
@@ -69111,15 +69105,22 @@
         "display_name": "The Shield S07E05 Game Face 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:13:48.903274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653486",
-        "size_bytes": 525275589
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653486",
+          "size_bytes": 525275589,
+          "source_bytes_read": 525275589,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818006",
+        "source_url": "https://sdilej.cz/33818006/the-shield-s07e05-policejni-odznak-fhd-1080p-cz-hra-tvari.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653486",
-        "size_bytes": 525275589,
-        "source_bytes_read": 525275589,
-        "http_status": 201
+        "display_name": "The Shield S07E05 Game Face 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:15:40.892270+00:00"
       }
     }
   },
@@ -69128,5 +69129,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:15:36.822614+00:00"
+  "updated_at": "2026-10-31T03:15:40.892290+00:00"
 }
