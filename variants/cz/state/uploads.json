@@ -65900,12 +65900,6 @@
     },
     "1127:1:8": {
       "episode_key": "policejní odznak:s1:e8",
-      "claim": {
-        "worker_id": "41623382f1dd49e89f076cf9873e7c40-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:46:25.712544+00:00",
-        "lease_expires_at": "2026-10-31T07:46:25.712555+00:00"
-      },
       "source": {
         "source_id": "33817850",
         "source_url": "https://sdilej.cz/33817850/the-shield-s01e08-policejni-odznak-fhd-1080p-cz-kupido-a-psyche.mkv",
@@ -65930,15 +65924,22 @@
         "display_name": "The Shield S01E08 Cupid & Psycho 1080p CZ Dabing",
         "prepared_at": "2026-10-31T01:46:29.155171+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651574",
-        "size_bytes": 505038420
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651574",
+          "size_bytes": 505038420,
+          "source_bytes_read": 505038420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817850",
+        "source_url": "https://sdilej.cz/33817850/the-shield-s01e08-policejni-odznak-fhd-1080p-cz-kupido-a-psyche.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651574",
-        "size_bytes": 505038420,
-        "source_bytes_read": 505038420,
-        "http_status": 201
+        "display_name": "The Shield S01E08 Cupid & Psycho 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T01:48:03.140709+00:00"
       }
     },
     "1127:1:9": {
@@ -65984,5 +65985,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:47:58.737403+00:00"
+  "updated_at": "2026-10-31T01:48:03.140727+00:00"
 }
