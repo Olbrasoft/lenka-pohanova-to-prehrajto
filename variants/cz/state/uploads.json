@@ -112364,12 +112364,6 @@
     },
     "76:1:12": {
       "episode_key": "andor:s1:e12",
-      "claim": {
-        "worker_id": "105ab1e2cc3d4155b4c5cb7b35815d3e-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:41:55.638720+00:00",
-        "lease_expires_at": "2026-11-01T04:41:55.638732+00:00"
-      },
       "source": {
         "source_id": "33167047",
         "source_url": "https://sdilej.cz/33167047/andor-s01e12-cz-en-h264-ezio.mkv",
@@ -112394,15 +112388,22 @@
         "display_name": "Andor S01E12 Rix Road 1080p CZ Dabing",
         "prepared_at": "2026-10-31T22:41:57.606408+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680272",
-        "size_bytes": 1290394162
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680272",
+          "size_bytes": 1290394162,
+          "source_bytes_read": 1290394162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33167047",
+        "source_url": "https://sdilej.cz/33167047/andor-s01e12-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680272",
-        "size_bytes": 1290394162,
-        "source_bytes_read": 1290394162,
-        "http_status": 201
+        "display_name": "Andor S01E12 Rix Road 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T22:45:02.412735+00:00"
       }
     },
     "76:2:1": {
@@ -112448,5 +112449,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:44:58.530521+00:00"
+  "updated_at": "2026-10-31T22:45:02.412752+00:00"
 }
