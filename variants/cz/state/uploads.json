@@ -76328,12 +76328,6 @@
     },
     "88:2:10": {
       "episode_key": "daredevil:s2:e10",
-      "claim": {
-        "worker_id": "1f46d11b05ea4e5989f4fc96a898e7f2-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:25:49.824125+00:00",
-        "lease_expires_at": "2026-10-31T17:25:49.824134+00:00"
-      },
       "source": {
         "source_id": "32886186",
         "source_url": "https://sdilej.cz/32886186/daredevil-s02e10-cz-dabing-2160p-ultra-hd.mkv",
@@ -76358,15 +76352,22 @@
         "display_name": "Marvel's Daredevil S02E10 The Man in the Box 4K CZ Dabing",
         "prepared_at": "2026-10-31T11:25:51.629106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664332",
-        "size_bytes": 2466501719
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664332",
+          "size_bytes": 2466501719,
+          "source_bytes_read": 2466501719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32886186",
+        "source_url": "https://sdilej.cz/32886186/daredevil-s02e10-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664332",
-        "size_bytes": 2466501719,
-        "source_bytes_read": 2466501719,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S02E10 The Man in the Box 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T11:34:41.362332+00:00"
       }
     }
   },
@@ -76375,5 +76376,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:34:37.077572+00:00"
+  "updated_at": "2026-10-31T11:34:41.362348+00:00"
 }
