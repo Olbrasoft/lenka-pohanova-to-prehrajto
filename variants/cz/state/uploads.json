@@ -98335,12 +98335,6 @@
     },
     "13:23:3": {
       "episode_key": "simpsonovi:s23:e3",
-      "claim": {
-        "worker_id": "6f4204e32e014022b4e98fd3f8ee6adf-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:27:10.238088+00:00",
-        "lease_expires_at": "2026-11-01T00:27:10.238096+00:00"
-      },
       "source": {
         "source_id": "32764134",
         "source_url": "https://sdilej.cz/32764134/simpsonovi-s23e03-cz-dabing.mkv",
@@ -98365,15 +98359,22 @@
         "display_name": "The Simpsons S23E03 Treehouse of Horror XXII 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:27:16.007634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675068",
-        "size_bytes": 512066460
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675068",
+          "size_bytes": 512066460,
+          "source_bytes_read": 512066460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764134",
+        "source_url": "https://sdilej.cz/32764134/simpsonovi-s23e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675068",
-        "size_bytes": 512066460,
-        "source_bytes_read": 512066460,
-        "http_status": 201
+        "display_name": "The Simpsons S23E03 Treehouse of Horror XXII 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:28:15.680392+00:00"
       }
     },
     "13:23:4": {
@@ -98462,5 +98463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:28:14.009129+00:00"
+  "updated_at": "2026-10-31T18:28:15.680408+00:00"
 }
