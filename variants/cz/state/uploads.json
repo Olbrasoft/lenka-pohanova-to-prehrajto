@@ -71759,12 +71759,6 @@
     },
     "171:1:7": {
       "episode_key": "x-men '97:s1:e7",
-      "claim": {
-        "worker_id": "aebdaf5db67147c4b87a00e43ec8a12e-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:49:24.204868+00:00",
-        "lease_expires_at": "2026-10-31T10:49:24.204880+00:00"
-      },
       "source": {
         "source_id": "34911349",
         "source_url": "https://sdilej.cz/34911349/x-men-97-s01e07-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -71789,15 +71783,22 @@
         "display_name": "X-Men '97 S01E07 Bright Eyes 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:49:28.248979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655340",
-        "size_bytes": 257666469
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655340",
+          "size_bytes": 257666469,
+          "source_bytes_read": 257666469,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34911349",
+        "source_url": "https://sdilej.cz/34911349/x-men-97-s01e07-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655340",
-        "size_bytes": 257666469,
-        "source_bytes_read": 257666469,
-        "http_status": 201
+        "display_name": "X-Men '97 S01E07 Bright Eyes 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:50:18.479300+00:00"
       }
     },
     "171:1:8": {
@@ -71880,5 +71881,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:50:15.380078+00:00"
+  "updated_at": "2026-10-31T04:50:18.479316+00:00"
 }
