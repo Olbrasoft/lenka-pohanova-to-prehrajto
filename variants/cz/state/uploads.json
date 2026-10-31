@@ -64235,12 +64235,6 @@
     },
     "956:7:8": {
       "episode_key": "star trek: nová generace:s7:e8",
-      "claim": {
-        "worker_id": "997802fe455143668197086f3c4508e4-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:32:58.346039+00:00",
-        "lease_expires_at": "2026-10-31T06:32:58.346052+00:00"
-      },
       "source": {
         "source_id": "28165727",
         "source_url": "https://sdilej.cz/28165727/star-trek-nova-generace-s07e08-spojeni.mkv",
@@ -64265,15 +64259,22 @@
         "display_name": "Star Trek: The Next Generation S07E08 Attached 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:33:01.054666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649890",
-        "size_bytes": 370311494
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649890",
+          "size_bytes": 370311494,
+          "source_bytes_read": 370311494,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165727",
+        "source_url": "https://sdilej.cz/28165727/star-trek-nova-generace-s07e08-spojeni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649890",
-        "size_bytes": 370311494,
-        "source_bytes_read": 370311494,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E08 Attached 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:34:07.942980+00:00"
       }
     },
     "956:7:9": {
@@ -64356,5 +64357,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:34:04.025306+00:00"
+  "updated_at": "2026-10-31T00:34:07.942996+00:00"
 }
