@@ -74436,12 +74436,6 @@
     },
     "21:5:7": {
       "episode_key": "stranger things:s5:e7",
-      "claim": {
-        "worker_id": "18ad45d2c971453486eaeb3f8bfc2655-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:54:21.975653+00:00",
-        "lease_expires_at": "2026-10-31T14:54:21.975661+00:00"
-      },
       "source": {
         "source_id": "32718700",
         "source_url": "https://sdilej.cz/32718700/stranger-things-s05e07-most-dd-5.1-cz-2160p-hevc.mkv",
@@ -74466,15 +74460,22 @@
         "display_name": "Stranger Things S05E07 Chapter Seven: The Bridge 4K CZ Dabing",
         "prepared_at": "2026-10-31T08:54:23.755150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30661947",
-        "size_bytes": 2470006859
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30661947",
+          "size_bytes": 2470006859,
+          "source_bytes_read": 2470006859,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32718700",
+        "source_url": "https://sdilej.cz/32718700/stranger-things-s05e07-most-dd-5.1-cz-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30661947",
-        "size_bytes": 2470006859,
-        "source_bytes_read": 2470006859,
-        "http_status": 201
+        "display_name": "Stranger Things S05E07 Chapter Seven: The Bridge 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:02:47.068819+00:00"
       }
     },
     "21:5:8": {
@@ -74520,5 +74521,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:02:44.170234+00:00"
+  "updated_at": "2026-10-31T09:02:47.068835+00:00"
 }
