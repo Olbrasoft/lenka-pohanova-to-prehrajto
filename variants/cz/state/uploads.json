@@ -92659,12 +92659,6 @@
     },
     "13:17:4": {
       "episode_key": "simpsonovi:s17:e4",
-      "claim": {
-        "worker_id": "2665076748984452bc94b0987588ed7c-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:48:59.755045+00:00",
-        "lease_expires_at": "2026-10-31T22:48:59.755054+00:00"
-      },
       "source": {
         "source_id": "28378768",
         "source_url": "https://sdilej.cz/28378768/simpsonovi-s17e04-specialni-carodejnicky-dil-xvi.mkv",
@@ -92689,15 +92683,22 @@
         "display_name": "The Simpsons S17E04 Treehouse of Horror XVI 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:49:04.144404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673167",
-        "size_bytes": 510671586
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673167",
+          "size_bytes": 510671586,
+          "source_bytes_read": 510671586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378768",
+        "source_url": "https://sdilej.cz/28378768/simpsonovi-s17e04-specialni-carodejnicky-dil-xvi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673167",
-        "size_bytes": 510671586,
-        "source_bytes_read": 510671586,
-        "http_status": 201
+        "display_name": "The Simpsons S17E04 Treehouse of Horror XVI 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:49:52.420401+00:00"
       }
     },
     "13:17:5": {
@@ -92786,5 +92787,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:49:49.976226+00:00"
+  "updated_at": "2026-10-31T16:49:52.420414+00:00"
 }
