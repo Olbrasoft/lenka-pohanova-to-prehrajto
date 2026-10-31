@@ -97668,12 +97668,6 @@
     },
     "13:22:10": {
       "episode_key": "simpsonovi:s22:e10",
-      "claim": {
-        "worker_id": "2ff64192d5cd4757814f6b6225fad434-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:11:20.272323+00:00",
-        "lease_expires_at": "2026-11-01T00:11:20.272334+00:00"
-      },
       "source": {
         "source_id": "32764002",
         "source_url": "https://sdilej.cz/32764002/simpsonovi-s22e10-cz-dabing.mkv",
@@ -97698,15 +97692,22 @@
         "display_name": "The Simpsons S22E10 Moms I'd Like to Forget 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:11:22.263138+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674832",
-        "size_bytes": 500028485
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674832",
+          "size_bytes": 500028485,
+          "source_bytes_read": 500028485,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764002",
+        "source_url": "https://sdilej.cz/32764002/simpsonovi-s22e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674832",
-        "size_bytes": 500028485,
-        "source_bytes_read": 500028485,
-        "http_status": 201
+        "display_name": "The Simpsons S22E10 Moms I'd Like to Forget 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:12:15.815889+00:00"
       }
     },
     "13:22:11": {
@@ -97751,5 +97752,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:12:13.208335+00:00"
+  "updated_at": "2026-10-31T18:12:15.815906+00:00"
 }
