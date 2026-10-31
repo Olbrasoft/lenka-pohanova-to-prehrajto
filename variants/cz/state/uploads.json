@@ -99259,12 +99259,6 @@
     },
     "13:24:2": {
       "episode_key": "simpsonovi:s24:e2",
-      "claim": {
-        "worker_id": "c7d9ea6059a1488a88e11406cf32395a-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:42:26.820623+00:00",
-        "lease_expires_at": "2026-11-01T00:42:26.820634+00:00"
-      },
       "source": {
         "source_id": "32764281",
         "source_url": "https://sdilej.cz/32764281/simpsonovi-s24e02-cz-dabing.mkv",
@@ -99289,15 +99283,22 @@
         "display_name": "The Simpsons S24E02 Treehouse of Horror XXIII 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:42:28.878358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675332",
-        "size_bytes": 508697462
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675332",
+          "size_bytes": 508697462,
+          "source_bytes_read": 508697462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764281",
+        "source_url": "https://sdilej.cz/32764281/simpsonovi-s24e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675332",
-        "size_bytes": 508697462,
-        "source_bytes_read": 508697462,
-        "http_status": 201
+        "display_name": "The Simpsons S24E02 Treehouse of Horror XXIII 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:43:16.655589+00:00"
       }
     },
     "13:24:3": {
@@ -99379,5 +99380,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:43:14.025436+00:00"
+  "updated_at": "2026-10-31T18:43:16.655606+00:00"
 }
