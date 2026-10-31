@@ -81703,12 +81703,6 @@
     },
     "13:6:8": {
       "episode_key": "simpsonovi:s6:e8",
-      "claim": {
-        "worker_id": "87ae4668feb9482b9762171ba8a95c5e-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:46:31.016842+00:00",
-        "lease_expires_at": "2026-10-31T19:46:31.016852+00:00"
-      },
       "source": {
         "source_id": "27321447",
         "source_url": "https://sdilej.cz/27321447/simpsonovi-cz-s06e08.mkv",
@@ -81733,15 +81727,22 @@
         "display_name": "The Simpsons S06E08 Lisa on Ice 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:46:33.617045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668912",
-        "size_bytes": 528081310
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668912",
+          "size_bytes": 528081310,
+          "source_bytes_read": 528081310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27321447",
+        "source_url": "https://sdilej.cz/27321447/simpsonovi-cz-s06e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668912",
-        "size_bytes": 528081310,
-        "source_bytes_read": 528081310,
-        "http_status": 201
+        "display_name": "The Simpsons S06E08 Lisa on Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:47:58.130355+00:00"
       }
     },
     "13:6:9": {
@@ -81787,5 +81788,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:47:56.728210+00:00"
+  "updated_at": "2026-10-31T13:47:58.130370+00:00"
 }
