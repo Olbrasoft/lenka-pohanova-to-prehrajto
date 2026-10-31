@@ -69735,12 +69735,6 @@
     },
     "3303:1:7": {
       "episode_key": "za zdí zahrady:s1:e7",
-      "claim": {
-        "worker_id": "a5024211488241eb8657ba88f56bc42b-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:38:12.128264+00:00",
-        "lease_expires_at": "2026-10-31T09:38:12.128276+00:00"
-      },
       "source": {
         "source_id": "34720572",
         "source_url": "https://sdilej.cz/34720572/za-zdi-zahrady-s01e07-10-2014-cz-dabing-1080p-fhd-cinkot-zvonecku.mkv",
@@ -69765,15 +69759,22 @@
         "display_name": "Over the Garden Wall S01E07 The Ringing of the Bell 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:38:13.798429+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653882",
-        "size_bytes": 712963856
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653882",
+          "size_bytes": 712963856,
+          "source_bytes_read": 712963856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34720572",
+        "source_url": "https://sdilej.cz/34720572/za-zdi-zahrady-s01e07-10-2014-cz-dabing-1080p-fhd-cinkot-zvonecku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653882",
-        "size_bytes": 712963856,
-        "source_bytes_read": 712963856,
-        "http_status": 201
+        "display_name": "Over the Garden Wall S01E07 The Ringing of the Bell 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:40:22.101410+00:00"
       }
     }
   },
@@ -69782,5 +69783,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:40:17.712878+00:00"
+  "updated_at": "2026-10-31T03:40:22.101426+00:00"
 }
