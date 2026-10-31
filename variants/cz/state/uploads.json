@@ -88127,12 +88127,6 @@
     },
     "13:12:9": {
       "episode_key": "simpsonovi:s12:e9",
-      "claim": {
-        "worker_id": "fb3c92748ad74a8897dcf6f414fb3734-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:36:57.552643+00:00",
-        "lease_expires_at": "2026-10-31T21:36:57.552651+00:00"
-      },
       "source": {
         "source_id": "27324344",
         "source_url": "https://sdilej.cz/27324344/simpsonovi-s12e09-cz.mkv",
@@ -88157,15 +88151,22 @@
         "display_name": "The Simpsons S12E09 HOMЯ 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:37:01.335151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671685",
-        "size_bytes": 505743815
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671685",
+          "size_bytes": 505743815,
+          "source_bytes_read": 505743815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27324344",
+        "source_url": "https://sdilej.cz/27324344/simpsonovi-s12e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671685",
-        "size_bytes": 505743815,
-        "source_bytes_read": 505743815,
-        "http_status": 201
+        "display_name": "The Simpsons S12E09 HOMЯ 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:37:54.837978+00:00"
       }
     },
     "13:12:10": {
@@ -88255,5 +88256,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:37:51.278652+00:00"
+  "updated_at": "2026-10-31T15:37:54.837988+00:00"
 }
