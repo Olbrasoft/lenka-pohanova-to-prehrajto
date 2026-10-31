@@ -106651,12 +106651,6 @@
     },
     "13:31:18": {
       "episode_key": "simpsonovi:s31:e18",
-      "claim": {
-        "worker_id": "daf6d453bcfa4a538f20d5c5d3f322ed-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:45:12.497853+00:00",
-        "lease_expires_at": "2026-11-01T02:45:12.497863+00:00"
-      },
       "source": {
         "source_id": "33101919",
         "source_url": "https://sdilej.cz/33101919/simpsonovi-s31e18-cz-dabing.mkv",
@@ -106681,15 +106675,22 @@
         "display_name": "The Simpsons S31E18 The Incredible Lightness of Being a Baby 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:45:17.169946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678112",
-        "size_bytes": 506193383
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678112",
+          "size_bytes": 506193383,
+          "source_bytes_read": 506193383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33101919",
+        "source_url": "https://sdilej.cz/33101919/simpsonovi-s31e18-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678112",
-        "size_bytes": 506193383,
-        "source_bytes_read": 506193383,
-        "http_status": 201
+        "display_name": "The Simpsons S31E18 The Incredible Lightness of Being a Baby 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:46:39.896119+00:00"
       }
     },
     "13:31:19": {
@@ -106822,5 +106823,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:46:37.300887+00:00"
+  "updated_at": "2026-10-31T20:46:39.896134+00:00"
 }
