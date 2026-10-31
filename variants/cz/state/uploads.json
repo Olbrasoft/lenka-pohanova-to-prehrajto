@@ -106123,12 +106123,6 @@
     },
     "13:31:6": {
       "episode_key": "simpsonovi:s31:e6",
-      "claim": {
-        "worker_id": "45d72e260cdb4a8aa6e849eaf38328c9-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:36:46.330236+00:00",
-        "lease_expires_at": "2026-11-01T02:36:46.330247+00:00"
-      },
       "source": {
         "source_id": "29502685",
         "source_url": "https://sdilej.cz/29502685/the-simpsons-s31e06-drevorubani.mkv",
@@ -106153,15 +106147,22 @@
         "display_name": "The Simpsons S31E06 Marge the Lumberjill 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:36:51.281628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677891",
-        "size_bytes": 454954894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677891",
+          "size_bytes": 454954894,
+          "source_bytes_read": 454954894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29502685",
+        "source_url": "https://sdilej.cz/29502685/the-simpsons-s31e06-drevorubani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677891",
-        "size_bytes": 454954894,
-        "source_bytes_read": 454954894,
-        "http_status": 201
+        "display_name": "The Simpsons S31E06 Marge the Lumberjill 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:37:35.895682+00:00"
       }
     },
     "13:31:7": {
@@ -106244,5 +106245,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:37:31.833277+00:00"
+  "updated_at": "2026-10-31T20:37:35.895699+00:00"
 }
