@@ -67484,12 +67484,6 @@
     },
     "1127:4:3": {
       "episode_key": "policejní odznak:s4:e3",
-      "claim": {
-        "worker_id": "22de890ef58c4b20b7abe950c65c5517-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:36:33.562361+00:00",
-        "lease_expires_at": "2026-10-31T08:36:33.562374+00:00"
-      },
       "source": {
         "source_id": "33817930",
         "source_url": "https://sdilej.cz/33817930/the-shield-s04e03-policejni-odznak-fhd-1080p-cz-rana.mkv",
@@ -67514,15 +67508,22 @@
         "display_name": "The Shield S04E03 Bang 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:36:35.557221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652843",
-        "size_bytes": 510025035
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652843",
+          "size_bytes": 510025035,
+          "source_bytes_read": 510025035,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817930",
+        "source_url": "https://sdilej.cz/33817930/the-shield-s04e03-policejni-odznak-fhd-1080p-cz-rana.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652843",
-        "size_bytes": 510025035,
-        "source_bytes_read": 510025035,
-        "http_status": 201
+        "display_name": "The Shield S04E03 Bang 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:38:02.255294+00:00"
       }
     },
     "1127:4:4": {
@@ -67568,5 +67569,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:37:57.833899+00:00"
+  "updated_at": "2026-10-31T02:38:02.255313+00:00"
 }
