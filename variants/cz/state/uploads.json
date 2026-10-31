@@ -106827,12 +106827,6 @@
     },
     "13:31:22": {
       "episode_key": "simpsonovi:s31:e22",
-      "claim": {
-        "worker_id": "3d326b2c98014ce7a6e85e0bf1c8b006-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:46:49.980015+00:00",
-        "lease_expires_at": "2026-11-01T02:46:49.980024+00:00"
-      },
       "source": {
         "source_id": "32767059",
         "source_url": "https://sdilej.cz/32767059/simpsonovi-s31e22-cz-dabing.mkv",
@@ -106857,15 +106851,22 @@
         "display_name": "The Simpsons S31E22 The Way of the Dog 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:46:53.579687+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678156",
-        "size_bytes": 502173701
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678156",
+          "size_bytes": 502173701,
+          "source_bytes_read": 502173701,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32767059",
+        "source_url": "https://sdilej.cz/32767059/simpsonovi-s31e22-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678156",
-        "size_bytes": 502173701,
-        "source_bytes_read": 502173701,
-        "http_status": 201
+        "display_name": "The Simpsons S31E22 The Way of the Dog 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:47:44.483822+00:00"
       }
     },
     "13:32:1": {
@@ -106953,5 +106954,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:47:42.880420+00:00"
+  "updated_at": "2026-10-31T20:47:44.483837+00:00"
 }
