@@ -78359,12 +78359,6 @@
     },
     "13:2:21": {
       "episode_key": "simpsonovi:s2:e21",
-      "claim": {
-        "worker_id": "e731a27031774668909c6903f55fd4f7-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:44:32.238887+00:00",
-        "lease_expires_at": "2026-10-31T18:44:32.238895+00:00"
-      },
       "source": {
         "source_id": "27310077",
         "source_url": "https://sdilej.cz/27310077/simpsonovi-cz-s02e21.mkv",
@@ -78389,15 +78383,22 @@
         "display_name": "The Simpsons S02E21 Three Men and a Comic Book 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:44:33.863569+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665658",
-        "size_bytes": 542513734
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665658",
+          "size_bytes": 542513734,
+          "source_bytes_read": 542513734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310077",
+        "source_url": "https://sdilej.cz/27310077/simpsonovi-cz-s02e21.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665658",
-        "size_bytes": 542513734,
-        "source_bytes_read": 542513734,
-        "http_status": 201
+        "display_name": "The Simpsons S02E21 Three Men and a Comic Book 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:46:15.442017+00:00"
       }
     },
     "13:2:22": {
@@ -78493,5 +78494,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:46:14.181714+00:00"
+  "updated_at": "2026-10-31T12:46:15.442032+00:00"
 }
