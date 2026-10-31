@@ -83405,12 +83405,6 @@
     },
     "13:7:22": {
       "episode_key": "simpsonovi:s7:e22",
-      "claim": {
-        "worker_id": "efac8dc1a3044c66b4d2677dcb026090-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:20:20.661657+00:00",
-        "lease_expires_at": "2026-10-31T20:20:20.661668+00:00"
-      },
       "source": {
         "source_id": "34941026",
         "source_url": "https://sdilej.cz/34941026/simpsonovi-s07e22-cz-hevc-1995-.mkv",
@@ -83435,15 +83429,22 @@
         "display_name": "The Simpsons S07E22 Raging Abe Simpson and His Grumbling Grandson in 'The Curse of the Flying Hellfish' 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:20:22.682335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669465",
-        "size_bytes": 169772766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669465",
+          "size_bytes": 169772766,
+          "source_bytes_read": 169772766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34941026",
+        "source_url": "https://sdilej.cz/34941026/simpsonovi-s07e22-cz-hevc-1995-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669465",
-        "size_bytes": 169772766,
-        "source_bytes_read": 169772766,
-        "http_status": 201
+        "display_name": "The Simpsons S07E22 Raging Abe Simpson and His Grumbling Grandson in 'The Curse of the Flying Hellfish' 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:20:45.600779+00:00"
       }
     }
   },
@@ -83452,5 +83453,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:20:42.125756+00:00"
+  "updated_at": "2026-10-31T14:20:45.600816+00:00"
 }
