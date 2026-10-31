@@ -78491,12 +78491,6 @@
     },
     "13:3:2": {
       "episode_key": "simpsonovi:s3:e2",
-      "claim": {
-        "worker_id": "b48cb3a32f8349e7a46769bbde410e5d-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:46:17.404831+00:00",
-        "lease_expires_at": "2026-10-31T18:46:17.404843+00:00"
-      },
       "source": {
         "source_id": "33048303",
         "source_url": "https://sdilej.cz/33048303/simpsonovi-s03e02-cz-dabing.mkv",
@@ -78521,15 +78515,22 @@
         "display_name": "The Simpsons S03E02 Mr. Lisa Goes to Washington 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:46:21.844883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665700",
-        "size_bytes": 531888719
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665700",
+          "size_bytes": 531888719,
+          "source_bytes_read": 531888719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33048303",
+        "source_url": "https://sdilej.cz/33048303/simpsonovi-s03e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665700",
-        "size_bytes": 531888719,
-        "source_bytes_read": 531888719,
-        "http_status": 201
+        "display_name": "The Simpsons S03E02 Mr. Lisa Goes to Washington 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:47:43.657412+00:00"
       }
     },
     "13:3:3": {
@@ -78612,5 +78613,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:47:41.068731+00:00"
+  "updated_at": "2026-10-31T12:47:43.657428+00:00"
 }
