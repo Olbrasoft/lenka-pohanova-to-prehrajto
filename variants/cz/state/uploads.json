@@ -109819,12 +109819,6 @@
     },
     "13:35:2": {
       "episode_key": "simpsonovi:s35:e2",
-      "claim": {
-        "worker_id": "60001878d07447688f6c7db9eb95fcee-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:28:12.981589+00:00",
-        "lease_expires_at": "2026-11-01T03:28:12.981599+00:00"
-      },
       "source": {
         "source_id": "32773392",
         "source_url": "https://sdilej.cz/32773392/simpsonovi-s35e02-cz-dabing.mkv",
@@ -109849,15 +109843,22 @@
         "display_name": "The Simpsons S35E02 A Mid-Childhood Night's Dream 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:28:20.693625+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678958",
-        "size_bytes": 491859171
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678958",
+          "size_bytes": 491859171,
+          "source_bytes_read": 491859171,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32773392",
+        "source_url": "https://sdilej.cz/32773392/simpsonovi-s35e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678958",
-        "size_bytes": 491859171,
-        "source_bytes_read": 491859171,
-        "http_status": 201
+        "display_name": "The Simpsons S35E02 A Mid-Childhood Night's Dream 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:29:37.079931+00:00"
       }
     }
   },
@@ -109866,5 +109867,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:29:34.263948+00:00"
+  "updated_at": "2026-10-31T21:29:37.079943+00:00"
 }
