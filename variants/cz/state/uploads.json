@@ -113823,12 +113823,6 @@
     },
     "104:1:18": {
       "episode_key": "akta x:s1:e18",
-      "claim": {
-        "worker_id": "126ec4f1b14045e3b763e6851cdbce28-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:53:05.904735+00:00",
-        "lease_expires_at": "2026-11-01T05:53:05.904747+00:00"
-      },
       "source": {
         "source_id": "32201177",
         "source_url": "https://sdilej.cz/32201177/akta-x-s01e18-carodej.mkv",
@@ -113853,15 +113847,22 @@
         "display_name": "The X-Files S01E18 Miracle Man 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:53:07.748678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681084",
-        "size_bytes": 986514571
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681084",
+          "size_bytes": 986514571,
+          "source_bytes_read": 986514571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201177",
+        "source_url": "https://sdilej.cz/32201177/akta-x-s01e18-carodej.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681084",
-        "size_bytes": 986514571,
-        "source_bytes_read": 986514571,
-        "http_status": 201
+        "display_name": "The X-Files S01E18 Miracle Man 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:54:54.106888+00:00"
       }
     },
     "104:1:19": {
@@ -113913,5 +113914,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:54:52.688684+00:00"
+  "updated_at": "2026-10-31T23:54:54.106904+00:00"
 }
