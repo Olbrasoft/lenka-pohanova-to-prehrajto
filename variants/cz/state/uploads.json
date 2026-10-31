@@ -105595,12 +105595,6 @@
     },
     "13:30:17": {
       "episode_key": "simpsonovi:s30:e17",
-      "claim": {
-        "worker_id": "c5f2bc4fc12f4aeca783887ea13aab64-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:32:08.614722+00:00",
-        "lease_expires_at": "2026-11-01T02:32:08.614733+00:00"
-      },
       "source": {
         "source_id": "30678526",
         "source_url": "https://sdilej.cz/30678526/simpsonovi-s30e17-virtualni-vitezstvi.mkv",
@@ -105625,15 +105619,22 @@
         "display_name": "The Simpsons S30E17 E My Sports 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:32:11.997691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677751",
-        "size_bytes": 508982256
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677751",
+          "size_bytes": 508982256,
+          "source_bytes_read": 508982256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30678526",
+        "source_url": "https://sdilej.cz/30678526/simpsonovi-s30e17-virtualni-vitezstvi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677751",
-        "size_bytes": 508982256,
-        "source_bytes_read": 508982256,
-        "http_status": 201
+        "display_name": "The Simpsons S30E17 E My Sports 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:33:02.527839+00:00"
       }
     },
     "13:30:18": {
@@ -105716,5 +105717,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:32:58.998706+00:00"
+  "updated_at": "2026-10-31T20:33:02.527856+00:00"
 }
