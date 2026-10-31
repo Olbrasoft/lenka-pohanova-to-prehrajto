@@ -90943,12 +90943,6 @@
     },
     "13:15:8": {
       "episode_key": "simpsonovi:s15:e8",
-      "claim": {
-        "worker_id": "5c7ce8ef60c940aa9f1804e881ce8ff1-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:22:17.322289+00:00",
-        "lease_expires_at": "2026-10-31T22:22:17.322299+00:00"
-      },
       "source": {
         "source_id": "28377924",
         "source_url": "https://sdilej.cz/28377924/simpsonovi-s15e08-marge-versus-svobodni-duchodci-....mkv",
@@ -90973,15 +90967,22 @@
         "display_name": "The Simpsons S15E08 Marge vs. Singles, Seniors, Childless Couples and Teens, and Gays 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:22:19.512755+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672701",
-        "size_bytes": 494710661
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672701",
+          "size_bytes": 494710661,
+          "source_bytes_read": 494710661,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28377924",
+        "source_url": "https://sdilej.cz/28377924/simpsonovi-s15e08-marge-versus-svobodni-duchodci-....mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672701",
-        "size_bytes": 494710661,
-        "source_bytes_read": 494710661,
-        "http_status": 201
+        "display_name": "The Simpsons S15E08 Marge vs. Singles, Seniors, Childless Couples and Teens, and Gays 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:23:20.101207+00:00"
       }
     },
     "13:15:9": {
@@ -91071,5 +91072,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:23:15.741565+00:00"
+  "updated_at": "2026-10-31T16:23:20.101218+00:00"
 }
