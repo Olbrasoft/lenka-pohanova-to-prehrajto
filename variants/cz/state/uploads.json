@@ -96135,12 +96135,6 @@
     },
     "13:20:19": {
       "episode_key": "simpsonovi:s20:e19",
-      "claim": {
-        "worker_id": "b97c01d1d9e746d694dc0d76baf813d9-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:40:16.797186+00:00",
-        "lease_expires_at": "2026-10-31T23:40:16.797196+00:00"
-      },
       "source": {
         "source_id": "32763501",
         "source_url": "https://sdilej.cz/32763501/simpsonovi-s20e19-cz-dabing.mkv",
@@ -96165,15 +96159,22 @@
         "display_name": "The Simpsons S20E19 Waverly Hills 9-0-2-1-D'oh 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:40:18.521984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674390",
-        "size_bytes": 506817919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674390",
+          "size_bytes": 506817919,
+          "source_bytes_read": 506817919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763501",
+        "source_url": "https://sdilej.cz/32763501/simpsonovi-s20e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674390",
-        "size_bytes": 506817919,
-        "source_bytes_read": 506817919,
-        "http_status": 201
+        "display_name": "The Simpsons S20E19 Waverly Hills 9-0-2-1-D'oh 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:41:15.659719+00:00"
       }
     },
     "13:20:20": {
@@ -96256,5 +96257,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:41:12.222211+00:00"
+  "updated_at": "2026-10-31T17:41:15.659732+00:00"
 }
