@@ -106217,12 +106217,6 @@
     },
     "13:31:8": {
       "episode_key": "simpsonovi:s31:e8",
-      "claim": {
-        "worker_id": "58b2b5f7f2f54c6db664e4bdab381e37-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:37:05.747053+00:00",
-        "lease_expires_at": "2026-11-01T02:37:05.747064+00:00"
-      },
       "source": {
         "source_id": "32766800",
         "source_url": "https://sdilej.cz/32766800/simpsonovi-s31e08-cz-dabing.mkv",
@@ -106247,15 +106241,22 @@
         "display_name": "The Simpsons S31E08 Thanksgiving of Horror 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:37:08.910491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677901",
-        "size_bytes": 577183448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677901",
+          "size_bytes": 577183448,
+          "source_bytes_read": 577183448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766800",
+        "source_url": "https://sdilej.cz/32766800/simpsonovi-s31e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677901",
-        "size_bytes": 577183448,
-        "source_bytes_read": 577183448,
-        "http_status": 201
+        "display_name": "The Simpsons S31E08 Thanksgiving of Horror 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:39:08.443888+00:00"
       }
     },
     "13:31:9": {
@@ -106345,5 +106346,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:39:04.190885+00:00"
+  "updated_at": "2026-10-31T20:39:08.443905+00:00"
 }
