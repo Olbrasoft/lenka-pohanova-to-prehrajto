@@ -72991,12 +72991,6 @@
     },
     "21:1:8": {
       "episode_key": "stranger things:s1:e8",
-      "claim": {
-        "worker_id": "64342050d1d54f87b4b3a5da9dd98dd0-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:47:43.116977+00:00",
-        "lease_expires_at": "2026-10-31T11:47:43.116988+00:00"
-      },
       "source": {
         "source_id": "33165722",
         "source_url": "https://sdilej.cz/33165722/stranger-things-s01e08-kapitola-osma-vzhuru-nohama.mkv",
@@ -73021,15 +73015,22 @@
         "display_name": "Stranger Things S01E08 Chapter Eight: The Upside Down 4K CZ Dabing",
         "prepared_at": "2026-10-31T05:47:44.800973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656383",
-        "size_bytes": 2602959030
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656383",
+          "size_bytes": 2602959030,
+          "source_bytes_read": 2602959030,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33165722",
+        "source_url": "https://sdilej.cz/33165722/stranger-things-s01e08-kapitola-osma-vzhuru-nohama.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656383",
-        "size_bytes": 2602959030,
-        "source_bytes_read": 2602959030,
-        "http_status": 201
+        "display_name": "Stranger Things S01E08 Chapter Eight: The Upside Down 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T05:55:21.267509+00:00"
       }
     },
     "21:2:1": {
@@ -73119,5 +73120,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:55:17.095358+00:00"
+  "updated_at": "2026-10-31T05:55:21.267525+00:00"
 }
