@@ -109599,12 +109599,6 @@
     },
     "13:34:19": {
       "episode_key": "simpsonovi:s34:e19",
-      "claim": {
-        "worker_id": "aa647574de0848c6a4a8465311788bb5-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:26:13.593258+00:00",
-        "lease_expires_at": "2026-11-01T03:26:13.593268+00:00"
-      },
       "source": {
         "source_id": "27448203",
         "source_url": "https://sdilej.cz/27448203/simpsonovi-s34e19-cz-dabing-1080p.mkv",
@@ -109629,15 +109623,22 @@
         "display_name": "The Simpsons S34E19 Write Off This Episode 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:26:15.739642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678932",
-        "size_bytes": 483904420
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678932",
+          "size_bytes": 483904420,
+          "source_bytes_read": 483904420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27448203",
+        "source_url": "https://sdilej.cz/27448203/simpsonovi-s34e19-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678932",
-        "size_bytes": 483904420,
-        "source_bytes_read": 483904420,
-        "http_status": 201
+        "display_name": "The Simpsons S34E19 Write Off This Episode 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:27:00.446645+00:00"
       }
     },
     "13:34:20": {
@@ -109720,5 +109721,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:26:57.007375+00:00"
+  "updated_at": "2026-10-31T21:27:00.446662+00:00"
 }
