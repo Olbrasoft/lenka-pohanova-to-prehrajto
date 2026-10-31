@@ -84725,12 +84725,6 @@
     },
     "13:9:2": {
       "episode_key": "simpsonovi:s9:e2",
-      "claim": {
-        "worker_id": "5bab610cb4a143668d73fcb2a321bb67-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:46:03.943372+00:00",
-        "lease_expires_at": "2026-10-31T20:46:03.943380+00:00"
-      },
       "source": {
         "source_id": "34979803",
         "source_url": "https://sdilej.cz/34979803/simpsonovi-s09e02-cz.mkv",
@@ -84755,15 +84749,22 @@
         "display_name": "The Simpsons S09E02 The Principal and the Pauper 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:46:07.254724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670377",
-        "size_bytes": 168441471
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670377",
+          "size_bytes": 168441471,
+          "source_bytes_read": 168441471,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979803",
+        "source_url": "https://sdilej.cz/34979803/simpsonovi-s09e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670377",
-        "size_bytes": 168441471,
-        "source_bytes_read": 168441471,
-        "http_status": 201
+        "display_name": "The Simpsons S09E02 The Principal and the Pauper 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:46:31.127594+00:00"
       }
     }
   },
@@ -84772,5 +84773,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:46:28.007441+00:00"
+  "updated_at": "2026-10-31T14:46:31.127606+00:00"
 }
