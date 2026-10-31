@@ -82099,12 +82099,6 @@
     },
     "13:6:17": {
       "episode_key": "simpsonovi:s6:e17",
-      "claim": {
-        "worker_id": "e144e8ce13c44029ab6c169802473818-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:52:00.377049+00:00",
-        "lease_expires_at": "2026-10-31T19:52:00.377061+00:00"
-      },
       "source": {
         "source_id": "27321597",
         "source_url": "https://sdilej.cz/27321597/simpsonovi-cz-s06e17.mkv",
@@ -82129,15 +82123,22 @@
         "display_name": "The Simpsons S06E17 Homer vs. Patty and Selma 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:52:02.060867+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668992",
-        "size_bytes": 525866073
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668992",
+          "size_bytes": 525866073,
+          "source_bytes_read": 525866073,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27321597",
+        "source_url": "https://sdilej.cz/27321597/simpsonovi-cz-s06e17.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668992",
-        "size_bytes": 525866073,
-        "source_bytes_read": 525866073,
-        "http_status": 201
+        "display_name": "The Simpsons S06E17 Homer vs. Patty and Selma 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:53:44.078822+00:00"
       }
     }
   },
@@ -82146,5 +82147,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:53:41.292191+00:00"
+  "updated_at": "2026-10-31T13:53:44.078841+00:00"
 }
