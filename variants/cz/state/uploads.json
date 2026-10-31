@@ -109643,12 +109643,6 @@
     },
     "13:34:20": {
       "episode_key": "simpsonovi:s34:e20",
-      "claim": {
-        "worker_id": "e7e80375860b41e39028cb7915e36674-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:26:31.557830+00:00",
-        "lease_expires_at": "2026-11-01T03:26:31.557842+00:00"
-      },
       "source": {
         "source_id": "27336284",
         "source_url": "https://sdilej.cz/27336284/simpsonovi-s34e20-cz.mkv",
@@ -109673,15 +109667,22 @@
         "display_name": "The Simpsons S34E20 The Very Hungry Caterpillars 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:26:35.209413+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678933",
-        "size_bytes": 375679251
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678933",
+          "size_bytes": 375679251,
+          "source_bytes_read": 375679251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27336284",
+        "source_url": "https://sdilej.cz/27336284/simpsonovi-s34e20-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678933",
-        "size_bytes": 375679251,
-        "source_bytes_read": 375679251,
-        "http_status": 201
+        "display_name": "The Simpsons S34E20 The Very Hungry Caterpillars 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:27:37.006673+00:00"
       }
     },
     "13:34:21": {
@@ -109764,5 +109765,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:27:33.814956+00:00"
+  "updated_at": "2026-10-31T21:27:37.006690+00:00"
 }
