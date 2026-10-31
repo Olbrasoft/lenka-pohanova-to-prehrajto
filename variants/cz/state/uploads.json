@@ -78799,12 +78799,6 @@
     },
     "13:3:9": {
       "episode_key": "simpsonovi:s3:e9",
-      "claim": {
-        "worker_id": "7f58a909e3ad45c58d2dd2313e4cef08-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:51:01.818074+00:00",
-        "lease_expires_at": "2026-10-31T18:51:01.818085+00:00"
-      },
       "source": {
         "source_id": "27310343",
         "source_url": "https://sdilej.cz/27310343/simpsonovi-cz-s03e09.mkv",
@@ -78829,15 +78823,22 @@
         "display_name": "The Simpsons S03E09 Saturdays of Thunder 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:51:03.509937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665775",
-        "size_bytes": 537577344
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665775",
+          "size_bytes": 537577344,
+          "source_bytes_read": 537577344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310343",
+        "source_url": "https://sdilej.cz/27310343/simpsonovi-cz-s03e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665775",
-        "size_bytes": 537577344,
-        "source_bytes_read": 537577344,
-        "http_status": 201
+        "display_name": "The Simpsons S03E09 Saturdays of Thunder 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:52:44.762485+00:00"
       }
     }
   },
@@ -78846,5 +78847,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:52:41.191090+00:00"
+  "updated_at": "2026-10-31T12:52:44.762503+00:00"
 }
