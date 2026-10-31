@@ -76731,12 +76731,6 @@
     },
     "88:3:6": {
       "episode_key": "daredevil:s3:e6",
-      "claim": {
-        "worker_id": "4463344da0144b05a4e90c6e02eaefd3-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:57:52.338350+00:00",
-        "lease_expires_at": "2026-10-31T17:57:52.338360+00:00"
-      },
       "source": {
         "source_id": "30756306",
         "source_url": "https://sdilej.cz/30756306/daredevil-s03e06-2018-cz-dab-dabel-ktereho-znas.mkv",
@@ -76761,15 +76755,22 @@
         "display_name": "Marvel's Daredevil S03E06 The Devil You Know 1080p CZ Dabing",
         "prepared_at": "2026-10-31T11:57:54.039989+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664733",
-        "size_bytes": 558656559
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664733",
+          "size_bytes": 558656559,
+          "source_bytes_read": 558656559,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30756306",
+        "source_url": "https://sdilej.cz/30756306/daredevil-s03e06-2018-cz-dab-dabel-ktereho-znas.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664733",
-        "size_bytes": 558656559,
-        "source_bytes_read": 558656559,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S03E06 The Devil You Know 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T11:59:54.665582+00:00"
       }
     },
     "88:3:7": {
@@ -76815,5 +76816,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:59:49.299743+00:00"
+  "updated_at": "2026-10-31T11:59:54.665598+00:00"
 }
