@@ -73739,12 +73739,6 @@
     },
     "21:3:8": {
       "episode_key": "stranger things:s3:e8",
-      "claim": {
-        "worker_id": "2d30c022ec1b439e9854aa8d6319824f-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:49:21.832040+00:00",
-        "lease_expires_at": "2026-10-31T12:49:21.832050+00:00"
-      },
       "source": {
         "source_id": "29049460",
         "source_url": "https://sdilej.cz/29049460/stranger-things-s03e08-cz.mkv",
@@ -73769,15 +73763,22 @@
         "display_name": "Stranger Things S03E08 Chapter Eight: The Battle of Starcourt 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:49:27.392119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30658986",
-        "size_bytes": 9438355207
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30658986",
+          "size_bytes": 9438355207,
+          "source_bytes_read": 9438355207,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29049460",
+        "source_url": "https://sdilej.cz/29049460/stranger-things-s03e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30658986",
-        "size_bytes": 9438355207,
-        "source_bytes_read": 9438355207,
-        "http_status": 201
+        "display_name": "Stranger Things S03E08 Chapter Eight: The Battle of Starcourt 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T07:16:17.606089+00:00"
       }
     },
     "21:4:1": {
@@ -73830,5 +73831,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T07:16:11.792026+00:00"
+  "updated_at": "2026-10-31T07:16:17.606106+00:00"
 }
