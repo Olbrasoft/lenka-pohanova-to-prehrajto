@@ -63047,12 +63047,6 @@
     },
     "956:6:7": {
       "episode_key": "star trek: nová generace:s6:e7",
-      "claim": {
-        "worker_id": "80bf1a9675a24598bddb44cc8981f343-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:04:25.586980+00:00",
-        "lease_expires_at": "2026-10-31T06:04:25.586991+00:00"
-      },
       "source": {
         "source_id": "28165517",
         "source_url": "https://sdilej.cz/28165517/star-trek-nova-generace-s06e07-rostaci.mkv",
@@ -63077,15 +63071,22 @@
         "display_name": "Star Trek: The Next Generation S06E07 Rascals 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:04:28.952953+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649419",
-        "size_bytes": 374447919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649419",
+          "size_bytes": 374447919,
+          "source_bytes_read": 374447919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165517",
+        "source_url": "https://sdilej.cz/28165517/star-trek-nova-generace-s06e07-rostaci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649419",
-        "size_bytes": 374447919,
-        "source_bytes_read": 374447919,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E07 Rascals 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:05:39.133156+00:00"
       }
     },
     "956:6:8": {
@@ -63168,5 +63169,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:05:35.501136+00:00"
+  "updated_at": "2026-10-31T00:05:39.133171+00:00"
 }
