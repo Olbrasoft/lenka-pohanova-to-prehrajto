@@ -111183,12 +111183,6 @@
     },
     "13:36:15": {
       "episode_key": "simpsonovi:s36:e15",
-      "claim": {
-        "worker_id": "044b34032ffd4f5cbede7ec65ae18e73-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:53:17.849044+00:00",
-        "lease_expires_at": "2026-11-01T03:53:17.849054+00:00"
-      },
       "source": {
         "source_id": "32814143",
         "source_url": "https://sdilej.cz/32814143/simpsonovi.the.simpsons.2025.s36e15.cz.en.web-dl.1080p.dsnp-dendy007.mkv",
@@ -111213,15 +111207,22 @@
         "display_name": "The Simpsons S36E15 Abe League of Their Moe 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:53:22.679426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679631",
-        "size_bytes": 432595791
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679631",
+          "size_bytes": 432595791,
+          "source_bytes_read": 432595791,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32814143",
+        "source_url": "https://sdilej.cz/32814143/simpsonovi.the.simpsons.2025.s36e15.cz.en.web-dl.1080p.dsnp-dendy007.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679631",
-        "size_bytes": 432595791,
-        "source_bytes_read": 432595791,
-        "http_status": 201
+        "display_name": "The Simpsons S36E15 Abe League of Their Moe 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:54:25.951309+00:00"
       }
     },
     "13:36:16": {
@@ -111311,5 +111312,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:54:24.498140+00:00"
+  "updated_at": "2026-10-31T21:54:25.951323+00:00"
 }
