@@ -92747,12 +92747,6 @@
     },
     "13:17:6": {
       "episode_key": "simpsonovi:s17:e6",
-      "claim": {
-        "worker_id": "59d1da5e016b41c99e4ed6d00ac65bea-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:49:11.613159+00:00",
-        "lease_expires_at": "2026-10-31T22:49:11.613189+00:00"
-      },
       "source": {
         "source_id": "28378779",
         "source_url": "https://sdilej.cz/28378779/simpsonovi-s17e06-homer-kandiduje.mkv",
@@ -92777,15 +92771,22 @@
         "display_name": "The Simpsons S17E06 See Homer Run 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:49:15.853741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673172",
-        "size_bytes": 502353855
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673172",
+          "size_bytes": 502353855,
+          "source_bytes_read": 502353855,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378779",
+        "source_url": "https://sdilej.cz/28378779/simpsonovi-s17e06-homer-kandiduje.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673172",
-        "size_bytes": 502353855,
-        "source_bytes_read": 502353855,
-        "http_status": 201
+        "display_name": "The Simpsons S17E06 See Homer Run 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:49:59.792617+00:00"
       }
     }
   },
@@ -92794,5 +92795,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:49:56.096489+00:00"
+  "updated_at": "2026-10-31T16:49:59.792626+00:00"
 }
