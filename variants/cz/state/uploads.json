@@ -77875,12 +77875,6 @@
     },
     "13:2:10": {
       "episode_key": "simpsonovi:s2:e10",
-      "claim": {
-        "worker_id": "6e826426fb954d4cb178baf17d1d129a-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:31:21.005216+00:00",
-        "lease_expires_at": "2026-10-31T18:31:21.005224+00:00"
-      },
       "source": {
         "source_id": "27309829",
         "source_url": "https://sdilej.cz/27309829/simpsonovi-cz-s02e10.mkv",
@@ -77905,15 +77899,22 @@
         "display_name": "The Simpsons S02E10 Bart Gets Hit by a Car 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:31:24.753865+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665422",
-        "size_bytes": 548627798
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665422",
+          "size_bytes": 548627798,
+          "source_bytes_read": 548627798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309829",
+        "source_url": "https://sdilej.cz/27309829/simpsonovi-cz-s02e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665422",
-        "size_bytes": 548627798,
-        "source_bytes_read": 548627798,
-        "http_status": 201
+        "display_name": "The Simpsons S02E10 Bart Gets Hit by a Car 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:32:54.629628+00:00"
       }
     },
     "13:2:11": {
@@ -77959,5 +77960,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:32:51.940557+00:00"
+  "updated_at": "2026-10-31T12:32:54.629646+00:00"
 }
