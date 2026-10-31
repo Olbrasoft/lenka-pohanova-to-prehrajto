@@ -97059,12 +97059,6 @@
     },
     "13:21:19": {
       "episode_key": "simpsonovi:s21:e19",
-      "claim": {
-        "worker_id": "c24e72307a1a41fa9ba7943581c4cb66-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:54:23.942261+00:00",
-        "lease_expires_at": "2026-10-31T23:54:23.942271+00:00"
-      },
       "source": {
         "source_id": "32763845",
         "source_url": "https://sdilej.cz/32763845/simpsonovi-s21e19-cz-dabing.mkv",
@@ -97089,15 +97083,22 @@
         "display_name": "The Simpsons S21E19 The Squirt and the Whale 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:54:27.390476+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674597",
-        "size_bytes": 504293989
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674597",
+          "size_bytes": 504293989,
+          "source_bytes_read": 504293989,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763845",
+        "source_url": "https://sdilej.cz/32763845/simpsonovi-s21e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674597",
-        "size_bytes": 504293989,
-        "source_bytes_read": 504293989,
-        "http_status": 201
+        "display_name": "The Simpsons S21E19 The Squirt and the Whale 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:55:45.012899+00:00"
       }
     },
     "13:21:20": {
@@ -97143,5 +97144,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:55:41.179625+00:00"
+  "updated_at": "2026-10-31T17:55:45.012909+00:00"
 }
