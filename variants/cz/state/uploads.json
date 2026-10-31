@@ -85473,12 +85473,6 @@
     },
     "13:9:19": {
       "episode_key": "simpsonovi:s9:e19",
-      "claim": {
-        "worker_id": "1a9543cd36e44cb183487c6e4d4df92b-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:57:06.213253+00:00",
-        "lease_expires_at": "2026-10-31T20:57:06.213262+00:00"
-      },
       "source": {
         "source_id": "28376293",
         "source_url": "https://sdilej.cz/28376293/simpsonovi-s09e19-homer-slouzi-vlasti.mkv",
@@ -85503,15 +85497,22 @@
         "display_name": "The Simpsons S09E19 Simpson Tide 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:57:10.325049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670728",
-        "size_bytes": 537219212
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670728",
+          "size_bytes": 537219212,
+          "source_bytes_read": 537219212,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28376293",
+        "source_url": "https://sdilej.cz/28376293/simpsonovi-s09e19-homer-slouzi-vlasti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670728",
-        "size_bytes": 537219212,
-        "source_bytes_read": 537219212,
-        "http_status": 201
+        "display_name": "The Simpsons S09E19 Simpson Tide 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:57:55.057701+00:00"
       }
     }
   },
@@ -85520,5 +85521,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:57:51.814996+00:00"
+  "updated_at": "2026-10-31T14:57:55.057713+00:00"
 }
