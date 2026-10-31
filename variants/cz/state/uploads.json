@@ -113640,12 +113640,6 @@
     },
     "104:1:14": {
       "episode_key": "akta x:s1:e14",
-      "claim": {
-        "worker_id": "1cfe5d08608d476bb8ea4c3f5069ed22-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:50:54.980390+00:00",
-        "lease_expires_at": "2026-11-01T05:50:54.980400+00:00"
-      },
       "source": {
         "source_id": "17179648",
         "source_url": "https://sdilej.cz/17179648/akta-x-the.x-files.s01e14.1080p.bluray.ac3.x265.hevc-qmanutr-czaudio.mkv",
@@ -113670,15 +113664,22 @@
         "display_name": "The X-Files S01E14 Gender Bender 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:50:58.429830+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681059",
-        "size_bytes": 588533980
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681059",
+          "size_bytes": 588533980,
+          "source_bytes_read": 588533980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17179648",
+        "source_url": "https://sdilej.cz/17179648/akta-x-the.x-files.s01e14.1080p.bluray.ac3.x265.hevc-qmanutr-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681059",
-        "size_bytes": 588533980,
-        "source_bytes_read": 588533980,
-        "http_status": 201
+        "display_name": "The X-Files S01E14 Gender Bender 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:51:40.537920+00:00"
       }
     },
     "104:1:15": {
@@ -113724,5 +113725,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:51:37.015977+00:00"
+  "updated_at": "2026-10-31T23:51:40.537937+00:00"
 }
