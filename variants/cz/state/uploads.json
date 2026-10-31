@@ -83029,12 +83029,6 @@
     },
     "13:7:13": {
       "episode_key": "simpsonovi:s7:e13",
-      "claim": {
-        "worker_id": "98ad837184ae4272bc63a7854114a8ef-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:08:57.818565+00:00",
-        "lease_expires_at": "2026-10-31T20:08:57.818576+00:00"
-      },
       "source": {
         "source_id": "33049342",
         "source_url": "https://sdilej.cz/33049342/simpsonovi-s07e13-cz-dabing.mkv",
@@ -83059,15 +83053,22 @@
         "display_name": "The Simpsons S07E13 Two Bad Neighbors 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:09:01.810134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669255",
-        "size_bytes": 528713191
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669255",
+          "size_bytes": 528713191,
+          "source_bytes_read": 528713191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33049342",
+        "source_url": "https://sdilej.cz/33049342/simpsonovi-s07e13-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669255",
-        "size_bytes": 528713191,
-        "source_bytes_read": 528713191,
-        "http_status": 201
+        "display_name": "The Simpsons S07E13 Two Bad Neighbors 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:11:02.346919+00:00"
       }
     }
   },
@@ -83076,5 +83077,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:11:01.068204+00:00"
+  "updated_at": "2026-10-31T14:11:02.346935+00:00"
 }
