@@ -65511,12 +65511,6 @@
     },
     "3423:1:6": {
       "episode_key": "modrooký samuraj:s1:e6",
-      "claim": {
-        "worker_id": "b8ae7306a9c8489d9ba6f5e5b4c4ea18-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:29:39.358655+00:00",
-        "lease_expires_at": "2026-10-31T07:29:39.358665+00:00"
-      },
       "source": {
         "source_id": "27181039",
         "source_url": "https://sdilej.cz/27181039/modrooky-samuraj-blue-eye-samurai-s01e06-hd-5.1-atmos-cz-dabing.mkv",
@@ -65541,15 +65535,22 @@
         "display_name": "BLUE EYE SAMURAI S01E06 All Evil Dreams and Angry Words 1080p CZ Dabing",
         "prepared_at": "2026-10-31T01:29:42.476548+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651101",
-        "size_bytes": 1629517481
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651101",
+          "size_bytes": 1629517481,
+          "source_bytes_read": 1629517481,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27181039",
+        "source_url": "https://sdilej.cz/27181039/modrooky-samuraj-blue-eye-samurai-s01e06-hd-5.1-atmos-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651101",
-        "size_bytes": 1629517481,
-        "source_bytes_read": 1629517481,
-        "http_status": 201
+        "display_name": "BLUE EYE SAMURAI S01E06 All Evil Dreams and Angry Words 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T01:36:25.379496+00:00"
       }
     },
     "3423:1:7": {
@@ -65632,5 +65633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:36:20.496745+00:00"
+  "updated_at": "2026-10-31T01:36:25.379513+00:00"
 }
