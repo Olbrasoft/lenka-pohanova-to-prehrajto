@@ -113728,12 +113728,6 @@
     },
     "104:1:16": {
       "episode_key": "akta x:s1:e16",
-      "claim": {
-        "worker_id": "c02c5944c5d347c1a134261bc4b0ee04-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:51:47.965301+00:00",
-        "lease_expires_at": "2026-11-01T05:51:47.965321+00:00"
-      },
       "source": {
         "source_id": "32201162",
         "source_url": "https://sdilej.cz/32201162/akta-x-s01e16-mlady-srdcem.mkv",
@@ -113758,15 +113752,22 @@
         "display_name": "The X-Files S01E16 Young at Heart 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:51:49.986966+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681068",
-        "size_bytes": 993950986
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681068",
+          "size_bytes": 993950986,
+          "source_bytes_read": 993950986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201162",
+        "source_url": "https://sdilej.cz/32201162/akta-x-s01e16-mlady-srdcem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681068",
-        "size_bytes": 993950986,
-        "source_bytes_read": 993950986,
-        "http_status": 201
+        "display_name": "The X-Files S01E16 Young at Heart 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:52:58.822270+00:00"
       }
     },
     "104:1:17": {
@@ -113812,5 +113813,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:52:54.547764+00:00"
+  "updated_at": "2026-10-31T23:52:58.822287+00:00"
 }
