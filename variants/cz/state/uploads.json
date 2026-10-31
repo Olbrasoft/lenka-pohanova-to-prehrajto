@@ -74399,12 +74399,6 @@
     },
     "21:5:6": {
       "episode_key": "stranger things:s5:e6",
-      "claim": {
-        "worker_id": "06a87657231e436a92598a2b61453a9b-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:54:08.968720+00:00",
-        "lease_expires_at": "2026-10-31T14:54:08.968731+00:00"
-      },
       "source": {
         "source_id": "32718697",
         "source_url": "https://sdilej.cz/32718697/stranger-things-s05e06-utek-z-camazotzu-dd-5.1-cz-2160p-hevc.mkv",
@@ -74429,15 +74423,22 @@
         "display_name": "Stranger Things S05E06 Chapter Six: Escape from Camazotz 4K CZ Dabing",
         "prepared_at": "2026-10-31T08:54:11.736421+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30661946",
-        "size_bytes": 2902487062
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30661946",
+          "size_bytes": 2902487062,
+          "source_bytes_read": 2902487062,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32718697",
+        "source_url": "https://sdilej.cz/32718697/stranger-things-s05e06-utek-z-camazotzu-dd-5.1-cz-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30661946",
-        "size_bytes": 2902487062,
-        "source_bytes_read": 2902487062,
-        "http_status": 201
+        "display_name": "Stranger Things S05E06 Chapter Six: Escape from Camazotz 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:03:51.512931+00:00"
       }
     },
     "21:5:7": {
@@ -74527,5 +74528,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:03:47.216918+00:00"
+  "updated_at": "2026-10-31T09:03:51.512946+00:00"
 }
