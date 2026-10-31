@@ -84211,12 +84211,6 @@
     },
     "13:8:15": {
       "episode_key": "simpsonovi:s8:e15",
-      "claim": {
-        "worker_id": "84209b15ea354d51b1fc8c15720e6ac1-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:32:23.744020+00:00",
-        "lease_expires_at": "2026-10-31T20:32:23.744028+00:00"
-      },
       "source": {
         "source_id": "27322235",
         "source_url": "https://sdilej.cz/27322235/simpsonovi-cz-s08e15.mkv",
@@ -84241,15 +84235,22 @@
         "display_name": "The Simpsons S08E15 Homer's Phobia 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:32:25.547572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669734",
-        "size_bytes": 534678230
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669734",
+          "size_bytes": 534678230,
+          "source_bytes_read": 534678230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322235",
+        "source_url": "https://sdilej.cz/27322235/simpsonovi-cz-s08e15.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669734",
-        "size_bytes": 534678230,
-        "source_bytes_read": 534678230,
-        "http_status": 201
+        "display_name": "The Simpsons S08E15 Homer's Phobia 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:34:07.639229+00:00"
       }
     },
     "13:8:16": {
@@ -84332,5 +84333,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:34:05.039939+00:00"
+  "updated_at": "2026-10-31T14:34:07.639241+00:00"
 }
