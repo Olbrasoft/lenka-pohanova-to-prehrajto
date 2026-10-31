@@ -107751,12 +107751,6 @@
     },
     "13:32:21": {
       "episode_key": "simpsonovi:s32:e21",
-      "claim": {
-        "worker_id": "dee4d36b53364710be01418b3ba9606a-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:02:04.071543+00:00",
-        "lease_expires_at": "2026-11-01T03:02:04.071554+00:00"
-      },
       "source": {
         "source_id": "32769753",
         "source_url": "https://sdilej.cz/32769753/simpsonovi-s32e21-cz-dabing.mkv",
@@ -107781,15 +107775,22 @@
         "display_name": "The Simpsons S32E21 The Man from G.R.A.M.P.A. 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:02:06.177666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678496",
-        "size_bytes": 504486187
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678496",
+          "size_bytes": 504486187,
+          "source_bytes_read": 504486187,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32769753",
+        "source_url": "https://sdilej.cz/32769753/simpsonovi-s32e21-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678496",
-        "size_bytes": 504486187,
-        "source_bytes_read": 504486187,
-        "http_status": 201
+        "display_name": "The Simpsons S32E21 The Man from G.R.A.M.P.A. 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:03:08.484033+00:00"
       }
     },
     "13:32:22": {
@@ -107872,5 +107873,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:03:04.600309+00:00"
+  "updated_at": "2026-10-31T21:03:08.484048+00:00"
 }
