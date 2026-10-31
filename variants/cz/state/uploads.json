@@ -65240,12 +65240,6 @@
     },
     "1562:1:6": {
       "episode_key": "spalující rivalita:s1:e6",
-      "claim": {
-        "worker_id": "fcb6ffc2fe5242fbb80479050878f5cb-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:00:38.500526+00:00",
-        "lease_expires_at": "2026-10-31T07:00:38.500537+00:00"
-      },
       "source": {
         "source_id": "33646805",
         "source_url": "https://sdilej.cz/33646805/spalujici-rivalita-s01e06-chata.mkv",
@@ -65270,15 +65264,22 @@
         "display_name": "Heated Rivalry S01E06 The Cottage 4K CZ Dabing",
         "prepared_at": "2026-10-31T01:00:40.432933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30650337",
-        "size_bytes": 2088951287
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30650337",
+          "size_bytes": 2088951287,
+          "source_bytes_read": 2088951287,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33646805",
+        "source_url": "https://sdilej.cz/33646805/spalujici-rivalita-s01e06-chata.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30650337",
-        "size_bytes": 2088951287,
-        "source_bytes_read": 2088951287,
-        "http_status": 201
+        "display_name": "Heated Rivalry S01E06 The Cottage 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T01:08:04.335093+00:00"
       }
     },
     "3423:1:1": {
@@ -65324,5 +65325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:08:00.069154+00:00"
+  "updated_at": "2026-10-31T01:08:04.335110+00:00"
 }
