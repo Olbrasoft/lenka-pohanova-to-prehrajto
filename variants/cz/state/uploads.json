@@ -90540,12 +90540,6 @@
     },
     "13:14:21": {
       "episode_key": "simpsonovi:s14:e21",
-      "claim": {
-        "worker_id": "cc2b0ed4be24496d9f5b7c568fd3c9e3-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:08:53.932669+00:00",
-        "lease_expires_at": "2026-10-31T22:08:53.932677+00:00"
-      },
       "source": {
         "source_id": "27326622",
         "source_url": "https://sdilej.cz/27326622/simpsonovi-s14e21-cz.mkv",
@@ -90570,15 +90564,22 @@
         "display_name": "The Simpsons S14E21 The Bart of War 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:08:58.514666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672420",
-        "size_bytes": 502969248
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672420",
+          "size_bytes": 502969248,
+          "source_bytes_read": 502969248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27326622",
+        "source_url": "https://sdilej.cz/27326622/simpsonovi-s14e21-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672420",
-        "size_bytes": 502969248,
-        "source_bytes_read": 502969248,
-        "http_status": 201
+        "display_name": "The Simpsons S14E21 The Bart of War 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:10:19.854031+00:00"
       }
     },
     "13:14:22": {
@@ -90624,5 +90625,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:10:16.315878+00:00"
+  "updated_at": "2026-10-31T16:10:19.854044+00:00"
 }
