@@ -69603,12 +69603,6 @@
     },
     "3303:1:4": {
       "episode_key": "za zdí zahrady:s1:e4",
-      "claim": {
-        "worker_id": "dabfde9408bb40f68520fa77d02ebd0a-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:35:39.222736+00:00",
-        "lease_expires_at": "2026-10-31T09:35:39.222765+00:00"
-      },
       "source": {
         "source_id": "34720562",
         "source_url": "https://sdilej.cz/34720562/za-zdi-zahrady-s01e04-10-2014-cz-dabing-1080p-fhd-pisne-temne-lucerny.mkv",
@@ -69633,15 +69627,22 @@
         "display_name": "Over the Garden Wall S01E04 Songs of the Dark Lantern 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:35:40.851439+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653847",
-        "size_bytes": 711221691
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653847",
+          "size_bytes": 711221691,
+          "source_bytes_read": 711221691,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34720562",
+        "source_url": "https://sdilej.cz/34720562/za-zdi-zahrady-s01e04-10-2014-cz-dabing-1080p-fhd-pisne-temne-lucerny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653847",
-        "size_bytes": 711221691,
-        "source_bytes_read": 711221691,
-        "http_status": 201
+        "display_name": "Over the Garden Wall S01E04 Songs of the Dark Lantern 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:38:03.871341+00:00"
       }
     },
     "3303:1:5": {
@@ -69720,5 +69721,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:38:02.564034+00:00"
+  "updated_at": "2026-10-31T03:38:03.871358+00:00"
 }
