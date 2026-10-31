@@ -107883,12 +107883,6 @@
     },
     "13:33:2": {
       "episode_key": "simpsonovi:s33:e2",
-      "claim": {
-        "worker_id": "b231c8df4a0c4c06bca82fee91bbdea7-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:03:16.177570+00:00",
-        "lease_expires_at": "2026-11-01T03:03:16.177581+00:00"
-      },
       "source": {
         "source_id": "32769814",
         "source_url": "https://sdilej.cz/32769814/simpsonovi-s33e02-cz-dabing.mkv",
@@ -107913,15 +107907,22 @@
         "display_name": "The Simpsons S33E02 Bart's in Jail 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:03:20.010807+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678522",
-        "size_bytes": 510023828
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678522",
+          "size_bytes": 510023828,
+          "source_bytes_read": 510023828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32769814",
+        "source_url": "https://sdilej.cz/32769814/simpsonovi-s33e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678522",
-        "size_bytes": 510023828,
-        "source_bytes_read": 510023828,
-        "http_status": 201
+        "display_name": "The Simpsons S33E02 Bart's in Jail 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:04:08.946814+00:00"
       }
     },
     "13:33:3": {
@@ -108004,5 +108005,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:04:05.382960+00:00"
+  "updated_at": "2026-10-31T21:04:08.946831+00:00"
 }
