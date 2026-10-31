@@ -104803,12 +104803,6 @@
     },
     "13:29:20": {
       "episode_key": "simpsonovi:s29:e20",
-      "claim": {
-        "worker_id": "5a201cc3b05642cd845baf5e3f50d132-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:08:27.611800+00:00",
-        "lease_expires_at": "2026-11-01T02:08:27.611811+00:00"
-      },
       "source": {
         "source_id": "28384397",
         "source_url": "https://sdilej.cz/28384397/simpsonovi-s29e20-vzhuru-do-danska.mkv",
@@ -104833,15 +104827,22 @@
         "display_name": "The Simpsons S29E20 Throw Grampa from the Dane 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:08:29.683619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677085",
-        "size_bytes": 815198871
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677085",
+          "size_bytes": 815198871,
+          "source_bytes_read": 815198871,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28384397",
+        "source_url": "https://sdilej.cz/28384397/simpsonovi-s29e20-vzhuru-do-danska.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677085",
-        "size_bytes": 815198871,
-        "source_bytes_read": 815198871,
-        "http_status": 201
+        "display_name": "The Simpsons S29E20 Throw Grampa from the Dane 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:10:04.339109+00:00"
       }
     },
     "13:29:21": {
@@ -104924,5 +104925,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:10:00.098246+00:00"
+  "updated_at": "2026-10-31T20:10:04.339125+00:00"
 }
