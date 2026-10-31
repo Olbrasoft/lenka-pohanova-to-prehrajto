@@ -63097,12 +63097,6 @@
     },
     "956:6:8": {
       "episode_key": "star trek: nová generace:s6:e8",
-      "claim": {
-        "worker_id": "0ba6cb3a7b8c4f66b9c62743a783ee47-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:04:35.874537+00:00",
-        "lease_expires_at": "2026-10-31T06:04:35.874548+00:00"
-      },
       "source": {
         "source_id": "28165521",
         "source_url": "https://sdilej.cz/28165521/star-trek-nova-generace-s06e08-tenkrat-v-deadwoodu.mkv",
@@ -63127,15 +63121,22 @@
         "display_name": "Star Trek: The Next Generation S06E08 A Fistful of Datas 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:04:39.164688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649427",
-        "size_bytes": 374513679
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649427",
+          "size_bytes": 374513679,
+          "source_bytes_read": 374513679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165521",
+        "source_url": "https://sdilej.cz/28165521/star-trek-nova-generace-s06e08-tenkrat-v-deadwoodu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649427",
-        "size_bytes": 374513679,
-        "source_bytes_read": 374513679,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E08 A Fistful of Datas 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:05:55.860829+00:00"
       }
     },
     "956:6:9": {
@@ -63181,5 +63182,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:05:51.193286+00:00"
+  "updated_at": "2026-10-31T00:05:55.860845+00:00"
 }
