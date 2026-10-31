@@ -70439,12 +70439,6 @@
     },
     "1139:3:2": {
       "episode_key": "ve výkonu služby:s3:e2",
-      "claim": {
-        "worker_id": "eb26ffa37b8a4e0f914eb12af4fd9933-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:06:09.382989+00:00",
-        "lease_expires_at": "2026-10-31T10:06:09.383000+00:00"
-      },
       "source": {
         "source_id": "34806764",
         "source_url": "https://sdilej.cz/34806764/ve.vykonu.sluzby.s03e02.mkv",
@@ -70469,15 +70463,22 @@
         "display_name": "Line of Duty S03E02 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:06:11.875957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30654383",
-        "size_bytes": 1164716727
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30654383",
+          "size_bytes": 1164716727,
+          "source_bytes_read": 1164716727,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34806764",
+        "source_url": "https://sdilej.cz/34806764/ve.vykonu.sluzby.s03e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30654383",
-        "size_bytes": 1164716727,
-        "source_bytes_read": 1164716727,
-        "http_status": 201
+        "display_name": "Line of Duty S03E02 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:10:23.021935+00:00"
       }
     },
     "1139:3:3": {
@@ -70604,5 +70605,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:10:19.616532+00:00"
+  "updated_at": "2026-10-31T04:10:23.021951+00:00"
 }
