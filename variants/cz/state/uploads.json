@@ -86850,12 +86850,6 @@
     },
     "13:11:2": {
       "episode_key": "simpsonovi:s11:e2",
-      "claim": {
-        "worker_id": "91b7cff4a095484fbaaa5c5c63d5edea-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:22:27.786223+00:00",
-        "lease_expires_at": "2026-10-31T21:22:27.786233+00:00"
-      },
       "source": {
         "source_id": "27323934",
         "source_url": "https://sdilej.cz/27323934/simpsonovi-s11e02-cz.mkv",
@@ -86880,15 +86874,22 @@
         "display_name": "The Simpsons S11E02 Brother's Little Helper 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:22:29.980483+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671350",
-        "size_bytes": 522626897
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671350",
+          "size_bytes": 522626897,
+          "source_bytes_read": 522626897,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323934",
+        "source_url": "https://sdilej.cz/27323934/simpsonovi-s11e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671350",
-        "size_bytes": 522626897,
-        "source_bytes_read": 522626897,
-        "http_status": 201
+        "display_name": "The Simpsons S11E02 Brother's Little Helper 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:23:18.173813+00:00"
       }
     },
     "13:11:3": {
@@ -86934,5 +86935,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:23:15.132942+00:00"
+  "updated_at": "2026-10-31T15:23:18.173823+00:00"
 }
