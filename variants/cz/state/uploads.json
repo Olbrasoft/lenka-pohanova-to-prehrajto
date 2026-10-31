@@ -85003,12 +85003,6 @@
     },
     "13:9:8": {
       "episode_key": "simpsonovi:s9:e8",
-      "claim": {
-        "worker_id": "bace6cde86834f91974d7b325300ccbc-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:49:21.226317+00:00",
-        "lease_expires_at": "2026-10-31T20:49:21.226329+00:00"
-      },
       "source": {
         "source_id": "27322467",
         "source_url": "https://sdilej.cz/27322467/simpsonovi-cz-s09e08.mkv",
@@ -85033,15 +85027,22 @@
         "display_name": "The Simpsons S09E08 Lisa the Skeptic 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:49:23.620290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670513",
-        "size_bytes": 535840228
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670513",
+          "size_bytes": 535840228,
+          "source_bytes_read": 535840228,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322467",
+        "source_url": "https://sdilej.cz/27322467/simpsonovi-cz-s09e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670513",
-        "size_bytes": 535840228,
-        "source_bytes_read": 535840228,
-        "http_status": 201
+        "display_name": "The Simpsons S09E08 Lisa the Skeptic 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:51:41.753315+00:00"
       }
     },
     "13:9:9": {
@@ -85124,5 +85125,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:51:37.708823+00:00"
+  "updated_at": "2026-10-31T14:51:41.753325+00:00"
 }
