@@ -83141,12 +83141,6 @@
     },
     "13:7:16": {
       "episode_key": "simpsonovi:s7:e16",
-      "claim": {
-        "worker_id": "def6d1efd410489e9eb5491dd479a491-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:17:02.477459+00:00",
-        "lease_expires_at": "2026-10-31T20:17:02.477471+00:00"
-      },
       "source": {
         "source_id": "27321945",
         "source_url": "https://sdilej.cz/27321945/simpsonovi-cz-s07e16.mkv",
@@ -83171,15 +83165,22 @@
         "display_name": "The Simpsons S07E16 Lisa the Iconoclast 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:17:04.166694+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669402",
-        "size_bytes": 541519186
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669402",
+          "size_bytes": 541519186,
+          "source_bytes_read": 541519186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27321945",
+        "source_url": "https://sdilej.cz/27321945/simpsonovi-cz-s07e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669402",
-        "size_bytes": 541519186,
-        "source_bytes_read": 541519186,
-        "http_status": 201
+        "display_name": "The Simpsons S07E16 Lisa the Iconoclast 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:18:03.648411+00:00"
       }
     }
   },
@@ -83188,5 +83189,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:18:01.442534+00:00"
+  "updated_at": "2026-10-31T14:18:03.648430+00:00"
 }
