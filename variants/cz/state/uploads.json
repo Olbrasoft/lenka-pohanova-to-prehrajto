@@ -109335,12 +109335,6 @@
     },
     "13:34:13": {
       "episode_key": "simpsonovi:s34:e13",
-      "claim": {
-        "worker_id": "d9996af8f1dd40138272b13816a3c156-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:24:25.335547+00:00",
-        "lease_expires_at": "2026-11-01T03:24:25.335556+00:00"
-      },
       "source": {
         "source_id": "32773365",
         "source_url": "https://sdilej.cz/32773365/simpsonovi-s34e13-cz-dabing.mkv",
@@ -109365,15 +109359,22 @@
         "display_name": "The Simpsons S34E13 The Many Saints of Springfield 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:24:27.372195+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678909",
-        "size_bytes": 500962294
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678909",
+          "size_bytes": 500962294,
+          "source_bytes_read": 500962294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32773365",
+        "source_url": "https://sdilej.cz/32773365/simpsonovi-s34e13-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678909",
-        "size_bytes": 500962294,
-        "source_bytes_read": 500962294,
-        "http_status": 201
+        "display_name": "The Simpsons S34E13 The Many Saints of Springfield 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:25:13.425002+00:00"
       }
     },
     "13:34:14": {
@@ -109456,5 +109457,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:25:09.926981+00:00"
+  "updated_at": "2026-10-31T21:25:13.425018+00:00"
 }
