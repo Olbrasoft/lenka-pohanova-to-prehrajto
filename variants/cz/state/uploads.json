@@ -94859,12 +94859,6 @@
     },
     "13:19:10": {
       "episode_key": "simpsonovi:s19:e10",
-      "claim": {
-        "worker_id": "7fb9f9267d0d4a788a0423f4eb5cb9c6-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:11:25.216380+00:00",
-        "lease_expires_at": "2026-10-31T23:11:25.216390+00:00"
-      },
       "source": {
         "source_id": "28379824",
         "source_url": "https://sdilej.cz/28379824/simpsonovi-s19e10-e.-pluribus-wigum.mkv",
@@ -94889,15 +94883,22 @@
         "display_name": "The Simpsons S19E10 E Pluribus Wiggum 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:11:27.483978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673621",
-        "size_bytes": 834718338
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673621",
+          "size_bytes": 834718338,
+          "source_bytes_read": 834718338,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379824",
+        "source_url": "https://sdilej.cz/28379824/simpsonovi-s19e10-e.-pluribus-wigum.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673621",
-        "size_bytes": 834718338,
-        "source_bytes_read": 834718338,
-        "http_status": 201
+        "display_name": "The Simpsons S19E10 E Pluribus Wiggum 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:13:03.578338+00:00"
       }
     },
     "13:19:11": {
@@ -94943,5 +94944,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:13:00.276376+00:00"
+  "updated_at": "2026-10-31T17:13:03.578347+00:00"
 }
