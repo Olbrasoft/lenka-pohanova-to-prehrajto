@@ -89352,12 +89352,6 @@
     },
     "13:13:16": {
       "episode_key": "simpsonovi:s13:e16",
-      "claim": {
-        "worker_id": "ab434a161ea44bf1a6c4d29a935c47f0-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:52:24.056634+00:00",
-        "lease_expires_at": "2026-10-31T21:52:24.056643+00:00"
-      },
       "source": {
         "source_id": "27325421",
         "source_url": "https://sdilej.cz/27325421/simpsonovi-s13e16-cz.mkv",
@@ -89382,15 +89376,22 @@
         "display_name": "The Simpsons S13E16 Weekend at Burnsie's 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:52:26.702336+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672030",
-        "size_bytes": 513300873
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672030",
+          "size_bytes": 513300873,
+          "source_bytes_read": 513300873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27325421",
+        "source_url": "https://sdilej.cz/27325421/simpsonovi-s13e16-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672030",
-        "size_bytes": 513300873,
-        "source_bytes_read": 513300873,
-        "http_status": 201
+        "display_name": "The Simpsons S13E16 Weekend at Burnsie's 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:53:08.545694+00:00"
       }
     },
     "13:13:17": {
@@ -89436,5 +89437,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:53:06.238828+00:00"
+  "updated_at": "2026-10-31T15:53:08.545707+00:00"
 }
