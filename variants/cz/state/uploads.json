@@ -106311,12 +106311,6 @@
     },
     "13:31:10": {
       "episode_key": "simpsonovi:s31:e10",
-      "claim": {
-        "worker_id": "7d38b18e327549569efa81092d74c482-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:38:21.851562+00:00",
-        "lease_expires_at": "2026-11-01T02:38:21.851572+00:00"
-      },
       "source": {
         "source_id": "33101937",
         "source_url": "https://sdilej.cz/33101937/simpsonovi-s31e10-cz-dabing.mkv",
@@ -106341,15 +106335,22 @@
         "display_name": "The Simpsons S31E10 Bobby: It's Cold Outside 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:38:24.063166+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677939",
-        "size_bytes": 495035999
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677939",
+          "size_bytes": 495035999,
+          "source_bytes_read": 495035999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33101937",
+        "source_url": "https://sdilej.cz/33101937/simpsonovi-s31e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677939",
-        "size_bytes": 495035999,
-        "source_bytes_read": 495035999,
-        "http_status": 201
+        "display_name": "The Simpsons S31E10 Bobby: It's Cold Outside 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:39:26.558207+00:00"
       }
     }
   },
@@ -106358,5 +106359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:39:24.898698+00:00"
+  "updated_at": "2026-10-31T20:39:26.558221+00:00"
 }
