@@ -75499,12 +75499,6 @@
     },
     "49:3:7": {
       "episode_key": "mandalorian:s3:e7",
-      "claim": {
-        "worker_id": "89cf7700d84a46e7bc0e7c460ebfa138-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:13:30.956632+00:00",
-        "lease_expires_at": "2026-10-31T16:13:30.956644+00:00"
-      },
       "source": {
         "source_id": "32668006",
         "source_url": "https://sdilej.cz/32668006/the-mandalorian-s03e07-cz-dabing.mkv",
@@ -75529,15 +75523,22 @@
         "display_name": "The Mandalorian S03E07 Chapter 23: The Spies 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:13:32.829917+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663323",
-        "size_bytes": 2368096937
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663323",
+          "size_bytes": 2368096937,
+          "source_bytes_read": 2368096937,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32668006",
+        "source_url": "https://sdilej.cz/32668006/the-mandalorian-s03e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663323",
-        "size_bytes": 2368096937,
-        "source_bytes_read": 2368096937,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E07 Chapter 23: The Spies 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:20:14.400754+00:00"
       }
     },
     "49:3:8": {
@@ -75664,5 +75665,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:20:09.369331+00:00"
+  "updated_at": "2026-10-31T10:20:14.400770+00:00"
 }
