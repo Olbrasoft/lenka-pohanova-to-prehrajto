@@ -70131,12 +70131,6 @@
     },
     "1139:2:1": {
       "episode_key": "ve výkonu služby:s2:e1",
-      "claim": {
-        "worker_id": "7caea0f993eb4d0aa219e9427f1ed1af-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:51:27.200054+00:00",
-        "lease_expires_at": "2026-10-31T09:51:27.200067+00:00"
-      },
       "source": {
         "source_id": "34700687",
         "source_url": "https://sdilej.cz/34700687/line-of-duty-s02e01-cz-dabing-1080p-full-hd.mkv",
@@ -70161,15 +70155,22 @@
         "display_name": "Line of Duty S02E01 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:51:28.882399+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30654094",
-        "size_bytes": 1252986074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30654094",
+          "size_bytes": 1252986074,
+          "source_bytes_read": 1252986074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34700687",
+        "source_url": "https://sdilej.cz/34700687/line-of-duty-s02e01-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30654094",
-        "size_bytes": 1252986074,
-        "source_bytes_read": 1252986074,
-        "http_status": 201
+        "display_name": "Line of Duty S02E01 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:55:07.574432+00:00"
       }
     },
     "1139:2:2": {
@@ -70252,5 +70253,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:55:06.317155+00:00"
+  "updated_at": "2026-10-31T03:55:07.574446+00:00"
 }
