@@ -85927,12 +85927,6 @@
     },
     "13:10:4": {
       "episode_key": "simpsonovi:s10:e4",
-      "claim": {
-        "worker_id": "6c1d71d61818444c9ff26197c5c95e1b-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:04:44.042727+00:00",
-        "lease_expires_at": "2026-10-31T21:04:44.042738+00:00"
-      },
       "source": {
         "source_id": "27323479",
         "source_url": "https://sdilej.cz/27323479/simpsonovi-s10e04-cz.mkv",
@@ -85957,15 +85951,22 @@
         "display_name": "The Simpsons S10E04 Treehouse of Horror IX 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:04:45.819000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670872",
-        "size_bytes": 528272232
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670872",
+          "size_bytes": 528272232,
+          "source_bytes_read": 528272232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323479",
+        "source_url": "https://sdilej.cz/27323479/simpsonovi-s10e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670872",
-        "size_bytes": 528272232,
-        "source_bytes_read": 528272232,
-        "http_status": 201
+        "display_name": "The Simpsons S10E04 Treehouse of Horror IX 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:05:33.981662+00:00"
       }
     },
     "13:10:5": {
@@ -86044,5 +86045,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:05:32.654951+00:00"
+  "updated_at": "2026-10-31T15:05:33.981675+00:00"
 }
