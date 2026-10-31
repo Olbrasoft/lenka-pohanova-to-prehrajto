@@ -68496,12 +68496,6 @@
     },
     "1127:6:2": {
       "episode_key": "policejní odznak:s6:e2",
-      "claim": {
-        "worker_id": "a42795433f384966a0031291c5a17945-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:03:11.088079+00:00",
-        "lease_expires_at": "2026-10-31T09:03:11.088093+00:00"
-      },
       "source": {
         "source_id": "33817978",
         "source_url": "https://sdilej.cz/33817978/the-shield-s06e02-policejni-odznak-fhd-1080p-cz-cirkev-v-plamenech.mkv",
@@ -68526,15 +68520,22 @@
         "display_name": "The Shield S06E02 Baptism by Fire 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:03:14.599334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653301",
-        "size_bytes": 505905950
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653301",
+          "size_bytes": 505905950,
+          "source_bytes_read": 505905950,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817978",
+        "source_url": "https://sdilej.cz/33817978/the-shield-s06e02-policejni-odznak-fhd-1080p-cz-cirkev-v-plamenech.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653301",
-        "size_bytes": 505905950,
-        "source_bytes_read": 505905950,
-        "http_status": 201
+        "display_name": "The Shield S06E02 Baptism by Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:05:00.882924+00:00"
       }
     },
     "1127:6:3": {
@@ -68580,5 +68581,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:04:57.888998+00:00"
+  "updated_at": "2026-10-31T03:05:00.882943+00:00"
 }
