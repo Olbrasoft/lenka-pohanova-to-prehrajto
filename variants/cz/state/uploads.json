@@ -93274,12 +93274,6 @@
     },
     "13:17:18": {
       "episode_key": "simpsonovi:s17:e18",
-      "claim": {
-        "worker_id": "d7afff28214144cfbf6feba59dceb0f0-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:53:07.354445+00:00",
-        "lease_expires_at": "2026-10-31T22:53:07.354456+00:00"
-      },
       "source": {
         "source_id": "34959907",
         "source_url": "https://sdilej.cz/34959907/simpsonovi-s17e18-cz-dabing-hevc-2005-.mkv",
@@ -93304,15 +93298,22 @@
         "display_name": "The Simpsons S17E18 The Wettest Stories Ever Told 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:53:09.179131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673257",
-        "size_bytes": 166101478
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673257",
+          "size_bytes": 166101478,
+          "source_bytes_read": 166101478,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34959907",
+        "source_url": "https://sdilej.cz/34959907/simpsonovi-s17e18-cz-dabing-hevc-2005-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673257",
-        "size_bytes": 166101478,
-        "source_bytes_read": 166101478,
-        "http_status": 201
+        "display_name": "The Simpsons S17E18 The Wettest Stories Ever Told 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:53:34.628751+00:00"
       }
     },
     "13:17:19": {
@@ -93358,5 +93359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:53:33.179430+00:00"
+  "updated_at": "2026-10-31T16:53:34.628765+00:00"
 }
