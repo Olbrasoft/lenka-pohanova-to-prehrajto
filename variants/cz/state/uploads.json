@@ -76071,12 +76071,6 @@
     },
     "88:2:4": {
       "episode_key": "daredevil:s2:e4",
-      "claim": {
-        "worker_id": "7d2ebdba9f7d4b169f06033e4bf6dd70-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:08:20.507868+00:00",
-        "lease_expires_at": "2026-10-31T17:08:20.507879+00:00"
-      },
       "source": {
         "source_id": "32885681",
         "source_url": "https://sdilej.cz/32885681/daredevil-s02e04-cz-dabing-2160p-ultra-hd.mkv",
@@ -76101,15 +76095,22 @@
         "display_name": "Marvel's Daredevil S02E04 Penny and Dime 4K CZ Dabing",
         "prepared_at": "2026-10-31T11:08:22.228373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664063",
-        "size_bytes": 2862515526
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664063",
+          "size_bytes": 2862515526,
+          "source_bytes_read": 2862515526,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885681",
+        "source_url": "https://sdilej.cz/32885681/daredevil-s02e04-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664063",
-        "size_bytes": 2862515526,
-        "source_bytes_read": 2862515526,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S02E04 Penny and Dime 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T11:18:31.334374+00:00"
       }
     },
     "88:2:5": {
@@ -76162,5 +76163,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:18:27.047431+00:00"
+  "updated_at": "2026-10-31T11:18:31.334392+00:00"
 }
