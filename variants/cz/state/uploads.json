@@ -113207,12 +113207,6 @@
     },
     "104:1:4": {
       "episode_key": "akta x:s1:e4",
-      "claim": {
-        "worker_id": "23380079ab5d45ada6bcef2b705beb4d-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:44:44.805291+00:00",
-        "lease_expires_at": "2026-11-01T05:44:44.805301+00:00"
-      },
       "source": {
         "source_id": "32201074",
         "source_url": "https://sdilej.cz/32201074/akta-x-s01e04-informacni-kanal.mkv",
@@ -113237,15 +113231,22 @@
         "display_name": "The X-Files S01E04 Conduit 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:44:46.766558+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680979",
-        "size_bytes": 952368802
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680979",
+          "size_bytes": 952368802,
+          "source_bytes_read": 952368802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201074",
+        "source_url": "https://sdilej.cz/32201074/akta-x-s01e04-informacni-kanal.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680979",
-        "size_bytes": 952368802,
-        "source_bytes_read": 952368802,
-        "http_status": 201
+        "display_name": "The X-Files S01E04 Conduit 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:47:01.889445+00:00"
       }
     },
     "104:1:5": {
@@ -113379,5 +113380,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:46:57.744252+00:00"
+  "updated_at": "2026-10-31T23:47:01.889464+00:00"
 }
