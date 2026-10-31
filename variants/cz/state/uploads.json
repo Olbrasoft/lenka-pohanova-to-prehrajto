@@ -112113,12 +112113,6 @@
     },
     "76:1:6": {
       "episode_key": "andor:s1:e6",
-      "claim": {
-        "worker_id": "7f3f8955df394dfe91d6850e818b92db-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:27:26.012109+00:00",
-        "lease_expires_at": "2026-11-01T04:27:26.012122+00:00"
-      },
       "source": {
         "source_id": "33692620",
         "source_url": "https://sdilej.cz/33692620/andor-s01e06-oko.mkv",
@@ -112143,15 +112137,22 @@
         "display_name": "Andor S01E06 The Eye 4K CZ Dabing",
         "prepared_at": "2026-10-31T22:27:29.486486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680070",
-        "size_bytes": 2586155426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680070",
+          "size_bytes": 2586155426,
+          "source_bytes_read": 2586155426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33692620",
+        "source_url": "https://sdilej.cz/33692620/andor-s01e06-oko.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680070",
-        "size_bytes": 2586155426,
-        "source_bytes_read": 2586155426,
-        "http_status": 201
+        "display_name": "Andor S01E06 The Eye 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T22:36:09.610823+00:00"
       }
     },
     "76:1:7": {
@@ -112248,5 +112249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:36:06.563201+00:00"
+  "updated_at": "2026-10-31T22:36:09.610842+00:00"
 }
