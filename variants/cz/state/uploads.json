@@ -68239,12 +68239,6 @@
     },
     "1127:5:7": {
       "episode_key": "policejní odznak:s5:e7",
-      "claim": {
-        "worker_id": "a1f72ff742f649c5879edf3792fb3ad5-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:55:00.418223+00:00",
-        "lease_expires_at": "2026-10-31T08:55:00.418235+00:00"
-      },
       "source": {
         "source_id": "33817969",
         "source_url": "https://sdilej.cz/33817969/the-shield-s05e07-policejni-odznak-fhd-1080p-cz-muz-uvnitr.mkv",
@@ -68269,15 +68263,22 @@
         "display_name": "The Shield S05E07 Man Inside 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:55:02.364301+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653170",
-        "size_bytes": 502600395
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653170",
+          "size_bytes": 502600395,
+          "source_bytes_read": 502600395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817969",
+        "source_url": "https://sdilej.cz/33817969/the-shield-s05e07-policejni-odznak-fhd-1080p-cz-muz-uvnitr.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653170",
-        "size_bytes": 502600395,
-        "source_bytes_read": 502600395,
-        "http_status": 201
+        "display_name": "The Shield S05E07 Man Inside 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:56:53.311091+00:00"
       }
     },
     "1127:5:8": {
@@ -68323,5 +68324,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:56:48.055941+00:00"
+  "updated_at": "2026-10-31T02:56:53.311108+00:00"
 }
