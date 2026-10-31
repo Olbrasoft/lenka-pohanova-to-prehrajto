@@ -86373,12 +86373,6 @@
     },
     "13:10:14": {
       "episode_key": "simpsonovi:s10:e14",
-      "claim": {
-        "worker_id": "7a2bb4d10f464075b6b5d24d6068ca1f-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:08:54.127790+00:00",
-        "lease_expires_at": "2026-10-31T21:08:54.127804+00:00"
-      },
       "source": {
         "source_id": "33581274",
         "source_url": "https://sdilej.cz/33581274/simpsonovi-s10e14-mor-na-amora.mkv",
@@ -86403,15 +86397,22 @@
         "display_name": "The Simpsons S10E14 I'm with Cupid 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:08:55.933940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671015",
-        "size_bytes": 523328596
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671015",
+          "size_bytes": 523328596,
+          "source_bytes_read": 523328596,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33581274",
+        "source_url": "https://sdilej.cz/33581274/simpsonovi-s10e14-mor-na-amora.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671015",
-        "size_bytes": 523328596,
-        "source_bytes_read": 523328596,
-        "http_status": 201
+        "display_name": "The Simpsons S10E14 I'm with Cupid 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:09:50.898820+00:00"
       }
     },
     "13:10:15": {
@@ -86457,5 +86458,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:09:48.438217+00:00"
+  "updated_at": "2026-10-31T15:09:50.898833+00:00"
 }
