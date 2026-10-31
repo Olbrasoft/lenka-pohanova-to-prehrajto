@@ -81791,12 +81791,6 @@
     },
     "13:6:10": {
       "episode_key": "simpsonovi:s6:e10",
-      "claim": {
-        "worker_id": "4979ad1063e04a08bfbdffa47e190d5c-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:48:04.946011+00:00",
-        "lease_expires_at": "2026-10-31T19:48:04.946022+00:00"
-      },
       "source": {
         "source_id": "28374989",
         "source_url": "https://sdilej.cz/28374989/simpsonovi-s06e10-dedecek-vs.-sexualni-ochablost.mkv",
@@ -81821,15 +81815,22 @@
         "display_name": "The Simpsons S06E10 Grampa vs. Sexual Inadequacy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:48:07.945163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668929",
-        "size_bytes": 532554867
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668929",
+          "size_bytes": 532554867,
+          "source_bytes_read": 532554867,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28374989",
+        "source_url": "https://sdilej.cz/28374989/simpsonovi-s06e10-dedecek-vs.-sexualni-ochablost.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668929",
-        "size_bytes": 532554867,
-        "source_bytes_read": 532554867,
-        "http_status": 201
+        "display_name": "The Simpsons S06E10 Grampa vs. Sexual Inadequacy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:49:40.726691+00:00"
       }
     },
     "13:6:11": {
@@ -81952,5 +81953,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:49:39.403968+00:00"
+  "updated_at": "2026-10-31T13:49:40.726705+00:00"
 }
