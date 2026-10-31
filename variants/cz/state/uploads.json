@@ -87511,12 +87511,6 @@
     },
     "13:11:17": {
       "episode_key": "simpsonovi:s11:e17",
-      "claim": {
-        "worker_id": "d39843dc8f1a4513b4e3f6e7b1e084c6-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:30:34.080424+00:00",
-        "lease_expires_at": "2026-10-31T21:30:34.080432+00:00"
-      },
       "source": {
         "source_id": "29527917",
         "source_url": "https://sdilej.cz/29527917/the-simpsons-s11e17-nebart-se-budoucnosti.mkv",
@@ -87541,15 +87535,22 @@
         "display_name": "The Simpsons S11E17 Bart to the Future 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:30:35.922191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671555",
-        "size_bytes": 537129002
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671555",
+          "size_bytes": 537129002,
+          "source_bytes_read": 537129002,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29527917",
+        "source_url": "https://sdilej.cz/29527917/the-simpsons-s11e17-nebart-se-budoucnosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671555",
-        "size_bytes": 537129002,
-        "source_bytes_read": 537129002,
-        "http_status": 201
+        "display_name": "The Simpsons S11E17 Bart to the Future 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:32:07.221705+00:00"
       }
     },
     "13:11:18": {
@@ -87632,5 +87633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:32:04.558040+00:00"
+  "updated_at": "2026-10-31T15:32:07.221718+00:00"
 }
