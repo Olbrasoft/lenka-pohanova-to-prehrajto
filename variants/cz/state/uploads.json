@@ -109995,12 +109995,6 @@
     },
     "13:35:8": {
       "episode_key": "simpsonovi:s35:e8",
-      "claim": {
-        "worker_id": "680d864f839c49d3bf4a4b4dd7a23855-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:38:19.411636+00:00",
-        "lease_expires_at": "2026-11-01T03:38:19.411647+00:00"
-      },
       "source": {
         "source_id": "29394675",
         "source_url": "https://sdilej.cz/29394675/simpsonovi-s35e08.mkv",
@@ -110025,15 +110019,22 @@
         "display_name": "The Simpsons S35E08 AE Bonny Romance 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:38:21.333883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679423",
-        "size_bytes": 463182742
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679423",
+          "size_bytes": 463182742,
+          "source_bytes_read": 463182742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29394675",
+        "source_url": "https://sdilej.cz/29394675/simpsonovi-s35e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679423",
-        "size_bytes": 463182742,
-        "source_bytes_read": 463182742,
-        "http_status": 201
+        "display_name": "The Simpsons S35E08 AE Bonny Romance 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:38:57.150470+00:00"
       }
     },
     "13:35:6": {
@@ -110116,5 +110117,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:38:53.976060+00:00"
+  "updated_at": "2026-10-31T21:38:57.150485+00:00"
 }
