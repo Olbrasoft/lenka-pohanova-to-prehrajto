@@ -100433,12 +100433,6 @@
     },
     "13:25:9": {
       "episode_key": "simpsonovi:s25:e9",
-      "claim": {
-        "worker_id": "9656de2230044eeb80a9cf1552b52041-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:01:57.680513+00:00",
-        "lease_expires_at": "2026-11-01T01:01:57.680521+00:00"
-      },
       "source": {
         "source_id": "34974115",
         "source_url": "https://sdilej.cz/34974115/simpsonovi-s25e09-cz-dabing-hevc-2013-.mkv",
@@ -100463,15 +100457,22 @@
         "display_name": "The Simpsons S25E09 Steal This Episode 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:01:59.663481+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675660",
-        "size_bytes": 168906782
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675660",
+          "size_bytes": 168906782,
+          "source_bytes_read": 168906782,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34974115",
+        "source_url": "https://sdilej.cz/34974115/simpsonovi-s25e09-cz-dabing-hevc-2013-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675660",
-        "size_bytes": 168906782,
-        "source_bytes_read": 168906782,
-        "http_status": 201
+        "display_name": "The Simpsons S25E09 Steal This Episode 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:02:25.639333+00:00"
       }
     }
   },
@@ -100480,5 +100481,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:02:22.174607+00:00"
+  "updated_at": "2026-10-31T19:02:25.639350+00:00"
 }
