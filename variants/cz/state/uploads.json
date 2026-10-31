@@ -100880,12 +100880,6 @@
     },
     "13:25:19": {
       "episode_key": "simpsonovi:s25:e19",
-      "claim": {
-        "worker_id": "6706fb73ea7c40d4817f141071b45c31-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:06:10.162610+00:00",
-        "lease_expires_at": "2026-11-01T01:06:10.162621+00:00"
-      },
       "source": {
         "source_id": "32764659",
         "source_url": "https://sdilej.cz/32764659/simpsonovi-s25e19-cz-dabing.mkv",
@@ -100910,15 +100904,22 @@
         "display_name": "The Simpsons S25E19 What to Expect When Bart's Expecting 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:06:12.244189+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675765",
-        "size_bytes": 494468805
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675765",
+          "size_bytes": 494468805,
+          "source_bytes_read": 494468805,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764659",
+        "source_url": "https://sdilej.cz/32764659/simpsonovi-s25e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675765",
-        "size_bytes": 494468805,
-        "source_bytes_read": 494468805,
-        "http_status": 201
+        "display_name": "The Simpsons S25E19 What to Expect When Bart's Expecting 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:07:20.230839+00:00"
       }
     },
     "13:25:20": {
@@ -100964,5 +100965,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:07:16.855602+00:00"
+  "updated_at": "2026-10-31T19:07:20.230857+00:00"
 }
