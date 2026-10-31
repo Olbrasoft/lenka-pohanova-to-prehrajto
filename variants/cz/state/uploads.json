@@ -94111,12 +94111,6 @@
     },
     "13:18:15": {
       "episode_key": "simpsonovi:s18:e15",
-      "claim": {
-        "worker_id": "12be26c8d7bc4a16801398d3638855db-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:01:39.875646+00:00",
-        "lease_expires_at": "2026-10-31T23:01:39.875655+00:00"
-      },
       "source": {
         "source_id": "28379517",
         "source_url": "https://sdilej.cz/28379517/simpsonovi-s18e15-romous-a-julizna.mkv",
@@ -94141,15 +94135,22 @@
         "display_name": "The Simpsons S18E15 Rome-Old and Juli-Eh 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:01:45.119986+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673433",
-        "size_bytes": 487415236
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673433",
+          "size_bytes": 487415236,
+          "source_bytes_read": 487415236,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379517",
+        "source_url": "https://sdilej.cz/28379517/simpsonovi-s18e15-romous-a-julizna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673433",
-        "size_bytes": 487415236,
-        "source_bytes_read": 487415236,
-        "http_status": 201
+        "display_name": "The Simpsons S18E15 Rome-Old and Juli-Eh 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:02:30.140260+00:00"
       }
     },
     "13:18:16": {
@@ -94232,5 +94233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:02:26.911646+00:00"
+  "updated_at": "2026-10-31T17:02:30.140273+00:00"
 }
