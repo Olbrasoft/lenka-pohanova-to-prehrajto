@@ -68935,12 +68935,6 @@
     },
     "1127:7:2": {
       "episode_key": "policejní odznak:s7:e2",
-      "claim": {
-        "worker_id": "5523ff8e0c5746aebbb9b8cbf57213f4-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:10:22.078368+00:00",
-        "lease_expires_at": "2026-10-31T09:10:22.078386+00:00"
-      },
       "source": {
         "source_id": "33818000",
         "source_url": "https://sdilej.cz/33818000/the-shield-s07e02-policejni-odznak-fhd-1080p-cz-praskac.mkv",
@@ -68965,15 +68959,22 @@
         "display_name": "The Shield S07E02 Snitch 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:10:24.063077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653422",
-        "size_bytes": 486337652
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653422",
+          "size_bytes": 486337652,
+          "source_bytes_read": 486337652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818000",
+        "source_url": "https://sdilej.cz/33818000/the-shield-s07e02-policejni-odznak-fhd-1080p-cz-praskac.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653422",
-        "size_bytes": 486337652,
-        "source_bytes_read": 486337652,
-        "http_status": 201
+        "display_name": "The Shield S07E02 Snitch 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:12:07.744483+00:00"
       }
     }
   },
@@ -68982,5 +68983,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:12:06.323601+00:00"
+  "updated_at": "2026-10-31T03:12:07.744501+00:00"
 }
