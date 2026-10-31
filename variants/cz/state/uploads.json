@@ -82319,12 +82319,6 @@
     },
     "13:6:22": {
       "episode_key": "simpsonovi:s6:e22",
-      "claim": {
-        "worker_id": "6b9fcaeae15043ffadece4db74762398-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:56:52.532197+00:00",
-        "lease_expires_at": "2026-10-31T19:56:52.532210+00:00"
-      },
       "source": {
         "source_id": "28375177",
         "source_url": "https://sdilej.cz/28375177/simpsonovi-s06e22-kolem-springfieldu.mkv",
@@ -82349,15 +82343,22 @@
         "display_name": "The Simpsons S06E22 Round Springfield 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:56:55.408533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669071",
-        "size_bytes": 530021162
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669071",
+          "size_bytes": 530021162,
+          "source_bytes_read": 530021162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28375177",
+        "source_url": "https://sdilej.cz/28375177/simpsonovi-s06e22-kolem-springfieldu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669071",
-        "size_bytes": 530021162,
-        "source_bytes_read": 530021162,
-        "http_status": 201
+        "display_name": "The Simpsons S06E22 Round Springfield 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:58:18.029697+00:00"
       }
     },
     "13:6:23": {
@@ -82440,5 +82441,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:58:15.686459+00:00"
+  "updated_at": "2026-10-31T13:58:18.029716+00:00"
 }
