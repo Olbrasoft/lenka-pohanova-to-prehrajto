@@ -65635,12 +65635,6 @@
     },
     "1127:1:1": {
       "episode_key": "policejní odznak:s1:e1",
-      "claim": {
-        "worker_id": "ada54eade17d4dd1b6ac130585bc2264-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:36:33.868108+00:00",
-        "lease_expires_at": "2026-10-31T07:36:33.868121+00:00"
-      },
       "source": {
         "source_id": "33817838",
         "source_url": "https://sdilej.cz/33817838/the-shield-s01e01-policejni-odznak-fhd-1080p-cz-pilot.mkv",
@@ -65665,15 +65659,22 @@
         "display_name": "The Shield S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-10-31T01:36:35.952952+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651290",
-        "size_bytes": 502142420
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651290",
+          "size_bytes": 502142420,
+          "source_bytes_read": 502142420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817838",
+        "source_url": "https://sdilej.cz/33817838/the-shield-s01e01-policejni-odznak-fhd-1080p-cz-pilot.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651290",
-        "size_bytes": 502142420,
-        "source_bytes_read": 502142420,
-        "http_status": 201
+        "display_name": "The Shield S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T01:38:46.258109+00:00"
       }
     }
   },
@@ -65682,5 +65683,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:38:42.882917+00:00"
+  "updated_at": "2026-10-31T01:38:46.258123+00:00"
 }
