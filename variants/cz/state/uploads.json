@@ -91904,12 +91904,6 @@
     },
     "13:16:8": {
       "episode_key": "simpsonovi:s16:e8",
-      "claim": {
-        "worker_id": "b6d634b9c79f420981bfaa1c94559772-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:34:19.924747+00:00",
-        "lease_expires_at": "2026-10-31T22:34:19.924756+00:00"
-      },
       "source": {
         "source_id": "28378161",
         "source_url": "https://sdilej.cz/28378161/simpsonovi-s16e08-homeruv-a-neduv-posledni-vykop.mkv",
@@ -91934,15 +91928,22 @@
         "display_name": "The Simpsons S16E08 Homer and Ned's Hail Mary Pass 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:34:21.756550+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672897",
-        "size_bytes": 504882121
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672897",
+          "size_bytes": 504882121,
+          "source_bytes_read": 504882121,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378161",
+        "source_url": "https://sdilej.cz/28378161/simpsonovi-s16e08-homeruv-a-neduv-posledni-vykop.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672897",
-        "size_bytes": 504882121,
-        "source_bytes_read": 504882121,
-        "http_status": 201
+        "display_name": "The Simpsons S16E08 Homer and Ned's Hail Mary Pass 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:35:20.793465+00:00"
       }
     },
     "13:16:9": {
@@ -91988,5 +91989,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:35:17.646594+00:00"
+  "updated_at": "2026-10-31T16:35:20.793478+00:00"
 }
