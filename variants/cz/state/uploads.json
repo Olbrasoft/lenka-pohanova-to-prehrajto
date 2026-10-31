@@ -84474,12 +84474,6 @@
     },
     "13:8:21": {
       "episode_key": "simpsonovi:s8:e21",
-      "claim": {
-        "worker_id": "5821b8b6ec28475a82dce6737829b26d-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:36:43.738295+00:00",
-        "lease_expires_at": "2026-10-31T20:36:43.738306+00:00"
-      },
       "source": {
         "source_id": "27322315",
         "source_url": "https://sdilej.cz/27322315/simpsonovi-cz-s08e21.mkv",
@@ -84504,15 +84498,22 @@
         "display_name": "The Simpsons S08E21 The Old Man and the Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:36:45.612059+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669850",
-        "size_bytes": 521386966
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669850",
+          "size_bytes": 521386966,
+          "source_bytes_read": 521386966,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322315",
+        "source_url": "https://sdilej.cz/27322315/simpsonovi-cz-s08e21.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669850",
-        "size_bytes": 521386966,
-        "source_bytes_read": 521386966,
-        "http_status": 201
+        "display_name": "The Simpsons S08E21 The Old Man and the Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:38:40.807387+00:00"
       }
     },
     "13:8:22": {
@@ -84558,5 +84559,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:38:39.443797+00:00"
+  "updated_at": "2026-10-31T14:38:40.807401+00:00"
 }
