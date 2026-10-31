@@ -75543,12 +75543,6 @@
     },
     "49:3:8": {
       "episode_key": "mandalorian:s3:e8",
-      "claim": {
-        "worker_id": "ef58dae57a11410da74bb58db9738c75-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:16:05.103887+00:00",
-        "lease_expires_at": "2026-10-31T16:16:05.103897+00:00"
-      },
       "source": {
         "source_id": "32668012",
         "source_url": "https://sdilej.cz/32668012/the-mandalorian-s03e08-cz-dabing.mkv",
@@ -75573,15 +75567,22 @@
         "display_name": "The Mandalorian S03E08 Chapter 24: The Return 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:16:07.050531+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663355",
-        "size_bytes": 2024840457
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663355",
+          "size_bytes": 2024840457,
+          "source_bytes_read": 2024840457,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32668012",
+        "source_url": "https://sdilej.cz/32668012/the-mandalorian-s03e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663355",
-        "size_bytes": 2024840457,
-        "source_bytes_read": 2024840457,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E08 Chapter 24: The Return 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:22:19.499745+00:00"
       }
     },
     "88:1:4": {
@@ -75708,5 +75709,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:22:14.721546+00:00"
+  "updated_at": "2026-10-31T10:22:19.499757+00:00"
 }
