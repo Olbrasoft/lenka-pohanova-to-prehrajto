@@ -87196,12 +87196,6 @@
     },
     "13:11:10": {
       "episode_key": "simpsonovi:s11:e10",
-      "claim": {
-        "worker_id": "62097f5b45d7416d86b1ed6e4b570010-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:28:19.095455+00:00",
-        "lease_expires_at": "2026-10-31T21:28:19.095463+00:00"
-      },
       "source": {
         "source_id": "34941492",
         "source_url": "https://sdilej.cz/34941492/simpsonovi-s11e10-cz-hevc-1999-.mkv",
@@ -87226,15 +87220,22 @@
         "display_name": "The Simpsons S11E10 Little Big Mom 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:28:23.296361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671502",
-        "size_bytes": 173444258
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671502",
+          "size_bytes": 173444258,
+          "source_bytes_read": 173444258,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34941492",
+        "source_url": "https://sdilej.cz/34941492/simpsonovi-s11e10-cz-hevc-1999-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671502",
-        "size_bytes": 173444258,
-        "source_bytes_read": 173444258,
-        "http_status": 201
+        "display_name": "The Simpsons S11E10 Little Big Mom 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:28:49.403554+00:00"
       }
     },
     "13:11:11": {
@@ -87280,5 +87281,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:28:45.269901+00:00"
+  "updated_at": "2026-10-31T15:28:49.403567+00:00"
 }
