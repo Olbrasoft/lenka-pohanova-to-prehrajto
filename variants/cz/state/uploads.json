@@ -103746,12 +103746,6 @@
     },
     "13:28:18": {
       "episode_key": "simpsonovi:s28:e18",
-      "claim": {
-        "worker_id": "7dface9ddef14df68dd1a34ea750ce4c-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:59:58.214707+00:00",
-        "lease_expires_at": "2026-11-01T01:59:58.214716+00:00"
-      },
       "source": {
         "source_id": "34976196",
         "source_url": "https://sdilej.cz/34976196/simpsonovi-s28e18.mkv",
@@ -103776,15 +103770,22 @@
         "display_name": "The Simpsons S28E18 A Father's Watch 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:00:00.281275+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676887",
-        "size_bytes": 163080100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676887",
+          "size_bytes": 163080100,
+          "source_bytes_read": 163080100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34976196",
+        "source_url": "https://sdilej.cz/34976196/simpsonovi-s28e18.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676887",
-        "size_bytes": 163080100,
-        "source_bytes_read": 163080100,
-        "http_status": 201
+        "display_name": "The Simpsons S28E18 A Father's Watch 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:00:31.499028+00:00"
       }
     },
     "13:28:19": {
@@ -103830,5 +103831,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:00:29.959657+00:00"
+  "updated_at": "2026-10-31T20:00:31.499044+00:00"
 }
