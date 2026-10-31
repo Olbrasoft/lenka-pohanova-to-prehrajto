@@ -86279,12 +86279,6 @@
     },
     "13:10:12": {
       "episode_key": "simpsonovi:s10:e12",
-      "claim": {
-        "worker_id": "66d7327ee5e2432fb48a77cee0ac86b4-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:08:21.440990+00:00",
-        "lease_expires_at": "2026-10-31T21:08:21.441000+00:00"
-      },
       "source": {
         "source_id": "27323661",
         "source_url": "https://sdilej.cz/27323661/simpsonovi-s10e12-cz.mkv",
@@ -86309,15 +86303,22 @@
         "display_name": "The Simpsons S10E12 Sunday, Cruddy Sunday 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:08:23.272402+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670993",
-        "size_bytes": 542144337
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670993",
+          "size_bytes": 542144337,
+          "source_bytes_read": 542144337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323661",
+        "source_url": "https://sdilej.cz/27323661/simpsonovi-s10e12-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670993",
-        "size_bytes": 542144337,
-        "source_bytes_read": 542144337,
-        "http_status": 201
+        "display_name": "The Simpsons S10E12 Sunday, Cruddy Sunday 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:09:10.697212+00:00"
       }
     },
     "13:10:13": {
@@ -86400,5 +86401,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:09:07.479208+00:00"
+  "updated_at": "2026-10-31T15:09:10.697224+00:00"
 }
