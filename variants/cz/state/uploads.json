@@ -80075,12 +80075,6 @@
     },
     "13:4:14": {
       "episode_key": "simpsonovi:s4:e14",
-      "claim": {
-        "worker_id": "9519d90c05e74c5f9618413a4277f341-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:18:09.599591+00:00",
-        "lease_expires_at": "2026-10-31T19:18:09.599603+00:00"
-      },
       "source": {
         "source_id": "28374292",
         "source_url": "https://sdilej.cz/28374292/simpsonovi-s04e14-velky-bratr.mkv",
@@ -80105,15 +80099,22 @@
         "display_name": "The Simpsons S04E14 Brother from the Same Planet 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:18:13.123923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30666238",
-        "size_bytes": 534091570
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30666238",
+          "size_bytes": 534091570,
+          "source_bytes_read": 534091570,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28374292",
+        "source_url": "https://sdilej.cz/28374292/simpsonovi-s04e14-velky-bratr.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30666238",
-        "size_bytes": 534091570,
-        "source_bytes_read": 534091570,
-        "http_status": 201
+        "display_name": "The Simpsons S04E14 Brother from the Same Planet 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:19:47.961194+00:00"
       }
     },
     "13:4:15": {
@@ -80196,5 +80197,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:19:44.395129+00:00"
+  "updated_at": "2026-10-31T13:19:47.961211+00:00"
 }
