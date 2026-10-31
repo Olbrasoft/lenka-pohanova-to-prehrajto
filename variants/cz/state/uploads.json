@@ -112547,12 +112547,6 @@
     },
     "76:2:4": {
       "episode_key": "andor:s2:e4",
-      "claim": {
-        "worker_id": "d016f28cd1854064b411c4210b290d5f-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:59:02.219870+00:00",
-        "lease_expires_at": "2026-11-01T04:59:02.219882+00:00"
-      },
       "source": {
         "source_id": "33168535",
         "source_url": "https://sdilej.cz/33168535/andor-s02e04-cz-en-h264-ezio.mkv",
@@ -112577,15 +112571,22 @@
         "display_name": "Andor S02E04 Ever Been to Ghorman? 1080p CZ Dabing",
         "prepared_at": "2026-10-31T22:59:05.329270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680465",
-        "size_bytes": 1259043365
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680465",
+          "size_bytes": 1259043365,
+          "source_bytes_read": 1259043365,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33168535",
+        "source_url": "https://sdilej.cz/33168535/andor-s02e04-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680465",
-        "size_bytes": 1259043365,
-        "source_bytes_read": 1259043365,
-        "http_status": 201
+        "display_name": "Andor S02E04 Ever Been to Ghorman? 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:02:37.794918+00:00"
       }
     },
     "76:2:5": {
@@ -112668,5 +112669,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:02:33.237289+00:00"
+  "updated_at": "2026-10-31T23:02:37.794936+00:00"
 }
