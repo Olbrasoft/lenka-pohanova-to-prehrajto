@@ -99604,12 +99604,6 @@
     },
     "13:24:10": {
       "episode_key": "simpsonovi:s24:e10",
-      "claim": {
-        "worker_id": "5f436de0c38f477cabdce4b90f7500e1-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:45:30.369001+00:00",
-        "lease_expires_at": "2026-11-01T00:45:30.369011+00:00"
-      },
       "source": {
         "source_id": "34973961",
         "source_url": "https://sdilej.cz/34973961/simpsonovi-s24e10-cz-dabing-hevc-2012-.mkv",
@@ -99634,15 +99628,22 @@
         "display_name": "The Simpsons S24E10 A Test Before Trying 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:45:34.800019+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675389",
-        "size_bytes": 160800856
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675389",
+          "size_bytes": 160800856,
+          "source_bytes_read": 160800856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34973961",
+        "source_url": "https://sdilej.cz/34973961/simpsonovi-s24e10-cz-dabing-hevc-2012-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675389",
-        "size_bytes": 160800856,
-        "source_bytes_read": 160800856,
-        "http_status": 201
+        "display_name": "The Simpsons S24E10 A Test Before Trying 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:46:01.474441+00:00"
       }
     },
     "13:24:11": {
@@ -99688,5 +99689,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:45:57.949651+00:00"
+  "updated_at": "2026-10-31T18:46:01.474459+00:00"
 }
