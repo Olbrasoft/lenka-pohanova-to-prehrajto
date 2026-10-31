@@ -83287,12 +83287,6 @@
     },
     "13:7:19": {
       "episode_key": "simpsonovi:s7:e19",
-      "claim": {
-        "worker_id": "a9bf165f84114a02b28122f5568bf4d0-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:18:39.712228+00:00",
-        "lease_expires_at": "2026-10-31T20:18:39.712239+00:00"
-      },
       "source": {
         "source_id": "27321984",
         "source_url": "https://sdilej.cz/27321984/simpsonovi-cz-s07e19.mkv",
@@ -83317,15 +83311,22 @@
         "display_name": "The Simpsons S07E19 A Fish Called Selma 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:18:41.385806+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669434",
-        "size_bytes": 534608214
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669434",
+          "size_bytes": 534608214,
+          "source_bytes_read": 534608214,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27321984",
+        "source_url": "https://sdilej.cz/27321984/simpsonovi-cz-s07e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669434",
-        "size_bytes": 534608214,
-        "source_bytes_read": 534608214,
-        "http_status": 201
+        "display_name": "The Simpsons S07E19 A Fish Called Selma 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:20:11.842021+00:00"
       }
     },
     "13:7:20": {
@@ -83408,5 +83409,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:20:09.493895+00:00"
+  "updated_at": "2026-10-31T14:20:11.842040+00:00"
 }
