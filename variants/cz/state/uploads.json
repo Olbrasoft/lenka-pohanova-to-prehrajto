@@ -112767,12 +112767,6 @@
     },
     "76:2:10": {
       "episode_key": "andor:s2:e10",
-      "claim": {
-        "worker_id": "05488564e691439799c4bee41386c2be-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:11:26.847013+00:00",
-        "lease_expires_at": "2026-11-01T05:11:26.847024+00:00"
-      },
       "source": {
         "source_id": "33172220",
         "source_url": "https://sdilej.cz/33172220/andor-s02e10-cz-en-h264-ezio.mkv",
@@ -112797,15 +112791,22 @@
         "display_name": "Andor S02E10 Make It Stop 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:11:31.161442+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680590",
-        "size_bytes": 1145253571
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680590",
+          "size_bytes": 1145253571,
+          "source_bytes_read": 1145253571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33172220",
+        "source_url": "https://sdilej.cz/33172220/andor-s02e10-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680590",
-        "size_bytes": 1145253571,
-        "source_bytes_read": 1145253571,
-        "http_status": 201
+        "display_name": "Andor S02E10 Make It Stop 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:17:10.075731+00:00"
       }
     },
     "76:2:9": {
@@ -112888,5 +112889,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:17:05.798194+00:00"
+  "updated_at": "2026-10-31T23:17:10.075750+00:00"
 }
