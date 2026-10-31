@@ -73437,12 +73437,6 @@
     },
     "21:3:1": {
       "episode_key": "stranger things:s3:e1",
-      "claim": {
-        "worker_id": "67fa11215efc4f4ebcf7a02399eadeb7-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:15:51.033919+00:00",
-        "lease_expires_at": "2026-10-31T12:15:51.033930+00:00"
-      },
       "source": {
         "source_id": "29049360",
         "source_url": "https://sdilej.cz/29049360/stranger-things-s03e01-cz.mkv",
@@ -73467,15 +73461,22 @@
         "display_name": "Stranger Things S03E01 Chapter One: Suzie, Do You Copy? 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:15:52.792251+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656914",
-        "size_bytes": 6081974659
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656914",
+          "size_bytes": 6081974659,
+          "source_bytes_read": 6081974659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29049360",
+        "source_url": "https://sdilej.cz/29049360/stranger-things-s03e01-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656914",
-        "size_bytes": 6081974659,
-        "source_bytes_read": 6081974659,
-        "http_status": 201
+        "display_name": "Stranger Things S03E01 Chapter One: Suzie, Do You Copy? 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:32:25.440313+00:00"
       }
     },
     "21:3:2": {
@@ -73565,5 +73566,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:32:22.966866+00:00"
+  "updated_at": "2026-10-31T06:32:25.440332+00:00"
 }
