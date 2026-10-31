@@ -68760,12 +68760,6 @@
     },
     "1127:6:8": {
       "episode_key": "policejní odznak:s6:e8",
-      "claim": {
-        "worker_id": "2482f4f82f044adc8e26db761c870988-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:08:06.128131+00:00",
-        "lease_expires_at": "2026-10-31T09:08:06.128143+00:00"
-      },
       "source": {
         "source_id": "33817992",
         "source_url": "https://sdilej.cz/33817992/the-shield-s06e08-policejni-odznak-fhd-1080p-cz-vypocet-hnevu.mkv",
@@ -68790,15 +68784,22 @@
         "display_name": "The Shield S06E08 The Math of the Wrath 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:08:11.187975+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653386",
-        "size_bytes": 503017648
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653386",
+          "size_bytes": 503017648,
+          "source_bytes_read": 503017648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817992",
+        "source_url": "https://sdilej.cz/33817992/the-shield-s06e08-policejni-odznak-fhd-1080p-cz-vypocet-hnevu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653386",
-        "size_bytes": 503017648,
-        "source_bytes_read": 503017648,
-        "http_status": 201
+        "display_name": "The Shield S06E08 The Math of the Wrath 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:09:46.828818+00:00"
       }
     },
     "1127:6:9": {
@@ -68850,5 +68851,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:09:42.516897+00:00"
+  "updated_at": "2026-10-31T03:09:46.828839+00:00"
 }
