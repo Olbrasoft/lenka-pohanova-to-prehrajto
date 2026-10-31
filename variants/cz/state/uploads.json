@@ -80515,12 +80515,6 @@
     },
     "13:5:2": {
       "episode_key": "simpsonovi:s5:e2",
-      "claim": {
-        "worker_id": "f529d55cbc73434082f0261e7f046b94-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:25:55.099289+00:00",
-        "lease_expires_at": "2026-10-31T19:25:55.099301+00:00"
-      },
       "source": {
         "source_id": "27311070",
         "source_url": "https://sdilej.cz/27311070/simpsonovi-cz-s05e02.mkv",
@@ -80545,15 +80539,22 @@
         "display_name": "The Simpsons S05E02 Cape Feare 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:25:56.840422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30667107",
-        "size_bytes": 530281033
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30667107",
+          "size_bytes": 530281033,
+          "source_bytes_read": 530281033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311070",
+        "source_url": "https://sdilej.cz/27311070/simpsonovi-cz-s05e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30667107",
-        "size_bytes": 530281033,
-        "source_bytes_read": 530281033,
-        "http_status": 201
+        "display_name": "The Simpsons S05E02 Cape Feare 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:27:04.523778+00:00"
       }
     },
     "13:5:3": {
@@ -80632,5 +80633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:27:02.212587+00:00"
+  "updated_at": "2026-10-31T13:27:04.523804+00:00"
 }
