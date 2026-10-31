@@ -92043,12 +92043,6 @@
     },
     "13:16:11": {
       "episode_key": "simpsonovi:s16:e11",
-      "claim": {
-        "worker_id": "82f44ea7bcb74e7fa8e84e7e17467769-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:35:47.265556+00:00",
-        "lease_expires_at": "2026-10-31T22:35:47.265567+00:00"
-      },
       "source": {
         "source_id": "28378205",
         "source_url": "https://sdilej.cz/28378205/simpsonovi-s16e11-za-jasneho-dne-neuvidim-svou-sestru.mkv",
@@ -92073,15 +92067,22 @@
         "display_name": "The Simpsons S16E11 On a Clear Day I Can't See My Sister 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:35:50.447886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672915",
-        "size_bytes": 506308775
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672915",
+          "size_bytes": 506308775,
+          "source_bytes_read": 506308775,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378205",
+        "source_url": "https://sdilej.cz/28378205/simpsonovi-s16e11-za-jasneho-dne-neuvidim-svou-sestru.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672915",
-        "size_bytes": 506308775,
-        "source_bytes_read": 506308775,
-        "http_status": 201
+        "display_name": "The Simpsons S16E11 On a Clear Day I Can't See My Sister 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:36:38.071185+00:00"
       }
     },
     "13:16:12": {
@@ -92164,5 +92165,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:36:35.076568+00:00"
+  "updated_at": "2026-10-31T16:36:38.071199+00:00"
 }
