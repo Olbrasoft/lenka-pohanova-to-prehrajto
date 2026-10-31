@@ -66655,12 +66655,6 @@
     },
     "1127:2:12": {
       "episode_key": "policejní odznak:s2:e12",
-      "claim": {
-        "worker_id": "767785936f3842ef9eef4872821c6967-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:05:07.497125+00:00",
-        "lease_expires_at": "2026-10-31T08:05:07.497134+00:00"
-      },
       "source": {
         "source_id": "33817890",
         "source_url": "https://sdilej.cz/33817890/the-shield-s02e12-policejni-odznak-fhd-1080p-cz-kriticky-bod.mkv",
@@ -66685,15 +66679,22 @@
         "display_name": "The Shield S02E12 Breakpoint 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:05:11.029298+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652009",
-        "size_bytes": 488755208
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652009",
+          "size_bytes": 488755208,
+          "source_bytes_read": 488755208,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817890",
+        "source_url": "https://sdilej.cz/33817890/the-shield-s02e12-policejni-odznak-fhd-1080p-cz-kriticky-bod.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652009",
-        "size_bytes": 488755208,
-        "source_bytes_read": 488755208,
-        "http_status": 201
+        "display_name": "The Shield S02E12 Breakpoint 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:07:27.097484+00:00"
       }
     },
     "1127:2:13": {
@@ -66776,5 +66777,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:07:22.802255+00:00"
+  "updated_at": "2026-10-31T02:07:27.097505+00:00"
 }
