@@ -86411,12 +86411,6 @@
     },
     "13:10:15": {
       "episode_key": "simpsonovi:s10:e15",
-      "claim": {
-        "worker_id": "bf19790bb4414589b59814ecccca8c51-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:09:26.562917+00:00",
-        "lease_expires_at": "2026-10-31T21:09:26.562927+00:00"
-      },
       "source": {
         "source_id": "27323725",
         "source_url": "https://sdilej.cz/27323725/simpsonovi-s10e15-cz.mkv",
@@ -86441,15 +86435,22 @@
         "display_name": "The Simpsons S10E15 Marge Simpson in: 'Screaming Yellow Honkers' 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:09:28.338254+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671033",
-        "size_bytes": 528120117
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671033",
+          "size_bytes": 528120117,
+          "source_bytes_read": 528120117,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323725",
+        "source_url": "https://sdilej.cz/27323725/simpsonovi-s10e15-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671033",
-        "size_bytes": 528120117,
-        "source_bytes_read": 528120117,
-        "http_status": 201
+        "display_name": "The Simpsons S10E15 Marge Simpson in: 'Screaming Yellow Honkers' 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:10:57.253216+00:00"
       }
     }
   },
@@ -86458,5 +86459,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:10:53.119723+00:00"
+  "updated_at": "2026-10-31T15:10:57.253226+00:00"
 }
