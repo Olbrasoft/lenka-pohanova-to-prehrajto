@@ -89535,12 +89535,6 @@
     },
     "13:13:20": {
       "episode_key": "simpsonovi:s13:e20",
-      "claim": {
-        "worker_id": "87eae7b2d344474ebd6e55bab06015ba-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:54:31.775641+00:00",
-        "lease_expires_at": "2026-10-31T21:54:31.775650+00:00"
-      },
       "source": {
         "source_id": "33584968",
         "source_url": "https://sdilej.cz/33584968/simpsonovi-s13e20-mala-vysokoskolacka.mkv",
@@ -89565,15 +89559,22 @@
         "display_name": "The Simpsons S13E20 Little Girl in the Big Ten 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:54:34.394745+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672095",
-        "size_bytes": 509941274
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672095",
+          "size_bytes": 509941274,
+          "source_bytes_read": 509941274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33584968",
+        "source_url": "https://sdilej.cz/33584968/simpsonovi-s13e20-mala-vysokoskolacka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672095",
-        "size_bytes": 509941274,
-        "source_bytes_read": 509941274,
-        "http_status": 201
+        "display_name": "The Simpsons S13E20 Little Girl in the Big Ten 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:56:17.008403+00:00"
       }
     },
     "13:13:21": {
@@ -89706,5 +89707,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:56:13.846236+00:00"
+  "updated_at": "2026-10-31T15:56:17.008413+00:00"
 }
