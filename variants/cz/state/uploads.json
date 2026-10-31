@@ -79415,12 +79415,6 @@
     },
     "13:3:23": {
       "episode_key": "simpsonovi:s3:e23",
-      "claim": {
-        "worker_id": "df5f6f73e0c04a309d21a39253c82345-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:02:41.632291+00:00",
-        "lease_expires_at": "2026-10-31T19:02:41.632302+00:00"
-      },
       "source": {
         "source_id": "27310596",
         "source_url": "https://sdilej.cz/27310596/simpsonovi-cz-s03e23.mkv",
@@ -79445,15 +79439,22 @@
         "display_name": "The Simpsons S03E23 Bart's Friend Falls in Love 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:02:45.845668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665922",
-        "size_bytes": 547326655
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665922",
+          "size_bytes": 547326655,
+          "source_bytes_read": 547326655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310596",
+        "source_url": "https://sdilej.cz/27310596/simpsonovi-cz-s03e23.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665922",
-        "size_bytes": 547326655,
-        "source_bytes_read": 547326655,
-        "http_status": 201
+        "display_name": "The Simpsons S03E23 Bart's Friend Falls in Love 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:04:01.025724+00:00"
       }
     },
     "13:4:1": {
@@ -79542,5 +79543,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:03:58.563451+00:00"
+  "updated_at": "2026-10-31T13:04:01.025742+00:00"
 }
