@@ -105205,12 +105205,6 @@
     },
     "13:30:8": {
       "episode_key": "simpsonovi:s30:e8",
-      "claim": {
-        "worker_id": "50dc383356224f77a28de26766473d10-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:22:27.170484+00:00",
-        "lease_expires_at": "2026-11-01T02:22:27.170494+00:00"
-      },
       "source": {
         "source_id": "32766361",
         "source_url": "https://sdilej.cz/32766361/simpsonovi-s30e08-cz-dabing.mkv",
@@ -105235,15 +105229,22 @@
         "display_name": "The Simpsons S30E08 Krusty the Clown 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:22:32.158647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677515",
-        "size_bytes": 522198135
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677515",
+          "size_bytes": 522198135,
+          "source_bytes_read": 522198135,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766361",
+        "source_url": "https://sdilej.cz/32766361/simpsonovi-s30e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677515",
-        "size_bytes": 522198135,
-        "source_bytes_read": 522198135,
-        "http_status": 201
+        "display_name": "The Simpsons S30E08 Krusty the Clown 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:23:38.832090+00:00"
       }
     },
     "13:30:9": {
@@ -105339,5 +105340,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:23:37.153976+00:00"
+  "updated_at": "2026-10-31T20:23:38.832106+00:00"
 }
