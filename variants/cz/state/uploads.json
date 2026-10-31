@@ -78886,12 +78886,6 @@
     },
     "13:3:11": {
       "episode_key": "simpsonovi:s3:e11",
-      "claim": {
-        "worker_id": "06130d8f68014a1bb8bcd41571f85568-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:53:43.948803+00:00",
-        "lease_expires_at": "2026-10-31T18:53:43.948813+00:00"
-      },
       "source": {
         "source_id": "27310376",
         "source_url": "https://sdilej.cz/27310376/simpsonovi-cz-s03e11.mkv",
@@ -78916,15 +78910,22 @@
         "display_name": "The Simpsons S03E11 Burns Verkaufen der Kraftwerk 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:53:46.622615+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665804",
-        "size_bytes": 546436094
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665804",
+          "size_bytes": 546436094,
+          "source_bytes_read": 546436094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310376",
+        "source_url": "https://sdilej.cz/27310376/simpsonovi-cz-s03e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665804",
-        "size_bytes": 546436094,
-        "source_bytes_read": 546436094,
-        "http_status": 201
+        "display_name": "The Simpsons S03E11 Burns Verkaufen der Kraftwerk 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:55:26.999968+00:00"
       }
     },
     "13:3:12": {
@@ -78970,5 +78971,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:55:24.754755+00:00"
+  "updated_at": "2026-10-31T12:55:26.999985+00:00"
 }
