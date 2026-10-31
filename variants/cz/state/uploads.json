@@ -92879,12 +92879,6 @@
     },
     "13:17:9": {
       "episode_key": "simpsonovi:s17:e9",
-      "claim": {
-        "worker_id": "6325b4710b6f4e85ac870fce8bc4dabe-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:50:09.768898+00:00",
-        "lease_expires_at": "2026-10-31T22:50:09.768908+00:00"
-      },
       "source": {
         "source_id": "28378799",
         "source_url": "https://sdilej.cz/28378799/simpsonovi-s17e09-simpsonovske-vanocni-skazky.mkv",
@@ -92909,15 +92903,22 @@
         "display_name": "The Simpsons S17E09 Simpsons Christmas Stories 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:50:13.957905+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673194",
-        "size_bytes": 492916278
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673194",
+          "size_bytes": 492916278,
+          "source_bytes_read": 492916278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378799",
+        "source_url": "https://sdilej.cz/28378799/simpsonovi-s17e09-simpsonovske-vanocni-skazky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673194",
-        "size_bytes": 492916278,
-        "source_bytes_read": 492916278,
-        "http_status": 201
+        "display_name": "The Simpsons S17E09 Simpsons Christmas Stories 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:51:09.638539+00:00"
       }
     },
     "13:17:10": {
@@ -93000,5 +93001,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:51:06.457632+00:00"
+  "updated_at": "2026-10-31T16:51:09.638552+00:00"
 }
