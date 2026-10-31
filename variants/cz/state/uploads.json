@@ -103923,12 +103923,6 @@
     },
     "13:28:22": {
       "episode_key": "simpsonovi:s28:e22",
-      "claim": {
-        "worker_id": "c9722aef617c4199a9f0c5ff36373718-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:01:11.289385+00:00",
-        "lease_expires_at": "2026-11-01T02:01:11.289398+00:00"
-      },
       "source": {
         "source_id": "34976201",
         "source_url": "https://sdilej.cz/34976201/simpsonovi-s28e22.mkv",
@@ -103953,15 +103947,22 @@
         "display_name": "The Simpsons S28E22 Dogtown 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:01:13.302944+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676923",
-        "size_bytes": 158743844
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676923",
+          "size_bytes": 158743844,
+          "source_bytes_read": 158743844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34976201",
+        "source_url": "https://sdilej.cz/34976201/simpsonovi-s28e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676923",
-        "size_bytes": 158743844,
-        "source_bytes_read": 158743844,
-        "http_status": 201
+        "display_name": "The Simpsons S28E22 Dogtown 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:01:39.086338+00:00"
       }
     }
   },
@@ -103970,5 +103971,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:01:37.559711+00:00"
+  "updated_at": "2026-10-31T20:01:39.086355+00:00"
 }
