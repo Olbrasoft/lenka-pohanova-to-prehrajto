@@ -82715,12 +82715,6 @@
     },
     "13:7:6": {
       "episode_key": "simpsonovi:s7:e6",
-      "claim": {
-        "worker_id": "ee13fff352fc40978a73853411344742-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:03:15.582971+00:00",
-        "lease_expires_at": "2026-10-31T20:03:15.582981+00:00"
-      },
       "source": {
         "source_id": "27321804",
         "source_url": "https://sdilej.cz/27321804/simpsonovi-cz-s07e06.mkv",
@@ -82745,15 +82739,22 @@
         "display_name": "The Simpsons S07E06 Treehouse of Horror VI 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:03:23.207271+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669175",
-        "size_bytes": 543055470
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669175",
+          "size_bytes": 543055470,
+          "source_bytes_read": 543055470,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27321804",
+        "source_url": "https://sdilej.cz/27321804/simpsonovi-cz-s07e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669175",
-        "size_bytes": 543055470,
-        "source_bytes_read": 543055470,
-        "http_status": 201
+        "display_name": "The Simpsons S07E06 Treehouse of Horror VI 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:05:31.290180+00:00"
       }
     },
     "13:7:7": {
@@ -82880,5 +82881,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:05:28.014204+00:00"
+  "updated_at": "2026-10-31T14:05:31.290197+00:00"
 }
