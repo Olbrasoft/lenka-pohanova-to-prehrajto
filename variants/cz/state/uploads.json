@@ -63355,12 +63355,6 @@
     },
     "956:6:14": {
       "episode_key": "star trek: nová generace:s6:e14",
-      "claim": {
-        "worker_id": "356ed679375b44359cedf80d623a4c6e-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:18:59.413799+00:00",
-        "lease_expires_at": "2026-10-31T06:18:59.413817+00:00"
-      },
       "source": {
         "source_id": "28165839",
         "source_url": "https://sdilej.cz/28165839/star-trek-nova-generace-s06e14-tvar-nepritele.mkv",
@@ -63385,15 +63379,22 @@
         "display_name": "Star Trek: The Next Generation S06E14 Face of the Enemy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:19:01.394264+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649697",
-        "size_bytes": 370561033
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649697",
+          "size_bytes": 370561033,
+          "source_bytes_read": 370561033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165839",
+        "source_url": "https://sdilej.cz/28165839/star-trek-nova-generace-s06e14-tvar-nepritele.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649697",
-        "size_bytes": 370561033,
-        "source_bytes_read": 370561033,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E14 Face of the Enemy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:20:07.902830+00:00"
       }
     },
     "956:6:15": {
@@ -63475,5 +63476,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:20:04.994573+00:00"
+  "updated_at": "2026-10-31T00:20:07.902846+00:00"
 }
