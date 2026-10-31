@@ -84915,12 +84915,6 @@
     },
     "13:9:6": {
       "episode_key": "simpsonovi:s9:e6",
-      "claim": {
-        "worker_id": "6c3f7a940db3488d9f42208cc60fa4df-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:48:34.757276+00:00",
-        "lease_expires_at": "2026-10-31T20:48:34.757287+00:00"
-      },
       "source": {
         "source_id": "27322437",
         "source_url": "https://sdilej.cz/27322437/simpsonovi-cz-s09e06.mkv",
@@ -84945,15 +84939,22 @@
         "display_name": "The Simpsons S09E06 Bart Star 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:48:36.643267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670492",
-        "size_bytes": 535017201
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670492",
+          "size_bytes": 535017201,
+          "source_bytes_read": 535017201,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322437",
+        "source_url": "https://sdilej.cz/27322437/simpsonovi-cz-s09e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670492",
-        "size_bytes": 535017201,
-        "source_bytes_read": 535017201,
-        "http_status": 201
+        "display_name": "The Simpsons S09E06 Bart Star 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:50:16.026363+00:00"
       }
     },
     "13:9:7": {
@@ -85080,5 +85081,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:50:11.706236+00:00"
+  "updated_at": "2026-10-31T14:50:16.026376+00:00"
 }
