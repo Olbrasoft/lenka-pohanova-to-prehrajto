@@ -74531,12 +74531,6 @@
     },
     "49:1:1": {
       "episode_key": "mandalorian:s1:e1",
-      "claim": {
-        "worker_id": "f2e0532bcc184293b35eacf06414e8e4-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T09:07:19.765889+00:00",
-        "lease_expires_at": "2026-10-31T15:07:19.765900+00:00"
-      },
       "source": {
         "source_id": "31101250",
         "source_url": "https://sdilej.cz/31101250/the.mandalorian.s01e01.chapter.1.the.mandalorian.2160p.mkv",
@@ -74561,15 +74555,22 @@
         "display_name": "The Mandalorian S01E01 Chapter 1: The Mandalorian 4K CZ Dabing",
         "prepared_at": "2026-10-31T09:07:22.917715+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30662178",
-        "size_bytes": 1259192889
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30662178",
+          "size_bytes": 1259192889,
+          "source_bytes_read": 1259192889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31101250",
+        "source_url": "https://sdilej.cz/31101250/the.mandalorian.s01e01.chapter.1.the.mandalorian.2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30662178",
-        "size_bytes": 1259192889,
-        "source_bytes_read": 1259192889,
-        "http_status": 201
+        "display_name": "The Mandalorian S01E01 Chapter 1: The Mandalorian 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:11:09.525109+00:00"
       }
     },
     "49:1:2": {
@@ -74696,5 +74697,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:11:08.107866+00:00"
+  "updated_at": "2026-10-31T09:11:09.525122+00:00"
 }
