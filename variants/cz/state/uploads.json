@@ -107795,12 +107795,6 @@
     },
     "13:32:22": {
       "episode_key": "simpsonovi:s32:e22",
-      "claim": {
-        "worker_id": "c07c1be7b98d412f839f98e4f3b78a64-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:02:29.052539+00:00",
-        "lease_expires_at": "2026-11-01T03:02:29.052550+00:00"
-      },
       "source": {
         "source_id": "30688543",
         "source_url": "https://sdilej.cz/30688543/simpsonovi-s32e22-pit-ci-nepit.mkv",
@@ -107825,15 +107819,22 @@
         "display_name": "The Simpsons S32E22 The Last Barfighter 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:02:32.043108+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678506",
-        "size_bytes": 465151087
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678506",
+          "size_bytes": 465151087,
+          "source_bytes_read": 465151087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30688543",
+        "source_url": "https://sdilej.cz/30688543/simpsonovi-s32e22-pit-ci-nepit.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678506",
-        "size_bytes": 465151087,
-        "source_bytes_read": 465151087,
-        "http_status": 201
+        "display_name": "The Simpsons S32E22 The Last Barfighter 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:03:22.800007+00:00"
       }
     },
     "13:33:1": {
@@ -107912,5 +107913,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:03:20.010831+00:00"
+  "updated_at": "2026-10-31T21:03:22.800023+00:00"
 }
