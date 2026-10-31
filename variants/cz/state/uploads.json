@@ -100315,12 +100315,6 @@
     },
     "13:25:4": {
       "episode_key": "simpsonovi:s25:e4",
-      "claim": {
-        "worker_id": "bd765bc6e2c2449da452ddc2979abc99-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:00:44.154185+00:00",
-        "lease_expires_at": "2026-11-01T01:00:44.154194+00:00"
-      },
       "source": {
         "source_id": "32764490",
         "source_url": "https://sdilej.cz/32764490/simpsonovi-s25e04-cz-dabing.mkv",
@@ -100345,15 +100339,22 @@
         "display_name": "The Simpsons S25E04 YOLO 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:00:48.462199+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675638",
-        "size_bytes": 489181957
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675638",
+          "size_bytes": 489181957,
+          "source_bytes_read": 489181957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764490",
+        "source_url": "https://sdilej.cz/32764490/simpsonovi-s25e04-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675638",
-        "size_bytes": 489181957,
-        "source_bytes_read": 489181957,
-        "http_status": 201
+        "display_name": "The Simpsons S25E04 YOLO 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:01:48.633767+00:00"
       }
     },
     "13:25:5": {
@@ -100432,5 +100433,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:01:45.966142+00:00"
+  "updated_at": "2026-10-31T19:01:48.633804+00:00"
 }
