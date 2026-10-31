@@ -87731,12 +87731,6 @@
     },
     "13:11:22": {
       "episode_key": "simpsonovi:s11:e22",
-      "claim": {
-        "worker_id": "ffb412b6629d4e9cb5d813e69ffea1dc-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:32:40.985819+00:00",
-        "lease_expires_at": "2026-10-31T21:32:40.985829+00:00"
-      },
       "source": {
         "source_id": "29520432",
         "source_url": "https://sdilej.cz/29520432/the-simpsons-s11e22-cena-smichu.mkv",
@@ -87761,15 +87755,22 @@
         "display_name": "The Simpsons S11E22 Behind the Laughter 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:32:42.688642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671600",
-        "size_bytes": 546024735
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671600",
+          "size_bytes": 546024735,
+          "source_bytes_read": 546024735,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29520432",
+        "source_url": "https://sdilej.cz/29520432/the-simpsons-s11e22-cena-smichu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671600",
-        "size_bytes": 546024735,
-        "source_bytes_read": 546024735,
-        "http_status": 201
+        "display_name": "The Simpsons S11E22 Behind the Laughter 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:33:34.846374+00:00"
       }
     },
     "13:12:1": {
@@ -87850,5 +87851,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:33:33.398882+00:00"
+  "updated_at": "2026-10-31T15:33:34.846387+00:00"
 }
