@@ -107223,12 +107223,6 @@
     },
     "13:32:10": {
       "episode_key": "simpsonovi:s32:e10",
-      "claim": {
-        "worker_id": "6542caa1e34f49b49b96b9c3a02d0366-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:53:08.468103+00:00",
-        "lease_expires_at": "2026-11-01T02:53:08.468113+00:00"
-      },
       "source": {
         "source_id": "32768776",
         "source_url": "https://sdilej.cz/32768776/simpsonovi-s32e10-cz-dabing.mkv",
@@ -107253,15 +107247,22 @@
         "display_name": "The Simpsons S32E10 A Springfield Summer Christmas for Christmas 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:53:15.519388+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678335",
-        "size_bytes": 512539561
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678335",
+          "size_bytes": 512539561,
+          "source_bytes_read": 512539561,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32768776",
+        "source_url": "https://sdilej.cz/32768776/simpsonovi-s32e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678335",
-        "size_bytes": 512539561,
-        "source_bytes_read": 512539561,
-        "http_status": 201
+        "display_name": "The Simpsons S32E10 A Springfield Summer Christmas for Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:54:05.557759+00:00"
       }
     },
     "13:32:9": {
@@ -107314,5 +107315,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:54:04.019308+00:00"
+  "updated_at": "2026-10-31T20:54:05.557787+00:00"
 }
