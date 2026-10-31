@@ -75411,12 +75411,6 @@
     },
     "49:3:5": {
       "episode_key": "mandalorian:s3:e5",
-      "claim": {
-        "worker_id": "a3aeeaed777d4b74b62d9d5b5e90866b-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:06:37.807887+00:00",
-        "lease_expires_at": "2026-10-31T16:06:37.807897+00:00"
-      },
       "source": {
         "source_id": "32667999",
         "source_url": "https://sdilej.cz/32667999/the-mandalorian-s03e05-cz-dabing.mkv",
@@ -75441,15 +75435,22 @@
         "display_name": "The Mandalorian S03E05 Chapter 21: The Pirate 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:06:39.597085+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663213",
-        "size_bytes": 2478552782
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663213",
+          "size_bytes": 2478552782,
+          "source_bytes_read": 2478552782,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32667999",
+        "source_url": "https://sdilej.cz/32667999/the-mandalorian-s03e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663213",
-        "size_bytes": 2478552782,
-        "source_bytes_read": 2478552782,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E05 Chapter 21: The Pirate 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:12:30.492700+00:00"
       }
     },
     "49:3:6": {
@@ -75495,5 +75496,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:12:25.249801+00:00"
+  "updated_at": "2026-10-31T10:12:30.492715+00:00"
 }
