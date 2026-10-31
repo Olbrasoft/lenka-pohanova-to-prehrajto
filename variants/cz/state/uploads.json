@@ -71319,12 +71319,6 @@
     },
     "1139:6:4": {
       "episode_key": "ve výkonu služby:s6:e4",
-      "claim": {
-        "worker_id": "e4d91e26adeb4adaaae7f29adcd3c107-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:42:18.267938+00:00",
-        "lease_expires_at": "2026-10-31T10:42:18.267947+00:00"
-      },
       "source": {
         "source_id": "34814896",
         "source_url": "https://sdilej.cz/34814896/ve.vykonu.sluzby.s06e04.mkv",
@@ -71349,15 +71343,22 @@
         "display_name": "Line of Duty S06E04 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:42:19.796381+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655214",
-        "size_bytes": 926778086
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655214",
+          "size_bytes": 926778086,
+          "source_bytes_read": 926778086,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34814896",
+        "source_url": "https://sdilej.cz/34814896/ve.vykonu.sluzby.s06e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655214",
-        "size_bytes": 926778086,
-        "source_bytes_read": 926778086,
-        "http_status": 201
+        "display_name": "Line of Duty S06E04 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:44:30.123783+00:00"
       }
     },
     "1139:6:5": {
@@ -71440,5 +71441,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:44:27.373100+00:00"
+  "updated_at": "2026-10-31T04:44:30.123798+00:00"
 }
