@@ -80295,12 +80295,6 @@
     },
     "13:4:19": {
       "episode_key": "simpsonovi:s4:e19",
-      "claim": {
-        "worker_id": "6bb6e63e94d04823a95c707152508ae5-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:22:40.008620+00:00",
-        "lease_expires_at": "2026-10-31T19:22:40.008628+00:00"
-      },
       "source": {
         "source_id": "27310973",
         "source_url": "https://sdilej.cz/27310973/simpsonovi-cz-s04e19.mkv",
@@ -80325,15 +80319,22 @@
         "display_name": "The Simpsons S04E19 The Front 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:22:43.827713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30666337",
-        "size_bytes": 534057170
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30666337",
+          "size_bytes": 534057170,
+          "source_bytes_read": 534057170,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310973",
+        "source_url": "https://sdilej.cz/27310973/simpsonovi-cz-s04e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30666337",
-        "size_bytes": 534057170,
-        "source_bytes_read": 534057170,
-        "http_status": 201
+        "display_name": "The Simpsons S04E19 The Front 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:23:45.223879+00:00"
       }
     },
     "13:4:20": {
@@ -80379,5 +80380,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:23:42.906943+00:00"
+  "updated_at": "2026-10-31T13:23:45.223896+00:00"
 }
