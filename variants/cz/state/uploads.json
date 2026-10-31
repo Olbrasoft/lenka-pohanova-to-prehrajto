@@ -95607,12 +95607,6 @@
     },
     "13:20:7": {
       "episode_key": "simpsonovi:s20:e7",
-      "claim": {
-        "worker_id": "811f3cefa1d146879d576072576c8143-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:33:51.359422+00:00",
-        "lease_expires_at": "2026-10-31T23:33:51.359435+00:00"
-      },
       "source": {
         "source_id": "28380293",
         "source_url": "https://sdilej.cz/28380293/simpsonovi-s20e07-mypody-a-sousedi.mkv",
@@ -95637,15 +95631,22 @@
         "display_name": "The Simpsons S20E07 Mypods and Boomsticks 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:33:53.187065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674245",
-        "size_bytes": 796671845
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674245",
+          "size_bytes": 796671845,
+          "source_bytes_read": 796671845,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380293",
+        "source_url": "https://sdilej.cz/28380293/simpsonovi-s20e07-mypody-a-sousedi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674245",
-        "size_bytes": 796671845,
-        "source_bytes_read": 796671845,
-        "http_status": 201
+        "display_name": "The Simpsons S20E07 Mypods and Boomsticks 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:36:07.191406+00:00"
       }
     },
     "13:20:8": {
@@ -95727,5 +95728,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:36:04.493330+00:00"
+  "updated_at": "2026-10-31T17:36:07.191418+00:00"
 }
