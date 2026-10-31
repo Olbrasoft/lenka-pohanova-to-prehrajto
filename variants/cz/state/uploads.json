@@ -75323,12 +75323,6 @@
     },
     "49:3:3": {
       "episode_key": "mandalorian:s3:e3",
-      "claim": {
-        "worker_id": "4b116c51367243959c55f785b3148419-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:02:18.407709+00:00",
-        "lease_expires_at": "2026-10-31T16:02:18.407719+00:00"
-      },
       "source": {
         "source_id": "34756867",
         "source_url": "https://sdilej.cz/34756867/mandalorian-s03e03.mkv",
@@ -75353,15 +75347,22 @@
         "display_name": "The Mandalorian S03E03 Chapter 19: The Convert 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:02:22.813111+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663162",
-        "size_bytes": 2978081381
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663162",
+          "size_bytes": 2978081381,
+          "source_bytes_read": 2978081381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34756867",
+        "source_url": "https://sdilej.cz/34756867/mandalorian-s03e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663162",
-        "size_bytes": 2978081381,
-        "source_bytes_read": 2978081381,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E03 Chapter 19: The Convert 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:11:23.235854+00:00"
       }
     },
     "49:3:4": {
@@ -75488,5 +75489,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:11:18.291390+00:00"
+  "updated_at": "2026-10-31T10:11:23.235872+00:00"
 }
