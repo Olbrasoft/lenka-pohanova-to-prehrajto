@@ -72595,12 +72595,6 @@
     },
     "6996:1:10": {
       "episode_key": "já, claudius:s1:e10",
-      "claim": {
-        "worker_id": "ae1392675c134ad0ac647e8f5c104801-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:12:39.020450+00:00",
-        "lease_expires_at": "2026-10-31T11:12:39.020461+00:00"
-      },
       "source": {
         "source_id": "29876796",
         "source_url": "https://sdilej.cz/29876796/ja-claudius-1976-s01e10-blaznovo-stesti-czdab.mkv",
@@ -72625,15 +72619,22 @@
         "display_name": "I, Claudius S01E10 Fool's Luck SD CZ Dabing",
         "prepared_at": "2026-10-31T05:12:40.652336+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655755",
-        "size_bytes": 681875686
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655755",
+          "size_bytes": 681875686,
+          "source_bytes_read": 681875686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29876796",
+        "source_url": "https://sdilej.cz/29876796/ja-claudius-1976-s01e10-blaznovo-stesti-czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655755",
-        "size_bytes": 681875686,
-        "source_bytes_read": 681875686,
-        "http_status": 201
+        "display_name": "I, Claudius S01E10 Fool's Luck SD CZ Dabing",
+        "uploaded_at": "2026-10-31T05:15:03.141788+00:00"
       }
     },
     "6996:1:12": {
@@ -72679,5 +72680,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:14:59.681965+00:00"
+  "updated_at": "2026-10-31T05:15:03.141806+00:00"
 }
