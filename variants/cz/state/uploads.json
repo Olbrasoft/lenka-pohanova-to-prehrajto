@@ -63927,12 +63927,6 @@
     },
     "956:7:1": {
       "episode_key": "star trek: nová generace:s7:e1",
-      "claim": {
-        "worker_id": "53702095c42541a2871d826380cec62f-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:27:34.646516+00:00",
-        "lease_expires_at": "2026-10-31T06:27:34.646528+00:00"
-      },
       "source": {
         "source_id": "28165761",
         "source_url": "https://sdilej.cz/28165761/star-trek-nova-generace-s07e01-vpad-2.-cast-.mkv",
@@ -63957,15 +63951,22 @@
         "display_name": "Star Trek: The Next Generation S07E01 Descent (2) 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:27:36.703954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649820",
-        "size_bytes": 370563586
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649820",
+          "size_bytes": 370563586,
+          "source_bytes_read": 370563586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165761",
+        "source_url": "https://sdilej.cz/28165761/star-trek-nova-generace-s07e01-vpad-2.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649820",
-        "size_bytes": 370563586,
-        "source_bytes_read": 370563586,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E01 Descent (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:28:47.653078+00:00"
       }
     },
     "956:7:2": {
@@ -64048,5 +64049,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:28:44.040588+00:00"
+  "updated_at": "2026-10-31T00:28:47.653094+00:00"
 }
