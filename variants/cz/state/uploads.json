@@ -95871,12 +95871,6 @@
     },
     "13:20:13": {
       "episode_key": "simpsonovi:s20:e13",
-      "claim": {
-        "worker_id": "eaaf1605118149359be0e6acf847c7bb-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:38:15.663786+00:00",
-        "lease_expires_at": "2026-10-31T23:38:15.663796+00:00"
-      },
       "source": {
         "source_id": "32763446",
         "source_url": "https://sdilej.cz/32763446/simpsonovi-s20e13-cz-dabing.mkv",
@@ -95901,15 +95895,22 @@
         "display_name": "The Simpsons S20E13 Gone Maggie Gone 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:38:18.883877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674351",
-        "size_bytes": 507347561
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674351",
+          "size_bytes": 507347561,
+          "source_bytes_read": 507347561,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763446",
+        "source_url": "https://sdilej.cz/32763446/simpsonovi-s20e13-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674351",
-        "size_bytes": 507347561,
-        "source_bytes_read": 507347561,
-        "http_status": 201
+        "display_name": "The Simpsons S20E13 Gone Maggie Gone 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:39:17.909259+00:00"
       }
     },
     "13:20:14": {
@@ -95992,5 +95993,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:39:14.817853+00:00"
+  "updated_at": "2026-10-31T17:39:17.909271+00:00"
 }
