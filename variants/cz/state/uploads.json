@@ -105161,12 +105161,6 @@
     },
     "13:30:7": {
       "episode_key": "simpsonovi:s30:e7",
-      "claim": {
-        "worker_id": "d04ac83d10ea4a7cb783969089f4e54d-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:18:45.033052+00:00",
-        "lease_expires_at": "2026-11-01T02:18:45.033063+00:00"
-      },
       "source": {
         "source_id": "32766341",
         "source_url": "https://sdilej.cz/32766341/simpsonovi-s30e07-cz-dabing.mkv",
@@ -105191,15 +105185,22 @@
         "display_name": "The Simpsons S30E07 Werking Mom 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:18:47.034557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677395",
-        "size_bytes": 504394433
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677395",
+          "size_bytes": 504394433,
+          "source_bytes_read": 504394433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766341",
+        "source_url": "https://sdilej.cz/32766341/simpsonovi-s30e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677395",
-        "size_bytes": 504394433,
-        "source_bytes_read": 504394433,
-        "http_status": 201
+        "display_name": "The Simpsons S30E07 Werking Mom 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:19:34.185346+00:00"
       }
     }
   },
@@ -105208,5 +105209,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:19:31.546031+00:00"
+  "updated_at": "2026-10-31T20:19:34.185363+00:00"
 }
