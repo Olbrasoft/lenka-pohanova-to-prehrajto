@@ -89578,12 +89578,6 @@
     },
     "13:13:21": {
       "episode_key": "simpsonovi:s13:e21",
-      "claim": {
-        "worker_id": "19e1b408817c4b34a42391ddfb35e6de-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:54:39.002707+00:00",
-        "lease_expires_at": "2026-10-31T21:54:39.002716+00:00"
-      },
       "source": {
         "source_id": "27325454",
         "source_url": "https://sdilej.cz/27325454/simpsonovi-s13e21-cz.mkv",
@@ -89608,15 +89602,22 @@
         "display_name": "The Simpsons S13E21 The Frying Game 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:54:44.702942+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672101",
-        "size_bytes": 492526372
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672101",
+          "size_bytes": 492526372,
+          "source_bytes_read": 492526372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27325454",
+        "source_url": "https://sdilej.cz/27325454/simpsonovi-s13e21-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672101",
-        "size_bytes": 492526372,
-        "source_bytes_read": 492526372,
-        "http_status": 201
+        "display_name": "The Simpsons S13E21 The Frying Game 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:55:46.727514+00:00"
       }
     },
     "13:13:22": {
@@ -89669,5 +89670,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:55:45.315701+00:00"
+  "updated_at": "2026-10-31T15:55:46.727524+00:00"
 }
