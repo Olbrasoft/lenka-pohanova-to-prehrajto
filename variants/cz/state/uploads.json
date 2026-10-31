@@ -81181,12 +81181,6 @@
     },
     "13:5:17": {
       "episode_key": "simpsonovi:s5:e17",
-      "claim": {
-        "worker_id": "c39d960f63504c6c8d30172248874fb2-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:33:19.885619+00:00",
-        "lease_expires_at": "2026-10-31T19:33:19.885628+00:00"
-      },
       "source": {
         "source_id": "27311299",
         "source_url": "https://sdilej.cz/27311299/simpsonovi-cz-s05e17.mkv",
@@ -81211,15 +81205,22 @@
         "display_name": "The Simpsons S05E17 Bart Gets an Elephant 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:33:23.847803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668633",
-        "size_bytes": 530687685
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668633",
+          "size_bytes": 530687685,
+          "source_bytes_read": 530687685,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311299",
+        "source_url": "https://sdilej.cz/27311299/simpsonovi-cz-s05e17.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668633",
-        "size_bytes": 530687685,
-        "source_bytes_read": 530687685,
-        "http_status": 201
+        "display_name": "The Simpsons S05E17 Bart Gets an Elephant 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:34:33.778227+00:00"
       }
     }
   },
@@ -81228,5 +81229,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:34:31.907155+00:00"
+  "updated_at": "2026-10-31T13:34:33.778241+00:00"
 }
