@@ -103879,12 +103879,6 @@
     },
     "13:28:21": {
       "episode_key": "simpsonovi:s28:e21",
-      "claim": {
-        "worker_id": "7c05af13c1a44d99b37dff5efe566f63-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:00:44.095053+00:00",
-        "lease_expires_at": "2026-11-01T02:00:44.095063+00:00"
-      },
       "source": {
         "source_id": "32765821",
         "source_url": "https://sdilej.cz/32765821/simpsonovi-s28e21-cz-dabing.mkv",
@@ -103909,15 +103903,22 @@
         "display_name": "The Simpsons S28E21 Moho House 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:00:47.819897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676912",
-        "size_bytes": 484829797
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676912",
+          "size_bytes": 484829797,
+          "source_bytes_read": 484829797,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32765821",
+        "source_url": "https://sdilej.cz/32765821/simpsonovi-s28e21-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676912",
-        "size_bytes": 484829797,
-        "source_bytes_read": 484829797,
-        "http_status": 201
+        "display_name": "The Simpsons S28E21 Moho House 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:01:37.559693+00:00"
       }
     },
     "13:28:22": {
@@ -103969,5 +103970,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:01:34.194254+00:00"
+  "updated_at": "2026-10-31T20:01:37.559711+00:00"
 }
