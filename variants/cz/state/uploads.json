@@ -102691,12 +102691,6 @@
     },
     "13:27:16": {
       "episode_key": "simpsonovi:s27:e16",
-      "claim": {
-        "worker_id": "50573415f6614b33ad3416ab598b993c-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:43:08.238612+00:00",
-        "lease_expires_at": "2026-11-01T01:43:08.238623+00:00"
-      },
       "source": {
         "source_id": "34940951",
         "source_url": "https://sdilej.cz/34940951/simpsonovi-s27e16-cz-hevc-2015-.mkv",
@@ -102721,15 +102715,22 @@
         "display_name": "The Simpsons S27E16 The Marge-ian Chronicles 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:43:11.683632+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676470",
-        "size_bytes": 166221145
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676470",
+          "size_bytes": 166221145,
+          "source_bytes_read": 166221145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34940951",
+        "source_url": "https://sdilej.cz/34940951/simpsonovi-s27e16-cz-hevc-2015-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676470",
-        "size_bytes": 166221145,
-        "source_bytes_read": 166221145,
-        "http_status": 201
+        "display_name": "The Simpsons S27E16 The Marge-ian Chronicles 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:43:42.385349+00:00"
       }
     },
     "13:27:17": {
@@ -102812,5 +102813,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:43:39.072970+00:00"
+  "updated_at": "2026-10-31T19:43:42.385366+00:00"
 }
