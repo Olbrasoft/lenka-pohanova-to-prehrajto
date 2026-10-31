@@ -96443,12 +96443,6 @@
     },
     "13:21:5": {
       "episode_key": "simpsonovi:s21:e5",
-      "claim": {
-        "worker_id": "7868f664bc9d4e3985c50c2f81f34e23-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:45:57.271471+00:00",
-        "lease_expires_at": "2026-10-31T23:45:57.271480+00:00"
-      },
       "source": {
         "source_id": "32763558",
         "source_url": "https://sdilej.cz/32763558/simpsonovi-s21e05-cz-dabing.mkv",
@@ -96473,15 +96467,22 @@
         "display_name": "The Simpsons S21E05 The Devil Wears Nada 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:46:01.906065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674481",
-        "size_bytes": 507771771
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674481",
+          "size_bytes": 507771771,
+          "source_bytes_read": 507771771,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763558",
+        "source_url": "https://sdilej.cz/32763558/simpsonovi-s21e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674481",
-        "size_bytes": 507771771,
-        "source_bytes_read": 507771771,
-        "http_status": 201
+        "display_name": "The Simpsons S21E05 The Devil Wears Nada 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:46:54.916681+00:00"
       }
     },
     "13:21:6": {
@@ -96577,5 +96578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:46:52.095151+00:00"
+  "updated_at": "2026-10-31T17:46:54.916691+00:00"
 }
