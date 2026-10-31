@@ -91112,12 +91112,6 @@
     },
     "13:15:12": {
       "episode_key": "simpsonovi:s15:e12",
-      "claim": {
-        "worker_id": "3c233b4c26da4bcea2296dc94dc48306-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:23:29.239547+00:00",
-        "lease_expires_at": "2026-10-31T22:23:29.239555+00:00"
-      },
       "source": {
         "source_id": "34959742",
         "source_url": "https://sdilej.cz/34959742/simpsonovi-s15e12-cz-dabing-hevc-2003-.mkv",
@@ -91142,15 +91136,22 @@
         "display_name": "The Simpsons S15E12 Milhouse Doesn't Live Here Anymore 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:23:34.036391+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672722",
-        "size_bytes": 166432915
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672722",
+          "size_bytes": 166432915,
+          "source_bytes_read": 166432915,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34959742",
+        "source_url": "https://sdilej.cz/34959742/simpsonovi-s15e12-cz-dabing-hevc-2003-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672722",
-        "size_bytes": 166432915,
-        "source_bytes_read": 166432915,
-        "http_status": 201
+        "display_name": "The Simpsons S15E12 Milhouse Doesn't Live Here Anymore 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:24:05.208661+00:00"
       }
     },
     "13:15:13": {
@@ -91196,5 +91197,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:24:01.949962+00:00"
+  "updated_at": "2026-10-31T16:24:05.208674+00:00"
 }
