@@ -67799,12 +67799,6 @@
     },
     "1127:4:10": {
       "episode_key": "policejní odznak:s4:e10",
-      "claim": {
-        "worker_id": "de55d410c56a47a0a015b9031ecc7726-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:47:17.809624+00:00",
-        "lease_expires_at": "2026-10-31T08:47:17.809635+00:00"
-      },
       "source": {
         "source_id": "33817945",
         "source_url": "https://sdilej.cz/33817945/the-shield-s04e10-policejni-odznak-fhd-1080p-cz-zpatky-v-dire.mkv",
@@ -67829,15 +67823,22 @@
         "display_name": "The Shield S04E10 Back in the Hole 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:47:19.790638+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653048",
-        "size_bytes": 684069814
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653048",
+          "size_bytes": 684069814,
+          "source_bytes_read": 684069814,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817945",
+        "source_url": "https://sdilej.cz/33817945/the-shield-s04e10-policejni-odznak-fhd-1080p-cz-zpatky-v-dire.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653048",
-        "size_bytes": 684069814,
-        "source_bytes_read": 684069814,
-        "http_status": 201
+        "display_name": "The Shield S04E10 Back in the Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:49:42.889979+00:00"
       }
     },
     "1127:4:11": {
@@ -67920,5 +67921,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:49:38.947883+00:00"
+  "updated_at": "2026-10-31T02:49:42.889999+00:00"
 }
