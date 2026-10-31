@@ -85656,12 +85656,6 @@
     },
     "13:9:23": {
       "episode_key": "simpsonovi:s9:e23",
-      "claim": {
-        "worker_id": "6eebed8679ed4b679177d58a86ec221f-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:59:31.569552+00:00",
-        "lease_expires_at": "2026-10-31T20:59:31.569561+00:00"
-      },
       "source": {
         "source_id": "27322666",
         "source_url": "https://sdilej.cz/27322666/simpsonovi-cz-s09e23.mkv",
@@ -85686,15 +85680,22 @@
         "display_name": "The Simpsons S09E23 King of the Hill 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:59:34.793581+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670777",
-        "size_bytes": 537529188
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670777",
+          "size_bytes": 537529188,
+          "source_bytes_read": 537529188,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322666",
+        "source_url": "https://sdilej.cz/27322666/simpsonovi-cz-s09e23.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670777",
-        "size_bytes": 537529188,
-        "source_bytes_read": 537529188,
-        "http_status": 201
+        "display_name": "The Simpsons S09E23 King of the Hill 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:00:31.814279+00:00"
       }
     },
     "13:9:24": {
@@ -85740,5 +85741,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:00:27.052478+00:00"
+  "updated_at": "2026-10-31T15:00:31.814291+00:00"
 }
