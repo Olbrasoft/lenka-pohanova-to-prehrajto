@@ -110296,12 +110296,6 @@
     },
     "13:35:13": {
       "episode_key": "simpsonovi:s35:e13",
-      "claim": {
-        "worker_id": "775370130cb649409aa933b28f0ef7e8-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:40:25.564127+00:00",
-        "lease_expires_at": "2026-11-01T03:40:25.564137+00:00"
-      },
       "source": {
         "source_id": "29395401",
         "source_url": "https://sdilej.cz/29395401/simpsonovi-s35e13.mkv",
@@ -110326,15 +110320,22 @@
         "display_name": "The Simpsons S35E13 Clan of the Cave Mom 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:40:30.373946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679451",
-        "size_bytes": 431611777
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679451",
+          "size_bytes": 431611777,
+          "source_bytes_read": 431611777,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29395401",
+        "source_url": "https://sdilej.cz/29395401/simpsonovi-s35e13.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679451",
-        "size_bytes": 431611777,
-        "source_bytes_read": 431611777,
-        "http_status": 201
+        "display_name": "The Simpsons S35E13 Clan of the Cave Mom 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:41:11.529224+00:00"
       }
     },
     "13:35:14": {
@@ -110352,5 +110353,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:41:10.037627+00:00"
+  "updated_at": "2026-10-31T21:41:11.529265+00:00"
 }
