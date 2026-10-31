@@ -91075,12 +91075,6 @@
     },
     "13:15:11": {
       "episode_key": "simpsonovi:s15:e11",
-      "claim": {
-        "worker_id": "9c632911d5d64deea093218e1e0b061a-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:23:23.724986+00:00",
-        "lease_expires_at": "2026-10-31T22:23:23.724994+00:00"
-      },
       "source": {
         "source_id": "28377960",
         "source_url": "https://sdilej.cz/28377960/simpsonovi-s15e11-toulky-historii-s-marge.mkv",
@@ -91105,15 +91099,22 @@
         "display_name": "The Simpsons S15E11 Margical History Tour 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:23:27.237922+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672719",
-        "size_bytes": 490818702
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672719",
+          "size_bytes": 490818702,
+          "source_bytes_read": 490818702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28377960",
+        "source_url": "https://sdilej.cz/28377960/simpsonovi-s15e11-toulky-historii-s-marge.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672719",
-        "size_bytes": 490818702,
-        "source_bytes_read": 490818702,
-        "http_status": 201
+        "display_name": "The Simpsons S15E11 Margical History Tour 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:24:56.045829+00:00"
       }
     },
     "13:15:12": {
@@ -91240,5 +91241,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:24:52.104037+00:00"
+  "updated_at": "2026-10-31T16:24:56.045841+00:00"
 }
