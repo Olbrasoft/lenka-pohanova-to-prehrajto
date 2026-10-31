@@ -72551,12 +72551,6 @@
     },
     "6996:1:9": {
       "episode_key": "já, claudius:s1:e9",
-      "claim": {
-        "worker_id": "40a4dcd0f8b148ea845a1af3aa17e4a8-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:12:27.756647+00:00",
-        "lease_expires_at": "2026-10-31T11:12:27.756657+00:00"
-      },
       "source": {
         "source_id": "29876792",
         "source_url": "https://sdilej.cz/29876792/ja-claudius-1976-s01e09-slava-komu-czdab.mkv",
@@ -72581,15 +72575,22 @@
         "display_name": "I, Claudius S01E09 Hail Who? SD CZ Dabing",
         "prepared_at": "2026-10-31T05:12:29.398369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655746",
-        "size_bytes": 719085488
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655746",
+          "size_bytes": 719085488,
+          "source_bytes_read": 719085488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29876792",
+        "source_url": "https://sdilej.cz/29876792/ja-claudius-1976-s01e09-slava-komu-czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655746",
-        "size_bytes": 719085488,
-        "source_bytes_read": 719085488,
-        "http_status": 201
+        "display_name": "I, Claudius S01E09 Hail Who? SD CZ Dabing",
+        "uploaded_at": "2026-10-31T05:14:58.452583+00:00"
       }
     },
     "6996:1:10": {
@@ -72672,5 +72673,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:14:54.222625+00:00"
+  "updated_at": "2026-10-31T05:14:58.452601+00:00"
 }
