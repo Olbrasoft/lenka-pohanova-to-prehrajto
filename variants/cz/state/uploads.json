@@ -101503,12 +101503,6 @@
     },
     "13:26:11": {
       "episode_key": "simpsonovi:s26:e11",
-      "claim": {
-        "worker_id": "a82f3d1ef1ae413c894c65ec69dedfd0-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:21:44.904652+00:00",
-        "lease_expires_at": "2026-11-01T01:21:44.904662+00:00"
-      },
       "source": {
         "source_id": "32764897",
         "source_url": "https://sdilej.cz/32764897/simpsonovi-s26e11-cz-dabing.mkv",
@@ -101533,15 +101527,22 @@
         "display_name": "The Simpsons S26E11 Bart's New Friend 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:21:46.738744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676059",
-        "size_bytes": 495111998
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676059",
+          "size_bytes": 495111998,
+          "source_bytes_read": 495111998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764897",
+        "source_url": "https://sdilej.cz/32764897/simpsonovi-s26e11-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676059",
-        "size_bytes": 495111998,
-        "source_bytes_read": 495111998,
-        "http_status": 201
+        "display_name": "The Simpsons S26E11 Bart's New Friend 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:23:36.226573+00:00"
       }
     },
     "13:26:12": {
@@ -101631,5 +101632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:23:31.803480+00:00"
+  "updated_at": "2026-10-31T19:23:36.226590+00:00"
 }
