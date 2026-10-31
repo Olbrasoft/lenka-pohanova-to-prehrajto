@@ -69383,12 +69383,6 @@
     },
     "1127:7:12": {
       "episode_key": "policejní odznak:s7:e12",
-      "claim": {
-        "worker_id": "ab53e5d2c03348b49c600a7dfaa3ff79-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:32:47.830425+00:00",
-        "lease_expires_at": "2026-10-31T09:32:47.830437+00:00"
-      },
       "source": {
         "source_id": "33818025",
         "source_url": "https://sdilej.cz/33818025/the-shield-s07e12-policejni-odznak-fhd-1080p-cz-moznost-zabit-sebe.mkv",
@@ -69413,15 +69407,22 @@
         "display_name": "The Shield S07E12 Possible Kill Screen 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:32:51.754017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653801",
-        "size_bytes": 515855804
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653801",
+          "size_bytes": 515855804,
+          "source_bytes_read": 515855804,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818025",
+        "source_url": "https://sdilej.cz/33818025/the-shield-s07e12-policejni-odznak-fhd-1080p-cz-moznost-zabit-sebe.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653801",
-        "size_bytes": 515855804,
-        "source_bytes_read": 515855804,
-        "http_status": 201
+        "display_name": "The Shield S07E12 Possible Kill Screen 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:34:19.008703+00:00"
       }
     },
     "3303:1:1": {
@@ -69504,5 +69505,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:34:14.221672+00:00"
+  "updated_at": "2026-10-31T03:34:19.008719+00:00"
 }
