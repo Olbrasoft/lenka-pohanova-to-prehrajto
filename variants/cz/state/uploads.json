@@ -64631,12 +64631,6 @@
     },
     "956:7:17": {
       "episode_key": "star trek: nová generace:s7:e17",
-      "claim": {
-        "worker_id": "749777ec4b5148c3a501e0d2fde54d86-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:41:11.151176+00:00",
-        "lease_expires_at": "2026-10-31T06:41:11.151188+00:00"
-      },
       "source": {
         "source_id": "28165641",
         "source_url": "https://sdilej.cz/28165641/star-trek-nova-generace-s07e17-masky.mkv",
@@ -64661,15 +64655,22 @@
         "display_name": "Star Trek: The Next Generation S07E17 Masks 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:41:16.200993+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30650001",
-        "size_bytes": 370830859
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30650001",
+          "size_bytes": 370830859,
+          "source_bytes_read": 370830859,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165641",
+        "source_url": "https://sdilej.cz/28165641/star-trek-nova-generace-s07e17-masky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30650001",
-        "size_bytes": 370830859,
-        "source_bytes_read": 370830859,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E17 Masks 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:42:36.597240+00:00"
       }
     },
     "956:7:18": {
@@ -64752,5 +64753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:42:32.285192+00:00"
+  "updated_at": "2026-10-31T00:42:36.597258+00:00"
 }
