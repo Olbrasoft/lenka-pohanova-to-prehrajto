@@ -77831,12 +77831,6 @@
     },
     "13:2:9": {
       "episode_key": "simpsonovi:s2:e9",
-      "claim": {
-        "worker_id": "fa57d78cfc96415ea9204047361e4726-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:31:17.706221+00:00",
-        "lease_expires_at": "2026-10-31T18:31:17.706232+00:00"
-      },
       "source": {
         "source_id": "27309804",
         "source_url": "https://sdilej.cz/27309804/simpsonovi-cz-s02e09.mkv",
@@ -77861,15 +77855,22 @@
         "display_name": "The Simpsons S02E09 Itchy & Scratchy & Marge 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:31:22.287389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665421",
-        "size_bytes": 543215087
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665421",
+          "size_bytes": 543215087,
+          "source_bytes_read": 543215087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309804",
+        "source_url": "https://sdilej.cz/27309804/simpsonovi-cz-s02e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665421",
-        "size_bytes": 543215087,
-        "source_bytes_read": 543215087,
-        "http_status": 201
+        "display_name": "The Simpsons S02E09 Itchy & Scratchy & Marge 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:32:51.940541+00:00"
       }
     },
     "13:2:10": {
@@ -77958,5 +77959,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:32:49.190772+00:00"
+  "updated_at": "2026-10-31T12:32:51.940557+00:00"
 }
