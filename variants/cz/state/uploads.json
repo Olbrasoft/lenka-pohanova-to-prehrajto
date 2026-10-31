@@ -74700,12 +74700,6 @@
     },
     "49:1:5": {
       "episode_key": "mandalorian:s1:e5",
-      "claim": {
-        "worker_id": "e37e9510e0b54be7a9027026b3fe2edc-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T09:11:18.797616+00:00",
-        "lease_expires_at": "2026-10-31T15:11:18.797627+00:00"
-      },
       "source": {
         "source_id": "33710283",
         "source_url": "https://sdilej.cz/33710283/mandalorian-s01e05-chapter-5-pistolnik.mkv",
@@ -74730,15 +74724,22 @@
         "display_name": "The Mandalorian S01E05 Chapter 5: The Gunslinger 4K CZ Dabing",
         "prepared_at": "2026-10-31T09:11:20.671884+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30662263",
-        "size_bytes": 1723452899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30662263",
+          "size_bytes": 1723452899,
+          "source_bytes_read": 1723452899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33710283",
+        "source_url": "https://sdilej.cz/33710283/mandalorian-s01e05-chapter-5-pistolnik.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30662263",
-        "size_bytes": 1723452899,
-        "source_bytes_read": 1723452899,
-        "http_status": 201
+        "display_name": "The Mandalorian S01E05 Chapter 5: The Gunslinger 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:17:08.720056+00:00"
       }
     },
     "49:1:6": {
@@ -74784,5 +74785,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:17:04.657729+00:00"
+  "updated_at": "2026-10-31T09:17:08.720073+00:00"
 }
