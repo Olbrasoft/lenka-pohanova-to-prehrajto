@@ -107436,12 +107436,6 @@
     },
     "13:32:14": {
       "episode_key": "simpsonovi:s32:e14",
-      "claim": {
-        "worker_id": "bd88a28ebae14c3a984d9c746d020ae9-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:55:15.730550+00:00",
-        "lease_expires_at": "2026-11-01T02:55:15.730561+00:00"
-      },
       "source": {
         "source_id": "32768890",
         "source_url": "https://sdilej.cz/32768890/simpsonovi-s32e14-cz-dabing.mkv",
@@ -107466,15 +107460,22 @@
         "display_name": "The Simpsons S32E14 Yokel Hero 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:55:17.726518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678372",
-        "size_bytes": 505547707
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678372",
+          "size_bytes": 505547707,
+          "source_bytes_read": 505547707,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32768890",
+        "source_url": "https://sdilej.cz/32768890/simpsonovi-s32e14-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678372",
-        "size_bytes": 505547707,
-        "source_bytes_read": 505547707,
-        "http_status": 201
+        "display_name": "The Simpsons S32E14 Yokel Hero 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:56:13.220167+00:00"
       }
     },
     "13:32:15": {
@@ -107520,5 +107521,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:56:09.365214+00:00"
+  "updated_at": "2026-10-31T20:56:13.220184+00:00"
 }
