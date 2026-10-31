@@ -105991,12 +105991,6 @@
     },
     "13:31:3": {
       "episode_key": "simpsonovi:s31:e3",
-      "claim": {
-        "worker_id": "66fe7d6c329040f38f62ad98289d87dd-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:35:33.990481+00:00",
-        "lease_expires_at": "2026-11-01T02:35:33.990492+00:00"
-      },
       "source": {
         "source_id": "32766697",
         "source_url": "https://sdilej.cz/32766697/simpsonovi-s31e03-cz-dabing.mkv",
@@ -106021,15 +106015,22 @@
         "display_name": "The Simpsons S31E03 The Fat Blue Line 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:35:36.972449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677848",
-        "size_bytes": 489804124
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677848",
+          "size_bytes": 489804124,
+          "source_bytes_read": 489804124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766697",
+        "source_url": "https://sdilej.cz/32766697/simpsonovi-s31e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677848",
-        "size_bytes": 489804124,
-        "source_bytes_read": 489804124,
-        "http_status": 201
+        "display_name": "The Simpsons S31E03 The Fat Blue Line 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:36:54.352347+00:00"
       }
     },
     "13:31:4": {
@@ -106159,5 +106160,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:36:52.814893+00:00"
+  "updated_at": "2026-10-31T20:36:54.352361+00:00"
 }
