@@ -86455,12 +86455,6 @@
     },
     "13:10:16": {
       "episode_key": "simpsonovi:s10:e16",
-      "claim": {
-        "worker_id": "7e9b2cce4fca4bdb998c9d36ffa548fe-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:18:33.727746+00:00",
-        "lease_expires_at": "2026-10-31T21:18:33.727755+00:00"
-      },
       "source": {
         "source_id": "27323748",
         "source_url": "https://sdilej.cz/27323748/simpsonovi-s10e16-cz.mkv",
@@ -86485,15 +86479,22 @@
         "display_name": "The Simpsons S10E16 Make Room for Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:18:35.515317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671271",
-        "size_bytes": 524312613
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671271",
+          "size_bytes": 524312613,
+          "source_bytes_read": 524312613,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323748",
+        "source_url": "https://sdilej.cz/27323748/simpsonovi-s10e16-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671271",
-        "size_bytes": 524312613,
-        "source_bytes_read": 524312613,
-        "http_status": 201
+        "display_name": "The Simpsons S10E16 Make Room for Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:19:30.353163+00:00"
       }
     },
     "13:10:17": {
@@ -86576,5 +86577,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:19:26.524598+00:00"
+  "updated_at": "2026-10-31T15:19:30.353184+00:00"
 }
