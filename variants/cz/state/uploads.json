@@ -95701,12 +95701,6 @@
     },
     "13:20:9": {
       "episode_key": "simpsonovi:s20:e9",
-      "claim": {
-        "worker_id": "caca144fb238487c84029130140ef0fc-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:35:59.440628+00:00",
-        "lease_expires_at": "2026-10-31T23:35:59.440637+00:00"
-      },
       "source": {
         "source_id": "28380333",
         "source_url": "https://sdilej.cz/28380333/simpsonovi-s20e09-hysterka-liza.mkv",
@@ -95731,15 +95725,22 @@
         "display_name": "The Simpsons S20E09 Lisa the Drama Queen 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:36:01.253668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674295",
-        "size_bytes": 816621190
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674295",
+          "size_bytes": 816621190,
+          "source_bytes_read": 816621190,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380333",
+        "source_url": "https://sdilej.cz/28380333/simpsonovi-s20e09-hysterka-liza.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674295",
-        "size_bytes": 816621190,
-        "source_bytes_read": 816621190,
-        "http_status": 201
+        "display_name": "The Simpsons S20E09 Lisa the Drama Queen 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:37:21.358990+00:00"
       }
     },
     "13:20:10": {
@@ -95829,5 +95830,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:37:17.176737+00:00"
+  "updated_at": "2026-10-31T17:37:21.359004+00:00"
 }
