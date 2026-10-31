@@ -79635,12 +79635,6 @@
     },
     "13:4:4": {
       "episode_key": "simpsonovi:s4:e4",
-      "claim": {
-        "worker_id": "f2f350778df547e7a99c113fe95f1550-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:04:32.378761+00:00",
-        "lease_expires_at": "2026-10-31T19:04:32.378771+00:00"
-      },
       "source": {
         "source_id": "28374128",
         "source_url": "https://sdilej.cz/28374128/simpsonovi-s04e04-liza-kralovnou-krasy.mkv",
@@ -79665,15 +79659,22 @@
         "display_name": "The Simpsons S04E04 Lisa the Beauty Queen 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:04:34.093709+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665966",
-        "size_bytes": 532289237
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665966",
+          "size_bytes": 532289237,
+          "source_bytes_read": 532289237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28374128",
+        "source_url": "https://sdilej.cz/28374128/simpsonovi-s04e04-liza-kralovnou-krasy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665966",
-        "size_bytes": 532289237,
-        "source_bytes_read": 532289237,
-        "http_status": 201
+        "display_name": "The Simpsons S04E04 Lisa the Beauty Queen 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:05:43.742659+00:00"
       }
     }
   },
@@ -79682,5 +79683,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:05:42.460635+00:00"
+  "updated_at": "2026-10-31T13:05:43.742675+00:00"
 }
