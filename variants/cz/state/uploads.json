@@ -100711,12 +100711,6 @@
     },
     "13:25:15": {
       "episode_key": "simpsonovi:s25:e15",
-      "claim": {
-        "worker_id": "714ccf12ff6543a79969250f5a900245-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:04:23.329536+00:00",
-        "lease_expires_at": "2026-11-01T01:04:23.329547+00:00"
-      },
       "source": {
         "source_id": "32764610",
         "source_url": "https://sdilej.cz/32764610/simpsonovi-s25e15-cz-dabing.mkv",
@@ -100741,15 +100735,22 @@
         "display_name": "The Simpsons S25E15 The War of Art 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:04:25.357466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675725",
-        "size_bytes": 511228732
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675725",
+          "size_bytes": 511228732,
+          "source_bytes_read": 511228732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764610",
+        "source_url": "https://sdilej.cz/32764610/simpsonovi-s25e15-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675725",
-        "size_bytes": 511228732,
-        "source_bytes_read": 511228732,
-        "http_status": 201
+        "display_name": "The Simpsons S25E15 The War of Art 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:05:17.075285+00:00"
       }
     },
     "13:25:16": {
@@ -100831,5 +100832,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:05:14.544035+00:00"
+  "updated_at": "2026-10-31T19:05:17.075302+00:00"
 }
