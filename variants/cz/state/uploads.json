@@ -84035,12 +84035,6 @@
     },
     "13:8:11": {
       "episode_key": "simpsonovi:s8:e11",
-      "claim": {
-        "worker_id": "8e68a2fdabc043b39a3c01e846a94849-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:30:21.933313+00:00",
-        "lease_expires_at": "2026-10-31T20:30:21.933323+00:00"
-      },
       "source": {
         "source_id": "28375898",
         "source_url": "https://sdilej.cz/28375898/simpsonovi-s08e11-pokriveny-svet-marge-simpsonove.mkv",
@@ -84065,15 +84059,22 @@
         "display_name": "The Simpsons S08E11 The Twisted World of Marge Simpson 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:30:23.817654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669666",
-        "size_bytes": 530196050
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669666",
+          "size_bytes": 530196050,
+          "source_bytes_read": 530196050,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28375898",
+        "source_url": "https://sdilej.cz/28375898/simpsonovi-s08e11-pokriveny-svet-marge-simpsonove.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669666",
-        "size_bytes": 530196050,
-        "source_bytes_read": 530196050,
-        "http_status": 201
+        "display_name": "The Simpsons S08E11 The Twisted World of Marge Simpson 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:31:49.216332+00:00"
       }
     },
     "13:8:12": {
@@ -84156,5 +84157,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:31:45.431634+00:00"
+  "updated_at": "2026-10-31T14:31:49.216344+00:00"
 }
