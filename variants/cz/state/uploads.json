@@ -108147,12 +108147,6 @@
     },
     "13:33:8": {
       "episode_key": "simpsonovi:s33:e8",
-      "claim": {
-        "worker_id": "eeddf94fbbcc439c9887d2c72ffaac5f-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:04:59.206439+00:00",
-        "lease_expires_at": "2026-11-01T03:04:59.206449+00:00"
-      },
       "source": {
         "source_id": "32773291",
         "source_url": "https://sdilej.cz/32773291/simpsonovi-s33e08-cz-dabing.mkv",
@@ -108177,15 +108171,22 @@
         "display_name": "The Simpsons S33E08 Portrait of a Lackey on Fire 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:05:02.962766+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678570",
-        "size_bytes": 511594399
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678570",
+          "size_bytes": 511594399,
+          "source_bytes_read": 511594399,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32773291",
+        "source_url": "https://sdilej.cz/32773291/simpsonovi-s33e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678570",
-        "size_bytes": 511594399,
-        "source_bytes_read": 511594399,
-        "http_status": 201
+        "display_name": "The Simpsons S33E08 Portrait of a Lackey on Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:05:56.334376+00:00"
       }
     },
     "13:33:9": {
@@ -108268,5 +108269,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:05:53.755146+00:00"
+  "updated_at": "2026-10-31T21:05:56.334392+00:00"
 }
