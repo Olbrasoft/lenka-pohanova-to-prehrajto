@@ -100081,12 +100081,6 @@
     },
     "13:24:21": {
       "episode_key": "simpsonovi:s24:e21",
-      "claim": {
-        "worker_id": "66ba9090a1fa4039bb5fed3e18c5d6e8-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:58:35.324611+00:00",
-        "lease_expires_at": "2026-11-01T00:58:35.324622+00:00"
-      },
       "source": {
         "source_id": "34974040",
         "source_url": "https://sdilej.cz/34974040/simpsonovi-s24e21-cz-dabing-hevc-2012-.mkv",
@@ -100111,15 +100105,22 @@
         "display_name": "The Simpsons S24E21 The Saga of Carl 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:58:37.201265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675594",
-        "size_bytes": 161400864
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675594",
+          "size_bytes": 161400864,
+          "source_bytes_read": 161400864,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34974040",
+        "source_url": "https://sdilej.cz/34974040/simpsonovi-s24e21-cz-dabing-hevc-2012-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675594",
-        "size_bytes": 161400864,
-        "source_bytes_read": 161400864,
-        "http_status": 201
+        "display_name": "The Simpsons S24E21 The Saga of Carl 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:59:01.737376+00:00"
       }
     }
   },
@@ -100128,5 +100129,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:58:58.390668+00:00"
+  "updated_at": "2026-10-31T18:59:01.737390+00:00"
 }
