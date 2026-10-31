@@ -78315,12 +78315,6 @@
     },
     "13:2:20": {
       "episode_key": "simpsonovi:s2:e20",
-      "claim": {
-        "worker_id": "64a7b86fa886496cb1574a9c3c6b1b33-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:43:08.751327+00:00",
-        "lease_expires_at": "2026-10-31T18:43:08.751338+00:00"
-      },
       "source": {
         "source_id": "27310051",
         "source_url": "https://sdilej.cz/27310051/simpsonovi-cz-s02e20.mkv",
@@ -78345,15 +78339,22 @@
         "display_name": "The Simpsons S02E20 The War of the Simpsons 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:43:10.431298+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665642",
-        "size_bytes": 541352210
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665642",
+          "size_bytes": 541352210,
+          "source_bytes_read": 541352210,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310051",
+        "source_url": "https://sdilej.cz/27310051/simpsonovi-cz-s02e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665642",
-        "size_bytes": 541352210,
-        "source_bytes_read": 541352210,
-        "http_status": 201
+        "display_name": "The Simpsons S02E20 The War of the Simpsons 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:44:47.484289+00:00"
       }
     },
     "13:2:21": {
@@ -78432,5 +78433,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:44:45.243034+00:00"
+  "updated_at": "2026-10-31T12:44:47.484305+00:00"
 }
