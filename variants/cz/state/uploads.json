@@ -62871,12 +62871,6 @@
     },
     "956:6:3": {
       "episode_key": "star trek: nová generace:s6:e3",
-      "claim": {
-        "worker_id": "5f3a58ca41524547a560da64e7e926c5-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:02:49.386484+00:00",
-        "lease_expires_at": "2026-10-31T06:02:49.386496+00:00"
-      },
       "source": {
         "source_id": "28165465",
         "source_url": "https://sdilej.cz/28165465/star-trek-nova-generace-s06e03-vyjednavac.mkv",
@@ -62901,15 +62895,22 @@
         "display_name": "Star Trek: The Next Generation S06E03 Man of the People 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:02:51.442899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649382",
-        "size_bytes": 374689241
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649382",
+          "size_bytes": 374689241,
+          "source_bytes_read": 374689241,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165465",
+        "source_url": "https://sdilej.cz/28165465/star-trek-nova-generace-s06e03-vyjednavac.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649382",
-        "size_bytes": 374689241,
-        "source_bytes_read": 374689241,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E03 Man of the People 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:03:55.268205+00:00"
       }
     },
     "956:6:4": {
@@ -62992,5 +62993,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:03:50.528913+00:00"
+  "updated_at": "2026-10-31T00:03:55.268221+00:00"
 }
