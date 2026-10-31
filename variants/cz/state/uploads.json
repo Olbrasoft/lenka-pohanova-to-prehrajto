@@ -89264,12 +89264,6 @@
     },
     "13:13:14": {
       "episode_key": "simpsonovi:s13:e14",
-      "claim": {
-        "worker_id": "728a2cd7be9f4bcfbd75a9abb9d8f249-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:51:17.775249+00:00",
-        "lease_expires_at": "2026-10-31T21:51:17.775258+00:00"
-      },
       "source": {
         "source_id": "32761988",
         "source_url": "https://sdilej.cz/32761988/simpsonovi-s13e14-cz-dabing.mkv",
@@ -89294,15 +89288,22 @@
         "display_name": "The Simpsons S13E14 Tales from the Public Domain 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:51:20.125190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671987",
-        "size_bytes": 537497598
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671987",
+          "size_bytes": 537497598,
+          "source_bytes_read": 537497598,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32761988",
+        "source_url": "https://sdilej.cz/32761988/simpsonovi-s13e14-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671987",
-        "size_bytes": 537497598,
-        "source_bytes_read": 537497598,
-        "http_status": 201
+        "display_name": "The Simpsons S13E14 Tales from the Public Domain 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:52:14.619590+00:00"
       }
     },
     "13:13:15": {
@@ -89344,5 +89345,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:52:13.277137+00:00"
+  "updated_at": "2026-10-31T15:52:14.619601+00:00"
 }
