@@ -85839,12 +85839,6 @@
     },
     "13:10:2": {
       "episode_key": "simpsonovi:s10:e2",
-      "claim": {
-        "worker_id": "355aaabc29c3468f92515f4a7d24bd00-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:03:54.661819+00:00",
-        "lease_expires_at": "2026-10-31T21:03:54.661827+00:00"
-      },
       "source": {
         "source_id": "27323443",
         "source_url": "https://sdilej.cz/27323443/simpsonovi-s10e02-cz.mkv",
@@ -85869,15 +85863,22 @@
         "display_name": "The Simpsons S10E02 The Wizard of Evergreen Terrace 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:03:56.375267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670851",
-        "size_bytes": 530757428
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670851",
+          "size_bytes": 530757428,
+          "source_bytes_read": 530757428,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323443",
+        "source_url": "https://sdilej.cz/27323443/simpsonovi-s10e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670851",
-        "size_bytes": 530757428,
-        "source_bytes_read": 530757428,
-        "http_status": 201
+        "display_name": "The Simpsons S10E02 The Wizard of Evergreen Terrace 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:04:52.341753+00:00"
       }
     },
     "13:10:3": {
@@ -85959,5 +85960,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:04:48.864775+00:00"
+  "updated_at": "2026-10-31T15:04:52.341767+00:00"
 }
