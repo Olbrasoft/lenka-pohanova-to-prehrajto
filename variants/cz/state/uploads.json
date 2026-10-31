@@ -77655,12 +77655,6 @@
     },
     "13:2:5": {
       "episode_key": "simpsonovi:s2:e5",
-      "claim": {
-        "worker_id": "3ae501e35aa14f428b2adb3cad5eb533-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:27:21.243841+00:00",
-        "lease_expires_at": "2026-10-31T18:27:21.243852+00:00"
-      },
       "source": {
         "source_id": "27309717",
         "source_url": "https://sdilej.cz/27309717/simpsonovi-cz-s02e05.mkv",
@@ -77685,15 +77679,22 @@
         "display_name": "The Simpsons S02E05 Dancin' Homer 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:27:25.018322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665351",
-        "size_bytes": 555175074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665351",
+          "size_bytes": 555175074,
+          "source_bytes_read": 555175074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309717",
+        "source_url": "https://sdilej.cz/27309717/simpsonovi-cz-s02e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665351",
-        "size_bytes": 555175074,
-        "source_bytes_read": 555175074,
-        "http_status": 201
+        "display_name": "The Simpsons S02E05 Dancin' Homer 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:29:26.206399+00:00"
       }
     },
     "13:2:6": {
@@ -77735,5 +77736,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:29:24.924424+00:00"
+  "updated_at": "2026-10-31T12:29:26.206413+00:00"
 }
