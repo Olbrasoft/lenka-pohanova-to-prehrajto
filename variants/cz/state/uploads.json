@@ -89139,12 +89139,6 @@
     },
     "13:13:11": {
       "episode_key": "simpsonovi:s13:e11",
-      "claim": {
-        "worker_id": "72c3f5e196a54965a22aa4bb81423f48-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:50:18.222511+00:00",
-        "lease_expires_at": "2026-10-31T21:50:18.222520+00:00"
-      },
       "source": {
         "source_id": "27325382",
         "source_url": "https://sdilej.cz/27325382/simpsonovi-s13e11-cz.mkv",
@@ -89169,15 +89163,22 @@
         "display_name": "The Simpsons S13E11 The Bart Wants What It Wants 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:50:20.142413+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671947",
-        "size_bytes": 512995884
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671947",
+          "size_bytes": 512995884,
+          "source_bytes_read": 512995884,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27325382",
+        "source_url": "https://sdilej.cz/27325382/simpsonovi-s13e11-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671947",
-        "size_bytes": 512995884,
-        "source_bytes_read": 512995884,
-        "http_status": 201
+        "display_name": "The Simpsons S13E11 The Bart Wants What It Wants 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:51:06.928580+00:00"
       }
     },
     "13:13:12": {
@@ -89219,5 +89220,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:51:05.415882+00:00"
+  "updated_at": "2026-10-31T15:51:06.928594+00:00"
 }
