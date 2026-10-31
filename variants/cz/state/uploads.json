@@ -87906,12 +87906,6 @@
     },
     "13:12:4": {
       "episode_key": "simpsonovi:s12:e4",
-      "claim": {
-        "worker_id": "5e598672ee0d4218b29aa52bd4d3d1fb-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:34:20.045339+00:00",
-        "lease_expires_at": "2026-10-31T21:34:20.045349+00:00"
-      },
       "source": {
         "source_id": "27324305",
         "source_url": "https://sdilej.cz/27324305/simpsonovi-s12e04-cz.mkv",
@@ -87936,15 +87930,22 @@
         "display_name": "The Simpsons S12E04 Lisa the Tree Hugger 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:34:21.777914+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671629",
-        "size_bytes": 509447244
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671629",
+          "size_bytes": 509447244,
+          "source_bytes_read": 509447244,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27324305",
+        "source_url": "https://sdilej.cz/27324305/simpsonovi-s12e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671629",
-        "size_bytes": 509447244,
-        "source_bytes_read": 509447244,
-        "http_status": 201
+        "display_name": "The Simpsons S12E04 Lisa the Tree Hugger 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:35:17.616309+00:00"
       }
     },
     "13:12:5": {
@@ -87990,5 +87991,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:35:15.133135+00:00"
+  "updated_at": "2026-10-31T15:35:17.616321+00:00"
 }
