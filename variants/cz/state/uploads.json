@@ -93708,12 +93708,6 @@
     },
     "13:18:6": {
       "episode_key": "simpsonovi:s18:e6",
-      "claim": {
-        "worker_id": "1f7098736c804f10a66924234f449015-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:55:42.113683+00:00",
-        "lease_expires_at": "2026-10-31T22:55:42.113691+00:00"
-      },
       "source": {
         "source_id": "35004941",
         "source_url": "https://sdilej.cz/35004941/simpsonovi-s18e06-vocko-versotepcem-cz.mkv",
@@ -93738,15 +93732,22 @@
         "display_name": "The Simpsons S18E06 Moe'N'a Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:55:44.979782+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673314",
-        "size_bytes": 169633484
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673314",
+          "size_bytes": 169633484,
+          "source_bytes_read": 169633484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35004941",
+        "source_url": "https://sdilej.cz/35004941/simpsonovi-s18e06-vocko-versotepcem-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673314",
-        "size_bytes": 169633484,
-        "source_bytes_read": 169633484,
-        "http_status": 201
+        "display_name": "The Simpsons S18E06 Moe'N'a Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:56:09.884130+00:00"
       }
     },
     "13:18:7": {
@@ -93788,5 +93789,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:56:08.414227+00:00"
+  "updated_at": "2026-10-31T16:56:09.884142+00:00"
 }
