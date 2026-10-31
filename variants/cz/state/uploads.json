@@ -69691,12 +69691,6 @@
     },
     "3303:1:6": {
       "episode_key": "za zdí zahrady:s1:e6",
-      "claim": {
-        "worker_id": "f0c1401df0db4072a9047e7027d28eb3-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:37:58.429141+00:00",
-        "lease_expires_at": "2026-10-31T09:37:58.429154+00:00"
-      },
       "source": {
         "source_id": "34720565",
         "source_url": "https://sdilej.cz/34720565/za-zdi-zahrady-s01e06-10-2014-cz-dabing-1080p-fhd-ukolebavka-v-zabi-risi.mkv",
@@ -69721,15 +69715,22 @@
         "display_name": "Over the Garden Wall S01E06 Lullaby in Frogland 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:38:02.564014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653879",
-        "size_bytes": 717443192
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653879",
+          "size_bytes": 717443192,
+          "source_bytes_read": 717443192,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34720565",
+        "source_url": "https://sdilej.cz/34720565/za-zdi-zahrady-s01e06-10-2014-cz-dabing-1080p-fhd-ukolebavka-v-zabi-risi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653879",
-        "size_bytes": 717443192,
-        "source_bytes_read": 717443192,
-        "http_status": 201
+        "display_name": "Over the Garden Wall S01E06 Lullaby in Frogland 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:40:11.422131+00:00"
       }
     },
     "3303:1:7": {
@@ -69775,5 +69776,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:40:08.012868+00:00"
+  "updated_at": "2026-10-31T03:40:11.422149+00:00"
 }
