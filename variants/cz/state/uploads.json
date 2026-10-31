@@ -64586,12 +64586,6 @@
     },
     "956:7:16": {
       "episode_key": "star trek: nová generace:s7:e16",
-      "claim": {
-        "worker_id": "d45e627c0ae64fa29bcc7efa32bb7258-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:35:57.914667+00:00",
-        "lease_expires_at": "2026-10-31T06:35:57.914676+00:00"
-      },
       "source": {
         "source_id": "28165651",
         "source_url": "https://sdilej.cz/28165651/star-trek-nova-generace-s07e16-tve-vlastni-ja.mkv",
@@ -64616,15 +64610,22 @@
         "display_name": "Star Trek: The Next Generation S07E16 Thine Own Self 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:35:59.779613+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649936",
-        "size_bytes": 370571532
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649936",
+          "size_bytes": 370571532,
+          "source_bytes_read": 370571532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165651",
+        "source_url": "https://sdilej.cz/28165651/star-trek-nova-generace-s07e16-tve-vlastni-ja.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649936",
-        "size_bytes": 370571532,
-        "source_bytes_read": 370571532,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E16 Thine Own Self 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:37:22.298144+00:00"
       }
     }
   },
@@ -64633,5 +64634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:37:20.610851+00:00"
+  "updated_at": "2026-10-31T00:37:22.298162+00:00"
 }
