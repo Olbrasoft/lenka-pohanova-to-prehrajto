@@ -69207,12 +69207,6 @@
     },
     "1127:7:8": {
       "episode_key": "policejní odznak:s7:e8",
-      "claim": {
-        "worker_id": "992fbf143001414e94c7cee20b93141c-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:20:19.543733+00:00",
-        "lease_expires_at": "2026-10-31T09:20:19.543746+00:00"
-      },
       "source": {
         "source_id": "33818014",
         "source_url": "https://sdilej.cz/33818014/the-shield-s07e08-policejni-odznak-fhd-1080p-cz-vlastizrada.mkv",
@@ -69237,15 +69231,22 @@
         "display_name": "The Shield S07E08 Parricide 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:20:22.665119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653591",
-        "size_bytes": 486656103
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653591",
+          "size_bytes": 486656103,
+          "source_bytes_read": 486656103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818014",
+        "source_url": "https://sdilej.cz/33818014/the-shield-s07e08-policejni-odznak-fhd-1080p-cz-vlastizrada.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653591",
-        "size_bytes": 486656103,
-        "source_bytes_read": 486656103,
-        "http_status": 201
+        "display_name": "The Shield S07E08 Parricide 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:22:04.878790+00:00"
       }
     }
   },
@@ -69254,5 +69255,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:22:00.620089+00:00"
+  "updated_at": "2026-10-31T03:22:04.878807+00:00"
 }
