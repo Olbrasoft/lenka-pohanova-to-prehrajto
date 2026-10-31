@@ -113603,12 +113603,6 @@
     },
     "104:1:13": {
       "episode_key": "akta x:s1:e13",
-      "claim": {
-        "worker_id": "6dce5e8135e648958eb05027dfa1d2a9-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:50:48.793756+00:00",
-        "lease_expires_at": "2026-11-01T05:50:48.793774+00:00"
-      },
       "source": {
         "source_id": "32201135",
         "source_url": "https://sdilej.cz/32201135/akta-x-s01e13-tam-za-morem.mkv",
@@ -113633,15 +113627,22 @@
         "display_name": "The X-Files S01E13 Beyond the Sea 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:50:52.225248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681057",
-        "size_bytes": 977698059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681057",
+          "size_bytes": 977698059,
+          "source_bytes_read": 977698059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201135",
+        "source_url": "https://sdilej.cz/32201135/akta-x-s01e13-tam-za-morem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681057",
-        "size_bytes": 977698059,
-        "source_bytes_read": 977698059,
-        "http_status": 201
+        "display_name": "The X-Files S01E13 Beyond the Sea 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:52:12.663707+00:00"
       }
     },
     "104:1:14": {
@@ -113768,5 +113769,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:52:08.603175+00:00"
+  "updated_at": "2026-10-31T23:52:12.663723+00:00"
 }
