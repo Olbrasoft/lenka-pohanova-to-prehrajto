@@ -93143,12 +93143,6 @@
     },
     "13:17:15": {
       "episode_key": "simpsonovi:s17:e15",
-      "claim": {
-        "worker_id": "190b3a397d71401e9e4c56167a46f3d4-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:51:59.103157+00:00",
-        "lease_expires_at": "2026-10-31T22:51:59.103192+00:00"
-      },
       "source": {
         "source_id": "28378845",
         "source_url": "https://sdilej.cz/28378845/simpsonovi-s17e15-homere-simpsone-tohle-je-tvoje-zena.mkv",
@@ -93173,15 +93167,22 @@
         "display_name": "The Simpsons S17E15 Homer Simpson, This Is Your Wife 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:52:00.911417+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673231",
-        "size_bytes": 485888637
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673231",
+          "size_bytes": 485888637,
+          "source_bytes_read": 485888637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378845",
+        "source_url": "https://sdilej.cz/28378845/simpsonovi-s17e15-homere-simpsone-tohle-je-tvoje-zena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673231",
-        "size_bytes": 485888637,
-        "source_bytes_read": 485888637,
-        "http_status": 201
+        "display_name": "The Simpsons S17E15 Homer Simpson, This Is Your Wife 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:53:00.579710+00:00"
       }
     },
     "13:17:16": {
@@ -93264,5 +93265,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:52:57.072228+00:00"
+  "updated_at": "2026-10-31T16:53:00.579722+00:00"
 }
