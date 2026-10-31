@@ -95651,12 +95651,6 @@
     },
     "13:20:8": {
       "episode_key": "simpsonovi:s20:e8",
-      "claim": {
-        "worker_id": "80ceea477ef6448884767e619af7ef77-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:35:16.379246+00:00",
-        "lease_expires_at": "2026-10-31T23:35:16.379255+00:00"
-      },
       "source": {
         "source_id": "28380308",
         "source_url": "https://sdilej.cz/28380308/simpsonovi-s20e08-burns-a-vcely.mkv",
@@ -95681,15 +95675,22 @@
         "display_name": "The Simpsons S20E08 The Burns and the Bees 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:35:18.214719+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674283",
-        "size_bytes": 805364217
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674283",
+          "size_bytes": 805364217,
+          "source_bytes_read": 805364217,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380308",
+        "source_url": "https://sdilej.cz/28380308/simpsonovi-s20e08-burns-a-vcely.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674283",
-        "size_bytes": 805364217,
-        "source_bytes_read": 805364217,
-        "http_status": 201
+        "display_name": "The Simpsons S20E08 The Burns and the Bees 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:36:29.358842+00:00"
       }
     },
     "13:20:9": {
@@ -95772,5 +95773,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:36:26.190578+00:00"
+  "updated_at": "2026-10-31T17:36:29.358851+00:00"
 }
