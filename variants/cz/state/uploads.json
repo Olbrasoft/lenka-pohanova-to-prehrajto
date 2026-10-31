@@ -77699,12 +77699,6 @@
     },
     "13:2:6": {
       "episode_key": "simpsonovi:s2:e6",
-      "claim": {
-        "worker_id": "a59f608aab504b9b89b7ac5feb745530-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:29:22.216041+00:00",
-        "lease_expires_at": "2026-10-31T18:29:22.216051+00:00"
-      },
       "source": {
         "source_id": "27309740",
         "source_url": "https://sdilej.cz/27309740/simpsonovi-cz-s02e06.mkv",
@@ -77729,15 +77723,22 @@
         "display_name": "The Simpsons S02E06 Dead Putting Society 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:29:24.924407+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665384",
-        "size_bytes": 550324015
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665384",
+          "size_bytes": 550324015,
+          "source_bytes_read": 550324015,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309740",
+        "source_url": "https://sdilej.cz/27309740/simpsonovi-cz-s02e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665384",
-        "size_bytes": 550324015,
-        "source_bytes_read": 550324015,
-        "http_status": 201
+        "display_name": "The Simpsons S02E06 Dead Putting Society 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:31:08.230963+00:00"
       }
     },
     "13:2:7": {
@@ -77820,5 +77821,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:31:05.193570+00:00"
+  "updated_at": "2026-10-31T12:31:08.230980+00:00"
 }
