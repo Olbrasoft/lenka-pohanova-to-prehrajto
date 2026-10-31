@@ -99421,12 +99421,6 @@
     },
     "13:24:6": {
       "episode_key": "simpsonovi:s24:e6",
-      "claim": {
-        "worker_id": "c4c9689545c8467a9ffc3a9a88f15b3b-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:43:43.530643+00:00",
-        "lease_expires_at": "2026-11-01T00:43:43.530655+00:00"
-      },
       "source": {
         "source_id": "34973938",
         "source_url": "https://sdilej.cz/34973938/simpsonovi-s24e06-cz-dabing-hevc-2012-.mkv",
@@ -99451,15 +99445,22 @@
         "display_name": "The Simpsons S24E06 A Tree Grows in Springfield 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:43:45.553606+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675353",
-        "size_bytes": 163098779
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675353",
+          "size_bytes": 163098779,
+          "source_bytes_read": 163098779,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34973938",
+        "source_url": "https://sdilej.cz/34973938/simpsonovi-s24e06-cz-dabing-hevc-2012-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675353",
-        "size_bytes": 163098779,
-        "source_bytes_read": 163098779,
-        "http_status": 201
+        "display_name": "The Simpsons S24E06 A Tree Grows in Springfield 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:44:09.837475+00:00"
       }
     }
   },
@@ -99468,5 +99469,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:44:06.520109+00:00"
+  "updated_at": "2026-10-31T18:44:09.837492+00:00"
 }
