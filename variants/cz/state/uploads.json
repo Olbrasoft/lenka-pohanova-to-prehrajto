@@ -98687,12 +98687,6 @@
     },
     "13:23:11": {
       "episode_key": "simpsonovi:s23:e11",
-      "claim": {
-        "worker_id": "d6d55df9619145f797f76657234211c5-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:31:14.412026+00:00",
-        "lease_expires_at": "2026-11-01T00:31:14.412037+00:00"
-      },
       "source": {
         "source_id": "32764185",
         "source_url": "https://sdilej.cz/32764185/simpsonovi-s23e11-cz-dabing.mkv",
@@ -98717,15 +98711,22 @@
         "display_name": "The Simpsons S23E11 The D'oh-cial Network 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:31:16.335275+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675160",
-        "size_bytes": 499858521
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675160",
+          "size_bytes": 499858521,
+          "source_bytes_read": 499858521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764185",
+        "source_url": "https://sdilej.cz/32764185/simpsonovi-s23e11-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675160",
-        "size_bytes": 499858521,
-        "source_bytes_read": 499858521,
-        "http_status": 201
+        "display_name": "The Simpsons S23E11 The D'oh-cial Network 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:32:33.028543+00:00"
       }
     },
     "13:23:12": {
@@ -98771,5 +98772,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:32:28.905261+00:00"
+  "updated_at": "2026-10-31T18:32:33.028561+00:00"
 }
