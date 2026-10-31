@@ -67616,12 +67616,6 @@
     },
     "1127:4:6": {
       "episode_key": "policejní odznak:s4:e6",
-      "claim": {
-        "worker_id": "fd832473ce5041c798f8bc2638dded79-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:38:21.249290+00:00",
-        "lease_expires_at": "2026-10-31T08:38:21.249303+00:00"
-      },
       "source": {
         "source_id": "33817936",
         "source_url": "https://sdilej.cz/33817936/the-shield-s04e06-policejni-odznak-fhd-1080p-cz-vzbourenci.mkv",
@@ -67646,15 +67640,22 @@
         "display_name": "The Shield S04E06 Insurgents 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:38:23.143274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652887",
-        "size_bytes": 501603115
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652887",
+          "size_bytes": 501603115,
+          "source_bytes_read": 501603115,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817936",
+        "source_url": "https://sdilej.cz/33817936/the-shield-s04e06-policejni-odznak-fhd-1080p-cz-vzbourenci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652887",
-        "size_bytes": 501603115,
-        "source_bytes_read": 501603115,
-        "http_status": 201
+        "display_name": "The Shield S04E06 Insurgents 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:39:54.923689+00:00"
       }
     }
   },
@@ -67663,5 +67664,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:39:50.215100+00:00"
+  "updated_at": "2026-10-31T02:39:54.923707+00:00"
 }
