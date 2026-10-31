@@ -106871,12 +106871,6 @@
     },
     "13:32:1": {
       "episode_key": "simpsonovi:s32:e1",
-      "claim": {
-        "worker_id": "11a15660b59d4de09cc694a53c159aa8-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:46:51.725909+00:00",
-        "lease_expires_at": "2026-11-01T02:46:51.725920+00:00"
-      },
       "source": {
         "source_id": "32767080",
         "source_url": "https://sdilej.cz/32767080/simpsonovi-s32e01-cz-dabing.mkv",
@@ -106901,15 +106895,22 @@
         "display_name": "The Simpsons S32E01 Undercover Burns 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:46:55.242516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678159",
-        "size_bytes": 506017594
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678159",
+          "size_bytes": 506017594,
+          "source_bytes_read": 506017594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32767080",
+        "source_url": "https://sdilej.cz/32767080/simpsonovi-s32e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678159",
-        "size_bytes": 506017594,
-        "source_bytes_read": 506017594,
-        "http_status": 201
+        "display_name": "The Simpsons S32E01 Undercover Burns 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:47:50.133030+00:00"
       }
     },
     "13:32:2": {
@@ -106955,5 +106956,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:47:48.021808+00:00"
+  "updated_at": "2026-10-31T20:47:50.133040+00:00"
 }
