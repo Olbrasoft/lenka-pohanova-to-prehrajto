@@ -89446,12 +89446,6 @@
     },
     "13:13:18": {
       "episode_key": "simpsonovi:s13:e18",
-      "claim": {
-        "worker_id": "031e8c52472d4d3ebfe36d72089d2832-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:53:15.260068+00:00",
-        "lease_expires_at": "2026-10-31T21:53:15.260079+00:00"
-      },
       "source": {
         "source_id": "27325433",
         "source_url": "https://sdilej.cz/27325433/simpsonovi-s13e18-cz.mkv",
@@ -89476,15 +89470,22 @@
         "display_name": "The Simpsons S13E18 I Am Furious (Yellow) 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:53:17.055430+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672057",
-        "size_bytes": 512413702
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672057",
+          "size_bytes": 512413702,
+          "source_bytes_read": 512413702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27325433",
+        "source_url": "https://sdilej.cz/27325433/simpsonovi-s13e18-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672057",
-        "size_bytes": 512413702,
-        "source_bytes_read": 512413702,
-        "http_status": 201
+        "display_name": "The Simpsons S13E18 I Am Furious (Yellow) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:54:28.751832+00:00"
       }
     },
     "13:13:19": {
@@ -89537,5 +89538,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:54:25.519101+00:00"
+  "updated_at": "2026-10-31T15:54:28.751843+00:00"
 }
