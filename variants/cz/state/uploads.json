@@ -67315,12 +67315,6 @@
     },
     "1127:3:14": {
       "episode_key": "policejní odznak:s3:e14",
-      "claim": {
-        "worker_id": "0e31afdcb87b48d9998cac4e1d10206d-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:31:49.877761+00:00",
-        "lease_expires_at": "2026-10-31T08:31:49.877773+00:00"
-      },
       "source": {
         "source_id": "33817925",
         "source_url": "https://sdilej.cz/33817925/the-shield-s03e14-policejni-odznak-fhd-1080p-cz-vsichni-za-jednoho.mkv",
@@ -67345,15 +67339,22 @@
         "display_name": "The Shield S03E14 All In 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:31:51.649822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652740",
-        "size_bytes": 504512365
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652740",
+          "size_bytes": 504512365,
+          "source_bytes_read": 504512365,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817925",
+        "source_url": "https://sdilej.cz/33817925/the-shield-s03e14-policejni-odznak-fhd-1080p-cz-vsichni-za-jednoho.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652740",
-        "size_bytes": 504512365,
-        "source_bytes_read": 504512365,
-        "http_status": 201
+        "display_name": "The Shield S03E14 All In 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:33:31.716222+00:00"
       }
     },
     "1127:3:15": {
@@ -67436,5 +67437,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:33:28.369791+00:00"
+  "updated_at": "2026-10-31T02:33:31.716241+00:00"
 }
