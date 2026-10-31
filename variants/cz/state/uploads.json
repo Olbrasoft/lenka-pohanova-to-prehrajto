@@ -88623,12 +88623,6 @@
     },
     "13:12:20": {
       "episode_key": "simpsonovi:s12:e20",
-      "claim": {
-        "worker_id": "5b12cc7e33c8450083dd03d3fd490d8d-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:40:20.997300+00:00",
-        "lease_expires_at": "2026-10-31T21:40:20.997309+00:00"
-      },
       "source": {
         "source_id": "27324431",
         "source_url": "https://sdilej.cz/27324431/simpsonovi-s12e20-cz.mkv",
@@ -88653,15 +88647,22 @@
         "display_name": "The Simpsons S12E20 Children of a Lesser Clod 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:40:22.976045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671745",
-        "size_bytes": 512731649
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671745",
+          "size_bytes": 512731649,
+          "source_bytes_read": 512731649,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27324431",
+        "source_url": "https://sdilej.cz/27324431/simpsonovi-s12e20-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671745",
-        "size_bytes": 512731649,
-        "source_bytes_read": 512731649,
-        "http_status": 201
+        "display_name": "The Simpsons S12E20 Children of a Lesser Clod 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:41:16.590463+00:00"
       }
     }
   },
@@ -88670,5 +88671,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:41:13.994608+00:00"
+  "updated_at": "2026-10-31T15:41:16.590476+00:00"
 }
