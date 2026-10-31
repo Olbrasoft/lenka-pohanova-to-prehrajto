@@ -103388,12 +103388,6 @@
     },
     "13:28:10": {
       "episode_key": "simpsonovi:s28:e10",
-      "claim": {
-        "worker_id": "b99c8c50f9bf4c64878b6f4a0e758703-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:53:19.377622+00:00",
-        "lease_expires_at": "2026-11-01T01:53:19.377633+00:00"
-      },
       "source": {
         "source_id": "32765603",
         "source_url": "https://sdilej.cz/32765603/simpsonovi-s28e10-cz-dabing.mkv",
@@ -103418,15 +103412,22 @@
         "display_name": "The Simpsons S28E10 The Nightmare After Krustmas 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:53:22.495408+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676736",
-        "size_bytes": 525538046
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676736",
+          "size_bytes": 525538046,
+          "source_bytes_read": 525538046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32765603",
+        "source_url": "https://sdilej.cz/32765603/simpsonovi-s28e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676736",
-        "size_bytes": 525538046,
-        "source_bytes_read": 525538046,
-        "http_status": 201
+        "display_name": "The Simpsons S28E10 The Nightmare After Krustmas 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:54:17.162428+00:00"
       }
     }
   },
@@ -103435,5 +103436,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:54:15.615001+00:00"
+  "updated_at": "2026-10-31T19:54:17.162444+00:00"
 }
