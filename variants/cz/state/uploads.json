@@ -78667,12 +78667,6 @@
     },
     "13:3:6": {
       "episode_key": "simpsonovi:s3:e6",
-      "claim": {
-        "worker_id": "e22e2cac4490428d92411b8dcd4d2200-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:48:05.236879+00:00",
-        "lease_expires_at": "2026-10-31T18:48:05.236887+00:00"
-      },
       "source": {
         "source_id": "27310263",
         "source_url": "https://sdilej.cz/27310263/simpsonovi-cz-s03e06.mkv",
@@ -78697,15 +78691,22 @@
         "display_name": "The Simpsons S03E06 Like Father, Like Clown 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:48:09.998434+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665739",
-        "size_bytes": 545648235
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665739",
+          "size_bytes": 545648235,
+          "source_bytes_read": 545648235,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310263",
+        "source_url": "https://sdilej.cz/27310263/simpsonovi-cz-s03e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665739",
-        "size_bytes": 545648235,
-        "source_bytes_read": 545648235,
-        "http_status": 201
+        "display_name": "The Simpsons S03E06 Like Father, Like Clown 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:49:59.618032+00:00"
       }
     },
     "13:3:7": {
@@ -78758,5 +78759,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:49:56.796418+00:00"
+  "updated_at": "2026-10-31T12:49:59.618042+00:00"
 }
