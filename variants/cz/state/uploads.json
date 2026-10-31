@@ -94507,12 +94507,6 @@
     },
     "13:19:2": {
       "episode_key": "simpsonovi:s19:e2",
-      "claim": {
-        "worker_id": "346a40855db245238df381eb7bb1ac03-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:06:45.598692+00:00",
-        "lease_expires_at": "2026-10-31T23:06:45.598703+00:00"
-      },
       "source": {
         "source_id": "28379647",
         "source_url": "https://sdilej.cz/28379647/simpsonovi-s19e02-homer-sevillsky.mkv",
@@ -94537,15 +94531,22 @@
         "display_name": "The Simpsons S19E02 The Homer of Seville 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:06:48.649638+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673546",
-        "size_bytes": 904968153
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673546",
+          "size_bytes": 904968153,
+          "source_bytes_read": 904968153,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379647",
+        "source_url": "https://sdilej.cz/28379647/simpsonovi-s19e02-homer-sevillsky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673546",
-        "size_bytes": 904968153,
-        "source_bytes_read": 904968153,
-        "http_status": 201
+        "display_name": "The Simpsons S19E02 The Homer of Seville 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:08:46.019844+00:00"
       }
     },
     "13:19:3": {
@@ -94628,5 +94629,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:08:41.271701+00:00"
+  "updated_at": "2026-10-31T17:08:46.019855+00:00"
 }
