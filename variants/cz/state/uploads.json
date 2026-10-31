@@ -64983,12 +64983,6 @@
     },
     "956:7:25": {
       "episode_key": "star trek: nová generace:s7:e25",
-      "claim": {
-        "worker_id": "e120a7cae51d41d2b757c6caabf5a428-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:46:56.452766+00:00",
-        "lease_expires_at": "2026-10-31T06:46:56.452776+00:00"
-      },
       "source": {
         "source_id": "33993375",
         "source_url": "https://sdilej.cz/33993375/star-trek-nova-generace-s07e25-vsechno-dobre-.mkv",
@@ -65013,15 +65007,22 @@
         "display_name": "Star Trek: The Next Generation S07E25 All Good Things… 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:47:00.682721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30650113",
-        "size_bytes": 800773177
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30650113",
+          "size_bytes": 800773177,
+          "source_bytes_read": 800773177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33993375",
+        "source_url": "https://sdilej.cz/33993375/star-trek-nova-generace-s07e25-vsechno-dobre-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30650113",
-        "size_bytes": 800773177,
-        "source_bytes_read": 800773177,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E25 All Good Things… 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:49:40.335099+00:00"
       }
     },
     "1562:1:1": {
@@ -65104,5 +65105,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:49:36.003971+00:00"
+  "updated_at": "2026-10-31T00:49:40.335116+00:00"
 }
