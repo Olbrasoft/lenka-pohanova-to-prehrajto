@@ -63575,12 +63575,6 @@
     },
     "956:6:19": {
       "episode_key": "star trek: nová generace:s6:e19",
-      "claim": {
-        "worker_id": "3e1cb38dface4f0dad0d1a7196edd674-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:21:30.367991+00:00",
-        "lease_expires_at": "2026-10-31T06:21:30.368003+00:00"
-      },
       "source": {
         "source_id": "28165790",
         "source_url": "https://sdilej.cz/28165790/star-trek-nova-generace-s06e19-lekce.mkv",
@@ -63605,15 +63599,22 @@
         "display_name": "Star Trek: The Next Generation S06E19 Lessons 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:21:33.665385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649747",
-        "size_bytes": 370933754
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649747",
+          "size_bytes": 370933754,
+          "source_bytes_read": 370933754,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165790",
+        "source_url": "https://sdilej.cz/28165790/star-trek-nova-generace-s06e19-lekce.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649747",
-        "size_bytes": 370933754,
-        "source_bytes_read": 370933754,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E19 Lessons 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:22:47.155456+00:00"
       }
     },
     "956:6:20": {
@@ -63696,5 +63697,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:22:43.188801+00:00"
+  "updated_at": "2026-10-31T00:22:47.155474+00:00"
 }
