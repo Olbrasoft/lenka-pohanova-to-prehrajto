@@ -63971,12 +63971,6 @@
     },
     "956:7:2": {
       "episode_key": "star trek: nová generace:s7:e2",
-      "claim": {
-        "worker_id": "253da442ee674ddc93d68f6c38f4d129-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:28:24.820351+00:00",
-        "lease_expires_at": "2026-10-31T06:28:24.820362+00:00"
-      },
       "source": {
         "source_id": "28165752",
         "source_url": "https://sdilej.cz/28165752/star-trek-nova-generace-s07e02-vztahy.mkv",
@@ -64001,15 +63995,22 @@
         "display_name": "Star Trek: The Next Generation S07E02 Liaisons 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:28:27.877933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649831",
-        "size_bytes": 370835935
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649831",
+          "size_bytes": 370835935,
+          "source_bytes_read": 370835935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165752",
+        "source_url": "https://sdilej.cz/28165752/star-trek-nova-generace-s07e02-vztahy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649831",
-        "size_bytes": 370835935,
-        "source_bytes_read": 370835935,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E02 Liaisons 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:29:50.255874+00:00"
       }
     },
     "956:7:3": {
@@ -64098,5 +64099,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:29:47.152205+00:00"
+  "updated_at": "2026-10-31T00:29:50.255891+00:00"
 }
