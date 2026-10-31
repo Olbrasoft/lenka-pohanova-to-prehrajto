@@ -97851,12 +97851,6 @@
     },
     "13:22:14": {
       "episode_key": "simpsonovi:s22:e14",
-      "claim": {
-        "worker_id": "c4ced16b5ab84e3b944a9874131f21df-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:13:28.385279+00:00",
-        "lease_expires_at": "2026-11-01T00:13:28.385289+00:00"
-      },
       "source": {
         "source_id": "32764037",
         "source_url": "https://sdilej.cz/32764037/simpsonovi-s22e14-cz-dabing.mkv",
@@ -97881,15 +97875,22 @@
         "display_name": "The Simpsons S22E14 Angry Dad: The Movie 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:13:30.687158+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674863",
-        "size_bytes": 514538401
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674863",
+          "size_bytes": 514538401,
+          "source_bytes_read": 514538401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764037",
+        "source_url": "https://sdilej.cz/32764037/simpsonovi-s22e14-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674863",
-        "size_bytes": 514538401,
-        "source_bytes_read": 514538401,
-        "http_status": 201
+        "display_name": "The Simpsons S22E14 Angry Dad: The Movie 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:14:22.991493+00:00"
       }
     },
     "13:22:15": {
@@ -97971,5 +97972,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:14:21.363324+00:00"
+  "updated_at": "2026-10-31T18:14:22.991507+00:00"
 }
