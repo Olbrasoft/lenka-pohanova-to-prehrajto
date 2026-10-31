@@ -84871,12 +84871,6 @@
     },
     "13:9:5": {
       "episode_key": "simpsonovi:s9:e5",
-      "claim": {
-        "worker_id": "45f99aafaeb84a04b550de42f5af5d94-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:48:11.822875+00:00",
-        "lease_expires_at": "2026-10-31T20:48:11.822885+00:00"
-      },
       "source": {
         "source_id": "27322427",
         "source_url": "https://sdilej.cz/27322427/simpsonovi-cz-s09e05.mkv",
@@ -84901,15 +84895,22 @@
         "display_name": "The Simpsons S09E05 The Cartridge Family 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:48:13.650423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670484",
-        "size_bytes": 530774432
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670484",
+          "size_bytes": 530774432,
+          "source_bytes_read": 530774432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322427",
+        "source_url": "https://sdilej.cz/27322427/simpsonovi-cz-s09e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670484",
-        "size_bytes": 530774432,
-        "source_bytes_read": 530774432,
-        "http_status": 201
+        "display_name": "The Simpsons S09E05 The Cartridge Family 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:49:12.250300+00:00"
       }
     },
     "13:9:6": {
@@ -84992,5 +84993,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:49:09.820873+00:00"
+  "updated_at": "2026-10-31T14:49:12.250313+00:00"
 }
