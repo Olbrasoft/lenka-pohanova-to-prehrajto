@@ -67007,12 +67007,6 @@
     },
     "1127:3:7": {
       "episode_key": "policejní odznak:s3:e7",
-      "claim": {
-        "worker_id": "da3fb3ad96424a83848315a4ac73eab4-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:24:49.099251+00:00",
-        "lease_expires_at": "2026-10-31T08:24:49.099263+00:00"
-      },
       "source": {
         "source_id": "33817909",
         "source_url": "https://sdilej.cz/33817909/the-shield-s03e07-policejni-odznak-fhd-1080p-cz-sejf.mkv",
@@ -67037,15 +67031,22 @@
         "display_name": "The Shield S03E07 Safe 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:24:54.103489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652573",
-        "size_bytes": 505757694
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652573",
+          "size_bytes": 505757694,
+          "source_bytes_read": 505757694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817909",
+        "source_url": "https://sdilej.cz/33817909/the-shield-s03e07-policejni-odznak-fhd-1080p-cz-sejf.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652573",
-        "size_bytes": 505757694,
-        "source_bytes_read": 505757694,
-        "http_status": 201
+        "display_name": "The Shield S03E07 Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:26:25.242676+00:00"
       }
     },
     "1127:3:8": {
@@ -67128,5 +67129,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:26:20.888897+00:00"
+  "updated_at": "2026-10-31T02:26:25.242694+00:00"
 }
