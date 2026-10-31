@@ -69427,12 +69427,6 @@
     },
     "3303:1:1": {
       "episode_key": "za zdí zahrady:s1:e1",
-      "claim": {
-        "worker_id": "4897cc35947042b380979d1b6b63c575-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:32:49.284303+00:00",
-        "lease_expires_at": "2026-10-31T09:32:49.284313+00:00"
-      },
       "source": {
         "source_id": "34720540",
         "source_url": "https://sdilej.cz/34720540/za-zdi-zahrady-s01e01-10-2014-cz-dabing-1080p-fhd-ve-starem-mlyne.mkv",
@@ -69457,15 +69451,22 @@
         "display_name": "Over the Garden Wall S01E01 The Old Grist Mill 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:32:54.218737+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653804",
-        "size_bytes": 696792931
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653804",
+          "size_bytes": 696792931,
+          "source_bytes_read": 696792931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34720540",
+        "source_url": "https://sdilej.cz/34720540/za-zdi-zahrady-s01e01-10-2014-cz-dabing-1080p-fhd-ve-starem-mlyne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653804",
-        "size_bytes": 696792931,
-        "source_bytes_read": 696792931,
-        "http_status": 201
+        "display_name": "Over the Garden Wall S01E01 The Old Grist Mill 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:34:54.092790+00:00"
       }
     },
     "1127:7:13": {
@@ -69548,5 +69549,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:34:48.637851+00:00"
+  "updated_at": "2026-10-31T03:34:54.092806+00:00"
 }
