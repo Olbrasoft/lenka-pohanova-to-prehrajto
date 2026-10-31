@@ -108631,12 +108631,6 @@
     },
     "13:33:19": {
       "episode_key": "simpsonovi:s33:e19",
-      "claim": {
-        "worker_id": "e5cb8ebe92e14f50aac3eaa3e18814dc-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:09:38.351959+00:00",
-        "lease_expires_at": "2026-11-01T03:09:38.351970+00:00"
-      },
       "source": {
         "source_id": "33102047",
         "source_url": "https://sdilej.cz/33102047/simpsonovi-s33e19-cz-dabing.mkv",
@@ -108661,15 +108655,22 @@
         "display_name": "The Simpsons S33E19 Girls Just Shauna Have Fun 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:09:40.928136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678669",
-        "size_bytes": 449039825
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678669",
+          "size_bytes": 449039825,
+          "source_bytes_read": 449039825,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33102047",
+        "source_url": "https://sdilej.cz/33102047/simpsonovi-s33e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678669",
-        "size_bytes": 449039825,
-        "source_bytes_read": 449039825,
-        "http_status": 201
+        "display_name": "The Simpsons S33E19 Girls Just Shauna Have Fun 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:10:24.005458+00:00"
       }
     },
     "13:33:20": {
@@ -108752,5 +108753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:10:21.744933+00:00"
+  "updated_at": "2026-10-31T21:10:24.005472+00:00"
 }
