@@ -73255,12 +73255,6 @@
     },
     "21:2:6": {
       "episode_key": "stranger things:s2:e6",
-      "claim": {
-        "worker_id": "fb0946b9a52648c4b498c78be79429b5-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:01:56.977862+00:00",
-        "lease_expires_at": "2026-10-31T12:01:56.977874+00:00"
-      },
       "source": {
         "source_id": "33163812",
         "source_url": "https://sdilej.cz/33163812/stranger-things-s02e06-kapitola-sesta-speh.mkv",
@@ -73285,15 +73279,22 @@
         "display_name": "Stranger Things S02E06 Chapter Six: The Spy 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:01:58.625440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656701",
-        "size_bytes": 2434932590
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656701",
+          "size_bytes": 2434932590,
+          "source_bytes_read": 2434932590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163812",
+        "source_url": "https://sdilej.cz/33163812/stranger-things-s02e06-kapitola-sesta-speh.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656701",
-        "size_bytes": 2434932590,
-        "source_bytes_read": 2434932590,
-        "http_status": 201
+        "display_name": "Stranger Things S02E06 Chapter Six: The Spy 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:09:39.102289+00:00"
       }
     },
     "21:2:7": {
@@ -73339,5 +73340,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:09:37.801096+00:00"
+  "updated_at": "2026-10-31T06:09:39.102306+00:00"
 }
