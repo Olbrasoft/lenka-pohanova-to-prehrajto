@@ -89981,12 +89981,6 @@
     },
     "13:14:8": {
       "episode_key": "simpsonovi:s14:e8",
-      "claim": {
-        "worker_id": "6dac62251cea4b86ac9fe02bd53f1773-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:00:52.934848+00:00",
-        "lease_expires_at": "2026-10-31T22:00:52.934859+00:00"
-      },
       "source": {
         "source_id": "28377707",
         "source_url": "https://sdilej.cz/28377707/simpsonovi-s14e08-vychova-divek-v-americe.mkv",
@@ -90011,15 +90005,22 @@
         "display_name": "The Simpsons S14E08 The Dad Who Knew Too Little 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:00:54.774204+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672198",
-        "size_bytes": 515160309
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672198",
+          "size_bytes": 515160309,
+          "source_bytes_read": 515160309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28377707",
+        "source_url": "https://sdilej.cz/28377707/simpsonovi-s14e08-vychova-divek-v-americe.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672198",
-        "size_bytes": 515160309,
-        "source_bytes_read": 515160309,
-        "http_status": 201
+        "display_name": "The Simpsons S14E08 The Dad Who Knew Too Little 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:03:16.018224+00:00"
       }
     },
     "13:14:9": {
@@ -90116,5 +90117,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:03:11.767326+00:00"
+  "updated_at": "2026-10-31T16:03:16.018236+00:00"
 }
