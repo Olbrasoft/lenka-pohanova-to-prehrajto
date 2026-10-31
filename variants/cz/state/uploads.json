@@ -73607,12 +73607,6 @@
     },
     "21:3:5": {
       "episode_key": "stranger things:s3:e5",
-      "claim": {
-        "worker_id": "93fa7278338c4f4fa99de6ed1e683d73-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:38:39.250296+00:00",
-        "lease_expires_at": "2026-10-31T12:38:39.250306+00:00"
-      },
       "source": {
         "source_id": "34843314",
         "source_url": "https://sdilej.cz/34843314/stranger-things-s03e05-08-2019-cz-dabing-2160p-uhd-kapitola-pata-armada.mkv",
@@ -73637,15 +73631,22 @@
         "display_name": "Stranger Things S03E05 Chapter Five: The Flayed 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:38:42.321742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30658633",
-        "size_bytes": 2478112549
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30658633",
+          "size_bytes": 2478112549,
+          "source_bytes_read": 2478112549,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34843314",
+        "source_url": "https://sdilej.cz/34843314/stranger-things-s03e05-08-2019-cz-dabing-2160p-uhd-kapitola-pata-armada.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30658633",
-        "size_bytes": 2478112549,
-        "source_bytes_read": 2478112549,
-        "http_status": 201
+        "display_name": "Stranger Things S03E05 Chapter Five: The Flayed 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:46:46.014246+00:00"
       }
     },
     "21:3:6": {
@@ -73698,5 +73699,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:46:40.044443+00:00"
+  "updated_at": "2026-10-31T06:46:46.014259+00:00"
 }
