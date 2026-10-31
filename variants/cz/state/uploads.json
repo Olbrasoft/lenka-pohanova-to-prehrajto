@@ -73204,12 +73204,6 @@
     },
     "21:2:5": {
       "episode_key": "stranger things:s2:e5",
-      "claim": {
-        "worker_id": "36c6185145534e05bcea2cf722df0053-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:59:23.895024+00:00",
-        "lease_expires_at": "2026-10-31T11:59:23.895035+00:00"
-      },
       "source": {
         "source_id": "34526306",
         "source_url": "https://sdilej.cz/34526306/stranger-things-s02e05-cz-dabing-1080p-fhd.mkv",
@@ -73234,15 +73228,22 @@
         "display_name": "Stranger Things S02E05 Chapter Five: Dig Dug 1080p CZ Dabing",
         "prepared_at": "2026-10-31T05:59:27.720525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656649",
-        "size_bytes": 1372575075
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656649",
+          "size_bytes": 1372575075,
+          "source_bytes_read": 1372575075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34526306",
+        "source_url": "https://sdilej.cz/34526306/stranger-things-s02e05-cz-dabing-1080p-fhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656649",
-        "size_bytes": 1372575075,
-        "source_bytes_read": 1372575075,
-        "http_status": 201
+        "display_name": "Stranger Things S02E05 Chapter Five: Dig Dug 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T06:04:14.634178+00:00"
       }
     },
     "21:2:6": {
@@ -73288,5 +73289,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:04:11.290397+00:00"
+  "updated_at": "2026-10-31T06:04:14.634197+00:00"
 }
