@@ -97103,12 +97103,6 @@
     },
     "13:21:20": {
       "episode_key": "simpsonovi:s21:e20",
-      "claim": {
-        "worker_id": "d804c95903554c97b40e4bbafa1ae8ad-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:55:23.667698+00:00",
-        "lease_expires_at": "2026-10-31T23:55:23.667707+00:00"
-      },
       "source": {
         "source_id": "32763851",
         "source_url": "https://sdilej.cz/32763851/simpsonovi-s21e20-cz-dabing.mkv",
@@ -97133,15 +97127,22 @@
         "display_name": "The Simpsons S21E20 To Surveil with Love 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:55:25.457004+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674611",
-        "size_bytes": 499122961
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674611",
+          "size_bytes": 499122961,
+          "source_bytes_read": 499122961,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763851",
+        "source_url": "https://sdilej.cz/32763851/simpsonovi-s21e20-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674611",
-        "size_bytes": 499122961,
-        "source_bytes_read": 499122961,
-        "http_status": 201
+        "display_name": "The Simpsons S21E20 To Surveil with Love 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:56:15.242668+00:00"
       }
     },
     "13:21:21": {
@@ -97224,5 +97225,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:56:12.074296+00:00"
+  "updated_at": "2026-10-31T17:56:15.242681+00:00"
 }
