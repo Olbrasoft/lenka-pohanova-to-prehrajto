@@ -80735,12 +80735,6 @@
     },
     "13:5:7": {
       "episode_key": "simpsonovi:s5:e7",
-      "claim": {
-        "worker_id": "28041010fc694681a17c5c760df42749-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:28:29.033000+00:00",
-        "lease_expires_at": "2026-10-31T19:28:29.033012+00:00"
-      },
       "source": {
         "source_id": "27311140",
         "source_url": "https://sdilej.cz/27311140/simpsonovi-cz-s05e07.mkv",
@@ -80765,15 +80759,22 @@
         "display_name": "The Simpsons S05E07 Bart's Inner Child 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:28:30.823251+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668297",
-        "size_bytes": 531763649
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668297",
+          "size_bytes": 531763649,
+          "source_bytes_read": 531763649,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311140",
+        "source_url": "https://sdilej.cz/27311140/simpsonovi-cz-s05e07.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668297",
-        "size_bytes": 531763649,
-        "source_bytes_read": 531763649,
-        "http_status": 201
+        "display_name": "The Simpsons S05E07 Bart's Inner Child 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:29:45.309487+00:00"
       }
     },
     "13:5:8": {
@@ -80855,5 +80856,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:29:42.695074+00:00"
+  "updated_at": "2026-10-31T13:29:45.309502+00:00"
 }
