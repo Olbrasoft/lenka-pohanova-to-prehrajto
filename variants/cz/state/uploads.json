@@ -99127,12 +99127,6 @@
     },
     "13:23:21": {
       "episode_key": "simpsonovi:s23:e21",
-      "claim": {
-        "worker_id": "f59f3d746fc847c4b516319c2f20f13b-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:41:30.722241+00:00",
-        "lease_expires_at": "2026-11-01T00:41:30.722253+00:00"
-      },
       "source": {
         "source_id": "32764261",
         "source_url": "https://sdilej.cz/32764261/simpsonovi-s23e21-cz-dabing.mkv",
@@ -99157,15 +99151,22 @@
         "display_name": "The Simpsons S23E21 Ned 'n Edna's Blend Agenda 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:41:32.734035+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675311",
-        "size_bytes": 487252745
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675311",
+          "size_bytes": 487252745,
+          "source_bytes_read": 487252745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764261",
+        "source_url": "https://sdilej.cz/32764261/simpsonovi-s23e21-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675311",
-        "size_bytes": 487252745,
-        "source_bytes_read": 487252745,
-        "http_status": 201
+        "display_name": "The Simpsons S23E21 Ned 'n Edna's Blend Agenda 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:42:18.865575+00:00"
       }
     },
     "13:23:22": {
@@ -99248,5 +99249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:42:15.377276+00:00"
+  "updated_at": "2026-10-31T18:42:18.865596+00:00"
 }
