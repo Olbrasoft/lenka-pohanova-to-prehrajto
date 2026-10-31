@@ -101049,12 +101049,6 @@
     },
     "13:26:1": {
       "episode_key": "simpsonovi:s26:e1",
-      "claim": {
-        "worker_id": "5aa7b76c81c84d21816d3f5be0616c45-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:13:54.014318+00:00",
-        "lease_expires_at": "2026-11-01T01:13:54.014328+00:00"
-      },
       "source": {
         "source_id": "32764724",
         "source_url": "https://sdilej.cz/32764724/simpsonovi-s26e01-cz-dabing.mkv",
@@ -101079,15 +101073,22 @@
         "display_name": "The Simpsons S26E01 Clown in the Dumps 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:13:55.945871+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675904",
-        "size_bytes": 486742774
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675904",
+          "size_bytes": 486742774,
+          "source_bytes_read": 486742774,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764724",
+        "source_url": "https://sdilej.cz/32764724/simpsonovi-s26e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675904",
-        "size_bytes": 486742774,
-        "source_bytes_read": 486742774,
-        "http_status": 201
+        "display_name": "The Simpsons S26E01 Clown in the Dumps 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:14:37.188147+00:00"
       }
     }
   },
@@ -101096,5 +101097,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:14:34.506943+00:00"
+  "updated_at": "2026-10-31T19:14:37.188164+00:00"
 }
