@@ -68987,12 +68987,6 @@
     },
     "1127:7:3": {
       "episode_key": "policejní odznak:s7:e3",
-      "claim": {
-        "worker_id": "a2fb2c4b022c49e681fbf7f159c3cf83-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:12:20.970963+00:00",
-        "lease_expires_at": "2026-10-31T09:12:20.970973+00:00"
-      },
       "source": {
         "source_id": "33818004",
         "source_url": "https://sdilej.cz/33818004/the-shield-s07e03-policejni-odznak-fhd-1080p-cz-vystrel-penez.mkv",
@@ -69017,15 +69011,22 @@
         "display_name": "The Shield S07E03 Money Shot 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:12:24.263945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653458",
-        "size_bytes": 493753526
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653458",
+          "size_bytes": 493753526,
+          "source_bytes_read": 493753526,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818004",
+        "source_url": "https://sdilej.cz/33818004/the-shield-s07e03-policejni-odznak-fhd-1080p-cz-vystrel-penez.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653458",
-        "size_bytes": 493753526,
-        "source_bytes_read": 493753526,
-        "http_status": 201
+        "display_name": "The Shield S07E03 Money Shot 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:13:58.897859+00:00"
       }
     },
     "1127:7:4": {
@@ -69108,5 +69109,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:13:57.483364+00:00"
+  "updated_at": "2026-10-31T03:13:58.897875+00:00"
 }
