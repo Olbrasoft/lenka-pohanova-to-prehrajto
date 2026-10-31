@@ -105859,12 +105859,6 @@
     },
     "13:30:23": {
       "episode_key": "simpsonovi:s30:e23",
-      "claim": {
-        "worker_id": "5bbee5d5b0374d4ab7279ef8946135ce-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:34:18.670215+00:00",
-        "lease_expires_at": "2026-11-01T02:34:18.670222+00:00"
-      },
       "source": {
         "source_id": "32766639",
         "source_url": "https://sdilej.cz/32766639/simpsonovi-s30e23-cz-dabing.mkv",
@@ -105889,15 +105883,22 @@
         "display_name": "The Simpsons S30E23 Crystal Blue-Haired Persuasion 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:34:20.748948+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677818",
-        "size_bytes": 500268144
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677818",
+          "size_bytes": 500268144,
+          "source_bytes_read": 500268144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766639",
+        "source_url": "https://sdilej.cz/32766639/simpsonovi-s30e23-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677818",
-        "size_bytes": 500268144,
-        "source_bytes_read": 500268144,
-        "http_status": 201
+        "display_name": "The Simpsons S30E23 Crystal Blue-Haired Persuasion 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:35:31.223900+00:00"
       }
     },
     "13:31:1": {
@@ -105987,5 +105988,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:35:27.105328+00:00"
+  "updated_at": "2026-10-31T20:35:31.223915+00:00"
 }
