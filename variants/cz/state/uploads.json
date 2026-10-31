@@ -76203,12 +76203,6 @@
     },
     "88:2:7": {
       "episode_key": "daredevil:s2:e7",
-      "claim": {
-        "worker_id": "74d5721440c54c949076a6c3b606cafe-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:20:16.016075+00:00",
-        "lease_expires_at": "2026-10-31T17:20:16.016086+00:00"
-      },
       "source": {
         "source_id": "32486226",
         "source_url": "https://sdilej.cz/32486226/daredevil-2016-s02e07-czdab-2160p-semper-fidelis.mkv",
@@ -76233,15 +76227,22 @@
         "display_name": "Marvel's Daredevil S02E07 Semper Fidelis 4K CZ Dabing",
         "prepared_at": "2026-10-31T11:20:19.988564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664217",
-        "size_bytes": 2665029485
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664217",
+          "size_bytes": 2665029485,
+          "source_bytes_read": 2665029485,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32486226",
+        "source_url": "https://sdilej.cz/32486226/daredevil-2016-s02e07-czdab-2160p-semper-fidelis.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664217",
-        "size_bytes": 2665029485,
-        "source_bytes_read": 2665029485,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S02E07 Semper Fidelis 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T11:31:07.018489+00:00"
       }
     },
     "88:2:8": {
@@ -76368,5 +76369,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:31:02.104642+00:00"
+  "updated_at": "2026-10-31T11:31:07.018505+00:00"
 }
