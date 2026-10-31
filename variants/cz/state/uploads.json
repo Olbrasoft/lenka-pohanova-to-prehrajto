@@ -98291,12 +98291,6 @@
     },
     "13:23:2": {
       "episode_key": "simpsonovi:s23:e2",
-      "claim": {
-        "worker_id": "4edac95a855747c99f008a4ce6f60bc3-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:26:57.952611+00:00",
-        "lease_expires_at": "2026-11-01T00:26:57.952620+00:00"
-      },
       "source": {
         "source_id": "32764128",
         "source_url": "https://sdilej.cz/32764128/simpsonovi-s23e02-cz-dabing.mkv",
@@ -98321,15 +98315,22 @@
         "display_name": "The Simpsons S23E02 Bart Stops to Smell the Roosevelts 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:27:03.642916+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675060",
-        "size_bytes": 505297130
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675060",
+          "size_bytes": 505297130,
+          "source_bytes_read": 505297130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764128",
+        "source_url": "https://sdilej.cz/32764128/simpsonovi-s23e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675060",
-        "size_bytes": 505297130,
-        "source_bytes_read": 505297130,
-        "http_status": 201
+        "display_name": "The Simpsons S23E02 Bart Stops to Smell the Roosevelts 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:27:56.166382+00:00"
       }
     },
     "13:23:3": {
@@ -98412,5 +98413,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:27:51.770132+00:00"
+  "updated_at": "2026-10-31T18:27:56.166400+00:00"
 }
