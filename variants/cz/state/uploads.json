@@ -80911,12 +80911,6 @@
     },
     "13:5:11": {
       "episode_key": "simpsonovi:s5:e11",
-      "claim": {
-        "worker_id": "27a7fbe3bb7c4e2cb1955e2b5c5b964b-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:30:12.490030+00:00",
-        "lease_expires_at": "2026-10-31T19:30:12.490041+00:00"
-      },
       "source": {
         "source_id": "27311213",
         "source_url": "https://sdilej.cz/27311213/simpsonovi-cz-s05e11.mkv",
@@ -80941,15 +80935,22 @@
         "display_name": "The Simpsons S05E11 Homer the Vigilante 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:30:14.210303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668556",
-        "size_bytes": 536002481
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668556",
+          "size_bytes": 536002481,
+          "source_bytes_read": 536002481,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311213",
+        "source_url": "https://sdilej.cz/27311213/simpsonovi-cz-s05e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668556",
-        "size_bytes": 536002481,
-        "source_bytes_read": 536002481,
-        "http_status": 201
+        "display_name": "The Simpsons S05E11 Homer the Vigilante 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:31:34.489527+00:00"
       }
     },
     "13:5:12": {
@@ -81000,5 +81001,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:31:33.116346+00:00"
+  "updated_at": "2026-10-31T13:31:34.489541+00:00"
 }
