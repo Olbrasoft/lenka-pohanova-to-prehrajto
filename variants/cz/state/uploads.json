@@ -72287,12 +72287,6 @@
     },
     "6996:1:2": {
       "episode_key": "já, claudius:s1:e2",
-      "claim": {
-        "worker_id": "5ee3200fbeba4d7d88b440d885ea34eb-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:06:49.567615+00:00",
-        "lease_expires_at": "2026-10-31T11:06:49.567625+00:00"
-      },
       "source": {
         "source_id": "29876825",
         "source_url": "https://sdilej.cz/29876825/ja-claudius-1976-s01e02-vyckavati-v-zavetri-czdab.mkv",
@@ -72317,15 +72311,22 @@
         "display_name": "I, Claudius S01E02 Waiting in the Wings SD CZ Dabing",
         "prepared_at": "2026-10-31T05:06:51.269014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655652",
-        "size_bytes": 666007805
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655652",
+          "size_bytes": 666007805,
+          "source_bytes_read": 666007805,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29876825",
+        "source_url": "https://sdilej.cz/29876825/ja-claudius-1976-s01e02-vyckavati-v-zavetri-czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655652",
-        "size_bytes": 666007805,
-        "source_bytes_read": 666007805,
-        "http_status": 201
+        "display_name": "I, Claudius S01E02 Waiting in the Wings SD CZ Dabing",
+        "uploaded_at": "2026-10-31T05:09:45.075067+00:00"
       }
     },
     "6996:1:4": {
@@ -72408,5 +72409,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:09:42.465528+00:00"
+  "updated_at": "2026-10-31T05:09:45.075086+00:00"
 }
