@@ -69119,12 +69119,6 @@
     },
     "1127:7:6": {
       "episode_key": "policejní odznak:s7:e6",
-      "claim": {
-        "worker_id": "d2806c9b56864477b110a689f063c2b9-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:19:54.941585+00:00",
-        "lease_expires_at": "2026-10-31T09:19:54.941596+00:00"
-      },
       "source": {
         "source_id": "33818009",
         "source_url": "https://sdilej.cz/33818009/the-shield-s07e06-policejni-odznak-fhd-1080p-cz-kontrola-zvirat.mkv",
@@ -69149,15 +69143,22 @@
         "display_name": "The Shield S07E06 Animal Control 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:19:58.365540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653580",
-        "size_bytes": 505259338
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653580",
+          "size_bytes": 505259338,
+          "source_bytes_read": 505259338,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818009",
+        "source_url": "https://sdilej.cz/33818009/the-shield-s07e06-policejni-odznak-fhd-1080p-cz-kontrola-zvirat.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653580",
-        "size_bytes": 505259338,
-        "source_bytes_read": 505259338,
-        "http_status": 201
+        "display_name": "The Shield S07E06 Animal Control 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:21:41.863232+00:00"
       }
     },
     "1127:7:7": {
@@ -69240,5 +69241,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:21:37.708415+00:00"
+  "updated_at": "2026-10-31T03:21:41.863252+00:00"
 }
