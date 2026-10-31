@@ -82407,12 +82407,6 @@
     },
     "13:6:24": {
       "episode_key": "simpsonovi:s6:e24",
-      "claim": {
-        "worker_id": "691c9244473a4bedbbd2de612ae39379-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:58:01.826291+00:00",
-        "lease_expires_at": "2026-10-31T19:58:01.826303+00:00"
-      },
       "source": {
         "source_id": "28375197",
         "source_url": "https://sdilej.cz/28375197/simpsonovi-s06e24-trojsky-citron.mkv",
@@ -82437,15 +82431,22 @@
         "display_name": "The Simpsons S06E24 Lemon of Troy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:58:04.982439+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669094",
-        "size_bytes": 524042612
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669094",
+          "size_bytes": 524042612,
+          "source_bytes_read": 524042612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28375197",
+        "source_url": "https://sdilej.cz/28375197/simpsonovi-s06e24-trojsky-citron.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669094",
-        "size_bytes": 524042612,
-        "source_bytes_read": 524042612,
-        "http_status": 201
+        "display_name": "The Simpsons S06E24 Lemon of Troy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:59:21.638717+00:00"
       }
     },
     "13:6:25": {
@@ -82528,5 +82529,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:59:18.726026+00:00"
+  "updated_at": "2026-10-31T13:59:21.638733+00:00"
 }
