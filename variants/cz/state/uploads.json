@@ -101767,12 +101767,6 @@
     },
     "13:26:17": {
       "episode_key": "simpsonovi:s26:e17",
-      "claim": {
-        "worker_id": "e8bac47dc6b1412a9f4d56fc36c25f72-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:30:51.824176+00:00",
-        "lease_expires_at": "2026-11-01T01:30:51.824187+00:00"
-      },
       "source": {
         "source_id": "32764980",
         "source_url": "https://sdilej.cz/32764980/simpsonovi-s26e17-cz-dabing.mkv",
@@ -101797,15 +101791,22 @@
         "display_name": "The Simpsons S26E17 Waiting for Duffman 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:30:56.730345+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676229",
-        "size_bytes": 505661209
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676229",
+          "size_bytes": 505661209,
+          "source_bytes_read": 505661209,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764980",
+        "source_url": "https://sdilej.cz/32764980/simpsonovi-s26e17-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676229",
-        "size_bytes": 505661209,
-        "source_bytes_read": 505661209,
-        "http_status": 201
+        "display_name": "The Simpsons S26E17 Waiting for Duffman 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:31:55.376162+00:00"
       }
     },
     "13:26:18": {
@@ -101888,5 +101889,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:31:52.203060+00:00"
+  "updated_at": "2026-10-31T19:31:55.376176+00:00"
 }
