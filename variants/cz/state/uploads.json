@@ -100667,12 +100667,6 @@
     },
     "13:25:14": {
       "episode_key": "simpsonovi:s25:e14",
-      "claim": {
-        "worker_id": "db491dea1bb44f91ac21300a241decdc-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:03:43.137283+00:00",
-        "lease_expires_at": "2026-11-01T01:03:43.137291+00:00"
-      },
       "source": {
         "source_id": "32764607",
         "source_url": "https://sdilej.cz/32764607/simpsonovi-s25e14-cz-dabing.mkv",
@@ -100697,15 +100691,22 @@
         "display_name": "The Simpsons S25E14 The Winter of His Content 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:03:46.582165+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675713",
-        "size_bytes": 493334383
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675713",
+          "size_bytes": 493334383,
+          "source_bytes_read": 493334383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764607",
+        "source_url": "https://sdilej.cz/32764607/simpsonovi-s25e14-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675713",
-        "size_bytes": 493334383,
-        "source_bytes_read": 493334383,
-        "http_status": 201
+        "display_name": "The Simpsons S25E14 The Winter of His Content 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:04:57.670244+00:00"
       }
     },
     "13:25:15": {
@@ -100784,5 +100785,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:04:55.129403+00:00"
+  "updated_at": "2026-10-31T19:04:57.670261+00:00"
 }
