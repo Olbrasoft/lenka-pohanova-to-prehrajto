@@ -81351,12 +81351,6 @@
     },
     "13:5:22": {
       "episode_key": "simpsonovi:s5:e22",
-      "claim": {
-        "worker_id": "db5725733b7f4c0e8654f35452149164-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:42:18.403144+00:00",
-        "lease_expires_at": "2026-10-31T19:42:18.403152+00:00"
-      },
       "source": {
         "source_id": "27311383",
         "source_url": "https://sdilej.cz/27311383/simpsonovi-cz-s05e22.mkv",
@@ -81381,15 +81375,22 @@
         "display_name": "The Simpsons S05E22 Secrets of a Successful Marriage 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:42:20.173517+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668833",
-        "size_bytes": 540967272
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668833",
+          "size_bytes": 540967272,
+          "source_bytes_read": 540967272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311383",
+        "source_url": "https://sdilej.cz/27311383/simpsonovi-cz-s05e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668833",
-        "size_bytes": 540967272,
-        "source_bytes_read": 540967272,
-        "http_status": 201
+        "display_name": "The Simpsons S05E22 Secrets of a Successful Marriage 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:43:36.044971+00:00"
       }
     },
     "13:6:1": {
@@ -81472,5 +81473,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:43:33.022270+00:00"
+  "updated_at": "2026-10-31T13:43:36.044987+00:00"
 }
