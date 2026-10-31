@@ -87599,12 +87599,6 @@
     },
     "13:11:19": {
       "episode_key": "simpsonovi:s11:e19",
-      "claim": {
-        "worker_id": "31b4e9dea12d415284e6a89cb23d66df-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:31:01.556619+00:00",
-        "lease_expires_at": "2026-10-31T21:31:01.556628+00:00"
-      },
       "source": {
         "source_id": "29520426",
         "source_url": "https://sdilej.cz/29520426/the-simpsons-s11e19-zabij-krokodyla-a-utec.mkv",
@@ -87629,15 +87623,22 @@
         "display_name": "The Simpsons S11E19 Kill the Alligator and Run 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:31:04.842637+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671570",
-        "size_bytes": 542638821
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671570",
+          "size_bytes": 542638821,
+          "source_bytes_read": 542638821,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29520426",
+        "source_url": "https://sdilej.cz/29520426/the-simpsons-s11e19-zabij-krokodyla-a-utec.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671570",
-        "size_bytes": 542638821,
-        "source_bytes_read": 542638821,
-        "http_status": 201
+        "display_name": "The Simpsons S11E19 Kill the Alligator and Run 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:32:33.923889+00:00"
       }
     },
     "13:11:20": {
@@ -87720,5 +87721,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:32:30.236776+00:00"
+  "updated_at": "2026-10-31T15:32:33.923899+00:00"
 }
