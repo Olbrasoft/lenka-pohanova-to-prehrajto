@@ -71583,12 +71583,6 @@
     },
     "171:1:3": {
       "episode_key": "x-men '97:s1:e3",
-      "claim": {
-        "worker_id": "3b6f508d98cf4104a22aee3fd5e1d6b5-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:47:29.189121+00:00",
-        "lease_expires_at": "2026-10-31T10:47:29.189131+00:00"
-      },
       "source": {
         "source_id": "34911332",
         "source_url": "https://sdilej.cz/34911332/x-men-97-s01e03-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -71613,15 +71607,22 @@
         "display_name": "X-Men '97 S01E03 Fire Made Flesh 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:47:30.770892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655302",
-        "size_bytes": 305194552
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655302",
+          "size_bytes": 305194552,
+          "source_bytes_read": 305194552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34911332",
+        "source_url": "https://sdilej.cz/34911332/x-men-97-s01e03-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655302",
-        "size_bytes": 305194552,
-        "source_bytes_read": 305194552,
-        "http_status": 201
+        "display_name": "X-Men '97 S01E03 Fire Made Flesh 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:48:22.835456+00:00"
       }
     },
     "171:1:4": {
@@ -71704,5 +71705,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:48:20.439802+00:00"
+  "updated_at": "2026-10-31T04:48:22.835472+00:00"
 }
