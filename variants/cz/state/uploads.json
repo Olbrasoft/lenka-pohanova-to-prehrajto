@@ -72073,12 +72073,6 @@
     },
     "8623:1:4": {
       "episode_key": "sedm světů, jedna planeta:s1:e4",
-      "claim": {
-        "worker_id": "28a66354f67d4fd18e356444600b44b2-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:57:44.034724+00:00",
-        "lease_expires_at": "2026-10-31T10:57:44.034734+00:00"
-      },
       "source": {
         "source_id": "34298267",
         "source_url": "https://sdilej.cz/34298267/sedm-svetu-jedna-planeta-s01e04-australie-czdab-h265-1080p-tvrip-.mkv",
@@ -72103,15 +72097,22 @@
         "display_name": "Seven Worlds, One Planet S01E04 Australia 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:57:45.785274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655497",
-        "size_bytes": 924808673
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655497",
+          "size_bytes": 924808673,
+          "source_bytes_read": 924808673,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34298267",
+        "source_url": "https://sdilej.cz/34298267/sedm-svetu-jedna-planeta-s01e04-australie-czdab-h265-1080p-tvrip-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655497",
-        "size_bytes": 924808673,
-        "source_bytes_read": 924808673,
-        "http_status": 201
+        "display_name": "Seven Worlds, One Planet S01E04 Australia 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T05:00:30.076939+00:00"
       }
     },
     "8623:1:5": {
@@ -72157,5 +72158,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:00:27.452025+00:00"
+  "updated_at": "2026-10-31T05:00:30.076958+00:00"
 }
