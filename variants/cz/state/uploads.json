@@ -108367,12 +108367,6 @@
     },
     "13:33:13": {
       "episode_key": "simpsonovi:s33:e13",
-      "claim": {
-        "worker_id": "bee4eaf6aae74226b9c6c4424b5f86e7-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:06:41.374413+00:00",
-        "lease_expires_at": "2026-11-01T03:06:41.374422+00:00"
-      },
       "source": {
         "source_id": "30688578",
         "source_url": "https://sdilej.cz/30688578/simpsonovi-s33e13-hosi-v-horach.mkv",
@@ -108397,15 +108391,22 @@
         "display_name": "The Simpsons S33E13 Boyz N the Highlands 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:06:43.548584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678609",
-        "size_bytes": 588872207
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678609",
+          "size_bytes": 588872207,
+          "source_bytes_read": 588872207,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30688578",
+        "source_url": "https://sdilej.cz/30688578/simpsonovi-s33e13-hosi-v-horach.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678609",
-        "size_bytes": 588872207,
-        "source_bytes_read": 588872207,
-        "http_status": 201
+        "display_name": "The Simpsons S33E13 Boyz N the Highlands 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:09:28.162311+00:00"
       }
     },
     "13:33:14": {
@@ -108620,5 +108621,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:09:26.427445+00:00"
+  "updated_at": "2026-10-31T21:09:28.162325+00:00"
 }
