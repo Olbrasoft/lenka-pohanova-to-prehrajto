@@ -72683,12 +72683,6 @@
     },
     "21:1:1": {
       "episode_key": "stranger things:s1:e1",
-      "claim": {
-        "worker_id": "24af67b8f35f48be8e8ed91f0c115e0f-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:15:08.037560+00:00",
-        "lease_expires_at": "2026-10-31T11:15:08.037570+00:00"
-      },
       "source": {
         "source_id": "33167209",
         "source_url": "https://sdilej.cz/33167209/stranger-things-s01e01-kapitola-prvni-zmizeni-wila-byerse.mkv",
@@ -72713,15 +72707,22 @@
         "display_name": "Stranger Things S01E01 Chapter One: The Vanishing of Will Byers 4K CZ Dabing",
         "prepared_at": "2026-10-31T05:15:09.716385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655820",
-        "size_bytes": 2324970136
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655820",
+          "size_bytes": 2324970136,
+          "source_bytes_read": 2324970136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33167209",
+        "source_url": "https://sdilej.cz/33167209/stranger-things-s01e01-kapitola-prvni-zmizeni-wila-byerse.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655820",
-        "size_bytes": 2324970136,
-        "source_bytes_read": 2324970136,
-        "http_status": 201
+        "display_name": "Stranger Things S01E01 Chapter One: The Vanishing of Will Byers 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T05:23:22.215471+00:00"
       }
     },
     "21:1:2": {
@@ -72767,5 +72768,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:23:19.636125+00:00"
+  "updated_at": "2026-10-31T05:23:22.215488+00:00"
 }
