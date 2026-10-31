@@ -77523,12 +77523,6 @@
     },
     "13:2:2": {
       "episode_key": "simpsonovi:s2:e2",
-      "claim": {
-        "worker_id": "604fdd7f377a4c19b6cf9f2fbf55c7a4-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:25:25.579943+00:00",
-        "lease_expires_at": "2026-10-31T18:25:25.579953+00:00"
-      },
       "source": {
         "source_id": "27309673",
         "source_url": "https://sdilej.cz/27309673/simpsonovi-cz-s02e02.mkv",
@@ -77553,15 +77547,22 @@
         "display_name": "The Simpsons S02E02 Simpson and Delilah 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:25:29.627573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665312",
-        "size_bytes": 547649847
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665312",
+          "size_bytes": 547649847,
+          "source_bytes_read": 547649847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309673",
+        "source_url": "https://sdilej.cz/27309673/simpsonovi-cz-s02e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665312",
-        "size_bytes": 547649847,
-        "source_bytes_read": 547649847,
-        "http_status": 201
+        "display_name": "The Simpsons S02E02 Simpson and Delilah 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:27:10.493118+00:00"
       }
     }
   },
@@ -77570,5 +77571,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:27:09.013890+00:00"
+  "updated_at": "2026-10-31T12:27:10.493132+00:00"
 }
