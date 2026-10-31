@@ -77133,12 +77133,6 @@
     },
     "13:1:6": {
       "episode_key": "simpsonovi:s1:e6",
-      "claim": {
-        "worker_id": "1f5b45aa7f564e96b18c071775be1fa4-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:18:26.797755+00:00",
-        "lease_expires_at": "2026-10-31T18:18:26.797766+00:00"
-      },
       "source": {
         "source_id": "27309553",
         "source_url": "https://sdilej.cz/27309553/simpsonovi-cz-s01e06.mkv",
@@ -77163,15 +77157,22 @@
         "display_name": "The Simpsons S01E06 Moaning Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:18:29.710816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665163",
-        "size_bytes": 548746220
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665163",
+          "size_bytes": 548746220,
+          "source_bytes_read": 548746220,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309553",
+        "source_url": "https://sdilej.cz/27309553/simpsonovi-cz-s01e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665163",
-        "size_bytes": 548746220,
-        "source_bytes_read": 548746220,
-        "http_status": 201
+        "display_name": "The Simpsons S01E06 Moaning Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:20:18.181198+00:00"
       }
     },
     "13:1:7": {
@@ -77217,5 +77218,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:20:16.777144+00:00"
+  "updated_at": "2026-10-31T12:20:18.181213+00:00"
 }
