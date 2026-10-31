@@ -62739,12 +62739,6 @@
     },
     "956:5:26": {
       "episode_key": "star trek: nová generace:s5:e26",
-      "claim": {
-        "worker_id": "9a473d864b804156ab87d6f7adea082d-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-30T23:59:44.260321+00:00",
-        "lease_expires_at": "2026-10-31T05:59:44.260330+00:00"
-      },
       "source": {
         "source_id": "28165445",
         "source_url": "https://sdilej.cz/28165445/star-trek-nova-generace-s05e26-sip-casu-1.-cast-.mkv",
@@ -62769,15 +62763,22 @@
         "display_name": "Star Trek: The Next Generation S05E26 Time's Arrow (1) 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:59:48.645984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649322",
-        "size_bytes": 461417391
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649322",
+          "size_bytes": 461417391,
+          "source_bytes_read": 461417391,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165445",
+        "source_url": "https://sdilej.cz/28165445/star-trek-nova-generace-s05e26-sip-casu-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649322",
-        "size_bytes": 461417391,
-        "source_bytes_read": 461417391,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E26 Time's Arrow (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:02:41.236075+00:00"
       }
     },
     "956:6:1": {
@@ -62860,5 +62861,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:02:36.964994+00:00"
+  "updated_at": "2026-10-31T00:02:41.236093+00:00"
 }
