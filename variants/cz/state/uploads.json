@@ -76467,12 +76467,6 @@
     },
     "88:2:13": {
       "episode_key": "daredevil:s2:e13",
-      "claim": {
-        "worker_id": "01fea66ed4fd489d823f3e6add22475e-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:39:42.473591+00:00",
-        "lease_expires_at": "2026-10-31T17:39:42.473600+00:00"
-      },
       "source": {
         "source_id": "32886483",
         "source_url": "https://sdilej.cz/32886483/daredevil-s02e13-cz-dabing-2160p-ultra-hd.mkv",
@@ -76497,15 +76491,22 @@
         "display_name": "Marvel's Daredevil S02E13 A Cold Day in Hell's Kitchen 4K CZ Dabing",
         "prepared_at": "2026-10-31T11:39:47.377926+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664493",
-        "size_bytes": 2733985126
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664493",
+          "size_bytes": 2733985126,
+          "source_bytes_read": 2733985126,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32886483",
+        "source_url": "https://sdilej.cz/32886483/daredevil-s02e13-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664493",
-        "size_bytes": 2733985126,
-        "source_bytes_read": 2733985126,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S02E13 A Cold Day in Hell's Kitchen 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T11:48:48.847536+00:00"
       }
     },
     "88:3:1": {
@@ -76551,5 +76552,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:48:47.611969+00:00"
+  "updated_at": "2026-10-31T11:48:48.847553+00:00"
 }
