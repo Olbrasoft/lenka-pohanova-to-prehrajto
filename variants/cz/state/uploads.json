@@ -73299,12 +73299,6 @@
     },
     "21:2:7": {
       "episode_key": "stranger things:s2:e7",
-      "claim": {
-        "worker_id": "2b45d2f93230488fb94a8eb0234035cc-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:04:21.607195+00:00",
-        "lease_expires_at": "2026-10-31T12:04:21.607206+00:00"
-      },
       "source": {
         "source_id": "33163365",
         "source_url": "https://sdilej.cz/33163365/stranger-things-s02e07-kapitola-sedma-ztracena-sestra.mkv",
@@ -73329,15 +73323,22 @@
         "display_name": "Stranger Things S02E07 Chapter Seven: The Lost Sister 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:04:23.276261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656749",
-        "size_bytes": 2146575676
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656749",
+          "size_bytes": 2146575676,
+          "source_bytes_read": 2146575676,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163365",
+        "source_url": "https://sdilej.cz/33163365/stranger-things-s02e07-kapitola-sedma-ztracena-sestra.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656749",
-        "size_bytes": 2146575676,
-        "source_bytes_read": 2146575676,
-        "http_status": 201
+        "display_name": "Stranger Things S02E07 Chapter Seven: The Lost Sister 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:11:02.675302+00:00"
       }
     },
     "21:2:8": {
@@ -73420,5 +73421,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:10:58.705469+00:00"
+  "updated_at": "2026-10-31T06:11:02.675319+00:00"
 }
