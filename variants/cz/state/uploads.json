@@ -112665,12 +112665,6 @@
     },
     "76:2:7": {
       "episode_key": "andor:s2:e7",
-      "claim": {
-        "worker_id": "87e430e79c5c4d1798b29353c5fffd3f-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:02:45.133577+00:00",
-        "lease_expires_at": "2026-11-01T05:02:45.133589+00:00"
-      },
       "source": {
         "source_id": "33171202",
         "source_url": "https://sdilej.cz/33171202/andor-s02e07-cz-en-h264-ezio.mkv",
@@ -112695,15 +112689,22 @@
         "display_name": "Andor S02E07 Messenger 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:02:46.939897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680501",
-        "size_bytes": 1042111553
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680501",
+          "size_bytes": 1042111553,
+          "source_bytes_read": 1042111553,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33171202",
+        "source_url": "https://sdilej.cz/33171202/andor-s02e07-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680501",
-        "size_bytes": 1042111553,
-        "source_bytes_read": 1042111553,
-        "http_status": 201
+        "display_name": "Andor S02E07 Messenger 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:05:16.615354+00:00"
       }
     }
   },
@@ -112712,5 +112713,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:05:10.980437+00:00"
+  "updated_at": "2026-10-31T23:05:16.615376+00:00"
 }
