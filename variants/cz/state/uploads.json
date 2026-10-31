@@ -95255,12 +95255,6 @@
     },
     "13:19:19": {
       "episode_key": "simpsonovi:s19:e19",
-      "claim": {
-        "worker_id": "f5b141bd323346adb5fe1c8cc3ce1223-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:27:06.071309+00:00",
-        "lease_expires_at": "2026-10-31T23:27:06.071318+00:00"
-      },
       "source": {
         "source_id": "28380080",
         "source_url": "https://sdilej.cz/28380080/simpsonovi-s19e19-ma-mama-mona.mkv",
@@ -95285,15 +95279,22 @@
         "display_name": "The Simpsons S19E19 Mona Leaves-a 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:27:08.016270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674045",
-        "size_bytes": 850503746
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674045",
+          "size_bytes": 850503746,
+          "source_bytes_read": 850503746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28380080",
+        "source_url": "https://sdilej.cz/28380080/simpsonovi-s19e19-ma-mama-mona.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674045",
-        "size_bytes": 850503746,
-        "source_bytes_read": 850503746,
-        "http_status": 201
+        "display_name": "The Simpsons S19E19 Mona Leaves-a 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:28:40.669679+00:00"
       }
     },
     "13:19:20": {
@@ -95383,5 +95384,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:28:39.260030+00:00"
+  "updated_at": "2026-10-31T17:28:40.669691+00:00"
 }
