@@ -100579,12 +100579,6 @@
     },
     "13:25:12": {
       "episode_key": "simpsonovi:s25:e12",
-      "claim": {
-        "worker_id": "cdab17bdab114a90a499b6a1607f652d-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:03:17.736211+00:00",
-        "lease_expires_at": "2026-11-01T01:03:17.736224+00:00"
-      },
       "source": {
         "source_id": "32764602",
         "source_url": "https://sdilej.cz/32764602/simpsonovi-s25e12-cz-dabing.mkv",
@@ -100609,15 +100603,22 @@
         "display_name": "The Simpsons S25E12 Diggs 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:03:20.925124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675703",
-        "size_bytes": 492947522
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675703",
+          "size_bytes": 492947522,
+          "source_bytes_read": 492947522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764602",
+        "source_url": "https://sdilej.cz/32764602/simpsonovi-s25e12-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675703",
-        "size_bytes": 492947522,
-        "source_bytes_read": 492947522,
-        "http_status": 201
+        "display_name": "The Simpsons S25E12 Diggs 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:04:15.600004+00:00"
       }
     },
     "13:25:13": {
@@ -100700,5 +100701,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:04:12.995006+00:00"
+  "updated_at": "2026-10-31T19:04:15.600020+00:00"
 }
