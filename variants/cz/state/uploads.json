@@ -104671,12 +104671,6 @@
     },
     "13:29:17": {
       "episode_key": "simpsonovi:s29:e17",
-      "claim": {
-        "worker_id": "82697ec4e8d44e1bb84595bdc5285767-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:07:05.574767+00:00",
-        "lease_expires_at": "2026-11-01T02:07:05.574796+00:00"
-      },
       "source": {
         "source_id": "29399697",
         "source_url": "https://sdilej.cz/29399697/simpsonovi-s29e17-1080p-.mkv",
@@ -104701,15 +104695,22 @@
         "display_name": "The Simpsons S29E17 Lisa Gets the Blues 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:07:12.853672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677061",
-        "size_bytes": 796607059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677061",
+          "size_bytes": 796607059,
+          "source_bytes_read": 796607059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29399697",
+        "source_url": "https://sdilej.cz/29399697/simpsonovi-s29e17-1080p-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677061",
-        "size_bytes": 796607059,
-        "source_bytes_read": 796607059,
-        "http_status": 201
+        "display_name": "The Simpsons S29E17 Lisa Gets the Blues 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:09:10.932133+00:00"
       }
     },
     "13:29:18": {
@@ -104880,5 +104881,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:09:07.082071+00:00"
+  "updated_at": "2026-10-31T20:09:10.932151+00:00"
 }
