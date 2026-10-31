@@ -66611,12 +66611,6 @@
     },
     "1127:2:11": {
       "episode_key": "policejní odznak:s2:e11",
-      "claim": {
-        "worker_id": "22b47351e06c41b0a3d3f85a17e3bccd-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:04:55.973672+00:00",
-        "lease_expires_at": "2026-10-31T08:04:55.973682+00:00"
-      },
       "source": {
         "source_id": "33817886",
         "source_url": "https://sdilej.cz/33817886/the-shield-s02e11-policejni-odznak-fhd-1080p-cz-inferno.mkv",
@@ -66641,15 +66635,22 @@
         "display_name": "The Shield S02E11 Inferno 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:05:00.445876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652006",
-        "size_bytes": 491866988
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652006",
+          "size_bytes": 491866988,
+          "source_bytes_read": 491866988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817886",
+        "source_url": "https://sdilej.cz/33817886/the-shield-s02e11-policejni-odznak-fhd-1080p-cz-inferno.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652006",
-        "size_bytes": 491866988,
-        "source_bytes_read": 491866988,
-        "http_status": 201
+        "display_name": "The Shield S02E11 Inferno 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:06:57.549251+00:00"
       }
     },
     "1127:2:12": {
@@ -66728,5 +66729,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:06:56.164722+00:00"
+  "updated_at": "2026-10-31T02:06:57.549265+00:00"
 }
