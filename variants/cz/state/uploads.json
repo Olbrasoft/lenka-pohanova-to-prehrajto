@@ -112503,12 +112503,6 @@
     },
     "76:2:3": {
       "episode_key": "andor:s2:e3",
-      "claim": {
-        "worker_id": "20ed4a0879f244ad882e181fd05f504a-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:45:41.536803+00:00",
-        "lease_expires_at": "2026-11-01T04:45:41.536814+00:00"
-      },
       "source": {
         "source_id": "33167515",
         "source_url": "https://sdilej.cz/33167515/andor-s02e03-cz-en-h264-ezio.mkv",
@@ -112533,15 +112527,22 @@
         "display_name": "Andor S02E03 Harvest 1080p CZ Dabing",
         "prepared_at": "2026-10-31T22:45:43.382684+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680325",
-        "size_bytes": 1236607408
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680325",
+          "size_bytes": 1236607408,
+          "source_bytes_read": 1236607408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33167515",
+        "source_url": "https://sdilej.cz/33167515/andor-s02e03-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680325",
-        "size_bytes": 1236607408,
-        "source_bytes_read": 1236607408,
-        "http_status": 201
+        "display_name": "Andor S02E03 Harvest 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T22:54:24.887198+00:00"
       }
     }
   },
@@ -112550,5 +112551,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:54:23.461269+00:00"
+  "updated_at": "2026-10-31T22:54:24.887215+00:00"
 }
