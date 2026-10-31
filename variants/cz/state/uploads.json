@@ -73871,12 +73871,6 @@
     },
     "21:4:3": {
       "episode_key": "stranger things:s4:e3",
-      "claim": {
-        "worker_id": "e1e9739f79ca42ae9443263f1d67efc9-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T07:25:51.095909+00:00",
-        "lease_expires_at": "2026-10-31T13:25:51.095919+00:00"
-      },
       "source": {
         "source_id": "22889183",
         "source_url": "https://sdilej.cz/22889183/stranger-things-s04e03-cz-4k-uhd.mkv",
@@ -73901,15 +73895,22 @@
         "display_name": "Stranger Things S04E03 Chapter Three: The Monster and the Superhero 4K CZ Dabing",
         "prepared_at": "2026-10-31T07:25:54.304203+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30659850",
-        "size_bytes": 9440904404
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30659850",
+          "size_bytes": 9440904404,
+          "source_bytes_read": 9440904404,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22889183",
+        "source_url": "https://sdilej.cz/22889183/stranger-things-s04e03-cz-4k-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30659850",
-        "size_bytes": 9440904404,
-        "source_bytes_read": 9440904404,
-        "http_status": 201
+        "display_name": "Stranger Things S04E03 Chapter Three: The Monster and the Superhero 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T07:58:04.490648+00:00"
       }
     },
     "21:4:4": {
@@ -74036,5 +74037,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T07:57:59.578059+00:00"
+  "updated_at": "2026-10-31T07:58:04.490666+00:00"
 }
