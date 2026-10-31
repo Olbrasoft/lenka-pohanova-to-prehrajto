@@ -73343,12 +73343,6 @@
     },
     "21:2:8": {
       "episode_key": "stranger things:s2:e8",
-      "claim": {
-        "worker_id": "c1238c686e6a464aa07551ebb72ec8c0-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:10:08.765689+00:00",
-        "lease_expires_at": "2026-10-31T12:10:08.765701+00:00"
-      },
       "source": {
         "source_id": "33163334",
         "source_url": "https://sdilej.cz/33163334/stranger-things-s02e08-kapitola-osma-ovladac-mysli.mkv",
@@ -73373,15 +73367,22 @@
         "display_name": "Stranger Things S02E08 Chapter Eight: The Mind Flayer 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:10:11.725184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656839",
-        "size_bytes": 2261196055
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656839",
+          "size_bytes": 2261196055,
+          "source_bytes_read": 2261196055,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163334",
+        "source_url": "https://sdilej.cz/33163334/stranger-things-s02e08-kapitola-osma-ovladac-mysli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656839",
-        "size_bytes": 2261196055,
-        "source_bytes_read": 2261196055,
-        "http_status": 201
+        "display_name": "Stranger Things S02E08 Chapter Eight: The Mind Flayer 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:17:05.749919+00:00"
       }
     },
     "21:2:9": {
@@ -73508,5 +73509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:17:01.578511+00:00"
+  "updated_at": "2026-10-31T06:17:05.749939+00:00"
 }
