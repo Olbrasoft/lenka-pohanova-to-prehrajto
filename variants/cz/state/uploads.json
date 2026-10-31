@@ -96223,12 +96223,6 @@
     },
     "13:20:21": {
       "episode_key": "simpsonovi:s20:e21",
-      "claim": {
-        "worker_id": "02b334951d4a4e71af8af08b37057c8e-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:40:53.410589+00:00",
-        "lease_expires_at": "2026-10-31T23:40:53.410599+00:00"
-      },
       "source": {
         "source_id": "32763515",
         "source_url": "https://sdilej.cz/32763515/simpsonovi-s20e21-cz-dabing.mkv",
@@ -96253,15 +96247,22 @@
         "display_name": "The Simpsons S20E21 Coming to Homerica 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:40:55.263643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674398",
-        "size_bytes": 502437213
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674398",
+          "size_bytes": 502437213,
+          "source_bytes_read": 502437213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763515",
+        "source_url": "https://sdilej.cz/32763515/simpsonovi-s20e21-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674398",
-        "size_bytes": 502437213,
-        "source_bytes_read": 502437213,
-        "http_status": 201
+        "display_name": "The Simpsons S20E21 Coming to Homerica 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:43:54.317871+00:00"
       }
     },
     "13:21:1": {
@@ -96439,5 +96440,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:43:52.928088+00:00"
+  "updated_at": "2026-10-31T17:43:54.317883+00:00"
 }
