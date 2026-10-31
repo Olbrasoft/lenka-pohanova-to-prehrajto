@@ -72639,12 +72639,6 @@
     },
     "6996:1:12": {
       "episode_key": "já, claudius:s1:e12",
-      "claim": {
-        "worker_id": "68ffa2e6dc0543ccb3d0c084007bddba-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:14:24.567108+00:00",
-        "lease_expires_at": "2026-10-31T11:14:24.567120+00:00"
-      },
       "source": {
         "source_id": "29876804",
         "source_url": "https://sdilej.cz/29876804/ja-claudius-1976-s01e12-zapisky-krale-klady-czdab.mkv",
@@ -72669,15 +72663,22 @@
         "display_name": "I, Claudius S01E12 Old King Log SD CZ Dabing",
         "prepared_at": "2026-10-31T05:14:26.385306+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655800",
-        "size_bytes": 711229367
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655800",
+          "size_bytes": 711229367,
+          "source_bytes_read": 711229367,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29876804",
+        "source_url": "https://sdilej.cz/29876804/ja-claudius-1976-s01e12-zapisky-krale-klady-czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655800",
-        "size_bytes": 711229367,
-        "source_bytes_read": 711229367,
-        "http_status": 201
+        "display_name": "I, Claudius S01E12 Old King Log SD CZ Dabing",
+        "uploaded_at": "2026-10-31T05:17:06.656599+00:00"
       }
     },
     "21:1:1": {
@@ -72760,5 +72761,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:17:03.177251+00:00"
+  "updated_at": "2026-10-31T05:17:06.656617+00:00"
 }
