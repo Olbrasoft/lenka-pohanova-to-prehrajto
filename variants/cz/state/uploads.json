@@ -105060,12 +105060,6 @@
     },
     "13:30:5": {
       "episode_key": "simpsonovi:s30:e5",
-      "claim": {
-        "worker_id": "7c78faf66c324f4a817b0a4a8ef46a9f-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:17:41.287870+00:00",
-        "lease_expires_at": "2026-11-01T02:17:41.287882+00:00"
-      },
       "source": {
         "source_id": "32766304",
         "source_url": "https://sdilej.cz/32766304/simpsonovi-s30e05-cz-dabing.mkv",
@@ -105090,15 +105084,22 @@
         "display_name": "The Simpsons S30E05 Baby You Can't Drive My Car 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:17:46.578381+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677367",
-        "size_bytes": 507710567
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677367",
+          "size_bytes": 507710567,
+          "source_bytes_read": 507710567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766304",
+        "source_url": "https://sdilej.cz/32766304/simpsonovi-s30e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677367",
-        "size_bytes": 507710567,
-        "source_bytes_read": 507710567,
-        "http_status": 201
+        "display_name": "The Simpsons S30E05 Baby You Can't Drive My Car 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:18:37.373177+00:00"
       }
     },
     "13:30:6": {
@@ -105151,5 +105152,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:18:32.882369+00:00"
+  "updated_at": "2026-10-31T20:18:37.373193+00:00"
 }
