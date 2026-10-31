@@ -73505,12 +73505,6 @@
     },
     "21:3:3": {
       "episode_key": "stranger things:s3:e3",
-      "claim": {
-        "worker_id": "83590cf6c0a442d380d90fd8d6b8833a-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T06:17:12.970711+00:00",
-        "lease_expires_at": "2026-10-31T12:17:12.970722+00:00"
-      },
       "source": {
         "source_id": "33163198",
         "source_url": "https://sdilej.cz/33163198/stranger-things-s03e03-kapitola-treti-pripad-zmizele-plavcice.mkv",
@@ -73535,15 +73529,22 @@
         "display_name": "Stranger Things S03E03 Chapter Three: The Case of the Missing Lifeguard 4K CZ Dabing",
         "prepared_at": "2026-10-31T06:17:14.530377+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656935",
-        "size_bytes": 2350653663
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656935",
+          "size_bytes": 2350653663,
+          "source_bytes_read": 2350653663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163198",
+        "source_url": "https://sdilej.cz/33163198/stranger-things-s03e03-kapitola-treti-pripad-zmizele-plavcice.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656935",
-        "size_bytes": 2350653663,
-        "source_bytes_read": 2350653663,
-        "http_status": 201
+        "display_name": "Stranger Things S03E03 Chapter Three: The Case of the Missing Lifeguard 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T06:24:05.415508+00:00"
       }
     }
   },
@@ -73552,5 +73553,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T06:24:00.884018+00:00"
+  "updated_at": "2026-10-31T06:24:05.415526+00:00"
 }
