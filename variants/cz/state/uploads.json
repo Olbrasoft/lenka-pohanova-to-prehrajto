@@ -69647,12 +69647,6 @@
     },
     "3303:1:5": {
       "episode_key": "za zdí zahrady:s1:e5",
-      "claim": {
-        "worker_id": "ffe0ce9ba6024b3b96c7cababcdcfb57-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:37:50.350926+00:00",
-        "lease_expires_at": "2026-10-31T09:37:50.350938+00:00"
-      },
       "source": {
         "source_id": "34720563",
         "source_url": "https://sdilej.cz/34720563/za-zdi-zahrady-s01e05-10-2014-cz-dabing-1080p-fhd-silena-laska.mkv",
@@ -69677,15 +69671,22 @@
         "display_name": "Over the Garden Wall S01E05 Mad Love 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:37:52.032608+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653877",
-        "size_bytes": 712698978
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653877",
+          "size_bytes": 712698978,
+          "source_bytes_read": 712698978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34720563",
+        "source_url": "https://sdilej.cz/34720563/za-zdi-zahrady-s01e05-10-2014-cz-dabing-1080p-fhd-silena-laska.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653877",
-        "size_bytes": 712698978,
-        "source_bytes_read": 712698978,
-        "http_status": 201
+        "display_name": "Over the Garden Wall S01E05 Mad Love 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:40:03.229866+00:00"
       }
     },
     "3303:1:6": {
@@ -69768,5 +69769,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:39:59.490700+00:00"
+  "updated_at": "2026-10-31T03:40:03.229883+00:00"
 }
