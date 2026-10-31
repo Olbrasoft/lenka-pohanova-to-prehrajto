@@ -62694,12 +62694,6 @@
     },
     "956:5:25": {
       "episode_key": "star trek: nová generace:s5:e25",
-      "claim": {
-        "worker_id": "bacb6f8412284dfaa58c28adcd384d22-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-30T23:59:39.223364+00:00",
-        "lease_expires_at": "2026-10-31T05:59:39.223373+00:00"
-      },
       "source": {
         "source_id": "28165438",
         "source_url": "https://sdilej.cz/28165438/star-trek-nova-generace-s05e25-vnitrni-svetlo.mkv",
@@ -62724,15 +62718,22 @@
         "display_name": "Star Trek: The Next Generation S05E25 The Inner Light 1080p CZ Dabing",
         "prepared_at": "2026-10-30T23:59:41.235976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649320",
-        "size_bytes": 439583402
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649320",
+          "size_bytes": 439583402,
+          "source_bytes_read": 439583402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165438",
+        "source_url": "https://sdilej.cz/28165438/star-trek-nova-generace-s05e25-vnitrni-svetlo.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649320",
-        "size_bytes": 439583402,
-        "source_bytes_read": 439583402,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S05E25 The Inner Light 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:01:15.638135+00:00"
       }
     },
     "956:5:26": {
@@ -62778,5 +62779,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:01:14.282971+00:00"
+  "updated_at": "2026-10-31T00:01:15.638151+00:00"
 }
