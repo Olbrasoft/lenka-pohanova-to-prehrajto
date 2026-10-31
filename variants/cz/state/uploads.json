@@ -80031,12 +80031,6 @@
     },
     "13:4:13": {
       "episode_key": "simpsonovi:s4:e13",
-      "claim": {
-        "worker_id": "3b3d9d7c80fb4537ade714b8d9ede691-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:17:48.549908+00:00",
-        "lease_expires_at": "2026-10-31T19:17:48.549919+00:00"
-      },
       "source": {
         "source_id": "28374279",
         "source_url": "https://sdilej.cz/28374279/simpsonovi-s04e13-selmina-volba.mkv",
@@ -80061,15 +80055,22 @@
         "display_name": "The Simpsons S04E13 Selma's Choice 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:17:50.133763+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30666222",
-        "size_bytes": 536539465
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30666222",
+          "size_bytes": 536539465,
+          "source_bytes_read": 536539465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28374279",
+        "source_url": "https://sdilej.cz/28374279/simpsonovi-s04e13-selmina-volba.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30666222",
-        "size_bytes": 536539465,
-        "source_bytes_read": 536539465,
-        "http_status": 201
+        "display_name": "The Simpsons S04E13 Selma's Choice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:19:15.335489+00:00"
       }
     },
     "13:4:14": {
@@ -80152,5 +80153,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:19:11.101744+00:00"
+  "updated_at": "2026-10-31T13:19:15.335499+00:00"
 }
