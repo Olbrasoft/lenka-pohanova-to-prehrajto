@@ -87335,12 +87335,6 @@
     },
     "13:11:13": {
       "episode_key": "simpsonovi:s11:e13",
-      "claim": {
-        "worker_id": "7afa6c545a07459086ec9c5fbe7500dd-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:29:02.925672+00:00",
-        "lease_expires_at": "2026-10-31T21:29:02.925681+00:00"
-      },
       "source": {
         "source_id": "27324166",
         "source_url": "https://sdilej.cz/27324166/simpsonovi-s11e13-cz.mkv",
@@ -87365,15 +87359,22 @@
         "display_name": "The Simpsons S11E13 Saddlesore Galactica 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:29:06.108116+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671513",
-        "size_bytes": 511474963
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671513",
+          "size_bytes": 511474963,
+          "source_bytes_read": 511474963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27324166",
+        "source_url": "https://sdilej.cz/27324166/simpsonovi-s11e13-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671513",
-        "size_bytes": 511474963,
-        "source_bytes_read": 511474963,
-        "http_status": 201
+        "display_name": "The Simpsons S11E13 Saddlesore Galactica 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:30:25.024288+00:00"
       }
     },
     "13:11:14": {
@@ -87495,5 +87496,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:30:23.717100+00:00"
+  "updated_at": "2026-10-31T15:30:25.024315+00:00"
 }
