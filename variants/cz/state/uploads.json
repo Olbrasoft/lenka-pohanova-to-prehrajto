@@ -92923,12 +92923,6 @@
     },
     "13:17:10": {
       "episode_key": "simpsonovi:s17:e10",
-      "claim": {
-        "worker_id": "67261582f94649b38a07a2f229992b5f-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:50:46.720618+00:00",
-        "lease_expires_at": "2026-10-31T22:50:46.720628+00:00"
-      },
       "source": {
         "source_id": "28378806",
         "source_url": "https://sdilej.cz/28378806/simpsonovi-s17e10-ci-je-vlastne-homer.mkv",
@@ -92953,15 +92947,22 @@
         "display_name": "The Simpsons S17E10 Homer's Paternity Coot 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:50:49.952149+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673207",
-        "size_bytes": 496890150
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673207",
+          "size_bytes": 496890150,
+          "source_bytes_read": 496890150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378806",
+        "source_url": "https://sdilej.cz/28378806/simpsonovi-s17e10-ci-je-vlastne-homer.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673207",
-        "size_bytes": 496890150,
-        "source_bytes_read": 496890150,
-        "http_status": 201
+        "display_name": "The Simpsons S17E10 Homer's Paternity Coot 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:51:43.615096+00:00"
       }
     },
     "13:17:11": {
@@ -93088,5 +93089,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:51:39.650692+00:00"
+  "updated_at": "2026-10-31T16:51:43.615109+00:00"
 }
