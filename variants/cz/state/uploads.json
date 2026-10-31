@@ -105727,12 +105727,6 @@
     },
     "13:30:20": {
       "episode_key": "simpsonovi:s30:e20",
-      "claim": {
-        "worker_id": "4fd985f0446644d9b55f8b44bda2c0b6-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:33:12.462421+00:00",
-        "lease_expires_at": "2026-11-01T02:33:12.462432+00:00"
-      },
       "source": {
         "source_id": "32766584",
         "source_url": "https://sdilej.cz/32766584/simpsonovi-s30e20-cz-dabing.mkv",
@@ -105757,15 +105751,22 @@
         "display_name": "The Simpsons S30E20 I'm Just a Girl Who Can't Say D'oh 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:33:14.568168+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677780",
-        "size_bytes": 500301952
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677780",
+          "size_bytes": 500301952,
+          "source_bytes_read": 500301952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766584",
+        "source_url": "https://sdilej.cz/32766584/simpsonovi-s30e20-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677780",
-        "size_bytes": 500301952,
-        "source_bytes_read": 500301952,
-        "http_status": 201
+        "display_name": "The Simpsons S30E20 I'm Just a Girl Who Can't Say D'oh 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:34:08.485220+00:00"
       }
     },
     "13:30:21": {
@@ -105847,5 +105848,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:34:06.988772+00:00"
+  "updated_at": "2026-10-31T20:34:08.485234+00:00"
 }
