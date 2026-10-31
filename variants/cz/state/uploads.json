@@ -75353,12 +75353,6 @@
     },
     "49:3:4": {
       "episode_key": "mandalorian:s3:e4",
-      "claim": {
-        "worker_id": "6456ae1f188740c38686735a0e84303c-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T10:02:19.799403+00:00",
-        "lease_expires_at": "2026-10-31T16:02:19.799413+00:00"
-      },
       "source": {
         "source_id": "34756858",
         "source_url": "https://sdilej.cz/34756858/mandalorian-s03e04.mkv",
@@ -75383,15 +75377,22 @@
         "display_name": "The Mandalorian S03E04 Chapter 20: The Foundling 4K CZ Dabing",
         "prepared_at": "2026-10-31T10:02:25.121909+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30663164",
-        "size_bytes": 1590107059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30663164",
+          "size_bytes": 1590107059,
+          "source_bytes_read": 1590107059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34756858",
+        "source_url": "https://sdilej.cz/34756858/mandalorian-s03e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30663164",
-        "size_bytes": 1590107059,
-        "source_bytes_read": 1590107059,
-        "http_status": 201
+        "display_name": "The Mandalorian S03E04 Chapter 20: The Foundling 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T10:06:28.904455+00:00"
       }
     }
   },
@@ -75400,5 +75401,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T10:06:23.551720+00:00"
+  "updated_at": "2026-10-31T10:06:28.904470+00:00"
 }
