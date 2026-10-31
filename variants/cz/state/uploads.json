@@ -95292,12 +95292,6 @@
     },
     "13:19:20": {
       "episode_key": "simpsonovi:s19:e20",
-      "claim": {
-        "worker_id": "993be0ad51a9454ea5ed33e013cbead4-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:27:24.527837+00:00",
-        "lease_expires_at": "2026-10-31T23:27:24.527846+00:00"
-      },
       "source": {
         "source_id": "33064185",
         "source_url": "https://sdilej.cz/33064185/simpsonovi-s19e20-cz-dabing.mkv",
@@ -95322,15 +95316,22 @@
         "display_name": "The Simpsons S19E20 All About Lisa 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:27:27.419502+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674056",
-        "size_bytes": 515428217
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674056",
+          "size_bytes": 515428217,
+          "source_bytes_read": 515428217,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33064185",
+        "source_url": "https://sdilej.cz/33064185/simpsonovi-s19e20-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674056",
-        "size_bytes": 515428217,
-        "source_bytes_read": 515428217,
-        "http_status": 201
+        "display_name": "The Simpsons S19E20 All About Lisa 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:28:20.154825+00:00"
       }
     },
     "13:20:1": {
@@ -95376,5 +95377,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:28:17.592648+00:00"
+  "updated_at": "2026-10-31T17:28:20.154837+00:00"
 }
