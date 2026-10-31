@@ -112848,12 +112848,6 @@
     },
     "76:2:11": {
       "episode_key": "andor:s2:e11",
-      "claim": {
-        "worker_id": "145c51af6cc44a79a0c52b6939f23419-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:11:35.671746+00:00",
-        "lease_expires_at": "2026-11-01T05:11:35.671755+00:00"
-      },
       "source": {
         "source_id": "33699985",
         "source_url": "https://sdilej.cz/33699985/andor-s02e11-kdo-vsechno-to-vi.mkv",
@@ -112878,15 +112872,22 @@
         "display_name": "Andor S02E11 Who Else Knows? 4K CZ Dabing",
         "prepared_at": "2026-10-31T23:11:40.292432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680593",
-        "size_bytes": 2131646607
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680593",
+          "size_bytes": 2131646607,
+          "source_bytes_read": 2131646607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33699985",
+        "source_url": "https://sdilej.cz/33699985/andor-s02e11-kdo-vsechno-to-vi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680593",
-        "size_bytes": 2131646607,
-        "source_bytes_read": 2131646607,
-        "http_status": 201
+        "display_name": "Andor S02E11 Who Else Knows? 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T23:17:34.356182+00:00"
       }
     },
     "76:2:12": {
@@ -112932,5 +112933,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:17:29.615771+00:00"
+  "updated_at": "2026-10-31T23:17:34.356201+00:00"
 }
