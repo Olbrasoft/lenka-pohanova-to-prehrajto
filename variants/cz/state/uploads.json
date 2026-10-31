@@ -104451,12 +104451,6 @@
     },
     "13:29:12": {
       "episode_key": "simpsonovi:s29:e12",
-      "claim": {
-        "worker_id": "f926c47d7b6d44b69e6317ccf2028343-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:05:01.030361+00:00",
-        "lease_expires_at": "2026-11-01T02:05:01.030373+00:00"
-      },
       "source": {
         "source_id": "32766048",
         "source_url": "https://sdilej.cz/32766048/simpsonovi-s29e12-cz-dabing.mkv",
@@ -104481,15 +104475,22 @@
         "display_name": "The Simpsons S29E12 Homer Is Where the Art Isn't 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:05:06.069264+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30677032",
-        "size_bytes": 501710899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30677032",
+          "size_bytes": 501710899,
+          "source_bytes_read": 501710899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766048",
+        "source_url": "https://sdilej.cz/32766048/simpsonovi-s29e12-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30677032",
-        "size_bytes": 501710899,
-        "source_bytes_read": 501710899,
-        "http_status": 201
+        "display_name": "The Simpsons S29E12 Homer Is Where the Art Isn't 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:05:55.662107+00:00"
       }
     },
     "13:29:13": {
@@ -104535,5 +104536,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:05:51.543231+00:00"
+  "updated_at": "2026-10-31T20:05:55.662124+00:00"
 }
