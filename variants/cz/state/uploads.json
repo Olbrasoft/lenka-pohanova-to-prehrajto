@@ -106959,12 +106959,6 @@
     },
     "13:32:3": {
       "episode_key": "simpsonovi:s32:e3",
-      "claim": {
-        "worker_id": "869d8dc1359748089a20f980e0732649-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:47:57.453586+00:00",
-        "lease_expires_at": "2026-11-01T02:47:57.453597+00:00"
-      },
       "source": {
         "source_id": "28385173",
         "source_url": "https://sdilej.cz/28385173/simpsonovi-s32e03-dejiny-umeni.mkv",
@@ -106989,15 +106983,22 @@
         "display_name": "The Simpsons S32E03 Now Museum, Now You Don't 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:48:01.940278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678196",
-        "size_bytes": 541871789
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678196",
+          "size_bytes": 541871789,
+          "source_bytes_read": 541871789,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28385173",
+        "source_url": "https://sdilej.cz/28385173/simpsonovi-s32e03-dejiny-umeni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678196",
-        "size_bytes": 541871789,
-        "source_bytes_read": 541871789,
-        "http_status": 201
+        "display_name": "The Simpsons S32E03 Now Museum, Now You Don't 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:49:10.104505+00:00"
       }
     },
     "13:32:4": {
@@ -107050,5 +107051,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:49:05.706967+00:00"
+  "updated_at": "2026-10-31T20:49:10.104521+00:00"
 }
