@@ -94771,12 +94771,6 @@
     },
     "13:19:8": {
       "episode_key": "simpsonovi:s19:e8",
-      "claim": {
-        "worker_id": "c7113a0dd8044e1896c3f6b3f86c8163-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:10:56.660408+00:00",
-        "lease_expires_at": "2026-10-31T23:10:56.660417+00:00"
-      },
       "source": {
         "source_id": "33064198",
         "source_url": "https://sdilej.cz/33064198/simpsonovi-s19e08-cz-dabing.mkv",
@@ -94801,15 +94795,22 @@
         "display_name": "The Simpsons S19E08 Funeral for a Fiend 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:10:58.573226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673615",
-        "size_bytes": 512645761
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673615",
+          "size_bytes": 512645761,
+          "source_bytes_read": 512645761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33064198",
+        "source_url": "https://sdilej.cz/33064198/simpsonovi-s19e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673615",
-        "size_bytes": 512645761,
-        "source_bytes_read": 512645761,
-        "http_status": 201
+        "display_name": "The Simpsons S19E08 Funeral for a Fiend 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:11:43.100626+00:00"
       }
     },
     "13:19:9": {
@@ -94892,5 +94893,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:11:39.198493+00:00"
+  "updated_at": "2026-10-31T17:11:43.100641+00:00"
 }
