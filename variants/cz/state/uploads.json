@@ -68019,12 +68019,6 @@
     },
     "1127:5:2": {
       "episode_key": "policejní odznak:s5:e2",
-      "claim": {
-        "worker_id": "1ce6fa09ceeb4e2b989e3d92a6f7ac6f-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:51:34.737792+00:00",
-        "lease_expires_at": "2026-10-31T08:51:34.737812+00:00"
-      },
       "source": {
         "source_id": "31729431",
         "source_url": "https://sdilej.cz/31729431/the-shield-s05e02-policejni-odznak-fhd-1080p-cz-nepritel-bohu.mkv",
@@ -68049,15 +68043,22 @@
         "display_name": "The Shield S05E02 Enemy of Good 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:51:36.991593+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653122",
-        "size_bytes": 501072080
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653122",
+          "size_bytes": 501072080,
+          "source_bytes_read": 501072080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31729431",
+        "source_url": "https://sdilej.cz/31729431/the-shield-s05e02-policejni-odznak-fhd-1080p-cz-nepritel-bohu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653122",
-        "size_bytes": 501072080,
-        "source_bytes_read": 501072080,
-        "http_status": 201
+        "display_name": "The Shield S05E02 Enemy of Good 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:53:21.446446+00:00"
       }
     },
     "1127:5:3": {
@@ -68140,5 +68141,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:53:18.291217+00:00"
+  "updated_at": "2026-10-31T02:53:21.446469+00:00"
 }
