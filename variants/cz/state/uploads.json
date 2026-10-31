@@ -74361,12 +74361,6 @@
     },
     "21:5:4": {
       "episode_key": "stranger things:s5:e4",
-      "claim": {
-        "worker_id": "6fbafab1776e4b8bbaa98d29a5a96d4b-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:31:09.820079+00:00",
-        "lease_expires_at": "2026-10-31T14:31:09.820090+00:00"
-      },
       "source": {
         "source_id": "33806910",
         "source_url": "https://sdilej.cz/33806910/stranger-things-s05e04-2025-fantasy-cz-en-atmos-5.1-hdr10-h265-2160p.mkv",
@@ -74391,15 +74385,22 @@
         "display_name": "Stranger Things S05E04 Chapter Four: Sorcerer 4K CZ Dabing",
         "prepared_at": "2026-10-31T08:31:11.597422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30661520",
-        "size_bytes": 3803950889
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30661520",
+          "size_bytes": 3803950889,
+          "source_bytes_read": 3803950889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33806910",
+        "source_url": "https://sdilej.cz/33806910/stranger-things-s05e04-2025-fantasy-cz-en-atmos-5.1-hdr10-h265-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30661520",
-        "size_bytes": 3803950889,
-        "source_bytes_read": 3803950889,
-        "http_status": 201
+        "display_name": "Stranger Things S05E04 Chapter Four: Sorcerer 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T08:47:00.407225+00:00"
       }
     }
   },
@@ -74408,5 +74409,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T08:46:55.583620+00:00"
+  "updated_at": "2026-10-31T08:47:00.407238+00:00"
 }
