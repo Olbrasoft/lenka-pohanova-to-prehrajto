@@ -93935,12 +93935,6 @@
     },
     "13:18:11": {
       "episode_key": "simpsonovi:s18:e11",
-      "claim": {
-        "worker_id": "78f6829fd1654f9fa7c6afb3d905e8d1-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:59:01.267268+00:00",
-        "lease_expires_at": "2026-10-31T22:59:01.267278+00:00"
-      },
       "source": {
         "source_id": "28379427",
         "source_url": "https://sdilej.cz/28379427/simpsonovi-s18e11-pomsta-byva-nejsladsi-natrikrat.mkv",
@@ -93965,15 +93959,22 @@
         "display_name": "The Simpsons S18E11 Revenge Is a Dish Best Served Three Times 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:59:05.216201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673377",
-        "size_bytes": 495049308
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673377",
+          "size_bytes": 495049308,
+          "source_bytes_read": 495049308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379427",
+        "source_url": "https://sdilej.cz/28379427/simpsonovi-s18e11-pomsta-byva-nejsladsi-natrikrat.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673377",
-        "size_bytes": 495049308,
-        "source_bytes_read": 495049308,
-        "http_status": 201
+        "display_name": "The Simpsons S18E11 Revenge Is a Dish Best Served Three Times 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:59:56.217629+00:00"
       }
     },
     "13:18:12": {
@@ -94025,5 +94026,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:59:54.837694+00:00"
+  "updated_at": "2026-10-31T16:59:56.217640+00:00"
 }
