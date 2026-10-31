@@ -68591,12 +68591,6 @@
     },
     "1127:6:4": {
       "episode_key": "policejní odznak:s6:e4",
-      "claim": {
-        "worker_id": "c57c9c0530db4e9c9e99fae38766e1ef-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T03:05:13.370982+00:00",
-        "lease_expires_at": "2026-10-31T09:05:13.370995+00:00"
-      },
       "source": {
         "source_id": "33817983",
         "source_url": "https://sdilej.cz/33817983/the-shield-s06e04-policejni-odznak-fhd-1080p-cz-novy-sef.mkv",
@@ -68621,15 +68615,22 @@
         "display_name": "The Shield S06E04 The New Guy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:05:16.854365+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653338",
-        "size_bytes": 509109976
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653338",
+          "size_bytes": 509109976,
+          "source_bytes_read": 509109976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817983",
+        "source_url": "https://sdilej.cz/33817983/the-shield-s06e04-policejni-odznak-fhd-1080p-cz-novy-sef.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653338",
-        "size_bytes": 509109976,
-        "source_bytes_read": 509109976,
-        "http_status": 201
+        "display_name": "The Shield S06E04 The New Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:07:15.904180+00:00"
       }
     },
     "1127:6:5": {
@@ -68719,5 +68720,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:07:11.919515+00:00"
+  "updated_at": "2026-10-31T03:07:15.904200+00:00"
 }
