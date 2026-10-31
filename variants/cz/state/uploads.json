@@ -100484,12 +100484,6 @@
     },
     "13:25:10": {
       "episode_key": "simpsonovi:s25:e10",
-      "claim": {
-        "worker_id": "fe76aab92fbd495fb6cd240606e5c2ce-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:02:35.731939+00:00",
-        "lease_expires_at": "2026-11-01T01:02:35.731950+00:00"
-      },
       "source": {
         "source_id": "34974124",
         "source_url": "https://sdilej.cz/34974124/simpsonovi-s25e10-cz-dabing-hevc-2013-.mkv",
@@ -100514,15 +100508,22 @@
         "display_name": "The Simpsons S25E10 Married to the Blob 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:02:43.190757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675683",
-        "size_bytes": 160625091
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675683",
+          "size_bytes": 160625091,
+          "source_bytes_read": 160625091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34974124",
+        "source_url": "https://sdilej.cz/34974124/simpsonovi-s25e10-cz-dabing-hevc-2013-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675683",
-        "size_bytes": 160625091,
-        "source_bytes_read": 160625091,
-        "http_status": 201
+        "display_name": "The Simpsons S25E10 Married to the Blob 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:03:10.126986+00:00"
       }
     },
     "13:25:11": {
@@ -100568,5 +100569,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:03:06.631227+00:00"
+  "updated_at": "2026-10-31T19:03:10.127003+00:00"
 }
