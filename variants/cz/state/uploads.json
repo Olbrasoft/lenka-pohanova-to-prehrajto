@@ -111315,12 +111315,6 @@
     },
     "13:36:18": {
       "episode_key": "simpsonovi:s36:e18",
-      "claim": {
-        "worker_id": "99293d09f2e7495583af290571570a64-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:54:56.012051+00:00",
-        "lease_expires_at": "2026-11-01T03:54:56.012062+00:00"
-      },
       "source": {
         "source_id": "32763051",
         "source_url": "https://sdilej.cz/32763051/simpsonovi-s36e18-vocko-u-vocka.mkv",
@@ -111345,15 +111339,22 @@
         "display_name": "The Simpsons S36E18 Estranger Things 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:55:00.690850+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679662",
-        "size_bytes": 802744301
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679662",
+          "size_bytes": 802744301,
+          "source_bytes_read": 802744301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763051",
+        "source_url": "https://sdilej.cz/32763051/simpsonovi-s36e18-vocko-u-vocka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679662",
-        "size_bytes": 802744301,
-        "source_bytes_read": 802744301,
-        "http_status": 201
+        "display_name": "The Simpsons S36E18 Estranger Things 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T22:01:21.849459+00:00"
       }
     },
     "135:1:4": {
@@ -111443,5 +111444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:01:17.060035+00:00"
+  "updated_at": "2026-10-31T22:01:21.849475+00:00"
 }
