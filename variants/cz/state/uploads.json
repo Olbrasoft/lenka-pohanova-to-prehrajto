@@ -107311,12 +107311,6 @@
     },
     "13:32:11": {
       "episode_key": "simpsonovi:s32:e11",
-      "claim": {
-        "worker_id": "10df7e3a63b648fcbb8c8873f55360bd-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T20:54:17.707188+00:00",
-        "lease_expires_at": "2026-11-01T02:54:17.707196+00:00"
-      },
       "source": {
         "source_id": "28385263",
         "source_url": "https://sdilej.cz/28385263/simpsonovi-s32e11-otcovske-pudy.mkv",
@@ -107341,15 +107335,22 @@
         "display_name": "The Simpsons S32E11 The Dad Feelings Limited 1080p CZ Dabing",
         "prepared_at": "2026-10-31T20:54:19.745709+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678356",
-        "size_bytes": 506767123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678356",
+          "size_bytes": 506767123,
+          "source_bytes_read": 506767123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28385263",
+        "source_url": "https://sdilej.cz/28385263/simpsonovi-s32e11-otcovske-pudy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678356",
-        "size_bytes": 506767123,
-        "source_bytes_read": 506767123,
-        "http_status": 201
+        "display_name": "The Simpsons S32E11 The Dad Feelings Limited 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T20:55:07.397127+00:00"
       }
     },
     "13:32:12": {
@@ -107432,5 +107433,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T20:55:03.550496+00:00"
+  "updated_at": "2026-10-31T20:55:07.397143+00:00"
 }
