@@ -66868,12 +66868,6 @@
     },
     "1127:3:4": {
       "episode_key": "policejní odznak:s3:e4",
-      "claim": {
-        "worker_id": "891c8fad70874550b3d1395e07627249-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:09:28.009184+00:00",
-        "lease_expires_at": "2026-10-31T08:09:28.009193+00:00"
-      },
       "source": {
         "source_id": "33817901",
         "source_url": "https://sdilej.cz/33817901/the-shield-s03e04-policejni-odznak-fhd-1080p-cz-sazka.mkv",
@@ -66898,15 +66892,22 @@
         "display_name": "The Shield S03E04 Streaks and Tips 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:09:29.850938+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652145",
-        "size_bytes": 507601233
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652145",
+          "size_bytes": 507601233,
+          "source_bytes_read": 507601233,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817901",
+        "source_url": "https://sdilej.cz/33817901/the-shield-s03e04-policejni-odznak-fhd-1080p-cz-sazka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652145",
-        "size_bytes": 507601233,
-        "source_bytes_read": 507601233,
-        "http_status": 201
+        "display_name": "The Shield S03E04 Streaks and Tips 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:11:03.200822+00:00"
       }
     }
   },
@@ -66915,5 +66916,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:11:01.771505+00:00"
+  "updated_at": "2026-10-31T02:11:03.200838+00:00"
 }
