@@ -77611,12 +77611,6 @@
     },
     "13:2:4": {
       "episode_key": "simpsonovi:s2:e4",
-      "claim": {
-        "worker_id": "07b2884ae22246c1bb46040c919885ba-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:27:18.292649+00:00",
-        "lease_expires_at": "2026-10-31T18:27:18.292661+00:00"
-      },
       "source": {
         "source_id": "27309702",
         "source_url": "https://sdilej.cz/27309702/simpsonovi-cz-s02e04.mkv",
@@ -77641,15 +77635,22 @@
         "display_name": "The Simpsons S02E04 Two Cars in Every Garage and Three Eyes on Every Fish 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:27:22.512762+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665350",
-        "size_bytes": 537557666
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665350",
+          "size_bytes": 537557666,
+          "source_bytes_read": 537557666,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27309702",
+        "source_url": "https://sdilej.cz/27309702/simpsonovi-cz-s02e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665350",
-        "size_bytes": 537557666,
-        "source_bytes_read": 537557666,
-        "http_status": 201
+        "display_name": "The Simpsons S02E04 Two Cars in Every Garage and Three Eyes on Every Fish 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:29:19.562024+00:00"
       }
     },
     "13:2:5": {
@@ -77695,5 +77696,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:29:15.548361+00:00"
+  "updated_at": "2026-10-31T12:29:19.562043+00:00"
 }
