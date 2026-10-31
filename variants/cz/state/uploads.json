@@ -87687,12 +87687,6 @@
     },
     "13:11:21": {
       "episode_key": "simpsonovi:s11:e21",
-      "claim": {
-        "worker_id": "9920727cda824765acc99a802d1afce9-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:32:18.909873+00:00",
-        "lease_expires_at": "2026-10-31T21:32:18.909881+00:00"
-      },
       "source": {
         "source_id": "27324253",
         "source_url": "https://sdilej.cz/27324253/simpsonovi-s11e21-cz.mkv",
@@ -87717,15 +87711,22 @@
         "display_name": "The Simpsons S11E21 It's a Mad, Mad, Mad, Mad Marge 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:32:21.731263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671597",
-        "size_bytes": 518906453
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671597",
+          "size_bytes": 518906453,
+          "source_bytes_read": 518906453,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27324253",
+        "source_url": "https://sdilej.cz/27324253/simpsonovi-s11e21-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671597",
-        "size_bytes": 518906453,
-        "source_bytes_read": 518906453,
-        "http_status": 201
+        "display_name": "The Simpsons S11E21 It's a Mad, Mad, Mad, Mad Marge 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:33:17.999842+00:00"
       }
     },
     "13:11:22": {
@@ -87771,5 +87772,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:33:15.452907+00:00"
+  "updated_at": "2026-10-31T15:33:17.999857+00:00"
 }
