@@ -71532,12 +71532,6 @@
     },
     "171:1:2": {
       "episode_key": "x-men '97:s1:e2",
-      "claim": {
-        "worker_id": "835f40c63f3a40a58e65b4c641ca05f7-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:45:07.895866+00:00",
-        "lease_expires_at": "2026-10-31T10:45:07.895874+00:00"
-      },
       "source": {
         "source_id": "34911329",
         "source_url": "https://sdilej.cz/34911329/x-men-97-s01e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -71562,15 +71556,22 @@
         "display_name": "X-Men '97 S01E02 Mutant Liberation Begins 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:45:10.694653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655261",
-        "size_bytes": 277482232
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655261",
+          "size_bytes": 277482232,
+          "source_bytes_read": 277482232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34911329",
+        "source_url": "https://sdilej.cz/34911329/x-men-97-s01e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655261",
-        "size_bytes": 277482232,
-        "source_bytes_read": 277482232,
-        "http_status": 201
+        "display_name": "X-Men '97 S01E02 Mutant Liberation Begins 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:45:55.745796+00:00"
       }
     }
   },
@@ -71579,5 +71580,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:45:53.322539+00:00"
+  "updated_at": "2026-10-31T04:45:55.745814+00:00"
 }
