@@ -85971,12 +85971,6 @@
     },
     "13:10:5": {
       "episode_key": "simpsonovi:s10:e5",
-      "claim": {
-        "worker_id": "1c1dc312352c42cdb1a4f7e80a6216cf-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:05:00.630088+00:00",
-        "lease_expires_at": "2026-10-31T21:05:00.630097+00:00"
-      },
       "source": {
         "source_id": "27323504",
         "source_url": "https://sdilej.cz/27323504/simpsonovi-s10e05-cz.mkv",
@@ -86001,15 +85995,22 @@
         "display_name": "The Simpsons S10E05 When You Dish Upon a Star 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:05:03.927648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670879",
-        "size_bytes": 522900076
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670879",
+          "size_bytes": 522900076,
+          "source_bytes_read": 522900076,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27323504",
+        "source_url": "https://sdilej.cz/27323504/simpsonovi-s10e05-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670879",
-        "size_bytes": 522900076,
-        "source_bytes_read": 522900076,
-        "http_status": 201
+        "display_name": "The Simpsons S10E05 When You Dish Upon a Star 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:05:52.371728+00:00"
       }
     },
     "13:10:6": {
@@ -86092,5 +86093,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:05:50.996421+00:00"
+  "updated_at": "2026-10-31T15:05:52.371753+00:00"
 }
