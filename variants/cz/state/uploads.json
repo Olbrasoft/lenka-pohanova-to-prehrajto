@@ -84644,12 +84644,6 @@
     },
     "13:8:25": {
       "episode_key": "simpsonovi:s8:e25",
-      "claim": {
-        "worker_id": "910e5588927a464abccb353a4b06a7a6-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T14:44:48.622286+00:00",
-        "lease_expires_at": "2026-10-31T20:44:48.622295+00:00"
-      },
       "source": {
         "source_id": "27322377",
         "source_url": "https://sdilej.cz/27322377/simpsonovi-cz-s08e25.mkv",
@@ -84674,15 +84668,22 @@
         "display_name": "The Simpsons S08E25 The Secret War of Lisa Simpson 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:44:51.894746+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30670232",
-        "size_bytes": 529160362
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30670232",
+          "size_bytes": 529160362,
+          "source_bytes_read": 529160362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322377",
+        "source_url": "https://sdilej.cz/27322377/simpsonovi-cz-s08e25.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30670232",
-        "size_bytes": 529160362,
-        "source_bytes_read": 529160362,
-        "http_status": 201
+        "display_name": "The Simpsons S08E25 The Secret War of Lisa Simpson 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:45:54.206067+00:00"
       }
     }
   },
@@ -84691,5 +84692,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:45:51.755410+00:00"
+  "updated_at": "2026-10-31T14:45:54.206078+00:00"
 }
