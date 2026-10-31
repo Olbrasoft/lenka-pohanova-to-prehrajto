@@ -74487,12 +74487,6 @@
     },
     "21:5:8": {
       "episode_key": "stranger things:s5:e8",
-      "claim": {
-        "worker_id": "691a5fa4cb3d4db795db6f3a6255acc6-worker-0",
-        "run_id": "41176654484",
-        "claimed_at": "2026-10-31T08:54:28.159953+00:00",
-        "lease_expires_at": "2026-10-31T14:54:28.159961+00:00"
-      },
       "source": {
         "source_id": "32778265",
         "source_url": "https://sdilej.cz/32778265/stranger-things-s05e08-nohama-na-zemi-uhd-ac-3-5.1-cz-dab.-cz-forced-2160p-hevc.mkv",
@@ -74517,15 +74511,22 @@
         "display_name": "Stranger Things S05E08 Chapter Eight: The Rightside Up 4K CZ Dabing",
         "prepared_at": "2026-10-31T08:54:29.964442+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30661949",
-        "size_bytes": 5381898509
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30661949",
+          "size_bytes": 5381898509,
+          "source_bytes_read": 5381898509,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32778265",
+        "source_url": "https://sdilej.cz/32778265/stranger-things-s05e08-nohama-na-zemi-uhd-ac-3-5.1-cz-dab.-cz-forced-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30661949",
-        "size_bytes": 5381898509,
-        "source_bytes_read": 5381898509,
-        "http_status": 201
+        "display_name": "Stranger Things S05E08 Chapter Eight: The Rightside Up 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T09:10:49.651422+00:00"
       }
     },
     "49:1:1": {
@@ -74615,5 +74616,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T09:10:43.771544+00:00"
+  "updated_at": "2026-10-31T09:10:49.651433+00:00"
 }
