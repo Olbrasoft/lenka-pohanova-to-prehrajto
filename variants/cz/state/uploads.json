@@ -76108,12 +76108,6 @@
     },
     "88:2:5": {
       "episode_key": "daredevil:s2:e5",
-      "claim": {
-        "worker_id": "17337f009dd5434c8b7954b63603e244-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T11:08:54.264888+00:00",
-        "lease_expires_at": "2026-10-31T17:08:54.264899+00:00"
-      },
       "source": {
         "source_id": "32486185",
         "source_url": "https://sdilej.cz/32486185/daredevil-2016-s02e05-czdab-2160p-kinbaku.mkv",
@@ -76138,15 +76132,22 @@
         "display_name": "Marvel's Daredevil S02E05 Kinbaku 4K CZ Dabing",
         "prepared_at": "2026-10-31T11:08:55.809127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30664070",
-        "size_bytes": 2638904346
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30664070",
+          "size_bytes": 2638904346,
+          "source_bytes_read": 2638904346,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32486185",
+        "source_url": "https://sdilej.cz/32486185/daredevil-2016-s02e05-czdab-2160p-kinbaku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30664070",
-        "size_bytes": 2638904346,
-        "source_bytes_read": 2638904346,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S02E05 Kinbaku 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T11:18:14.437833+00:00"
       }
     }
   },
@@ -76155,5 +76156,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T11:18:13.214232+00:00"
+  "updated_at": "2026-10-31T11:18:14.437851+00:00"
 }
