@@ -111755,12 +111755,6 @@
     },
     "135:2:3": {
       "episode_key": "mindhunter: lovci myšlenek:s2:e3",
-      "claim": {
-        "worker_id": "378da04d2ccf45cf9dd08563ea9b1a8f-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T22:12:22.160912+00:00",
-        "lease_expires_at": "2026-11-01T04:12:22.160923+00:00"
-      },
       "source": {
         "source_id": "34641348",
         "source_url": "https://sdilej.cz/34641348/mindhunter.s02e03.mkv",
@@ -111785,15 +111779,22 @@
         "display_name": "MINDHUNTER S02E03 1080p CZ Dabing",
         "prepared_at": "2026-10-31T22:12:25.412835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679874",
-        "size_bytes": 2659311352
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679874",
+          "size_bytes": 2659311352,
+          "source_bytes_read": 2659311352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34641348",
+        "source_url": "https://sdilej.cz/34641348/mindhunter.s02e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679874",
-        "size_bytes": 2659311352,
-        "source_bytes_read": 2659311352,
-        "http_status": 201
+        "display_name": "MINDHUNTER S02E03 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T22:17:14.037892+00:00"
       }
     },
     "135:2:4": {
@@ -111927,5 +111928,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T22:17:12.513006+00:00"
+  "updated_at": "2026-10-31T22:17:14.037907+00:00"
 }
