@@ -98548,12 +98548,6 @@
     },
     "13:23:8": {
       "episode_key": "simpsonovi:s23:e8",
-      "claim": {
-        "worker_id": "fe55c08fba8247b1b58381b99b1c75a9-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:29:09.349547+00:00",
-        "lease_expires_at": "2026-11-01T00:29:09.349559+00:00"
-      },
       "source": {
         "source_id": "32764163",
         "source_url": "https://sdilej.cz/32764163/simpsonovi-s23e08-cz-dabing.mkv",
@@ -98578,15 +98572,22 @@
         "display_name": "The Simpsons S23E08 The Ten-Per-Cent Solution 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:29:11.280379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675120",
-        "size_bytes": 503703919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675120",
+          "size_bytes": 503703919,
+          "source_bytes_read": 503703919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32764163",
+        "source_url": "https://sdilej.cz/32764163/simpsonovi-s23e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675120",
-        "size_bytes": 503703919,
-        "source_bytes_read": 503703919,
-        "http_status": 201
+        "display_name": "The Simpsons S23E08 The Ten-Per-Cent Solution 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:29:59.314432+00:00"
       }
     },
     "13:23:9": {
@@ -98632,5 +98633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:29:55.598478+00:00"
+  "updated_at": "2026-10-31T18:29:59.314448+00:00"
 }
