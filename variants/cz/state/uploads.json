@@ -113244,12 +113244,6 @@
     },
     "104:1:5": {
       "episode_key": "akta x:s1:e5",
-      "claim": {
-        "worker_id": "518e0c76babb4536895a2ad5c656d9f6-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T23:45:02.859764+00:00",
-        "lease_expires_at": "2026-11-01T05:45:02.859776+00:00"
-      },
       "source": {
         "source_id": "32201082",
         "source_url": "https://sdilej.cz/32201082/akta-x-s01e05-cert-z-jersey.mkv",
@@ -113274,15 +113268,22 @@
         "display_name": "The X-Files S01E05 The Jersey Devil 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:45:06.312842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30680983",
-        "size_bytes": 954093785
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30680983",
+          "size_bytes": 954093785,
+          "source_bytes_read": 954093785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201082",
+        "source_url": "https://sdilej.cz/32201082/akta-x-s01e05-cert-z-jersey.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30680983",
-        "size_bytes": 954093785,
-        "source_bytes_read": 954093785,
-        "http_status": 201
+        "display_name": "The X-Files S01E05 The Jersey Devil 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T23:46:54.858648+00:00"
       }
     },
     "104:1:6": {
@@ -113371,5 +113372,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T23:46:52.113944+00:00"
+  "updated_at": "2026-10-31T23:46:54.858665+00:00"
 }
