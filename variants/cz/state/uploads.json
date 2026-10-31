@@ -62915,12 +62915,6 @@
     },
     "956:6:4": {
       "episode_key": "star trek: nová generace:s6:e4",
-      "claim": {
-        "worker_id": "18ca9fc3c4c94c7cb3b5b0f561a6cafe-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:03:11.199709+00:00",
-        "lease_expires_at": "2026-10-31T06:03:11.199720+00:00"
-      },
       "source": {
         "source_id": "28165475",
         "source_url": "https://sdilej.cz/28165475/star-trek-nova-generace-s06e04-host.mkv",
@@ -62945,15 +62939,22 @@
         "display_name": "Star Trek: The Next Generation S06E04 Relics 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:03:13.200610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30649392",
-        "size_bytes": 374339735
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30649392",
+          "size_bytes": 374339735,
+          "source_bytes_read": 374339735,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165475",
+        "source_url": "https://sdilej.cz/28165475/star-trek-nova-generace-s06e04-host.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30649392",
-        "size_bytes": 374339735,
-        "source_bytes_read": 374339735,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S06E04 Relics 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:04:16.885336+00:00"
       }
     },
     "956:6:5": {
@@ -63036,5 +63037,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:04:13.966815+00:00"
+  "updated_at": "2026-10-31T00:04:16.885353+00:00"
 }
