@@ -96619,12 +96619,6 @@
     },
     "13:21:9": {
       "episode_key": "simpsonovi:s21:e9",
-      "claim": {
-        "worker_id": "996f34c766a24a8e8b9464fadfa568d1-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:50:50.127970+00:00",
-        "lease_expires_at": "2026-10-31T23:50:50.127978+00:00"
-      },
       "source": {
         "source_id": "32763737",
         "source_url": "https://sdilej.cz/32763737/simpsonovi-s21e09-cz-dabing.mkv",
@@ -96649,15 +96643,22 @@
         "display_name": "The Simpsons S21E09 Thursdays with Abie 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:50:53.367038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674533",
-        "size_bytes": 500989146
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674533",
+          "size_bytes": 500989146,
+          "source_bytes_read": 500989146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763737",
+        "source_url": "https://sdilej.cz/32763737/simpsonovi-s21e09-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674533",
-        "size_bytes": 500989146,
-        "source_bytes_read": 500989146,
-        "http_status": 201
+        "display_name": "The Simpsons S21E09 Thursdays with Abie 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:51:49.196556+00:00"
       }
     },
     "13:21:10": {
@@ -96747,5 +96748,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:51:47.760173+00:00"
+  "updated_at": "2026-10-31T17:51:49.196568+00:00"
 }
