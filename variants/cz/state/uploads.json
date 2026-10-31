@@ -66749,12 +66749,6 @@
     },
     "1127:3:1": {
       "episode_key": "policejní odznak:s3:e1",
-      "claim": {
-        "worker_id": "80d5bf8a1b5649369c1ccdc4a4ea230a-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:07:06.731769+00:00",
-        "lease_expires_at": "2026-10-31T08:07:06.731779+00:00"
-      },
       "source": {
         "source_id": "33817896",
         "source_url": "https://sdilej.cz/33817896/the-shield-s03e01-policejni-odznak-fhd-1080p-cz-na-doraz.mkv",
@@ -66779,15 +66773,22 @@
         "display_name": "The Shield S03E01 Playing Tight 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:07:08.781258+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652091",
-        "size_bytes": 550090260
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652091",
+          "size_bytes": 550090260,
+          "source_bytes_read": 550090260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817896",
+        "source_url": "https://sdilej.cz/33817896/the-shield-s03e01-policejni-odznak-fhd-1080p-cz-na-doraz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652091",
-        "size_bytes": 550090260,
-        "source_bytes_read": 550090260,
-        "http_status": 201
+        "display_name": "The Shield S03E01 Playing Tight 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:09:12.440304+00:00"
       }
     },
     "1127:3:2": {
@@ -66833,5 +66834,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:09:09.419064+00:00"
+  "updated_at": "2026-10-31T02:09:12.440321+00:00"
 }
