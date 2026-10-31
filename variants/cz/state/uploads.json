@@ -78271,12 +78271,6 @@
     },
     "13:2:19": {
       "episode_key": "simpsonovi:s2:e19",
-      "claim": {
-        "worker_id": "98713e9f28d343cf8c0a6793da6308f8-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T12:42:56.101520+00:00",
-        "lease_expires_at": "2026-10-31T18:42:56.101529+00:00"
-      },
       "source": {
         "source_id": "27310027",
         "source_url": "https://sdilej.cz/27310027/simpsonovi-cz-s02e19.mkv",
@@ -78301,15 +78295,22 @@
         "display_name": "The Simpsons S02E19 Lisa's Substitute 1080p CZ Dabing",
         "prepared_at": "2026-10-31T12:42:58.019572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30665631",
-        "size_bytes": 541830463
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30665631",
+          "size_bytes": 541830463,
+          "source_bytes_read": 541830463,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27310027",
+        "source_url": "https://sdilej.cz/27310027/simpsonovi-cz-s02e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30665631",
-        "size_bytes": 541830463,
-        "source_bytes_read": 541830463,
-        "http_status": 201
+        "display_name": "The Simpsons S02E19 Lisa's Substitute 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T12:44:35.090564+00:00"
       }
     },
     "13:2:20": {
@@ -78388,5 +78389,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T12:44:33.863585+00:00"
+  "updated_at": "2026-10-31T12:44:35.090580+00:00"
 }
