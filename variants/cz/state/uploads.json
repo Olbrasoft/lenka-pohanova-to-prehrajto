@@ -110743,12 +110743,6 @@
     },
     "13:36:5": {
       "episode_key": "simpsonovi:s36:e5",
-      "claim": {
-        "worker_id": "12398164876a44d7bbf032cd003d720f-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:45:07.858020+00:00",
-        "lease_expires_at": "2026-11-01T03:45:07.858030+00:00"
-      },
       "source": {
         "source_id": "32313620",
         "source_url": "https://sdilej.cz/32313620/simpsonovi-s36e05-specialni-carodejnicky-dil-xxxv.mkv",
@@ -110773,15 +110767,22 @@
         "display_name": "The Simpsons S36E05 Treehouse of Horror XXXV 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:45:13.465013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679521",
-        "size_bytes": 437089286
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679521",
+          "size_bytes": 437089286,
+          "source_bytes_read": 437089286,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32313620",
+        "source_url": "https://sdilej.cz/32313620/simpsonovi-s36e05-specialni-carodejnicky-dil-xxxv.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679521",
-        "size_bytes": 437089286,
-        "source_bytes_read": 437089286,
-        "http_status": 201
+        "display_name": "The Simpsons S36E05 Treehouse of Horror XXXV 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:46:20.118227+00:00"
       }
     }
   },
@@ -110790,5 +110791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:46:18.689190+00:00"
+  "updated_at": "2026-10-31T21:46:20.118265+00:00"
 }
