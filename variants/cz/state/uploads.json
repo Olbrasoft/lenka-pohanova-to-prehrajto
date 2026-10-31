@@ -97235,12 +97235,6 @@
     },
     "13:21:23": {
       "episode_key": "simpsonovi:s21:e23",
-      "claim": {
-        "worker_id": "7491d787305a4f68a09510f1b0033385-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:56:22.276699+00:00",
-        "lease_expires_at": "2026-10-31T23:56:22.276710+00:00"
-      },
       "source": {
         "source_id": "32763891",
         "source_url": "https://sdilej.cz/32763891/simpsonovi-s21e23-cz-dabing.mkv",
@@ -97265,15 +97259,22 @@
         "display_name": "The Simpsons S21E23 Judge Me Tender 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:56:24.970858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30674624",
-        "size_bytes": 504071109
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30674624",
+          "size_bytes": 504071109,
+          "source_bytes_read": 504071109,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763891",
+        "source_url": "https://sdilej.cz/32763891/simpsonovi-s21e23-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30674624",
-        "size_bytes": 504071109,
-        "source_bytes_read": 504071109,
-        "http_status": 201
+        "display_name": "The Simpsons S21E23 Judge Me Tender 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:57:15.438039+00:00"
       }
     },
     "13:22:1": {
@@ -97319,5 +97320,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:57:12.235772+00:00"
+  "updated_at": "2026-10-31T17:57:15.438052+00:00"
 }
