@@ -69477,12 +69477,6 @@
     },
     "1127:7:13": {
       "episode_key": "policejní odznak:s7:e13",
-      "claim": {
-        "worker_id": "fdb869c0eccb4df38a1e7d7d98c578ef-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T03:32:50.508933+00:00",
-        "lease_expires_at": "2026-10-31T09:32:50.508943+00:00"
-      },
       "source": {
         "source_id": "33818027",
         "source_url": "https://sdilej.cz/33818027/the-shield-s07e13-policejni-odznak-fhd-1080p-cz-family-meeting.mkv",
@@ -69507,15 +69501,22 @@
         "display_name": "The Shield S07E13 Family Meeting 1080p CZ Dabing",
         "prepared_at": "2026-10-31T03:32:53.020866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653803",
-        "size_bytes": 802905761
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653803",
+          "size_bytes": 802905761,
+          "source_bytes_read": 802905761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818027",
+        "source_url": "https://sdilej.cz/33818027/the-shield-s07e13-policejni-odznak-fhd-1080p-cz-family-meeting.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653803",
-        "size_bytes": 802905761,
-        "source_bytes_read": 802905761,
-        "http_status": 201
+        "display_name": "The Shield S07E13 Family Meeting 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T03:35:09.460985+00:00"
       }
     },
     "3303:1:2": {
@@ -69561,5 +69562,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T03:35:05.806321+00:00"
+  "updated_at": "2026-10-31T03:35:09.461001+00:00"
 }
