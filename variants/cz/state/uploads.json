@@ -65988,12 +65988,6 @@
     },
     "1127:1:10": {
       "episode_key": "policejní odznak:s1:e10",
-      "claim": {
-        "worker_id": "986bd71c4ea94dcaa312e651affdb89e-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T01:49:26.509254+00:00",
-        "lease_expires_at": "2026-10-31T07:49:26.509266+00:00"
-      },
       "source": {
         "source_id": "6165476",
         "source_url": "https://sdilej.cz/6165476/policejni-odznak-s01e10-lovci-draka.avi",
@@ -66018,15 +66012,22 @@
         "display_name": "The Shield S01E10 Dragonchasers SD CZ Dabing",
         "prepared_at": "2026-10-31T01:49:29.662195+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30651651",
-        "size_bytes": 327269512
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30651651",
+          "size_bytes": 327269512,
+          "source_bytes_read": 327269512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6165476",
+        "source_url": "https://sdilej.cz/6165476/policejni-odznak-s01e10-lovci-draka.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30651651",
-        "size_bytes": 327269512,
-        "source_bytes_read": 327269512,
-        "http_status": 201
+        "display_name": "The Shield S01E10 Dragonchasers SD CZ Dabing",
+        "uploaded_at": "2026-10-31T01:50:44.861980+00:00"
       }
     },
     "1127:1:11": {
@@ -66072,5 +66073,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T01:50:41.612768+00:00"
+  "updated_at": "2026-10-31T01:50:44.861998+00:00"
 }
