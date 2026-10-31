@@ -103313,12 +103313,6 @@
     },
     "13:28:8": {
       "episode_key": "simpsonovi:s28:e8",
-      "claim": {
-        "worker_id": "5b61f2edf56b4a01a51100a0f6d2a6a3-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:52:17.191025+00:00",
-        "lease_expires_at": "2026-11-01T01:52:17.191034+00:00"
-      },
       "source": {
         "source_id": "32765567",
         "source_url": "https://sdilej.cz/32765567/simpsonovi-s28e08-cz-dabing.mkv",
@@ -103343,15 +103337,22 @@
         "display_name": "The Simpsons S28E08 Dad Behavior 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:52:21.625973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676701",
-        "size_bytes": 487970136
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676701",
+          "size_bytes": 487970136,
+          "source_bytes_read": 487970136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32765567",
+        "source_url": "https://sdilej.cz/32765567/simpsonovi-s28e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676701",
-        "size_bytes": 487970136,
-        "source_bytes_read": 487970136,
-        "http_status": 201
+        "display_name": "The Simpsons S28E08 Dad Behavior 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:53:11.521328+00:00"
       }
     },
     "13:28:9": {
@@ -103397,5 +103398,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:53:10+00:00"
+  "updated_at": "2026-10-31T19:53:11.521342+00:00"
 }
