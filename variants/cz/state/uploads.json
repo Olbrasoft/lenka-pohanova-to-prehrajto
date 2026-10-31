@@ -110177,12 +110177,6 @@
     },
     "13:35:10": {
       "episode_key": "simpsonovi:s35:e10",
-      "claim": {
-        "worker_id": "4f36118055f945c8a1bb486e00552b5b-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:39:26.441925+00:00",
-        "lease_expires_at": "2026-11-01T03:39:26.441933+00:00"
-      },
       "source": {
         "source_id": "32773412",
         "source_url": "https://sdilej.cz/32773412/simpsonovi-s35e10-cz-dabing.mkv",
@@ -110207,15 +110201,22 @@
         "display_name": "The Simpsons S35E10 Do the Wrong Thing 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:39:29.546027+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679440",
-        "size_bytes": 448673080
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679440",
+          "size_bytes": 448673080,
+          "source_bytes_read": 448673080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32773412",
+        "source_url": "https://sdilej.cz/32773412/simpsonovi-s35e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679440",
-        "size_bytes": 448673080,
-        "source_bytes_read": 448673080,
-        "http_status": 201
+        "display_name": "The Simpsons S35E10 Do the Wrong Thing 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:40:13.101444+00:00"
       }
     }
   },
@@ -110224,5 +110225,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:40:10.307521+00:00"
+  "updated_at": "2026-10-31T21:40:13.101461+00:00"
 }
