@@ -71677,12 +71677,6 @@
     },
     "171:1:5": {
       "episode_key": "x-men '97:s1:e5",
-      "claim": {
-        "worker_id": "0727897410214a3194282d3073d8fb93-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T04:48:01.353449+00:00",
-        "lease_expires_at": "2026-10-31T10:48:01.353458+00:00"
-      },
       "source": {
         "source_id": "34911342",
         "source_url": "https://sdilej.cz/34911342/x-men-97-s01e05-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -71707,15 +71701,22 @@
         "display_name": "X-Men '97 S01E05 Remember It 1080p CZ Dabing",
         "prepared_at": "2026-10-31T04:48:04.164913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30655315",
-        "size_bytes": 340037780
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30655315",
+          "size_bytes": 340037780,
+          "source_bytes_read": 340037780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34911342",
+        "source_url": "https://sdilej.cz/34911342/x-men-97-s01e05-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30655315",
-        "size_bytes": 340037780,
-        "source_bytes_read": 340037780,
-        "http_status": 201
+        "display_name": "X-Men '97 S01E05 Remember It 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T04:49:06.463530+00:00"
       }
     },
     "171:1:6": {
@@ -71761,5 +71762,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T04:49:05.208472+00:00"
+  "updated_at": "2026-10-31T04:49:06.463543+00:00"
 }
