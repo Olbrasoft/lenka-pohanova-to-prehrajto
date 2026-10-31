@@ -92175,12 +92175,6 @@
     },
     "13:16:14": {
       "episode_key": "simpsonovi:s16:e14",
-      "claim": {
-        "worker_id": "44931ff78d584d46b9722d71ad0b5f93-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:37:30.783358+00:00",
-        "lease_expires_at": "2026-10-31T22:37:30.783365+00:00"
-      },
       "source": {
         "source_id": "28378246",
         "source_url": "https://sdilej.cz/28378246/simpsonovi-s16e14-vypraskany-praskac.mkv",
@@ -92205,15 +92199,22 @@
         "display_name": "The Simpsons S16E14 The Seven-Beer Snitch 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:37:37.007384+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672950",
-        "size_bytes": 501981191
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672950",
+          "size_bytes": 501981191,
+          "source_bytes_read": 501981191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378246",
+        "source_url": "https://sdilej.cz/28378246/simpsonovi-s16e14-vypraskany-praskac.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672950",
-        "size_bytes": 501981191,
-        "source_bytes_read": 501981191,
-        "http_status": 201
+        "display_name": "The Simpsons S16E14 The Seven-Beer Snitch 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:39:09.027163+00:00"
       }
     },
     "13:16:15": {
@@ -92384,5 +92385,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:39:05.840086+00:00"
+  "updated_at": "2026-10-31T16:39:09.027183+00:00"
 }
