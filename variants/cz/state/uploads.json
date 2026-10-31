@@ -108712,12 +108712,6 @@
     },
     "13:33:21": {
       "episode_key": "simpsonovi:s33:e21",
-      "claim": {
-        "worker_id": "2241c7de6f6248aa8c69ab2a252a2c01-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:10:11.548835+00:00",
-        "lease_expires_at": "2026-11-01T03:10:11.548843+00:00"
-      },
       "source": {
         "source_id": "34980174",
         "source_url": "https://sdilej.cz/34980174/simpsonovi-s33e21-cz.mkv",
@@ -108742,15 +108736,22 @@
         "display_name": "The Simpsons S33E21 Meat Is Murder 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:10:13.520958+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678678",
-        "size_bytes": 166752116
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678678",
+          "size_bytes": 166752116,
+          "source_bytes_read": 166752116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34980174",
+        "source_url": "https://sdilej.cz/34980174/simpsonovi-s33e21-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678678",
-        "size_bytes": 166752116,
-        "source_bytes_read": 166752116,
-        "http_status": 201
+        "display_name": "The Simpsons S33E21 Meat Is Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:10:40.640937+00:00"
       }
     },
     "13:33:22": {
@@ -108795,5 +108796,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:10:37.965113+00:00"
+  "updated_at": "2026-10-31T21:10:40.640953+00:00"
 }
