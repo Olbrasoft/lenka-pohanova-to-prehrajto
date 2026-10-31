@@ -83595,12 +83595,6 @@
     },
     "13:8:1": {
       "episode_key": "simpsonovi:s8:e1",
-      "claim": {
-        "worker_id": "635aa866104d4a28b65816c072b450d3-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T14:23:21.292076+00:00",
-        "lease_expires_at": "2026-10-31T20:23:21.292088+00:00"
-      },
       "source": {
         "source_id": "27322071",
         "source_url": "https://sdilej.cz/27322071/simpsonovi-cz-s08e01.mkv",
@@ -83625,15 +83619,22 @@
         "display_name": "The Simpsons S08E01 Treehouse of Horror VII 1080p CZ Dabing",
         "prepared_at": "2026-10-31T14:23:25.586870+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30669516",
-        "size_bytes": 537024614
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30669516",
+          "size_bytes": 537024614,
+          "source_bytes_read": 537024614,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27322071",
+        "source_url": "https://sdilej.cz/27322071/simpsonovi-cz-s08e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30669516",
-        "size_bytes": 537024614,
-        "source_bytes_read": 537024614,
-        "http_status": 201
+        "display_name": "The Simpsons S08E01 Treehouse of Horror VII 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T14:24:44.088554+00:00"
       }
     },
     "13:8:2": {
@@ -83685,5 +83686,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T14:24:42.741996+00:00"
+  "updated_at": "2026-10-31T14:24:44.088574+00:00"
 }
