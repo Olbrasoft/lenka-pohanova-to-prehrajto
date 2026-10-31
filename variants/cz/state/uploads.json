@@ -88956,12 +88956,6 @@
     },
     "13:13:7": {
       "episode_key": "simpsonovi:s13:e7",
-      "claim": {
-        "worker_id": "1ab3264c92864194ac3e4977361e9da8-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T15:48:45.411671+00:00",
-        "lease_expires_at": "2026-10-31T21:48:45.411681+00:00"
-      },
       "source": {
         "source_id": "27325354",
         "source_url": "https://sdilej.cz/27325354/simpsonovi-s13e07-cz.mkv",
@@ -88986,15 +88980,22 @@
         "display_name": "The Simpsons S13E07 Brawl in the Family 1080p CZ Dabing",
         "prepared_at": "2026-10-31T15:48:47.247232+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30671909",
-        "size_bytes": 516209646
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30671909",
+          "size_bytes": 516209646,
+          "source_bytes_read": 516209646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27325354",
+        "source_url": "https://sdilej.cz/27325354/simpsonovi-s13e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30671909",
-        "size_bytes": 516209646,
-        "source_bytes_read": 516209646,
-        "http_status": 201
+        "display_name": "The Simpsons S13E07 Brawl in the Family 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T15:49:51.011816+00:00"
       }
     },
     "13:13:8": {
@@ -89040,5 +89041,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T15:49:47.863298+00:00"
+  "updated_at": "2026-10-31T15:49:51.011829+00:00"
 }
