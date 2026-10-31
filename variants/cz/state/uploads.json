@@ -94588,12 +94588,6 @@
     },
     "13:19:4": {
       "episode_key": "simpsonovi:s19:e4",
-      "claim": {
-        "worker_id": "037e27be43f14e61a4028f0ef6f8e5b8-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T17:08:15.011459+00:00",
-        "lease_expires_at": "2026-10-31T23:08:15.011470+00:00"
-      },
       "source": {
         "source_id": "28379696",
         "source_url": "https://sdilej.cz/28379696/simpsonovi-s19e04-nechci-vedet-proc-ptacek-v-kleci-zpiva.mkv",
@@ -94618,15 +94612,22 @@
         "display_name": "The Simpsons S19E04 I Don't Wanna Know Why the Caged Bird Sings 1080p CZ Dabing",
         "prepared_at": "2026-10-31T17:08:16.790249+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30673574",
-        "size_bytes": 851421341
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30673574",
+          "size_bytes": 851421341,
+          "source_bytes_read": 851421341,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28379696",
+        "source_url": "https://sdilej.cz/28379696/simpsonovi-s19e04-nechci-vedet-proc-ptacek-v-kleci-zpiva.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30673574",
-        "size_bytes": 851421341,
-        "source_bytes_read": 851421341,
-        "http_status": 201
+        "display_name": "The Simpsons S19E04 I Don't Wanna Know Why the Caged Bird Sings 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T17:09:31.940013+00:00"
       }
     },
     "13:19:5": {
@@ -94672,5 +94673,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T17:09:28.453729+00:00"
+  "updated_at": "2026-10-31T17:09:31.940025+00:00"
 }
