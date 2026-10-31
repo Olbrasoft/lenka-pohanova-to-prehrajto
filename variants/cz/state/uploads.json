@@ -72814,12 +72814,6 @@
     },
     "21:1:4": {
       "episode_key": "stranger things:s1:e4",
-      "claim": {
-        "worker_id": "d916e656b0c74d198f3cd4f31883ca5f-worker-0",
-        "run_id": "41164062626",
-        "claimed_at": "2026-10-31T05:26:22.409010+00:00",
-        "lease_expires_at": "2026-10-31T11:26:22.409020+00:00"
-      },
       "source": {
         "source_id": "33166840",
         "source_url": "https://sdilej.cz/33166840/stranger-things-s01e04-kapitola-ctvrta-telo.mkv",
@@ -72844,15 +72838,22 @@
         "display_name": "Stranger Things S01E04 Chapter Four: The Body 4K CZ Dabing",
         "prepared_at": "2026-10-31T05:26:25.145519+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30656043",
-        "size_bytes": 2398535441
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30656043",
+          "size_bytes": 2398535441,
+          "source_bytes_read": 2398535441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33166840",
+        "source_url": "https://sdilej.cz/33166840/stranger-things-s01e04-kapitola-ctvrta-telo.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30656043",
-        "size_bytes": 2398535441,
-        "source_bytes_read": 2398535441,
-        "http_status": 201
+        "display_name": "Stranger Things S01E04 Chapter Four: The Body 4K CZ Dabing",
+        "uploaded_at": "2026-10-31T05:35:56.275303+00:00"
       }
     }
   },
@@ -72861,5 +72862,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T05:35:54.983816+00:00"
+  "updated_at": "2026-10-31T05:35:56.275320+00:00"
 }
