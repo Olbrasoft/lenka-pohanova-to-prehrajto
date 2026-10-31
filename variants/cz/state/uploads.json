@@ -108895,12 +108895,6 @@
     },
     "13:34:3": {
       "episode_key": "simpsonovi:s34:e3",
-      "claim": {
-        "worker_id": "2f3a143036bf4e7aa1aa3ce798135048-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:11:20.692880+00:00",
-        "lease_expires_at": "2026-11-01T03:11:20.692893+00:00"
-      },
       "source": {
         "source_id": "26637280",
         "source_url": "https://sdilej.cz/26637280/simpsonovi-s34e03-hd-cz-dabing.mkv",
@@ -108925,15 +108919,22 @@
         "display_name": "The Simpsons S34E03 Lisa the Boy Scout 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:11:22.719380+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678706",
-        "size_bytes": 476809814
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678706",
+          "size_bytes": 476809814,
+          "source_bytes_read": 476809814,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26637280",
+        "source_url": "https://sdilej.cz/26637280/simpsonovi-s34e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678706",
-        "size_bytes": 476809814,
-        "source_bytes_read": 476809814,
-        "http_status": 201
+        "display_name": "The Simpsons S34E03 Lisa the Boy Scout 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:12:37.621520+00:00"
       }
     },
     "13:34:4": {
@@ -108979,5 +108980,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:12:33.916356+00:00"
+  "updated_at": "2026-10-31T21:12:37.621530+00:00"
 }
