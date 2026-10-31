@@ -108015,12 +108015,6 @@
     },
     "13:33:5": {
       "episode_key": "simpsonovi:s33:e5",
-      "claim": {
-        "worker_id": "7d70ba0d96524cb3b19f5643038e6ced-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:04:16.709424+00:00",
-        "lease_expires_at": "2026-11-01T03:04:16.709435+00:00"
-      },
       "source": {
         "source_id": "34980085",
         "source_url": "https://sdilej.cz/34980085/simpsonovi-s33e05-cz.mkv",
@@ -108045,15 +108039,22 @@
         "display_name": "The Simpsons S33E05 Lisa's Belly 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:04:18.780340+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678551",
-        "size_bytes": 165971977
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678551",
+          "size_bytes": 165971977,
+          "source_bytes_read": 165971977,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34980085",
+        "source_url": "https://sdilej.cz/34980085/simpsonovi-s33e05-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678551",
-        "size_bytes": 165971977,
-        "source_bytes_read": 165971977,
-        "http_status": 201
+        "display_name": "The Simpsons S33E05 Lisa's Belly 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:04:48.492655+00:00"
       }
     },
     "13:33:6": {
@@ -108095,5 +108096,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:04:46.817080+00:00"
+  "updated_at": "2026-10-31T21:04:48.492670+00:00"
 }
