@@ -102633,12 +102633,6 @@
     },
     "13:27:15": {
       "episode_key": "simpsonovi:s27:e15",
-      "claim": {
-        "worker_id": "6e8983ed2b994b74be3bab29ff1d5d5b-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:42:31.081467+00:00",
-        "lease_expires_at": "2026-11-01T01:42:31.081479+00:00"
-      },
       "source": {
         "source_id": "35046397",
         "source_url": "https://sdilej.cz/35046397/simpsonovi-s27e15-veterinarka-liza-cz.mkv",
@@ -102663,15 +102657,22 @@
         "display_name": "The Simpsons S27E15 Lisa the Veterinarian 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:42:34.888188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676459",
-        "size_bytes": 163547791
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676459",
+          "size_bytes": 163547791,
+          "source_bytes_read": 163547791,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35046397",
+        "source_url": "https://sdilej.cz/35046397/simpsonovi-s27e15-veterinarka-liza-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676459",
-        "size_bytes": 163547791,
-        "source_bytes_read": 163547791,
-        "http_status": 201
+        "display_name": "The Simpsons S27E15 Lisa the Veterinarian 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:43:00.488148+00:00"
       }
     }
   },
@@ -102680,5 +102681,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:42:56.439231+00:00"
+  "updated_at": "2026-10-31T19:43:00.488164+00:00"
 }
