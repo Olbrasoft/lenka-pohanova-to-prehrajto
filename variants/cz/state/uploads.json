@@ -108939,12 +108939,6 @@
     },
     "13:34:4": {
       "episode_key": "simpsonovi:s34:e4",
-      "claim": {
-        "worker_id": "87517b66263943649e2b595bc3e795ce-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T21:12:12.109242+00:00",
-        "lease_expires_at": "2026-11-01T03:12:12.109253+00:00"
-      },
       "source": {
         "source_id": "27336109",
         "source_url": "https://sdilej.cz/27336109/simpsonovi-s34e04-cz.mkv",
@@ -108969,15 +108963,22 @@
         "display_name": "The Simpsons S34E04 The King of Nice 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:12:14.185060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30678722",
-        "size_bytes": 397001468
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30678722",
+          "size_bytes": 397001468,
+          "source_bytes_read": 397001468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27336109",
+        "source_url": "https://sdilej.cz/27336109/simpsonovi-s34e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30678722",
-        "size_bytes": 397001468,
-        "source_bytes_read": 397001468,
-        "http_status": 201
+        "display_name": "The Simpsons S34E04 The King of Nice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:12:56.397358+00:00"
       }
     },
     "13:34:5": {
@@ -109022,5 +109023,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:12:53.631503+00:00"
+  "updated_at": "2026-10-31T21:12:56.397377+00:00"
 }
