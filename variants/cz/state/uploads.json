@@ -103351,12 +103351,6 @@
     },
     "13:28:9": {
       "episode_key": "simpsonovi:s28:e9",
-      "claim": {
-        "worker_id": "140e4b2415274429863a0794f1435073-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T19:52:26.692820+00:00",
-        "lease_expires_at": "2026-11-01T01:52:26.692829+00:00"
-      },
       "source": {
         "source_id": "32765585",
         "source_url": "https://sdilej.cz/32765585/simpsonovi-s28e09-cz-dabing.mkv",
@@ -103381,15 +103375,22 @@
         "display_name": "The Simpsons S28E09 The Last Traction Hero 1080p CZ Dabing",
         "prepared_at": "2026-10-31T19:52:28.673006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30676707",
-        "size_bytes": 500128765
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30676707",
+          "size_bytes": 500128765,
+          "source_bytes_read": 500128765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32765585",
+        "source_url": "https://sdilej.cz/32765585/simpsonovi-s28e09-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30676707",
-        "size_bytes": 500128765,
-        "source_bytes_read": 500128765,
-        "http_status": 201
+        "display_name": "The Simpsons S28E09 The Last Traction Hero 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T19:55:12.970599+00:00"
       }
     },
     "13:28:10": {
@@ -103442,5 +103443,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T19:55:11.406627+00:00"
+  "updated_at": "2026-10-31T19:55:12.970616+00:00"
 }
