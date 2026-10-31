@@ -100044,12 +100044,6 @@
     },
     "13:24:20": {
       "episode_key": "simpsonovi:s24:e20",
-      "claim": {
-        "worker_id": "f81bbdf039ae42a1b163ec74dec5baf3-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:58:10.413876+00:00",
-        "lease_expires_at": "2026-11-01T00:58:10.413887+00:00"
-      },
       "source": {
         "source_id": "28382526",
         "source_url": "https://sdilej.cz/28382526/simpsonovi-s24e20-falesny-virtuos.mkv",
@@ -100074,15 +100068,22 @@
         "display_name": "The Simpsons S24E20 The Fabulous Faker Boy 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:58:13.679247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675587",
-        "size_bytes": 770475051
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675587",
+          "size_bytes": 770475051,
+          "source_bytes_read": 770475051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28382526",
+        "source_url": "https://sdilej.cz/28382526/simpsonovi-s24e20-falesny-virtuos.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675587",
-        "size_bytes": 770475051,
-        "source_bytes_read": 770475051,
-        "http_status": 201
+        "display_name": "The Simpsons S24E20 The Fabulous Faker Boy 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:59:28.466104+00:00"
       }
     },
     "13:24:21": {
@@ -100172,5 +100173,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:59:24.847419+00:00"
+  "updated_at": "2026-10-31T18:59:28.466120+00:00"
 }
