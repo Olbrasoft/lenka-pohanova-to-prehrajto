@@ -81137,12 +81137,6 @@
     },
     "13:5:16": {
       "episode_key": "simpsonovi:s5:e16",
-      "claim": {
-        "worker_id": "986dd4fa193940c782bc7c425a22cf1b-worker-0",
-        "run_id": "41192416588",
-        "claimed_at": "2026-10-31T13:33:12.646539+00:00",
-        "lease_expires_at": "2026-10-31T19:33:12.646549+00:00"
-      },
       "source": {
         "source_id": "27311280",
         "source_url": "https://sdilej.cz/27311280/simpsonovi-cz-s05e16.mkv",
@@ -81167,15 +81161,22 @@
         "display_name": "The Simpsons S05E16 Homer Loves Flanders 1080p CZ Dabing",
         "prepared_at": "2026-10-31T13:33:14.276626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30668627",
-        "size_bytes": 533555827
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30668627",
+          "size_bytes": 533555827,
+          "source_bytes_read": 533555827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27311280",
+        "source_url": "https://sdilej.cz/27311280/simpsonovi-cz-s05e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30668627",
-        "size_bytes": 533555827,
-        "source_bytes_read": 533555827,
-        "http_status": 201
+        "display_name": "The Simpsons S05E16 Homer Loves Flanders 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T13:34:21.715898+00:00"
       }
     },
     "13:5:17": {
@@ -81221,5 +81222,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T13:34:20.436767+00:00"
+  "updated_at": "2026-10-31T13:34:21.715912+00:00"
 }
