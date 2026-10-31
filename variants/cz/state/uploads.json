@@ -64807,12 +64807,6 @@
     },
     "956:7:21": {
       "episode_key": "star trek: nová generace:s7:e21",
-      "claim": {
-        "worker_id": "a949620d1daf4d9dbdce726a8f0bf37b-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T00:43:16.331501+00:00",
-        "lease_expires_at": "2026-10-31T06:43:16.331513+00:00"
-      },
       "source": {
         "source_id": "28165621",
         "source_url": "https://sdilej.cz/28165621/star-trek-nova-generace-s07e21-prvorozeny.mkv",
@@ -64837,15 +64831,22 @@
         "display_name": "Star Trek: The Next Generation S07E21 Firstborn 1080p CZ Dabing",
         "prepared_at": "2026-10-31T00:43:21.342055+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30650041",
-        "size_bytes": 370749533
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30650041",
+          "size_bytes": 370749533,
+          "source_bytes_read": 370749533,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28165621",
+        "source_url": "https://sdilej.cz/28165621/star-trek-nova-generace-s07e21-prvorozeny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30650041",
-        "size_bytes": 370749533,
-        "source_bytes_read": 370749533,
-        "http_status": 201
+        "display_name": "Star Trek: The Next Generation S07E21 Firstborn 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T00:45:24.076667+00:00"
       }
     },
     "956:7:22": {
@@ -64972,5 +64973,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T00:45:18.533147+00:00"
+  "updated_at": "2026-10-31T00:45:24.076684+00:00"
 }
