@@ -67887,12 +67887,6 @@
     },
     "1127:4:12": {
       "episode_key": "policejní odznak:s4:e12",
-      "claim": {
-        "worker_id": "17e3f15c2734495aa217524c5597b8de-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:48:20.691392+00:00",
-        "lease_expires_at": "2026-10-31T08:48:20.691406+00:00"
-      },
       "source": {
         "source_id": "33817952",
         "source_url": "https://sdilej.cz/33817952/the-shield-s04e12-policejni-odznak-fhd-1080p-cz-zidovsky-knez.mkv",
@@ -67917,15 +67911,22 @@
         "display_name": "The Shield S04E12 Judas Priest 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:48:24.145580+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30653071",
-        "size_bytes": 491182087
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30653071",
+          "size_bytes": 491182087,
+          "source_bytes_read": 491182087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817952",
+        "source_url": "https://sdilej.cz/33817952/the-shield-s04e12-policejni-odznak-fhd-1080p-cz-zidovsky-knez.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30653071",
-        "size_bytes": 491182087,
-        "source_bytes_read": 491182087,
-        "http_status": 201
+        "display_name": "The Shield S04E12 Judas Priest 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:50:12.043536+00:00"
       }
     }
   },
@@ -67934,5 +67935,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:50:07.561826+00:00"
+  "updated_at": "2026-10-31T02:50:12.043559+00:00"
 }
