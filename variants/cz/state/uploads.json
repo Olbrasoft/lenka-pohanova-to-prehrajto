@@ -110705,12 +110705,6 @@
     },
     "13:36:4": {
       "episode_key": "simpsonovi:s36:e4",
-      "claim": {
-        "worker_id": "a4f4c505b41240148d9a55bc9114f324-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-10-31T21:43:51.323698+00:00",
-        "lease_expires_at": "2026-11-01T03:43:51.323706+00:00"
-      },
       "source": {
         "source_id": "32313613",
         "source_url": "https://sdilej.cz/32313613/simpsonovi-s36e04-ztraceny-pripad-czdab-h265-1080p-.mkv",
@@ -110735,15 +110729,22 @@
         "display_name": "The Simpsons S36E04 Shoddy Heat 1080p CZ Dabing",
         "prepared_at": "2026-10-31T21:43:55.580292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30679505",
-        "size_bytes": 385972921
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30679505",
+          "size_bytes": 385972921,
+          "source_bytes_read": 385972921,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32313613",
+        "source_url": "https://sdilej.cz/32313613/simpsonovi-s36e04-ztraceny-pripad-czdab-h265-1080p-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30679505",
-        "size_bytes": 385972921,
-        "source_bytes_read": 385972921,
-        "http_status": 201
+        "display_name": "The Simpsons S36E04 Shoddy Heat 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T21:44:29.123336+00:00"
       }
     }
   },
@@ -110752,5 +110753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T21:44:27.552650+00:00"
+  "updated_at": "2026-10-31T21:44:29.123354+00:00"
 }
