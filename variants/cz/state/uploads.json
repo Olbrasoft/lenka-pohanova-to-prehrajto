@@ -67051,12 +67051,6 @@
     },
     "1127:3:8": {
       "episode_key": "policejní odznak:s3:e8",
-      "claim": {
-        "worker_id": "992f3d01e30c4d24941f4a423207b4f6-worker-0",
-        "run_id": "41143996660",
-        "claimed_at": "2026-10-31T02:24:57.038247+00:00",
-        "lease_expires_at": "2026-10-31T08:24:57.038257+00:00"
-      },
       "source": {
         "source_id": "33817910",
         "source_url": "https://sdilej.cz/33817910/the-shield-s03e08-policejni-odznak-fhd-1080p-cz-podezreni.mkv",
@@ -67081,15 +67075,22 @@
         "display_name": "The Shield S03E08 Cracking Ice 1080p CZ Dabing",
         "prepared_at": "2026-10-31T02:25:02.804973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30652577",
-        "size_bytes": 506422698
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30652577",
+          "size_bytes": 506422698,
+          "source_bytes_read": 506422698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817910",
+        "source_url": "https://sdilej.cz/33817910/the-shield-s03e08-policejni-odznak-fhd-1080p-cz-podezreni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30652577",
-        "size_bytes": 506422698,
-        "source_bytes_read": 506422698,
-        "http_status": 201
+        "display_name": "The Shield S03E08 Cracking Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T02:26:46.522278+00:00"
       }
     },
     "1127:3:9": {
@@ -67135,5 +67136,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T02:26:42.263785+00:00"
+  "updated_at": "2026-10-31T02:26:46.522295+00:00"
 }
