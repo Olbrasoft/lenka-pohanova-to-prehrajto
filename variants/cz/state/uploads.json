@@ -92439,12 +92439,6 @@
     },
     "13:16:20": {
       "episode_key": "simpsonovi:s16:e20",
-      "claim": {
-        "worker_id": "e07d273f23fe411bb346516b1384f660-worker-0",
-        "run_id": "41209752528",
-        "claimed_at": "2026-10-31T16:40:13.207832+00:00",
-        "lease_expires_at": "2026-10-31T22:40:13.207842+00:00"
-      },
       "source": {
         "source_id": "28378708",
         "source_url": "https://sdilej.cz/28378708/simpsonovi-s16e20-domov-daleko-od-homera.mkv",
@@ -92469,15 +92463,22 @@
         "display_name": "The Simpsons S16E20 Home Away from Homer 1080p CZ Dabing",
         "prepared_at": "2026-10-31T16:40:14.990286+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30672997",
-        "size_bytes": 492738332
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30672997",
+          "size_bytes": 492738332,
+          "source_bytes_read": 492738332,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28378708",
+        "source_url": "https://sdilej.cz/28378708/simpsonovi-s16e20-domov-daleko-od-homera.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30672997",
-        "size_bytes": 492738332,
-        "source_bytes_read": 492738332,
-        "http_status": 201
+        "display_name": "The Simpsons S16E20 Home Away from Homer 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T16:41:53.216830+00:00"
       }
     },
     "13:16:21": {
@@ -92573,5 +92574,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T16:41:51.760734+00:00"
+  "updated_at": "2026-10-31T16:41:53.216841+00:00"
 }
