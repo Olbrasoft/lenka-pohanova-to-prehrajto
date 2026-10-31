@@ -99509,12 +99509,6 @@
     },
     "13:24:8": {
       "episode_key": "simpsonovi:s24:e8",
-      "claim": {
-        "worker_id": "b347bda9f2ed47f8841f9e7080bd0a67-worker-0",
-        "run_id": "41224131309",
-        "claimed_at": "2026-10-31T18:44:28.126371+00:00",
-        "lease_expires_at": "2026-11-01T00:44:28.126381+00:00"
-      },
       "source": {
         "source_id": "34973948",
         "source_url": "https://sdilej.cz/34973948/simpsonovi-s24e08-cz-dabing-hevc-2012-.mkv",
@@ -99539,15 +99533,22 @@
         "display_name": "The Simpsons S24E08 To Cur, with Love 1080p CZ Dabing",
         "prepared_at": "2026-10-31T18:44:31.709498+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30675368",
-        "size_bytes": 158048688
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30675368",
+          "size_bytes": 158048688,
+          "source_bytes_read": 158048688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34973948",
+        "source_url": "https://sdilej.cz/34973948/simpsonovi-s24e08-cz-dabing-hevc-2012-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30675368",
-        "size_bytes": 158048688,
-        "source_bytes_read": 158048688,
-        "http_status": 201
+        "display_name": "The Simpsons S24E08 To Cur, with Love 1080p CZ Dabing",
+        "uploaded_at": "2026-10-31T18:44:55.857905+00:00"
       }
     }
   },
@@ -99556,5 +99557,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-10-31T18:44:52.594478+00:00"
+  "updated_at": "2026-10-31T18:44:55.857923+00:00"
 }
