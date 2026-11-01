@@ -120019,12 +120019,6 @@
     },
     "104:8:3": {
       "episode_key": "akta x:s8:e3",
-      "claim": {
-        "worker_id": "5001bca9e6e44ae488249ec89c0e6c34-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:30:49.922514+00:00",
-        "lease_expires_at": "2026-11-01T09:30:49.922524+00:00"
-      },
       "source": {
         "source_id": "35070037",
         "source_url": "https://sdilej.cz/35070037/akta-x-s08e03-patience.mkv",
@@ -120049,15 +120043,22 @@
         "display_name": "The X-Files S08E03 Patience 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:30:52.074946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683581",
-        "size_bytes": 618812965
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683581",
+          "size_bytes": 618812965,
+          "source_bytes_read": 618812965,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35070037",
+        "source_url": "https://sdilej.cz/35070037/akta-x-s08e03-patience.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683581",
-        "size_bytes": 618812965,
-        "source_bytes_read": 618812965,
-        "http_status": 201
+        "display_name": "The X-Files S08E03 Patience 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:32:12.398275+00:00"
       }
     }
   },
@@ -120066,5 +120067,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:32:07.852002+00:00"
+  "updated_at": "2026-11-01T03:32:12.398292+00:00"
 }
