@@ -137071,12 +137071,6 @@
     },
     "1067:3:11": {
       "episode_key": "taková moderní rodinka:s3:e11",
-      "claim": {
-        "worker_id": "c1dadb72453a4e06870c732dce3e325a-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:58:46.575445+00:00",
-        "lease_expires_at": "2026-11-01T23:58:46.575458+00:00"
-      },
       "source": {
         "source_id": "35153653",
         "source_url": "https://sdilej.cz/35153653/modern-family-s03e11-cz-dabing-1080p-bedobi.mp4",
@@ -137101,15 +137095,22 @@
         "display_name": "Modern Family S03E11 Lifetime Supply 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:58:50.529678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702669",
-        "size_bytes": 397680184
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702669",
+          "size_bytes": 397680184,
+          "source_bytes_read": 397680184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35153653",
+        "source_url": "https://sdilej.cz/35153653/modern-family-s03e11-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702669",
-        "size_bytes": 397680184,
-        "source_bytes_read": 397680184,
-        "http_status": 201
+        "display_name": "Modern Family S03E11 Lifetime Supply 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:59:40.412003+00:00"
       }
     },
     "1067:3:12": {
@@ -137232,5 +137233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:59:38.569275+00:00"
+  "updated_at": "2026-11-01T17:59:40.412019+00:00"
 }
