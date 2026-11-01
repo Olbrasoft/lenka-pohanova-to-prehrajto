@@ -129392,12 +129392,6 @@
     },
     "1237:5:6": {
       "episode_key": "normálka:s5:e6",
-      "claim": {
-        "worker_id": "8148d5e6edc04d24ba38238ce0c8f779-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:09:24.829899+00:00",
-        "lease_expires_at": "2026-11-01T18:09:24.829910+00:00"
-      },
       "source": {
         "source_id": "22805941",
         "source_url": "https://sdilej.cz/22805941/normalka-regular-show-s05e06-hd-cz-dabing.mkv",
@@ -129422,15 +129416,22 @@
         "display_name": "Regular Show S05E06 A Skips in Time 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:09:28.730122+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694280",
-        "size_bytes": 699110867
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694280",
+          "size_bytes": 699110867,
+          "source_bytes_read": 699110867,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22805941",
+        "source_url": "https://sdilej.cz/22805941/normalka-regular-show-s05e06-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694280",
-        "size_bytes": 699110867,
-        "source_bytes_read": 699110867,
-        "http_status": 201
+        "display_name": "Regular Show S05E06 A Skips in Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:11:16.603137+00:00"
       }
     },
     "1237:5:20": {
@@ -129513,5 +129514,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:11:13.025484+00:00"
+  "updated_at": "2026-11-01T12:11:16.603151+00:00"
 }
