@@ -130881,12 +130881,6 @@
     },
     "104:2:18": {
       "episode_key": "akta x:s2:e18",
-      "claim": {
-        "worker_id": "cb134eb8f6ee4cfcb7bda472cb5467f0-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:56:39.651202+00:00",
-        "lease_expires_at": "2026-11-01T18:56:39.651212+00:00"
-      },
       "source": {
         "source_id": "35069113",
         "source_url": "https://sdilej.cz/35069113/akta-x-s02e18-desiva-symetrie.mkv",
@@ -130911,15 +130905,22 @@
         "display_name": "The X-Files S02E18 Fearful Symmetry 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:56:41.696028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695088",
-        "size_bytes": 587131527
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695088",
+          "size_bytes": 587131527,
+          "source_bytes_read": 587131527,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35069113",
+        "source_url": "https://sdilej.cz/35069113/akta-x-s02e18-desiva-symetrie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695088",
-        "size_bytes": 587131527,
-        "source_bytes_read": 587131527,
-        "http_status": 201
+        "display_name": "The X-Files S02E18 Fearful Symmetry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:57:59.096185+00:00"
       }
     },
     "104:2:24": {
@@ -130965,5 +130966,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:57:54.593480+00:00"
+  "updated_at": "2026-11-01T12:57:59.096200+00:00"
 }
