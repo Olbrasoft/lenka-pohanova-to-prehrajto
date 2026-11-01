@@ -144736,12 +144736,6 @@
     },
     "1067:11:1": {
       "episode_key": "taková moderní rodinka:s11:e1",
-      "claim": {
-        "worker_id": "43f656e22bd44248ae2f6cb2d7dae9d4-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:58:17.051530+00:00",
-        "lease_expires_at": "2026-11-02T01:58:17.051541+00:00"
-      },
       "source": {
         "source_id": "34975780",
         "source_url": "https://sdilej.cz/34975780/takova-moderni-rodinka-s11e01.1080i.hdtv.cz.mkv",
@@ -144766,15 +144760,22 @@
         "display_name": "Modern Family S11E01 New Kids on the Block 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:58:19.273877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705555",
-        "size_bytes": 1418322133
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705555",
+          "size_bytes": 1418322133,
+          "source_bytes_read": 1418322133,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975780",
+        "source_url": "https://sdilej.cz/34975780/takova-moderni-rodinka-s11e01.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705555",
-        "size_bytes": 1418322133,
-        "source_bytes_read": 1418322133,
-        "http_status": 201
+        "display_name": "Modern Family S11E01 New Kids on the Block 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:01:10.451531+00:00"
       }
     },
     "1067:11:2": {
@@ -144857,5 +144858,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:01:06.230892+00:00"
+  "updated_at": "2026-11-01T20:01:10.451548+00:00"
 }
