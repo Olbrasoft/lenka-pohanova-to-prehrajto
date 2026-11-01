@@ -130536,12 +130536,6 @@
     },
     "76:1:2": {
       "episode_key": "andor:s1:e2",
-      "claim": {
-        "worker_id": "bef1f434717c4369a25ab1f94bca3168-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:39:57.473000+00:00",
-        "lease_expires_at": "2026-11-01T18:39:57.473010+00:00"
-      },
       "source": {
         "source_id": "33692611",
         "source_url": "https://sdilej.cz/33692611/andor-s01e02-byl-jsem-to-ja.mkv",
@@ -130566,15 +130560,22 @@
         "display_name": "Andor S01E02 That Would Be Me 4K CZ Dabing",
         "prepared_at": "2026-11-01T12:39:59.401642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694793",
-        "size_bytes": 1781201822
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694793",
+          "size_bytes": 1781201822,
+          "source_bytes_read": 1781201822,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33692611",
+        "source_url": "https://sdilej.cz/33692611/andor-s01e02-byl-jsem-to-ja.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694793",
-        "size_bytes": 1781201822,
-        "source_bytes_read": 1781201822,
-        "http_status": 201
+        "display_name": "Andor S01E02 That Would Be Me 4K CZ Dabing",
+        "uploaded_at": "2026-11-01T12:46:47.193923+00:00"
       }
     },
     "76:1:3": {
@@ -130657,5 +130658,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:46:43.358307+00:00"
+  "updated_at": "2026-11-01T12:46:47.193938+00:00"
 }
