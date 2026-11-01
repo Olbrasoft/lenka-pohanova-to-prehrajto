@@ -132905,12 +132905,6 @@
     },
     "2558:5:8": {
       "episode_key": "hercule poirot:s5:e8",
-      "claim": {
-        "worker_id": "a07b41a50b92429e8faa6e36e9e18802-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:36:02.717929+00:00",
-        "lease_expires_at": "2026-11-01T20:36:02.717940+00:00"
-      },
       "source": {
         "source_id": "34799201",
         "source_url": "https://sdilej.cz/34799201/hercule-poirot-s05e08-41-1993-sd-kradez-klenotu-v-hotelu-grand-metropolitan-sd-.mp4",
@@ -132935,15 +132929,22 @@
         "display_name": "Agatha Christie's Poirot S05E08 Jewel Robbery at the Grand Metropolitan SD CZ Dabing",
         "prepared_at": "2026-11-01T14:36:05.579303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697090",
-        "size_bytes": 407877826
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697090",
+          "size_bytes": 407877826,
+          "source_bytes_read": 407877826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799201",
+        "source_url": "https://sdilej.cz/34799201/hercule-poirot-s05e08-41-1993-sd-kradez-klenotu-v-hotelu-grand-metropolitan-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697090",
-        "size_bytes": 407877826,
-        "source_bytes_read": 407877826,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E08 Jewel Robbery at the Grand Metropolitan SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:37:21.219173+00:00"
       }
     },
     "2558:6:1": {
@@ -132989,5 +132990,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:37:17.406080+00:00"
+  "updated_at": "2026-11-01T14:37:21.219193+00:00"
 }
