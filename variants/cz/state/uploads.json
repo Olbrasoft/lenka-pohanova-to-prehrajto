@@ -134053,12 +134053,6 @@
     },
     "1987:1:5": {
       "episode_key": "nabídka:s1:e5",
-      "claim": {
-        "worker_id": "c4e908da02ea4995bcdb0aa3ec7d9055-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:03:47.167624+00:00",
-        "lease_expires_at": "2026-11-01T23:03:47.167636+00:00"
-      },
       "source": {
         "source_id": "33179975",
         "source_url": "https://sdilej.cz/33179975/nabidka-s01e05-10-2022-cz-dab-polibit-prsten.mkv",
@@ -134083,15 +134077,22 @@
         "display_name": "The Offer S01E05 Kiss the Ring 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:03:52.176331+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701267",
-        "size_bytes": 583245772
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701267",
+          "size_bytes": 583245772,
+          "source_bytes_read": 583245772,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33179975",
+        "source_url": "https://sdilej.cz/33179975/nabidka-s01e05-10-2022-cz-dab-polibit-prsten.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701267",
-        "size_bytes": 583245772,
-        "source_bytes_read": 583245772,
-        "http_status": 201
+        "display_name": "The Offer S01E05 Kiss the Ring 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:05:07.382438+00:00"
       }
     },
     "1987:1:6": {
@@ -134174,5 +134175,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:05:02.542775+00:00"
+  "updated_at": "2026-11-01T17:05:07.382456+00:00"
 }
