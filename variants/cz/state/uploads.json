@@ -115325,12 +115325,6 @@
     },
     "104:3:7": {
       "episode_key": "akta x:s3:e7",
-      "claim": {
-        "worker_id": "1b8fcbbfdfa0467cad7ef531b2576b9c-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:26:36.320410+00:00",
-        "lease_expires_at": "2026-11-01T06:26:36.320422+00:00"
-      },
       "source": {
         "source_id": "32201903",
         "source_url": "https://sdilej.cz/32201903/akta-x-s03e07-prochazka.mkv",
@@ -115355,15 +115349,22 @@
         "display_name": "The X-Files S03E07 The Walk 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:26:39.806860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681517",
-        "size_bytes": 980346760
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681517",
+          "size_bytes": 980346760,
+          "source_bytes_read": 980346760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201903",
+        "source_url": "https://sdilej.cz/32201903/akta-x-s03e07-prochazka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681517",
-        "size_bytes": 980346760,
-        "source_bytes_read": 980346760,
-        "http_status": 201
+        "display_name": "The X-Files S03E07 The Walk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:30:04.557506+00:00"
       }
     }
   },
@@ -115372,5 +115373,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:29:59.827351+00:00"
+  "updated_at": "2026-11-01T00:30:04.557529+00:00"
 }
