@@ -125256,12 +125256,6 @@
     },
     "1192:3:13": {
       "episode_key": "strážce pořádku:s3:e13",
-      "claim": {
-        "worker_id": "e86f9726238d433b9d74d74bcb76672b-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:16:23.578396+00:00",
-        "lease_expires_at": "2026-11-01T15:16:23.578405+00:00"
-      },
       "source": {
         "source_id": "32286069",
         "source_url": "https://sdilej.cz/32286069/strazce-poradku-2012-s03e13-1080p-cz.mkv",
@@ -125286,15 +125280,22 @@
         "display_name": "Justified S03E13 Slaughterhouse 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:16:28.294626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690698",
-        "size_bytes": 454293455
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690698",
+          "size_bytes": 454293455,
+          "source_bytes_read": 454293455,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286069",
+        "source_url": "https://sdilej.cz/32286069/strazce-poradku-2012-s03e13-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690698",
-        "size_bytes": 454293455,
-        "source_bytes_read": 454293455,
-        "http_status": 201
+        "display_name": "Justified S03E13 Slaughterhouse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:18:39.974490+00:00"
       }
     },
     "1192:4:1": {
@@ -125421,5 +125422,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:18:35.841922+00:00"
+  "updated_at": "2026-11-01T09:18:39.974506+00:00"
 }
