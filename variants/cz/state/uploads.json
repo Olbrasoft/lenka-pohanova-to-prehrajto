@@ -132583,12 +132583,6 @@
     },
     "2558:5:1": {
       "episode_key": "hercule poirot:s5:e1",
-      "claim": {
-        "worker_id": "045656cc7c7c41f4ae27a3059514d602-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:16:59.858058+00:00",
-        "lease_expires_at": "2026-11-01T20:16:59.858069+00:00"
-      },
       "source": {
         "source_id": "34799175",
         "source_url": "https://sdilej.cz/34799175/hercule-poirot-s05e01-34-1993-sd-zahada-egyptske-hrobky-sd-.mp4",
@@ -132613,15 +132607,22 @@
         "display_name": "Agatha Christie's Poirot S05E01 The Adventure of the Egyptian Tomb SD CZ Dabing",
         "prepared_at": "2026-11-01T14:17:01.907406+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696753",
-        "size_bytes": 409984475
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696753",
+          "size_bytes": 409984475,
+          "source_bytes_read": 409984475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799175",
+        "source_url": "https://sdilej.cz/34799175/hercule-poirot-s05e01-34-1993-sd-zahada-egyptske-hrobky-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696753",
-        "size_bytes": 409984475,
-        "source_bytes_read": 409984475,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E01 The Adventure of the Egyptian Tomb SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:17:58.441823+00:00"
       }
     }
   },
@@ -132630,5 +132631,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:17:54.129070+00:00"
+  "updated_at": "2026-11-01T14:17:58.441840+00:00"
 }
