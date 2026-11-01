@@ -131666,12 +131666,6 @@
     },
     "2558:1:9": {
       "episode_key": "hercule poirot:s1:e9",
-      "claim": {
-        "worker_id": "99612d648cf240dc84df4dd395365584-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:44:35.600331+00:00",
-        "lease_expires_at": "2026-11-01T19:44:35.600344+00:00"
-      },
       "source": {
         "source_id": "34799093",
         "source_url": "https://sdilej.cz/34799093/hercule-poirot-s01e09-09-1989-sd-krizovy-kral-sd-.mp4",
@@ -131696,15 +131690,22 @@
         "display_name": "Agatha Christie's Poirot S01E09 The King of Clubs SD CZ Dabing",
         "prepared_at": "2026-11-01T13:44:37.507689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695870",
-        "size_bytes": 380846382
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695870",
+          "size_bytes": 380846382,
+          "source_bytes_read": 380846382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799093",
+        "source_url": "https://sdilej.cz/34799093/hercule-poirot-s01e09-09-1989-sd-krizovy-kral-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695870",
-        "size_bytes": 380846382,
-        "source_bytes_read": 380846382,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S01E09 The King of Clubs SD CZ Dabing",
+        "uploaded_at": "2026-11-01T13:45:17.918543+00:00"
       }
     }
   },
@@ -131713,5 +131714,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:45:14.816300+00:00"
+  "updated_at": "2026-11-01T13:45:17.918560+00:00"
 }
