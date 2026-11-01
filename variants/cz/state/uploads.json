@@ -132817,12 +132817,6 @@
     },
     "2558:5:6": {
       "episode_key": "hercule poirot:s5:e6",
-      "claim": {
-        "worker_id": "ed5065fb9b984e27adee0ab9f8369733-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:34:44.826938+00:00",
-        "lease_expires_at": "2026-11-01T20:34:44.826949+00:00"
-      },
       "source": {
         "source_id": "34799191",
         "source_url": "https://sdilej.cz/34799191/hercule-poirot-s05e06-39-1993-sd-bonboniera-sd-.mp4",
@@ -132847,15 +132841,22 @@
         "display_name": "Agatha Christie's Poirot S05E06 The Chocolate Box SD CZ Dabing",
         "prepared_at": "2026-11-01T14:34:47.829765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697062",
-        "size_bytes": 411477615
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697062",
+          "size_bytes": 411477615,
+          "source_bytes_read": 411477615,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799191",
+        "source_url": "https://sdilej.cz/34799191/hercule-poirot-s05e06-39-1993-sd-bonboniera-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697062",
-        "size_bytes": 411477615,
-        "source_bytes_read": 411477615,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E06 The Chocolate Box SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:35:25.983304+00:00"
       }
     }
   },
@@ -132864,5 +132865,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:35:24.378722+00:00"
+  "updated_at": "2026-11-01T14:35:25.983320+00:00"
 }
