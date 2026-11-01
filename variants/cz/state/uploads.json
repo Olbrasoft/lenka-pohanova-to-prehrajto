@@ -147992,12 +147992,6 @@
     },
     "2065:5:3": {
       "episode_key": "detektiv endeavour morse:s5:e3",
-      "claim": {
-        "worker_id": "ebfdc938f34648b8b8c53dbc850c8e2b-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:08:44.911629+00:00",
-        "lease_expires_at": "2026-11-02T04:08:44.911640+00:00"
-      },
       "source": {
         "source_id": "33117140",
         "source_url": "https://sdilej.cz/33117140/detektiv-endeavour-morse-s05e03-06-2018-cz-dab-1080p-cestujici.mkv",
@@ -148022,15 +148016,22 @@
         "display_name": "Endeavour S05E03 Passenger 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:08:47.439796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708406",
-        "size_bytes": 899808639
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708406",
+          "size_bytes": 899808639,
+          "source_bytes_read": 899808639,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33117140",
+        "source_url": "https://sdilej.cz/33117140/detektiv-endeavour-morse-s05e03-06-2018-cz-dab-1080p-cestujici.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708406",
-        "size_bytes": 899808639,
-        "source_bytes_read": 899808639,
-        "http_status": 201
+        "display_name": "Endeavour S05E03 Passenger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:11:41.876281+00:00"
       }
     },
     "2065:5:4": {
@@ -148120,5 +148121,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:11:37.570747+00:00"
+  "updated_at": "2026-11-01T22:11:41.876297+00:00"
 }
