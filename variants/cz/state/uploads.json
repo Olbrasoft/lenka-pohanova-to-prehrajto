@@ -139789,12 +139789,6 @@
     },
     "1067:6:1": {
       "episode_key": "taková moderní rodinka:s6:e1",
-      "claim": {
-        "worker_id": "35205d786bba439ea788698d4b9c8ecf-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:30:17.298045+00:00",
-        "lease_expires_at": "2026-11-02T00:30:17.298060+00:00"
-      },
       "source": {
         "source_id": "30412364",
         "source_url": "https://sdilej.cz/30412364/takova-moderni-rodinka-s06e01-czdab.mp4",
@@ -139819,15 +139813,22 @@
         "display_name": "Modern Family S06E01 The Long Honeymoon SD CZ Dabing",
         "prepared_at": "2026-11-01T18:30:19.525092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703429",
-        "size_bytes": 372126337
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703429",
+          "size_bytes": 372126337,
+          "source_bytes_read": 372126337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412364",
+        "source_url": "https://sdilej.cz/30412364/takova-moderni-rodinka-s06e01-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703429",
-        "size_bytes": 372126337,
-        "source_bytes_read": 372126337,
-        "http_status": 201
+        "display_name": "Modern Family S06E01 The Long Honeymoon SD CZ Dabing",
+        "uploaded_at": "2026-11-01T18:31:13.573480+00:00"
       }
     }
   },
@@ -139836,5 +139837,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:31:09.367258+00:00"
+  "updated_at": "2026-11-01T18:31:13.573496+00:00"
 }
