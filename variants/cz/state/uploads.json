@@ -130360,12 +130360,6 @@
     },
     "1237:8:14": {
       "episode_key": "normálka:s8:e14",
-      "claim": {
-        "worker_id": "4ecfda4df9884fa48819f0c3732ccc88-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:35:08.966062+00:00",
-        "lease_expires_at": "2026-11-01T18:35:08.966073+00:00"
-      },
       "source": {
         "source_id": "22814223",
         "source_url": "https://sdilej.cz/22814223/normalka-regular-show-s08e14-hd-cz-dabing.mkv",
@@ -130390,15 +130384,22 @@
         "display_name": "Regular Show S08E14 Operation: Hear No Evil 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:35:10.866813+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694687",
-        "size_bytes": 702807386
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694687",
+          "size_bytes": 702807386,
+          "source_bytes_read": 702807386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22814223",
+        "source_url": "https://sdilej.cz/22814223/normalka-regular-show-s08e14-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694687",
-        "size_bytes": 702807386,
-        "source_bytes_read": 702807386,
-        "http_status": 201
+        "display_name": "Regular Show S08E14 Operation: Hear No Evil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:36:54.278179+00:00"
       }
     },
     "1237:8:17": {
@@ -130450,5 +130451,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:36:52.659123+00:00"
+  "updated_at": "2026-11-01T12:36:54.278196+00:00"
 }
