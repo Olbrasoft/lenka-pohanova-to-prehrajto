@@ -139052,12 +139052,6 @@
     },
     "1067:5:8": {
       "episode_key": "taková moderní rodinka:s5:e8",
-      "claim": {
-        "worker_id": "7cdbfce6371247d7b8573e72da13cf17-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:24:29.677633+00:00",
-        "lease_expires_at": "2026-11-02T00:24:29.677646+00:00"
-      },
       "source": {
         "source_id": "34975484",
         "source_url": "https://sdilej.cz/34975484/takova-moderni-rodinka-s05e08-closetcon-13-hd-.mp4",
@@ -139082,15 +139076,22 @@
         "display_name": "Modern Family S05E08 ClosetCon '13 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:24:31.939235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703292",
-        "size_bytes": 274749511
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703292",
+          "size_bytes": 274749511,
+          "source_bytes_read": 274749511,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975484",
+        "source_url": "https://sdilej.cz/34975484/takova-moderni-rodinka-s05e08-closetcon-13-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703292",
-        "size_bytes": 274749511,
-        "source_bytes_read": 274749511,
-        "http_status": 201
+        "display_name": "Modern Family S05E08 ClosetCon '13 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:25:10.401940+00:00"
       }
     }
   },
@@ -139099,5 +139100,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:25:07.415273+00:00"
+  "updated_at": "2026-11-01T18:25:10.401959+00:00"
 }
