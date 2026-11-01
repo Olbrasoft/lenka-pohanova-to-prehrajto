@@ -137511,12 +137511,6 @@
     },
     "1067:3:21": {
       "episode_key": "taková moderní rodinka:s3:e21",
-      "claim": {
-        "worker_id": "278b549b352e440e8f0339fc24990e94-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:05:57.497569+00:00",
-        "lease_expires_at": "2026-11-02T00:05:57.497582+00:00"
-      },
       "source": {
         "source_id": "34975403",
         "source_url": "https://sdilej.cz/34975403/takova-moderni-rodinka-s03e21-planes-trains-and-cars.mp4",
@@ -137541,15 +137535,22 @@
         "display_name": "Modern Family S03E21 Planes, Trains and Cars 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:06:02.809229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702793",
-        "size_bytes": 343952993
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702793",
+          "size_bytes": 343952993,
+          "source_bytes_read": 343952993,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975403",
+        "source_url": "https://sdilej.cz/34975403/takova-moderni-rodinka-s03e21-planes-trains-and-cars.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702793",
-        "size_bytes": 343952993,
-        "source_bytes_read": 343952993,
-        "http_status": 201
+        "display_name": "Modern Family S03E21 Planes, Trains and Cars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:07:02.952308+00:00"
       }
     },
     "1067:3:22": {
@@ -137632,5 +137633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:06:58.125329+00:00"
+  "updated_at": "2026-11-01T18:07:02.952328+00:00"
 }
