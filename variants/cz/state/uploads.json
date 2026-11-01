@@ -114665,12 +114665,6 @@
     },
     "104:2:15": {
       "episode_key": "akta x:s2:e15",
-      "claim": {
-        "worker_id": "ff826f9fd9694aef92d11913d7a1cae8-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:17:13.631125+00:00",
-        "lease_expires_at": "2026-11-01T06:17:13.631137+00:00"
-      },
       "source": {
         "source_id": "32201734",
         "source_url": "https://sdilej.cz/32201734/akta-x-s02e15-cerstve-kosti.mkv",
@@ -114695,15 +114689,22 @@
         "display_name": "The X-Files S02E15 Fresh Bones 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:17:15.538260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681383",
-        "size_bytes": 982551652
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681383",
+          "size_bytes": 982551652,
+          "source_bytes_read": 982551652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201734",
+        "source_url": "https://sdilej.cz/32201734/akta-x-s02e15-cerstve-kosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681383",
-        "size_bytes": 982551652,
-        "source_bytes_read": 982551652,
-        "http_status": 201
+        "display_name": "The X-Files S02E15 Fresh Bones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:18:34.284344+00:00"
       }
     },
     "104:2:16": {
@@ -114785,5 +114786,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:18:31.472705+00:00"
+  "updated_at": "2026-11-01T00:18:34.284359+00:00"
 }
