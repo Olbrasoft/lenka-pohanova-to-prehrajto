@@ -129744,12 +129744,6 @@
     },
     "1237:6:15": {
       "episode_key": "normálka:s6:e15",
-      "claim": {
-        "worker_id": "633d2f6f4175441eb610380f7c2c59c5-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:26:35.871972+00:00",
-        "lease_expires_at": "2026-11-01T18:26:35.871983+00:00"
-      },
       "source": {
         "source_id": "22811699",
         "source_url": "https://sdilej.cz/22811699/normalka-regular-show-s06e15-hd-cz-dabing.mkv",
@@ -129774,15 +129768,22 @@
         "display_name": "Regular Show S06E15 I See Turtles 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:26:42.306938+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694556",
-        "size_bytes": 702168172
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694556",
+          "size_bytes": 702168172,
+          "source_bytes_read": 702168172,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22811699",
+        "source_url": "https://sdilej.cz/22811699/normalka-regular-show-s06e15-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694556",
-        "size_bytes": 702168172,
-        "source_bytes_read": 702168172,
-        "http_status": 201
+        "display_name": "Regular Show S06E15 I See Turtles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:28:04.757373+00:00"
       }
     },
     "1237:6:21": {
@@ -129879,5 +129880,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:28:01.817931+00:00"
+  "updated_at": "2026-11-01T12:28:04.757391+00:00"
 }
