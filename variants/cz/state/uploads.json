@@ -119278,12 +119278,6 @@
     },
     "104:7:8": {
       "episode_key": "akta x:s7:e8",
-      "claim": {
-        "worker_id": "f5dbbde768904c9a8cf1f501417eeb45-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:04:27.916633+00:00",
-        "lease_expires_at": "2026-11-01T09:04:27.916658+00:00"
-      },
       "source": {
         "source_id": "32216230",
         "source_url": "https://sdilej.cz/32216230/akta-x-2000-s07e08-czdab-1080p-uzasny-maleeni.mkv",
@@ -119308,15 +119302,22 @@
         "display_name": "The X-Files S07E08 The Amazing Maleeni 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:04:30.096491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683288",
-        "size_bytes": 955604638
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683288",
+          "size_bytes": 955604638,
+          "source_bytes_read": 955604638,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216230",
+        "source_url": "https://sdilej.cz/32216230/akta-x-2000-s07e08-czdab-1080p-uzasny-maleeni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683288",
-        "size_bytes": 955604638,
-        "source_bytes_read": 955604638,
-        "http_status": 201
+        "display_name": "The X-Files S07E08 The Amazing Maleeni 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:06:39.774412+00:00"
       }
     },
     "104:7:9": {
@@ -119399,5 +119400,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:06:34.497299+00:00"
+  "updated_at": "2026-11-01T03:06:39.774429+00:00"
 }
