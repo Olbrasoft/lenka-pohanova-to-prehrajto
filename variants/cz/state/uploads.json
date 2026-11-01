@@ -121816,12 +121816,6 @@
     },
     "104:10:5": {
       "episode_key": "akta x:s10:e5",
-      "claim": {
-        "worker_id": "775a8bf7d8d7457c8a94469bf9d3230b-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T05:10:59.058663+00:00",
-        "lease_expires_at": "2026-11-01T11:10:59.058675+00:00"
-      },
       "source": {
         "source_id": "32370375",
         "source_url": "https://sdilej.cz/32370375/akta-x-s10e05-06-2016-cz-dab-babylon.mkv",
@@ -121846,15 +121840,22 @@
         "display_name": "The X-Files S10E05 Babylon 1080p CZ Dabing",
         "prepared_at": "2026-11-01T05:11:03.640326+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30685025",
-        "size_bytes": 571511673
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30685025",
+          "size_bytes": 571511673,
+          "source_bytes_read": 571511673,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32370375",
+        "source_url": "https://sdilej.cz/32370375/akta-x-s10e05-06-2016-cz-dab-babylon.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30685025",
-        "size_bytes": 571511673,
-        "source_bytes_read": 571511673,
-        "http_status": 201
+        "display_name": "The X-Files S10E05 Babylon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T05:12:20.435019+00:00"
       }
     },
     "104:10:6": {
@@ -121900,5 +121901,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T05:12:16.660167+00:00"
+  "updated_at": "2026-11-01T05:12:20.435038+00:00"
 }
