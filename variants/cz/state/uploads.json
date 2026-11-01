@@ -114123,12 +114123,6 @@
     },
     "104:2:1": {
       "episode_key": "akta x:s2:e1",
-      "claim": {
-        "worker_id": "d6aa05071ec54a9cab62c82dcf8ce0e7-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:04:33.548216+00:00",
-        "lease_expires_at": "2026-11-01T06:04:33.548227+00:00"
-      },
       "source": {
         "source_id": "32201430",
         "source_url": "https://sdilej.cz/32201430/akta-x-s02e01-zeleni-muzickove.mkv",
@@ -114153,15 +114147,22 @@
         "display_name": "The X-Files S02E01 Little Green Men 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:04:35.466473+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681206",
-        "size_bytes": 969381926
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681206",
+          "size_bytes": 969381926,
+          "source_bytes_read": 969381926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201430",
+        "source_url": "https://sdilej.cz/32201430/akta-x-s02e01-zeleni-muzickove.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681206",
-        "size_bytes": 969381926,
-        "source_bytes_read": 969381926,
-        "http_status": 201
+        "display_name": "The X-Files S02E01 Little Green Men 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:06:07.595365+00:00"
       }
     },
     "104:2:2": {
@@ -114214,5 +114215,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:06:03.550003+00:00"
+  "updated_at": "2026-11-01T00:06:07.595383+00:00"
 }
