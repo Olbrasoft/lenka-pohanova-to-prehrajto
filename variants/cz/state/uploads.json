@@ -121170,12 +121170,6 @@
     },
     "104:9:9": {
       "episode_key": "akta x:s9:e9",
-      "claim": {
-        "worker_id": "487393dfaa6b4a498ca5023491d93309-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:30:42.740615+00:00",
-        "lease_expires_at": "2026-11-01T10:30:42.740626+00:00"
-      },
       "source": {
         "source_id": "27470430",
         "source_url": "https://sdilej.cz/27470430/akta-x-s09e09-cz.mkv",
@@ -121200,15 +121194,22 @@
         "display_name": "The X-Files S09E09 Provenance (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:30:49.861238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684334",
-        "size_bytes": 920450894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684334",
+          "size_bytes": 920450894,
+          "source_bytes_read": 920450894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27470430",
+        "source_url": "https://sdilej.cz/27470430/akta-x-s09e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684334",
-        "size_bytes": 920450894,
-        "source_bytes_read": 920450894,
-        "http_status": 201
+        "display_name": "The X-Files S09E09 Provenance (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:35:43.210031+00:00"
       }
     },
     "104:9:8": {
@@ -121386,5 +121387,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:35:39.649835+00:00"
+  "updated_at": "2026-11-01T04:35:43.210051+00:00"
 }
