@@ -119491,12 +119491,6 @@
     },
     "104:7:13": {
       "episode_key": "akta x:s7:e13",
-      "claim": {
-        "worker_id": "e39dff555fff462d88896f33b055c670-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:14:08.857222+00:00",
-        "lease_expires_at": "2026-11-01T09:14:08.857236+00:00"
-      },
       "source": {
         "source_id": "32216239",
         "source_url": "https://sdilej.cz/32216239/akta-x-2000-s07e13-czdab-1080p-z-pohledu-strelce.mkv",
@@ -119521,15 +119515,22 @@
         "display_name": "The X-Files S07E13 First Person Shooter 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:14:13.891908+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683386",
-        "size_bytes": 950001243
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683386",
+          "size_bytes": 950001243,
+          "source_bytes_read": 950001243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216239",
+        "source_url": "https://sdilej.cz/32216239/akta-x-2000-s07e13-czdab-1080p-z-pohledu-strelce.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683386",
-        "size_bytes": 950001243,
-        "source_bytes_read": 950001243,
-        "http_status": 201
+        "display_name": "The X-Files S07E13 First Person Shooter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:19:32.187499+00:00"
       }
     },
     "104:7:14": {
@@ -119619,5 +119620,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:19:29.055327+00:00"
+  "updated_at": "2026-11-01T03:19:32.187553+00:00"
 }
