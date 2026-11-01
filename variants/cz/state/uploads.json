@@ -116814,12 +116814,6 @@
     },
     "104:4:18": {
       "episode_key": "akta x:s4:e18",
-      "claim": {
-        "worker_id": "aa587ab705184e0f85184f29dddefc7d-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:14:21.787098+00:00",
-        "lease_expires_at": "2026-11-01T07:14:21.787109+00:00"
-      },
       "source": {
         "source_id": "35069479",
         "source_url": "https://sdilej.cz/35069479/akta-x-s04e18-max-2-.mkv",
@@ -116844,15 +116838,22 @@
         "display_name": "The X-Files S04E18 Max (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:14:23.690072+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682092",
-        "size_bytes": 583336504
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682092",
+          "size_bytes": 583336504,
+          "source_bytes_read": 583336504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35069479",
+        "source_url": "https://sdilej.cz/35069479/akta-x-s04e18-max-2-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682092",
-        "size_bytes": 583336504,
-        "source_bytes_read": 583336504,
-        "http_status": 201
+        "display_name": "The X-Files S04E18 Max (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:16:55.773966+00:00"
       }
     }
   },
@@ -116861,5 +116862,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:16:52.602504+00:00"
+  "updated_at": "2026-11-01T01:16:55.773981+00:00"
 }
