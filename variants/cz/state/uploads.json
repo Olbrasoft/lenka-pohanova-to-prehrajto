@@ -136422,12 +136422,6 @@
     },
     "1067:2:20": {
       "episode_key": "taková moderní rodinka:s2:e20",
-      "claim": {
-        "worker_id": "3dc3b25928274725910113f519ef1360-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:53:51.986239+00:00",
-        "lease_expires_at": "2026-11-01T23:53:51.986252+00:00"
-      },
       "source": {
         "source_id": "34975346",
         "source_url": "https://sdilej.cz/34975346/takova-moderni-rodinka-s02e20-someone-to-watch-over-lily.mp4",
@@ -136452,15 +136446,22 @@
         "display_name": "Modern Family S02E20 Someone to Watch Over Lily 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:53:54.143338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702580",
-        "size_bytes": 438010833
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702580",
+          "size_bytes": 438010833,
+          "source_bytes_read": 438010833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975346",
+        "source_url": "https://sdilej.cz/34975346/takova-moderni-rodinka-s02e20-someone-to-watch-over-lily.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702580",
-        "size_bytes": 438010833,
-        "source_bytes_read": 438010833,
-        "http_status": 201
+        "display_name": "Modern Family S02E20 Someone to Watch Over Lily 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:54:38.044773+00:00"
       }
     },
     "1067:2:21": {
@@ -136542,5 +136543,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:54:35.254079+00:00"
+  "updated_at": "2026-11-01T17:54:38.044791+00:00"
 }
