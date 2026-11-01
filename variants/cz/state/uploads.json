@@ -148696,12 +148696,6 @@
     },
     "1129:1:1": {
       "episode_key": "le bureau des légendes:s1:e1",
-      "claim": {
-        "worker_id": "68b8b1705c5749bf831b5eb55ad68454-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-01T23:44:10.518397+00:00",
-        "lease_expires_at": "2026-11-02T05:44:10.518423+00:00"
-      },
       "source": {
         "source_id": "30925260",
         "source_url": "https://sdilej.cz/30925260/le-bureau-des-legendes-2015-s01e01-cz-dab1080p.mkv",
@@ -148726,15 +148720,22 @@
         "display_name": "The Bureau S01E01 The Gainesville Ripper 1080p CZ Dabing",
         "prepared_at": "2026-11-01T23:44:15.817228+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710263",
-        "size_bytes": 947152558
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710263",
+          "size_bytes": 947152558,
+          "source_bytes_read": 947152558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30925260",
+        "source_url": "https://sdilej.cz/30925260/le-bureau-des-legendes-2015-s01e01-cz-dab1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710263",
-        "size_bytes": 947152558,
-        "source_bytes_read": 947152558,
-        "http_status": 201
+        "display_name": "The Bureau S01E01 The Gainesville Ripper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T23:47:42.060541+00:00"
       }
     },
     "1129:1:2": {
@@ -148817,5 +148818,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T23:47:39.103888+00:00"
+  "updated_at": "2026-11-01T23:47:42.060557+00:00"
 }
