@@ -147156,12 +147156,6 @@
     },
     "51:4:13": {
       "episode_key": "mr. robot:s4:e13",
-      "claim": {
-        "worker_id": "25f0067f73744e1a96aa03c58d495498-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:29:49.177206+00:00",
-        "lease_expires_at": "2026-11-02T03:29:49.177217+00:00"
-      },
       "source": {
         "source_id": "34886637",
         "source_url": "https://sdilej.cz/34886637/mr.-robot-s04e13-en-cz-dabing-1080p.mkv",
@@ -147186,15 +147180,22 @@
         "display_name": "Mr. Robot S04E13 Hello, Elliot 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:29:51.503906+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707632",
-        "size_bytes": 1000186473
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707632",
+          "size_bytes": 1000186473,
+          "source_bytes_read": 1000186473,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34886637",
+        "source_url": "https://sdilej.cz/34886637/mr.-robot-s04e13-en-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707632",
-        "size_bytes": 1000186473,
-        "source_bytes_read": 1000186473,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E13 Hello, Elliot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:33:50.849321+00:00"
       }
     },
     "2065:1:1": {
@@ -147321,5 +147322,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:33:46.163895+00:00"
+  "updated_at": "2026-11-01T21:33:50.849340+00:00"
 }
