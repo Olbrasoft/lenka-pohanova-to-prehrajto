@@ -114401,12 +114401,6 @@
     },
     "104:2:8": {
       "episode_key": "akta x:s2:e8",
-      "claim": {
-        "worker_id": "619060d2aea943c18f01ed0b472f534a-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:10:33.443173+00:00",
-        "lease_expires_at": "2026-11-01T06:10:33.443182+00:00"
-      },
       "source": {
         "source_id": "32201537",
         "source_url": "https://sdilej.cz/32201537/akta-x-s02e08-jednim-dechem.mkv",
@@ -114431,15 +114425,22 @@
         "display_name": "The X-Files S02E08 One Breath 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:10:37.406115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681295",
-        "size_bytes": 970609294
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681295",
+          "size_bytes": 970609294,
+          "source_bytes_read": 970609294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201537",
+        "source_url": "https://sdilej.cz/32201537/akta-x-s02e08-jednim-dechem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681295",
-        "size_bytes": 970609294,
-        "source_bytes_read": 970609294,
-        "http_status": 201
+        "display_name": "The X-Files S02E08 One Breath 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:13:07.075536+00:00"
       }
     },
     "104:2:9": {
@@ -114536,5 +114537,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:13:02.183004+00:00"
+  "updated_at": "2026-11-01T00:13:07.075554+00:00"
 }
