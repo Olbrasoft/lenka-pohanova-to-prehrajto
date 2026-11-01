@@ -123015,12 +123015,6 @@
     },
     "1377:1:8": {
       "episode_key": "úžasná paní maiselová:s1:e8",
-      "claim": {
-        "worker_id": "2fd9ddd543e34c98835f4138e4a5eeed-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:22:36.414882+00:00",
-        "lease_expires_at": "2026-11-01T12:22:36.414894+00:00"
-      },
       "source": {
         "source_id": "16816449",
         "source_url": "https://sdilej.cz/16816449/the-marvelous-mrs-maisel-s01e08-cz-dabing.mp4",
@@ -123045,15 +123039,22 @@
         "display_name": "The Marvelous Mrs. Maisel S01E08 Thank You and Good Night 720p CZ Dabing",
         "prepared_at": "2026-11-01T06:22:46.371794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686523",
-        "size_bytes": 843094249
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686523",
+          "size_bytes": 843094249,
+          "source_bytes_read": 843094249,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16816449",
+        "source_url": "https://sdilej.cz/16816449/the-marvelous-mrs-maisel-s01e08-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686523",
-        "size_bytes": 843094249,
-        "source_bytes_read": 843094249,
-        "http_status": 201
+        "display_name": "The Marvelous Mrs. Maisel S01E08 Thank You and Good Night 720p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:24:39.397213+00:00"
       }
     },
     "1377:2:1": {
@@ -123136,5 +123137,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:24:33.568241+00:00"
+  "updated_at": "2026-11-01T06:24:39.397230+00:00"
 }
