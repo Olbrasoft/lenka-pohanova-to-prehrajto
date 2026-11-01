@@ -119102,12 +119102,6 @@
     },
     "104:7:4": {
       "episode_key": "akta x:s7:e4",
-      "claim": {
-        "worker_id": "708761e94dbd433382555fc4b01a1fe2-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:00:04.642150+00:00",
-        "lease_expires_at": "2026-11-01T09:00:04.642162+00:00"
-      },
       "source": {
         "source_id": "32216096",
         "source_url": "https://sdilej.cz/32216096/akta-x-1999-s07e04-czdab-1080p-milenium.mkv",
@@ -119132,15 +119126,22 @@
         "display_name": "The X-Files S07E04 Millennium 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:00:07.068010+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683239",
-        "size_bytes": 950667872
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683239",
+          "size_bytes": 950667872,
+          "source_bytes_read": 950667872,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216096",
+        "source_url": "https://sdilej.cz/32216096/akta-x-1999-s07e04-czdab-1080p-milenium.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683239",
-        "size_bytes": 950667872,
-        "source_bytes_read": 950667872,
-        "http_status": 201
+        "display_name": "The X-Files S07E04 Millennium 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:02:09.740768+00:00"
       }
     },
     "104:7:5": {
@@ -119223,5 +119224,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:02:04.725798+00:00"
+  "updated_at": "2026-11-01T03:02:09.740779+00:00"
 }
