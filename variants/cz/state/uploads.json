@@ -143899,12 +143899,6 @@
     },
     "1067:10:4": {
       "episode_key": "taková moderní rodinka:s10:e4",
-      "claim": {
-        "worker_id": "34fbff50ec3843a79d6acb9312240838-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:32:44.280299+00:00",
-        "lease_expires_at": "2026-11-02T01:32:44.280311+00:00"
-      },
       "source": {
         "source_id": "34975738",
         "source_url": "https://sdilej.cz/34975738/takova-moderni-rodinka-s10e04-tvrip-480p-czdab.mp4",
@@ -143929,15 +143923,22 @@
         "display_name": "Modern Family S10E04 Torn Between Two Lovers 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:32:46.465691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704994",
-        "size_bytes": 321168350
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704994",
+          "size_bytes": 321168350,
+          "source_bytes_read": 321168350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975738",
+        "source_url": "https://sdilej.cz/34975738/takova-moderni-rodinka-s10e04-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704994",
-        "size_bytes": 321168350,
-        "source_bytes_read": 321168350,
-        "http_status": 201
+        "display_name": "Modern Family S10E04 Torn Between Two Lovers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:33:25.351016+00:00"
       }
     },
     "1067:10:5": {
@@ -143983,5 +143984,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:33:22.517531+00:00"
+  "updated_at": "2026-11-01T19:33:25.351032+00:00"
 }
