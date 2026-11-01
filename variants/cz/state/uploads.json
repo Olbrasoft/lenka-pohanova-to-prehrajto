@@ -140420,12 +140420,6 @@
     },
     "1067:6:15": {
       "episode_key": "taková moderní rodinka:s6:e15",
-      "claim": {
-        "worker_id": "002f3519774c4268af120919be736320-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:54:53.724411+00:00",
-        "lease_expires_at": "2026-11-02T00:54:53.724425+00:00"
-      },
       "source": {
         "source_id": "35154039",
         "source_url": "https://sdilej.cz/35154039/modern-family-s06e15-cz-dabing-1080p-bedobi.mp4",
@@ -140450,15 +140444,22 @@
         "display_name": "Modern Family S06E15 Fight or Flight 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:54:57.744463+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704107",
-        "size_bytes": 393065647
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704107",
+          "size_bytes": 393065647,
+          "source_bytes_read": 393065647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154039",
+        "source_url": "https://sdilej.cz/35154039/modern-family-s06e15-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704107",
-        "size_bytes": 393065647,
-        "source_bytes_read": 393065647,
-        "http_status": 201
+        "display_name": "Modern Family S06E15 Fight or Flight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:55:43.027297+00:00"
       }
     },
     "1067:6:16": {
@@ -140500,5 +140501,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:55:41.279847+00:00"
+  "updated_at": "2026-11-01T18:55:43.027317+00:00"
 }
