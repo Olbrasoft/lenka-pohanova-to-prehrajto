@@ -147017,12 +147017,6 @@
     },
     "51:4:10": {
       "episode_key": "mr. robot:s4:e10",
-      "claim": {
-        "worker_id": "de466f300fc7421ead029c24d39267d1-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:26:53.047990+00:00",
-        "lease_expires_at": "2026-11-02T03:26:53.047999+00:00"
-      },
       "source": {
         "source_id": "33823262",
         "source_url": "https://sdilej.cz/33823262/mr.robot.s04e10.410.gone.1080p.web-dl.ac3.x264.cz.mkv",
@@ -147047,15 +147041,22 @@
         "display_name": "Mr. Robot S04E10 410 Gone 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:26:57.981740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707572",
-        "size_bytes": 890889659
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707572",
+          "size_bytes": 890889659,
+          "source_bytes_read": 890889659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33823262",
+        "source_url": "https://sdilej.cz/33823262/mr.robot.s04e10.410.gone.1080p.web-dl.ac3.x264.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707572",
-        "size_bytes": 890889659,
-        "source_bytes_read": 890889659,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E10 410 Gone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:28:32.970304+00:00"
       }
     }
   },
@@ -147064,5 +147065,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:28:31.062558+00:00"
+  "updated_at": "2026-11-01T21:28:32.970320+00:00"
 }
