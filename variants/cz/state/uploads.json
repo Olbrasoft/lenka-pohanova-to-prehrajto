@@ -116777,12 +116777,6 @@
     },
     "104:4:16": {
       "episode_key": "akta x:s4:e16",
-      "claim": {
-        "worker_id": "f23aa1706f2c43fd833f06bb4eb1b070-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:14:08.480950+00:00",
-        "lease_expires_at": "2026-11-01T07:14:08.480964+00:00"
-      },
       "source": {
         "source_id": "34869959",
         "source_url": "https://sdilej.cz/34869959/akta-x-s04e16-nepomsteni-cz.mkv",
@@ -116807,15 +116801,22 @@
         "display_name": "The X-Files S04E16 Unrequited 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:14:11.826578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682091",
-        "size_bytes": 998054440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682091",
+          "size_bytes": 998054440,
+          "source_bytes_read": 998054440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34869959",
+        "source_url": "https://sdilej.cz/34869959/akta-x-s04e16-nepomsteni-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682091",
-        "size_bytes": 998054440,
-        "source_bytes_read": 998054440,
-        "http_status": 201
+        "display_name": "The X-Files S04E16 Unrequited 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:17:06.678810+00:00"
       }
     },
     "104:4:18": {
@@ -116868,5 +116869,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:17:02.505575+00:00"
+  "updated_at": "2026-11-01T01:17:06.678822+00:00"
 }
