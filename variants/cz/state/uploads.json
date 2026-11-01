@@ -147105,12 +147105,6 @@
     },
     "51:4:12": {
       "episode_key": "mr. robot:s4:e12",
-      "claim": {
-        "worker_id": "e7301d1e578b4610a1f11cbe94ae2203-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:29:07.850530+00:00",
-        "lease_expires_at": "2026-11-02T03:29:07.850542+00:00"
-      },
       "source": {
         "source_id": "16979768",
         "source_url": "https://sdilej.cz/16979768/mr.robot.04x12.1080i.hevc.hdtv.cz.mkv",
@@ -147135,15 +147129,22 @@
         "display_name": "Mr. Robot S04E12 whoami 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:29:10.162667+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707609",
-        "size_bytes": 456610038
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707609",
+          "size_bytes": 456610038,
+          "source_bytes_read": 456610038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16979768",
+        "source_url": "https://sdilej.cz/16979768/mr.robot.04x12.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707609",
-        "size_bytes": 456610038,
-        "source_bytes_read": 456610038,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E12 whoami 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:30:11.348289+00:00"
       }
     },
     "51:4:13": {
@@ -147189,5 +147190,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:30:07.088284+00:00"
+  "updated_at": "2026-11-01T21:30:11.348306+00:00"
 }
