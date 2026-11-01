@@ -145094,12 +145094,6 @@
     },
     "1067:11:9": {
       "episode_key": "taková moderní rodinka:s11:e9",
-      "claim": {
-        "worker_id": "57ec0c00f55b471f97c488dbbefedf68-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T20:10:04.235702+00:00",
-        "lease_expires_at": "2026-11-02T02:10:04.235713+00:00"
-      },
       "source": {
         "source_id": "34975822",
         "source_url": "https://sdilej.cz/34975822/takova-moderni-rodinka-s11e09.1080i.hdtv.cz.mkv",
@@ -145124,15 +145118,22 @@
         "display_name": "Modern Family S11E09 The Last Christmas 1080p CZ Dabing",
         "prepared_at": "2026-11-01T20:10:09.570303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705849",
-        "size_bytes": 1375771320
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705849",
+          "size_bytes": 1375771320,
+          "source_bytes_read": 1375771320,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975822",
+        "source_url": "https://sdilej.cz/34975822/takova-moderni-rodinka-s11e09.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705849",
-        "size_bytes": 1375771320,
-        "source_bytes_read": 1375771320,
-        "http_status": 201
+        "display_name": "Modern Family S11E09 The Last Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:14:01.566123+00:00"
       }
     },
     "1067:11:10": {
@@ -145178,5 +145179,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:13:57.203921+00:00"
+  "updated_at": "2026-11-01T20:14:01.566141+00:00"
 }
