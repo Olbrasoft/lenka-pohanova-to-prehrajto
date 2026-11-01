@@ -133958,12 +133958,6 @@
     },
     "1987:1:3": {
       "episode_key": "nabídka:s1:e3",
-      "claim": {
-        "worker_id": "25a36974404f4063b8843f34b4ff3da9-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T16:57:13.661928+00:00",
-        "lease_expires_at": "2026-11-01T22:57:13.661940+00:00"
-      },
       "source": {
         "source_id": "33179968",
         "source_url": "https://sdilej.cz/33179968/nabidka-s01e03-10-2022-cz-dab-roztmivacka.mkv",
@@ -133988,15 +133982,22 @@
         "display_name": "The Offer S01E03 Fade In 1080p CZ Dabing",
         "prepared_at": "2026-11-01T16:57:15.898084+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701124",
-        "size_bytes": 653372823
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701124",
+          "size_bytes": 653372823,
+          "source_bytes_read": 653372823,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33179968",
+        "source_url": "https://sdilej.cz/33179968/nabidka-s01e03-10-2022-cz-dab-roztmivacka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701124",
-        "size_bytes": 653372823,
-        "source_bytes_read": 653372823,
-        "http_status": 201
+        "display_name": "The Offer S01E03 Fade In 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T16:59:05.657701+00:00"
       }
     },
     "1987:1:4": {
@@ -134042,5 +134043,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T16:59:00.874634+00:00"
+  "updated_at": "2026-11-01T16:59:05.657718+00:00"
 }
