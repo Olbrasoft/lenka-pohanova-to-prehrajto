@@ -124545,12 +124545,6 @@
     },
     "1192:2:10": {
       "episode_key": "strážce pořádku:s2:e10",
-      "claim": {
-        "worker_id": "6accd1fdd0be471790310921d4c0f94a-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T08:14:05.012108+00:00",
-        "lease_expires_at": "2026-11-01T14:14:05.012120+00:00"
-      },
       "source": {
         "source_id": "29463022",
         "source_url": "https://sdilej.cz/29463022/strazce-poradku-justified-s02e10-1080p-web-dl-cz-dabing.mkv",
@@ -124575,15 +124569,22 @@
         "display_name": "Justified S02E10 Debts and Accounts 1080p CZ Dabing",
         "prepared_at": "2026-11-01T08:14:07.012792+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30689380",
-        "size_bytes": 3243806982
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30689380",
+          "size_bytes": 3243806982,
+          "source_bytes_read": 3243806982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29463022",
+        "source_url": "https://sdilej.cz/29463022/strazce-poradku-justified-s02e10-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30689380",
-        "size_bytes": 3243806982,
-        "source_bytes_read": 3243806982,
-        "http_status": 201
+        "display_name": "Justified S02E10 Debts and Accounts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T08:21:49.466889+00:00"
       }
     }
   },
@@ -124592,5 +124593,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T08:21:46.441690+00:00"
+  "updated_at": "2026-11-01T08:21:49.466905+00:00"
 }
