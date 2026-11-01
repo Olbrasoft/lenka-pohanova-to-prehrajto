@@ -139103,12 +139103,6 @@
     },
     "1067:5:9": {
       "episode_key": "taková moderní rodinka:s5:e9",
-      "claim": {
-        "worker_id": "fa564e05ce1a4a97954b069079e4696a-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:25:17.595871+00:00",
-        "lease_expires_at": "2026-11-02T00:25:17.595884+00:00"
-      },
       "source": {
         "source_id": "34975486",
         "source_url": "https://sdilej.cz/34975486/takova-moderni-rodinka-s05e09-the-big-game-hd-.mp4",
@@ -139133,15 +139127,22 @@
         "display_name": "Modern Family S05E09 The Big Game 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:25:19.687982+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703305",
-        "size_bytes": 412983688
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703305",
+          "size_bytes": 412983688,
+          "source_bytes_read": 412983688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975486",
+        "source_url": "https://sdilej.cz/34975486/takova-moderni-rodinka-s05e09-the-big-game-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703305",
-        "size_bytes": 412983688,
-        "source_bytes_read": 412983688,
-        "http_status": 201
+        "display_name": "Modern Family S05E09 The Big Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:26:11.801661+00:00"
       }
     },
     "1067:5:10": {
@@ -139231,5 +139232,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:26:08.845845+00:00"
+  "updated_at": "2026-11-01T18:26:11.801678+00:00"
 }
