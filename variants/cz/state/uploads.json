@@ -134097,12 +134097,6 @@
     },
     "1987:1:6": {
       "episode_key": "nabídka:s1:e6",
-      "claim": {
-        "worker_id": "35a9088894f44a298fe6c86fda15e6a7-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:03:59.231016+00:00",
-        "lease_expires_at": "2026-11-01T23:03:59.231032+00:00"
-      },
       "source": {
         "source_id": "33179989",
         "source_url": "https://sdilej.cz/33179989/nabidka-s01e06-10-2022-cz-dab-rovny-chlap.mkv",
@@ -134127,15 +134121,22 @@
         "display_name": "The Offer S01E06 A Stand Up Guy 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:04:01.353934+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701273",
-        "size_bytes": 581581223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701273",
+          "size_bytes": 581581223,
+          "source_bytes_read": 581581223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33179989",
+        "source_url": "https://sdilej.cz/33179989/nabidka-s01e06-10-2022-cz-dab-rovny-chlap.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701273",
-        "size_bytes": 581581223,
-        "source_bytes_read": 581581223,
-        "http_status": 201
+        "display_name": "The Offer S01E06 A Stand Up Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:05:39.569966+00:00"
       }
     },
     "1987:1:7": {
@@ -134262,5 +134263,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:05:37.883525+00:00"
+  "updated_at": "2026-11-01T17:05:39.569984+00:00"
 }
