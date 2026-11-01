@@ -124006,12 +124006,6 @@
     },
     "1192:1:11": {
       "episode_key": "strážce pořádku:s1:e11",
-      "claim": {
-        "worker_id": "87b32eb72c4246b187f551c68f20b481-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T07:30:26.648475+00:00",
-        "lease_expires_at": "2026-11-01T13:30:26.648488+00:00"
-      },
       "source": {
         "source_id": "32287035",
         "source_url": "https://sdilej.cz/32287035/strazce-poradku-2010-s01e11-1080p-cz-veterans.mkv",
@@ -124036,15 +124030,22 @@
         "display_name": "Justified S01E11 Veterans 1080p CZ Dabing",
         "prepared_at": "2026-11-01T07:30:28.698293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30688408",
-        "size_bytes": 466813849
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30688408",
+          "size_bytes": 466813849,
+          "source_bytes_read": 466813849,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32287035",
+        "source_url": "https://sdilej.cz/32287035/strazce-poradku-2010-s01e11-1080p-cz-veterans.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30688408",
-        "size_bytes": 466813849,
-        "source_bytes_read": 466813849,
-        "http_status": 201
+        "display_name": "Justified S01E11 Veterans 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T07:31:21.831574+00:00"
       }
     }
   },
@@ -124053,5 +124054,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T07:31:19.050378+00:00"
+  "updated_at": "2026-11-01T07:31:21.831593+00:00"
 }
