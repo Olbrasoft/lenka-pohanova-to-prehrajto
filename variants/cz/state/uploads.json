@@ -114086,12 +114086,6 @@
     },
     "104:1:24": {
       "episode_key": "akta x:s1:e24",
-      "claim": {
-        "worker_id": "bada97072257414280e8d2766967d6c8-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:03:53.359902+00:00",
-        "lease_expires_at": "2026-11-01T06:03:53.359914+00:00"
-      },
       "source": {
         "source_id": "32201393",
         "source_url": "https://sdilej.cz/32201393/akta-x-s01e24-erlenmeyerova-nadobka.mkv",
@@ -114116,15 +114110,22 @@
         "display_name": "The X-Files S01E24 The Erlenmeyer Flask 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:03:55.284666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681200",
-        "size_bytes": 986742588
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681200",
+          "size_bytes": 986742588,
+          "source_bytes_read": 986742588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201393",
+        "source_url": "https://sdilej.cz/32201393/akta-x-s01e24-erlenmeyerova-nadobka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681200",
-        "size_bytes": 986742588,
-        "source_bytes_read": 986742588,
-        "http_status": 201
+        "display_name": "The X-Files S01E24 The Erlenmeyer Flask 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:06:19.492641+00:00"
       }
     },
     "104:2:1": {
@@ -114263,5 +114264,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:06:17.943961+00:00"
+  "updated_at": "2026-11-01T00:06:19.492655+00:00"
 }
