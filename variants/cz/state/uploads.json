@@ -118787,12 +118787,6 @@
     },
     "104:6:19": {
       "episode_key": "akta x:s6:e19",
-      "claim": {
-        "worker_id": "99a3c4f18f264152a5916a1cdec83f12-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:46:54.152201+00:00",
-        "lease_expires_at": "2026-11-01T08:46:54.152210+00:00"
-      },
       "source": {
         "source_id": "32215683",
         "source_url": "https://sdilej.cz/32215683/akta-x-1999-s06e19-czdab-1080p-z-jineho-sveta.mkv",
@@ -118817,15 +118811,22 @@
         "display_name": "The X-Files S06E19 The Unnatural 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:46:57.693024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683113",
-        "size_bytes": 966078871
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683113",
+          "size_bytes": 966078871,
+          "source_bytes_read": 966078871,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32215683",
+        "source_url": "https://sdilej.cz/32215683/akta-x-1999-s06e19-czdab-1080p-z-jineho-sveta.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683113",
-        "size_bytes": 966078871,
-        "source_bytes_read": 966078871,
-        "http_status": 201
+        "display_name": "The X-Files S06E19 The Unnatural 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:48:46.332111+00:00"
       }
     }
   },
@@ -118834,5 +118835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:48:41.679091+00:00"
+  "updated_at": "2026-11-01T02:48:46.332125+00:00"
 }
