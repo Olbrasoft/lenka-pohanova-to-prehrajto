@@ -132553,12 +132553,6 @@
     },
     "2558:4:3": {
       "episode_key": "hercule poirot:s4:e3",
-      "claim": {
-        "worker_id": "27d077302a874e6abf40680eb14763e4-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:15:07.820002+00:00",
-        "lease_expires_at": "2026-11-01T20:15:07.820013+00:00"
-      },
       "source": {
         "source_id": "34449397",
         "source_url": "https://sdilej.cz/34449397/hercule-poirot-s04e03-nastrahy-zubarskeho-kresla-one-two-buckle-my-shoe-cz-1080p-webrip-.ts",
@@ -132583,15 +132577,22 @@
         "display_name": "Agatha Christie's Poirot S04E03 One, Two, Buckle My Shoe 1080p CZ Dabing",
         "prepared_at": "2026-11-01T14:15:09.755623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696704",
-        "size_bytes": 4817536284
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696704",
+          "size_bytes": 4817536284,
+          "source_bytes_read": 4817536284,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34449397",
+        "source_url": "https://sdilej.cz/34449397/hercule-poirot-s04e03-nastrahy-zubarskeho-kresla-one-two-buckle-my-shoe-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696704",
-        "size_bytes": 4817536284,
-        "source_bytes_read": 4817536284,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S04E03 One, Two, Buckle My Shoe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T14:34:36.735838+00:00"
       }
     },
     "2558:5:1": {
@@ -132769,5 +132770,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:34:33.827768+00:00"
+  "updated_at": "2026-11-01T14:34:36.735855+00:00"
 }
