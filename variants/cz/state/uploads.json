@@ -121948,12 +121948,6 @@
     },
     "104:11:2": {
       "episode_key": "akta x:s11:e2",
-      "claim": {
-        "worker_id": "e098fc68f55a4311a7b1d3ef9619c1de-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T05:12:53.841444+00:00",
-        "lease_expires_at": "2026-11-01T11:12:53.841456+00:00"
-      },
       "source": {
         "source_id": "32238162",
         "source_url": "https://sdilej.cz/32238162/akta-x-s11e02-zivot-po-zivote.mkv",
@@ -121978,15 +121972,22 @@
         "display_name": "The X-Files S11E02 This 1080p CZ Dabing",
         "prepared_at": "2026-11-01T05:12:55.815578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30685083",
-        "size_bytes": 947218450
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30685083",
+          "size_bytes": 947218450,
+          "source_bytes_read": 947218450,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32238162",
+        "source_url": "https://sdilej.cz/32238162/akta-x-s11e02-zivot-po-zivote.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30685083",
-        "size_bytes": 947218450,
-        "source_bytes_read": 947218450,
-        "http_status": 201
+        "display_name": "The X-Files S11E02 This 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T05:15:27.153976+00:00"
       }
     }
   },
@@ -121995,5 +121996,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T05:15:21.546492+00:00"
+  "updated_at": "2026-11-01T05:15:27.153994+00:00"
 }
