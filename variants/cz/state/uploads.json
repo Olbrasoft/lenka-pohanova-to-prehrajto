@@ -120723,12 +120723,6 @@
     },
     "104:8:19": {
       "episode_key": "akta x:s8:e19",
-      "claim": {
-        "worker_id": "e282ea393a0d499ba75dd101efbfaa07-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:06:35.881519+00:00",
-        "lease_expires_at": "2026-11-01T10:06:35.881529+00:00"
-      },
       "source": {
         "source_id": "26616985",
         "source_url": "https://sdilej.cz/26616985/the-x-files-akta-x-s08e19-cz-dabing-1080p.mkv",
@@ -120753,15 +120747,22 @@
         "display_name": "The X-Files S08E19 Alone 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:06:38.340961+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684031",
-        "size_bytes": 860060104
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684031",
+          "size_bytes": 860060104,
+          "source_bytes_read": 860060104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616985",
+        "source_url": "https://sdilej.cz/26616985/the-x-files-akta-x-s08e19-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684031",
-        "size_bytes": 860060104,
-        "source_bytes_read": 860060104,
-        "http_status": 201
+        "display_name": "The X-Files S08E19 Alone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:08:48.940954+00:00"
       }
     },
     "104:8:20": {
@@ -120807,5 +120808,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:08:44.581879+00:00"
+  "updated_at": "2026-11-01T04:08:48.940971+00:00"
 }
