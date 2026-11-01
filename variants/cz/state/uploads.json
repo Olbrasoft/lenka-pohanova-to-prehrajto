@@ -133122,12 +133122,6 @@
     },
     "2558:9:2": {
       "episode_key": "hercule poirot:s9:e2",
-      "claim": {
-        "worker_id": "da827515b0504a52b2804437c8885fe0-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:55:27.317478+00:00",
-        "lease_expires_at": "2026-11-01T20:55:27.317487+00:00"
-      },
       "source": {
         "source_id": "34449594",
         "source_url": "https://sdilej.cz/34449594/hercule-poirot-s09e02-temny-cypris-cz-1080p-webrip-.ts",
@@ -133152,15 +133146,22 @@
         "display_name": "Agatha Christie's Poirot S09E02 Sad Cypress 1080p CZ Dabing",
         "prepared_at": "2026-11-01T14:55:32.267292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697995",
-        "size_bytes": 4407620144
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697995",
+          "size_bytes": 4407620144,
+          "source_bytes_read": 4407620144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34449594",
+        "source_url": "https://sdilej.cz/34449594/hercule-poirot-s09e02-temny-cypris-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697995",
-        "size_bytes": 4407620144,
-        "source_bytes_read": 4407620144,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S09E02 Sad Cypress 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T15:11:10.483085+00:00"
       }
     },
     "2558:9:4": {
@@ -133213,5 +133214,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T15:11:06.130579+00:00"
+  "updated_at": "2026-11-01T15:11:10.483101+00:00"
 }
