@@ -148124,12 +148124,6 @@
     },
     "2065:5:6": {
       "episode_key": "detektiv endeavour morse:s5:e6",
-      "claim": {
-        "worker_id": "6ff0553c830a4dbd8ebbab5e53c6bcd5-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:17:24.187177+00:00",
-        "lease_expires_at": "2026-11-02T04:17:24.187186+00:00"
-      },
       "source": {
         "source_id": "33117198",
         "source_url": "https://sdilej.cz/33117198/detektiv-endeavour-morse-s05e06-06-2018-cz-dab-1080p-requiem.mkv",
@@ -148154,15 +148148,22 @@
         "display_name": "Endeavour S05E06 Icarus 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:17:28.868819+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708570",
-        "size_bytes": 917373955
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708570",
+          "size_bytes": 917373955,
+          "source_bytes_read": 917373955,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33117198",
+        "source_url": "https://sdilej.cz/33117198/detektiv-endeavour-morse-s05e06-06-2018-cz-dab-1080p-requiem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708570",
-        "size_bytes": 917373955,
-        "source_bytes_read": 917373955,
-        "http_status": 201
+        "display_name": "Endeavour S05E06 Icarus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:20:19.787777+00:00"
       }
     },
     "2065:6:1": {
@@ -148333,5 +148334,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:20:15.379135+00:00"
+  "updated_at": "2026-11-01T22:20:19.787796+00:00"
 }
