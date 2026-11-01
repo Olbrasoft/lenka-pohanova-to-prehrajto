@@ -138355,12 +138355,6 @@
     },
     "1067:4:16": {
       "episode_key": "taková moderní rodinka:s4:e16",
-      "claim": {
-        "worker_id": "909ba35f723f4e6fbd0a06978164eebb-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:15:28.325097+00:00",
-        "lease_expires_at": "2026-11-02T00:15:28.325111+00:00"
-      },
       "source": {
         "source_id": "34975448",
         "source_url": "https://sdilej.cz/34975448/takova-moderni-rodinka-s04e16-bad-hair-day-hd-.mp4",
@@ -138385,15 +138379,22 @@
         "display_name": "Modern Family S04E16 Bad Hair Day 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:15:34.307996+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703019",
-        "size_bytes": 335446231
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703019",
+          "size_bytes": 335446231,
+          "source_bytes_read": 335446231,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975448",
+        "source_url": "https://sdilej.cz/34975448/takova-moderni-rodinka-s04e16-bad-hair-day-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703019",
-        "size_bytes": 335446231,
-        "source_bytes_read": 335446231,
-        "http_status": 201
+        "display_name": "Modern Family S04E16 Bad Hair Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:16:16.847901+00:00"
       }
     },
     "1067:4:17": {
@@ -138439,5 +138440,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:16:13.923889+00:00"
+  "updated_at": "2026-11-01T18:16:16.847919+00:00"
 }
