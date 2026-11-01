@@ -135582,12 +135582,6 @@
     },
     "1067:2:1": {
       "episode_key": "taková moderní rodinka:s2:e1",
-      "claim": {
-        "worker_id": "b69fb19834224d9e9915b74f4dafbdcd-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:27:14.618011+00:00",
-        "lease_expires_at": "2026-11-01T23:27:14.618026+00:00"
-      },
       "source": {
         "source_id": "35166744",
         "source_url": "https://sdilej.cz/35166744/takova-moderni-rodinka-s02e01-cz-dabing-1080p.-bedobi.mp4",
@@ -135612,15 +135606,22 @@
         "display_name": "Modern Family S02E01 The Old Wagon 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:27:17.142732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702090",
-        "size_bytes": 412797413
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702090",
+          "size_bytes": 412797413,
+          "source_bytes_read": 412797413,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35166744",
+        "source_url": "https://sdilej.cz/35166744/takova-moderni-rodinka-s02e01-cz-dabing-1080p.-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702090",
-        "size_bytes": 412797413,
-        "source_bytes_read": 412797413,
-        "http_status": 201
+        "display_name": "Modern Family S02E01 The Old Wagon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:28:28.461787+00:00"
       }
     },
     "1067:2:2": {
@@ -135703,5 +135704,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:28:24.379939+00:00"
+  "updated_at": "2026-11-01T17:28:28.461803+00:00"
 }
