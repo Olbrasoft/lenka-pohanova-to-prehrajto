@@ -140816,12 +140816,6 @@
     },
     "1067:6:24": {
       "episode_key": "taková moderní rodinka:s6:e24",
-      "claim": {
-        "worker_id": "a70370bea0a34c84a7475f741ebaa43a-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:57:58.592243+00:00",
-        "lease_expires_at": "2026-11-02T00:57:58.592257+00:00"
-      },
       "source": {
         "source_id": "35154091",
         "source_url": "https://sdilej.cz/35154091/modern-family-s06e24-cz-dabing-1080p-bedobi.mp4",
@@ -140846,15 +140840,22 @@
         "display_name": "Modern Family S06E24 American Skyper 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:58:02.789420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704171",
-        "size_bytes": 412935178
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704171",
+          "size_bytes": 412935178,
+          "source_bytes_read": 412935178,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154091",
+        "source_url": "https://sdilej.cz/35154091/modern-family-s06e24-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704171",
-        "size_bytes": 412935178,
-        "source_bytes_read": 412935178,
-        "http_status": 201
+        "display_name": "Modern Family S06E24 American Skyper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:58:56.994353+00:00"
       }
     },
     "1067:7:1": {
@@ -140933,5 +140934,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:58:55.323362+00:00"
+  "updated_at": "2026-11-01T18:58:56.994372+00:00"
 }
