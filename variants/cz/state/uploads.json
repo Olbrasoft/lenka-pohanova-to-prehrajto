@@ -129202,12 +129202,6 @@
     },
     "1237:2:21": {
       "episode_key": "normálka:s2:e21",
-      "claim": {
-        "worker_id": "8982cf164fb84263be55078dcf59e5f2-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:04:24.371190+00:00",
-        "lease_expires_at": "2026-11-01T18:04:24.371200+00:00"
-      },
       "source": {
         "source_id": "22945439",
         "source_url": "https://sdilej.cz/22945439/normalka-2x21.-jasna-paka-webrip-cz-ss23-.avi",
@@ -129232,15 +129226,22 @@
         "display_name": "Regular Show S02E21 Over the Top SD CZ Dabing",
         "prepared_at": "2026-11-01T12:04:27.946934+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694197",
-        "size_bytes": 101819448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694197",
+          "size_bytes": 101819448,
+          "source_bytes_read": 101819448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22945439",
+        "source_url": "https://sdilej.cz/22945439/normalka-2x21.-jasna-paka-webrip-cz-ss23-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694197",
-        "size_bytes": 101819448,
-        "source_bytes_read": 101819448,
-        "http_status": 201
+        "display_name": "Regular Show S02E21 Over the Top SD CZ Dabing",
+        "uploaded_at": "2026-11-01T12:04:46.602440+00:00"
       }
     }
   },
@@ -129249,5 +129250,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:04:43.241815+00:00"
+  "updated_at": "2026-11-01T12:04:46.602455+00:00"
 }
