@@ -119880,12 +119880,6 @@
     },
     "104:7:22": {
       "episode_key": "akta x:s7:e22",
-      "claim": {
-        "worker_id": "8a467d6fcb9f4395bab7b243f73cb8d0-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:27:12.701045+00:00",
-        "lease_expires_at": "2026-11-01T09:27:12.701055+00:00"
-      },
       "source": {
         "source_id": "32216402",
         "source_url": "https://sdilej.cz/32216402/akta-x-2000-s07e22-czdab-1080p-rekviem.mkv",
@@ -119910,15 +119904,22 @@
         "display_name": "The X-Files S07E22 Requiem 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:27:16.251282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683534",
-        "size_bytes": 959695881
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683534",
+          "size_bytes": 959695881,
+          "source_bytes_read": 959695881,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216402",
+        "source_url": "https://sdilej.cz/32216402/akta-x-2000-s07e22-czdab-1080p-rekviem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683534",
-        "size_bytes": 959695881,
-        "source_bytes_read": 959695881,
-        "http_status": 201
+        "display_name": "The X-Files S07E22 Requiem 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:28:25.965680+00:00"
       }
     }
   },
@@ -119927,5 +119928,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:28:21.838558+00:00"
+  "updated_at": "2026-11-01T03:28:25.965695+00:00"
 }
