@@ -130272,12 +130272,6 @@
     },
     "1237:8:11": {
       "episode_key": "normálka:s8:e11",
-      "claim": {
-        "worker_id": "a8b38deea49f4bae9d1c66ec540ea1ba-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:34:26.857130+00:00",
-        "lease_expires_at": "2026-11-01T18:34:26.857141+00:00"
-      },
       "source": {
         "source_id": "22814166",
         "source_url": "https://sdilej.cz/22814166/normalka-regular-show-s08e11-hd-cz-dabing.mkv",
@@ -130302,15 +130296,22 @@
         "display_name": "Regular Show S08E11 Can You Ear Me Now? 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:34:30.292749+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694677",
-        "size_bytes": 703845788
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694677",
+          "size_bytes": 703845788,
+          "source_bytes_read": 703845788,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22814166",
+        "source_url": "https://sdilej.cz/22814166/normalka-regular-show-s08e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694677",
-        "size_bytes": 703845788,
-        "source_bytes_read": 703845788,
-        "http_status": 201
+        "display_name": "Regular Show S08E11 Can You Ear Me Now? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:35:27.049675+00:00"
       }
     },
     "1237:8:12": {
@@ -130393,5 +130394,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:35:23.665736+00:00"
+  "updated_at": "2026-11-01T12:35:27.049692+00:00"
 }
