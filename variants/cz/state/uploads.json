@@ -145653,12 +145653,6 @@
     },
     "51:1:4": {
       "episode_key": "mr. robot:s1:e4",
-      "claim": {
-        "worker_id": "db384a1fc77a4b8eb6565009b4461e09-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T20:28:03.346841+00:00",
-        "lease_expires_at": "2026-11-02T02:28:03.346853+00:00"
-      },
       "source": {
         "source_id": "33823131",
         "source_url": "https://sdilej.cz/33823131/mr.robot.s01e04.1080p.bluray.ac3.x264.cz.mkv",
@@ -145683,15 +145677,22 @@
         "display_name": "Mr. Robot S01E04 eps1.3_da3m0ns.mp4 1080p CZ Dabing",
         "prepared_at": "2026-11-01T20:28:05.693188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30706301",
-        "size_bytes": 735405396
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30706301",
+          "size_bytes": 735405396,
+          "source_bytes_read": 735405396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33823131",
+        "source_url": "https://sdilej.cz/33823131/mr.robot.s01e04.1080p.bluray.ac3.x264.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30706301",
-        "size_bytes": 735405396,
-        "source_bytes_read": 735405396,
-        "http_status": 201
+        "display_name": "Mr. Robot S01E04 eps1.3_da3m0ns.mp4 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:29:31.475356+00:00"
       }
     },
     "51:1:5": {
@@ -145737,5 +145738,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:29:27.310639+00:00"
+  "updated_at": "2026-11-01T20:29:31.475373+00:00"
 }
