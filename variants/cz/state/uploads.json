@@ -115501,12 +115501,6 @@
     },
     "104:3:11": {
       "episode_key": "akta x:s3:e11",
-      "claim": {
-        "worker_id": "3c29527f41e94e4581750cac7701630a-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:39:38.860345+00:00",
-        "lease_expires_at": "2026-11-01T06:39:38.860354+00:00"
-      },
       "source": {
         "source_id": "32201926",
         "source_url": "https://sdilej.cz/32201926/akta-x-s03e11-zjeveni.mkv",
@@ -115531,15 +115525,22 @@
         "display_name": "The X-Files S03E11 Revelations 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:39:40.695074+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681662",
-        "size_bytes": 969332840
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681662",
+          "size_bytes": 969332840,
+          "source_bytes_read": 969332840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201926",
+        "source_url": "https://sdilej.cz/32201926/akta-x-s03e11-zjeveni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681662",
-        "size_bytes": 969332840,
-        "source_bytes_read": 969332840,
-        "http_status": 201
+        "display_name": "The X-Files S03E11 Revelations 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:42:29.874825+00:00"
       }
     },
     "104:3:12": {
@@ -115662,5 +115663,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:42:28.433379+00:00"
+  "updated_at": "2026-11-01T00:42:29.874839+00:00"
 }
