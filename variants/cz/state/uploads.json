@@ -125564,12 +125564,6 @@
     },
     "1192:4:7": {
       "episode_key": "strážce pořádku:s4:e7",
-      "claim": {
-        "worker_id": "490c4d8542e24ce4b73265ae5253ed71-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:20:25.491940+00:00",
-        "lease_expires_at": "2026-11-01T15:20:25.491951+00:00"
-      },
       "source": {
         "source_id": "32297349",
         "source_url": "https://sdilej.cz/32297349/strazce-poradku-2013-s04e07-1080p-cz-money-trap.mkv",
@@ -125594,15 +125588,22 @@
         "display_name": "Justified S04E07 Money Trap 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:20:27.545699+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690810",
-        "size_bytes": 458532607
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690810",
+          "size_bytes": 458532607,
+          "source_bytes_read": 458532607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32297349",
+        "source_url": "https://sdilej.cz/32297349/strazce-poradku-2013-s04e07-1080p-cz-money-trap.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690810",
-        "size_bytes": 458532607,
-        "source_bytes_read": 458532607,
-        "http_status": 201
+        "display_name": "Justified S04E07 Money Trap 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:21:43.563269+00:00"
       }
     },
     "1192:4:8": {
@@ -125685,5 +125686,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:21:39.629903+00:00"
+  "updated_at": "2026-11-01T09:21:43.563285+00:00"
 }
