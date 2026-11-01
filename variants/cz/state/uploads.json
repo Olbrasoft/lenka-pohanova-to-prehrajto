@@ -125608,12 +125608,6 @@
     },
     "1192:4:8": {
       "episode_key": "strážce pořádku:s4:e8",
-      "claim": {
-        "worker_id": "10f65c90261c4665a711f1f6456232be-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:21:04.562076+00:00",
-        "lease_expires_at": "2026-11-01T15:21:04.562087+00:00"
-      },
       "source": {
         "source_id": "27535836",
         "source_url": "https://sdilej.cz/27535836/justified-s04e08-cz.mkv",
@@ -125638,15 +125632,22 @@
         "display_name": "Justified S04E08 Outlaw 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:21:07.835456+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690825",
-        "size_bytes": 449735240
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690825",
+          "size_bytes": 449735240,
+          "source_bytes_read": 449735240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27535836",
+        "source_url": "https://sdilej.cz/27535836/justified-s04e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690825",
-        "size_bytes": 449735240,
-        "source_bytes_read": 449735240,
-        "http_status": 201
+        "display_name": "Justified S04E08 Outlaw 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:22:09.010033+00:00"
       }
     },
     "1192:4:9": {
@@ -125736,5 +125737,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:22:06.497102+00:00"
+  "updated_at": "2026-11-01T09:22:09.010050+00:00"
 }
