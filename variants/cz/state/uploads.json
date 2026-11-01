@@ -134618,12 +134618,6 @@
     },
     "1067:1:3": {
       "episode_key": "taková moderní rodinka:s1:e3",
-      "claim": {
-        "worker_id": "97e9bfdc1a334c9091e194a4560d7721-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:15:27.179245+00:00",
-        "lease_expires_at": "2026-11-01T23:15:27.179259+00:00"
-      },
       "source": {
         "source_id": "34975228",
         "source_url": "https://sdilej.cz/34975228/takova-moderni-rodinka-s01e03-letecky-den.mp4",
@@ -134648,15 +134642,22 @@
         "display_name": "Modern Family S01E03 Come Fly with Me 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:15:29.406624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701699",
-        "size_bytes": 439597851
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701699",
+          "size_bytes": 439597851,
+          "source_bytes_read": 439597851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975228",
+        "source_url": "https://sdilej.cz/34975228/takova-moderni-rodinka-s01e03-letecky-den.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701699",
-        "size_bytes": 439597851,
-        "source_bytes_read": 439597851,
-        "http_status": 201
+        "display_name": "Modern Family S01E03 Come Fly with Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:17:10.480696+00:00"
       }
     }
   },
@@ -134665,5 +134666,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:17:08.693706+00:00"
+  "updated_at": "2026-11-01T17:17:10.480712+00:00"
 }
