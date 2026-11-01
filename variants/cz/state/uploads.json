@@ -115626,12 +115626,6 @@
     },
     "104:3:14": {
       "episode_key": "akta x:s3:e14",
-      "claim": {
-        "worker_id": "bbbb6c227a5d4ad2a78a7aad223cdd05-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:42:23.494345+00:00",
-        "lease_expires_at": "2026-11-01T06:42:23.494355+00:00"
-      },
       "source": {
         "source_id": "26603696",
         "source_url": "https://sdilej.cz/26603696/the-x-files-akta-x-s03e14-cz-dabing-1080p.mkv",
@@ -115656,15 +115650,22 @@
         "display_name": "The X-Files S03E14 Grotesque 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:42:28.433362+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681690",
-        "size_bytes": 556477370
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681690",
+          "size_bytes": 556477370,
+          "source_bytes_read": 556477370,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26603696",
+        "source_url": "https://sdilej.cz/26603696/the-x-files-akta-x-s03e14-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681690",
-        "size_bytes": 556477370,
-        "source_bytes_read": 556477370,
-        "http_status": 201
+        "display_name": "The X-Files S03E14 Grotesque 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:43:18.405261+00:00"
       }
     },
     "104:3:15": {
@@ -115710,5 +115711,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:43:14.558447+00:00"
+  "updated_at": "2026-11-01T00:43:18.405280+00:00"
 }
