@@ -118134,12 +118134,6 @@
     },
     "104:6:4": {
       "episode_key": "akta x:s6:e4",
-      "claim": {
-        "worker_id": "e2991bfaf71841e296b105a6b6e31354-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:16:34.606332+00:00",
-        "lease_expires_at": "2026-11-01T08:16:34.606342+00:00"
-      },
       "source": {
         "source_id": "32215543",
         "source_url": "https://sdilej.cz/32215543/akta-x-1998-s06e04-czdab-1080p-zeme-snu-i.mkv",
@@ -118164,15 +118158,22 @@
         "display_name": "The X-Files S06E04 Dreamland (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:16:36.949863+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682752",
-        "size_bytes": 989598251
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682752",
+          "size_bytes": 989598251,
+          "source_bytes_read": 989598251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32215543",
+        "source_url": "https://sdilej.cz/32215543/akta-x-1998-s06e04-czdab-1080p-zeme-snu-i.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682752",
-        "size_bytes": 989598251,
-        "source_bytes_read": 989598251,
-        "http_status": 201
+        "display_name": "The X-Files S06E04 Dreamland (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:20:52.841235+00:00"
       }
     }
   },
@@ -118181,5 +118182,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:20:48.830962+00:00"
+  "updated_at": "2026-11-01T02:20:52.841252+00:00"
 }
