@@ -132329,12 +132329,6 @@
     },
     "2558:3:9": {
       "episode_key": "hercule poirot:s3:e9",
-      "claim": {
-        "worker_id": "956f33faa390408f8e269c87dd263472-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:59:24.429350+00:00",
-        "lease_expires_at": "2026-11-01T19:59:24.429362+00:00"
-      },
       "source": {
         "source_id": "34799140",
         "source_url": "https://sdilej.cz/34799140/hercule-poirot-s03e09-28-1991-sd-kradez-kralovskeho-rubinu-sd-.mp4",
@@ -132359,15 +132353,22 @@
         "display_name": "Agatha Christie's Poirot S03E09 The Theft of the Royal Ruby SD CZ Dabing",
         "prepared_at": "2026-11-01T13:59:31.532878+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696252",
-        "size_bytes": 377719393
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696252",
+          "size_bytes": 377719393,
+          "source_bytes_read": 377719393,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799140",
+        "source_url": "https://sdilej.cz/34799140/hercule-poirot-s03e09-28-1991-sd-kradez-kralovskeho-rubinu-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696252",
-        "size_bytes": 377719393,
-        "source_bytes_read": 377719393,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S03E09 The Theft of the Royal Ruby SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:00:07.688585+00:00"
       }
     },
     "2558:3:10": {
@@ -132450,5 +132451,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:00:03.789738+00:00"
+  "updated_at": "2026-11-01T14:00:07.688600+00:00"
 }
