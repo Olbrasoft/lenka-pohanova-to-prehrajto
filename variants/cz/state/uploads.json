@@ -143849,12 +143849,6 @@
     },
     "1067:10:3": {
       "episode_key": "taková moderní rodinka:s10:e3",
-      "claim": {
-        "worker_id": "493d4555c73d4acb937ed96c0560c7f4-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:32:16.860318+00:00",
-        "lease_expires_at": "2026-11-02T01:32:16.860329+00:00"
-      },
       "source": {
         "source_id": "34975737",
         "source_url": "https://sdilej.cz/34975737/takova-moderni-rodinka-s10e03-tvrip-480p-czdab.mp4",
@@ -143879,15 +143873,22 @@
         "display_name": "Modern Family S10E03 A Sketchy Area 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:32:19.126711+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704970",
-        "size_bytes": 319116766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704970",
+          "size_bytes": 319116766,
+          "source_bytes_read": 319116766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975737",
+        "source_url": "https://sdilej.cz/34975737/takova-moderni-rodinka-s10e03-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704970",
-        "size_bytes": 319116766,
-        "source_bytes_read": 319116766,
-        "http_status": 201
+        "display_name": "Modern Family S10E03 A Sketchy Area 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:32:57.946843+00:00"
       }
     },
     "1067:10:4": {
@@ -143933,5 +143934,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:32:54.964735+00:00"
+  "updated_at": "2026-11-01T19:32:57.946860+00:00"
 }
