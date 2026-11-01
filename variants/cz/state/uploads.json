@@ -137819,12 +137819,6 @@
     },
     "1067:4:4": {
       "episode_key": "taková moderní rodinka:s4:e4",
-      "claim": {
-        "worker_id": "a4fc1d5440f84da58df43300d76d5a01-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:09:12.207724+00:00",
-        "lease_expires_at": "2026-11-02T00:09:12.207737+00:00"
-      },
       "source": {
         "source_id": "34975419",
         "source_url": "https://sdilej.cz/34975419/takova-moderni-rodinka-s04e04-the-butler-s-escape-hd-.mp4",
@@ -137849,15 +137843,22 @@
         "display_name": "Modern Family S04E04 The Butler's Escape 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:09:16.110195+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702855",
-        "size_bytes": 322380482
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702855",
+          "size_bytes": 322380482,
+          "source_bytes_read": 322380482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975419",
+        "source_url": "https://sdilej.cz/34975419/takova-moderni-rodinka-s04e04-the-butler-s-escape-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702855",
-        "size_bytes": 322380482,
-        "source_bytes_read": 322380482,
-        "http_status": 201
+        "display_name": "Modern Family S04E04 The Butler's Escape 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:10:03.743751+00:00"
       }
     },
     "1067:4:5": {
@@ -137942,5 +137943,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:10:02.070868+00:00"
+  "updated_at": "2026-11-01T18:10:03.743771+00:00"
 }
