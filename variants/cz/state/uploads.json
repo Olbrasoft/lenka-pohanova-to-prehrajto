@@ -117349,12 +117349,6 @@
     },
     "104:5:6": {
       "episode_key": "akta x:s5:e6",
-      "claim": {
-        "worker_id": "d05d893730044739982dff0ec7dca780-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:43:02.034507+00:00",
-        "lease_expires_at": "2026-11-01T07:43:02.034518+00:00"
-      },
       "source": {
         "source_id": "26616784",
         "source_url": "https://sdilej.cz/26616784/the-x-files-akta-x-s05e06-cz-dabing-1080p.mkv",
@@ -117379,15 +117373,22 @@
         "display_name": "The X-Files S05E06 Christmas Carol (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:43:06.738197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682416",
-        "size_bytes": 911867582
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682416",
+          "size_bytes": 911867582,
+          "source_bytes_read": 911867582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616784",
+        "source_url": "https://sdilej.cz/26616784/the-x-files-akta-x-s05e06-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682416",
-        "size_bytes": 911867582,
-        "source_bytes_read": 911867582,
-        "http_status": 201
+        "display_name": "The X-Files S05E06 Christmas Carol (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:46:55.290238+00:00"
       }
     },
     "104:5:7": {
@@ -117483,5 +117484,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:46:53.809488+00:00"
+  "updated_at": "2026-11-01T01:46:55.290254+00:00"
 }
