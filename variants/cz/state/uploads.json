@@ -125117,12 +125117,6 @@
     },
     "1192:3:10": {
       "episode_key": "strážce pořádku:s3:e10",
-      "claim": {
-        "worker_id": "19e5f18fa20b44ea99883502c270b300-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:02:19.756275+00:00",
-        "lease_expires_at": "2026-11-01T15:02:19.756284+00:00"
-      },
       "source": {
         "source_id": "32286007",
         "source_url": "https://sdilej.cz/32286007/strazce-poradku-2012-s03e10-1080p-cz.mkv",
@@ -125147,15 +125141,22 @@
         "display_name": "Justified S03E10 Guy Walks Into a Bar 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:02:24.620453+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690266",
-        "size_bytes": 466225097
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690266",
+          "size_bytes": 466225097,
+          "source_bytes_read": 466225097,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286007",
+        "source_url": "https://sdilej.cz/32286007/strazce-poradku-2012-s03e10-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690266",
-        "size_bytes": 466225097,
-        "source_bytes_read": 466225097,
-        "http_status": 201
+        "display_name": "Justified S03E10 Guy Walks Into a Bar 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:04:29.016374+00:00"
       }
     },
     "1192:3:11": {
@@ -125201,5 +125202,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:04:25.214791+00:00"
+  "updated_at": "2026-11-01T09:04:29.016390+00:00"
 }
