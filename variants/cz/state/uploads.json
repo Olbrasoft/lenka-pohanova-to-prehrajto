@@ -127500,12 +127500,6 @@
     },
     "282:1:8": {
       "episode_key": "most:s1:e8",
-      "claim": {
-        "worker_id": "b20fd46e6b064ce4ba7c547742f125b9-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T11:10:28.558865+00:00",
-        "lease_expires_at": "2026-11-01T17:10:28.558876+00:00"
-      },
       "source": {
         "source_id": "26228534",
         "source_url": "https://sdilej.cz/26228534/most-s01e08-cz-fhd-h265-deadinside.mkv",
@@ -127530,15 +127524,22 @@
         "display_name": "Bron/Broen S01E08 1080p CZ Dabing",
         "prepared_at": "2026-11-01T11:10:30.469077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30693406",
-        "size_bytes": 650485917
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30693406",
+          "size_bytes": 650485917,
+          "source_bytes_read": 650485917,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26228534",
+        "source_url": "https://sdilej.cz/26228534/most-s01e08-cz-fhd-h265-deadinside.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30693406",
-        "size_bytes": 650485917,
-        "source_bytes_read": 650485917,
-        "http_status": 201
+        "display_name": "Bron/Broen S01E08 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T11:12:09.651938+00:00"
       }
     },
     "282:1:9": {
@@ -127617,5 +127618,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T11:12:07.057195+00:00"
+  "updated_at": "2026-11-01T11:12:09.651951+00:00"
 }
