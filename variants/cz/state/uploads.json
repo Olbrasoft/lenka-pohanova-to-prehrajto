@@ -120202,12 +120202,6 @@
     },
     "104:8:7": {
       "episode_key": "akta x:s8:e7",
-      "claim": {
-        "worker_id": "4c8cbbe0e01b4db5b54defff21f4feda-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:34:11.997573+00:00",
-        "lease_expires_at": "2026-11-01T09:34:11.997583+00:00"
-      },
       "source": {
         "source_id": "32216602",
         "source_url": "https://sdilej.cz/32216602/akta-x-2000-s08e07-czdab-1080p-cesta-temnoty.mkv",
@@ -120232,15 +120226,22 @@
         "display_name": "The X-Files S08E07 Via Negativa 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:34:15.159117+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683624",
-        "size_bytes": 957208618
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683624",
+          "size_bytes": 957208618,
+          "source_bytes_read": 957208618,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216602",
+        "source_url": "https://sdilej.cz/32216602/akta-x-2000-s08e07-czdab-1080p-cesta-temnoty.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683624",
-        "size_bytes": 957208618,
-        "source_bytes_read": 957208618,
-        "http_status": 201
+        "display_name": "The X-Files S08E07 Via Negativa 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:38:24.604834+00:00"
       }
     },
     "104:8:8": {
@@ -120286,5 +120287,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:38:20.444365+00:00"
+  "updated_at": "2026-11-01T03:38:24.604853+00:00"
 }
