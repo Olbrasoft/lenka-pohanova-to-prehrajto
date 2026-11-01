@@ -114841,12 +114841,6 @@
     },
     "104:2:20": {
       "episode_key": "akta x:s2:e20",
-      "claim": {
-        "worker_id": "d9c0c7a8a4cc48eaa640753b2ab3ec64-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:20:31.859895+00:00",
-        "lease_expires_at": "2026-11-01T06:20:31.859906+00:00"
-      },
       "source": {
         "source_id": "32201778",
         "source_url": "https://sdilej.cz/32201778/akta-x-s02e20-humbug.mkv",
@@ -114871,15 +114865,22 @@
         "display_name": "The X-Files S02E20 Humbug 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:20:35.033525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681428",
-        "size_bytes": 969914534
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681428",
+          "size_bytes": 969914534,
+          "source_bytes_read": 969914534,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201778",
+        "source_url": "https://sdilej.cz/32201778/akta-x-s02e20-humbug.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681428",
-        "size_bytes": 969914534,
-        "source_bytes_read": 969914534,
-        "http_status": 201
+        "display_name": "The X-Files S02E20 Humbug 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:22:06.641702+00:00"
       }
     },
     "104:2:21": {
@@ -114962,5 +114963,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:22:03.778693+00:00"
+  "updated_at": "2026-11-01T00:22:06.641719+00:00"
 }
