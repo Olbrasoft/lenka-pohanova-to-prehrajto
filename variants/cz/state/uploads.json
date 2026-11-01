@@ -122131,12 +122131,6 @@
     },
     "104:11:6": {
       "episode_key": "akta x:s11:e6",
-      "claim": {
-        "worker_id": "8da61f4d703541a69a9e548feead371d-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T05:20:54.233231+00:00",
-        "lease_expires_at": "2026-11-01T11:20:54.233243+00:00"
-      },
       "source": {
         "source_id": "32476435",
         "source_url": "https://sdilej.cz/32476435/akta-x-s11e06-kote.mkv",
@@ -122161,15 +122155,22 @@
         "display_name": "The X-Files S11E06 Kitten 1080p CZ Dabing",
         "prepared_at": "2026-11-01T05:20:58.807630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30685396",
-        "size_bytes": 951624994
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30685396",
+          "size_bytes": 951624994,
+          "source_bytes_read": 951624994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32476435",
+        "source_url": "https://sdilej.cz/32476435/akta-x-s11e06-kote.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30685396",
-        "size_bytes": 951624994,
-        "source_bytes_read": 951624994,
-        "http_status": 201
+        "display_name": "The X-Files S11E06 Kitten 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T05:26:07.122551+00:00"
       }
     }
   },
@@ -122178,5 +122179,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T05:26:02.268297+00:00"
+  "updated_at": "2026-11-01T05:26:07.122569+00:00"
 }
