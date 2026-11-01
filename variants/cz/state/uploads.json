@@ -126928,12 +126928,6 @@
     },
     "1192:6:12": {
       "episode_key": "strážce pořádku:s6:e12",
-      "claim": {
-        "worker_id": "502ead6126eb4c089f416327d64112cc-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T10:19:32.714483+00:00",
-        "lease_expires_at": "2026-11-01T16:19:32.714493+00:00"
-      },
       "source": {
         "source_id": "27192941",
         "source_url": "https://sdilej.cz/27192941/strazce-poradku-justified-s06e12-hd-cz-dabing.mkv",
@@ -126958,15 +126952,22 @@
         "display_name": "Justified S06E12 Collateral 1080p CZ Dabing",
         "prepared_at": "2026-11-01T10:19:35.932854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30692103",
-        "size_bytes": 3262364113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30692103",
+          "size_bytes": 3262364113,
+          "source_bytes_read": 3262364113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27192941",
+        "source_url": "https://sdilej.cz/27192941/strazce-poradku-justified-s06e12-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30692103",
-        "size_bytes": 3262364113,
-        "source_bytes_read": 3262364113,
-        "http_status": 201
+        "display_name": "Justified S06E12 Collateral 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T10:34:17.800999+00:00"
       }
     },
     "1192:6:13": {
@@ -127012,5 +127013,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T10:34:10.261128+00:00"
+  "updated_at": "2026-11-01T10:34:17.801014+00:00"
 }
