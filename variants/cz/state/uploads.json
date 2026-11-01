@@ -123756,12 +123756,6 @@
     },
     "1192:1:5": {
       "episode_key": "strážce pořádku:s1:e5",
-      "claim": {
-        "worker_id": "fca53d3f8ac84c86ae314dbf9f4f554d-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T07:09:33.354467+00:00",
-        "lease_expires_at": "2026-11-01T13:09:33.354480+00:00"
-      },
       "source": {
         "source_id": "26901493",
         "source_url": "https://sdilej.cz/26901493/strazce-poradku-justified-s01e05-hd-cz-dabing.mkv",
@@ -123786,15 +123780,22 @@
         "display_name": "Justified S01E05 The Lord of War and Thunder 1080p CZ Dabing",
         "prepared_at": "2026-11-01T07:09:36.455723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30688101",
-        "size_bytes": 3311828452
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30688101",
+          "size_bytes": 3311828452,
+          "source_bytes_read": 3311828452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26901493",
+        "source_url": "https://sdilej.cz/26901493/strazce-poradku-justified-s01e05-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30688101",
-        "size_bytes": 3311828452,
-        "source_bytes_read": 3311828452,
-        "http_status": 201
+        "display_name": "Justified S01E05 The Lord of War and Thunder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T07:22:05.755889+00:00"
       }
     },
     "1192:1:6": {
@@ -123877,5 +123878,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T07:21:59.376423+00:00"
+  "updated_at": "2026-11-01T07:22:05.755906+00:00"
 }
