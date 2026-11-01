@@ -129831,12 +129831,6 @@
     },
     "1237:6:25": {
       "episode_key": "normálka:s6:e25",
-      "claim": {
-        "worker_id": "a915a18f7dba4619abac12c43172ce71-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:26:52.043824+00:00",
-        "lease_expires_at": "2026-11-01T18:26:52.043834+00:00"
-      },
       "source": {
         "source_id": "22812266",
         "source_url": "https://sdilej.cz/22812266/normalka-regular-show-s06e25-hd-cz-dabing.mkv",
@@ -129861,15 +129855,22 @@
         "display_name": "Regular Show S06E25 Not Great Double Date 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:26:54.170449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694559",
-        "size_bytes": 696285714
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694559",
+          "size_bytes": 696285714,
+          "source_bytes_read": 696285714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22812266",
+        "source_url": "https://sdilej.cz/22812266/normalka-regular-show-s06e25-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694559",
-        "size_bytes": 696285714,
-        "source_bytes_read": 696285714,
-        "http_status": 201
+        "display_name": "Regular Show S06E25 Not Great Double Date 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:28:01.817916+00:00"
       }
     }
   },
@@ -129878,5 +129879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:27:58.534794+00:00"
+  "updated_at": "2026-11-01T12:28:01.817931+00:00"
 }
