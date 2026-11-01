@@ -123932,12 +123932,6 @@
     },
     "1192:1:10": {
       "episode_key": "strážce pořádku:s1:e10",
-      "claim": {
-        "worker_id": "bcb5a3f1e743421899ff73e302e275f9-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T07:29:29.482689+00:00",
-        "lease_expires_at": "2026-11-01T13:29:29.482699+00:00"
-      },
       "source": {
         "source_id": "26901568",
         "source_url": "https://sdilej.cz/26901568/strazce-poradku-justified-s01e10-hd-cz-dabing.mkv",
@@ -123962,15 +123956,22 @@
         "display_name": "Justified S01E10 The Hammer 1080p CZ Dabing",
         "prepared_at": "2026-11-01T07:29:38.275307+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30688397",
-        "size_bytes": 3225132892
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30688397",
+          "size_bytes": 3225132892,
+          "source_bytes_read": 3225132892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26901568",
+        "source_url": "https://sdilej.cz/26901568/strazce-poradku-justified-s01e10-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30688397",
-        "size_bytes": 3225132892,
-        "source_bytes_read": 3225132892,
-        "http_status": 201
+        "display_name": "Justified S01E10 The Hammer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T07:47:53.928375+00:00"
       }
     },
     "1192:1:9": {
@@ -124111,5 +124112,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T07:47:52.361139+00:00"
+  "updated_at": "2026-11-01T07:47:53.928390+00:00"
 }
