@@ -143592,12 +143592,6 @@
     },
     "1067:9:19": {
       "episode_key": "taková moderní rodinka:s9:e19",
-      "claim": {
-        "worker_id": "86f9453ea86e4261bf2134d067d5806c-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:30:32.976660+00:00",
-        "lease_expires_at": "2026-11-02T01:30:32.976669+00:00"
-      },
       "source": {
         "source_id": "34975720",
         "source_url": "https://sdilej.cz/34975720/takova-moderni-rodinka-s09e19.avi",
@@ -143622,15 +143616,22 @@
         "display_name": "Modern Family S09E19 CHiPs and Salsa SD CZ Dabing",
         "prepared_at": "2026-11-01T19:30:42.662038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704914",
-        "size_bytes": 338238904
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704914",
+          "size_bytes": 338238904,
+          "source_bytes_read": 338238904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975720",
+        "source_url": "https://sdilej.cz/34975720/takova-moderni-rodinka-s09e19.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704914",
-        "size_bytes": 338238904,
-        "source_bytes_read": 338238904,
-        "http_status": 201
+        "display_name": "Modern Family S09E19 CHiPs and Salsa SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:31:55.604613+00:00"
       }
     },
     "1067:9:20": {
@@ -143797,5 +143798,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:31:52.340543+00:00"
+  "updated_at": "2026-11-01T19:31:55.604629+00:00"
 }
