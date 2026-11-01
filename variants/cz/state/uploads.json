@@ -138795,12 +138795,6 @@
     },
     "1067:5:2": {
       "episode_key": "taková moderní rodinka:s5:e2",
-      "claim": {
-        "worker_id": "5f697f4c9b904a26aec3d5d7811cbdee-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:21:42.800805+00:00",
-        "lease_expires_at": "2026-11-02T00:21:42.800817+00:00"
-      },
       "source": {
         "source_id": "34975471",
         "source_url": "https://sdilej.cz/34975471/takova-moderni-rodinka-s05e02-first-days-hd-.mp4",
@@ -138825,15 +138819,22 @@
         "display_name": "Modern Family S05E02 First Days 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:21:48.154240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703209",
-        "size_bytes": 413776953
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703209",
+          "size_bytes": 413776953,
+          "source_bytes_read": 413776953,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975471",
+        "source_url": "https://sdilej.cz/34975471/takova-moderni-rodinka-s05e02-first-days-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703209",
-        "size_bytes": 413776953,
-        "source_bytes_read": 413776953,
-        "http_status": 201
+        "display_name": "Modern Family S05E02 First Days 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:22:30.757842+00:00"
       }
     }
   },
@@ -138842,5 +138843,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:22:26.196082+00:00"
+  "updated_at": "2026-11-01T18:22:30.757859+00:00"
 }
