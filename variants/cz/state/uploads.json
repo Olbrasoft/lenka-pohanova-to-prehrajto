@@ -123430,12 +123430,6 @@
     },
     "1377:4:3": {
       "episode_key": "úžasná paní maiselová:s4:e3",
-      "claim": {
-        "worker_id": "e3dc6bb85cca493bbc15dabe2c124ffa-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:35:15.803261+00:00",
-        "lease_expires_at": "2026-11-01T12:35:15.803273+00:00"
-      },
       "source": {
         "source_id": "26406079",
         "source_url": "https://sdilej.cz/26406079/the.marvelous.mrs.maisel.s04e03.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -123460,15 +123454,22 @@
         "display_name": "The Marvelous Mrs. Maisel S04E03 Everything is Bellmore 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:35:17.745199+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30687320",
-        "size_bytes": 1237064936
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30687320",
+          "size_bytes": 1237064936,
+          "source_bytes_read": 1237064936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26406079",
+        "source_url": "https://sdilej.cz/26406079/the.marvelous.mrs.maisel.s04e03.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30687320",
-        "size_bytes": 1237064936,
-        "source_bytes_read": 1237064936,
-        "http_status": 201
+        "display_name": "The Marvelous Mrs. Maisel S04E03 Everything is Bellmore 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:39:06.837306+00:00"
       }
     }
   },
@@ -123477,5 +123478,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:39:02.703637+00:00"
+  "updated_at": "2026-11-01T06:39:06.837323+00:00"
 }
