@@ -137203,12 +137203,6 @@
     },
     "1067:3:14": {
       "episode_key": "taková moderní rodinka:s3:e14",
-      "claim": {
-        "worker_id": "95a12b6e1ab84834b99cc3c42f2fc937-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:59:36.168530+00:00",
-        "lease_expires_at": "2026-11-01T23:59:36.168544+00:00"
-      },
       "source": {
         "source_id": "30795503",
         "source_url": "https://sdilej.cz/30795503/modern-family-s03e14.mkv",
@@ -137233,15 +137227,22 @@
         "display_name": "Modern Family S03E14 Me? Jealous? 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:59:38.569258+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702690",
-        "size_bytes": 1086050575
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702690",
+          "size_bytes": 1086050575,
+          "source_bytes_read": 1086050575,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30795503",
+        "source_url": "https://sdilej.cz/30795503/modern-family-s03e14.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702690",
-        "size_bytes": 1086050575,
-        "source_bytes_read": 1086050575,
-        "http_status": 201
+        "display_name": "Modern Family S03E14 Me? Jealous? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:02:20.272920+00:00"
       }
     },
     "1067:3:15": {
@@ -137415,5 +137416,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:02:18.515627+00:00"
+  "updated_at": "2026-11-01T18:02:20.272939+00:00"
 }
