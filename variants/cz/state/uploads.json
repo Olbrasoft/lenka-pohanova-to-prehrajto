@@ -129649,12 +129649,6 @@
     },
     "1237:6:3": {
       "episode_key": "normálka:s6:e3",
-      "claim": {
-        "worker_id": "db55b7bb63864016b1ad28cbaaa23ab8-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:24:25.908595+00:00",
-        "lease_expires_at": "2026-11-01T18:24:25.908603+00:00"
-      },
       "source": {
         "source_id": "22809786",
         "source_url": "https://sdilej.cz/22809786/normalka-regular-show-s06e03-hd-cz-dabing.mkv",
@@ -129679,15 +129673,22 @@
         "display_name": "Regular Show S06E03 Daddy Issues 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:24:30.469213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694523",
-        "size_bytes": 699808904
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694523",
+          "size_bytes": 699808904,
+          "source_bytes_read": 699808904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22809786",
+        "source_url": "https://sdilej.cz/22809786/normalka-regular-show-s06e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694523",
-        "size_bytes": 699808904,
-        "source_bytes_read": 699808904,
-        "http_status": 201
+        "display_name": "Regular Show S06E03 Daddy Issues 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:26:27.505982+00:00"
       }
     },
     "1237:6:12": {
@@ -129740,5 +129741,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:26:25.885385+00:00"
+  "updated_at": "2026-11-01T12:26:27.505997+00:00"
 }
