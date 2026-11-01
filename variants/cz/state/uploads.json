@@ -146942,12 +146942,6 @@
     },
     "51:4:8": {
       "episode_key": "mr. robot:s4:e8",
-      "claim": {
-        "worker_id": "02e38fa4abfc4a54929741b7238caa98-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:22:51.541549+00:00",
-        "lease_expires_at": "2026-11-02T03:22:51.541559+00:00"
-      },
       "source": {
         "source_id": "34886582",
         "source_url": "https://sdilej.cz/34886582/mr.-robot-s04e08-en-cz-dabing-1080p.mkv",
@@ -146972,15 +146966,22 @@
         "display_name": "Mr. Robot S04E08 408 Request Timeout 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:22:53.968554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707486",
-        "size_bytes": 828837347
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707486",
+          "size_bytes": 828837347,
+          "source_bytes_read": 828837347,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34886582",
+        "source_url": "https://sdilej.cz/34886582/mr.-robot-s04e08-en-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707486",
-        "size_bytes": 828837347,
-        "source_bytes_read": 828837347,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E08 408 Request Timeout 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:26:00.579260+00:00"
       }
     }
   },
@@ -146989,5 +146990,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:25:58.810402+00:00"
+  "updated_at": "2026-11-01T21:26:00.579277+00:00"
 }
