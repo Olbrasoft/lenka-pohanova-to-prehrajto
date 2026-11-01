@@ -115883,12 +115883,6 @@
     },
     "104:3:20": {
       "episode_key": "akta x:s3:e20",
-      "claim": {
-        "worker_id": "b40e96fcaddd47d98004b766ce0fbde7-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:49:58.417470+00:00",
-        "lease_expires_at": "2026-11-01T06:49:58.417482+00:00"
-      },
       "source": {
         "source_id": "35069305",
         "source_url": "https://sdilej.cz/35069305/akta-x-s03e20-jose-chung-s-from-outer-space-.mkv",
@@ -115913,15 +115907,22 @@
         "display_name": "The X-Files S03E20 Jose Chung's \"From Outer Space\" 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:50:00.276501+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681780",
-        "size_bytes": 585561468
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681780",
+          "size_bytes": 585561468,
+          "source_bytes_read": 585561468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35069305",
+        "source_url": "https://sdilej.cz/35069305/akta-x-s03e20-jose-chung-s-from-outer-space-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681780",
-        "size_bytes": 585561468,
-        "source_bytes_read": 585561468,
-        "http_status": 201
+        "display_name": "The X-Files S03E20 Jose Chung's \"From Outer Space\" 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:50:59.961896+00:00"
       }
     }
   },
@@ -115930,5 +115931,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:50:56.615634+00:00"
+  "updated_at": "2026-11-01T00:50:59.961913+00:00"
 }
