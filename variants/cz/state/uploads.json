@@ -117437,12 +117437,6 @@
     },
     "104:5:8": {
       "episode_key": "akta x:s5:e8",
-      "claim": {
-        "worker_id": "6d347928140348dbb99146d9529484c5-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:43:05.146042+00:00",
-        "lease_expires_at": "2026-11-01T07:43:05.146052+00:00"
-      },
       "source": {
         "source_id": "26616787",
         "source_url": "https://sdilej.cz/26616787/the-x-files-akta-x-s05e08-cz-dabing-1080p.mkv",
@@ -117467,15 +117461,22 @@
         "display_name": "The X-Files S05E08 Kitsunegari 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:43:09.933535+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682419",
-        "size_bytes": 701868068
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682419",
+          "size_bytes": 701868068,
+          "source_bytes_read": 701868068,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616787",
+        "source_url": "https://sdilej.cz/26616787/the-x-files-akta-x-s05e08-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682419",
-        "size_bytes": 701868068,
-        "source_bytes_read": 701868068,
-        "http_status": 201
+        "display_name": "The X-Files S05E08 Kitsunegari 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:46:56.869410+00:00"
       }
     }
   },
@@ -117484,5 +117485,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:46:55.290254+00:00"
+  "updated_at": "2026-11-01T01:46:56.869425+00:00"
 }
