@@ -132729,12 +132729,6 @@
     },
     "2558:5:4": {
       "episode_key": "hercule poirot:s5:e4",
-      "claim": {
-        "worker_id": "bb64d94e01ca4ffd890df54846900d27-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:33:56.325657+00:00",
-        "lease_expires_at": "2026-11-01T20:33:56.325668+00:00"
-      },
       "source": {
         "source_id": "34799185",
         "source_url": "https://sdilej.cz/34799185/hercule-poirot-s05e04-37-1993-sd-pripad-ztracene-zaveti-sd-.mp4",
@@ -132759,15 +132753,22 @@
         "display_name": "Agatha Christie's Poirot S05E04 The Case of the Missing Will SD CZ Dabing",
         "prepared_at": "2026-11-01T14:33:58.360515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697047",
-        "size_bytes": 413668613
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697047",
+          "size_bytes": 413668613,
+          "source_bytes_read": 413668613,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799185",
+        "source_url": "https://sdilej.cz/34799185/hercule-poirot-s05e04-37-1993-sd-pripad-ztracene-zaveti-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697047",
-        "size_bytes": 413668613,
-        "source_bytes_read": 413668613,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E04 The Case of the Missing Will SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:34:56.628801+00:00"
       }
     },
     "2558:5:5": {
@@ -132849,5 +132850,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:34:54.244456+00:00"
+  "updated_at": "2026-11-01T14:34:56.628817+00:00"
 }
