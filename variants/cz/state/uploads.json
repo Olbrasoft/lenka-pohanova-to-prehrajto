@@ -147551,12 +147551,6 @@
     },
     "2065:3:1": {
       "episode_key": "detektiv endeavour morse:s3:e1",
-      "claim": {
-        "worker_id": "dec7543581014efa85bacbfe25b9eedb-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:53:52.864603+00:00",
-        "lease_expires_at": "2026-11-02T03:53:52.864615+00:00"
-      },
       "source": {
         "source_id": "33116819",
         "source_url": "https://sdilej.cz/33116819/detektiv-endeavour-morse-s03e01-04-2016-cz-dab-1080p-cesta.mkv",
@@ -147581,15 +147575,22 @@
         "display_name": "Endeavour S03E01 Ride 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:53:58.554270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708145",
-        "size_bytes": 911808605
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708145",
+          "size_bytes": 911808605,
+          "source_bytes_read": 911808605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33116819",
+        "source_url": "https://sdilej.cz/33116819/detektiv-endeavour-morse-s03e01-04-2016-cz-dab-1080p-cesta.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708145",
-        "size_bytes": 911808605,
-        "source_bytes_read": 911808605,
-        "http_status": 201
+        "display_name": "Endeavour S03E01 Ride 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:55:40.627768+00:00"
       }
     },
     "2065:3:2": {
@@ -147642,5 +147643,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:55:38.825399+00:00"
+  "updated_at": "2026-11-01T21:55:40.627784+00:00"
 }
