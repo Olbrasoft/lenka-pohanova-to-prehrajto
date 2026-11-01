@@ -118039,12 +118039,6 @@
     },
     "104:6:2": {
       "episode_key": "akta x:s6:e2",
-      "claim": {
-        "worker_id": "6c0bccc05de7408c8432d5aa0c5509e6-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:12:13.591936+00:00",
-        "lease_expires_at": "2026-11-01T08:12:13.591970+00:00"
-      },
       "source": {
         "source_id": "32215530",
         "source_url": "https://sdilej.cz/32215530/akta-x-1998-s06e02-czdab-1080p-jizda.mkv",
@@ -118069,15 +118063,22 @@
         "display_name": "The X-Files S06E02 Drive 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:12:15.661376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682685",
-        "size_bytes": 978792912
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682685",
+          "size_bytes": 978792912,
+          "source_bytes_read": 978792912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32215530",
+        "source_url": "https://sdilej.cz/32215530/akta-x-1998-s06e02-czdab-1080p-jizda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682685",
-        "size_bytes": 978792912,
-        "source_bytes_read": 978792912,
-        "http_status": 201
+        "display_name": "The X-Files S06E02 Drive 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:16:09.144483+00:00"
       }
     }
   },
@@ -118086,5 +118087,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:16:03.761709+00:00"
+  "updated_at": "2026-11-01T02:16:09.144499+00:00"
 }
