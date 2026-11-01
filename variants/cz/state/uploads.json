@@ -146980,12 +146980,6 @@
     },
     "51:4:9": {
       "episode_key": "mr. robot:s4:e9",
-      "claim": {
-        "worker_id": "aaa2a7e6e4c248e9b6cbbffa79c3a409-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:26:49.462529+00:00",
-        "lease_expires_at": "2026-11-02T03:26:49.462540+00:00"
-      },
       "source": {
         "source_id": "34886592",
         "source_url": "https://sdilej.cz/34886592/mr.-robot-s04e09-en-cz-dabing-1080p.mkv",
@@ -147010,15 +147004,22 @@
         "display_name": "Mr. Robot S04E09 409 Conflict 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:26:54.812300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707570",
-        "size_bytes": 899636486
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707570",
+          "size_bytes": 899636486,
+          "source_bytes_read": 899636486,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34886592",
+        "source_url": "https://sdilej.cz/34886592/mr.-robot-s04e09-en-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707570",
-        "size_bytes": 899636486,
-        "source_bytes_read": 899636486,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E09 409 Conflict 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:29:28.567478+00:00"
       }
     },
     "51:4:10": {
@@ -147145,5 +147146,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:29:24.009588+00:00"
+  "updated_at": "2026-11-01T21:29:28.567494+00:00"
 }
