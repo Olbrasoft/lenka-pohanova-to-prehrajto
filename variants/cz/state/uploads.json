@@ -124904,12 +124904,6 @@
     },
     "1192:3:5": {
       "episode_key": "strážce pořádku:s3:e5",
-      "claim": {
-        "worker_id": "d2ed5ace4d0e4290811107309c91ced2-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T08:45:57.410290+00:00",
-        "lease_expires_at": "2026-11-01T14:45:57.410301+00:00"
-      },
       "source": {
         "source_id": "26943150",
         "source_url": "https://sdilej.cz/26943150/strazce-poradku-justified-s03e05-hd-cz-dabing.mkv",
@@ -124934,15 +124928,22 @@
         "display_name": "Justified S03E05 Thick as Mud 1080p CZ Dabing",
         "prepared_at": "2026-11-01T08:45:59.325976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30689945",
-        "size_bytes": 3111476944
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30689945",
+          "size_bytes": 3111476944,
+          "source_bytes_read": 3111476944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26943150",
+        "source_url": "https://sdilej.cz/26943150/strazce-poradku-justified-s03e05-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30689945",
-        "size_bytes": 3111476944,
-        "source_bytes_read": 3111476944,
-        "http_status": 201
+        "display_name": "Justified S03E05 Thick as Mud 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T08:56:48.815530+00:00"
       }
     },
     "1192:3:6": {
@@ -124988,5 +124989,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T08:56:47.321832+00:00"
+  "updated_at": "2026-11-01T08:56:48.815545+00:00"
 }
