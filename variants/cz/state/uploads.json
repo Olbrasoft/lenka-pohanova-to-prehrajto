@@ -142624,12 +142624,6 @@
     },
     "1067:8:19": {
       "episode_key": "taková moderní rodinka:s8:e19",
-      "claim": {
-        "worker_id": "8311dbcda2ca4286a4a34714ec640cca-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:20:17.828493+00:00",
-        "lease_expires_at": "2026-11-02T01:20:17.828503+00:00"
-      },
       "source": {
         "source_id": "30412622",
         "source_url": "https://sdilej.cz/30412622/takova-moderni-rodinka-s08e19-czdab.mp4",
@@ -142654,15 +142648,22 @@
         "display_name": "Modern Family S08E19 Frank's Wedding SD CZ Dabing",
         "prepared_at": "2026-11-01T19:20:21.767898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704652",
-        "size_bytes": 387947668
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704652",
+          "size_bytes": 387947668,
+          "source_bytes_read": 387947668,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412622",
+        "source_url": "https://sdilej.cz/30412622/takova-moderni-rodinka-s08e19-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704652",
-        "size_bytes": 387947668,
-        "source_bytes_read": 387947668,
-        "http_status": 201
+        "display_name": "Modern Family S08E19 Frank's Wedding SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:21:25.492987+00:00"
       }
     }
   },
@@ -142671,5 +142672,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:21:20.640191+00:00"
+  "updated_at": "2026-11-01T19:21:25.493007+00:00"
 }
