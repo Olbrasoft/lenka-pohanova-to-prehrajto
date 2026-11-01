@@ -144289,12 +144289,6 @@
     },
     "1067:10:13": {
       "episode_key": "taková moderní rodinka:s10:e13",
-      "claim": {
-        "worker_id": "b75d03eddc914a18845cd140c9c5314f-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:49:39.610430+00:00",
-        "lease_expires_at": "2026-11-02T01:49:39.610442+00:00"
-      },
       "source": {
         "source_id": "34975757",
         "source_url": "https://sdilej.cz/34975757/takova-moderni-rodinka-s10e13-tvrip-480p-czdab.mp4",
@@ -144319,15 +144313,22 @@
         "display_name": "Modern Family S10E13 Whanex? 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:49:43.207720+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705322",
-        "size_bytes": 277085193
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705322",
+          "size_bytes": 277085193,
+          "source_bytes_read": 277085193,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975757",
+        "source_url": "https://sdilej.cz/34975757/takova-moderni-rodinka-s10e13-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705322",
-        "size_bytes": 277085193,
-        "source_bytes_read": 277085193,
-        "http_status": 201
+        "display_name": "Modern Family S10E13 Whanex? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:50:19.530047+00:00"
       }
     },
     "1067:10:14": {
@@ -144373,5 +144374,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:50:15.693206+00:00"
+  "updated_at": "2026-11-01T19:50:19.530080+00:00"
 }
