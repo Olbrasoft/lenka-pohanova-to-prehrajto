@@ -133037,12 +133037,6 @@
     },
     "2558:6:3": {
       "episode_key": "hercule poirot:s6:e3",
-      "claim": {
-        "worker_id": "c290ff69e71c4cd3ae9ad2f8a0ab1c63-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:41:01.683301+00:00",
-        "lease_expires_at": "2026-11-01T20:41:01.683321+00:00"
-      },
       "source": {
         "source_id": "32493230",
         "source_url": "https://sdilej.cz/32493230/hercule-poirot-s06e03-vrazda-na-golfovem-hristi-murder-on-the-links-cz-1080p-webrip-.ts",
@@ -133067,15 +133061,22 @@
         "display_name": "Agatha Christie's Poirot S06E03 Murder on the Links 1080p CZ Dabing",
         "prepared_at": "2026-11-01T14:41:03.576630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697207",
-        "size_bytes": 4857869616
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697207",
+          "size_bytes": 4857869616,
+          "source_bytes_read": 4857869616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32493230",
+        "source_url": "https://sdilej.cz/32493230/hercule-poirot-s06e03-vrazda-na-golfovem-hristi-murder-on-the-links-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697207",
-        "size_bytes": 4857869616,
-        "source_bytes_read": 4857869616,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S06E03 Murder on the Links 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T14:54:53.676902+00:00"
       }
     }
   },
@@ -133084,5 +133085,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:54:49.027418+00:00"
+  "updated_at": "2026-11-01T14:54:53.676919+00:00"
 }
