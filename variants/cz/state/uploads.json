@@ -131145,12 +131145,6 @@
     },
     "1192:1:1": {
       "episode_key": "strážce pořádku:s1:e1",
-      "claim": {
-        "worker_id": "c857dc445f0a41779201153b05e75110-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:26:42.696484+00:00",
-        "lease_expires_at": "2026-11-01T19:26:42.696495+00:00"
-      },
       "source": {
         "source_id": "32286980",
         "source_url": "https://sdilej.cz/32286980/strazce-poradku-2010-s01e01-1080p-cz-fire-in-the-hole.mkv",
@@ -131175,15 +131169,22 @@
         "display_name": "Justified S01E01 Fire in the Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:26:44.691756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695588",
-        "size_bytes": 567114704
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695588",
+          "size_bytes": 567114704,
+          "source_bytes_read": 567114704,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286980",
+        "source_url": "https://sdilej.cz/32286980/strazce-poradku-2010-s01e01-1080p-cz-fire-in-the-hole.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695588",
-        "size_bytes": 567114704,
-        "source_bytes_read": 567114704,
-        "http_status": 201
+        "display_name": "Justified S01E01 Fire in the Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:27:58.889633+00:00"
       }
     },
     "1192:1:2": {
@@ -131229,5 +131230,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:27:54.122170+00:00"
+  "updated_at": "2026-11-01T13:27:58.889647+00:00"
 }
