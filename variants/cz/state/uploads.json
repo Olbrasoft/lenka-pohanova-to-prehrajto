@@ -129876,12 +129876,6 @@
     },
     "1237:6:26": {
       "episode_key": "normálka:s6:e26",
-      "claim": {
-        "worker_id": "352c7991c097481bb21d33cdd56bf800-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:28:36.360710+00:00",
-        "lease_expires_at": "2026-11-01T18:28:36.360722+00:00"
-      },
       "source": {
         "source_id": "22812330",
         "source_url": "https://sdilej.cz/22812330/normalka-regular-show-s06e26-hd-cz-dabing.mkv",
@@ -129906,15 +129900,22 @@
         "display_name": "Regular Show S06E26 Death Kwon Do-Livery 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:28:38.448557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694583",
-        "size_bytes": 703271346
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694583",
+          "size_bytes": 703271346,
+          "source_bytes_read": 703271346,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22812330",
+        "source_url": "https://sdilej.cz/22812330/normalka-regular-show-s06e26-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694583",
-        "size_bytes": 703271346,
-        "source_bytes_read": 703271346,
-        "http_status": 201
+        "display_name": "Regular Show S06E26 Death Kwon Do-Livery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:29:45.751335+00:00"
       }
     },
     "1237:7:5": {
@@ -129997,5 +129998,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:29:42.641527+00:00"
+  "updated_at": "2026-11-01T12:29:45.751352+00:00"
 }
