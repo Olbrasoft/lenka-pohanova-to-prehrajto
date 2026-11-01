@@ -145748,12 +145748,6 @@
     },
     "51:1:7": {
       "episode_key": "mr. robot:s1:e7",
-      "claim": {
-        "worker_id": "668337e50546435eb7487e35c21cf99d-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T20:29:45.514852+00:00",
-        "lease_expires_at": "2026-11-02T02:29:45.514863+00:00"
-      },
       "source": {
         "source_id": "31028874",
         "source_url": "https://sdilej.cz/31028874/mr.-robot-s01e07-zobrazit-zdroj-1080p-cz.mkv",
@@ -145778,15 +145772,22 @@
         "display_name": "Mr. Robot S01E07 eps1.6_v1ew-s0urce.flv 1080p CZ Dabing",
         "prepared_at": "2026-11-01T20:29:48.913588+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30706334",
-        "size_bytes": 861935608
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30706334",
+          "size_bytes": 861935608,
+          "source_bytes_read": 861935608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31028874",
+        "source_url": "https://sdilej.cz/31028874/mr.-robot-s01e07-zobrazit-zdroj-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30706334",
-        "size_bytes": 861935608,
-        "source_bytes_read": 861935608,
-        "http_status": 201
+        "display_name": "Mr. Robot S01E07 eps1.6_v1ew-s0urce.flv 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:31:10.030215+00:00"
       }
     },
     "51:1:8": {
@@ -145909,5 +145910,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:31:06.917164+00:00"
+  "updated_at": "2026-11-01T20:31:10.030231+00:00"
 }
