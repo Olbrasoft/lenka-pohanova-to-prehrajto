@@ -135274,12 +135274,6 @@
     },
     "1067:1:18": {
       "episode_key": "taková moderní rodinka:s1:e18",
-      "claim": {
-        "worker_id": "5726c316f7bf43a49850e0bc34030915-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:24:52.652619+00:00",
-        "lease_expires_at": "2026-11-01T23:24:52.652633+00:00"
-      },
       "source": {
         "source_id": "34975286",
         "source_url": "https://sdilej.cz/34975286/takova-moderni-rodinka-s01e18-starry-night.mp4",
@@ -135304,15 +135298,22 @@
         "display_name": "Modern Family S01E18 Starry Night 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:25:01.804427+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702023",
-        "size_bytes": 379303137
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702023",
+          "size_bytes": 379303137,
+          "source_bytes_read": 379303137,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975286",
+        "source_url": "https://sdilej.cz/34975286/takova-moderni-rodinka-s01e18-starry-night.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702023",
-        "size_bytes": 379303137,
-        "source_bytes_read": 379303137,
-        "http_status": 201
+        "display_name": "Modern Family S01E18 Starry Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:25:48.956154+00:00"
       }
     },
     "1067:1:19": {
@@ -135365,5 +135366,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:25:46.550186+00:00"
+  "updated_at": "2026-11-01T17:25:48.956173+00:00"
 }
