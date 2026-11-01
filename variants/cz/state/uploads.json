@@ -126657,12 +126657,6 @@
     },
     "1192:6:7": {
       "episode_key": "strážce pořádku:s6:e7",
-      "claim": {
-        "worker_id": "6af65d8904714357a46a99315c503fd6-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T10:01:47.795630+00:00",
-        "lease_expires_at": "2026-11-01T16:01:47.795640+00:00"
-      },
       "source": {
         "source_id": "32792846",
         "source_url": "https://sdilej.cz/32792846/strazce-poradku-s06e07-1080p-cz.mkv",
@@ -126687,15 +126681,22 @@
         "display_name": "Justified S06E07 The Hunt 1080p CZ Dabing",
         "prepared_at": "2026-11-01T10:01:52.769974+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30691666",
-        "size_bytes": 528849968
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30691666",
+          "size_bytes": 528849968,
+          "source_bytes_read": 528849968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32792846",
+        "source_url": "https://sdilej.cz/32792846/strazce-poradku-s06e07-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30691666",
-        "size_bytes": 528849968,
-        "source_bytes_read": 528849968,
-        "http_status": 201
+        "display_name": "Justified S06E07 The Hunt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T10:03:09.130065+00:00"
       }
     },
     "1192:6:6": {
@@ -126748,5 +126749,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T10:03:05.033017+00:00"
+  "updated_at": "2026-11-01T10:03:09.130081+00:00"
 }
