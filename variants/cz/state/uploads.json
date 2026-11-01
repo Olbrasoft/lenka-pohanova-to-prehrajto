@@ -138883,12 +138883,6 @@
     },
     "1067:5:4": {
       "episode_key": "taková moderní rodinka:s5:e4",
-      "claim": {
-        "worker_id": "a99b4c52d1d14766ba83c983fcac4a09-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:22:37.414126+00:00",
-        "lease_expires_at": "2026-11-02T00:22:37.414140+00:00"
-      },
       "source": {
         "source_id": "34975476",
         "source_url": "https://sdilej.cz/34975476/takova-moderni-rodinka-s05e04-farm-strong-hd-.mp4",
@@ -138913,15 +138907,22 @@
         "display_name": "Modern Family S05E04 Farm Strong 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:22:41.058086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703231",
-        "size_bytes": 354414832
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703231",
+          "size_bytes": 354414832,
+          "source_bytes_read": 354414832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975476",
+        "source_url": "https://sdilej.cz/34975476/takova-moderni-rodinka-s05e04-farm-strong-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703231",
-        "size_bytes": 354414832,
-        "source_bytes_read": 354414832,
-        "http_status": 201
+        "display_name": "Modern Family S05E04 Farm Strong 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:25:07.415256+00:00"
       }
     },
     "1067:5:5": {
@@ -139098,5 +139099,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:25:05.557952+00:00"
+  "updated_at": "2026-11-01T18:25:07.415273+00:00"
 }
