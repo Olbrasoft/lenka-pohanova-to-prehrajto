@@ -114973,12 +114973,6 @@
     },
     "104:2:23": {
       "episode_key": "akta x:s2:e23",
-      "claim": {
-        "worker_id": "9192fce4380f4e54a698768c0968de75-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:22:14.073177+00:00",
-        "lease_expires_at": "2026-11-01T06:22:14.073198+00:00"
-      },
       "source": {
         "source_id": "32201798",
         "source_url": "https://sdilej.cz/32201798/akta-x-s02e23-pritmi.mkv",
@@ -115003,15 +114997,22 @@
         "display_name": "The X-Files S02E23 Soft Light 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:22:16.020273+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681453",
-        "size_bytes": 952632426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681453",
+          "size_bytes": 952632426,
+          "source_bytes_read": 952632426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201798",
+        "source_url": "https://sdilej.cz/32201798/akta-x-s02e23-pritmi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681453",
-        "size_bytes": 952632426,
-        "source_bytes_read": 952632426,
-        "http_status": 201
+        "display_name": "The X-Files S02E23 Soft Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:24:10.093753+00:00"
       }
     },
     "104:2:25": {
@@ -115101,5 +115102,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:24:05.632103+00:00"
+  "updated_at": "2026-11-01T00:24:10.093773+00:00"
 }
