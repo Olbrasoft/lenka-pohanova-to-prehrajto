@@ -122043,12 +122043,6 @@
     },
     "104:11:4": {
       "episode_key": "akta x:s11:e4",
-      "claim": {
-        "worker_id": "8c7b92da41f04a629b638b18ee1175d1-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T05:15:37.775923+00:00",
-        "lease_expires_at": "2026-11-01T11:15:37.775949+00:00"
-      },
       "source": {
         "source_id": "29677309",
         "source_url": "https://sdilej.cz/29677309/akta-x-s11e04-1080p-cz-dabing.mkv",
@@ -122073,15 +122067,22 @@
         "display_name": "The X-Files S11E04 The Lost Art of Forehead Sweat 1080p CZ Dabing",
         "prepared_at": "2026-11-01T05:15:40.905305+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30685174",
-        "size_bytes": 1042378301
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30685174",
+          "size_bytes": 1042378301,
+          "source_bytes_read": 1042378301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29677309",
+        "source_url": "https://sdilej.cz/29677309/akta-x-s11e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30685174",
-        "size_bytes": 1042378301,
-        "source_bytes_read": 1042378301,
-        "http_status": 201
+        "display_name": "The X-Files S11E04 The Lost Art of Forehead Sweat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T05:19:54.459520+00:00"
       }
     }
   },
@@ -122090,5 +122091,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T05:19:50.078488+00:00"
+  "updated_at": "2026-11-01T05:19:54.459536+00:00"
 }
