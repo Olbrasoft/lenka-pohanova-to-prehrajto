@@ -118882,12 +118882,6 @@
     },
     "104:6:21": {
       "episode_key": "akta x:s6:e21",
-      "claim": {
-        "worker_id": "eab3bf2017594e12bff3469059756667-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:51:00.982044+00:00",
-        "lease_expires_at": "2026-11-01T08:51:00.982055+00:00"
-      },
       "source": {
         "source_id": "32215699",
         "source_url": "https://sdilej.cz/32215699/akta-x-1999-s06e21-czdab-1080p-vylet-do-hor.mkv",
@@ -118912,15 +118906,22 @@
         "display_name": "The X-Files S06E21 Field Trip 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:51:04.164546+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683144",
-        "size_bytes": 977986432
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683144",
+          "size_bytes": 977986432,
+          "source_bytes_read": 977986432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32215699",
+        "source_url": "https://sdilej.cz/32215699/akta-x-1999-s06e21-czdab-1080p-vylet-do-hor.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683144",
-        "size_bytes": 977986432,
-        "source_bytes_read": 977986432,
-        "http_status": 201
+        "display_name": "The X-Files S06E21 Field Trip 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:54:30.482570+00:00"
       }
     }
   },
@@ -118929,5 +118930,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:54:26.381380+00:00"
+  "updated_at": "2026-11-01T02:54:30.482584+00:00"
 }
