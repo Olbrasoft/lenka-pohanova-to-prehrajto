@@ -131453,12 +131453,6 @@
     },
     "2558:1:3": {
       "episode_key": "hercule poirot:s1:e3",
-      "claim": {
-        "worker_id": "4ffcd3f0dee344fb86a41e5196ab4fa3-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:37:13.372201+00:00",
-        "lease_expires_at": "2026-11-01T19:37:13.372213+00:00"
-      },
       "source": {
         "source_id": "34799076",
         "source_url": "https://sdilej.cz/34799076/hercule-poirot-s01e03-03-1989-sd-unos-johnnieho-waverlyho-sd-.mp4",
@@ -131483,15 +131477,22 @@
         "display_name": "Agatha Christie's Poirot S01E03 The Adventure of Johnnie Waverly SD CZ Dabing",
         "prepared_at": "2026-11-01T13:37:15.297711+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695754",
-        "size_bytes": 429512656
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695754",
+          "size_bytes": 429512656,
+          "source_bytes_read": 429512656,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799076",
+        "source_url": "https://sdilej.cz/34799076/hercule-poirot-s01e03-03-1989-sd-unos-johnnieho-waverlyho-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695754",
-        "size_bytes": 429512656,
-        "source_bytes_read": 429512656,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S01E03 The Adventure of Johnnie Waverly SD CZ Dabing",
+        "uploaded_at": "2026-11-01T13:38:57.956501+00:00"
       }
     },
     "2558:1:4": {
@@ -131537,5 +131538,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:38:52.170469+00:00"
+  "updated_at": "2026-11-01T13:38:57.956522+00:00"
 }
