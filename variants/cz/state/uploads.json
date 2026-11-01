@@ -144553,12 +144553,6 @@
     },
     "1067:10:19": {
       "episode_key": "taková moderní rodinka:s10:e19",
-      "claim": {
-        "worker_id": "2a1e0c6fb078468598e83de0f6308b52-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:56:43.593969+00:00",
-        "lease_expires_at": "2026-11-02T01:56:43.593978+00:00"
-      },
       "source": {
         "source_id": "34975770",
         "source_url": "https://sdilej.cz/34975770/takova-moderni-rodinka-s10e19-tvrip-480p-czdab.mp4",
@@ -144583,15 +144577,22 @@
         "display_name": "Modern Family S10E19 Yes-Woman 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:56:48.846461+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705525",
-        "size_bytes": 318588786
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705525",
+          "size_bytes": 318588786,
+          "source_bytes_read": 318588786,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975770",
+        "source_url": "https://sdilej.cz/34975770/takova-moderni-rodinka-s10e19-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705525",
-        "size_bytes": 318588786,
-        "source_bytes_read": 318588786,
-        "http_status": 201
+        "display_name": "Modern Family S10E19 Yes-Woman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:57:28.975387+00:00"
       }
     },
     "1067:10:20": {
@@ -144633,5 +144634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:57:27.072328+00:00"
+  "updated_at": "2026-11-01T19:57:28.975404+00:00"
 }
