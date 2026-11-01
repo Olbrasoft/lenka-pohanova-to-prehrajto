@@ -139323,12 +139323,6 @@
     },
     "1067:5:14": {
       "episode_key": "taková moderní rodinka:s5:e14",
-      "claim": {
-        "worker_id": "7eb580b95c79481aa2ef0ffc1b76c16f-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:26:35.149195+00:00",
-        "lease_expires_at": "2026-11-02T00:26:35.149208+00:00"
-      },
       "source": {
         "source_id": "34975492",
         "source_url": "https://sdilej.cz/34975492/takova-moderni-rodinka-s05e14-ispy-hd-.mp4",
@@ -139353,15 +139347,22 @@
         "display_name": "Modern Family S05E14 iSpy 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:26:40.326263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703343",
-        "size_bytes": 347937518
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703343",
+          "size_bytes": 347937518,
+          "source_bytes_read": 347937518,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975492",
+        "source_url": "https://sdilej.cz/34975492/takova-moderni-rodinka-s05e14-ispy-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703343",
-        "size_bytes": 347937518,
-        "source_bytes_read": 347937518,
-        "http_status": 201
+        "display_name": "Modern Family S05E14 iSpy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:27:30.449520+00:00"
       }
     },
     "1067:5:15": {
@@ -139416,5 +139417,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:27:28.568179+00:00"
+  "updated_at": "2026-11-01T18:27:30.449539+00:00"
 }
