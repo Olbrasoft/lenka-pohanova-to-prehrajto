@@ -116073,12 +116073,6 @@
     },
     "104:3:24": {
       "episode_key": "akta x:s3:e24",
-      "claim": {
-        "worker_id": "6b856e728b8c40e2aa4374ce44eb0ff9-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:53:42.767979+00:00",
-        "lease_expires_at": "2026-11-01T06:53:42.767994+00:00"
-      },
       "source": {
         "source_id": "32202026",
         "source_url": "https://sdilej.cz/32202026/akta-x-s03e24-talitha-cumi.mkv",
@@ -116103,15 +116097,22 @@
         "display_name": "The X-Files S03E24 Talitha Cumi (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:53:44.597251+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681833",
-        "size_bytes": 961745611
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681833",
+          "size_bytes": 961745611,
+          "source_bytes_read": 961745611,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32202026",
+        "source_url": "https://sdilej.cz/32202026/akta-x-s03e24-talitha-cumi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681833",
-        "size_bytes": 961745611,
-        "source_bytes_read": 961745611,
-        "http_status": 201
+        "display_name": "The X-Files S03E24 Talitha Cumi (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:55:39.545665+00:00"
       }
     },
     "104:4:1": {
@@ -116194,5 +116195,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:55:35.716227+00:00"
+  "updated_at": "2026-11-01T00:55:39.545682+00:00"
 }
