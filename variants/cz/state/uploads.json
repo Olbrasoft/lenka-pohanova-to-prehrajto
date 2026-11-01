@@ -120151,12 +120151,6 @@
     },
     "104:8:6": {
       "episode_key": "akta x:s8:e6",
-      "claim": {
-        "worker_id": "0b9ebaf9e889403e8c77ddf7361f1d3f-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:32:51.971785+00:00",
-        "lease_expires_at": "2026-11-01T09:32:51.971795+00:00"
-      },
       "source": {
         "source_id": "32216592",
         "source_url": "https://sdilej.cz/32216592/akta-x-2000-s08e06-czdab-1080p-adzarv.mkv",
@@ -120181,15 +120175,22 @@
         "display_name": "The X-Files S08E06 Redrum 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:32:55.203750+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683611",
-        "size_bytes": 954235581
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683611",
+          "size_bytes": 954235581,
+          "source_bytes_read": 954235581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216592",
+        "source_url": "https://sdilej.cz/32216592/akta-x-2000-s08e06-czdab-1080p-adzarv.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683611",
-        "size_bytes": 954235581,
-        "source_bytes_read": 954235581,
-        "http_status": 201
+        "display_name": "The X-Files S08E06 Redrum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:37:16.414315+00:00"
       }
     },
     "104:8:7": {
@@ -120235,5 +120236,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:37:09.366723+00:00"
+  "updated_at": "2026-11-01T03:37:16.414330+00:00"
 }
