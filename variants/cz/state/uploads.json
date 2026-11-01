@@ -118574,12 +118574,6 @@
     },
     "104:6:14": {
       "episode_key": "akta x:s6:e14",
-      "claim": {
-        "worker_id": "8deed9fbe2a249a48c71dc69f5110a50-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:30:29.758020+00:00",
-        "lease_expires_at": "2026-11-01T08:30:29.758031+00:00"
-      },
       "source": {
         "source_id": "26616862",
         "source_url": "https://sdilej.cz/26616862/the-x-files-akta-x-s06e14-cz-dabing-1080p.mkv",
@@ -118604,15 +118598,22 @@
         "display_name": "The X-Files S06E14 Monday 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:30:31.695053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682932",
-        "size_bytes": 512629516
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682932",
+          "size_bytes": 512629516,
+          "source_bytes_read": 512629516,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616862",
+        "source_url": "https://sdilej.cz/26616862/the-x-files-akta-x-s06e14-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682932",
-        "size_bytes": 512629516,
-        "source_bytes_read": 512629516,
-        "http_status": 201
+        "display_name": "The X-Files S06E14 Monday 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:35:04.741910+00:00"
       }
     },
     "104:6:15": {
@@ -118702,5 +118703,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:34:58.650317+00:00"
+  "updated_at": "2026-11-01T02:35:04.741926+00:00"
 }
