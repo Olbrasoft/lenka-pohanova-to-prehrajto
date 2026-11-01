@@ -131849,12 +131849,6 @@
     },
     "2558:2:3": {
       "episode_key": "hercule poirot:s2:e3",
-      "claim": {
-        "worker_id": "ee21d7a19a294aec8b1a4167aaf9064d-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:53:13.745998+00:00",
-        "lease_expires_at": "2026-11-01T19:53:13.746009+00:00"
-      },
       "source": {
         "source_id": "31058047",
         "source_url": "https://sdilej.cz/31058047/hercule-poirot-s02e03-ztraceny-dul-cz-1080p-.ts",
@@ -131878,7 +131872,13 @@
         },
         "display_name": "Agatha Christie's Poirot S02E03 The Lost Mine 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:53:17.348157+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-01T13:53:28.955159+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -131886,5 +131886,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:53:27.380643+00:00"
+  "updated_at": "2026-11-01T13:53:28.955174+00:00"
 }
