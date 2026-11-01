@@ -119528,12 +119528,6 @@
     },
     "104:7:14": {
       "episode_key": "akta x:s7:e14",
-      "claim": {
-        "worker_id": "7dc230cee3684c4086f0b6f7288c053b-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:16:09.501858+00:00",
-        "lease_expires_at": "2026-11-01T09:16:09.501869+00:00"
-      },
       "source": {
         "source_id": "26616923",
         "source_url": "https://sdilej.cz/26616923/the-x-files-akta-x-s07e14-cz-dabing-1080p.mkv",
@@ -119558,15 +119552,22 @@
         "display_name": "The X-Files S07E14 Theef 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:16:11.533716+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683408",
-        "size_bytes": 535545079
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683408",
+          "size_bytes": 535545079,
+          "source_bytes_read": 535545079,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616923",
+        "source_url": "https://sdilej.cz/26616923/the-x-files-akta-x-s07e14-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683408",
-        "size_bytes": 535545079,
-        "source_bytes_read": 535545079,
-        "http_status": 201
+        "display_name": "The X-Files S07E14 Theef 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:18:45.087112+00:00"
       }
     }
   },
@@ -119575,5 +119576,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:18:41.910285+00:00"
+  "updated_at": "2026-11-01T03:18:45.087127+00:00"
 }
