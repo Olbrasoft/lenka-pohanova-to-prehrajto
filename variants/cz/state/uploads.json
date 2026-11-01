@@ -128556,12 +128556,6 @@
     },
     "282:3:3": {
       "episode_key": "most:s3:e3",
-      "claim": {
-        "worker_id": "8da96dac230b4777be231137452cfe48-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T11:43:48.936329+00:00",
-        "lease_expires_at": "2026-11-01T17:43:48.936338+00:00"
-      },
       "source": {
         "source_id": "31475470",
         "source_url": "https://sdilej.cz/31475470/most-bron-broen-s03e03.cz..mkv",
@@ -128586,15 +128580,22 @@
         "display_name": "Bron/Broen S03E03 1080p CZ Dabing",
         "prepared_at": "2026-11-01T11:43:51.996460+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30693906",
-        "size_bytes": 664580759
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30693906",
+          "size_bytes": 664580759,
+          "source_bytes_read": 664580759,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31475470",
+        "source_url": "https://sdilej.cz/31475470/most-bron-broen-s03e03.cz..mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30693906",
-        "size_bytes": 664580759,
-        "source_bytes_read": 664580759,
-        "http_status": 201
+        "display_name": "Bron/Broen S03E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T11:45:05.526927+00:00"
       }
     }
   },
@@ -128603,5 +128604,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T11:45:00.891704+00:00"
+  "updated_at": "2026-11-01T11:45:05.526941+00:00"
 }
