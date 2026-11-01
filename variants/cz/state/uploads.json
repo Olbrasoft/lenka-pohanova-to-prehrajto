@@ -137555,12 +137555,6 @@
     },
     "1067:3:22": {
       "episode_key": "taková moderní rodinka:s3:e22",
-      "claim": {
-        "worker_id": "bb756c84dc114230864cd534f2e587b1-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:06:15.367983+00:00",
-        "lease_expires_at": "2026-11-02T00:06:15.367995+00:00"
-      },
       "source": {
         "source_id": "34975408",
         "source_url": "https://sdilej.cz/34975408/takova-moderni-rodinka-s03e22-disneyland.mp4",
@@ -137585,15 +137579,22 @@
         "display_name": "Modern Family S03E22 Disneyland 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:06:21.162098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702798",
-        "size_bytes": 506163155
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702798",
+          "size_bytes": 506163155,
+          "source_bytes_read": 506163155,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975408",
+        "source_url": "https://sdilej.cz/34975408/takova-moderni-rodinka-s03e22-disneyland.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702798",
-        "size_bytes": 506163155,
-        "source_bytes_read": 506163155,
-        "http_status": 201
+        "display_name": "Modern Family S03E22 Disneyland 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:07:43.922444+00:00"
       }
     },
     "1067:3:23": {
@@ -137676,5 +137677,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:07:37.753406+00:00"
+  "updated_at": "2026-11-01T18:07:43.922461+00:00"
 }
