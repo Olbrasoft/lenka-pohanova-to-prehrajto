@@ -127940,12 +127940,6 @@
     },
     "88:1:1": {
       "episode_key": "daredevil:s1:e1",
-      "claim": {
-        "worker_id": "0be49a1e3c1949b39520ff66302e4741-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T11:27:35.860527+00:00",
-        "lease_expires_at": "2026-11-01T17:27:35.860537+00:00"
-      },
       "source": {
         "source_id": "32485394",
         "source_url": "https://sdilej.cz/32485394/daredevil-2015-s01e01-czdab-2160p-do-ringu.mkv",
@@ -127970,15 +127964,22 @@
         "display_name": "Marvel's Daredevil S01E01 Into the Ring 4K CZ Dabing",
         "prepared_at": "2026-11-01T11:27:39.142048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30693666",
-        "size_bytes": 2472161410
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30693666",
+          "size_bytes": 2472161410,
+          "source_bytes_read": 2472161410,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32485394",
+        "source_url": "https://sdilej.cz/32485394/daredevil-2015-s01e01-czdab-2160p-do-ringu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30693666",
-        "size_bytes": 2472161410,
-        "source_bytes_read": 2472161410,
-        "http_status": 201
+        "display_name": "Marvel's Daredevil S01E01 Into the Ring 4K CZ Dabing",
+        "uploaded_at": "2026-11-01T11:36:17.225293+00:00"
       }
     },
     "88:1:2": {
@@ -128200,5 +128201,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T11:36:13.449615+00:00"
+  "updated_at": "2026-11-01T11:36:17.225310+00:00"
 }
