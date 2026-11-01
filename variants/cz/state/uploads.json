@@ -129524,12 +129524,6 @@
     },
     "1237:5:33": {
       "episode_key": "normálka:s5:e33",
-      "claim": {
-        "worker_id": "588d527a51bf490e802ffa024074b66a-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:20:15.999215+00:00",
-        "lease_expires_at": "2026-11-01T18:20:15.999226+00:00"
-      },
       "source": {
         "source_id": "22807929",
         "source_url": "https://sdilej.cz/22807929/normalka-regular-show-s05e33-hd-cz-dabing.mkv",
@@ -129554,15 +129548,22 @@
         "display_name": "Regular Show S05E33 Skips in the Saddle 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:20:24.700421+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694453",
-        "size_bytes": 699986295
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694453",
+          "size_bytes": 699986295,
+          "source_bytes_read": 699986295,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22807929",
+        "source_url": "https://sdilej.cz/22807929/normalka-regular-show-s05e33-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694453",
-        "size_bytes": 699986295,
-        "source_bytes_read": 699986295,
-        "http_status": 201
+        "display_name": "Regular Show S05E33 Skips in the Saddle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:21:32.829176+00:00"
       }
     },
     "1237:5:28": {
@@ -129615,5 +129616,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:21:31.280603+00:00"
+  "updated_at": "2026-11-01T12:21:32.829191+00:00"
 }
