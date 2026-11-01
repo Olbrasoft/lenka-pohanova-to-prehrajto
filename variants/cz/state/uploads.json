@@ -122839,12 +122839,6 @@
     },
     "217:1:10": {
       "episode_key": "1883:s1:e10",
-      "claim": {
-        "worker_id": "59d089a0029f42fdbf56448d75fec3bc-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:14:58.922899+00:00",
-        "lease_expires_at": "2026-11-01T12:14:58.922910+00:00"
-      },
       "source": {
         "source_id": "33638778",
         "source_url": "https://sdilej.cz/33638778/1883-s01e10-cz-dabing-1080p.mkv",
@@ -122869,15 +122863,22 @@
         "display_name": "1883 S01E10 This Is Not Your Heaven 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:15:03.756484+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686364",
-        "size_bytes": 1347567990
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686364",
+          "size_bytes": 1347567990,
+          "source_bytes_read": 1347567990,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33638778",
+        "source_url": "https://sdilej.cz/33638778/1883-s01e10-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686364",
-        "size_bytes": 1347567990,
-        "source_bytes_read": 1347567990,
-        "http_status": 201
+        "display_name": "1883 S01E10 This Is Not Your Heaven 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:19:10.448292+00:00"
       }
     },
     "1377:1:1": {
@@ -122930,5 +122931,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:19:05.980812+00:00"
+  "updated_at": "2026-11-01T06:19:10.448322+00:00"
 }
