@@ -125029,12 +125029,6 @@
     },
     "1192:3:8": {
       "episode_key": "strážce pořádku:s3:e8",
-      "claim": {
-        "worker_id": "24a322f759074dbcac20b739420cb33e-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:01:18.569084+00:00",
-        "lease_expires_at": "2026-11-01T15:01:18.569095+00:00"
-      },
       "source": {
         "source_id": "32285956",
         "source_url": "https://sdilej.cz/32285956/strazce-poradku-2012-s03e08-1080p-cz.mkv",
@@ -125059,15 +125053,22 @@
         "display_name": "Justified S03E08 Watching the Detectives 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:01:20.434902+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690235",
-        "size_bytes": 448171958
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690235",
+          "size_bytes": 448171958,
+          "source_bytes_read": 448171958,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32285956",
+        "source_url": "https://sdilej.cz/32285956/strazce-poradku-2012-s03e08-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690235",
-        "size_bytes": 448171958,
-        "source_bytes_read": 448171958,
-        "http_status": 201
+        "display_name": "Justified S03E08 Watching the Detectives 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:02:12.321549+00:00"
       }
     },
     "1192:3:9": {
@@ -125120,5 +125121,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:02:10.852350+00:00"
+  "updated_at": "2026-11-01T09:02:12.321563+00:00"
 }
