@@ -118097,12 +118097,6 @@
     },
     "104:6:3": {
       "episode_key": "akta x:s6:e3",
-      "claim": {
-        "worker_id": "1321c0c12a0641cfa7b19b7f845cb509-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:16:17.485531+00:00",
-        "lease_expires_at": "2026-11-01T08:16:17.485541+00:00"
-      },
       "source": {
         "source_id": "32215536",
         "source_url": "https://sdilej.cz/32215536/akta-x-1998-s06e03-czdab-1080p-trojuhelnik.mkv",
@@ -118127,15 +118121,22 @@
         "display_name": "The X-Files S06E03 Triangle 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:16:21.349786+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682746",
-        "size_bytes": 967337332
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682746",
+          "size_bytes": 967337332,
+          "source_bytes_read": 967337332,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32215536",
+        "source_url": "https://sdilej.cz/32215536/akta-x-1998-s06e03-czdab-1080p-trojuhelnik.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682746",
-        "size_bytes": 967337332,
-        "source_bytes_read": 967337332,
-        "http_status": 201
+        "display_name": "The X-Files S06E03 Triangle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:21:11.382412+00:00"
       }
     },
     "104:6:4": {
@@ -118188,5 +118189,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:21:08.655845+00:00"
+  "updated_at": "2026-11-01T02:21:11.382429+00:00"
 }
