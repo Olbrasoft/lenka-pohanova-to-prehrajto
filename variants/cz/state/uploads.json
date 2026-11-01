@@ -120510,12 +120510,6 @@
     },
     "104:8:14": {
       "episode_key": "akta x:s8:e14",
-      "claim": {
-        "worker_id": "662c316e1a3e460f975ff26deabd054d-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:59:50.373208+00:00",
-        "lease_expires_at": "2026-11-01T09:59:50.373218+00:00"
-      },
       "source": {
         "source_id": "32216844",
         "source_url": "https://sdilej.cz/32216844/akta-x-2001-s08e14-czdab-1080p-toto-nemuze-byt-pravda.mkv",
@@ -120540,15 +120534,22 @@
         "display_name": "The X-Files S08E14 This Is Not Happening (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:59:53.917089+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683951",
-        "size_bytes": 956631204
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683951",
+          "size_bytes": 956631204,
+          "source_bytes_read": 956631204,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216844",
+        "source_url": "https://sdilej.cz/32216844/akta-x-2001-s08e14-czdab-1080p-toto-nemuze-byt-pravda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683951",
-        "size_bytes": 956631204,
-        "source_bytes_read": 956631204,
-        "http_status": 201
+        "display_name": "The X-Files S08E14 This Is Not Happening (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:02:17.423058+00:00"
       }
     },
     "104:8:15": {
@@ -120631,5 +120632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:02:11.950704+00:00"
+  "updated_at": "2026-11-01T04:02:17.423076+00:00"
 }
