@@ -122707,12 +122707,6 @@
     },
     "217:1:7": {
       "episode_key": "1883:s1:e7",
-      "claim": {
-        "worker_id": "5af21c1d76ea48378d4296a557ccb2b4-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:08:36.337387+00:00",
-        "lease_expires_at": "2026-11-01T12:08:36.337399+00:00"
-      },
       "source": {
         "source_id": "33638301",
         "source_url": "https://sdilej.cz/33638301/1883-s01e07-cz-dabing-1080p.mkv",
@@ -122737,15 +122731,22 @@
         "display_name": "1883 S01E07 Lightning Yellow Hair 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:08:39.394682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686281",
-        "size_bytes": 1053937173
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686281",
+          "size_bytes": 1053937173,
+          "source_bytes_read": 1053937173,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33638301",
+        "source_url": "https://sdilej.cz/33638301/1883-s01e07-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686281",
-        "size_bytes": 1053937173,
-        "source_bytes_read": 1053937173,
-        "http_status": 201
+        "display_name": "1883 S01E07 Lightning Yellow Hair 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:11:44.989972+00:00"
       }
     },
     "217:1:8": {
@@ -122791,5 +122792,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:11:41.289644+00:00"
+  "updated_at": "2026-11-01T06:11:44.989995+00:00"
 }
