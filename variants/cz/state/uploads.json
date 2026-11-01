@@ -140332,12 +140332,6 @@
     },
     "1067:6:13": {
       "episode_key": "taková moderní rodinka:s6:e13",
-      "claim": {
-        "worker_id": "be73e82e781748de9b258c161568e52c-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:54:35.976945+00:00",
-        "lease_expires_at": "2026-11-02T00:54:35.976961+00:00"
-      },
       "source": {
         "source_id": "35154029",
         "source_url": "https://sdilej.cz/35154029/modern-family-s06e13-cz-dabing-1080p-bedobi.mp4",
@@ -140362,15 +140356,22 @@
         "display_name": "Modern Family S06E13 Rash Decisions 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:54:39.470353+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704098",
-        "size_bytes": 398690702
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704098",
+          "size_bytes": 398690702,
+          "source_bytes_read": 398690702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154029",
+        "source_url": "https://sdilej.cz/35154029/modern-family-s06e13-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704098",
-        "size_bytes": 398690702,
-        "source_bytes_read": 398690702,
-        "http_status": 201
+        "display_name": "Modern Family S06E13 Rash Decisions 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:55:27.908007+00:00"
       }
     },
     "1067:6:14": {
@@ -140453,5 +140454,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:55:24.065662+00:00"
+  "updated_at": "2026-11-01T18:55:27.908026+00:00"
 }
