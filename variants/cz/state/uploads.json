@@ -122795,12 +122795,6 @@
     },
     "217:1:9": {
       "episode_key": "1883:s1:e9",
-      "claim": {
-        "worker_id": "f8c053f370fd412291a0f0cd866ba5dd-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:14:57.292544+00:00",
-        "lease_expires_at": "2026-11-01T12:14:57.292556+00:00"
-      },
       "source": {
         "source_id": "33638324",
         "source_url": "https://sdilej.cz/33638324/1883-s01e09-cz-dabing-1080p.mkv",
@@ -122825,15 +122819,22 @@
         "display_name": "1883 S01E09 Racing Clouds 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:15:02.168985+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686363",
-        "size_bytes": 1138848523
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686363",
+          "size_bytes": 1138848523,
+          "source_bytes_read": 1138848523,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33638324",
+        "source_url": "https://sdilej.cz/33638324/1883-s01e09-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686363",
-        "size_bytes": 1138848523,
-        "source_bytes_read": 1138848523,
-        "http_status": 201
+        "display_name": "1883 S01E09 Racing Clouds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:17:35.622019+00:00"
       }
     },
     "217:1:10": {
@@ -122916,5 +122917,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:17:31.761073+00:00"
+  "updated_at": "2026-11-01T06:17:35.622042+00:00"
 }
