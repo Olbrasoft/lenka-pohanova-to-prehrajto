@@ -119322,12 +119322,6 @@
     },
     "104:7:9": {
       "episode_key": "akta x:s7:e9",
-      "claim": {
-        "worker_id": "18ad7edd80ae42a18c9a245fccbd3811-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:05:31.173448+00:00",
-        "lease_expires_at": "2026-11-01T09:05:31.173459+00:00"
-      },
       "source": {
         "source_id": "32216156",
         "source_url": "https://sdilej.cz/32216156/akta-x-2000-s07e09-czdab-1080p-divy-a-zazraky.mkv",
@@ -119352,15 +119346,22 @@
         "display_name": "The X-Files S07E09 Signs and Wonders 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:05:34.653942+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683297",
-        "size_bytes": 961152333
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683297",
+          "size_bytes": 961152333,
+          "source_bytes_read": 961152333,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216156",
+        "source_url": "https://sdilej.cz/32216156/akta-x-2000-s07e09-czdab-1080p-divy-a-zazraky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683297",
-        "size_bytes": 961152333,
-        "source_bytes_read": 961152333,
-        "http_status": 201
+        "display_name": "The X-Files S07E09 Signs and Wonders 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:09:33.689248+00:00"
       }
     },
     "104:7:10": {
@@ -119413,5 +119414,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:09:28.603330+00:00"
+  "updated_at": "2026-11-01T03:09:33.689261+00:00"
 }
