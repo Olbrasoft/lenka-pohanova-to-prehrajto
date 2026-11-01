@@ -138839,12 +138839,6 @@
     },
     "1067:5:3": {
       "episode_key": "taková moderní rodinka:s5:e3",
-      "claim": {
-        "worker_id": "4b18cfb272a4440287add7d9f71d92db-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:22:34.228575+00:00",
-        "lease_expires_at": "2026-11-02T00:22:34.228589+00:00"
-      },
       "source": {
         "source_id": "34975474",
         "source_url": "https://sdilej.cz/34975474/takova-moderni-rodinka-s05e03-larry-s-wife-hd-.mp4",
@@ -138869,15 +138863,22 @@
         "display_name": "Modern Family S05E03 Larry's Wife 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:22:39.232450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703230",
-        "size_bytes": 428974647
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703230",
+          "size_bytes": 428974647,
+          "source_bytes_read": 428974647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975474",
+        "source_url": "https://sdilej.cz/34975474/takova-moderni-rodinka-s05e03-larry-s-wife-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703230",
-        "size_bytes": 428974647,
-        "source_bytes_read": 428974647,
-        "http_status": 201
+        "display_name": "Modern Family S05E03 Larry's Wife 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:23:43.265865+00:00"
       }
     },
     "1067:5:4": {
@@ -139000,5 +139001,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:23:41.524082+00:00"
+  "updated_at": "2026-11-01T18:23:43.265881+00:00"
 }
