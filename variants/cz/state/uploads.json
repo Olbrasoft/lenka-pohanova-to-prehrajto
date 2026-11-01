@@ -132861,12 +132861,6 @@
     },
     "2558:5:7": {
       "episode_key": "hercule poirot:s5:e7",
-      "claim": {
-        "worker_id": "615e9bbd1d74477a8c99f9de6b23c5bb-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:35:42.804596+00:00",
-        "lease_expires_at": "2026-11-01T20:35:42.804604+00:00"
-      },
       "source": {
         "source_id": "34799195",
         "source_url": "https://sdilej.cz/34799195/hercule-poirot-s05e07-40-1993-sd-zrcadlo-mrtveho-muze-sd-.mp4",
@@ -132891,15 +132885,22 @@
         "display_name": "Agatha Christie's Poirot S05E07 Dead Man's Mirror SD CZ Dabing",
         "prepared_at": "2026-11-01T14:35:46.243789+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697084",
-        "size_bytes": 411395883
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697084",
+          "size_bytes": 411395883,
+          "source_bytes_read": 411395883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799195",
+        "source_url": "https://sdilej.cz/34799195/hercule-poirot-s05e07-40-1993-sd-zrcadlo-mrtveho-muze-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697084",
-        "size_bytes": 411395883,
-        "source_bytes_read": 411395883,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E07 Dead Man's Mirror SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:36:53.091931+00:00"
       }
     },
     "2558:5:8": {
@@ -132945,5 +132946,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:36:51.525977+00:00"
+  "updated_at": "2026-11-01T14:36:53.091949+00:00"
 }
