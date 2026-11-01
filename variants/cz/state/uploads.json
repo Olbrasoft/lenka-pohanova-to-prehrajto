@@ -131768,12 +131768,6 @@
     },
     "2558:2:2": {
       "episode_key": "hercule poirot:s2:e2",
-      "claim": {
-        "worker_id": "70e3010eb1334625b5784898195020ca-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:45:45.840176+00:00",
-        "lease_expires_at": "2026-11-01T19:45:45.840187+00:00"
-      },
       "source": {
         "source_id": "30854766",
         "source_url": "https://sdilej.cz/30854766/hercule-poirot-s02e02-dama-se-zavojem-cz-1080p-.ts",
@@ -131798,15 +131792,22 @@
         "display_name": "Agatha Christie's Poirot S02E02 The Veiled Lady 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:45:47.797743+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695896",
-        "size_bytes": 2308739452
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695896",
+          "size_bytes": 2308739452,
+          "source_bytes_read": 2308739452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30854766",
+        "source_url": "https://sdilej.cz/30854766/hercule-poirot-s02e02-dama-se-zavojem-cz-1080p-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695896",
-        "size_bytes": 2308739452,
-        "source_bytes_read": 2308739452,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S02E02 The Veiled Lady 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:52:35.591564+00:00"
       }
     }
   },
@@ -131815,5 +131816,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:52:30.659076+00:00"
+  "updated_at": "2026-11-01T13:52:35.591583+00:00"
 }
