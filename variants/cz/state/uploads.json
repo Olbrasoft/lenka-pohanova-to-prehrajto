@@ -123103,12 +123103,6 @@
     },
     "1377:2:2": {
       "episode_key": "úžasná paní maiselová:s2:e2",
-      "claim": {
-        "worker_id": "4ec69c89f88f41b591bb383533cadca0-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:22:54.510846+00:00",
-        "lease_expires_at": "2026-11-01T12:22:54.510859+00:00"
-      },
       "source": {
         "source_id": "26367869",
         "source_url": "https://sdilej.cz/26367869/the.marvelous.mrs.maisel.s02e02.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -123133,15 +123127,22 @@
         "display_name": "The Marvelous Mrs. Maisel S02E02 Mid-way to Mid-town 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:22:58.239076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686528",
-        "size_bytes": 1210755136
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686528",
+          "size_bytes": 1210755136,
+          "source_bytes_read": 1210755136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26367869",
+        "source_url": "https://sdilej.cz/26367869/the.marvelous.mrs.maisel.s02e02.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686528",
-        "size_bytes": 1210755136,
-        "source_bytes_read": 1210755136,
-        "http_status": 201
+        "display_name": "The Marvelous Mrs. Maisel S02E02 Mid-way to Mid-town 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:28:23.546359+00:00"
       }
     },
     "1377:2:3": {
@@ -123194,5 +123195,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:28:18.258270+00:00"
+  "updated_at": "2026-11-01T06:28:23.546380+00:00"
 }
