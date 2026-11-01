@@ -123278,12 +123278,6 @@
     },
     "1377:2:7": {
       "episode_key": "úžasná paní maiselová:s2:e7",
-      "claim": {
-        "worker_id": "e0c6e7f8ce8242a39b3b2b1ad84665a0-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:30:11.024040+00:00",
-        "lease_expires_at": "2026-11-01T12:30:11.024053+00:00"
-      },
       "source": {
         "source_id": "26368557",
         "source_url": "https://sdilej.cz/26368557/the.marvelous.mrs.maisel.s02e07.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -123308,15 +123302,22 @@
         "display_name": "The Marvelous Mrs. Maisel S02E07 Look, She Made a Hat 1080p CZ Dabing",
         "prepared_at": "2026-11-01T06:30:14.706579+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686937",
-        "size_bytes": 970917175
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686937",
+          "size_bytes": 970917175,
+          "source_bytes_read": 970917175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26368557",
+        "source_url": "https://sdilej.cz/26368557/the.marvelous.mrs.maisel.s02e07.1080p.amzn.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686937",
-        "size_bytes": 970917175,
-        "source_bytes_read": 970917175,
-        "http_status": 201
+        "display_name": "The Marvelous Mrs. Maisel S02E07 Look, She Made a Hat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:33:08.322287+00:00"
       }
     }
   },
@@ -123325,5 +123326,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:33:06.709030+00:00"
+  "updated_at": "2026-11-01T06:33:08.322304+00:00"
 }
