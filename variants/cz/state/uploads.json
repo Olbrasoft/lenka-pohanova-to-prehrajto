@@ -133291,12 +133291,6 @@
     },
     "2558:10:4": {
       "episode_key": "hercule poirot:s10:e4",
-      "claim": {
-        "worker_id": "5d2e3e25bc4841489cdfb7a4ce5518f8-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T15:16:51.510915+00:00",
-        "lease_expires_at": "2026-11-01T21:16:51.510923+00:00"
-      },
       "source": {
         "source_id": "30855263",
         "source_url": "https://sdilej.cz/30855263/hercule-poirot-s10e04-cas-prilivu-cz-1080p-.ts",
@@ -133321,15 +133315,22 @@
         "display_name": "Agatha Christie's Poirot S10E04 Taken at the Flood 1080p CZ Dabing",
         "prepared_at": "2026-11-01T15:16:54.672030+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30698703",
-        "size_bytes": 4418867808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30698703",
+          "size_bytes": 4418867808,
+          "source_bytes_read": 4418867808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30855263",
+        "source_url": "https://sdilej.cz/30855263/hercule-poirot-s10e04-cas-prilivu-cz-1080p-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30698703",
-        "size_bytes": 4418867808,
-        "source_bytes_read": 4418867808,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S10E04 Taken at the Flood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T15:27:55.655861+00:00"
       }
     }
   },
@@ -133338,5 +133339,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T15:27:52.630795+00:00"
+  "updated_at": "2026-11-01T15:27:55.655887+00:00"
 }
