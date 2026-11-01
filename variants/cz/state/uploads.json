@@ -120378,12 +120378,6 @@
     },
     "104:8:11": {
       "episode_key": "akta x:s8:e11",
-      "claim": {
-        "worker_id": "03784bda01e54c929a2f4371e29e67cb-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:49:20.822799+00:00",
-        "lease_expires_at": "2026-11-01T09:49:20.822808+00:00"
-      },
       "source": {
         "source_id": "32216828",
         "source_url": "https://sdilej.cz/32216828/akta-x-2001-s08e11-czdab-1080p-dar.mkv",
@@ -120408,15 +120402,22 @@
         "display_name": "The X-Files S08E11 The Gift 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:49:25.464273+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683825",
-        "size_bytes": 954855375
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683825",
+          "size_bytes": 954855375,
+          "source_bytes_read": 954855375,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216828",
+        "source_url": "https://sdilej.cz/32216828/akta-x-2001-s08e11-czdab-1080p-dar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683825",
-        "size_bytes": 954855375,
-        "source_bytes_read": 954855375,
-        "http_status": 201
+        "display_name": "The X-Files S08E11 The Gift 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:54:14.520717+00:00"
       }
     },
     "104:8:12": {
@@ -120499,5 +120500,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:54:10.226882+00:00"
+  "updated_at": "2026-11-01T03:54:14.520731+00:00"
 }
