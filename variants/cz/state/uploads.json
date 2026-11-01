@@ -131189,12 +131189,6 @@
     },
     "1192:1:2": {
       "episode_key": "strážce pořádku:s1:e2",
-      "claim": {
-        "worker_id": "83bb0bb239e94c30a903bab095dc3bf5-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:26:58.119515+00:00",
-        "lease_expires_at": "2026-11-01T19:26:58.119526+00:00"
-      },
       "source": {
         "source_id": "32286983",
         "source_url": "https://sdilej.cz/32286983/strazce-poradku-2010-s01e02-1080p-cz-riverbrook.mkv",
@@ -131219,15 +131213,22 @@
         "display_name": "Justified S01E02 Riverbrook 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:26:59.998395+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695592",
-        "size_bytes": 471685304
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695592",
+          "size_bytes": 471685304,
+          "source_bytes_read": 471685304,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286983",
+        "source_url": "https://sdilej.cz/32286983/strazce-poradku-2010-s01e02-1080p-cz-riverbrook.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695592",
-        "size_bytes": 471685304,
-        "source_bytes_read": 471685304,
-        "http_status": 201
+        "display_name": "Justified S01E02 Riverbrook 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:29:13.726022+00:00"
       }
     },
     "1192:1:3": {
@@ -131317,5 +131318,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:29:10.898057+00:00"
+  "updated_at": "2026-11-01T13:29:13.726037+00:00"
 }
