@@ -131636,12 +131636,6 @@
     },
     "2558:1:8": {
       "episode_key": "hercule poirot:s1:e8",
-      "claim": {
-        "worker_id": "6c4dbdd5ab4f4b7c89b6535ad6e14172-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:43:27.239649+00:00",
-        "lease_expires_at": "2026-11-01T19:43:27.239660+00:00"
-      },
       "source": {
         "source_id": "30854353",
         "source_url": "https://sdilej.cz/30854353/hercule-poirot-s01e08-podivna-loupez-cz-1080p-.ts",
@@ -131666,15 +131660,22 @@
         "display_name": "Agatha Christie's Poirot S01E08 The Incredible Theft 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:43:29.203973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695847",
-        "size_bytes": 2349309100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695847",
+          "size_bytes": 2349309100,
+          "source_bytes_read": 2349309100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30854353",
+        "source_url": "https://sdilej.cz/30854353/hercule-poirot-s01e08-podivna-loupez-cz-1080p-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695847",
-        "size_bytes": 2349309100,
-        "source_bytes_read": 2349309100,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S01E08 The Incredible Theft 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:48:08.003051+00:00"
       }
     },
     "2558:1:9": {
@@ -131801,5 +131802,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:48:03.714368+00:00"
+  "updated_at": "2026-11-01T13:48:08.003068+00:00"
 }
