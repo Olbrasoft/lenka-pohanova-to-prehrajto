@@ -135450,12 +135450,6 @@
     },
     "1067:1:22": {
       "episode_key": "taková moderní rodinka:s1:e22",
-      "claim": {
-        "worker_id": "5911afedfd37496f8d7f84b0c283440d-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:26:00.545689+00:00",
-        "lease_expires_at": "2026-11-01T23:26:00.545702+00:00"
-      },
       "source": {
         "source_id": "9054781",
         "source_url": "https://sdilej.cz/9054781/takova-moderni-rodinka-s01e22-nejlepsi-kvalita-cz.mp4",
@@ -135480,15 +135474,22 @@
         "display_name": "Modern Family S01E22 Airport 2010 720p CZ Dabing",
         "prepared_at": "2026-11-01T17:26:04.102658+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702053",
-        "size_bytes": 566420556
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702053",
+          "size_bytes": 566420556,
+          "source_bytes_read": 566420556,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9054781",
+        "source_url": "https://sdilej.cz/9054781/takova-moderni-rodinka-s01e22-nejlepsi-kvalita-cz.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702053",
-        "size_bytes": 566420556,
-        "source_bytes_read": 566420556,
-        "http_status": 201
+        "display_name": "Modern Family S01E22 Airport 2010 720p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:27:05.122339+00:00"
       }
     },
     "1067:1:23": {
@@ -135567,5 +135568,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:27:03.410059+00:00"
+  "updated_at": "2026-11-01T17:27:05.122358+00:00"
 }
