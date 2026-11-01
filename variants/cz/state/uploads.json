@@ -146760,12 +146760,6 @@
     },
     "51:4:3": {
       "episode_key": "mr. robot:s4:e3",
-      "claim": {
-        "worker_id": "3dc69e53cbf84787afcced0d2bbf117f-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:19:07.532766+00:00",
-        "lease_expires_at": "2026-11-02T03:19:07.532777+00:00"
-      },
       "source": {
         "source_id": "31029041",
         "source_url": "https://sdilej.cz/31029041/mr.-robot-s04e03-pristup-odmitnut-1080p-cz.mkv",
@@ -146790,15 +146784,22 @@
         "display_name": "Mr. Robot S04E03 403 Forbidden 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:19:09.836175+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707379",
-        "size_bytes": 927735806
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707379",
+          "size_bytes": 927735806,
+          "source_bytes_read": 927735806,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31029041",
+        "source_url": "https://sdilej.cz/31029041/mr.-robot-s04e03-pristup-odmitnut-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707379",
-        "size_bytes": 927735806,
-        "source_bytes_read": 927735806,
-        "http_status": 201
+        "display_name": "Mr. Robot S04E03 403 Forbidden 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:20:48.803931+00:00"
       }
     },
     "51:4:4": {
@@ -146881,5 +146882,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:20:44.124011+00:00"
+  "updated_at": "2026-11-01T21:20:48.803948+00:00"
 }
