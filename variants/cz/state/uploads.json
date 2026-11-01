@@ -141834,12 +141834,6 @@
     },
     "1067:8:1": {
       "episode_key": "taková moderní rodinka:s8:e1",
-      "claim": {
-        "worker_id": "2b8d0f6594d2414aac481165a637f6c4-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:11:07.506203+00:00",
-        "lease_expires_at": "2026-11-02T01:11:07.506213+00:00"
-      },
       "source": {
         "source_id": "35154193",
         "source_url": "https://sdilej.cz/35154193/modern-family-s08e01-cz-dabing-1080p-bedobi.mp4",
@@ -141864,15 +141858,22 @@
         "display_name": "Modern Family S08E01 A Tale of Three Cities 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:11:09.785877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704466",
-        "size_bytes": 486123199
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704466",
+          "size_bytes": 486123199,
+          "source_bytes_read": 486123199,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154193",
+        "source_url": "https://sdilej.cz/35154193/modern-family-s08e01-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704466",
-        "size_bytes": 486123199,
-        "source_bytes_read": 486123199,
-        "http_status": 201
+        "display_name": "Modern Family S08E01 A Tale of Three Cities 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:12:06.021530+00:00"
       }
     },
     "1067:8:2": {
@@ -141918,5 +141919,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:12:04.125632+00:00"
+  "updated_at": "2026-11-01T19:12:06.021546+00:00"
 }
