@@ -134272,12 +134272,6 @@
     },
     "1987:1:10": {
       "episode_key": "nabídka:s1:e10",
-      "claim": {
-        "worker_id": "980862f616a14e67b5942e39b529e778-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:05:47.777329+00:00",
-        "lease_expires_at": "2026-11-01T23:05:47.777344+00:00"
-      },
       "source": {
         "source_id": "33180021",
         "source_url": "https://sdilej.cz/33180021/nabidka-s01e10-10-2022-cz-dab-napad-a-odvaha.mkv",
@@ -134302,15 +134296,22 @@
         "display_name": "The Offer S01E10 Brains and Balls 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:05:49.988983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701320",
-        "size_bytes": 676790502
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701320",
+          "size_bytes": 676790502,
+          "source_bytes_read": 676790502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33180021",
+        "source_url": "https://sdilej.cz/33180021/nabidka-s01e10-10-2022-cz-dab-napad-a-odvaha.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701320",
-        "size_bytes": 676790502,
-        "source_bytes_read": 676790502,
-        "http_status": 201
+        "display_name": "The Offer S01E10 Brains and Balls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:07:13.942713+00:00"
       }
     },
     "5212:1:1": {
@@ -134356,5 +134357,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:07:10.785963+00:00"
+  "updated_at": "2026-11-01T17:07:13.942731+00:00"
 }
