@@ -142668,12 +142668,6 @@
     },
     "1067:8:20": {
       "episode_key": "taková moderní rodinka:s8:e20",
-      "claim": {
-        "worker_id": "d06d01fb76824eb09eecafc256fd01db-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:23:34.737479+00:00",
-        "lease_expires_at": "2026-11-02T01:23:34.737490+00:00"
-      },
       "source": {
         "source_id": "13124053",
         "source_url": "https://sdilej.cz/13124053/takova-moderni-rodinka-08x20.avi",
@@ -142698,15 +142692,22 @@
         "display_name": "Modern Family S08E20 All Things Being Equal SD CZ Dabing",
         "prepared_at": "2026-11-01T19:23:39.817633+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704710",
-        "size_bytes": 323764936
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704710",
+          "size_bytes": 323764936,
+          "source_bytes_read": 323764936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13124053",
+        "source_url": "https://sdilej.cz/13124053/takova-moderni-rodinka-08x20.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704710",
-        "size_bytes": 323764936,
-        "source_bytes_read": 323764936,
-        "http_status": 201
+        "display_name": "Modern Family S08E20 All Things Being Equal SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:25:53.093453+00:00"
       }
     },
     "1067:8:21": {
@@ -142964,5 +142965,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:25:49.943892+00:00"
+  "updated_at": "2026-11-01T19:25:53.093469+00:00"
 }
