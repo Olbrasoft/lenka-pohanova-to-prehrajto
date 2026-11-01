@@ -113891,27 +113891,28 @@
         "display_name": "The X-Files S01E19 Shapes 1080p CZ Dabing",
         "prepared_at": "2026-10-31T23:53:29.135923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681089",
-        "size_bytes": 974850993
-      },
-      "transfer_receipt": {
-        "target_video_id": "30681089",
-        "size_bytes": 974850993,
-        "source_bytes_read": 974850993,
-        "http_status": 201
-      },
       "attempts": [
         {
           "at": "2026-10-31T23:54:51.198999+00:00",
           "error": "ConnectionError"
         }
       ],
-      "claim": {
-        "worker_id": "0792f032b3fc4704b7f6139d9f038157-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:10:27.560260+00:00",
-        "lease_expires_at": "2026-11-01T06:10:27.560272+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681089",
+          "size_bytes": 974850993,
+          "source_bytes_read": 974850993,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201185",
+        "source_url": "https://sdilej.cz/32201185/akta-x-s01e19-tvary.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30681089",
+        "display_name": "The X-Files S01E19 Shapes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:10:30.462333+00:00"
       }
     },
     "104:1:20": {
@@ -114397,5 +114398,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:10:27.560279+00:00"
+  "updated_at": "2026-11-01T00:10:30.462351+00:00"
 }
