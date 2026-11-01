@@ -144428,12 +144428,6 @@
     },
     "1067:10:16": {
       "episode_key": "taková moderní rodinka:s10:e16",
-      "claim": {
-        "worker_id": "f2a07f3ba35b4e9686ee33bda769eebb-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:51:20.115515+00:00",
-        "lease_expires_at": "2026-11-02T01:51:20.115525+00:00"
-      },
       "source": {
         "source_id": "34975763",
         "source_url": "https://sdilej.cz/34975763/takova-moderni-rodinka-s10e16-tvrip-480p-czdab.mp4",
@@ -144458,15 +144452,22 @@
         "display_name": "Modern Family S10E16 Red Alert 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:51:24.117124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705402",
-        "size_bytes": 291158689
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705402",
+          "size_bytes": 291158689,
+          "source_bytes_read": 291158689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975763",
+        "source_url": "https://sdilej.cz/34975763/takova-moderni-rodinka-s10e16-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705402",
-        "size_bytes": 291158689,
-        "source_bytes_read": 291158689,
-        "http_status": 201
+        "display_name": "Modern Family S10E16 Red Alert 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:52:01.853530+00:00"
       }
     }
   },
@@ -144475,5 +144476,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:51:59.596285+00:00"
+  "updated_at": "2026-11-01T19:52:01.853546+00:00"
 }
