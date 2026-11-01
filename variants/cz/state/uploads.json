@@ -149085,12 +149085,6 @@
     },
     "1129:1:10": {
       "episode_key": "le bureau des légendes:s1:e10",
-      "claim": {
-        "worker_id": "c7220988c8484929ae9baa92e463b8d8-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-01T23:54:22.186324+00:00",
-        "lease_expires_at": "2026-11-02T05:54:22.186332+00:00"
-      },
       "source": {
         "source_id": "30967870",
         "source_url": "https://sdilej.cz/30967870/the-bureau-s01e10.cz.webrip.1080p.10b.hevc.c4u.mkv",
@@ -149115,15 +149109,22 @@
         "display_name": "The Bureau S01E10 Murder By Mail 1080p CZ Dabing",
         "prepared_at": "2026-11-01T23:54:25.174895+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710500",
-        "size_bytes": 938769838
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710500",
+          "size_bytes": 938769838,
+          "source_bytes_read": 938769838,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30967870",
+        "source_url": "https://sdilej.cz/30967870/the-bureau-s01e10.cz.webrip.1080p.10b.hevc.c4u.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710500",
-        "size_bytes": 938769838,
-        "source_bytes_read": 938769838,
-        "http_status": 201
+        "display_name": "The Bureau S01E10 Murder By Mail 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T23:55:55.986192+00:00"
       }
     }
   },
@@ -149132,5 +149133,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T23:55:52.178528+00:00"
+  "updated_at": "2026-11-01T23:55:55.986209+00:00"
 }
