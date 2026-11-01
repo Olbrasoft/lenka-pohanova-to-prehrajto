@@ -121867,12 +121867,6 @@
     },
     "104:10:6": {
       "episode_key": "akta x:s10:e6",
-      "claim": {
-        "worker_id": "458ca6f56ae54057a10d8c81d161bfd9-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T05:11:00.558885+00:00",
-        "lease_expires_at": "2026-11-01T11:11:00.558896+00:00"
-      },
       "source": {
         "source_id": "32217207",
         "source_url": "https://sdilej.cz/32217207/akta-x-2016-s10e06-czdab-1080p-muj-boj-2.mkv",
@@ -121897,15 +121891,22 @@
         "display_name": "The X-Files S10E06 My Struggle II 1080p CZ Dabing",
         "prepared_at": "2026-11-01T05:11:05.498182+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30685026",
-        "size_bytes": 985516550
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30685026",
+          "size_bytes": 985516550,
+          "source_bytes_read": 985516550,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32217207",
+        "source_url": "https://sdilej.cz/32217207/akta-x-2016-s10e06-czdab-1080p-muj-boj-2.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30685026",
-        "size_bytes": 985516550,
-        "source_bytes_read": 985516550,
-        "http_status": 201
+        "display_name": "The X-Files S10E06 My Struggle II 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T05:15:19.094068+00:00"
       }
     },
     "104:11:1": {
@@ -121988,5 +121989,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T05:15:16.278908+00:00"
+  "updated_at": "2026-11-01T05:15:19.094086+00:00"
 }
