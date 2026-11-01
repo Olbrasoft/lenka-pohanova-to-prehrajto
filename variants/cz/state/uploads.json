@@ -147640,12 +147640,6 @@
     },
     "2065:3:3": {
       "episode_key": "detektiv endeavour morse:s3:e3",
-      "claim": {
-        "worker_id": "94449abf6a8e4f9c81082a56dba875ae-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:57:15.450240+00:00",
-        "lease_expires_at": "2026-11-02T03:57:15.450250+00:00"
-      },
       "source": {
         "source_id": "33116836",
         "source_url": "https://sdilej.cz/33116836/detektiv-endeavour-morse-s03e03-04-2016-cz-dab-1080p-korist.mkv",
@@ -147670,15 +147664,22 @@
         "display_name": "Endeavour S03E03 Prey 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:57:20.527589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708205",
-        "size_bytes": 912922440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708205",
+          "size_bytes": 912922440,
+          "source_bytes_read": 912922440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33116836",
+        "source_url": "https://sdilej.cz/33116836/detektiv-endeavour-morse-s03e03-04-2016-cz-dab-1080p-korist.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708205",
-        "size_bytes": 912922440,
-        "source_bytes_read": 912922440,
-        "http_status": 201
+        "display_name": "Endeavour S03E03 Prey 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:59:43.523528+00:00"
       }
     }
   },
@@ -147687,5 +147688,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:59:41.674010+00:00"
+  "updated_at": "2026-11-01T21:59:43.523545+00:00"
 }
