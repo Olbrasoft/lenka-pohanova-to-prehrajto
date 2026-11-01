@@ -116601,12 +116601,6 @@
     },
     "104:4:12": {
       "episode_key": "akta x:s4:e12",
-      "claim": {
-        "worker_id": "5dc9971e26654fb8a20dd83912990e7d-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:10:33.971953+00:00",
-        "lease_expires_at": "2026-11-01T07:10:33.971963+00:00"
-      },
       "source": {
         "source_id": "26603748",
         "source_url": "https://sdilej.cz/26603748/the-x-files-akta-x-s04e12-cz-dabing-1080p.mkv",
@@ -116631,15 +116625,22 @@
         "display_name": "The X-Files S04E12 Leonard Betts 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:10:39.652533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682053",
-        "size_bytes": 697457267
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682053",
+          "size_bytes": 697457267,
+          "source_bytes_read": 697457267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26603748",
+        "source_url": "https://sdilej.cz/26603748/the-x-files-akta-x-s04e12-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682053",
-        "size_bytes": 697457267,
-        "source_bytes_read": 697457267,
-        "http_status": 201
+        "display_name": "The X-Files S04E12 Leonard Betts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:12:23.306781+00:00"
       }
     },
     "104:4:13": {
@@ -116722,5 +116723,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:12:19.416827+00:00"
+  "updated_at": "2026-11-01T01:12:23.306798+00:00"
 }
