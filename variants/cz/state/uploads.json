@@ -137687,12 +137687,6 @@
     },
     "1067:4:1": {
       "episode_key": "taková moderní rodinka:s4:e1",
-      "claim": {
-        "worker_id": "df752c1354c4430bb5a3af89dd020b87-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:07:55.955188+00:00",
-        "lease_expires_at": "2026-11-02T00:07:55.955206+00:00"
-      },
       "source": {
         "source_id": "34975410",
         "source_url": "https://sdilej.cz/34975410/takova-moderni-rodinka-s04e01-bringing-up-baby-hd-.mp4",
@@ -137717,15 +137711,22 @@
         "display_name": "Modern Family S04E01 Bringing Up Baby 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:07:59.843332+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702827",
-        "size_bytes": 406052808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702827",
+          "size_bytes": 406052808,
+          "source_bytes_read": 406052808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975410",
+        "source_url": "https://sdilej.cz/34975410/takova-moderni-rodinka-s04e01-bringing-up-baby-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702827",
-        "size_bytes": 406052808,
-        "source_bytes_read": 406052808,
-        "http_status": 201
+        "display_name": "Modern Family S04E01 Bringing Up Baby 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:09:02.089159+00:00"
       }
     },
     "1067:4:2": {
@@ -137814,5 +137815,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:09:00.290098+00:00"
+  "updated_at": "2026-11-01T18:09:02.089177+00:00"
 }
