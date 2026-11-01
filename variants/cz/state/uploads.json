@@ -142888,12 +142888,6 @@
     },
     "1067:9:3": {
       "episode_key": "taková moderní rodinka:s9:e3",
-      "claim": {
-        "worker_id": "2d21580b667043c5b1cc9b193c3f76b1-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:25:28.167020+00:00",
-        "lease_expires_at": "2026-11-02T01:25:28.167032+00:00"
-      },
       "source": {
         "source_id": "34975659",
         "source_url": "https://sdilej.cz/34975659/takova-moderni-rodinka-s09e03.avi",
@@ -142918,15 +142912,22 @@
         "display_name": "Modern Family S09E03 Catch of the Day SD CZ Dabing",
         "prepared_at": "2026-11-01T19:25:31.816208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704748",
-        "size_bytes": 339311226
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704748",
+          "size_bytes": 339311226,
+          "source_bytes_read": 339311226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975659",
+        "source_url": "https://sdilej.cz/34975659/takova-moderni-rodinka-s09e03.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704748",
-        "size_bytes": 339311226,
-        "source_bytes_read": 339311226,
-        "http_status": 201
+        "display_name": "Modern Family S09E03 Catch of the Day SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:26:12.872959+00:00"
       }
     },
     "1067:9:4": {
@@ -143008,5 +143009,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:26:09.954592+00:00"
+  "updated_at": "2026-11-01T19:26:12.872976+00:00"
 }
