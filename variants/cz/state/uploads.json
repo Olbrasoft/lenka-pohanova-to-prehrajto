@@ -133525,12 +133525,6 @@
     },
     "2558:12:1": {
       "episode_key": "hercule poirot:s12:e1",
-      "claim": {
-        "worker_id": "c1712917495a4a749166b387ab93cd99-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T16:08:40.326883+00:00",
-        "lease_expires_at": "2026-11-01T22:08:40.326897+00:00"
-      },
       "source": {
         "source_id": "34449780",
         "source_url": "https://sdilej.cz/34449780/hercule-poirot-s12e01-tragedie-o-trech-jednanich-cz-1080p-webrip-.ts",
@@ -133555,15 +133549,22 @@
         "display_name": "Agatha Christie's Poirot S12E01 Three Act Tragedy 1080p CZ Dabing",
         "prepared_at": "2026-11-01T16:08:45.397509+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30699958",
-        "size_bytes": 4200665232
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30699958",
+          "size_bytes": 4200665232,
+          "source_bytes_read": 4200665232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34449780",
+        "source_url": "https://sdilej.cz/34449780/hercule-poirot-s12e01-tragedie-o-trech-jednanich-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30699958",
-        "size_bytes": 4200665232,
-        "source_bytes_read": 4200665232,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S12E01 Three Act Tragedy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T16:28:47.639368+00:00"
       }
     },
     "2558:12:2": {
@@ -133616,5 +133617,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T16:28:43.289127+00:00"
+  "updated_at": "2026-11-01T16:28:47.639386+00:00"
 }
