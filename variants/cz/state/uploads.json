@@ -118611,12 +118611,6 @@
     },
     "104:6:15": {
       "episode_key": "akta x:s6:e15",
-      "claim": {
-        "worker_id": "645a50181f3e41289facaaf4e3a6735e-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T02:30:51.448435+00:00",
-        "lease_expires_at": "2026-11-01T08:30:51.448446+00:00"
-      },
       "source": {
         "source_id": "26616866",
         "source_url": "https://sdilej.cz/26616866/the-x-files-akta-x-s06e15-cz-dabing-1080p.mkv",
@@ -118641,15 +118635,22 @@
         "display_name": "The X-Files S06E15 Arcadia 1080p CZ Dabing",
         "prepared_at": "2026-11-01T02:30:53.777848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682935",
-        "size_bytes": 663654180
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682935",
+          "size_bytes": 663654180,
+          "source_bytes_read": 663654180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616866",
+        "source_url": "https://sdilej.cz/26616866/the-x-files-akta-x-s06e15-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682935",
-        "size_bytes": 663654180,
-        "source_bytes_read": 663654180,
-        "http_status": 201
+        "display_name": "The X-Files S06E15 Arcadia 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T02:32:01.306725+00:00"
       }
     }
   },
@@ -118658,5 +118659,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T02:31:57.270084+00:00"
+  "updated_at": "2026-11-01T02:32:01.306740+00:00"
 }
