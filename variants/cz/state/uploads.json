@@ -131226,12 +131226,6 @@
     },
     "1192:1:3": {
       "episode_key": "strážce pořádku:s1:e3",
-      "claim": {
-        "worker_id": "6e213a2690794f36babb8501c9d571fb-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:28:06.115924+00:00",
-        "lease_expires_at": "2026-11-01T19:28:06.115954+00:00"
-      },
       "source": {
         "source_id": "32286990",
         "source_url": "https://sdilej.cz/32286990/strazce-poradku-2010-s01e03-1080p-cz-fixer.mkv",
@@ -131256,15 +131250,22 @@
         "display_name": "Justified S01E03 Fixer 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:28:08.036420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695615",
-        "size_bytes": 440332123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695615",
+          "size_bytes": 440332123,
+          "source_bytes_read": 440332123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286990",
+        "source_url": "https://sdilej.cz/32286990/strazce-poradku-2010-s01e03-1080p-cz-fixer.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695615",
-        "size_bytes": 440332123,
-        "source_bytes_read": 440332123,
-        "http_status": 201
+        "display_name": "Justified S01E03 Fixer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:28:44.049883+00:00"
       }
     }
   },
@@ -131273,5 +131274,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:28:40.557737+00:00"
+  "updated_at": "2026-11-01T13:28:44.049898+00:00"
 }
