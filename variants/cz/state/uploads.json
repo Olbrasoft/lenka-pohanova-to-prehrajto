@@ -129128,12 +129128,6 @@
     },
     "282:4:7": {
       "episode_key": "most:s4:e7",
-      "claim": {
-        "worker_id": "68206a19c5244963ab1b0a9cd0509f46-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T12:03:55.652968+00:00",
-        "lease_expires_at": "2026-11-01T18:03:55.652979+00:00"
-      },
       "source": {
         "source_id": "31475495",
         "source_url": "https://sdilej.cz/31475495/most-bron-broen-s04e07.cz..mkv",
@@ -129158,15 +129152,22 @@
         "display_name": "Bron/Broen S04E07 1080p CZ Dabing",
         "prepared_at": "2026-11-01T12:03:57.801902+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30694192",
-        "size_bytes": 627920870
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30694192",
+          "size_bytes": 627920870,
+          "source_bytes_read": 627920870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31475495",
+        "source_url": "https://sdilej.cz/31475495/most-bron-broen-s04e07.cz..mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30694192",
-        "size_bytes": 627920870,
-        "source_bytes_read": 627920870,
-        "http_status": 201
+        "display_name": "Bron/Broen S04E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T12:04:59.929868+00:00"
       }
     },
     "282:4:8": {
@@ -129289,5 +129290,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T12:04:57.470168+00:00"
+  "updated_at": "2026-11-01T12:04:59.929885+00:00"
 }
