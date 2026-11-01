@@ -147332,12 +147332,6 @@
     },
     "2065:1:4": {
       "episode_key": "detektiv endeavour morse:s1:e4",
-      "claim": {
-        "worker_id": "89c9536b403549dab2240347759989ac-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:33:58.935739+00:00",
-        "lease_expires_at": "2026-11-02T03:33:58.935751+00:00"
-      },
       "source": {
         "source_id": "33116419",
         "source_url": "https://sdilej.cz/33116419/detektiv-endeavour-morse-s01e04-05-2012-cz-dab-1080p-raketa.mkv",
@@ -147362,15 +147356,22 @@
         "display_name": "Endeavour S01E04 Home 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:34:01.148367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707729",
-        "size_bytes": 910038772
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707729",
+          "size_bytes": 910038772,
+          "source_bytes_read": 910038772,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33116419",
+        "source_url": "https://sdilej.cz/33116419/detektiv-endeavour-morse-s01e04-05-2012-cz-dab-1080p-raketa.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707729",
-        "size_bytes": 910038772,
-        "source_bytes_read": 910038772,
-        "http_status": 201
+        "display_name": "Endeavour S01E04 Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:36:47.244088+00:00"
       }
     },
     "2065:2:1": {
@@ -147453,5 +147454,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:36:41.148478+00:00"
+  "updated_at": "2026-11-01T21:36:47.244104+00:00"
 }
