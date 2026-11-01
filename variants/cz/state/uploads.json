@@ -148645,12 +148645,6 @@
     },
     "2065:9:3": {
       "episode_key": "detektiv endeavour morse:s9:e3",
-      "claim": {
-        "worker_id": "121120e16ba04e16a2d5e49f58319da5-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:33:06.990638+00:00",
-        "lease_expires_at": "2026-11-02T04:33:06.990649+00:00"
-      },
       "source": {
         "source_id": "33837366",
         "source_url": "https://sdilej.cz/33837366/detektiv-endeavour-morse-s09e03-036-2023-fhd-cz-vsichni-odejdou-s-.mp4",
@@ -148675,15 +148669,22 @@
         "display_name": "Endeavour S09E03 Exeunt 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:33:09.432127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708918",
-        "size_bytes": 1904549128
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708918",
+          "size_bytes": 1904549128,
+          "source_bytes_read": 1904549128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33837366",
+        "source_url": "https://sdilej.cz/33837366/detektiv-endeavour-morse-s09e03-036-2023-fhd-cz-vsichni-odejdou-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708918",
-        "size_bytes": 1904549128,
-        "source_bytes_read": 1904549128,
-        "http_status": 201
+        "display_name": "Endeavour S09E03 Exeunt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:38:02.994658+00:00"
       }
     }
   },
@@ -148692,5 +148693,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:37:58.859031+00:00"
+  "updated_at": "2026-11-01T22:38:02.994675+00:00"
 }
