@@ -133694,12 +133694,6 @@
     },
     "2558:13:1": {
       "episode_key": "hercule poirot:s13:e1",
-      "claim": {
-        "worker_id": "656f7f4c22f34cf1a9aa7725e1708cb7-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T16:50:44.483980+00:00",
-        "lease_expires_at": "2026-11-01T22:50:44.483995+00:00"
-      },
       "source": {
         "source_id": "34799338",
         "source_url": "https://sdilej.cz/34799338/hercule-poirot-s13e01-66-2013-sd-sloni-maji-pamet-sd-.mp4",
@@ -133724,15 +133718,22 @@
         "display_name": "Agatha Christie's Poirot S13E01 Elephants Can Remember SD CZ Dabing",
         "prepared_at": "2026-11-01T16:50:48.024240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30700949",
-        "size_bytes": 773815378
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30700949",
+          "size_bytes": 773815378,
+          "source_bytes_read": 773815378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799338",
+        "source_url": "https://sdilej.cz/34799338/hercule-poirot-s13e01-66-2013-sd-sloni-maji-pamet-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30700949",
-        "size_bytes": 773815378,
-        "source_bytes_read": 773815378,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S13E01 Elephants Can Remember SD CZ Dabing",
+        "uploaded_at": "2026-11-01T16:53:22.485246+00:00"
       }
     },
     "2558:13:2": {
@@ -133778,5 +133779,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T16:53:19.043114+00:00"
+  "updated_at": "2026-11-01T16:53:22.485263+00:00"
 }
