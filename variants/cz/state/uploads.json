@@ -119240,12 +119240,6 @@
     },
     "104:7:7": {
       "episode_key": "akta x:s7:e7",
-      "claim": {
-        "worker_id": "8aaac1a27b8a4bbbb3b323dddd56722c-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:02:17.892325+00:00",
-        "lease_expires_at": "2026-11-01T09:02:17.892339+00:00"
-      },
       "source": {
         "source_id": "32216122",
         "source_url": "https://sdilej.cz/32216122/akta-x-2000-s07e07-czdab-1080p-laska-bozi.mkv",
@@ -119270,15 +119264,22 @@
         "display_name": "The X-Files S07E07 Orison 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:02:19.954471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683267",
-        "size_bytes": 959738270
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683267",
+          "size_bytes": 959738270,
+          "source_bytes_read": 959738270,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216122",
+        "source_url": "https://sdilej.cz/32216122/akta-x-2000-s07e07-czdab-1080p-laska-bozi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683267",
-        "size_bytes": 959738270,
-        "source_bytes_read": 959738270,
-        "http_status": 201
+        "display_name": "The X-Files S07E07 Orison 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:05:23.141298+00:00"
       }
     },
     "104:7:8": {
@@ -119324,5 +119325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:05:20.073054+00:00"
+  "updated_at": "2026-11-01T03:05:23.141314+00:00"
 }
