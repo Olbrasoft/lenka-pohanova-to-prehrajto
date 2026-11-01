@@ -120943,12 +120943,6 @@
     },
     "104:9:3": {
       "episode_key": "akta x:s9:e3",
-      "claim": {
-        "worker_id": "e45997529c6d4c51a0b8c21d8e7fbf56-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:17:55.938197+00:00",
-        "lease_expires_at": "2026-11-01T10:17:55.938208+00:00"
-      },
       "source": {
         "source_id": "32370236",
         "source_url": "https://sdilej.cz/32370236/akta-x-s09e03-19-2001-cz-dab-daemonicus.mkv",
@@ -120973,15 +120967,22 @@
         "display_name": "The X-Files S09E03 Dæmonicus 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:17:59.183721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684173",
-        "size_bytes": 789024674
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684173",
+          "size_bytes": 789024674,
+          "source_bytes_read": 789024674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32370236",
+        "source_url": "https://sdilej.cz/32370236/akta-x-s09e03-19-2001-cz-dab-daemonicus.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684173",
-        "size_bytes": 789024674,
-        "source_bytes_read": 789024674,
-        "http_status": 201
+        "display_name": "The X-Files S09E03 Dæmonicus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:21:33.009839+00:00"
       }
     },
     "104:9:4": {
@@ -121027,5 +121028,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:21:29.371338+00:00"
+  "updated_at": "2026-11-01T04:21:33.009855+00:00"
 }
