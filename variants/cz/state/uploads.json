@@ -122882,12 +122882,6 @@
     },
     "1377:1:1": {
       "episode_key": "úžasná paní maiselová:s1:e1",
-      "claim": {
-        "worker_id": "ad7ddc82e6b04f70950d579604d9e9f3-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T06:15:00.457052+00:00",
-        "lease_expires_at": "2026-11-01T12:15:00.457062+00:00"
-      },
       "source": {
         "source_id": "16816533",
         "source_url": "https://sdilej.cz/16816533/the-marvelous-mrs-maisel-s01e01-cz-dabing.mp4",
@@ -122912,15 +122906,22 @@
         "display_name": "The Marvelous Mrs. Maisel S01E01 Pilot 720p CZ Dabing",
         "prepared_at": "2026-11-01T06:15:08.747372+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30686367",
-        "size_bytes": 822376480
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30686367",
+          "size_bytes": 822376480,
+          "source_bytes_read": 822376480,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16816533",
+        "source_url": "https://sdilej.cz/16816533/the-marvelous-mrs-maisel-s01e01-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30686367",
-        "size_bytes": 822376480,
-        "source_bytes_read": 822376480,
-        "http_status": 201
+        "display_name": "The Marvelous Mrs. Maisel S01E01 Pilot 720p CZ Dabing",
+        "uploaded_at": "2026-11-01T06:18:14.383766+00:00"
       }
     }
   },
@@ -122929,5 +122930,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T06:18:09.757453+00:00"
+  "updated_at": "2026-11-01T06:18:14.383784+00:00"
 }
