@@ -138707,12 +138707,6 @@
     },
     "1067:4:24": {
       "episode_key": "taková moderní rodinka:s4:e24",
-      "claim": {
-        "worker_id": "b36cfcf6cec140cc981ddc89bc9b24b4-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:21:32.181584+00:00",
-        "lease_expires_at": "2026-11-02T00:21:32.181602+00:00"
-      },
       "source": {
         "source_id": "34975468",
         "source_url": "https://sdilej.cz/34975468/takova-moderni-rodinka-s04e24-goodnight-gracie-hd-.mp4",
@@ -138737,15 +138731,22 @@
         "display_name": "Modern Family S04E24 Goodnight, Gracie 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:21:37.052922+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703197",
-        "size_bytes": 397812039
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703197",
+          "size_bytes": 397812039,
+          "source_bytes_read": 397812039,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975468",
+        "source_url": "https://sdilej.cz/34975468/takova-moderni-rodinka-s04e24-goodnight-gracie-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703197",
-        "size_bytes": 397812039,
-        "source_bytes_read": 397812039,
-        "http_status": 201
+        "display_name": "Modern Family S04E24 Goodnight, Gracie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:22:24.379933+00:00"
       }
     },
     "1067:5:1": {
@@ -138835,5 +138836,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:22:22.556093+00:00"
+  "updated_at": "2026-11-01T18:22:24.379951+00:00"
 }
