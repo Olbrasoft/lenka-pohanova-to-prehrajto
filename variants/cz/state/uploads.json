@@ -126840,12 +126840,6 @@
     },
     "1192:6:10": {
       "episode_key": "strážce pořádku:s6:e10",
-      "claim": {
-        "worker_id": "a0dfca9ec03d438188d1d35f0b889923-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T10:19:07.989414+00:00",
-        "lease_expires_at": "2026-11-01T16:19:07.989423+00:00"
-      },
       "source": {
         "source_id": "27192926",
         "source_url": "https://sdilej.cz/27192926/strazce-poradku-justified-s06e10-hd-cz-dabing.mkv",
@@ -126870,15 +126864,22 @@
         "display_name": "Justified S06E10 Trust 1080p CZ Dabing",
         "prepared_at": "2026-11-01T10:19:13.060913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30692095",
-        "size_bytes": 3093127499
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30692095",
+          "size_bytes": 3093127499,
+          "source_bytes_read": 3093127499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27192926",
+        "source_url": "https://sdilej.cz/27192926/strazce-poradku-justified-s06e10-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30692095",
-        "size_bytes": 3093127499,
-        "source_bytes_read": 3093127499,
-        "http_status": 201
+        "display_name": "Justified S06E10 Trust 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T10:30:26.488775+00:00"
       }
     },
     "1192:6:11": {
@@ -127005,5 +127006,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T10:30:22.777647+00:00"
+  "updated_at": "2026-11-01T10:30:26.488791+00:00"
 }
