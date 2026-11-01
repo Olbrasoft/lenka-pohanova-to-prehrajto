@@ -138750,12 +138750,6 @@
     },
     "1067:5:1": {
       "episode_key": "taková moderní rodinka:s5:e1",
-      "claim": {
-        "worker_id": "e9f7decc1fd84ac9937e55f3124aa0fb-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:21:33.985572+00:00",
-        "lease_expires_at": "2026-11-02T00:21:33.985585+00:00"
-      },
       "source": {
         "source_id": "34975469",
         "source_url": "https://sdilej.cz/34975469/takova-moderni-rodinka-s05e01-suddenly-last-summer-hd-.mp4",
@@ -138780,15 +138774,22 @@
         "display_name": "Modern Family S05E01 Suddenly, Last Summer 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:21:38.795505+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30703202",
-        "size_bytes": 375140152
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30703202",
+          "size_bytes": 375140152,
+          "source_bytes_read": 375140152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975469",
+        "source_url": "https://sdilej.cz/34975469/takova-moderni-rodinka-s05e01-suddenly-last-summer-hd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30703202",
-        "size_bytes": 375140152,
-        "source_bytes_read": 375140152,
-        "http_status": 201
+        "display_name": "Modern Family S05E01 Suddenly, Last Summer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:22:22.556075+00:00"
       }
     },
     "1067:5:2": {
@@ -138834,5 +138835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:22:19.457139+00:00"
+  "updated_at": "2026-11-01T18:22:22.556093+00:00"
 }
