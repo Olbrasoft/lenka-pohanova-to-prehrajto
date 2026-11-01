@@ -117481,12 +117481,6 @@
     },
     "104:5:9": {
       "episode_key": "akta x:s5:e9",
-      "claim": {
-        "worker_id": "ab4b94a260004ebf9d48252ed2e45082-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:51:46.038703+00:00",
-        "lease_expires_at": "2026-11-01T07:51:46.038712+00:00"
-      },
       "source": {
         "source_id": "26616788",
         "source_url": "https://sdilej.cz/26616788/the-x-files-akta-x-s05e09-cz-dabing-1080p.mkv",
@@ -117511,15 +117505,22 @@
         "display_name": "The X-Files S05E09 Schizogeny 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:51:50.115287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682496",
-        "size_bytes": 714985693
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682496",
+          "size_bytes": 714985693,
+          "source_bytes_read": 714985693,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616788",
+        "source_url": "https://sdilej.cz/26616788/the-x-files-akta-x-s05e09-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682496",
-        "size_bytes": 714985693,
-        "source_bytes_read": 714985693,
-        "http_status": 201
+        "display_name": "The X-Files S05E09 Schizogeny 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:54:09.602015+00:00"
       }
     },
     "104:5:10": {
@@ -117602,5 +117603,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:54:04.167260+00:00"
+  "updated_at": "2026-11-01T01:54:09.602032+00:00"
 }
