@@ -115795,12 +115795,6 @@
     },
     "104:3:18": {
       "episode_key": "akta x:s3:e18",
-      "claim": {
-        "worker_id": "7ae687bf92b54da2a5a775c41a8316eb-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:48:28.524304+00:00",
-        "lease_expires_at": "2026-11-01T06:48:28.524314+00:00"
-      },
       "source": {
         "source_id": "26603706",
         "source_url": "https://sdilej.cz/26603706/the-x-files-akta-x-s03e18-cz-dabing-1080p.mkv",
@@ -115825,15 +115819,22 @@
         "display_name": "The X-Files S03E18 Teso Dos Bichos 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:48:30.484906+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681757",
-        "size_bytes": 693392874
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681757",
+          "size_bytes": 693392874,
+          "source_bytes_read": 693392874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26603706",
+        "source_url": "https://sdilej.cz/26603706/the-x-files-akta-x-s03e18-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681757",
-        "size_bytes": 693392874,
-        "source_bytes_read": 693392874,
-        "http_status": 201
+        "display_name": "The X-Files S03E18 Teso Dos Bichos 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:49:25.749702+00:00"
       }
     }
   },
@@ -115842,5 +115843,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:49:22.271001+00:00"
+  "updated_at": "2026-11-01T00:49:25.749720+00:00"
 }
