@@ -115758,12 +115758,6 @@
     },
     "104:3:17": {
       "episode_key": "akta x:s3:e17",
-      "claim": {
-        "worker_id": "290da15fc72d46de97b88e0331f2f927-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T00:48:14.102716+00:00",
-        "lease_expires_at": "2026-11-01T06:48:14.102730+00:00"
-      },
       "source": {
         "source_id": "32201976",
         "source_url": "https://sdilej.cz/32201976/akta-x-s03e17-prubojny.mkv",
@@ -115788,15 +115782,22 @@
         "display_name": "The X-Files S03E17 Pusher 1080p CZ Dabing",
         "prepared_at": "2026-11-01T00:48:18.592457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30681753",
-        "size_bytes": 961153856
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30681753",
+          "size_bytes": 961153856,
+          "source_bytes_read": 961153856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32201976",
+        "source_url": "https://sdilej.cz/32201976/akta-x-s03e17-prubojny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30681753",
-        "size_bytes": 961153856,
-        "source_bytes_read": 961153856,
-        "http_status": 201
+        "display_name": "The X-Files S03E17 Pusher 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T00:49:51.095558+00:00"
       }
     },
     "104:3:18": {
@@ -115886,5 +115887,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T00:49:48.338543+00:00"
+  "updated_at": "2026-11-01T00:49:51.095575+00:00"
 }
