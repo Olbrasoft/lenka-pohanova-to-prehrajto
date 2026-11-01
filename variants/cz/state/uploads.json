@@ -144648,12 +144648,6 @@
     },
     "1067:10:21": {
       "episode_key": "taková moderní rodinka:s10:e21",
-      "claim": {
-        "worker_id": "fde3de71208d4e15b730ba4817a40ccd-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:57:38.611301+00:00",
-        "lease_expires_at": "2026-11-02T01:57:38.611311+00:00"
-      },
       "source": {
         "source_id": "34975773",
         "source_url": "https://sdilej.cz/34975773/takova-moderni-rodinka-s10e21-tvrip-480p-czdab.mp4",
@@ -144678,15 +144672,22 @@
         "display_name": "Modern Family S10E21 Commencement 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:57:42.629260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705542",
-        "size_bytes": 431623799
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705542",
+          "size_bytes": 431623799,
+          "source_bytes_read": 431623799,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975773",
+        "source_url": "https://sdilej.cz/34975773/takova-moderni-rodinka-s10e21-tvrip-480p-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705542",
-        "size_bytes": 431623799,
-        "source_bytes_read": 431623799,
-        "http_status": 201
+        "display_name": "Modern Family S10E21 Commencement 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:59:30.310200+00:00"
       }
     },
     "1067:10:22": {
@@ -144813,5 +144814,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:59:26.064215+00:00"
+  "updated_at": "2026-11-01T19:59:30.310218+00:00"
 }
