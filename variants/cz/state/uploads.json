@@ -147464,12 +147464,6 @@
     },
     "2065:2:3": {
       "episode_key": "detektiv endeavour morse:s2:e3",
-      "claim": {
-        "worker_id": "ee0274150a8b43389d63669de0cb18f3-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T21:36:55.220401+00:00",
-        "lease_expires_at": "2026-11-02T03:36:55.220414+00:00"
-      },
       "source": {
         "source_id": "33116625",
         "source_url": "https://sdilej.cz/33116625/detektiv-endeavour-morse-s02e03-04-2014-cz-dab-1080p-uskrceni.mkv",
@@ -147494,15 +147488,22 @@
         "display_name": "Endeavour S02E03 Sway 1080p CZ Dabing",
         "prepared_at": "2026-11-01T21:36:57.526713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30707803",
-        "size_bytes": 911756294
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30707803",
+          "size_bytes": 911756294,
+          "source_bytes_read": 911756294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33116625",
+        "source_url": "https://sdilej.cz/33116625/detektiv-endeavour-morse-s02e03-04-2014-cz-dab-1080p-uskrceni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30707803",
-        "size_bytes": 911756294,
-        "source_bytes_read": 911756294,
-        "http_status": 201
+        "display_name": "Endeavour S02E03 Sway 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T21:42:51.698847+00:00"
       }
     }
   },
@@ -147511,5 +147512,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T21:42:46.611055+00:00"
+  "updated_at": "2026-11-01T21:42:51.698863+00:00"
 }
