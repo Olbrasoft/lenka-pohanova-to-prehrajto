@@ -148476,12 +148476,6 @@
     },
     "2065:8:2": {
       "episode_key": "detektiv endeavour morse:s8:e2",
-      "claim": {
-        "worker_id": "29aaaccb67204614b3e4b220eed73508-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:25:31.676153+00:00",
-        "lease_expires_at": "2026-11-02T04:25:31.676163+00:00"
-      },
       "source": {
         "source_id": "33096588",
         "source_url": "https://sdilej.cz/33096588/detektiv-endeavour-morse-s08e02-hodiny.mp4",
@@ -148506,15 +148500,22 @@
         "display_name": "Endeavour S08E02 Scherzo 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:25:33.907019+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708747",
-        "size_bytes": 876119788
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708747",
+          "size_bytes": 876119788,
+          "source_bytes_read": 876119788,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33096588",
+        "source_url": "https://sdilej.cz/33096588/detektiv-endeavour-morse-s08e02-hodiny.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708747",
-        "size_bytes": 876119788,
-        "source_bytes_read": 876119788,
-        "http_status": 201
+        "display_name": "Endeavour S08E02 Scherzo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:29:51.570768+00:00"
       }
     }
   },
@@ -148523,5 +148524,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:29:46.357157+00:00"
+  "updated_at": "2026-11-01T22:29:51.570783+00:00"
 }
