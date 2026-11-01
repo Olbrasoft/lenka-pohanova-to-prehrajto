@@ -125212,12 +125212,6 @@
     },
     "1192:3:12": {
       "episode_key": "strážce pořádku:s3:e12",
-      "claim": {
-        "worker_id": "403ff82771454c6aab748518a323a007-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:16:17.095631+00:00",
-        "lease_expires_at": "2026-11-01T15:16:17.095641+00:00"
-      },
       "source": {
         "source_id": "32286051",
         "source_url": "https://sdilej.cz/32286051/strazce-poradku-2012-s03e12-1080p-cz.mkv",
@@ -125242,15 +125236,22 @@
         "display_name": "Justified S03E12 Coalition 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:16:19.116812+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690695",
-        "size_bytes": 446973535
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690695",
+          "size_bytes": 446973535,
+          "source_bytes_read": 446973535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32286051",
+        "source_url": "https://sdilej.cz/32286051/strazce-poradku-2012-s03e12-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690695",
-        "size_bytes": 446973535,
-        "source_bytes_read": 446973535,
-        "http_status": 201
+        "display_name": "Justified S03E12 Coalition 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:18:01.044589+00:00"
       }
     },
     "1192:3:13": {
@@ -125377,5 +125378,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:17:58.186142+00:00"
+  "updated_at": "2026-11-01T09:18:01.044605+00:00"
 }
