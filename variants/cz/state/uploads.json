@@ -132773,12 +132773,6 @@
     },
     "2558:5:5": {
       "episode_key": "hercule poirot:s5:e5",
-      "claim": {
-        "worker_id": "2979e7f16fba47dc8f7d62dc29dacf26-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:34:42.976951+00:00",
-        "lease_expires_at": "2026-11-01T20:34:42.976961+00:00"
-      },
       "source": {
         "source_id": "34799188",
         "source_url": "https://sdilej.cz/34799188/hercule-poirot-s05e05-38-1993-sd-dobrodruzstvi-italskeho-slechtice-sd-.mp4",
@@ -132803,15 +132797,22 @@
         "display_name": "Agatha Christie's Poirot S05E05 The Adventure of the Italian Nobleman SD CZ Dabing",
         "prepared_at": "2026-11-01T14:34:46.324360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697060",
-        "size_bytes": 409591003
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697060",
+          "size_bytes": 409591003,
+          "source_bytes_read": 409591003,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799188",
+        "source_url": "https://sdilej.cz/34799188/hercule-poirot-s05e05-38-1993-sd-dobrodruzstvi-italskeho-slechtice-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697060",
-        "size_bytes": 409591003,
-        "source_bytes_read": 409591003,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S05E05 The Adventure of the Italian Nobleman SD CZ Dabing",
+        "uploaded_at": "2026-11-01T14:35:24.378708+00:00"
       }
     },
     "2558:5:6": {
@@ -132863,5 +132864,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T14:35:21.311986+00:00"
+  "updated_at": "2026-11-01T14:35:24.378722+00:00"
 }
