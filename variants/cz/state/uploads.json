@@ -120862,12 +120862,6 @@
     },
     "104:9:1": {
       "episode_key": "akta x:s9:e1",
-      "claim": {
-        "worker_id": "53912f37cf794ac5a89ad212ae215384-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:17:41.080846+00:00",
-        "lease_expires_at": "2026-11-01T10:17:41.080857+00:00"
-      },
       "source": {
         "source_id": "26616993",
         "source_url": "https://sdilej.cz/26616993/the-x-files-akta-x-s09e01-cz-dabing-1080p.mkv",
@@ -120892,15 +120886,22 @@
         "display_name": "The X-Files S09E01 Nothing Important Happened Today (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:17:43.256385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684168",
-        "size_bytes": 557121919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684168",
+          "size_bytes": 557121919,
+          "source_bytes_read": 557121919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26616993",
+        "source_url": "https://sdilej.cz/26616993/the-x-files-akta-x-s09e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684168",
-        "size_bytes": 557121919,
-        "source_bytes_read": 557121919,
-        "http_status": 201
+        "display_name": "The X-Files S09E01 Nothing Important Happened Today (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:19:05.183361+00:00"
       }
     },
     "104:9:2": {
@@ -120983,5 +120984,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:18:58.658476+00:00"
+  "updated_at": "2026-11-01T04:19:05.183377+00:00"
 }
