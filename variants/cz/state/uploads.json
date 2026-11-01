@@ -119938,12 +119938,6 @@
     },
     "104:8:1": {
       "episode_key": "akta x:s8:e1",
-      "claim": {
-        "worker_id": "120b49aedebd411c9a838f6df17fb962-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:28:33.754287+00:00",
-        "lease_expires_at": "2026-11-01T09:28:33.754298+00:00"
-      },
       "source": {
         "source_id": "32216428",
         "source_url": "https://sdilej.cz/32216428/akta-x-2000-s08e01-czdab-1080p-vevnitr.mkv",
@@ -119968,15 +119962,22 @@
         "display_name": "The X-Files S08E01 Within (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:28:35.775226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683548",
-        "size_bytes": 954355041
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683548",
+          "size_bytes": 954355041,
+          "source_bytes_read": 954355041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216428",
+        "source_url": "https://sdilej.cz/32216428/akta-x-2000-s08e01-czdab-1080p-vevnitr.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683548",
-        "size_bytes": 954355041,
-        "source_bytes_read": 954355041,
-        "http_status": 201
+        "display_name": "The X-Files S08E01 Within (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:32:37.198560+00:00"
       }
     },
     "104:8:2": {
@@ -120147,5 +120148,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:32:32.533361+00:00"
+  "updated_at": "2026-11-01T03:32:37.198577+00:00"
 }
