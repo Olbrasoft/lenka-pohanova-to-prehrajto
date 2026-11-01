@@ -132234,12 +132234,6 @@
     },
     "2558:3:8": {
       "episode_key": "hercule poirot:s3:e8",
-      "claim": {
-        "worker_id": "aafb96921f5244d8a7b27959c1e52576-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:58:31.859077+00:00",
-        "lease_expires_at": "2026-11-01T19:58:31.859089+00:00"
-      },
       "source": {
         "source_id": "34799138",
         "source_url": "https://sdilej.cz/34799138/hercule-poirot-s03e08-27-1991-sd-zahada-spanelske-truhly-sd-.mp4",
@@ -132264,15 +132258,22 @@
         "display_name": "Agatha Christie's Poirot S03E08 The Mystery of the Spanish Chest SD CZ Dabing",
         "prepared_at": "2026-11-01T13:58:35.469565+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696228",
-        "size_bytes": 414025311
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696228",
+          "size_bytes": 414025311,
+          "source_bytes_read": 414025311,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799138",
+        "source_url": "https://sdilej.cz/34799138/hercule-poirot-s03e08-27-1991-sd-zahada-spanelske-truhly-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696228",
-        "size_bytes": 414025311,
-        "source_bytes_read": 414025311,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S03E08 The Mystery of the Spanish Chest SD CZ Dabing",
+        "uploaded_at": "2026-11-01T13:59:15.240929+00:00"
       }
     },
     "2558:3:7": {
@@ -132325,5 +132326,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:59:13.472526+00:00"
+  "updated_at": "2026-11-01T13:59:15.240945+00:00"
 }
