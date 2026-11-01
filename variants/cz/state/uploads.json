@@ -120987,12 +120987,6 @@
     },
     "104:9:4": {
       "episode_key": "akta x:s9:e4",
-      "claim": {
-        "worker_id": "2f98df1ba3424220b2946d8367d3e4b1-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:19:13.344740+00:00",
-        "lease_expires_at": "2026-11-01T10:19:13.344750+00:00"
-      },
       "source": {
         "source_id": "35070178",
         "source_url": "https://sdilej.cz/35070178/akta-x-s09e04-4-d.mkv",
@@ -121017,15 +121011,22 @@
         "display_name": "The X-Files S09E04 4-D 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:19:15.344482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684185",
-        "size_bytes": 595413163
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684185",
+          "size_bytes": 595413163,
+          "source_bytes_read": 595413163,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35070178",
+        "source_url": "https://sdilej.cz/35070178/akta-x-s09e04-4-d.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684185",
-        "size_bytes": 595413163,
-        "source_bytes_read": 595413163,
-        "http_status": 201
+        "display_name": "The X-Files S09E04 4-D 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:22:01.144708+00:00"
       }
     },
     "104:9:5": {
@@ -121071,5 +121072,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:21:56.646190+00:00"
+  "updated_at": "2026-11-01T04:22:01.144724+00:00"
 }
