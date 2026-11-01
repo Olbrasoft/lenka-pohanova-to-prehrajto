@@ -144780,12 +144780,6 @@
     },
     "1067:11:2": {
       "episode_key": "taková moderní rodinka:s11:e2",
-      "claim": {
-        "worker_id": "229c2f752b0f4b1aa0de14f8a8afc2fd-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:58:47.623317+00:00",
-        "lease_expires_at": "2026-11-02T01:58:47.623328+00:00"
-      },
       "source": {
         "source_id": "34975787",
         "source_url": "https://sdilej.cz/34975787/takova-moderni-rodinka-s11e02.1080i.hdtv.cz.mkv",
@@ -144810,15 +144804,22 @@
         "display_name": "Modern Family S11E02 Snapped 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:58:49.708149+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705566",
-        "size_bytes": 1429002894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705566",
+          "size_bytes": 1429002894,
+          "source_bytes_read": 1429002894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975787",
+        "source_url": "https://sdilej.cz/34975787/takova-moderni-rodinka-s11e02.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705566",
-        "size_bytes": 1429002894,
-        "source_bytes_read": 1429002894,
-        "http_status": 201
+        "display_name": "Modern Family S11E02 Snapped 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:02:12.886647+00:00"
       }
     },
     "1067:11:3": {
@@ -144901,5 +144902,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:02:09.506641+00:00"
+  "updated_at": "2026-11-01T20:02:12.886665+00:00"
 }
