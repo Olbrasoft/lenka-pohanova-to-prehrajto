@@ -140508,12 +140508,6 @@
     },
     "1067:6:17": {
       "episode_key": "taková moderní rodinka:s6:e17",
-      "claim": {
-        "worker_id": "f04ccd5ad11748c294d6decd76d5ac3d-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:55:53.312341+00:00",
-        "lease_expires_at": "2026-11-02T00:55:53.312354+00:00"
-      },
       "source": {
         "source_id": "35154050",
         "source_url": "https://sdilej.cz/35154050/modern-family-s06e17-cz-dabing-1080p-bedobi.mp4",
@@ -140538,15 +140532,22 @@
         "display_name": "Modern Family S06E17 Closet? You'll Love It! 1080p CZ Dabing",
         "prepared_at": "2026-11-01T18:55:59.066180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704135",
-        "size_bytes": 468124008
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704135",
+          "size_bytes": 468124008,
+          "source_bytes_read": 468124008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154050",
+        "source_url": "https://sdilej.cz/35154050/modern-family-s06e17-cz-dabing-1080p-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704135",
-        "size_bytes": 468124008,
-        "source_bytes_read": 468124008,
-        "http_status": 201
+        "display_name": "Modern Family S06E17 Closet? You'll Love It! 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T18:56:50.813072+00:00"
       }
     },
     "1067:6:18": {
@@ -140636,5 +140637,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:56:46.281692+00:00"
+  "updated_at": "2026-11-01T18:56:50.813088+00:00"
 }
