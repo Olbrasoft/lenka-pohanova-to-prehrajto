@@ -142481,12 +142481,6 @@
     },
     "1067:8:16": {
       "episode_key": "taková moderní rodinka:s8:e16",
-      "claim": {
-        "worker_id": "388986e32bbc4bd09f4fdb845e4bf581-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:18:15.804470+00:00",
-        "lease_expires_at": "2026-11-02T01:18:15.804481+00:00"
-      },
       "source": {
         "source_id": "30412605",
         "source_url": "https://sdilej.cz/30412605/takova-moderni-rodinka-s08e16-czdab.mp4",
@@ -142511,15 +142505,22 @@
         "display_name": "Modern Family S08E16 Basketball SD CZ Dabing",
         "prepared_at": "2026-11-01T19:18:17.920204+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704633",
-        "size_bytes": 390527360
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704633",
+          "size_bytes": 390527360,
+          "source_bytes_read": 390527360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412605",
+        "source_url": "https://sdilej.cz/30412605/takova-moderni-rodinka-s08e16-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704633",
-        "size_bytes": 390527360,
-        "source_bytes_read": 390527360,
-        "http_status": 201
+        "display_name": "Modern Family S08E16 Basketball SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:18:59.273358+00:00"
       }
     }
   },
@@ -142528,5 +142529,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:18:55.554135+00:00"
+  "updated_at": "2026-11-01T19:18:59.273375+00:00"
 }
