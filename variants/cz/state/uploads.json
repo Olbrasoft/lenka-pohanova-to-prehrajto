@@ -140376,12 +140376,6 @@
     },
     "1067:6:14": {
       "episode_key": "taková moderní rodinka:s6:e14",
-      "claim": {
-        "worker_id": "cae6f3da033642bb8ff60a2b8d29fabb-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T18:54:51.856870+00:00",
-        "lease_expires_at": "2026-11-02T00:54:51.856883+00:00"
-      },
       "source": {
         "source_id": "30412406",
         "source_url": "https://sdilej.cz/30412406/takova-moderni-rodinka-s06e14-czdab.mp4",
@@ -140406,15 +140400,22 @@
         "display_name": "Modern Family S06E14 Valentine's Day 4: Twisted Sister SD CZ Dabing",
         "prepared_at": "2026-11-01T18:54:55.999282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704101",
-        "size_bytes": 377856209
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704101",
+          "size_bytes": 377856209,
+          "source_bytes_read": 377856209,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412406",
+        "source_url": "https://sdilej.cz/30412406/takova-moderni-rodinka-s06e14-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704101",
-        "size_bytes": 377856209,
-        "source_bytes_read": 377856209,
-        "http_status": 201
+        "display_name": "Modern Family S06E14 Valentine's Day 4: Twisted Sister SD CZ Dabing",
+        "uploaded_at": "2026-11-01T18:55:39.506515+00:00"
       }
     },
     "1067:6:15": {
@@ -140475,5 +140476,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T18:55:37.772918+00:00"
+  "updated_at": "2026-11-01T18:55:39.506531+00:00"
 }
