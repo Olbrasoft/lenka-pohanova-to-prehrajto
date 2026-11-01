@@ -131592,12 +131592,6 @@
     },
     "2558:1:7": {
       "episode_key": "hercule poirot:s1:e7",
-      "claim": {
-        "worker_id": "dc2655737ce040d192d35fd6aa6540d8-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:40:45.220993+00:00",
-        "lease_expires_at": "2026-11-01T19:40:45.221004+00:00"
-      },
       "source": {
         "source_id": "31056828",
         "source_url": "https://sdilej.cz/31056828/hercule-poirot-s01e07-dobrodruzstvi-na-mori-cz-1080p-.ts",
@@ -131622,15 +131616,22 @@
         "display_name": "Agatha Christie's Poirot S01E07 Problem at Sea 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:40:47.234957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695802",
-        "size_bytes": 2412783916
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695802",
+          "size_bytes": 2412783916,
+          "source_bytes_read": 2412783916,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31056828",
+        "source_url": "https://sdilej.cz/31056828/hercule-poirot-s01e07-dobrodruzstvi-na-mori-cz-1080p-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695802",
-        "size_bytes": 2412783916,
-        "source_bytes_read": 2412783916,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S01E07 Problem at Sea 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:45:36.406306+00:00"
       }
     },
     "2558:1:8": {
@@ -131757,5 +131758,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:45:33.777837+00:00"
+  "updated_at": "2026-11-01T13:45:36.406322+00:00"
 }
