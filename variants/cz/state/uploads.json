@@ -119975,12 +119975,6 @@
     },
     "104:8:2": {
       "episode_key": "akta x:s8:e2",
-      "claim": {
-        "worker_id": "0a6a16cdfaf4442fa8a4c9cd95fed57e-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T03:30:08.389734+00:00",
-        "lease_expires_at": "2026-11-01T09:30:08.389745+00:00"
-      },
       "source": {
         "source_id": "32216456",
         "source_url": "https://sdilej.cz/32216456/akta-x-2000-s08e02-czdab-1080p-venku.mkv",
@@ -120005,15 +119999,22 @@
         "display_name": "The X-Files S08E02 Without (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T03:30:10.625018+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30683573",
-        "size_bytes": 939923865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30683573",
+          "size_bytes": 939923865,
+          "source_bytes_read": 939923865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216456",
+        "source_url": "https://sdilej.cz/32216456/akta-x-2000-s08e02-czdab-1080p-venku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30683573",
-        "size_bytes": 939923865,
-        "source_bytes_read": 939923865,
-        "http_status": 201
+        "display_name": "The X-Files S08E02 Without (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T03:32:06.180717+00:00"
       }
     },
     "104:8:3": {
@@ -120059,5 +120060,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T03:32:00.982720+00:00"
+  "updated_at": "2026-11-01T03:32:06.180733+00:00"
 }
