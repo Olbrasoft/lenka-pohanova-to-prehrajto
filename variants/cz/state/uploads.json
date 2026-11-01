@@ -116953,12 +116953,6 @@
     },
     "104:4:21": {
       "episode_key": "akta x:s4:e21",
-      "claim": {
-        "worker_id": "3855e76a3ce04dbeb60f9f49739a5fc4-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:19:09.872069+00:00",
-        "lease_expires_at": "2026-11-01T07:19:09.872078+00:00"
-      },
       "source": {
         "source_id": "32202199",
         "source_url": "https://sdilej.cz/32202199/akta-x-s04e21-nulovy-soucet.mkv",
@@ -116983,15 +116977,22 @@
         "display_name": "The X-Files S04E21 Zero Sum 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:19:13.521031+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682154",
-        "size_bytes": 971779702
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682154",
+          "size_bytes": 971779702,
+          "source_bytes_read": 971779702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32202199",
+        "source_url": "https://sdilej.cz/32202199/akta-x-s04e21-nulovy-soucet.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682154",
-        "size_bytes": 971779702,
-        "source_bytes_read": 971779702,
-        "http_status": 201
+        "display_name": "The X-Files S04E21 Zero Sum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:24:03.171631+00:00"
       }
     },
     "104:4:22": {
@@ -117125,5 +117126,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:24:01.507219+00:00"
+  "updated_at": "2026-11-01T01:24:03.171676+00:00"
 }
