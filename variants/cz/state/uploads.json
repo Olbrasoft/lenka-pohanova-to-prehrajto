@@ -124457,12 +124457,6 @@
     },
     "1192:2:8": {
       "episode_key": "strážce pořádku:s2:e8",
-      "claim": {
-        "worker_id": "a1b24f96ad4b46c3ae134e15f6e3cc68-worker-0",
-        "run_id": "41272851663",
-        "claimed_at": "2026-11-01T08:12:53.572482+00:00",
-        "lease_expires_at": "2026-11-01T14:12:53.572494+00:00"
-      },
       "source": {
         "source_id": "15340263",
         "source_url": "https://sdilej.cz/15340263/justified.-2011-.s02e08.1080p.10bit.bluray.ac3.x265.hevc-rcvr-czaudio-.mkv",
@@ -124487,15 +124481,22 @@
         "display_name": "Justified S02E08 The Spoil 1080p CZ Dabing",
         "prepared_at": "2026-11-01T08:12:58.915469+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30689365",
-        "size_bytes": 2774460923
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30689365",
+          "size_bytes": 2774460923,
+          "source_bytes_read": 2774460923,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15340263",
+        "source_url": "https://sdilej.cz/15340263/justified.-2011-.s02e08.1080p.10bit.bluray.ac3.x265.hevc-rcvr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30689365",
-        "size_bytes": 2774460923,
-        "source_bytes_read": 2774460923,
-        "http_status": 201
+        "display_name": "Justified S02E08 The Spoil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T08:20:11.476648+00:00"
       }
     },
     "1192:2:9": {
@@ -124585,5 +124586,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T08:20:08.456316+00:00"
+  "updated_at": "2026-11-01T08:20:11.476667+00:00"
 }
