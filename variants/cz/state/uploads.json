@@ -142400,12 +142400,6 @@
     },
     "1067:8:14": {
       "episode_key": "taková moderní rodinka:s8:e14",
-      "claim": {
-        "worker_id": "f338b321830742f19543182db0a3e984-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:17:51.015862+00:00",
-        "lease_expires_at": "2026-11-02T01:17:51.015873+00:00"
-      },
       "source": {
         "source_id": "13124039",
         "source_url": "https://sdilej.cz/13124039/takova-moderni-rodinka-08x14.avi",
@@ -142430,15 +142424,22 @@
         "display_name": "Modern Family S08E14 Heavy Is the Head SD CZ Dabing",
         "prepared_at": "2026-11-01T19:17:53.710025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704626",
-        "size_bytes": 330478160
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704626",
+          "size_bytes": 330478160,
+          "source_bytes_read": 330478160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13124039",
+        "source_url": "https://sdilej.cz/13124039/takova-moderni-rodinka-08x14.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704626",
-        "size_bytes": 330478160,
-        "source_bytes_read": 330478160,
-        "http_status": 201
+        "display_name": "Modern Family S08E14 Heavy Is the Head SD CZ Dabing",
+        "uploaded_at": "2026-11-01T19:19:20.290552+00:00"
       }
     },
     "1067:8:15": {
@@ -142535,5 +142536,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:19:18.566589+00:00"
+  "updated_at": "2026-11-01T19:19:20.290569+00:00"
 }
