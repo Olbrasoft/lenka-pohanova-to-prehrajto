@@ -141212,12 +141212,6 @@
     },
     "1067:7:9": {
       "episode_key": "taková moderní rodinka:s7:e9",
-      "claim": {
-        "worker_id": "92755d0eb81d45db992e4f69e5382ef4-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T19:04:20.765593+00:00",
-        "lease_expires_at": "2026-11-02T01:04:20.765604+00:00"
-      },
       "source": {
         "source_id": "34975580",
         "source_url": "https://sdilej.cz/34975580/takova-moderni-rodinka-s07e09.mp4",
@@ -141242,15 +141236,22 @@
         "display_name": "Modern Family S07E09 White Christmas 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:04:25.172457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704278",
-        "size_bytes": 317249301
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704278",
+          "size_bytes": 317249301,
+          "source_bytes_read": 317249301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975580",
+        "source_url": "https://sdilej.cz/34975580/takova-moderni-rodinka-s07e09.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704278",
-        "size_bytes": 317249301,
-        "source_bytes_read": 317249301,
-        "http_status": 201
+        "display_name": "Modern Family S07E09 White Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:05:01.967869+00:00"
       }
     },
     "1067:7:10": {
@@ -141333,5 +141334,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:04:58.240583+00:00"
+  "updated_at": "2026-11-01T19:05:01.967888+00:00"
 }
