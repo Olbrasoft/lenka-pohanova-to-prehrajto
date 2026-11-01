@@ -136290,12 +136290,6 @@
     },
     "1067:2:17": {
       "episode_key": "taková moderní rodinka:s2:e17",
-      "claim": {
-        "worker_id": "67676f43f94d429798b932bd96b24edc-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:52:48.622019+00:00",
-        "lease_expires_at": "2026-11-01T23:52:48.622034+00:00"
-      },
       "source": {
         "source_id": "34975329",
         "source_url": "https://sdilej.cz/34975329/takova-moderni-rodinka-s02e17-two-monkeys-and-a-panda.mp4",
@@ -136320,15 +136314,22 @@
         "display_name": "Modern Family S02E17 Two Monkeys and a Panda 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:52:50.810825+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30702567",
-        "size_bytes": 423464231
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30702567",
+          "size_bytes": 423464231,
+          "source_bytes_read": 423464231,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975329",
+        "source_url": "https://sdilej.cz/34975329/takova-moderni-rodinka-s02e17-two-monkeys-and-a-panda.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30702567",
-        "size_bytes": 423464231,
-        "source_bytes_read": 423464231,
-        "http_status": 201
+        "display_name": "Modern Family S02E17 Two Monkeys and a Panda 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:53:40.579325+00:00"
       }
     },
     "1067:2:18": {
@@ -136410,5 +136411,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:53:37.718946+00:00"
+  "updated_at": "2026-11-01T17:53:40.579341+00:00"
 }
