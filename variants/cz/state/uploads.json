@@ -141124,12 +141124,6 @@
     },
     "1067:7:7": {
       "episode_key": "taková moderní rodinka:s7:e7",
-      "claim": {
-        "worker_id": "2f143bdb86ef4625833197d85415da6c-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T19:00:42.178417+00:00",
-        "lease_expires_at": "2026-11-02T01:00:42.178432+00:00"
-      },
       "source": {
         "source_id": "34975574",
         "source_url": "https://sdilej.cz/34975574/takova-moderni-rodinka-s07e07.mp4",
@@ -141154,15 +141148,22 @@
         "display_name": "Modern Family S07E07 Phil's Sexy, Sexy House 1080p CZ Dabing",
         "prepared_at": "2026-11-01T19:00:46.194652+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30704215",
-        "size_bytes": 320592461
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30704215",
+          "size_bytes": 320592461,
+          "source_bytes_read": 320592461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975574",
+        "source_url": "https://sdilej.cz/34975574/takova-moderni-rodinka-s07e07.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30704215",
-        "size_bytes": 320592461,
-        "source_bytes_read": 320592461,
-        "http_status": 201
+        "display_name": "Modern Family S07E07 Phil's Sexy, Sexy House 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T19:01:29.865103+00:00"
       }
     },
     "1067:7:8": {
@@ -141215,5 +141216,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T19:01:27.639715+00:00"
+  "updated_at": "2026-11-01T19:01:29.865120+00:00"
 }
