@@ -145308,12 +145308,6 @@
     },
     "1067:11:14": {
       "episode_key": "taková moderní rodinka:s11:e14",
-      "claim": {
-        "worker_id": "1ffa566f59494d0c97afbb22dd33fb72-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T20:17:57.476251+00:00",
-        "lease_expires_at": "2026-11-02T02:17:57.476264+00:00"
-      },
       "source": {
         "source_id": "34975837",
         "source_url": "https://sdilej.cz/34975837/takova-moderni-rodinka-s11e14.1080i.hdtv.cz.mkv",
@@ -145338,15 +145332,22 @@
         "display_name": "Modern Family S11E14 Spuds 1080p CZ Dabing",
         "prepared_at": "2026-11-01T20:18:00.123278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30705993",
-        "size_bytes": 1429643066
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30705993",
+          "size_bytes": 1429643066,
+          "source_bytes_read": 1429643066,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975837",
+        "source_url": "https://sdilej.cz/34975837/takova-moderni-rodinka-s11e14.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30705993",
-        "size_bytes": 1429643066,
-        "source_bytes_read": 1429643066,
-        "http_status": 201
+        "display_name": "Modern Family S11E14 Spuds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T20:20:20.924824+00:00"
       }
     },
     "1067:11:15": {
@@ -145392,5 +145393,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T20:20:16.501424+00:00"
+  "updated_at": "2026-11-01T20:20:20.924840+00:00"
 }
