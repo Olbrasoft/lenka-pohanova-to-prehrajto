@@ -132027,12 +132027,6 @@
     },
     "2558:2:9": {
       "episode_key": "hercule poirot:s2:e9",
-      "claim": {
-        "worker_id": "da27d67b85d84b43aaa60b88fa4740c1-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:54:38.997483+00:00",
-        "lease_expires_at": "2026-11-01T19:54:38.997494+00:00"
-      },
       "source": {
         "source_id": "34799115",
         "source_url": "https://sdilej.cz/34799115/hercule-poirot-s02e09-19-1990-sd-unos-ministerskeho-predsedy-sd-.mp4",
@@ -132057,15 +132051,22 @@
         "display_name": "Agatha Christie's Poirot S02E09 The Adventure of the Western Star SD CZ Dabing",
         "prepared_at": "2026-11-01T13:54:40.948167+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696132",
-        "size_bytes": 412494600
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696132",
+          "size_bytes": 412494600,
+          "source_bytes_read": 412494600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799115",
+        "source_url": "https://sdilej.cz/34799115/hercule-poirot-s02e09-19-1990-sd-unos-ministerskeho-predsedy-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696132",
-        "size_bytes": 412494600,
-        "source_bytes_read": 412494600,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S02E09 The Adventure of the Western Star SD CZ Dabing",
+        "uploaded_at": "2026-11-01T13:55:42.703039+00:00"
       }
     },
     "2558:3:1": {
@@ -132111,5 +132112,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:55:40.228455+00:00"
+  "updated_at": "2026-11-01T13:55:42.703055+00:00"
 }
