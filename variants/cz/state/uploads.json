@@ -126129,12 +126129,6 @@
     },
     "1192:5:7": {
       "episode_key": "strážce pořádku:s5:e7",
-      "claim": {
-        "worker_id": "df570a234c9f4cbdb0b5a663143adaa9-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T09:43:40.769392+00:00",
-        "lease_expires_at": "2026-11-01T15:43:40.769402+00:00"
-      },
       "source": {
         "source_id": "32792226",
         "source_url": "https://sdilej.cz/32792226/strazce-poradku-s05e07-1080p-cz.mkv",
@@ -126159,15 +126153,22 @@
         "display_name": "Justified S05E07 Raw Deal 1080p CZ Dabing",
         "prepared_at": "2026-11-01T09:43:43.919170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30691222",
-        "size_bytes": 474081364
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30691222",
+          "size_bytes": 474081364,
+          "source_bytes_read": 474081364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32792226",
+        "source_url": "https://sdilej.cz/32792226/strazce-poradku-s05e07-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30691222",
-        "size_bytes": 474081364,
-        "source_bytes_read": 474081364,
-        "http_status": 201
+        "display_name": "Justified S05E07 Raw Deal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:44:48.039884+00:00"
       }
     },
     "1192:5:8": {
@@ -126213,5 +126214,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:44:43.384545+00:00"
+  "updated_at": "2026-11-01T09:44:48.039895+00:00"
 }
