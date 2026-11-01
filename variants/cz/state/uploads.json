@@ -148388,12 +148388,6 @@
     },
     "2065:7:3": {
       "episode_key": "detektiv endeavour morse:s7:e3",
-      "claim": {
-        "worker_id": "acc6aca07d6d406786ac5069a3eeb506-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:22:51.974905+00:00",
-        "lease_expires_at": "2026-11-02T04:22:51.974917+00:00"
-      },
       "source": {
         "source_id": "33096403",
         "source_url": "https://sdilej.cz/33096403/detektiv-endeavour-morse-s07e03-liska-v-kurniku.mp4",
@@ -148418,15 +148412,22 @@
         "display_name": "Endeavour S07E03 Zenana 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:22:55.634889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708688",
-        "size_bytes": 674508600
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708688",
+          "size_bytes": 674508600,
+          "source_bytes_read": 674508600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33096403",
+        "source_url": "https://sdilej.cz/33096403/detektiv-endeavour-morse-s07e03-liska-v-kurniku.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708688",
-        "size_bytes": 674508600,
-        "source_bytes_read": 674508600,
-        "http_status": 201
+        "display_name": "Endeavour S07E03 Zenana 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:27:37.064430+00:00"
       }
     },
     "2065:8:1": {
@@ -148516,5 +148517,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:27:35.289782+00:00"
+  "updated_at": "2026-11-01T22:27:37.064446+00:00"
 }
