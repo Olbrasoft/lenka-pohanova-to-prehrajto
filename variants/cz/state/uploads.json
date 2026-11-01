@@ -132102,12 +132102,6 @@
     },
     "2558:3:3": {
       "episode_key": "hercule poirot:s3:e3",
-      "claim": {
-        "worker_id": "e587f5a8379c4a238c14de2a4293ed84-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:56:10.179633+00:00",
-        "lease_expires_at": "2026-11-01T19:56:10.179644+00:00"
-      },
       "source": {
         "source_id": "34799125",
         "source_url": "https://sdilej.cz/34799125/hercule-poirot-s03e03-22-1991-sd-milionova-loupez-sd-.mp4",
@@ -132132,15 +132126,22 @@
         "display_name": "Agatha Christie's Poirot S03E03 The Million Dollar Bond Robbery SD CZ Dabing",
         "prepared_at": "2026-11-01T13:56:13.489411+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30696165",
-        "size_bytes": 414289761
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30696165",
+          "size_bytes": 414289761,
+          "source_bytes_read": 414289761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799125",
+        "source_url": "https://sdilej.cz/34799125/hercule-poirot-s03e03-22-1991-sd-milionova-loupez-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30696165",
-        "size_bytes": 414289761,
-        "source_bytes_read": 414289761,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S03E03 The Million Dollar Bond Robbery SD CZ Dabing",
+        "uploaded_at": "2026-11-01T13:57:30.094786+00:00"
       }
     },
     "2558:3:4": {
@@ -132186,5 +132187,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:57:25.695826+00:00"
+  "updated_at": "2026-11-01T13:57:30.094802+00:00"
 }
