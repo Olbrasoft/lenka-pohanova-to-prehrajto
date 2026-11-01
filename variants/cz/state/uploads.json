@@ -116418,12 +116418,6 @@
     },
     "104:4:8": {
       "episode_key": "akta x:s4:e8",
-      "claim": {
-        "worker_id": "f6689d23b4c34f00acf2b343a053831d-worker-0",
-        "run_id": "41243207815",
-        "claimed_at": "2026-11-01T01:06:54.222398+00:00",
-        "lease_expires_at": "2026-11-01T07:06:54.222409+00:00"
-      },
       "source": {
         "source_id": "35069387",
         "source_url": "https://sdilej.cz/35069387/akta-x-s04e08-tunguska-1-.mkv",
@@ -116448,15 +116442,22 @@
         "display_name": "The X-Files S04E08 Tunguska (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:06:57.561646+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682007",
-        "size_bytes": 579431078
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682007",
+          "size_bytes": 579431078,
+          "source_bytes_read": 579431078,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35069387",
+        "source_url": "https://sdilej.cz/35069387/akta-x-s04e08-tunguska-1-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682007",
-        "size_bytes": 579431078,
-        "source_bytes_read": 579431078,
-        "http_status": 201
+        "display_name": "The X-Files S04E08 Tunguska (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:07:36.597336+00:00"
       }
     },
     "104:4:9": {
@@ -116502,5 +116503,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:07:32.141445+00:00"
+  "updated_at": "2026-11-01T01:07:36.597355+00:00"
 }
