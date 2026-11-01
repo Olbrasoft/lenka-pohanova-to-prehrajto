@@ -124948,12 +124948,6 @@
     },
     "1192:3:6": {
       "episode_key": "strážce pořádku:s3:e6",
-      "claim": {
-        "worker_id": "cfa2331dd919457396af8ddd51fe20a6-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T08:51:25.118201+00:00",
-        "lease_expires_at": "2026-11-01T14:51:25.118212+00:00"
-      },
       "source": {
         "source_id": "26943156",
         "source_url": "https://sdilej.cz/26943156/strazce-poradku-justified-s03e06-hd-cz-dabing.mkv",
@@ -124978,15 +124972,22 @@
         "display_name": "Justified S03E06 When the Guns Come Out 1080p CZ Dabing",
         "prepared_at": "2026-11-01T08:51:27.030757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30690065",
-        "size_bytes": 3121172041
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30690065",
+          "size_bytes": 3121172041,
+          "source_bytes_read": 3121172041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26943156",
+        "source_url": "https://sdilej.cz/26943156/strazce-poradku-justified-s03e06-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30690065",
-        "size_bytes": 3121172041,
-        "source_bytes_read": 3121172041,
-        "http_status": 201
+        "display_name": "Justified S03E06 When the Guns Come Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T09:01:22.019354+00:00"
       }
     },
     "1192:3:7": {
@@ -125065,5 +125066,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T09:01:20.434916+00:00"
+  "updated_at": "2026-11-01T09:01:22.019368+00:00"
 }
