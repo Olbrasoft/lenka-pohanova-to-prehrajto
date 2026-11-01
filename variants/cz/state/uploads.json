@@ -121504,12 +121504,6 @@
     },
     "104:9:16": {
       "episode_key": "akta x:s9:e16",
-      "claim": {
-        "worker_id": "aedafd0b6f0b49109f43d6575b81dd35-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T04:36:27.101573+00:00",
-        "lease_expires_at": "2026-11-01T10:36:27.101584+00:00"
-      },
       "source": {
         "source_id": "34218319",
         "source_url": "https://sdilej.cz/34218319/akta-x-s09e16-19-2001-cz-dab-william.mkv",
@@ -121534,15 +121528,22 @@
         "display_name": "The X-Files S09E16 William 1080p CZ Dabing",
         "prepared_at": "2026-11-01T04:36:30.637496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30684418",
-        "size_bytes": 539354810
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30684418",
+          "size_bytes": 539354810,
+          "source_bytes_read": 539354810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34218319",
+        "source_url": "https://sdilej.cz/34218319/akta-x-s09e16-19-2001-cz-dab-william.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30684418",
-        "size_bytes": 539354810,
-        "source_bytes_read": 539354810,
-        "http_status": 201
+        "display_name": "The X-Files S09E16 William 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T04:40:30.985400+00:00"
       }
     },
     "104:9:17": {
@@ -121588,5 +121589,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T04:40:26.581031+00:00"
+  "updated_at": "2026-11-01T04:40:30.985416+00:00"
 }
