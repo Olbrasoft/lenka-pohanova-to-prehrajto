@@ -127192,12 +127192,6 @@
     },
     "1456:1:8": {
       "episode_key": "absťák:s1:e8",
-      "claim": {
-        "worker_id": "2c21ea5bbb534f8085f5405d45779247-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T10:54:16.477652+00:00",
-        "lease_expires_at": "2026-11-01T16:54:16.477662+00:00"
-      },
       "source": {
         "source_id": "21785626",
         "source_url": "https://sdilej.cz/21785626/abstak-dopesick-s01e08-hd-5.1-cz-dabing.mkv",
@@ -127222,15 +127216,22 @@
         "display_name": "Dopesick S01E08 The People vs. Purdue Pharma 1080p CZ Dabing",
         "prepared_at": "2026-11-01T10:54:20.109773+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30693169",
-        "size_bytes": 3241738738
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30693169",
+          "size_bytes": 3241738738,
+          "source_bytes_read": 3241738738,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21785626",
+        "source_url": "https://sdilej.cz/21785626/abstak-dopesick-s01e08-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30693169",
-        "size_bytes": 3241738738,
-        "source_bytes_read": 3241738738,
-        "http_status": 201
+        "display_name": "Dopesick S01E08 The People vs. Purdue Pharma 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T11:10:31.919914+00:00"
       }
     },
     "282:1:2": {
@@ -127529,5 +127530,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T11:10:30.469093+00:00"
+  "updated_at": "2026-11-01T11:10:31.919929+00:00"
 }
