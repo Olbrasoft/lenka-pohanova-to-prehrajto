@@ -124860,12 +124860,6 @@
     },
     "1192:3:4": {
       "episode_key": "strážce pořádku:s3:e4",
-      "claim": {
-        "worker_id": "2d5128aff41e43828fc9405099e7dbe4-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T08:45:36.212988+00:00",
-        "lease_expires_at": "2026-11-01T14:45:36.213000+00:00"
-      },
       "source": {
         "source_id": "26943143",
         "source_url": "https://sdilej.cz/26943143/strazce-poradku-justified-s03e04-hd-cz-dabing.mkv",
@@ -124890,15 +124884,22 @@
         "display_name": "Justified S03E04 The Devil You Know 1080p CZ Dabing",
         "prepared_at": "2026-11-01T08:45:38.087679+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30689937",
-        "size_bytes": 3154504960
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30689937",
+          "size_bytes": 3154504960,
+          "source_bytes_read": 3154504960,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26943143",
+        "source_url": "https://sdilej.cz/26943143/strazce-poradku-justified-s03e04-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30689937",
-        "size_bytes": 3154504960,
-        "source_bytes_read": 3154504960,
-        "http_status": 201
+        "display_name": "Justified S03E04 The Devil You Know 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T08:55:47.881093+00:00"
       }
     },
     "1192:3:5": {
@@ -124981,5 +124982,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T08:55:43.922351+00:00"
+  "updated_at": "2026-11-01T08:55:47.881106+00:00"
 }
