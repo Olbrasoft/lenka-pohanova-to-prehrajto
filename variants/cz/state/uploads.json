@@ -133555,12 +133555,6 @@
     },
     "2558:12:2": {
       "episode_key": "hercule poirot:s12:e2",
-      "claim": {
-        "worker_id": "c13eeedf6bd54919a15d35e13dfa9d93-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T16:10:20.550377+00:00",
-        "lease_expires_at": "2026-11-01T22:10:20.550390+00:00"
-      },
       "source": {
         "source_id": "30859218",
         "source_url": "https://sdilej.cz/30859218/hercule-poirot-s12e02-videla-jsem-vrazdu-cz-1080p-.ts",
@@ -133585,15 +133579,22 @@
         "display_name": "Agatha Christie's Poirot S12E02 Hallowe'en Party 1080p CZ Dabing",
         "prepared_at": "2026-11-01T16:10:22.985209+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30700000",
-        "size_bytes": 4192705876
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30700000",
+          "size_bytes": 4192705876,
+          "source_bytes_read": 4192705876,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30859218",
+        "source_url": "https://sdilej.cz/30859218/hercule-poirot-s12e02-videla-jsem-vrazdu-cz-1080p-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30700000",
-        "size_bytes": 4192705876,
-        "source_bytes_read": 4192705876,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S12E02 Hallowe'en Party 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T16:27:53.797198+00:00"
       }
     }
   },
@@ -133602,5 +133603,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T16:27:49.737826+00:00"
+  "updated_at": "2026-11-01T16:27:53.797217+00:00"
 }
