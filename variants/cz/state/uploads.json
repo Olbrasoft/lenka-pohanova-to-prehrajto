@@ -127550,12 +127550,6 @@
     },
     "282:1:9": {
       "episode_key": "most:s1:e9",
-      "claim": {
-        "worker_id": "c5d4dc3dd6e44758ad88496216bf6e63-worker-0",
-        "run_id": "41284465832",
-        "claimed_at": "2026-11-01T11:11:00.644915+00:00",
-        "lease_expires_at": "2026-11-01T17:11:00.644925+00:00"
-      },
       "source": {
         "source_id": "31475485",
         "source_url": "https://sdilej.cz/31475485/most-bron-broen-s01e09.cz..mkv",
@@ -127580,15 +127574,22 @@
         "display_name": "Bron/Broen S01E09 1080p CZ Dabing",
         "prepared_at": "2026-11-01T11:11:02.493988+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30693415",
-        "size_bytes": 725164728
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30693415",
+          "size_bytes": 725164728,
+          "source_bytes_read": 725164728,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31475485",
+        "source_url": "https://sdilej.cz/31475485/most-bron-broen-s01e09.cz..mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30693415",
-        "size_bytes": 725164728,
-        "source_bytes_read": 725164728,
-        "http_status": 201
+        "display_name": "Bron/Broen S01E09 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T11:13:33.316070+00:00"
       }
     },
     "282:1:10": {
@@ -127641,5 +127642,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T11:13:29.456396+00:00"
+  "updated_at": "2026-11-01T11:13:33.316081+00:00"
 }
