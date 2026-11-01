@@ -148086,12 +148086,6 @@
     },
     "2065:5:5": {
       "episode_key": "detektiv endeavour morse:s5:e5",
-      "claim": {
-        "worker_id": "d649d4b7bb6445ada21e2d45c8eaaedf-worker-0",
-        "run_id": "41336215521",
-        "claimed_at": "2026-11-01T22:10:42.793209+00:00",
-        "lease_expires_at": "2026-11-02T04:10:42.793221+00:00"
-      },
       "source": {
         "source_id": "33117164",
         "source_url": "https://sdilej.cz/33117164/detektiv-endeavour-morse-s05e05-06-2018-cz-dab-1080p-kvartet.mkv",
@@ -148116,15 +148110,22 @@
         "display_name": "Endeavour S05E05 Quartet 1080p CZ Dabing",
         "prepared_at": "2026-11-01T22:10:45.919442+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30708439",
-        "size_bytes": 912886328
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30708439",
+          "size_bytes": 912886328,
+          "source_bytes_read": 912886328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33117164",
+        "source_url": "https://sdilej.cz/33117164/detektiv-endeavour-morse-s05e05-06-2018-cz-dab-1080p-kvartet.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30708439",
-        "size_bytes": 912886328,
-        "source_bytes_read": 912886328,
-        "http_status": 201
+        "display_name": "Endeavour S05E05 Quartet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T22:17:22.338057+00:00"
       }
     }
   },
@@ -148133,5 +148134,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T22:17:20.507860+00:00"
+  "updated_at": "2026-11-01T22:17:22.338093+00:00"
 }
