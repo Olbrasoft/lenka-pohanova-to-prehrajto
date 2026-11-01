@@ -131277,12 +131277,6 @@
     },
     "1237:8:19": {
       "episode_key": "normálka:s8:e19",
-      "claim": {
-        "worker_id": "6ccb7d131e174f769a876a4c0adf3510-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T13:28:51.096425+00:00",
-        "lease_expires_at": "2026-11-01T19:28:51.096435+00:00"
-      },
       "source": {
         "source_id": "22814376",
         "source_url": "https://sdilej.cz/22814376/normalka-regular-show-s08e19-hd-cz-dabing.mkv",
@@ -131307,15 +131301,22 @@
         "display_name": "Regular Show S08E19 Terror Tales of the Park VI 1080p CZ Dabing",
         "prepared_at": "2026-11-01T13:28:53.009801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30695625",
-        "size_bytes": 1323994054
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30695625",
+          "size_bytes": 1323994054,
+          "source_bytes_read": 1323994054,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22814376",
+        "source_url": "https://sdilej.cz/22814376/normalka-regular-show-s08e19-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30695625",
-        "size_bytes": 1323994054,
-        "source_bytes_read": 1323994054,
-        "http_status": 201
+        "display_name": "Regular Show S08E19 Terror Tales of the Park VI 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T13:31:24.247293+00:00"
       }
     },
     "1237:8:20": {
@@ -131361,5 +131362,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T13:31:21.453055+00:00"
+  "updated_at": "2026-11-01T13:31:24.247319+00:00"
 }
