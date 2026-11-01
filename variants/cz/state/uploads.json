@@ -117217,12 +117217,6 @@
     },
     "104:5:3": {
       "episode_key": "akta x:s5:e3",
-      "claim": {
-        "worker_id": "ca733774086e43cfb7db3c1b733e7aa9-worker-0",
-        "run_id": "41258263151",
-        "claimed_at": "2026-11-01T01:29:38.663627+00:00",
-        "lease_expires_at": "2026-11-01T07:29:38.663638+00:00"
-      },
       "source": {
         "source_id": "32202224",
         "source_url": "https://sdilej.cz/32202224/akta-x-s05e03-neobvykli-podezreli.mkv",
@@ -117247,15 +117241,22 @@
         "display_name": "The X-Files S05E03 Unusual Suspects 1080p CZ Dabing",
         "prepared_at": "2026-11-01T01:29:40.702123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30682276",
-        "size_bytes": 966900380
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30682276",
+          "size_bytes": 966900380,
+          "source_bytes_read": 966900380,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32202224",
+        "source_url": "https://sdilej.cz/32202224/akta-x-s05e03-neobvykli-podezreli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30682276",
-        "size_bytes": 966900380,
-        "source_bytes_read": 966900380,
-        "http_status": 201
+        "display_name": "The X-Files S05E03 Unusual Suspects 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T01:32:16.406167+00:00"
       }
     },
     "104:5:4": {
@@ -117338,5 +117339,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T01:32:13.026202+00:00"
+  "updated_at": "2026-11-01T01:32:16.406183+00:00"
 }
