@@ -134317,12 +134317,6 @@
     },
     "5212:1:1": {
       "episode_key": "11. září: ten den v americe:s1:e1",
-      "claim": {
-        "worker_id": "7e7d63eb9ea241b1a98f691007213111-worker-0",
-        "run_id": "41320802669",
-        "claimed_at": "2026-11-01T17:06:53.817018+00:00",
-        "lease_expires_at": "2026-11-01T23:06:53.817031+00:00"
-      },
       "source": {
         "source_id": "30696493",
         "source_url": "https://sdilej.cz/30696493/11-zari-ten-den-v-americe-s01e01-prvni-zachranari-2021-cz.mkv",
@@ -134347,15 +134341,22 @@
         "display_name": "9/11: One Day in America S01E01 First Response 1080p CZ Dabing",
         "prepared_at": "2026-11-01T17:06:55.987381+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30701359",
-        "size_bytes": 1946109132
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30701359",
+          "size_bytes": 1946109132,
+          "source_bytes_read": 1946109132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30696493",
+        "source_url": "https://sdilej.cz/30696493/11-zari-ten-den-v-americe-s01e01-prvni-zachranari-2021-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30701359",
-        "size_bytes": 1946109132,
-        "source_bytes_read": 1946109132,
-        "http_status": 201
+        "display_name": "9/11: One Day in America S01E01 First Response 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T17:14:26.758927+00:00"
       }
     },
     "5212:1:2": {
@@ -134540,5 +134541,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T17:14:25.070663+00:00"
+  "updated_at": "2026-11-01T17:14:26.758947+00:00"
 }
