@@ -133085,12 +133085,6 @@
     },
     "2558:9:1": {
       "episode_key": "hercule poirot:s9:e1",
-      "claim": {
-        "worker_id": "2a89ab2900644adc9a28738a58ce366d-worker-0",
-        "run_id": "41301526764",
-        "claimed_at": "2026-11-01T14:55:18.191846+00:00",
-        "lease_expires_at": "2026-11-01T20:55:18.191857+00:00"
-      },
       "source": {
         "source_id": "34449583",
         "source_url": "https://sdilej.cz/34449583/hercule-poirot-s09e01-pet-malych-prasatek-cz-1080p-webrip-.ts",
@@ -133115,15 +133109,22 @@
         "display_name": "Agatha Christie's Poirot S09E01 Five Little Pigs 1080p CZ Dabing",
         "prepared_at": "2026-11-01T14:55:21.541802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30697984",
-        "size_bytes": 4401538344
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30697984",
+          "size_bytes": 4401538344,
+          "source_bytes_read": 4401538344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34449583",
+        "source_url": "https://sdilej.cz/34449583/hercule-poirot-s09e01-pet-malych-prasatek-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30697984",
-        "size_bytes": 4401538344,
-        "source_bytes_read": 4401538344,
-        "http_status": 201
+        "display_name": "Agatha Christie's Poirot S09E01 Five Little Pigs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-01T15:12:23.005700+00:00"
       }
     },
     "2558:9:2": {
@@ -133220,5 +133221,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-01T15:12:21.459782+00:00"
+  "updated_at": "2026-11-01T15:12:23.005715+00:00"
 }
