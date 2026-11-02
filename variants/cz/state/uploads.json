@@ -153888,12 +153888,6 @@
     },
     "1103:2:6": {
       "episode_key": "zpátky do školy:s2:e6",
-      "claim": {
-        "worker_id": "e81e197056da4a2fbc7eb32a69681ebb-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:02:37.332887+00:00",
-        "lease_expires_at": "2026-11-02T08:02:37.332897+00:00"
-      },
       "source": {
         "source_id": "34816421",
         "source_url": "https://sdilej.cz/34816421/zpatky-do-skoly-s02e06-24-2010-cz-dabing-1080p-fhd-epidemiologie.mkv",
@@ -153918,15 +153912,22 @@
         "display_name": "Community S02E06 Epidemiology 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:02:41.641443+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713166",
-        "size_bytes": 768673860
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713166",
+          "size_bytes": 768673860,
+          "source_bytes_read": 768673860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816421",
+        "source_url": "https://sdilej.cz/34816421/zpatky-do-skoly-s02e06-24-2010-cz-dabing-1080p-fhd-epidemiologie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713166",
-        "size_bytes": 768673860,
-        "source_bytes_read": 768673860,
-        "http_status": 201
+        "display_name": "Community S02E06 Epidemiology 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:05:05.073775+00:00"
       }
     }
   },
@@ -153935,5 +153936,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:05:03.442498+00:00"
+  "updated_at": "2026-11-02T02:05:05.073793+00:00"
 }
