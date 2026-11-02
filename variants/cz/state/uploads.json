@@ -162989,12 +162989,6 @@
     },
     "1002:1:2": {
       "episode_key": "expanze:s1:e2",
-      "claim": {
-        "worker_id": "a98ef6567661425797d0a0c6a4d0d613-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:11:22.455952+00:00",
-        "lease_expires_at": "2026-11-02T13:11:22.455963+00:00"
-      },
       "source": {
         "source_id": "29592909",
         "source_url": "https://sdilej.cz/29592909/the.expanse.s01e02.20160p.mkv",
@@ -163019,15 +163013,22 @@
         "display_name": "The Expanse S01E02 The Big Empty 4K CZ Dabing",
         "prepared_at": "2026-11-02T07:11:27.753233+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720530",
-        "size_bytes": 5176709062
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720530",
+          "size_bytes": 5176709062,
+          "source_bytes_read": 5176709062,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29592909",
+        "source_url": "https://sdilej.cz/29592909/the.expanse.s01e02.20160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720530",
-        "size_bytes": 5176709062,
-        "source_bytes_read": 5176709062,
-        "http_status": 201
+        "display_name": "The Expanse S01E02 The Big Empty 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T07:23:14.942747+00:00"
       }
     },
     "1002:1:4": {
@@ -163124,5 +163125,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:23:13.165474+00:00"
+  "updated_at": "2026-11-02T07:23:14.942762+00:00"
 }
