@@ -163568,12 +163568,6 @@
     },
     "1002:2:6": {
       "episode_key": "expanze:s2:e6",
-      "claim": {
-        "worker_id": "38f4d30ee23548f29dd9cfd413bbf162-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:42:11.153653+00:00",
-        "lease_expires_at": "2026-11-02T13:42:11.153663+00:00"
-      },
       "source": {
         "source_id": "29593115",
         "source_url": "https://sdilej.cz/29593115/the.expanse.s02e06.20160p.mkv",
@@ -163598,15 +163592,22 @@
         "display_name": "The Expanse S02E06 Paradigm Shift 4K CZ Dabing",
         "prepared_at": "2026-11-02T07:42:13.385830+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721166",
-        "size_bytes": 5319340796
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721166",
+          "size_bytes": 5319340796,
+          "source_bytes_read": 5319340796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29593115",
+        "source_url": "https://sdilej.cz/29593115/the.expanse.s02e06.20160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721166",
-        "size_bytes": 5319340796,
-        "source_bytes_read": 5319340796,
-        "http_status": 201
+        "display_name": "The Expanse S02E06 Paradigm Shift 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T07:53:25.805892+00:00"
       }
     },
     "1002:2:7": {
@@ -163923,5 +163924,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:53:20.162578+00:00"
+  "updated_at": "2026-11-02T07:53:25.805914+00:00"
 }
