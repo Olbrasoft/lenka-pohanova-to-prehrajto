@@ -167829,12 +167829,6 @@
     },
     "622:2:2": {
       "episode_key": "detektoráři:s2:e2",
-      "claim": {
-        "worker_id": "864766d2404549889b4f19b15591cbf0-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:47:39.023608+00:00",
-        "lease_expires_at": "2026-11-02T17:47:39.023620+00:00"
-      },
       "source": {
         "source_id": "31418456",
         "source_url": "https://sdilej.cz/31418456/detectorists.s02e02.1080p-cz-dabing.mkv",
@@ -167859,15 +167853,22 @@
         "display_name": "Detectorists S02E02 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:47:41.537296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30727559",
-        "size_bytes": 1471423940
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30727559",
+          "size_bytes": 1471423940,
+          "source_bytes_read": 1471423940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31418456",
+        "source_url": "https://sdilej.cz/31418456/detectorists.s02e02.1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30727559",
-        "size_bytes": 1471423940,
-        "source_bytes_read": 1471423940,
-        "http_status": 201
+        "display_name": "Detectorists S02E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:50:14.634683+00:00"
       }
     }
   },
@@ -167876,5 +167877,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:50:12.628304+00:00"
+  "updated_at": "2026-11-02T11:50:14.634699+00:00"
 }
