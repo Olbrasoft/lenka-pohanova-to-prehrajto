@@ -152612,12 +152612,6 @@
     },
     "700:4:5": {
       "episode_key": "medvěd:s4:e5",
-      "claim": {
-        "worker_id": "63c52c055d6b499a90099e9c19af55d0-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:24:49.567077+00:00",
-        "lease_expires_at": "2026-11-02T07:24:49.567087+00:00"
-      },
       "source": {
         "source_id": "34640891",
         "source_url": "https://sdilej.cz/34640891/medved-s04e05-expanze.mkv",
@@ -152642,15 +152636,22 @@
         "display_name": "The Bear S04E05 Replicants 4K CZ Dabing",
         "prepared_at": "2026-11-02T01:24:51.766870+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712074",
-        "size_bytes": 1534859608
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712074",
+          "size_bytes": 1534859608,
+          "source_bytes_read": 1534859608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34640891",
+        "source_url": "https://sdilej.cz/34640891/medved-s04e05-expanze.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712074",
-        "size_bytes": 1534859608,
-        "source_bytes_read": 1534859608,
-        "http_status": 201
+        "display_name": "The Bear S04E05 Replicants 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T01:27:27.017267+00:00"
       }
     },
     "700:4:6": {
@@ -152733,5 +152734,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:27:22.475620+00:00"
+  "updated_at": "2026-11-02T01:27:27.017284+00:00"
 }
