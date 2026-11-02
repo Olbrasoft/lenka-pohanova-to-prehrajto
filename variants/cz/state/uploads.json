@@ -179561,12 +179561,6 @@
     },
     "635:5:9": {
       "episode_key": "f1: touha po vítězství:s5:e9",
-      "claim": {
-        "worker_id": "099d4415097e4b73969734b1eac09754-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T17:04:25.199488+00:00",
-        "lease_expires_at": "2026-11-02T23:04:25.199499+00:00"
-      },
       "source": {
         "source_id": "31554419",
         "source_url": "https://sdilej.cz/31554419/f1-touha-po-vitezstvi-s05e09-pres-limit.mkv",
@@ -179591,15 +179585,22 @@
         "display_name": "Formula 1: Drive to Survive S05E09 Over the Limit 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:04:27.923450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30737187",
-        "size_bytes": 1565278206
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30737187",
+          "size_bytes": 1565278206,
+          "source_bytes_read": 1565278206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554419",
+        "source_url": "https://sdilej.cz/31554419/f1-touha-po-vitezstvi-s05e09-pres-limit.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30737187",
-        "size_bytes": 1565278206,
-        "source_bytes_read": 1565278206,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S05E09 Over the Limit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:07:25.353155+00:00"
       }
     },
     "635:5:10": {
@@ -179682,5 +179683,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:07:19.036703+00:00"
+  "updated_at": "2026-11-02T17:07:25.353171+00:00"
 }
