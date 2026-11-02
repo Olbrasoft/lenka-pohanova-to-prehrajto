@@ -168188,12 +168188,6 @@
     },
     "3401:1:6": {
       "episode_key": "soví dům:s1:e6",
-      "claim": {
-        "worker_id": "af173ffb644d405483b3f3f010e37de6-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:57:57.479463+00:00",
-        "lease_expires_at": "2026-11-02T17:57:57.479473+00:00"
-      },
       "source": {
         "source_id": "25219133",
         "source_url": "https://sdilej.cz/25219133/sovi-dum-s01e06-cz.mkv",
@@ -168218,15 +168212,22 @@
         "display_name": "The Owl House S01E06 Hooty's Moving Hassle 720p CZ Dabing",
         "prepared_at": "2026-11-02T11:58:00.618178+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30728717",
-        "size_bytes": 448674037
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30728717",
+          "size_bytes": 448674037,
+          "source_bytes_read": 448674037,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25219133",
+        "source_url": "https://sdilej.cz/25219133/sovi-dum-s01e06-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30728717",
-        "size_bytes": 448674037,
-        "source_bytes_read": 448674037,
-        "http_status": 201
+        "display_name": "The Owl House S01E06 Hooty's Moving Hassle 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:58:57.167568+00:00"
       }
     },
     "3401:1:7": {
@@ -168272,5 +168273,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:58:55.189758+00:00"
+  "updated_at": "2026-11-02T11:58:57.167584+00:00"
 }
