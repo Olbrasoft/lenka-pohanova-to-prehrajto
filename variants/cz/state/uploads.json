@@ -149972,12 +149972,6 @@
     },
     "1074:2:7": {
       "episode_key": "zákon gangu:s2:e7",
-      "claim": {
-        "worker_id": "837bc84d6a1d474cb6b2e816bbff188d-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:07:58.730464+00:00",
-        "lease_expires_at": "2026-11-02T06:07:58.730475+00:00"
-      },
       "source": {
         "source_id": "33478537",
         "source_url": "https://sdilej.cz/33478537/sons-of-anarchy-s02e07-1080p-cz-gilead.mkv",
@@ -150002,15 +149996,22 @@
         "display_name": "Sons of Anarchy S02E07 Gilead 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:08:00.946191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710805",
-        "size_bytes": 528131641
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710805",
+          "size_bytes": 528131641,
+          "source_bytes_read": 528131641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478537",
+        "source_url": "https://sdilej.cz/33478537/sons-of-anarchy-s02e07-1080p-cz-gilead.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710805",
-        "size_bytes": 528131641,
-        "source_bytes_read": 528131641,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E07 Gilead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:08:44.095896+00:00"
       }
     },
     "1074:2:8": {
@@ -150093,5 +150094,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:08:40.504843+00:00"
+  "updated_at": "2026-11-02T00:08:44.095913+00:00"
 }
