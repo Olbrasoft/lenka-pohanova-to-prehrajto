@@ -159689,12 +159689,6 @@
     },
     "567:2:2": {
       "episode_key": "lovci zločinců:s2:e2",
-      "claim": {
-        "worker_id": "60e6f171f64845a5b35d28e818acff49-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T05:34:41.435111+00:00",
-        "lease_expires_at": "2026-11-02T11:34:41.435119+00:00"
-      },
       "source": {
         "source_id": "32300216",
         "source_url": "https://sdilej.cz/32300216/lovci-zlocincu-s02e02-cz-dabing.mkv",
@@ -159719,15 +159713,22 @@
         "display_name": "Person of Interest S02E02 Bad Code 1080p CZ Dabing",
         "prepared_at": "2026-11-02T05:34:43.626757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30717766",
-        "size_bytes": 778506972
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30717766",
+          "size_bytes": 778506972,
+          "source_bytes_read": 778506972,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300216",
+        "source_url": "https://sdilej.cz/32300216/lovci-zlocincu-s02e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30717766",
-        "size_bytes": 778506972,
-        "source_bytes_read": 778506972,
-        "http_status": 201
+        "display_name": "Person of Interest S02E02 Bad Code 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T05:36:36.326599+00:00"
       }
     },
     "567:2:3": {
@@ -159773,5 +159774,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T05:36:31.810496+00:00"
+  "updated_at": "2026-11-02T05:36:36.326616+00:00"
 }
