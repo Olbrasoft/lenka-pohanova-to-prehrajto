@@ -155692,12 +155692,6 @@
     },
     "60:1:12": {
       "episode_key": "hannibal:s1:e12",
-      "claim": {
-        "worker_id": "d52f11c97d484ded9e3373427ce57a8d-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:32:20.500776+00:00",
-        "lease_expires_at": "2026-11-02T08:32:20.500788+00:00"
-      },
       "source": {
         "source_id": "27941436",
         "source_url": "https://sdilej.cz/27941436/hannibal-s01e12-cz.mkv",
@@ -155722,15 +155716,22 @@
         "display_name": "Hannibal S01E12 Relevés 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:32:22.720073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713799",
-        "size_bytes": 1599058006
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713799",
+          "size_bytes": 1599058006,
+          "source_bytes_read": 1599058006,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27941436",
+        "source_url": "https://sdilej.cz/27941436/hannibal-s01e12-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713799",
-        "size_bytes": 1599058006,
-        "source_bytes_read": 1599058006,
-        "http_status": 201
+        "display_name": "Hannibal S01E12 Relevés 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:35:43.545098+00:00"
       }
     },
     "60:1:13": {
@@ -155748,5 +155749,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:35:41.877317+00:00"
+  "updated_at": "2026-11-02T02:35:43.545113+00:00"
 }
