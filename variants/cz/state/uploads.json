@@ -151996,12 +151996,6 @@
     },
     "700:2:10": {
       "episode_key": "medvěd:s2:e10",
-      "claim": {
-        "worker_id": "1287498e38d8486a859a83f7ed04743c-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:57:06.648284+00:00",
-        "lease_expires_at": "2026-11-02T06:57:06.648294+00:00"
-      },
       "source": {
         "source_id": "32964774",
         "source_url": "https://sdilej.cz/32964774/medved-s02e10-1080p-cz-medved.mkv",
@@ -152026,15 +152020,22 @@
         "display_name": "The Bear S02E10 The Bear 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:57:08.721666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711544",
-        "size_bytes": 478532811
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711544",
+          "size_bytes": 478532811,
+          "source_bytes_read": 478532811,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964774",
+        "source_url": "https://sdilej.cz/32964774/medved-s02e10-1080p-cz-medved.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711544",
-        "size_bytes": 478532811,
-        "source_bytes_read": 478532811,
-        "http_status": 201
+        "display_name": "The Bear S02E10 The Bear 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:58:14.802019+00:00"
       }
     },
     "700:3:2": {
@@ -152117,5 +152118,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:58:11.059786+00:00"
+  "updated_at": "2026-11-02T00:58:14.802036+00:00"
 }
