@@ -184095,12 +184095,6 @@
     },
     "1064:2:15": {
       "episode_key": "kauzy z bostonu:s2:e15",
-      "claim": {
-        "worker_id": "d355ac2d6a3448f6984d20f831d8f132-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:23:20.722137+00:00",
-        "lease_expires_at": "2026-11-03T02:23:20.722147+00:00"
-      },
       "source": {
         "source_id": "30245996",
         "source_url": "https://sdilej.cz/30245996/boston-legal-kauzy-z-bostonu-s02e15-czdab.mp4",
@@ -184125,15 +184119,22 @@
         "display_name": "Boston Legal S02E15 Smile SD CZ Dabing",
         "prepared_at": "2026-11-02T20:23:26.094265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741218",
-        "size_bytes": 494510057
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741218",
+          "size_bytes": 494510057,
+          "source_bytes_read": 494510057,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30245996",
+        "source_url": "https://sdilej.cz/30245996/boston-legal-kauzy-z-bostonu-s02e15-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741218",
-        "size_bytes": 494510057,
-        "source_bytes_read": 494510057,
-        "http_status": 201
+        "display_name": "Boston Legal S02E15 Smile SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:24:16.493774+00:00"
       }
     }
   },
@@ -184142,5 +184143,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:24:11.900724+00:00"
+  "updated_at": "2026-11-02T20:24:16.493791+00:00"
 }
