@@ -176877,12 +176877,6 @@
     },
     "108:9:17": {
       "episode_key": "m a s h:s9:e17",
-      "claim": {
-        "worker_id": "7b7110bfbb5e4d30bb4cd9850af8f1d9-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:31:49.320093+00:00",
-        "lease_expires_at": "2026-11-02T21:31:49.320104+00:00"
-      },
       "source": {
         "source_id": "28258489",
         "source_url": "https://sdilej.cz/28258489/mash-s09e17-215-.pozdrav-panbu-hawkeye.mkv",
@@ -176907,15 +176901,22 @@
         "display_name": "M*A*S*H S09E17 Bless You, Hawkeye 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:31:51.981797+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735296",
-        "size_bytes": 122891348
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735296",
+          "size_bytes": 122891348,
+          "source_bytes_read": 122891348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258489",
+        "source_url": "https://sdilej.cz/28258489/mash-s09e17-215-.pozdrav-panbu-hawkeye.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735296",
-        "size_bytes": 122891348,
-        "source_bytes_read": 122891348,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E17 Bless You, Hawkeye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:32:17.442684+00:00"
       }
     }
   },
@@ -176924,5 +176925,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:32:13.919179+00:00"
+  "updated_at": "2026-11-02T15:32:17.442698+00:00"
 }
