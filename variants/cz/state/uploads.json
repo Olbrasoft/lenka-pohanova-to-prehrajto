@@ -174200,12 +174200,6 @@
     },
     "108:7:2": {
       "episode_key": "m a s h:s7:e2",
-      "claim": {
-        "worker_id": "56465a117b3f4928a393506127666150-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:28:41.814428+00:00",
-        "lease_expires_at": "2026-11-02T20:28:41.814439+00:00"
-      },
       "source": {
         "source_id": "34978883",
         "source_url": "https://sdilej.cz/34978883/m.a.s.h-s07e02-mir-s-nami.mkv",
@@ -174230,15 +174224,22 @@
         "display_name": "M*A*S*H S07E02 Peace On Us 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:28:46.237983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733908",
-        "size_bytes": 770099072
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733908",
+          "size_bytes": 770099072,
+          "source_bytes_read": 770099072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978883",
+        "source_url": "https://sdilej.cz/34978883/m.a.s.h-s07e02-mir-s-nami.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733908",
-        "size_bytes": 770099072,
-        "source_bytes_read": 770099072,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E02 Peace On Us 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:30:13.344377+00:00"
       }
     },
     "108:7:3": {
@@ -174284,5 +174285,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:30:00.190686+00:00"
+  "updated_at": "2026-11-02T14:30:13.344392+00:00"
 }
