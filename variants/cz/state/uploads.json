@@ -182459,12 +182459,6 @@
     },
     "2120:6:2": {
       "episode_key": "všechny velké a malé bytosti:s6:e2",
-      "claim": {
-        "worker_id": "7302a005022e425a863f3c37f0de61a8-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:30:54.601109+00:00",
-        "lease_expires_at": "2026-11-03T01:30:54.601121+00:00"
-      },
       "source": {
         "source_id": "33015753",
         "source_url": "https://sdilej.cz/33015753/vsechny-velke-a-male-bytosti-2025-s06e02-czdab-1080p.mkv",
@@ -182489,15 +182483,22 @@
         "display_name": "All Creatures Great & Small S06E02 Old Dog, New Tricks 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:30:59.636648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740521",
-        "size_bytes": 2110898406
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740521",
+          "size_bytes": 2110898406,
+          "source_bytes_read": 2110898406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33015753",
+        "source_url": "https://sdilej.cz/33015753/vsechny-velke-a-male-bytosti-2025-s06e02-czdab-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740521",
-        "size_bytes": 2110898406,
-        "source_bytes_read": 2110898406,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S06E02 Old Dog, New Tricks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:34:56.103137+00:00"
       }
     },
     "2120:6:3": {
@@ -182543,5 +182544,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:34:53.078320+00:00"
+  "updated_at": "2026-11-02T19:34:56.103155+00:00"
 }
