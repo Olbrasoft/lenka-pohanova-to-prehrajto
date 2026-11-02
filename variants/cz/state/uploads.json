@@ -157840,12 +157840,6 @@
     },
     "1156:3:4": {
       "episode_key": "impérium – mafie v atlantic city:s3:e4",
-      "claim": {
-        "worker_id": "e53e7496f1f9404e9366a1749dfc3f43-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T04:37:11.713127+00:00",
-        "lease_expires_at": "2026-11-02T10:37:11.713138+00:00"
-      },
       "source": {
         "source_id": "31436417",
         "source_url": "https://sdilej.cz/31436417/imperium-mafie-v-atlantic-city-s03e04-kluk-s-modrym-zvonkem-2012-cz-dabing.mkv",
@@ -157870,15 +157864,22 @@
         "display_name": "Boardwalk Empire S03E04 Blue Bell Boy 1080p CZ Dabing",
         "prepared_at": "2026-11-02T04:37:13.931313+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30716693",
-        "size_bytes": 1238348678
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30716693",
+          "size_bytes": 1238348678,
+          "source_bytes_read": 1238348678,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31436417",
+        "source_url": "https://sdilej.cz/31436417/imperium-mafie-v-atlantic-city-s03e04-kluk-s-modrym-zvonkem-2012-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30716693",
-        "size_bytes": 1238348678,
-        "source_bytes_read": 1238348678,
-        "http_status": 201
+        "display_name": "Boardwalk Empire S03E04 Blue Bell Boy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T04:40:05.950316+00:00"
       }
     }
   },
@@ -157887,5 +157888,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T04:40:04.094860+00:00"
+  "updated_at": "2026-11-02T04:40:05.950334+00:00"
 }
