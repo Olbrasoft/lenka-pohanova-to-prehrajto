@@ -163781,12 +163781,6 @@
     },
     "1002:2:11": {
       "episode_key": "expanze:s2:e11",
-      "claim": {
-        "worker_id": "4521bcb515c5435ba1a8d20fe4431978-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:46:47.681311+00:00",
-        "lease_expires_at": "2026-11-02T13:46:47.681326+00:00"
-      },
       "source": {
         "source_id": "22193585",
         "source_url": "https://sdilej.cz/22193585/expanze.the.expanse.s02e11.cz.dabing.1080p.mkv",
@@ -163811,15 +163805,22 @@
         "display_name": "The Expanse S02E11 Here There Be Dragons 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:46:50.227151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721278",
-        "size_bytes": 889329266
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721278",
+          "size_bytes": 889329266,
+          "source_bytes_read": 889329266,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22193585",
+        "source_url": "https://sdilej.cz/22193585/expanze.the.expanse.s02e11.cz.dabing.1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721278",
-        "size_bytes": 889329266,
-        "source_bytes_read": 889329266,
-        "http_status": 201
+        "display_name": "The Expanse S02E11 Here There Be Dragons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:49:12.654317+00:00"
       }
     },
     "1002:2:12": {
@@ -163865,5 +163866,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:49:08.354444+00:00"
+  "updated_at": "2026-11-02T07:49:12.654335+00:00"
 }
