@@ -163026,12 +163026,6 @@
     },
     "1002:1:4": {
       "episode_key": "expanze:s1:e4",
-      "claim": {
-        "worker_id": "b17935a51d984e28b1bf631f8fb55b43-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:12:53.926976+00:00",
-        "lease_expires_at": "2026-11-02T13:12:53.926990+00:00"
-      },
       "source": {
         "source_id": "17226474",
         "source_url": "https://sdilej.cz/17226474/the-expanse-s01e04-cz-dabing-1080p.mkv",
@@ -163056,15 +163050,22 @@
         "display_name": "The Expanse S01E04 CQB 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:12:56.287852+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720554",
-        "size_bytes": 1003971093
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720554",
+          "size_bytes": 1003971093,
+          "source_bytes_read": 1003971093,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17226474",
+        "source_url": "https://sdilej.cz/17226474/the-expanse-s01e04-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720554",
-        "size_bytes": 1003971093,
-        "source_bytes_read": 1003971093,
-        "http_status": 201
+        "display_name": "The Expanse S01E04 CQB 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:15:35.936442+00:00"
       }
     }
   },
@@ -163073,5 +163074,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:15:30.238781+00:00"
+  "updated_at": "2026-11-02T07:15:35.936461+00:00"
 }
