@@ -186383,12 +186383,6 @@
     },
     "1064:4:17": {
       "episode_key": "kauzy z bostonu:s4:e17",
-      "claim": {
-        "worker_id": "4d2bedc12d0942d2af212674fc56ff03-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:16:26.406002+00:00",
-        "lease_expires_at": "2026-11-03T03:16:26.406012+00:00"
-      },
       "source": {
         "source_id": "30246694",
         "source_url": "https://sdilej.cz/30246694/boston-legal-kauzy-z-bostonu-s04e17-czdab.mp4",
@@ -186413,15 +186407,22 @@
         "display_name": "Boston Legal S04E17 The Court Supreme SD CZ Dabing",
         "prepared_at": "2026-11-02T21:16:32.420301+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742485",
-        "size_bytes": 487937904
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742485",
+          "size_bytes": 487937904,
+          "source_bytes_read": 487937904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30246694",
+        "source_url": "https://sdilej.cz/30246694/boston-legal-kauzy-z-bostonu-s04e17-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742485",
-        "size_bytes": 487937904,
-        "source_bytes_read": 487937904,
-        "http_status": 201
+        "display_name": "Boston Legal S04E17 The Court Supreme SD CZ Dabing",
+        "uploaded_at": "2026-11-02T21:17:20.358955+00:00"
       }
     }
   },
@@ -186430,5 +186431,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:17:15.418301+00:00"
+  "updated_at": "2026-11-02T21:17:20.358973+00:00"
 }
