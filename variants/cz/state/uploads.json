@@ -175747,12 +175747,6 @@
     },
     "108:8:15": {
       "episode_key": "m a s h:s8:e15",
-      "claim": {
-        "worker_id": "bf34153314d4482fa02f188c8bb6a3f4-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:02:22.710724+00:00",
-        "lease_expires_at": "2026-11-02T21:02:22.710734+00:00"
-      },
       "source": {
         "source_id": "34979074",
         "source_url": "https://sdilej.cz/34979074/m.a.s.h-s08e15-ano-to-je-nase-dite.mkv",
@@ -175777,15 +175771,22 @@
         "display_name": "M*A*S*H S08E15 Yessir, That's Our Baby 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:02:26.799404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734699",
-        "size_bytes": 765864016
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734699",
+          "size_bytes": 765864016,
+          "source_bytes_read": 765864016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979074",
+        "source_url": "https://sdilej.cz/34979074/m.a.s.h-s08e15-ano-to-je-nase-dite.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734699",
-        "size_bytes": 765864016,
-        "source_bytes_read": 765864016,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E15 Yessir, That's Our Baby 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:04:14.605436+00:00"
       }
     },
     "108:8:16": {
@@ -175831,5 +175832,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:04:10.070031+00:00"
+  "updated_at": "2026-11-02T15:04:14.605452+00:00"
 }
