@@ -156176,12 +156176,6 @@
     },
     "60:2:10": {
       "episode_key": "hannibal:s2:e10",
-      "claim": {
-        "worker_id": "b316735d3354480c90133a9997c48d1f-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:18:13.150671+00:00",
-        "lease_expires_at": "2026-11-02T09:18:13.150683+00:00"
-      },
       "source": {
         "source_id": "27942069",
         "source_url": "https://sdilej.cz/27942069/hannibal-s02e10-cz.mkv",
@@ -156206,15 +156200,22 @@
         "display_name": "Hannibal S02E10 Naka-Choko 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:18:15.416648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30714994",
-        "size_bytes": 1646891622
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30714994",
+          "size_bytes": 1646891622,
+          "source_bytes_read": 1646891622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27942069",
+        "source_url": "https://sdilej.cz/27942069/hannibal-s02e10-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30714994",
-        "size_bytes": 1646891622,
-        "source_bytes_read": 1646891622,
-        "http_status": 201
+        "display_name": "Hannibal S02E10 Naka-Choko 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:22:39.421150+00:00"
       }
     },
     "60:2:11": {
@@ -156304,5 +156305,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:22:37.608408+00:00"
+  "updated_at": "2026-11-02T03:22:39.421166+00:00"
 }
