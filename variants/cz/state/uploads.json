@@ -153969,12 +153969,6 @@
     },
     "1103:2:8": {
       "episode_key": "zpátky do školy:s2:e8",
-      "claim": {
-        "worker_id": "d638337e5cd64182b49cff3be46637dc-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:07:38.126310+00:00",
-        "lease_expires_at": "2026-11-02T08:07:38.126321+00:00"
-      },
       "source": {
         "source_id": "34816427",
         "source_url": "https://sdilej.cz/34816427/zpatky-do-skoly-s02e08-24-2010-cz-dabing-1080p-fhd-kooperativni-kaligrafie.mkv",
@@ -153999,15 +153993,22 @@
         "display_name": "Community S02E08 Cooperative Calligraphy 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:07:43.019677+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713301",
-        "size_bytes": 750137890
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713301",
+          "size_bytes": 750137890,
+          "source_bytes_read": 750137890,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816427",
+        "source_url": "https://sdilej.cz/34816427/zpatky-do-skoly-s02e08-24-2010-cz-dabing-1080p-fhd-kooperativni-kaligrafie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713301",
-        "size_bytes": 750137890,
-        "source_bytes_read": 750137890,
-        "http_status": 201
+        "display_name": "Community S02E08 Cooperative Calligraphy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:10:18.365217+00:00"
       }
     },
     "1103:2:9": {
@@ -154097,5 +154098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:10:13.652281+00:00"
+  "updated_at": "2026-11-02T02:10:18.365233+00:00"
 }
