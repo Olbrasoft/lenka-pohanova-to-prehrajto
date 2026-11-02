@@ -166560,12 +166560,6 @@
     },
     "907:2:3": {
       "episode_key": "star wars: klonové války:s2:e3",
-      "claim": {
-        "worker_id": "3e45f67487ca44338b9df890bf98f6f1-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:02:25.850584+00:00",
-        "lease_expires_at": "2026-11-02T17:02:25.850598+00:00"
-      },
       "source": {
         "source_id": "32002662",
         "source_url": "https://sdilej.cz/32002662/star-wars-klonove-valky-s02e03-cz-dab-anim.mp4",
@@ -166590,15 +166584,22 @@
         "display_name": "Star Wars: The Clone Wars S02E03 Children of the Force 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:02:30.595716+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30725731",
-        "size_bytes": 321360712
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30725731",
+          "size_bytes": 321360712,
+          "source_bytes_read": 321360712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32002662",
+        "source_url": "https://sdilej.cz/32002662/star-wars-klonove-valky-s02e03-cz-dab-anim.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30725731",
-        "size_bytes": 321360712,
-        "source_bytes_read": 321360712,
-        "http_status": 201
+        "display_name": "Star Wars: The Clone Wars S02E03 Children of the Force 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:03:21.444301+00:00"
       }
     },
     "907:2:4": {
@@ -166688,5 +166689,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:03:15.641941+00:00"
+  "updated_at": "2026-11-02T11:03:21.444318+00:00"
 }
