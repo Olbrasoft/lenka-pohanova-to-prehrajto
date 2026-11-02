@@ -165284,12 +165284,6 @@
     },
     "1002:5:9": {
       "episode_key": "expanze:s5:e9",
-      "claim": {
-        "worker_id": "4515042699ac44a985ad93d70b9c650b-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:42:20.178151+00:00",
-        "lease_expires_at": "2026-11-02T15:42:20.178163+00:00"
-      },
       "source": {
         "source_id": "18414577",
         "source_url": "https://sdilej.cz/18414577/the.expanse.s05e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -165314,15 +165308,22 @@
         "display_name": "The Expanse S05E09 Winnipesaukee 1080p CZ Dabing",
         "prepared_at": "2026-11-02T09:42:26.162272+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30723240",
-        "size_bytes": 1099209385
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30723240",
+          "size_bytes": 1099209385,
+          "source_bytes_read": 1099209385,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18414577",
+        "source_url": "https://sdilej.cz/18414577/the.expanse.s05e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30723240",
-        "size_bytes": 1099209385,
-        "source_bytes_read": 1099209385,
-        "http_status": 201
+        "display_name": "The Expanse S05E09 Winnipesaukee 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T09:44:34.256660+00:00"
       }
     }
   },
@@ -165331,5 +165332,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T09:44:29.101894+00:00"
+  "updated_at": "2026-11-02T09:44:34.256680+00:00"
 }
