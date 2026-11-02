@@ -169508,12 +169508,6 @@
     },
     "108:1:11": {
       "episode_key": "m a s h:s1:e11",
-      "claim": {
-        "worker_id": "8a0c96456f2844bb8770d2fc64eb6d26-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:44:21.193552+00:00",
-        "lease_expires_at": "2026-11-02T18:44:21.193561+00:00"
-      },
       "source": {
         "source_id": "27980668",
         "source_url": "https://sdilej.cz/27980668/m.a.s.h.-s01e11.mkv",
@@ -169538,15 +169532,22 @@
         "display_name": "M*A*S*H S01E11 Germ Warfare 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:44:27.145011+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731582",
-        "size_bytes": 532855686
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731582",
+          "size_bytes": 532855686,
+          "source_bytes_read": 532855686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27980668",
+        "source_url": "https://sdilej.cz/27980668/m.a.s.h.-s01e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731582",
-        "size_bytes": 532855686,
-        "source_bytes_read": 532855686,
-        "http_status": 201
+        "display_name": "M*A*S*H S01E11 Germ Warfare 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:46:24.565157+00:00"
       }
     },
     "108:1:12": {
@@ -169686,5 +169687,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:46:22.548641+00:00"
+  "updated_at": "2026-11-02T12:46:24.565175+00:00"
 }
