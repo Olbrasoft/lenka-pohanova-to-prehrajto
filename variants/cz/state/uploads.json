@@ -159476,12 +159476,6 @@
     },
     "567:1:20": {
       "episode_key": "lovci zločinců:s1:e20",
-      "claim": {
-        "worker_id": "0ede26362f5d4b7e90eb4df46a2ae21a-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T05:32:55.654165+00:00",
-        "lease_expires_at": "2026-11-02T11:32:55.654177+00:00"
-      },
       "source": {
         "source_id": "6963862",
         "source_url": "https://sdilej.cz/6963862/person.of.interest.s01e20.bluray.1080p.10bit.ac3.x265.hevc-qman-utr-czaudio-.mkv",
@@ -159506,15 +159500,22 @@
         "display_name": "Person of Interest S01E20 Matsya Nyaya 1080p CZ Dabing",
         "prepared_at": "2026-11-02T05:33:00.867516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30717717",
-        "size_bytes": 623124646
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30717717",
+          "size_bytes": 623124646,
+          "source_bytes_read": 623124646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6963862",
+        "source_url": "https://sdilej.cz/6963862/person.of.interest.s01e20.bluray.1080p.10bit.ac3.x265.hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30717717",
-        "size_bytes": 623124646,
-        "source_bytes_read": 623124646,
-        "http_status": 201
+        "display_name": "Person of Interest S01E20 Matsya Nyaya 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T05:34:14.681176+00:00"
       }
     },
     "567:1:21": {
@@ -159603,5 +159604,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T05:34:12.850777+00:00"
+  "updated_at": "2026-11-02T05:34:14.681192+00:00"
 }
