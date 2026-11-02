@@ -188965,12 +188965,6 @@
     },
     "6815:1:1": {
       "episode_key": "foylova válka:s1:e1",
-      "claim": {
-        "worker_id": "b07d1b579f874d38bfa23252539006e2-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:31:04.715949+00:00",
-        "lease_expires_at": "2026-11-03T05:31:04.715960+00:00"
-      },
       "source": {
         "source_id": "16931985",
         "source_url": "https://sdilej.cz/16931985/foylova-valka-s01e01-nemka-cz.avi",
@@ -188995,15 +188989,22 @@
         "display_name": "Foyle's War S01E01 The German Woman SD CZ Dabing",
         "prepared_at": "2026-11-02T23:31:08.172612+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30744826",
-        "size_bytes": 518545708
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30744826",
+          "size_bytes": 518545708,
+          "source_bytes_read": 518545708,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16931985",
+        "source_url": "https://sdilej.cz/16931985/foylova-valka-s01e01-nemka-cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30744826",
-        "size_bytes": 518545708,
-        "source_bytes_read": 518545708,
-        "http_status": 201
+        "display_name": "Foyle's War S01E01 The German Woman SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:32:03.728698+00:00"
       }
     }
   },
@@ -189012,5 +189013,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:31:59.292456+00:00"
+  "updated_at": "2026-11-02T23:32:03.728715+00:00"
 }
