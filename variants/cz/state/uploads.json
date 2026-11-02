@@ -164316,12 +164316,6 @@
     },
     "1002:3:10": {
       "episode_key": "expanze:s3:e10",
-      "claim": {
-        "worker_id": "787af178ded84e66961a65c378597b1c-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T08:19:15.564024+00:00",
-        "lease_expires_at": "2026-11-02T14:19:15.564037+00:00"
-      },
       "source": {
         "source_id": "29593963",
         "source_url": "https://sdilej.cz/29593963/the.expanse.s03e10.20160p.mkv",
@@ -164346,15 +164340,22 @@
         "display_name": "The Expanse S03E10 Dandelion Sky 4K CZ Dabing",
         "prepared_at": "2026-11-02T08:19:17.889247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721746",
-        "size_bytes": 5686658569
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721746",
+          "size_bytes": 5686658569,
+          "source_bytes_read": 5686658569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29593963",
+        "source_url": "https://sdilej.cz/29593963/the.expanse.s03e10.20160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721746",
-        "size_bytes": 5686658569,
-        "source_bytes_read": 5686658569,
-        "http_status": 201
+        "display_name": "The Expanse S03E10 Dandelion Sky 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T08:35:39.330470+00:00"
       }
     },
     "1002:3:11": {
@@ -164437,5 +164438,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T08:35:33.624798+00:00"
+  "updated_at": "2026-11-02T08:35:39.330486+00:00"
 }
