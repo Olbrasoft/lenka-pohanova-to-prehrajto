@@ -160840,12 +160840,6 @@
     },
     "567:3:6": {
       "episode_key": "lovci zločinců:s3:e6",
-      "claim": {
-        "worker_id": "395a307d86b04f5098bb921d0c25e917-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:17:30.995867+00:00",
-        "lease_expires_at": "2026-11-02T12:17:30.995891+00:00"
-      },
       "source": {
         "source_id": "32300337",
         "source_url": "https://sdilej.cz/32300337/lovci-zlocincu-s03e06-cz-dabing.mkv",
@@ -160870,15 +160864,22 @@
         "display_name": "Person of Interest S03E06 Mors Praematura 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:17:38.109955+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718776",
-        "size_bytes": 771315363
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718776",
+          "size_bytes": 771315363,
+          "source_bytes_read": 771315363,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300337",
+        "source_url": "https://sdilej.cz/32300337/lovci-zlocincu-s03e06-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718776",
-        "size_bytes": 771315363,
-        "source_bytes_read": 771315363,
-        "http_status": 201
+        "display_name": "Person of Interest S03E06 Mors Praematura 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:20:05.929998+00:00"
       }
     },
     "567:3:7": {
@@ -161011,5 +161012,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:20:02.632438+00:00"
+  "updated_at": "2026-11-02T06:20:05.930017+00:00"
 }
