@@ -173283,12 +173283,6 @@
     },
     "108:5:18": {
       "episode_key": "m a s h:s5:e18",
-      "claim": {
-        "worker_id": "19b7de34047449bab14003b246f54175-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:06:51.281613+00:00",
-        "lease_expires_at": "2026-11-02T20:06:51.281623+00:00"
-      },
       "source": {
         "source_id": "28258197",
         "source_url": "https://sdilej.cz/28258197/mash-s05e18-115-.posledni-beh.mkv",
@@ -173313,15 +173307,22 @@
         "display_name": "M*A*S*H S05E18 Hanky Panky 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:06:58.972669+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733394",
-        "size_bytes": 167187180
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733394",
+          "size_bytes": 167187180,
+          "source_bytes_read": 167187180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258197",
+        "source_url": "https://sdilej.cz/28258197/mash-s05e18-115-.posledni-beh.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733394",
-        "size_bytes": 167187180,
-        "source_bytes_read": 167187180,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E18 Hanky Panky 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:07:35.699633+00:00"
       }
     },
     "108:5:19": {
@@ -173404,5 +173405,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:07:30.419799+00:00"
+  "updated_at": "2026-11-02T14:07:35.699649+00:00"
 }
