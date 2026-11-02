@@ -175079,12 +175079,6 @@
     },
     "108:7:25": {
       "episode_key": "m a s h:s7:e25",
-      "claim": {
-        "worker_id": "fac0b8c4ec474233b3f782b71a5dd2b5-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:55:19.108335+00:00",
-        "lease_expires_at": "2026-11-02T20:55:19.108345+00:00"
-      },
       "source": {
         "source_id": "28258343",
         "source_url": "https://sdilej.cz/28258343/mash-s07e25-172-.ach-ta-laska.mkv",
@@ -175109,15 +175103,22 @@
         "display_name": "M*A*S*H S07E25 The Party 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:55:27.550493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734496",
-        "size_bytes": 125136492
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734496",
+          "size_bytes": 125136492,
+          "source_bytes_read": 125136492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258343",
+        "source_url": "https://sdilej.cz/28258343/mash-s07e25-172-.ach-ta-laska.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734496",
-        "size_bytes": 125136492,
-        "source_bytes_read": 125136492,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E25 The Party 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:55:58.610983+00:00"
       }
     }
   },
@@ -175126,5 +175127,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:55:53.712835+00:00"
+  "updated_at": "2026-11-02T14:55:58.610999+00:00"
 }
