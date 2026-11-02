@@ -184667,12 +184667,6 @@
     },
     "1064:3:2": {
       "episode_key": "kauzy z bostonu:s3:e2",
-      "claim": {
-        "worker_id": "dd66ca25b5264dcf9d9840e4fbc28531-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:31:21.304883+00:00",
-        "lease_expires_at": "2026-11-03T02:31:21.304897+00:00"
-      },
       "source": {
         "source_id": "33316190",
         "source_url": "https://sdilej.cz/33316190/boston-legal-kauzy-z-bostonu-s03e02-czdab.mp4",
@@ -184697,15 +184691,22 @@
         "display_name": "Boston Legal S03E02 New Kids on the Block SD CZ Dabing",
         "prepared_at": "2026-11-02T20:31:25.447842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741328",
-        "size_bytes": 546424243
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741328",
+          "size_bytes": 546424243,
+          "source_bytes_read": 546424243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316190",
+        "source_url": "https://sdilej.cz/33316190/boston-legal-kauzy-z-bostonu-s03e02-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741328",
-        "size_bytes": 546424243,
-        "source_bytes_read": 546424243,
-        "http_status": 201
+        "display_name": "Boston Legal S03E02 New Kids on the Block SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:32:20.527806+00:00"
       }
     },
     "1064:3:3": {
@@ -184788,5 +184789,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:32:17.237783+00:00"
+  "updated_at": "2026-11-02T20:32:20.527823+00:00"
 }
