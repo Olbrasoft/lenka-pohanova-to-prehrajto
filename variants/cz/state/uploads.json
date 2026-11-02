@@ -159388,12 +159388,6 @@
     },
     "567:1:18": {
       "episode_key": "lovci zločinců:s1:e18",
-      "claim": {
-        "worker_id": "ac64d254548e4c94bfeb05783e77fc90-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T05:28:03.573498+00:00",
-        "lease_expires_at": "2026-11-02T11:28:03.573508+00:00"
-      },
       "source": {
         "source_id": "20481151",
         "source_url": "https://sdilej.cz/20481151/lovci-zlocincu-s01e18-cz-dabing-1080p-full-hd.mkv",
@@ -159418,15 +159412,22 @@
         "display_name": "Person of Interest S01E18 Identity Crisis 1080p CZ Dabing",
         "prepared_at": "2026-11-02T05:28:08.943075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30717625",
-        "size_bytes": 611987209
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30717625",
+          "size_bytes": 611987209,
+          "source_bytes_read": 611987209,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20481151",
+        "source_url": "https://sdilej.cz/20481151/lovci-zlocincu-s01e18-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30717625",
-        "size_bytes": 611987209,
-        "source_bytes_read": 611987209,
-        "http_status": 201
+        "display_name": "Person of Interest S01E18 Identity Crisis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T05:29:13.534190+00:00"
       }
     }
   },
@@ -159435,5 +159436,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T05:29:08.705311+00:00"
+  "updated_at": "2026-11-02T05:29:13.534203+00:00"
 }
