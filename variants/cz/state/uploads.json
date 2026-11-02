@@ -175395,12 +175395,6 @@
     },
     "108:8:7": {
       "episode_key": "m a s h:s8:e7",
-      "claim": {
-        "worker_id": "98a927566dc2494da7501ae1fbe8734c-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:58:10.619572+00:00",
-        "lease_expires_at": "2026-11-02T20:58:10.619583+00:00"
-      },
       "source": {
         "source_id": "34979024",
         "source_url": "https://sdilej.cz/34979024/m.a.s.h-s08e07-sestra-doktorka.mkv",
@@ -175425,15 +175419,22 @@
         "display_name": "M*A*S*H S08E07 Nurse Doctor 720p CZ Dabing",
         "prepared_at": "2026-11-02T14:58:13.376636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734589",
-        "size_bytes": 661371365
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734589",
+          "size_bytes": 661371365,
+          "source_bytes_read": 661371365,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979024",
+        "source_url": "https://sdilej.cz/34979024/m.a.s.h-s08e07-sestra-doktorka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734589",
-        "size_bytes": 661371365,
-        "source_bytes_read": 661371365,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E07 Nurse Doctor 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:59:26.585938+00:00"
       }
     },
     "108:8:8": {
@@ -175516,5 +175517,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:59:19.993484+00:00"
+  "updated_at": "2026-11-02T14:59:26.585955+00:00"
 }
