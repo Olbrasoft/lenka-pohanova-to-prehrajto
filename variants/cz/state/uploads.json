@@ -153484,12 +153484,6 @@
     },
     "1103:1:22": {
       "episode_key": "zpátky do školy:s1:e22",
-      "claim": {
-        "worker_id": "571330a8ede54a82857ee270f45ac4e7-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:59:03.012007+00:00",
-        "lease_expires_at": "2026-11-02T07:59:03.012019+00:00"
-      },
       "source": {
         "source_id": "11746673",
         "source_url": "https://sdilej.cz/11746673/zpatky-do-skoly-s01e22.avi",
@@ -153514,15 +153508,22 @@
         "display_name": "Community S01E22 The Art of Discourse SD CZ Dabing",
         "prepared_at": "2026-11-02T01:59:05.206837+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713068",
-        "size_bytes": 191639552
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713068",
+          "size_bytes": 191639552,
+          "source_bytes_read": 191639552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11746673",
+        "source_url": "https://sdilej.cz/11746673/zpatky-do-skoly-s01e22.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713068",
-        "size_bytes": 191639552,
-        "source_bytes_read": 191639552,
-        "http_status": 201
+        "display_name": "Community S01E22 The Art of Discourse SD CZ Dabing",
+        "uploaded_at": "2026-11-02T01:59:29.176575+00:00"
       }
     }
   },
@@ -153531,5 +153532,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:59:26.317665+00:00"
+  "updated_at": "2026-11-02T01:59:29.176590+00:00"
 }
