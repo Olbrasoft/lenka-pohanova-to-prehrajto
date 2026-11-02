@@ -187967,12 +187967,6 @@
     },
     "3128:4:8": {
       "episode_key": "sněží!:s4:e8",
-      "claim": {
-        "worker_id": "b937c82b5b0a4b2492eee557959a8a78-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:36:45.989953+00:00",
-        "lease_expires_at": "2026-11-03T04:36:45.989963+00:00"
-      },
       "source": {
         "source_id": "28327730",
         "source_url": "https://sdilej.cz/28327730/snezi-s04e08-zrada.mkv",
@@ -187997,15 +187991,22 @@
         "display_name": "Snowfall S04E08 Betrayal 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:36:52.164260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743789",
-        "size_bytes": 3035895495
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743789",
+          "size_bytes": 3035895495,
+          "source_bytes_read": 3035895495,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28327730",
+        "source_url": "https://sdilej.cz/28327730/snezi-s04e08-zrada.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743789",
-        "size_bytes": 3035895495,
-        "source_bytes_read": 3035895495,
-        "http_status": 201
+        "display_name": "Snowfall S04E08 Betrayal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:42:58.413458+00:00"
       }
     },
     "3128:4:9": {
@@ -188132,5 +188133,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:42:52.497561+00:00"
+  "updated_at": "2026-11-02T22:42:58.413479+00:00"
 }
