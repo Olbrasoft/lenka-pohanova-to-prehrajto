@@ -161808,12 +161808,6 @@
     },
     "567:4:8": {
       "episode_key": "lovci zločinců:s4:e8",
-      "claim": {
-        "worker_id": "ec753a312e3545c8bf2a2fa05a5673cc-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T06:37:46.119677+00:00",
-        "lease_expires_at": "2026-11-02T12:37:46.119689+00:00"
-      },
       "source": {
         "source_id": "32301563",
         "source_url": "https://sdilej.cz/32301563/person-of-interest-s04e08.1080p.mkv",
@@ -161838,15 +161832,22 @@
         "display_name": "Person of Interest S04E08 Point of Origin 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:37:48.354093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30719180",
-        "size_bytes": 766386930
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30719180",
+          "size_bytes": 766386930,
+          "source_bytes_read": 766386930,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32301563",
+        "source_url": "https://sdilej.cz/32301563/person-of-interest-s04e08.1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30719180",
-        "size_bytes": 766386930,
-        "source_bytes_read": 766386930,
-        "http_status": 201
+        "display_name": "Person of Interest S04E08 Point of Origin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:41:42.436796+00:00"
       }
     },
     "567:4:9": {
@@ -162192,5 +162193,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:41:36.953524+00:00"
+  "updated_at": "2026-11-02T06:41:42.436814+00:00"
 }
