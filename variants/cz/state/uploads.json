@@ -188099,12 +188099,6 @@
     },
     "3128:5:1": {
       "episode_key": "sněží!:s5:e1",
-      "claim": {
-        "worker_id": "0c20e43a7fa344ffb8a6be39c5466a6b-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:42:40.363840+00:00",
-        "lease_expires_at": "2026-11-03T04:42:40.363852+00:00"
-      },
       "source": {
         "source_id": "28348633",
         "source_url": "https://sdilej.cz/28348633/snezi-s05e01-kometa.mkv",
@@ -188129,15 +188123,22 @@
         "display_name": "Snowfall S05E01 Comets 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:42:42.782529+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743893",
-        "size_bytes": 2890521430
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743893",
+          "size_bytes": 2890521430,
+          "source_bytes_read": 2890521430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28348633",
+        "source_url": "https://sdilej.cz/28348633/snezi-s05e01-kometa.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743893",
-        "size_bytes": 2890521430,
-        "source_bytes_read": 2890521430,
-        "http_status": 201
+        "display_name": "Snowfall S05E01 Comets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:45:54.650676+00:00"
       }
     },
     "3128:5:2": {
@@ -188183,5 +188184,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:45:52.670281+00:00"
+  "updated_at": "2026-11-02T22:45:54.650691+00:00"
 }
