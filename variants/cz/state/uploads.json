@@ -168276,12 +168276,6 @@
     },
     "3401:1:8": {
       "episode_key": "soví dům:s1:e8",
-      "claim": {
-        "worker_id": "9392eaa84ed54cf489674c8ddfa8d4f2-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:59:07.169429+00:00",
-        "lease_expires_at": "2026-11-02T17:59:07.169438+00:00"
-      },
       "source": {
         "source_id": "25219526",
         "source_url": "https://sdilej.cz/25219526/sovi-dum-s01e08-cz.mkv",
@@ -168306,15 +168300,22 @@
         "display_name": "The Owl House S01E08 Once Upon a Swap 720p CZ Dabing",
         "prepared_at": "2026-11-02T11:59:15.044051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30728852",
-        "size_bytes": 540367050
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30728852",
+          "size_bytes": 540367050,
+          "source_bytes_read": 540367050,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25219526",
+        "source_url": "https://sdilej.cz/25219526/sovi-dum-s01e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30728852",
-        "size_bytes": 540367050,
-        "source_bytes_read": 540367050,
-        "http_status": 201
+        "display_name": "The Owl House S01E08 Once Upon a Swap 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:00:22.916076+00:00"
       }
     },
     "3401:1:9": {
@@ -168404,5 +168405,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:00:19.336406+00:00"
+  "updated_at": "2026-11-02T12:00:22.916094+00:00"
 }
