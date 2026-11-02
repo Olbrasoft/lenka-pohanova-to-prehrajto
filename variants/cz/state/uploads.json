@@ -155208,12 +155208,6 @@
     },
     "1103:6:8": {
       "episode_key": "zpátky do školy:s6:e8",
-      "claim": {
-        "worker_id": "ed64217797f44c309687cf5db25ab2bd-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:24:36.178703+00:00",
-        "lease_expires_at": "2026-11-02T08:24:36.178716+00:00"
-      },
       "source": {
         "source_id": "11746412",
         "source_url": "https://sdilej.cz/11746412/zpatky-do-skoly-s06e08-uvod-do-recyklovane-kinematografie.mp4",
@@ -155238,15 +155232,22 @@
         "display_name": "Community S06E08 Intro to Recycled Cinema SD CZ Dabing",
         "prepared_at": "2026-11-02T02:24:40.016374+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713663",
-        "size_bytes": 284082020
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713663",
+          "size_bytes": 284082020,
+          "source_bytes_read": 284082020,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11746412",
+        "source_url": "https://sdilej.cz/11746412/zpatky-do-skoly-s06e08-uvod-do-recyklovane-kinematografie.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713663",
-        "size_bytes": 284082020,
-        "source_bytes_read": 284082020,
-        "http_status": 201
+        "display_name": "Community S06E08 Intro to Recycled Cinema SD CZ Dabing",
+        "uploaded_at": "2026-11-02T02:25:18.022784+00:00"
       }
     },
     "1103:6:12": {
@@ -155292,5 +155293,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:25:16.321036+00:00"
+  "updated_at": "2026-11-02T02:25:18.022800+00:00"
 }
