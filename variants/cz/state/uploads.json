@@ -170630,12 +170630,6 @@
     },
     "108:2:13": {
       "episode_key": "m a s h:s2:e13",
-      "claim": {
-        "worker_id": "b5cf5af073bd4899989385ffea959aa2-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T13:00:37.012094+00:00",
-        "lease_expires_at": "2026-11-02T19:00:37.012119+00:00"
-      },
       "source": {
         "source_id": "32914661",
         "source_url": "https://sdilej.cz/32914661/m-a-s-h-s02e13.mp4",
@@ -170660,15 +170654,22 @@
         "display_name": "M*A*S*H S02E13 Deal Me Out 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:00:44.519466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731958",
-        "size_bytes": 400361087
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731958",
+          "size_bytes": 400361087,
+          "source_bytes_read": 400361087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32914661",
+        "source_url": "https://sdilej.cz/32914661/m-a-s-h-s02e13.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731958",
-        "size_bytes": 400361087,
-        "source_bytes_read": 400361087,
-        "http_status": 201
+        "display_name": "M*A*S*H S02E13 Deal Me Out 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:01:40.003175+00:00"
       }
     },
     "108:2:14": {
@@ -170757,5 +170758,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:01:37.787986+00:00"
+  "updated_at": "2026-11-02T13:01:40.003193+00:00"
 }
