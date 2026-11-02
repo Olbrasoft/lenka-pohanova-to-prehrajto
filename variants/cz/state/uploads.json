@@ -187608,12 +187608,6 @@
     },
     "3128:3:8": {
       "episode_key": "sněží!:s3:e8",
-      "claim": {
-        "worker_id": "c3ab0c3b94df4214a0cdde86a0dda60f-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:20:32.746765+00:00",
-        "lease_expires_at": "2026-11-03T04:20:32.746777+00:00"
-      },
       "source": {
         "source_id": "28326320",
         "source_url": "https://sdilej.cz/28326320/snezi-s03e08-jezci.mkv",
@@ -187638,15 +187632,22 @@
         "display_name": "Snowfall S03E08 Hedgehogs 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:20:35.364109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743498",
-        "size_bytes": 2751453397
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743498",
+          "size_bytes": 2751453397,
+          "source_bytes_read": 2751453397,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326320",
+        "source_url": "https://sdilej.cz/28326320/snezi-s03e08-jezci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743498",
-        "size_bytes": 2751453397,
-        "source_bytes_read": 2751453397,
-        "http_status": 201
+        "display_name": "Snowfall S03E08 Hedgehogs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:24:17.567948+00:00"
       }
     }
   },
@@ -187655,5 +187656,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:24:12.359364+00:00"
+  "updated_at": "2026-11-02T22:24:17.567968+00:00"
 }
