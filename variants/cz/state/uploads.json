@@ -175659,12 +175659,6 @@
     },
     "108:8:13": {
       "episode_key": "m a s h:s8:e13",
-      "claim": {
-        "worker_id": "ea2c8ff37ce640e6bdb69c09fb5ce005-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:00:54.891525+00:00",
-        "lease_expires_at": "2026-11-02T21:00:54.891536+00:00"
-      },
       "source": {
         "source_id": "34979058",
         "source_url": "https://sdilej.cz/34979058/m.a.s.h-s08e13-bitva-o-kapitana.mkv",
@@ -175689,15 +175683,22 @@
         "display_name": "M*A*S*H S08E13 Captains Outrageous 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:00:57.629853+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734665",
-        "size_bytes": 764387396
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734665",
+          "size_bytes": 764387396,
+          "source_bytes_read": 764387396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979058",
+        "source_url": "https://sdilej.cz/34979058/m.a.s.h-s08e13-bitva-o-kapitana.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734665",
-        "size_bytes": 764387396,
-        "source_bytes_read": 764387396,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E13 Captains Outrageous 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:02:20.648089+00:00"
       }
     },
     "108:8:14": {
@@ -175750,5 +175751,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:02:18.542808+00:00"
+  "updated_at": "2026-11-02T15:02:20.648104+00:00"
 }
