@@ -155516,12 +155516,6 @@
     },
     "60:1:8": {
       "episode_key": "hannibal:s1:e8",
-      "claim": {
-        "worker_id": "c63f4a01a20042ac92f3b24e13b51ffc-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:29:39.514191+00:00",
-        "lease_expires_at": "2026-11-02T08:29:39.514203+00:00"
-      },
       "source": {
         "source_id": "27941337",
         "source_url": "https://sdilej.cz/27941337/hannibal-s01e08-cz.mkv",
@@ -155546,15 +155540,22 @@
         "display_name": "Hannibal S01E08 Fromage 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:29:42.978623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713761",
-        "size_bytes": 1643166863
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713761",
+          "size_bytes": 1643166863,
+          "source_bytes_read": 1643166863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27941337",
+        "source_url": "https://sdilej.cz/27941337/hannibal-s01e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713761",
-        "size_bytes": 1643166863,
-        "source_bytes_read": 1643166863,
-        "http_status": 201
+        "display_name": "Hannibal S01E08 Fromage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:31:49.853319+00:00"
       }
     },
     "60:1:9": {
@@ -155633,5 +155634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:31:47.111392+00:00"
+  "updated_at": "2026-11-02T02:31:49.853337+00:00"
 }
