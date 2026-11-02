@@ -149136,12 +149136,6 @@
     },
     "1074:1:1": {
       "episode_key": "zákon gangu:s1:e1",
-      "claim": {
-        "worker_id": "21fe575e3921409580d3588a98d09830-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-01T23:59:15.509624+00:00",
-        "lease_expires_at": "2026-11-02T05:59:15.509633+00:00"
-      },
       "source": {
         "source_id": "33473774",
         "source_url": "https://sdilej.cz/33473774/sons-of-anarchy-s01e01-1080p-cz-pilot.mkv",
@@ -149166,15 +149160,22 @@
         "display_name": "Sons of Anarchy S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-01T23:59:20.546161+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710608",
-        "size_bytes": 690984323
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710608",
+          "size_bytes": 690984323,
+          "source_bytes_read": 690984323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33473774",
+        "source_url": "https://sdilej.cz/33473774/sons-of-anarchy-s01e01-1080p-cz-pilot.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710608",
-        "size_bytes": 690984323,
-        "source_bytes_read": 690984323,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:00:26.129898+00:00"
       }
     },
     "1074:1:2": {
@@ -149257,5 +149258,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:00:22.447894+00:00"
+  "updated_at": "2026-11-02T00:00:26.129914+00:00"
 }
