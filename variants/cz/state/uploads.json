@@ -189363,12 +189363,6 @@
     },
     "6815:3:4": {
       "episode_key": "foylova válka:s3:e4",
-      "claim": {
-        "worker_id": "139ed276925b4d24b59f4a5526aaf546-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:38:54.025260+00:00",
-        "lease_expires_at": "2026-11-03T05:38:54.025269+00:00"
-      },
       "source": {
         "source_id": "22281391",
         "source_url": "https://sdilej.cz/22281391/foylova-valka-s03e04-czdab.avi",
@@ -189393,15 +189387,22 @@
         "display_name": "Foyle's War S03E04 A War of Nerves SD CZ Dabing",
         "prepared_at": "2026-11-02T23:38:58.202595+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30744953",
-        "size_bytes": 1055338580
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30744953",
+          "size_bytes": 1055338580,
+          "source_bytes_read": 1055338580,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281391",
+        "source_url": "https://sdilej.cz/22281391/foylova-valka-s03e04-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30744953",
-        "size_bytes": 1055338580,
-        "source_bytes_read": 1055338580,
-        "http_status": 201
+        "display_name": "Foyle's War S03E04 A War of Nerves SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:40:21.380654+00:00"
       }
     },
     "6815:4:1": {
@@ -189446,5 +189447,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:40:17.897179+00:00"
+  "updated_at": "2026-11-02T23:40:21.380671+00:00"
 }
