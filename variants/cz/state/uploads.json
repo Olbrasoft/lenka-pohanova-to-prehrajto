@@ -174999,12 +174999,6 @@
     },
     "108:7:23": {
       "episode_key": "m a s h:s7:e23",
-      "claim": {
-        "worker_id": "b759264564e14f67ab61660ddc2bfb4d-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:55:14.871796+00:00",
-        "lease_expires_at": "2026-11-02T20:55:14.871806+00:00"
-      },
       "source": {
         "source_id": "34978961",
         "source_url": "https://sdilej.cz/34978961/m.a.s.h-s07e23-preventivni-lecba.mkv",
@@ -175029,15 +175023,22 @@
         "display_name": "M*A*S*H S07E23 A Night at Rosie's 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:55:21.302978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734491",
-        "size_bytes": 772208935
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734491",
+          "size_bytes": 772208935,
+          "source_bytes_read": 772208935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978961",
+        "source_url": "https://sdilej.cz/34978961/m.a.s.h-s07e23-preventivni-lecba.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734491",
-        "size_bytes": 772208935,
-        "source_bytes_read": 772208935,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E23 A Night at Rosie's 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:56:50.090842+00:00"
       }
     },
     "108:7:24": {
@@ -175220,5 +175221,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:56:48.023619+00:00"
+  "updated_at": "2026-11-02T14:56:50.090856+00:00"
 }
