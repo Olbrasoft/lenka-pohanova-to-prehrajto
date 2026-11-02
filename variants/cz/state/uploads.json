@@ -177639,12 +177639,6 @@
     },
     "108:10:20": {
       "episode_key": "m a s h:s10:e20",
-      "claim": {
-        "worker_id": "85fe74754a054dc183a6f63366bd991b-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:56:40.954599+00:00",
-        "lease_expires_at": "2026-11-02T21:56:40.954609+00:00"
-      },
       "source": {
         "source_id": "34979571",
         "source_url": "https://sdilej.cz/34979571/m.a.s.h-s10e20-synove-a-kuzelkari.mkv",
@@ -177669,15 +177663,22 @@
         "display_name": "M*A*S*H S10E20 Picture This 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:56:48.430580+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735741",
-        "size_bytes": 747082807
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735741",
+          "size_bytes": 747082807,
+          "source_bytes_read": 747082807,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979571",
+        "source_url": "https://sdilej.cz/34979571/m.a.s.h-s10e20-synove-a-kuzelkari.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735741",
-        "size_bytes": 747082807,
-        "source_bytes_read": 747082807,
-        "http_status": 201
+        "display_name": "M*A*S*H S10E20 Picture This 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:58:08.683004+00:00"
       }
     },
     "108:10:21": {
@@ -177756,5 +177757,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:58:03.676754+00:00"
+  "updated_at": "2026-11-02T15:58:08.683019+00:00"
 }
