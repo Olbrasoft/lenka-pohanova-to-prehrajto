@@ -173723,12 +173723,6 @@
     },
     "108:6:13": {
       "episode_key": "m a s h:s6:e13",
-      "claim": {
-        "worker_id": "33670d30616943138e5c75c0d5c6a6da-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:10:41.626806+00:00",
-        "lease_expires_at": "2026-11-02T20:10:41.626817+00:00"
-      },
       "source": {
         "source_id": "34978844",
         "source_url": "https://sdilej.cz/34978844/m.a.s.h-s06e13-kamaradi-ve-zbrani-1.cast.mkv",
@@ -173753,15 +173747,22 @@
         "display_name": "M*A*S*H S06E13 Comrades in Arms: Part 2 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:10:44.439945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733527",
-        "size_bytes": 781698580
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733527",
+          "size_bytes": 781698580,
+          "source_bytes_read": 781698580,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978844",
+        "source_url": "https://sdilej.cz/34978844/m.a.s.h-s06e13-kamaradi-ve-zbrani-1.cast.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733527",
-        "size_bytes": 781698580,
-        "source_bytes_read": 781698580,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E13 Comrades in Arms: Part 2 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:13:51.593935+00:00"
       }
     },
     "108:6:14": {
@@ -173948,5 +173949,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:13:49.562819+00:00"
+  "updated_at": "2026-11-02T14:13:51.593953+00:00"
 }
