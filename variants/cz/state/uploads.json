@@ -175791,12 +175791,6 @@
     },
     "108:8:16": {
       "episode_key": "m a s h:s8:e16",
-      "claim": {
-        "worker_id": "1237bf454075424fa50e4daecae1e461-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:03:25.390349+00:00",
-        "lease_expires_at": "2026-11-02T21:03:25.390359+00:00"
-      },
       "source": {
         "source_id": "34979082",
         "source_url": "https://sdilej.cz/34979082/m.a.s.h-s08e16-vycerpana-lahev.mkv",
@@ -175821,15 +175815,22 @@
         "display_name": "M*A*S*H S08E16 Bottle Fatigue 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:03:27.917543+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734722",
-        "size_bytes": 762069790
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734722",
+          "size_bytes": 762069790,
+          "source_bytes_read": 762069790,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979082",
+        "source_url": "https://sdilej.cz/34979082/m.a.s.h-s08e16-vycerpana-lahev.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734722",
-        "size_bytes": 762069790,
-        "source_bytes_read": 762069790,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E16 Bottle Fatigue 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:05:06.565897+00:00"
       }
     }
   },
@@ -175838,5 +175839,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:05:04.496543+00:00"
+  "updated_at": "2026-11-02T15:05:06.565940+00:00"
 }
