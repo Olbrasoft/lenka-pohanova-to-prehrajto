@@ -171019,12 +171019,6 @@
     },
     "108:2:22": {
       "episode_key": "m a s h:s2:e22",
-      "claim": {
-        "worker_id": "5daf10a984be441f82523831e74bf187-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T13:04:05.783629+00:00",
-        "lease_expires_at": "2026-11-02T19:04:05.783640+00:00"
-      },
       "source": {
         "source_id": "32914975",
         "source_url": "https://sdilej.cz/32914975/m-a-s-h-s02e22.mp4",
@@ -171048,7 +171042,13 @@
         },
         "display_name": "M*A*S*H S02E22 George 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:04:08.562197+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-02T13:04:24.297653+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "108:2:23": {
       "episode_key": "m a s h:s2:e23",
@@ -171065,5 +171065,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:04:20.294770+00:00"
+  "updated_at": "2026-11-02T13:04:24.297676+00:00"
 }
