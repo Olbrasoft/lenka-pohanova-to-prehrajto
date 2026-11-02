@@ -172616,12 +172616,6 @@
     },
     "108:4:20": {
       "episode_key": "m a s h:s4:e20",
-      "claim": {
-        "worker_id": "5a3d49aa95ea4e09b7ef11c7bb520d11-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:56:05.368730+00:00",
-        "lease_expires_at": "2026-11-02T19:56:05.368742+00:00"
-      },
       "source": {
         "source_id": "32915197",
         "source_url": "https://sdilej.cz/32915197/m-a-s-h-s04e20.mkv",
@@ -172646,15 +172640,22 @@
         "display_name": "M*A*S*H S04E20 The Novocaine Mutiny SD CZ Dabing",
         "prepared_at": "2026-11-02T13:56:08.072759+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733144",
-        "size_bytes": 311208023
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733144",
+          "size_bytes": 311208023,
+          "source_bytes_read": 311208023,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32915197",
+        "source_url": "https://sdilej.cz/32915197/m-a-s-h-s04e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733144",
-        "size_bytes": 311208023,
-        "source_bytes_read": 311208023,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E20 The Novocaine Mutiny SD CZ Dabing",
+        "uploaded_at": "2026-11-02T13:57:32.642180+00:00"
       }
     },
     "108:4:23": {
@@ -172707,5 +172708,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:57:28.372408+00:00"
+  "updated_at": "2026-11-02T13:57:32.642192+00:00"
 }
