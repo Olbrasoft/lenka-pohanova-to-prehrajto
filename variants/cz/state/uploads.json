@@ -189540,12 +189540,6 @@
     },
     "6815:5:2": {
       "episode_key": "foylova válka:s5:e2",
-      "claim": {
-        "worker_id": "3e7260a10e7e436181e297d34cdf378d-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:41:18.662431+00:00",
-        "lease_expires_at": "2026-11-03T05:41:18.662446+00:00"
-      },
       "source": {
         "source_id": "30323112",
         "source_url": "https://sdilej.cz/30323112/foylova-valka-05x02-obeti-valky-2007-krimi-serial-czdab.avi",
@@ -189570,15 +189564,22 @@
         "display_name": "Foyle's War S05E02 Casualties of War SD CZ Dabing",
         "prepared_at": "2026-11-02T23:41:20.999673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745016",
-        "size_bytes": 1021089792
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745016",
+          "size_bytes": 1021089792,
+          "source_bytes_read": 1021089792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30323112",
+        "source_url": "https://sdilej.cz/30323112/foylova-valka-05x02-obeti-valky-2007-krimi-serial-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745016",
-        "size_bytes": 1021089792,
-        "source_bytes_read": 1021089792,
-        "http_status": 201
+        "display_name": "Foyle's War S05E02 Casualties of War SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:43:32.387068+00:00"
       }
     },
     "6815:6:1": {
@@ -189745,5 +189746,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:43:29.452567+00:00"
+  "updated_at": "2026-11-02T23:43:32.387082+00:00"
 }
