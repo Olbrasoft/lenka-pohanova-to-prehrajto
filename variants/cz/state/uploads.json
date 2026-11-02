@@ -154591,12 +154591,6 @@
     },
     "1103:4:6": {
       "episode_key": "zpátky do školy:s4:e6",
-      "claim": {
-        "worker_id": "c953254012224236b70106ae23dd4691-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:16:38.745254+00:00",
-        "lease_expires_at": "2026-11-02T08:16:38.745265+00:00"
-      },
       "source": {
         "source_id": "11746374",
         "source_url": "https://sdilej.cz/11746374/zpatky-do-skoly-s04e06.avi",
@@ -154621,15 +154615,22 @@
         "display_name": "Community S04E06 Advanced Documentary Filmmaking SD CZ Dabing",
         "prepared_at": "2026-11-02T02:16:42.720893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713457",
-        "size_bytes": 391461290
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713457",
+          "size_bytes": 391461290,
+          "source_bytes_read": 391461290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11746374",
+        "source_url": "https://sdilej.cz/11746374/zpatky-do-skoly-s04e06.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713457",
-        "size_bytes": 391461290,
-        "source_bytes_read": 391461290,
-        "http_status": 201
+        "display_name": "Community S04E06 Advanced Documentary Filmmaking SD CZ Dabing",
+        "uploaded_at": "2026-11-02T02:17:33.298266+00:00"
       }
     },
     "1103:4:10": {
@@ -154675,5 +154676,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:17:29.804063+00:00"
+  "updated_at": "2026-11-02T02:17:33.298283+00:00"
 }
