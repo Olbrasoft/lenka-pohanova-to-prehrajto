@@ -167528,12 +167528,6 @@
     },
     "280:3:5": {
       "episode_key": "srdcerváči:s3:e5",
-      "claim": {
-        "worker_id": "5d9f96d41b69409bb76be9fa7d7ec66f-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:42:31.501213+00:00",
-        "lease_expires_at": "2026-11-02T17:42:31.501224+00:00"
-      },
       "source": {
         "source_id": "29875999",
         "source_url": "https://sdilej.cz/29875999/srdcervaci-s03e05-1080p-cz-dabing.mkv",
@@ -167558,15 +167552,22 @@
         "display_name": "Heartstopper S03E05 Winter 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:42:33.992194+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726826",
-        "size_bytes": 755028076
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726826",
+          "size_bytes": 755028076,
+          "source_bytes_read": 755028076,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875999",
+        "source_url": "https://sdilej.cz/29875999/srdcervaci-s03e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726826",
-        "size_bytes": 755028076,
-        "source_bytes_read": 755028076,
-        "http_status": 201
+        "display_name": "Heartstopper S03E05 Winter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:44:09.440890+00:00"
       }
     },
     "280:3:6": {
@@ -167649,5 +167650,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:44:05.504885+00:00"
+  "updated_at": "2026-11-02T11:44:09.440907+00:00"
 }
