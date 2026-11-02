@@ -189672,12 +189672,6 @@
     },
     "6815:7:1": {
       "episode_key": "foylova válka:s7:e1",
-      "claim": {
-        "worker_id": "2905b2061a2e4fe8b4a84f1cc0209504-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:42:51.740215+00:00",
-        "lease_expires_at": "2026-11-03T05:42:51.740226+00:00"
-      },
       "source": {
         "source_id": "22281483",
         "source_url": "https://sdilej.cz/22281483/foylova-valka-s07e01-czdab.avi",
@@ -189702,15 +189696,22 @@
         "display_name": "Foyle's War S07E01 The Russian House SD CZ Dabing",
         "prepared_at": "2026-11-02T23:42:54.020511+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745055",
-        "size_bytes": 1036169068
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745055",
+          "size_bytes": 1036169068,
+          "source_bytes_read": 1036169068,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281483",
+        "source_url": "https://sdilej.cz/22281483/foylova-valka-s07e01-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745055",
-        "size_bytes": 1036169068,
-        "source_bytes_read": 1036169068,
-        "http_status": 201
+        "display_name": "Foyle's War S07E01 The Russian House SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:45:13.812825+00:00"
       }
     },
     "6815:7:2": {
@@ -189799,5 +189800,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:45:11.914921+00:00"
+  "updated_at": "2026-11-02T23:45:13.812842+00:00"
 }
