@@ -162248,12 +162248,6 @@
     },
     "567:4:20": {
       "episode_key": "lovci zločinců:s4:e20",
-      "claim": {
-        "worker_id": "d5c6e3cf23ba4f9291a226bcdfe94333-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T06:42:10.762472+00:00",
-        "lease_expires_at": "2026-11-02T12:42:10.762483+00:00"
-      },
       "source": {
         "source_id": "32300738",
         "source_url": "https://sdilej.cz/32300738/lovci-zlocincu-s04e20-cz-dabing.mkv",
@@ -162278,15 +162272,22 @@
         "display_name": "Person of Interest S04E20 Terra Incognita 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:42:14.974405+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30719256",
-        "size_bytes": 773723562
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30719256",
+          "size_bytes": 773723562,
+          "source_bytes_read": 773723562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300738",
+        "source_url": "https://sdilej.cz/32300738/lovci-zlocincu-s04e20-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30719256",
-        "size_bytes": 773723562,
-        "source_bytes_read": 773723562,
-        "http_status": 201
+        "display_name": "Person of Interest S04E20 Terra Incognita 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:43:40.148676+00:00"
       }
     },
     "567:4:21": {
@@ -162409,5 +162410,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:43:38.323787+00:00"
+  "updated_at": "2026-11-02T06:43:40.148691+00:00"
 }
