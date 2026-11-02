@@ -187747,12 +187747,6 @@
     },
     "3128:4:1": {
       "episode_key": "sněží!:s4:e1",
-      "claim": {
-        "worker_id": "575ade88a2734e25870b0be3afa9e51f-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:26:17.519347+00:00",
-        "lease_expires_at": "2026-11-03T04:26:17.519359+00:00"
-      },
       "source": {
         "source_id": "28326713",
         "source_url": "https://sdilej.cz/28326713/snezi-s04e01-navrat-do-hry.mkv",
@@ -187777,15 +187771,22 @@
         "display_name": "Snowfall S04E01 Re-Entry 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:26:20.392375+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743637",
-        "size_bytes": 3017346131
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743637",
+          "size_bytes": 3017346131,
+          "source_bytes_read": 3017346131,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326713",
+        "source_url": "https://sdilej.cz/28326713/snezi-s04e01-navrat-do-hry.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743637",
-        "size_bytes": 3017346131,
-        "source_bytes_read": 3017346131,
-        "http_status": 201
+        "display_name": "Snowfall S04E01 Re-Entry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:29:54.859968+00:00"
       }
     },
     "3128:4:2": {
@@ -187831,5 +187832,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:29:50.244586+00:00"
+  "updated_at": "2026-11-02T22:29:54.859986+00:00"
 }
