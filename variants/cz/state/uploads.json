@@ -175256,12 +175256,6 @@
     },
     "108:8:4": {
       "episode_key": "m a s h:s8:e4",
-      "claim": {
-        "worker_id": "36c076e501d947039b46e61819d22604-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:57:05.296268+00:00",
-        "lease_expires_at": "2026-11-02T20:57:05.296279+00:00"
-      },
       "source": {
         "source_id": "30306879",
         "source_url": "https://sdilej.cz/30306879/mash-s08e04-czdab.mp4",
@@ -175286,15 +175280,22 @@
         "display_name": "M*A*S*H S08E04 Good-Bye Radar: Part 1 SD CZ Dabing",
         "prepared_at": "2026-11-02T14:57:11.692857+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734559",
-        "size_bytes": 203849860
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734559",
+          "size_bytes": 203849860,
+          "source_bytes_read": 203849860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306879",
+        "source_url": "https://sdilej.cz/30306879/mash-s08e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734559",
-        "size_bytes": 203849860,
-        "source_bytes_read": 203849860,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E04 Good-Bye Radar: Part 1 SD CZ Dabing",
+        "uploaded_at": "2026-11-02T14:57:52.461328+00:00"
       }
     },
     "108:8:5": {
@@ -175346,5 +175347,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:57:48.508539+00:00"
+  "updated_at": "2026-11-02T14:57:52.461343+00:00"
 }
