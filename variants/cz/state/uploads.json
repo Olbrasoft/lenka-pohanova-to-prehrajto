@@ -170333,12 +170333,6 @@
     },
     "108:2:6": {
       "episode_key": "m a s h:s2:e6",
-      "claim": {
-        "worker_id": "cb343308375f4c9ca85e6734ebc00df8-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:54:20.915028+00:00",
-        "lease_expires_at": "2026-11-02T18:54:20.915040+00:00"
-      },
       "source": {
         "source_id": "8280245",
         "source_url": "https://sdilej.cz/8280245/mash-s02e06-czdab.avi",
@@ -170363,15 +170357,22 @@
         "display_name": "M*A*S*H S02E06 Kim SD CZ Dabing",
         "prepared_at": "2026-11-02T12:54:25.010192+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731843",
-        "size_bytes": 191086592
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731843",
+          "size_bytes": 191086592,
+          "source_bytes_read": 191086592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8280245",
+        "source_url": "https://sdilej.cz/8280245/mash-s02e06-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731843",
-        "size_bytes": 191086592,
-        "source_bytes_read": 191086592,
-        "http_status": 201
+        "display_name": "M*A*S*H S02E06 Kim SD CZ Dabing",
+        "uploaded_at": "2026-11-02T12:55:03.862399+00:00"
       }
     },
     "108:2:7": {
@@ -170446,5 +170447,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:55:01.722790+00:00"
+  "updated_at": "2026-11-02T12:55:03.862413+00:00"
 }
