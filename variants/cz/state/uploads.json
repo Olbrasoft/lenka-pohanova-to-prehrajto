@@ -173063,12 +173063,6 @@
     },
     "108:5:13": {
       "episode_key": "m a s h:s5:e13",
-      "claim": {
-        "worker_id": "d287803c726e4f2facf84338f6393bc6-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:04:51.555257+00:00",
-        "lease_expires_at": "2026-11-02T20:04:51.555268+00:00"
-      },
       "source": {
         "source_id": "28258185",
         "source_url": "https://sdilej.cz/28258185/mash-s05e13-110-.vymitani.mkv",
@@ -173093,15 +173087,22 @@
         "display_name": "M*A*S*H S05E13 Hawk's Nightmare 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:04:55.814016+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733328",
-        "size_bytes": 190055157
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733328",
+          "size_bytes": 190055157,
+          "source_bytes_read": 190055157,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258185",
+        "source_url": "https://sdilej.cz/28258185/mash-s05e13-110-.vymitani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733328",
-        "size_bytes": 190055157,
-        "source_bytes_read": 190055157,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E13 Hawk's Nightmare 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:05:39.954973+00:00"
       }
     },
     "108:5:14": {
@@ -173154,5 +173155,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:05:37.778777+00:00"
+  "updated_at": "2026-11-02T14:05:39.954989+00:00"
 }
