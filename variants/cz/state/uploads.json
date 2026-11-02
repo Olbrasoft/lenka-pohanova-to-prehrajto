@@ -185151,12 +185151,6 @@
     },
     "1064:3:13": {
       "episode_key": "kauzy z bostonu:s3:e13",
-      "claim": {
-        "worker_id": "835b554217fb47899b0169eaa29390b6-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:36:35.028041+00:00",
-        "lease_expires_at": "2026-11-03T02:36:35.028052+00:00"
-      },
       "source": {
         "source_id": "30246068",
         "source_url": "https://sdilej.cz/30246068/boston-legal-kauzy-z-bostonu-s03e13-czdab.mp4",
@@ -185181,15 +185175,22 @@
         "display_name": "Boston Legal S03E13 Dumping Bella SD CZ Dabing",
         "prepared_at": "2026-11-02T20:36:39.415330+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741402",
-        "size_bytes": 546973106
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741402",
+          "size_bytes": 546973106,
+          "source_bytes_read": 546973106,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30246068",
+        "source_url": "https://sdilej.cz/30246068/boston-legal-kauzy-z-bostonu-s03e13-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741402",
-        "size_bytes": 546973106,
-        "source_bytes_read": 546973106,
-        "http_status": 201
+        "display_name": "Boston Legal S03E13 Dumping Bella SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:37:37.106666+00:00"
       }
     },
     "1064:3:14": {
@@ -185272,5 +185273,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:37:33.888048+00:00"
+  "updated_at": "2026-11-02T20:37:37.106682+00:00"
 }
