@@ -189577,12 +189577,6 @@
     },
     "6815:6:1": {
       "episode_key": "foylova válka:s6:e1",
-      "claim": {
-        "worker_id": "42c20e28e8b84046ac2246880e25eb78-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:41:45.755518+00:00",
-        "lease_expires_at": "2026-11-03T05:41:45.755530+00:00"
-      },
       "source": {
         "source_id": "22281436",
         "source_url": "https://sdilej.cz/22281436/foylova-valka-s06e01-czdab.avi",
@@ -189607,15 +189601,22 @@
         "display_name": "Foyle's War S06E01 Plan of Attack SD CZ Dabing",
         "prepared_at": "2026-11-02T23:41:49.413046+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745025",
-        "size_bytes": 633936022
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745025",
+          "size_bytes": 633936022,
+          "source_bytes_read": 633936022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281436",
+        "source_url": "https://sdilej.cz/22281436/foylova-valka-s06e01-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745025",
-        "size_bytes": 633936022,
-        "source_bytes_read": 633936022,
-        "http_status": 201
+        "display_name": "Foyle's War S06E01 Plan of Attack SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:42:43.037171+00:00"
       }
     },
     "6815:6:3": {
@@ -189661,5 +189662,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:42:39.745421+00:00"
+  "updated_at": "2026-11-02T23:42:43.037188+00:00"
 }
