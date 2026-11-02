@@ -182503,12 +182503,6 @@
     },
     "2120:6:3": {
       "episode_key": "všechny velké a malé bytosti:s6:e3",
-      "claim": {
-        "worker_id": "eff9b9e26400482aa85622e7e559ccbf-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:32:11.285710+00:00",
-        "lease_expires_at": "2026-11-03T01:32:11.285721+00:00"
-      },
       "source": {
         "source_id": "35009223",
         "source_url": "https://sdilej.cz/35009223/vsechny-velke-a-male-bytosti-s06e03-07-2025-cz-dabing-1080p-fhd-kapitan-fa.mkv",
@@ -182533,15 +182527,22 @@
         "display_name": "All Creatures Great & Small S06E03 Captain Farnon? 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:32:14.052385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740564",
-        "size_bytes": 2063889621
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740564",
+          "size_bytes": 2063889621,
+          "source_bytes_read": 2063889621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35009223",
+        "source_url": "https://sdilej.cz/35009223/vsechny-velke-a-male-bytosti-s06e03-07-2025-cz-dabing-1080p-fhd-kapitan-fa.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740564",
-        "size_bytes": 2063889621,
-        "source_bytes_read": 2063889621,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S06E03 Captain Farnon? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:36:03.092675+00:00"
       }
     },
     "2120:6:4": {
@@ -182624,5 +182625,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:35:57.706942+00:00"
+  "updated_at": "2026-11-02T19:36:03.092706+00:00"
 }
