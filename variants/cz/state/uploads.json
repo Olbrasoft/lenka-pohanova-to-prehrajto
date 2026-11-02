@@ -178024,12 +178024,6 @@
     },
     "108:11:15": {
       "episode_key": "m a s h:s11:e15",
-      "claim": {
-        "worker_id": "284612a949bf4680a4f9566745b7e7c8-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T16:00:26.113850+00:00",
-        "lease_expires_at": "2026-11-02T22:00:26.113859+00:00"
-      },
       "source": {
         "source_id": "32919271",
         "source_url": "https://sdilej.cz/32919271/m-a-s-h-s11e15-jak-jde-cas.mp4",
@@ -178054,15 +178048,22 @@
         "display_name": "M*A*S*H S11E15 As Time Goes By 720p CZ Dabing",
         "prepared_at": "2026-11-02T16:00:28.671301+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735807",
-        "size_bytes": 371612520
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735807",
+          "size_bytes": 371612520,
+          "source_bytes_read": 371612520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32919271",
+        "source_url": "https://sdilej.cz/32919271/m-a-s-h-s11e15-jak-jde-cas.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735807",
-        "size_bytes": 371612520,
-        "source_bytes_read": 371612520,
-        "http_status": 201
+        "display_name": "M*A*S*H S11E15 As Time Goes By 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T16:01:15.206248+00:00"
       }
     },
     "108:11:16": {
@@ -178108,5 +178109,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T16:01:10.306847+00:00"
+  "updated_at": "2026-11-02T16:01:15.206264+00:00"
 }
