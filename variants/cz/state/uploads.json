@@ -165240,12 +165240,6 @@
     },
     "1002:5:8": {
       "episode_key": "expanze:s5:e8",
-      "claim": {
-        "worker_id": "5e6ab7918856491e854c5a1072854397-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:42:12.842342+00:00",
-        "lease_expires_at": "2026-11-02T15:42:12.842356+00:00"
-      },
       "source": {
         "source_id": "29218325",
         "source_url": "https://sdilej.cz/29218325/expanze-s05e08-1080p-cz-dabing.mkv",
@@ -165270,15 +165264,22 @@
         "display_name": "The Expanse S05E08 Hard Vacuum 1080p CZ Dabing",
         "prepared_at": "2026-11-02T09:42:16.224891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30723237",
-        "size_bytes": 1246475507
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30723237",
+          "size_bytes": 1246475507,
+          "source_bytes_read": 1246475507,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218325",
+        "source_url": "https://sdilej.cz/29218325/expanze-s05e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30723237",
-        "size_bytes": 1246475507,
-        "source_bytes_read": 1246475507,
-        "http_status": 201
+        "display_name": "The Expanse S05E08 Hard Vacuum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T09:44:12.798701+00:00"
       }
     },
     "1002:5:9": {
@@ -165324,5 +165325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T09:44:10.948297+00:00"
+  "updated_at": "2026-11-02T09:44:12.798718+00:00"
 }
