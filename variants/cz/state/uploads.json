@@ -150662,12 +150662,6 @@
     },
     "1074:3:10": {
       "episode_key": "zákon gangu:s3:e10",
-      "claim": {
-        "worker_id": "7e0ff234a31f45639f4a75eac45028a1-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:17:01.750155+00:00",
-        "lease_expires_at": "2026-11-02T06:17:01.750167+00:00"
-      },
       "source": {
         "source_id": "33669827",
         "source_url": "https://sdilej.cz/33669827/sons-of-anarchy-s03e10-1080p-cz-pravda.mkv",
@@ -150692,15 +150686,22 @@
         "display_name": "Sons of Anarchy S03E10 Firinne 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:17:04.837810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710946",
-        "size_bytes": 555249099
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710946",
+          "size_bytes": 555249099,
+          "source_bytes_read": 555249099,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33669827",
+        "source_url": "https://sdilej.cz/33669827/sons-of-anarchy-s03e10-1080p-cz-pravda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710946",
-        "size_bytes": 555249099,
-        "source_bytes_read": 555249099,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S03E10 Firinne 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:17:43.881130+00:00"
       }
     }
   },
@@ -150709,5 +150710,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:17:39.634460+00:00"
+  "updated_at": "2026-11-02T00:17:43.881147+00:00"
 }
