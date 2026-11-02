@@ -179517,12 +179517,6 @@
     },
     "635:5:8": {
       "episode_key": "f1: touha po vítězství:s5:e8",
-      "claim": {
-        "worker_id": "1d68c0316b3a42ad8626f347ab03096f-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T17:03:54.710104+00:00",
-        "lease_expires_at": "2026-11-02T23:03:54.710113+00:00"
-      },
       "source": {
         "source_id": "31554411",
         "source_url": "https://sdilej.cz/31554411/f1-touha-po-vitezstvi-s05e08-alfa-samec.mkv",
@@ -179547,15 +179541,22 @@
         "display_name": "Formula 1: Drive to Survive S05E08 Alpha Male 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:03:57.714983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30737184",
-        "size_bytes": 1250070640
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30737184",
+          "size_bytes": 1250070640,
+          "source_bytes_read": 1250070640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554411",
+        "source_url": "https://sdilej.cz/31554411/f1-touha-po-vitezstvi-s05e08-alfa-samec.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30737184",
-        "size_bytes": 1250070640,
-        "source_bytes_read": 1250070640,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S05E08 Alpha Male 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:05:46.204144+00:00"
       }
     },
     "635:5:9": {
@@ -179601,5 +179602,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:05:40.008639+00:00"
+  "updated_at": "2026-11-02T17:05:46.204160+00:00"
 }
