@@ -161016,12 +161016,6 @@
     },
     "567:3:10": {
       "episode_key": "lovci zločinců:s3:e10",
-      "claim": {
-        "worker_id": "90fca78c80fb45a6b9af47db488d1606-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:20:16.232466+00:00",
-        "lease_expires_at": "2026-11-02T12:20:16.232477+00:00"
-      },
       "source": {
         "source_id": "30661607",
         "source_url": "https://sdilej.cz/30661607/lovci-zlocincu-person-of-interest-s03e10-bluray-1080p-10bit-ac3-x265-hevc-qman-utr-czaudio-.mkv",
@@ -161046,15 +161040,22 @@
         "display_name": "Person of Interest S03E10 The Devil's Share 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:20:20.186180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718806",
-        "size_bytes": 591999111
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718806",
+          "size_bytes": 591999111,
+          "source_bytes_read": 591999111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661607",
+        "source_url": "https://sdilej.cz/30661607/lovci-zlocincu-person-of-interest-s03e10-bluray-1080p-10bit-ac3-x265-hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718806",
-        "size_bytes": 591999111,
-        "source_bytes_read": 591999111,
-        "http_status": 201
+        "display_name": "Person of Interest S03E10 The Devil's Share 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:21:39.363133+00:00"
       }
     },
     "567:3:11": {
@@ -161137,5 +161138,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:21:34.979403+00:00"
+  "updated_at": "2026-11-02T06:21:39.363149+00:00"
 }
