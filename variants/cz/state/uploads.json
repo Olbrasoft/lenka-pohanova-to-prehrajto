@@ -175175,12 +175175,6 @@
     },
     "108:8:2": {
       "episode_key": "m a s h:s8:e2",
-      "claim": {
-        "worker_id": "4f82b37444fb42e8887e477c23faad9b-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:56:12.576621+00:00",
-        "lease_expires_at": "2026-11-02T20:56:12.576631+00:00"
-      },
       "source": {
         "source_id": "30306876",
         "source_url": "https://sdilej.cz/30306876/mash-s08e02-czdab.mp4",
@@ -175205,15 +175199,22 @@
         "display_name": "M*A*S*H S08E02 Are You Now, Margaret? SD CZ Dabing",
         "prepared_at": "2026-11-02T14:56:17.328229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734528",
-        "size_bytes": 215572243
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734528",
+          "size_bytes": 215572243,
+          "source_bytes_read": 215572243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306876",
+        "source_url": "https://sdilej.cz/30306876/mash-s08e02-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734528",
-        "size_bytes": 215572243,
-        "source_bytes_read": 215572243,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E02 Are You Now, Margaret? SD CZ Dabing",
+        "uploaded_at": "2026-11-02T14:56:54.534766+00:00"
       }
     }
   },
@@ -175222,5 +175223,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:56:52.388240+00:00"
+  "updated_at": "2026-11-02T14:56:54.534782+00:00"
 }
