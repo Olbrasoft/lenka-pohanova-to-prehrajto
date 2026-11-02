@@ -154108,12 +154108,6 @@
     },
     "1103:2:12": {
       "episode_key": "zpátky do školy:s2:e12",
-      "claim": {
-        "worker_id": "4128eea4e1a640dcbe8f29886824489c-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:10:26.175346+00:00",
-        "lease_expires_at": "2026-11-02T08:10:26.175357+00:00"
-      },
       "source": {
         "source_id": "34816443",
         "source_url": "https://sdilej.cz/34816443/zpatky-do-skoly-s02e12-24-2010-cz-dabing-1080p-fhd-studie-asijske-populace.mkv",
@@ -154138,15 +154132,22 @@
         "display_name": "Community S02E12 Asian Population Studies 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:10:28.420630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713359",
-        "size_bytes": 769381350
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713359",
+          "size_bytes": 769381350,
+          "source_bytes_read": 769381350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816443",
+        "source_url": "https://sdilej.cz/34816443/zpatky-do-skoly-s02e12-24-2010-cz-dabing-1080p-fhd-studie-asijske-populace.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713359",
-        "size_bytes": 769381350,
-        "source_bytes_read": 769381350,
-        "http_status": 201
+        "display_name": "Community S02E12 Asian Population Studies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:13:06.273901+00:00"
       }
     },
     "1103:2:14": {
@@ -154273,5 +154274,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:13:02.166180+00:00"
+  "updated_at": "2026-11-02T02:13:06.273915+00:00"
 }
