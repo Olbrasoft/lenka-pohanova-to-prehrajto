@@ -181230,12 +181230,6 @@
     },
     "2120:2:2": {
       "episode_key": "všechny velké a malé bytosti:s2:e2",
-      "claim": {
-        "worker_id": "d7338a1c757a4d5588a57e0c51682af0-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:56:39.269456+00:00",
-        "lease_expires_at": "2026-11-03T00:56:39.269465+00:00"
-      },
       "source": {
         "source_id": "27443921",
         "source_url": "https://sdilej.cz/27443921/vsechny.velke.a.male.bytosti.02x02-stale-kupredu.mkv",
@@ -181260,15 +181254,22 @@
         "display_name": "All Creatures Great & Small S02E02 Semper Progrediens 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:56:41.923277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30739669",
-        "size_bytes": 561262311
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30739669",
+          "size_bytes": 561262311,
+          "source_bytes_read": 561262311,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27443921",
+        "source_url": "https://sdilej.cz/27443921/vsechny.velke.a.male.bytosti.02x02-stale-kupredu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30739669",
-        "size_bytes": 561262311,
-        "source_bytes_read": 561262311,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S02E02 Semper Progrediens 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T18:57:47.944095+00:00"
       }
     },
     "2120:2:3": {
@@ -181314,5 +181315,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T18:57:43.126270+00:00"
+  "updated_at": "2026-11-02T18:57:47.944111+00:00"
 }
