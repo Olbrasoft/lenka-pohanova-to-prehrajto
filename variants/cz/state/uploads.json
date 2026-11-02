@@ -187307,12 +187307,6 @@
     },
     "3128:3:1": {
       "episode_key": "sněží!:s3:e1",
-      "claim": {
-        "worker_id": "67f536ae54084aa0afaaad3557400c88-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:06:44.891618+00:00",
-        "lease_expires_at": "2026-11-03T04:06:44.891628+00:00"
-      },
       "source": {
         "source_id": "28326231",
         "source_url": "https://sdilej.cz/28326231/snezi-s03e01-pomahat-a-ranit.mkv",
@@ -187337,15 +187331,22 @@
         "display_name": "Snowfall S03E01 Protect and Swerve 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:06:55.190689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743242",
-        "size_bytes": 2959410415
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743242",
+          "size_bytes": 2959410415,
+          "source_bytes_read": 2959410415,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326231",
+        "source_url": "https://sdilej.cz/28326231/snezi-s03e01-pomahat-a-ranit.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743242",
-        "size_bytes": 2959410415,
-        "source_bytes_read": 2959410415,
-        "http_status": 201
+        "display_name": "Snowfall S03E01 Protect and Swerve 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:11:56.258194+00:00"
       }
     },
     "3128:3:2": {
@@ -187478,5 +187479,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:11:53.065748+00:00"
+  "updated_at": "2026-11-02T22:11:56.258211+00:00"
 }
