@@ -185232,12 +185232,6 @@
     },
     "1064:3:15": {
       "episode_key": "kauzy z bostonu:s3:e15",
-      "claim": {
-        "worker_id": "5a43d260346b425a8836a7b9539053ac-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:37:11.766264+00:00",
-        "lease_expires_at": "2026-11-03T02:37:11.766275+00:00"
-      },
       "source": {
         "source_id": "30246074",
         "source_url": "https://sdilej.cz/30246074/boston-legal-kauzy-z-bostonu-s03e15-czdab.mp4",
@@ -185262,15 +185256,22 @@
         "display_name": "Boston Legal S03E15 Fat Burner SD CZ Dabing",
         "prepared_at": "2026-11-02T20:37:14.014492+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741412",
-        "size_bytes": 539806528
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741412",
+          "size_bytes": 539806528,
+          "source_bytes_read": 539806528,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30246074",
+        "source_url": "https://sdilej.cz/30246074/boston-legal-kauzy-z-bostonu-s03e15-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741412",
-        "size_bytes": 539806528,
-        "source_bytes_read": 539806528,
-        "http_status": 201
+        "display_name": "Boston Legal S03E15 Fat Burner SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:38:06.749826+00:00"
       }
     }
   },
@@ -185279,5 +185280,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:38:03.492099+00:00"
+  "updated_at": "2026-11-02T20:38:06.749841+00:00"
 }
