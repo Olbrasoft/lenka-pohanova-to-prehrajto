@@ -157533,12 +157533,6 @@
     },
     "1156:2:6": {
       "episode_key": "impérium – mafie v atlantic city:s2:e6",
-      "claim": {
-        "worker_id": "08dad164f6074c08ab6ecf05f7c07d4f-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T04:29:54.256670+00:00",
-        "lease_expires_at": "2026-11-02T10:29:54.256679+00:00"
-      },
       "source": {
         "source_id": "31436268",
         "source_url": "https://sdilej.cz/31436268/imperium-mafie-v-atlantic-city-s02e06-vek-rozumu-2011-cz-dabing.mkv",
@@ -157563,15 +157557,22 @@
         "display_name": "Boardwalk Empire S02E06 The Age of Reason 1080p CZ Dabing",
         "prepared_at": "2026-11-02T04:29:57.933846+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30716551",
-        "size_bytes": 1321540623
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30716551",
+          "size_bytes": 1321540623,
+          "source_bytes_read": 1321540623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31436268",
+        "source_url": "https://sdilej.cz/31436268/imperium-mafie-v-atlantic-city-s02e06-vek-rozumu-2011-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30716551",
-        "size_bytes": 1321540623,
-        "source_bytes_read": 1321540623,
-        "http_status": 201
+        "display_name": "Boardwalk Empire S02E06 The Age of Reason 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T04:34:10.262873+00:00"
       }
     },
     "1156:2:7": {
@@ -157617,5 +157618,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T04:34:03.638437+00:00"
+  "updated_at": "2026-11-02T04:34:10.262907+00:00"
 }
