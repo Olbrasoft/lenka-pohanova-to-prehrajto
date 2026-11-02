@@ -185195,12 +185195,6 @@
     },
     "1064:3:14": {
       "episode_key": "kauzy z bostonu:s3:e14",
-      "claim": {
-        "worker_id": "31c68f412cc544168cdac32aa3384bcb-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:37:09.445140+00:00",
-        "lease_expires_at": "2026-11-03T02:37:09.445152+00:00"
-      },
       "source": {
         "source_id": "30246073",
         "source_url": "https://sdilej.cz/30246073/boston-legal-kauzy-z-bostonu-s03e14-czdab.mp4",
@@ -185225,15 +185219,22 @@
         "display_name": "Boston Legal S03E14 Selling Sickness SD CZ Dabing",
         "prepared_at": "2026-11-02T20:37:16.052163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741414",
-        "size_bytes": 541286070
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741414",
+          "size_bytes": 541286070,
+          "source_bytes_read": 541286070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30246073",
+        "source_url": "https://sdilej.cz/30246073/boston-legal-kauzy-z-bostonu-s03e14-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741414",
-        "size_bytes": 541286070,
-        "source_bytes_read": 541286070,
-        "http_status": 201
+        "display_name": "Boston Legal S03E14 Selling Sickness SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:38:16.853947+00:00"
       }
     },
     "1064:3:15": {
@@ -185286,5 +185287,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:38:10.393874+00:00"
+  "updated_at": "2026-11-02T20:38:16.853965+00:00"
 }
