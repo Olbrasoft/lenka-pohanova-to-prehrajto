@@ -163825,12 +163825,6 @@
     },
     "1002:2:12": {
       "episode_key": "expanze:s2:e12",
-      "claim": {
-        "worker_id": "3ba0156123e5436587b8f3691d809db6-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:48:13.218150+00:00",
-        "lease_expires_at": "2026-11-02T13:48:13.218162+00:00"
-      },
       "source": {
         "source_id": "34726710",
         "source_url": "https://sdilej.cz/34726710/expanze-the-expanse-s02e12-cz-5.1.mkv",
@@ -163855,15 +163849,22 @@
         "display_name": "The Expanse S02E12 The Monster and the Rocket 4K CZ Dabing",
         "prepared_at": "2026-11-02T07:48:15.659457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721293",
-        "size_bytes": 2038865694
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721293",
+          "size_bytes": 2038865694,
+          "source_bytes_read": 2038865694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34726710",
+        "source_url": "https://sdilej.cz/34726710/expanze-the-expanse-s02e12-cz-5.1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721293",
-        "size_bytes": 2038865694,
-        "source_bytes_read": 2038865694,
-        "http_status": 201
+        "display_name": "The Expanse S02E12 The Monster and the Rocket 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T07:51:41.780804+00:00"
       }
     },
     "1002:2:13": {
@@ -163916,5 +163917,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:51:39.844481+00:00"
+  "updated_at": "2026-11-02T07:51:41.780820+00:00"
 }
