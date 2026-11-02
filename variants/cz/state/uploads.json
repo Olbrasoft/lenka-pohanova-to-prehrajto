@@ -171683,12 +171683,6 @@
     },
     "108:3:13": {
       "episode_key": "m a s h:s3:e13",
-      "claim": {
-        "worker_id": "646ff6cd47344ce6817a9956e5824282-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T13:10:49.448458+00:00",
-        "lease_expires_at": "2026-11-02T19:10:49.448471+00:00"
-      },
       "source": {
         "source_id": "28258032",
         "source_url": "https://sdilej.cz/28258032/mash-s03e13-061-.zli-psi-a-servismani.mkv",
@@ -171713,15 +171707,22 @@
         "display_name": "M*A*S*H S03E13 Mad Dogs and Servicemen 1080p CZ Dabing",
         "prepared_at": "2026-11-02T13:10:52.024901+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30732171",
-        "size_bytes": 189266119
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30732171",
+          "size_bytes": 189266119,
+          "source_bytes_read": 189266119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258032",
+        "source_url": "https://sdilej.cz/28258032/mash-s03e13-061-.zli-psi-a-servismani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30732171",
-        "size_bytes": 189266119,
-        "source_bytes_read": 189266119,
-        "http_status": 201
+        "display_name": "M*A*S*H S03E13 Mad Dogs and Servicemen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:11:41.533962+00:00"
       }
     }
   },
@@ -171730,5 +171731,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:11:39.482664+00:00"
+  "updated_at": "2026-11-02T13:11:41.533979+00:00"
 }
