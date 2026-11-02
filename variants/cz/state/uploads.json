@@ -188275,12 +188275,6 @@
     },
     "3128:5:5": {
       "episode_key": "sněží!:s5:e5",
-      "claim": {
-        "worker_id": "fb97bc1f84844d0b9c2929666d24d70f-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:03:12.967139+00:00",
-        "lease_expires_at": "2026-11-03T05:03:12.967153+00:00"
-      },
       "source": {
         "source_id": "28348762",
         "source_url": "https://sdilej.cz/28348762/snezi-s05e05-ilias-1.-cast-.mkv",
@@ -188305,15 +188299,22 @@
         "display_name": "Snowfall S05E05 The Iliad (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-02T23:03:19.768418+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30744342",
-        "size_bytes": 2515512912
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30744342",
+          "size_bytes": 2515512912,
+          "source_bytes_read": 2515512912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28348762",
+        "source_url": "https://sdilej.cz/28348762/snezi-s05e05-ilias-1.-cast-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30744342",
-        "size_bytes": 2515512912,
-        "source_bytes_read": 2515512912,
-        "http_status": 201
+        "display_name": "Snowfall S05E05 The Iliad (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T23:06:55.332460+00:00"
       }
     }
   },
@@ -188322,5 +188323,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:06:53.419976+00:00"
+  "updated_at": "2026-11-02T23:06:55.332478+00:00"
 }
