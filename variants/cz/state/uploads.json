@@ -151424,12 +151424,6 @@
     },
     "700:1:4": {
       "episode_key": "medvěd:s1:e4",
-      "claim": {
-        "worker_id": "07ac60135bd94bbcaab6c904c94f2a76-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:52:28.767783+00:00",
-        "lease_expires_at": "2026-11-02T06:52:28.767796+00:00"
-      },
       "source": {
         "source_id": "32964644",
         "source_url": "https://sdilej.cz/32964644/medved-s01e04-1080p-cz-psi.mkv",
@@ -151454,15 +151448,22 @@
         "display_name": "The Bear S01E04 Dogs 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:52:34.231432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711485",
-        "size_bytes": 361526325
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711485",
+          "size_bytes": 361526325,
+          "source_bytes_read": 361526325,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964644",
+        "source_url": "https://sdilej.cz/32964644/medved-s01e04-1080p-cz-psi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711485",
-        "size_bytes": 361526325,
-        "source_bytes_read": 361526325,
-        "http_status": 201
+        "display_name": "The Bear S01E04 Dogs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:53:14.100546+00:00"
       }
     },
     "700:1:5": {
@@ -151552,5 +151553,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:53:11.077384+00:00"
+  "updated_at": "2026-11-02T00:53:14.100563+00:00"
 }
