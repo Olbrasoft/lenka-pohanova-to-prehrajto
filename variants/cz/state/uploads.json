@@ -157099,12 +157099,6 @@
     },
     "1156:1:8": {
       "episode_key": "impérium – mafie v atlantic city:s1:e8",
-      "claim": {
-        "worker_id": "9667399482354cfbae98dbeefd743978-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T04:13:33.112899+00:00",
-        "lease_expires_at": "2026-11-02T10:13:33.112910+00:00"
-      },
       "source": {
         "source_id": "31436158",
         "source_url": "https://sdilej.cz/31436158/imperium-mafie-v-atlantic-city-s01e08-drz-me-v-raji-2010-cz-dabing.mkv",
@@ -157129,15 +157123,22 @@
         "display_name": "Boardwalk Empire S01E08 Hold Me in Paradise 1080p CZ Dabing",
         "prepared_at": "2026-11-02T04:13:42.449622+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30716204",
-        "size_bytes": 1258748230
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30716204",
+          "size_bytes": 1258748230,
+          "source_bytes_read": 1258748230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31436158",
+        "source_url": "https://sdilej.cz/31436158/imperium-mafie-v-atlantic-city-s01e08-drz-me-v-raji-2010-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30716204",
-        "size_bytes": 1258748230,
-        "source_bytes_read": 1258748230,
-        "http_status": 201
+        "display_name": "Boardwalk Empire S01E08 Hold Me in Paradise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T04:16:56.573403+00:00"
       }
     },
     "1156:1:9": {
@@ -157183,5 +157184,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T04:16:54.787735+00:00"
+  "updated_at": "2026-11-02T04:16:56.573419+00:00"
 }
