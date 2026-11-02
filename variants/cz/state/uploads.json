@@ -184622,12 +184622,6 @@
     },
     "1064:3:1": {
       "episode_key": "kauzy z bostonu:s3:e1",
-      "claim": {
-        "worker_id": "ea5dc0d72fd14a7cb5b62df7ffc92b39-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:30:42.816879+00:00",
-        "lease_expires_at": "2026-11-03T02:30:42.816893+00:00"
-      },
       "source": {
         "source_id": "33316186",
         "source_url": "https://sdilej.cz/33316186/boston-legal-kauzy-z-bostonu-s03e01-czdab.mp4",
@@ -184652,15 +184646,22 @@
         "display_name": "Boston Legal S03E01 Can't We All Get a Lung? SD CZ Dabing",
         "prepared_at": "2026-11-02T20:30:45.377234+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741320",
-        "size_bytes": 470005033
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741320",
+          "size_bytes": 470005033,
+          "source_bytes_read": 470005033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316186",
+        "source_url": "https://sdilej.cz/33316186/boston-legal-kauzy-z-bostonu-s03e01-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741320",
-        "size_bytes": 470005033,
-        "source_bytes_read": 470005033,
-        "http_status": 201
+        "display_name": "Boston Legal S03E01 Can't We All Get a Lung? SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:31:44.148993+00:00"
       }
     },
     "1064:3:2": {
@@ -184706,5 +184707,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:31:41.992128+00:00"
+  "updated_at": "2026-11-02T20:31:44.149009+00:00"
 }
