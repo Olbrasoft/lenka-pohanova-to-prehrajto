@@ -154064,12 +154064,6 @@
     },
     "1103:2:10": {
       "episode_key": "zpátky do školy:s2:e10",
-      "claim": {
-        "worker_id": "e1c4a0a89fbd4371b9844539f14bf16f-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:09:43.578173+00:00",
-        "lease_expires_at": "2026-11-02T08:09:43.578183+00:00"
-      },
       "source": {
         "source_id": "34816432",
         "source_url": "https://sdilej.cz/34816432/zpatky-do-skoly-s02e10-24-2010-cz-dabing-1080p-fhd-diplom-z-mixologie.mkv",
@@ -154094,15 +154088,22 @@
         "display_name": "Community S02E10 Mixology Certification 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:09:46.620205+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713347",
-        "size_bytes": 731740504
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713347",
+          "size_bytes": 731740504,
+          "source_bytes_read": 731740504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816432",
+        "source_url": "https://sdilej.cz/34816432/zpatky-do-skoly-s02e10-24-2010-cz-dabing-1080p-fhd-diplom-z-mixologie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713347",
-        "size_bytes": 731740504,
-        "source_bytes_read": 731740504,
-        "http_status": 201
+        "display_name": "Community S02E10 Mixology Certification 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:12:38.109844+00:00"
       }
     },
     "1103:2:12": {
@@ -154192,5 +154193,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:12:34.875944+00:00"
+  "updated_at": "2026-11-02T02:12:38.109860+00:00"
 }
