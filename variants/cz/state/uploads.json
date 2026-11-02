@@ -168716,12 +168716,6 @@
     },
     "3401:1:18": {
       "episode_key": "soví dům:s1:e18",
-      "claim": {
-        "worker_id": "24a977ef830b48329a058081a3eb65da-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:03:39.737669+00:00",
-        "lease_expires_at": "2026-11-02T18:03:39.737681+00:00"
-      },
       "source": {
         "source_id": "25220851",
         "source_url": "https://sdilej.cz/25220851/sovi-dum-s01e18-cz.mkv",
@@ -168746,15 +168740,22 @@
         "display_name": "The Owl House S01E18 Agony of a Witch 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:03:45.888743+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30729437",
-        "size_bytes": 429399521
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30729437",
+          "size_bytes": 429399521,
+          "source_bytes_read": 429399521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25220851",
+        "source_url": "https://sdilej.cz/25220851/sovi-dum-s01e18-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30729437",
-        "size_bytes": 429399521,
-        "source_bytes_read": 429399521,
-        "http_status": 201
+        "display_name": "The Owl House S01E18 Agony of a Witch 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:04:37.058442+00:00"
       }
     },
     "3401:1:19": {
@@ -168837,5 +168838,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:04:32.482983+00:00"
+  "updated_at": "2026-11-02T12:04:37.058459+00:00"
 }
