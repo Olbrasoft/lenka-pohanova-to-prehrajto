@@ -179829,12 +179829,6 @@
     },
     "635:6:5": {
       "episode_key": "f1: touha po vítězství:s6:e5",
-      "claim": {
-        "worker_id": "d8d3a1290ea54525a6d819d2f8e0e74d-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T17:40:38.320072+00:00",
-        "lease_expires_at": "2026-11-02T23:40:38.320082+00:00"
-      },
       "source": {
         "source_id": "31554454",
         "source_url": "https://sdilej.cz/31554454/f1-touha-po-vitezstvi-s06e05-obcanska-valka.mkv",
@@ -179859,15 +179853,22 @@
         "display_name": "Formula 1: Drive to Survive S06E05 Civil War 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:40:45.989750+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30738103",
-        "size_bytes": 1685798394
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30738103",
+          "size_bytes": 1685798394,
+          "source_bytes_read": 1685798394,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554454",
+        "source_url": "https://sdilej.cz/31554454/f1-touha-po-vitezstvi-s06e05-obcanska-valka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30738103",
-        "size_bytes": 1685798394,
-        "source_bytes_read": 1685798394,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S06E05 Civil War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:44:47.965268+00:00"
       }
     }
   },
@@ -179876,5 +179877,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:44:45.853362+00:00"
+  "updated_at": "2026-11-02T17:44:47.965283+00:00"
 }
