@@ -177243,12 +177243,6 @@
     },
     "108:10:9": {
       "episode_key": "m a s h:s10:e9",
-      "claim": {
-        "worker_id": "fa4ead2e94574aa6a06fed362aa24200-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:46:10.402749+00:00",
-        "lease_expires_at": "2026-11-02T21:46:10.402760+00:00"
-      },
       "source": {
         "source_id": "30306968",
         "source_url": "https://sdilej.cz/30306968/mash-s10e09-czdab.mp4",
@@ -177273,15 +177267,22 @@
         "display_name": "M*A*S*H S10E09 'Twas the Day after Christmas SD CZ Dabing",
         "prepared_at": "2026-11-02T15:46:16.818025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735588",
-        "size_bytes": 306104984
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735588",
+          "size_bytes": 306104984,
+          "source_bytes_read": 306104984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306968",
+        "source_url": "https://sdilej.cz/30306968/mash-s10e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735588",
-        "size_bytes": 306104984,
-        "source_bytes_read": 306104984,
-        "http_status": 201
+        "display_name": "M*A*S*H S10E09 'Twas the Day after Christmas SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:46:57.528626+00:00"
       }
     },
     "108:10:10": {
@@ -177364,5 +177365,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:46:52.816584+00:00"
+  "updated_at": "2026-11-02T15:46:57.528643+00:00"
 }
