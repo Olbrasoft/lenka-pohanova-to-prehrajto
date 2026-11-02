@@ -162204,12 +162204,6 @@
     },
     "567:4:19": {
       "episode_key": "lovci zločinců:s4:e19",
-      "claim": {
-        "worker_id": "cdcd7b09405b4fcfa55f14d1debab807-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T06:41:52.616497+00:00",
-        "lease_expires_at": "2026-11-02T12:41:52.616509+00:00"
-      },
       "source": {
         "source_id": "27401423",
         "source_url": "https://sdilej.cz/27401423/lovci.zlocincu.s04e19.bluray.cz.mkv",
@@ -162234,15 +162228,22 @@
         "display_name": "Person of Interest S04E19 Search and Destroy 720p CZ Dabing",
         "prepared_at": "2026-11-02T06:41:54.858670+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30719247",
-        "size_bytes": 319278702
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30719247",
+          "size_bytes": 319278702,
+          "source_bytes_read": 319278702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27401423",
+        "source_url": "https://sdilej.cz/27401423/lovci.zlocincu.s04e19.bluray.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30719247",
-        "size_bytes": 319278702,
-        "source_bytes_read": 319278702,
-        "http_status": 201
+        "display_name": "Person of Interest S04E19 Search and Destroy 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:42:34.089468+00:00"
       }
     },
     "567:4:20": {
@@ -162324,5 +162325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:42:30.685199+00:00"
+  "updated_at": "2026-11-02T06:42:34.089485+00:00"
 }
