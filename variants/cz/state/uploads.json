@@ -163957,12 +163957,6 @@
     },
     "1002:3:3": {
       "episode_key": "expanze:s3:e3",
-      "claim": {
-        "worker_id": "066d0f07351c4fa18543e27d93dfa8dc-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T08:12:20.328052+00:00",
-        "lease_expires_at": "2026-11-02T14:12:20.328066+00:00"
-      },
       "source": {
         "source_id": "22193886",
         "source_url": "https://sdilej.cz/22193886/expanze.the.expanse.s03e03.cz.dabing.1080p.mkv",
@@ -163987,15 +163981,22 @@
         "display_name": "The Expanse S03E03 Assured Destruction 1080p CZ Dabing",
         "prepared_at": "2026-11-02T08:12:25.681409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721662",
-        "size_bytes": 927180600
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721662",
+          "size_bytes": 927180600,
+          "source_bytes_read": 927180600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22193886",
+        "source_url": "https://sdilej.cz/22193886/expanze.the.expanse.s03e03.cz.dabing.1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721662",
-        "size_bytes": 927180600,
-        "source_bytes_read": 927180600,
-        "http_status": 201
+        "display_name": "The Expanse S03E03 Assured Destruction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T08:14:22.880548+00:00"
       }
     },
     "1002:3:2": {
@@ -164041,5 +164042,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T08:14:17.868981+00:00"
+  "updated_at": "2026-11-02T08:14:22.880563+00:00"
 }
