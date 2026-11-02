@@ -189199,12 +189199,6 @@
     },
     "6815:2:1": {
       "episode_key": "foylova válka:s2:e1",
-      "claim": {
-        "worker_id": "7ac56712e0ce4a11a7b6129058c41880-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:37:02.256653+00:00",
-        "lease_expires_at": "2026-11-03T05:37:02.256662+00:00"
-      },
       "source": {
         "source_id": "22281331",
         "source_url": "https://sdilej.cz/22281331/foylova-valka-s02e01-czdab.avi",
@@ -189229,15 +189223,22 @@
         "display_name": "Foyle's War S02E01 Fifty Ships SD CZ Dabing",
         "prepared_at": "2026-11-02T23:37:09.480420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30744923",
-        "size_bytes": 781965312
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30744923",
+          "size_bytes": 781965312,
+          "source_bytes_read": 781965312,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281331",
+        "source_url": "https://sdilej.cz/22281331/foylova-valka-s02e01-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30744923",
-        "size_bytes": 781965312,
-        "source_bytes_read": 781965312,
-        "http_status": 201
+        "display_name": "Foyle's War S02E01 Fifty Ships SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:38:34.499701+00:00"
       }
     },
     "6815:2:3": {
@@ -189279,5 +189280,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:38:30.602681+00:00"
+  "updated_at": "2026-11-02T23:38:34.499717+00:00"
 }
