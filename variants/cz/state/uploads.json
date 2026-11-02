@@ -172311,12 +172311,6 @@
     },
     "108:4:7": {
       "episode_key": "m a s h:s4:e7",
-      "claim": {
-        "worker_id": "36a16720e8b646cb8b4782b3b075e48c-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:53:15.755500+00:00",
-        "lease_expires_at": "2026-11-02T19:53:15.755508+00:00"
-      },
       "source": {
         "source_id": "28258092",
         "source_url": "https://sdilej.cz/28258092/mash-s04e07-079-.autobus.mkv",
@@ -172341,15 +172335,22 @@
         "display_name": "M*A*S*H S04E07 Dear Mildred 1080p CZ Dabing",
         "prepared_at": "2026-11-02T13:53:22.201487+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733094",
-        "size_bytes": 162322986
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733094",
+          "size_bytes": 162322986,
+          "source_bytes_read": 162322986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258092",
+        "source_url": "https://sdilej.cz/28258092/mash-s04e07-079-.autobus.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733094",
-        "size_bytes": 162322986,
-        "source_bytes_read": 162322986,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E07 Dear Mildred 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:53:56.767872+00:00"
       }
     }
   },
@@ -172358,5 +172359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:53:51.402130+00:00"
+  "updated_at": "2026-11-02T13:53:56.767888+00:00"
 }
