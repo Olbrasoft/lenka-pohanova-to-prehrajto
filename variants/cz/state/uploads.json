@@ -184139,12 +184139,6 @@
     },
     "1064:2:16": {
       "episode_key": "kauzy z bostonu:s2:e16",
-      "claim": {
-        "worker_id": "0e49eb91c04d4a5bb56b79e6bdebc84c-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:24:22.233663+00:00",
-        "lease_expires_at": "2026-11-03T02:24:22.233676+00:00"
-      },
       "source": {
         "source_id": "33316141",
         "source_url": "https://sdilej.cz/33316141/boston-legal-kauzy-z-bostonu-s02e16-czdab.mp4",
@@ -184169,15 +184163,22 @@
         "display_name": "Boston Legal S02E16 Live Big SD CZ Dabing",
         "prepared_at": "2026-11-02T20:24:24.868857+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741233",
-        "size_bytes": 518862551
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741233",
+          "size_bytes": 518862551,
+          "source_bytes_read": 518862551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316141",
+        "source_url": "https://sdilej.cz/33316141/boston-legal-kauzy-z-bostonu-s02e16-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741233",
-        "size_bytes": 518862551,
-        "source_bytes_read": 518862551,
-        "http_status": 201
+        "display_name": "Boston Legal S02E16 Live Big SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:25:21.786399+00:00"
       }
     }
   },
@@ -184186,5 +184187,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:25:17.997238+00:00"
+  "updated_at": "2026-11-02T20:25:21.786415+00:00"
 }
