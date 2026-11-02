@@ -172711,12 +172711,6 @@
     },
     "108:5:2": {
       "episode_key": "m a s h:s5:e2",
-      "claim": {
-        "worker_id": "4a0df8b0c4de4ee0ab915d0365c1d769-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:57:37.321491+00:00",
-        "lease_expires_at": "2026-11-02T19:57:37.321503+00:00"
-      },
       "source": {
         "source_id": "30306744",
         "source_url": "https://sdilej.cz/30306744/mash-s05e02-czdab.mp4",
@@ -172741,15 +172735,22 @@
         "display_name": "M*A*S*H S05E02 Margaret's Engagement SD CZ Dabing",
         "prepared_at": "2026-11-02T13:57:42.970262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733180",
-        "size_bytes": 312607865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733180",
+          "size_bytes": 312607865,
+          "source_bytes_read": 312607865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306744",
+        "source_url": "https://sdilej.cz/30306744/mash-s05e02-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733180",
-        "size_bytes": 312607865,
-        "source_bytes_read": 312607865,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E02 Margaret's Engagement SD CZ Dabing",
+        "uploaded_at": "2026-11-02T13:58:27.723217+00:00"
       }
     },
     "108:5:3": {
@@ -172832,5 +172833,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:58:23.105492+00:00"
+  "updated_at": "2026-11-02T13:58:27.723233+00:00"
 }
