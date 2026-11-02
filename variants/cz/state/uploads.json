@@ -189892,12 +189892,6 @@
     },
     "5403:1:1": {
       "episode_key": "zkouška:s1:e1",
-      "claim": {
-        "worker_id": "cbf07fbb9b494f9791095745434ed00a-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:45:47.519375+00:00",
-        "lease_expires_at": "2026-11-03T05:45:47.519388+00:00"
-      },
       "source": {
         "source_id": "23126085",
         "source_url": "https://sdilej.cz/23126085/zkouska-the.rehearsal.s01e01.orange.juice.no.pulp.1080p.hmax.web-dl.dd2.0.x265-cz-audio-.mkv",
@@ -189922,15 +189916,22 @@
         "display_name": "The Rehearsal S01E01 Orange Juice, No Pulp 1080p CZ Dabing",
         "prepared_at": "2026-11-02T23:45:49.919515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745102",
-        "size_bytes": 1972238113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745102",
+          "size_bytes": 1972238113,
+          "source_bytes_read": 1972238113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23126085",
+        "source_url": "https://sdilej.cz/23126085/zkouska-the.rehearsal.s01e01.orange.juice.no.pulp.1080p.hmax.web-dl.dd2.0.x265-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745102",
-        "size_bytes": 1972238113,
-        "source_bytes_read": 1972238113,
-        "http_status": 201
+        "display_name": "The Rehearsal S01E01 Orange Juice, No Pulp 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T23:50:22.557413+00:00"
       }
     },
     "5403:1:6": {
@@ -190009,5 +190010,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:50:20.554350+00:00"
+  "updated_at": "2026-11-02T23:50:22.557428+00:00"
 }
