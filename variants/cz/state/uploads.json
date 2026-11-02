@@ -158985,12 +158985,6 @@
     },
     "567:1:8": {
       "episode_key": "lovci zločinců:s1:e8",
-      "claim": {
-        "worker_id": "e8348b15641748959f82639f5312e31a-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T05:21:57.229806+00:00",
-        "lease_expires_at": "2026-11-02T11:21:57.229816+00:00"
-      },
       "source": {
         "source_id": "32300130",
         "source_url": "https://sdilej.cz/32300130/lovci-zlocincu-s01e08-cz-dabing.mkv",
@@ -159015,15 +159009,22 @@
         "display_name": "Person of Interest S01E08 Foe 1080p CZ Dabing",
         "prepared_at": "2026-11-02T05:22:00.792939+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30717505",
-        "size_bytes": 777887156
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30717505",
+          "size_bytes": 777887156,
+          "source_bytes_read": 777887156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300130",
+        "source_url": "https://sdilej.cz/32300130/lovci-zlocincu-s01e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30717505",
-        "size_bytes": 777887156,
-        "source_bytes_read": 777887156,
-        "http_status": 201
+        "display_name": "Person of Interest S01E08 Foe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T05:23:30.278075+00:00"
       }
     },
     "567:1:10": {
@@ -159069,5 +159070,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T05:23:23.535336+00:00"
+  "updated_at": "2026-11-02T05:23:30.278091+00:00"
 }
