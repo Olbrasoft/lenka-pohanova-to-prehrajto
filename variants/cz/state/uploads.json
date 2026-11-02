@@ -168100,12 +168100,6 @@
     },
     "3401:1:4": {
       "episode_key": "soví dům:s1:e4",
-      "claim": {
-        "worker_id": "1b5ab4aaf8284f67bb2cf964ee37c58a-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:57:32.720687+00:00",
-        "lease_expires_at": "2026-11-02T17:57:32.720699+00:00"
-      },
       "source": {
         "source_id": "25219111",
         "source_url": "https://sdilej.cz/25219111/sovi-dum-s01e04-cz.mkv",
@@ -168130,15 +168124,22 @@
         "display_name": "The Owl House S01E04 The Intruder 720p CZ Dabing",
         "prepared_at": "2026-11-02T11:57:38.228164+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30728678",
-        "size_bytes": 434973883
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30728678",
+          "size_bytes": 434973883,
+          "source_bytes_read": 434973883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25219111",
+        "source_url": "https://sdilej.cz/25219111/sovi-dum-s01e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30728678",
-        "size_bytes": 434973883,
-        "source_bytes_read": 434973883,
-        "http_status": 201
+        "display_name": "The Owl House S01E04 The Intruder 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:58:29.087289+00:00"
       }
     },
     "3401:1:5": {
@@ -168221,5 +168222,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:58:23.742787+00:00"
+  "updated_at": "2026-11-02T11:58:29.087306+00:00"
 }
