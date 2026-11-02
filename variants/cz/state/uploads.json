@@ -173987,12 +173987,6 @@
     },
     "108:6:19": {
       "episode_key": "m a s h:s6:e19",
-      "claim": {
-        "worker_id": "0211f5b33f464eb29a2c5f36b8aa77ea-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:14:53.272096+00:00",
-        "lease_expires_at": "2026-11-02T20:14:53.272108+00:00"
-      },
       "source": {
         "source_id": "34978863",
         "source_url": "https://sdilej.cz/34978863/m.a.s.h-s06e19-hitparada.mkv",
@@ -174017,15 +174011,22 @@
         "display_name": "M*A*S*H S06E19 What's Up, Doc? 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:14:57.381761+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733686",
-        "size_bytes": 760953362
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733686",
+          "size_bytes": 760953362,
+          "source_bytes_read": 760953362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978863",
+        "source_url": "https://sdilej.cz/34978863/m.a.s.h-s06e19-hitparada.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733686",
-        "size_bytes": 760953362,
-        "source_bytes_read": 760953362,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E19 What's Up, Doc? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:17:36.132717+00:00"
       }
     }
   },
@@ -174034,5 +174035,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:17:29.572542+00:00"
+  "updated_at": "2026-11-02T14:17:36.132732+00:00"
 }
