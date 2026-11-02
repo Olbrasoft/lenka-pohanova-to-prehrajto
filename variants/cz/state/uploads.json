@@ -152040,12 +152040,6 @@
     },
     "700:3:2": {
       "episode_key": "medvěd:s3:e2",
-      "claim": {
-        "worker_id": "103727bba84d4edc8787e0a15bc830bb-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:57:30.793797+00:00",
-        "lease_expires_at": "2026-11-02T06:57:30.793809+00:00"
-      },
       "source": {
         "source_id": "34641147",
         "source_url": "https://sdilej.cz/34641147/medved-s03e02-dalsi.mkv",
@@ -152070,15 +152064,22 @@
         "display_name": "The Bear S03E02 Next 4K CZ Dabing",
         "prepared_at": "2026-11-02T00:57:34.882712+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711555",
-        "size_bytes": 1296906356
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711555",
+          "size_bytes": 1296906356,
+          "source_bytes_read": 1296906356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34641147",
+        "source_url": "https://sdilej.cz/34641147/medved-s03e02-dalsi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711555",
-        "size_bytes": 1296906356,
-        "source_bytes_read": 1296906356,
-        "http_status": 201
+        "display_name": "The Bear S03E02 Next 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T00:59:36.015642+00:00"
       }
     },
     "700:3:3": {
@@ -152124,5 +152125,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:59:34.305566+00:00"
+  "updated_at": "2026-11-02T00:59:36.015657+00:00"
 }
