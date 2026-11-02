@@ -167314,12 +167314,6 @@
     },
     "280:2:8": {
       "episode_key": "srdcerváči:s2:e8",
-      "claim": {
-        "worker_id": "184047ee037a4a3cb3285e8dde6ee02b-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:35:20.058320+00:00",
-        "lease_expires_at": "2026-11-02T17:35:20.058332+00:00"
-      },
       "source": {
         "source_id": "26632821",
         "source_url": "https://sdilej.cz/26632821/srdcervaci-s02e08-heartstopper-s02e08-drama-gb-2023-cz-dabing.mkv",
@@ -167344,15 +167338,22 @@
         "display_name": "Heartstopper S02E08 Perfect 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:35:22.474713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726439",
-        "size_bytes": 1486098654
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726439",
+          "size_bytes": 1486098654,
+          "source_bytes_read": 1486098654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26632821",
+        "source_url": "https://sdilej.cz/26632821/srdcervaci-s02e08-heartstopper-s02e08-drama-gb-2023-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726439",
-        "size_bytes": 1486098654,
-        "source_bytes_read": 1486098654,
-        "http_status": 201
+        "display_name": "Heartstopper S02E08 Perfect 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:39:30.313268+00:00"
       }
     }
   },
@@ -167361,5 +167362,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:39:25.343462+00:00"
+  "updated_at": "2026-11-02T11:39:30.313283+00:00"
 }
