@@ -165328,12 +165328,6 @@
     },
     "1002:5:10": {
       "episode_key": "expanze:s5:e10",
-      "claim": {
-        "worker_id": "0103e98d6251499e8a2be44d9451a873-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:45:48.865901+00:00",
-        "lease_expires_at": "2026-11-02T15:45:48.865910+00:00"
-      },
       "source": {
         "source_id": "34726845",
         "source_url": "https://sdilej.cz/34726845/expanze-the-expanse-s05e10-cz-5.1.mkv",
@@ -165358,15 +165352,22 @@
         "display_name": "The Expanse S05E10 Nemesis Games 1080p CZ Dabing",
         "prepared_at": "2026-11-02T09:45:52.114410+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30723270",
-        "size_bytes": 1311282441
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30723270",
+          "size_bytes": 1311282441,
+          "source_bytes_read": 1311282441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34726845",
+        "source_url": "https://sdilej.cz/34726845/expanze-the-expanse-s05e10-cz-5.1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30723270",
-        "size_bytes": 1311282441,
-        "source_bytes_read": 1311282441,
-        "http_status": 201
+        "display_name": "The Expanse S05E10 Nemesis Games 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T09:50:04.237217+00:00"
       }
     },
     "1002:6:1": {
@@ -165449,5 +165450,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T09:49:58.379501+00:00"
+  "updated_at": "2026-11-02T09:50:04.237234+00:00"
 }
