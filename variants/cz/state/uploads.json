@@ -173106,12 +173106,6 @@
     },
     "108:5:14": {
       "episode_key": "m a s h:s5:e14",
-      "claim": {
-        "worker_id": "830d5b51856a469ebb0a520d4d0a87f6-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:04:53.634016+00:00",
-        "lease_expires_at": "2026-11-02T20:04:53.634027+00:00"
-      },
       "source": {
         "source_id": "28258186",
         "source_url": "https://sdilej.cz/28258186/mash-s05e14-111-.hawkeyho-nocni-mura.mkv",
@@ -173136,15 +173130,22 @@
         "display_name": "M*A*S*H S05E14 The Most Unforgettable Characters 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:05:00.041294+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733336",
-        "size_bytes": 127769077
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733336",
+          "size_bytes": 127769077,
+          "source_bytes_read": 127769077,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258186",
+        "source_url": "https://sdilej.cz/28258186/mash-s05e14-111-.hawkeyho-nocni-mura.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733336",
-        "size_bytes": 127769077,
-        "source_bytes_read": 127769077,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E14 The Most Unforgettable Characters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:05:37.778762+00:00"
       }
     }
   },
@@ -173153,5 +173154,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:05:35.387144+00:00"
+  "updated_at": "2026-11-02T14:05:37.778777+00:00"
 }
