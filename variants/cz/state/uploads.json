@@ -182283,12 +182283,6 @@
     },
     "2120:5:5": {
       "episode_key": "všechny velké a malé bytosti:s5:e5",
-      "claim": {
-        "worker_id": "4b2eb3b06b2a45188ac35d215a22329c-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:28:49.979885+00:00",
-        "lease_expires_at": "2026-11-03T01:28:49.979897+00:00"
-      },
       "source": {
         "source_id": "30177286",
         "source_url": "https://sdilej.cz/30177286/vsechny-velke-a-male-bytosti-s05e05-cz-parova-vazba-.mkv",
@@ -182313,15 +182307,22 @@
         "display_name": "All Creatures Great & Small S05E05 Pair Bond 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:28:54.122082+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740450",
-        "size_bytes": 1041488582
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740450",
+          "size_bytes": 1041488582,
+          "source_bytes_read": 1041488582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30177286",
+        "source_url": "https://sdilej.cz/30177286/vsechny-velke-a-male-bytosti-s05e05-cz-parova-vazba-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740450",
-        "size_bytes": 1041488582,
-        "source_bytes_read": 1041488582,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S05E05 Pair Bond 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:30:42.704349+00:00"
       }
     },
     "2120:5:6": {
@@ -182444,5 +182445,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:30:40.623667+00:00"
+  "updated_at": "2026-11-02T19:30:42.704364+00:00"
 }
