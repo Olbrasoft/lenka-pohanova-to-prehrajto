@@ -172572,12 +172572,6 @@
     },
     "108:4:19": {
       "episode_key": "m a s h:s4:e19",
-      "claim": {
-        "worker_id": "4a6c7596253e411db9db022754ba006a-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:55:35.247075+00:00",
-        "lease_expires_at": "2026-11-02T19:55:35.247087+00:00"
-      },
       "source": {
         "source_id": "32915195",
         "source_url": "https://sdilej.cz/32915195/m-a-s-h-s04e19-hawkeye.mp4",
@@ -172602,15 +172596,22 @@
         "display_name": "M*A*S*H S04E19 Some 38th Parallels 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:55:37.738358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733131",
-        "size_bytes": 392990844
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733131",
+          "size_bytes": 392990844,
+          "source_bytes_read": 392990844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32915195",
+        "source_url": "https://sdilej.cz/32915195/m-a-s-h-s04e19-hawkeye.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733131",
-        "size_bytes": 392990844,
-        "source_bytes_read": 392990844,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E19 Some 38th Parallels 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:56:27.188391+00:00"
       }
     },
     "108:4:20": {
@@ -172656,5 +172657,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:56:21.357797+00:00"
+  "updated_at": "2026-11-02T13:56:27.188408+00:00"
 }
