@@ -150493,12 +150493,6 @@
     },
     "1074:3:6": {
       "episode_key": "zákon gangu:s3:e6",
-      "claim": {
-        "worker_id": "c4d2b8338f1e471a8f03fc296a7cdf1d-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:15:11.849709+00:00",
-        "lease_expires_at": "2026-11-02T06:15:11.849720+00:00"
-      },
       "source": {
         "source_id": "33490767",
         "source_url": "https://sdilej.cz/33490767/sons-of-anarchy-s03e06-1080p-cz-razie.mkv",
@@ -150523,15 +150517,22 @@
         "display_name": "Sons of Anarchy S03E06 The Push 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:15:16.999978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710918",
-        "size_bytes": 510681309
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710918",
+          "size_bytes": 510681309,
+          "source_bytes_read": 510681309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33490767",
+        "source_url": "https://sdilej.cz/33490767/sons-of-anarchy-s03e06-1080p-cz-razie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710918",
-        "size_bytes": 510681309,
-        "source_bytes_read": 510681309,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S03E06 The Push 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:16:19.686105+00:00"
       }
     },
     "1074:3:7": {
@@ -150577,5 +150578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:16:18.070322+00:00"
+  "updated_at": "2026-11-02T00:16:19.686118+00:00"
 }
