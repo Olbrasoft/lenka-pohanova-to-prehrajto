@@ -182553,12 +182553,6 @@
     },
     "2120:6:4": {
       "episode_key": "všechny velké a malé bytosti:s6:e4",
-      "claim": {
-        "worker_id": "fd4f2ee0b7e849299eed4832bf37a2db-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:35:22.476781+00:00",
-        "lease_expires_at": "2026-11-03T01:35:22.476792+00:00"
-      },
       "source": {
         "source_id": "33015818",
         "source_url": "https://sdilej.cz/33015818/vsechny-velke-a-male-bytosti-2025-s06e04-czdab-1080p.mkv",
@@ -182583,15 +182577,22 @@
         "display_name": "All Creatures Great & Small S06E04 Jenny Wren 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:35:31.903206+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740618",
-        "size_bytes": 2110370583
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740618",
+          "size_bytes": 2110370583,
+          "source_bytes_read": 2110370583,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33015818",
+        "source_url": "https://sdilej.cz/33015818/vsechny-velke-a-male-bytosti-2025-s06e04-czdab-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740618",
-        "size_bytes": 2110370583,
-        "source_bytes_read": 2110370583,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S06E04 Jenny Wren 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:40:00.279847+00:00"
       }
     },
     "2120:6:5": {
@@ -182644,5 +182645,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:39:56.636212+00:00"
+  "updated_at": "2026-11-02T19:40:00.279863+00:00"
 }
