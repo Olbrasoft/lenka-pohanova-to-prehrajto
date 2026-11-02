@@ -175608,12 +175608,6 @@
     },
     "108:8:12": {
       "episode_key": "m a s h:s8:e12",
-      "claim": {
-        "worker_id": "c8fecaa71a634e379dbe87cb8a9d954b-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:00:36.864774+00:00",
-        "lease_expires_at": "2026-11-02T21:00:36.864785+00:00"
-      },
       "source": {
         "source_id": "30306890",
         "source_url": "https://sdilej.cz/30306890/mash-s08e12-czdab.mp4",
@@ -175638,15 +175632,22 @@
         "display_name": "M*A*S*H S08E12 Dear Uncle Abdul SD CZ Dabing",
         "prepared_at": "2026-11-02T15:00:41.637045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734657",
-        "size_bytes": 217475205
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734657",
+          "size_bytes": 217475205,
+          "source_bytes_read": 217475205,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306890",
+        "source_url": "https://sdilej.cz/30306890/mash-s08e12-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734657",
-        "size_bytes": 217475205,
-        "source_bytes_read": 217475205,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E12 Dear Uncle Abdul SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:01:15.236684+00:00"
       }
     },
     "108:8:13": {
@@ -175692,5 +175693,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:01:11.464413+00:00"
+  "updated_at": "2026-11-02T15:01:15.236699+00:00"
 }
