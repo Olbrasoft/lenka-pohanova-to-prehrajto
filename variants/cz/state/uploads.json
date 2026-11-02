@@ -180317,12 +180317,6 @@
     },
     "635:7:6": {
       "episode_key": "f1: touha po vítězství:s7:e6",
-      "claim": {
-        "worker_id": "8355338d9d97494db3db5a39f8af5d2f-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:12:20.063319+00:00",
-        "lease_expires_at": "2026-11-03T00:12:20.063330+00:00"
-      },
       "source": {
         "source_id": "30755873",
         "source_url": "https://sdilej.cz/30755873/f1-touha-po-vitezstvi-s07e06-1080p-cz-dabing.mkv",
@@ -180347,15 +180341,22 @@
         "display_name": "Formula 1: Drive to Survive S07E06 Wheels of Fortune 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:12:22.704944+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30738821",
-        "size_bytes": 1553845466
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30738821",
+          "size_bytes": 1553845466,
+          "source_bytes_read": 1553845466,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755873",
+        "source_url": "https://sdilej.cz/30755873/f1-touha-po-vitezstvi-s07e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30738821",
-        "size_bytes": 1553845466,
-        "source_bytes_read": 1553845466,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S07E06 Wheels of Fortune 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T18:14:29.085131+00:00"
       }
     },
     "635:7:7": {
@@ -180438,5 +180439,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T18:14:24.530731+00:00"
+  "updated_at": "2026-11-02T18:14:29.085147+00:00"
 }
