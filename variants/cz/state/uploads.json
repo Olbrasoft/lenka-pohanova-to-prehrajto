@@ -151732,12 +151732,6 @@
     },
     "700:2:3": {
       "episode_key": "medvěd:s2:e3",
-      "claim": {
-        "worker_id": "923bab340efa4de4bff47d81eb749467-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:55:21.276418+00:00",
-        "lease_expires_at": "2026-11-02T06:55:21.276430+00:00"
-      },
       "source": {
         "source_id": "32964694",
         "source_url": "https://sdilej.cz/32964694/medved-s02e03-1080p-cz-pohar.mkv",
@@ -151762,15 +151756,22 @@
         "display_name": "The Bear S02E03 Sundae 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:55:23.740184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711517",
-        "size_bytes": 304977373
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711517",
+          "size_bytes": 304977373,
+          "source_bytes_read": 304977373,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964694",
+        "source_url": "https://sdilej.cz/32964694/medved-s02e03-1080p-cz-pohar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711517",
-        "size_bytes": 304977373,
-        "source_bytes_read": 304977373,
-        "http_status": 201
+        "display_name": "The Bear S02E03 Sundae 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:55:56.410016+00:00"
       }
     },
     "700:2:4": {
@@ -151849,5 +151850,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:55:54.511280+00:00"
+  "updated_at": "2026-11-02T00:55:56.410031+00:00"
 }
