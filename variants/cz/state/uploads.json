@@ -162952,12 +162952,6 @@
     },
     "1002:1:1": {
       "episode_key": "expanze:s1:e1",
-      "claim": {
-        "worker_id": "a19ff4ac5b5d4b6abdc79ec544e602ad-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:11:20.801198+00:00",
-        "lease_expires_at": "2026-11-02T13:11:20.801207+00:00"
-      },
       "source": {
         "source_id": "16956789",
         "source_url": "https://sdilej.cz/16956789/the.expanse.s01e01.dulcinea.2160p.web-dl.dts-hd.ma.5.1.hdr.hevc-safety.cz-dedo.mkv",
@@ -162982,15 +162976,22 @@
         "display_name": "The Expanse S01E01 Dulcinea 4K CZ Dabing",
         "prepared_at": "2026-11-02T07:11:26.000161+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720529",
-        "size_bytes": 6283477568
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720529",
+          "size_bytes": 6283477568,
+          "source_bytes_read": 6283477568,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16956789",
+        "source_url": "https://sdilej.cz/16956789/the.expanse.s01e01.dulcinea.2160p.web-dl.dts-hd.ma.5.1.hdr.hevc-safety.cz-dedo.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720529",
-        "size_bytes": 6283477568,
-        "source_bytes_read": 6283477568,
-        "http_status": 201
+        "display_name": "The Expanse S01E01 Dulcinea 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T07:25:53.146149+00:00"
       }
     },
     "1002:1:2": {
@@ -163248,5 +163249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:25:49.448571+00:00"
+  "updated_at": "2026-11-02T07:25:53.146163+00:00"
 }
