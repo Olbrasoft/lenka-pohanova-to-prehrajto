@@ -184798,12 +184798,6 @@
     },
     "1064:3:5": {
       "episode_key": "kauzy z bostonu:s3:e5",
-      "claim": {
-        "worker_id": "9d95e8314c224bd0ae799deb23e61c31-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:32:31.161321+00:00",
-        "lease_expires_at": "2026-11-03T02:32:31.161334+00:00"
-      },
       "source": {
         "source_id": "33316200",
         "source_url": "https://sdilej.cz/33316200/boston-legal-kauzy-z-bostonu-s03e05-czdab.mp4",
@@ -184828,15 +184822,22 @@
         "display_name": "Boston Legal S03E05 Whose God is It Anyway? SD CZ Dabing",
         "prepared_at": "2026-11-02T20:32:33.654476+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741342",
-        "size_bytes": 543110302
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741342",
+          "size_bytes": 543110302,
+          "source_bytes_read": 543110302,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316200",
+        "source_url": "https://sdilej.cz/33316200/boston-legal-kauzy-z-bostonu-s03e05-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741342",
-        "size_bytes": 543110302,
-        "source_bytes_read": 543110302,
-        "http_status": 201
+        "display_name": "Boston Legal S03E05 Whose God is It Anyway? SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:33:31.843066+00:00"
       }
     },
     "1064:3:6": {
@@ -184878,5 +184879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:33:28.700455+00:00"
+  "updated_at": "2026-11-02T20:33:31.843080+00:00"
 }
