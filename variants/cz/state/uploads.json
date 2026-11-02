@@ -178248,12 +178248,6 @@
     },
     "635:2:4": {
       "episode_key": "f1: touha po vítězství:s2:e4",
-      "claim": {
-        "worker_id": "7bce0938e3ef40e98ef3fdb38139b08d-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T16:09:44.043522+00:00",
-        "lease_expires_at": "2026-11-02T22:09:44.043534+00:00"
-      },
       "source": {
         "source_id": "25300037",
         "source_url": "https://sdilej.cz/25300037/f1-touha-po-vitezstvi-s02e04-temne-casy.mkv",
@@ -178278,15 +178272,22 @@
         "display_name": "Formula 1: Drive to Survive S02E04 Dark Days 1080p CZ Dabing",
         "prepared_at": "2026-11-02T16:09:54.987083+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735989",
-        "size_bytes": 1372955403
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735989",
+          "size_bytes": 1372955403,
+          "source_bytes_read": 1372955403,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25300037",
+        "source_url": "https://sdilej.cz/25300037/f1-touha-po-vitezstvi-s02e04-temne-casy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735989",
-        "size_bytes": 1372955403,
-        "source_bytes_read": 1372955403,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S02E04 Dark Days 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T16:14:11.717491+00:00"
       }
     },
     "635:2:5": {
@@ -178453,5 +178454,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T16:14:09.641127+00:00"
+  "updated_at": "2026-11-02T16:14:11.717506+00:00"
 }
