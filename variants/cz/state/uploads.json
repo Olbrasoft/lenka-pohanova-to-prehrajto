@@ -152781,12 +152781,6 @@
     },
     "700:4:9": {
       "episode_key": "medvěd:s4:e9",
-      "claim": {
-        "worker_id": "6355e6e8e89b44d48c0d7e6f1f1bad42-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:28:53.192845+00:00",
-        "lease_expires_at": "2026-11-02T07:28:53.192857+00:00"
-      },
       "source": {
         "source_id": "34640916",
         "source_url": "https://sdilej.cz/34640916/medved-s04e09-tonnato.mkv",
@@ -152811,15 +152805,22 @@
         "display_name": "The Bear S04E09 Tonnato 4K CZ Dabing",
         "prepared_at": "2026-11-02T01:28:55.385436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712152",
-        "size_bytes": 1812071947
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712152",
+          "size_bytes": 1812071947,
+          "source_bytes_read": 1812071947,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34640916",
+        "source_url": "https://sdilej.cz/34640916/medved-s04e09-tonnato.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712152",
-        "size_bytes": 1812071947,
-        "source_bytes_read": 1812071947,
-        "http_status": 201
+        "display_name": "The Bear S04E09 Tonnato 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T01:33:33.372343+00:00"
       }
     }
   },
@@ -152828,5 +152829,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:33:31.708792+00:00"
+  "updated_at": "2026-11-02T01:33:33.372361+00:00"
 }
