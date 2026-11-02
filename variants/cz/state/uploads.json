@@ -172223,12 +172223,6 @@
     },
     "108:4:5": {
       "episode_key": "m a s h:s4:e5",
-      "claim": {
-        "worker_id": "a8434357a6704e59a33dc051609041f5-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:53:05.858388+00:00",
-        "lease_expires_at": "2026-11-02T19:53:05.858398+00:00"
-      },
       "source": {
         "source_id": "28258081",
         "source_url": "https://sdilej.cz/28258081/mash-s04e05-077-.mrtvy-kapitan-pierce.mkv",
@@ -172253,15 +172247,22 @@
         "display_name": "M*A*S*H S04E05 Hey, Doc 1080p CZ Dabing",
         "prepared_at": "2026-11-02T13:53:11.756702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733090",
-        "size_bytes": 136418555
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733090",
+          "size_bytes": 136418555,
+          "source_bytes_read": 136418555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258081",
+        "source_url": "https://sdilej.cz/28258081/mash-s04e05-077-.mrtvy-kapitan-pierce.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733090",
-        "size_bytes": 136418555,
-        "source_bytes_read": 136418555,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E05 Hey, Doc 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:53:44.740335+00:00"
       }
     },
     "108:4:6": {
@@ -172350,5 +172351,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:53:42.771268+00:00"
+  "updated_at": "2026-11-02T13:53:44.740348+00:00"
 }
