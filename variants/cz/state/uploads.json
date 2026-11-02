@@ -185019,12 +185019,6 @@
     },
     "1064:3:10": {
       "episode_key": "kauzy z bostonu:s3:e10",
-      "claim": {
-        "worker_id": "6959cbf2cce04b779c9b84d1af88429b-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:34:55.927171+00:00",
-        "lease_expires_at": "2026-11-03T02:34:55.927181+00:00"
-      },
       "source": {
         "source_id": "33316220",
         "source_url": "https://sdilej.cz/33316220/boston-legal-kauzy-z-bostonu-s03e10-czdab.mp4",
@@ -185049,15 +185043,22 @@
         "display_name": "Boston Legal S03E10 The Nutcrackers SD CZ Dabing",
         "prepared_at": "2026-11-02T20:35:00.014514+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741372",
-        "size_bytes": 539612932
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741372",
+          "size_bytes": 539612932,
+          "source_bytes_read": 539612932,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316220",
+        "source_url": "https://sdilej.cz/33316220/boston-legal-kauzy-z-bostonu-s03e10-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741372",
-        "size_bytes": 539612932,
-        "source_bytes_read": 539612932,
-        "http_status": 201
+        "display_name": "Boston Legal S03E10 The Nutcrackers SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:36:07.330906+00:00"
       }
     },
     "1064:3:11": {
@@ -185146,5 +185147,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:36:03.894088+00:00"
+  "updated_at": "2026-11-02T20:36:07.330923+00:00"
 }
