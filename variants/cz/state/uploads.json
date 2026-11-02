@@ -167440,12 +167440,6 @@
     },
     "280:3:3": {
       "episode_key": "srdcerváči:s3:e3",
-      "claim": {
-        "worker_id": "f51132c9000d452f917947a2e3d8e743-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:40:37.427346+00:00",
-        "lease_expires_at": "2026-11-02T17:40:37.427355+00:00"
-      },
       "source": {
         "source_id": "29875745",
         "source_url": "https://sdilej.cz/29875745/srdcervaci-s03e03-1080p-cz-dabing.mkv",
@@ -167470,15 +167464,22 @@
         "display_name": "Heartstopper S03E03 Talk 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:40:43.425908+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726593",
-        "size_bytes": 856948426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726593",
+          "size_bytes": 856948426,
+          "source_bytes_read": 856948426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875745",
+        "source_url": "https://sdilej.cz/29875745/srdcervaci-s03e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726593",
-        "size_bytes": 856948426,
-        "source_bytes_read": 856948426,
-        "http_status": 201
+        "display_name": "Heartstopper S03E03 Talk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:43:04.394237+00:00"
       }
     },
     "280:3:4": {
@@ -167561,5 +167562,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:42:58.479761+00:00"
+  "updated_at": "2026-11-02T11:43:04.394252+00:00"
 }
