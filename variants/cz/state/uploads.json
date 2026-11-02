@@ -176142,12 +176142,6 @@
     },
     "108:8:24": {
       "episode_key": "m a s h:s8:e24",
-      "claim": {
-        "worker_id": "305e20b19a62402db54b7c8687ca77c9-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:11:09.869987+00:00",
-        "lease_expires_at": "2026-11-02T21:11:09.869998+00:00"
-      },
       "source": {
         "source_id": "34979220",
         "source_url": "https://sdilej.cz/34979220/m.a.s.h-s08e24-cena-valky.mkv",
@@ -176172,15 +176166,22 @@
         "display_name": "M*A*S*H S08E24 Back Pay 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:11:16.012595+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734940",
-        "size_bytes": 760173043
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734940",
+          "size_bytes": 760173043,
+          "source_bytes_read": 760173043,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979220",
+        "source_url": "https://sdilej.cz/34979220/m.a.s.h-s08e24-cena-valky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734940",
-        "size_bytes": 760173043,
-        "source_bytes_read": 760173043,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E24 Back Pay 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:12:59.569557+00:00"
       }
     },
     "108:8:25": {
@@ -176232,5 +176233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:12:57.322487+00:00"
+  "updated_at": "2026-11-02T15:12:59.569579+00:00"
 }
