@@ -149268,12 +149268,6 @@
     },
     "1074:1:4": {
       "episode_key": "zákon gangu:s1:e4",
-      "claim": {
-        "worker_id": "e0b2270c6b834e69a37e816ad510bf28-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:00:34.193434+00:00",
-        "lease_expires_at": "2026-11-02T06:00:34.193446+00:00"
-      },
       "source": {
         "source_id": "33473789",
         "source_url": "https://sdilej.cz/33473789/sons-of-anarchy-s01e04-1080p-cz-patch-over.mkv",
@@ -149298,15 +149292,22 @@
         "display_name": "Sons of Anarchy S01E04 Patch Over 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:00:36.209329+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710648",
-        "size_bytes": 520438303
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710648",
+          "size_bytes": 520438303,
+          "source_bytes_read": 520438303,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33473789",
+        "source_url": "https://sdilej.cz/33473789/sons-of-anarchy-s01e04-1080p-cz-patch-over.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710648",
-        "size_bytes": 520438303,
-        "source_bytes_read": 520438303,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S01E04 Patch Over 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:01:21.893125+00:00"
       }
     },
     "1074:1:5": {
@@ -149389,5 +149390,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:01:18.955767+00:00"
+  "updated_at": "2026-11-02T00:01:21.893141+00:00"
 }
