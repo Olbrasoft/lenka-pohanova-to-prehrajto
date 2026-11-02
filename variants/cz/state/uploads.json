@@ -171103,12 +171103,6 @@
     },
     "108:2:24": {
       "episode_key": "m a s h:s2:e24",
-      "claim": {
-        "worker_id": "aec6a7be26074276b70cf1cd9152e9d2-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T13:04:37.625181+00:00",
-        "lease_expires_at": "2026-11-02T19:04:37.625190+00:00"
-      },
       "source": {
         "source_id": "27543387",
         "source_url": "https://sdilej.cz/27543387/m.a.s.h-s02e24-cz.mkv",
@@ -171133,15 +171127,22 @@
         "display_name": "M*A*S*H S02E24 A Smattering of Intelligence 1080p CZ Dabing",
         "prepared_at": "2026-11-02T13:04:40.095438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30732031",
-        "size_bytes": 819068069
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30732031",
+          "size_bytes": 819068069,
+          "source_bytes_read": 819068069,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27543387",
+        "source_url": "https://sdilej.cz/27543387/m.a.s.h-s02e24-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30732031",
-        "size_bytes": 819068069,
-        "source_bytes_read": 819068069,
-        "http_status": 201
+        "display_name": "M*A*S*H S02E24 A Smattering of Intelligence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:06:40.033305+00:00"
       }
     },
     "108:3:1": {
@@ -171271,5 +171272,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:06:38.050699+00:00"
+  "updated_at": "2026-11-02T13:06:40.033323+00:00"
 }
