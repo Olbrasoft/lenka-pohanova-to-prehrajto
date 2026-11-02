@@ -161405,12 +161405,6 @@
     },
     "567:3:19": {
       "episode_key": "lovci zločinců:s3:e19",
-      "claim": {
-        "worker_id": "b9b4eb5b747d440ea61ee5f1f3b76cfa-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:25:18.400710+00:00",
-        "lease_expires_at": "2026-11-02T12:25:18.400719+00:00"
-      },
       "source": {
         "source_id": "32300424",
         "source_url": "https://sdilej.cz/32300424/lovci-zlocincu-s03e19-cz-dabing.mkv",
@@ -161435,15 +161429,22 @@
         "display_name": "Person of Interest S03E19 Most Likely To… 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:25:22.454458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718916",
-        "size_bytes": 471859200
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718916",
+          "size_bytes": 471859200,
+          "source_bytes_read": 471859200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300424",
+        "source_url": "https://sdilej.cz/32300424/lovci-zlocincu-s03e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718916",
-        "size_bytes": 471859200,
-        "source_bytes_read": 471859200,
-        "http_status": 201
+        "display_name": "Person of Interest S03E19 Most Likely To… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:26:58.247402+00:00"
       }
     }
   },
@@ -161452,5 +161453,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:26:54.884586+00:00"
+  "updated_at": "2026-11-02T06:26:58.247417+00:00"
 }
