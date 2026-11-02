@@ -173943,12 +173943,6 @@
     },
     "108:6:18": {
       "episode_key": "m a s h:s6:e18",
-      "claim": {
-        "worker_id": "f540fe902f9d46e5857af33da701433e-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:13:49.562802+00:00",
-        "lease_expires_at": "2026-11-02T20:13:49.562812+00:00"
-      },
       "source": {
         "source_id": "27552853",
         "source_url": "https://sdilej.cz/27552853/m.a.s.h-s06e18-cz.mkv",
@@ -173973,15 +173967,22 @@
         "display_name": "M*A*S*H S06E18 Your Hit Parade 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:13:53.652679+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733643",
-        "size_bytes": 790775122
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733643",
+          "size_bytes": 790775122,
+          "source_bytes_read": 790775122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27552853",
+        "source_url": "https://sdilej.cz/27552853/m.a.s.h-s06e18-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733643",
-        "size_bytes": 790775122,
-        "source_bytes_read": 790775122,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E18 Your Hit Parade 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:15:38.374264+00:00"
       }
     },
     "108:6:19": {
@@ -174027,5 +174028,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:15:33.163743+00:00"
+  "updated_at": "2026-11-02T14:15:38.374278+00:00"
 }
