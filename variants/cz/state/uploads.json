@@ -160437,12 +160437,6 @@
     },
     "567:2:19": {
       "episode_key": "lovci zločinců:s2:e19",
-      "claim": {
-        "worker_id": "22f2efde6a494543bddc8a4833389b42-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:08:04.301660+00:00",
-        "lease_expires_at": "2026-11-02T12:08:04.301671+00:00"
-      },
       "source": {
         "source_id": "32300290",
         "source_url": "https://sdilej.cz/32300290/lovci-zlocincu-s02e19-cz-dabing.mkv",
@@ -160467,15 +160461,22 @@
         "display_name": "Person of Interest S02E19 Trojan Horse 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:08:06.546228+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718591",
-        "size_bytes": 778542211
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718591",
+          "size_bytes": 778542211,
+          "source_bytes_read": 778542211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300290",
+        "source_url": "https://sdilej.cz/32300290/lovci-zlocincu-s02e19-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718591",
-        "size_bytes": 778542211,
-        "source_bytes_read": 778542211,
-        "http_status": 201
+        "display_name": "Person of Interest S02E19 Trojan Horse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:09:25.765894+00:00"
       }
     },
     "567:2:20": {
@@ -160521,5 +160522,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:09:20.537740+00:00"
+  "updated_at": "2026-11-02T06:09:25.765911+00:00"
 }
