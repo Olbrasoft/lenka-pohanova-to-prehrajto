@@ -179415,12 +179415,6 @@
     },
     "635:5:6": {
       "episode_key": "f1: touha po vítězství:s5:e6",
-      "claim": {
-        "worker_id": "7baf2f477f2b44d09bf3f60c42c1486e-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T17:01:10.466786+00:00",
-        "lease_expires_at": "2026-11-02T23:01:10.466797+00:00"
-      },
       "source": {
         "source_id": "31554398",
         "source_url": "https://sdilej.cz/31554398/f1-touha-po-vitezstvi-s05e06-nepritvrdis-nevyhrajes.mkv",
@@ -179445,15 +179439,22 @@
         "display_name": "Formula 1: Drive to Survive S05E06 Nice Guys Finish Last 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:01:13.370312+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30737130",
-        "size_bytes": 1178046377
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30737130",
+          "size_bytes": 1178046377,
+          "source_bytes_read": 1178046377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554398",
+        "source_url": "https://sdilej.cz/31554398/f1-touha-po-vitezstvi-s05e06-nepritvrdis-nevyhrajes.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30737130",
-        "size_bytes": 1178046377,
-        "source_bytes_read": 1178046377,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S05E06 Nice Guys Finish Last 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:03:21.003460+00:00"
       }
     }
   },
@@ -179462,5 +179463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:03:15.275713+00:00"
+  "updated_at": "2026-11-02T17:03:21.003476+00:00"
 }
