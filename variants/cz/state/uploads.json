@@ -172447,12 +172447,6 @@
     },
     "108:4:12": {
       "episode_key": "m a s h:s4:e12",
-      "claim": {
-        "worker_id": "8d46d4d7663c4384b9209c932ab6b79a-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:54:32.044901+00:00",
-        "lease_expires_at": "2026-11-02T19:54:32.044924+00:00"
-      },
       "source": {
         "source_id": "32915175",
         "source_url": "https://sdilej.cz/32915175/m-a-s-h-s04e12-o-parohacich-a-lidech.mp4",
@@ -172477,15 +172471,22 @@
         "display_name": "M*A*S*H S04E12 Soldier of the Month 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:54:36.710293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733109",
-        "size_bytes": 392078619
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733109",
+          "size_bytes": 392078619,
+          "source_bytes_read": 392078619,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32915175",
+        "source_url": "https://sdilej.cz/32915175/m-a-s-h-s04e12-o-parohacich-a-lidech.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733109",
-        "size_bytes": 392078619,
-        "source_bytes_read": 392078619,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E12 Soldier of the Month 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:55:25.074982+00:00"
       }
     },
     "108:4:13": {
@@ -172568,5 +172569,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:55:20.538158+00:00"
+  "updated_at": "2026-11-02T13:55:25.074997+00:00"
 }
