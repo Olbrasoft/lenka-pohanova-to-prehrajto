@@ -161103,12 +161103,6 @@
     },
     "567:3:12": {
       "episode_key": "lovci zločinců:s3:e12",
-      "claim": {
-        "worker_id": "afb809c6bb3b446aa3a96d5201ae6c45-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:20:42.992872+00:00",
-        "lease_expires_at": "2026-11-02T12:20:42.992895+00:00"
-      },
       "source": {
         "source_id": "32300369",
         "source_url": "https://sdilej.cz/32300369/lovci-zlocincu-s03e12-cz-dabing.mkv",
@@ -161133,15 +161127,22 @@
         "display_name": "Person of Interest S03E12 Aletheia 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:20:45.325794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718811",
-        "size_bytes": 772086306
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718811",
+          "size_bytes": 772086306,
+          "source_bytes_read": 772086306,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300369",
+        "source_url": "https://sdilej.cz/32300369/lovci-zlocincu-s03e12-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718811",
-        "size_bytes": 772086306,
-        "source_bytes_read": 772086306,
-        "http_status": 201
+        "display_name": "Person of Interest S03E12 Aletheia 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:22:00.247021+00:00"
       }
     },
     "567:3:13": {
@@ -161186,5 +161187,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:21:58.392491+00:00"
+  "updated_at": "2026-11-02T06:22:00.247036+00:00"
 }
