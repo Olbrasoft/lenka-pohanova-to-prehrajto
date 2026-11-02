@@ -169464,12 +169464,6 @@
     },
     "108:1:10": {
       "episode_key": "m a s h:s1:e10",
-      "claim": {
-        "worker_id": "8c197b5d9c0545d48dd81429412c842f-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:41:29.117048+00:00",
-        "lease_expires_at": "2026-11-02T18:41:29.117058+00:00"
-      },
       "source": {
         "source_id": "32913405",
         "source_url": "https://sdilej.cz/32913405/m-a-s-h-s01e10.mp4",
@@ -169494,15 +169488,22 @@
         "display_name": "M*A*S*H S01E10 I Hate a Mystery 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:41:35.415801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731498",
-        "size_bytes": 403179628
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731498",
+          "size_bytes": 403179628,
+          "source_bytes_read": 403179628,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32913405",
+        "source_url": "https://sdilej.cz/32913405/m-a-s-h-s01e10.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731498",
-        "size_bytes": 403179628,
-        "source_bytes_read": 403179628,
-        "http_status": 201
+        "display_name": "M*A*S*H S01E10 I Hate a Mystery 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:42:51.961066+00:00"
       }
     }
   },
@@ -169511,5 +169512,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:42:47.268083+00:00"
+  "updated_at": "2026-11-02T12:42:51.961087+00:00"
 }
