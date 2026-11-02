@@ -168841,12 +168841,6 @@
     },
     "2645:1:1": {
       "episode_key": "šťastné údolí:s1:e1",
-      "claim": {
-        "worker_id": "4971bd2bda8f417eb8d491f4dceb95ee-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:04:47.929614+00:00",
-        "lease_expires_at": "2026-11-02T18:04:47.929625+00:00"
-      },
       "source": {
         "source_id": "7789985",
         "source_url": "https://sdilej.cz/7789985/stastne-udoli-happy-valley.01x01.1080i.hdtv-cesky-dabing.mkv",
@@ -168871,15 +168865,22 @@
         "display_name": "Happy Valley S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:04:50.707572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30729653",
-        "size_bytes": 1626564880
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30729653",
+          "size_bytes": 1626564880,
+          "source_bytes_read": 1626564880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7789985",
+        "source_url": "https://sdilej.cz/7789985/stastne-udoli-happy-valley.01x01.1080i.hdtv-cesky-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30729653",
-        "size_bytes": 1626564880,
-        "source_bytes_read": 1626564880,
-        "http_status": 201
+        "display_name": "Happy Valley S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:08:55.914840+00:00"
       }
     },
     "2645:1:3": {
@@ -168932,5 +168933,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:08:53.807156+00:00"
+  "updated_at": "2026-11-02T12:08:55.914858+00:00"
 }
