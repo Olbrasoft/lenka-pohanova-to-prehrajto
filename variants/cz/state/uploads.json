@@ -149832,12 +149832,6 @@
     },
     "1074:2:4": {
       "episode_key": "zákon gangu:s2:e4",
-      "claim": {
-        "worker_id": "eb71b97b291f4f5aa670597239b1391d-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:06:08.055223+00:00",
-        "lease_expires_at": "2026-11-02T06:06:08.055235+00:00"
-      },
       "source": {
         "source_id": "33478531",
         "source_url": "https://sdilej.cz/33478531/sons-of-anarchy-s02e04-1080p-cz-eureka.mkv",
@@ -149862,15 +149856,22 @@
         "display_name": "Sons of Anarchy S02E04 Eureka 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:06:10.174244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710772",
-        "size_bytes": 515011894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710772",
+          "size_bytes": 515011894,
+          "source_bytes_read": 515011894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478531",
+        "source_url": "https://sdilej.cz/33478531/sons-of-anarchy-s02e04-1080p-cz-eureka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710772",
-        "size_bytes": 515011894,
-        "source_bytes_read": 515011894,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E04 Eureka 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:07:02.786312+00:00"
       }
     }
   },
@@ -149879,5 +149880,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:07:00.178284+00:00"
+  "updated_at": "2026-11-02T00:07:02.786329+00:00"
 }
