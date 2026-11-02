@@ -151688,12 +151688,6 @@
     },
     "700:2:2": {
       "episode_key": "medvěd:s2:e2",
-      "claim": {
-        "worker_id": "1bc6ebd994f84ac094017a8046e54114-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:55:05.744323+00:00",
-        "lease_expires_at": "2026-11-02T06:55:05.744333+00:00"
-      },
       "source": {
         "source_id": "32964687",
         "source_url": "https://sdilej.cz/32964687/medved-s02e02-1080p-cz-testoviny.mkv",
@@ -151718,15 +151712,22 @@
         "display_name": "The Bear S02E02 Pasta 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:55:09.497458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711514",
-        "size_bytes": 352263281
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711514",
+          "size_bytes": 352263281,
+          "source_bytes_read": 352263281,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964687",
+        "source_url": "https://sdilej.cz/32964687/medved-s02e02-1080p-cz-testoviny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711514",
-        "size_bytes": 352263281,
-        "source_bytes_read": 352263281,
-        "http_status": 201
+        "display_name": "The Bear S02E02 Pasta 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:55:43.511905+00:00"
       }
     },
     "700:2:3": {
@@ -151809,5 +151810,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:55:40.595205+00:00"
+  "updated_at": "2026-11-02T00:55:43.511925+00:00"
 }
