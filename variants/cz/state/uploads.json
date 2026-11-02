@@ -185547,12 +185547,6 @@
     },
     "1064:3:22": {
       "episode_key": "kauzy z bostonu:s3:e22",
-      "claim": {
-        "worker_id": "26fde5a870d5444db2b5e813231745e2-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:02:59.841148+00:00",
-        "lease_expires_at": "2026-11-03T03:02:59.841161+00:00"
-      },
       "source": {
         "source_id": "33316265",
         "source_url": "https://sdilej.cz/33316265/boston-legal-kauzy-z-bostonu-s03e22-czdab.mp4",
@@ -185577,15 +185571,22 @@
         "display_name": "Boston Legal S03E22 Guantanamo by the Bay SD CZ Dabing",
         "prepared_at": "2026-11-02T21:03:02.422382+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742192",
-        "size_bytes": 495055885
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742192",
+          "size_bytes": 495055885,
+          "source_bytes_read": 495055885,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316265",
+        "source_url": "https://sdilej.cz/33316265/boston-legal-kauzy-z-bostonu-s03e22-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742192",
-        "size_bytes": 495055885,
-        "source_bytes_read": 495055885,
-        "http_status": 201
+        "display_name": "Boston Legal S03E22 Guantanamo by the Bay SD CZ Dabing",
+        "uploaded_at": "2026-11-02T21:03:50.632358+00:00"
       }
     },
     "1064:3:23": {
@@ -185664,5 +185665,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:03:47.687222+00:00"
+  "updated_at": "2026-11-02T21:03:50.632372+00:00"
 }
