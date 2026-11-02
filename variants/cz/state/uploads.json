@@ -165013,12 +165013,6 @@
     },
     "1002:5:3": {
       "episode_key": "expanze:s5:e3",
-      "claim": {
-        "worker_id": "0fa650dc08864e83b5f11f4836d582b4-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:30:15.057340+00:00",
-        "lease_expires_at": "2026-11-02T15:30:15.057350+00:00"
-      },
       "source": {
         "source_id": "29592094",
         "source_url": "https://sdilej.cz/29592094/expanze-s05e03-1080p-cz-en.mkv",
@@ -165043,15 +165037,22 @@
         "display_name": "The Expanse S05E03 Mother 1080p CZ Dabing",
         "prepared_at": "2026-11-02T09:30:21.146097+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30723045",
-        "size_bytes": 1038106001
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30723045",
+          "size_bytes": 1038106001,
+          "source_bytes_read": 1038106001,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29592094",
+        "source_url": "https://sdilej.cz/29592094/expanze-s05e03-1080p-cz-en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30723045",
-        "size_bytes": 1038106001,
-        "source_bytes_read": 1038106001,
-        "http_status": 201
+        "display_name": "The Expanse S05E03 Mother 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T09:32:22.828929+00:00"
       }
     },
     "1002:5:4": {
@@ -165097,5 +165098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T09:32:18.054217+00:00"
+  "updated_at": "2026-11-02T09:32:22.828948+00:00"
 }
