@@ -168364,12 +168364,6 @@
     },
     "3401:1:10": {
       "episode_key": "soví dům:s1:e10",
-      "claim": {
-        "worker_id": "08e6e804a2214c64867d2970420833e6-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:00:00.745939+00:00",
-        "lease_expires_at": "2026-11-02T18:00:00.745953+00:00"
-      },
       "source": {
         "source_id": "25219968",
         "source_url": "https://sdilej.cz/25219968/sovi-dum-s01e10-cz.mkv",
@@ -168394,15 +168388,22 @@
         "display_name": "The Owl House S01E10 Escape of the Palisman 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:00:07.437815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30728956",
-        "size_bytes": 442673884
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30728956",
+          "size_bytes": 442673884,
+          "source_bytes_read": 442673884,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25219968",
+        "source_url": "https://sdilej.cz/25219968/sovi-dum-s01e10-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30728956",
-        "size_bytes": 442673884,
-        "source_bytes_read": 442673884,
-        "http_status": 201
+        "display_name": "The Owl House S01E10 Escape of the Palisman 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:01:04.408151+00:00"
       }
     },
     "3401:1:11": {
@@ -168485,5 +168486,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:01:00.875141+00:00"
+  "updated_at": "2026-11-02T12:01:04.408169+00:00"
 }
