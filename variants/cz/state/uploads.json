@@ -181274,12 +181274,6 @@
     },
     "2120:2:3": {
       "episode_key": "všechny velké a malé bytosti:s2:e3",
-      "claim": {
-        "worker_id": "af91143909134e4f9f54f7cee3ae146a-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:57:17.947231+00:00",
-        "lease_expires_at": "2026-11-03T00:57:17.947247+00:00"
-      },
       "source": {
         "source_id": "27443983",
         "source_url": "https://sdilej.cz/27443983/vsechny.velke.a.male.bytosti.02x03-muzeme-jen-doufat.mkv",
@@ -181304,15 +181298,22 @@
         "display_name": "All Creatures Great & Small S02E03 We Can But Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:57:20.489589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30739685",
-        "size_bytes": 542895678
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30739685",
+          "size_bytes": 542895678,
+          "source_bytes_read": 542895678,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27443983",
+        "source_url": "https://sdilej.cz/27443983/vsechny.velke.a.male.bytosti.02x03-muzeme-jen-doufat.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30739685",
-        "size_bytes": 542895678,
-        "source_bytes_read": 542895678,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S02E03 We Can But Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T18:58:14.065385+00:00"
       }
     },
     "2120:2:4": {
@@ -181393,5 +181394,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T18:58:10.641479+00:00"
+  "updated_at": "2026-11-02T18:58:14.065404+00:00"
 }
