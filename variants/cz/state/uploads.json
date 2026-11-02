@@ -189452,12 +189452,6 @@
     },
     "6815:5:1": {
       "episode_key": "foylova válka:s5:e1",
-      "claim": {
-        "worker_id": "40c0bb221c894095815e6fff10501494-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:40:33.855753+00:00",
-        "lease_expires_at": "2026-11-03T05:40:33.855765+00:00"
-      },
       "source": {
         "source_id": "22281416",
         "source_url": "https://sdilej.cz/22281416/foylova-valka-s05e01-czdab.avi",
@@ -189482,15 +189476,22 @@
         "display_name": "Foyle's War S05E01 Bleak Midwinter SD CZ Dabing",
         "prepared_at": "2026-11-02T23:40:38.917064+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30744999",
-        "size_bytes": 646970996
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30744999",
+          "size_bytes": 646970996,
+          "source_bytes_read": 646970996,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281416",
+        "source_url": "https://sdilej.cz/22281416/foylova-valka-s05e01-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30744999",
-        "size_bytes": 646970996,
-        "source_bytes_read": 646970996,
-        "http_status": 201
+        "display_name": "Foyle's War S05E01 Bleak Midwinter SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:41:35.380439+00:00"
       }
     },
     "6815:4:2": {
@@ -189573,5 +189574,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:41:30.902369+00:00"
+  "updated_at": "2026-11-02T23:41:35.380457+00:00"
 }
