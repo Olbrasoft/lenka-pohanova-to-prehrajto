@@ -162688,12 +162688,6 @@
     },
     "567:5:8": {
       "episode_key": "lovci zločinců:s5:e8",
-      "claim": {
-        "worker_id": "86b86947a3f04116942910594f5fb43a-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:07:50.115465+00:00",
-        "lease_expires_at": "2026-11-02T13:07:50.115477+00:00"
-      },
       "source": {
         "source_id": "32300808",
         "source_url": "https://sdilej.cz/32300808/lovci-zlocincu-s05e08-cz-dabing.mkv",
@@ -162718,15 +162712,22 @@
         "display_name": "Person of Interest S05E08 Reassortment 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:07:53.529467+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720471",
-        "size_bytes": 773026013
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720471",
+          "size_bytes": 773026013,
+          "source_bytes_read": 773026013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300808",
+        "source_url": "https://sdilej.cz/32300808/lovci-zlocincu-s05e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720471",
-        "size_bytes": 773026013,
-        "source_bytes_read": 773026013,
-        "http_status": 201
+        "display_name": "Person of Interest S05E08 Reassortment 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:09:37.566566+00:00"
       }
     },
     "567:5:9": {
@@ -162809,5 +162810,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:09:33.859849+00:00"
+  "updated_at": "2026-11-02T07:09:37.566584+00:00"
 }
