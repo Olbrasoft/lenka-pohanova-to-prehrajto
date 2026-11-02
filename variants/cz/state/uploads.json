@@ -173628,12 +173628,6 @@
     },
     "108:6:11": {
       "episode_key": "m a s h:s6:e11",
-      "claim": {
-        "worker_id": "dfcc9a630cb843c5b63598b73683d63f-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:09:54.047571+00:00",
-        "lease_expires_at": "2026-11-02T20:09:54.047582+00:00"
-      },
       "source": {
         "source_id": "28258245",
         "source_url": "https://sdilej.cz/28258245/mash-s06e11-133-.olympiada-v-mashi.mkv",
@@ -173658,15 +173652,22 @@
         "display_name": "M*A*S*H S06E11 The Grim Reaper 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:09:58.177121+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733489",
-        "size_bytes": 226835815
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733489",
+          "size_bytes": 226835815,
+          "source_bytes_read": 226835815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258245",
+        "source_url": "https://sdilej.cz/28258245/mash-s06e11-133-.olympiada-v-mashi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733489",
-        "size_bytes": 226835815,
-        "source_bytes_read": 226835815,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E11 The Grim Reaper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:10:32.498657+00:00"
       }
     },
     "108:6:12": {
@@ -173712,5 +173713,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:10:28.351616+00:00"
+  "updated_at": "2026-11-02T14:10:32.498672+00:00"
 }
