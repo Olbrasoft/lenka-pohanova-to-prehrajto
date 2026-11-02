@@ -177760,12 +177760,6 @@
     },
     "108:11:4": {
       "episode_key": "m a s h:s11:e4",
-      "claim": {
-        "worker_id": "a4c642023d6f4b86a3660d0b9b082f6b-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:58:13.020748+00:00",
-        "lease_expires_at": "2026-11-02T21:58:13.020758+00:00"
-      },
       "source": {
         "source_id": "29644905",
         "source_url": "https://sdilej.cz/29644905/mash-s11e04-propaganda.avi",
@@ -177790,15 +177784,22 @@
         "display_name": "M*A*S*H S11E04 The Joker is Wild SD CZ Dabing",
         "prepared_at": "2026-11-02T15:58:16.985696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735771",
-        "size_bytes": 222599168
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735771",
+          "size_bytes": 222599168,
+          "source_bytes_read": 222599168,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29644905",
+        "source_url": "https://sdilej.cz/29644905/mash-s11e04-propaganda.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735771",
-        "size_bytes": 222599168,
-        "source_bytes_read": 222599168,
-        "http_status": 201
+        "display_name": "M*A*S*H S11E04 The Joker is Wild SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:58:56.871445+00:00"
       }
     },
     "108:11:5": {
@@ -177881,5 +177882,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:58:52.726987+00:00"
+  "updated_at": "2026-11-02T15:58:56.871460+00:00"
 }
