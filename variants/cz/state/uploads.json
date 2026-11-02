@@ -187483,12 +187483,6 @@
     },
     "3128:3:5": {
       "episode_key": "sněží!:s3:e5",
-      "claim": {
-        "worker_id": "73b233c3494c48a8964ee07ac2443eba-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:12:08.773558+00:00",
-        "lease_expires_at": "2026-11-03T04:12:08.773569+00:00"
-      },
       "source": {
         "source_id": "28326282",
         "source_url": "https://sdilej.cz/28326282/snezi-s03e05-bottoms.mkv",
@@ -187513,15 +187507,22 @@
         "display_name": "Snowfall S03E05 The Bottoms 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:12:12.226854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743313",
-        "size_bytes": 2744898646
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743313",
+          "size_bytes": 2744898646,
+          "source_bytes_read": 2744898646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326282",
+        "source_url": "https://sdilej.cz/28326282/snezi-s03e05-bottoms.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743313",
-        "size_bytes": 2744898646,
-        "source_bytes_read": 2744898646,
-        "http_status": 201
+        "display_name": "Snowfall S03E05 The Bottoms 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:17:30.197296+00:00"
       }
     }
   },
@@ -187530,5 +187531,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:17:25.788143+00:00"
+  "updated_at": "2026-11-02T22:17:30.197314+00:00"
 }
