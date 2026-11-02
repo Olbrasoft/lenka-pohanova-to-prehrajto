@@ -176671,12 +176671,6 @@
     },
     "108:9:11": {
       "episode_key": "m a s h:s9:e11",
-      "claim": {
-        "worker_id": "4c8d7c7576f3488c9d46942c7d95c421-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:29:44.529820+00:00",
-        "lease_expires_at": "2026-11-02T21:29:44.529829+00:00"
-      },
       "source": {
         "source_id": "34979444",
         "source_url": "https://sdilej.cz/34979444/m.a.s.h-s09e11-zadne-poceni.mkv",
@@ -176701,15 +176695,22 @@
         "display_name": "M*A*S*H S09E11 No Sweat 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:29:50.591182+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735257",
-        "size_bytes": 724999499
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735257",
+          "size_bytes": 724999499,
+          "source_bytes_read": 724999499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979444",
+        "source_url": "https://sdilej.cz/34979444/m.a.s.h-s09e11-zadne-poceni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735257",
-        "size_bytes": 724999499,
-        "source_bytes_read": 724999499,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E11 No Sweat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:31:07.017691+00:00"
       }
     },
     "108:9:12": {
@@ -176832,5 +176833,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:31:03.357787+00:00"
+  "updated_at": "2026-11-02T15:31:07.017706+00:00"
 }
