@@ -177375,12 +177375,6 @@
     },
     "108:10:13": {
       "episode_key": "m a s h:s10:e13",
-      "claim": {
-        "worker_id": "5871a0b998d24726873594037111aa07-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:47:09.676889+00:00",
-        "lease_expires_at": "2026-11-02T21:47:09.676899+00:00"
-      },
       "source": {
         "source_id": "34979550",
         "source_url": "https://sdilej.cz/34979550/m.a.s.h-s10e13-krev-a-streva.mkv",
@@ -177405,15 +177399,22 @@
         "display_name": "M*A*S*H S10E13 A Holy Mess 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:47:15.011092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735610",
-        "size_bytes": 779234783
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735610",
+          "size_bytes": 779234783,
+          "source_bytes_read": 779234783,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979550",
+        "source_url": "https://sdilej.cz/34979550/m.a.s.h-s10e13-krev-a-streva.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735610",
-        "size_bytes": 779234783,
-        "source_bytes_read": 779234783,
-        "http_status": 201
+        "display_name": "M*A*S*H S10E13 A Holy Mess 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:49:08.984232+00:00"
       }
     },
     "108:10:14": {
@@ -177510,5 +177511,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:49:04.367366+00:00"
+  "updated_at": "2026-11-02T15:49:08.984244+00:00"
 }
