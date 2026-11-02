@@ -174244,12 +174244,6 @@
     },
     "108:7:3": {
       "episode_key": "m a s h:s7:e3",
-      "claim": {
-        "worker_id": "9d4e251078794cea8a7caf89a884f980-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:28:49.843166+00:00",
-        "lease_expires_at": "2026-11-02T20:28:49.843179+00:00"
-      },
       "source": {
         "source_id": "34978887",
         "source_url": "https://sdilej.cz/34978887/m.a.s.h-s07e03-lil.mkv",
@@ -174274,15 +174268,22 @@
         "display_name": "M*A*S*H S07E03 Lil 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:28:54.684011+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733910",
-        "size_bytes": 764860077
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733910",
+          "size_bytes": 764860077,
+          "source_bytes_read": 764860077,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978887",
+        "source_url": "https://sdilej.cz/34978887/m.a.s.h-s07e03-lil.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733910",
-        "size_bytes": 764860077,
-        "source_bytes_read": 764860077,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E03 Lil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:30:30.180476+00:00"
       }
     },
     "108:7:5": {
@@ -174324,5 +174325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:30:27.805384+00:00"
+  "updated_at": "2026-11-02T14:30:30.180490+00:00"
 }
