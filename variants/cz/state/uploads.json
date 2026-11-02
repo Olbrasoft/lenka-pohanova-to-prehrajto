@@ -152737,12 +152737,6 @@
     },
     "700:4:8": {
       "episode_key": "medvěd:s4:e8",
-      "claim": {
-        "worker_id": "9c18408e268d41819fdf58159fb2bc9a-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:27:35.254269+00:00",
-        "lease_expires_at": "2026-11-02T07:27:35.254281+00:00"
-      },
       "source": {
         "source_id": "34640910",
         "source_url": "https://sdilej.cz/34640910/medved-s04e08-zelena-mikina.mkv",
@@ -152767,15 +152761,22 @@
         "display_name": "The Bear S04E08 Green 4K CZ Dabing",
         "prepared_at": "2026-11-02T01:27:37.526863+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712117",
-        "size_bytes": 1726411582
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712117",
+          "size_bytes": 1726411582,
+          "source_bytes_read": 1726411582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34640910",
+        "source_url": "https://sdilej.cz/34640910/medved-s04e08-zelena-mikina.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712117",
-        "size_bytes": 1726411582,
-        "source_bytes_read": 1726411582,
-        "http_status": 201
+        "display_name": "The Bear S04E08 Green 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T01:32:10.534639+00:00"
       }
     },
     "700:4:9": {
@@ -152821,5 +152822,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:32:06.535695+00:00"
+  "updated_at": "2026-11-02T01:32:10.534656+00:00"
 }
