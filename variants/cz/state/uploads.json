@@ -185326,12 +185326,6 @@
     },
     "1064:3:17": {
       "episode_key": "kauzy z bostonu:s3:e17",
-      "claim": {
-        "worker_id": "b8f5db757e294c7582b2da487f6c0e4e-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:38:56.044626+00:00",
-        "lease_expires_at": "2026-11-03T02:38:56.044635+00:00"
-      },
       "source": {
         "source_id": "33316247",
         "source_url": "https://sdilej.cz/33316247/boston-legal-kauzy-z-bostonu-s03e17-czdab.mp4",
@@ -185356,15 +185350,22 @@
         "display_name": "Boston Legal S03E17 The Bride Wore Blood SD CZ Dabing",
         "prepared_at": "2026-11-02T20:39:01.457655+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741459",
-        "size_bytes": 501780558
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741459",
+          "size_bytes": 501780558,
+          "source_bytes_read": 501780558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316247",
+        "source_url": "https://sdilej.cz/33316247/boston-legal-kauzy-z-bostonu-s03e17-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741459",
-        "size_bytes": 501780558,
-        "source_bytes_read": 501780558,
-        "http_status": 201
+        "display_name": "Boston Legal S03E17 The Bride Wore Blood SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:39:54.717456+00:00"
       }
     }
   },
@@ -185373,5 +185374,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:39:52.350431+00:00"
+  "updated_at": "2026-11-02T20:39:54.717471+00:00"
 }
