@@ -150588,12 +150588,6 @@
     },
     "1074:3:8": {
       "episode_key": "zákon gangu:s3:e8",
-      "claim": {
-        "worker_id": "48cae84398564062977ed5ff4fe2664e-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:16:28.792322+00:00",
-        "lease_expires_at": "2026-11-02T06:16:28.792335+00:00"
-      },
       "source": {
         "source_id": "33668631",
         "source_url": "https://sdilej.cz/33668631/zakon-gangu-s03e08-13-2010-cz-dab-1080p-za-velkou-louzi.mkv",
@@ -150618,15 +150612,22 @@
         "display_name": "Sons of Anarchy S03E08 Lochan Mor 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:16:30.891377+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710937",
-        "size_bytes": 2181808219
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710937",
+          "size_bytes": 2181808219,
+          "source_bytes_read": 2181808219,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33668631",
+        "source_url": "https://sdilej.cz/33668631/zakon-gangu-s03e08-13-2010-cz-dab-1080p-za-velkou-louzi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710937",
-        "size_bytes": 2181808219,
-        "source_bytes_read": 2181808219,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S03E08 Lochan Mor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:21:43.557308+00:00"
       }
     },
     "1074:3:9": {
@@ -150885,5 +150886,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:21:40.463593+00:00"
+  "updated_at": "2026-11-02T00:21:43.557325+00:00"
 }
