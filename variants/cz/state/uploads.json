@@ -156646,12 +156646,6 @@
     },
     "60:3:8": {
       "episode_key": "hannibal:s3:e8",
-      "claim": {
-        "worker_id": "acb108c9ff134f73bbc86d79c4a770d9-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:35:00.267837+00:00",
-        "lease_expires_at": "2026-11-02T09:35:00.267848+00:00"
-      },
       "source": {
         "source_id": "27942694",
         "source_url": "https://sdilej.cz/27942694/hannibal-s03e08-cz.mkv",
@@ -156676,15 +156670,22 @@
         "display_name": "Hannibal S03E08 The Great Red Dragon 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:35:04.070914+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30715305",
-        "size_bytes": 1631093341
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30715305",
+          "size_bytes": 1631093341,
+          "source_bytes_read": 1631093341,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27942694",
+        "source_url": "https://sdilej.cz/27942694/hannibal-s03e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30715305",
-        "size_bytes": 1631093341,
-        "source_bytes_read": 1631093341,
-        "http_status": 201
+        "display_name": "Hannibal S03E08 The Great Red Dragon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:37:44.120853+00:00"
       }
     }
   },
@@ -156693,5 +156694,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:37:39.530062+00:00"
+  "updated_at": "2026-11-02T03:37:44.120869+00:00"
 }
