@@ -164096,12 +164096,6 @@
     },
     "1002:3:5": {
       "episode_key": "expanze:s3:e5",
-      "claim": {
-        "worker_id": "97dda16ddc254d94ad1e31165115bc30-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T08:15:45.917989+00:00",
-        "lease_expires_at": "2026-11-02T14:15:45.918001+00:00"
-      },
       "source": {
         "source_id": "34726733",
         "source_url": "https://sdilej.cz/34726733/expanze-the-expanse-s03e05-cz-5.1.mkv",
@@ -164126,15 +164120,22 @@
         "display_name": "The Expanse S03E05 Triple Point 1080p CZ Dabing",
         "prepared_at": "2026-11-02T08:15:48.035197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721695",
-        "size_bytes": 1033160770
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721695",
+          "size_bytes": 1033160770,
+          "source_bytes_read": 1033160770,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34726733",
+        "source_url": "https://sdilej.cz/34726733/expanze-the-expanse-s03e05-cz-5.1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721695",
-        "size_bytes": 1033160770,
-        "source_bytes_read": 1033160770,
-        "http_status": 201
+        "display_name": "The Expanse S03E05 Triple Point 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T08:17:23.615105+00:00"
       }
     },
     "1002:3:6": {
@@ -164213,5 +164214,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T08:17:21.673365+00:00"
+  "updated_at": "2026-11-02T08:17:23.615121+00:00"
 }
