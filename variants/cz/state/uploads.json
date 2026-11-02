@@ -162908,12 +162908,6 @@
     },
     "567:5:13": {
       "episode_key": "lovci zločinců:s5:e13",
-      "claim": {
-        "worker_id": "3538b64bd0dd4ea8884fc7b4aa9c734d-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:11:16.151773+00:00",
-        "lease_expires_at": "2026-11-02T13:11:16.151785+00:00"
-      },
       "source": {
         "source_id": "32300848",
         "source_url": "https://sdilej.cz/32300848/lovci-zlocincu-s05e13-cz-dabing.mkv",
@@ -162938,15 +162932,22 @@
         "display_name": "Person of Interest S05E13 return 0 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:11:19.009367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720528",
-        "size_bytes": 772447326
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720528",
+          "size_bytes": 772447326,
+          "source_bytes_read": 772447326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300848",
+        "source_url": "https://sdilej.cz/32300848/lovci-zlocincu-s05e13-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720528",
-        "size_bytes": 772447326,
-        "source_bytes_read": 772447326,
-        "http_status": 201
+        "display_name": "Person of Interest S05E13 return 0 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:12:45.247353+00:00"
       }
     },
     "1002:1:1": {
@@ -163029,5 +163030,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:12:40.602678+00:00"
+  "updated_at": "2026-11-02T07:12:45.247371+00:00"
 }
