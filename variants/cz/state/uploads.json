@@ -176979,12 +176979,6 @@
     },
     "108:9:20": {
       "episode_key": "m a s h:s9:e20",
-      "claim": {
-        "worker_id": "abed379b5ac544769586bca9f8ad29be-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:34:13.742532+00:00",
-        "lease_expires_at": "2026-11-02T21:34:13.742542+00:00"
-      },
       "source": {
         "source_id": "34979477",
         "source_url": "https://sdilej.cz/34979477/m.a.s.h-s09e20-zivot-ktery-jsi-zachranil.mkv",
@@ -177009,15 +177003,22 @@
         "display_name": "M*A*S*H S09E20 The Life You Save 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:34:18.085920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735352",
-        "size_bytes": 760357124
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735352",
+          "size_bytes": 760357124,
+          "source_bytes_read": 760357124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979477",
+        "source_url": "https://sdilej.cz/34979477/m.a.s.h-s09e20-zivot-ktery-jsi-zachranil.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735352",
-        "size_bytes": 760357124,
-        "source_bytes_read": 760357124,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E20 The Life You Save 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:37:28.950162+00:00"
       }
     },
     "108:10:2": {
@@ -177070,5 +177071,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:37:26.776008+00:00"
+  "updated_at": "2026-11-02T15:37:28.950179+00:00"
 }
