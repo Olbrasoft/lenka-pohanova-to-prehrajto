@@ -168621,12 +168621,6 @@
     },
     "3401:1:16": {
       "episode_key": "soví dům:s1:e16",
-      "claim": {
-        "worker_id": "8f39e8d23e8a4be09123f84624ff39f3-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:02:21.803822+00:00",
-        "lease_expires_at": "2026-11-02T18:02:21.803833+00:00"
-      },
       "source": {
         "source_id": "25220835",
         "source_url": "https://sdilej.cz/25220835/sovi-dum-s01e16-cz.mkv",
@@ -168651,15 +168645,22 @@
         "display_name": "The Owl House S01E16 Enchanting Grom Fright 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:02:24.360247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30729195",
-        "size_bytes": 438826710
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30729195",
+          "size_bytes": 438826710,
+          "source_bytes_read": 438826710,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25220835",
+        "source_url": "https://sdilej.cz/25220835/sovi-dum-s01e16-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30729195",
-        "size_bytes": 438826710,
-        "source_bytes_read": 438826710,
-        "http_status": 201
+        "display_name": "The Owl House S01E16 Enchanting Grom Fright 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:03:28.806833+00:00"
       }
     },
     "3401:1:17": {
@@ -168705,5 +168706,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:03:24.398861+00:00"
+  "updated_at": "2026-11-02T12:03:28.806850+00:00"
 }
