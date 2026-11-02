@@ -151820,12 +151820,6 @@
     },
     "700:2:5": {
       "episode_key": "medvěd:s2:e5",
-      "claim": {
-        "worker_id": "f4b5a67897274d48853b43e42891b764-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:55:52.335919+00:00",
-        "lease_expires_at": "2026-11-02T06:55:52.335929+00:00"
-      },
       "source": {
         "source_id": "32964713",
         "source_url": "https://sdilej.cz/32964713/medved-s02e05-1080p-cz-limca.mkv",
@@ -151850,15 +151844,22 @@
         "display_name": "The Bear S02E05 Pop 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:55:54.511264+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711525",
-        "size_bytes": 388720113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711525",
+          "size_bytes": 388720113,
+          "source_bytes_read": 388720113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964713",
+        "source_url": "https://sdilej.cz/32964713/medved-s02e05-1080p-cz-limca.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711525",
-        "size_bytes": 388720113,
-        "source_bytes_read": 388720113,
-        "http_status": 201
+        "display_name": "The Bear S02E05 Pop 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:56:28.738121+00:00"
       }
     },
     "700:2:6": {
@@ -151941,5 +151942,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:56:25.449201+00:00"
+  "updated_at": "2026-11-02T00:56:28.738137+00:00"
 }
