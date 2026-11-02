@@ -179385,12 +179385,6 @@
     },
     "635:5:4": {
       "episode_key": "f1: touha po vítězství:s5:e4",
-      "claim": {
-        "worker_id": "e6b9474179944693acfbf5085a1c23d0-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T17:00:19.915655+00:00",
-        "lease_expires_at": "2026-11-02T23:00:19.915674+00:00"
-      },
       "source": {
         "source_id": "30029254",
         "source_url": "https://sdilej.cz/30029254/f1-touha-po-vitezstvi-s05e04-jablko-nepada-daleko-od-stromu-dab.cz.mp4",
@@ -179415,15 +179409,22 @@
         "display_name": "Formula 1: Drive to Survive S05E04 Like Father, Like Son? 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:00:25.389017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30737115",
-        "size_bytes": 2197577640
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30737115",
+          "size_bytes": 2197577640,
+          "source_bytes_read": 2197577640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30029254",
+        "source_url": "https://sdilej.cz/30029254/f1-touha-po-vitezstvi-s05e04-jablko-nepada-daleko-od-stromu-dab.cz.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30737115",
-        "size_bytes": 2197577640,
-        "source_bytes_read": 2197577640,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S05E04 Like Father, Like Son? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:04:14.791047+00:00"
       }
     },
     "635:5:6": {
@@ -179550,5 +179551,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:04:11.496427+00:00"
+  "updated_at": "2026-11-02T17:04:14.791060+00:00"
 }
