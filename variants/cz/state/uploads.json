@@ -176451,12 +176451,6 @@
     },
     "108:9:6": {
       "episode_key": "m a s h:s9:e6",
-      "claim": {
-        "worker_id": "ca1e1f4096be44ac90820f4eaceb6695-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:16:49.632471+00:00",
-        "lease_expires_at": "2026-11-02T21:16:49.632482+00:00"
-      },
       "source": {
         "source_id": "30306925",
         "source_url": "https://sdilej.cz/30306925/mash-s09e06-czdab.mp4",
@@ -176481,15 +176475,22 @@
         "display_name": "M*A*S*H S09E06 A War for All Seasons SD CZ Dabing",
         "prepared_at": "2026-11-02T15:16:54.158589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735032",
-        "size_bytes": 292020482
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735032",
+          "size_bytes": 292020482,
+          "source_bytes_read": 292020482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306925",
+        "source_url": "https://sdilej.cz/30306925/mash-s09e06-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735032",
-        "size_bytes": 292020482,
-        "source_bytes_read": 292020482,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E06 A War for All Seasons SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:17:38.463854+00:00"
       }
     },
     "108:9:7": {
@@ -176535,5 +176536,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:17:36.343454+00:00"
+  "updated_at": "2026-11-02T15:17:38.463871+00:00"
 }
