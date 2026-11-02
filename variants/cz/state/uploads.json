@@ -182584,12 +182584,6 @@
     },
     "2120:6:5": {
       "episode_key": "všechny velké a malé bytosti:s6:e5",
-      "claim": {
-        "worker_id": "78c4162b0a33409aaf5c712e939951cd-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:35:26.852578+00:00",
-        "lease_expires_at": "2026-11-03T01:35:26.852589+00:00"
-      },
       "source": {
         "source_id": "33016798",
         "source_url": "https://sdilej.cz/33016798/vsechny-velke-a-male-bytosti-2025-s06e05-czdab-1080p.mkv",
@@ -182614,15 +182608,22 @@
         "display_name": "All Creatures Great & Small S06E05 Fixes 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:35:29.374091+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740617",
-        "size_bytes": 2126432174
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740617",
+          "size_bytes": 2126432174,
+          "source_bytes_read": 2126432174,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33016798",
+        "source_url": "https://sdilej.cz/33016798/vsechny-velke-a-male-bytosti-2025-s06e05-czdab-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740617",
-        "size_bytes": 2126432174,
-        "source_bytes_read": 2126432174,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S06E05 Fixes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:38:41.190712+00:00"
       }
     }
   },
@@ -182631,5 +182632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:38:36.405513+00:00"
+  "updated_at": "2026-11-02T19:38:41.190728+00:00"
 }
