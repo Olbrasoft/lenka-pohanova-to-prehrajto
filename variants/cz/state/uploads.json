@@ -150104,12 +150104,6 @@
     },
     "1074:2:10": {
       "episode_key": "zákon gangu:s2:e10",
-      "claim": {
-        "worker_id": "9037ab66344041818c3587b93dabf914-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:08:51.726693+00:00",
-        "lease_expires_at": "2026-11-02T06:08:51.726704+00:00"
-      },
       "source": {
         "source_id": "33478547",
         "source_url": "https://sdilej.cz/33478547/sons-of-anarchy-s02e10-1080p-cz-balm.mkv",
@@ -150134,15 +150128,22 @@
         "display_name": "Sons of Anarchy S02E10 Balm 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:08:53.919029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710818",
-        "size_bytes": 649544919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710818",
+          "size_bytes": 649544919,
+          "source_bytes_read": 649544919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478547",
+        "source_url": "https://sdilej.cz/33478547/sons-of-anarchy-s02e10-1080p-cz-balm.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710818",
-        "size_bytes": 649544919,
-        "source_bytes_read": 649544919,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E10 Balm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:09:56.412201+00:00"
       }
     },
     "1074:2:11": {
@@ -150225,5 +150226,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:09:52.325161+00:00"
+  "updated_at": "2026-11-02T00:09:56.412216+00:00"
 }
