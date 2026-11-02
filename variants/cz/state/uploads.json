@@ -173415,12 +173415,6 @@
     },
     "108:5:24": {
       "episode_key": "m a s h:s5:e24",
-      "claim": {
-        "worker_id": "dacf233b337142f7843e8619d946e265-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:07:44.823571+00:00",
-        "lease_expires_at": "2026-11-02T20:07:44.823583+00:00"
-      },
       "source": {
         "source_id": "28258216",
         "source_url": "https://sdilej.cz/28258216/mash-s05e24-121-.pooperacni.mkv",
@@ -173445,15 +173439,22 @@
         "display_name": "M*A*S*H S05E24 Margaret's Marriage 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:07:47.615744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733418",
-        "size_bytes": 136224637
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733418",
+          "size_bytes": 136224637,
+          "source_bytes_read": 136224637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258216",
+        "source_url": "https://sdilej.cz/28258216/mash-s05e24-121-.pooperacni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733418",
-        "size_bytes": 136224637,
-        "source_bytes_read": 136224637,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E24 Margaret's Marriage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:08:22.414142+00:00"
       }
     },
     "108:6:3": {
@@ -173504,5 +173505,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:08:20.365890+00:00"
+  "updated_at": "2026-11-02T14:08:22.414156+00:00"
 }
