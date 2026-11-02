@@ -168577,12 +168577,6 @@
     },
     "3401:1:15": {
       "episode_key": "soví dům:s1:e15",
-      "claim": {
-        "worker_id": "4940932407bb4c168138aa1eac9d39ec-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:01:45.613058+00:00",
-        "lease_expires_at": "2026-11-02T18:01:45.613069+00:00"
-      },
       "source": {
         "source_id": "25220426",
         "source_url": "https://sdilej.cz/25220426/sovi-dum-s01e15-cz.mkv",
@@ -168607,15 +168601,22 @@
         "display_name": "The Owl House S01E15 Understanding Willow 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:01:50.466441+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30729152",
-        "size_bytes": 443625991
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30729152",
+          "size_bytes": 443625991,
+          "source_bytes_read": 443625991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25220426",
+        "source_url": "https://sdilej.cz/25220426/sovi-dum-s01e15-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30729152",
-        "size_bytes": 443625991,
-        "source_bytes_read": 443625991,
-        "http_status": 201
+        "display_name": "The Owl House S01E15 Understanding Willow 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:02:50.230602+00:00"
       }
     },
     "3401:1:16": {
@@ -168661,5 +168662,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:02:45.850953+00:00"
+  "updated_at": "2026-11-02T12:02:50.230620+00:00"
 }
