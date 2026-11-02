@@ -177192,12 +177192,6 @@
     },
     "108:10:8": {
       "episode_key": "m a s h:s10:e8",
-      "claim": {
-        "worker_id": "4eedf962bd1b4888b3339f7637595e8f-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:45:25.847935+00:00",
-        "lease_expires_at": "2026-11-02T21:45:25.847946+00:00"
-      },
       "source": {
         "source_id": "30306967",
         "source_url": "https://sdilej.cz/30306967/mash-s10e08-czdab.mp4",
@@ -177222,15 +177216,22 @@
         "display_name": "M*A*S*H S10E08 Snappier Judgment (2) SD CZ Dabing",
         "prepared_at": "2026-11-02T15:45:28.650500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735575",
-        "size_bytes": 308131266
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735575",
+          "size_bytes": 308131266,
+          "source_bytes_read": 308131266,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306967",
+        "source_url": "https://sdilej.cz/30306967/mash-s10e08-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735575",
-        "size_bytes": 308131266,
-        "source_bytes_read": 308131266,
-        "http_status": 201
+        "display_name": "M*A*S*H S10E08 Snappier Judgment (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:46:12.545666+00:00"
       }
     },
     "108:10:9": {
@@ -177248,5 +177249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:46:10.402767+00:00"
+  "updated_at": "2026-11-02T15:46:12.545681+00:00"
 }
