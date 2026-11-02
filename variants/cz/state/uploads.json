@@ -180845,12 +180845,6 @@
     },
     "635:8:8": {
       "episode_key": "f1: touha po vítězství:s8:e8",
-      "claim": {
-        "worker_id": "7f1227d29f964ca2b366ee86280b7783-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:28:15.229988+00:00",
-        "lease_expires_at": "2026-11-03T00:28:15.230000+00:00"
-      },
       "source": {
         "source_id": "33420472",
         "source_url": "https://sdilej.cz/33420472/formula.1.drive.to.survive.s08e08.mkv",
@@ -180875,15 +180869,22 @@
         "display_name": "Formula 1: Drive to Survive S08E08 Call Me Chucky 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:28:17.618342+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30739120",
-        "size_bytes": 2469779430
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30739120",
+          "size_bytes": 2469779430,
+          "source_bytes_read": 2469779430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33420472",
+        "source_url": "https://sdilej.cz/33420472/formula.1.drive.to.survive.s08e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30739120",
-        "size_bytes": 2469779430,
-        "source_bytes_read": 2469779430,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S08E08 Call Me Chucky 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T18:32:27.402263+00:00"
       }
     },
     "2120:1:1": {
@@ -181024,5 +181025,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T18:32:21.758579+00:00"
+  "updated_at": "2026-11-02T18:32:27.402275+00:00"
 }
