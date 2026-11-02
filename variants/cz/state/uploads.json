@@ -150889,12 +150889,6 @@
     },
     "242:1:2": {
       "episode_key": "dům na kopci:s1:e2",
-      "claim": {
-        "worker_id": "c8b72a3fc79845f2b411cf69768a4105-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:21:52.286128+00:00",
-        "lease_expires_at": "2026-11-02T06:21:52.286136+00:00"
-      },
       "source": {
         "source_id": "21695643",
         "source_url": "https://sdilej.cz/21695643/dum-na-kopci-s01e02-otevrena-rakev-cz.mkv",
@@ -150919,15 +150913,22 @@
         "display_name": "The Haunting of Hill House S01E02 Open Casket 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:21:54.539760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711012",
-        "size_bytes": 657139940
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711012",
+          "size_bytes": 657139940,
+          "source_bytes_read": 657139940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21695643",
+        "source_url": "https://sdilej.cz/21695643/dum-na-kopci-s01e02-otevrena-rakev-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711012",
-        "size_bytes": 657139940,
-        "source_bytes_read": 657139940,
-        "http_status": 201
+        "display_name": "The Haunting of Hill House S01E02 Open Casket 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:22:57.346879+00:00"
       }
     },
     "242:1:3": {
@@ -150973,5 +150974,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:22:54.575817+00:00"
+  "updated_at": "2026-11-02T00:22:57.346895+00:00"
 }
