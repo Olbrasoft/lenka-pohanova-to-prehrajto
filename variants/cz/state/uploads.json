@@ -155912,12 +155912,6 @@
     },
     "60:2:4": {
       "episode_key": "hannibal:s2:e4",
-      "claim": {
-        "worker_id": "a480531706a74b9b8fbfbb1ce56d5943-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:03:31.123615+00:00",
-        "lease_expires_at": "2026-11-02T09:03:31.123626+00:00"
-      },
       "source": {
         "source_id": "27941610",
         "source_url": "https://sdilej.cz/27941610/hannibal-s02e04-cz.mkv",
@@ -155942,15 +155936,22 @@
         "display_name": "Hannibal S02E04 Takiawase 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:03:33.408490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30714691",
-        "size_bytes": 1585488558
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30714691",
+          "size_bytes": 1585488558,
+          "source_bytes_read": 1585488558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27941610",
+        "source_url": "https://sdilej.cz/27941610/hannibal-s02e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30714691",
-        "size_bytes": 1585488558,
-        "source_bytes_read": 1585488558,
-        "http_status": 201
+        "display_name": "Hannibal S02E04 Takiawase 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:08:09.960069+00:00"
       }
     },
     "60:2:5": {
@@ -155996,5 +155997,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:08:08.163715+00:00"
+  "updated_at": "2026-11-02T03:08:09.960085+00:00"
 }
