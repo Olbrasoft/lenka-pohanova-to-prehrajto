@@ -169589,12 +169589,6 @@
     },
     "108:1:13": {
       "episode_key": "m a s h:s1:e13",
-      "claim": {
-        "worker_id": "2df743f0d32d45ee84c5e5dc8b0aca14-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:44:40.918960+00:00",
-        "lease_expires_at": "2026-11-02T18:44:40.918968+00:00"
-      },
       "source": {
         "source_id": "27541196",
         "source_url": "https://sdilej.cz/27541196/m.a.s.h-s01e13-cz.mkv",
@@ -169619,15 +169613,22 @@
         "display_name": "M*A*S*H S01E13 Edwina 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:44:45.068485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731592",
-        "size_bytes": 795207506
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731592",
+          "size_bytes": 795207506,
+          "source_bytes_read": 795207506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27541196",
+        "source_url": "https://sdilej.cz/27541196/m.a.s.h-s01e13-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731592",
-        "size_bytes": 795207506,
-        "source_bytes_read": 795207506,
-        "http_status": 201
+        "display_name": "M*A*S*H S01E13 Edwina 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:46:14.409026+00:00"
       }
     },
     "108:1:14": {
@@ -169673,5 +169674,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:46:04.963083+00:00"
+  "updated_at": "2026-11-02T12:46:14.409045+00:00"
 }
