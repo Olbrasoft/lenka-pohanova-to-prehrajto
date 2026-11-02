@@ -189716,12 +189716,6 @@
     },
     "6815:7:2": {
       "episode_key": "foylova válka:s7:e2",
-      "claim": {
-        "worker_id": "ef76215b414d48e3b44783d88f8c4ef0-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:43:25.234399+00:00",
-        "lease_expires_at": "2026-11-03T05:43:25.234410+00:00"
-      },
       "source": {
         "source_id": "22281494",
         "source_url": "https://sdilej.cz/22281494/foylova-valka-s07e02-czdab.avi",
@@ -189746,15 +189740,22 @@
         "display_name": "Foyle's War S07E02 Killing Time SD CZ Dabing",
         "prepared_at": "2026-11-02T23:43:29.452551+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745064",
-        "size_bytes": 734044160
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745064",
+          "size_bytes": 734044160,
+          "source_bytes_read": 734044160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22281494",
+        "source_url": "https://sdilej.cz/22281494/foylova-valka-s07e02-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745064",
-        "size_bytes": 734044160,
-        "source_bytes_read": 734044160,
-        "http_status": 201
+        "display_name": "Foyle's War S07E02 Killing Time SD CZ Dabing",
+        "uploaded_at": "2026-11-02T23:45:17.226431+00:00"
       }
     },
     "6815:7:3": {
@@ -189800,5 +189801,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:45:13.812842+00:00"
+  "updated_at": "2026-11-02T23:45:17.226449+00:00"
 }
