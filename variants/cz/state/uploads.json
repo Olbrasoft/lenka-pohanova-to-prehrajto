@@ -156477,12 +156477,6 @@
     },
     "60:3:4": {
       "episode_key": "hannibal:s3:e4",
-      "claim": {
-        "worker_id": "b8c8df74b38b46c980ca0a62b858fd23-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:31:27.046716+00:00",
-        "lease_expires_at": "2026-11-02T09:31:27.046725+00:00"
-      },
       "source": {
         "source_id": "27942448",
         "source_url": "https://sdilej.cz/27942448/hannibal-s03e04-cz.mkv",
@@ -156507,15 +156501,22 @@
         "display_name": "Hannibal S03E04 Aperitivo 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:31:32.136921+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30715224",
-        "size_bytes": 1600883166
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30715224",
+          "size_bytes": 1600883166,
+          "source_bytes_read": 1600883166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27942448",
+        "source_url": "https://sdilej.cz/27942448/hannibal-s03e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30715224",
-        "size_bytes": 1600883166,
-        "source_bytes_read": 1600883166,
-        "http_status": 201
+        "display_name": "Hannibal S03E04 Aperitivo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:34:20.651667+00:00"
       }
     },
     "60:3:5": {
@@ -156561,5 +156562,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:34:15.597992+00:00"
+  "updated_at": "2026-11-02T03:34:20.651683+00:00"
 }
