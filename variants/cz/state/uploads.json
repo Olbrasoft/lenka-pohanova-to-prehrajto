@@ -156352,12 +156352,6 @@
     },
     "60:3:1": {
       "episode_key": "hannibal:s3:e1",
-      "claim": {
-        "worker_id": "47f8c8a77f45417abce5094d5dad5afd-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:25:53.852337+00:00",
-        "lease_expires_at": "2026-11-02T09:25:53.852348+00:00"
-      },
       "source": {
         "source_id": "34728801",
         "source_url": "https://sdilej.cz/34728801/hannibal-s03e01-cz.mkv",
@@ -156382,15 +156376,22 @@
         "display_name": "Hannibal S03E01 Antipasto 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:25:59.332378+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30715110",
-        "size_bytes": 1684811591
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30715110",
+          "size_bytes": 1684811591,
+          "source_bytes_read": 1684811591,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34728801",
+        "source_url": "https://sdilej.cz/34728801/hannibal-s03e01-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30715110",
-        "size_bytes": 1684811591,
-        "source_bytes_read": 1684811591,
-        "http_status": 201
+        "display_name": "Hannibal S03E01 Antipasto 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:30:43.040900+00:00"
       }
     },
     "60:3:2": {
@@ -156436,5 +156437,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:30:38.868717+00:00"
+  "updated_at": "2026-11-02T03:30:43.040917+00:00"
 }
