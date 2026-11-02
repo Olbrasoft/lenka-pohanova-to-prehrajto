@@ -164522,12 +164522,6 @@
     },
     "1002:4:2": {
       "episode_key": "expanze:s4:e2",
-      "claim": {
-        "worker_id": "101e19112d114c4bbc4e5bec4ec72f08-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T08:40:06.873071+00:00",
-        "lease_expires_at": "2026-11-02T14:40:06.873088+00:00"
-      },
       "source": {
         "source_id": "26209942",
         "source_url": "https://sdilej.cz/26209942/expanze-s04e02-vyhozeny-naklad-fhd-cz-h265-deadinside.mkv",
@@ -164552,15 +164546,22 @@
         "display_name": "The Expanse S04E02 Jetsam 1080p CZ Dabing",
         "prepared_at": "2026-11-02T08:40:09.166449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30722097",
-        "size_bytes": 561025320
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30722097",
+          "size_bytes": 561025320,
+          "source_bytes_read": 561025320,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26209942",
+        "source_url": "https://sdilej.cz/26209942/expanze-s04e02-vyhozeny-naklad-fhd-cz-h265-deadinside.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30722097",
-        "size_bytes": 561025320,
-        "source_bytes_read": 561025320,
-        "http_status": 201
+        "display_name": "The Expanse S04E02 Jetsam 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T08:41:07.712119+00:00"
       }
     }
   },
@@ -164569,5 +164570,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T08:41:03.660461+00:00"
+  "updated_at": "2026-11-02T08:41:07.712137+00:00"
 }
