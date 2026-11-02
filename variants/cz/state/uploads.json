@@ -161236,12 +161236,6 @@
     },
     "567:3:15": {
       "episode_key": "lovci zločinců:s3:e15",
-      "claim": {
-        "worker_id": "f26e8b710a0e413789500e0bbbc821fb-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:22:15.874970+00:00",
-        "lease_expires_at": "2026-11-02T12:22:15.874984+00:00"
-      },
       "source": {
         "source_id": "32300387",
         "source_url": "https://sdilej.cz/32300387/lovci-zlocincu-s03e15-cz-dabing.mkv",
@@ -161266,15 +161260,22 @@
         "display_name": "Person of Interest S03E15 Last Call 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:22:18.310657+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718841",
-        "size_bytes": 771960444
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718841",
+          "size_bytes": 771960444,
+          "source_bytes_read": 771960444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300387",
+        "source_url": "https://sdilej.cz/32300387/lovci-zlocincu-s03e15-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718841",
-        "size_bytes": 771960444,
-        "source_bytes_read": 771960444,
-        "http_status": 201
+        "display_name": "Person of Interest S03E15 Last Call 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:25:01.277330+00:00"
       }
     },
     "567:3:16": {
@@ -161357,5 +161358,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:24:56.684608+00:00"
+  "updated_at": "2026-11-02T06:25:01.277346+00:00"
 }
