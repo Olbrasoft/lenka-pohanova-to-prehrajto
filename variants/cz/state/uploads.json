@@ -165812,12 +165812,6 @@
     },
     "907:1:7": {
       "episode_key": "star wars: klonové války:s1:e7",
-      "claim": {
-        "worker_id": "13421a3cd3144ed4908f086a38d06bc6-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T10:54:51.626230+00:00",
-        "lease_expires_at": "2026-11-02T16:54:51.626239+00:00"
-      },
       "source": {
         "source_id": "32002549",
         "source_url": "https://sdilej.cz/32002549/star-wars-klonove-valky-s01e07-cz-dab-anim.mp4",
@@ -165842,15 +165836,22 @@
         "display_name": "Star Wars: The Clone Wars S01E07 Duel of the Droids 1080p CZ Dabing",
         "prepared_at": "2026-11-02T10:54:56.073558+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30725524",
-        "size_bytes": 353758475
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30725524",
+          "size_bytes": 353758475,
+          "source_bytes_read": 353758475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32002549",
+        "source_url": "https://sdilej.cz/32002549/star-wars-klonove-valky-s01e07-cz-dab-anim.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30725524",
-        "size_bytes": 353758475,
-        "source_bytes_read": 353758475,
-        "http_status": 201
+        "display_name": "Star Wars: The Clone Wars S01E07 Duel of the Droids 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T10:55:51.705568+00:00"
       }
     },
     "907:1:9": {
@@ -165933,5 +165934,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T10:55:48.120605+00:00"
+  "updated_at": "2026-11-02T10:55:51.705584+00:00"
 }
