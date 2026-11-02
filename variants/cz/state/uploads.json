@@ -176011,12 +176011,6 @@
     },
     "108:8:21": {
       "episode_key": "m a s h:s8:e21",
-      "claim": {
-        "worker_id": "07be245b1722491da28450772c917343-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:08:39.182496+00:00",
-        "lease_expires_at": "2026-11-02T21:08:39.182507+00:00"
-      },
       "source": {
         "source_id": "34979275",
         "source_url": "https://sdilej.cz/34979275/m.a.s.h-s08e21-sbohem-kruty-svete.mkv",
@@ -176041,15 +176035,22 @@
         "display_name": "M*A*S*H S08E21 Goodbye, Cruel World 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:08:45.989855+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734873",
-        "size_bytes": 764501223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734873",
+          "size_bytes": 764501223,
+          "source_bytes_read": 764501223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979275",
+        "source_url": "https://sdilej.cz/34979275/m.a.s.h-s08e21-sbohem-kruty-svete.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734873",
-        "size_bytes": 764501223,
-        "source_bytes_read": 764501223,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E21 Goodbye, Cruel World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:10:58.334485+00:00"
       }
     },
     "108:8:22": {
@@ -176095,5 +176096,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:10:53.086240+00:00"
+  "updated_at": "2026-11-02T15:10:58.334504+00:00"
 }
