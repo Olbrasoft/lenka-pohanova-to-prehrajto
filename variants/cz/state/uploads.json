@@ -186559,12 +186559,6 @@
     },
     "3128:1:4": {
       "episode_key": "sněží!:s1:e4",
-      "claim": {
-        "worker_id": "4793a21d57ae4817928b1fd6c750a30a-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:18:35.351512+00:00",
-        "lease_expires_at": "2026-11-03T03:18:35.351533+00:00"
-      },
       "source": {
         "source_id": "28321411",
         "source_url": "https://sdilej.cz/28321411/snezi-s01e04-trauma.mkv",
@@ -186589,15 +186583,22 @@
         "display_name": "Snowfall S01E04 Trauma 1080p CZ Dabing",
         "prepared_at": "2026-11-02T21:18:40.941093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742515",
-        "size_bytes": 2735909132
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742515",
+          "size_bytes": 2735909132,
+          "source_bytes_read": 2735909132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28321411",
+        "source_url": "https://sdilej.cz/28321411/snezi-s01e04-trauma.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742515",
-        "size_bytes": 2735909132,
-        "source_bytes_read": 2735909132,
-        "http_status": 201
+        "display_name": "Snowfall S01E04 Trauma 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T21:21:52.467682+00:00"
       }
     },
     "3128:1:5": {
@@ -186680,5 +186681,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:21:47.515859+00:00"
+  "updated_at": "2026-11-02T21:21:52.467702+00:00"
 }
