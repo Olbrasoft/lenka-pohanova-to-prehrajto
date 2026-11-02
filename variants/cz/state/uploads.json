@@ -163686,12 +163686,6 @@
     },
     "1002:2:9": {
       "episode_key": "expanze:s2:e9",
-      "claim": {
-        "worker_id": "43057cf227cf41bf8258d70bc424b115-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:44:59.720481+00:00",
-        "lease_expires_at": "2026-11-02T13:44:59.720494+00:00"
-      },
       "source": {
         "source_id": "17094507",
         "source_url": "https://sdilej.cz/17094507/the.expanse.s02e09.the.weeping.somnambulist.1080p.10bit.bluray.aac5.1.hevc-vyndros-cz-audio-.mkv",
@@ -163716,15 +163710,22 @@
         "display_name": "The Expanse S02E09 The Weeping Somnambulist 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:45:02.124518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721251",
-        "size_bytes": 946961053
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721251",
+          "size_bytes": 946961053,
+          "source_bytes_read": 946961053,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17094507",
+        "source_url": "https://sdilej.cz/17094507/the.expanse.s02e09.the.weeping.somnambulist.1080p.10bit.bluray.aac5.1.hevc-vyndros-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721251",
-        "size_bytes": 946961053,
-        "source_bytes_read": 946961053,
-        "http_status": 201
+        "display_name": "The Expanse S02E09 The Weeping Somnambulist 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:46:12.376875+00:00"
       }
     }
   },
@@ -163733,5 +163734,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:46:07.117529+00:00"
+  "updated_at": "2026-11-02T07:46:12.376895+00:00"
 }
