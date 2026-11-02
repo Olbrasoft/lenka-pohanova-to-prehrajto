@@ -174633,12 +174633,6 @@
     },
     "108:7:14": {
       "episode_key": "m a s h:s7:e14",
-      "claim": {
-        "worker_id": "e4f82bd19cbc49c5a63080927b61fc24-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:43:22.435942+00:00",
-        "lease_expires_at": "2026-11-02T20:43:22.435953+00:00"
-      },
       "source": {
         "source_id": "28258309",
         "source_url": "https://sdilej.cz/28258309/mash-s07e14-161-.oko-za-oko-zub-za-zub.mkv",
@@ -174663,15 +174657,22 @@
         "display_name": "M*A*S*H S07E14 Dear Sis 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:43:25.149277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734221",
-        "size_bytes": 162028397
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734221",
+          "size_bytes": 162028397,
+          "source_bytes_read": 162028397,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258309",
+        "source_url": "https://sdilej.cz/28258309/mash-s07e14-161-.oko-za-oko-zub-za-zub.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734221",
-        "size_bytes": 162028397,
-        "source_bytes_read": 162028397,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E14 Dear Sis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:43:59.165022+00:00"
       }
     }
   },
@@ -174680,5 +174681,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:43:54.685677+00:00"
+  "updated_at": "2026-11-02T14:43:59.165038+00:00"
 }
