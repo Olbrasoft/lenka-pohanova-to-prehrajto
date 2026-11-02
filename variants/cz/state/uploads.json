@@ -169992,12 +169992,6 @@
     },
     "108:1:22": {
       "episode_key": "m a s h:s1:e22",
-      "claim": {
-        "worker_id": "8a88f679f8f24e7cbbfc0469382bc587-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:51:19.708856+00:00",
-        "lease_expires_at": "2026-11-02T18:51:19.708868+00:00"
-      },
       "source": {
         "source_id": "27980922",
         "source_url": "https://sdilej.cz/27980922/m.a.s.h.-s01e22.mkv",
@@ -170022,15 +170016,22 @@
         "display_name": "M*A*S*H S01E22 Major Fred C. Dobbs 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:51:25.685978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731786",
-        "size_bytes": 542137527
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731786",
+          "size_bytes": 542137527,
+          "source_bytes_read": 542137527,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27980922",
+        "source_url": "https://sdilej.cz/27980922/m.a.s.h.-s01e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731786",
-        "size_bytes": 542137527,
-        "source_bytes_read": 542137527,
-        "http_status": 201
+        "display_name": "M*A*S*H S01E22 Major Fred C. Dobbs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:52:49.748065+00:00"
       }
     },
     "108:1:23": {
@@ -170163,5 +170164,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:52:47.789406+00:00"
+  "updated_at": "2026-11-02T12:52:49.748083+00:00"
 }
