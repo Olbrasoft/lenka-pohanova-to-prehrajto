@@ -161588,12 +161588,6 @@
     },
     "567:3:23": {
       "episode_key": "lovci zločinců:s3:e23",
-      "claim": {
-        "worker_id": "686d4e14bce44b359d5e445da231352f-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T06:35:10.610815+00:00",
-        "lease_expires_at": "2026-11-02T12:35:10.610826+00:00"
-      },
       "source": {
         "source_id": "32300644",
         "source_url": "https://sdilej.cz/32300644/lovci-zlocincu-s03e23-cz-dabing.mkv",
@@ -161618,15 +161612,22 @@
         "display_name": "Person of Interest S03E23 Deus Ex Machina 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:35:12.869043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30719146",
-        "size_bytes": 772255474
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30719146",
+          "size_bytes": 772255474,
+          "source_bytes_read": 772255474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300644",
+        "source_url": "https://sdilej.cz/32300644/lovci-zlocincu-s03e23-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30719146",
-        "size_bytes": 772255474,
-        "source_bytes_read": 772255474,
-        "http_status": 201
+        "display_name": "Person of Interest S03E23 Deus Ex Machina 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:36:27.779849+00:00"
       }
     },
     "567:4:1": {
@@ -161709,5 +161710,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:36:23.502128+00:00"
+  "updated_at": "2026-11-02T06:36:27.779866+00:00"
 }
