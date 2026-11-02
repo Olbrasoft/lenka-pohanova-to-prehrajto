@@ -150192,12 +150192,6 @@
     },
     "1074:2:12": {
       "episode_key": "zákon gangu:s2:e12",
-      "claim": {
-        "worker_id": "b36cdd90b05e4bc6b98c2d5aff28b852-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:09:21.200351+00:00",
-        "lease_expires_at": "2026-11-02T06:09:21.200362+00:00"
-      },
       "source": {
         "source_id": "33478556",
         "source_url": "https://sdilej.cz/33478556/sons-of-anarchy-s02e12-1080p-cz-the-culling.mkv",
@@ -150222,15 +150216,22 @@
         "display_name": "Sons of Anarchy S02E12 The Culling 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:09:25.091957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710831",
-        "size_bytes": 542746919
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710831",
+          "size_bytes": 542746919,
+          "source_bytes_read": 542746919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478556",
+        "source_url": "https://sdilej.cz/33478556/sons-of-anarchy-s02e12-1080p-cz-the-culling.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710831",
-        "size_bytes": 542746919,
-        "source_bytes_read": 542746919,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E12 The Culling 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:10:33.084021+00:00"
       }
     },
     "1074:2:13": {
@@ -150309,5 +150310,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:10:31.381960+00:00"
+  "updated_at": "2026-11-02T00:10:33.084035+00:00"
 }
