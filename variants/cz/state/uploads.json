@@ -179125,12 +179125,6 @@
     },
     "635:4:5": {
       "episode_key": "f1: touha po vítězství:s4:e5",
-      "claim": {
-        "worker_id": "5a4998550a5640d890f9ee04ff36805c-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T16:49:31.437172+00:00",
-        "lease_expires_at": "2026-11-02T22:49:31.437181+00:00"
-      },
       "source": {
         "source_id": "21642973",
         "source_url": "https://sdilej.cz/21642973/-f1-touha-po-vitezstvi-s04e05-2022-.mkv",
@@ -179155,15 +179149,22 @@
         "display_name": "Formula 1: Drive to Survive S04E05 Staying Alive 1080p CZ Dabing",
         "prepared_at": "2026-11-02T16:49:34.386118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30736886",
-        "size_bytes": 453048817
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30736886",
+          "size_bytes": 453048817,
+          "source_bytes_read": 453048817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21642973",
+        "source_url": "https://sdilej.cz/21642973/-f1-touha-po-vitezstvi-s04e05-2022-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30736886",
-        "size_bytes": 453048817,
-        "source_bytes_read": 453048817,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S04E05 Staying Alive 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T16:50:29.064161+00:00"
       }
     },
     "635:4:6": {
@@ -179208,5 +179209,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T16:50:25.364826+00:00"
+  "updated_at": "2026-11-02T16:50:29.064177+00:00"
 }
