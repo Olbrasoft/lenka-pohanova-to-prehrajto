@@ -151643,12 +151643,6 @@
     },
     "700:2:1": {
       "episode_key": "medvěd:s2:e1",
-      "claim": {
-        "worker_id": "9944374300ca429baa5e89a67f7add22-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:54:35.289581+00:00",
-        "lease_expires_at": "2026-11-02T06:54:35.289592+00:00"
-      },
       "source": {
         "source_id": "32964679",
         "source_url": "https://sdilej.cz/32964679/medved-s02e01-1080p-cz-hovezi.mkv",
@@ -151673,15 +151667,22 @@
         "display_name": "The Bear S02E01 Beef 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:54:37.445366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711508",
-        "size_bytes": 343610553
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711508",
+          "size_bytes": 343610553,
+          "source_bytes_read": 343610553,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964679",
+        "source_url": "https://sdilej.cz/32964679/medved-s02e01-1080p-cz-hovezi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711508",
-        "size_bytes": 343610553,
-        "source_bytes_read": 343610553,
-        "http_status": 201
+        "display_name": "The Bear S02E01 Beef 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:55:11.143241+00:00"
       }
     },
     "700:2:2": {
@@ -151723,5 +151724,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:55:09.497474+00:00"
+  "updated_at": "2026-11-02T00:55:11.143256+00:00"
 }
