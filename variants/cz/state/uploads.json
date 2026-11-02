@@ -150016,12 +150016,6 @@
     },
     "1074:2:8": {
       "episode_key": "zákon gangu:s2:e8",
-      "claim": {
-        "worker_id": "0292cb1bcf0f41098e571ed9f87d1d8f-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:08:18.570843+00:00",
-        "lease_expires_at": "2026-11-02T06:08:18.570863+00:00"
-      },
       "source": {
         "source_id": "33478540",
         "source_url": "https://sdilej.cz/33478540/sons-of-anarchy-s02e08-1080p-cz-potlatch.mkv",
@@ -150046,15 +150040,22 @@
         "display_name": "Sons of Anarchy S02E08 Potlatch 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:08:23.992828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710813",
-        "size_bytes": 448529530
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710813",
+          "size_bytes": 448529530,
+          "source_bytes_read": 448529530,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478540",
+        "source_url": "https://sdilej.cz/33478540/sons-of-anarchy-s02e08-1080p-cz-potlatch.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710813",
-        "size_bytes": 448529530,
-        "source_bytes_read": 448529530,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E08 Potlatch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:09:12.513248+00:00"
       }
     },
     "1074:2:9": {
@@ -150144,5 +150145,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:09:09.734172+00:00"
+  "updated_at": "2026-11-02T00:09:12.513265+00:00"
 }
