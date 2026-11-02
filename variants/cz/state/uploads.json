@@ -176796,12 +176796,6 @@
     },
     "108:9:15": {
       "episode_key": "m a s h:s9:e15",
-      "claim": {
-        "worker_id": "33f1963dda0c4a7495f8c5274aeb1a1a-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:30:58.014376+00:00",
-        "lease_expires_at": "2026-11-02T21:30:58.014387+00:00"
-      },
       "source": {
         "source_id": "28258486",
         "source_url": "https://sdilej.cz/28258486/mash-s09e15-213-.az-do-dna.mkv",
@@ -176826,15 +176820,22 @@
         "display_name": "M*A*S*H S09E15 Bottoms Up 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:31:03.357771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735285",
-        "size_bytes": 167251888
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735285",
+          "size_bytes": 167251888,
+          "source_bytes_read": 167251888,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258486",
+        "source_url": "https://sdilej.cz/28258486/mash-s09e15-213-.az-do-dna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735285",
-        "size_bytes": 167251888,
-        "source_bytes_read": 167251888,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E15 Bottoms Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:31:39.868919+00:00"
       }
     },
     "108:9:16": {
@@ -176880,5 +176881,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:31:35.036306+00:00"
+  "updated_at": "2026-11-02T15:31:39.868935+00:00"
 }
