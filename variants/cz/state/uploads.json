@@ -184887,12 +184887,6 @@
     },
     "1064:3:7": {
       "episode_key": "kauzy z bostonu:s3:e7",
-      "claim": {
-        "worker_id": "21a8526100f8470d80823ebd6d2bc598-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:33:43.293337+00:00",
-        "lease_expires_at": "2026-11-03T02:33:43.293349+00:00"
-      },
       "source": {
         "source_id": "33316208",
         "source_url": "https://sdilej.cz/33316208/boston-legal-kauzy-z-bostonu-s03e07-czdab.mp4",
@@ -184917,15 +184911,22 @@
         "display_name": "Boston Legal S03E07 Trick or Treat SD CZ Dabing",
         "prepared_at": "2026-11-02T20:33:47.752266+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741353",
-        "size_bytes": 544176501
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741353",
+          "size_bytes": 544176501,
+          "source_bytes_read": 544176501,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316208",
+        "source_url": "https://sdilej.cz/33316208/boston-legal-kauzy-z-bostonu-s03e07-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741353",
-        "size_bytes": 544176501,
-        "source_bytes_read": 544176501,
-        "http_status": 201
+        "display_name": "Boston Legal S03E07 Trick or Treat SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:34:45.843658+00:00"
       }
     },
     "1064:3:8": {
@@ -185008,5 +185009,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:34:41.851072+00:00"
+  "updated_at": "2026-11-02T20:34:45.843676+00:00"
 }
