@@ -171995,12 +171995,6 @@
     },
     "108:3:22": {
       "episode_key": "m a s h:s3:e22",
-      "claim": {
-        "worker_id": "89b7395407754d2ab08a7a62ca0f263d-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T13:27:24.583729+00:00",
-        "lease_expires_at": "2026-11-02T19:27:24.583740+00:00"
-      },
       "source": {
         "source_id": "32915117",
         "source_url": "https://sdilej.cz/32915117/m-a-s-h-s03e22-vyplata.mp4",
@@ -172025,15 +172019,22 @@
         "display_name": "M*A*S*H S03E22 Payday 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:27:29.125728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30732603",
-        "size_bytes": 399815337
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30732603",
+          "size_bytes": 399815337,
+          "source_bytes_read": 399815337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32915117",
+        "source_url": "https://sdilej.cz/32915117/m-a-s-h-s03e22-vyplata.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30732603",
-        "size_bytes": 399815337,
-        "source_bytes_read": 399815337,
-        "http_status": 201
+        "display_name": "M*A*S*H S03E22 Payday 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:30:19.600985+00:00"
       }
     },
     "108:3:24": {
@@ -172085,5 +172086,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:30:14.954074+00:00"
+  "updated_at": "2026-11-02T13:30:19.601008+00:00"
 }
