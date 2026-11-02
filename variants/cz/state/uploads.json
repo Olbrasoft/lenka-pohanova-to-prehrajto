@@ -178637,12 +178637,6 @@
     },
     "635:3:3": {
       "episode_key": "f1: touha po vítězství:s3:e3",
-      "claim": {
-        "worker_id": "3cb55fdfefee472bb715d27bcbde6746-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T16:19:11.756089+00:00",
-        "lease_expires_at": "2026-11-02T22:19:11.756100+00:00"
-      },
       "source": {
         "source_id": "30019602",
         "source_url": "https://sdilej.cz/30019602/f1-touha-po-vitezstvi-s03e03-druhe-housle-neberu-dab.cz.avi",
@@ -178667,15 +178661,22 @@
         "display_name": "Formula 1: Drive to Survive S03E03 Nobody's Fool SD CZ Dabing",
         "prepared_at": "2026-11-02T16:19:14.566313+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30736222",
-        "size_bytes": 731573622
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30736222",
+          "size_bytes": 731573622,
+          "source_bytes_read": 731573622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30019602",
+        "source_url": "https://sdilej.cz/30019602/f1-touha-po-vitezstvi-s03e03-druhe-housle-neberu-dab.cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30736222",
-        "size_bytes": 731573622,
-        "source_bytes_read": 731573622,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S03E03 Nobody's Fool SD CZ Dabing",
+        "uploaded_at": "2026-11-02T16:20:31.892540+00:00"
       }
     }
   },
@@ -178684,5 +178685,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T16:20:27.329007+00:00"
+  "updated_at": "2026-11-02T16:20:31.892554+00:00"
 }
