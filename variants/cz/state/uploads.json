@@ -189848,12 +189848,6 @@
     },
     "3013:2:2": {
       "episode_key": "anthony bourdain: neznámé končiny:s2:e2",
-      "claim": {
-        "worker_id": "88f5a7f118d64bef9f321ee8fa17192b-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T23:45:25.822521+00:00",
-        "lease_expires_at": "2026-11-03T05:45:25.822533+00:00"
-      },
       "source": {
         "source_id": "23514398",
         "source_url": "https://sdilej.cz/23514398/anthony-bourdain-nezname-konciny-s2e02-nove-mexiko-2013-720p-webrip-cz.mp4",
@@ -189878,15 +189872,22 @@
         "display_name": "Anthony Bourdain: Parts Unknown S02E02 Spain 720p CZ Dabing",
         "prepared_at": "2026-11-02T23:45:31.398979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745097",
-        "size_bytes": 696502808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745097",
+          "size_bytes": 696502808,
+          "source_bytes_read": 696502808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23514398",
+        "source_url": "https://sdilej.cz/23514398/anthony-bourdain-nezname-konciny-s2e02-nove-mexiko-2013-720p-webrip-cz.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745097",
-        "size_bytes": 696502808,
-        "source_bytes_read": 696502808,
-        "http_status": 201
+        "display_name": "Anthony Bourdain: Parts Unknown S02E02 Spain 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T23:47:16.722385+00:00"
       }
     },
     "5403:1:1": {
@@ -189969,5 +189970,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T23:47:12.477126+00:00"
+  "updated_at": "2026-11-02T23:47:16.722400+00:00"
 }
