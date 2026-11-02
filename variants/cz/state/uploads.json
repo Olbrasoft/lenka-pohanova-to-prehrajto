@@ -167220,12 +167220,6 @@
     },
     "280:2:5": {
       "episode_key": "srdcerváči:s2:e5",
-      "claim": {
-        "worker_id": "e305715679334b769f5a46572eae1706-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:33:55.039466+00:00",
-        "lease_expires_at": "2026-11-02T17:33:55.039477+00:00"
-      },
       "source": {
         "source_id": "29846952",
         "source_url": "https://sdilej.cz/29846952/srdcervaci-s02e05-1080p-cz-dabing.mkv",
@@ -167250,15 +167244,22 @@
         "display_name": "Heartstopper S02E05 Heat 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:33:57.871297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726428",
-        "size_bytes": 585228965
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726428",
+          "size_bytes": 585228965,
+          "source_bytes_read": 585228965,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29846952",
+        "source_url": "https://sdilej.cz/29846952/srdcervaci-s02e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726428",
-        "size_bytes": 585228965,
-        "source_bytes_read": 585228965,
-        "http_status": 201
+        "display_name": "Heartstopper S02E05 Heat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:35:24.550942+00:00"
       }
     },
     "280:2:7": {
@@ -167337,5 +167338,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:35:22.474731+00:00"
+  "updated_at": "2026-11-02T11:35:24.550956+00:00"
 }
