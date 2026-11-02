@@ -181065,12 +181065,6 @@
     },
     "2120:1:4": {
       "episode_key": "všechny velké a malé bytosti:s1:e4",
-      "claim": {
-        "worker_id": "56e7a7a0e6fb4fe2bcab22990c5228df-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:47:06.842568+00:00",
-        "lease_expires_at": "2026-11-03T00:47:06.842578+00:00"
-      },
       "source": {
         "source_id": "27443584",
         "source_url": "https://sdilej.cz/27443584/vsechny.velke.a.male.bytosti.01x04-pripad-tricki.mkv",
@@ -181095,15 +181089,22 @@
         "display_name": "All Creatures Great & Small S01E04 A Tricki Case 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:47:15.872938+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30739448",
-        "size_bytes": 549986909
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30739448",
+          "size_bytes": 549986909,
+          "source_bytes_read": 549986909,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27443584",
+        "source_url": "https://sdilej.cz/27443584/vsechny.velke.a.male.bytosti.01x04-pripad-tricki.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30739448",
-        "size_bytes": 549986909,
-        "source_bytes_read": 549986909,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S01E04 A Tricki Case 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T18:49:02.416299+00:00"
       }
     }
   },
@@ -181112,5 +181113,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T18:48:55.947753+00:00"
+  "updated_at": "2026-11-02T18:49:02.416314+00:00"
 }
