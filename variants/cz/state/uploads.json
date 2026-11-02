@@ -163605,12 +163605,6 @@
     },
     "1002:2:7": {
       "episode_key": "expanze:s2:e7",
-      "claim": {
-        "worker_id": "a39f2d89d7f6445fba82523f7c13ba54-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:43:27.358079+00:00",
-        "lease_expires_at": "2026-11-02T13:43:27.358090+00:00"
-      },
       "source": {
         "source_id": "30589593",
         "source_url": "https://sdilej.cz/30589593/expanze.the.expanse.s02e07.the.seventh.man.1080p.10bit.bluray.aac5.1.hevc-vyndros-cz-audio-.mkv",
@@ -163635,15 +163629,22 @@
         "display_name": "The Expanse S02E07 The Seventh Man 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:43:29.557638+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721207",
-        "size_bytes": 1048325352
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721207",
+          "size_bytes": 1048325352,
+          "source_bytes_read": 1048325352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30589593",
+        "source_url": "https://sdilej.cz/30589593/expanze.the.expanse.s02e07.the.seventh.man.1080p.10bit.bluray.aac5.1.hevc-vyndros-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721207",
-        "size_bytes": 1048325352,
-        "source_bytes_read": 1048325352,
-        "http_status": 201
+        "display_name": "The Expanse S02E07 The Seventh Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:44:51.707133+00:00"
       }
     },
     "1002:2:8": {
@@ -163689,5 +163690,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:44:47.430394+00:00"
+  "updated_at": "2026-11-02T07:44:51.707152+00:00"
 }
