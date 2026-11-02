@@ -152869,12 +152869,6 @@
     },
     "1103:1:2": {
       "episode_key": "zpátky do školy:s1:e2",
-      "claim": {
-        "worker_id": "aabd6435de0244fbb99fa80330a3ebc4-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:52:28.976267+00:00",
-        "lease_expires_at": "2026-11-02T07:52:28.976279+00:00"
-      },
       "source": {
         "source_id": "34816280",
         "source_url": "https://sdilej.cz/34816280/zpatky-do-skoly-s01e02-25-2009-cz-dabing-1080p-fhd-spanelstina.mkv",
@@ -152899,15 +152893,22 @@
         "display_name": "Community S01E02 Spanish 101 1080p CZ Dabing",
         "prepared_at": "2026-11-02T01:52:32.779119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712860",
-        "size_bytes": 700727368
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712860",
+          "size_bytes": 700727368,
+          "source_bytes_read": 700727368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816280",
+        "source_url": "https://sdilej.cz/34816280/zpatky-do-skoly-s01e02-25-2009-cz-dabing-1080p-fhd-spanelstina.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712860",
-        "size_bytes": 700727368,
-        "source_bytes_read": 700727368,
-        "http_status": 201
+        "display_name": "Community S01E02 Spanish 101 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T01:53:32.049924+00:00"
       }
     },
     "1103:1:5": {
@@ -152953,5 +152954,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:53:28.238712+00:00"
+  "updated_at": "2026-11-02T01:53:32.049942+00:00"
 }
