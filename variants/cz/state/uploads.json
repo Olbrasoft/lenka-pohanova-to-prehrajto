@@ -187659,12 +187659,6 @@
     },
     "3128:3:9": {
       "episode_key": "sněží!:s3:e9",
-      "claim": {
-        "worker_id": "b8c8a4a2cd2445388c385c62ccc0d76d-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:24:24.573935+00:00",
-        "lease_expires_at": "2026-11-03T04:24:24.573946+00:00"
-      },
       "source": {
         "source_id": "28326334",
         "source_url": "https://sdilej.cz/28326334/snezi-s03e09-blackout.mkv",
@@ -187689,15 +187683,22 @@
         "display_name": "Snowfall S03E09 Blackout 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:24:30.014493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743594",
-        "size_bytes": 2619178415
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743594",
+          "size_bytes": 2619178415,
+          "source_bytes_read": 2619178415,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326334",
+        "source_url": "https://sdilej.cz/28326334/snezi-s03e09-blackout.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743594",
-        "size_bytes": 2619178415,
-        "source_bytes_read": 2619178415,
-        "http_status": 201
+        "display_name": "Snowfall S03E09 Blackout 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:28:19.179911+00:00"
       }
     },
     "3128:3:10": {
@@ -187780,5 +187781,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:28:13.542816+00:00"
+  "updated_at": "2026-11-02T22:28:19.179927+00:00"
 }
