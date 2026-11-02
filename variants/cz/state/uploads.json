@@ -178813,12 +178813,6 @@
     },
     "635:3:8": {
       "episode_key": "f1: touha po vítězství:s3:e8",
-      "claim": {
-        "worker_id": "cc34cdf6135f4c6b8b340071bcdd3e33-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T16:35:02.198690+00:00",
-        "lease_expires_at": "2026-11-02T22:35:02.198702+00:00"
-      },
       "source": {
         "source_id": "19587257",
         "source_url": "https://sdilej.cz/19587257/f1-touha-po-vitezstvi-s03e08-niceho-nelituju-2021-.mkv",
@@ -178843,15 +178837,22 @@
         "display_name": "Formula 1: Drive to Survive S03E08 No Regrets 1080p CZ Dabing",
         "prepared_at": "2026-11-02T16:35:04.961043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30736557",
-        "size_bytes": 508221454
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30736557",
+          "size_bytes": 508221454,
+          "source_bytes_read": 508221454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19587257",
+        "source_url": "https://sdilej.cz/19587257/f1-touha-po-vitezstvi-s03e08-niceho-nelituju-2021-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30736557",
-        "size_bytes": 508221454,
-        "source_bytes_read": 508221454,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S03E08 No Regrets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T16:36:00.300103+00:00"
       }
     }
   },
@@ -178860,5 +178861,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T16:35:55.687053+00:00"
+  "updated_at": "2026-11-02T16:36:00.300119+00:00"
 }
