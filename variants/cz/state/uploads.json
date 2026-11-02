@@ -182151,12 +182151,6 @@
     },
     "2120:5:1": {
       "episode_key": "všechny velké a malé bytosti:s5:e1",
-      "claim": {
-        "worker_id": "64255ee7a13c42d1bc9dff1ff67da2d5-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:24:37.951637+00:00",
-        "lease_expires_at": "2026-11-03T01:24:37.951647+00:00"
-      },
       "source": {
         "source_id": "30130393",
         "source_url": "https://sdilej.cz/30130393/vsechny-velke-a-male-bytosti-s05e01-1080p-web-dl-cz-dab.mkv",
@@ -182181,15 +182175,22 @@
         "display_name": "All Creatures Great & Small S05E01 To All Our Boys 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:24:42.129876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740378",
-        "size_bytes": 2139435146
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740378",
+          "size_bytes": 2139435146,
+          "source_bytes_read": 2139435146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30130393",
+        "source_url": "https://sdilej.cz/30130393/vsechny-velke-a-male-bytosti-s05e01-1080p-web-dl-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740378",
-        "size_bytes": 2139435146,
-        "source_bytes_read": 2139435146,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S05E01 To All Our Boys 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:28:42.436314+00:00"
       }
     },
     "2120:5:3": {
@@ -182279,5 +182280,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:28:39.673527+00:00"
+  "updated_at": "2026-11-02T19:28:42.436336+00:00"
 }
