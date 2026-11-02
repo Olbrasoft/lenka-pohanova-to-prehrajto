@@ -161530,12 +161530,6 @@
     },
     "567:3:22": {
       "episode_key": "lovci zločinců:s3:e22",
-      "claim": {
-        "worker_id": "0372f233f66f4a43a1e0f83aefac36df-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T06:34:16.940858+00:00",
-        "lease_expires_at": "2026-11-02T12:34:16.940870+00:00"
-      },
       "source": {
         "source_id": "7020015",
         "source_url": "https://sdilej.cz/7020015/person.of.interest.s03e22.bluray.1080p.10bit.ac3.x265.hevc-qman-utr-czaudio-.mkv",
@@ -161560,15 +161554,22 @@
         "display_name": "Person of Interest S03E22 A House Divided 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:34:21.922283+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30719124",
-        "size_bytes": 413228826
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30719124",
+          "size_bytes": 413228826,
+          "source_bytes_read": 413228826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7020015",
+        "source_url": "https://sdilej.cz/7020015/person.of.interest.s03e22.bluray.1080p.10bit.ac3.x265.hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30719124",
-        "size_bytes": 413228826,
-        "source_bytes_read": 413228826,
-        "http_status": 201
+        "display_name": "Person of Interest S03E22 A House Divided 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:35:01.267395+00:00"
       }
     }
   },
@@ -161577,5 +161578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:34:57.128118+00:00"
+  "updated_at": "2026-11-02T06:35:01.267421+00:00"
 }
