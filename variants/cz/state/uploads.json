@@ -173496,12 +173496,6 @@
     },
     "108:6:6": {
       "episode_key": "m a s h:s6:e6",
-      "claim": {
-        "worker_id": "f9c2d018b8ee439f9c97471c44bf155b-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:08:17.732515+00:00",
-        "lease_expires_at": "2026-11-02T20:08:17.732525+00:00"
-      },
       "source": {
         "source_id": "34978822",
         "source_url": "https://sdilej.cz/34978822/m.a.s.h-s06e06-svetlo-ktere-zhaslo.mkv",
@@ -173526,15 +173520,22 @@
         "display_name": "M*A*S*H S06E06 The Light That Failed SD CZ Dabing",
         "prepared_at": "2026-11-02T14:08:20.365875+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733437",
-        "size_bytes": 316410430
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733437",
+          "size_bytes": 316410430,
+          "source_bytes_read": 316410430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978822",
+        "source_url": "https://sdilej.cz/34978822/m.a.s.h-s06e06-svetlo-ktere-zhaslo.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733437",
-        "size_bytes": 316410430,
-        "source_bytes_read": 316410430,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E06 The Light That Failed SD CZ Dabing",
+        "uploaded_at": "2026-11-02T14:09:03.765981+00:00"
       }
     },
     "108:6:9": {
@@ -173580,5 +173581,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:08:58.798632+00:00"
+  "updated_at": "2026-11-02T14:09:03.765998+00:00"
 }
