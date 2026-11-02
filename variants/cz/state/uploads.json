@@ -174911,12 +174911,6 @@
     },
     "108:7:21": {
       "episode_key": "m a s h:s7:e21",
-      "claim": {
-        "worker_id": "7e391d1ae12b46a2b77889ff29b00eb5-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:47:34.384436+00:00",
-        "lease_expires_at": "2026-11-02T20:47:34.384446+00:00"
-      },
       "source": {
         "source_id": "34978951",
         "source_url": "https://sdilej.cz/34978951/m.a.s.h-s07e21-jeskyne.mkv",
@@ -174941,15 +174935,22 @@
         "display_name": "M*A*S*H S07E21 Rally 'Round the Flagg, Boys 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:47:40.271512+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734316",
-        "size_bytes": 713131801
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734316",
+          "size_bytes": 713131801,
+          "source_bytes_read": 713131801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978951",
+        "source_url": "https://sdilej.cz/34978951/m.a.s.h-s07e21-jeskyne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734316",
-        "size_bytes": 713131801,
-        "source_bytes_read": 713131801,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E21 Rally 'Round the Flagg, Boys 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:48:54.927577+00:00"
       }
     },
     "108:7:22": {
@@ -174995,5 +174996,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:48:52.419338+00:00"
+  "updated_at": "2026-11-02T14:48:54.927597+00:00"
 }
