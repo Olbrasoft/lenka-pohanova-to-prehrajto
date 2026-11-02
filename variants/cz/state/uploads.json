@@ -167264,12 +167264,6 @@
     },
     "280:2:7": {
       "episode_key": "srdcerváči:s2:e7",
-      "claim": {
-        "worker_id": "dcf57eed321a4729aa64e53aae1fd3e6-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:33:59.941989+00:00",
-        "lease_expires_at": "2026-11-02T17:33:59.941998+00:00"
-      },
       "source": {
         "source_id": "26632861",
         "source_url": "https://sdilej.cz/26632861/srdcervaci-s02e07-heartstopper-s02e07-drama-gb-2023-cz-dabing.mkv",
@@ -167294,15 +167288,22 @@
         "display_name": "Heartstopper S02E07 Sorry 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:34:05.768263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726429",
-        "size_bytes": 948162828
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726429",
+          "size_bytes": 948162828,
+          "source_bytes_read": 948162828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26632861",
+        "source_url": "https://sdilej.cz/26632861/srdcervaci-s02e07-heartstopper-s02e07-drama-gb-2023-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726429",
-        "size_bytes": 948162828,
-        "source_bytes_read": 948162828,
-        "http_status": 201
+        "display_name": "Heartstopper S02E07 Sorry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:36:19.357390+00:00"
       }
     },
     "280:2:8": {
@@ -167348,5 +167349,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:36:14.537743+00:00"
+  "updated_at": "2026-11-02T11:36:19.357406+00:00"
 }
