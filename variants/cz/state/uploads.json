@@ -167176,12 +167176,6 @@
     },
     "280:2:4": {
       "episode_key": "srdcerváči:s2:e4",
-      "claim": {
-        "worker_id": "6eed1b8f9c7847e78de0a0ee2fb2597c-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:33:37.801723+00:00",
-        "lease_expires_at": "2026-11-02T17:33:37.801735+00:00"
-      },
       "source": {
         "source_id": "29846927",
         "source_url": "https://sdilej.cz/29846927/srdcervaci-s02e04-1080p-cz-dabing.mkv",
@@ -167206,15 +167200,22 @@
         "display_name": "Heartstopper S02E04 Challenge 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:33:43.159350+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30726425",
-        "size_bytes": 828562735
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30726425",
+          "size_bytes": 828562735,
+          "source_bytes_read": 828562735,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29846927",
+        "source_url": "https://sdilej.cz/29846927/srdcervaci-s02e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30726425",
-        "size_bytes": 828562735,
-        "source_bytes_read": 828562735,
-        "http_status": 201
+        "display_name": "Heartstopper S02E04 Challenge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:35:11.141301+00:00"
       }
     },
     "280:2:5": {
@@ -167297,5 +167298,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:35:05.857872+00:00"
+  "updated_at": "2026-11-02T11:35:11.141318+00:00"
 }
