@@ -152957,12 +152957,6 @@
     },
     "1103:1:9": {
       "episode_key": "zpátky do školy:s1:e9",
-      "claim": {
-        "worker_id": "de9332c85fe94d3f8999f1fa4d724621-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:53:39.379035+00:00",
-        "lease_expires_at": "2026-11-02T07:53:39.379047+00:00"
-      },
       "source": {
         "source_id": "34816316",
         "source_url": "https://sdilej.cz/34816316/zpatky-do-skoly-s01e09-25-2009-cz-dabing-1080p-fhd-debata.mkv",
@@ -152987,15 +152981,22 @@
         "display_name": "Community S01E09 Debate 109 1080p CZ Dabing",
         "prepared_at": "2026-11-02T01:53:41.666671+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712897",
-        "size_bytes": 715365087
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712897",
+          "size_bytes": 715365087,
+          "source_bytes_read": 715365087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816316",
+        "source_url": "https://sdilej.cz/34816316/zpatky-do-skoly-s01e09-25-2009-cz-dabing-1080p-fhd-debata.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712897",
-        "size_bytes": 715365087,
-        "source_bytes_read": 715365087,
-        "http_status": 201
+        "display_name": "Community S01E09 Debate 109 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T01:54:36.141173+00:00"
       }
     },
     "1103:1:10": {
@@ -153041,5 +153042,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:54:32.042189+00:00"
+  "updated_at": "2026-11-02T01:54:36.141189+00:00"
 }
