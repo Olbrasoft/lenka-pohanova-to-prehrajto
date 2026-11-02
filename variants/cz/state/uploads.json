@@ -185415,12 +185415,6 @@
     },
     "1064:3:19": {
       "episode_key": "kauzy z bostonu:s3:e19",
-      "claim": {
-        "worker_id": "9070386eaa3242109872d83946921b8a-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:55:12.549489+00:00",
-        "lease_expires_at": "2026-11-03T02:55:12.549498+00:00"
-      },
       "source": {
         "source_id": "33316255",
         "source_url": "https://sdilej.cz/33316255/boston-legal-kauzy-z-bostonu-s03e19-czdab.mp4",
@@ -185445,15 +185439,22 @@
         "display_name": "Boston Legal S03E19 Brotherly Love SD CZ Dabing",
         "prepared_at": "2026-11-02T20:55:18.928092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741923",
-        "size_bytes": 498934577
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741923",
+          "size_bytes": 498934577,
+          "source_bytes_read": 498934577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316255",
+        "source_url": "https://sdilej.cz/33316255/boston-legal-kauzy-z-bostonu-s03e19-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741923",
-        "size_bytes": 498934577,
-        "source_bytes_read": 498934577,
-        "http_status": 201
+        "display_name": "Boston Legal S03E19 Brotherly Love SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:56:16.155684+00:00"
       }
     }
   },
@@ -185462,5 +185463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:56:11.638791+00:00"
+  "updated_at": "2026-11-02T20:56:16.155700+00:00"
 }
