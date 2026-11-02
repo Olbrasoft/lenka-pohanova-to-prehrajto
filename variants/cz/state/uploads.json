@@ -149928,12 +149928,6 @@
     },
     "1074:2:6": {
       "episode_key": "zákon gangu:s2:e6",
-      "claim": {
-        "worker_id": "5e38b38ca0904f1ca4c87bb7f2d20833-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:07:14.272559+00:00",
-        "lease_expires_at": "2026-11-02T06:07:14.272569+00:00"
-      },
       "source": {
         "source_id": "33478535",
         "source_url": "https://sdilej.cz/33478535/sons-of-anarchy-s02e06-1080p-cz.mkv",
@@ -149958,15 +149952,22 @@
         "display_name": "Sons of Anarchy S02E06 Falx Cerebri 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:07:16.388033+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710788",
-        "size_bytes": 493044947
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710788",
+          "size_bytes": 493044947,
+          "source_bytes_read": 493044947,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478535",
+        "source_url": "https://sdilej.cz/33478535/sons-of-anarchy-s02e06-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710788",
-        "size_bytes": 493044947,
-        "source_bytes_read": 493044947,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E06 Falx Cerebri 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:08:10.100279+00:00"
       }
     },
     "1074:2:7": {
@@ -150011,5 +150012,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:08:08.417637+00:00"
+  "updated_at": "2026-11-02T00:08:10.100294+00:00"
 }
