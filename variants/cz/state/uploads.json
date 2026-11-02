@@ -151467,12 +151467,6 @@
     },
     "700:1:5": {
       "episode_key": "medvěd:s1:e5",
-      "claim": {
-        "worker_id": "8531bd08bdd64d25b66c5b1aeaddad85-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:52:30.430375+00:00",
-        "lease_expires_at": "2026-11-02T06:52:30.430385+00:00"
-      },
       "source": {
         "source_id": "32964650",
         "source_url": "https://sdilej.cz/32964650/medved-s01e05-1080p-cz-sheridan.mkv",
@@ -151497,15 +151491,22 @@
         "display_name": "The Bear S01E05 Sheridan 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:52:32.467804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30711483",
-        "size_bytes": 301624375
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30711483",
+          "size_bytes": 301624375,
+          "source_bytes_read": 301624375,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32964650",
+        "source_url": "https://sdilej.cz/32964650/medved-s01e05-1080p-cz-sheridan.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30711483",
-        "size_bytes": 301624375,
-        "source_bytes_read": 301624375,
-        "http_status": 201
+        "display_name": "The Bear S01E05 Sheridan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:53:11.077366+00:00"
       }
     },
     "700:1:6": {
@@ -151551,5 +151552,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:53:07.808867+00:00"
+  "updated_at": "2026-11-02T00:53:11.077384+00:00"
 }
