@@ -165372,12 +165372,6 @@
     },
     "1002:6:1": {
       "episode_key": "expanze:s6:e1",
-      "claim": {
-        "worker_id": "c229a69e0dbe419f84f5ab269746fd1f-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:45:53.869646+00:00",
-        "lease_expires_at": "2026-11-02T15:45:53.869655+00:00"
-      },
       "source": {
         "source_id": "29594249",
         "source_url": "https://sdilej.cz/29594249/the.expanse.s06e01.20160p.mkv",
@@ -165402,15 +165396,22 @@
         "display_name": "The Expanse S06E01 Strange Dogs 4K CZ Dabing",
         "prepared_at": "2026-11-02T09:45:59.751420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30723271",
-        "size_bytes": 5481215920
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30723271",
+          "size_bytes": 5481215920,
+          "source_bytes_read": 5481215920,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29594249",
+        "source_url": "https://sdilej.cz/29594249/the.expanse.s06e01.20160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30723271",
-        "size_bytes": 5481215920,
-        "source_bytes_read": 5481215920,
-        "http_status": 201
+        "display_name": "The Expanse S06E01 Strange Dogs 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T10:04:28.717471+00:00"
       }
     },
     "1002:6:2": {
@@ -165507,5 +165508,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T10:04:23.855027+00:00"
+  "updated_at": "2026-11-02T10:04:28.717490+00:00"
 }
