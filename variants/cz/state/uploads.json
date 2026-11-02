@@ -172880,12 +172880,6 @@
     },
     "108:5:8": {
       "episode_key": "m a s h:s5:e8",
-      "claim": {
-        "worker_id": "b770c2cbd41f477ba73a93a02f6411c3-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:58:51.873670+00:00",
-        "lease_expires_at": "2026-11-02T19:58:51.873680+00:00"
-      },
       "source": {
         "source_id": "30306756",
         "source_url": "https://sdilej.cz/30306756/mash-s05e08-czdab.mp4",
@@ -172910,15 +172904,22 @@
         "display_name": "M*A*S*H S05E08 Mulcahy's War SD CZ Dabing",
         "prepared_at": "2026-11-02T13:58:54.515043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733211",
-        "size_bytes": 339867179
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733211",
+          "size_bytes": 339867179,
+          "source_bytes_read": 339867179,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30306756",
+        "source_url": "https://sdilej.cz/30306756/mash-s05e08-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733211",
-        "size_bytes": 339867179,
-        "source_bytes_read": 339867179,
-        "http_status": 201
+        "display_name": "M*A*S*H S05E08 Mulcahy's War SD CZ Dabing",
+        "uploaded_at": "2026-11-02T13:59:36.104963+00:00"
       }
     },
     "108:5:9": {
@@ -172963,5 +172964,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:59:32.912315+00:00"
+  "updated_at": "2026-11-02T13:59:36.104977+00:00"
 }
