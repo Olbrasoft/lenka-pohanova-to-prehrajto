@@ -164837,12 +164837,6 @@
     },
     "1002:4:9": {
       "episode_key": "expanze:s4:e9",
-      "claim": {
-        "worker_id": "8eda8c60d518422bb08dcc39e03e5c10-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T09:19:31.771838+00:00",
-        "lease_expires_at": "2026-11-02T15:19:31.771851+00:00"
-      },
       "source": {
         "source_id": "17436225",
         "source_url": "https://sdilej.cz/17436225/the.expanse.-2019-.s04e09.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -164867,15 +164861,22 @@
         "display_name": "The Expanse S04E09 Saeculum 1080p CZ Dabing",
         "prepared_at": "2026-11-02T09:19:37.028723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30722790",
-        "size_bytes": 830851351
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30722790",
+          "size_bytes": 830851351,
+          "source_bytes_read": 830851351,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17436225",
+        "source_url": "https://sdilej.cz/17436225/the.expanse.-2019-.s04e09.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30722790",
-        "size_bytes": 830851351,
-        "source_bytes_read": 830851351,
-        "http_status": 201
+        "display_name": "The Expanse S04E09 Saeculum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T09:21:02.689564+00:00"
       }
     },
     "1002:4:10": {
@@ -164921,5 +164922,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T09:20:59.334272+00:00"
+  "updated_at": "2026-11-02T09:21:02.689581+00:00"
 }
