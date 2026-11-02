@@ -156778,12 +156778,6 @@
     },
     "60:3:11": {
       "episode_key": "hannibal:s3:e11",
-      "claim": {
-        "worker_id": "aa98213d7b3d44769c358da0c9d8c793-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T04:00:20.641059+00:00",
-        "lease_expires_at": "2026-11-02T10:00:20.641070+00:00"
-      },
       "source": {
         "source_id": "27942916",
         "source_url": "https://sdilej.cz/27942916/hannibal-s03e11-cz.mkv",
@@ -156808,15 +156802,22 @@
         "display_name": "Hannibal S03E11 And the Beast from the Sea 1080p CZ Dabing",
         "prepared_at": "2026-11-02T04:00:23.186136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30715872",
-        "size_bytes": 1636953063
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30715872",
+          "size_bytes": 1636953063,
+          "source_bytes_read": 1636953063,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27942916",
+        "source_url": "https://sdilej.cz/27942916/hannibal-s03e11-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30715872",
-        "size_bytes": 1636953063,
-        "source_bytes_read": 1636953063,
-        "http_status": 201
+        "display_name": "Hannibal S03E11 And the Beast from the Sea 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T04:03:07.290363+00:00"
       }
     }
   },
@@ -156825,5 +156826,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T04:03:03.954687+00:00"
+  "updated_at": "2026-11-02T04:03:07.290387+00:00"
 }
