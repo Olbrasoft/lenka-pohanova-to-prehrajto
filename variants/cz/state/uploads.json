@@ -170454,12 +170454,6 @@
     },
     "108:2:9": {
       "episode_key": "m a s h:s2:e9",
-      "claim": {
-        "worker_id": "ef2bb51cf37d43658b5bc42c8e7b861e-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:55:18.371870+00:00",
-        "lease_expires_at": "2026-11-02T18:55:18.371882+00:00"
-      },
       "source": {
         "source_id": "32914474",
         "source_url": "https://sdilej.cz/32914474/m-a-s-h-s02e09.mp4",
@@ -170484,15 +170478,22 @@
         "display_name": "M*A*S*H S02E09 Dear Dad… Three 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:55:21.015760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731870",
-        "size_bytes": 400114211
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731870",
+          "size_bytes": 400114211,
+          "source_bytes_read": 400114211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32914474",
+        "source_url": "https://sdilej.cz/32914474/m-a-s-h-s02e09.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731870",
-        "size_bytes": 400114211,
-        "source_bytes_read": 400114211,
-        "http_status": 201
+        "display_name": "M*A*S*H S02E09 Dear Dad… Three 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:56:17.574742+00:00"
       }
     }
   },
@@ -170501,5 +170502,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:56:12.570953+00:00"
+  "updated_at": "2026-11-02T12:56:17.574763+00:00"
 }
