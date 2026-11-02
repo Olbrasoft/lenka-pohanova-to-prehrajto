@@ -163862,12 +163862,6 @@
     },
     "1002:2:13": {
       "episode_key": "expanze:s2:e13",
-      "claim": {
-        "worker_id": "62ebe9c78a8b4dc397a88111b469d51b-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:49:20.291134+00:00",
-        "lease_expires_at": "2026-11-02T13:49:20.291147+00:00"
-      },
       "source": {
         "source_id": "17250150",
         "source_url": "https://sdilej.cz/17250150/the.expanse.-2017-.s02e13.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -163892,15 +163886,22 @@
         "display_name": "The Expanse S02E13 Caliban's War 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:49:22.544642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30721312",
-        "size_bytes": 794966612
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30721312",
+          "size_bytes": 794966612,
+          "source_bytes_read": 794966612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17250150",
+        "source_url": "https://sdilej.cz/17250150/the.expanse.-2017-.s02e13.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30721312",
-        "size_bytes": 794966612,
-        "source_bytes_read": 794966612,
-        "http_status": 201
+        "display_name": "The Expanse S02E13 Caliban's War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:50:58.293031+00:00"
       }
     }
   },
@@ -163909,5 +163910,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:50:53.151419+00:00"
+  "updated_at": "2026-11-02T07:50:58.293049+00:00"
 }
