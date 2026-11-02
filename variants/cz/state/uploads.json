@@ -156037,12 +156037,6 @@
     },
     "60:2:7": {
       "episode_key": "hannibal:s2:e7",
-      "claim": {
-        "worker_id": "6a162f9fa52d4969a70d21ed5963af7c-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:10:27.846516+00:00",
-        "lease_expires_at": "2026-11-02T09:10:27.846526+00:00"
-      },
       "source": {
         "source_id": "27941899",
         "source_url": "https://sdilej.cz/27941899/hannibal-s02e07-cz.mkv",
@@ -156067,15 +156061,22 @@
         "display_name": "Hannibal S02E07 Yakimono 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:10:30.218373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30714845",
-        "size_bytes": 1609149881
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30714845",
+          "size_bytes": 1609149881,
+          "source_bytes_read": 1609149881,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27941899",
+        "source_url": "https://sdilej.cz/27941899/hannibal-s02e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30714845",
-        "size_bytes": 1609149881,
-        "source_bytes_read": 1609149881,
-        "http_status": 201
+        "display_name": "Hannibal S02E07 Yakimono 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:18:05.042338+00:00"
       }
     },
     "60:2:8": {
@@ -156165,5 +156166,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:18:01.888148+00:00"
+  "updated_at": "2026-11-02T03:18:05.042354+00:00"
 }
