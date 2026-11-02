@@ -168408,12 +168408,6 @@
     },
     "3401:1:11": {
       "episode_key": "soví dům:s1:e11",
-      "claim": {
-        "worker_id": "17254f7ab78447c7bd7b02c289dbf33c-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:00:25.575336+00:00",
-        "lease_expires_at": "2026-11-02T18:00:25.575349+00:00"
-      },
       "source": {
         "source_id": "25219980",
         "source_url": "https://sdilej.cz/25219980/sovi-dum-s01e11-cz.mkv",
@@ -168438,15 +168432,22 @@
         "display_name": "The Owl House S01E11 Sense and Insensitivity 720p CZ Dabing",
         "prepared_at": "2026-11-02T12:00:29.539168+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30728994",
-        "size_bytes": 454770039
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30728994",
+          "size_bytes": 454770039,
+          "source_bytes_read": 454770039,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25219980",
+        "source_url": "https://sdilej.cz/25219980/sovi-dum-s01e11-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30728994",
-        "size_bytes": 454770039,
-        "source_bytes_read": 454770039,
-        "http_status": 201
+        "display_name": "The Owl House S01E11 Sense and Insensitivity 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:01:23.936908+00:00"
       }
     },
     "3401:1:12": {
@@ -168528,5 +168529,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:01:20.729751+00:00"
+  "updated_at": "2026-11-02T12:01:23.936924+00:00"
 }
