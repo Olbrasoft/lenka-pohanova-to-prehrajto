@@ -187527,12 +187527,6 @@
     },
     "3128:3:6": {
       "episode_key": "sněží!:s3:e6",
-      "claim": {
-        "worker_id": "276bd5d6a9f24cc7b43ee9ddc57b4fd9-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:20:06.288481+00:00",
-        "lease_expires_at": "2026-11-03T04:20:06.288492+00:00"
-      },
       "source": {
         "source_id": "33218789",
         "source_url": "https://sdilej.cz/33218789/snezi-s03e06-10-2019-cz-dab-priznani.mkv",
@@ -187557,15 +187551,22 @@
         "display_name": "Snowfall S03E06 Confessions 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:20:14.050297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743487",
-        "size_bytes": 2796557601
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743487",
+          "size_bytes": 2796557601,
+          "source_bytes_read": 2796557601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33218789",
+        "source_url": "https://sdilej.cz/33218789/snezi-s03e06-10-2019-cz-dab-priznani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743487",
-        "size_bytes": 2796557601,
-        "source_bytes_read": 2796557601,
-        "http_status": 201
+        "display_name": "Snowfall S03E06 Confessions 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:24:12.359346+00:00"
       }
     },
     "3128:3:7": {
@@ -187654,5 +187655,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:24:10.182721+00:00"
+  "updated_at": "2026-11-02T22:24:12.359364+00:00"
 }
