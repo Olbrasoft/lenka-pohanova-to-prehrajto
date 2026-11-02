@@ -149664,12 +149664,6 @@
     },
     "1074:1:13": {
       "episode_key": "zákon gangu:s1:e13",
-      "claim": {
-        "worker_id": "f83a35e4a19541b297c973e49abe7dfa-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:03:20.542092+00:00",
-        "lease_expires_at": "2026-11-02T06:03:20.542103+00:00"
-      },
       "source": {
         "source_id": "33474485",
         "source_url": "https://sdilej.cz/33474485/sons-of-anarchy-s01e13-1080p-cz-the-revelator.mkv",
@@ -149694,15 +149688,22 @@
         "display_name": "Sons of Anarchy S01E13 The Revelator 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:03:22.600939+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710723",
-        "size_bytes": 729998653
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710723",
+          "size_bytes": 729998653,
+          "source_bytes_read": 729998653,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33474485",
+        "source_url": "https://sdilej.cz/33474485/sons-of-anarchy-s01e13-1080p-cz-the-revelator.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710723",
-        "size_bytes": 729998653,
-        "source_bytes_read": 729998653,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S01E13 The Revelator 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:07:51.220609+00:00"
       }
     },
     "1074:2:1": {
@@ -149961,5 +149962,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:07:47.316196+00:00"
+  "updated_at": "2026-11-02T00:07:51.220625+00:00"
 }
