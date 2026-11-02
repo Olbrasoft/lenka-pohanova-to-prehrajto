@@ -177507,12 +177507,6 @@
     },
     "108:10:18": {
       "episode_key": "m a s h:s10:e18",
-      "claim": {
-        "worker_id": "25b3189056124bd3ac6148f52ae630a1-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:49:58.493870+00:00",
-        "lease_expires_at": "2026-11-02T21:49:58.493880+00:00"
-      },
       "source": {
         "source_id": "34979563",
         "source_url": "https://sdilej.cz/34979563/m.a.s.h-s10e18-boure-kolem-povyseni.mkv",
@@ -177537,15 +177531,22 @@
         "display_name": "M*A*S*H S10E18 Heroes SD CZ Dabing",
         "prepared_at": "2026-11-02T15:50:04.973845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30735649",
-        "size_bytes": 154973683
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30735649",
+          "size_bytes": 154973683,
+          "source_bytes_read": 154973683,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979563",
+        "source_url": "https://sdilej.cz/34979563/m.a.s.h-s10e18-boure-kolem-povyseni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30735649",
-        "size_bytes": 154973683,
-        "source_bytes_read": 154973683,
-        "http_status": 201
+        "display_name": "M*A*S*H S10E18 Heroes SD CZ Dabing",
+        "uploaded_at": "2026-11-02T15:50:39.148747+00:00"
       }
     },
     "108:10:17": {
@@ -177591,5 +177592,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:50:36.886152+00:00"
+  "updated_at": "2026-11-02T15:50:39.148764+00:00"
 }
