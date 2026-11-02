@@ -181975,12 +181975,6 @@
     },
     "2120:4:5": {
       "episode_key": "všechny velké a malé bytosti:s4:e5",
-      "claim": {
-        "worker_id": "ba6deb35c65c4fbca87aeac6e0f1c4c8-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:18:57.603970+00:00",
-        "lease_expires_at": "2026-11-03T01:18:57.603981+00:00"
-      },
       "source": {
         "source_id": "30967959",
         "source_url": "https://sdilej.cz/30967959/vsechny-velke-a-male-bytosti-s04e05-cz-papirovani-.mkv",
@@ -182005,15 +181999,22 @@
         "display_name": "All Creatures Great & Small S04E05 Papers 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:19:00.298936+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740288",
-        "size_bytes": 1022722827
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740288",
+          "size_bytes": 1022722827,
+          "source_bytes_read": 1022722827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30967959",
+        "source_url": "https://sdilej.cz/30967959/vsechny-velke-a-male-bytosti-s04e05-cz-papirovani-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740288",
-        "size_bytes": 1022722827,
-        "source_bytes_read": 1022722827,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S04E05 Papers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:21:01.606595+00:00"
       }
     },
     "2120:4:6": {
@@ -182058,5 +182059,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:20:57.138720+00:00"
+  "updated_at": "2026-11-02T19:21:01.606611+00:00"
 }
