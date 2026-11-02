@@ -168804,12 +168804,6 @@
     },
     "3401:3:3": {
       "episode_key": "soví dům:s3:e3",
-      "claim": {
-        "worker_id": "5b622d21c44f47019a8f9cd47ca33293-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:04:08.473790+00:00",
-        "lease_expires_at": "2026-11-02T18:04:08.473802+00:00"
-      },
       "source": {
         "source_id": "26637202",
         "source_url": "https://sdilej.cz/26637202/sovi-dum-the-owl-house-s03e03-hd-cz-dabing.mp4",
@@ -168834,15 +168828,22 @@
         "display_name": "The Owl House S03E03 Watching and Dreaming 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:04:13.482661+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30729513",
-        "size_bytes": 1800595860
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30729513",
+          "size_bytes": 1800595860,
+          "source_bytes_read": 1800595860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26637202",
+        "source_url": "https://sdilej.cz/26637202/sovi-dum-the-owl-house-s03e03-hd-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30729513",
-        "size_bytes": 1800595860,
-        "source_bytes_read": 1800595860,
-        "http_status": 201
+        "display_name": "The Owl House S03E03 Watching and Dreaming 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:11:28.946795+00:00"
       }
     },
     "2645:1:1": {
@@ -168939,5 +168940,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:11:22.738718+00:00"
+  "updated_at": "2026-11-02T12:11:28.946809+00:00"
 }
