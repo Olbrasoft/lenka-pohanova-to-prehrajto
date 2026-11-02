@@ -160877,12 +160877,6 @@
     },
     "567:3:7": {
       "episode_key": "lovci zločinců:s3:e7",
-      "claim": {
-        "worker_id": "9ee7c5d991f04242a01548c0a053ec33-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:17:33.886975+00:00",
-        "lease_expires_at": "2026-11-02T12:17:33.886986+00:00"
-      },
       "source": {
         "source_id": "32300341",
         "source_url": "https://sdilej.cz/32300341/lovci-zlocincu-s03e07-cz-dabing.mkv",
@@ -160907,15 +160901,22 @@
         "display_name": "Person of Interest S03E07 The Perfect Mark 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:17:36.311752+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718773",
-        "size_bytes": 771165161
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718773",
+          "size_bytes": 771165161,
+          "source_bytes_read": 771165161,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300341",
+        "source_url": "https://sdilej.cz/32300341/lovci-zlocincu-s03e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718773",
-        "size_bytes": 771165161,
-        "source_bytes_read": 771165161,
-        "http_status": 201
+        "display_name": "Person of Interest S03E07 The Perfect Mark 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:19:25.172645+00:00"
       }
     },
     "567:3:8": {
@@ -160961,5 +160962,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:19:19.728439+00:00"
+  "updated_at": "2026-11-02T06:19:25.172661+00:00"
 }
