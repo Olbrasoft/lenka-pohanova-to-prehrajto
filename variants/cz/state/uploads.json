@@ -152436,12 +152436,6 @@
     },
     "700:4:1": {
       "episode_key": "medvěd:s4:e1",
-      "claim": {
-        "worker_id": "cb6501e358ca4e6dbcf3f3db85da3881-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:20:01.555703+00:00",
-        "lease_expires_at": "2026-11-02T07:20:01.555714+00:00"
-      },
       "source": {
         "source_id": "34636766",
         "source_url": "https://sdilej.cz/34636766/medved-s04e01-smycka.mkv",
@@ -152466,15 +152460,22 @@
         "display_name": "The Bear S04E01 Groundhogs 4K CZ Dabing",
         "prepared_at": "2026-11-02T01:20:05.216619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712014",
-        "size_bytes": 1508311655
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712014",
+          "size_bytes": 1508311655,
+          "source_bytes_read": 1508311655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34636766",
+        "source_url": "https://sdilej.cz/34636766/medved-s04e01-smycka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712014",
-        "size_bytes": 1508311655,
-        "source_bytes_read": 1508311655,
-        "http_status": 201
+        "display_name": "The Bear S04E01 Groundhogs 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T01:23:01.291288+00:00"
       }
     },
     "700:4:2": {
@@ -152557,5 +152558,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:22:55.262291+00:00"
+  "updated_at": "2026-11-02T01:23:01.291305+00:00"
 }
