@@ -172653,12 +172653,6 @@
     },
     "108:4:23": {
       "episode_key": "m a s h:s4:e23",
-      "claim": {
-        "worker_id": "830a1704dd1f449c945dd054f853f5b1-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:56:36.441692+00:00",
-        "lease_expires_at": "2026-11-02T19:56:36.441703+00:00"
-      },
       "source": {
         "source_id": "32915204",
         "source_url": "https://sdilej.cz/32915204/m-a-s-h-s04e23-az-te-zase-uvidim.mp4",
@@ -172683,15 +172677,22 @@
         "display_name": "M*A*S*H S04E23 Deluge 720p CZ Dabing",
         "prepared_at": "2026-11-02T13:56:39.198432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733154",
-        "size_bytes": 385392686
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733154",
+          "size_bytes": 385392686,
+          "source_bytes_read": 385392686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32915204",
+        "source_url": "https://sdilej.cz/32915204/m-a-s-h-s04e23-az-te-zase-uvidim.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733154",
-        "size_bytes": 385392686,
-        "source_bytes_read": 385392686,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E23 Deluge 720p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:57:26.332024+00:00"
       }
     }
   },
@@ -172700,5 +172701,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:57:21.553448+00:00"
+  "updated_at": "2026-11-02T13:57:26.332039+00:00"
 }
