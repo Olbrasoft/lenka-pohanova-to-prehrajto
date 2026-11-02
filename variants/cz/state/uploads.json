@@ -149789,12 +149789,6 @@
     },
     "1074:2:3": {
       "episode_key": "zákon gangu:s2:e3",
-      "claim": {
-        "worker_id": "651f858ea3294cc6ac57c8aa0e0b1432-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:05:51.749687+00:00",
-        "lease_expires_at": "2026-11-02T06:05:51.749699+00:00"
-      },
       "source": {
         "source_id": "33478527",
         "source_url": "https://sdilej.cz/33478527/sons-of-anarchy-s02e03-1080p-cz-fix.mkv",
@@ -149819,15 +149813,22 @@
         "display_name": "Sons of Anarchy S02E03 Fix 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:05:53.975009+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710765",
-        "size_bytes": 495069584
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710765",
+          "size_bytes": 495069584,
+          "source_bytes_read": 495069584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478527",
+        "source_url": "https://sdilej.cz/33478527/sons-of-anarchy-s02e03-1080p-cz-fix.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710765",
-        "size_bytes": 495069584,
-        "source_bytes_read": 495069584,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S02E03 Fix 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:07:05.554423+00:00"
       }
     },
     "1074:2:4": {
@@ -149880,5 +149881,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:07:02.786329+00:00"
+  "updated_at": "2026-11-02T00:07:05.554441+00:00"
 }
