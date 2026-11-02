@@ -166384,12 +166384,6 @@
     },
     "907:1:21": {
       "episode_key": "star wars: klonové války:s1:e21",
-      "claim": {
-        "worker_id": "225ea07727074717b4d52aa93516441d-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:00:29.433044+00:00",
-        "lease_expires_at": "2026-11-02T17:00:29.433062+00:00"
-      },
       "source": {
         "source_id": "27588363",
         "source_url": "https://sdilej.cz/27588363/star-wars-klonove-valky-s01e21-cz.mkv",
@@ -166414,15 +166408,22 @@
         "display_name": "Star Wars: The Clone Wars S01E21 Liberty on Ryloth 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:00:32.213798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30725664",
-        "size_bytes": 440370167
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30725664",
+          "size_bytes": 440370167,
+          "source_bytes_read": 440370167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27588363",
+        "source_url": "https://sdilej.cz/27588363/star-wars-klonove-valky-s01e21-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30725664",
-        "size_bytes": 440370167,
-        "source_bytes_read": 440370167,
-        "http_status": 201
+        "display_name": "Star Wars: The Clone Wars S01E21 Liberty on Ryloth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:01:39.347440+00:00"
       }
     },
     "907:1:22": {
@@ -166505,5 +166506,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:01:36.204303+00:00"
+  "updated_at": "2026-11-02T11:01:39.347456+00:00"
 }
