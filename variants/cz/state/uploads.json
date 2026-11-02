@@ -167660,12 +167660,6 @@
     },
     "280:3:8": {
       "episode_key": "srdcerváči:s3:e8",
-      "claim": {
-        "worker_id": "7feba6508b6945408a7f8a5f13114794-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T11:44:19.750254+00:00",
-        "lease_expires_at": "2026-11-02T17:44:19.750267+00:00"
-      },
       "source": {
         "source_id": "29876161",
         "source_url": "https://sdilej.cz/29876161/srdcervaci-s03e08-1080p-cz-dabing.mkv",
@@ -167690,15 +167684,22 @@
         "display_name": "Heartstopper S03E08 Apart 1080p CZ Dabing",
         "prepared_at": "2026-11-02T11:44:22.382448+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30727081",
-        "size_bytes": 668259261
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30727081",
+          "size_bytes": 668259261,
+          "source_bytes_read": 668259261,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29876161",
+        "source_url": "https://sdilej.cz/29876161/srdcervaci-s03e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30727081",
-        "size_bytes": 668259261,
-        "source_bytes_read": 668259261,
-        "http_status": 201
+        "display_name": "Heartstopper S03E08 Apart 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T11:47:30.170622+00:00"
       }
     },
     "622:1:4": {
@@ -167788,5 +167789,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T11:47:25.299199+00:00"
+  "updated_at": "2026-11-02T11:47:30.170642+00:00"
 }
