@@ -174420,12 +174420,6 @@
     },
     "108:7:9": {
       "episode_key": "m a s h:s7:e9",
-      "claim": {
-        "worker_id": "6942e014135947fe9a12c41a2ef7f8f0-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:41:49.324236+00:00",
-        "lease_expires_at": "2026-11-02T20:41:49.324247+00:00"
-      },
       "source": {
         "source_id": "28258297",
         "source_url": "https://sdilej.cz/28258297/mash-s07e09-156-.major-ego.mkv",
@@ -174450,15 +174444,22 @@
         "display_name": "M*A*S*H S07E09 Baby, It's Cold Outside 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:41:52.855256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734174",
-        "size_bytes": 147017677
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734174",
+          "size_bytes": 147017677,
+          "source_bytes_read": 147017677,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258297",
+        "source_url": "https://sdilej.cz/28258297/mash-s07e09-156-.major-ego.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734174",
-        "size_bytes": 147017677,
-        "source_bytes_read": 147017677,
-        "http_status": 201
+        "display_name": "M*A*S*H S07E09 Baby, It's Cold Outside 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:42:23.638358+00:00"
       }
     },
     "108:7:10": {
@@ -174504,5 +174505,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:42:19.474117+00:00"
+  "updated_at": "2026-11-02T14:42:23.638374+00:00"
 }
