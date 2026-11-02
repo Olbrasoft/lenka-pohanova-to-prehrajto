@@ -182415,12 +182415,6 @@
     },
     "2120:6:1": {
       "episode_key": "všechny velké a malé bytosti:s6:e1",
-      "claim": {
-        "worker_id": "dbc05104d9d54e368469e37d638afa20-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:30:35.726265+00:00",
-        "lease_expires_at": "2026-11-03T01:30:35.726275+00:00"
-      },
       "source": {
         "source_id": "33015729",
         "source_url": "https://sdilej.cz/33015729/vsechny-velke-a-male-bytosti-2025-s06e01-czdab-1080p.mkv",
@@ -182445,15 +182439,22 @@
         "display_name": "All Creatures Great & Small S06E01 Gathering the Flock 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:30:40.623650+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740513",
-        "size_bytes": 2311477960
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740513",
+          "size_bytes": 2311477960,
+          "source_bytes_read": 2311477960,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33015729",
+        "source_url": "https://sdilej.cz/33015729/vsechny-velke-a-male-bytosti-2025-s06e01-czdab-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740513",
-        "size_bytes": 2311477960,
-        "source_bytes_read": 2311477960,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S06E01 Gathering the Flock 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:34:25.953370+00:00"
       }
     },
     "2120:6:2": {
@@ -182536,5 +182537,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:34:22.000511+00:00"
+  "updated_at": "2026-11-02T19:34:25.953414+00:00"
 }
