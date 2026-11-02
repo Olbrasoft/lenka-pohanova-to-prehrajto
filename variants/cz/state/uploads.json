@@ -163341,12 +163341,6 @@
     },
     "1002:2:1": {
       "episode_key": "expanze:s2:e1",
-      "claim": {
-        "worker_id": "3d71b10579b64014bf3ffba5498e5f80-worker-0",
-        "run_id": "41393624401",
-        "claimed_at": "2026-11-02T07:31:05.479284+00:00",
-        "lease_expires_at": "2026-11-02T13:31:05.479307+00:00"
-      },
       "source": {
         "source_id": "27775663",
         "source_url": "https://sdilej.cz/27775663/expanze-s02e01-cz-1.mkv",
@@ -163371,15 +163365,22 @@
         "display_name": "The Expanse S02E01 Safe 1080p CZ Dabing",
         "prepared_at": "2026-11-02T07:31:07.766101+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30720849",
-        "size_bytes": 1027232728
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30720849",
+          "size_bytes": 1027232728,
+          "source_bytes_read": 1027232728,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27775663",
+        "source_url": "https://sdilej.cz/27775663/expanze-s02e01-cz-1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30720849",
-        "size_bytes": 1027232728,
-        "source_bytes_read": 1027232728,
-        "http_status": 201
+        "display_name": "The Expanse S02E01 Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T07:35:09.848954+00:00"
       }
     },
     "1002:2:2": {
@@ -163425,5 +163426,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T07:35:04.289506+00:00"
+  "updated_at": "2026-11-02T07:35:09.848972+00:00"
 }
