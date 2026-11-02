@@ -152832,12 +152832,6 @@
     },
     "700:4:10": {
       "episode_key": "medvěd:s4:e10",
-      "claim": {
-        "worker_id": "065bca00843543bcb42e6a8f594e0f3c-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:52:23.796704+00:00",
-        "lease_expires_at": "2026-11-02T07:52:23.796719+00:00"
-      },
       "source": {
         "source_id": "34636783",
         "source_url": "https://sdilej.cz/34636783/medved-s04e10-sbohem.mkv",
@@ -152862,15 +152856,22 @@
         "display_name": "The Bear S04E10 Goodbye 4K CZ Dabing",
         "prepared_at": "2026-11-02T01:52:25.688998+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712853",
-        "size_bytes": 1594889496
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712853",
+          "size_bytes": 1594889496,
+          "source_bytes_read": 1594889496,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34636783",
+        "source_url": "https://sdilej.cz/34636783/medved-s04e10-sbohem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712853",
-        "size_bytes": 1594889496,
-        "source_bytes_read": 1594889496,
-        "http_status": 201
+        "display_name": "The Bear S04E10 Goodbye 4K CZ Dabing",
+        "uploaded_at": "2026-11-02T01:55:09.410201+00:00"
       }
     },
     "1103:1:2": {
@@ -153085,5 +153086,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:55:04.979075+00:00"
+  "updated_at": "2026-11-02T01:55:09.410217+00:00"
 }
