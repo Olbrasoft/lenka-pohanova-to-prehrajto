@@ -176287,12 +176287,6 @@
     },
     "108:9:2": {
       "episode_key": "m a s h:s9:e2",
-      "claim": {
-        "worker_id": "5002266bc32d4365ad5435397a2d6f4f-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:13:15.814461+00:00",
-        "lease_expires_at": "2026-11-02T21:13:15.814471+00:00"
-      },
       "source": {
         "source_id": "34979391",
         "source_url": "https://sdilej.cz/34979391/m.a.s.h-s09e02-dopisy.mkv",
@@ -176317,15 +176311,22 @@
         "display_name": "M*A*S*H S09E02 Letters 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:13:26.527588+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734980",
-        "size_bytes": 741703842
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734980",
+          "size_bytes": 741703842,
+          "source_bytes_read": 741703842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979391",
+        "source_url": "https://sdilej.cz/34979391/m.a.s.h-s09e02-dopisy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734980",
-        "size_bytes": 741703842,
-        "source_bytes_read": 741703842,
-        "http_status": 201
+        "display_name": "M*A*S*H S09E02 Letters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:15:34.475308+00:00"
       }
     },
     "108:9:3": {
@@ -176378,5 +176379,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:15:30.824571+00:00"
+  "updated_at": "2026-11-02T15:15:34.475323+00:00"
 }
