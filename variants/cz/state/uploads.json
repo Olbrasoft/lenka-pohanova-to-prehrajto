@@ -179917,12 +179917,6 @@
     },
     "635:6:7": {
       "episode_key": "f1: touha po vítězství:s6:e7",
-      "claim": {
-        "worker_id": "5f9770324f544feeb95a71fe23fb6ae8-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T17:51:07.756358+00:00",
-        "lease_expires_at": "2026-11-02T23:51:07.756395+00:00"
-      },
       "source": {
         "source_id": "28260405",
         "source_url": "https://sdilej.cz/28260405/f1-touha-po-vitezstvi-s06e07-cz-dab-1080p-10kbs.mkv",
@@ -179947,15 +179941,22 @@
         "display_name": "Formula 1: Drive to Survive S06E07 C'est la Vie 1080p CZ Dabing",
         "prepared_at": "2026-11-02T17:51:16.936153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30738287",
-        "size_bytes": 1569697493
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30738287",
+          "size_bytes": 1569697493,
+          "source_bytes_read": 1569697493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28260405",
+        "source_url": "https://sdilej.cz/28260405/f1-touha-po-vitezstvi-s06e07-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30738287",
-        "size_bytes": 1569697493,
-        "source_bytes_read": 1569697493,
-        "http_status": 201
+        "display_name": "Formula 1: Drive to Survive S06E07 C'est la Vie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T17:54:51.957152+00:00"
       }
     },
     "635:6:8": {
@@ -180001,5 +180002,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T17:54:46.076996+00:00"
+  "updated_at": "2026-11-02T17:54:51.957168+00:00"
 }
