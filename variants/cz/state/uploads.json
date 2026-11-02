@@ -169288,12 +169288,6 @@
     },
     "108:1:6": {
       "episode_key": "m a s h:s1:e6",
-      "claim": {
-        "worker_id": "a5f78db3e45041a3a22a9a8ffd944b07-worker-0",
-        "run_id": "41420563154",
-        "claimed_at": "2026-11-02T12:36:36.021789+00:00",
-        "lease_expires_at": "2026-11-02T18:36:36.021801+00:00"
-      },
       "source": {
         "source_id": "15748129",
         "source_url": "https://sdilej.cz/15748129/m.a.s.h.-1972-.s01e06.1080p.10bit.bluray.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -169318,15 +169312,22 @@
         "display_name": "M*A*S*H S01E06 Yankee Doodle Doctor 1080p CZ Dabing",
         "prepared_at": "2026-11-02T12:36:38.569506+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30731353",
-        "size_bytes": 798986236
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30731353",
+          "size_bytes": 798986236,
+          "source_bytes_read": 798986236,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15748129",
+        "source_url": "https://sdilej.cz/15748129/m.a.s.h.-1972-.s01e06.1080p.10bit.bluray.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30731353",
-        "size_bytes": 798986236,
-        "source_bytes_read": 798986236,
-        "http_status": 201
+        "display_name": "M*A*S*H S01E06 Yankee Doodle Doctor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T12:39:31.393621+00:00"
       }
     },
     "108:1:7": {
@@ -169453,5 +169454,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T12:39:25.439736+00:00"
+  "updated_at": "2026-11-02T12:39:31.393634+00:00"
 }
