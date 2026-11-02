@@ -184748,12 +184748,6 @@
     },
     "1064:3:4": {
       "episode_key": "kauzy z bostonu:s3:e4",
-      "claim": {
-        "worker_id": "26613df7d6ce42959ab50772f54b2fd7-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T20:32:00.954075+00:00",
-        "lease_expires_at": "2026-11-03T02:32:00.954086+00:00"
-      },
       "source": {
         "source_id": "33316197",
         "source_url": "https://sdilej.cz/33316197/boston-legal-kauzy-z-bostonu-s03e04-czdab.mp4",
@@ -184778,15 +184772,22 @@
         "display_name": "Boston Legal S03E04 Fine Young Cannibal SD CZ Dabing",
         "prepared_at": "2026-11-02T20:32:06.634027+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30741335",
-        "size_bytes": 548206647
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30741335",
+          "size_bytes": 548206647,
+          "source_bytes_read": 548206647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316197",
+        "source_url": "https://sdilej.cz/33316197/boston-legal-kauzy-z-bostonu-s03e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30741335",
-        "size_bytes": 548206647,
-        "source_bytes_read": 548206647,
-        "http_status": 201
+        "display_name": "Boston Legal S03E04 Fine Young Cannibal SD CZ Dabing",
+        "uploaded_at": "2026-11-02T20:33:15.389714+00:00"
       }
     },
     "1064:3:5": {
@@ -184832,5 +184833,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T20:33:10.116015+00:00"
+  "updated_at": "2026-11-02T20:33:15.389731+00:00"
 }
