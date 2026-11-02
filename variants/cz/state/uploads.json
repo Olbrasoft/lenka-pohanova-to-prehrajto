@@ -185766,12 +185766,6 @@
     },
     "1064:4:3": {
       "episode_key": "kauzy z bostonu:s4:e3",
-      "claim": {
-        "worker_id": "0f515cfdc9224db9bba9331f7c89c6d8-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:04:40.419264+00:00",
-        "lease_expires_at": "2026-11-03T03:04:40.419275+00:00"
-      },
       "source": {
         "source_id": "33316285",
         "source_url": "https://sdilej.cz/33316285/boston-legal-kauzy-z-bostonu-s04e03-czdab.mp4",
@@ -185796,15 +185790,22 @@
         "display_name": "Boston Legal S04E03 The Chicken and the Leg SD CZ Dabing",
         "prepared_at": "2026-11-02T21:04:45.464717+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742256",
-        "size_bytes": 494610446
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742256",
+          "size_bytes": 494610446,
+          "source_bytes_read": 494610446,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33316285",
+        "source_url": "https://sdilej.cz/33316285/boston-legal-kauzy-z-bostonu-s04e03-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742256",
-        "size_bytes": 494610446,
-        "source_bytes_read": 494610446,
-        "http_status": 201
+        "display_name": "Boston Legal S04E03 The Chicken and the Leg SD CZ Dabing",
+        "uploaded_at": "2026-11-02T21:05:33.043688+00:00"
       }
     },
     "1064:4:4": {
@@ -185846,5 +185847,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:05:30.733383+00:00"
+  "updated_at": "2026-11-02T21:05:33.043705+00:00"
 }
