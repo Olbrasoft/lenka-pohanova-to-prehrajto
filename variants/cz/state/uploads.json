@@ -175835,12 +175835,6 @@
     },
     "108:8:17": {
       "episode_key": "m a s h:s8:e17",
-      "claim": {
-        "worker_id": "b1e7b99116d747e4bd3f9e8ee7146900-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T15:06:40.319095+00:00",
-        "lease_expires_at": "2026-11-02T21:06:40.319106+00:00"
-      },
       "source": {
         "source_id": "34979086",
         "source_url": "https://sdilej.cz/34979086/m.a.s.h-s08e17-uzdravte-je.mkv",
@@ -175865,15 +175859,22 @@
         "display_name": "M*A*S*H S08E17 Heal Thyself 1080p CZ Dabing",
         "prepared_at": "2026-11-02T15:06:45.974178+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30734825",
-        "size_bytes": 764163144
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30734825",
+          "size_bytes": 764163144,
+          "source_bytes_read": 764163144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34979086",
+        "source_url": "https://sdilej.cz/34979086/m.a.s.h-s08e17-uzdravte-je.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30734825",
-        "size_bytes": 764163144,
-        "source_bytes_read": 764163144,
-        "http_status": 201
+        "display_name": "M*A*S*H S08E17 Heal Thyself 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T15:08:15.935317+00:00"
       }
     },
     "108:8:18": {
@@ -175956,5 +175957,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T15:08:10.621391+00:00"
+  "updated_at": "2026-11-02T15:08:15.935332+00:00"
 }
