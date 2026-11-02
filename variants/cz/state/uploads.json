@@ -156402,12 +156402,6 @@
     },
     "60:3:2": {
       "episode_key": "hannibal:s3:e2",
-      "claim": {
-        "worker_id": "2cac88202c004a8e86917dc7949bedcb-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T03:26:06.522575+00:00",
-        "lease_expires_at": "2026-11-02T09:26:06.522586+00:00"
-      },
       "source": {
         "source_id": "27942337",
         "source_url": "https://sdilej.cz/27942337/hannibal-s03e02-cz.mkv",
@@ -156432,15 +156426,22 @@
         "display_name": "Hannibal S03E02 Primavera 1080p CZ Dabing",
         "prepared_at": "2026-11-02T03:26:10.794220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30715115",
-        "size_bytes": 1627780920
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30715115",
+          "size_bytes": 1627780920,
+          "source_bytes_read": 1627780920,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27942337",
+        "source_url": "https://sdilej.cz/27942337/hannibal-s03e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30715115",
-        "size_bytes": 1627780920,
-        "source_bytes_read": 1627780920,
-        "http_status": 201
+        "display_name": "Hannibal S03E02 Primavera 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T03:31:15.357364+00:00"
       }
     }
   },
@@ -156449,5 +156450,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T03:31:13.648167+00:00"
+  "updated_at": "2026-11-02T03:31:15.357377+00:00"
 }
