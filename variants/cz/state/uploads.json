@@ -186911,12 +186911,6 @@
     },
     "3128:2:2": {
       "episode_key": "sněží!:s2:e2",
-      "claim": {
-        "worker_id": "61ce95a9c4f246d488ade6fa033dd0e8-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:29:20.223310+00:00",
-        "lease_expires_at": "2026-11-03T03:29:20.223322+00:00"
-      },
       "source": {
         "source_id": "28325287",
         "source_url": "https://sdilej.cz/28325287/snezi-s02e02-ten-den.mkv",
@@ -186941,15 +186935,22 @@
         "display_name": "Snowfall S02E02 The Day 1080p CZ Dabing",
         "prepared_at": "2026-11-02T21:29:24.594466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742671",
-        "size_bytes": 2810989196
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742671",
+          "size_bytes": 2810989196,
+          "source_bytes_read": 2810989196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28325287",
+        "source_url": "https://sdilej.cz/28325287/snezi-s02e02-ten-den.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742671",
-        "size_bytes": 2810989196,
-        "source_bytes_read": 2810989196,
-        "http_status": 201
+        "display_name": "Snowfall S02E02 The Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T21:33:47.564684+00:00"
       }
     },
     "3128:2:3": {
@@ -186991,5 +186992,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:33:45.700903+00:00"
+  "updated_at": "2026-11-02T21:33:47.564702+00:00"
 }
