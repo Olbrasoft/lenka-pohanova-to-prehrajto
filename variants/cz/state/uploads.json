@@ -149444,12 +149444,6 @@
     },
     "1074:1:8": {
       "episode_key": "zákon gangu:s1:e8",
-      "claim": {
-        "worker_id": "c05f3d3a80d245748b308c673a4e9dd6-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T00:01:46.581630+00:00",
-        "lease_expires_at": "2026-11-02T06:01:46.581642+00:00"
-      },
       "source": {
         "source_id": "33473816",
         "source_url": "https://sdilej.cz/33473816/sons-of-anarchy-s01e08-1080p-cz-the-pull.mkv",
@@ -149474,15 +149468,22 @@
         "display_name": "Sons of Anarchy S01E08 The Pull 1080p CZ Dabing",
         "prepared_at": "2026-11-02T00:01:49.621586+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30710689",
-        "size_bytes": 522736492
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30710689",
+          "size_bytes": 522736492,
+          "source_bytes_read": 522736492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33473816",
+        "source_url": "https://sdilej.cz/33473816/sons-of-anarchy-s01e08-1080p-cz-the-pull.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30710689",
-        "size_bytes": 522736492,
-        "source_bytes_read": 522736492,
-        "http_status": 201
+        "display_name": "Sons of Anarchy S01E08 The Pull 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T00:02:40.268178+00:00"
       }
     },
     "1074:1:9": {
@@ -149564,5 +149565,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T00:02:37.774061+00:00"
+  "updated_at": "2026-11-02T00:02:40.268193+00:00"
 }
