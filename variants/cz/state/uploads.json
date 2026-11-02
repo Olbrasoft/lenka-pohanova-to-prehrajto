@@ -187835,12 +187835,6 @@
     },
     "3128:4:3": {
       "episode_key": "sněží!:s4:e3",
-      "claim": {
-        "worker_id": "15a51e1f18524defbe4f47f6c6009bb3-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:30:19.582567+00:00",
-        "lease_expires_at": "2026-11-03T04:30:19.582579+00:00"
-      },
       "source": {
         "source_id": "28326748",
         "source_url": "https://sdilej.cz/28326748/snezi-s04e03-za-kazdou-cenu.mkv",
@@ -187865,15 +187859,22 @@
         "display_name": "Snowfall S04E03 All The Way Down 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:30:23.433796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743695",
-        "size_bytes": 2785825659
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743695",
+          "size_bytes": 2785825659,
+          "source_bytes_read": 2785825659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28326748",
+        "source_url": "https://sdilej.cz/28326748/snezi-s04e03-za-kazdou-cenu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743695",
-        "size_bytes": 2785825659,
-        "source_bytes_read": 2785825659,
-        "http_status": 201
+        "display_name": "Snowfall S04E03 All The Way Down 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:36:09.545191+00:00"
       }
     },
     "3128:4:4": {
@@ -187926,5 +187927,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:36:03.753118+00:00"
+  "updated_at": "2026-11-02T22:36:09.545207+00:00"
 }
