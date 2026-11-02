@@ -181483,12 +181483,6 @@
     },
     "2120:3:1": {
       "episode_key": "všechny velké a malé bytosti:s3:e1",
-      "claim": {
-        "worker_id": "17a8e2c08a36474db47a39d72b14066c-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T18:59:41.009929+00:00",
-        "lease_expires_at": "2026-11-03T00:59:41.009940+00:00"
-      },
       "source": {
         "source_id": "31733236",
         "source_url": "https://sdilej.cz/31733236/vsechny-velke-a-male-bytosti-s03e01-015-2022-fhd-stesti-podruhe-s-.mp4",
@@ -181513,15 +181507,22 @@
         "display_name": "All Creatures Great & Small S03E01 Second Time Lucky 1080p CZ Dabing",
         "prepared_at": "2026-11-02T18:59:48.760549+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30739758",
-        "size_bytes": 926213918
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30739758",
+          "size_bytes": 926213918,
+          "source_bytes_read": 926213918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31733236",
+        "source_url": "https://sdilej.cz/31733236/vsechny-velke-a-male-bytosti-s03e01-015-2022-fhd-stesti-podruhe-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30739758",
-        "size_bytes": 926213918,
-        "source_bytes_read": 926213918,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S03E01 Second Time Lucky 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:02:17.353059+00:00"
       }
     },
     "2120:3:2": {
@@ -181691,5 +181692,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:02:13.406475+00:00"
+  "updated_at": "2026-11-02T19:02:17.353074+00:00"
 }
