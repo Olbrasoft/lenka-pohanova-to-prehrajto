@@ -182100,12 +182100,6 @@
     },
     "2120:5:2": {
       "episode_key": "všechny velké a malé bytosti:s5:e2",
-      "claim": {
-        "worker_id": "bbc1ea7b45554e4bb4e5d0578e2bcbbe-worker-0",
-        "run_id": "41481046744",
-        "claimed_at": "2026-11-02T19:24:35.813869+00:00",
-        "lease_expires_at": "2026-11-03T01:24:35.813879+00:00"
-      },
       "source": {
         "source_id": "30102025",
         "source_url": "https://sdilej.cz/30102025/vsechny-velke-a-male-bytosti-s05e02-cz-dite-v-naruci-.mkv",
@@ -182130,15 +182124,22 @@
         "display_name": "All Creatures Great & Small S05E02 Holding the Baby 1080p CZ Dabing",
         "prepared_at": "2026-11-02T19:24:46.339389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30740380",
-        "size_bytes": 1032263850
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30740380",
+          "size_bytes": 1032263850,
+          "source_bytes_read": 1032263850,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30102025",
+        "source_url": "https://sdilej.cz/30102025/vsechny-velke-a-male-bytosti-s05e02-cz-dite-v-naruci-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30740380",
-        "size_bytes": 1032263850,
-        "source_bytes_read": 1032263850,
-        "http_status": 201
+        "display_name": "All Creatures Great & Small S05E02 Holding the Baby 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T19:26:48.086311+00:00"
       }
     },
     "2120:5:1": {
@@ -182184,5 +182185,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T19:26:43.536482+00:00"
+  "updated_at": "2026-11-02T19:26:48.086327+00:00"
 }
