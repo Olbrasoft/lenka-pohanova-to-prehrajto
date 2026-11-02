@@ -187997,12 +187997,6 @@
     },
     "3128:4:9": {
       "episode_key": "sněží!:s4:e9",
-      "claim": {
-        "worker_id": "21829ff029384dec98a71d0c64c55267-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T22:36:48.057974+00:00",
-        "lease_expires_at": "2026-11-03T04:36:48.057984+00:00"
-      },
       "source": {
         "source_id": "28328065",
         "source_url": "https://sdilej.cz/28328065/snezi-s04e09-mrtvy-brouk.mkv",
@@ -188027,15 +188021,22 @@
         "display_name": "Snowfall S04E09 Sleeping Dogs 1080p CZ Dabing",
         "prepared_at": "2026-11-02T22:36:53.961608+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30743790",
-        "size_bytes": 2640126138
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30743790",
+          "size_bytes": 2640126138,
+          "source_bytes_read": 2640126138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28328065",
+        "source_url": "https://sdilej.cz/28328065/snezi-s04e09-mrtvy-brouk.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30743790",
-        "size_bytes": 2640126138,
-        "source_bytes_read": 2640126138,
-        "http_status": 201
+        "display_name": "Snowfall S04E09 Sleeping Dogs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T22:41:15.960782+00:00"
       }
     }
   },
@@ -188044,5 +188045,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T22:41:10.829130+00:00"
+  "updated_at": "2026-11-02T22:41:15.960798+00:00"
 }
