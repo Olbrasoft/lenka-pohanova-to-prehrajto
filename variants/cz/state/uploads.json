@@ -153624,12 +153624,6 @@
     },
     "1103:1:25": {
       "episode_key": "zpátky do školy:s1:e25",
-      "claim": {
-        "worker_id": "ee62b3d657294f7982d233cfbb9c0ecf-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T02:00:18.349253+00:00",
-        "lease_expires_at": "2026-11-02T08:00:18.349264+00:00"
-      },
       "source": {
         "source_id": "22738053",
         "source_url": "https://sdilej.cz/22738053/zpatky-do-skoly-s01e25-pascaluv-trojuhelnik-znovuobjeveny-1080p.bdrip.cz.en-mla.mkv",
@@ -153654,15 +153648,22 @@
         "display_name": "Community S01E25 Pascal's Triangle Revisited 1080p CZ Dabing",
         "prepared_at": "2026-11-02T02:00:20.472435+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30713105",
-        "size_bytes": 707228766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30713105",
+          "size_bytes": 707228766,
+          "source_bytes_read": 707228766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22738053",
+        "source_url": "https://sdilej.cz/22738053/zpatky-do-skoly-s01e25-pascaluv-trojuhelnik-znovuobjeveny-1080p.bdrip.cz.en-mla.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30713105",
-        "size_bytes": 707228766,
-        "source_bytes_read": 707228766,
-        "http_status": 201
+        "display_name": "Community S01E25 Pascal's Triangle Revisited 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T02:01:28.929581+00:00"
       }
     },
     "1103:2:1": {
@@ -153745,5 +153746,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T02:01:25.064690+00:00"
+  "updated_at": "2026-11-02T02:01:28.929596+00:00"
 }
