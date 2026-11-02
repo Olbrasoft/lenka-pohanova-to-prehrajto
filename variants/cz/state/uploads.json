@@ -172491,12 +172491,6 @@
     },
     "108:4:13": {
       "episode_key": "m a s h:s4:e13",
-      "claim": {
-        "worker_id": "a20c7f2a788946e79d2a98801140d342-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T13:54:57.330487+00:00",
-        "lease_expires_at": "2026-11-02T19:54:57.330498+00:00"
-      },
       "source": {
         "source_id": "27546172",
         "source_url": "https://sdilej.cz/27546172/m.a.s.h-s04e13-cz.mkv",
@@ -172521,15 +172515,22 @@
         "display_name": "M*A*S*H S04E13 The Gun 1080p CZ Dabing",
         "prepared_at": "2026-11-02T13:55:03.946464+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733123",
-        "size_bytes": 805958536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733123",
+          "size_bytes": 805958536,
+          "source_bytes_read": 805958536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27546172",
+        "source_url": "https://sdilej.cz/27546172/m.a.s.h-s04e13-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733123",
-        "size_bytes": 805958536,
-        "source_bytes_read": 805958536,
-        "http_status": 201
+        "display_name": "M*A*S*H S04E13 The Gun 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T13:57:48.770256+00:00"
       }
     },
     "108:4:15": {
@@ -172756,5 +172757,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T13:57:46.711071+00:00"
+  "updated_at": "2026-11-02T13:57:48.770274+00:00"
 }
