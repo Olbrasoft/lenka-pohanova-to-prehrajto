@@ -160620,12 +160620,6 @@
     },
     "567:3:1": {
       "episode_key": "lovci zločinců:s3:e1",
-      "claim": {
-        "worker_id": "49e5b63be2eb4e5b819493ce1dcd974a-worker-0",
-        "run_id": "41377633638",
-        "claimed_at": "2026-11-02T06:11:02.716536+00:00",
-        "lease_expires_at": "2026-11-02T12:11:02.716545+00:00"
-      },
       "source": {
         "source_id": "32300311",
         "source_url": "https://sdilej.cz/32300311/lovci-zlocincu-s03e01-cz-dabing.mkv",
@@ -160650,15 +160644,22 @@
         "display_name": "Person of Interest S03E01 Liberty 1080p CZ Dabing",
         "prepared_at": "2026-11-02T06:11:07.296056+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30718667",
-        "size_bytes": 771867483
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30718667",
+          "size_bytes": 771867483,
+          "source_bytes_read": 771867483,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32300311",
+        "source_url": "https://sdilej.cz/32300311/lovci-zlocincu-s03e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30718667",
-        "size_bytes": 771867483,
-        "source_bytes_read": 771867483,
-        "http_status": 201
+        "display_name": "Person of Interest S03E01 Liberty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T06:12:23.979005+00:00"
       }
     },
     "567:3:2": {
@@ -160741,5 +160742,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T06:12:17.756435+00:00"
+  "updated_at": "2026-11-02T06:12:23.979019+00:00"
 }
