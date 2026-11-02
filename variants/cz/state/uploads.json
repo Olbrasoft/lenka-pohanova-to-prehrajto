@@ -173591,12 +173591,6 @@
     },
     "108:6:10": {
       "episode_key": "m a s h:s6:e10",
-      "claim": {
-        "worker_id": "1c17de4eea8e40e990a8c0755f2133a1-worker-0",
-        "run_id": "41452423717",
-        "claimed_at": "2026-11-02T14:09:14.826807+00:00",
-        "lease_expires_at": "2026-11-02T20:09:14.826818+00:00"
-      },
       "source": {
         "source_id": "34978834",
         "source_url": "https://sdilej.cz/34978834/m.a.s.h-s06e10-tetovany.mkv",
@@ -173621,15 +173615,22 @@
         "display_name": "M*A*S*H S06E10 The M*A*S*H Olympics 1080p CZ Dabing",
         "prepared_at": "2026-11-02T14:09:17.647756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30733468",
-        "size_bytes": 763480472
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30733468",
+          "size_bytes": 763480472,
+          "source_bytes_read": 763480472,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34978834",
+        "source_url": "https://sdilej.cz/34978834/m.a.s.h-s06e10-tetovany.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30733468",
-        "size_bytes": 763480472,
-        "source_bytes_read": 763480472,
-        "http_status": 201
+        "display_name": "M*A*S*H S06E10 The M*A*S*H Olympics 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T14:11:02.615444+00:00"
       }
     },
     "108:6:11": {
@@ -173756,5 +173757,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T14:10:57.163514+00:00"
+  "updated_at": "2026-11-02T14:11:02.615460+00:00"
 }
