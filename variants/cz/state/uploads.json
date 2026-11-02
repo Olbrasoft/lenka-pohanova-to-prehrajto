@@ -186515,12 +186515,6 @@
     },
     "1064:4:20": {
       "episode_key": "kauzy z bostonu:s4:e20",
-      "claim": {
-        "worker_id": "7a8c494556724dd8bb62b89b8a972ea8-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-02T21:17:33.014101+00:00",
-        "lease_expires_at": "2026-11-03T03:17:33.014110+00:00"
-      },
       "source": {
         "source_id": "30246701",
         "source_url": "https://sdilej.cz/30246701/boston-legal-kauzy-z-bostonu-s04e20-czdab.mp4",
@@ -186545,15 +186539,22 @@
         "display_name": "Boston Legal S04E20 Patriot Acts SD CZ Dabing",
         "prepared_at": "2026-11-02T21:17:38.572086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30742500",
-        "size_bytes": 493712186
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30742500",
+          "size_bytes": 493712186,
+          "source_bytes_read": 493712186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30246701",
+        "source_url": "https://sdilej.cz/30246701/boston-legal-kauzy-z-bostonu-s04e20-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30742500",
-        "size_bytes": 493712186,
-        "source_bytes_read": 493712186,
-        "http_status": 201
+        "display_name": "Boston Legal S04E20 Patriot Acts SD CZ Dabing",
+        "uploaded_at": "2026-11-02T21:18:33.472648+00:00"
       }
     }
   },
@@ -186562,5 +186563,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T21:18:28.580367+00:00"
+  "updated_at": "2026-11-02T21:18:33.472670+00:00"
 }
