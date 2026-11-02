@@ -153008,12 +153008,6 @@
     },
     "1103:1:10": {
       "episode_key": "zpátky do školy:s1:e10",
-      "claim": {
-        "worker_id": "f72e25ff3bde4e33a9e22cb3c27d1f0a-worker-0",
-        "run_id": "41361708972",
-        "claimed_at": "2026-11-02T01:54:16.770341+00:00",
-        "lease_expires_at": "2026-11-02T07:54:16.770353+00:00"
-      },
       "source": {
         "source_id": "34816319",
         "source_url": "https://sdilej.cz/34816319/zpatky-do-skoly-s01e10-25-2009-cz-dabing-1080p-fhd-ekologie.mkv",
@@ -153038,15 +153032,22 @@
         "display_name": "Community S01E10 Environmental Science 1080p CZ Dabing",
         "prepared_at": "2026-11-02T01:54:19.018866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30712917",
-        "size_bytes": 716857663
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30712917",
+          "size_bytes": 716857663,
+          "source_bytes_read": 716857663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34816319",
+        "source_url": "https://sdilej.cz/34816319/zpatky-do-skoly-s01e10-25-2009-cz-dabing-1080p-fhd-ekologie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30712917",
-        "size_bytes": 716857663,
-        "source_bytes_read": 716857663,
-        "http_status": 201
+        "display_name": "Community S01E10 Environmental Science 1080p CZ Dabing",
+        "uploaded_at": "2026-11-02T01:55:54.783212+00:00"
       }
     },
     "1103:1:11": {
@@ -153136,5 +153137,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-02T01:55:49.854247+00:00"
+  "updated_at": "2026-11-02T01:55:54.783226+00:00"
 }
