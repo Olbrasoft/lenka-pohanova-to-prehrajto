@@ -202255,12 +202255,6 @@
     },
     "53:4:5": {
       "episode_key": "ozark:s4:e5",
-      "claim": {
-        "worker_id": "2b0a9b7095c74396b2dcf7031f5c53d3-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T07:36:23.827576+00:00",
-        "lease_expires_at": "2026-11-03T13:36:23.827588+00:00"
-      },
       "source": {
         "source_id": "24815895",
         "source_url": "https://sdilej.cz/24815895/ozark-s04e05-cz-dabing.mkv",
@@ -202285,15 +202279,22 @@
         "display_name": "Ozark S04E05 Ellie 1080p CZ Dabing",
         "prepared_at": "2026-11-03T07:36:26.107116+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755491",
-        "size_bytes": 2028988389
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755491",
+          "size_bytes": 2028988389,
+          "source_bytes_read": 2028988389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24815895",
+        "source_url": "https://sdilej.cz/24815895/ozark-s04e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755491",
-        "size_bytes": 2028988389,
-        "source_bytes_read": 2028988389,
-        "http_status": 201
+        "display_name": "Ozark S04E05 Ellie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T07:42:50.054908+00:00"
       }
     }
   },
@@ -202302,5 +202303,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T07:42:46.495149+00:00"
+  "updated_at": "2026-11-03T07:42:50.054927+00:00"
 }
