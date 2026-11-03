@@ -199358,12 +199358,6 @@
     },
     "1054:5:8": {
       "episode_key": "brooklyn 99:s5:e8",
-      "claim": {
-        "worker_id": "dde709491cf94cb5baee93762c83c93c-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:10:15.861967+00:00",
-        "lease_expires_at": "2026-11-03T12:10:15.861977+00:00"
-      },
       "source": {
         "source_id": "29567522",
         "source_url": "https://sdilej.cz/29567522/brooklyn-nine-nine-s05e08-1080p-cz.x265.mkv",
@@ -199388,15 +199382,22 @@
         "display_name": "Brooklyn Nine-Nine S05E08 Return to Skyfire 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:10:22.427802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754163",
-        "size_bytes": 152597641
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754163",
+          "size_bytes": 152597641,
+          "source_bytes_read": 152597641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567522",
+        "source_url": "https://sdilej.cz/29567522/brooklyn-nine-nine-s05e08-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754163",
-        "size_bytes": 152597641,
-        "source_bytes_read": 152597641,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E08 Return to Skyfire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:10:49.741410+00:00"
       }
     },
     "1054:5:9": {
@@ -199448,5 +199449,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:10:47.837629+00:00"
+  "updated_at": "2026-11-03T06:10:49.741427+00:00"
 }
