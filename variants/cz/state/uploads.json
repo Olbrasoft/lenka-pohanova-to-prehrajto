@@ -211326,12 +211326,6 @@
     },
     "144:2:1": {
       "episode_key": "love, death & robots:s2:e1",
-      "claim": {
-        "worker_id": "6ca8a2ed7e93475c9b4b78e891e56228-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:29:14.187152+00:00",
-        "lease_expires_at": "2026-11-03T20:29:14.187168+00:00"
-      },
       "source": {
         "source_id": "21519990",
         "source_url": "https://sdilej.cz/21519990/love.death.-.robots.s02e01.mkv",
@@ -211356,15 +211350,22 @@
         "display_name": "Love, Death & Robots S02E01 Automated Customer Service 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:29:16.956492+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764008",
-        "size_bytes": 312279296
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764008",
+          "size_bytes": 312279296,
+          "source_bytes_read": 312279296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21519990",
+        "source_url": "https://sdilej.cz/21519990/love.death.-.robots.s02e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764008",
-        "size_bytes": 312279296,
-        "source_bytes_read": 312279296,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S02E01 Automated Customer Service 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:30:05.130012+00:00"
       }
     },
     "144:2:2": {
@@ -211443,5 +211444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:30:02.532579+00:00"
+  "updated_at": "2026-11-03T14:30:05.130027+00:00"
 }
