@@ -201192,12 +201192,6 @@
     },
     "53:1:10": {
       "episode_key": "ozark:s1:e10",
-      "claim": {
-        "worker_id": "7f6b7204563e4b5c9fe971cebcb56b7e-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:47:48.226737+00:00",
-        "lease_expires_at": "2026-11-03T12:47:48.226746+00:00"
-      },
       "source": {
         "source_id": "33753783",
         "source_url": "https://sdilej.cz/33753783/ozark-2018-s01e10-czdab.1080p-zlate-pobrezi.mkv",
@@ -201222,15 +201216,22 @@
         "display_name": "Ozark S01E10 The Toll 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:47:50.643564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754719",
-        "size_bytes": 1308459622
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754719",
+          "size_bytes": 1308459622,
+          "source_bytes_read": 1308459622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33753783",
+        "source_url": "https://sdilej.cz/33753783/ozark-2018-s01e10-czdab.1080p-zlate-pobrezi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754719",
-        "size_bytes": 1308459622,
-        "source_bytes_read": 1308459622,
-        "http_status": 201
+        "display_name": "Ozark S01E10 The Toll 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:50:09.064138+00:00"
       }
     }
   },
@@ -201239,5 +201240,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:50:04.142788+00:00"
+  "updated_at": "2026-11-03T06:50:09.064155+00:00"
 }
