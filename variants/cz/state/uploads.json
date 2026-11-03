@@ -200678,12 +200678,6 @@
     },
     "1054:6:16": {
       "episode_key": "brooklyn 99:s6:e16",
-      "claim": {
-        "worker_id": "c93237309a38498d95bb2260f73bdf98-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:33:26.911258+00:00",
-        "lease_expires_at": "2026-11-03T12:33:26.911270+00:00"
-      },
       "source": {
         "source_id": "29567558",
         "source_url": "https://sdilej.cz/29567558/brooklyn-nine-nine-s06e16-1080p-cz.x265.mkv",
@@ -200708,15 +200702,22 @@
         "display_name": "Brooklyn Nine-Nine S06E16 Cinco de Mayo 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:33:31.141022+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754543",
-        "size_bytes": 169941110
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754543",
+          "size_bytes": 169941110,
+          "source_bytes_read": 169941110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567558",
+        "source_url": "https://sdilej.cz/29567558/brooklyn-nine-nine-s06e16-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754543",
-        "size_bytes": 169941110,
-        "source_bytes_read": 169941110,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E16 Cinco de Mayo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:34:06.664488+00:00"
       }
     },
     "1054:6:17": {
@@ -200762,5 +200763,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:34:04.676243+00:00"
+  "updated_at": "2026-11-03T06:34:06.664503+00:00"
 }
