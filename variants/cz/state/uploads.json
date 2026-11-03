@@ -208855,12 +208855,6 @@
     },
     "46:4:9": {
       "episode_key": "hranice nemožného:s4:e9",
-      "claim": {
-        "worker_id": "d565458eaf0a4473b169d763af0b626f-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:32:36.192534+00:00",
-        "lease_expires_at": "2026-11-03T18:32:36.192548+00:00"
-      },
       "source": {
         "source_id": "27775348",
         "source_url": "https://sdilej.cz/27775348/hranice-nemozneho-s04e09-nepritel-meho-nepritele.mkv",
@@ -208885,15 +208879,22 @@
         "display_name": "Fringe S04E09 Enemy of My Enemy 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:32:41.698155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760892",
-        "size_bytes": 939086339
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760892",
+          "size_bytes": 939086339,
+          "source_bytes_read": 939086339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27775348",
+        "source_url": "https://sdilej.cz/27775348/hranice-nemozneho-s04e09-nepritel-meho-nepritele.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760892",
-        "size_bytes": 939086339,
-        "source_bytes_read": 939086339,
-        "http_status": 201
+        "display_name": "Fringe S04E09 Enemy of My Enemy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:36:15.810970+00:00"
       }
     },
     "46:4:10": {
@@ -208939,5 +208940,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:36:10.910307+00:00"
+  "updated_at": "2026-11-03T12:36:15.810988+00:00"
 }
