@@ -191484,12 +191484,6 @@
     },
     "50:2:4": {
       "episode_key": "westworld:s2:e4",
-      "claim": {
-        "worker_id": "5837d3ab95ea4d43a4be0bd5e1a387a7-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:39:00.422545+00:00",
-        "lease_expires_at": "2026-11-03T07:39:00.422560+00:00"
-      },
       "source": {
         "source_id": "28641985",
         "source_url": "https://sdilej.cz/28641985/westworld-s02e04.mkv",
@@ -191514,15 +191508,22 @@
         "display_name": "Westworld S02E04 The Riddle of the Sphinx 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:39:03.204190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30747266",
-        "size_bytes": 2223745542
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30747266",
+          "size_bytes": 2223745542,
+          "source_bytes_read": 2223745542,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28641985",
+        "source_url": "https://sdilej.cz/28641985/westworld-s02e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30747266",
-        "size_bytes": 2223745542,
-        "source_bytes_read": 2223745542,
-        "http_status": 201
+        "display_name": "Westworld S02E04 The Riddle of the Sphinx 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:43:31.889706+00:00"
       }
     },
     "50:2:5": {
@@ -191575,5 +191576,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:43:29.979386+00:00"
+  "updated_at": "2026-11-03T01:43:31.889723+00:00"
 }
