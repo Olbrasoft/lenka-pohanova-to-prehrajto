@@ -205819,12 +205819,6 @@
     },
     "46:1:6": {
       "episode_key": "hranice nemožného:s1:e6",
-      "claim": {
-        "worker_id": "bf2cc089cd124d5bbe3734a97b030069-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:24:09.692803+00:00",
-        "lease_expires_at": "2026-11-03T16:24:09.692816+00:00"
-      },
       "source": {
         "source_id": "27770893",
         "source_url": "https://sdilej.cz/27770893/hranice-nemozneho-s01e06-lek-serial-cz-dabing-.mkv",
@@ -205849,15 +205843,22 @@
         "display_name": "Fringe S01E06 The Cure 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:24:12.322769+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758780",
-        "size_bytes": 1036993902
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758780",
+          "size_bytes": 1036993902,
+          "source_bytes_read": 1036993902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27770893",
+        "source_url": "https://sdilej.cz/27770893/hranice-nemozneho-s01e06-lek-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758780",
-        "size_bytes": 1036993902,
-        "source_bytes_read": 1036993902,
-        "http_status": 201
+        "display_name": "Fringe S01E06 The Cure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:27:05.618786+00:00"
       }
     },
     "46:1:7": {
@@ -205910,5 +205911,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:27:03.590333+00:00"
+  "updated_at": "2026-11-03T10:27:05.618805+00:00"
 }
