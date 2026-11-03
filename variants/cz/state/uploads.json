@@ -211671,12 +211671,6 @@
     },
     "144:3:1": {
       "episode_key": "love, death & robots:s3:e1",
-      "claim": {
-        "worker_id": "0b827efdcd8c401195f241f676a87e81-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:38:13.590001+00:00",
-        "lease_expires_at": "2026-11-03T20:38:13.590015+00:00"
-      },
       "source": {
         "source_id": "27595810",
         "source_url": "https://sdilej.cz/27595810/love-death-robots-s03e01-tri-roboti-strategie-uniku.mkv",
@@ -211701,15 +211695,22 @@
         "display_name": "Love, Death & Robots S03E01 Three Robots: Exit Strategies 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:38:18.528747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764369",
-        "size_bytes": 180592423
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764369",
+          "size_bytes": 180592423,
+          "source_bytes_read": 180592423,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27595810",
+        "source_url": "https://sdilej.cz/27595810/love-death-robots-s03e01-tri-roboti-strategie-uniku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764369",
-        "size_bytes": 180592423,
-        "source_bytes_read": 180592423,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S03E01 Three Robots: Exit Strategies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:38:50.968788+00:00"
       }
     },
     "144:3:2": {
@@ -211754,5 +211755,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:38:48.212519+00:00"
+  "updated_at": "2026-11-03T14:38:50.968803+00:00"
 }
