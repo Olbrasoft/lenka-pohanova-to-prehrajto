@@ -209082,12 +209082,6 @@
     },
     "46:4:14": {
       "episode_key": "hranice nemožného:s4:e14",
-      "claim": {
-        "worker_id": "680ec96710f642779302db9a507e259d-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:51:32.044064+00:00",
-        "lease_expires_at": "2026-11-03T18:51:32.044081+00:00"
-      },
       "source": {
         "source_id": "32819962",
         "source_url": "https://sdilej.cz/32819962/hranice-nemozneho-s04e14-konec-sveta.mkv",
@@ -209112,15 +209106,22 @@
         "display_name": "Fringe S04E14 The End of All Things 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:51:39.708754+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30761143",
-        "size_bytes": 930108936
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30761143",
+          "size_bytes": 930108936,
+          "source_bytes_read": 930108936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32819962",
+        "source_url": "https://sdilej.cz/32819962/hranice-nemozneho-s04e14-konec-sveta.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30761143",
-        "size_bytes": 930108936,
-        "source_bytes_read": 930108936,
-        "http_status": 201
+        "display_name": "Fringe S04E14 The End of All Things 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:52:50.613568+00:00"
       }
     }
   },
@@ -209129,5 +209130,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:52:45.208611+00:00"
+  "updated_at": "2026-11-03T12:52:50.613584+00:00"
 }
