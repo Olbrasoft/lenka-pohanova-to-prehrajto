@@ -199942,12 +199942,6 @@
     },
     "1054:5:21": {
       "episode_key": "brooklyn 99:s5:e21",
-      "claim": {
-        "worker_id": "cad2ac78e13249309f3c5f6244555ad8-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:19:00.350740+00:00",
-        "lease_expires_at": "2026-11-03T12:19:00.350750+00:00"
-      },
       "source": {
         "source_id": "29567537",
         "source_url": "https://sdilej.cz/29567537/brooklyn-nine-nine-s05e21-1080p-cz.x265.mkv",
@@ -199972,15 +199966,22 @@
         "display_name": "Brooklyn Nine-Nine S05E21 White Whale 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:19:06.391697+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754351",
-        "size_bytes": 172569592
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754351",
+          "size_bytes": 172569592,
+          "source_bytes_read": 172569592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567537",
+        "source_url": "https://sdilej.cz/29567537/brooklyn-nine-nine-s05e21-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754351",
-        "size_bytes": 172569592,
-        "source_bytes_read": 172569592,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E21 White Whale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:19:36.244697+00:00"
       }
     }
   },
@@ -199989,5 +199990,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:19:33.287874+00:00"
+  "updated_at": "2026-11-03T06:19:36.244715+00:00"
 }
