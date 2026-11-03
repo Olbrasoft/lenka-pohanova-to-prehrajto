@@ -203098,12 +203098,6 @@
     },
     "2889:9:1": {
       "episode_key": "jak funguje vesmír:s9:e1",
-      "claim": {
-        "worker_id": "ff2b65282e8b4e928fd2d21d523e0f67-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T08:47:58.617727+00:00",
-        "lease_expires_at": "2026-11-03T14:47:58.617743+00:00"
-      },
       "source": {
         "source_id": "34453486",
         "source_url": "https://sdilej.cz/34453486/how-the-universe-works-s09e01-cesta-do-ciernej-diery.mkv",
@@ -203128,15 +203122,22 @@
         "display_name": "How the Universe Works S09E01 Journey to a Black Hole 720p CZ Dabing",
         "prepared_at": "2026-11-03T08:48:01.153718+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30756430",
-        "size_bytes": 2123278089
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30756430",
+          "size_bytes": 2123278089,
+          "source_bytes_read": 2123278089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34453486",
+        "source_url": "https://sdilej.cz/34453486/how-the-universe-works-s09e01-cesta-do-ciernej-diery.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30756430",
-        "size_bytes": 2123278089,
-        "source_bytes_read": 2123278089,
-        "http_status": 201
+        "display_name": "How the Universe Works S09E01 Journey to a Black Hole 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T08:51:39.500707+00:00"
       }
     },
     "2889:9:2": {
@@ -203189,5 +203190,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T08:51:35.460072+00:00"
+  "updated_at": "2026-11-03T08:51:39.500729+00:00"
 }
