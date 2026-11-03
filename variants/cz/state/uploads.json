@@ -190553,12 +190553,6 @@
     },
     "93:1:8": {
       "episode_key": "the last of us:s1:e8",
-      "claim": {
-        "worker_id": "4cff8ae673bc44f799e74860a755d442-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T00:31:11.901388+00:00",
-        "lease_expires_at": "2026-11-03T06:31:11.901400+00:00"
-      },
       "source": {
         "source_id": "34526719",
         "source_url": "https://sdilej.cz/34526719/the-last-of-us-s01e08-cz-dabing-2160p-uhd.mkv",
@@ -190583,15 +190577,22 @@
         "display_name": "The Last of Us S01E08 When We Are in Need 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:31:21.118562+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745964",
-        "size_bytes": 2279060195
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745964",
+          "size_bytes": 2279060195,
+          "source_bytes_read": 2279060195,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34526719",
+        "source_url": "https://sdilej.cz/34526719/the-last-of-us-s01e08-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745964",
-        "size_bytes": 2279060195,
-        "source_bytes_read": 2279060195,
-        "http_status": 201
+        "display_name": "The Last of Us S01E08 When We Are in Need 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:35:14.637177+00:00"
       }
     },
     "93:2:1": {
@@ -190637,5 +190638,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:35:09.008136+00:00"
+  "updated_at": "2026-11-03T00:35:14.637195+00:00"
 }
