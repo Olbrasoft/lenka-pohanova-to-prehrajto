@@ -202664,12 +202664,6 @@
     },
     "53:4:14": {
       "episode_key": "ozark:s4:e14",
-      "claim": {
-        "worker_id": "c1219ab104b743eba4dff676f96c7ec3-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T08:06:01.609222+00:00",
-        "lease_expires_at": "2026-11-03T14:06:01.609236+00:00"
-      },
       "source": {
         "source_id": "32711694",
         "source_url": "https://sdilej.cz/32711694/ozark-s04e14-cz-dabing.mkv",
@@ -202694,15 +202688,22 @@
         "display_name": "Ozark S04E14 A Hard Way to Go 1080p CZ Dabing",
         "prepared_at": "2026-11-03T08:06:06.176207+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755954",
-        "size_bytes": 1408227942
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755954",
+          "size_bytes": 1408227942,
+          "source_bytes_read": 1408227942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711694",
+        "source_url": "https://sdilej.cz/32711694/ozark-s04e14-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755954",
-        "size_bytes": 1408227942,
-        "source_bytes_read": 1408227942,
-        "http_status": 201
+        "display_name": "Ozark S04E14 A Hard Way to Go 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T08:09:20.681310+00:00"
       }
     }
   },
@@ -202711,5 +202712,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T08:09:15.651277+00:00"
+  "updated_at": "2026-11-03T08:09:20.681335+00:00"
 }
