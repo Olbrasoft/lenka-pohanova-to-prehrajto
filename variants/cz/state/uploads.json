@@ -200590,12 +200590,6 @@
     },
     "1054:6:14": {
       "episode_key": "brooklyn 99:s6:e14",
-      "claim": {
-        "worker_id": "37782b403f11427f9e97fdd0093618cb-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:33:00.675098+00:00",
-        "lease_expires_at": "2026-11-03T12:33:00.675111+00:00"
-      },
       "source": {
         "source_id": "29567556",
         "source_url": "https://sdilej.cz/29567556/brooklyn-nine-nine-s06e14-1080p-cz.x265.mkv",
@@ -200620,15 +200614,22 @@
         "display_name": "Brooklyn Nine-Nine S06E14 Ticking Clocks 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:33:03.030504+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754537",
-        "size_bytes": 157002985
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754537",
+          "size_bytes": 157002985,
+          "source_bytes_read": 157002985,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567556",
+        "source_url": "https://sdilej.cz/29567556/brooklyn-nine-nine-s06e14-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754537",
-        "size_bytes": 157002985,
-        "source_bytes_read": 157002985,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E14 Ticking Clocks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:33:35.246186+00:00"
       }
     },
     "1054:6:15": {
@@ -200703,5 +200704,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:33:33.210588+00:00"
+  "updated_at": "2026-11-03T06:33:35.246201+00:00"
 }
