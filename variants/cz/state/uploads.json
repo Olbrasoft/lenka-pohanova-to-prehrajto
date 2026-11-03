@@ -192232,12 +192232,6 @@
     },
     "50:4:3": {
       "episode_key": "westworld:s4:e3",
-      "claim": {
-        "worker_id": "1d69a15d2d7e407094c2550ca3063eb3-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:38:02.195164+00:00",
-        "lease_expires_at": "2026-11-03T08:38:02.195175+00:00"
-      },
       "source": {
         "source_id": "32021250",
         "source_url": "https://sdilej.cz/32021250/westworld-s04e03-annees-folles.mkv",
@@ -192262,15 +192256,22 @@
         "display_name": "Westworld S04E03 Années Folles 4K CZ Dabing",
         "prepared_at": "2026-11-03T02:38:08.785498+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748632",
-        "size_bytes": 2424150662
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748632",
+          "size_bytes": 2424150662,
+          "source_bytes_read": 2424150662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32021250",
+        "source_url": "https://sdilej.cz/32021250/westworld-s04e03-annees-folles.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748632",
-        "size_bytes": 2424150662,
-        "source_bytes_read": 2424150662,
-        "http_status": 201
+        "display_name": "Westworld S04E03 Années Folles 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T02:43:51.002303+00:00"
       }
     },
     "50:4:4": {
@@ -192397,5 +192398,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:43:44.589125+00:00"
+  "updated_at": "2026-11-03T02:43:51.002319+00:00"
 }
