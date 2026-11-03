@@ -197686,12 +197686,6 @@
     },
     "1054:3:15": {
       "episode_key": "brooklyn 99:s3:e15",
-      "claim": {
-        "worker_id": "b150f3aaefd44e8aa0d97d2be99afb23-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:54:38.983472+00:00",
-        "lease_expires_at": "2026-11-03T11:54:38.983484+00:00"
-      },
       "source": {
         "source_id": "34860247",
         "source_url": "https://sdilej.cz/34860247/brooklyn-99-s03e15-23-2015-cz-dabing-404p-sd-devadesat-osmicka.avi",
@@ -197716,15 +197710,22 @@
         "display_name": "Brooklyn Nine-Nine S03E15 The 9-8 SD CZ Dabing",
         "prepared_at": "2026-11-03T05:54:41.545040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753794",
-        "size_bytes": 336559626
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753794",
+          "size_bytes": 336559626,
+          "source_bytes_read": 336559626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860247",
+        "source_url": "https://sdilej.cz/34860247/brooklyn-99-s03e15-23-2015-cz-dabing-404p-sd-devadesat-osmicka.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753794",
-        "size_bytes": 336559626,
-        "source_bytes_read": 336559626,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E15 The 9-8 SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:55:22.950872+00:00"
       }
     },
     "1054:3:16": {
@@ -197770,5 +197771,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:55:21.058549+00:00"
+  "updated_at": "2026-11-03T05:55:22.950889+00:00"
 }
