@@ -191622,12 +191622,6 @@
     },
     "50:2:7": {
       "episode_key": "westworld:s2:e7",
-      "claim": {
-        "worker_id": "1e9f7878e11142f3869b7f31ea7e70cd-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:46:51.763560+00:00",
-        "lease_expires_at": "2026-11-03T07:46:51.763570+00:00"
-      },
       "source": {
         "source_id": "28642179",
         "source_url": "https://sdilej.cz/28642179/westworld-s02e07.mkv",
@@ -191652,15 +191646,22 @@
         "display_name": "Westworld S02E07 Les Écorchés 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:46:57.946748+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30747412",
-        "size_bytes": 1839967851
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30747412",
+          "size_bytes": 1839967851,
+          "source_bytes_read": 1839967851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28642179",
+        "source_url": "https://sdilej.cz/28642179/westworld-s02e07.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30747412",
-        "size_bytes": 1839967851,
-        "source_bytes_read": 1839967851,
-        "http_status": 201
+        "display_name": "Westworld S02E07 Les Écorchés 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:51:00.775947+00:00"
       }
     },
     "50:2:8": {
@@ -191722,5 +191723,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:50:58.598430+00:00"
+  "updated_at": "2026-11-03T01:51:00.775963+00:00"
 }
