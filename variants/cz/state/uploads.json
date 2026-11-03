@@ -191000,12 +191000,6 @@
     },
     "50:1:3": {
       "episode_key": "westworld:s1:e3",
-      "claim": {
-        "worker_id": "7c3d278a781e4052811b906867176c22-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:17:43.828573+00:00",
-        "lease_expires_at": "2026-11-03T07:17:43.828584+00:00"
-      },
       "source": {
         "source_id": "28627124",
         "source_url": "https://sdilej.cz/28627124/westworld-s01e03.mkv",
@@ -191030,15 +191024,22 @@
         "display_name": "Westworld S01E03 The Stray 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:17:50.884072+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30746887",
-        "size_bytes": 1838204635
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30746887",
+          "size_bytes": 1838204635,
+          "source_bytes_read": 1838204635,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28627124",
+        "source_url": "https://sdilej.cz/28627124/westworld-s01e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30746887",
-        "size_bytes": 1838204635,
-        "source_bytes_read": 1838204635,
-        "http_status": 201
+        "display_name": "Westworld S01E03 The Stray 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:21:52.461135+00:00"
       }
     },
     "50:1:5": {
@@ -191165,5 +191166,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:21:46.322158+00:00"
+  "updated_at": "2026-11-03T01:21:52.461153+00:00"
 }
