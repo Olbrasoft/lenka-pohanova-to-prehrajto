@@ -197466,12 +197466,6 @@
     },
     "1054:3:10": {
       "episode_key": "brooklyn 99:s3:e10",
-      "claim": {
-        "worker_id": "85e05816ff394671b1edcfcca59a9929-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:53:16.772565+00:00",
-        "lease_expires_at": "2026-11-03T11:53:16.772576+00:00"
-      },
       "source": {
         "source_id": "24761216",
         "source_url": "https://sdilej.cz/24761216/brooklyn-99-s03e10-yippie-kayak.avi",
@@ -197496,15 +197490,22 @@
         "display_name": "Brooklyn Nine-Nine S03E10 Yippie Kayak SD CZ Dabing",
         "prepared_at": "2026-11-03T05:53:23.288988+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753761",
-        "size_bytes": 333175380
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753761",
+          "size_bytes": 333175380,
+          "source_bytes_read": 333175380,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24761216",
+        "source_url": "https://sdilej.cz/24761216/brooklyn-99-s03e10-yippie-kayak.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753761",
-        "size_bytes": 333175380,
-        "source_bytes_read": 333175380,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E10 Yippie Kayak SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:54:03.090811+00:00"
       }
     },
     "1054:3:11": {
@@ -197587,5 +197588,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:53:58.900819+00:00"
+  "updated_at": "2026-11-03T05:54:03.090828+00:00"
 }
