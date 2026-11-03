@@ -209295,12 +209295,6 @@
     },
     "46:4:19": {
       "episode_key": "hranice nemožného:s4:e19",
-      "claim": {
-        "worker_id": "5de5354504e94786b477c21822692bdd-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:57:05.268292+00:00",
-        "lease_expires_at": "2026-11-03T18:57:05.268307+00:00"
-      },
       "source": {
         "source_id": "32820042",
         "source_url": "https://sdilej.cz/32820042/hranice-nemozneho-s04e19-cestovni-povoleni.mkv",
@@ -209325,15 +209319,22 @@
         "display_name": "Fringe S04E19 Letters of Transit 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:57:13.203383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30761249",
-        "size_bytes": 929831732
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30761249",
+          "size_bytes": 929831732,
+          "source_bytes_read": 929831732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32820042",
+        "source_url": "https://sdilej.cz/32820042/hranice-nemozneho-s04e19-cestovni-povoleni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30761249",
-        "size_bytes": 929831732,
-        "source_bytes_read": 929831732,
-        "http_status": 201
+        "display_name": "Fringe S04E19 Letters of Transit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:58:27.319939+00:00"
       }
     }
   },
@@ -209342,5 +209343,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:58:21.732565+00:00"
+  "updated_at": "2026-11-03T12:58:27.319956+00:00"
 }
