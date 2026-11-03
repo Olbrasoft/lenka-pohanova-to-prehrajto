@@ -210886,12 +210886,6 @@
     },
     "144:1:9": {
       "episode_key": "love, death & robots:s1:e9",
-      "claim": {
-        "worker_id": "bac598216d514a41a95b6218f2b2df1b-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:24:57.120515+00:00",
-        "lease_expires_at": "2026-11-03T20:24:57.120531+00:00"
-      },
       "source": {
         "source_id": "34119520",
         "source_url": "https://sdilej.cz/34119520/love-death-robots-s01e09-cz-dab-rebelant.mkv",
@@ -210916,15 +210910,22 @@
         "display_name": "Love, Death & Robots S01E09 THE DUMP 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:25:01.642740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30763834",
-        "size_bytes": 137813059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30763834",
+          "size_bytes": 137813059,
+          "source_bytes_read": 137813059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34119520",
+        "source_url": "https://sdilej.cz/34119520/love-death-robots-s01e09-cz-dab-rebelant.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30763834",
-        "size_bytes": 137813059,
-        "source_bytes_read": 137813059,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S01E09 THE DUMP 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:25:38.205759+00:00"
       }
     },
     "144:1:10": {
@@ -210969,5 +210970,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:25:34.435436+00:00"
+  "updated_at": "2026-11-03T14:25:38.205776+00:00"
 }
