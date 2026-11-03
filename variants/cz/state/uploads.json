@@ -192885,12 +192885,6 @@
     },
     "1076:1:11": {
       "episode_key": "kravaťáci:s1:e11",
-      "claim": {
-        "worker_id": "3e48e6a05b5b40ab9f21cb609590e1f8-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:59:53.142776+00:00",
-        "lease_expires_at": "2026-11-03T08:59:53.142788+00:00"
-      },
       "source": {
         "source_id": "22309809",
         "source_url": "https://sdilej.cz/22309809/kravataci-s01e11-czdab.mp4",
@@ -192915,15 +192909,22 @@
         "display_name": "Suits S01E11 Rules of the Game SD CZ Dabing",
         "prepared_at": "2026-11-03T02:59:55.869733+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30749448",
-        "size_bytes": 419212434
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30749448",
+          "size_bytes": 419212434,
+          "source_bytes_read": 419212434,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22309809",
+        "source_url": "https://sdilej.cz/22309809/kravataci-s01e11-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30749448",
-        "size_bytes": 419212434,
-        "source_bytes_read": 419212434,
-        "http_status": 201
+        "display_name": "Suits S01E11 Rules of the Game SD CZ Dabing",
+        "uploaded_at": "2026-11-03T03:00:46.709095+00:00"
       }
     },
     "1076:1:12": {
@@ -192969,5 +192970,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T03:00:42.316439+00:00"
+  "updated_at": "2026-11-03T03:00:46.709114+00:00"
 }
