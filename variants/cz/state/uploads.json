@@ -196014,12 +196014,6 @@
     },
     "1054:1:22": {
       "episode_key": "brooklyn 99:s1:e22",
-      "claim": {
-        "worker_id": "05a4ad09ee5a40d591b43565a9052cfe-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:34:21.634919+00:00",
-        "lease_expires_at": "2026-11-03T11:34:21.634929+00:00"
-      },
       "source": {
         "source_id": "29567435",
         "source_url": "https://sdilej.cz/29567435/brooklyn-nine-nine-s01e22-1080p-cz.x265.mkv",
@@ -196044,15 +196038,22 @@
         "display_name": "Brooklyn Nine-Nine S01E22 Charges and Specs 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:34:24.077145+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753341",
-        "size_bytes": 138510780
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753341",
+          "size_bytes": 138510780,
+          "source_bytes_read": 138510780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567435",
+        "source_url": "https://sdilej.cz/29567435/brooklyn-nine-nine-s01e22-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753341",
-        "size_bytes": 138510780,
-        "source_bytes_read": 138510780,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E22 Charges and Specs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:34:50.761440+00:00"
       }
     },
     "1054:2:1": {
@@ -196098,5 +196099,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:34:46.886759+00:00"
+  "updated_at": "2026-11-03T05:34:50.761460+00:00"
 }
