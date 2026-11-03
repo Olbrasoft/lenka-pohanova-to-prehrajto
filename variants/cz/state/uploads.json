@@ -207013,12 +207013,6 @@
     },
     "46:2:12": {
       "episode_key": "hranice nemožného:s2:e12",
-      "claim": {
-        "worker_id": "404b32ad7d0742e29005431c18d87f37-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:25:39.972636+00:00",
-        "lease_expires_at": "2026-11-03T17:25:39.972656+00:00"
-      },
       "source": {
         "source_id": "32818692",
         "source_url": "https://sdilej.cz/32818692/hranice-nemozneho-s02e12-johariho-okno.mkv",
@@ -207043,15 +207037,22 @@
         "display_name": "Fringe S02E12 Johari Window 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:25:46.008383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759895",
-        "size_bytes": 934661811
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759895",
+          "size_bytes": 934661811,
+          "source_bytes_read": 934661811,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32818692",
+        "source_url": "https://sdilej.cz/32818692/hranice-nemozneho-s02e12-johariho-okno.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759895",
-        "size_bytes": 934661811,
-        "source_bytes_read": 934661811,
-        "http_status": 201
+        "display_name": "Fringe S02E12 Johari Window 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:27:17.511178+00:00"
       }
     },
     "46:2:13": {
@@ -207097,5 +207098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:27:15.401419+00:00"
+  "updated_at": "2026-11-03T11:27:17.511220+00:00"
 }
