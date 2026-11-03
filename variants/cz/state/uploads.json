@@ -205562,12 +205562,6 @@
     },
     "3595:3:7": {
       "episode_key": "stíny:s3:e7",
-      "claim": {
-        "worker_id": "5a9474559e5749e786eedc073bddb4a6-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:19:18.125933+00:00",
-        "lease_expires_at": "2026-11-03T16:19:18.125945+00:00"
-      },
       "source": {
         "source_id": "12796445",
         "source_url": "https://sdilej.cz/12796445/stiny-s03e07-cz-dabing-2-.avi",
@@ -205592,15 +205586,22 @@
         "display_name": "Shadows S03E07 Honeyann SD CZ Dabing",
         "prepared_at": "2026-11-03T10:19:20.521961+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758706",
-        "size_bytes": 648026316
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758706",
+          "size_bytes": 648026316,
+          "source_bytes_read": 648026316,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12796445",
+        "source_url": "https://sdilej.cz/12796445/stiny-s03e07-cz-dabing-2-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758706",
-        "size_bytes": 648026316,
-        "source_bytes_read": 648026316,
-        "http_status": 201
+        "display_name": "Shadows S03E07 Honeyann SD CZ Dabing",
+        "uploaded_at": "2026-11-03T10:20:24.035064+00:00"
       }
     },
     "46:1:1": {
@@ -205683,5 +205684,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:20:19.982081+00:00"
+  "updated_at": "2026-11-03T10:20:24.035084+00:00"
 }
