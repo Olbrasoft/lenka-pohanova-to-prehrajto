@@ -204631,12 +204631,6 @@
     },
     "2413:5:2": {
       "episode_key": "policajti z l. a.:s5:e2",
-      "claim": {
-        "worker_id": "6a96683983bf43808b506807b73373a8-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:48:38.496495+00:00",
-        "lease_expires_at": "2026-11-03T15:48:38.496510+00:00"
-      },
       "source": {
         "source_id": "27646937",
         "source_url": "https://sdilej.cz/27646937/policajti-z-l.-a.-s05e02-cz.mkv",
@@ -204661,15 +204655,22 @@
         "display_name": "Southland S05E02 Heat 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:48:43.069619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758216",
-        "size_bytes": 687672699
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758216",
+          "size_bytes": 687672699,
+          "source_bytes_read": 687672699,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646937",
+        "source_url": "https://sdilej.cz/27646937/policajti-z-l.-a.-s05e02-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758216",
-        "size_bytes": 687672699,
-        "source_bytes_read": 687672699,
-        "http_status": 201
+        "display_name": "Southland S05E02 Heat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:50:43.885444+00:00"
       }
     },
     "2413:5:3": {
@@ -204715,5 +204716,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:50:38.645365+00:00"
+  "updated_at": "2026-11-03T09:50:43.885465+00:00"
 }
