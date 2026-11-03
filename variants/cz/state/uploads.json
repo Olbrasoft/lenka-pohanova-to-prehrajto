@@ -199270,12 +199270,6 @@
     },
     "1054:5:6": {
       "episode_key": "brooklyn 99:s5:e6",
-      "claim": {
-        "worker_id": "c761f9f0dc1d4cbc8872328c5c8e8c1c-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:09:25.299821+00:00",
-        "lease_expires_at": "2026-11-03T12:09:25.299833+00:00"
-      },
       "source": {
         "source_id": "29567518",
         "source_url": "https://sdilej.cz/29567518/brooklyn-nine-nine-s05e06-1080p-cz.x265.mkv",
@@ -199300,15 +199294,22 @@
         "display_name": "Brooklyn Nine-Nine S05E06 The Venue 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:09:31.049380+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754147",
-        "size_bytes": 169933829
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754147",
+          "size_bytes": 169933829,
+          "source_bytes_read": 169933829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567518",
+        "source_url": "https://sdilej.cz/29567518/brooklyn-nine-nine-s05e06-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754147",
-        "size_bytes": 169933829,
-        "source_bytes_read": 169933829,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E06 The Venue 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:10:09.620685+00:00"
       }
     },
     "1054:5:7": {
@@ -199354,5 +199355,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:10:06.953214+00:00"
+  "updated_at": "2026-11-03T06:10:09.620699+00:00"
 }
