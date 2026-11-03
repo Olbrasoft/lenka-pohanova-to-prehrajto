@@ -210533,12 +210533,6 @@
     },
     "144:1:1": {
       "episode_key": "love, death & robots:s1:e1",
-      "claim": {
-        "worker_id": "ef6799e7083542ecb525acecb87a5f72-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:21:58.509989+00:00",
-        "lease_expires_at": "2026-11-03T20:21:58.510002+00:00"
-      },
       "source": {
         "source_id": "33172919",
         "source_url": "https://sdilej.cz/33172919/love-death-robots-s01e01-18-2019-cz-dab-1080p-na-sonnie-si-neprijdete.mkv",
@@ -210563,15 +210557,22 @@
         "display_name": "Love, Death & Robots S01E01 SONNIE'S EDGE 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:22:01.201406+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30763731",
-        "size_bytes": 226202339
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30763731",
+          "size_bytes": 226202339,
+          "source_bytes_read": 226202339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33172919",
+        "source_url": "https://sdilej.cz/33172919/love-death-robots-s01e01-18-2019-cz-dab-1080p-na-sonnie-si-neprijdete.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30763731",
-        "size_bytes": 226202339,
-        "source_bytes_read": 226202339,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S01E01 SONNIE'S EDGE 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:22:44.820632+00:00"
       }
     },
     "144:1:2": {
@@ -210616,5 +210617,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:22:40.893257+00:00"
+  "updated_at": "2026-11-03T14:22:44.820647+00:00"
 }
