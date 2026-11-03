@@ -200238,12 +200238,6 @@
     },
     "1054:6:6": {
       "episode_key": "brooklyn 99:s6:e6",
-      "claim": {
-        "worker_id": "8d3cc044546046a8a2da8bedbc99e6b7-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:30:42.841900+00:00",
-        "lease_expires_at": "2026-11-03T12:30:42.841910+00:00"
-      },
       "source": {
         "source_id": "29567545",
         "source_url": "https://sdilej.cz/29567545/brooklyn-nine-nine-s06e06-1080p-cz.x265.mkv",
@@ -200268,15 +200262,22 @@
         "display_name": "Brooklyn Nine-Nine S06E06 The Crime Scene 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:30:47.394643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754509",
-        "size_bytes": 124734586
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754509",
+          "size_bytes": 124734586,
+          "source_bytes_read": 124734586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567545",
+        "source_url": "https://sdilej.cz/29567545/brooklyn-nine-nine-s06e06-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754509",
-        "size_bytes": 124734586,
-        "source_bytes_read": 124734586,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E06 The Crime Scene 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:31:18.427510+00:00"
       }
     },
     "1054:6:7": {
@@ -200294,5 +200295,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:31:16.342263+00:00"
+  "updated_at": "2026-11-03T06:31:18.427526+00:00"
 }
