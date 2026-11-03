@@ -205172,12 +205172,6 @@
     },
     "3595:1:4": {
       "episode_key": "stíny:s1:e4",
-      "claim": {
-        "worker_id": "ab375b32dfe74e96b5fa005dca1026f3-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:07:59.934041+00:00",
-        "lease_expires_at": "2026-11-03T16:07:59.934055+00:00"
-      },
       "source": {
         "source_id": "34736593",
         "source_url": "https://sdilej.cz/34736593/stiny-s01e04-06-2023-cz-dab-1080p-vina.mp4",
@@ -205202,15 +205196,22 @@
         "display_name": "Shadows S01E04 The Waiting Room 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:08:02.330131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758529",
-        "size_bytes": 979607034
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758529",
+          "size_bytes": 979607034,
+          "source_bytes_read": 979607034,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34736593",
+        "source_url": "https://sdilej.cz/34736593/stiny-s01e04-06-2023-cz-dab-1080p-vina.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758529",
-        "size_bytes": 979607034,
-        "source_bytes_read": 979607034,
-        "http_status": 201
+        "display_name": "Shadows S01E04 The Waiting Room 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:11:21.878698+00:00"
       }
     },
     "3595:1:5": {
@@ -205256,5 +205257,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:11:17.094244+00:00"
+  "updated_at": "2026-11-03T10:11:21.878719+00:00"
 }
