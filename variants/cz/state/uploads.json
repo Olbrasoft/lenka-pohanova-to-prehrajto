@@ -209126,12 +209126,6 @@
     },
     "46:4:15": {
       "episode_key": "hranice nemožného:s4:e15",
-      "claim": {
-        "worker_id": "6db6fb80a58d4caf8292e0a75482935b-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:53:00.643763+00:00",
-        "lease_expires_at": "2026-11-03T18:53:00.643776+00:00"
-      },
       "source": {
         "source_id": "32819972",
         "source_url": "https://sdilej.cz/32819972/hranice-nemozneho-s04e15-povidka-o-lasce.mkv",
@@ -209156,15 +209150,22 @@
         "display_name": "Fringe S04E15 A Short Story About Love 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:53:05.937024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30761167",
-        "size_bytes": 947337791
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30761167",
+          "size_bytes": 947337791,
+          "source_bytes_read": 947337791,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32819972",
+        "source_url": "https://sdilej.cz/32819972/hranice-nemozneho-s04e15-povidka-o-lasce.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30761167",
-        "size_bytes": 947337791,
-        "source_bytes_read": 947337791,
-        "http_status": 201
+        "display_name": "Fringe S04E15 A Short Story About Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:54:31.086879+00:00"
       }
     },
     "46:4:16": {
@@ -209210,5 +209211,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:54:29.035593+00:00"
+  "updated_at": "2026-11-03T12:54:31.086899+00:00"
 }
