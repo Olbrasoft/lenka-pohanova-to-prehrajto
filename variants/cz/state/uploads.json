@@ -213042,12 +213042,6 @@
     },
     "2216:1:8": {
       "episode_key": "vincentův svět:s1:e8",
-      "claim": {
-        "worker_id": "f2428f5f03b74dafa86860d5a7c6ba20-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T17:32:18.102813+00:00",
-        "lease_expires_at": "2026-11-03T23:32:18.102825+00:00"
-      },
       "source": {
         "source_id": "34455307",
         "source_url": "https://sdilej.cz/34455307/vincentuv-svet-s01e08-08-2004-cz-dab-1080p-new-york.mkv",
@@ -213072,15 +213066,22 @@
         "display_name": "Entourage S01E08 New York 1080p CZ Dabing",
         "prepared_at": "2026-11-03T17:32:42.609419+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30769696",
-        "size_bytes": 2380396946
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30769696",
+          "size_bytes": 2380396946,
+          "source_bytes_read": 2380396946,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34455307",
+        "source_url": "https://sdilej.cz/34455307/vincentuv-svet-s01e08-08-2004-cz-dab-1080p-new-york.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30769696",
-        "size_bytes": 2380396946,
-        "source_bytes_read": 2380396946,
-        "http_status": 201
+        "display_name": "Entourage S01E08 New York 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T17:43:38.193157+00:00"
       }
     },
     "2216:2:2": {
@@ -213177,5 +213178,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T17:43:25.396973+00:00"
+  "updated_at": "2026-11-03T17:43:38.193174+00:00"
 }
