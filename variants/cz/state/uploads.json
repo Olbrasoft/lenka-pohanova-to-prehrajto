@@ -193400,12 +193400,6 @@
         }
       ],
       "episode_key": "kravaťáci:s2:e10",
-      "claim": {
-        "worker_id": "7829ad6781144e22bca370bb4657c7b7-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T04:41:57.671084+00:00",
-        "lease_expires_at": "2026-11-03T10:41:57.671097+00:00"
-      },
       "source": {
         "source_id": "6535956",
         "source_url": "https://sdilej.cz/6535956/kravataci.s02e10.v.posledni.chvili.mkv",
@@ -193430,15 +193424,22 @@
         "display_name": "Suits S02E10 High Noon 720p CZ Dabing",
         "prepared_at": "2026-11-03T04:42:00.243458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752505",
-        "size_bytes": 1535002188
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752505",
+          "size_bytes": 1535002188,
+          "source_bytes_read": 1535002188,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6535956",
+        "source_url": "https://sdilej.cz/6535956/kravataci.s02e10.v.posledni.chvili.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752505",
-        "size_bytes": 1535002188,
-        "source_bytes_read": 1535002188,
-        "http_status": 201
+        "display_name": "Suits S02E10 High Noon 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T04:44:45.050625+00:00"
       }
     },
     "1076:2:11": {
@@ -193541,5 +193542,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T04:44:40.985051+00:00"
+  "updated_at": "2026-11-03T04:44:45.050644+00:00"
 }
