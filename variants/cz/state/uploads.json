@@ -195486,12 +195486,6 @@
     },
     "1054:1:10": {
       "episode_key": "brooklyn 99:s1:e10",
-      "claim": {
-        "worker_id": "086e49540e8a4c62873873194d5b5a25-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:30:24.540687+00:00",
-        "lease_expires_at": "2026-11-03T11:30:24.540701+00:00"
-      },
       "source": {
         "source_id": "29567412",
         "source_url": "https://sdilej.cz/29567412/brooklyn-nine-nine-s01e10-1080p-cz.x265.mkv",
@@ -195516,15 +195510,22 @@
         "display_name": "Brooklyn Nine-Nine S01E10 Thanksgiving 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:30:28.915231+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753237",
-        "size_bytes": 167271112
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753237",
+          "size_bytes": 167271112,
+          "source_bytes_read": 167271112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567412",
+        "source_url": "https://sdilej.cz/29567412/brooklyn-nine-nine-s01e10-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753237",
-        "size_bytes": 167271112,
-        "source_bytes_read": 167271112,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E10 Thanksgiving 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:30:58.350937+00:00"
       }
     },
     "1054:1:11": {
@@ -195607,5 +195608,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:30:55.357952+00:00"
+  "updated_at": "2026-11-03T05:30:58.350966+00:00"
 }
