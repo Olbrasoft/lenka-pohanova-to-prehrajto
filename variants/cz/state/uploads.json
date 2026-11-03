@@ -200414,12 +200414,6 @@
     },
     "1054:6:10": {
       "episode_key": "brooklyn 99:s6:e10",
-      "claim": {
-        "worker_id": "80d403ad904f4d4f8a47a1c804858ea7-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:31:57.997996+00:00",
-        "lease_expires_at": "2026-11-03T12:31:57.998008+00:00"
-      },
       "source": {
         "source_id": "34860349",
         "source_url": "https://sdilej.cz/34860349/brooklyn-99-s06e10-18-2019-cz-dabing-404p-sd-gintars.avi",
@@ -200444,15 +200438,22 @@
         "display_name": "Brooklyn Nine-Nine S06E10 Gintars SD CZ Dabing",
         "prepared_at": "2026-11-03T06:32:04.540423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754527",
-        "size_bytes": 175253326
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754527",
+          "size_bytes": 175253326,
+          "source_bytes_read": 175253326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860349",
+        "source_url": "https://sdilej.cz/34860349/brooklyn-99-s06e10-18-2019-cz-dabing-404p-sd-gintars.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754527",
-        "size_bytes": 175253326,
-        "source_bytes_read": 175253326,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E10 Gintars SD CZ Dabing",
+        "uploaded_at": "2026-11-03T06:32:32.242283+00:00"
       }
     },
     "1054:6:11": {
@@ -200498,5 +200499,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:32:29.449210+00:00"
+  "updated_at": "2026-11-03T06:32:32.242300+00:00"
 }
