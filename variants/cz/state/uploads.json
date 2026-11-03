@@ -212690,12 +212690,6 @@
     },
     "3251:1:7": {
       "episode_key": "mare z easttownu:s1:e7",
-      "claim": {
-        "worker_id": "1aebbefd85c04b69a02968c15c5ca440-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T16:18:54.345842+00:00",
-        "lease_expires_at": "2026-11-03T22:18:54.345854+00:00"
-      },
       "source": {
         "source_id": "29367855",
         "source_url": "https://sdilej.cz/29367855/mare-z-easttownu-mare-of-easttown-s01e07-2160p-dd-5.1-hdr-cz-dabing.mkv",
@@ -212720,15 +212714,22 @@
         "display_name": "Mare of Easttown S01E07 Sacrament 4K CZ Dabing",
         "prepared_at": "2026-11-03T16:18:59.083131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30767524",
-        "size_bytes": 10884538296
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30767524",
+          "size_bytes": 10884538296,
+          "source_bytes_read": 10884538296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367855",
+        "source_url": "https://sdilej.cz/29367855/mare-z-easttownu-mare-of-easttown-s01e07-2160p-dd-5.1-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30767524",
-        "size_bytes": 10884538296,
-        "source_bytes_read": 10884538296,
-        "http_status": 201
+        "display_name": "Mare of Easttown S01E07 Sacrament 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T16:50:33.227160+00:00"
       }
     },
     "2090:1:6": {
@@ -212825,5 +212826,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T16:50:27.345019+00:00"
+  "updated_at": "2026-11-03T16:50:33.227181+00:00"
 }
