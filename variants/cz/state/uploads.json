@@ -209170,12 +209170,6 @@
     },
     "46:4:16": {
       "episode_key": "hranice nemožného:s4:e16",
-      "claim": {
-        "worker_id": "55b65341018a4ad4a865c3b45db0c75b-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:53:14.134158+00:00",
-        "lease_expires_at": "2026-11-03T18:53:14.134172+00:00"
-      },
       "source": {
         "source_id": "32819984",
         "source_url": "https://sdilej.cz/32819984/hranice-nemozneho-s04e16-nic-neni-jak-se-zda.mkv",
@@ -209200,15 +209194,22 @@
         "display_name": "Fringe S04E16 Nothing As It Seems 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:53:20.292187+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30761171",
-        "size_bytes": 939053399
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30761171",
+          "size_bytes": 939053399,
+          "source_bytes_read": 939053399,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32819984",
+        "source_url": "https://sdilej.cz/32819984/hranice-nemozneho-s04e16-nic-neni-jak-se-zda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30761171",
-        "size_bytes": 939053399,
-        "source_bytes_read": 939053399,
-        "http_status": 201
+        "display_name": "Fringe S04E16 Nothing As It Seems 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:54:50.999984+00:00"
       }
     }
   },
@@ -209217,5 +209218,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:54:48.873906+00:00"
+  "updated_at": "2026-11-03T12:54:51.000001+00:00"
 }
