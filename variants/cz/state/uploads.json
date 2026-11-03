@@ -195228,12 +195228,6 @@
     },
     "1054:1:4": {
       "episode_key": "brooklyn 99:s1:e4",
-      "claim": {
-        "worker_id": "9c861bdf40f14ab899f67bd680ee9a95-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:27:48.627147+00:00",
-        "lease_expires_at": "2026-11-03T11:27:48.627162+00:00"
-      },
       "source": {
         "source_id": "29567388",
         "source_url": "https://sdilej.cz/29567388/brooklyn-nine-nine-s01e04-1080p-cz.x265.mkv",
@@ -195258,15 +195252,22 @@
         "display_name": "Brooklyn Nine-Nine S01E04 M.E. Time 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:27:52.953087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753167",
-        "size_bytes": 145027584
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753167",
+          "size_bytes": 145027584,
+          "source_bytes_read": 145027584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567388",
+        "source_url": "https://sdilej.cz/29567388/brooklyn-nine-nine-s01e04-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753167",
-        "size_bytes": 145027584,
-        "source_bytes_read": 145027584,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E04 M.E. Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:28:26.517339+00:00"
       }
     }
   },
@@ -195275,5 +195276,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:28:24.523477+00:00"
+  "updated_at": "2026-11-03T05:28:26.517356+00:00"
 }
