@@ -204492,12 +204492,6 @@
     },
     "2413:4:9": {
       "episode_key": "policajti z l. a.:s4:e9",
-      "claim": {
-        "worker_id": "4e95118d9454439f99d3d30de6009171-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:45:31.288801+00:00",
-        "lease_expires_at": "2026-11-03T15:45:31.288810+00:00"
-      },
       "source": {
         "source_id": "28557944",
         "source_url": "https://sdilej.cz/28557944/policajti-z-l.-a.-s04e09-cz.mkv",
@@ -204522,15 +204516,22 @@
         "display_name": "Southland S04E09 Risk SD CZ Dabing",
         "prepared_at": "2026-11-03T09:45:37.147062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758152",
-        "size_bytes": 476668090
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758152",
+          "size_bytes": 476668090,
+          "source_bytes_read": 476668090,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28557944",
+        "source_url": "https://sdilej.cz/28557944/policajti-z-l.-a.-s04e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758152",
-        "size_bytes": 476668090,
-        "source_bytes_read": 476668090,
-        "http_status": 201
+        "display_name": "Southland S04E09 Risk SD CZ Dabing",
+        "uploaded_at": "2026-11-03T09:47:20.854815+00:00"
       }
     }
   },
@@ -204539,5 +204540,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:47:15.979105+00:00"
+  "updated_at": "2026-11-03T09:47:20.854836+00:00"
 }
