@@ -193983,12 +193983,6 @@
     },
     "1076:3:8": {
       "episode_key": "kravaťáci:s3:e8",
-      "claim": {
-        "worker_id": "33f8dccc39c64ca2bd308257854be90f-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T04:55:32.990055+00:00",
-        "lease_expires_at": "2026-11-03T10:55:32.990063+00:00"
-      },
       "source": {
         "source_id": "17634810",
         "source_url": "https://sdilej.cz/17634810/kravataci-suits-s03e08-cz-dabing-hd.mkv",
@@ -194013,15 +194007,22 @@
         "display_name": "Suits S03E08 Endgame 720p CZ Dabing",
         "prepared_at": "2026-11-03T04:55:38.292113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752700",
-        "size_bytes": 1511025127
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752700",
+          "size_bytes": 1511025127,
+          "source_bytes_read": 1511025127,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17634810",
+        "source_url": "https://sdilej.cz/17634810/kravataci-suits-s03e08-cz-dabing-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752700",
-        "size_bytes": 1511025127,
-        "source_bytes_read": 1511025127,
-        "http_status": 201
+        "display_name": "Suits S03E08 Endgame 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T04:57:44.944809+00:00"
       }
     },
     "1076:3:9": {
@@ -194067,5 +194068,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T04:57:40.304730+00:00"
+  "updated_at": "2026-11-03T04:57:44.944826+00:00"
 }
