@@ -198038,12 +198038,6 @@
     },
     "1054:3:23": {
       "episode_key": "brooklyn 99:s3:e23",
-      "claim": {
-        "worker_id": "39cbb26656744aac98e178bd541e2f74-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:58:29.902925+00:00",
-        "lease_expires_at": "2026-11-03T11:58:29.902937+00:00"
-      },
       "source": {
         "source_id": "33381668",
         "source_url": "https://sdilej.cz/33381668/brooklyn-99-s03e23-23-2015-cz-dab-420p-greg-a-larry.avi",
@@ -198068,15 +198062,22 @@
         "display_name": "Brooklyn Nine-Nine S03E23 Greg and Larry SD CZ Dabing",
         "prepared_at": "2026-11-03T05:58:32.451566+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753876",
-        "size_bytes": 255583042
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753876",
+          "size_bytes": 255583042,
+          "source_bytes_read": 255583042,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33381668",
+        "source_url": "https://sdilej.cz/33381668/brooklyn-99-s03e23-23-2015-cz-dab-420p-greg-a-larry.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753876",
-        "size_bytes": 255583042,
-        "source_bytes_read": 255583042,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E23 Greg and Larry SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:59:16.798037+00:00"
       }
     },
     "1054:4:1": {
@@ -198165,5 +198166,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:59:14.927272+00:00"
+  "updated_at": "2026-11-03T05:59:16.798054+00:00"
 }
