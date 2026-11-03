@@ -206530,12 +206530,6 @@
     },
     "46:2:1": {
       "episode_key": "hranice nemožného:s2:e1",
-      "claim": {
-        "worker_id": "719e72587de341c4ab4b6f60654050bd-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T11:08:59.781162+00:00",
-        "lease_expires_at": "2026-11-03T17:08:59.781173+00:00"
-      },
       "source": {
         "source_id": "27771721",
         "source_url": "https://sdilej.cz/27771721/hranice-nemozneho-s02e01-novy-den-ve-starem-meste-serial-cz-dabing-.mkv",
@@ -206560,15 +206554,22 @@
         "display_name": "Fringe S02E01 A New Day in the Old Town 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:09:04.129797+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759633",
-        "size_bytes": 905744363
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759633",
+          "size_bytes": 905744363,
+          "source_bytes_read": 905744363,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27771721",
+        "source_url": "https://sdilej.cz/27771721/hranice-nemozneho-s02e01-novy-den-ve-starem-meste-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759633",
-        "size_bytes": 905744363,
-        "source_bytes_read": 905744363,
-        "http_status": 201
+        "display_name": "Fringe S02E01 A New Day in the Old Town 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:11:20.140290+00:00"
       }
     },
     "46:2:2": {
@@ -206651,5 +206652,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:11:14.178338+00:00"
+  "updated_at": "2026-11-03T11:11:20.140312+00:00"
 }
