@@ -200062,12 +200062,6 @@
     },
     "1054:6:2": {
       "episode_key": "brooklyn 99:s6:e2",
-      "claim": {
-        "worker_id": "67142f1160434ab08e45a04aa5683680-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:29:17.687692+00:00",
-        "lease_expires_at": "2026-11-03T12:29:17.687701+00:00"
-      },
       "source": {
         "source_id": "29567539",
         "source_url": "https://sdilej.cz/29567539/brooklyn-nine-nine-s06e02-1080p-cz.x265.mkv",
@@ -200092,15 +200086,22 @@
         "display_name": "Brooklyn Nine-Nine S06E02 Hitchcock & Scully 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:29:22.812713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754497",
-        "size_bytes": 154661815
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754497",
+          "size_bytes": 154661815,
+          "source_bytes_read": 154661815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567539",
+        "source_url": "https://sdilej.cz/29567539/brooklyn-nine-nine-s06e02-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754497",
-        "size_bytes": 154661815,
-        "source_bytes_read": 154661815,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E02 Hitchcock & Scully 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:29:59.861432+00:00"
       }
     },
     "1054:6:3": {
@@ -200145,5 +200146,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:29:57.521066+00:00"
+  "updated_at": "2026-11-03T06:29:59.861447+00:00"
 }
