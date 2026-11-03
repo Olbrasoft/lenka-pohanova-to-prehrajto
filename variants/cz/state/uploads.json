@@ -196938,12 +196938,6 @@
     },
     "1054:2:21": {
       "episode_key": "brooklyn 99:s2:e21",
-      "claim": {
-        "worker_id": "14eb9b053aaa4d5ab03ad1f8cc992238-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:47:32.925563+00:00",
-        "lease_expires_at": "2026-11-03T11:47:32.925576+00:00"
-      },
       "source": {
         "source_id": "29567461",
         "source_url": "https://sdilej.cz/29567461/brooklyn-nine-nine-s02e21-1080p-cz.x265.mkv",
@@ -196968,15 +196962,22 @@
         "display_name": "Brooklyn Nine-Nine S02E21 Det. Dave Majors 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:47:40.983883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753631",
-        "size_bytes": 163063489
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753631",
+          "size_bytes": 163063489,
+          "source_bytes_read": 163063489,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567461",
+        "source_url": "https://sdilej.cz/29567461/brooklyn-nine-nine-s02e21-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753631",
-        "size_bytes": 163063489,
-        "source_bytes_read": 163063489,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E21 Det. Dave Majors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:48:15.432856+00:00"
       }
     }
   },
@@ -196985,5 +196986,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:48:13.340976+00:00"
+  "updated_at": "2026-11-03T05:48:15.432875+00:00"
 }
