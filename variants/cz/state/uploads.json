@@ -207586,12 +207586,6 @@
     },
     "46:3:2": {
       "episode_key": "hranice nemožného:s3:e2",
-      "claim": {
-        "worker_id": "7220767884714448812ea8c93b386e28-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:55:13.825050+00:00",
-        "lease_expires_at": "2026-11-03T17:55:13.825064+00:00"
-      },
       "source": {
         "source_id": "32820143",
         "source_url": "https://sdilej.cz/32820143/hranice-nemozneho-s03e02-kufrik.mkv",
@@ -207616,15 +207610,22 @@
         "display_name": "Fringe S03E02 The Box 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:55:16.273257+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760312",
-        "size_bytes": 939520633
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760312",
+          "size_bytes": 939520633,
+          "source_bytes_read": 939520633,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32820143",
+        "source_url": "https://sdilej.cz/32820143/hranice-nemozneho-s03e02-kufrik.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760312",
-        "size_bytes": 939520633,
-        "source_bytes_read": 939520633,
-        "http_status": 201
+        "display_name": "Fringe S03E02 The Box 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:57:53.259014+00:00"
       }
     },
     "46:3:3": {
@@ -207707,5 +207708,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:57:47.593932+00:00"
+  "updated_at": "2026-11-03T11:57:53.259032+00:00"
 }
