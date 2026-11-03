@@ -196359,12 +196359,6 @@
     },
     "1054:2:7": {
       "episode_key": "brooklyn 99:s2:e7",
-      "claim": {
-        "worker_id": "f950da5d886344db8b8bbdeca151a873-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:43:34.360764+00:00",
-        "lease_expires_at": "2026-11-03T11:43:34.360777+00:00"
-      },
       "source": {
         "source_id": "29567443",
         "source_url": "https://sdilej.cz/29567443/brooklyn-nine-nine-s02e07-1080p-cz.x265.mkv",
@@ -196389,15 +196383,22 @@
         "display_name": "Brooklyn Nine-Nine S02E07 Lockdown 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:43:36.943960+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753530",
-        "size_bytes": 168475547
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753530",
+          "size_bytes": 168475547,
+          "source_bytes_read": 168475547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567443",
+        "source_url": "https://sdilej.cz/29567443/brooklyn-nine-nine-s02e07-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753530",
-        "size_bytes": 168475547,
-        "source_bytes_read": 168475547,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E07 Lockdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:44:06.235577+00:00"
       }
     }
   },
@@ -196406,5 +196407,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:44:01.841465+00:00"
+  "updated_at": "2026-11-03T05:44:06.235598+00:00"
 }
