@@ -191308,12 +191308,6 @@
     },
     "50:1:10": {
       "episode_key": "westworld:s1:e10",
-      "claim": {
-        "worker_id": "43b66f6fc9e1497aa030fa5f4d07bb92-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:32:34.853268+00:00",
-        "lease_expires_at": "2026-11-03T07:32:34.853277+00:00"
-      },
       "source": {
         "source_id": "32021034",
         "source_url": "https://sdilej.cz/32021034/westworld-s01e10-bikameralni-mysl.mkv",
@@ -191338,15 +191332,22 @@
         "display_name": "Westworld S01E10 The Bicameral Mind 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:32:38.946829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30747175",
-        "size_bytes": 4225179715
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30747175",
+          "size_bytes": 4225179715,
+          "source_bytes_read": 4225179715,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32021034",
+        "source_url": "https://sdilej.cz/32021034/westworld-s01e10-bikameralni-mysl.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30747175",
-        "size_bytes": 4225179715,
-        "source_bytes_read": 4225179715,
-        "http_status": 201
+        "display_name": "Westworld S01E10 The Bicameral Mind 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:40:12.726254+00:00"
       }
     },
     "50:2:1": {
@@ -191517,5 +191518,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:40:07.344169+00:00"
+  "updated_at": "2026-11-03T01:40:12.726272+00:00"
 }
