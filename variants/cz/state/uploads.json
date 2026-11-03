@@ -215424,12 +215424,6 @@
     },
     "823:1:7": {
       "episode_key": "star wars: maul - pán stínů:s1:e7",
-      "claim": {
-        "worker_id": "27fe30770a63403c8ec7d3f2dada3b89-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:56:20.674800+00:00",
-        "lease_expires_at": "2026-11-04T05:56:20.674809+00:00"
-      },
       "source": {
         "source_id": "34088903",
         "source_url": "https://sdilej.cz/34088903/star-wars-maul-pan-stinu-s01e07-kapitola-7-hlas-zapomneni-cz-dabing-1080p-h264.mkv",
@@ -215454,15 +215448,22 @@
         "display_name": "Star Wars: Maul - Shadow Lord S01E07 Chapter 7: Call to Oblivion 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:56:23.323964+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775334",
-        "size_bytes": 735305104
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775334",
+          "size_bytes": 735305104,
+          "source_bytes_read": 735305104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34088903",
+        "source_url": "https://sdilej.cz/34088903/star-wars-maul-pan-stinu-s01e07-kapitola-7-hlas-zapomneni-cz-dabing-1080p-h264.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775334",
-        "size_bytes": 735305104,
-        "source_bytes_read": 735305104,
-        "http_status": 201
+        "display_name": "Star Wars: Maul - Shadow Lord S01E07 Chapter 7: Call to Oblivion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:57:52.490179+00:00"
       }
     },
     "823:1:8": {
@@ -215508,5 +215509,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:57:50.381722+00:00"
+  "updated_at": "2026-11-03T23:57:52.490193+00:00"
 }
