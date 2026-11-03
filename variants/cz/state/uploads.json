@@ -203670,12 +203670,6 @@
     },
     "2413:1:6": {
       "episode_key": "policajti z l. a.:s1:e6",
-      "claim": {
-        "worker_id": "eb981589c5a84cfe8922b475234d45fa-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:14:20.468468+00:00",
-        "lease_expires_at": "2026-11-03T15:14:20.468485+00:00"
-      },
       "source": {
         "source_id": "23847565",
         "source_url": "https://sdilej.cz/23847565/policajti-z-l.-a.-southland.s01e06.westside.1080p.hmax.web-dl.dd.5.1.h.265-cz-eng-audio-.mkv",
@@ -203700,15 +203694,22 @@
         "display_name": "Southland S01E06 Westside 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:14:24.956728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757392",
-        "size_bytes": 1993693588
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757392",
+          "size_bytes": 1993693588,
+          "source_bytes_read": 1993693588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23847565",
+        "source_url": "https://sdilej.cz/23847565/policajti-z-l.-a.-southland.s01e06.westside.1080p.hmax.web-dl.dd.5.1.h.265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757392",
-        "size_bytes": 1993693588,
-        "source_bytes_read": 1993693588,
-        "http_status": 201
+        "display_name": "Southland S01E06 Westside 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:18:36.417878+00:00"
       }
     },
     "2413:1:7": {
@@ -203835,5 +203836,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:18:30.915458+00:00"
+  "updated_at": "2026-11-03T09:18:36.417899+00:00"
 }
