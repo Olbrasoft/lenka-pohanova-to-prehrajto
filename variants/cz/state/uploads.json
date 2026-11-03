@@ -213526,12 +213526,6 @@
     },
     "2216:2:13": {
       "episode_key": "vincentův svět:s2:e13",
-      "claim": {
-        "worker_id": "4550f1bd3a7b4a0683b1587885798b29-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T22:42:13.021596+00:00",
-        "lease_expires_at": "2026-11-04T04:42:13.021605+00:00"
-      },
       "source": {
         "source_id": "34455424",
         "source_url": "https://sdilej.cz/34455424/vincentuv-svet-s02e13-14-2005-cz-dab-1080p-odchod.mkv",
@@ -213556,15 +213550,22 @@
         "display_name": "Entourage S02E13 Exodus 1080p CZ Dabing",
         "prepared_at": "2026-11-03T22:42:25.515396+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774586",
-        "size_bytes": 1861344747
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774586",
+          "size_bytes": 1861344747,
+          "source_bytes_read": 1861344747,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34455424",
+        "source_url": "https://sdilej.cz/34455424/vincentuv-svet-s02e13-14-2005-cz-dab-1080p-odchod.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774586",
-        "size_bytes": 1861344747,
-        "source_bytes_read": 1861344747,
-        "http_status": 201
+        "display_name": "Entourage S02E13 Exodus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T22:47:50.591131+00:00"
       }
     },
     "2216:2:14": {
@@ -213779,5 +213780,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T22:47:45.386978+00:00"
+  "updated_at": "2026-11-03T22:47:50.591144+00:00"
 }
