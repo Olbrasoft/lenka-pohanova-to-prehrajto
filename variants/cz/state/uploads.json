@@ -195618,12 +195618,6 @@
     },
     "1054:1:13": {
       "episode_key": "brooklyn 99:s1:e13",
-      "claim": {
-        "worker_id": "e41e8cd3d64b4650b169646661e3c900-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:31:06.570726+00:00",
-        "lease_expires_at": "2026-11-03T11:31:06.570739+00:00"
-      },
       "source": {
         "source_id": "29567414",
         "source_url": "https://sdilej.cz/29567414/brooklyn-nine-nine-s01e13-1080p-cz.x265.mkv",
@@ -195648,15 +195642,22 @@
         "display_name": "Brooklyn Nine-Nine S01E13 The Bet 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:31:09.188019+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753255",
-        "size_bytes": 155463942
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753255",
+          "size_bytes": 155463942,
+          "source_bytes_read": 155463942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567414",
+        "source_url": "https://sdilej.cz/29567414/brooklyn-nine-nine-s01e13-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753255",
-        "size_bytes": 155463942,
-        "source_bytes_read": 155463942,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E13 The Bet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:31:41.938382+00:00"
       }
     },
     "1054:1:14": {
@@ -195738,5 +195739,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:31:40.134048+00:00"
+  "updated_at": "2026-11-03T05:31:41.938399+00:00"
 }
