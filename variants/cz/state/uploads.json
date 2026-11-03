@@ -191880,12 +191880,6 @@
     },
     "50:3:3": {
       "episode_key": "westworld:s3:e3",
-      "claim": {
-        "worker_id": "2692522c969043b0ab6fb068f135761d-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:13:13.351406+00:00",
-        "lease_expires_at": "2026-11-03T08:13:13.351414+00:00"
-      },
       "source": {
         "source_id": "32021175",
         "source_url": "https://sdilej.cz/32021175/westworld-s03e03-absence-pole.mkv",
@@ -191910,15 +191904,22 @@
         "display_name": "Westworld S03E03 The Absence of Field 4K CZ Dabing",
         "prepared_at": "2026-11-03T02:13:15.856049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748087",
-        "size_bytes": 2546227040
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748087",
+          "size_bytes": 2546227040,
+          "source_bytes_read": 2546227040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32021175",
+        "source_url": "https://sdilej.cz/32021175/westworld-s03e03-absence-pole.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748087",
-        "size_bytes": 2546227040,
-        "source_bytes_read": 2546227040,
-        "http_status": 201
+        "display_name": "Westworld S03E03 The Absence of Field 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T02:17:33.429248+00:00"
       }
     },
     "50:3:4": {
@@ -191964,5 +191965,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:17:29.170151+00:00"
+  "updated_at": "2026-11-03T02:17:33.429264+00:00"
 }
