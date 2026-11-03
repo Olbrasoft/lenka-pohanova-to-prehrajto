@@ -206882,12 +206882,6 @@
     },
     "46:2:9": {
       "episode_key": "hranice nemožného:s2:e9",
-      "claim": {
-        "worker_id": "fe6fc41ef6b745f296edf94036a39cae-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:23:30.356925+00:00",
-        "lease_expires_at": "2026-11-03T17:23:30.356940+00:00"
-      },
       "source": {
         "source_id": "32818646",
         "source_url": "https://sdilej.cz/32818646/hranice-nemozneho-s02e09-cerv.mkv",
@@ -206912,15 +206906,22 @@
         "display_name": "Fringe S02E09 Snakehead 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:23:33.016851+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759862",
-        "size_bytes": 919069818
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759862",
+          "size_bytes": 919069818,
+          "source_bytes_read": 919069818,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32818646",
+        "source_url": "https://sdilej.cz/32818646/hranice-nemozneho-s02e09-cerv.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759862",
-        "size_bytes": 919069818,
-        "source_bytes_read": 919069818,
-        "http_status": 201
+        "display_name": "Fringe S02E09 Snakehead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:25:47.996898+00:00"
       }
     },
     "46:2:10": {
@@ -207039,5 +207040,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:25:46.008413+00:00"
+  "updated_at": "2026-11-03T11:25:47.996919+00:00"
 }
