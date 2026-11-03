@@ -213438,12 +213438,6 @@
     },
     "2216:2:8": {
       "episode_key": "vincentův svět:s2:e8",
-      "claim": {
-        "worker_id": "2c5183fecb444e378efda1e8b8887903-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T22:34:47.858073+00:00",
-        "lease_expires_at": "2026-11-04T04:34:47.858082+00:00"
-      },
       "source": {
         "source_id": "34455364",
         "source_url": "https://sdilej.cz/34455364/vincentuv-svet-s02e08-14-2005-cz-dab-1080p-mandy.mkv",
@@ -213468,15 +213462,22 @@
         "display_name": "Entourage S02E08 Oh, Mandy 1080p CZ Dabing",
         "prepared_at": "2026-11-03T22:35:02.288007+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774499",
-        "size_bytes": 1539562971
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774499",
+          "size_bytes": 1539562971,
+          "source_bytes_read": 1539562971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34455364",
+        "source_url": "https://sdilej.cz/34455364/vincentuv-svet-s02e08-14-2005-cz-dab-1080p-mandy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774499",
-        "size_bytes": 1539562971,
-        "source_bytes_read": 1539562971,
-        "http_status": 201
+        "display_name": "Entourage S02E08 Oh, Mandy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T22:40:17.596203+00:00"
       }
     },
     "2216:2:12": {
@@ -213522,5 +213523,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T22:40:11.319904+00:00"
+  "updated_at": "2026-11-03T22:40:17.596220+00:00"
 }
