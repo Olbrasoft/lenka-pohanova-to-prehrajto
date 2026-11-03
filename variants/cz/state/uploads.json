@@ -213563,12 +213563,6 @@
     },
     "2216:2:14": {
       "episode_key": "vincentův svět:s2:e14",
-      "claim": {
-        "worker_id": "ff23a18eaef64300a7aad85bf3bc5459-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T22:42:16.849985+00:00",
-        "lease_expires_at": "2026-11-04T04:42:16.849992+00:00"
-      },
       "source": {
         "source_id": "34455435",
         "source_url": "https://sdilej.cz/34455435/vincentuv-svet-s02e14-14-2005-cz-dab-1080p-propast.mkv",
@@ -213593,15 +213587,22 @@
         "display_name": "Entourage S02E14 The Abyss 1080p CZ Dabing",
         "prepared_at": "2026-11-03T22:42:22.120211+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774585",
-        "size_bytes": 1867734272
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774585",
+          "size_bytes": 1867734272,
+          "source_bytes_read": 1867734272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34455435",
+        "source_url": "https://sdilej.cz/34455435/vincentuv-svet-s02e14-14-2005-cz-dab-1080p-propast.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774585",
-        "size_bytes": 1867734272,
-        "source_bytes_read": 1867734272,
-        "http_status": 201
+        "display_name": "Entourage S02E14 The Abyss 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T22:45:08.730917+00:00"
       }
     },
     "64:1:2": {
@@ -213647,5 +213648,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T22:45:03.171641+00:00"
+  "updated_at": "2026-11-03T22:45:08.730932+00:00"
 }
