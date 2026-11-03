@@ -214890,12 +214890,6 @@
     },
     "64:4:1": {
       "episode_key": "banshee:s4:e1",
-      "claim": {
-        "worker_id": "e5622593feb0491ea344546553ad0074-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:41:22.688708+00:00",
-        "lease_expires_at": "2026-11-04T05:41:22.688718+00:00"
-      },
       "source": {
         "source_id": "32875281",
         "source_url": "https://sdilej.cz/32875281/banshee-s04e01-cz-dabing-1080p-full-hd.mkv",
@@ -214920,15 +214914,22 @@
         "display_name": "Banshee S04E01 Something Out of the Bible 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:41:25.500463+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775161",
-        "size_bytes": 1199911291
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775161",
+          "size_bytes": 1199911291,
+          "source_bytes_read": 1199911291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875281",
+        "source_url": "https://sdilej.cz/32875281/banshee-s04e01-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775161",
-        "size_bytes": 1199911291,
-        "source_bytes_read": 1199911291,
-        "http_status": 201
+        "display_name": "Banshee S04E01 Something Out of the Bible 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:43:58.699075+00:00"
       }
     }
   },
@@ -214937,5 +214938,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:43:55.862263+00:00"
+  "updated_at": "2026-11-03T23:43:58.699091+00:00"
 }
