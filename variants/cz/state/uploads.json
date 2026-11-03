@@ -211370,12 +211370,6 @@
     },
     "144:2:2": {
       "episode_key": "love, death & robots:s2:e2",
-      "claim": {
-        "worker_id": "3f873f9eeb3e451ebd3a2e18ed9832f2-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:29:42.240147+00:00",
-        "lease_expires_at": "2026-11-03T20:29:42.240162+00:00"
-      },
       "source": {
         "source_id": "34119575",
         "source_url": "https://sdilej.cz/34119575/love-death-robots-s02e02-cz-dab-rebelant.mkv",
@@ -211400,15 +211394,22 @@
         "display_name": "Love, Death & Robots S02E02 Ice 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:29:45.440400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764038",
-        "size_bytes": 563287176
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764038",
+          "size_bytes": 563287176,
+          "source_bytes_read": 563287176,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34119575",
+        "source_url": "https://sdilej.cz/34119575/love-death-robots-s02e02-cz-dab-rebelant.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764038",
-        "size_bytes": 563287176,
-        "source_bytes_read": 563287176,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S02E02 Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:32:23.575424+00:00"
       }
     },
     "144:2:3": {
@@ -211505,5 +211506,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:32:20.424457+00:00"
+  "updated_at": "2026-11-03T14:32:23.575443+00:00"
 }
