@@ -195574,12 +195574,6 @@
     },
     "1054:1:12": {
       "episode_key": "brooklyn 99:s1:e12",
-      "claim": {
-        "worker_id": "2cfcd653496e4d7ca8d9dcdf205f6503-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:30:42.808659+00:00",
-        "lease_expires_at": "2026-11-03T11:30:42.808668+00:00"
-      },
       "source": {
         "source_id": "29567411",
         "source_url": "https://sdilej.cz/29567411/brooklyn-nine-nine-s01e12-1080p-cz.x265.mkv",
@@ -195604,15 +195598,22 @@
         "display_name": "Brooklyn Nine-Nine S01E12 Pontiac Bandit 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:30:45.163523+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753245",
-        "size_bytes": 165279230
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753245",
+          "size_bytes": 165279230,
+          "source_bytes_read": 165279230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567411",
+        "source_url": "https://sdilej.cz/29567411/brooklyn-nine-nine-s01e12-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753245",
-        "size_bytes": 165279230,
-        "source_bytes_read": 165279230,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E12 Pontiac Bandit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:31:19.369820+00:00"
       }
     },
     "1054:1:13": {
@@ -195657,5 +195658,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:31:15.016985+00:00"
+  "updated_at": "2026-11-03T05:31:19.369838+00:00"
 }
