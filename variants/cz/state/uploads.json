@@ -201331,12 +201331,6 @@
     },
     "53:2:3": {
       "episode_key": "ozark:s2:e3",
-      "claim": {
-        "worker_id": "08bf4ff4ff164a37a6ad70ca6ff1322a-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:54:09.792429+00:00",
-        "lease_expires_at": "2026-11-03T12:54:09.792441+00:00"
-      },
       "source": {
         "source_id": "32711332",
         "source_url": "https://sdilej.cz/32711332/ozark-s02e03-cz-dabing.mkv",
@@ -201361,15 +201355,22 @@
         "display_name": "Ozark S02E03 Once a Langmore… 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:54:14.235967+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754819",
-        "size_bytes": 1118266303
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754819",
+          "size_bytes": 1118266303,
+          "source_bytes_read": 1118266303,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711332",
+        "source_url": "https://sdilej.cz/32711332/ozark-s02e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754819",
-        "size_bytes": 1118266303,
-        "source_bytes_read": 1118266303,
-        "http_status": 201
+        "display_name": "Ozark S02E03 Once a Langmore… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:55:55.654443+00:00"
       }
     }
   },
@@ -201378,5 +201379,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:55:49.667758+00:00"
+  "updated_at": "2026-11-03T06:55:55.654460+00:00"
 }
