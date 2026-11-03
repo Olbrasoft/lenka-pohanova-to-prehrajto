@@ -213651,12 +213651,6 @@
     },
     "64:1:3": {
       "episode_key": "banshee:s1:e3",
-      "claim": {
-        "worker_id": "b6a1262039704614ade3289a7c65dc63-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T22:45:19.738207+00:00",
-        "lease_expires_at": "2026-11-04T04:45:19.738218+00:00"
-      },
       "source": {
         "source_id": "17446468",
         "source_url": "https://sdilej.cz/17446468/banshee.s01e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -213681,15 +213675,22 @@
         "display_name": "Banshee S01E03 Meet the New Boss 1080p CZ Dabing",
         "prepared_at": "2026-11-03T22:45:22.391602+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774615",
-        "size_bytes": 806934096
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774615",
+          "size_bytes": 806934096,
+          "source_bytes_read": 806934096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17446468",
+        "source_url": "https://sdilej.cz/17446468/banshee.s01e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774615",
-        "size_bytes": 806934096,
-        "source_bytes_read": 806934096,
-        "http_status": 201
+        "display_name": "Banshee S01E03 Meet the New Boss 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T22:46:38.160244+00:00"
       }
     },
     "64:1:4": {
@@ -213734,5 +213735,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T22:46:34.139351+00:00"
+  "updated_at": "2026-11-03T22:46:38.160257+00:00"
 }
