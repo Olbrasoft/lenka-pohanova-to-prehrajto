@@ -192100,12 +192100,6 @@
     },
     "50:3:8": {
       "episode_key": "westworld:s3:e8",
-      "claim": {
-        "worker_id": "78f07fc2ec1d4f29b5edddd21c475578-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:27:19.277228+00:00",
-        "lease_expires_at": "2026-11-03T08:27:19.277240+00:00"
-      },
       "source": {
         "source_id": "31004637",
         "source_url": "https://sdilej.cz/31004637/westworld-2020-s03e08-cz-dab-1080p-crisis-theory.mkv",
@@ -192130,15 +192124,22 @@
         "display_name": "Westworld S03E08 Crisis Theory 1080p CZ Dabing",
         "prepared_at": "2026-11-03T02:27:21.848571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748338",
-        "size_bytes": 2175798976
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748338",
+          "size_bytes": 2175798976,
+          "source_bytes_read": 2175798976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31004637",
+        "source_url": "https://sdilej.cz/31004637/westworld-2020-s03e08-cz-dab-1080p-crisis-theory.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748338",
-        "size_bytes": 2175798976,
-        "source_bytes_read": 2175798976,
-        "http_status": 201
+        "display_name": "Westworld S03E08 Crisis Theory 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T02:33:29.586797+00:00"
       }
     },
     "50:4:1": {
@@ -192235,5 +192236,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:33:22.741251+00:00"
+  "updated_at": "2026-11-03T02:33:29.586815+00:00"
 }
