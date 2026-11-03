@@ -190424,12 +190424,6 @@
     },
     "93:1:6": {
       "episode_key": "the last of us:s1:e6",
-      "claim": {
-        "worker_id": "a7d63dfc48ac4b4985563baec30d2cb5-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-03T00:16:54.694509+00:00",
-        "lease_expires_at": "2026-11-03T06:16:54.694522+00:00"
-      },
       "source": {
         "source_id": "25231403",
         "source_url": "https://sdilej.cz/25231403/the-last-of-us-s01e06-2023-4k-hdr-cz-dabing.mkv",
@@ -190454,15 +190448,22 @@
         "display_name": "The Last of Us S01E06 Kin 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:16:57.279314+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745631",
-        "size_bytes": 8447165421
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745631",
+          "size_bytes": 8447165421,
+          "source_bytes_read": 8447165421,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25231403",
+        "source_url": "https://sdilej.cz/25231403/the-last-of-us-s01e06-2023-4k-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745631",
-        "size_bytes": 8447165421,
-        "source_bytes_read": 8447165421,
-        "http_status": 201
+        "display_name": "The Last of Us S01E06 Kin 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:30:11.115087+00:00"
       }
     }
   },
@@ -190471,5 +190472,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:30:07.857384+00:00"
+  "updated_at": "2026-11-03T00:30:11.115103+00:00"
 }
