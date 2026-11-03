@@ -204066,12 +204066,6 @@
     },
     "2413:3:9": {
       "episode_key": "policajti z l. a.:s3:e9",
-      "claim": {
-        "worker_id": "a513524469784a7d8fc42e06825f0281-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:21:40.719644+00:00",
-        "lease_expires_at": "2026-11-03T15:21:40.719659+00:00"
-      },
       "source": {
         "source_id": "27646646",
         "source_url": "https://sdilej.cz/27646646/policajti-z-l.-a.-s03e09-cz.mkv",
@@ -204096,15 +204090,22 @@
         "display_name": "Southland S03E09 Failure Drill 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:21:43.345323+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757792",
-        "size_bytes": 828710332
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757792",
+          "size_bytes": 828710332,
+          "source_bytes_read": 828710332,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646646",
+        "source_url": "https://sdilej.cz/27646646/policajti-z-l.-a.-s03e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757792",
-        "size_bytes": 828710332,
-        "source_bytes_read": 828710332,
-        "http_status": 201
+        "display_name": "Southland S03E09 Failure Drill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:23:43.040036+00:00"
       }
     },
     "2413:3:10": {
@@ -204237,5 +204238,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:23:40.567866+00:00"
+  "updated_at": "2026-11-03T09:23:43.040060+00:00"
 }
