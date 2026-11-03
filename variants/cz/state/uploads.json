@@ -202306,12 +202306,6 @@
     },
     "53:4:6": {
       "episode_key": "ozark:s4:e6",
-      "claim": {
-        "worker_id": "a7711c664ce74c8c854d39d3deb4a104-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T07:54:13.348118+00:00",
-        "lease_expires_at": "2026-11-03T13:54:13.348131+00:00"
-      },
       "source": {
         "source_id": "32711630",
         "source_url": "https://sdilej.cz/32711630/ozark-s04e06-cz-dabing.mkv",
@@ -202336,15 +202330,22 @@
         "display_name": "Ozark S04E06 Sangre Sobre Todo 1080p CZ Dabing",
         "prepared_at": "2026-11-03T07:54:20.013590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755739",
-        "size_bytes": 1298556458
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755739",
+          "size_bytes": 1298556458,
+          "source_bytes_read": 1298556458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711630",
+        "source_url": "https://sdilej.cz/32711630/ozark-s04e06-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755739",
-        "size_bytes": 1298556458,
-        "source_bytes_read": 1298556458,
-        "http_status": 201
+        "display_name": "Ozark S04E06 Sangre Sobre Todo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T07:58:09.620694+00:00"
       }
     },
     "53:4:7": {
@@ -202471,5 +202472,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T07:58:04.659446+00:00"
+  "updated_at": "2026-11-03T07:58:09.620716+00:00"
 }
