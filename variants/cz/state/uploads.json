@@ -214230,12 +214230,6 @@
     },
     "64:2:6": {
       "episode_key": "banshee:s2:e6",
-      "claim": {
-        "worker_id": "069e835f36084029b84e20e6ca444d1f-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:27:26.206914+00:00",
-        "lease_expires_at": "2026-11-04T05:27:26.206922+00:00"
-      },
       "source": {
         "source_id": "32874846",
         "source_url": "https://sdilej.cz/32874846/banshee-s02e06-cz-dabing-1080p-full-hd.mkv",
@@ -214260,15 +214254,22 @@
         "display_name": "Banshee S02E06 Armies of One 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:27:34.437639+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774989",
-        "size_bytes": 962036970
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774989",
+          "size_bytes": 962036970,
+          "source_bytes_read": 962036970,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32874846",
+        "source_url": "https://sdilej.cz/32874846/banshee-s02e06-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774989",
-        "size_bytes": 962036970,
-        "source_bytes_read": 962036970,
-        "http_status": 201
+        "display_name": "Banshee S02E06 Armies of One 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:29:13.138104+00:00"
       }
     },
     "64:2:7": {
@@ -214357,5 +214358,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:29:10.714977+00:00"
+  "updated_at": "2026-11-03T23:29:13.138118+00:00"
 }
