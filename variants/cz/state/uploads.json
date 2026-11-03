@@ -196674,12 +196674,6 @@
     },
     "1054:2:15": {
       "episode_key": "brooklyn 99:s2:e15",
-      "claim": {
-        "worker_id": "e3b1ec734cc0493bb2406be17faef6f2-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:45:56.547127+00:00",
-        "lease_expires_at": "2026-11-03T11:45:56.547141+00:00"
-      },
       "source": {
         "source_id": "29567455",
         "source_url": "https://sdilej.cz/29567455/brooklyn-nine-nine-s02e15-1080p-cz.x265.mkv",
@@ -196704,15 +196698,22 @@
         "display_name": "Brooklyn Nine-Nine S02E15 Windbreaker City 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:46:00.827847+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753599",
-        "size_bytes": 145785508
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753599",
+          "size_bytes": 145785508,
+          "source_bytes_read": 145785508,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567455",
+        "source_url": "https://sdilej.cz/29567455/brooklyn-nine-nine-s02e15-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753599",
-        "size_bytes": 145785508,
-        "source_bytes_read": 145785508,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E15 Windbreaker City 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:46:32.249065+00:00"
       }
     },
     "1054:2:16": {
@@ -196758,5 +196759,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:46:29.502117+00:00"
+  "updated_at": "2026-11-03T05:46:32.249084+00:00"
 }
