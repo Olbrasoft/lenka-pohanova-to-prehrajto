@@ -213116,12 +213116,6 @@
     },
     "2216:2:1": {
       "episode_key": "vincentův svět:s2:e1",
-      "claim": {
-        "worker_id": "5a749c3e1b1e4a429d6ba7dfb6ca0df8-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T17:32:30.990354+00:00",
-        "lease_expires_at": "2026-11-03T23:32:30.990365+00:00"
-      },
       "source": {
         "source_id": "34455317",
         "source_url": "https://sdilej.cz/34455317/vincentuv-svet-s02e01-14-2005-cz-dab-1080p-system.mkv",
@@ -213146,15 +213140,22 @@
         "display_name": "Entourage S02E01 The Boys Are Back in Town 1080p CZ Dabing",
         "prepared_at": "2026-11-03T17:32:48.988735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30769704",
-        "size_bytes": 1756224630
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30769704",
+          "size_bytes": 1756224630,
+          "source_bytes_read": 1756224630,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34455317",
+        "source_url": "https://sdilej.cz/34455317/vincentuv-svet-s02e01-14-2005-cz-dab-1080p-system.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30769704",
-        "size_bytes": 1756224630,
-        "source_bytes_read": 1756224630,
-        "http_status": 201
+        "display_name": "Entourage S02E01 The Boys Are Back in Town 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T17:38:14.721087+00:00"
       }
     }
   },
@@ -213163,5 +213164,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T17:38:05.371684+00:00"
+  "updated_at": "2026-11-03T17:38:14.721106+00:00"
 }
