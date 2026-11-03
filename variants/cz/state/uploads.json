@@ -200502,12 +200502,6 @@
     },
     "1054:6:12": {
       "episode_key": "brooklyn 99:s6:e12",
-      "claim": {
-        "worker_id": "eaf6970b13ab430bbbcac94937d7b0c4-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:32:35.010117+00:00",
-        "lease_expires_at": "2026-11-03T12:32:35.010129+00:00"
-      },
       "source": {
         "source_id": "29567555",
         "source_url": "https://sdilej.cz/29567555/brooklyn-nine-nine-s06e12-1080p-cz.x265.mkv",
@@ -200532,15 +200526,22 @@
         "display_name": "Brooklyn Nine-Nine S06E12 Casecation 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:32:38.938668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754531",
-        "size_bytes": 142067351
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754531",
+          "size_bytes": 142067351,
+          "source_bytes_read": 142067351,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567555",
+        "source_url": "https://sdilej.cz/29567555/brooklyn-nine-nine-s06e12-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754531",
-        "size_bytes": 142067351,
-        "source_bytes_read": 142067351,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E12 Casecation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:33:11.799461+00:00"
       }
     },
     "1054:6:13": {
@@ -200628,5 +200629,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:33:09.751217+00:00"
+  "updated_at": "2026-11-03T06:33:11.799477+00:00"
 }
