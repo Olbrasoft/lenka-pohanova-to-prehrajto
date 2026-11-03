@@ -195706,12 +195706,6 @@
     },
     "1054:1:15": {
       "episode_key": "brooklyn 99:s1:e15",
-      "claim": {
-        "worker_id": "08860023956645ecb003ba7e37aa5451-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:31:30.243730+00:00",
-        "lease_expires_at": "2026-11-03T11:31:30.243743+00:00"
-      },
       "source": {
         "source_id": "29567416",
         "source_url": "https://sdilej.cz/29567416/brooklyn-nine-nine-s01e15-1080p-cz.x265.mkv",
@@ -195736,15 +195730,22 @@
         "display_name": "Brooklyn Nine-Nine S01E15 Operation: Broken Feather 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:31:36.140845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753263",
-        "size_bytes": 161991900
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753263",
+          "size_bytes": 161991900,
+          "source_bytes_read": 161991900,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567416",
+        "source_url": "https://sdilej.cz/29567416/brooklyn-nine-nine-s01e15-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753263",
-        "size_bytes": 161991900,
-        "source_bytes_read": 161991900,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E15 Operation: Broken Feather 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:32:09.658089+00:00"
       }
     },
     "1054:1:16": {
@@ -195790,5 +195791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:32:07.719658+00:00"
+  "updated_at": "2026-11-03T05:32:09.658110+00:00"
 }
