@@ -191389,12 +191389,6 @@
     },
     "50:2:2": {
       "episode_key": "westworld:s2:e2",
-      "claim": {
-        "worker_id": "ccc0b5f368a348b395f9a5ef4a0edb0c-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:36:06.619906+00:00",
-        "lease_expires_at": "2026-11-03T07:36:06.619918+00:00"
-      },
       "source": {
         "source_id": "16065509",
         "source_url": "https://sdilej.cz/16065509/westworld-s02e02-shledani-cz-dg-.mkv",
@@ -191419,15 +191413,22 @@
         "display_name": "Westworld S02E02 Reunion 1080p CZ Dabing",
         "prepared_at": "2026-11-03T01:36:09.084419+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30747217",
-        "size_bytes": 1220244549
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30747217",
+          "size_bytes": 1220244549,
+          "source_bytes_read": 1220244549,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16065509",
+        "source_url": "https://sdilej.cz/16065509/westworld-s02e02-shledani-cz-dg-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30747217",
-        "size_bytes": 1220244549,
-        "source_bytes_read": 1220244549,
-        "http_status": 201
+        "display_name": "Westworld S02E02 Reunion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T01:38:49.303018+00:00"
       }
     },
     "50:2:3": {
@@ -191473,5 +191474,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:38:43.904524+00:00"
+  "updated_at": "2026-11-03T01:38:49.303046+00:00"
 }
