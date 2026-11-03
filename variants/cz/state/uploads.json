@@ -204418,12 +204418,6 @@
     },
     "2413:4:7": {
       "episode_key": "policajti z l. a.:s4:e7",
-      "claim": {
-        "worker_id": "f51aa53e0fac4803a7ba145ebee7e30e-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:45:19.953585+00:00",
-        "lease_expires_at": "2026-11-03T15:45:19.953600+00:00"
-      },
       "source": {
         "source_id": "27646836",
         "source_url": "https://sdilej.cz/27646836/policajti-z-l.-a.-s04e07-cz.mkv",
@@ -204448,15 +204442,22 @@
         "display_name": "Southland S04E07 Fallout 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:45:25.148310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758146",
-        "size_bytes": 905311071
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758146",
+          "size_bytes": 905311071,
+          "source_bytes_read": 905311071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646836",
+        "source_url": "https://sdilej.cz/27646836/policajti-z-l.-a.-s04e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758146",
-        "size_bytes": 905311071,
-        "source_bytes_read": 905311071,
-        "http_status": 201
+        "display_name": "Southland S04E07 Fallout 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:49:36.234939+00:00"
       }
     },
     "2413:4:8": {
@@ -204671,5 +204672,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:49:31.057281+00:00"
+  "updated_at": "2026-11-03T09:49:36.234961+00:00"
 }
