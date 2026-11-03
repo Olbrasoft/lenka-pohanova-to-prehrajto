@@ -212822,12 +212822,6 @@
     },
     "2090:1:8": {
       "episode_key": "jedna noc:s1:e8",
-      "claim": {
-        "worker_id": "08d043c3fb854ebc9e8cf90a3f1d38f6-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T17:01:31.124042+00:00",
-        "lease_expires_at": "2026-11-03T23:01:31.124051+00:00"
-      },
       "source": {
         "source_id": "24644536",
         "source_url": "https://sdilej.cz/24644536/jedna-noc-the-night-of-s01e08-hd-5.1-cz-dabing.mkv",
@@ -212852,15 +212846,22 @@
         "display_name": "The Night Of S01E08 Part 8: The Call of the Wild 1080p CZ Dabing",
         "prepared_at": "2026-11-03T17:01:35.477656+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30768766",
-        "size_bytes": 6159046811
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30768766",
+          "size_bytes": 6159046811,
+          "source_bytes_read": 6159046811,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24644536",
+        "source_url": "https://sdilej.cz/24644536/jedna-noc-the-night-of-s01e08-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30768766",
-        "size_bytes": 6159046811,
-        "source_bytes_read": 6159046811,
-        "http_status": 201
+        "display_name": "The Night Of S01E08 Part 8: The Call of the Wild 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T17:25:42.977953+00:00"
       }
     },
     "2216:1:4": {
@@ -213045,5 +213046,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T17:25:35.741092+00:00"
+  "updated_at": "2026-11-03T17:25:42.977976+00:00"
 }
