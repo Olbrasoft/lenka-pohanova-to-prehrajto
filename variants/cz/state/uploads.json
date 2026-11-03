@@ -194788,12 +194788,6 @@
     },
     "1076:4:10": {
       "episode_key": "kravaťáci:s4:e10",
-      "claim": {
-        "worker_id": "035192d5a3634792a386634065082871-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:07:49.786472+00:00",
-        "lease_expires_at": "2026-11-03T11:07:49.786484+00:00"
-      },
       "source": {
         "source_id": "33171070",
         "source_url": "https://sdilej.cz/33171070/kravataci-s04e10-16-2014-cz-dab-gladiatori.mkv",
@@ -194818,15 +194812,22 @@
         "display_name": "Suits S04E10 This Is Rome 720p CZ Dabing",
         "prepared_at": "2026-11-03T05:07:56.441243+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752816",
-        "size_bytes": 885456578
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752816",
+          "size_bytes": 885456578,
+          "source_bytes_read": 885456578,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33171070",
+        "source_url": "https://sdilej.cz/33171070/kravataci-s04e10-16-2014-cz-dab-gladiatori.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752816",
-        "size_bytes": 885456578,
-        "source_bytes_read": 885456578,
-        "http_status": 201
+        "display_name": "Suits S04E10 This Is Rome 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:09:21.929495+00:00"
       }
     }
   },
@@ -194835,5 +194836,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:09:20.043526+00:00"
+  "updated_at": "2026-11-03T05:09:21.929520+00:00"
 }
