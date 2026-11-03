@@ -204858,12 +204858,6 @@
     },
     "2413:5:7": {
       "episode_key": "policajti z l. a.:s5:e7",
-      "claim": {
-        "worker_id": "638028191d7244e3a582e4b7e0259146-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:53:46.844493+00:00",
-        "lease_expires_at": "2026-11-03T15:53:46.844505+00:00"
-      },
       "source": {
         "source_id": "28558222",
         "source_url": "https://sdilej.cz/28558222/policajti-z-l.-a.-s05e07-cz.mkv",
@@ -204888,15 +204882,22 @@
         "display_name": "Southland S05E07 Heroes SD CZ Dabing",
         "prepared_at": "2026-11-03T09:53:53.076474+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758305",
-        "size_bytes": 391816984
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758305",
+          "size_bytes": 391816984,
+          "source_bytes_read": 391816984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28558222",
+        "source_url": "https://sdilej.cz/28558222/policajti-z-l.-a.-s05e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758305",
-        "size_bytes": 391816984,
-        "source_bytes_read": 391816984,
-        "http_status": 201
+        "display_name": "Southland S05E07 Heroes SD CZ Dabing",
+        "uploaded_at": "2026-11-03T09:54:43.106011+00:00"
       }
     },
     "2413:5:8": {
@@ -204942,5 +204943,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:54:38.197503+00:00"
+  "updated_at": "2026-11-03T09:54:43.106032+00:00"
 }
