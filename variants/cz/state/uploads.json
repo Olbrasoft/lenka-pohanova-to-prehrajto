@@ -190773,12 +190773,6 @@
     },
     "93:2:5": {
       "episode_key": "the last of us:s2:e5",
-      "claim": {
-        "worker_id": "89e1a79ff2a642d488f62bcbfa7688a4-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T00:43:59.936942+00:00",
-        "lease_expires_at": "2026-11-03T06:43:59.936951+00:00"
-      },
       "source": {
         "source_id": "34526809",
         "source_url": "https://sdilej.cz/34526809/the-last-of-us-s02e05-cz-dabing-2160p-uhd.mkv",
@@ -190803,15 +190797,22 @@
         "display_name": "The Last of Us S02E05 Feel Her Love 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:44:05.410703+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30746213",
-        "size_bytes": 2178953870
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30746213",
+          "size_bytes": 2178953870,
+          "source_bytes_read": 2178953870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34526809",
+        "source_url": "https://sdilej.cz/34526809/the-last-of-us-s02e05-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30746213",
-        "size_bytes": 2178953870,
-        "source_bytes_read": 2178953870,
-        "http_status": 201
+        "display_name": "The Last of Us S02E05 Feel Her Love 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:49:11.268385+00:00"
       }
     },
     "93:2:6": {
@@ -190857,5 +190858,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:49:05.936571+00:00"
+  "updated_at": "2026-11-03T00:49:11.268403+00:00"
 }
