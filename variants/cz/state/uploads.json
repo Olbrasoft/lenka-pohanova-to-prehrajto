@@ -207064,12 +207064,6 @@
     },
     "46:2:13": {
       "episode_key": "hranice nemožného:s2:e13",
-      "claim": {
-        "worker_id": "6e904d386ae54d2d9c425291ee4df314-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:25:59.213947+00:00",
-        "lease_expires_at": "2026-11-03T17:25:59.213961+00:00"
-      },
       "source": {
         "source_id": "32818706",
         "source_url": "https://sdilej.cz/32818706/hranice-nemozneho-s02e13-pod-povrchem.mkv",
@@ -207094,15 +207088,22 @@
         "display_name": "Fringe S02E13 What Lies Below 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:26:01.772784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759901",
-        "size_bytes": 938874074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759901",
+          "size_bytes": 938874074,
+          "source_bytes_read": 938874074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32818706",
+        "source_url": "https://sdilej.cz/32818706/hranice-nemozneho-s02e13-pod-povrchem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759901",
-        "size_bytes": 938874074,
-        "source_bytes_read": 938874074,
-        "http_status": 201
+        "display_name": "Fringe S02E13 What Lies Below 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:30:15.921038+00:00"
       }
     },
     "46:2:14": {
@@ -207199,5 +207200,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:30:13.988627+00:00"
+  "updated_at": "2026-11-03T11:30:15.921056+00:00"
 }
