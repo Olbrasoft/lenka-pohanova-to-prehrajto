@@ -215066,12 +215066,6 @@
     },
     "64:4:5": {
       "episode_key": "banshee:s4:e5",
-      "claim": {
-        "worker_id": "40c71929a9e040ea8e4d15a1111d0915-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:46:38.104145+00:00",
-        "lease_expires_at": "2026-11-04T05:46:38.104154+00:00"
-      },
       "source": {
         "source_id": "32875432",
         "source_url": "https://sdilej.cz/32875432/banshee-s04e05-cz-dabing-1080p-full-hd.mkv",
@@ -215096,15 +215090,22 @@
         "display_name": "Banshee S04E05 A Little Late to Grow a Pair 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:46:40.927349+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775219",
-        "size_bytes": 1076849499
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775219",
+          "size_bytes": 1076849499,
+          "source_bytes_read": 1076849499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875432",
+        "source_url": "https://sdilej.cz/32875432/banshee-s04e05-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775219",
-        "size_bytes": 1076849499,
-        "source_bytes_read": 1076849499,
-        "http_status": 201
+        "display_name": "Banshee S04E05 A Little Late to Grow a Pair 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:50:41.352785+00:00"
       }
     },
     "64:4:6": {
@@ -215238,5 +215239,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:50:39.318457+00:00"
+  "updated_at": "2026-11-03T23:50:41.352800+00:00"
 }
