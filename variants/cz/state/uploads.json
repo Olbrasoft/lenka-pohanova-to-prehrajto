@@ -215518,12 +215518,6 @@
     },
     "823:1:9": {
       "episode_key": "star wars: maul - pán stínů:s1:e9",
-      "claim": {
-        "worker_id": "1bd8d591def1441b9c379fa75d9fe5fc-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:58:03.611525+00:00",
-        "lease_expires_at": "2026-11-04T05:58:03.611534+00:00"
-      },
       "source": {
         "source_id": "34253290",
         "source_url": "https://sdilej.cz/34253290/star-wars-maul-shadow-lord-s01e09-czsken-dabing.mp4",
@@ -215548,15 +215542,22 @@
         "display_name": "Star Wars: Maul - Shadow Lord S01E09 Chapter 9: Strange Allies 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:58:07.909919+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775363",
-        "size_bytes": 460941996
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775363",
+          "size_bytes": 460941996,
+          "source_bytes_read": 460941996,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34253290",
+        "source_url": "https://sdilej.cz/34253290/star-wars-maul-shadow-lord-s01e09-czsken-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775363",
-        "size_bytes": 460941996,
-        "source_bytes_read": 460941996,
-        "http_status": 201
+        "display_name": "Star Wars: Maul - Shadow Lord S01E09 Chapter 9: Strange Allies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:59:03.747059+00:00"
       }
     }
   },
@@ -215565,5 +215566,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:59:01.633931+00:00"
+  "updated_at": "2026-11-03T23:59:03.747072+00:00"
 }
