@@ -206919,12 +206919,6 @@
     },
     "46:2:10": {
       "episode_key": "hranice nemožného:s2:e10",
-      "claim": {
-        "worker_id": "c9a3ce382a52442fb21bf64097840429-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:24:09.502968+00:00",
-        "lease_expires_at": "2026-11-03T17:24:09.502981+00:00"
-      },
       "source": {
         "source_id": "27772731",
         "source_url": "https://sdilej.cz/27772731/hranice-nemozneho-s02e10-zalezitost-mozku-serial-cz-dabing-.mkv",
@@ -206949,15 +206943,22 @@
         "display_name": "Fringe S02E10 Grey Matters 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:24:12.003393+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759873",
-        "size_bytes": 915334672
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759873",
+          "size_bytes": 915334672,
+          "source_bytes_read": 915334672,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27772731",
+        "source_url": "https://sdilej.cz/27772731/hranice-nemozneho-s02e10-zalezitost-mozku-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759873",
-        "size_bytes": 915334672,
-        "source_bytes_read": 915334672,
-        "http_status": 201
+        "display_name": "Fringe S02E10 Grey Matters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:25:31.551782+00:00"
       }
     }
   },
@@ -206966,5 +206967,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:25:26.850576+00:00"
+  "updated_at": "2026-11-03T11:25:31.551802+00:00"
 }
