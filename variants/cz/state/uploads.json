@@ -200458,12 +200458,6 @@
     },
     "1054:6:11": {
       "episode_key": "brooklyn 99:s6:e11",
-      "claim": {
-        "worker_id": "c58fc395eab244958e9537d8d7a0b9ff-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:32:17.249191+00:00",
-        "lease_expires_at": "2026-11-03T12:32:17.249202+00:00"
-      },
       "source": {
         "source_id": "29567553",
         "source_url": "https://sdilej.cz/29567553/brooklyn-nine-nine-s06e11-1080p-cz.x265.mkv",
@@ -200488,15 +200482,22 @@
         "display_name": "Brooklyn Nine-Nine S06E11 The Therapist 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:32:19.675756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754529",
-        "size_bytes": 143295118
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754529",
+          "size_bytes": 143295118,
+          "source_bytes_read": 143295118,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567553",
+        "source_url": "https://sdilej.cz/29567553/brooklyn-nine-nine-s06e11-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754529",
-        "size_bytes": 143295118,
-        "source_bytes_read": 143295118,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E11 The Therapist 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:32:49.659317+00:00"
       }
     },
     "1054:6:12": {
@@ -200574,5 +200575,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:32:47.731169+00:00"
+  "updated_at": "2026-11-03T06:32:49.659333+00:00"
 }
