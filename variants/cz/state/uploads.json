@@ -192576,12 +192576,6 @@
     },
     "1076:1:4": {
       "episode_key": "kravaťáci:s1:e4",
-      "claim": {
-        "worker_id": "c030c46f19944a1284f4e66ca34ba1bb-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:53:23.214171+00:00",
-        "lease_expires_at": "2026-11-03T08:53:23.214182+00:00"
-      },
       "source": {
         "source_id": "6535798",
         "source_url": "https://sdilej.cz/6535798/kravataci.s01e04.mala.hrisna.tajemstvi.mkv",
@@ -192606,15 +192600,22 @@
         "display_name": "Suits S01E04 Dirty Little Secrets 720p CZ Dabing",
         "prepared_at": "2026-11-03T02:53:27.032946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30749194",
-        "size_bytes": 1506616336
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30749194",
+          "size_bytes": 1506616336,
+          "source_bytes_read": 1506616336,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6535798",
+        "source_url": "https://sdilej.cz/6535798/kravataci.s01e04.mala.hrisna.tajemstvi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30749194",
-        "size_bytes": 1506616336,
-        "source_bytes_read": 1506616336,
-        "http_status": 201
+        "display_name": "Suits S01E04 Dirty Little Secrets 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T02:55:58.650852+00:00"
       }
     }
   },
@@ -192623,5 +192624,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:55:54.800772+00:00"
+  "updated_at": "2026-11-03T02:55:58.650868+00:00"
 }
