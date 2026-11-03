@@ -203186,12 +203186,6 @@
     },
     "2889:9:3": {
       "episode_key": "jak funguje vesmír:s9:e3",
-      "claim": {
-        "worker_id": "aaa4463f07aa44cf9b586e35b877c157-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T08:59:26.244837+00:00",
-        "lease_expires_at": "2026-11-03T14:59:26.244850+00:00"
-      },
       "source": {
         "source_id": "34453491",
         "source_url": "https://sdilej.cz/34453491/how-the-universe-works-s09e03-tajomstva-slnka.mkv",
@@ -203216,15 +203210,22 @@
         "display_name": "How the Universe Works S09E03 Secrets Of The Sun 1080p CZ Dabing",
         "prepared_at": "2026-11-03T08:59:31.099452+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30756597",
-        "size_bytes": 1648535560
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30756597",
+          "size_bytes": 1648535560,
+          "source_bytes_read": 1648535560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34453491",
+        "source_url": "https://sdilej.cz/34453491/how-the-universe-works-s09e03-tajomstva-slnka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30756597",
-        "size_bytes": 1648535560,
-        "source_bytes_read": 1648535560,
-        "http_status": 201
+        "display_name": "How the Universe Works S09E03 Secrets Of The Sun 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:04:39.385578+00:00"
       }
     },
     "2889:9:4": {
@@ -203395,5 +203396,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:04:34.005800+00:00"
+  "updated_at": "2026-11-03T09:04:39.385596+00:00"
 }
