@@ -196586,12 +196586,6 @@
     },
     "1054:2:13": {
       "episode_key": "brooklyn 99:s2:e13",
-      "claim": {
-        "worker_id": "650003fb7a174f04a044b0fc6a95bb1c-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:45:26.188370+00:00",
-        "lease_expires_at": "2026-11-03T11:45:26.188385+00:00"
-      },
       "source": {
         "source_id": "32096974",
         "source_url": "https://sdilej.cz/32096974/brooklyn-nine-nine-s02e13-1080p-cz.x265.mkv",
@@ -196616,15 +196610,22 @@
         "display_name": "Brooklyn Nine-Nine S02E13 Payback 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:45:28.733346+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753589",
-        "size_bytes": 157006623
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753589",
+          "size_bytes": 157006623,
+          "source_bytes_read": 157006623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32096974",
+        "source_url": "https://sdilej.cz/32096974/brooklyn-nine-nine-s02e13-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753589",
-        "size_bytes": 157006623,
-        "source_bytes_read": 157006623,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E13 Payback 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:46:03.183155+00:00"
       }
     },
     "1054:2:14": {
@@ -196702,5 +196703,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:46:00.827868+00:00"
+  "updated_at": "2026-11-03T05:46:03.183171+00:00"
 }
