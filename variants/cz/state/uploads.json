@@ -197422,12 +197422,6 @@
     },
     "1054:3:9": {
       "episode_key": "brooklyn 99:s3:e9",
-      "claim": {
-        "worker_id": "cef78ceb4a9d4b509898a3a7501ef3d4-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:52:51.376875+00:00",
-        "lease_expires_at": "2026-11-03T11:52:51.376886+00:00"
-      },
       "source": {
         "source_id": "33381651",
         "source_url": "https://sdilej.cz/33381651/brooklyn-99-s03e09-23-2015-cz-dab-420p-svedove.avi",
@@ -197452,15 +197446,22 @@
         "display_name": "Brooklyn Nine-Nine S03E09 The Swedes SD CZ Dabing",
         "prepared_at": "2026-11-03T05:52:54.041056+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753743",
-        "size_bytes": 328146976
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753743",
+          "size_bytes": 328146976,
+          "source_bytes_read": 328146976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33381651",
+        "source_url": "https://sdilej.cz/33381651/brooklyn-99-s03e09-23-2015-cz-dab-420p-svedove.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753743",
-        "size_bytes": 328146976,
-        "source_bytes_read": 328146976,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E09 The Swedes SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:53:39.133960+00:00"
       }
     },
     "1054:3:10": {
@@ -197543,5 +197544,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:53:35.280754+00:00"
+  "updated_at": "2026-11-03T05:53:39.133976+00:00"
 }
