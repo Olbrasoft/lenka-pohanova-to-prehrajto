@@ -212632,12 +212632,6 @@
     },
     "3251:1:6": {
       "episode_key": "mare z easttownu:s1:e6",
-      "claim": {
-        "worker_id": "61d86d475336405694bd150017e50eae-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T15:46:45.970142+00:00",
-        "lease_expires_at": "2026-11-03T21:46:45.970151+00:00"
-      },
       "source": {
         "source_id": "29367838",
         "source_url": "https://sdilej.cz/29367838/mare-z-easttownu-mare-of-easttown-s01e06-2160p-dd-5.1-hdr-cz-dabing.mkv",
@@ -212662,15 +212656,22 @@
         "display_name": "Mare of Easttown S01E06 Sore Must Be the Storm 4K CZ Dabing",
         "prepared_at": "2026-11-03T15:46:52.410187+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30766554",
-        "size_bytes": 9627717989
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30766554",
+          "size_bytes": 9627717989,
+          "source_bytes_read": 9627717989,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367838",
+        "source_url": "https://sdilej.cz/29367838/mare-z-easttownu-mare-of-easttown-s01e06-2160p-dd-5.1-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30766554",
-        "size_bytes": 9627717989,
-        "source_bytes_read": 9627717989,
-        "http_status": 201
+        "display_name": "Mare of Easttown S01E06 Sore Must Be the Storm 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T16:13:43.733255+00:00"
       }
     }
   },
@@ -212679,5 +212680,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T16:13:35.129557+00:00"
+  "updated_at": "2026-11-03T16:13:43.733269+00:00"
 }
