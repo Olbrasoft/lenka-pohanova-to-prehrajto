@@ -195794,12 +195794,6 @@
     },
     "1054:1:17": {
       "episode_key": "brooklyn 99:s1:e17",
-      "claim": {
-        "worker_id": "a9dc43cc97df422099d8bfb7fd523cd9-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:32:17.334796+00:00",
-        "lease_expires_at": "2026-11-03T11:32:17.334807+00:00"
-      },
       "source": {
         "source_id": "29567420",
         "source_url": "https://sdilej.cz/29567420/brooklyn-nine-nine-s01e17-1080p-cz.x265.mkv",
@@ -195824,15 +195818,22 @@
         "display_name": "Brooklyn Nine-Nine S01E17 Full Boyle 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:32:23.884658+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753286",
-        "size_bytes": 149437646
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753286",
+          "size_bytes": 149437646,
+          "source_bytes_read": 149437646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567420",
+        "source_url": "https://sdilej.cz/29567420/brooklyn-nine-nine-s01e17-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753286",
-        "size_bytes": 149437646,
-        "source_bytes_read": 149437646,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E17 Full Boyle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:32:53.984683+00:00"
       }
     },
     "1054:1:18": {
@@ -195878,5 +195879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:32:52.028013+00:00"
+  "updated_at": "2026-11-03T05:32:53.984699+00:00"
 }
