@@ -196234,12 +196234,6 @@
     },
     "1054:2:5": {
       "episode_key": "brooklyn 99:s2:e5",
-      "claim": {
-        "worker_id": "250ab1a638954287853e8f8e85362b37-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:42:44.593965+00:00",
-        "lease_expires_at": "2026-11-03T11:42:44.593976+00:00"
-      },
       "source": {
         "source_id": "29567441",
         "source_url": "https://sdilej.cz/29567441/brooklyn-nine-nine-s02e05-1080p-cz.x265.mkv",
@@ -196264,15 +196258,22 @@
         "display_name": "Brooklyn Nine-Nine S02E05 The Mole 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:42:48.392535+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753500",
-        "size_bytes": 146748627
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753500",
+          "size_bytes": 146748627,
+          "source_bytes_read": 146748627,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567441",
+        "source_url": "https://sdilej.cz/29567441/brooklyn-nine-nine-s02e05-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753500",
-        "size_bytes": 146748627,
-        "source_bytes_read": 146748627,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E05 The Mole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:43:23.077391+00:00"
       }
     },
     "1054:2:6": {
@@ -196317,5 +196318,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:43:20.283469+00:00"
+  "updated_at": "2026-11-03T05:43:23.077413+00:00"
 }
