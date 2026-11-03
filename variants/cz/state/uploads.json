@@ -205342,12 +205342,6 @@
     },
     "3595:2:5": {
       "episode_key": "stíny:s2:e5",
-      "claim": {
-        "worker_id": "dc02d538e4ac4ac1a7d380edc05ab171-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:17:01.513596+00:00",
-        "lease_expires_at": "2026-11-03T16:17:01.513607+00:00"
-      },
       "source": {
         "source_id": "12930177",
         "source_url": "https://sdilej.cz/12930177/stiny-s02e05.avi",
@@ -205372,15 +205366,22 @@
         "display_name": "Shadows S02E05 Peronik SD CZ Dabing",
         "prepared_at": "2026-11-03T10:17:05.934120+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758668",
-        "size_bytes": 875764234
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758668",
+          "size_bytes": 875764234,
+          "source_bytes_read": 875764234,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12930177",
+        "source_url": "https://sdilej.cz/12930177/stiny-s02e05.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758668",
-        "size_bytes": 875764234,
-        "source_bytes_read": 875764234,
-        "http_status": 201
+        "display_name": "Shadows S02E05 Peronik SD CZ Dabing",
+        "uploaded_at": "2026-11-03T10:18:40.634274+00:00"
       }
     },
     "3595:3:2": {
@@ -205507,5 +205508,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:18:35.925231+00:00"
+  "updated_at": "2026-11-03T10:18:40.634293+00:00"
 }
