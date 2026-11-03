@@ -190604,12 +190604,6 @@
     },
     "93:2:1": {
       "episode_key": "the last of us:s2:e1",
-      "claim": {
-        "worker_id": "2fe325ea7c5549e58f09002b239761a3-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T00:33:44.450739+00:00",
-        "lease_expires_at": "2026-11-03T06:33:44.450751+00:00"
-      },
       "source": {
         "source_id": "34526735",
         "source_url": "https://sdilej.cz/34526735/the-last-of-us-s02e01-cz-dabing-2160p-uhd.mkv",
@@ -190634,15 +190628,22 @@
         "display_name": "The Last of Us S02E01 Future Days 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:33:47.260203+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30746019",
-        "size_bytes": 2865778971
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30746019",
+          "size_bytes": 2865778971,
+          "source_bytes_read": 2865778971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34526735",
+        "source_url": "https://sdilej.cz/34526735/the-last-of-us-s02e01-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30746019",
-        "size_bytes": 2865778971,
-        "source_bytes_read": 2865778971,
-        "http_status": 201
+        "display_name": "The Last of Us S02E01 Future Days 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:39:41.583025+00:00"
       }
     },
     "93:2:2": {
@@ -190725,5 +190726,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:39:34.031657+00:00"
+  "updated_at": "2026-11-03T00:39:41.583054+00:00"
 }
