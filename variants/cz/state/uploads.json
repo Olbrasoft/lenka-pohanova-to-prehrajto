@@ -198874,12 +198874,6 @@
     },
     "1054:4:19": {
       "episode_key": "brooklyn 99:s4:e19",
-      "claim": {
-        "worker_id": "5e3b2e9f3be34ffda2e68d8777fbde07-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:05:48.214541+00:00",
-        "lease_expires_at": "2026-11-03T12:05:48.214554+00:00"
-      },
       "source": {
         "source_id": "34860291",
         "source_url": "https://sdilej.cz/34860291/brooklyn-99-s04e19-22-2016-cz-dabing-404p-sd-vase-ctihodnosti.avi",
@@ -198904,15 +198898,22 @@
         "display_name": "Brooklyn Nine-Nine S04E19 Your Honor SD CZ Dabing",
         "prepared_at": "2026-11-03T06:05:52.445213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754052",
-        "size_bytes": 333838508
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754052",
+          "size_bytes": 333838508,
+          "source_bytes_read": 333838508,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860291",
+        "source_url": "https://sdilej.cz/34860291/brooklyn-99-s04e19-22-2016-cz-dabing-404p-sd-vase-ctihodnosti.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754052",
-        "size_bytes": 333838508,
-        "source_bytes_read": 333838508,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S04E19 Your Honor SD CZ Dabing",
+        "uploaded_at": "2026-11-03T06:06:33.769015+00:00"
       }
     },
     "1054:4:20": {
@@ -198964,5 +198965,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:06:30.306972+00:00"
+  "updated_at": "2026-11-03T06:06:33.769031+00:00"
 }
