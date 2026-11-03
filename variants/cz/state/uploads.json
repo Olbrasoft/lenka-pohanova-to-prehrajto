@@ -199043,12 +199043,6 @@
     },
     "1054:5:1": {
       "episode_key": "brooklyn 99:s5:e1",
-      "claim": {
-        "worker_id": "f4cf88d4237849e5961a9eeb19c63af6-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:07:34.777532+00:00",
-        "lease_expires_at": "2026-11-03T12:07:34.777542+00:00"
-      },
       "source": {
         "source_id": "29567513",
         "source_url": "https://sdilej.cz/29567513/brooklyn-nine-nine-s05e01-1080p-cz.x265.mkv",
@@ -199073,15 +199067,22 @@
         "display_name": "Brooklyn Nine-Nine S05E01 The Big House (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:07:42.341539+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754098",
-        "size_bytes": 143490166
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754098",
+          "size_bytes": 143490166,
+          "source_bytes_read": 143490166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567513",
+        "source_url": "https://sdilej.cz/29567513/brooklyn-nine-nine-s05e01-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754098",
-        "size_bytes": 143490166,
-        "source_bytes_read": 143490166,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E01 The Big House (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:08:11.445386+00:00"
       }
     }
   },
@@ -199090,5 +199091,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:08:09.460420+00:00"
+  "updated_at": "2026-11-03T06:08:11.445399+00:00"
 }
