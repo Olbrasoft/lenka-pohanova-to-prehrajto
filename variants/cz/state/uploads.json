@@ -207095,12 +207095,6 @@
     },
     "46:2:14": {
       "episode_key": "hranice nemožného:s2:e14",
-      "claim": {
-        "worker_id": "046c2196e7784154886befb4b4271840-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:27:30.442567+00:00",
-        "lease_expires_at": "2026-11-03T17:27:30.442580+00:00"
-      },
       "source": {
         "source_id": "27772959",
         "source_url": "https://sdilej.cz/27772959/hranice-nemozneho-s02e14-morsky-konik-serial-cz-dabing-.mkv",
@@ -207125,15 +207119,22 @@
         "display_name": "Fringe S02E14 The Bishop Revival 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:27:33.035861+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759918",
-        "size_bytes": 905205690
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759918",
+          "size_bytes": 905205690,
+          "source_bytes_read": 905205690,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27772959",
+        "source_url": "https://sdilej.cz/27772959/hranice-nemozneho-s02e14-morsky-konik-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759918",
-        "size_bytes": 905205690,
-        "source_bytes_read": 905205690,
-        "http_status": 201
+        "display_name": "Fringe S02E14 The Bishop Revival 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:29:21.344830+00:00"
       }
     },
     "46:2:15": {
@@ -207179,5 +207180,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:29:16.355046+00:00"
+  "updated_at": "2026-11-03T11:29:21.344847+00:00"
 }
