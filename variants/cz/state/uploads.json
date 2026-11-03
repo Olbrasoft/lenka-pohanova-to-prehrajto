@@ -205430,12 +205430,6 @@
     },
     "3595:3:3": {
       "episode_key": "stíny:s3:e3",
-      "claim": {
-        "worker_id": "4416dad5a2eb46a289d6e1bc2f86b4f1-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:17:48.424869+00:00",
-        "lease_expires_at": "2026-11-03T16:17:48.424882+00:00"
-      },
       "source": {
         "source_id": "12930226",
         "source_url": "https://sdilej.cz/12930226/stiny-s03e03.avi",
@@ -205460,15 +205454,22 @@
         "display_name": "Shadows S03E03 And Now For My Next Trick SD CZ Dabing",
         "prepared_at": "2026-11-03T10:17:51.037889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758679",
-        "size_bytes": 869555780
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758679",
+          "size_bytes": 869555780,
+          "source_bytes_read": 869555780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12930226",
+        "source_url": "https://sdilej.cz/12930226/stiny-s03e03.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758679",
-        "size_bytes": 869555780,
-        "source_bytes_read": 869555780,
-        "http_status": 201
+        "display_name": "Shadows S03E03 And Now For My Next Trick SD CZ Dabing",
+        "uploaded_at": "2026-11-03T10:19:09.950829+00:00"
       }
     },
     "3595:3:5": {
@@ -205551,5 +205552,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:19:05.141438+00:00"
+  "updated_at": "2026-11-03T10:19:09.950853+00:00"
 }
