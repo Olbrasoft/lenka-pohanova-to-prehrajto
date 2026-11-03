@@ -208466,12 +208466,6 @@
     },
     "46:3:22": {
       "episode_key": "hranice nemožného:s3:e22",
-      "claim": {
-        "worker_id": "bca4bc08d0ad42c291279e659cf9286d-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:24:45.439218+00:00",
-        "lease_expires_at": "2026-11-03T18:24:45.439246+00:00"
-      },
       "source": {
         "source_id": "32826635",
         "source_url": "https://sdilej.cz/32826635/hranice-nemozneho-s03e22-den-kdy-jsme-zemreli.mkv",
@@ -208496,15 +208490,22 @@
         "display_name": "Fringe S03E22 The Day We Died 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:24:52.510472+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760760",
-        "size_bytes": 933627858
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760760",
+          "size_bytes": 933627858,
+          "source_bytes_read": 933627858,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32826635",
+        "source_url": "https://sdilej.cz/32826635/hranice-nemozneho-s03e22-den-kdy-jsme-zemreli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760760",
-        "size_bytes": 933627858,
-        "source_bytes_read": 933627858,
-        "http_status": 201
+        "display_name": "Fringe S03E22 The Day We Died 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:26:07.223414+00:00"
       }
     },
     "46:4:1": {
@@ -208587,5 +208588,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:26:02.430113+00:00"
+  "updated_at": "2026-11-03T12:26:07.223433+00:00"
 }
