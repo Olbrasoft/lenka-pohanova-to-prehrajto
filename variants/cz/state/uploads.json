@@ -193864,12 +193864,6 @@
     },
     "1076:3:5": {
       "episode_key": "kravaťáci:s3:e5",
-      "claim": {
-        "worker_id": "8f5a7e8844674e9d83e45c35997eb8a6-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T04:52:29.967691+00:00",
-        "lease_expires_at": "2026-11-03T10:52:29.967703+00:00"
-      },
       "source": {
         "source_id": "10762441",
         "source_url": "https://sdilej.cz/10762441/kravataci.s03e05.stin.pochyb.mkv",
@@ -193894,15 +193888,22 @@
         "display_name": "Suits S03E05 Shadow of a Doubt 720p CZ Dabing",
         "prepared_at": "2026-11-03T04:52:33.566266+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752654",
-        "size_bytes": 1488700216
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752654",
+          "size_bytes": 1488700216,
+          "source_bytes_read": 1488700216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10762441",
+        "source_url": "https://sdilej.cz/10762441/kravataci.s03e05.stin.pochyb.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752654",
-        "size_bytes": 1488700216,
-        "source_bytes_read": 1488700216,
-        "http_status": 201
+        "display_name": "Suits S03E05 Shadow of a Doubt 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T04:54:59.143269+00:00"
       }
     },
     "1076:3:6": {
@@ -193955,5 +193956,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T04:54:57.266015+00:00"
+  "updated_at": "2026-11-03T04:54:59.143285+00:00"
 }
