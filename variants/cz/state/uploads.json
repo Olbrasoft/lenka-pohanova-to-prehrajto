@@ -208686,12 +208686,6 @@
     },
     "46:4:5": {
       "episode_key": "hranice nemožného:s4:e5",
-      "claim": {
-        "worker_id": "f95f4de51db246bf9bd4b450175806a0-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:27:04.000911+00:00",
-        "lease_expires_at": "2026-11-03T18:27:04.000926+00:00"
-      },
       "source": {
         "source_id": "29944798",
         "source_url": "https://sdilej.cz/29944798/fringe-s04e05-1080p-cz-dabing.mkv",
@@ -208716,15 +208710,22 @@
         "display_name": "Fringe S04E05 Novation 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:27:07.805554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760808",
-        "size_bytes": 1592218529
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760808",
+          "size_bytes": 1592218529,
+          "source_bytes_read": 1592218529,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29944798",
+        "source_url": "https://sdilej.cz/29944798/fringe-s04e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760808",
-        "size_bytes": 1592218529,
-        "source_bytes_read": 1592218529,
-        "http_status": 201
+        "display_name": "Fringe S04E05 Novation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:31:32.792926+00:00"
       }
     },
     "46:4:6": {
@@ -208807,5 +208808,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:31:29.030728+00:00"
+  "updated_at": "2026-11-03T12:31:32.792942+00:00"
 }
