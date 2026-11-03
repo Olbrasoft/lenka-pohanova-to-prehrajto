@@ -194298,12 +194298,6 @@
     },
     "1076:3:15": {
       "episode_key": "kravaťáci:s3:e15",
-      "claim": {
-        "worker_id": "c0aa8598b93a4dbea056c6d496b59c46-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:00:37.795354+00:00",
-        "lease_expires_at": "2026-11-03T11:00:37.795366+00:00"
-      },
       "source": {
         "source_id": "33171049",
         "source_url": "https://sdilej.cz/33171049/kravataci-s03e15-16-2013-cz-dab-odkryte-karty.mp4",
@@ -194328,15 +194322,22 @@
         "display_name": "Suits S03E15 Know When to Fold 'Em 720p CZ Dabing",
         "prepared_at": "2026-11-03T05:00:40.361695+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752744",
-        "size_bytes": 942645824
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752744",
+          "size_bytes": 942645824,
+          "source_bytes_read": 942645824,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33171049",
+        "source_url": "https://sdilej.cz/33171049/kravataci-s03e15-16-2013-cz-dab-odkryte-karty.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752744",
-        "size_bytes": 942645824,
-        "source_bytes_read": 942645824,
-        "http_status": 201
+        "display_name": "Suits S03E15 Know When to Fold 'Em 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:02:03.987080+00:00"
       }
     },
     "1076:3:16": {
@@ -194419,5 +194420,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:02:00.793979+00:00"
+  "updated_at": "2026-11-03T05:02:03.987099+00:00"
 }
