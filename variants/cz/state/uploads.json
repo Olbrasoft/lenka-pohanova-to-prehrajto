@@ -215103,12 +215103,6 @@
     },
     "64:4:6": {
       "episode_key": "banshee:s4:e6",
-      "claim": {
-        "worker_id": "30fec718d7ef48cd89b0699ba527ae01-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:47:00.099860+00:00",
-        "lease_expires_at": "2026-11-04T05:47:00.099871+00:00"
-      },
       "source": {
         "source_id": "32875471",
         "source_url": "https://sdilej.cz/32875471/banshee-s04e06-cz-dabing-1080p-full-hd.mkv",
@@ -215133,15 +215127,22 @@
         "display_name": "Banshee S04E06 Only One Way a Dogfight Ends 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:47:05.183623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775223",
-        "size_bytes": 995350122
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775223",
+          "size_bytes": 995350122,
+          "source_bytes_read": 995350122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875471",
+        "source_url": "https://sdilej.cz/32875471/banshee-s04e06-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775223",
-        "size_bytes": 995350122,
-        "source_bytes_read": 995350122,
-        "http_status": 201
+        "display_name": "Banshee S04E06 Only One Way a Dogfight Ends 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:48:55.813386+00:00"
       }
     },
     "64:4:7": {
@@ -215187,5 +215188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:48:48.440832+00:00"
+  "updated_at": "2026-11-03T23:48:55.813400+00:00"
 }
