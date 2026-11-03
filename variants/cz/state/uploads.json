@@ -198170,12 +198170,6 @@
     },
     "1054:4:3": {
       "episode_key": "brooklyn 99:s4:e3",
-      "claim": {
-        "worker_id": "6943baf029a54e7c8eb8d924ff8de67b-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:59:43.077043+00:00",
-        "lease_expires_at": "2026-11-03T11:59:43.077053+00:00"
-      },
       "source": {
         "source_id": "33381671",
         "source_url": "https://sdilej.cz/33381671/brooklyn-99-s04e03-22-2016-cz-dab-420p-coral-palms-3.-cast.avi",
@@ -198200,15 +198194,22 @@
         "display_name": "Brooklyn Nine-Nine S04E03 Coral Palms (3) SD CZ Dabing",
         "prepared_at": "2026-11-03T05:59:53.890982+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753917",
-        "size_bytes": 327056912
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753917",
+          "size_bytes": 327056912,
+          "source_bytes_read": 327056912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33381671",
+        "source_url": "https://sdilej.cz/33381671/brooklyn-99-s04e03-22-2016-cz-dab-420p-coral-palms-3.-cast.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753917",
-        "size_bytes": 327056912,
-        "source_bytes_read": 327056912,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S04E03 Coral Palms (3) SD CZ Dabing",
+        "uploaded_at": "2026-11-03T06:00:30.358853+00:00"
       }
     },
     "1054:4:4": {
@@ -198298,5 +198299,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:00:26.617672+00:00"
+  "updated_at": "2026-11-03T06:00:30.358871+00:00"
 }
