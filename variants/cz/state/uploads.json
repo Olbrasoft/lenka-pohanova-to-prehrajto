@@ -190380,12 +190380,6 @@
     },
     "93:1:5": {
       "episode_key": "the last of us:s1:e5",
-      "claim": {
-        "worker_id": "0ad6b5e9755e42438832a4dcf5be6735-worker-0",
-        "run_id": "41518498444",
-        "claimed_at": "2026-11-03T00:13:45.244675+00:00",
-        "lease_expires_at": "2026-11-03T06:13:45.244689+00:00"
-      },
       "source": {
         "source_id": "25141829",
         "source_url": "https://sdilej.cz/25141829/the.last.of.us.s01e05-cz-sk-endab-2160p-hdr.mkv",
@@ -190410,15 +190404,22 @@
         "display_name": "The Last of Us S01E05 Endure and Survive 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:13:47.813935+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745577",
-        "size_bytes": 8542975693
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745577",
+          "size_bytes": 8542975693,
+          "source_bytes_read": 8542975693,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25141829",
+        "source_url": "https://sdilej.cz/25141829/the.last.of.us.s01e05-cz-sk-endab-2160p-hdr.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745577",
-        "size_bytes": 8542975693,
-        "source_bytes_read": 8542975693,
-        "http_status": 201
+        "display_name": "The Last of Us S01E05 Endure and Survive 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:25:19.459586+00:00"
       }
     },
     "93:1:6": {
@@ -190464,5 +190465,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:25:17.358038+00:00"
+  "updated_at": "2026-11-03T00:25:19.459602+00:00"
 }
