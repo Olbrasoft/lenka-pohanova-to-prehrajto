@@ -207403,12 +207403,6 @@
     },
     "46:2:21": {
       "episode_key": "hranice nemožného:s2:e21",
-      "claim": {
-        "worker_id": "11ef56e738514466a1d81df1774e6940-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:48:32.544175+00:00",
-        "lease_expires_at": "2026-11-03T17:48:32.544189+00:00"
-      },
       "source": {
         "source_id": "27773529",
         "source_url": "https://sdilej.cz/27773529/hranice-nemozneho-s02e21-peterova-cesta.mkv",
@@ -207433,15 +207427,22 @@
         "display_name": "Fringe S02E21 Northwest Passage 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:48:36.768129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760212",
-        "size_bytes": 904122451
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760212",
+          "size_bytes": 904122451,
+          "source_bytes_read": 904122451,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27773529",
+        "source_url": "https://sdilej.cz/27773529/hranice-nemozneho-s02e21-peterova-cesta.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760212",
-        "size_bytes": 904122451,
-        "source_bytes_read": 904122451,
-        "http_status": 201
+        "display_name": "Fringe S02E21 Northwest Passage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:50:01.158872+00:00"
       }
     },
     "46:2:22": {
@@ -207487,5 +207488,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:49:55.391302+00:00"
+  "updated_at": "2026-11-03T11:50:01.158890+00:00"
 }
