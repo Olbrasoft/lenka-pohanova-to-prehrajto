@@ -210087,12 +210087,6 @@
     },
     "2336:1:5": {
       "episode_key": "sedmilhářky:s1:e5",
-      "claim": {
-        "worker_id": "72430dbc14bd4005ae42cb00c1b66294-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T13:27:29.542497+00:00",
-        "lease_expires_at": "2026-11-03T19:27:29.542509+00:00"
-      },
       "source": {
         "source_id": "21646315",
         "source_url": "https://sdilej.cz/21646315/sedmilharky-big.little.lies.s01e05.once.bitten.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
@@ -210117,15 +210111,22 @@
         "display_name": "Big Little Lies S01E05 Once Bitten 1080p CZ Dabing",
         "prepared_at": "2026-11-03T13:27:34.339892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30762145",
-        "size_bytes": 2422405567
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30762145",
+          "size_bytes": 2422405567,
+          "source_bytes_read": 2422405567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21646315",
+        "source_url": "https://sdilej.cz/21646315/sedmilharky-big.little.lies.s01e05.once.bitten.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30762145",
-        "size_bytes": 2422405567,
-        "source_bytes_read": 2422405567,
-        "http_status": 201
+        "display_name": "Big Little Lies S01E05 Once Bitten 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T13:32:38.394052+00:00"
       }
     },
     "2336:1:6": {
@@ -210171,5 +210172,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T13:32:32.706140+00:00"
+  "updated_at": "2026-11-03T13:32:38.394067+00:00"
 }
