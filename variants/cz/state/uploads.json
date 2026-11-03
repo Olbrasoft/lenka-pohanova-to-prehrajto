@@ -203700,12 +203700,6 @@
     },
     "2413:1:7": {
       "episode_key": "policajti z l. a.:s1:e7",
-      "claim": {
-        "worker_id": "58b00a05bbf64f919a052f414c9a117a-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:15:01.296096+00:00",
-        "lease_expires_at": "2026-11-03T15:15:01.296111+00:00"
-      },
       "source": {
         "source_id": "27646269",
         "source_url": "https://sdilej.cz/27646269/policajti-z-l.-a.-s01e07-cz.mkv",
@@ -203730,15 +203724,22 @@
         "display_name": "Southland S01E07 Derailed 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:15:04.238015+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757471",
-        "size_bytes": 910694389
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757471",
+          "size_bytes": 910694389,
+          "source_bytes_read": 910694389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646269",
+        "source_url": "https://sdilej.cz/27646269/policajti-z-l.-a.-s01e07-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757471",
-        "size_bytes": 910694389,
-        "source_bytes_read": 910694389,
-        "http_status": 201
+        "display_name": "Southland S01E07 Derailed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:17:07.797961+00:00"
       }
     }
   },
@@ -203747,5 +203748,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:17:02.513900+00:00"
+  "updated_at": "2026-11-03T09:17:07.797982+00:00"
 }
