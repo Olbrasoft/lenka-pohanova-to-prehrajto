@@ -203890,12 +203890,6 @@
     },
     "2413:2:5": {
       "episode_key": "policajti z l. a.:s2:e5",
-      "claim": {
-        "worker_id": "a1d1c1136dd5456c97eb7e4a91d3fd3f-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:19:28.851397+00:00",
-        "lease_expires_at": "2026-11-03T15:19:28.851413+00:00"
-      },
       "source": {
         "source_id": "27646444",
         "source_url": "https://sdilej.cz/27646444/policajti-z-l.-a.-s02e05-cz.mkv",
@@ -203920,15 +203914,22 @@
         "display_name": "Southland S02E05 What Makes Sammy Run? 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:19:31.287596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757748",
-        "size_bytes": 1029910865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757748",
+          "size_bytes": 1029910865,
+          "source_bytes_read": 1029910865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646444",
+        "source_url": "https://sdilej.cz/27646444/policajti-z-l.-a.-s02e05-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757748",
-        "size_bytes": 1029910865,
-        "source_bytes_read": 1029910865,
-        "http_status": 201
+        "display_name": "Southland S02E05 What Makes Sammy Run? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:21:01.540633+00:00"
       }
     },
     "2413:3:4": {
@@ -204011,5 +204012,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:20:56.328956+00:00"
+  "updated_at": "2026-11-03T09:21:01.540653+00:00"
 }
