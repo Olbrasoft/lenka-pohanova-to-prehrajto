@@ -211634,12 +211634,6 @@
     },
     "144:2:8": {
       "episode_key": "love, death & robots:s2:e8",
-      "claim": {
-        "worker_id": "eef21eeb4e5d4842bcc20bedc367f4db-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:38:11.405565+00:00",
-        "lease_expires_at": "2026-11-03T20:38:11.405579+00:00"
-      },
       "source": {
         "source_id": "34119596",
         "source_url": "https://sdilej.cz/34119596/love-death-robots-s02e08-cz-dab-rebelant.mkv",
@@ -211664,15 +211658,22 @@
         "display_name": "Love, Death & Robots S02E08 The Drowned Giant 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:38:20.572924+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764373",
-        "size_bytes": 483136233
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764373",
+          "size_bytes": 483136233,
+          "source_bytes_read": 483136233,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34119596",
+        "source_url": "https://sdilej.cz/34119596/love-death-robots-s02e08-cz-dab-rebelant.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764373",
-        "size_bytes": 483136233,
-        "source_bytes_read": 483136233,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S02E08 The Drowned Giant 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:39:20.498386+00:00"
       }
     },
     "144:3:1": {
@@ -211799,5 +211800,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:39:16.806626+00:00"
+  "updated_at": "2026-11-03T14:39:20.498402+00:00"
 }
