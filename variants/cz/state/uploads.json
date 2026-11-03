@@ -205606,12 +205606,6 @@
     },
     "46:1:1": {
       "episode_key": "hranice nemožného:s1:e1",
-      "claim": {
-        "worker_id": "6441ec1cf1e44d0b9f5672b75e531765-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:19:39.022996+00:00",
-        "lease_expires_at": "2026-11-03T16:19:39.023010+00:00"
-      },
       "source": {
         "source_id": "27770623",
         "source_url": "https://sdilej.cz/27770623/hranice-nemozneho-s01e01-navrat-sileneho-vedce-serial-cz-dabing-.mkv",
@@ -205636,15 +205630,22 @@
         "display_name": "Fringe S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:19:41.604550+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758707",
-        "size_bytes": 1693328860
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758707",
+          "size_bytes": 1693328860,
+          "source_bytes_read": 1693328860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27770623",
+        "source_url": "https://sdilej.cz/27770623/hranice-nemozneho-s01e01-navrat-sileneho-vedce-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758707",
-        "size_bytes": 1693328860,
-        "source_bytes_read": 1693328860,
-        "http_status": 201
+        "display_name": "Fringe S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:24:28.170386+00:00"
       }
     },
     "46:1:2": {
@@ -205859,5 +205860,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:24:24.724256+00:00"
+  "updated_at": "2026-11-03T10:24:28.170407+00:00"
 }
