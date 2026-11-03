@@ -202776,12 +202776,6 @@
     },
     "2889:1:6": {
       "episode_key": "jak funguje vesmír:s1:e6",
-      "claim": {
-        "worker_id": "d1adba2f8add47768066c6dae35552aa-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T08:09:47.966340+00:00",
-        "lease_expires_at": "2026-11-03T14:09:47.966350+00:00"
-      },
       "source": {
         "source_id": "19131601",
         "source_url": "https://sdilej.cz/19131601/jak-funguje-vesmir-s01e06-planets-cz-dabing.mkv",
@@ -202806,15 +202800,22 @@
         "display_name": "How the Universe Works S01E06 Planets 720p CZ Dabing",
         "prepared_at": "2026-11-03T08:09:52.703493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755999",
-        "size_bytes": 1236848674
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755999",
+          "size_bytes": 1236848674,
+          "source_bytes_read": 1236848674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19131601",
+        "source_url": "https://sdilej.cz/19131601/jak-funguje-vesmir-s01e06-planets-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755999",
-        "size_bytes": 1236848674,
-        "source_bytes_read": 1236848674,
-        "http_status": 201
+        "display_name": "How the Universe Works S01E06 Planets 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T08:12:03.028688+00:00"
       }
     }
   },
@@ -202823,5 +202824,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T08:11:57.795495+00:00"
+  "updated_at": "2026-11-03T08:12:03.028710+00:00"
 }
