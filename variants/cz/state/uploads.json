@@ -204110,12 +204110,6 @@
     },
     "2413:3:10": {
       "episode_key": "policajti z l. a.:s3:e10",
-      "claim": {
-        "worker_id": "4de41828921e455fb759860689323404-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:21:56.339701+00:00",
-        "lease_expires_at": "2026-11-03T15:21:56.339712+00:00"
-      },
       "source": {
         "source_id": "27646665",
         "source_url": "https://sdilej.cz/27646665/policajti-z-l.-a.-s03e10-cz.mkv",
@@ -204140,15 +204134,22 @@
         "display_name": "Southland S03E10 Graduation Day 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:21:58.784218+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757799",
-        "size_bytes": 972645366
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757799",
+          "size_bytes": 972645366,
+          "source_bytes_read": 972645366,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646665",
+        "source_url": "https://sdilej.cz/27646665/policajti-z-l.-a.-s03e10-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757799",
-        "size_bytes": 972645366,
-        "source_bytes_read": 972645366,
-        "http_status": 201
+        "display_name": "Southland S03E10 Graduation Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:23:45.574141+00:00"
       }
     },
     "2413:4:1": {
@@ -204238,5 +204239,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:23:43.040060+00:00"
+  "updated_at": "2026-11-03T09:23:45.574159+00:00"
 }
