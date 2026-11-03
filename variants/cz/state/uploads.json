@@ -204600,12 +204600,6 @@
     },
     "2413:5:1": {
       "episode_key": "policajti z l. a.:s5:e1",
-      "claim": {
-        "worker_id": "998827f1eed243bf9830a2e8bc0042ca-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:48:31.135374+00:00",
-        "lease_expires_at": "2026-11-03T15:48:31.135390+00:00"
-      },
       "source": {
         "source_id": "27646922",
         "source_url": "https://sdilej.cz/27646922/policajti-z-l.-a.-s05e01-cz.mkv",
@@ -204630,15 +204624,22 @@
         "display_name": "Southland S05E01 Hats and Bats 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:48:34.822782+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758213",
-        "size_bytes": 786574231
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758213",
+          "size_bytes": 786574231,
+          "source_bytes_read": 786574231,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646922",
+        "source_url": "https://sdilej.cz/27646922/policajti-z-l.-a.-s05e01-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758213",
-        "size_bytes": 786574231,
-        "source_bytes_read": 786574231,
-        "http_status": 201
+        "display_name": "Southland S05E01 Hats and Bats 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:51:22.772689+00:00"
       }
     },
     "2413:5:2": {
@@ -204728,5 +204729,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:51:19.124661+00:00"
+  "updated_at": "2026-11-03T09:51:22.772710+00:00"
 }
