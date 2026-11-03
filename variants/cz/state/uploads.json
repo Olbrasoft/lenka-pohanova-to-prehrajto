@@ -200150,12 +200150,6 @@
     },
     "1054:6:4": {
       "episode_key": "brooklyn 99:s6:e4",
-      "claim": {
-        "worker_id": "e3c8c086b14241b1882b4754ce62c2e9-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:30:23.831736+00:00",
-        "lease_expires_at": "2026-11-03T12:30:23.831747+00:00"
-      },
       "source": {
         "source_id": "29567542",
         "source_url": "https://sdilej.cz/29567542/brooklyn-nine-nine-s06e04-1080p-cz.x265.mkv",
@@ -200180,15 +200174,22 @@
         "display_name": "Brooklyn Nine-Nine S06E04 Four Movements 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:30:31.037029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754507",
-        "size_bytes": 149469413
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754507",
+          "size_bytes": 149469413,
+          "source_bytes_read": 149469413,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567542",
+        "source_url": "https://sdilej.cz/29567542/brooklyn-nine-nine-s06e04-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754507",
-        "size_bytes": 149469413,
-        "source_bytes_read": 149469413,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S06E04 Four Movements 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:31:00.263317+00:00"
       }
     },
     "1054:6:5": {
@@ -200277,5 +200278,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:30:58.244696+00:00"
+  "updated_at": "2026-11-03T06:31:00.263330+00:00"
 }
