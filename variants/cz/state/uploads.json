@@ -190516,12 +190516,6 @@
     },
     "93:1:7": {
       "episode_key": "the last of us:s1:e7",
-      "claim": {
-        "worker_id": "4336d5f16a914fa7abd514d34a3b9f69-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T00:31:09.792642+00:00",
-        "lease_expires_at": "2026-11-03T06:31:09.792653+00:00"
-      },
       "source": {
         "source_id": "34526703",
         "source_url": "https://sdilej.cz/34526703/the-last-of-us-s01e07-cz-dabing-2160p-uhd.mkv",
@@ -190546,15 +190540,22 @@
         "display_name": "The Last of Us S01E07 Left Behind 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:31:16.288954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30745962",
-        "size_bytes": 2470697457
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30745962",
+          "size_bytes": 2470697457,
+          "source_bytes_read": 2470697457,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34526703",
+        "source_url": "https://sdilej.cz/34526703/the-last-of-us-s01e07-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30745962",
-        "size_bytes": 2470697457,
-        "source_bytes_read": 2470697457,
-        "http_status": 201
+        "display_name": "The Last of Us S01E07 Left Behind 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:35:29.058639+00:00"
       }
     },
     "93:1:8": {
@@ -190677,5 +190678,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:35:27.088174+00:00"
+  "updated_at": "2026-11-03T00:35:29.058655+00:00"
 }
