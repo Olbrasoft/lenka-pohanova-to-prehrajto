@@ -212426,12 +212426,6 @@
     },
     "3251:1:1": {
       "episode_key": "mare z easttownu:s1:e1",
-      "claim": {
-        "worker_id": "a8e999e33f684cb7a648c548bf4d4af4-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:44:44.127302+00:00",
-        "lease_expires_at": "2026-11-03T20:44:44.127345+00:00"
-      },
       "source": {
         "source_id": "29367703",
         "source_url": "https://sdilej.cz/29367703/mare-z-easttownu-mare-of-easttown-s01e01-2160p-dd-5.1-hdr-cz-dabing.mkv",
@@ -212456,15 +212450,22 @@
         "display_name": "Mare of Easttown S01E01 Miss Lady Hawk Herself 4K CZ Dabing",
         "prepared_at": "2026-11-03T14:44:47.325465+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764622",
-        "size_bytes": 9450640407
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764622",
+          "size_bytes": 9450640407,
+          "source_bytes_read": 9450640407,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367703",
+        "source_url": "https://sdilej.cz/29367703/mare-z-easttownu-mare-of-easttown-s01e01-2160p-dd-5.1-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764622",
-        "size_bytes": 9450640407,
-        "source_bytes_read": 9450640407,
-        "http_status": 201
+        "display_name": "Mare of Easttown S01E01 Miss Lady Hawk Herself 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T15:03:12.419627+00:00"
       }
     },
     "3251:1:2": {
@@ -212547,5 +212548,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T15:03:06.191045+00:00"
+  "updated_at": "2026-11-03T15:03:12.419647+00:00"
 }
