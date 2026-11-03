@@ -194700,12 +194700,6 @@
     },
     "1076:4:8": {
       "episode_key": "kravaťáci:s4:e8",
-      "claim": {
-        "worker_id": "d0706158c65f43d5ace69c57bb32e51b-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:07:37.916339+00:00",
-        "lease_expires_at": "2026-11-03T11:07:37.916349+00:00"
-      },
       "source": {
         "source_id": "33160846",
         "source_url": "https://sdilej.cz/33160846/kravataci-s04e08-cz-dabing.mkv",
@@ -194730,15 +194724,22 @@
         "display_name": "Suits S04E08 Exposure 720p CZ Dabing",
         "prepared_at": "2026-11-03T05:07:41.717222+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752810",
-        "size_bytes": 859477244
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752810",
+          "size_bytes": 859477244,
+          "source_bytes_read": 859477244,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33160846",
+        "source_url": "https://sdilej.cz/33160846/kravataci-s04e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752810",
-        "size_bytes": 859477244,
-        "source_bytes_read": 859477244,
-        "http_status": 201
+        "display_name": "Suits S04E08 Exposure 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:09:20.043511+00:00"
       }
     },
     "1076:4:9": {
@@ -194834,5 +194835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:09:18.194583+00:00"
+  "updated_at": "2026-11-03T05:09:20.043526+00:00"
 }
