@@ -202211,12 +202211,6 @@
     },
     "53:4:4": {
       "episode_key": "ozark:s4:e4",
-      "claim": {
-        "worker_id": "69a59ffcab60499ca9a4e7e70575cfc1-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T07:35:16.241801+00:00",
-        "lease_expires_at": "2026-11-03T13:35:16.241813+00:00"
-      },
       "source": {
         "source_id": "32711607",
         "source_url": "https://sdilej.cz/32711607/ozark-s04e04-cz-dabing.mkv",
@@ -202241,15 +202235,22 @@
         "display_name": "Ozark S04E04 Ace Deuce 1080p CZ Dabing",
         "prepared_at": "2026-11-03T07:35:18.730485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755477",
-        "size_bytes": 1025365929
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755477",
+          "size_bytes": 1025365929,
+          "source_bytes_read": 1025365929,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711607",
+        "source_url": "https://sdilej.cz/32711607/ozark-s04e04-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755477",
-        "size_bytes": 1025365929,
-        "source_bytes_read": 1025365929,
-        "http_status": 201
+        "display_name": "Ozark S04E04 Ace Deuce 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T07:36:54.985150+00:00"
       }
     },
     "53:4:5": {
@@ -202295,5 +202296,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T07:36:50.681767+00:00"
+  "updated_at": "2026-11-03T07:36:54.985165+00:00"
 }
