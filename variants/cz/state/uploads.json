@@ -199666,12 +199666,6 @@
     },
     "1054:5:15": {
       "episode_key": "brooklyn 99:s5:e15",
-      "claim": {
-        "worker_id": "bb524118bdab444e9b3bd7bf3498d8ab-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:13:05.280016+00:00",
-        "lease_expires_at": "2026-11-03T12:13:05.280024+00:00"
-      },
       "source": {
         "source_id": "29567529",
         "source_url": "https://sdilej.cz/29567529/brooklyn-nine-nine-s05e15-1080p-cz.x265.mkv",
@@ -199696,15 +199690,22 @@
         "display_name": "Brooklyn Nine-Nine S05E15 The Puzzle Master 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:13:07.705578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754219",
-        "size_bytes": 139054298
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754219",
+          "size_bytes": 139054298,
+          "source_bytes_read": 139054298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567529",
+        "source_url": "https://sdilej.cz/29567529/brooklyn-nine-nine-s05e15-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754219",
-        "size_bytes": 139054298,
-        "source_bytes_read": 139054298,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E15 The Puzzle Master 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:13:37.816064+00:00"
       }
     },
     "1054:5:16": {
@@ -199731,5 +199732,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:13:35.998665+00:00"
+  "updated_at": "2026-11-03T06:13:37.816078+00:00"
 }
