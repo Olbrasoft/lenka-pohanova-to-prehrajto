@@ -208334,12 +208334,6 @@
     },
     "46:3:19": {
       "episode_key": "hranice nemožného:s3:e19",
-      "claim": {
-        "worker_id": "cdc43925961f4dc7a0a3fbe3b418b9e6-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:18:45.154820+00:00",
-        "lease_expires_at": "2026-11-03T18:18:45.154833+00:00"
-      },
       "source": {
         "source_id": "32826373",
         "source_url": "https://sdilej.cz/32826373/hranice-nemozneho-s03e19-diethylamid-kyseliny-lysergove.mkv",
@@ -208364,15 +208358,22 @@
         "display_name": "Fringe S03E19 Lysergic Acid Diethylamide 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:18:53.493084+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760662",
-        "size_bytes": 933903521
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760662",
+          "size_bytes": 933903521,
+          "source_bytes_read": 933903521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32826373",
+        "source_url": "https://sdilej.cz/32826373/hranice-nemozneho-s03e19-diethylamid-kyseliny-lysergove.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760662",
-        "size_bytes": 933903521,
-        "source_bytes_read": 933903521,
-        "http_status": 201
+        "display_name": "Fringe S03E19 Lysergic Acid Diethylamide 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:20:54.183785+00:00"
       }
     },
     "46:3:20": {
@@ -208455,5 +208456,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:20:49.149699+00:00"
+  "updated_at": "2026-11-03T12:20:54.183803+00:00"
 }
