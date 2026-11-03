@@ -214274,12 +214274,6 @@
     },
     "64:2:7": {
       "episode_key": "banshee:s2:e7",
-      "claim": {
-        "worker_id": "a45d575ad2e7418186eca450f1662fb4-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:27:48.936603+00:00",
-        "lease_expires_at": "2026-11-04T05:27:48.936613+00:00"
-      },
       "source": {
         "source_id": "32874855",
         "source_url": "https://sdilej.cz/32874855/banshee-s02e07-cz-dabing-1080p-full-hd.mkv",
@@ -214304,15 +214298,22 @@
         "display_name": "Banshee S02E07 Ways to Bury a Man 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:27:52.970423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774993",
-        "size_bytes": 985383411
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774993",
+          "size_bytes": 985383411,
+          "source_bytes_read": 985383411,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32874855",
+        "source_url": "https://sdilej.cz/32874855/banshee-s02e07-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774993",
-        "size_bytes": 985383411,
-        "source_bytes_read": 985383411,
-        "http_status": 201
+        "display_name": "Banshee S02E07 Ways to Bury a Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:29:17.917274+00:00"
       }
     },
     "64:2:8": {
@@ -214358,5 +214359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:29:13.138118+00:00"
+  "updated_at": "2026-11-03T23:29:17.917307+00:00"
 }
