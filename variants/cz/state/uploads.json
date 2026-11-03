@@ -213746,12 +213746,6 @@
     },
     "64:1:5": {
       "episode_key": "banshee:s1:e5",
-      "claim": {
-        "worker_id": "cec5082a178a4008a20bfdf4a6c11674-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T22:46:52.269836+00:00",
-        "lease_expires_at": "2026-11-04T04:46:52.269847+00:00"
-      },
       "source": {
         "source_id": "32874747",
         "source_url": "https://sdilej.cz/32874747/banshee-s01e05-cz-dabing-1080p-full-hd.mkv",
@@ -213776,15 +213770,22 @@
         "display_name": "Banshee S01E05 The Kindred 1080p CZ Dabing",
         "prepared_at": "2026-11-03T22:46:55.602634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774628",
-        "size_bytes": 1050278959
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774628",
+          "size_bytes": 1050278959,
+          "source_bytes_read": 1050278959,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32874747",
+        "source_url": "https://sdilej.cz/32874747/banshee-s01e05-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774628",
-        "size_bytes": 1050278959,
-        "source_bytes_read": 1050278959,
-        "http_status": 201
+        "display_name": "Banshee S01E05 The Kindred 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T22:49:52.227549+00:00"
       }
     }
   },
@@ -213793,5 +213794,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T22:49:45.715199+00:00"
+  "updated_at": "2026-11-03T22:49:52.227561+00:00"
 }
