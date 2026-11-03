@@ -205474,12 +205474,6 @@
     },
     "3595:3:5": {
       "episode_key": "stíny:s3:e5",
-      "claim": {
-        "worker_id": "70117fcb8b66423b9413a88d93d8f80e-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:18:15.451339+00:00",
-        "lease_expires_at": "2026-11-03T16:18:15.451351+00:00"
-      },
       "source": {
         "source_id": "12769294",
         "source_url": "https://sdilej.cz/12769294/stiny-s03e05-tvrip-480p-czdab.avi",
@@ -205504,15 +205498,22 @@
         "display_name": "Shadows S03E05 The Man Who Hated Children SD CZ Dabing",
         "prepared_at": "2026-11-03T10:18:18.031702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758692",
-        "size_bytes": 511053398
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758692",
+          "size_bytes": 511053398,
+          "source_bytes_read": 511053398,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12769294",
+        "source_url": "https://sdilej.cz/12769294/stiny-s03e05-tvrip-480p-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758692",
-        "size_bytes": 511053398,
-        "source_bytes_read": 511053398,
-        "http_status": 201
+        "display_name": "Shadows S03E05 The Man Who Hated Children SD CZ Dabing",
+        "uploaded_at": "2026-11-03T10:19:27.738571+00:00"
       }
     },
     "3595:3:6": {
@@ -205594,5 +205595,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:19:24.667770+00:00"
+  "updated_at": "2026-11-03T10:19:27.738588+00:00"
 }
