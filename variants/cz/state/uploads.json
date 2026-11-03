@@ -209948,12 +209948,6 @@
     },
     "46:5:12": {
       "episode_key": "hranice nemožného:s5:e12",
-      "claim": {
-        "worker_id": "9668666ff1d9494ea2ca24c7c6906908-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T13:21:24.710563+00:00",
-        "lease_expires_at": "2026-11-03T19:21:24.710578+00:00"
-      },
       "source": {
         "source_id": "32819503",
         "source_url": "https://sdilej.cz/32819503/hranice-nemozneho-s05e12-svoboda.mkv",
@@ -209978,15 +209972,22 @@
         "display_name": "Fringe S05E12 Liberty 1080p CZ Dabing",
         "prepared_at": "2026-11-03T13:21:28.433810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30762015",
-        "size_bytes": 924481541
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30762015",
+          "size_bytes": 924481541,
+          "source_bytes_read": 924481541,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32819503",
+        "source_url": "https://sdilej.cz/32819503/hranice-nemozneho-s05e12-svoboda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30762015",
-        "size_bytes": 924481541,
-        "source_bytes_read": 924481541,
-        "http_status": 201
+        "display_name": "Fringe S05E12 Liberty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T13:22:55.003424+00:00"
       }
     }
   },
@@ -209995,5 +209996,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T13:22:49.619369+00:00"
+  "updated_at": "2026-11-03T13:22:55.003440+00:00"
 }
