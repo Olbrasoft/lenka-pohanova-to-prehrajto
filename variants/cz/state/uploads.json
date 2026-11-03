@@ -191924,12 +191924,6 @@
     },
     "50:3:4": {
       "episode_key": "westworld:s3:e4",
-      "claim": {
-        "worker_id": "e56cbe3ec6694647a1425e769ffa3399-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:13:23.932572+00:00",
-        "lease_expires_at": "2026-11-03T08:13:23.932581+00:00"
-      },
       "source": {
         "source_id": "32021184",
         "source_url": "https://sdilej.cz/32021184/westworld-s03e04-matka-vyhnancu.mkv",
@@ -191954,15 +191948,22 @@
         "display_name": "Westworld S03E04 The Mother of Exiles 4K CZ Dabing",
         "prepared_at": "2026-11-03T02:13:31.792808+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748099",
-        "size_bytes": 2559169021
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748099",
+          "size_bytes": 2559169021,
+          "source_bytes_read": 2559169021,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32021184",
+        "source_url": "https://sdilej.cz/32021184/westworld-s03e04-matka-vyhnancu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748099",
-        "size_bytes": 2559169021,
-        "source_bytes_read": 2559169021,
-        "http_status": 201
+        "display_name": "Westworld S03E04 The Mother of Exiles 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T02:18:28.019765+00:00"
       }
     }
   },
@@ -191971,5 +191972,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:18:21.598525+00:00"
+  "updated_at": "2026-11-03T02:18:28.019781+00:00"
 }
