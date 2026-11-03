@@ -204242,12 +204242,6 @@
     },
     "2413:4:3": {
       "episode_key": "policajti z l. a.:s4:e3",
-      "claim": {
-        "worker_id": "aaf094af91104154938523b92864e0b9-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:24:27.096232+00:00",
-        "lease_expires_at": "2026-11-03T15:24:27.096247+00:00"
-      },
       "source": {
         "source_id": "27646728",
         "source_url": "https://sdilej.cz/27646728/policajti-z-l.-a.-s04e03-cz.mkv",
@@ -204272,15 +204266,22 @@
         "display_name": "Southland S04E03 Community 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:24:32.203237+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757838",
-        "size_bytes": 944644869
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757838",
+          "size_bytes": 944644869,
+          "source_bytes_read": 944644869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646728",
+        "source_url": "https://sdilej.cz/27646728/policajti-z-l.-a.-s04e03-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757838",
-        "size_bytes": 944644869,
-        "source_bytes_read": 944644869,
-        "http_status": 201
+        "display_name": "Southland S04E03 Community 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:26:58.129921+00:00"
       }
     }
   },
@@ -204289,5 +204290,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:26:56.115211+00:00"
+  "updated_at": "2026-11-03T09:26:58.129942+00:00"
 }
