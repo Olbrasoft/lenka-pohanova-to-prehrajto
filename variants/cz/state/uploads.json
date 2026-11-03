@@ -193895,12 +193895,6 @@
     },
     "1076:3:6": {
       "episode_key": "kravaťáci:s3:e6",
-      "claim": {
-        "worker_id": "66b64ca11c284101add1fe6bf018b528-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T04:52:36.906615+00:00",
-        "lease_expires_at": "2026-11-03T10:52:36.906627+00:00"
-      },
       "source": {
         "source_id": "33171044",
         "source_url": "https://sdilej.cz/33171044/kravataci-s03e06-16-2013-cz-dab-tenkrat.mp4",
@@ -193925,15 +193919,22 @@
         "display_name": "Suits S03E06 The Other Time 720p CZ Dabing",
         "prepared_at": "2026-11-03T04:52:41.167466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752656",
-        "size_bytes": 948519174
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752656",
+          "size_bytes": 948519174,
+          "source_bytes_read": 948519174,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33171044",
+        "source_url": "https://sdilej.cz/33171044/kravataci-s03e06-16-2013-cz-dab-tenkrat.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752656",
-        "size_bytes": 948519174,
-        "source_bytes_read": 948519174,
-        "http_status": 201
+        "display_name": "Suits S03E06 The Other Time 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T04:54:22.745373+00:00"
       }
     }
   },
@@ -193942,5 +193943,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T04:54:19.389435+00:00"
+  "updated_at": "2026-11-03T04:54:22.745391+00:00"
 }
