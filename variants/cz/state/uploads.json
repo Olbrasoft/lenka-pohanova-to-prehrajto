@@ -206215,12 +206215,6 @@
     },
     "46:1:15": {
       "episode_key": "hranice nemožného:s1:e15",
-      "claim": {
-        "worker_id": "c49926ff70f54963998d59bf4561c81e-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:52:59.058004+00:00",
-        "lease_expires_at": "2026-11-03T16:52:59.058016+00:00"
-      },
       "source": {
         "source_id": "27771523",
         "source_url": "https://sdilej.cz/27771523/hranice-nemozneho-s01e15-dite-serial-cz-dabing-.mkv",
@@ -206245,15 +206239,22 @@
         "display_name": "Fringe S01E15 Inner Child 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:53:01.710065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759367",
-        "size_bytes": 1026396929
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759367",
+          "size_bytes": 1026396929,
+          "source_bytes_read": 1026396929,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27771523",
+        "source_url": "https://sdilej.cz/27771523/hranice-nemozneho-s01e15-dite-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759367",
-        "size_bytes": 1026396929,
-        "source_bytes_read": 1026396929,
-        "http_status": 201
+        "display_name": "Fringe S01E15 Inner Child 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:55:09.969302+00:00"
       }
     },
     "46:1:16": {
@@ -206299,5 +206300,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:55:05.133451+00:00"
+  "updated_at": "2026-11-03T10:55:09.969317+00:00"
 }
