@@ -198918,12 +198918,6 @@
     },
     "1054:4:20": {
       "episode_key": "brooklyn 99:s4:e20",
-      "claim": {
-        "worker_id": "f492d716cfb048d8bbebed81c0b235e9-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:06:01.562429+00:00",
-        "lease_expires_at": "2026-11-03T12:06:01.562438+00:00"
-      },
       "source": {
         "source_id": "10673817",
         "source_url": "https://sdilej.cz/10673817/brooklyn-99-s04e20-cz-dabing.avi",
@@ -198948,15 +198942,22 @@
         "display_name": "Brooklyn Nine-Nine S04E20 The Slaughterhouse SD CZ Dabing",
         "prepared_at": "2026-11-03T06:06:06.575618+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754063",
-        "size_bytes": 172303088
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754063",
+          "size_bytes": 172303088,
+          "source_bytes_read": 172303088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10673817",
+        "source_url": "https://sdilej.cz/10673817/brooklyn-99-s04e20-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754063",
-        "size_bytes": 172303088,
-        "source_bytes_read": 172303088,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S04E20 The Slaughterhouse SD CZ Dabing",
+        "uploaded_at": "2026-11-03T06:06:35.882060+00:00"
       }
     }
   },
@@ -198965,5 +198966,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:06:33.769031+00:00"
+  "updated_at": "2026-11-03T06:06:35.882077+00:00"
 }
