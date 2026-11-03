@@ -206002,12 +206002,6 @@
     },
     "46:1:10": {
       "episode_key": "hranice nemožného:s1:e10",
-      "claim": {
-        "worker_id": "93c42805b0954beead8775d5672dfee0-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:46:07.380685+00:00",
-        "lease_expires_at": "2026-11-03T16:46:07.380698+00:00"
-      },
       "source": {
         "source_id": "27771115",
         "source_url": "https://sdilej.cz/27771115/hranice-nemozneho-s01e10-bezpecnostni-schranky-serial-cz-dabing-.mkv",
@@ -206032,15 +206026,22 @@
         "display_name": "Fringe S01E10 Safe 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:46:13.831387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759239",
-        "size_bytes": 1025816651
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759239",
+          "size_bytes": 1025816651,
+          "source_bytes_read": 1025816651,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27771115",
+        "source_url": "https://sdilej.cz/27771115/hranice-nemozneho-s01e10-bezpecnostni-schranky-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759239",
-        "size_bytes": 1025816651,
-        "source_bytes_read": 1025816651,
-        "http_status": 201
+        "display_name": "Fringe S01E10 Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:50:06.950007+00:00"
       }
     },
     "46:1:11": {
@@ -206119,5 +206120,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:50:03.204208+00:00"
+  "updated_at": "2026-11-03T10:50:06.950026+00:00"
 }
