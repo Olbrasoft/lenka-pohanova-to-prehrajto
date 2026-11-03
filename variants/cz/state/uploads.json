@@ -208201,12 +208201,6 @@
     },
     "46:3:16": {
       "episode_key": "hranice nemožného:s3:e16",
-      "claim": {
-        "worker_id": "a5c7b0e8a677498babbceaa7addd435e-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T12:16:10.604642+00:00",
-        "lease_expires_at": "2026-11-03T18:16:10.604659+00:00"
-      },
       "source": {
         "source_id": "27774310",
         "source_url": "https://sdilej.cz/27774310/hranice-nemozneho-s03e16-osmium.mkv",
@@ -208231,15 +208225,22 @@
         "display_name": "Fringe S03E16 Os 1080p CZ Dabing",
         "prepared_at": "2026-11-03T12:16:15.563643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760603",
-        "size_bytes": 903735808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760603",
+          "size_bytes": 903735808,
+          "source_bytes_read": 903735808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27774310",
+        "source_url": "https://sdilej.cz/27774310/hranice-nemozneho-s03e16-osmium.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760603",
-        "size_bytes": 903735808,
-        "source_bytes_read": 903735808,
-        "http_status": 201
+        "display_name": "Fringe S03E16 Os 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T12:17:41.941865+00:00"
       }
     }
   },
@@ -208248,5 +208249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T12:17:39.579551+00:00"
+  "updated_at": "2026-11-03T12:17:41.941883+00:00"
 }
