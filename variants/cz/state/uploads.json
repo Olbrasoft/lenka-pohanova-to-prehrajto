@@ -194599,12 +194599,6 @@
     },
     "1076:4:7": {
       "episode_key": "kravaťáci:s4:e7",
-      "claim": {
-        "worker_id": "0baa5bb184414b869d59cbdea332df47-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:06:03.885749+00:00",
-        "lease_expires_at": "2026-11-03T11:06:03.885760+00:00"
-      },
       "source": {
         "source_id": "33160836",
         "source_url": "https://sdilej.cz/33160836/kravataci-s04e07-cz-dabing.mkv",
@@ -194629,15 +194623,22 @@
         "display_name": "Suits S04E07 We're Done 720p CZ Dabing",
         "prepared_at": "2026-11-03T05:06:09.579149+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752795",
-        "size_bytes": 870887241
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752795",
+          "size_bytes": 870887241,
+          "source_bytes_read": 870887241,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33160836",
+        "source_url": "https://sdilej.cz/33160836/kravataci-s04e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752795",
-        "size_bytes": 870887241,
-        "source_bytes_read": 870887241,
-        "http_status": 201
+        "display_name": "Suits S04E07 We're Done 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:07:13.634728+00:00"
       }
     },
     "1076:4:6": {
@@ -194683,5 +194684,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:07:08.804649+00:00"
+  "updated_at": "2026-11-03T05:07:13.634745+00:00"
 }
