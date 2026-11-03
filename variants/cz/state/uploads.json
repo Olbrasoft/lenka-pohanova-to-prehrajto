@@ -197943,12 +197943,6 @@
     },
     "1054:3:21": {
       "episode_key": "brooklyn 99:s3:e21",
-      "claim": {
-        "worker_id": "5ec95f68844b42f5ae39c6de84ac5794-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:57:33.163463+00:00",
-        "lease_expires_at": "2026-11-03T11:57:33.163476+00:00"
-      },
       "source": {
         "source_id": "13003685",
         "source_url": "https://sdilej.cz/13003685/brooklyn.99.03x21.avi",
@@ -197973,15 +197967,22 @@
         "display_name": "Brooklyn Nine-Nine S03E21 Maximum Security SD CZ Dabing",
         "prepared_at": "2026-11-03T05:57:39.057061+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753858",
-        "size_bytes": 338452152
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753858",
+          "size_bytes": 338452152,
+          "source_bytes_read": 338452152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13003685",
+        "source_url": "https://sdilej.cz/13003685/brooklyn.99.03x21.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753858",
-        "size_bytes": 338452152,
-        "source_bytes_read": 338452152,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E21 Maximum Security SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:58:18.353035+00:00"
       }
     },
     "1054:3:22": {
@@ -198026,5 +198027,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:58:15.412871+00:00"
+  "updated_at": "2026-11-03T05:58:18.353053+00:00"
 }
