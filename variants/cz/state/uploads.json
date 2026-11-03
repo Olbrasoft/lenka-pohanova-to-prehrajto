@@ -192759,12 +192759,6 @@
     },
     "1076:1:8": {
       "episode_key": "kravaťáci:s1:e8",
-      "claim": {
-        "worker_id": "c50138054b854079b280aa6b0a9888bc-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:57:45.418083+00:00",
-        "lease_expires_at": "2026-11-03T08:57:45.418094+00:00"
-      },
       "source": {
         "source_id": "22306295",
         "source_url": "https://sdilej.cz/22306295/kravataci-s01e08-czdab.mp4",
@@ -192789,15 +192783,22 @@
         "display_name": "Suits S01E08 Identity Crisis SD CZ Dabing",
         "prepared_at": "2026-11-03T02:57:48.039641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30749355",
-        "size_bytes": 424798493
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30749355",
+          "size_bytes": 424798493,
+          "source_bytes_read": 424798493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22306295",
+        "source_url": "https://sdilej.cz/22306295/kravataci-s01e08-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30749355",
-        "size_bytes": 424798493,
-        "source_bytes_read": 424798493,
-        "http_status": 201
+        "display_name": "Suits S01E08 Identity Crisis SD CZ Dabing",
+        "uploaded_at": "2026-11-03T02:58:37.604537+00:00"
       }
     }
   },
@@ -192806,5 +192807,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:58:35.534903+00:00"
+  "updated_at": "2026-11-03T02:58:37.604552+00:00"
 }
