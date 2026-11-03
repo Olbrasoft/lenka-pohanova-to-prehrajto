@@ -204902,12 +204902,6 @@
     },
     "2413:5:8": {
       "episode_key": "policajti z l. a.:s5:e8",
-      "claim": {
-        "worker_id": "dda6e904bb1442ca8a8c710f849568e7-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:54:05.014013+00:00",
-        "lease_expires_at": "2026-11-03T15:54:05.014026+00:00"
-      },
       "source": {
         "source_id": "27647078",
         "source_url": "https://sdilej.cz/27647078/policajti-z-l.-a.-s05e08-cz.mkv",
@@ -204932,15 +204926,22 @@
         "display_name": "Southland S05E08 The Felix Paradox 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:54:07.607500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758314",
-        "size_bytes": 897973395
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758314",
+          "size_bytes": 897973395,
+          "source_bytes_read": 897973395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27647078",
+        "source_url": "https://sdilej.cz/27647078/policajti-z-l.-a.-s05e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758314",
-        "size_bytes": 897973395,
-        "source_bytes_read": 897973395,
-        "http_status": 201
+        "display_name": "Southland S05E08 The Felix Paradox 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:57:27.364256+00:00"
       }
     }
   },
@@ -204949,5 +204950,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:57:25.427611+00:00"
+  "updated_at": "2026-11-03T09:57:27.364276+00:00"
 }
