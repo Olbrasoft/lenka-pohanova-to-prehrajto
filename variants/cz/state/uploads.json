@@ -196454,12 +196454,6 @@
     },
     "1054:2:10": {
       "episode_key": "brooklyn 99:s2:e10",
-      "claim": {
-        "worker_id": "d14636dc28e446748fc0e93b5e0b5b7f-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:44:23.177888+00:00",
-        "lease_expires_at": "2026-11-03T11:44:23.177902+00:00"
-      },
       "source": {
         "source_id": "24760721",
         "source_url": "https://sdilej.cz/24760721/brooklyn.99.02x10.avi",
@@ -196484,15 +196478,22 @@
         "display_name": "Brooklyn Nine-Nine S02E10 The Pontiac Bandit Returns SD CZ Dabing",
         "prepared_at": "2026-11-03T05:44:29.320722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753554",
-        "size_bytes": 337508600
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753554",
+          "size_bytes": 337508600,
+          "source_bytes_read": 337508600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24760721",
+        "source_url": "https://sdilej.cz/24760721/brooklyn.99.02x10.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753554",
-        "size_bytes": 337508600,
-        "source_bytes_read": 337508600,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E10 The Pontiac Bandit Returns SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:45:14.934049+00:00"
       }
     },
     "1054:2:11": {
@@ -196581,5 +196582,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:45:12.419014+00:00"
+  "updated_at": "2026-11-03T05:45:14.934068+00:00"
 }
