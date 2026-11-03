@@ -211979,12 +211979,6 @@
     },
     "144:4:1": {
       "episode_key": "love, death & robots:s4:e1",
-      "claim": {
-        "worker_id": "9beea9543e58454a99ff56bddfad744e-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:41:03.532091+00:00",
-        "lease_expires_at": "2026-11-03T20:41:03.532103+00:00"
-      },
       "source": {
         "source_id": "35054195",
         "source_url": "https://sdilej.cz/35054195/love-death-robots-s04e01-can-t-stop.mkv",
@@ -212009,15 +212003,22 @@
         "display_name": "Love, Death & Robots S04E01 Can't Stop 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:41:07.725925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764482",
-        "size_bytes": 75170361
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764482",
+          "size_bytes": 75170361,
+          "source_bytes_read": 75170361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35054195",
+        "source_url": "https://sdilej.cz/35054195/love-death-robots-s04e01-can-t-stop.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764482",
-        "size_bytes": 75170361,
-        "source_bytes_read": 75170361,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S04E01 Can't Stop 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:41:31.592139+00:00"
       }
     }
   },
@@ -212026,5 +212027,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:41:28.932398+00:00"
+  "updated_at": "2026-11-03T14:41:31.592156+00:00"
 }
