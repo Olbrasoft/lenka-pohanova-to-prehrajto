@@ -204022,12 +204022,6 @@
     },
     "2413:3:8": {
       "episode_key": "policajti z l. a.:s3:e8",
-      "claim": {
-        "worker_id": "611c5738fd2342ef8f30663e248ebc33-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:21:09.821839+00:00",
-        "lease_expires_at": "2026-11-03T15:21:09.821856+00:00"
-      },
       "source": {
         "source_id": "27646630",
         "source_url": "https://sdilej.cz/27646630/policajti-z-l.-a.-s03e08-cz.mkv",
@@ -204052,15 +204046,22 @@
         "display_name": "Southland S03E08 Fixing a Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:21:12.730726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30757783",
-        "size_bytes": 804564145
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30757783",
+          "size_bytes": 804564145,
+          "source_bytes_read": 804564145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646630",
+        "source_url": "https://sdilej.cz/27646630/policajti-z-l.-a.-s03e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30757783",
-        "size_bytes": 804564145,
-        "source_bytes_read": 804564145,
-        "http_status": 201
+        "display_name": "Southland S03E08 Fixing a Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:22:19.458515+00:00"
       }
     },
     "2413:3:9": {
@@ -204143,5 +204144,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:22:15.008886+00:00"
+  "updated_at": "2026-11-03T09:22:19.458536+00:00"
 }
