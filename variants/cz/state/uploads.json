@@ -209698,12 +209698,6 @@
     },
     "46:5:6": {
       "episode_key": "hranice nemožného:s5:e6",
-      "claim": {
-        "worker_id": "680b743d0dc849a48708976aa101df16-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T13:15:32.813247+00:00",
-        "lease_expires_at": "2026-11-03T19:15:32.813264+00:00"
-      },
       "source": {
         "source_id": "32819230",
         "source_url": "https://sdilej.cz/32819230/hranice-nemozneho-s05e06-za-zrcadlem-a-co-tam-walter-nasel.mkv",
@@ -209728,15 +209722,22 @@
         "display_name": "Fringe S05E06 Through the Looking Glass and What Walter Found There 1080p CZ Dabing",
         "prepared_at": "2026-11-03T13:15:38.935745+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30761761",
-        "size_bytes": 935937548
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30761761",
+          "size_bytes": 935937548,
+          "source_bytes_read": 935937548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32819230",
+        "source_url": "https://sdilej.cz/32819230/hranice-nemozneho-s05e06-za-zrcadlem-a-co-tam-walter-nasel.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30761761",
-        "size_bytes": 935937548,
-        "source_bytes_read": 935937548,
-        "http_status": 201
+        "display_name": "Fringe S05E06 Through the Looking Glass and What Walter Found There 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T13:20:43.093248+00:00"
       }
     },
     "46:5:7": {
@@ -209907,5 +209908,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T13:20:37.234399+00:00"
+  "updated_at": "2026-11-03T13:20:43.093265+00:00"
 }
