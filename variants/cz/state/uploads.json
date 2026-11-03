@@ -191213,12 +191213,6 @@
     },
     "50:1:8": {
       "episode_key": "westworld:s1:e8",
-      "claim": {
-        "worker_id": "648061e2b0c0421c95d0e0756fce88bb-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:22:46.750328+00:00",
-        "lease_expires_at": "2026-11-03T07:22:46.750339+00:00"
-      },
       "source": {
         "source_id": "32020996",
         "source_url": "https://sdilej.cz/32020996/westworld-s01e08-zapomenout.mkv",
@@ -191243,15 +191237,22 @@
         "display_name": "Westworld S01E08 Trace Decay 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:22:49.323391+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30746999",
-        "size_bytes": 2742024536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30746999",
+          "size_bytes": 2742024536,
+          "source_bytes_read": 2742024536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32020996",
+        "source_url": "https://sdilej.cz/32020996/westworld-s01e08-zapomenout.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30746999",
-        "size_bytes": 2742024536,
-        "source_bytes_read": 2742024536,
-        "http_status": 201
+        "display_name": "Westworld S01E08 Trace Decay 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:27:08.744016+00:00"
       }
     }
   },
@@ -191260,5 +191261,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:27:06.677167+00:00"
+  "updated_at": "2026-11-03T01:27:08.744049+00:00"
 }
