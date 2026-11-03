@@ -192012,12 +192012,6 @@
     },
     "50:3:6": {
       "episode_key": "westworld:s3:e6",
-      "claim": {
-        "worker_id": "bbf6683d26644a07b764235b9a66e1e0-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:22:20.175415+00:00",
-        "lease_expires_at": "2026-11-03T08:22:20.175425+00:00"
-      },
       "source": {
         "source_id": "33121465",
         "source_url": "https://sdilej.cz/33121465/westworld-s03e06-dekoherence-2160p-cz-en.mkv",
@@ -192042,15 +192036,22 @@
         "display_name": "Westworld S03E06 Decoherence 4K CZ Dabing",
         "prepared_at": "2026-11-03T02:22:24.934134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748242",
-        "size_bytes": 2551914573
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748242",
+          "size_bytes": 2551914573,
+          "source_bytes_read": 2551914573,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33121465",
+        "source_url": "https://sdilej.cz/33121465/westworld-s03e06-dekoherence-2160p-cz-en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748242",
-        "size_bytes": 2551914573,
-        "source_bytes_read": 2551914573,
-        "http_status": 201
+        "display_name": "Westworld S03E06 Decoherence 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T02:27:57.253369+00:00"
       }
     },
     "50:3:7": {
@@ -192140,5 +192141,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:27:51.077352+00:00"
+  "updated_at": "2026-11-03T02:27:57.253386+00:00"
 }
