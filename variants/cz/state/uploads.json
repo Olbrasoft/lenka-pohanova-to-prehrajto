@@ -204732,12 +204732,6 @@
     },
     "2413:5:4": {
       "episode_key": "policajti z l. a.:s5:e4",
-      "claim": {
-        "worker_id": "18c410df6ba1464182881294754c7b73-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T09:51:32.447875+00:00",
-        "lease_expires_at": "2026-11-03T15:51:32.447887+00:00"
-      },
       "source": {
         "source_id": "27646974",
         "source_url": "https://sdilej.cz/27646974/policajti-z-l.-a.-s05e04-cz.mkv",
@@ -204762,15 +204756,22 @@
         "display_name": "Southland S05E04 Under the Big Top 1080p CZ Dabing",
         "prepared_at": "2026-11-03T09:51:34.968765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758263",
-        "size_bytes": 810223836
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758263",
+          "size_bytes": 810223836,
+          "source_bytes_read": 810223836,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646974",
+        "source_url": "https://sdilej.cz/27646974/policajti-z-l.-a.-s05e04-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758263",
-        "size_bytes": 810223836,
-        "source_bytes_read": 810223836,
-        "http_status": 201
+        "display_name": "Southland S05E04 Under the Big Top 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T09:53:21.882567+00:00"
       }
     },
     "2413:5:5": {
@@ -204816,5 +204817,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T09:53:19.927057+00:00"
+  "updated_at": "2026-11-03T09:53:21.882587+00:00"
 }
