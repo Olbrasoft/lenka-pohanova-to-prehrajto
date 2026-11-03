@@ -1312,12 +1312,6 @@
     },
     "28:7:6": {
       "episode_key": "rick a morty:s7:e6",
-      "claim": {
-        "worker_id": "c08033f58c174587b1eb0d58c7ddddb4-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:07:40.004036+00:00",
-        "lease_expires_at": "2026-11-03T20:07:40.004046+00:00"
-      },
       "source": {
         "source_id": "27340551",
         "source_url": "https://sdilej.cz/27340551/rick.and.morty.s07e06.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv",
@@ -1347,15 +1341,22 @@
         "display_name": "Rick and Morty S07E06 Rickfending Your Mort 1080p",
         "prepared_at": "2026-11-03T14:07:41.775280+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30763246",
-        "size_bytes": 169632090
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30763246",
+          "size_bytes": 169632090,
+          "source_bytes_read": 169632090,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "27340551",
+        "source_url": "https://sdilej.cz/27340551/rick.and.morty.s07e06.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30763246",
-        "size_bytes": 169632090,
-        "source_bytes_read": 169632090,
-        "http_status": 201
+        "display_name": "Rick and Morty S07E06 Rickfending Your Mort 1080p",
+        "uploaded_at": "2026-11-03T14:08:06.826041+00:00"
       }
     }
   },
@@ -1364,5 +1365,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:08:03.173291+00:00"
+  "updated_at": "2026-11-03T14:08:06.826058+00:00"
 }
