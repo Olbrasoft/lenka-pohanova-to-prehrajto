@@ -193675,12 +193675,6 @@
     },
     "1076:3:1": {
       "episode_key": "kravaťáci:s3:e1",
-      "claim": {
-        "worker_id": "6ff67e6cee1a406c97aab6e9e4216545-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T04:48:13.072535+00:00",
-        "lease_expires_at": "2026-11-03T10:48:13.072547+00:00"
-      },
       "source": {
         "source_id": "33171037",
         "source_url": "https://sdilej.cz/33171037/kravataci-s03e01-16-2013-cz-dab-dohoda.mp4",
@@ -193705,15 +193699,22 @@
         "display_name": "Suits S03E01 The Arrangement 720p CZ Dabing",
         "prepared_at": "2026-11-03T04:48:18.046029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30752595",
-        "size_bytes": 939850573
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30752595",
+          "size_bytes": 939850573,
+          "source_bytes_read": 939850573,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33171037",
+        "source_url": "https://sdilej.cz/33171037/kravataci-s03e01-16-2013-cz-dab-dohoda.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30752595",
-        "size_bytes": 939850573,
-        "source_bytes_read": 939850573,
-        "http_status": 201
+        "display_name": "Suits S03E01 The Arrangement 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T04:49:40.841164+00:00"
       }
     }
   },
@@ -193722,5 +193723,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T04:49:38.918113+00:00"
+  "updated_at": "2026-11-03T04:49:40.841181+00:00"
 }
