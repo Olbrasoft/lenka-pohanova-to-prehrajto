@@ -214406,12 +214406,6 @@
     },
     "64:2:10": {
       "episode_key": "banshee:s2:e10",
-      "claim": {
-        "worker_id": "2549f11e328240db92ed1e6486f3db9b-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:29:28.560162+00:00",
-        "lease_expires_at": "2026-11-04T05:29:28.560171+00:00"
-      },
       "source": {
         "source_id": "32874926",
         "source_url": "https://sdilej.cz/32874926/banshee-s02e10-cz-dabing-1080p-full-hd.mkv",
@@ -214436,15 +214430,22 @@
         "display_name": "Banshee S02E10 Bullets and Tears 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:29:31.227560+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775014",
-        "size_bytes": 1245862847
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775014",
+          "size_bytes": 1245862847,
+          "source_bytes_read": 1245862847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32874926",
+        "source_url": "https://sdilej.cz/32874926/banshee-s02e10-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775014",
-        "size_bytes": 1245862847,
-        "source_bytes_read": 1245862847,
-        "http_status": 201
+        "display_name": "Banshee S02E10 Bullets and Tears 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:32:05.468635+00:00"
       }
     },
     "64:3:1": {
@@ -214526,5 +214527,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:32:03.222953+00:00"
+  "updated_at": "2026-11-03T23:32:05.468648+00:00"
 }
