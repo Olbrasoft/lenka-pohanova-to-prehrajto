@@ -205518,12 +205518,6 @@
     },
     "3595:3:6": {
       "episode_key": "stíny:s3:e6",
-      "claim": {
-        "worker_id": "5718873d877e4c9a898902d282b8216a-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:18:49.274862+00:00",
-        "lease_expires_at": "2026-11-03T16:18:49.274876+00:00"
-      },
       "source": {
         "source_id": "12930256",
         "source_url": "https://sdilej.cz/12930256/stiny-s03e06.avi",
@@ -205548,15 +205542,22 @@
         "display_name": "Shadows S03E06 The Silver Apple SD CZ Dabing",
         "prepared_at": "2026-11-03T10:18:51.880322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30758698",
-        "size_bytes": 698173274
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30758698",
+          "size_bytes": 698173274,
+          "source_bytes_read": 698173274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12930256",
+        "source_url": "https://sdilej.cz/12930256/stiny-s03e06.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30758698",
-        "size_bytes": 698173274,
-        "source_bytes_read": 698173274,
-        "http_status": 201
+        "display_name": "Shadows S03E06 The Silver Apple SD CZ Dabing",
+        "uploaded_at": "2026-11-03T10:20:00.649651+00:00"
       }
     },
     "3595:3:7": {
@@ -205639,5 +205640,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:19:56.582554+00:00"
+  "updated_at": "2026-11-03T10:20:00.649669+00:00"
 }
