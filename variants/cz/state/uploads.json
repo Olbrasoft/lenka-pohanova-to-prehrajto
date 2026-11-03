@@ -211898,12 +211898,6 @@
     },
     "144:3:7": {
       "episode_key": "love, death & robots:s3:e7",
-      "claim": {
-        "worker_id": "8caeb02993994d0386ef2728583c9606-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:40:12.168016+00:00",
-        "lease_expires_at": "2026-11-03T20:40:12.168032+00:00"
-      },
       "source": {
         "source_id": "21519907",
         "source_url": "https://sdilej.cz/21519907/love.death.-.robots.s03e07.mkv",
@@ -211928,15 +211922,22 @@
         "display_name": "Love, Death & Robots S03E07 Mason's Rats 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:40:25.056925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764451",
-        "size_bytes": 289004565
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764451",
+          "size_bytes": 289004565,
+          "source_bytes_read": 289004565,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21519907",
+        "source_url": "https://sdilej.cz/21519907/love.death.-.robots.s03e07.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764451",
-        "size_bytes": 289004565,
-        "source_bytes_read": 289004565,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S03E07 Mason's Rats 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:41:48.139347+00:00"
       }
     },
     "144:3:8": {
@@ -212075,5 +212076,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:41:45.123575+00:00"
+  "updated_at": "2026-11-03T14:41:48.139363+00:00"
 }
