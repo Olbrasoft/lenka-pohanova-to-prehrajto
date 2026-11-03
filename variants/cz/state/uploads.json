@@ -192320,12 +192320,6 @@
     },
     "50:4:5": {
       "episode_key": "westworld:s4:e5",
-      "claim": {
-        "worker_id": "4483cc3bbfe049458b5b756dc6501a7c-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:38:19.153822+00:00",
-        "lease_expires_at": "2026-11-03T08:38:19.153833+00:00"
-      },
       "source": {
         "source_id": "32021261",
         "source_url": "https://sdilej.cz/32021261/westworld-s04e05-cuang-c.mkv",
@@ -192350,15 +192344,22 @@
         "display_name": "Westworld S04E05 Zhuangzi 4K CZ Dabing",
         "prepared_at": "2026-11-03T02:38:23.022707+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30748638",
-        "size_bytes": 2599812643
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30748638",
+          "size_bytes": 2599812643,
+          "source_bytes_read": 2599812643,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32021261",
+        "source_url": "https://sdilej.cz/32021261/westworld-s04e05-cuang-c.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30748638",
-        "size_bytes": 2599812643,
-        "source_bytes_read": 2599812643,
-        "http_status": 201
+        "display_name": "Westworld S04E05 Zhuangzi 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T02:44:04.771448+00:00"
       }
     },
     "50:4:6": {
@@ -192437,5 +192438,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T02:44:02.693720+00:00"
+  "updated_at": "2026-11-03T02:44:04.771463+00:00"
 }
