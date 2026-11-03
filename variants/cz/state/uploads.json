@@ -199182,12 +199182,6 @@
     },
     "1054:5:4": {
       "episode_key": "brooklyn 99:s5:e4",
-      "claim": {
-        "worker_id": "beb5e26298b54e73a956b6dfa4d37cf2-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:08:48.181515+00:00",
-        "lease_expires_at": "2026-11-03T12:08:48.181525+00:00"
-      },
       "source": {
         "source_id": "29567516",
         "source_url": "https://sdilej.cz/29567516/brooklyn-nine-nine-s05e04-1080p-cz.x265.mkv",
@@ -199212,15 +199206,22 @@
         "display_name": "Brooklyn Nine-Nine S05E04 HalloVeen 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:08:55.160604+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754137",
-        "size_bytes": 163754605
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754137",
+          "size_bytes": 163754605,
+          "source_bytes_read": 163754605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567516",
+        "source_url": "https://sdilej.cz/29567516/brooklyn-nine-nine-s05e04-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754137",
-        "size_bytes": 163754605,
-        "source_bytes_read": 163754605,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E04 HalloVeen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:09:33.097957+00:00"
       }
     },
     "1054:5:5": {
@@ -199299,5 +199300,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:09:31.049398+00:00"
+  "updated_at": "2026-11-03T06:09:33.097983+00:00"
 }
