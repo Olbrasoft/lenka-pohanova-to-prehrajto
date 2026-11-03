@@ -196322,12 +196322,6 @@
     },
     "1054:2:8": {
       "episode_key": "brooklyn 99:s2:e8",
-      "claim": {
-        "worker_id": "f6420f5c47e441ad88d46d7f981001ec-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:43:32.469917+00:00",
-        "lease_expires_at": "2026-11-03T11:43:32.469930+00:00"
-      },
       "source": {
         "source_id": "13002929",
         "source_url": "https://sdilej.cz/13002929/brooklyn.99.02x08.avi",
@@ -196352,15 +196346,22 @@
         "display_name": "Brooklyn Nine-Nine S02E08 USPIS SD CZ Dabing",
         "prepared_at": "2026-11-03T05:43:42.600907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753535",
-        "size_bytes": 335945034
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753535",
+          "size_bytes": 335945034,
+          "source_bytes_read": 335945034,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13002929",
+        "source_url": "https://sdilej.cz/13002929/brooklyn.99.02x08.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753535",
-        "size_bytes": 335945034,
-        "source_bytes_read": 335945034,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S02E08 USPIS SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:44:25.011353+00:00"
       }
     },
     "1054:2:7": {
@@ -196455,5 +196456,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:44:23.177909+00:00"
+  "updated_at": "2026-11-03T05:44:25.011372+00:00"
 }
