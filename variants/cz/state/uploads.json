@@ -201866,12 +201866,6 @@
     },
     "53:3:5": {
       "episode_key": "ozark:s3:e5",
-      "claim": {
-        "worker_id": "c330939977db43cdb209b67b3d1415c0-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T07:11:10.560283+00:00",
-        "lease_expires_at": "2026-11-03T13:11:10.560296+00:00"
-      },
       "source": {
         "source_id": "32711468",
         "source_url": "https://sdilej.cz/32711468/ozark-s03e05-cz-dabing.mkv",
@@ -201896,15 +201890,22 @@
         "display_name": "Ozark S03E05 It Came from Michoacán 1080p CZ Dabing",
         "prepared_at": "2026-11-03T07:11:13.042896+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755082",
-        "size_bytes": 1185751661
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755082",
+          "size_bytes": 1185751661,
+          "source_bytes_read": 1185751661,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711468",
+        "source_url": "https://sdilej.cz/32711468/ozark-s03e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755082",
-        "size_bytes": 1185751661,
-        "source_bytes_read": 1185751661,
-        "http_status": 201
+        "display_name": "Ozark S03E05 It Came from Michoacán 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T07:13:38.943956+00:00"
       }
     },
     "53:3:6": {
@@ -201987,5 +201988,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T07:13:34.175039+00:00"
+  "updated_at": "2026-11-03T07:13:38.943976+00:00"
 }
