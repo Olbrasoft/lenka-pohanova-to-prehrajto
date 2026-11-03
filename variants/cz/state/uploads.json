@@ -206618,12 +206618,6 @@
     },
     "46:2:3": {
       "episode_key": "hranice nemožného:s2:e3",
-      "claim": {
-        "worker_id": "4035746a77f74b4e97c150a4aa933491-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T11:10:44.892212+00:00",
-        "lease_expires_at": "2026-11-03T17:10:44.892225+00:00"
-      },
       "source": {
         "source_id": "32818571",
         "source_url": "https://sdilej.cz/32818571/hranice-nemozneho-s02e03-tristivy.mkv",
@@ -206648,15 +206642,22 @@
         "display_name": "Fringe S02E03 Fracture 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:10:47.394889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759653",
-        "size_bytes": 933463768
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759653",
+          "size_bytes": 933463768,
+          "source_bytes_read": 933463768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32818571",
+        "source_url": "https://sdilej.cz/32818571/hranice-nemozneho-s02e03-tristivy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759653",
-        "size_bytes": 933463768,
-        "source_bytes_read": 933463768,
-        "http_status": 201
+        "display_name": "Fringe S02E03 Fracture 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:13:31.295320+00:00"
       }
     },
     "46:2:4": {
@@ -206739,5 +206740,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:13:26.617824+00:00"
+  "updated_at": "2026-11-03T11:13:31.295340+00:00"
 }
