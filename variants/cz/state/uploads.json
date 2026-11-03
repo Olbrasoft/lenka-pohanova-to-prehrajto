@@ -192841,12 +192841,6 @@
     },
     "1076:1:10": {
       "episode_key": "kravaťáci:s1:e10",
-      "claim": {
-        "worker_id": "1976a07284644c03bdd33fe634194452-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T02:59:28.842500+00:00",
-        "lease_expires_at": "2026-11-03T08:59:28.842510+00:00"
-      },
       "source": {
         "source_id": "6422412",
         "source_url": "https://sdilej.cz/6422412/kravataci-suits-s01e10-cz.mp4",
@@ -192871,15 +192865,22 @@
         "display_name": "Suits S01E10 Shelf Life SD CZ Dabing",
         "prepared_at": "2026-11-03T02:59:31.356130+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30749426",
-        "size_bytes": 419440066
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30749426",
+          "size_bytes": 419440066,
+          "source_bytes_read": 419440066,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6422412",
+        "source_url": "https://sdilej.cz/6422412/kravataci-suits-s01e10-cz.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30749426",
-        "size_bytes": 419440066,
-        "source_bytes_read": 419440066,
-        "http_status": 201
+        "display_name": "Suits S01E10 Shelf Life SD CZ Dabing",
+        "uploaded_at": "2026-11-03T03:00:15.979514+00:00"
       }
     },
     "1076:1:11": {
@@ -192925,5 +192926,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T03:00:12.739506+00:00"
+  "updated_at": "2026-11-03T03:00:15.979532+00:00"
 }
