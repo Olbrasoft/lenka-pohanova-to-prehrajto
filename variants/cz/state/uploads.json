@@ -214003,12 +214003,6 @@
     },
     "64:2:1": {
       "episode_key": "banshee:s2:e1",
-      "claim": {
-        "worker_id": "f8756dd5900d461295d19b9c1a0b49d9-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:01:09.244940+00:00",
-        "lease_expires_at": "2026-11-04T05:01:09.244950+00:00"
-      },
       "source": {
         "source_id": "32874784",
         "source_url": "https://sdilej.cz/32874784/banshee-s02e01-cz-dabing-1080p-full-hd.mkv",
@@ -214033,15 +214027,22 @@
         "display_name": "Banshee S02E01 Little Fish 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:01:13.902472+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30774759",
-        "size_bytes": 1035868544
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30774759",
+          "size_bytes": 1035868544,
+          "source_bytes_read": 1035868544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32874784",
+        "source_url": "https://sdilej.cz/32874784/banshee-s02e01-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30774759",
-        "size_bytes": 1035868544,
-        "source_bytes_read": 1035868544,
-        "http_status": 201
+        "display_name": "Banshee S02E01 Little Fish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:04:12.357550+00:00"
       }
     }
   },
@@ -214050,5 +214051,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:04:07.450096+00:00"
+  "updated_at": "2026-11-03T23:04:12.357562+00:00"
 }
