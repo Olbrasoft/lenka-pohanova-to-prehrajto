@@ -211444,12 +211444,6 @@
     },
     "144:2:4": {
       "episode_key": "love, death & robots:s2:e4",
-      "claim": {
-        "worker_id": "441ee23f22034ca1907f89d829b880b8-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:30:41.326345+00:00",
-        "lease_expires_at": "2026-11-03T20:30:41.326360+00:00"
-      },
       "source": {
         "source_id": "21519979",
         "source_url": "https://sdilej.cz/21519979/love.death.-.robots.s02e04.mkv",
@@ -211474,15 +211468,22 @@
         "display_name": "Love, Death & Robots S02E04 Snow in the Desert 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:30:44.369565+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764077",
-        "size_bytes": 482451285
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764077",
+          "size_bytes": 482451285,
+          "source_bytes_read": 482451285,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21519979",
+        "source_url": "https://sdilej.cz/21519979/love.death.-.robots.s02e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764077",
-        "size_bytes": 482451285,
-        "source_bytes_read": 482451285,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S02E04 Snow in the Desert 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:31:42.368748+00:00"
       }
     }
   },
@@ -211491,5 +211492,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:31:38.546008+00:00"
+  "updated_at": "2026-11-03T14:31:42.368765+00:00"
 }
