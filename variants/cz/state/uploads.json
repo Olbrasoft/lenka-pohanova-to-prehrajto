@@ -197994,12 +197994,6 @@
     },
     "1054:3:22": {
       "episode_key": "brooklyn 99:s3:e22",
-      "claim": {
-        "worker_id": "c420688f67d446d6b9fd9e277dffae5b-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:58:09.165897+00:00",
-        "lease_expires_at": "2026-11-03T11:58:09.165909+00:00"
-      },
       "source": {
         "source_id": "33381667",
         "source_url": "https://sdilej.cz/33381667/brooklyn-99-s03e22-23-2015-cz-dab-420p-federalove.avi",
@@ -198024,15 +198018,22 @@
         "display_name": "Brooklyn Nine-Nine S03E22 Bureau SD CZ Dabing",
         "prepared_at": "2026-11-03T05:58:11.588878+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753869",
-        "size_bytes": 291487692
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753869",
+          "size_bytes": 291487692,
+          "source_bytes_read": 291487692,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33381667",
+        "source_url": "https://sdilej.cz/33381667/brooklyn-99-s03e22-23-2015-cz-dab-420p-federalove.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753869",
-        "size_bytes": 291487692,
-        "source_bytes_read": 291487692,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E22 Bureau SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:58:49.683085+00:00"
       }
     },
     "1054:3:23": {
@@ -198114,5 +198115,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:58:46.167914+00:00"
+  "updated_at": "2026-11-03T05:58:49.683102+00:00"
 }
