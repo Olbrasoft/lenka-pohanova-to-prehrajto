@@ -210050,12 +210050,6 @@
     },
     "2336:1:4": {
       "episode_key": "sedmilhářky:s1:e4",
-      "claim": {
-        "worker_id": "68dfa26baa564d7fa97f2e5a9f9a8a2a-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T13:27:19.516391+00:00",
-        "lease_expires_at": "2026-11-03T19:27:19.516404+00:00"
-      },
       "source": {
         "source_id": "21646100",
         "source_url": "https://sdilej.cz/21646100/sedmilharky-big.little.lies.s01e04.push.comes.to.shove.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
@@ -210080,15 +210074,22 @@
         "display_name": "Big Little Lies S01E04 Push Comes to Shove 1080p CZ Dabing",
         "prepared_at": "2026-11-03T13:27:25.208513+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30762141",
-        "size_bytes": 2470678445
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30762141",
+          "size_bytes": 2470678445,
+          "source_bytes_read": 2470678445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21646100",
+        "source_url": "https://sdilej.cz/21646100/sedmilharky-big.little.lies.s01e04.push.comes.to.shove.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30762141",
-        "size_bytes": 2470678445,
-        "source_bytes_read": 2470678445,
-        "http_status": 201
+        "display_name": "Big Little Lies S01E04 Push Comes to Shove 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T13:34:58.030191+00:00"
       }
     },
     "2336:1:5": {
@@ -210215,5 +210216,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T13:34:52.719590+00:00"
+  "updated_at": "2026-11-03T13:34:58.030218+00:00"
 }
