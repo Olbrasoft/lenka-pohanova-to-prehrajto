@@ -199446,12 +199446,6 @@
     },
     "1054:5:10": {
       "episode_key": "brooklyn 99:s5:e10",
-      "claim": {
-        "worker_id": "4d35ab526a9b4e5cafc22d93a22ad300-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:11:23.106298+00:00",
-        "lease_expires_at": "2026-11-03T12:11:23.106308+00:00"
-      },
       "source": {
         "source_id": "29567521",
         "source_url": "https://sdilej.cz/29567521/brooklyn-nine-nine-s05e10-1080p-cz.x265.mkv",
@@ -199476,15 +199470,22 @@
         "display_name": "Brooklyn Nine-Nine S05E10 Game Night 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:11:28.971963+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754182",
-        "size_bytes": 126640889
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754182",
+          "size_bytes": 126640889,
+          "source_bytes_read": 126640889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567521",
+        "source_url": "https://sdilej.cz/29567521/brooklyn-nine-nine-s05e10-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754182",
-        "size_bytes": 126640889,
-        "source_bytes_read": 126640889,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S05E10 Game Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:11:55.507014+00:00"
       }
     }
   },
@@ -199493,5 +199494,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:11:51.330073+00:00"
+  "updated_at": "2026-11-03T06:11:55.507032+00:00"
 }
