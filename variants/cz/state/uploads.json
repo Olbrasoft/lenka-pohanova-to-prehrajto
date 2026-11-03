@@ -200979,12 +200979,6 @@
     },
     "53:1:5": {
       "episode_key": "ozark:s1:e5",
-      "claim": {
-        "worker_id": "ec03c47036994e8f8c75617ccf8e9983-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:43:59.662773+00:00",
-        "lease_expires_at": "2026-11-03T12:43:59.662785+00:00"
-      },
       "source": {
         "source_id": "33477091",
         "source_url": "https://sdilej.cz/33477091/ozark-s01e05-nadvlada-juraison-.mkv",
@@ -201009,15 +201003,22 @@
         "display_name": "Ozark S01E05 Ruling Days 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:44:07.668516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754678",
-        "size_bytes": 1147943758
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754678",
+          "size_bytes": 1147943758,
+          "source_bytes_read": 1147943758,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33477091",
+        "source_url": "https://sdilej.cz/33477091/ozark-s01e05-nadvlada-juraison-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754678",
-        "size_bytes": 1147943758,
-        "source_bytes_read": 1147943758,
-        "http_status": 201
+        "display_name": "Ozark S01E05 Ruling Days 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:45:36.821395+00:00"
       }
     },
     "53:1:6": {
@@ -201063,5 +201064,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:45:31.123123+00:00"
+  "updated_at": "2026-11-03T06:45:36.821412+00:00"
 }
