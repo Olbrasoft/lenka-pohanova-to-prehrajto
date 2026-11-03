@@ -207466,12 +207466,6 @@
     },
     "46:2:22": {
       "episode_key": "hranice nemožného:s2:e22",
-      "claim": {
-        "worker_id": "c33561ae248d4f26ac1ae61a21ff73df-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T11:48:38.780082+00:00",
-        "lease_expires_at": "2026-11-03T17:48:38.780098+00:00"
-      },
       "source": {
         "source_id": "32818845",
         "source_url": "https://sdilej.cz/32818845/hranice-nemozneho-s02e22-na-druhe-strane-1.mkv",
@@ -207496,15 +207490,22 @@
         "display_name": "Fringe S02E22 Over There (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-03T11:48:43.639157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30760214",
-        "size_bytes": 934773283
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30760214",
+          "size_bytes": 934773283,
+          "source_bytes_read": 934773283,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32818845",
+        "source_url": "https://sdilej.cz/32818845/hranice-nemozneho-s02e22-na-druhe-strane-1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30760214",
-        "size_bytes": 934773283,
-        "source_bytes_read": 934773283,
-        "http_status": 201
+        "display_name": "Fringe S02E22 Over There (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T11:51:46.604168+00:00"
       }
     }
   },
@@ -207513,5 +207514,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T11:51:44.666228+00:00"
+  "updated_at": "2026-11-03T11:51:46.604184+00:00"
 }
