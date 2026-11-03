@@ -205958,12 +205958,6 @@
     },
     "46:1:9": {
       "episode_key": "hranice nemožného:s1:e9",
-      "claim": {
-        "worker_id": "6e9f82c849db485f833761860ca48eb7-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:45:51.162044+00:00",
-        "lease_expires_at": "2026-11-03T16:45:51.162056+00:00"
-      },
       "source": {
         "source_id": "27771067",
         "source_url": "https://sdilej.cz/27771067/hranice-nemozneho-s01e09-krajina-vzpominek-serial-cz-dabing-.mkv",
@@ -205988,15 +205982,22 @@
         "display_name": "Fringe S01E09 The Dreamscape 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:45:57.101661+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759225",
-        "size_bytes": 1033252204
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759225",
+          "size_bytes": 1033252204,
+          "source_bytes_read": 1033252204,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27771067",
+        "source_url": "https://sdilej.cz/27771067/hranice-nemozneho-s01e09-krajina-vzpominek-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759225",
-        "size_bytes": 1033252204,
-        "source_bytes_read": 1033252204,
-        "http_status": 201
+        "display_name": "Fringe S01E09 The Dreamscape 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:49:50.769234+00:00"
       }
     },
     "46:1:10": {
@@ -206079,5 +206080,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:49:44.017098+00:00"
+  "updated_at": "2026-11-03T10:49:50.769253+00:00"
 }
