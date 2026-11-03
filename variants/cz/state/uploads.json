@@ -212558,12 +212558,6 @@
     },
     "3251:1:4": {
       "episode_key": "mare z easttownu:s1:e4",
-      "claim": {
-        "worker_id": "b40634303c164f2a8161f0454da306be-worker-0",
-        "run_id": "41652996054",
-        "claimed_at": "2026-11-03T15:46:41.654381+00:00",
-        "lease_expires_at": "2026-11-03T21:46:41.654391+00:00"
-      },
       "source": {
         "source_id": "29367783",
         "source_url": "https://sdilej.cz/29367783/mare-z-easttownu-mare-of-easttown-s01e04-2160p-dd-5.1-hdr-cz-dabing.mkv",
@@ -212588,15 +212582,22 @@
         "display_name": "Mare of Easttown S01E04 Poor Sisyphus 4K CZ Dabing",
         "prepared_at": "2026-11-03T15:46:48.157653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30766550",
-        "size_bytes": 9132626199
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30766550",
+          "size_bytes": 9132626199,
+          "source_bytes_read": 9132626199,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367783",
+        "source_url": "https://sdilej.cz/29367783/mare-z-easttownu-mare-of-easttown-s01e04-2160p-dd-5.1-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30766550",
-        "size_bytes": 9132626199,
-        "source_bytes_read": 9132626199,
-        "http_status": 201
+        "display_name": "Mare of Easttown S01E04 Poor Sisyphus 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T16:13:51.350208+00:00"
       }
     },
     "3251:1:5": {
@@ -212686,5 +212687,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T16:13:45.974550+00:00"
+  "updated_at": "2026-11-03T16:13:51.350222+00:00"
 }
