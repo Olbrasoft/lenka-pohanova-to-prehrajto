@@ -197730,12 +197730,6 @@
     },
     "1054:3:16": {
       "episode_key": "brooklyn 99:s3:e16",
-      "claim": {
-        "worker_id": "5ab4872f66cf48b898761feb70f8b515-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:55:00.450433+00:00",
-        "lease_expires_at": "2026-11-03T11:55:00.450444+00:00"
-      },
       "source": {
         "source_id": "24761507",
         "source_url": "https://sdilej.cz/24761507/brooklyn.99.03x16.avi",
@@ -197760,15 +197754,22 @@
         "display_name": "Brooklyn Nine-Nine S03E16 House Mouses SD CZ Dabing",
         "prepared_at": "2026-11-03T05:55:04.645971+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753802",
-        "size_bytes": 288406112
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753802",
+          "size_bytes": 288406112,
+          "source_bytes_read": 288406112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24761507",
+        "source_url": "https://sdilej.cz/24761507/brooklyn.99.03x16.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753802",
-        "size_bytes": 288406112,
-        "source_bytes_read": 288406112,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E16 House Mouses SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:55:44.435896+00:00"
       }
     }
   },
@@ -197777,5 +197778,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:55:39.076243+00:00"
+  "updated_at": "2026-11-03T05:55:44.435915+00:00"
 }
