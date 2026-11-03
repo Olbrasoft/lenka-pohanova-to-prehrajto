@@ -214582,12 +214582,6 @@
     },
     "64:3:4": {
       "episode_key": "banshee:s3:e4",
-      "claim": {
-        "worker_id": "9d8865b7b62d43439687a9ae09692221-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:33:39.501353+00:00",
-        "lease_expires_at": "2026-11-04T05:33:39.501364+00:00"
-      },
       "source": {
         "source_id": "32875012",
         "source_url": "https://sdilej.cz/32875012/banshee-s03e04-cz-dabing-1080p-full-hd.mkv",
@@ -214612,15 +214606,22 @@
         "display_name": "Banshee S03E04 Real Life Is the Nightmare 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:33:46.216262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775049",
-        "size_bytes": 1075225865
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775049",
+          "size_bytes": 1075225865,
+          "source_bytes_read": 1075225865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875012",
+        "source_url": "https://sdilej.cz/32875012/banshee-s03e04-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775049",
-        "size_bytes": 1075225865,
-        "source_bytes_read": 1075225865,
-        "http_status": 201
+        "display_name": "Banshee S03E04 Real Life Is the Nightmare 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:36:58.653609+00:00"
       }
     },
     "64:3:5": {
@@ -214673,5 +214674,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:36:54.255454+00:00"
+  "updated_at": "2026-11-03T23:36:58.653622+00:00"
 }
