@@ -190955,12 +190955,6 @@
     },
     "50:1:2": {
       "episode_key": "westworld:s1:e2",
-      "claim": {
-        "worker_id": "0fc7c1172ec44d15bd09a1ea0895d79f-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T00:51:06.180113+00:00",
-        "lease_expires_at": "2026-11-03T06:51:06.180125+00:00"
-      },
       "source": {
         "source_id": "28627035",
         "source_url": "https://sdilej.cz/28627035/westworld-s01e02.mkv",
@@ -190985,15 +190979,22 @@
         "display_name": "Westworld S01E02 Chestnut 4K CZ Dabing",
         "prepared_at": "2026-11-03T00:51:08.893702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30746368",
-        "size_bytes": 1842406261
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30746368",
+          "size_bytes": 1842406261,
+          "source_bytes_read": 1842406261,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28627035",
+        "source_url": "https://sdilej.cz/28627035/westworld-s01e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30746368",
-        "size_bytes": 1842406261,
-        "source_bytes_read": 1842406261,
-        "http_status": 201
+        "display_name": "Westworld S01E02 Chestnut 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T00:54:45.559537+00:00"
       }
     }
   },
@@ -191002,5 +191003,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T00:54:41.635716+00:00"
+  "updated_at": "2026-11-03T00:54:45.559554+00:00"
 }
