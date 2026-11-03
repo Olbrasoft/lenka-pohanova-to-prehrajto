@@ -206134,12 +206134,6 @@
     },
     "46:1:13": {
       "episode_key": "hranice nemožného:s1:e13",
-      "claim": {
-        "worker_id": "5617d84e0a83403db453ea693095963a-worker-0",
-        "run_id": "41595910810",
-        "claimed_at": "2026-11-03T10:50:16.882306+00:00",
-        "lease_expires_at": "2026-11-03T16:50:16.882319+00:00"
-      },
       "source": {
         "source_id": "27771396",
         "source_url": "https://sdilej.cz/27771396/hranice-nemozneho-s01e13-premena-serial-cz-dabing-.mkv",
@@ -206164,15 +206158,22 @@
         "display_name": "Fringe S01E13 The Transformation 1080p CZ Dabing",
         "prepared_at": "2026-11-03T10:50:19.421485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30759313",
-        "size_bytes": 1030065971
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30759313",
+          "size_bytes": 1030065971,
+          "source_bytes_read": 1030065971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27771396",
+        "source_url": "https://sdilej.cz/27771396/hranice-nemozneho-s01e13-premena-serial-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30759313",
-        "size_bytes": 1030065971,
-        "source_bytes_read": 1030065971,
-        "http_status": 201
+        "display_name": "Fringe S01E13 The Transformation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T10:53:35.573302+00:00"
       }
     },
     "46:1:14": {
@@ -206255,5 +206256,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T10:53:30.719490+00:00"
+  "updated_at": "2026-11-03T10:53:35.573321+00:00"
 }
