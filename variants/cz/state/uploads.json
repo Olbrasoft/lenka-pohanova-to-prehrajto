@@ -191704,12 +191704,6 @@
     },
     "50:2:9": {
       "episode_key": "westworld:s2:e9",
-      "claim": {
-        "worker_id": "d8ea78c67b674d92acb0e5cde9443165-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T01:50:58.598413+00:00",
-        "lease_expires_at": "2026-11-03T07:50:58.598424+00:00"
-      },
       "source": {
         "source_id": "28642304",
         "source_url": "https://sdilej.cz/28642304/westworld-s02e09.mkv",
@@ -191734,15 +191728,22 @@
         "display_name": "Westworld S02E09 Vanishing Point 4K CZ Dabing",
         "prepared_at": "2026-11-03T01:51:03.384001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30747516",
-        "size_bytes": 1838941337
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30747516",
+          "size_bytes": 1838941337,
+          "source_bytes_read": 1838941337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28642304",
+        "source_url": "https://sdilej.cz/28642304/westworld-s02e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30747516",
-        "size_bytes": 1838941337,
-        "source_bytes_read": 1838941337,
-        "http_status": 201
+        "display_name": "Westworld S02E09 Vanishing Point 4K CZ Dabing",
+        "uploaded_at": "2026-11-03T01:55:14.634938+00:00"
       }
     },
     "50:2:10": {
@@ -191825,5 +191826,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T01:55:08.132720+00:00"
+  "updated_at": "2026-11-03T01:55:14.634954+00:00"
 }
