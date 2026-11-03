@@ -197239,12 +197239,6 @@
     },
     "1054:3:5": {
       "episode_key": "brooklyn 99:s3:e5",
-      "claim": {
-        "worker_id": "591ef26f89204cc4bc509495c0efd8a5-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:50:42.979546+00:00",
-        "lease_expires_at": "2026-11-03T11:50:42.979556+00:00"
-      },
       "source": {
         "source_id": "33381644",
         "source_url": "https://sdilej.cz/33381644/brooklyn-99-s03e05-23-2015-cz-dab-420p-halloween-iii.-cast.avi",
@@ -197269,15 +197263,22 @@
         "display_name": "Brooklyn Nine-Nine S03E05 Halloween III SD CZ Dabing",
         "prepared_at": "2026-11-03T05:50:45.263580+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753704",
-        "size_bytes": 337904046
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753704",
+          "size_bytes": 337904046,
+          "source_bytes_read": 337904046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33381644",
+        "source_url": "https://sdilej.cz/33381644/brooklyn-99-s03e05-23-2015-cz-dab-420p-halloween-iii.-cast.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753704",
-        "size_bytes": 337904046,
-        "source_bytes_read": 337904046,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S03E05 Halloween III SD CZ Dabing",
+        "uploaded_at": "2026-11-03T05:51:23.358216+00:00"
       }
     }
   },
@@ -197286,5 +197287,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:51:21.175575+00:00"
+  "updated_at": "2026-11-03T05:51:23.358234+00:00"
 }
