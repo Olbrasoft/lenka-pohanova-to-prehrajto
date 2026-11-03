@@ -201162,12 +201162,6 @@
     },
     "53:1:9": {
       "episode_key": "ozark:s1:e9",
-      "claim": {
-        "worker_id": "a9a60219f767482b95a27879972a310d-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T06:47:46.205342+00:00",
-        "lease_expires_at": "2026-11-03T12:47:46.205352+00:00"
-      },
       "source": {
         "source_id": "32711297",
         "source_url": "https://sdilej.cz/32711297/ozark-s01e09-cz-dabing.mkv",
@@ -201192,15 +201186,22 @@
         "display_name": "Ozark S01E09 Coffee, Black 1080p CZ Dabing",
         "prepared_at": "2026-11-03T06:47:52.621348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30754723",
-        "size_bytes": 1187230226
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30754723",
+          "size_bytes": 1187230226,
+          "source_bytes_read": 1187230226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32711297",
+        "source_url": "https://sdilej.cz/32711297/ozark-s01e09-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30754723",
-        "size_bytes": 1187230226,
-        "source_bytes_read": 1187230226,
-        "http_status": 201
+        "display_name": "Ozark S01E09 Coffee, Black 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T06:50:59.805479+00:00"
       }
     },
     "53:1:10": {
@@ -201253,5 +201254,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T06:50:58.011553+00:00"
+  "updated_at": "2026-11-03T06:50:59.805496+00:00"
 }
