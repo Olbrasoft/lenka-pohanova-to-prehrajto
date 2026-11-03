@@ -202174,12 +202174,6 @@
     },
     "53:4:2": {
       "episode_key": "ozark:s4:e2",
-      "claim": {
-        "worker_id": "ff8165ea664e4e89b347f1788c230dc0-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T07:32:14.054021+00:00",
-        "lease_expires_at": "2026-11-03T13:32:14.054032+00:00"
-      },
       "source": {
         "source_id": "30901151",
         "source_url": "https://sdilej.cz/30901151/ozark-2022-s04e02-cz-dab-1080p-co-svet-svetem-stoji.mkv",
@@ -202204,15 +202198,22 @@
         "display_name": "Ozark S04E02 Let the Great World Spin 1080p CZ Dabing",
         "prepared_at": "2026-11-03T07:32:18.567925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30755443",
-        "size_bytes": 4093184268
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30755443",
+          "size_bytes": 4093184268,
+          "source_bytes_read": 4093184268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30901151",
+        "source_url": "https://sdilej.cz/30901151/ozark-2022-s04e02-cz-dab-1080p-co-svet-svetem-stoji.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30755443",
-        "size_bytes": 4093184268,
-        "source_bytes_read": 4093184268,
-        "http_status": 201
+        "display_name": "Ozark S04E02 Let the Great World Spin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T07:43:32.944694+00:00"
       }
     },
     "53:4:4": {
@@ -202309,5 +202310,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T07:43:27.794410+00:00"
+  "updated_at": "2026-11-03T07:43:32.944713+00:00"
 }
