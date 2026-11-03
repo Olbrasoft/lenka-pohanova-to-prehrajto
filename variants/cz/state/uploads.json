@@ -211854,12 +211854,6 @@
     },
     "144:3:6": {
       "episode_key": "love, death & robots:s3:e6",
-      "claim": {
-        "worker_id": "a66629a3aaf14b45ad3215ec9bc1bf16-worker-0",
-        "run_id": "41618600692",
-        "claimed_at": "2026-11-03T14:40:04.228364+00:00",
-        "lease_expires_at": "2026-11-03T20:40:04.228382+00:00"
-      },
       "source": {
         "source_id": "21595994",
         "source_url": "https://sdilej.cz/21595994/love-death-robots-s03e06-roj-hd-cz-.mkv",
@@ -211884,15 +211878,22 @@
         "display_name": "Love, Death & Robots S03E06 Swarm 1080p CZ Dabing",
         "prepared_at": "2026-11-03T14:40:15.527272+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30764445",
-        "size_bytes": 289906469
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30764445",
+          "size_bytes": 289906469,
+          "source_bytes_read": 289906469,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21595994",
+        "source_url": "https://sdilej.cz/21595994/love-death-robots-s03e06-roj-hd-cz-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30764445",
-        "size_bytes": 289906469,
-        "source_bytes_read": 289906469,
-        "http_status": 201
+        "display_name": "Love, Death & Robots S03E06 Swarm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T14:40:54.799450+00:00"
       }
     },
     "144:3:7": {
@@ -211975,5 +211976,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T14:40:51.114570+00:00"
+  "updated_at": "2026-11-03T14:40:54.799466+00:00"
 }
