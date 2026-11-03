@@ -195310,12 +195310,6 @@
     },
     "1054:1:6": {
       "episode_key": "brooklyn 99:s1:e6",
-      "claim": {
-        "worker_id": "6d05729eefbc4719acddbf319159ca8f-worker-0",
-        "run_id": "41571908479",
-        "claimed_at": "2026-11-03T05:28:54.799078+00:00",
-        "lease_expires_at": "2026-11-03T11:28:54.799089+00:00"
-      },
       "source": {
         "source_id": "29567392",
         "source_url": "https://sdilej.cz/29567392/brooklyn-nine-nine-s01e06-1080p-cz.x265.mkv",
@@ -195340,15 +195334,22 @@
         "display_name": "Brooklyn Nine-Nine S01E06 Halloween 1080p CZ Dabing",
         "prepared_at": "2026-11-03T05:28:59.201995+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30753201",
-        "size_bytes": 175346119
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30753201",
+          "size_bytes": 175346119,
+          "source_bytes_read": 175346119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29567392",
+        "source_url": "https://sdilej.cz/29567392/brooklyn-nine-nine-s01e06-1080p-cz.x265.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30753201",
-        "size_bytes": 175346119,
-        "source_bytes_read": 175346119,
-        "http_status": 201
+        "display_name": "Brooklyn Nine-Nine S01E06 Halloween 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T05:29:31.707559+00:00"
       }
     },
     "1054:1:7": {
@@ -195394,5 +195395,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T05:29:27.037630+00:00"
+  "updated_at": "2026-11-03T05:29:31.707578+00:00"
 }
