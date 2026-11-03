@@ -193010,12 +193010,6 @@
     },
     "1076:2:2": {
       "episode_key": "kravaťáci:s2:e2",
-      "claim": {
-        "worker_id": "6584783195974ae6be7b6011dd302a38-worker-0",
-        "run_id": "41544691846",
-        "claimed_at": "2026-11-03T03:01:38.679532+00:00",
-        "lease_expires_at": "2026-11-03T09:01:38.679544+00:00"
-      },
       "source": {
         "source_id": "9418242",
         "source_url": "https://sdilej.cz/9418242/kravataci.s02e02.volba.mkv",
@@ -193040,15 +193034,22 @@
         "display_name": "Suits S02E02 The Choice 720p CZ Dabing",
         "prepared_at": "2026-11-03T03:01:41.317681+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30749517",
-        "size_bytes": 1486064198
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30749517",
+          "size_bytes": 1486064198,
+          "source_bytes_read": 1486064198,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9418242",
+        "source_url": "https://sdilej.cz/9418242/kravataci.s02e02.volba.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30749517",
-        "size_bytes": 1486064198,
-        "source_bytes_read": 1486064198,
-        "http_status": 201
+        "display_name": "Suits S02E02 The Choice 720p CZ Dabing",
+        "uploaded_at": "2026-11-03T03:05:09.887753+00:00"
       }
     }
   },
@@ -193057,5 +193058,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T03:05:04.379261+00:00"
+  "updated_at": "2026-11-03T03:05:09.887770+00:00"
 }
