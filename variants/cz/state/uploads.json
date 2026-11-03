@@ -214839,12 +214839,6 @@
     },
     "64:3:10": {
       "episode_key": "banshee:s3:e10",
-      "claim": {
-        "worker_id": "72e6aea590504bbc800b19b6e336cf91-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-03T23:40:57.601386+00:00",
-        "lease_expires_at": "2026-11-04T05:40:57.601395+00:00"
-      },
       "source": {
         "source_id": "18634067",
         "source_url": "https://sdilej.cz/18634067/banshee.s03e10.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -214869,15 +214863,22 @@
         "display_name": "Banshee S03E10 We All Pay Eventually 1080p CZ Dabing",
         "prepared_at": "2026-11-03T23:41:03.935683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775156",
-        "size_bytes": 806863631
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775156",
+          "size_bytes": 806863631,
+          "source_bytes_read": 806863631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18634067",
+        "source_url": "https://sdilej.cz/18634067/banshee.s03e10.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775156",
-        "size_bytes": 806863631,
-        "source_bytes_read": 806863631,
-        "http_status": 201
+        "display_name": "Banshee S03E10 We All Pay Eventually 1080p CZ Dabing",
+        "uploaded_at": "2026-11-03T23:42:35.557902+00:00"
       }
     },
     "64:4:1": {
@@ -214923,5 +214924,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-03T23:42:29.031143+00:00"
+  "updated_at": "2026-11-03T23:42:35.557916+00:00"
 }
