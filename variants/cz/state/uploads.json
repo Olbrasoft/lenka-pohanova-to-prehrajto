@@ -229152,12 +229152,6 @@
     },
     "2162:2:3": {
       "episode_key": "knick: doktoři bez hranic:s2:e3",
-      "claim": {
-        "worker_id": "4ba4d8007f1e4fb0a07133ac4a903b8a-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:55:57.036778+00:00",
-        "lease_expires_at": "2026-11-04T13:55:57.036795+00:00"
-      },
       "source": {
         "source_id": "34641126",
         "source_url": "https://sdilej.cz/34641126/knick-doktori-bez-hranic-s02e03-cz-dabing.mkv",
@@ -229182,15 +229176,22 @@
         "display_name": "The Knick S02E03 The Best with the Best to Get the Best 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:55:59.513003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781857",
-        "size_bytes": 2556100439
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781857",
+          "size_bytes": 2556100439,
+          "source_bytes_read": 2556100439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34641126",
+        "source_url": "https://sdilej.cz/34641126/knick-doktori-bez-hranic-s02e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781857",
-        "size_bytes": 2556100439,
-        "source_bytes_read": 2556100439,
-        "http_status": 201
+        "display_name": "The Knick S02E03 The Best with the Best to Get the Best 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:58:24.061372+00:00"
       }
     },
     "2162:2:4": {
@@ -229280,5 +229281,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:58:21.958851+00:00"
+  "updated_at": "2026-11-04T07:58:24.061403+00:00"
 }
