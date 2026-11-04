@@ -228096,12 +228096,6 @@
     },
     "1203:1:9": {
       "episode_key": "řekni, kdo tě zabil:s1:e9",
-      "claim": {
-        "worker_id": "2260538ac8a14059852c90ea9cc88129-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:38:58.478116+00:00",
-        "lease_expires_at": "2026-11-04T13:38:58.478133+00:00"
-      },
       "source": {
         "source_id": "30326945",
         "source_url": "https://sdilej.cz/30326945/rekni-kdo-te-zabil-pushing-daisies-s01e09-czdab.mp4",
@@ -228126,15 +228120,22 @@
         "display_name": "Pushing Daisies S01E09 Corpsicle SD CZ Dabing",
         "prepared_at": "2026-11-04T07:39:06.201152+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781644",
-        "size_bytes": 514312768
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781644",
+          "size_bytes": 514312768,
+          "source_bytes_read": 514312768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30326945",
+        "source_url": "https://sdilej.cz/30326945/rekni-kdo-te-zabil-pushing-daisies-s01e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781644",
-        "size_bytes": 514312768,
-        "source_bytes_read": 514312768,
-        "http_status": 201
+        "display_name": "Pushing Daisies S01E09 Corpsicle SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:39:50.182229+00:00"
       }
     },
     "1203:2:2": {
@@ -228217,5 +228218,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:39:45.235983+00:00"
+  "updated_at": "2026-11-04T07:39:50.182248+00:00"
 }
