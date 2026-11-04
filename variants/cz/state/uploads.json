@@ -253786,12 +253786,6 @@
     },
     "1519:2:4": {
       "episode_key": "vláda:s2:e4",
-      "claim": {
-        "worker_id": "cdb9705e9ee8479fbe24bb0b5ef74e97-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:41:52.156951+00:00",
-        "lease_expires_at": "2026-11-05T02:41:52.156964+00:00"
-      },
       "source": {
         "source_id": "33614302",
         "source_url": "https://sdilej.cz/33614302/vlada-borgen-s02e04-czdab.mp4",
@@ -253815,7 +253809,13 @@
         },
         "display_name": "Borgen S02E04 Op til kamp SD CZ Dabing",
         "prepared_at": "2026-11-04T20:41:54.999321+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:42:09.355289+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:2:5": {
       "episode_key": "vláda:s2:e5",
@@ -253856,5 +253856,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:42:06.995597+00:00"
+  "updated_at": "2026-11-04T20:42:09.355306+00:00"
 }
