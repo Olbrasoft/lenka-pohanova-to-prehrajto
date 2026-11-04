@@ -230560,12 +230560,6 @@
     },
     "2662:2:6": {
       "episode_key": "carnivale:s2:e6",
-      "claim": {
-        "worker_id": "6f98d6931462430f8d8a27db0acf6e3b-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:15:22.707306+00:00",
-        "lease_expires_at": "2026-11-04T14:15:22.707322+00:00"
-      },
       "source": {
         "source_id": "22249941",
         "source_url": "https://sdilej.cz/22249941/carnivale-s02e06-czdab.avi",
@@ -230590,15 +230584,22 @@
         "display_name": "Carnivàle S02E06 The Road to Damascus SD CZ Dabing",
         "prepared_at": "2026-11-04T08:15:34.975023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782103",
-        "size_bytes": 424116224
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782103",
+          "size_bytes": 424116224,
+          "source_bytes_read": 424116224,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249941",
+        "source_url": "https://sdilej.cz/22249941/carnivale-s02e06-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782103",
-        "size_bytes": 424116224,
-        "source_bytes_read": 424116224,
-        "http_status": 201
+        "display_name": "Carnivàle S02E06 The Road to Damascus SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:16:18.203939+00:00"
       }
     },
     "2662:2:10": {
@@ -230644,5 +230645,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:16:13.478598+00:00"
+  "updated_at": "2026-11-04T08:16:18.203958+00:00"
 }
