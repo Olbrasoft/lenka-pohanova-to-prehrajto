@@ -241516,12 +241516,6 @@
     },
     "560:9:23": {
       "episode_key": "jak jsem poznal vaši matku:s9:e23",
-      "claim": {
-        "worker_id": "cd2f7244b37a4a7586cd3cf5542f295f-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:11:09.014138+00:00",
-        "lease_expires_at": "2026-11-04T19:11:09.014152+00:00"
-      },
       "source": {
         "source_id": "28211921",
         "source_url": "https://sdilej.cz/28211921/jak-jsem-poznal-vasi-matku-s09e23.mkv",
@@ -241546,15 +241540,22 @@
         "display_name": "How I Met Your Mother S09E23 Last Forever (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:11:12.861139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786224",
-        "size_bytes": 176519401
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786224",
+          "size_bytes": 176519401,
+          "source_bytes_read": 176519401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211921",
+        "source_url": "https://sdilej.cz/28211921/jak-jsem-poznal-vasi-matku-s09e23.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786224",
-        "size_bytes": 176519401,
-        "source_bytes_read": 176519401,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E23 Last Forever (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:11:54.046870+00:00"
       }
     },
     "560:9:24": {
@@ -241599,5 +241600,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:11:49.107513+00:00"
+  "updated_at": "2026-11-04T13:11:54.046887+00:00"
 }
