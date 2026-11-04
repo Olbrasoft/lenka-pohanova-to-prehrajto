@@ -238084,12 +238084,6 @@
     },
     "560:6:17": {
       "episode_key": "jak jsem poznal vaši matku:s6:e17",
-      "claim": {
-        "worker_id": "c2b195499ef246aa9138fc32a867faa6-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:14:43.606149+00:00",
-        "lease_expires_at": "2026-11-04T18:14:43.606159+00:00"
-      },
       "source": {
         "source_id": "28211599",
         "source_url": "https://sdilej.cz/28211599/jak-jsem-poznal-vasi-matku-s06e17.mkv",
@@ -238114,15 +238108,22 @@
         "display_name": "How I Met Your Mother S06E17 Garbage Island 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:14:51.304654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785277",
-        "size_bytes": 177086589
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785277",
+          "size_bytes": 177086589,
+          "source_bytes_read": 177086589,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211599",
+        "source_url": "https://sdilej.cz/28211599/jak-jsem-poznal-vasi-matku-s06e17.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785277",
-        "size_bytes": 177086589,
-        "source_bytes_read": 177086589,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S06E17 Garbage Island 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:15:25.825175+00:00"
       }
     }
   },
@@ -238131,5 +238132,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:15:23.969013+00:00"
+  "updated_at": "2026-11-04T12:15:25.825195+00:00"
 }
