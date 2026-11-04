@@ -231792,12 +231792,6 @@
     },
     "571:2:2": {
       "episode_key": "bosch: odkaz:s2:e2",
-      "claim": {
-        "worker_id": "da6ac298a3c6461cae52dee0318fbb77-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:54:22.112605+00:00",
-        "lease_expires_at": "2026-11-04T14:54:22.112622+00:00"
-      },
       "source": {
         "source_id": "31822020",
         "source_url": "https://sdilej.cz/31822020/bosch-odkaz-s02e02-fhd-1080p-cz-zzyzx.mkv",
@@ -231822,15 +231816,22 @@
         "display_name": "Bosch: Legacy S02E02 Zzyzx 1080p CZ Dabing",
         "prepared_at": "2026-11-04T08:54:28.209841+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782672",
-        "size_bytes": 500907083
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782672",
+          "size_bytes": 500907083,
+          "source_bytes_read": 500907083,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31822020",
+        "source_url": "https://sdilej.cz/31822020/bosch-odkaz-s02e02-fhd-1080p-cz-zzyzx.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782672",
-        "size_bytes": 500907083,
-        "source_bytes_read": 500907083,
-        "http_status": 201
+        "display_name": "Bosch: Legacy S02E02 Zzyzx 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:55:49.756830+00:00"
       }
     },
     "571:2:3": {
@@ -231919,5 +231920,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:55:47.448868+00:00"
+  "updated_at": "2026-11-04T08:55:49.756851+00:00"
 }
