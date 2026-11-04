@@ -242445,12 +242445,6 @@
     },
     "1082:1:20": {
       "episode_key": "útěk z vězení:s1:e20",
-      "claim": {
-        "worker_id": "4daabaf7ddb0434f939a5921e788e9a5-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:00:46.647901+00:00",
-        "lease_expires_at": "2026-11-04T20:00:46.647911+00:00"
-      },
       "source": {
         "source_id": "34023803",
         "source_url": "https://sdilej.cz/34023803/utek-z-vezeni-s01e20-22-2005-cz-dab-1080p-dnes-vecer.mkv",
@@ -242474,7 +242468,13 @@
         },
         "display_name": "Prison Break S01E20 Tonight 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:00:53.631091+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T14:01:09.121726+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -242482,5 +242482,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:01:06.871539+00:00"
+  "updated_at": "2026-11-04T14:01:09.121741+00:00"
 }
