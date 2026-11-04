@@ -222502,12 +222502,6 @@
     },
     "6:8:2": {
       "episode_key": "hvězdná brána:s8:e2",
-      "claim": {
-        "worker_id": "3d78f5294737408ca6782eb5df03ba62-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:40:02.283825+00:00",
-        "lease_expires_at": "2026-11-04T10:40:02.283841+00:00"
-      },
       "source": {
         "source_id": "17453313",
         "source_url": "https://sdilej.cz/17453313/stargate.sg-1.-2004-.s08e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -222532,15 +222526,22 @@
         "display_name": "Stargate SG-1 S08E02 New Order (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:40:06.015847+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779298",
-        "size_bytes": 1388625624
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779298",
+          "size_bytes": 1388625624,
+          "source_bytes_read": 1388625624,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17453313",
+        "source_url": "https://sdilej.cz/17453313/stargate.sg-1.-2004-.s08e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779298",
-        "size_bytes": 1388625624,
-        "source_bytes_read": 1388625624,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E02 New Order (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:43:45.106319+00:00"
       }
     },
     "6:8:4": {
@@ -222623,5 +222624,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:43:39.963607+00:00"
+  "updated_at": "2026-11-04T04:43:45.106337+00:00"
 }
