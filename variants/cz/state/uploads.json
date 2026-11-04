@@ -217611,12 +217611,6 @@
     },
     "6:2:20": {
       "episode_key": "hvězdná brána:s2:e20",
-      "claim": {
-        "worker_id": "44e51fffa45d460f8b2b75450f92a79d-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T01:31:40.424611+00:00",
-        "lease_expires_at": "2026-11-04T07:31:40.424618+00:00"
-      },
       "source": {
         "source_id": "28492869",
         "source_url": "https://sdilej.cz/28492869/hvezdna-brana-s02e20.mkv",
@@ -217641,15 +217635,22 @@
         "display_name": "Stargate SG-1 S02E20 Show and Tell 1080p CZ Dabing",
         "prepared_at": "2026-11-04T01:31:43.178108+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776809",
-        "size_bytes": 346466538
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776809",
+          "size_bytes": 346466538,
+          "source_bytes_read": 346466538,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28492869",
+        "source_url": "https://sdilej.cz/28492869/hvezdna-brana-s02e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776809",
-        "size_bytes": 346466538,
-        "source_bytes_read": 346466538,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S02E20 Show and Tell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T01:32:25.796310+00:00"
       }
     },
     "6:2:21": {
@@ -217695,5 +217696,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T01:32:20.905807+00:00"
+  "updated_at": "2026-11-04T01:32:25.796324+00:00"
 }
