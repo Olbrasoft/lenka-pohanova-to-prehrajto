@@ -234306,12 +234306,6 @@
     },
     "560:2:20": {
       "episode_key": "jak jsem poznal vaši matku:s2:e20",
-      "claim": {
-        "worker_id": "30b5b08e477f434c83ef56010106be29-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:31:43.105850+00:00",
-        "lease_expires_at": "2026-11-04T15:31:43.105860+00:00"
-      },
       "source": {
         "source_id": "28211285",
         "source_url": "https://sdilej.cz/28211285/jak-jsem-poznal-vasi-matku-s02e20.mkv",
@@ -234336,15 +234330,22 @@
         "display_name": "How I Met Your Mother S02E20 Showdown 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:31:48.039361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30783163",
-        "size_bytes": 180781227
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30783163",
+          "size_bytes": 180781227,
+          "source_bytes_read": 180781227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211285",
+        "source_url": "https://sdilej.cz/28211285/jak-jsem-poznal-vasi-matku-s02e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30783163",
-        "size_bytes": 180781227,
-        "source_bytes_read": 180781227,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E20 Showdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:32:19.547366+00:00"
       }
     },
     "560:2:21": {
@@ -234362,5 +234363,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:32:17.604326+00:00"
+  "updated_at": "2026-11-04T09:32:19.547382+00:00"
 }
