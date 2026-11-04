@@ -216034,12 +216034,6 @@
     },
     "1507:1:12": {
       "episode_key": "normální lidi:s1:e12",
-      "claim": {
-        "worker_id": "53d82b1907734488ab880b1c7e5e7a7e-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:26:38.866238+00:00",
-        "lease_expires_at": "2026-11-04T06:26:38.866248+00:00"
-      },
       "source": {
         "source_id": "16192227",
         "source_url": "https://sdilej.cz/16192227/normalni.lidi.01x12.hdtv.cz.avi",
@@ -216064,15 +216058,22 @@
         "display_name": "Normal People S01E12 SD CZ Dabing",
         "prepared_at": "2026-11-04T00:26:44.535335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775817",
-        "size_bytes": 239718370
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775817",
+          "size_bytes": 239718370,
+          "source_bytes_read": 239718370,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16192227",
+        "source_url": "https://sdilej.cz/16192227/normalni.lidi.01x12.hdtv.cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775817",
-        "size_bytes": 239718370,
-        "source_bytes_read": 239718370,
-        "http_status": 201
+        "display_name": "Normal People S01E12 SD CZ Dabing",
+        "uploaded_at": "2026-11-04T00:27:23.148753+00:00"
       }
     },
     "6:1:5": {
@@ -216155,5 +216156,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:27:18.542092+00:00"
+  "updated_at": "2026-11-04T00:27:23.148770+00:00"
 }
