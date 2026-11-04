@@ -247532,12 +247532,6 @@
     },
     "41:2:5": {
       "episode_key": "ve jménu vlasti:s2:e5",
-      "claim": {
-        "worker_id": "09b67f0137e04b12a6256d8ebf846514-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:26:53.747675+00:00",
-        "lease_expires_at": "2026-11-04T23:26:53.747690+00:00"
-      },
       "source": {
         "source_id": "33983145",
         "source_url": "https://sdilej.cz/33983145/ve.jmenu.vlasti.homeland.s02e05-cz-dabing-1080p.mkv",
@@ -247562,15 +247556,22 @@
         "display_name": "Homeland S02E05 Q&A 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:26:56.684314+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790352",
-        "size_bytes": 737304282
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790352",
+          "size_bytes": 737304282,
+          "source_bytes_read": 737304282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33983145",
+        "source_url": "https://sdilej.cz/33983145/ve.jmenu.vlasti.homeland.s02e05-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790352",
-        "size_bytes": 737304282,
-        "source_bytes_read": 737304282,
-        "http_status": 201
+        "display_name": "Homeland S02E05 Q&A 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:28:24.660802+00:00"
       }
     },
     "41:2:6": {
@@ -247625,5 +247626,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:28:20.649863+00:00"
+  "updated_at": "2026-11-04T17:28:24.660818+00:00"
 }
