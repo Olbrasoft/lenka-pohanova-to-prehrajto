@@ -231558,12 +231558,6 @@
     },
     "571:1:7": {
       "episode_key": "bosch: odkaz:s1:e7",
-      "claim": {
-        "worker_id": "24e199dcd25946f1acc7e2aa92dc2db4-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:44:29.771790+00:00",
-        "lease_expires_at": "2026-11-04T14:44:29.771807+00:00"
-      },
       "source": {
         "source_id": "31822005",
         "source_url": "https://sdilej.cz/31822005/bosch-odkaz-s01e07-fhd-1080p-cz-jeden-z-vas.mkv",
@@ -231588,15 +231582,22 @@
         "display_name": "Bosch: Legacy S01E07 One of Your Own 1080p CZ Dabing",
         "prepared_at": "2026-11-04T08:44:34.451798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782505",
-        "size_bytes": 457647788
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782505",
+          "size_bytes": 457647788,
+          "source_bytes_read": 457647788,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31822005",
+        "source_url": "https://sdilej.cz/31822005/bosch-odkaz-s01e07-fhd-1080p-cz-jeden-z-vas.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782505",
-        "size_bytes": 457647788,
-        "source_bytes_read": 457647788,
-        "http_status": 201
+        "display_name": "Bosch: Legacy S01E07 One of Your Own 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:45:32.408583+00:00"
       }
     }
   },
@@ -231605,5 +231606,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:45:27.976730+00:00"
+  "updated_at": "2026-11-04T08:45:32.408603+00:00"
 }
