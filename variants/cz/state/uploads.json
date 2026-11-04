@@ -225406,12 +225406,6 @@
     },
     "1680:2:2": {
       "episode_key": "viceprezident(ka):s2:e2",
-      "claim": {
-        "worker_id": "2e80db33299445c8966d4295d9292024-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:40:10.520721+00:00",
-        "lease_expires_at": "2026-11-04T12:40:10.520737+00:00"
-      },
       "source": {
         "source_id": "30304716",
         "source_url": "https://sdilej.cz/30304716/veep-s02e02-010-2013-fhd-signaly-s-.mp4",
@@ -225436,15 +225430,22 @@
         "display_name": "Veep S02E02 Signals 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:40:13.270946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780902",
-        "size_bytes": 544499598
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780902",
+          "size_bytes": 544499598,
+          "source_bytes_read": 544499598,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30304716",
+        "source_url": "https://sdilej.cz/30304716/veep-s02e02-010-2013-fhd-signaly-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780902",
-        "size_bytes": 544499598,
-        "source_bytes_read": 544499598,
-        "http_status": 201
+        "display_name": "Veep S02E02 Signals 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:41:24.307966+00:00"
       }
     },
     "1680:2:3": {
@@ -225527,5 +225528,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:41:20.199158+00:00"
+  "updated_at": "2026-11-04T06:41:24.307986+00:00"
 }
