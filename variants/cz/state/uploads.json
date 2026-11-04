@@ -216913,12 +216913,6 @@
     },
     "6:2:3": {
       "episode_key": "hvězdná brána:s2:e3",
-      "claim": {
-        "worker_id": "f47d7765a4dd497cbbbc561428b537fb-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:49:11.557186+00:00",
-        "lease_expires_at": "2026-11-04T06:49:11.557197+00:00"
-      },
       "source": {
         "source_id": "29677957",
         "source_url": "https://sdilej.cz/29677957/stargate-sg-1-s02e03-prisoners-hdtv-1080p.mp4",
@@ -216943,15 +216937,22 @@
         "display_name": "Stargate SG-1 S02E03 Prisoners 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:49:14.287228+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776190",
-        "size_bytes": 519940238
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776190",
+          "size_bytes": 519940238,
+          "source_bytes_read": 519940238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29677957",
+        "source_url": "https://sdilej.cz/29677957/stargate-sg-1-s02e03-prisoners-hdtv-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776190",
-        "size_bytes": 519940238,
-        "source_bytes_read": 519940238,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S02E03 Prisoners 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:50:26.569686+00:00"
       }
     },
     "6:2:4": {
@@ -216997,5 +216998,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:50:22.847598+00:00"
+  "updated_at": "2026-11-04T00:50:26.569698+00:00"
 }
