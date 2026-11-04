@@ -253951,12 +253951,6 @@
     },
     "1519:2:9": {
       "episode_key": "vláda:s2:e9",
-      "claim": {
-        "worker_id": "9e0aec3733eb4251aae4409cbf34c6fb-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:42:51.897898+00:00",
-        "lease_expires_at": "2026-11-05T02:42:51.897907+00:00"
-      },
       "source": {
         "source_id": "33614311",
         "source_url": "https://sdilej.cz/33614311/vlada-borgen-s02e09-czdab.mp4",
@@ -253980,7 +253974,13 @@
         },
         "display_name": "Borgen S02E09 Privatlivets fred SD CZ Dabing",
         "prepared_at": "2026-11-04T20:42:55.884771+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:43:08.800387+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:2:10": {
       "episode_key": "vláda:s2:e10",
@@ -254021,5 +254021,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:43:04.200926+00:00"
+  "updated_at": "2026-11-04T20:43:08.800402+00:00"
 }
