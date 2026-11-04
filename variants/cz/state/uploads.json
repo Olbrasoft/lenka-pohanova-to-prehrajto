@@ -246909,12 +246909,6 @@
     },
     "41:1:3": {
       "episode_key": "ve jménu vlasti:s1:e3",
-      "claim": {
-        "worker_id": "f2c3a031951542789cb555382ecc0d12-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:10:28.999618+00:00",
-        "lease_expires_at": "2026-11-04T23:10:28.999637+00:00"
-      },
       "source": {
         "source_id": "33122230",
         "source_url": "https://sdilej.cz/33122230/homeland-ve-jmenu-vlasti-s01e03-cz-dabing-1080p.mkv",
@@ -246939,15 +246933,22 @@
         "display_name": "Homeland S01E03 Clean Skin 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:10:35.996049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790149",
-        "size_bytes": 754976227
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790149",
+          "size_bytes": 754976227,
+          "source_bytes_read": 754976227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122230",
+        "source_url": "https://sdilej.cz/33122230/homeland-ve-jmenu-vlasti-s01e03-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790149",
-        "size_bytes": 754976227,
-        "source_bytes_read": 754976227,
-        "http_status": 201
+        "display_name": "Homeland S01E03 Clean Skin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:12:12.770672+00:00"
       }
     }
   },
@@ -246956,5 +246957,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:12:08.590996+00:00"
+  "updated_at": "2026-11-04T17:12:12.770690+00:00"
 }
