@@ -223902,12 +223902,6 @@
     },
     "6:9:15": {
       "episode_key": "hvězdná brána:s9:e15",
-      "claim": {
-        "worker_id": "e4b9fceca2a84513aaf475f3fb80354e-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T05:49:36.411296+00:00",
-        "lease_expires_at": "2026-11-04T11:49:36.411313+00:00"
-      },
       "source": {
         "source_id": "28518170",
         "source_url": "https://sdilej.cz/28518170/hvezdna-brana-s09e15.mkv",
@@ -223932,15 +223926,22 @@
         "display_name": "Stargate SG-1 S09E15 Ethon 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:49:40.808347+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780316",
-        "size_bytes": 368091460
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780316",
+          "size_bytes": 368091460,
+          "source_bytes_read": 368091460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28518170",
+        "source_url": "https://sdilej.cz/28518170/hvezdna-brana-s09e15.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780316",
-        "size_bytes": 368091460,
-        "source_bytes_read": 368091460,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S09E15 Ethon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:50:18.735733+00:00"
       }
     }
   },
@@ -223949,5 +223950,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:50:15.676152+00:00"
+  "updated_at": "2026-11-04T05:50:18.735751+00:00"
 }
