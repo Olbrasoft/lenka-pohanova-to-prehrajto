@@ -221842,12 +221842,6 @@
     },
     "6:7:9": {
       "episode_key": "hvězdná brána:s7:e9",
-      "claim": {
-        "worker_id": "08f2cccba91f4e1bba5ae95602f6429a-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:59:16.316940+00:00",
-        "lease_expires_at": "2026-11-04T09:59:16.316955+00:00"
-      },
       "source": {
         "source_id": "17404423",
         "source_url": "https://sdilej.cz/17404423/stargate.sg-1.-2003-.s07e09.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -221872,15 +221866,22 @@
         "display_name": "Stargate SG-1 S07E09 Avenger 2.0 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:59:18.881934+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778730",
-        "size_bytes": 1376158978
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778730",
+          "size_bytes": 1376158978,
+          "source_bytes_read": 1376158978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17404423",
+        "source_url": "https://sdilej.cz/17404423/stargate.sg-1.-2003-.s07e09.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778730",
-        "size_bytes": 1376158978,
-        "source_bytes_read": 1376158978,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S07E09 Avenger 2.0 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:01:02.367985+00:00"
       }
     },
     "6:7:10": {
@@ -221959,5 +221960,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:01:00.224355+00:00"
+  "updated_at": "2026-11-04T04:01:02.368022+00:00"
 }
