@@ -236807,12 +236807,6 @@
     },
     "560:5:11": {
       "episode_key": "jak jsem poznal vaši matku:s5:e11",
-      "claim": {
-        "worker_id": "d8a7537a34c64ceaa5fa61fea172f28a-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:03:05.898926+00:00",
-        "lease_expires_at": "2026-11-04T18:03:05.898939+00:00"
-      },
       "source": {
         "source_id": "28211469",
         "source_url": "https://sdilej.cz/28211469/jak-jsem-poznal-vasi-matku-s05e11.mkv",
@@ -236837,15 +236831,22 @@
         "display_name": "How I Met Your Mother S05E11 Last Cigarette Ever 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:03:09.898326+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785104",
-        "size_bytes": 175843586
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785104",
+          "size_bytes": 175843586,
+          "source_bytes_read": 175843586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211469",
+        "source_url": "https://sdilej.cz/28211469/jak-jsem-poznal-vasi-matku-s05e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785104",
-        "size_bytes": 175843586,
-        "source_bytes_read": 175843586,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E11 Last Cigarette Ever 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:03:44.441733+00:00"
       }
     }
   },
@@ -236854,5 +236855,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:03:42.517769+00:00"
+  "updated_at": "2026-11-04T12:03:44.441752+00:00"
 }
