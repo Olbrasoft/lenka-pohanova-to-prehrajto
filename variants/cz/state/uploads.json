@@ -228932,12 +228932,6 @@
     },
     "2162:1:8": {
       "episode_key": "knick: doktoři bez hranic:s1:e8",
-      "claim": {
-        "worker_id": "7caeb271ca5445c69b738534369ee5b0-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:51:56.862790+00:00",
-        "lease_expires_at": "2026-11-04T13:51:56.862807+00:00"
-      },
       "source": {
         "source_id": "31834193",
         "source_url": "https://sdilej.cz/31834193/knick-doktori-bez-hranic-s01e08-cz-dabing.mkv",
@@ -228962,15 +228956,22 @@
         "display_name": "The Knick S01E08 Working Late a Lot 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:52:05.866990+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781813",
-        "size_bytes": 2276795543
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781813",
+          "size_bytes": 2276795543,
+          "source_bytes_read": 2276795543,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31834193",
+        "source_url": "https://sdilej.cz/31834193/knick-doktori-bez-hranic-s01e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781813",
-        "size_bytes": 2276795543,
-        "source_bytes_read": 2276795543,
-        "http_status": 201
+        "display_name": "The Knick S01E08 Working Late a Lot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:54:22.380423+00:00"
       }
     },
     "2162:1:9": {
@@ -229097,5 +229098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:54:17.711257+00:00"
+  "updated_at": "2026-11-04T07:54:22.380444+00:00"
 }
