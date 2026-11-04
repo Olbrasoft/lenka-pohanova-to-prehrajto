@@ -250829,12 +250829,6 @@
     },
     "843:1:7": {
       "episode_key": "příběh služebnice:s1:e7",
-      "claim": {
-        "worker_id": "e807bcdfde5f4beb9a313a6281c9cebb-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T19:22:18.941940+00:00",
-        "lease_expires_at": "2026-11-05T01:22:18.941958+00:00"
-      },
       "source": {
         "source_id": "31915050",
         "source_url": "https://sdilej.cz/31915050/pribeh-sluzebnice-s01e07-007-2017-fhd-na-druhe-strane-s-.mp4",
@@ -250858,7 +250852,13 @@
         },
         "display_name": "The Handmaid's Tale S01E07 The Other Side 1080p CZ Dabing",
         "prepared_at": "2026-11-04T19:22:21.833349+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T19:22:34.039967+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -250866,5 +250866,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T19:22:28.295696+00:00"
+  "updated_at": "2026-11-04T19:22:34.039990+00:00"
 }
