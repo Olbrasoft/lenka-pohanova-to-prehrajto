@@ -228718,12 +228718,6 @@
     },
     "2162:1:3": {
       "episode_key": "knick: doktoři bez hranic:s1:e3",
-      "claim": {
-        "worker_id": "90be16b84e8d4c858653993b9a8b0689-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:44:09.631251+00:00",
-        "lease_expires_at": "2026-11-04T13:44:09.631267+00:00"
-      },
       "source": {
         "source_id": "24546778",
         "source_url": "https://sdilej.cz/24546778/knick-doktori-bez-hranic-s01e03-hdtv-cz-dabing.mkv",
@@ -228748,15 +228742,22 @@
         "display_name": "The Knick S01E03 The Busy Flea 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:44:12.286749+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781718",
-        "size_bytes": 1000879647
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781718",
+          "size_bytes": 1000879647,
+          "source_bytes_read": 1000879647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24546778",
+        "source_url": "https://sdilej.cz/24546778/knick-doktori-bez-hranic-s01e03-hdtv-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781718",
-        "size_bytes": 1000879647,
-        "source_bytes_read": 1000879647,
-        "http_status": 201
+        "display_name": "The Knick S01E03 The Busy Flea 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:45:24.863946+00:00"
       }
     },
     "2162:1:4": {
@@ -228802,5 +228803,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:45:19.944034+00:00"
+  "updated_at": "2026-11-04T07:45:24.863966+00:00"
 }
