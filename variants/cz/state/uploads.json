@@ -247268,12 +247268,6 @@
     },
     "41:1:11": {
       "episode_key": "ve jménu vlasti:s1:e11",
-      "claim": {
-        "worker_id": "cf888b0a24ed4a79a61a8eb389b73ab5-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:18:47.039774+00:00",
-        "lease_expires_at": "2026-11-04T23:18:47.039793+00:00"
-      },
       "source": {
         "source_id": "33122251",
         "source_url": "https://sdilej.cz/33122251/homeland-ve-jmenu-vlasti-s01e11-cz-dabing-1080p.mkv",
@@ -247298,15 +247292,22 @@
         "display_name": "Homeland S01E11 The Vest 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:18:49.934001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790249",
-        "size_bytes": 894835838
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790249",
+          "size_bytes": 894835838,
+          "source_bytes_read": 894835838,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122251",
+        "source_url": "https://sdilej.cz/33122251/homeland-ve-jmenu-vlasti-s01e11-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790249",
-        "size_bytes": 894835838,
-        "source_bytes_read": 894835838,
-        "http_status": 201
+        "display_name": "Homeland S01E11 The Vest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:20:29.179978+00:00"
       }
     },
     "41:1:12": {
@@ -247389,5 +247390,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:20:24.610731+00:00"
+  "updated_at": "2026-11-04T17:20:29.179995+00:00"
 }
