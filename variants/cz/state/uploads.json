@@ -228228,12 +228228,6 @@
     },
     "1203:2:4": {
       "episode_key": "řekni, kdo tě zabil:s2:e4",
-      "claim": {
-        "worker_id": "eef922707ba74835a2dc64c180d877ce-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:40:21.054568+00:00",
-        "lease_expires_at": "2026-11-04T13:40:21.054584+00:00"
-      },
       "source": {
         "source_id": "30326952",
         "source_url": "https://sdilej.cz/30326952/rekni-kdo-te-zabil-pushing-daisies-s02e04-czdab.mp4",
@@ -228258,15 +228252,22 @@
         "display_name": "Pushing Daisies S02E04 Frescorts SD CZ Dabing",
         "prepared_at": "2026-11-04T07:40:27.267005+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781662",
-        "size_bytes": 619878041
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781662",
+          "size_bytes": 619878041,
+          "source_bytes_read": 619878041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30326952",
+        "source_url": "https://sdilej.cz/30326952/rekni-kdo-te-zabil-pushing-daisies-s02e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781662",
-        "size_bytes": 619878041,
-        "source_bytes_read": 619878041,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E04 Frescorts SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:41:16.472960+00:00"
       }
     },
     "1203:2:5": {
@@ -228356,5 +228357,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:41:12.118577+00:00"
+  "updated_at": "2026-11-04T07:41:16.472981+00:00"
 }
