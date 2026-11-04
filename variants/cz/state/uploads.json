@@ -247004,12 +247004,6 @@
     },
     "41:1:5": {
       "episode_key": "ve jménu vlasti:s1:e5",
-      "claim": {
-        "worker_id": "74a143934b634f30b11cd890e60d85f7-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:12:53.486974+00:00",
-        "lease_expires_at": "2026-11-04T23:12:53.486993+00:00"
-      },
       "source": {
         "source_id": "33122235",
         "source_url": "https://sdilej.cz/33122235/homeland-ve-jmenu-vlasti-s01e05-cz-dabing-1080p.mkv",
@@ -247034,15 +247028,22 @@
         "display_name": "Homeland S01E05 Blind Spot 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:13:09.876471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790178",
-        "size_bytes": 838172662
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790178",
+          "size_bytes": 838172662,
+          "source_bytes_read": 838172662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122235",
+        "source_url": "https://sdilej.cz/33122235/homeland-ve-jmenu-vlasti-s01e05-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790178",
-        "size_bytes": 838172662,
-        "source_bytes_read": 838172662,
-        "http_status": 201
+        "display_name": "Homeland S01E05 Blind Spot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:15:01.938508+00:00"
       }
     },
     "41:1:6": {
@@ -247095,5 +247096,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:14:54.445617+00:00"
+  "updated_at": "2026-11-04T17:15:01.938526+00:00"
 }
