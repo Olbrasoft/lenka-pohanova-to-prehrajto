@@ -223118,12 +223118,6 @@
     },
     "6:8:16": {
       "episode_key": "hvězdná brána:s8:e16",
-      "claim": {
-        "worker_id": "e57d9a0f9b8444dba30ccb40c1772ecf-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:57:30.249509+00:00",
-        "lease_expires_at": "2026-11-04T10:57:30.249528+00:00"
-      },
       "source": {
         "source_id": "28516295",
         "source_url": "https://sdilej.cz/28516295/stargate.sg-1.-2004-.s08e16.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -223148,15 +223142,22 @@
         "display_name": "Stargate SG-1 S08E16 Reckoning (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:57:32.883219+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779522",
-        "size_bytes": 1355578052
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779522",
+          "size_bytes": 1355578052,
+          "source_bytes_read": 1355578052,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28516295",
+        "source_url": "https://sdilej.cz/28516295/stargate.sg-1.-2004-.s08e16.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779522",
-        "size_bytes": 1355578052,
-        "source_bytes_read": 1355578052,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E16 Reckoning (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:01:44.892699+00:00"
       }
     },
     "6:8:17": {
@@ -223246,5 +223247,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:01:42.808024+00:00"
+  "updated_at": "2026-11-04T05:01:44.892721+00:00"
 }
