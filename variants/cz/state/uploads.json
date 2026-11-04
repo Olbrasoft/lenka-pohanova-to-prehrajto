@@ -237776,12 +237776,6 @@
     },
     "560:6:10": {
       "episode_key": "jak jsem poznal vaši matku:s6:e10",
-      "claim": {
-        "worker_id": "8011d8bb8a064189af357475304995f3-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:12:50.987993+00:00",
-        "lease_expires_at": "2026-11-04T18:12:50.988003+00:00"
-      },
       "source": {
         "source_id": "28211566",
         "source_url": "https://sdilej.cz/28211566/jak-jsem-poznal-vasi-matku-s06e10.mkv",
@@ -237806,15 +237800,22 @@
         "display_name": "How I Met Your Mother S06E10 Blitzgiving 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:12:57.231171+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785247",
-        "size_bytes": 176890024
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785247",
+          "size_bytes": 176890024,
+          "source_bytes_read": 176890024,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211566",
+        "source_url": "https://sdilej.cz/28211566/jak-jsem-poznal-vasi-matku-s06e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785247",
-        "size_bytes": 176890024,
-        "source_bytes_read": 176890024,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S06E10 Blitzgiving 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:13:31.407782+00:00"
       }
     },
     "560:6:11": {
@@ -237867,5 +237868,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:13:26.994560+00:00"
+  "updated_at": "2026-11-04T12:13:31.407791+00:00"
 }
