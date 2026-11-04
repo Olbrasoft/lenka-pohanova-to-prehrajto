@@ -228448,12 +228448,6 @@
     },
     "1203:2:9": {
       "episode_key": "řekni, kdo tě zabil:s2:e9",
-      "claim": {
-        "worker_id": "0c4925a761b6468696b995935e10eaa0-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:41:45.727559+00:00",
-        "lease_expires_at": "2026-11-04T13:41:45.727575+00:00"
-      },
       "source": {
         "source_id": "22420201",
         "source_url": "https://sdilej.cz/22420201/rekni-kdo-te-zabil-s02e09-destive-dny-cz-dabing.avi",
@@ -228478,15 +228472,22 @@
         "display_name": "Pushing Daisies S02E09 The Legend of Merle McQuoddy SD CZ Dabing",
         "prepared_at": "2026-11-04T07:41:48.311591+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781680",
-        "size_bytes": 428021760
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781680",
+          "size_bytes": 428021760,
+          "source_bytes_read": 428021760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420201",
+        "source_url": "https://sdilej.cz/22420201/rekni-kdo-te-zabil-s02e09-destive-dny-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781680",
-        "size_bytes": 428021760,
-        "source_bytes_read": 428021760,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E09 The Legend of Merle McQuoddy SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:42:37.303364+00:00"
       }
     },
     "1203:2:10": {
@@ -228568,5 +228569,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:42:34.954194+00:00"
+  "updated_at": "2026-11-04T07:42:37.303385+00:00"
 }
