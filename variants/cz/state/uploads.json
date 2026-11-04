@@ -239536,12 +239536,6 @@
     },
     "560:8:2": {
       "episode_key": "jak jsem poznal vaši matku:s8:e2",
-      "claim": {
-        "worker_id": "6d7ba45aae2840ca8bbfa15a76066314-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T12:49:20.835523+00:00",
-        "lease_expires_at": "2026-11-04T18:49:20.835537+00:00"
-      },
       "source": {
         "source_id": "28211722",
         "source_url": "https://sdilej.cz/28211722/jak-jsem-poznal-vasi-matku-s08e02.mkv",
@@ -239566,15 +239560,22 @@
         "display_name": "How I Met Your Mother S08E02 The Pre-Nup 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:49:30.703291+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785756",
-        "size_bytes": 177617015
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785756",
+          "size_bytes": 177617015,
+          "source_bytes_read": 177617015,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211722",
+        "source_url": "https://sdilej.cz/28211722/jak-jsem-poznal-vasi-matku-s08e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785756",
-        "size_bytes": 177617015,
-        "source_bytes_read": 177617015,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S08E02 The Pre-Nup 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:50:08.632512+00:00"
       }
     },
     "560:8:3": {
@@ -239660,5 +239661,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:50:06.183415+00:00"
+  "updated_at": "2026-11-04T12:50:08.632529+00:00"
 }
