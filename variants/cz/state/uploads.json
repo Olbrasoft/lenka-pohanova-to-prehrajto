@@ -227078,12 +227078,6 @@
     },
     "1680:6:2": {
       "episode_key": "viceprezident(ka):s6:e2",
-      "claim": {
-        "worker_id": "a1ce6d47231f43beae2a1b664a5343a2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:05:37.198476+00:00",
-        "lease_expires_at": "2026-11-04T13:05:37.198493+00:00"
-      },
       "source": {
         "source_id": "34753331",
         "source_url": "https://sdilej.cz/34753331/veep-s06e02-050-2017-fhd-knihovna-s-.mp4",
@@ -227108,15 +227102,22 @@
         "display_name": "Veep S06E02 Library 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:05:40.834809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781227",
-        "size_bytes": 566778566
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781227",
+          "size_bytes": 566778566,
+          "source_bytes_read": 566778566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34753331",
+        "source_url": "https://sdilej.cz/34753331/veep-s06e02-050-2017-fhd-knihovna-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781227",
-        "size_bytes": 566778566,
-        "source_bytes_read": 566778566,
-        "http_status": 201
+        "display_name": "Veep S06E02 Library 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:07:09.860617+00:00"
       }
     },
     "1680:6:3": {
@@ -227255,5 +227256,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:07:07.376075+00:00"
+  "updated_at": "2026-11-04T07:07:09.860639+00:00"
 }
