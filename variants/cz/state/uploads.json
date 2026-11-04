@@ -230428,12 +230428,6 @@
     },
     "2662:2:4": {
       "episode_key": "carnivale:s2:e4",
-      "claim": {
-        "worker_id": "428ff96cdace4f07a1a8630db3626a31-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:14:13.944681+00:00",
-        "lease_expires_at": "2026-11-04T14:14:13.944698+00:00"
-      },
       "source": {
         "source_id": "22249929",
         "source_url": "https://sdilej.cz/22249929/carnivale-s02e04-czdab.avi",
@@ -230458,15 +230452,22 @@
         "display_name": "Carnivàle S02E04 Old Cherry Blossom Road SD CZ Dabing",
         "prepared_at": "2026-11-04T08:14:20.663318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782081",
-        "size_bytes": 463403008
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782081",
+          "size_bytes": 463403008,
+          "source_bytes_read": 463403008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249929",
+        "source_url": "https://sdilej.cz/22249929/carnivale-s02e04-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782081",
-        "size_bytes": 463403008,
-        "source_bytes_read": 463403008,
-        "http_status": 201
+        "display_name": "Carnivàle S02E04 Old Cherry Blossom Road SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:15:11.951337+00:00"
       }
     },
     "2662:2:5": {
@@ -230512,5 +230513,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:15:07.930735+00:00"
+  "updated_at": "2026-11-04T08:15:11.951374+00:00"
 }
