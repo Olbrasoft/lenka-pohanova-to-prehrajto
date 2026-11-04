@@ -245758,12 +245758,6 @@
     },
     "1287:2:5": {
       "episode_key": "babylon berlín:s2:e5",
-      "claim": {
-        "worker_id": "8e453f1ca37d4f758719baf34b54e45d-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T16:07:30.695283+00:00",
-        "lease_expires_at": "2026-11-04T22:07:30.695295+00:00"
-      },
       "source": {
         "source_id": "34889131",
         "source_url": "https://sdilej.cz/34889131/babylon-berlin-s02e05-013-2017-hd-epizoda-5-sd-.mp4",
@@ -245788,15 +245782,22 @@
         "display_name": "Babylon Berlin S02E05 720p CZ Dabing",
         "prepared_at": "2026-11-04T16:07:36.744858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30789455",
-        "size_bytes": 931238271
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30789455",
+          "size_bytes": 931238271,
+          "source_bytes_read": 931238271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34889131",
+        "source_url": "https://sdilej.cz/34889131/babylon-berlin-s02e05-013-2017-hd-epizoda-5-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30789455",
-        "size_bytes": 931238271,
-        "source_bytes_read": 931238271,
-        "http_status": 201
+        "display_name": "Babylon Berlin S02E05 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T16:09:11.894206+00:00"
       }
     }
   },
@@ -245805,5 +245806,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T16:09:06.017127+00:00"
+  "updated_at": "2026-11-04T16:09:11.894222+00:00"
 }
