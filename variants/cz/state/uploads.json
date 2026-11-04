@@ -248852,12 +248852,6 @@
     },
     "41:4:11": {
       "episode_key": "ve jménu vlasti:s4:e11",
-      "claim": {
-        "worker_id": "8cfdcc2887744f6a8dde920fab787a49-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:34:55.928437+00:00",
-        "lease_expires_at": "2026-11-05T00:34:55.928452+00:00"
-      },
       "source": {
         "source_id": "33992466",
         "source_url": "https://sdilej.cz/33992466/homeland-s04e11-cz-dabing.mkv",
@@ -248882,15 +248876,22 @@
         "display_name": "Homeland S04E11 Krieg Nicht Lieb 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:35:02.141998+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30791496",
-        "size_bytes": 715911104
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30791496",
+          "size_bytes": 715911104,
+          "source_bytes_read": 715911104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33992466",
+        "source_url": "https://sdilej.cz/33992466/homeland-s04e11-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30791496",
-        "size_bytes": 715911104,
-        "source_bytes_read": 715911104,
-        "http_status": 201
+        "display_name": "Homeland S04E11 Krieg Nicht Lieb 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T18:36:07.822803+00:00"
       }
     },
     "41:4:12": {
@@ -248973,5 +248974,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:36:03.604753+00:00"
+  "updated_at": "2026-11-04T18:36:07.822821+00:00"
 }
