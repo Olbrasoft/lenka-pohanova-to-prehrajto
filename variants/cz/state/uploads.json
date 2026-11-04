@@ -242976,12 +242976,6 @@
     },
     "1082:2:11": {
       "episode_key": "útěk z vězení:s2:e11",
-      "claim": {
-        "worker_id": "e54d9bd5a2a44a5481897f15ecaa5900-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:09:42.116123+00:00",
-        "lease_expires_at": "2026-11-04T20:09:42.116135+00:00"
-      },
       "source": {
         "source_id": "33250568",
         "source_url": "https://sdilej.cz/33250568/utek-z-vezeni-s02e11-22-2006-cz-dab-1080p-bolshoi-booze.mkv",
@@ -243006,15 +243000,22 @@
         "display_name": "Prison Break S02E11 Bolshoi Booze 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:09:49.721751+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787386",
-        "size_bytes": 528184877
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787386",
+          "size_bytes": 528184877,
+          "source_bytes_read": 528184877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250568",
+        "source_url": "https://sdilej.cz/33250568/utek-z-vezeni-s02e11-22-2006-cz-dab-1080p-bolshoi-booze.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787386",
-        "size_bytes": 528184877,
-        "source_bytes_read": 528184877,
-        "http_status": 201
+        "display_name": "Prison Break S02E11 Bolshoi Booze 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:11:29.264015+00:00"
       }
     },
     "1082:2:12": {
@@ -243060,5 +243061,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:11:24.501433+00:00"
+  "updated_at": "2026-11-04T14:11:29.264041+00:00"
 }
