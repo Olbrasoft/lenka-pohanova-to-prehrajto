@@ -221710,12 +221710,6 @@
     },
     "6:7:6": {
       "episode_key": "hvězdná brána:s7:e6",
-      "claim": {
-        "worker_id": "e7f033229525430890ef83b3966315b0-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:56:40.673310+00:00",
-        "lease_expires_at": "2026-11-04T09:56:40.673326+00:00"
-      },
       "source": {
         "source_id": "28515737",
         "source_url": "https://sdilej.cz/28515737/stargate.sg-1.-2003-.s07e06.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -221740,15 +221734,22 @@
         "display_name": "Stargate SG-1 S07E06 Lifeboat 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:56:48.860717+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778699",
-        "size_bytes": 1360158733
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778699",
+          "size_bytes": 1360158733,
+          "source_bytes_read": 1360158733,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28515737",
+        "source_url": "https://sdilej.cz/28515737/stargate.sg-1.-2003-.s07e06.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778699",
-        "size_bytes": 1360158733,
-        "source_bytes_read": 1360158733,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S07E06 Lifeboat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:59:06.426498+00:00"
       }
     },
     "6:7:7": {
@@ -221831,5 +221832,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:59:01.261306+00:00"
+  "updated_at": "2026-11-04T03:59:06.426518+00:00"
 }
