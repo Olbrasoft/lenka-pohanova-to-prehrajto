@@ -222552,12 +222552,6 @@
     },
     "6:8:4": {
       "episode_key": "hvězdná brána:s8:e4",
-      "claim": {
-        "worker_id": "6af91a113e004d17b39fbf254a671a2f-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:40:08.633840+00:00",
-        "lease_expires_at": "2026-11-04T10:40:08.633855+00:00"
-      },
       "source": {
         "source_id": "17454592",
         "source_url": "https://sdilej.cz/17454592/stargate.sg-1.-2004-.s08e04.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -222582,15 +222576,22 @@
         "display_name": "Stargate SG-1 S08E04 Zero Hour 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:40:15.670985+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779300",
-        "size_bytes": 1358626168
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779300",
+          "size_bytes": 1358626168,
+          "source_bytes_read": 1358626168,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17454592",
+        "source_url": "https://sdilej.cz/17454592/stargate.sg-1.-2004-.s08e04.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779300",
-        "size_bytes": 1358626168,
-        "source_bytes_read": 1358626168,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E04 Zero Hour 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:44:31.741303+00:00"
       }
     },
     "6:8:3": {
@@ -222643,5 +222644,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:44:26.393238+00:00"
+  "updated_at": "2026-11-04T04:44:31.741326+00:00"
 }
