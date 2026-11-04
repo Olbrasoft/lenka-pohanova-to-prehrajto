@@ -244532,12 +244532,6 @@
     },
     "1082:4:13": {
       "episode_key": "útěk z vězení:s4:e13",
-      "claim": {
-        "worker_id": "73e5d7f497934689bf4178235ccdeaa4-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:11:24.643149+00:00",
-        "lease_expires_at": "2026-11-04T21:11:24.643167+00:00"
-      },
       "source": {
         "source_id": "33250665",
         "source_url": "https://sdilej.cz/33250665/utek-z-vezeni-s04e13-24-2008-cz-dab-1080p-vabank.mkv",
@@ -244562,15 +244556,22 @@
         "display_name": "Prison Break S04E13 Deal Or No Deal 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:11:29.814143+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788592",
-        "size_bytes": 528952353
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788592",
+          "size_bytes": 528952353,
+          "source_bytes_read": 528952353,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250665",
+        "source_url": "https://sdilej.cz/33250665/utek-z-vezeni-s04e13-24-2008-cz-dab-1080p-vabank.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788592",
-        "size_bytes": 528952353,
-        "source_bytes_read": 528952353,
-        "http_status": 201
+        "display_name": "Prison Break S04E13 Deal Or No Deal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:12:40.392947+00:00"
       }
     }
   },
@@ -244579,5 +244580,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:12:35.007232+00:00"
+  "updated_at": "2026-11-04T15:12:40.392965+00:00"
 }
