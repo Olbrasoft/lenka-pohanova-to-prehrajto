@@ -232056,12 +232056,6 @@
     },
     "571:2:8": {
       "episode_key": "bosch: odkaz:s2:e8",
-      "claim": {
-        "worker_id": "867cdb2615c64b15b9226a916176066e-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:57:52.397526+00:00",
-        "lease_expires_at": "2026-11-04T14:57:52.397542+00:00"
-      },
       "source": {
         "source_id": "31822039",
         "source_url": "https://sdilej.cz/31822039/bosch-odkaz-s02e08-fhd-1080p-cz-v-belize-je-23-stupnu.mkv",
@@ -232086,15 +232080,22 @@
         "display_name": "Bosch: Legacy S02E08 Seventy-Four Degrees in Belize 1080p CZ Dabing",
         "prepared_at": "2026-11-04T08:57:56.213325+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782725",
-        "size_bytes": 395177328
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782725",
+          "size_bytes": 395177328,
+          "source_bytes_read": 395177328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31822039",
+        "source_url": "https://sdilej.cz/31822039/bosch-odkaz-s02e08-fhd-1080p-cz-v-belize-je-23-stupnu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782725",
-        "size_bytes": 395177328,
-        "source_bytes_read": 395177328,
-        "http_status": 201
+        "display_name": "Bosch: Legacy S02E08 Seventy-Four Degrees in Belize 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:58:55.942324+00:00"
       }
     },
     "571:2:9": {
@@ -232177,5 +232178,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:58:51.014180+00:00"
+  "updated_at": "2026-11-04T08:58:55.942345+00:00"
 }
