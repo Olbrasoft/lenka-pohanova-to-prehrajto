@@ -239228,12 +239228,6 @@
     },
     "560:7:18": {
       "episode_key": "jak jsem poznal vaši matku:s7:e18",
-      "claim": {
-        "worker_id": "105064d6275749debd9957ec1ea54600-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:23:13.663985+00:00",
-        "lease_expires_at": "2026-11-04T18:23:13.663995+00:00"
-      },
       "source": {
         "source_id": "28211689",
         "source_url": "https://sdilej.cz/28211689/jak-jsem-poznal-vasi-matku-s07e18.mkv",
@@ -239258,15 +239252,22 @@
         "display_name": "How I Met Your Mother S07E18 Karma 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:23:22.056052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785408",
-        "size_bytes": 176644240
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785408",
+          "size_bytes": 176644240,
+          "source_bytes_read": 176644240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211689",
+        "source_url": "https://sdilej.cz/28211689/jak-jsem-poznal-vasi-matku-s07e18.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785408",
-        "size_bytes": 176644240,
-        "source_bytes_read": 176644240,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S07E18 Karma 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:23:56.427676+00:00"
       }
     }
   },
@@ -239275,5 +239276,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:23:53.013140+00:00"
+  "updated_at": "2026-11-04T12:23:56.427696+00:00"
 }
