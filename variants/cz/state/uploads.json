@@ -228360,12 +228360,6 @@
     },
     "1203:2:7": {
       "episode_key": "řekni, kdo tě zabil:s2:e7",
-      "claim": {
-        "worker_id": "8e287922645341bf93cc4af1ab031b05-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:41:20.213913+00:00",
-        "lease_expires_at": "2026-11-04T13:41:20.213930+00:00"
-      },
       "source": {
         "source_id": "22420190",
         "source_url": "https://sdilej.cz/22420190/rekni-kdo-te-zabil-s02e07-bohatym-brat-cz-dabing.avi",
@@ -228390,15 +228384,22 @@
         "display_name": "Pushing Daisies S02E07 Robbing Hood SD CZ Dabing",
         "prepared_at": "2026-11-04T07:41:23.391417+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781674",
-        "size_bytes": 427448320
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781674",
+          "size_bytes": 427448320,
+          "source_bytes_read": 427448320,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420190",
+        "source_url": "https://sdilej.cz/22420190/rekni-kdo-te-zabil-s02e07-bohatym-brat-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781674",
-        "size_bytes": 427448320,
-        "source_bytes_read": 427448320,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E07 Robbing Hood SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:42:06.523323+00:00"
       }
     },
     "1203:2:8": {
@@ -228481,5 +228482,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:42:02.281329+00:00"
+  "updated_at": "2026-11-04T07:42:06.523343+00:00"
 }
