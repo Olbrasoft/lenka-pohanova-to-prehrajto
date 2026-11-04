@@ -245640,12 +245640,6 @@
     },
     "1287:2:2": {
       "episode_key": "babylon berlín:s2:e2",
-      "claim": {
-        "worker_id": "baa6a4b028c747bf924e450b5acc5424-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T16:01:56.207041+00:00",
-        "lease_expires_at": "2026-11-04T22:01:56.207051+00:00"
-      },
       "source": {
         "source_id": "34889082",
         "source_url": "https://sdilej.cz/34889082/babylon-berlin-s02e02-010-2017-hd-epizoda-2-sd-.mp4",
@@ -245670,15 +245664,22 @@
         "display_name": "Babylon Berlin S02E02 720p CZ Dabing",
         "prepared_at": "2026-11-04T16:02:08.080794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30789379",
-        "size_bytes": 971496899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30789379",
+          "size_bytes": 971496899,
+          "source_bytes_read": 971496899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34889082",
+        "source_url": "https://sdilej.cz/34889082/babylon-berlin-s02e02-010-2017-hd-epizoda-2-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30789379",
-        "size_bytes": 971496899,
-        "source_bytes_read": 971496899,
-        "http_status": 201
+        "display_name": "Babylon Berlin S02E02 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T16:05:08.485621+00:00"
       }
     }
   },
@@ -245687,5 +245688,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T16:05:06.169561+00:00"
+  "updated_at": "2026-11-04T16:05:08.485639+00:00"
 }
