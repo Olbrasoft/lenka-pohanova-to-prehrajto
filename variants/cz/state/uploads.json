@@ -222595,12 +222595,6 @@
     },
     "6:8:3": {
       "episode_key": "hvězdná brána:s8:e3",
-      "claim": {
-        "worker_id": "01cfb821e1f443edaea1dacb87bc81a6-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:40:10.685735+00:00",
-        "lease_expires_at": "2026-11-04T10:40:10.685752+00:00"
-      },
       "source": {
         "source_id": "28516005",
         "source_url": "https://sdilej.cz/28516005/stargate.sg-1.-2004-.s08e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -222625,15 +222619,22 @@
         "display_name": "Stargate SG-1 S08E03 Lockdown 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:40:21.253489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779301",
-        "size_bytes": 1396324264
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779301",
+          "size_bytes": 1396324264,
+          "source_bytes_read": 1396324264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28516005",
+        "source_url": "https://sdilej.cz/28516005/stargate.sg-1.-2004-.s08e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779301",
-        "size_bytes": 1396324264,
-        "source_bytes_read": 1396324264,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E03 Lockdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:44:26.393220+00:00"
       }
     }
   },
@@ -222642,5 +222643,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:44:24.325717+00:00"
+  "updated_at": "2026-11-04T04:44:26.393238+00:00"
 }
