@@ -249380,12 +249380,6 @@
     },
     "41:6:1": {
       "episode_key": "ve jménu vlasti:s6:e1",
-      "claim": {
-        "worker_id": "10d24b948bc54634abe24f050cf6c067-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:41:56.767095+00:00",
-        "lease_expires_at": "2026-11-05T00:41:56.767110+00:00"
-      },
       "source": {
         "source_id": "33992641",
         "source_url": "https://sdilej.cz/33992641/homeland-s06e01-cz-dabing.mkv",
@@ -249409,7 +249403,13 @@
         },
         "display_name": "Homeland S06E01 Fair Game 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:41:59.939540+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T18:42:15.867799+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "41:6:2": {
       "episode_key": "ve jménu vlasti:s6:e2",
@@ -249483,5 +249483,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:42:13.735069+00:00"
+  "updated_at": "2026-11-04T18:42:15.867817+00:00"
 }
