@@ -232452,12 +232452,6 @@
     },
     "1309:3:7": {
       "episode_key": "pc rebelové:s3:e7",
-      "claim": {
-        "worker_id": "1c70dae1fe4748c7aa75c8a78ab94af8-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:01:50.816002+00:00",
-        "lease_expires_at": "2026-11-04T15:01:50.816019+00:00"
-      },
       "source": {
         "source_id": "10602420",
         "source_url": "https://sdilej.cz/10602420/pc-rebelove-s03e07-cz-dabing-halt-and-catch-fire.avi",
@@ -232482,15 +232476,22 @@
         "display_name": "Halt and Catch Fire S03E07 The Threshold 720p CZ Dabing",
         "prepared_at": "2026-11-04T09:01:53.572042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782778",
-        "size_bytes": 716260330
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782778",
+          "size_bytes": 716260330,
+          "source_bytes_read": 716260330,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10602420",
+        "source_url": "https://sdilej.cz/10602420/pc-rebelove-s03e07-cz-dabing-halt-and-catch-fire.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782778",
-        "size_bytes": 716260330,
-        "source_bytes_read": 716260330,
-        "http_status": 201
+        "display_name": "Halt and Catch Fire S03E07 The Threshold 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:03:09.551711+00:00"
       }
     },
     "560:1:1": {
@@ -232580,5 +232581,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:03:06.290118+00:00"
+  "updated_at": "2026-11-04T09:03:09.551728+00:00"
 }
