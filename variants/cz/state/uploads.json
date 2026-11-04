@@ -227605,12 +227605,6 @@
     },
     "1680:7:4": {
       "episode_key": "viceprezident(ka):s7:e4",
-      "claim": {
-        "worker_id": "41c23a69807f469887e60ea2065134c2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:12:45.925068+00:00",
-        "lease_expires_at": "2026-11-04T13:12:45.925085+00:00"
-      },
       "source": {
         "source_id": "34754132",
         "source_url": "https://sdilej.cz/34754132/veep-s07e04-062-2019-fhd-jizni-karolina-s-.mp4",
@@ -227635,15 +227629,22 @@
         "display_name": "Veep S07E04 South Carolina 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:12:52.070054+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781341",
-        "size_bytes": 602295350
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781341",
+          "size_bytes": 602295350,
+          "source_bytes_read": 602295350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34754132",
+        "source_url": "https://sdilej.cz/34754132/veep-s07e04-062-2019-fhd-jizni-karolina-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781341",
-        "size_bytes": 602295350,
-        "source_bytes_read": 602295350,
-        "http_status": 201
+        "display_name": "Veep S07E04 South Carolina 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:14:07.645234+00:00"
       }
     },
     "1680:7:5": {
@@ -227689,5 +227690,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:14:04.140563+00:00"
+  "updated_at": "2026-11-04T07:14:07.645254+00:00"
 }
