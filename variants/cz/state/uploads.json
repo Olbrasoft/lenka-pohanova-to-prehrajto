@@ -225751,12 +225751,6 @@
     },
     "1680:2:10": {
       "episode_key": "viceprezident(ka):s2:e10",
-      "claim": {
-        "worker_id": "fdaaffdce2a44dbea7f30f91037e5b58-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:43:38.103000+00:00",
-        "lease_expires_at": "2026-11-04T12:43:38.103016+00:00"
-      },
       "source": {
         "source_id": "34751883",
         "source_url": "https://sdilej.cz/34751883/veep-s02e10-018-2013-fhd-d.c.-s-.mp4",
@@ -225781,15 +225775,22 @@
         "display_name": "Veep S02E10 D.C. 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:43:40.541519+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780947",
-        "size_bytes": 561455292
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780947",
+          "size_bytes": 561455292,
+          "source_bytes_read": 561455292,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34751883",
+        "source_url": "https://sdilej.cz/34751883/veep-s02e10-018-2013-fhd-d.c.-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780947",
-        "size_bytes": 561455292,
-        "source_bytes_read": 561455292,
-        "http_status": 201
+        "display_name": "Veep S02E10 D.C. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:44:45.054816+00:00"
       }
     }
   },
@@ -225798,5 +225799,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:44:40.924667+00:00"
+  "updated_at": "2026-11-04T06:44:45.054835+00:00"
 }
