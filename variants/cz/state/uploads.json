@@ -228183,12 +228183,6 @@
     },
     "1203:2:3": {
       "episode_key": "řekni, kdo tě zabil:s2:e3",
-      "claim": {
-        "worker_id": "d40d0021a81b45eba3e272040bdd03d4-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:39:14.973592+00:00",
-        "lease_expires_at": "2026-11-04T13:39:14.973610+00:00"
-      },
       "source": {
         "source_id": "22420161",
         "source_url": "https://sdilej.cz/22420161/rekni-kdo-te-zabil-s02e03-zlozvyky-cz-dabing.avi",
@@ -228213,15 +228207,22 @@
         "display_name": "Pushing Daisies S02E03 Bad Habits SD CZ Dabing",
         "prepared_at": "2026-11-04T07:39:21.852361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781650",
-        "size_bytes": 428226560
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781650",
+          "size_bytes": 428226560,
+          "source_bytes_read": 428226560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420161",
+        "source_url": "https://sdilej.cz/22420161/rekni-kdo-te-zabil-s02e03-zlozvyky-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781650",
-        "size_bytes": 428226560,
-        "source_bytes_read": 428226560,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E03 Bad Habits SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:40:08.466347+00:00"
       }
     }
   },
@@ -228230,5 +228231,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:40:06.553808+00:00"
+  "updated_at": "2026-11-04T07:40:08.466399+00:00"
 }
