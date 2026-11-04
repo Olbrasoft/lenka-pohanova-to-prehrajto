@@ -226066,12 +226066,6 @@
     },
     "1680:3:8": {
       "episode_key": "viceprezident(ka):s3:e8",
-      "claim": {
-        "worker_id": "fc9e127fdcc94357824cf37ba327b8e9-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:52:32.890315+00:00",
-        "lease_expires_at": "2026-11-04T12:52:32.890331+00:00"
-      },
       "source": {
         "source_id": "34752405",
         "source_url": "https://sdilej.cz/34752405/veep-s03e08-026-2014-fhd-debata-s-.mp4",
@@ -226096,15 +226090,22 @@
         "display_name": "Veep S03E08 Debate 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:52:41.037742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781037",
-        "size_bytes": 563655059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781037",
+          "size_bytes": 563655059,
+          "source_bytes_read": 563655059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34752405",
+        "source_url": "https://sdilej.cz/34752405/veep-s03e08-026-2014-fhd-debata-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781037",
-        "size_bytes": 563655059,
-        "source_bytes_read": 563655059,
-        "http_status": 201
+        "display_name": "Veep S03E08 Debate 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:53:27.622044+00:00"
       }
     },
     "1680:3:9": {
@@ -226187,5 +226188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:53:24.422682+00:00"
+  "updated_at": "2026-11-04T06:53:27.622067+00:00"
 }
