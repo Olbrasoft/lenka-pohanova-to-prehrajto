@@ -223067,12 +223067,6 @@
     },
     "6:8:15": {
       "episode_key": "hvězdná brána:s8:e15",
-      "claim": {
-        "worker_id": "e7ea23dbe3aa4551972ff33cbd2ec024-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:54:36.008412+00:00",
-        "lease_expires_at": "2026-11-04T10:54:36.008427+00:00"
-      },
       "source": {
         "source_id": "17557022",
         "source_url": "https://sdilej.cz/17557022/stargate.sg-1.-2004-.s08e15.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -223097,15 +223091,22 @@
         "display_name": "Stargate SG-1 S08E15 Citizen Joe 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:54:40.283433+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779485",
-        "size_bytes": 1371604983
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779485",
+          "size_bytes": 1371604983,
+          "source_bytes_read": 1371604983,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17557022",
+        "source_url": "https://sdilej.cz/17557022/stargate.sg-1.-2004-.s08e15.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779485",
-        "size_bytes": 1371604983,
-        "source_bytes_read": 1371604983,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E15 Citizen Joe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:57:21.972489+00:00"
       }
     }
   },
@@ -223114,5 +223115,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:57:16.551770+00:00"
+  "updated_at": "2026-11-04T04:57:21.972521+00:00"
 }
