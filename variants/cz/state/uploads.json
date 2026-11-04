@@ -222068,12 +222068,6 @@
     },
     "6:7:14": {
       "episode_key": "hvězdná brána:s7:e14",
-      "claim": {
-        "worker_id": "2604e8c4036d46a49d123fbf41f60afe-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:04:11.140825+00:00",
-        "lease_expires_at": "2026-11-04T10:04:11.140840+00:00"
-      },
       "source": {
         "source_id": "17407432",
         "source_url": "https://sdilej.cz/17407432/stargate.sg-1.-2003-.s07e14.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -222098,15 +222092,22 @@
         "display_name": "Stargate SG-1 S07E14 Fallout 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:04:15.311617+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778774",
-        "size_bytes": 1400374587
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778774",
+          "size_bytes": 1400374587,
+          "source_bytes_read": 1400374587,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17407432",
+        "source_url": "https://sdilej.cz/17407432/stargate.sg-1.-2003-.s07e14.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778774",
-        "size_bytes": 1400374587,
-        "source_bytes_read": 1400374587,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S07E14 Fallout 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:07:29.701695+00:00"
       }
     },
     "6:7:15": {
@@ -222152,5 +222153,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:07:24.416631+00:00"
+  "updated_at": "2026-11-04T04:07:29.701715+00:00"
 }
