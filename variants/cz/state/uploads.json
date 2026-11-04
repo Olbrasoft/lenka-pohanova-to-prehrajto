@@ -224694,12 +224694,6 @@
     },
     "6:10:14": {
       "episode_key": "hvězdná brána:s10:e14",
-      "claim": {
-        "worker_id": "6261920058e842e0a6087afa98e8d3c0-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:04:22.141493+00:00",
-        "lease_expires_at": "2026-11-04T12:04:22.141509+00:00"
-      },
       "source": {
         "source_id": "29251901",
         "source_url": "https://sdilej.cz/29251901/hvezdna-brana-s10e14-maskovani.mkv",
@@ -224724,15 +224718,22 @@
         "display_name": "Stargate SG-1 S10E14 The Shroud 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:04:24.597484+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780514",
-        "size_bytes": 1179838437
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780514",
+          "size_bytes": 1179838437,
+          "source_bytes_read": 1179838437,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251901",
+        "source_url": "https://sdilej.cz/29251901/hvezdna-brana-s10e14-maskovani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780514",
-        "size_bytes": 1179838437,
-        "source_bytes_read": 1179838437,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S10E14 The Shroud 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:07:26.994817+00:00"
       }
     }
   },
@@ -224741,5 +224742,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:07:22.813762+00:00"
+  "updated_at": "2026-11-04T06:07:26.994835+00:00"
 }
