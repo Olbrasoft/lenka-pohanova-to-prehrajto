@@ -236493,12 +236493,6 @@
     },
     "560:5:4": {
       "episode_key": "jak jsem poznal vaši matku:s5:e4",
-      "claim": {
-        "worker_id": "357d58a177fd4e6c8c431370bcd8f308-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:01:12.398754+00:00",
-        "lease_expires_at": "2026-11-04T18:01:12.398769+00:00"
-      },
       "source": {
         "source_id": "28211448",
         "source_url": "https://sdilej.cz/28211448/jak-jsem-poznal-vasi-matku-s05e04.mkv",
@@ -236523,15 +236517,22 @@
         "display_name": "How I Met Your Mother S05E04 The Sexless Innkeeper 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:01:15.535603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785070",
-        "size_bytes": 175162510
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785070",
+          "size_bytes": 175162510,
+          "source_bytes_read": 175162510,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211448",
+        "source_url": "https://sdilej.cz/28211448/jak-jsem-poznal-vasi-matku-s05e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785070",
-        "size_bytes": 175162510,
-        "source_bytes_read": 175162510,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E04 The Sexless Innkeeper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:01:45.865265+00:00"
       }
     },
     "560:5:5": {
@@ -236577,5 +236578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:01:41.548533+00:00"
+  "updated_at": "2026-11-04T12:01:45.865288+00:00"
 }
