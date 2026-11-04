@@ -230773,12 +230773,6 @@
     },
     "105:1:2": {
       "episode_key": "alfred hitchcock uvádí:s1:e2",
-      "claim": {
-        "worker_id": "c7b9288ea56d450095348940c594e019-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:18:10.383705+00:00",
-        "lease_expires_at": "2026-11-04T14:18:10.383723+00:00"
-      },
       "source": {
         "source_id": "31516520",
         "source_url": "https://sdilej.cz/31516520/alfred-hitchcock-uvadi-s01e02-480p.mp4",
@@ -230803,15 +230797,22 @@
         "display_name": "Alfred Hitchcock Presents S01E02 Premonition SD CZ Dabing",
         "prepared_at": "2026-11-04T08:18:16.929710+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782145",
-        "size_bytes": 75761941
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782145",
+          "size_bytes": 75761941,
+          "source_bytes_read": 75761941,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31516520",
+        "source_url": "https://sdilej.cz/31516520/alfred-hitchcock-uvadi-s01e02-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782145",
-        "size_bytes": 75761941,
-        "source_bytes_read": 75761941,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E02 Premonition SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:18:40.231684+00:00"
       }
     }
   },
@@ -230820,5 +230821,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:18:36.914124+00:00"
+  "updated_at": "2026-11-04T08:18:40.231703+00:00"
 }
