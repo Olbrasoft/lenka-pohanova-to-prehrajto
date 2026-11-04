@@ -221080,12 +221080,6 @@
     },
     "6:6:14": {
       "episode_key": "hvězdná brána:s6:e14",
-      "claim": {
-        "worker_id": "ff9c418b7d6245a88af4e75b9ac754d7-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:36:49.125827+00:00",
-        "lease_expires_at": "2026-11-04T09:36:49.125843+00:00"
-      },
       "source": {
         "source_id": "29251597",
         "source_url": "https://sdilej.cz/29251597/hvezdna-brana-s06e14-kourova-clona.mkv",
@@ -221110,15 +221104,22 @@
         "display_name": "Stargate SG-1 S06E14 Smoke & Mirrors 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:36:53.723778+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778483",
-        "size_bytes": 1067213243
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778483",
+          "size_bytes": 1067213243,
+          "source_bytes_read": 1067213243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251597",
+        "source_url": "https://sdilej.cz/29251597/hvezdna-brana-s06e14-kourova-clona.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778483",
-        "size_bytes": 1067213243,
-        "source_bytes_read": 1067213243,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S06E14 Smoke & Mirrors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:38:29.565196+00:00"
       }
     }
   },
@@ -221127,5 +221128,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:38:24.964369+00:00"
+  "updated_at": "2026-11-04T03:38:29.565215+00:00"
 }
