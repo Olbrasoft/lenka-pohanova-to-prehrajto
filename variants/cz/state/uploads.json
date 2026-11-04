@@ -227744,12 +227744,6 @@
     },
     "1680:7:7": {
       "episode_key": "viceprezident(ka):s7:e7",
-      "claim": {
-        "worker_id": "f5b197ce52b546a5b0e2f0cf3e7be5d3-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:25:38.959285+00:00",
-        "lease_expires_at": "2026-11-04T13:25:38.959302+00:00"
-      },
       "source": {
         "source_id": "34754375",
         "source_url": "https://sdilej.cz/34754375/veep-s07e07-065-2019-fhd-veep-s-.mp4",
@@ -227774,15 +227768,22 @@
         "display_name": "Veep S07E07 Veep 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:25:45.080873+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781484",
-        "size_bytes": 903513763
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781484",
+          "size_bytes": 903513763,
+          "source_bytes_read": 903513763,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34754375",
+        "source_url": "https://sdilej.cz/34754375/veep-s07e07-065-2019-fhd-veep-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781484",
-        "size_bytes": 903513763,
-        "source_bytes_read": 903513763,
-        "http_status": 201
+        "display_name": "Veep S07E07 Veep 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:26:52.064444+00:00"
       }
     },
     "1203:1:1": {
@@ -227865,5 +227866,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:26:47.002736+00:00"
+  "updated_at": "2026-11-04T07:26:52.064465+00:00"
 }
