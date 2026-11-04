@@ -250407,21 +250407,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "c85a8fd908a34977835e860c5fc7fbf2-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T22:42:19.655809+00:00",
-        "lease_expires_at": "2026-11-05T04:42:19.655824+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30795954",
+          "size_bytes": 786125019,
+          "source_bytes_read": 786125019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122513",
+        "source_url": "https://sdilej.cz/33122513/homeland-ve-jmenu-vlasti-s07e07-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30795954",
-        "size_bytes": 786125019
-      },
-      "transfer_receipt": {
-        "target_video_id": "30795954",
-        "size_bytes": 786125019,
-        "source_bytes_read": 786125019,
-        "http_status": 201
+        "display_name": "Homeland S07E07 Andante 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T22:48:09.927556+00:00"
       }
     },
     "41:7:9": {
@@ -254346,5 +254347,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T22:48:05.836959+00:00"
+  "updated_at": "2026-11-04T22:48:09.927572+00:00"
 }
