@@ -253885,12 +253885,6 @@
     },
     "1519:2:7": {
       "episode_key": "vláda:s2:e7",
-      "claim": {
-        "worker_id": "77e8f82c0bd5491d9eb928de1a7c32e3-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:42:22.116059+00:00",
-        "lease_expires_at": "2026-11-05T02:42:22.116071+00:00"
-      },
       "source": {
         "source_id": "33614308",
         "source_url": "https://sdilej.cz/33614308/vlada-borgen-s02e07-czdab.mp4",
@@ -253914,7 +253908,13 @@
         },
         "display_name": "Borgen S02E07 Hvad indad tabes, skal udad vindes del 1 SD CZ Dabing",
         "prepared_at": "2026-11-04T20:42:25.009783+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:42:38.083975+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -253922,5 +253922,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:42:29.163577+00:00"
+  "updated_at": "2026-11-04T20:42:38.083993+00:00"
 }
