@@ -218278,12 +218278,6 @@
     },
     "6:3:14": {
       "episode_key": "hvězdná brána:s3:e14",
-      "claim": {
-        "worker_id": "95195412339647aa9744697a72f395bf-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T01:50:17.140776+00:00",
-        "lease_expires_at": "2026-11-04T07:50:17.140786+00:00"
-      },
       "source": {
         "source_id": "16868966",
         "source_url": "https://sdilej.cz/16868966/stargate.sg-1.-1999-.s03e14.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -218308,15 +218302,22 @@
         "display_name": "Stargate SG-1 S03E14 Foothold 1080p CZ Dabing",
         "prepared_at": "2026-11-04T01:50:25.502225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777136",
-        "size_bytes": 1368442152
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777136",
+          "size_bytes": 1368442152,
+          "source_bytes_read": 1368442152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16868966",
+        "source_url": "https://sdilej.cz/16868966/stargate.sg-1.-1999-.s03e14.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777136",
-        "size_bytes": 1368442152,
-        "source_bytes_read": 1368442152,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S03E14 Foothold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T01:52:35.149002+00:00"
       }
     },
     "6:3:15": {
@@ -218443,5 +218444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T01:52:29.268785+00:00"
+  "updated_at": "2026-11-04T01:52:35.149017+00:00"
 }
