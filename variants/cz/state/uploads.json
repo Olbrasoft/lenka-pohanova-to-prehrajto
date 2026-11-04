@@ -239712,12 +239712,6 @@
     },
     "560:8:6": {
       "episode_key": "jak jsem poznal vaši matku:s8:e6",
-      "claim": {
-        "worker_id": "3a274c35578a4e1b83ec859c0f07e58a-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T12:50:23.645077+00:00",
-        "lease_expires_at": "2026-11-04T18:50:23.645092+00:00"
-      },
       "source": {
         "source_id": "28211744",
         "source_url": "https://sdilej.cz/28211744/jak-jsem-poznal-vasi-matku-s08e06.mkv",
@@ -239742,15 +239736,22 @@
         "display_name": "How I Met Your Mother S08E06 Splitsville 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:50:28.972070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785780",
-        "size_bytes": 177642227
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785780",
+          "size_bytes": 177642227,
+          "source_bytes_read": 177642227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211744",
+        "source_url": "https://sdilej.cz/28211744/jak-jsem-poznal-vasi-matku-s08e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785780",
-        "size_bytes": 177642227,
-        "source_bytes_read": 177642227,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S08E06 Splitsville 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:51:10.990018+00:00"
       }
     }
   },
@@ -239759,5 +239760,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:51:08.779441+00:00"
+  "updated_at": "2026-11-04T12:51:10.990035+00:00"
 }
