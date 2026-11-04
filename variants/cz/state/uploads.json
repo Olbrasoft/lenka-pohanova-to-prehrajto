@@ -219994,12 +219994,6 @@
     },
     "6:5:10": {
       "episode_key": "hvězdná brána:s5:e10",
-      "claim": {
-        "worker_id": "224a7ccf0d9d42d2903f635eb3200268-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:55:16.905860+00:00",
-        "lease_expires_at": "2026-11-04T08:55:16.905876+00:00"
-      },
       "source": {
         "source_id": "33522414",
         "source_url": "https://sdilej.cz/33522414/hvezdna-brana-s05e10-rok-2001.mkv",
@@ -220024,15 +220018,22 @@
         "display_name": "Stargate SG-1 S05E10 2001 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:55:19.512203+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778063",
-        "size_bytes": 1947135939
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778063",
+          "size_bytes": 1947135939,
+          "source_bytes_read": 1947135939,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522414",
+        "source_url": "https://sdilej.cz/33522414/hvezdna-brana-s05e10-rok-2001.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778063",
-        "size_bytes": 1947135939,
-        "source_bytes_read": 1947135939,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E10 2001 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:58:15.681953+00:00"
       }
     },
     "6:5:11": {
@@ -220122,5 +220123,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:58:12.976401+00:00"
+  "updated_at": "2026-11-04T02:58:15.681969+00:00"
 }
