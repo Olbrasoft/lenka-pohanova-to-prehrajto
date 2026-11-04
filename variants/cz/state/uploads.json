@@ -231646,12 +231646,6 @@
     },
     "571:1:9": {
       "episode_key": "bosch: odkaz:s1:e9",
-      "claim": {
-        "worker_id": "118346b7b9864e4ab20673461e989bbb-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:46:28.574690+00:00",
-        "lease_expires_at": "2026-11-04T14:46:28.574708+00:00"
-      },
       "source": {
         "source_id": "31822008",
         "source_url": "https://sdilej.cz/31822008/bosch-odkaz-s01e09-fhd-1080p-cz-s-pravdou-ven.mkv",
@@ -231676,15 +231670,22 @@
         "display_name": "Bosch: Legacy S01E09 Cat Got a Name? 1080p CZ Dabing",
         "prepared_at": "2026-11-04T08:46:31.397269+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782530",
-        "size_bytes": 448900806
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782530",
+          "size_bytes": 448900806,
+          "source_bytes_read": 448900806,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31822008",
+        "source_url": "https://sdilej.cz/31822008/bosch-odkaz-s01e09-fhd-1080p-cz-s-pravdou-ven.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782530",
-        "size_bytes": 448900806,
-        "source_bytes_read": 448900806,
-        "http_status": 201
+        "display_name": "Bosch: Legacy S01E09 Cat Got a Name? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:47:10.155735+00:00"
       }
     }
   },
@@ -231693,5 +231694,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:47:05.896938+00:00"
+  "updated_at": "2026-11-04T08:47:10.155755+00:00"
 }
