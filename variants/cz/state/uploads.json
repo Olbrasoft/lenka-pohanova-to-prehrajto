@@ -243560,12 +243560,6 @@
     },
     "1082:3:2": {
       "episode_key": "útěk z vězení:s3:e2",
-      "claim": {
-        "worker_id": "8c1cf72413ad45ac92e5cec3fe5e79e7-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:25:19.665360+00:00",
-        "lease_expires_at": "2026-11-04T20:25:19.665373+00:00"
-      },
       "source": {
         "source_id": "28434762",
         "source_url": "https://sdilej.cz/28434762/prison.break.s03e02.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -243590,15 +243584,22 @@
         "display_name": "Prison Break S03E02 Fire/Water 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:25:22.662131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787760",
-        "size_bytes": 529065877
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787760",
+          "size_bytes": 529065877,
+          "source_bytes_read": 529065877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28434762",
+        "source_url": "https://sdilej.cz/28434762/prison.break.s03e02.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787760",
-        "size_bytes": 529065877,
-        "source_bytes_read": 529065877,
-        "http_status": 201
+        "display_name": "Prison Break S03E02 Fire/Water 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:26:30.710629+00:00"
       }
     },
     "1082:3:3": {
@@ -243644,5 +243645,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:26:25.526043+00:00"
+  "updated_at": "2026-11-04T14:26:30.710646+00:00"
 }
