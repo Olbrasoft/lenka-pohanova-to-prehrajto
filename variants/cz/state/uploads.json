@@ -225494,12 +225494,6 @@
     },
     "1680:2:4": {
       "episode_key": "viceprezident(ka):s2:e4",
-      "claim": {
-        "worker_id": "4907deed02b44c60a3b2dd5f34372327-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:40:55.771416+00:00",
-        "lease_expires_at": "2026-11-04T12:40:55.771433+00:00"
-      },
       "source": {
         "source_id": "34751704",
         "source_url": "https://sdilej.cz/34751704/veep-s02e04-012-2013-fhd-vecere-vica-allena-s-.mp4",
@@ -225524,15 +225518,22 @@
         "display_name": "Veep S02E04 The Vic Allen Dinner 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:40:58.195826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780911",
-        "size_bytes": 565672986
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780911",
+          "size_bytes": 565672986,
+          "source_bytes_read": 565672986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34751704",
+        "source_url": "https://sdilej.cz/34751704/veep-s02e04-012-2013-fhd-vecere-vica-allena-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780911",
-        "size_bytes": 565672986,
-        "source_bytes_read": 565672986,
-        "http_status": 201
+        "display_name": "Veep S02E04 The Vic Allen Dinner 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:41:48.721896+00:00"
       }
     },
     "1680:2:5": {
@@ -225577,5 +225578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:41:44.868545+00:00"
+  "updated_at": "2026-11-04T06:41:48.721917+00:00"
 }
