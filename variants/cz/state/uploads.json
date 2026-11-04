@@ -234652,12 +234652,6 @@
     },
     "560:3:6": {
       "episode_key": "jak jsem poznal vaši matku:s3:e6",
-      "claim": {
-        "worker_id": "3248da97a711440287a17464366f1138-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:44:49.209715+00:00",
-        "lease_expires_at": "2026-11-04T17:44:49.209723+00:00"
-      },
       "source": {
         "source_id": "28211310",
         "source_url": "https://sdilej.cz/28211310/jak-jsem-poznal-vasi-matku-s03e06.mkv",
@@ -234682,15 +234676,22 @@
         "display_name": "How I Met Your Mother S03E06 I'm Not That Guy 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:44:55.255242+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30784847",
-        "size_bytes": 177985621
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30784847",
+          "size_bytes": 177985621,
+          "source_bytes_read": 177985621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211310",
+        "source_url": "https://sdilej.cz/28211310/jak-jsem-poznal-vasi-matku-s03e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30784847",
-        "size_bytes": 177985621,
-        "source_bytes_read": 177985621,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E06 I'm Not That Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:45:33.693531+00:00"
       }
     },
     "560:3:7": {
@@ -234735,5 +234736,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:45:29.458657+00:00"
+  "updated_at": "2026-11-04T11:45:33.693551+00:00"
 }
