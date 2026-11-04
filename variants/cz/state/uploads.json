@@ -243743,12 +243743,6 @@
     },
     "1082:3:6": {
       "episode_key": "útěk z vězení:s3:e6",
-      "claim": {
-        "worker_id": "a780b0c4112941f0a8be6fe71fc4cead-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:27:55.367675+00:00",
-        "lease_expires_at": "2026-11-04T20:27:55.367689+00:00"
-      },
       "source": {
         "source_id": "28434802",
         "source_url": "https://sdilej.cz/28434802/prison.break.s03e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -243773,15 +243767,22 @@
         "display_name": "Prison Break S03E06 Photo Finish 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:27:58.600249+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787795",
-        "size_bytes": 531513196
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787795",
+          "size_bytes": 531513196,
+          "source_bytes_read": 531513196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28434802",
+        "source_url": "https://sdilej.cz/28434802/prison.break.s03e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787795",
-        "size_bytes": 531513196,
-        "source_bytes_read": 531513196,
-        "http_status": 201
+        "display_name": "Prison Break S03E06 Photo Finish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:28:54.327508+00:00"
       }
     },
     "1082:3:7": {
@@ -243827,5 +243828,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:28:49.733639+00:00"
+  "updated_at": "2026-11-04T14:28:54.327525+00:00"
 }
