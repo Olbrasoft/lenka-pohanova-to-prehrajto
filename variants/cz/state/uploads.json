@@ -244620,12 +244620,6 @@
     },
     "1082:4:15": {
       "episode_key": "útěk z vězení:s4:e15",
-      "claim": {
-        "worker_id": "1cfa08da105447baba50f67fb0bcc008-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:12:51.707746+00:00",
-        "lease_expires_at": "2026-11-04T21:12:51.707760+00:00"
-      },
       "source": {
         "source_id": "33250670",
         "source_url": "https://sdilej.cz/33250670/utek-z-vezeni-s04e15-24-2008-cz-dab-1080p-pad-ke-dnu.mkv",
@@ -244650,15 +244644,22 @@
         "display_name": "Prison Break S04E15 Going Under 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:13:08.742100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788636",
-        "size_bytes": 528332869
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788636",
+          "size_bytes": 528332869,
+          "source_bytes_read": 528332869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250670",
+        "source_url": "https://sdilej.cz/33250670/utek-z-vezeni-s04e15-24-2008-cz-dab-1080p-pad-ke-dnu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788636",
-        "size_bytes": 528332869,
-        "source_bytes_read": 528332869,
-        "http_status": 201
+        "display_name": "Prison Break S04E15 Going Under 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:14:50.295848+00:00"
       }
     },
     "1082:4:16": {
@@ -244748,5 +244749,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:14:44.434674+00:00"
+  "updated_at": "2026-11-04T15:14:50.295867+00:00"
 }
