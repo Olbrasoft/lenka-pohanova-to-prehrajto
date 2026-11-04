@@ -244444,12 +244444,6 @@
     },
     "1082:4:11": {
       "episode_key": "útěk z vězení:s4:e11",
-      "claim": {
-        "worker_id": "c5926bbe26d745dfa6cd46def8292046-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:11:09.504113+00:00",
-        "lease_expires_at": "2026-11-04T21:11:09.504126+00:00"
-      },
       "source": {
         "source_id": "33250662",
         "source_url": "https://sdilej.cz/33250662/utek-z-vezeni-s04e11-24-2008-cz-dab-1080p-tichy-boj.mkv",
@@ -244474,15 +244468,22 @@
         "display_name": "Prison Break S04E11 Quiet Riot 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:11:14.002742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788585",
-        "size_bytes": 524274103
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788585",
+          "size_bytes": 524274103,
+          "source_bytes_read": 524274103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250662",
+        "source_url": "https://sdilej.cz/33250662/utek-z-vezeni-s04e11-24-2008-cz-dab-1080p-tichy-boj.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788585",
-        "size_bytes": 524274103,
-        "source_bytes_read": 524274103,
-        "http_status": 201
+        "display_name": "Prison Break S04E11 Quiet Riot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:12:35.007213+00:00"
       }
     },
     "1082:4:12": {
@@ -244578,5 +244579,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:12:31.709870+00:00"
+  "updated_at": "2026-11-04T15:12:35.007232+00:00"
 }
