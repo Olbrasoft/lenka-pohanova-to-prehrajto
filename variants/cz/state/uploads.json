@@ -217442,12 +217442,6 @@
     },
     "6:2:16": {
       "episode_key": "hvězdná brána:s2:e16",
-      "claim": {
-        "worker_id": "8b3833fd894645c98807e88020c42076-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T01:28:50.169270+00:00",
-        "lease_expires_at": "2026-11-04T07:28:50.169298+00:00"
-      },
       "source": {
         "source_id": "34208342",
         "source_url": "https://sdilej.cz/34208342/stargate-sg-1-s02e16-cz-dabing-full-hd.mkv",
@@ -217472,15 +217466,22 @@
         "display_name": "Stargate SG-1 S02E16 A Matter of Time 1080p CZ Dabing",
         "prepared_at": "2026-11-04T01:28:56.924574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776757",
-        "size_bytes": 823905061
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776757",
+          "size_bytes": 823905061,
+          "source_bytes_read": 823905061,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34208342",
+        "source_url": "https://sdilej.cz/34208342/stargate-sg-1-s02e16-cz-dabing-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776757",
-        "size_bytes": 823905061,
-        "source_bytes_read": 823905061,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S02E16 A Matter of Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T01:31:27.393504+00:00"
       }
     },
     "6:2:17": {
@@ -217607,5 +217608,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T01:31:22.200675+00:00"
+  "updated_at": "2026-11-04T01:31:27.393517+00:00"
 }
