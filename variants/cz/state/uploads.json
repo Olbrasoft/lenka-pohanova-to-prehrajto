@@ -224130,12 +224130,6 @@
     },
     "6:10:1": {
       "episode_key": "hvězdná brána:s10:e1",
-      "claim": {
-        "worker_id": "2907d62e35da4db5abc01f57a7cf3764-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T05:52:11.557087+00:00",
-        "lease_expires_at": "2026-11-04T11:52:11.557106+00:00"
-      },
       "source": {
         "source_id": "33977301",
         "source_url": "https://sdilej.cz/33977301/hvezdna-brana-s10e01-z-masa-a-kosti.mkv",
@@ -224160,15 +224154,22 @@
         "display_name": "Stargate SG-1 S10E01 Flesh and Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:52:14.178685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780362",
-        "size_bytes": 2656352610
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780362",
+          "size_bytes": 2656352610,
+          "source_bytes_read": 2656352610,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33977301",
+        "source_url": "https://sdilej.cz/33977301/hvezdna-brana-s10e01-z-masa-a-kosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780362",
-        "size_bytes": 2656352610,
-        "source_bytes_read": 2656352610,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S10E01 Flesh and Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:58:49.562408+00:00"
       }
     },
     "6:10:2": {
@@ -224441,5 +224442,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:58:47.583318+00:00"
+  "updated_at": "2026-11-04T05:58:49.562428+00:00"
 }
