@@ -220566,12 +220566,6 @@
     },
     "6:6:2": {
       "episode_key": "hvězdná brána:s6:e2",
-      "claim": {
-        "worker_id": "1c3fb7a7616342ed978b3ee4cbf7d206-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:14:05.916397+00:00",
-        "lease_expires_at": "2026-11-04T09:14:05.916413+00:00"
-      },
       "source": {
         "source_id": "17324572",
         "source_url": "https://sdilej.cz/17324572/stargate.sg-1.-2002-.s06e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -220596,15 +220590,22 @@
         "display_name": "Stargate SG-1 S06E02 Redemption (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:14:15.630451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778257",
-        "size_bytes": 1393175894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778257",
+          "size_bytes": 1393175894,
+          "source_bytes_read": 1393175894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17324572",
+        "source_url": "https://sdilej.cz/17324572/stargate.sg-1.-2002-.s06e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778257",
-        "size_bytes": 1393175894,
-        "source_bytes_read": 1393175894,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S06E02 Redemption (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:16:48.671453+00:00"
       }
     },
     "6:6:3": {
@@ -220789,5 +220790,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:16:42.890233+00:00"
+  "updated_at": "2026-11-04T03:16:48.671472+00:00"
 }
