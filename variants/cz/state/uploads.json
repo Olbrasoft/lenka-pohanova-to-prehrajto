@@ -220346,12 +220346,6 @@
     },
     "6:5:19": {
       "episode_key": "hvězdná brána:s5:e19",
-      "claim": {
-        "worker_id": "3988436a19184926af40d15022378c23-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:05:28.492364+00:00",
-        "lease_expires_at": "2026-11-04T09:05:28.492382+00:00"
-      },
       "source": {
         "source_id": "28512517",
         "source_url": "https://sdilej.cz/28512517/hvezdna-brana-s05e19.mkv",
@@ -220376,15 +220370,22 @@
         "display_name": "Stargate SG-1 S05E19 Menace 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:05:36.135571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778186",
-        "size_bytes": 308240715
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778186",
+          "size_bytes": 308240715,
+          "source_bytes_read": 308240715,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28512517",
+        "source_url": "https://sdilej.cz/28512517/hvezdna-brana-s05e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778186",
-        "size_bytes": 308240715,
-        "source_bytes_read": 308240715,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E19 Menace 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:06:44.863912+00:00"
       }
     },
     "6:5:20": {
@@ -220474,5 +220475,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:06:41.779679+00:00"
+  "updated_at": "2026-11-04T03:06:44.863930+00:00"
 }
