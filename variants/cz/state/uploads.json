@@ -240724,12 +240724,6 @@
     },
     "560:9:5": {
       "episode_key": "jak jsem poznal vaši matku:s9:e5",
-      "claim": {
-        "worker_id": "76e650f046f94fc0b18c8a29212796c5-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:02:51.602489+00:00",
-        "lease_expires_at": "2026-11-04T19:02:51.602501+00:00"
-      },
       "source": {
         "source_id": "28211834",
         "source_url": "https://sdilej.cz/28211834/jak-jsem-poznal-vasi-matku-s09e05.mkv",
@@ -240754,15 +240748,22 @@
         "display_name": "How I Met Your Mother S09E05 The Poker Game 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:02:58.648587+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786046",
-        "size_bytes": 171844011
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786046",
+          "size_bytes": 171844011,
+          "source_bytes_read": 171844011,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211834",
+        "source_url": "https://sdilej.cz/28211834/jak-jsem-poznal-vasi-matku-s09e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786046",
-        "size_bytes": 171844011,
-        "source_bytes_read": 171844011,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E05 The Poker Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:03:37.297909+00:00"
       }
     },
     "560:9:6": {
@@ -240804,5 +240805,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:03:34.961876+00:00"
+  "updated_at": "2026-11-04T13:03:37.297925+00:00"
 }
