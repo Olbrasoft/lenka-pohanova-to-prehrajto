@@ -224167,12 +224167,6 @@
     },
     "6:10:2": {
       "episode_key": "hvězdná brána:s10:e2",
-      "claim": {
-        "worker_id": "71787354f5b242c19393e8992f554fb7-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T05:52:36.157785+00:00",
-        "lease_expires_at": "2026-11-04T11:52:36.157802+00:00"
-      },
       "source": {
         "source_id": "28518236",
         "source_url": "https://sdilej.cz/28518236/hvezdna-brana-s10e02.mkv",
@@ -224197,15 +224191,22 @@
         "display_name": "Stargate SG-1 S10E02 Morpheus 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:52:41.709397+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780373",
-        "size_bytes": 332430978
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780373",
+          "size_bytes": 332430978,
+          "source_bytes_read": 332430978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28518236",
+        "source_url": "https://sdilej.cz/28518236/hvezdna-brana-s10e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780373",
-        "size_bytes": 332430978,
-        "source_bytes_read": 332430978,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S10E02 Morpheus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:53:17.726832+00:00"
       }
     },
     "6:10:3": {
@@ -224251,5 +224252,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:53:13.962537+00:00"
+  "updated_at": "2026-11-04T05:53:17.726853+00:00"
 }
