@@ -240988,12 +240988,6 @@
     },
     "560:9:11": {
       "episode_key": "jak jsem poznal vaši matku:s9:e11",
-      "claim": {
-        "worker_id": "6292f8ebe8cb4e82832d4fb148eb9572-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:04:56.798357+00:00",
-        "lease_expires_at": "2026-11-04T19:04:56.798369+00:00"
-      },
       "source": {
         "source_id": "28211876",
         "source_url": "https://sdilej.cz/28211876/jak-jsem-poznal-vasi-matku-s09e11.mkv",
@@ -241018,15 +241012,22 @@
         "display_name": "How I Met Your Mother S09E11 Bedtime Stories 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:05:00.984940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786089",
-        "size_bytes": 175187887
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786089",
+          "size_bytes": 175187887,
+          "source_bytes_read": 175187887,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211876",
+        "source_url": "https://sdilej.cz/28211876/jak-jsem-poznal-vasi-matku-s09e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786089",
-        "size_bytes": 175187887,
-        "source_bytes_read": 175187887,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E11 Bedtime Stories 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:05:47.386672+00:00"
       }
     },
     "560:9:12": {
@@ -241104,5 +241105,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:05:43.406499+00:00"
+  "updated_at": "2026-11-04T13:05:47.386694+00:00"
 }
