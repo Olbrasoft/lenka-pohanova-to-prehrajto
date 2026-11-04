@@ -240900,12 +240900,6 @@
     },
     "560:9:9": {
       "episode_key": "jak jsem poznal vaši matku:s9:e9",
-      "claim": {
-        "worker_id": "c96c91467122476a988eae1424ab61d9-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:04:26.258879+00:00",
-        "lease_expires_at": "2026-11-04T19:04:26.258891+00:00"
-      },
       "source": {
         "source_id": "28211847",
         "source_url": "https://sdilej.cz/28211847/jak-jsem-poznal-vasi-matku-s09e09.mkv",
@@ -240930,15 +240924,22 @@
         "display_name": "How I Met Your Mother S09E09 Platonish 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:04:35.088426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786077",
-        "size_bytes": 176288142
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786077",
+          "size_bytes": 176288142,
+          "source_bytes_read": 176288142,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211847",
+        "source_url": "https://sdilej.cz/28211847/jak-jsem-poznal-vasi-matku-s09e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786077",
-        "size_bytes": 176288142,
-        "source_bytes_read": 176288142,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E09 Platonish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:05:18.262812+00:00"
       }
     },
     "560:9:10": {
@@ -241027,5 +241028,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:05:14.146235+00:00"
+  "updated_at": "2026-11-04T13:05:18.262830+00:00"
 }
