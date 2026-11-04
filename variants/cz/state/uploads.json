@@ -248448,12 +248448,6 @@
     },
     "41:4:2": {
       "episode_key": "ve jménu vlasti:s4:e2",
-      "claim": {
-        "worker_id": "244db98138d9459e8c1ac7a37fc3d0f0-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:19:28.961617+00:00",
-        "lease_expires_at": "2026-11-05T00:19:28.961638+00:00"
-      },
       "source": {
         "source_id": "33992362",
         "source_url": "https://sdilej.cz/33992362/homeland-s04e02-cz-dabing.mkv",
@@ -248478,15 +248472,22 @@
         "display_name": "Homeland S04E02 Trylon and Perisphere 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:19:35.453632+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30791207",
-        "size_bytes": 723060851
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30791207",
+          "size_bytes": 723060851,
+          "source_bytes_read": 723060851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33992362",
+        "source_url": "https://sdilej.cz/33992362/homeland-s04e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30791207",
-        "size_bytes": 723060851,
-        "source_bytes_read": 723060851,
-        "http_status": 201
+        "display_name": "Homeland S04E02 Trylon and Perisphere 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T18:22:08.763293+00:00"
       }
     }
   },
@@ -248495,5 +248496,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:22:05.419576+00:00"
+  "updated_at": "2026-11-04T18:22:08.763311+00:00"
 }
