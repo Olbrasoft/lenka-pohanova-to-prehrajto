@@ -247840,12 +247840,6 @@
     },
     "41:2:12": {
       "episode_key": "ve jménu vlasti:s2:e12",
-      "claim": {
-        "worker_id": "827ee285671e43a29b87260ad766612c-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:33:47.941227+00:00",
-        "lease_expires_at": "2026-11-04T23:33:47.941246+00:00"
-      },
       "source": {
         "source_id": "33984015",
         "source_url": "https://sdilej.cz/33984015/ve.jmenu.vlasti.homeland.s02e12-cz-dabing-1080p.mkv",
@@ -247870,15 +247864,22 @@
         "display_name": "Homeland S02E12 The Choice 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:33:52.571886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790455",
-        "size_bytes": 905451008
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790455",
+          "size_bytes": 905451008,
+          "source_bytes_read": 905451008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33984015",
+        "source_url": "https://sdilej.cz/33984015/ve.jmenu.vlasti.homeland.s02e12-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790455",
-        "size_bytes": 905451008,
-        "source_bytes_read": 905451008,
-        "http_status": 201
+        "display_name": "Homeland S02E12 The Choice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:38:29.242003+00:00"
       }
     },
     "41:3:1": {
@@ -247931,5 +247932,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:38:27.025647+00:00"
+  "updated_at": "2026-11-04T17:38:29.242018+00:00"
 }
