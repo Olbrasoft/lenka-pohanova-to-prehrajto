@@ -230516,12 +230516,6 @@
     },
     "2662:2:7": {
       "episode_key": "carnivale:s2:e7",
-      "claim": {
-        "worker_id": "c648dd4f047644358d336602ce196fe1-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:15:20.728604+00:00",
-        "lease_expires_at": "2026-11-04T14:15:20.728622+00:00"
-      },
       "source": {
         "source_id": "22249947",
         "source_url": "https://sdilej.cz/22249947/carnivale-s02e07-czdab.avi",
@@ -230546,15 +230540,22 @@
         "display_name": "Carnivàle S02E07 Damascus, NE SD CZ Dabing",
         "prepared_at": "2026-11-04T08:15:27.820227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782099",
-        "size_bytes": 414162944
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782099",
+          "size_bytes": 414162944,
+          "source_bytes_read": 414162944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249947",
+        "source_url": "https://sdilej.cz/22249947/carnivale-s02e07-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782099",
-        "size_bytes": 414162944,
-        "source_bytes_read": 414162944,
-        "http_status": 201
+        "display_name": "Carnivàle S02E07 Damascus, NE SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:16:08.843282+00:00"
       }
     },
     "2662:2:6": {
@@ -230637,5 +230638,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:16:04.630088+00:00"
+  "updated_at": "2026-11-04T08:16:08.843301+00:00"
 }
