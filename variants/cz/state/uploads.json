@@ -240158,12 +240158,6 @@
     },
     "560:8:16": {
       "episode_key": "jak jsem poznal vaši matku:s8:e16",
-      "claim": {
-        "worker_id": "4ffc99e88aa7479b9de673927e14a82c-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T12:56:14.318959+00:00",
-        "lease_expires_at": "2026-11-04T18:56:14.318971+00:00"
-      },
       "source": {
         "source_id": "28211787",
         "source_url": "https://sdilej.cz/28211787/jak-jsem-poznal-vasi-matku-s08e16.mkv",
@@ -240188,15 +240182,22 @@
         "display_name": "How I Met Your Mother S08E16 Bad Crazy 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:56:18.688448+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785885",
-        "size_bytes": 177236166
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785885",
+          "size_bytes": 177236166,
+          "source_bytes_read": 177236166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211787",
+        "source_url": "https://sdilej.cz/28211787/jak-jsem-poznal-vasi-matku-s08e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785885",
-        "size_bytes": 177236166,
-        "source_bytes_read": 177236166,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S08E16 Bad Crazy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:57:16.737415+00:00"
       }
     },
     "560:8:17": {
@@ -240249,5 +240250,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:57:14.399784+00:00"
+  "updated_at": "2026-11-04T12:57:16.737428+00:00"
 }
