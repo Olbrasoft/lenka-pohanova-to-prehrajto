@@ -226594,12 +226594,6 @@
     },
     "1680:4:10": {
       "episode_key": "viceprezident(ka):s4:e10",
-      "claim": {
-        "worker_id": "f6c3815b4c8f4b7abe871ba4b5504390-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:57:21.305200+00:00",
-        "lease_expires_at": "2026-11-04T12:57:21.305217+00:00"
-      },
       "source": {
         "source_id": "34752918",
         "source_url": "https://sdilej.cz/34752918/veep-s04e10-038-2015-fhd-volebni-noc-s-.mp4",
@@ -226624,15 +226618,22 @@
         "display_name": "Veep S04E10 Election Night 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:57:24.220774+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781096",
-        "size_bytes": 562185654
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781096",
+          "size_bytes": 562185654,
+          "source_bytes_read": 562185654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34752918",
+        "source_url": "https://sdilej.cz/34752918/veep-s04e10-038-2015-fhd-volebni-noc-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781096",
-        "size_bytes": 562185654,
-        "source_bytes_read": 562185654,
-        "http_status": 201
+        "display_name": "Veep S04E10 Election Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:58:37.323151+00:00"
       }
     },
     "1680:5:1": {
@@ -226715,5 +226716,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:58:32.527534+00:00"
+  "updated_at": "2026-11-04T06:58:37.323170+00:00"
 }
