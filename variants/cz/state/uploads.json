@@ -232760,12 +232760,6 @@
     },
     "560:1:7": {
       "episode_key": "jak jsem poznal vaši matku:s1:e7",
-      "claim": {
-        "worker_id": "47bb0be9683d48b8a3c0f31ece227851-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:05:18.039452+00:00",
-        "lease_expires_at": "2026-11-04T15:05:18.039466+00:00"
-      },
       "source": {
         "source_id": "28211102",
         "source_url": "https://sdilej.cz/28211102/jak-jsem-poznal-vasi-matku-s01e07.mkv",
@@ -232790,15 +232784,22 @@
         "display_name": "How I Met Your Mother S01E07 Matchmaker 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:05:21.885177+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782830",
-        "size_bytes": 181102339
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782830",
+          "size_bytes": 181102339,
+          "source_bytes_read": 181102339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211102",
+        "source_url": "https://sdilej.cz/28211102/jak-jsem-poznal-vasi-matku-s01e07.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782830",
-        "size_bytes": 181102339,
-        "source_bytes_read": 181102339,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S01E07 Matchmaker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:05:55.005776+00:00"
       }
     },
     "560:1:8": {
@@ -232844,5 +232845,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:05:49.879615+00:00"
+  "updated_at": "2026-11-04T09:05:55.005795+00:00"
 }
