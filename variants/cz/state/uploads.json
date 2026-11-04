@@ -229232,12 +229232,6 @@
     },
     "2162:2:5": {
       "episode_key": "knick: doktoři bez hranic:s2:e5",
-      "claim": {
-        "worker_id": "d5166a73abd9441e8493846ab3fc5844-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:56:32.687095+00:00",
-        "lease_expires_at": "2026-11-04T13:56:32.687111+00:00"
-      },
       "source": {
         "source_id": "24960446",
         "source_url": "https://sdilej.cz/24960446/the.knick.s02e05.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -229262,15 +229256,22 @@
         "display_name": "The Knick S02E05 Whiplash 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:56:37.107239+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781861",
-        "size_bytes": 1771027942
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781861",
+          "size_bytes": 1771027942,
+          "source_bytes_read": 1771027942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24960446",
+        "source_url": "https://sdilej.cz/24960446/the.knick.s02e05.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781861",
-        "size_bytes": 1771027942,
-        "source_bytes_read": 1771027942,
-        "http_status": 201
+        "display_name": "The Knick S02E05 Whiplash 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:58:21.958830+00:00"
       }
     }
   },
@@ -229279,5 +229280,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:58:18.418504+00:00"
+  "updated_at": "2026-11-04T07:58:21.958851+00:00"
 }
