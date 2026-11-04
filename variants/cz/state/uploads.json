@@ -236456,12 +236456,6 @@
     },
     "560:5:3": {
       "episode_key": "jak jsem poznal vaši matku:s5:e3",
-      "claim": {
-        "worker_id": "e639c50cbfb54e55956095b1065f0363-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:01:10.371987+00:00",
-        "lease_expires_at": "2026-11-04T18:01:10.372001+00:00"
-      },
       "source": {
         "source_id": "28211442",
         "source_url": "https://sdilej.cz/28211442/jak-jsem-poznal-vasi-matku-s05e03.mkv",
@@ -236486,15 +236480,22 @@
         "display_name": "How I Met Your Mother S05E03 Robin 101 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:01:17.482615+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785071",
-        "size_bytes": 176758616
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785071",
+          "size_bytes": 176758616,
+          "source_bytes_read": 176758616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211442",
+        "source_url": "https://sdilej.cz/28211442/jak-jsem-poznal-vasi-matku-s05e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785071",
-        "size_bytes": 176758616,
-        "source_bytes_read": 176758616,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E03 Robin 101 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:02:00.234772+00:00"
       }
     },
     "560:5:4": {
@@ -236590,5 +236591,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:01:57.755658+00:00"
+  "updated_at": "2026-11-04T12:02:00.234795+00:00"
 }
