@@ -253489,12 +253489,6 @@
     },
     "1519:1:5": {
       "episode_key": "vláda:s1:e5",
-      "claim": {
-        "worker_id": "8eb4fe2eae334b998223f1b0a6cd80d9-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:39:50.215059+00:00",
-        "lease_expires_at": "2026-11-05T02:39:50.215070+00:00"
-      },
       "source": {
         "source_id": "33872450",
         "source_url": "https://sdilej.cz/33872450/vlada-s01e05-muzi-kteri-miluji-zeny-borgen-2010-cz-dan.serial.avi",
@@ -253518,7 +253512,13 @@
         },
         "display_name": "Borgen S01E05 Mænd der elsker kvinder SD CZ Dabing",
         "prepared_at": "2026-11-04T20:39:57.285670+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:40:09.370337+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:1:6": {
       "episode_key": "vláda:s1:e6",
@@ -253592,5 +253592,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:40:06.623062+00:00"
+  "updated_at": "2026-11-04T20:40:09.370354+00:00"
 }
