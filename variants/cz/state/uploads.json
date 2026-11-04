@@ -227240,27 +227240,28 @@
         "display_name": "Veep S06E05 Chicklet 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:07:04.641801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781247",
-        "size_bytes": 564859460
-      },
-      "transfer_receipt": {
-        "target_video_id": "30781247",
-        "size_bytes": 564859460,
-        "source_bytes_read": 564859460,
-        "http_status": 201
-      },
       "attempts": [
         {
           "at": "2026-11-04T07:08:12.781794+00:00",
           "error": "ConnectionError"
         }
       ],
-      "claim": {
-        "worker_id": "3e516c460d2e4f9aa3a01a06d4b0e2af-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:25:12.708072+00:00",
-        "lease_expires_at": "2026-11-04T13:25:12.708087+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781247",
+          "size_bytes": 564859460,
+          "source_bytes_read": 564859460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34753489",
+        "source_url": "https://sdilej.cz/34753489/veep-s06e05-053-2017-fhd-divenka-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30781247",
+        "display_name": "Veep S06E05 Chicklet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:25:17.261128+00:00"
       }
     },
     "1680:6:6": {
@@ -227753,5 +227754,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:25:14.780418+00:00"
+  "updated_at": "2026-11-04T07:25:17.261145+00:00"
 }
