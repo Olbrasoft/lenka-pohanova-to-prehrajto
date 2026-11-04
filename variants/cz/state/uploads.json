@@ -233376,12 +233376,6 @@
     },
     "560:1:21": {
       "episode_key": "jak jsem poznal vaši matku:s1:e21",
-      "claim": {
-        "worker_id": "f935e15b47534c159cf9eb9741eccf04-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:11:47.334499+00:00",
-        "lease_expires_at": "2026-11-04T15:11:47.334517+00:00"
-      },
       "source": {
         "source_id": "28211219",
         "source_url": "https://sdilej.cz/28211219/jak-jsem-poznal-vasi-matku-s01e21.mkv",
@@ -233406,15 +233400,22 @@
         "display_name": "How I Met Your Mother S01E21 Milk 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:11:58.467057+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782926",
-        "size_bytes": 179947463
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782926",
+          "size_bytes": 179947463,
+          "source_bytes_read": 179947463,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211219",
+        "source_url": "https://sdilej.cz/28211219/jak-jsem-poznal-vasi-matku-s01e21.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782926",
-        "size_bytes": 179947463,
-        "source_bytes_read": 179947463,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S01E21 Milk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:12:30.564107+00:00"
       }
     },
     "560:1:22": {
@@ -233467,5 +233468,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:12:27.290434+00:00"
+  "updated_at": "2026-11-04T09:12:30.564127+00:00"
 }
