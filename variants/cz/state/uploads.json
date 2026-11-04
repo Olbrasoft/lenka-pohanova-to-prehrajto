@@ -246080,12 +246080,6 @@
     },
     "1287:3:5": {
       "episode_key": "babylon berlín:s3:e5",
-      "claim": {
-        "worker_id": "1a25b89408344c519b2a436e1ddc0d56-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T16:17:08.460577+00:00",
-        "lease_expires_at": "2026-11-04T22:17:08.460596+00:00"
-      },
       "source": {
         "source_id": "34890670",
         "source_url": "https://sdilej.cz/34890670/babylon-berlin-s03e05-021-2020-hd-epizoda-5-sd-.mp4",
@@ -246110,15 +246104,22 @@
         "display_name": "Babylon Berlin S03E05 720p CZ Dabing",
         "prepared_at": "2026-11-04T16:17:16.843268+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30789552",
-        "size_bytes": 987763310
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30789552",
+          "size_bytes": 987763310,
+          "source_bytes_read": 987763310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34890670",
+        "source_url": "https://sdilej.cz/34890670/babylon-berlin-s03e05-021-2020-hd-epizoda-5-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30789552",
-        "size_bytes": 987763310,
-        "source_bytes_read": 987763310,
-        "http_status": 201
+        "display_name": "Babylon Berlin S03E05 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T16:19:35.328663+00:00"
       }
     },
     "1287:3:7": {
@@ -246214,5 +246215,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T16:19:33.167377+00:00"
+  "updated_at": "2026-11-04T16:19:35.328681+00:00"
 }
