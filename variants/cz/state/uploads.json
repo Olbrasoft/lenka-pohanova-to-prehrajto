@@ -241472,12 +241472,6 @@
     },
     "560:9:22": {
       "episode_key": "jak jsem poznal vaši matku:s9:e22",
-      "claim": {
-        "worker_id": "66940907333242669c1a9d41dedf773d-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:09:50.200785+00:00",
-        "lease_expires_at": "2026-11-04T19:09:50.200797+00:00"
-      },
       "source": {
         "source_id": "28211916",
         "source_url": "https://sdilej.cz/28211916/jak-jsem-poznal-vasi-matku-s09e22.mkv",
@@ -241502,15 +241496,22 @@
         "display_name": "How I Met Your Mother S09E22 The End of the Aisle 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:09:52.898569+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786183",
-        "size_bytes": 177021258
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786183",
+          "size_bytes": 177021258,
+          "source_bytes_read": 177021258,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211916",
+        "source_url": "https://sdilej.cz/28211916/jak-jsem-poznal-vasi-matku-s09e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786183",
-        "size_bytes": 177021258,
-        "source_bytes_read": 177021258,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E22 The End of the Aisle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:10:37.527168+00:00"
       }
     }
   },
@@ -241519,5 +241520,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:10:35.054812+00:00"
+  "updated_at": "2026-11-04T13:10:37.527183+00:00"
 }
