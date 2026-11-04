@@ -224211,12 +224211,6 @@
     },
     "6:10:3": {
       "episode_key": "hvězdná brána:s10:e3",
-      "claim": {
-        "worker_id": "edb19b2b6186445790fb3210abea89ef-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T05:52:55.475334+00:00",
-        "lease_expires_at": "2026-11-04T11:52:55.475363+00:00"
-      },
       "source": {
         "source_id": "28516746",
         "source_url": "https://sdilej.cz/28516746/stargate.sg-1.-2006-.s10e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -224241,15 +224235,22 @@
         "display_name": "Stargate SG-1 S10E03 The Pegasus Project 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:52:58.037215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780382",
-        "size_bytes": 1372112102
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780382",
+          "size_bytes": 1372112102,
+          "source_bytes_read": 1372112102,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28516746",
+        "source_url": "https://sdilej.cz/28516746/stargate.sg-1.-2006-.s10e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780382",
-        "size_bytes": 1372112102,
-        "source_bytes_read": 1372112102,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S10E03 The Pegasus Project 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:54:42.498491+00:00"
       }
     },
     "6:10:4": {
@@ -224295,5 +224296,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:54:39.018781+00:00"
+  "updated_at": "2026-11-04T05:54:42.498511+00:00"
 }
