@@ -229416,12 +229416,6 @@
     },
     "2162:2:9": {
       "episode_key": "knick: doktoři bez hranic:s2:e9",
-      "claim": {
-        "worker_id": "58db06e334c44f35b75294847700ab90-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:02:41.928886+00:00",
-        "lease_expires_at": "2026-11-04T14:02:41.928903+00:00"
-      },
       "source": {
         "source_id": "24965763",
         "source_url": "https://sdilej.cz/24965763/the.knick.s02e09.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -229446,15 +229440,22 @@
         "display_name": "The Knick S02E09 Do You Remember Moon Flower? 1080p CZ Dabing",
         "prepared_at": "2026-11-04T08:02:48.652504+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781944",
-        "size_bytes": 1638963809
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781944",
+          "size_bytes": 1638963809,
+          "source_bytes_read": 1638963809,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24965763",
+        "source_url": "https://sdilej.cz/24965763/the.knick.s02e09.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781944",
-        "size_bytes": 1638963809,
-        "source_bytes_read": 1638963809,
-        "http_status": 201
+        "display_name": "The Knick S02E09 Do You Remember Moon Flower? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:04:48.418712+00:00"
       }
     },
     "2162:2:10": {
@@ -229500,5 +229501,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:04:42.844525+00:00"
+  "updated_at": "2026-11-04T08:04:48.418731+00:00"
 }
