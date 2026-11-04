@@ -216078,12 +216078,6 @@
     },
     "6:1:5": {
       "episode_key": "hvězdná brána:s1:e5",
-      "claim": {
-        "worker_id": "239e868d60d24476974efb413e4659f4-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:26:46.671018+00:00",
-        "lease_expires_at": "2026-11-04T06:26:46.671027+00:00"
-      },
       "source": {
         "source_id": "29250743",
         "source_url": "https://sdilej.cz/29250743/hvezdna-brana-s01e05-prvni-prikazani-the-first-commandment.mkv",
@@ -216108,15 +216102,22 @@
         "display_name": "Stargate SG-1 S01E05 The Broca Divide 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:26:51.450794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775822",
-        "size_bytes": 1780087808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775822",
+          "size_bytes": 1780087808,
+          "source_bytes_read": 1780087808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29250743",
+        "source_url": "https://sdilej.cz/29250743/hvezdna-brana-s01e05-prvni-prikazani-the-first-commandment.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775822",
-        "size_bytes": 1780087808,
-        "source_bytes_read": 1780087808,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S01E05 The Broca Divide 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:31:01.905726+00:00"
       }
     },
     "6:1:6": {
@@ -216206,5 +216207,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:30:57.776363+00:00"
+  "updated_at": "2026-11-04T00:31:01.905741+00:00"
 }
