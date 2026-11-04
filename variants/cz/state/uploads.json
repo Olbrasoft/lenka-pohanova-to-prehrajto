@@ -244752,12 +244752,6 @@
     },
     "1082:4:18": {
       "episode_key": "útěk z vězení:s4:e18",
-      "claim": {
-        "worker_id": "98cf964b7aa44c72a5c0249d4c6d1376-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:14:52.893820+00:00",
-        "lease_expires_at": "2026-11-04T21:14:52.893832+00:00"
-      },
       "source": {
         "source_id": "10961626",
         "source_url": "https://sdilej.cz/10961626/prison.break.s04e18.1080p.10bit.bluray.ac3.x265.hevc.6ch-mrn-czaudio-.mkv",
@@ -244782,15 +244776,22 @@
         "display_name": "Prison Break S04E18 VS. 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:14:57.576281+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788680",
-        "size_bytes": 523171764
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788680",
+          "size_bytes": 523171764,
+          "source_bytes_read": 523171764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10961626",
+        "source_url": "https://sdilej.cz/10961626/prison.break.s04e18.1080p.10bit.bluray.ac3.x265.hevc.6ch-mrn-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788680",
-        "size_bytes": 523171764,
-        "source_bytes_read": 523171764,
-        "http_status": 201
+        "display_name": "Prison Break S04E18 VS. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:15:52.548954+00:00"
       }
     },
     "1082:4:19": {
@@ -244836,5 +244837,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:15:45.861073+00:00"
+  "updated_at": "2026-11-04T15:15:52.548973+00:00"
 }
