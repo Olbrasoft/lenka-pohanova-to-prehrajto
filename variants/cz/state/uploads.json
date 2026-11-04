@@ -219642,12 +219642,6 @@
     },
     "6:5:2": {
       "episode_key": "hvězdná brána:s5:e2",
-      "claim": {
-        "worker_id": "0f3a66feb62d4edaaaa70449ed8998bd-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:48:58.960494+00:00",
-        "lease_expires_at": "2026-11-04T08:48:58.960510+00:00"
-      },
       "source": {
         "source_id": "17230742",
         "source_url": "https://sdilej.cz/17230742/stargate.sg-1.-2001-.s05e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -219672,15 +219666,22 @@
         "display_name": "Stargate SG-1 S05E02 Threshold (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:49:01.637257+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777969",
-        "size_bytes": 1361416565
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777969",
+          "size_bytes": 1361416565,
+          "source_bytes_read": 1361416565,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17230742",
+        "source_url": "https://sdilej.cz/17230742/stargate.sg-1.-2001-.s05e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777969",
-        "size_bytes": 1361416565,
-        "source_bytes_read": 1361416565,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E02 Threshold (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:51:21.124692+00:00"
       }
     },
     "6:5:3": {
@@ -219807,5 +219808,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:51:14.472509+00:00"
+  "updated_at": "2026-11-04T02:51:21.124712+00:00"
 }
