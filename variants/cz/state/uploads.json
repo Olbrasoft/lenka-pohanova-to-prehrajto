@@ -225582,12 +225582,6 @@
     },
     "1680:2:6": {
       "episode_key": "viceprezident(ka):s2:e6",
-      "claim": {
-        "worker_id": "df571343dd69493798a3ff3d1ba45817-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:41:53.426348+00:00",
-        "lease_expires_at": "2026-11-04T12:41:53.426379+00:00"
-      },
       "source": {
         "source_id": "34751710",
         "source_url": "https://sdilej.cz/34751710/veep-s02e06-014-2013-fhd-andrew-s-.mp4",
@@ -225612,15 +225606,22 @@
         "display_name": "Veep S02E06 Andrew 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:41:56.941455+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780924",
-        "size_bytes": 559860469
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780924",
+          "size_bytes": 559860469,
+          "source_bytes_read": 559860469,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34751710",
+        "source_url": "https://sdilej.cz/34751710/veep-s02e06-014-2013-fhd-andrew-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780924",
-        "size_bytes": 559860469,
-        "source_bytes_read": 559860469,
-        "http_status": 201
+        "display_name": "Veep S02E06 Andrew 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:42:51.923801+00:00"
       }
     },
     "1680:2:7": {
@@ -225699,5 +225700,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:42:48.636912+00:00"
+  "updated_at": "2026-11-04T06:42:51.923820+00:00"
 }
