@@ -215726,12 +215726,6 @@
     },
     "1507:1:4": {
       "episode_key": "normální lidi:s1:e4",
-      "claim": {
-        "worker_id": "9712f84b0fbd432ab5374819a4045610-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:05:34.947835+00:00",
-        "lease_expires_at": "2026-11-04T06:05:34.947844+00:00"
-      },
       "source": {
         "source_id": "16186639",
         "source_url": "https://sdilej.cz/16186639/normalni.lidi.01x04.1080i.hevc.hdtv.cz.mkv",
@@ -215756,15 +215750,22 @@
         "display_name": "Normal People S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:05:38.951001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775504",
-        "size_bytes": 344473732
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775504",
+          "size_bytes": 344473732,
+          "source_bytes_read": 344473732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16186639",
+        "source_url": "https://sdilej.cz/16186639/normalni.lidi.01x04.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775504",
-        "size_bytes": 344473732,
-        "source_bytes_read": 344473732,
-        "http_status": 201
+        "display_name": "Normal People S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:06:27.895990+00:00"
       }
     },
     "1507:1:5": {
@@ -215810,5 +215811,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:06:25.651902+00:00"
+  "updated_at": "2026-11-04T00:06:27.896008+00:00"
 }
