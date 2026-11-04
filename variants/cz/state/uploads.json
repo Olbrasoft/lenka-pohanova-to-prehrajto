@@ -237292,12 +237292,6 @@
     },
     "560:5:22": {
       "episode_key": "jak jsem poznal vaši matku:s5:e22",
-      "claim": {
-        "worker_id": "0e15c4fdae09438899377a7638a8256a-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:07:07.200759+00:00",
-        "lease_expires_at": "2026-11-04T18:07:07.200769+00:00"
-      },
       "source": {
         "source_id": "28211517",
         "source_url": "https://sdilej.cz/28211517/jak-jsem-poznal-vasi-matku-s05e22.mkv",
@@ -237322,15 +237316,22 @@
         "display_name": "How I Met Your Mother S05E22 Robots vs. Wrestlers 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:07:09.791132+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785159",
-        "size_bytes": 176501441
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785159",
+          "size_bytes": 176501441,
+          "source_bytes_read": 176501441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211517",
+        "source_url": "https://sdilej.cz/28211517/jak-jsem-poznal-vasi-matku-s05e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785159",
-        "size_bytes": 176501441,
-        "source_bytes_read": 176501441,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E22 Robots vs. Wrestlers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:07:47.127208+00:00"
       }
     },
     "560:5:23": {
@@ -237372,5 +237373,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:07:45.000487+00:00"
+  "updated_at": "2026-11-04T12:07:47.127228+00:00"
 }
