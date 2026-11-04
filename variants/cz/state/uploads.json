@@ -216643,12 +216643,6 @@
     },
     "6:1:19": {
       "episode_key": "hvězdná brána:s1:e19",
-      "claim": {
-        "worker_id": "d72f9e47902f44c5ac9dca6370fe3227-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:42:55.144847+00:00",
-        "lease_expires_at": "2026-11-04T06:42:55.144856+00:00"
-      },
       "source": {
         "source_id": "29250781",
         "source_url": "https://sdilej.cz/29250781/hvezdna-brana-s01e19-paralelni-svet-there-but-for-the-grace-of-god.mkv",
@@ -216673,15 +216667,22 @@
         "display_name": "Stargate SG-1 S01E19 Tin Man 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:42:57.814494+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776065",
-        "size_bytes": 1152402576
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776065",
+          "size_bytes": 1152402576,
+          "source_bytes_read": 1152402576,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29250781",
+        "source_url": "https://sdilej.cz/29250781/hvezdna-brana-s01e19-paralelni-svet-there-but-for-the-grace-of-god.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776065",
-        "size_bytes": 1152402576,
-        "source_bytes_read": 1152402576,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S01E19 Tin Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:44:41.441220+00:00"
       }
     },
     "6:1:20": {
@@ -216727,5 +216728,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:44:35.301783+00:00"
+  "updated_at": "2026-11-04T00:44:41.441237+00:00"
 }
