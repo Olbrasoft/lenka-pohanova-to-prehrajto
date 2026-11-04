@@ -253522,12 +253522,6 @@
     },
     "1519:1:6": {
       "episode_key": "vláda:s1:e6",
-      "claim": {
-        "worker_id": "4ec66f2e14704892ba299894ca76e5b0-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:39:54.774090+00:00",
-        "lease_expires_at": "2026-11-05T02:39:54.774105+00:00"
-      },
       "source": {
         "source_id": "33872453",
         "source_url": "https://sdilej.cz/33872453/vlada-s01e06-statni-navsteva-borgen-2010-cz-dan.serial.avi",
@@ -253551,7 +253545,13 @@
         },
         "display_name": "Borgen S01E06 Statsbesøg SD CZ Dabing",
         "prepared_at": "2026-11-04T20:40:02.051998+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:40:16.424601+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:1:7": {
       "episode_key": "vláda:s1:e7",
@@ -253592,5 +253592,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:40:09.370354+00:00"
+  "updated_at": "2026-11-04T20:40:16.424619+00:00"
 }
