@@ -235664,12 +235664,6 @@
     },
     "560:4:9": {
       "episode_key": "jak jsem poznal vaši matku:s4:e9",
-      "claim": {
-        "worker_id": "e1fbe748acaf4a73a64e7353c026e1e3-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:52:41.391634+00:00",
-        "lease_expires_at": "2026-11-04T17:52:41.391647+00:00"
-      },
       "source": {
         "source_id": "28211384",
         "source_url": "https://sdilej.cz/28211384/jak-jsem-poznal-vasi-matku-s04e09.mkv",
@@ -235694,15 +235688,22 @@
         "display_name": "How I Met Your Mother S04E09 The Naked Man 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:52:43.928900+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30784939",
-        "size_bytes": 175243274
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30784939",
+          "size_bytes": 175243274,
+          "source_bytes_read": 175243274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211384",
+        "source_url": "https://sdilej.cz/28211384/jak-jsem-poznal-vasi-matku-s04e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30784939",
-        "size_bytes": 175243274,
-        "source_bytes_read": 175243274,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S04E09 The Naked Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:53:16.173933+00:00"
       }
     }
   },
@@ -235711,5 +235712,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:53:11.628506+00:00"
+  "updated_at": "2026-11-04T11:53:16.173954+00:00"
 }
