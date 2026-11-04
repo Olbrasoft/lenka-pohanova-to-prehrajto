@@ -237248,12 +237248,6 @@
     },
     "560:5:21": {
       "episode_key": "jak jsem poznal vaši matku:s5:e21",
-      "claim": {
-        "worker_id": "d77d794bc00f41eab1c74c6a663b800e-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:06:50.985307+00:00",
-        "lease_expires_at": "2026-11-04T18:06:50.985319+00:00"
-      },
       "source": {
         "source_id": "28211514",
         "source_url": "https://sdilej.cz/28211514/jak-jsem-poznal-vasi-matku-s05e21.mkv",
@@ -237278,15 +237272,22 @@
         "display_name": "How I Met Your Mother S05E21 Twin Beds 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:06:59.842534+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785153",
-        "size_bytes": 176813374
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785153",
+          "size_bytes": 176813374,
+          "source_bytes_read": 176813374,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211514",
+        "source_url": "https://sdilej.cz/28211514/jak-jsem-poznal-vasi-matku-s05e21.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785153",
-        "size_bytes": 176813374,
-        "source_bytes_read": 176813374,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E21 Twin Beds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:07:30.871036+00:00"
       }
     },
     "560:5:22": {
@@ -237332,5 +237333,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:07:25.982892+00:00"
+  "updated_at": "2026-11-04T12:07:30.871053+00:00"
 }
