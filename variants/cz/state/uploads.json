@@ -251706,21 +251706,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "ca72e9d1a8b94423b2641caa2cf5ad8f-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-04T23:56:22.460259+00:00",
-        "lease_expires_at": "2026-11-05T05:56:22.460270+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30797417",
+          "size_bytes": 1205035103,
+          "source_bytes_read": 1205035103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31914833",
+        "source_url": "https://sdilej.cz/31914833/pribeh-sluzebnice-s01e01-001-2017-fhd-offred-s-.mp4",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30797417",
-        "size_bytes": 1205035103
-      },
-      "transfer_receipt": {
-        "target_video_id": "30797417",
-        "size_bytes": 1205035103,
-        "source_bytes_read": 1205035103,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S01E01 Offred 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T23:58:46.678551+00:00"
       }
     },
     "843:1:2": {
@@ -254930,5 +254931,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T23:58:43.291600+00:00"
+  "updated_at": "2026-11-04T23:58:46.678568+00:00"
 }
