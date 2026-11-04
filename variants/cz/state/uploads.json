@@ -227297,12 +227297,6 @@
     },
     "1680:6:7": {
       "episode_key": "viceprezident(ka):s6:e7",
-      "claim": {
-        "worker_id": "57c0ef841f6345d9af6eb11ddad71f08-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:07:23.563460+00:00",
-        "lease_expires_at": "2026-11-04T13:07:23.563477+00:00"
-      },
       "source": {
         "source_id": "34753633",
         "source_url": "https://sdilej.cz/34753633/veep-s06e07-055-2017-fhd-upoutavka-na-zalozce-s-.mp4",
@@ -227327,15 +227321,22 @@
         "display_name": "Veep S06E07 Blurb 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:07:28.060616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781259",
-        "size_bytes": 569786680
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781259",
+          "size_bytes": 569786680,
+          "source_bytes_read": 569786680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34753633",
+        "source_url": "https://sdilej.cz/34753633/veep-s06e07-055-2017-fhd-upoutavka-na-zalozce-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781259",
-        "size_bytes": 569786680,
-        "source_bytes_read": 569786680,
-        "http_status": 201
+        "display_name": "Veep S06E07 Blurb 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:08:14.833786+00:00"
       }
     }
   },
@@ -227344,5 +227345,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:08:12.781814+00:00"
+  "updated_at": "2026-11-04T07:08:14.833806+00:00"
 }
