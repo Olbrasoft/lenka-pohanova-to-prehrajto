@@ -226770,12 +226770,6 @@
     },
     "1680:5:4": {
       "episode_key": "viceprezident(ka):s5:e4",
-      "claim": {
-        "worker_id": "be7ba86fa8354ee68fe5ae81de497d08-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:59:19.988959+00:00",
-        "lease_expires_at": "2026-11-04T12:59:19.988974+00:00"
-      },
       "source": {
         "source_id": "30304888",
         "source_url": "https://sdilej.cz/30304888/veep-s05e04-042-2016-fhd-babi-s-.mp4",
@@ -226800,15 +226794,22 @@
         "display_name": "Veep S05E04 Mother 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:59:25.434594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781132",
-        "size_bytes": 570919291
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781132",
+          "size_bytes": 570919291,
+          "source_bytes_read": 570919291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30304888",
+        "source_url": "https://sdilej.cz/30304888/veep-s05e04-042-2016-fhd-babi-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781132",
-        "size_bytes": 570919291,
-        "source_bytes_read": 570919291,
-        "http_status": 201
+        "display_name": "Veep S05E04 Mother 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:00:31.487415+00:00"
       }
     },
     "1680:5:6": {
@@ -226853,5 +226854,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:00:27.809575+00:00"
+  "updated_at": "2026-11-04T07:00:31.487434+00:00"
 }
