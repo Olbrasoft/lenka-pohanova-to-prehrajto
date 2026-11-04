@@ -245152,12 +245152,6 @@
     },
     "1082:5:6": {
       "episode_key": "útěk z vězení:s5:e6",
-      "claim": {
-        "worker_id": "9d67655ac2584e7d88a6798561be1d4c-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:22:37.641625+00:00",
-        "lease_expires_at": "2026-11-04T21:22:37.641637+00:00"
-      },
       "source": {
         "source_id": "28435307",
         "source_url": "https://sdilej.cz/28435307/prison.break.s05e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -245182,15 +245176,22 @@
         "display_name": "Prison Break S05E06 Phaecia 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:22:46.793631+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788854",
-        "size_bytes": 510702381
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788854",
+          "size_bytes": 510702381,
+          "source_bytes_read": 510702381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28435307",
+        "source_url": "https://sdilej.cz/28435307/prison.break.s05e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788854",
-        "size_bytes": 510702381,
-        "source_bytes_read": 510702381,
-        "http_status": 201
+        "display_name": "Prison Break S05E06 Phaecia 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:24:36.296914+00:00"
       }
     },
     "1082:5:7": {
@@ -245273,5 +245274,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:24:28.578147+00:00"
+  "updated_at": "2026-11-04T15:24:36.296933+00:00"
 }
