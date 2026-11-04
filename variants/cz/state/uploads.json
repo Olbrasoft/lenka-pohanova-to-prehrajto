@@ -242026,12 +242026,6 @@
     },
     "1082:1:11": {
       "episode_key": "útěk z vězení:s1:e11",
-      "claim": {
-        "worker_id": "3e93fa5857be4bf18f52778a7338b3b0-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:22:53.027610+00:00",
-        "lease_expires_at": "2026-11-04T19:22:53.027622+00:00"
-      },
       "source": {
         "source_id": "28434277",
         "source_url": "https://sdilej.cz/28434277/prison.break.s01e11.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -242056,15 +242050,22 @@
         "display_name": "Prison Break S01E11 And Then There Were 7 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:22:58.142813+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786522",
-        "size_bytes": 521133600
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786522",
+          "size_bytes": 521133600,
+          "source_bytes_read": 521133600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28434277",
+        "source_url": "https://sdilej.cz/28434277/prison.break.s01e11.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786522",
-        "size_bytes": 521133600,
-        "source_bytes_read": 521133600,
-        "http_status": 201
+        "display_name": "Prison Break S01E11 And Then There Were 7 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:24:34.576391+00:00"
       }
     },
     "1082:1:12": {
@@ -242110,5 +242111,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:24:30.802522+00:00"
+  "updated_at": "2026-11-04T13:24:34.576407+00:00"
 }
