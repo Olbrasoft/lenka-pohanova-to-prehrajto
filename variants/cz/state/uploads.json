@@ -253588,12 +253588,6 @@
     },
     "1519:1:8": {
       "episode_key": "vláda:s1:e8",
-      "claim": {
-        "worker_id": "83e4b22453e943708c0ee0b54392541a-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:40:22.243365+00:00",
-        "lease_expires_at": "2026-11-05T02:40:22.243376+00:00"
-      },
       "source": {
         "source_id": "33614295",
         "source_url": "https://sdilej.cz/33614295/vlada-borgen-s01e08-czdab.mp4",
@@ -253617,7 +253611,13 @@
         },
         "display_name": "Borgen S01E08 Agurketid SD CZ Dabing",
         "prepared_at": "2026-11-04T20:40:25.890697+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:40:38.960260+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:1:9": {
       "episode_key": "vláda:s1:e9",
@@ -253667,5 +253667,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:40:36.510675+00:00"
+  "updated_at": "2026-11-04T20:40:38.960279+00:00"
 }
