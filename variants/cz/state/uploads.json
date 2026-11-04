@@ -228617,12 +228617,6 @@
     },
     "1203:2:13": {
       "episode_key": "řekni, kdo tě zabil:s2:e13",
-      "claim": {
-        "worker_id": "34dfb8665c1342839e8c46c570374823-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:43:17.749257+00:00",
-        "lease_expires_at": "2026-11-04T13:43:17.749273+00:00"
-      },
       "source": {
         "source_id": "22420224",
         "source_url": "https://sdilej.cz/22420224/rekni-kdo-te-zabil-s02e13-zblunk-cz-dabing.avi",
@@ -228647,15 +228641,22 @@
         "display_name": "Pushing Daisies S02E13 Kerplunk SD CZ Dabing",
         "prepared_at": "2026-11-04T07:43:21.698111+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781711",
-        "size_bytes": 427804672
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781711",
+          "size_bytes": 427804672,
+          "source_bytes_read": 427804672,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420224",
+        "source_url": "https://sdilej.cz/22420224/rekni-kdo-te-zabil-s02e13-zblunk-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781711",
-        "size_bytes": 427804672,
-        "source_bytes_read": 427804672,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E13 Kerplunk SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:44:01.363236+00:00"
       }
     },
     "2162:1:2": {
@@ -228701,5 +228702,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:43:57.135412+00:00"
+  "updated_at": "2026-11-04T07:44:01.363255+00:00"
 }
