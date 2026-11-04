@@ -240372,12 +240372,6 @@
     },
     "560:8:21": {
       "episode_key": "jak jsem poznal vaši matku:s8:e21",
-      "claim": {
-        "worker_id": "cf93c84ec7374e19ac977cdaf0b932fd-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:00:17.402935+00:00",
-        "lease_expires_at": "2026-11-04T19:00:17.402943+00:00"
-      },
       "source": {
         "source_id": "28211804",
         "source_url": "https://sdilej.cz/28211804/jak-jsem-poznal-vasi-matku-s08e21.mkv",
@@ -240402,15 +240396,22 @@
         "display_name": "How I Met Your Mother S08E21 Romeward Bound 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:00:24.395850+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785994",
-        "size_bytes": 171301352
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785994",
+          "size_bytes": 171301352,
+          "source_bytes_read": 171301352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211804",
+        "source_url": "https://sdilej.cz/28211804/jak-jsem-poznal-vasi-matku-s08e21.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785994",
-        "size_bytes": 171301352,
-        "source_bytes_read": 171301352,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S08E21 Romeward Bound 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:00:58.417277+00:00"
       }
     },
     "560:8:22": {
@@ -240493,5 +240494,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:00:54.658868+00:00"
+  "updated_at": "2026-11-04T13:00:58.417293+00:00"
 }
