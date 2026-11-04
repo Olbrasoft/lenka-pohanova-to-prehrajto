@@ -241824,12 +241824,6 @@
     },
     "1082:1:6": {
       "episode_key": "útěk z vězení:s1:e6",
-      "claim": {
-        "worker_id": "4275f039ce734170b44c517d381c5b83-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:19:08.213223+00:00",
-        "lease_expires_at": "2026-11-04T19:19:08.213234+00:00"
-      },
       "source": {
         "source_id": "14061409",
         "source_url": "https://sdilej.cz/14061409/utek-z-vezeni-prison.break.s01e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -241854,15 +241848,22 @@
         "display_name": "Prison Break S01E06 Riots, Drills and the Devil (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:19:12.218607+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786426",
-        "size_bytes": 521876678
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786426",
+          "size_bytes": 521876678,
+          "source_bytes_read": 521876678,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14061409",
+        "source_url": "https://sdilej.cz/14061409/utek-z-vezeni-prison.break.s01e06.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786426",
-        "size_bytes": 521876678,
-        "source_bytes_read": 521876678,
-        "http_status": 201
+        "display_name": "Prison Break S01E06 Riots, Drills and the Devil (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:21:34.311734+00:00"
       }
     },
     "1082:1:7": {
@@ -241952,5 +241953,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:21:29.654796+00:00"
+  "updated_at": "2026-11-04T13:21:34.311751+00:00"
 }
