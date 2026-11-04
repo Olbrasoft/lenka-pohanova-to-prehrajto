@@ -235261,12 +235261,6 @@
     },
     "560:3:20": {
       "episode_key": "jak jsem poznal vaši matku:s3:e20",
-      "claim": {
-        "worker_id": "a1f7c7d38db5436ea5ce361ba3aa12ed-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:48:45.528049+00:00",
-        "lease_expires_at": "2026-11-04T17:48:45.528057+00:00"
-      },
       "source": {
         "source_id": "28211353",
         "source_url": "https://sdilej.cz/28211353/jak-jsem-poznal-vasi-matku-s03e20.mkv",
@@ -235291,15 +235285,22 @@
         "display_name": "How I Met Your Mother S03E20 Miracles 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:48:51.125739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30784894",
-        "size_bytes": 178103689
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30784894",
+          "size_bytes": 178103689,
+          "source_bytes_read": 178103689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211353",
+        "source_url": "https://sdilej.cz/28211353/jak-jsem-poznal-vasi-matku-s03e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30784894",
-        "size_bytes": 178103689,
-        "source_bytes_read": 178103689,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E20 Miracles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:49:23.781050+00:00"
       }
     }
   },
@@ -235308,5 +235309,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:49:21.736277+00:00"
+  "updated_at": "2026-11-04T11:49:23.781069+00:00"
 }
