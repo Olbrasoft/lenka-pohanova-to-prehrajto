@@ -231044,12 +231044,6 @@
     },
     "105:1:9": {
       "episode_key": "alfred hitchcock uvádí:s1:e9",
-      "claim": {
-        "worker_id": "2150862374af47949f8c332d7d57426d-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:31:47.053836+00:00",
-        "lease_expires_at": "2026-11-04T14:31:47.053853+00:00"
-      },
       "source": {
         "source_id": "30434499",
         "source_url": "https://sdilej.cz/30434499/alfred-hitchcock-uvadi-s01e09.-480p.mp4",
@@ -231074,15 +231068,22 @@
         "display_name": "Alfred Hitchcock Presents S01E09 The Long Shot SD CZ Dabing",
         "prepared_at": "2026-11-04T08:31:53.781438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782316",
-        "size_bytes": 75400819
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782316",
+          "size_bytes": 75400819,
+          "source_bytes_read": 75400819,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434499",
+        "source_url": "https://sdilej.cz/30434499/alfred-hitchcock-uvadi-s01e09.-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782316",
-        "size_bytes": 75400819,
-        "source_bytes_read": 75400819,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E09 The Long Shot SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:32:20.429307+00:00"
       }
     },
     "105:1:11": {
@@ -231134,5 +231135,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:32:17.437198+00:00"
+  "updated_at": "2026-11-04T08:32:20.429328+00:00"
 }
