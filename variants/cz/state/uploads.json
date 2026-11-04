@@ -224475,12 +224475,6 @@
     },
     "6:10:9": {
       "episode_key": "hvězdná brána:s10:e9",
-      "claim": {
-        "worker_id": "87a07ea367224af2bacb68e902789bcb-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:00:35.004700+00:00",
-        "lease_expires_at": "2026-11-04T12:00:35.004716+00:00"
-      },
       "source": {
         "source_id": "28518253",
         "source_url": "https://sdilej.cz/28518253/hvezdna-brana-s10e09.mkv",
@@ -224505,15 +224499,22 @@
         "display_name": "Stargate SG-1 S10E09 Company of Thieves 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:00:40.867856+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780465",
-        "size_bytes": 365367435
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780465",
+          "size_bytes": 365367435,
+          "source_bytes_read": 365367435,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28518253",
+        "source_url": "https://sdilej.cz/28518253/hvezdna-brana-s10e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780465",
-        "size_bytes": 365367435,
-        "source_bytes_read": 365367435,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S10E09 Company of Thieves 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:01:18.131410+00:00"
       }
     },
     "6:10:10": {
@@ -224559,5 +224560,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:01:13.383918+00:00"
+  "updated_at": "2026-11-04T06:01:18.131429+00:00"
 }
