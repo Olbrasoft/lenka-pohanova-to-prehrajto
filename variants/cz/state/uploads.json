@@ -248060,12 +248060,6 @@
     },
     "41:3:5": {
       "episode_key": "ve jménu vlasti:s3:e5",
-      "claim": {
-        "worker_id": "ceb91215827342568739405283427b17-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:10:31.876645+00:00",
-        "lease_expires_at": "2026-11-05T00:10:31.876661+00:00"
-      },
       "source": {
         "source_id": "33992262",
         "source_url": "https://sdilej.cz/33992262/homeland-s03e05-cz-dabing.mkv",
@@ -248090,15 +248084,22 @@
         "display_name": "Homeland S03E05 The Yoga Play 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:10:34.673673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30791076",
-        "size_bytes": 740591001
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30791076",
+          "size_bytes": 740591001,
+          "source_bytes_read": 740591001,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33992262",
+        "source_url": "https://sdilej.cz/33992262/homeland-s03e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30791076",
-        "size_bytes": 740591001,
-        "source_bytes_read": 740591001,
-        "http_status": 201
+        "display_name": "Homeland S03E05 The Yoga Play 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T18:13:25.630993+00:00"
       }
     },
     "41:3:6": {
@@ -248232,5 +248233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:13:21.727601+00:00"
+  "updated_at": "2026-11-04T18:13:25.631010+00:00"
 }
