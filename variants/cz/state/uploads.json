@@ -221175,12 +221175,6 @@
     },
     "6:6:16": {
       "episode_key": "hvězdná brána:s6:e16",
-      "claim": {
-        "worker_id": "0801d82622a647f4b4324a47194724f6-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T03:41:26.281335+00:00",
-        "lease_expires_at": "2026-11-04T09:41:26.281351+00:00"
-      },
       "source": {
         "source_id": "29251606",
         "source_url": "https://sdilej.cz/29251606/hvezdna-brana-s06e16-promena.mkv",
@@ -221205,15 +221199,22 @@
         "display_name": "Stargate SG-1 S06E16 Metamorphosis 1080p CZ Dabing",
         "prepared_at": "2026-11-04T03:41:28.977999+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778522",
-        "size_bytes": 1191015345
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778522",
+          "size_bytes": 1191015345,
+          "source_bytes_read": 1191015345,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251606",
+        "source_url": "https://sdilej.cz/29251606/hvezdna-brana-s06e16-promena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778522",
-        "size_bytes": 1191015345,
-        "source_bytes_read": 1191015345,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S06E16 Metamorphosis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:45:22.499684+00:00"
       }
     },
     "6:6:17": {
@@ -221303,5 +221304,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:45:17.696575+00:00"
+  "updated_at": "2026-11-04T03:45:22.499705+00:00"
 }
