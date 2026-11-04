@@ -250499,12 +250499,6 @@
     },
     "41:8:8": {
       "episode_key": "ve jménu vlasti:s8:e8",
-      "claim": {
-        "worker_id": "54926dbb8d604ca4a309c260b97f69e3-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T19:19:57.533591+00:00",
-        "lease_expires_at": "2026-11-05T01:19:57.533607+00:00"
-      },
       "source": {
         "source_id": "33122713",
         "source_url": "https://sdilej.cz/33122713/homeland-ve-jmenu-vlasti-s08e08-cz-dabing-1080p.mkv",
@@ -250528,7 +250522,13 @@
         },
         "display_name": "Homeland S08E08 Threnody(s) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T19:20:00.345691+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T19:20:12.682699+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -250536,5 +250536,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T19:20:06.925122+00:00"
+  "updated_at": "2026-11-04T19:20:12.682720+00:00"
 }
