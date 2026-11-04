@@ -248588,12 +248588,6 @@
     },
     "41:4:5": {
       "episode_key": "ve jménu vlasti:s4:e5",
-      "claim": {
-        "worker_id": "5f2ee4f9d5174df08e8303ef3a4dc4f7-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:26:41.861805+00:00",
-        "lease_expires_at": "2026-11-05T00:26:41.861824+00:00"
-      },
       "source": {
         "source_id": "33122343",
         "source_url": "https://sdilej.cz/33122343/homeland-ve-jmenu-vlasti-s04e05-cz-dabing-1080p.mkv",
@@ -248618,15 +248612,22 @@
         "display_name": "Homeland S04E05 About a Boy 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:26:45.964969+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30791371",
-        "size_bytes": 690048985
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30791371",
+          "size_bytes": 690048985,
+          "source_bytes_read": 690048985,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122343",
+        "source_url": "https://sdilej.cz/33122343/homeland-ve-jmenu-vlasti-s04e05-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30791371",
-        "size_bytes": 690048985,
-        "source_bytes_read": 690048985,
-        "http_status": 201
+        "display_name": "Homeland S04E05 About a Boy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T18:32:44.064140+00:00"
       }
     },
     "41:4:6": {
@@ -248765,5 +248766,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:32:41.754911+00:00"
+  "updated_at": "2026-11-04T18:32:44.064161+00:00"
 }
