@@ -243787,12 +243787,6 @@
     },
     "1082:3:7": {
       "episode_key": "útěk z vězení:s3:e7",
-      "claim": {
-        "worker_id": "1a05f1f7e21a49debe961638cd46a3ef-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:28:30.913092+00:00",
-        "lease_expires_at": "2026-11-04T20:28:30.913107+00:00"
-      },
       "source": {
         "source_id": "10960714",
         "source_url": "https://sdilej.cz/10960714/prison.break.s03e07.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio-.mkv",
@@ -243817,15 +243811,22 @@
         "display_name": "Prison Break S03E07 Vamonos 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:28:34.036453+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787801",
-        "size_bytes": 539276669
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787801",
+          "size_bytes": 539276669,
+          "source_bytes_read": 539276669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10960714",
+        "source_url": "https://sdilej.cz/10960714/prison.break.s03e07.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787801",
-        "size_bytes": 539276669,
-        "source_bytes_read": 539276669,
-        "http_status": 201
+        "display_name": "Prison Break S03E07 Vamonos 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:29:55.730515+00:00"
       }
     },
     "1082:3:8": {
@@ -243871,5 +243872,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:29:53.475836+00:00"
+  "updated_at": "2026-11-04T14:29:55.730530+00:00"
 }
