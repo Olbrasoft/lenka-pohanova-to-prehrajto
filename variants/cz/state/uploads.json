@@ -220270,12 +220270,6 @@
     },
     "6:5:17": {
       "episode_key": "hvězdná brána:s5:e17",
-      "claim": {
-        "worker_id": "a853517436c94accb45bee571f25516c-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:59:21.484520+00:00",
-        "lease_expires_at": "2026-11-04T08:59:21.484537+00:00"
-      },
       "source": {
         "source_id": "33522746",
         "source_url": "https://sdilej.cz/33522746/hvezdna-brana-s05e17-kriticky-bod.mkv",
@@ -220300,15 +220294,22 @@
         "display_name": "Stargate SG-1 S05E17 Fail Safe 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:59:24.082437+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778125",
-        "size_bytes": 1927618071
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778125",
+          "size_bytes": 1927618071,
+          "source_bytes_read": 1927618071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522746",
+        "source_url": "https://sdilej.cz/33522746/hvezdna-brana-s05e17-kriticky-bod.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778125",
-        "size_bytes": 1927618071,
-        "source_bytes_read": 1927618071,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E17 Fail Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:04:18.641054+00:00"
       }
     },
     "6:5:18": {
@@ -220361,5 +220362,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:04:16.623005+00:00"
+  "updated_at": "2026-11-04T03:04:18.641074+00:00"
 }
