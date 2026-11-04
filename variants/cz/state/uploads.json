@@ -224028,12 +224028,6 @@
     },
     "6:9:18": {
       "episode_key": "hvězdná brána:s9:e18",
-      "claim": {
-        "worker_id": "158b5fad0b2845da8a29a66eb61a7091-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T05:50:41.097451+00:00",
-        "lease_expires_at": "2026-11-04T11:50:41.097468+00:00"
-      },
       "source": {
         "source_id": "28518190",
         "source_url": "https://sdilej.cz/28518190/hvezdna-brana-s09e18.mkv",
@@ -224058,15 +224052,22 @@
         "display_name": "Stargate SG-1 S09E18 Arthur's Mantle 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:50:47.096287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780340",
-        "size_bytes": 607438650
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780340",
+          "size_bytes": 607438650,
+          "source_bytes_read": 607438650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28518190",
+        "source_url": "https://sdilej.cz/28518190/hvezdna-brana-s09e18.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780340",
-        "size_bytes": 607438650,
-        "source_bytes_read": 607438650,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S09E18 Arthur's Mantle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:51:39.733064+00:00"
       }
     }
   },
@@ -224075,5 +224076,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:51:35.556859+00:00"
+  "updated_at": "2026-11-04T05:51:39.733083+00:00"
 }
