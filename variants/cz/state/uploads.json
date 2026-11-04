@@ -223602,12 +223602,6 @@
     },
     "6:9:7": {
       "episode_key": "hvězdná brána:s9:e7",
-      "claim": {
-        "worker_id": "beec5a2369a34aebad71bbef19915673-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T05:34:53.231758+00:00",
-        "lease_expires_at": "2026-11-04T11:34:53.231775+00:00"
-      },
       "source": {
         "source_id": "17875322",
         "source_url": "https://sdilej.cz/17875322/stargate.sg-1.-2005-.s09e07.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -223632,15 +223626,22 @@
         "display_name": "Stargate SG-1 S09E07 Ex Deus Machina 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:34:59.662366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780061",
-        "size_bytes": 1376657390
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780061",
+          "size_bytes": 1376657390,
+          "source_bytes_read": 1376657390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17875322",
+        "source_url": "https://sdilej.cz/17875322/stargate.sg-1.-2005-.s09e07.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780061",
-        "size_bytes": 1376657390,
-        "source_bytes_read": 1376657390,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S09E07 Ex Deus Machina 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:37:29.947384+00:00"
       }
     },
     "6:9:10": {
@@ -223730,5 +223731,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:37:24.766402+00:00"
+  "updated_at": "2026-11-04T05:37:29.947403+00:00"
 }
