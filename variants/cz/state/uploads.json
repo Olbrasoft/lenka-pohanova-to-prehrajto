@@ -219421,12 +219421,6 @@
     },
     "6:4:19": {
       "episode_key": "hvězdná brána:s4:e19",
-      "claim": {
-        "worker_id": "529c10add67e4564b2bcd96502304da6-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:42:54.201413+00:00",
-        "lease_expires_at": "2026-11-04T08:42:54.201429+00:00"
-      },
       "source": {
         "source_id": "29251480",
         "source_url": "https://sdilej.cz/29251480/hvezdna-brana-s04e19-zazracne-dite-prodigy.mkv",
@@ -219451,15 +219445,22 @@
         "display_name": "Stargate SG-1 S04E19 Prodigy 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:42:56.934862+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777872",
-        "size_bytes": 1268185369
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777872",
+          "size_bytes": 1268185369,
+          "source_bytes_read": 1268185369,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251480",
+        "source_url": "https://sdilej.cz/29251480/hvezdna-brana-s04e19-zazracne-dite-prodigy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777872",
-        "size_bytes": 1268185369,
-        "source_bytes_read": 1268185369,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S04E19 Prodigy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:44:54.404733+00:00"
       }
     }
   },
@@ -219468,5 +219469,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:44:51.683564+00:00"
+  "updated_at": "2026-11-04T02:44:54.404751+00:00"
 }
