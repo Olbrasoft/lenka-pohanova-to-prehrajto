@@ -228888,12 +228888,6 @@
     },
     "2162:1:7": {
       "episode_key": "knick: doktoři bez hranic:s1:e7",
-      "claim": {
-        "worker_id": "977ece7f763846008514354b3e8bc017-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:51:50.627190+00:00",
-        "lease_expires_at": "2026-11-04T13:51:50.627204+00:00"
-      },
       "source": {
         "source_id": "31834187",
         "source_url": "https://sdilej.cz/31834187/knick-doktori-bez-hranic-s01e07-cz-dabing.mkv",
@@ -228918,15 +228912,22 @@
         "display_name": "The Knick S01E07 Get the Rope 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:51:54.308005+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781811",
-        "size_bytes": 1891255475
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781811",
+          "size_bytes": 1891255475,
+          "source_bytes_read": 1891255475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31834187",
+        "source_url": "https://sdilej.cz/31834187/knick-doktori-bez-hranic-s01e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781811",
-        "size_bytes": 1891255475,
-        "source_bytes_read": 1891255475,
-        "http_status": 201
+        "display_name": "The Knick S01E07 Get the Rope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:53:47.783728+00:00"
       }
     },
     "2162:1:8": {
@@ -229052,5 +229053,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:53:44.371962+00:00"
+  "updated_at": "2026-11-04T07:53:47.783749+00:00"
 }
