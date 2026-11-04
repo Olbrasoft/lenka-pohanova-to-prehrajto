@@ -244312,12 +244312,6 @@
     },
     "1082:4:8": {
       "episode_key": "útěk z vězení:s4:e8",
-      "claim": {
-        "worker_id": "84cafcdddc3a4afe8138c36356cb3d0c-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:08:24.144133+00:00",
-        "lease_expires_at": "2026-11-04T21:08:24.144146+00:00"
-      },
       "source": {
         "source_id": "10960940",
         "source_url": "https://sdilej.cz/10960940/prison.break.s04e08.1080p.10bit.bluray.ac3.x265.hevc.6ch-mrn-czaudio-.mkv",
@@ -244342,15 +244336,22 @@
         "display_name": "Prison Break S04E08 The Price 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:08:35.430227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788525",
-        "size_bytes": 517835188
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788525",
+          "size_bytes": 517835188,
+          "source_bytes_read": 517835188,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10960940",
+        "source_url": "https://sdilej.cz/10960940/prison.break.s04e08.1080p.10bit.bluray.ac3.x265.hevc.6ch-mrn-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788525",
-        "size_bytes": 517835188,
-        "source_bytes_read": 517835188,
-        "http_status": 201
+        "display_name": "Prison Break S04E08 The Price 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:09:42.098406+00:00"
       }
     },
     "1082:4:9": {
@@ -244396,5 +244397,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:09:35.343179+00:00"
+  "updated_at": "2026-11-04T15:09:42.098423+00:00"
 }
