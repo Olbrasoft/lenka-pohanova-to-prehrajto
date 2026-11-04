@@ -243927,12 +243927,6 @@
     },
     "1082:3:10": {
       "episode_key": "útěk z vězení:s3:e10",
-      "claim": {
-        "worker_id": "7dfbfe34e0dd4fbdaf0c1b214b9892f4-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:59:17.142875+00:00",
-        "lease_expires_at": "2026-11-04T20:59:17.142888+00:00"
-      },
       "source": {
         "source_id": "33250619",
         "source_url": "https://sdilej.cz/33250619/utek-z-vezeni-s03e10-13-2007-cz-dab-1080p-v-prachu.mkv",
@@ -243957,15 +243951,22 @@
         "display_name": "Prison Break S03E10 Dirt Nap 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:59:28.582680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788274",
-        "size_bytes": 525152355
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788274",
+          "size_bytes": 525152355,
+          "source_bytes_read": 525152355,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250619",
+        "source_url": "https://sdilej.cz/33250619/utek-z-vezeni-s03e10-13-2007-cz-dab-1080p-v-prachu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788274",
-        "size_bytes": 525152355,
-        "source_bytes_read": 525152355,
-        "http_status": 201
+        "display_name": "Prison Break S03E10 Dirt Nap 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:01:34.737351+00:00"
       }
     },
     "1082:3:11": {
@@ -244011,5 +244012,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:01:32.374972+00:00"
+  "updated_at": "2026-11-04T15:01:34.737367+00:00"
 }
