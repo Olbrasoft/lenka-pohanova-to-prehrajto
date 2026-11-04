@@ -228404,12 +228404,6 @@
     },
     "1203:2:8": {
       "episode_key": "řekni, kdo tě zabil:s2:e8",
-      "claim": {
-        "worker_id": "966308ed82c640ef841b5302da25a29b-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:41:27.499856+00:00",
-        "lease_expires_at": "2026-11-04T13:41:27.499871+00:00"
-      },
       "source": {
         "source_id": "22420198",
         "source_url": "https://sdilej.cz/22420198/rekni-kdo-te-zabil-s02e08-potecha-pro-zaludek-cz-dabing.avi",
@@ -228434,15 +228428,22 @@
         "display_name": "Pushing Daisies S02E08 Comfort Food SD CZ Dabing",
         "prepared_at": "2026-11-04T07:41:32.154225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781677",
-        "size_bytes": 426479616
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781677",
+          "size_bytes": 426479616,
+          "source_bytes_read": 426479616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420198",
+        "source_url": "https://sdilej.cz/22420198/rekni-kdo-te-zabil-s02e08-potecha-pro-zaludek-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781677",
-        "size_bytes": 426479616,
-        "source_bytes_read": 426479616,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E08 Comfort Food SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:42:14.252925+00:00"
       }
     },
     "1203:2:9": {
@@ -228488,5 +228489,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:42:08.746846+00:00"
+  "updated_at": "2026-11-04T07:42:14.252944+00:00"
 }
