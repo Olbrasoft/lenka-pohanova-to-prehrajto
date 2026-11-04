@@ -242375,12 +242375,6 @@
     },
     "1082:1:19": {
       "episode_key": "útěk z vězení:s1:e19",
-      "claim": {
-        "worker_id": "8e62c3d4ebd8454197d20dabbc32c61e-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:56:18.069420+00:00",
-        "lease_expires_at": "2026-11-04T19:56:18.069429+00:00"
-      },
       "source": {
         "source_id": "30661411",
         "source_url": "https://sdilej.cz/30661411/utek-z-vezeni-prison-break-s01e19-1080p-10bit-bluray-ac3-x265-hevc-mrn-czaudio.mkv",
@@ -242405,15 +242399,22 @@
         "display_name": "Prison Break S01E19 The Key 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:56:23.164457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787150",
-        "size_bytes": 533541769
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787150",
+          "size_bytes": 533541769,
+          "source_bytes_read": 533541769,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661411",
+        "source_url": "https://sdilej.cz/30661411/utek-z-vezeni-prison-break-s01e19-1080p-10bit-bluray-ac3-x265-hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787150",
-        "size_bytes": 533541769,
-        "source_bytes_read": 533541769,
-        "http_status": 201
+        "display_name": "Prison Break S01E19 The Key 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:57:20.025437+00:00"
       }
     }
   },
@@ -242422,5 +242423,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:57:16.405915+00:00"
+  "updated_at": "2026-11-04T13:57:20.025453+00:00"
 }
