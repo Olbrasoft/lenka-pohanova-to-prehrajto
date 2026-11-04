@@ -247657,12 +247657,6 @@
     },
     "41:2:8": {
       "episode_key": "ve jménu vlasti:s2:e8",
-      "claim": {
-        "worker_id": "57fa2cc5adb847e7992fa9c02ca8b3e6-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:28:36.121734+00:00",
-        "lease_expires_at": "2026-11-04T23:28:36.121754+00:00"
-      },
       "source": {
         "source_id": "33983532",
         "source_url": "https://sdilej.cz/33983532/ve.jmenu.vlasti.homeland.s02e08-cz-dabing-1080p.mkv",
@@ -247687,15 +247681,22 @@
         "display_name": "Homeland S02E08 I'll Fly Away 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:28:42.994351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790367",
-        "size_bytes": 765655810
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790367",
+          "size_bytes": 765655810,
+          "source_bytes_read": 765655810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33983532",
+        "source_url": "https://sdilej.cz/33983532/ve.jmenu.vlasti.homeland.s02e08-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790367",
-        "size_bytes": 765655810,
-        "source_bytes_read": 765655810,
-        "http_status": 201
+        "display_name": "Homeland S02E08 I'll Fly Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:30:36.729567+00:00"
       }
     }
   },
@@ -247704,5 +247705,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:30:34.194275+00:00"
+  "updated_at": "2026-11-04T17:30:36.729585+00:00"
 }
