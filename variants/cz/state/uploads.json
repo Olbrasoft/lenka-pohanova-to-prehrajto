@@ -229284,12 +229284,6 @@
     },
     "2162:2:6": {
       "episode_key": "knick: doktoři bez hranic:s2:e6",
-      "claim": {
-        "worker_id": "21b6e690c13545818baddd1d7f521235-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:58:31.255241+00:00",
-        "lease_expires_at": "2026-11-04T13:58:31.255258+00:00"
-      },
       "source": {
         "source_id": "24961628",
         "source_url": "https://sdilej.cz/24961628/the.knick.s02e06.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -229314,15 +229308,22 @@
         "display_name": "The Knick S02E06 There Are Rules 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:58:37.823196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781892",
-        "size_bytes": 1759098764
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781892",
+          "size_bytes": 1759098764,
+          "source_bytes_read": 1759098764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24961628",
+        "source_url": "https://sdilej.cz/24961628/the.knick.s02e06.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781892",
-        "size_bytes": 1759098764,
-        "source_bytes_read": 1759098764,
-        "http_status": 201
+        "display_name": "The Knick S02E06 There Are Rules 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:01:08.171551+00:00"
       }
     },
     "2162:2:7": {
@@ -229405,5 +229406,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:01:02.527788+00:00"
+  "updated_at": "2026-11-04T08:01:08.171570+00:00"
 }
