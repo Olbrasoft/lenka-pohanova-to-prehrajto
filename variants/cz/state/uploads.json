@@ -230352,12 +230352,6 @@
     },
     "2662:2:2": {
       "episode_key": "carnivale:s2:e2",
-      "claim": {
-        "worker_id": "3552c77e34c04da490ec69ea1a05cad0-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:12:57.195247+00:00",
-        "lease_expires_at": "2026-11-04T14:12:57.195262+00:00"
-      },
       "source": {
         "source_id": "22249920",
         "source_url": "https://sdilej.cz/22249920/carnivale-s02e02-czdab.avi",
@@ -230382,15 +230376,22 @@
         "display_name": "Carnivàle S02E02 Alamogordo, NM SD CZ Dabing",
         "prepared_at": "2026-11-04T08:12:59.835648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782063",
-        "size_bytes": 419155968
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782063",
+          "size_bytes": 419155968,
+          "source_bytes_read": 419155968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249920",
+        "source_url": "https://sdilej.cz/22249920/carnivale-s02e02-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782063",
-        "size_bytes": 419155968,
-        "source_bytes_read": 419155968,
-        "http_status": 201
+        "display_name": "Carnivàle S02E02 Alamogordo, NM SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:13:52.939212+00:00"
       }
     }
   },
@@ -230399,5 +230400,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:13:50.820487+00:00"
+  "updated_at": "2026-11-04T08:13:52.939231+00:00"
 }
