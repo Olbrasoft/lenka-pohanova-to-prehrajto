@@ -225450,12 +225450,6 @@
     },
     "1680:2:3": {
       "episode_key": "viceprezident(ka):s2:e3",
-      "claim": {
-        "worker_id": "31dabdc9822940f3a1629fd2721a3ef2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:40:35.080227+00:00",
-        "lease_expires_at": "2026-11-04T12:40:35.080242+00:00"
-      },
       "source": {
         "source_id": "34751702",
         "source_url": "https://sdilej.cz/34751702/veep-s02e03-011-2013-fhd-rukojmi-s-.mp4",
@@ -225480,15 +225474,22 @@
         "display_name": "Veep S02E03 Hostages 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:40:37.617616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780907",
-        "size_bytes": 542844538
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780907",
+          "size_bytes": 542844538,
+          "source_bytes_read": 542844538,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34751702",
+        "source_url": "https://sdilej.cz/34751702/veep-s02e03-011-2013-fhd-rukojmi-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780907",
-        "size_bytes": 542844538,
-        "source_bytes_read": 542844538,
-        "http_status": 201
+        "display_name": "Veep S02E03 Hostages 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:41:42.928375+00:00"
       }
     },
     "1680:2:4": {
@@ -225573,5 +225574,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:41:40.992101+00:00"
+  "updated_at": "2026-11-04T06:41:42.928399+00:00"
 }
