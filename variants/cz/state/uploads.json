@@ -218968,12 +218968,6 @@
     },
     "6:4:9": {
       "episode_key": "hvězdná brána:s4:e9",
-      "claim": {
-        "worker_id": "a140d12064724daeaf2fbfcfd3d89863-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:33:21.390294+00:00",
-        "lease_expires_at": "2026-11-04T08:33:21.390311+00:00"
-      },
       "source": {
         "source_id": "28500464",
         "source_url": "https://sdilej.cz/28500464/hvezdna-brana-s04e09.mkv",
@@ -218998,15 +218992,22 @@
         "display_name": "Stargate SG-1 S04E09 Scorched Earth 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:33:24.331024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777675",
-        "size_bytes": 382659465
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777675",
+          "size_bytes": 382659465,
+          "source_bytes_read": 382659465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28500464",
+        "source_url": "https://sdilej.cz/28500464/hvezdna-brana-s04e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777675",
-        "size_bytes": 382659465,
-        "source_bytes_read": 382659465,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S04E09 Scorched Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:34:29.996974+00:00"
       }
     }
   },
@@ -219015,5 +219016,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:34:26.519075+00:00"
+  "updated_at": "2026-11-04T02:34:29.996994+00:00"
 }
