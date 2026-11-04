@@ -234608,12 +234608,6 @@
     },
     "560:3:5": {
       "episode_key": "jak jsem poznal vaši matku:s3:e5",
-      "claim": {
-        "worker_id": "c6898052d5d244c1abfe70c9c120f732-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:44:46.776931+00:00",
-        "lease_expires_at": "2026-11-04T17:44:46.776939+00:00"
-      },
       "source": {
         "source_id": "28211308",
         "source_url": "https://sdilej.cz/28211308/jak-jsem-poznal-vasi-matku-s03e05.mkv",
@@ -234638,15 +234632,22 @@
         "display_name": "How I Met Your Mother S03E05 How I Met Everyone Else 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:44:53.300855+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30784845",
-        "size_bytes": 178449269
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30784845",
+          "size_bytes": 178449269,
+          "source_bytes_read": 178449269,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211308",
+        "source_url": "https://sdilej.cz/28211308/jak-jsem-poznal-vasi-matku-s03e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30784845",
-        "size_bytes": 178449269,
-        "source_bytes_read": 178449269,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E05 How I Met Everyone Else 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:45:27.216934+00:00"
       }
     },
     "560:3:6": {
@@ -234731,5 +234732,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:45:25.249631+00:00"
+  "updated_at": "2026-11-04T11:45:27.216949+00:00"
 }
