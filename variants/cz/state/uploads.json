@@ -233860,12 +233860,6 @@
     },
     "560:2:10": {
       "episode_key": "jak jsem poznal vaši matku:s2:e10",
-      "claim": {
-        "worker_id": "dec8276910f74c4198290c89eaf4ae6d-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:17:14.590684+00:00",
-        "lease_expires_at": "2026-11-04T15:17:14.590693+00:00"
-      },
       "source": {
         "source_id": "28211248",
         "source_url": "https://sdilej.cz/28211248/jak-jsem-poznal-vasi-matku-s02e10.mkv",
@@ -233890,15 +233884,22 @@
         "display_name": "How I Met Your Mother S02E10 Single Stamina 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:17:18.992186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782995",
-        "size_bytes": 180975246
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782995",
+          "size_bytes": 180975246,
+          "source_bytes_read": 180975246,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211248",
+        "source_url": "https://sdilej.cz/28211248/jak-jsem-poznal-vasi-matku-s02e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782995",
-        "size_bytes": 180975246,
-        "source_bytes_read": 180975246,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E10 Single Stamina 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:17:52.457674+00:00"
       }
     },
     "560:2:11": {
@@ -233950,5 +233951,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:17:49.007075+00:00"
+  "updated_at": "2026-11-04T09:17:52.457695+00:00"
 }
