@@ -243417,12 +243417,6 @@
     },
     "1082:2:21": {
       "episode_key": "útěk z vězení:s2:e21",
-      "claim": {
-        "worker_id": "a3761b4329164fa5b2c01d1a4c0bef05-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:21:19.275156+00:00",
-        "lease_expires_at": "2026-11-04T20:21:19.275167+00:00"
-      },
       "source": {
         "source_id": "33250593",
         "source_url": "https://sdilej.cz/33250593/utek-z-vezeni-s02e21-22-2006-cz-dab-1080p-fin-del-camino.mkv",
@@ -243447,15 +243441,22 @@
         "display_name": "Prison Break S02E21 Fin Del Camino 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:21:24.522497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787684",
-        "size_bytes": 512394053
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787684",
+          "size_bytes": 512394053,
+          "source_bytes_read": 512394053,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250593",
+        "source_url": "https://sdilej.cz/33250593/utek-z-vezeni-s02e21-22-2006-cz-dab-1080p-fin-del-camino.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787684",
-        "size_bytes": 512394053,
-        "source_bytes_read": 512394053,
-        "http_status": 201
+        "display_name": "Prison Break S02E21 Fin Del Camino 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:23:08.670815+00:00"
       }
     }
   },
@@ -243464,5 +243465,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:23:02.501210+00:00"
+  "updated_at": "2026-11-04T14:23:08.670833+00:00"
 }
