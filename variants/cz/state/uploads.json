@@ -217134,12 +217134,6 @@
     },
     "6:2:9": {
       "episode_key": "hvězdná brána:s2:e9",
-      "claim": {
-        "worker_id": "b845c2d674cb40e99555abc1d450526d-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:57:12.859102+00:00",
-        "lease_expires_at": "2026-11-04T06:57:12.859111+00:00"
-      },
       "source": {
         "source_id": "33517306",
         "source_url": "https://sdilej.cz/33517306/hvezdna-brana-s02e09-tajemstvi.mkv",
@@ -217164,15 +217158,22 @@
         "display_name": "Stargate SG-1 S02E09 Secrets 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:57:20.869876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776326",
-        "size_bytes": 2270044273
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776326",
+          "size_bytes": 2270044273,
+          "source_bytes_read": 2270044273,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33517306",
+        "source_url": "https://sdilej.cz/33517306/hvezdna-brana-s02e09-tajemstvi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776326",
-        "size_bytes": 2270044273,
-        "source_bytes_read": 2270044273,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S02E09 Secrets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T01:01:38.265323+00:00"
       }
     },
     "6:2:10": {
@@ -217262,5 +217263,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T01:01:36.291875+00:00"
+  "updated_at": "2026-11-04T01:01:38.265340+00:00"
 }
