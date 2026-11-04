@@ -233992,12 +233992,6 @@
     },
     "560:2:13": {
       "episode_key": "jak jsem poznal vaši matku:s2:e13",
-      "claim": {
-        "worker_id": "34288a2f448d405c94c4b170da13a641-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:18:06.636304+00:00",
-        "lease_expires_at": "2026-11-04T15:18:06.636315+00:00"
-      },
       "source": {
         "source_id": "28211263",
         "source_url": "https://sdilej.cz/28211263/jak-jsem-poznal-vasi-matku-s02e13.mkv",
@@ -234022,15 +234016,22 @@
         "display_name": "How I Met Your Mother S02E13 Columns 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:18:15.161358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30783006",
-        "size_bytes": 180843401
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30783006",
+          "size_bytes": 180843401,
+          "source_bytes_read": 180843401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211263",
+        "source_url": "https://sdilej.cz/28211263/jak-jsem-poznal-vasi-matku-s02e13.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30783006",
-        "size_bytes": 180843401,
-        "source_bytes_read": 180843401,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E13 Columns 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:18:47.342576+00:00"
       }
     }
   },
@@ -234039,5 +234040,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:18:43.363569+00:00"
+  "updated_at": "2026-11-04T09:18:47.342592+00:00"
 }
