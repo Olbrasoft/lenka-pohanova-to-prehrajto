@@ -238297,12 +238297,6 @@
     },
     "560:6:22": {
       "episode_key": "jak jsem poznal vaši matku:s6:e22",
-      "claim": {
-        "worker_id": "0c2a44068aed45129b29ee29b03dbc4c-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:16:30.817254+00:00",
-        "lease_expires_at": "2026-11-04T18:16:30.817266+00:00"
-      },
       "source": {
         "source_id": "28211615",
         "source_url": "https://sdilej.cz/28211615/jak-jsem-poznal-vasi-matku-s06e22.mkv",
@@ -238327,15 +238321,22 @@
         "display_name": "How I Met Your Mother S06E22 The Perfect Cocktail 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:16:34.927548+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785308",
-        "size_bytes": 175894493
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785308",
+          "size_bytes": 175894493,
+          "source_bytes_read": 175894493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211615",
+        "source_url": "https://sdilej.cz/28211615/jak-jsem-poznal-vasi-matku-s06e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785308",
-        "size_bytes": 175894493,
-        "source_bytes_read": 175894493,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S06E22 The Perfect Cocktail 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:17:04.429905+00:00"
       }
     },
     "560:6:23": {
@@ -238381,5 +238382,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:17:01.267397+00:00"
+  "updated_at": "2026-11-04T12:17:04.429932+00:00"
 }
