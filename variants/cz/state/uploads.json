@@ -226160,12 +226160,6 @@
     },
     "1680:3:10": {
       "episode_key": "viceprezident(ka):s3:e10",
-      "claim": {
-        "worker_id": "9361a772251544d5b3d2d8e054d076b2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:52:45.083820+00:00",
-        "lease_expires_at": "2026-11-04T12:52:45.083834+00:00"
-      },
       "source": {
         "source_id": "30304810",
         "source_url": "https://sdilej.cz/30304810/veep-s03e10-028-2014-fhd-new-hampshire-s-.mp4",
@@ -226190,15 +226184,22 @@
         "display_name": "Veep S03E10 New Hampshire 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:52:51.163913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781040",
-        "size_bytes": 552812077
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781040",
+          "size_bytes": 552812077,
+          "source_bytes_read": 552812077,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30304810",
+        "source_url": "https://sdilej.cz/30304810/veep-s03e10-028-2014-fhd-new-hampshire-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781040",
-        "size_bytes": 552812077,
-        "source_bytes_read": 552812077,
-        "http_status": 201
+        "display_name": "Veep S03E10 New Hampshire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:54:16.421055+00:00"
       }
     },
     "1680:4:1": {
@@ -226244,5 +226245,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:54:14.120947+00:00"
+  "updated_at": "2026-11-04T06:54:16.421075+00:00"
 }
