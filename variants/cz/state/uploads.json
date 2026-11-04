@@ -230252,12 +230252,6 @@
     },
     "2662:1:10": {
       "episode_key": "carnivale:s1:e10",
-      "claim": {
-        "worker_id": "cc6d0d260ad34c71afb17624aec4cb94-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:11:55.870908+00:00",
-        "lease_expires_at": "2026-11-04T14:11:55.870924+00:00"
-      },
       "source": {
         "source_id": "8769916",
         "source_url": "https://sdilej.cz/8769916/carnivale-01x10-strzen-hnevem-web-dl.cz.avi",
@@ -230282,15 +230276,22 @@
         "display_name": "Carnivàle S01E10 Hot and Bothered SD CZ Dabing",
         "prepared_at": "2026-11-04T08:12:00.155748+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782050",
-        "size_bytes": 376516608
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782050",
+          "size_bytes": 376516608,
+          "source_bytes_read": 376516608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8769916",
+        "source_url": "https://sdilej.cz/8769916/carnivale-01x10-strzen-hnevem-web-dl.cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782050",
-        "size_bytes": 376516608,
-        "source_bytes_read": 376516608,
-        "http_status": 201
+        "display_name": "Carnivàle S01E10 Hot and Bothered SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:12:45.349132+00:00"
       }
     },
     "2662:2:1": {
@@ -230335,5 +230336,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:12:43.202661+00:00"
+  "updated_at": "2026-11-04T08:12:45.349151+00:00"
 }
