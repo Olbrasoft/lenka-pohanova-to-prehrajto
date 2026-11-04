@@ -245992,12 +245992,6 @@
     },
     "1287:3:3": {
       "episode_key": "babylon berlín:s3:e3",
-      "claim": {
-        "worker_id": "8001e721036544ef8ad085f5f4b028f9-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T16:13:50.185652+00:00",
-        "lease_expires_at": "2026-11-04T22:13:50.185659+00:00"
-      },
       "source": {
         "source_id": "34890652",
         "source_url": "https://sdilej.cz/34890652/babylon-berlin-s03e03-019-2020-hd-epizoda-3-sd-.mp4",
@@ -246022,15 +246016,22 @@
         "display_name": "Babylon Berlin S03E03 720p CZ Dabing",
         "prepared_at": "2026-11-04T16:13:55.421290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30789520",
-        "size_bytes": 971587771
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30789520",
+          "size_bytes": 971587771,
+          "source_bytes_read": 971587771,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34890652",
+        "source_url": "https://sdilej.cz/34890652/babylon-berlin-s03e03-019-2020-hd-epizoda-3-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30789520",
-        "size_bytes": 971587771,
-        "source_bytes_read": 971587771,
-        "http_status": 201
+        "display_name": "Babylon Berlin S03E03 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T16:15:43.251777+00:00"
       }
     },
     "1287:3:4": {
@@ -246076,5 +246077,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T16:15:38.520381+00:00"
+  "updated_at": "2026-11-04T16:15:43.251795+00:00"
 }
