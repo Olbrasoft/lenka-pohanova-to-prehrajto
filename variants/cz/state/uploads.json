@@ -216555,12 +216555,6 @@
     },
     "6:1:17": {
       "episode_key": "hvězdná brána:s1:e17",
-      "claim": {
-        "worker_id": "17327808377f4ff4a76a7eb65e81c28b-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:41:10.442006+00:00",
-        "lease_expires_at": "2026-11-04T06:41:10.442017+00:00"
-      },
       "source": {
         "source_id": "29250775",
         "source_url": "https://sdilej.cz/29250775/hvezdna-brana-s01e17-osameni-solitudes.mkv",
@@ -216585,15 +216579,22 @@
         "display_name": "Stargate SG-1 S01E17 Enigma 1080p CZ Dabing",
         "prepared_at": "2026-11-04T00:41:13.517106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30776044",
-        "size_bytes": 914816115
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30776044",
+          "size_bytes": 914816115,
+          "source_bytes_read": 914816115,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29250775",
+        "source_url": "https://sdilej.cz/29250775/hvezdna-brana-s01e17-osameni-solitudes.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30776044",
-        "size_bytes": 914816115,
-        "source_bytes_read": 914816115,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S01E17 Enigma 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:42:46.307448+00:00"
       }
     }
   },
@@ -216602,5 +216603,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:42:41.598119+00:00"
+  "updated_at": "2026-11-04T00:42:46.307461+00:00"
 }
