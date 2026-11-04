@@ -249281,12 +249281,6 @@
     },
     "41:5:10": {
       "episode_key": "ve jménu vlasti:s5:e10",
-      "claim": {
-        "worker_id": "8e9f549985fb440fbbc333d9f2c4bcd0-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:39:51.608102+00:00",
-        "lease_expires_at": "2026-11-05T00:39:51.608119+00:00"
-      },
       "source": {
         "source_id": "33122433",
         "source_url": "https://sdilej.cz/33122433/homeland-ve-jmenu-vlasti-s05e10-cz-dabing-1080p.mkv",
@@ -249310,7 +249304,13 @@
         },
         "display_name": "Homeland S05E10 New Normal 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:39:56.389163+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T18:40:09.530081+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -249318,5 +249318,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:40:05.636104+00:00"
+  "updated_at": "2026-11-04T18:40:09.530104+00:00"
 }
