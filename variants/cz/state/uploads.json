@@ -226198,12 +226198,6 @@
     },
     "1680:4:1": {
       "episode_key": "viceprezident(ka):s4:e1",
-      "claim": {
-        "worker_id": "6a2837365f0940f9bff55ad12de1c5ef-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:53:36.360446+00:00",
-        "lease_expires_at": "2026-11-04T12:53:36.360463+00:00"
-      },
       "source": {
         "source_id": "34752506",
         "source_url": "https://sdilej.cz/34752506/veep-s04e01-029-2015-fhd-spojene-zasedani-s-.mp4",
@@ -226228,15 +226222,22 @@
         "display_name": "Veep S04E01 Joint Session 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:53:40.057616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781049",
-        "size_bytes": 553016216
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781049",
+          "size_bytes": 553016216,
+          "source_bytes_read": 553016216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34752506",
+        "source_url": "https://sdilej.cz/34752506/veep-s04e01-029-2015-fhd-spojene-zasedani-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781049",
-        "size_bytes": 553016216,
-        "source_bytes_read": 553016216,
-        "http_status": 201
+        "display_name": "Veep S04E01 Joint Session 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:54:36.119694+00:00"
       }
     },
     "1680:4:2": {
@@ -226311,5 +226312,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:54:34.133310+00:00"
+  "updated_at": "2026-11-04T06:54:36.119714+00:00"
 }
