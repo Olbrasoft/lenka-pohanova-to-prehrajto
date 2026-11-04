@@ -227560,12 +227560,6 @@
     },
     "1680:7:3": {
       "episode_key": "viceprezident(ka):s7:e3",
-      "claim": {
-        "worker_id": "c95d9cf9df2c4527bc806053be11312c-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:11:15.828150+00:00",
-        "lease_expires_at": "2026-11-04T13:11:15.828166+00:00"
-      },
       "source": {
         "source_id": "34754064",
         "source_url": "https://sdilej.cz/34754064/veep-s07e03-061-2019-fhd-slib-s-.mp4",
@@ -227590,15 +227584,22 @@
         "display_name": "Veep S07E03 Pledge 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:11:22.372764+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781311",
-        "size_bytes": 589111039
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781311",
+          "size_bytes": 589111039,
+          "source_bytes_read": 589111039,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34754064",
+        "source_url": "https://sdilej.cz/34754064/veep-s07e03-061-2019-fhd-slib-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781311",
-        "size_bytes": 589111039,
-        "source_bytes_read": 589111039,
-        "http_status": 201
+        "display_name": "Veep S07E03 Pledge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:12:26.831871+00:00"
       }
     }
   },
@@ -227607,5 +227608,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:12:23.713337+00:00"
+  "updated_at": "2026-11-04T07:12:26.831890+00:00"
 }
