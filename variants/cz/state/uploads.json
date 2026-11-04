@@ -228265,12 +228265,6 @@
     },
     "1203:2:5": {
       "episode_key": "řekni, kdo tě zabil:s2:e5",
-      "claim": {
-        "worker_id": "cc86fa9026ac41efab55b0aaf5ae20f5-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:40:23.190875+00:00",
-        "lease_expires_at": "2026-11-04T13:40:23.190891+00:00"
-      },
       "source": {
         "source_id": "22420178",
         "source_url": "https://sdilej.cz/22420178/rekni-kdo-te-zabil-s02e05-neco-ziskat-neco-ztratit-cz-dabing.avi",
@@ -228295,15 +228289,22 @@
         "display_name": "Pushing Daisies S02E05 Dim Sum Lose Some SD CZ Dabing",
         "prepared_at": "2026-11-04T07:40:29.329166+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781668",
-        "size_bytes": 426227712
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781668",
+          "size_bytes": 426227712,
+          "source_bytes_read": 426227712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420178",
+        "source_url": "https://sdilej.cz/22420178/rekni-kdo-te-zabil-s02e05-neco-ziskat-neco-ztratit-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781668",
-        "size_bytes": 426227712,
-        "source_bytes_read": 426227712,
-        "http_status": 201
+        "display_name": "Pushing Daisies S02E05 Dim Sum Lose Some SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:41:09.876763+00:00"
       }
     },
     "1203:2:6": {
@@ -228349,5 +228350,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:41:05.210964+00:00"
+  "updated_at": "2026-11-04T07:41:09.876783+00:00"
 }
