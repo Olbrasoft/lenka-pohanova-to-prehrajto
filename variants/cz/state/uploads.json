@@ -232401,12 +232401,6 @@
     },
     "1309:3:3": {
       "episode_key": "pc rebelové:s3:e3",
-      "claim": {
-        "worker_id": "d22cc6d1ed264665bc3ea48bf0ef049d-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:01:10.089376+00:00",
-        "lease_expires_at": "2026-11-04T15:01:10.089394+00:00"
-      },
       "source": {
         "source_id": "6618176",
         "source_url": "https://sdilej.cz/6618176/pc-rebelove-s03e03-halt-and-catch-fire-tvrip-czdabing.avi",
@@ -232431,15 +232425,22 @@
         "display_name": "Halt and Catch Fire S03E03 Flipping the Switch SD CZ Dabing",
         "prepared_at": "2026-11-04T09:01:12.859978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782770",
-        "size_bytes": 408489714
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782770",
+          "size_bytes": 408489714,
+          "source_bytes_read": 408489714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6618176",
+        "source_url": "https://sdilej.cz/6618176/pc-rebelove-s03e03-halt-and-catch-fire-tvrip-czdabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782770",
-        "size_bytes": 408489714,
-        "source_bytes_read": 408489714,
-        "http_status": 201
+        "display_name": "Halt and Catch Fire S03E03 Flipping the Switch SD CZ Dabing",
+        "uploaded_at": "2026-11-04T09:01:55.801111+00:00"
       }
     },
     "1309:3:7": {
@@ -232481,5 +232482,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:01:53.572063+00:00"
+  "updated_at": "2026-11-04T09:01:55.801130+00:00"
 }
