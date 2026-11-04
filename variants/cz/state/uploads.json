@@ -247349,12 +247349,6 @@
     },
     "41:2:1": {
       "episode_key": "ve jménu vlasti:s2:e1",
-      "claim": {
-        "worker_id": "10b0cb015812414e878f7df3d087840e-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:19:45.090100+00:00",
-        "lease_expires_at": "2026-11-04T23:19:45.090117+00:00"
-      },
       "source": {
         "source_id": "33122261",
         "source_url": "https://sdilej.cz/33122261/homeland-ve-jmenu-vlasti-s02e01-cz-dabing-1080p.mkv",
@@ -247379,15 +247373,22 @@
         "display_name": "Homeland S02E01 The Smile 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:19:48.248584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790258",
-        "size_bytes": 841417184
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790258",
+          "size_bytes": 841417184,
+          "source_bytes_read": 841417184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122261",
+        "source_url": "https://sdilej.cz/33122261/homeland-ve-jmenu-vlasti-s02e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790258",
-        "size_bytes": 841417184,
-        "source_bytes_read": 841417184,
-        "http_status": 201
+        "display_name": "Homeland S02E01 The Smile 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:21:58.159784+00:00"
       }
     }
   },
@@ -247396,5 +247397,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:21:55.560545+00:00"
+  "updated_at": "2026-11-04T17:21:58.159806+00:00"
 }
