@@ -247041,12 +247041,6 @@
     },
     "41:1:6": {
       "episode_key": "ve jménu vlasti:s1:e6",
-      "claim": {
-        "worker_id": "98b2ae51c7b043bcbb50a36a954ff0ee-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T17:12:55.981192+00:00",
-        "lease_expires_at": "2026-11-04T23:12:55.981213+00:00"
-      },
       "source": {
         "source_id": "33122236",
         "source_url": "https://sdilej.cz/33122236/homeland-ve-jmenu-vlasti-s01e06-cz-dabing-1080p.mkv",
@@ -247071,15 +247065,22 @@
         "display_name": "Homeland S01E06 The Good Soldier 1080p CZ Dabing",
         "prepared_at": "2026-11-04T17:13:01.289907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30790175",
-        "size_bytes": 747792120
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30790175",
+          "size_bytes": 747792120,
+          "source_bytes_read": 747792120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122236",
+        "source_url": "https://sdilej.cz/33122236/homeland-ve-jmenu-vlasti-s01e06-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30790175",
-        "size_bytes": 747792120,
-        "source_bytes_read": 747792120,
-        "http_status": 201
+        "display_name": "Homeland S01E06 The Good Soldier 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T17:14:50.023336+00:00"
       }
     }
   },
@@ -247088,5 +247089,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T17:14:47.485402+00:00"
+  "updated_at": "2026-11-04T17:14:50.023353+00:00"
 }
