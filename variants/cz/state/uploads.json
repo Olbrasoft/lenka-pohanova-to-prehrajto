@@ -243349,12 +243349,6 @@
     },
     "1082:2:19": {
       "episode_key": "útěk z vězení:s2:e19",
-      "claim": {
-        "worker_id": "ca0cee830973484a88913580572e1837-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:20:48.540594+00:00",
-        "lease_expires_at": "2026-11-04T20:20:48.540606+00:00"
-      },
       "source": {
         "source_id": "33250588",
         "source_url": "https://sdilej.cz/33250588/utek-z-vezeni-s02e19-22-2006-cz-dab-1080p-sladka-caroline.mkv",
@@ -243379,15 +243373,22 @@
         "display_name": "Prison Break S02E19 Sweet Caroline 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:20:56.963379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787670",
-        "size_bytes": 526804942
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787670",
+          "size_bytes": 526804942,
+          "source_bytes_read": 526804942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250588",
+        "source_url": "https://sdilej.cz/33250588/utek-z-vezeni-s02e19-22-2006-cz-dab-1080p-sladka-caroline.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787670",
-        "size_bytes": 526804942,
-        "source_bytes_read": 526804942,
-        "http_status": 201
+        "display_name": "Prison Break S02E19 Sweet Caroline 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:23:58.748134+00:00"
       }
     },
     "1082:2:20": {
@@ -243521,5 +243522,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:23:56.177737+00:00"
+  "updated_at": "2026-11-04T14:23:58.748152+00:00"
 }
