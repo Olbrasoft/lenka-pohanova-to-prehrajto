@@ -1361,12 +1361,6 @@
     },
     "178:1:1": {
       "episode_key": "firefly:s1:e1",
-      "claim": {
-        "worker_id": "a5d39019815e477fb441603717043870-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:56:19.023206+00:00",
-        "lease_expires_at": "2026-11-04T10:56:19.023218+00:00"
-      },
       "source": {
         "source_id": "28954931",
         "source_url": "https://sdilej.cz/28954931/firefly.s01e01.the.train.job.1080p.dsnp.web-dl.ddp5.1.h.264-flux-cz-titulky.mkv",
@@ -1396,15 +1390,22 @@
         "display_name": "Firefly S01E01 The Train Job 1080p",
         "prepared_at": "2026-11-04T04:56:20.683624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779506",
-        "size_bytes": 2557607861
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779506",
+          "size_bytes": 2557607861,
+          "source_bytes_read": 2557607861,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "28954931",
+        "source_url": "https://sdilej.cz/28954931/firefly.s01e01.the.train.job.1080p.dsnp.web-dl.ddp5.1.h.264-flux-cz-titulky.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779506",
-        "size_bytes": 2557607861,
-        "source_bytes_read": 2557607861,
-        "http_status": 201
+        "display_name": "Firefly S01E01 The Train Job 1080p",
+        "uploaded_at": "2026-11-04T05:00:40.763465+00:00"
       }
     }
   },
@@ -1413,5 +1414,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:00:36.497722+00:00"
+  "updated_at": "2026-11-04T05:00:40.763486+00:00"
 }
