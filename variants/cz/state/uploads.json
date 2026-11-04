@@ -241692,12 +241692,6 @@
     },
     "1082:1:3": {
       "episode_key": "útěk z vězení:s1:e3",
-      "claim": {
-        "worker_id": "0710f3841fbd4b8eb62edc4b0d767fd6-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:15:35.632225+00:00",
-        "lease_expires_at": "2026-11-04T19:15:35.632238+00:00"
-      },
       "source": {
         "source_id": "14061402",
         "source_url": "https://sdilej.cz/14061402/utek-z-vezeni-prison.break.s01e03.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -241722,15 +241716,22 @@
         "display_name": "Prison Break S01E03 Cell Test 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:15:38.373569+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786341",
-        "size_bytes": 524315157
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786341",
+          "size_bytes": 524315157,
+          "source_bytes_read": 524315157,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14061402",
+        "source_url": "https://sdilej.cz/14061402/utek-z-vezeni-prison.break.s01e03.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786341",
-        "size_bytes": 524315157,
-        "source_bytes_read": 524315157,
-        "http_status": 201
+        "display_name": "Prison Break S01E03 Cell Test 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:18:57.729396+00:00"
       }
     },
     "1082:1:4": {
@@ -241820,5 +241821,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:18:51.518161+00:00"
+  "updated_at": "2026-11-04T13:18:57.729411+00:00"
 }
