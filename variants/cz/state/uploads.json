@@ -238838,12 +238838,6 @@
     },
     "560:7:10": {
       "episode_key": "jak jsem poznal vaši matku:s7:e10",
-      "claim": {
-        "worker_id": "2401733d3fb34c59b23829805def11db-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:19:58.887059+00:00",
-        "lease_expires_at": "2026-11-04T18:19:58.887069+00:00"
-      },
       "source": {
         "source_id": "28211657",
         "source_url": "https://sdilej.cz/28211657/jak-jsem-poznal-vasi-matku-s07e10.mkv",
@@ -238868,15 +238862,22 @@
         "display_name": "How I Met Your Mother S07E10 Tick Tick Tick 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:20:04.100736+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785359",
-        "size_bytes": 176989138
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785359",
+          "size_bytes": 176989138,
+          "source_bytes_read": 176989138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211657",
+        "source_url": "https://sdilej.cz/28211657/jak-jsem-poznal-vasi-matku-s07e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785359",
-        "size_bytes": 176989138,
-        "source_bytes_read": 176989138,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S07E10 Tick Tick Tick 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:20:39.466035+00:00"
       }
     }
   },
@@ -238885,5 +238886,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:20:36.679117+00:00"
+  "updated_at": "2026-11-04T12:20:39.466051+00:00"
 }
