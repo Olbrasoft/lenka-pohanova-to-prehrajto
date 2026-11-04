@@ -232320,12 +232320,6 @@
     },
     "1309:2:1": {
       "episode_key": "pc rebelové:s2:e1",
-      "claim": {
-        "worker_id": "e1580ecd6c0c4c27955b4c6bc9dd5c0a-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:00:14.732486+00:00",
-        "lease_expires_at": "2026-11-04T15:00:14.732504+00:00"
-      },
       "source": {
         "source_id": "10602320",
         "source_url": "https://sdilej.cz/10602320/pc-rebelove-s02e01-cz-dabing-halt-and-catch-fire.avi",
@@ -232350,15 +232344,22 @@
         "display_name": "Halt and Catch Fire S02E01 SETI 720p CZ Dabing",
         "prepared_at": "2026-11-04T09:00:18.403210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782762",
-        "size_bytes": 685489916
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782762",
+          "size_bytes": 685489916,
+          "source_bytes_read": 685489916,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10602320",
+        "source_url": "https://sdilej.cz/10602320/pc-rebelove-s02e01-cz-dabing-halt-and-catch-fire.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782762",
-        "size_bytes": 685489916,
-        "source_bytes_read": 685489916,
-        "http_status": 201
+        "display_name": "Halt and Catch Fire S02E01 SETI 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:02:25.864919+00:00"
       }
     },
     "1309:3:1": {
@@ -232529,5 +232530,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:02:20.660860+00:00"
+  "updated_at": "2026-11-04T09:02:25.864939+00:00"
 }
