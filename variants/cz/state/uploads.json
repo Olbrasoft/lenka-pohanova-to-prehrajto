@@ -233156,12 +233156,6 @@
     },
     "560:1:16": {
       "episode_key": "jak jsem poznal vaši matku:s1:e16",
-      "claim": {
-        "worker_id": "c216291bcfeb43e2a8d360502a326d58-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:09:55.114211+00:00",
-        "lease_expires_at": "2026-11-04T15:09:55.114228+00:00"
-      },
       "source": {
         "source_id": "28211145",
         "source_url": "https://sdilej.cz/28211145/jak-jsem-poznal-vasi-matku-s01e16.mkv",
@@ -233186,15 +233180,22 @@
         "display_name": "How I Met Your Mother S01E16 Cupcake 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:10:02.403369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782893",
-        "size_bytes": 180505645
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782893",
+          "size_bytes": 180505645,
+          "source_bytes_read": 180505645,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211145",
+        "source_url": "https://sdilej.cz/28211145/jak-jsem-poznal-vasi-matku-s01e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782893",
-        "size_bytes": 180505645,
-        "source_bytes_read": 180505645,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S01E16 Cupcake 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:10:38.138374+00:00"
       }
     },
     "560:1:17": {
@@ -233239,5 +233240,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:10:35.999659+00:00"
+  "updated_at": "2026-11-04T09:10:38.138395+00:00"
 }
