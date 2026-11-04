@@ -237028,12 +237028,6 @@
     },
     "560:5:16": {
       "episode_key": "jak jsem poznal vaši matku:s5:e16",
-      "claim": {
-        "worker_id": "b3d89a982d2d4adca0524f589fef2303-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:05:24.701642+00:00",
-        "lease_expires_at": "2026-11-04T18:05:24.701656+00:00"
-      },
       "source": {
         "source_id": "28211489",
         "source_url": "https://sdilej.cz/28211489/jak-jsem-poznal-vasi-matku-s05e16.mkv",
@@ -237058,15 +237052,22 @@
         "display_name": "How I Met Your Mother S05E16 Hooked 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:05:30.993852+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785128",
-        "size_bytes": 176740857
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785128",
+          "size_bytes": 176740857,
+          "source_bytes_read": 176740857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211489",
+        "source_url": "https://sdilej.cz/28211489/jak-jsem-poznal-vasi-matku-s05e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785128",
-        "size_bytes": 176740857,
-        "source_bytes_read": 176740857,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E16 Hooked 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:06:04.779630+00:00"
       }
     },
     "560:5:17": {
@@ -237149,5 +237150,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:06:01.758544+00:00"
+  "updated_at": "2026-11-04T12:06:04.779649+00:00"
 }
