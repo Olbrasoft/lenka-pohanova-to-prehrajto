@@ -229592,12 +229592,6 @@
     },
     "2658:1:10": {
       "episode_key": "gumballův úžasný svět:s1:e10",
-      "claim": {
-        "worker_id": "27ec796e0f184c81941f7ffea8b27e3b-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:07:26.532902+00:00",
-        "lease_expires_at": "2026-11-04T14:07:26.532919+00:00"
-      },
       "source": {
         "source_id": "22816540",
         "source_url": "https://sdilej.cz/22816540/gumballuv-uzasny-svet-s01e10-cz-dabing.mp4",
@@ -229622,15 +229616,22 @@
         "display_name": "The Amazing World of Gumball S01E10 The Painting SD CZ Dabing",
         "prepared_at": "2026-11-04T08:07:31.176945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781991",
-        "size_bytes": 85603010
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781991",
+          "size_bytes": 85603010,
+          "source_bytes_read": 85603010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22816540",
+        "source_url": "https://sdilej.cz/22816540/gumballuv-uzasny-svet-s01e10-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781991",
-        "size_bytes": 85603010,
-        "source_bytes_read": 85603010,
-        "http_status": 201
+        "display_name": "The Amazing World of Gumball S01E10 The Painting SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:07:56.489491+00:00"
       }
     },
     "2658:1:11": {
@@ -229672,5 +229673,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:07:53.430397+00:00"
+  "updated_at": "2026-11-04T08:07:56.489510+00:00"
 }
