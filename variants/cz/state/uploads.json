@@ -232936,12 +232936,6 @@
     },
     "560:1:11": {
       "episode_key": "jak jsem poznal vaši matku:s1:e11",
-      "claim": {
-        "worker_id": "c43815d7fffe43b5b2acb97a2718f095-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:08:43.358691+00:00",
-        "lease_expires_at": "2026-11-04T15:08:43.358706+00:00"
-      },
       "source": {
         "source_id": "28211124",
         "source_url": "https://sdilej.cz/28211124/jak-jsem-poznal-vasi-matku-s01e11.mkv",
@@ -232966,15 +232960,22 @@
         "display_name": "How I Met Your Mother S01E11 The Limo 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:08:48.308123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782874",
-        "size_bytes": 181784107
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782874",
+          "size_bytes": 181784107,
+          "source_bytes_read": 181784107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211124",
+        "source_url": "https://sdilej.cz/28211124/jak-jsem-poznal-vasi-matku-s01e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782874",
-        "size_bytes": 181784107,
-        "source_bytes_read": 181784107,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S01E11 The Limo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:09:19.933093+00:00"
       }
     },
     "560:1:12": {
@@ -233057,5 +233058,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:09:17.006915+00:00"
+  "updated_at": "2026-11-04T09:09:19.933112+00:00"
 }
