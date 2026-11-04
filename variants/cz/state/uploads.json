@@ -251010,21 +251010,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "f575d9ddc0544225965547ce6d2a2d30-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-04T23:46:47.937998+00:00",
-        "lease_expires_at": "2026-11-05T05:46:47.938010+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30797277",
+          "size_bytes": 781437562,
+          "source_bytes_read": 781437562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122549",
+        "source_url": "https://sdilej.cz/33122549/homeland-ve-jmenu-vlasti-s08e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30797277",
-        "size_bytes": 781437562
-      },
-      "transfer_receipt": {
-        "target_video_id": "30797277",
-        "size_bytes": 781437562,
-        "source_bytes_read": 781437562,
-        "http_status": 201
+        "display_name": "Homeland S08E01 Deception Indicated 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T23:48:17.091438+00:00"
       }
     },
     "41:8:2": {
@@ -254736,5 +254737,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T23:48:11.920166+00:00"
+  "updated_at": "2026-11-04T23:48:17.091456+00:00"
 }
