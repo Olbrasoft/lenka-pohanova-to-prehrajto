@@ -1410,12 +1410,6 @@
     },
     "178:1:6": {
       "episode_key": "firefly:s1:e6",
-      "claim": {
-        "worker_id": "569d6fc8c7d9477b8ced2f80af99085e-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T05:17:31.525964+00:00",
-        "lease_expires_at": "2026-11-04T11:17:31.525976+00:00"
-      },
       "source": {
         "source_id": "28954392",
         "source_url": "https://sdilej.cz/28954392/firefly.s01e06.shindig.1080p.dsnp.web-dl.ddp5.1.h.264-flux-cz-titulky.mkv",
@@ -1445,15 +1439,22 @@
         "display_name": "Firefly S01E06 Shindig 1080p",
         "prepared_at": "2026-11-04T05:17:36.821051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779833",
-        "size_bytes": 2591894068
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779833",
+          "size_bytes": 2591894068,
+          "source_bytes_read": 2591894068,
+          "http_status": 201
+        },
+        "variant": "en",
+        "source_id": "28954392",
+        "source_url": "https://sdilej.cz/28954392/firefly.s01e06.shindig.1080p.dsnp.web-dl.ddp5.1.h.264-flux-cz-titulky.mkv",
+        "audio_language": "en"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779833",
-        "size_bytes": 2591894068,
-        "source_bytes_read": 2591894068,
-        "http_status": 201
+        "display_name": "Firefly S01E06 Shindig 1080p",
+        "uploaded_at": "2026-11-04T05:22:38.257400+00:00"
       }
     }
   },
@@ -1462,5 +1463,5 @@
     "variant": "en",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:22:31.930118+00:00"
+  "updated_at": "2026-11-04T05:22:38.257421+00:00"
 }
