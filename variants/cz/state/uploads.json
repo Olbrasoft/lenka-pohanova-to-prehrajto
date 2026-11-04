@@ -231220,12 +231220,6 @@
     },
     "105:1:15": {
       "episode_key": "alfred hitchcock uvádí:s1:e15",
-      "claim": {
-        "worker_id": "f8abb8774fbc4a2eab6319069d1f9d78-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:41:12.860812+00:00",
-        "lease_expires_at": "2026-11-04T14:41:12.860829+00:00"
-      },
       "source": {
         "source_id": "30434508",
         "source_url": "https://sdilej.cz/30434508/alfred-hitchcock-uvadi-s01e15-480p.mp4",
@@ -231250,15 +231244,22 @@
         "display_name": "Alfred Hitchcock Presents S01E15 The Big Switch SD CZ Dabing",
         "prepared_at": "2026-11-04T08:41:20.735756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782462",
-        "size_bytes": 92026957
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782462",
+          "size_bytes": 92026957,
+          "source_bytes_read": 92026957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434508",
+        "source_url": "https://sdilej.cz/30434508/alfred-hitchcock-uvadi-s01e15-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782462",
-        "size_bytes": 92026957,
-        "source_bytes_read": 92026957,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E15 The Big Switch SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:41:49.056679+00:00"
       }
     },
     "105:1:22": {
@@ -231348,5 +231349,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:41:46.934793+00:00"
+  "updated_at": "2026-11-04T08:41:49.056701+00:00"
 }
