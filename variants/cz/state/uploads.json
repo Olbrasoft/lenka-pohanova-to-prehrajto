@@ -229372,12 +229372,6 @@
     },
     "2162:2:8": {
       "episode_key": "knick: doktoři bez hranic:s2:e8",
-      "claim": {
-        "worker_id": "c5800844b11e474d86c6a16c012b4bbf-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:59:05.726058+00:00",
-        "lease_expires_at": "2026-11-04T13:59:05.726075+00:00"
-      },
       "source": {
         "source_id": "34641099",
         "source_url": "https://sdilej.cz/34641099/knick-doktori-bez-hranic-s02e08-cz-dabing.mkv",
@@ -229402,15 +229396,22 @@
         "display_name": "The Knick S02E08 Not Well At All 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:59:08.350787+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781898",
-        "size_bytes": 2319897479
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781898",
+          "size_bytes": 2319897479,
+          "source_bytes_read": 2319897479,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34641099",
+        "source_url": "https://sdilej.cz/34641099/knick-doktori-bez-hranic-s02e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781898",
-        "size_bytes": 2319897479,
-        "source_bytes_read": 2319897479,
-        "http_status": 201
+        "display_name": "The Knick S02E08 Not Well At All 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:03:58.229530+00:00"
       }
     },
     "2162:2:9": {
@@ -229493,5 +229494,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:03:52.639107+00:00"
+  "updated_at": "2026-11-04T08:03:58.229551+00:00"
 }
