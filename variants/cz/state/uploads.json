@@ -230648,12 +230648,6 @@
     },
     "2662:2:11": {
       "episode_key": "carnivale:s2:e11",
-      "claim": {
-        "worker_id": "b7b2828d1ff5431aab87c5541cf4a230-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:16:45.623675+00:00",
-        "lease_expires_at": "2026-11-04T14:16:45.623691+00:00"
-      },
       "source": {
         "source_id": "22249960",
         "source_url": "https://sdilej.cz/22249960/carnivale-s02e11-czdab.avi",
@@ -230678,15 +230672,22 @@
         "display_name": "Carnivàle S02E11 Outside New Canaan SD CZ Dabing",
         "prepared_at": "2026-11-04T08:16:55.115796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782124",
-        "size_bytes": 424056832
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782124",
+          "size_bytes": 424056832,
+          "source_bytes_read": 424056832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249960",
+        "source_url": "https://sdilej.cz/22249960/carnivale-s02e11-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782124",
-        "size_bytes": 424056832,
-        "source_bytes_read": 424056832,
-        "http_status": 201
+        "display_name": "Carnivàle S02E11 Outside New Canaan SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:17:43.443180+00:00"
       }
     }
   },
@@ -230695,5 +230696,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:17:40.499889+00:00"
+  "updated_at": "2026-11-04T08:17:43.443199+00:00"
 }
