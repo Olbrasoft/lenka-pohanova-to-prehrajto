@@ -227699,12 +227699,6 @@
     },
     "1680:7:6": {
       "episode_key": "viceprezident(ka):s7:e6",
-      "claim": {
-        "worker_id": "8dc216d85ae54551b0c0dc9a7d1d464f-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:14:17.786872+00:00",
-        "lease_expires_at": "2026-11-04T13:14:17.786887+00:00"
-      },
       "source": {
         "source_id": "34754276",
         "source_url": "https://sdilej.cz/34754276/veep-s07e06-064-2019-fhd-oslo-s-.mp4",
@@ -227729,15 +227723,22 @@
         "display_name": "Veep S07E06 Oslo 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:14:21.296165+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781355",
-        "size_bytes": 639854784
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781355",
+          "size_bytes": 639854784,
+          "source_bytes_read": 639854784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34754276",
+        "source_url": "https://sdilej.cz/34754276/veep-s07e06-064-2019-fhd-oslo-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781355",
-        "size_bytes": 639854784,
-        "source_bytes_read": 639854784,
-        "http_status": 201
+        "display_name": "Veep S07E06 Oslo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:15:46.147146+00:00"
       }
     }
   },
@@ -227746,5 +227747,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:15:39.307436+00:00"
+  "updated_at": "2026-11-04T07:15:46.147164+00:00"
 }
