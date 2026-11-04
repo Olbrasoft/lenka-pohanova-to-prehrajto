@@ -235180,12 +235180,6 @@
     },
     "560:3:18": {
       "episode_key": "jak jsem poznal vaši matku:s3:e18",
-      "claim": {
-        "worker_id": "0fe8e1b5df5a478f815aba1831b871e5-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:48:41.687622+00:00",
-        "lease_expires_at": "2026-11-04T17:48:41.687631+00:00"
-      },
       "source": {
         "source_id": "34931342",
         "source_url": "https://sdilej.cz/34931342/jak-jsem-poznal-vasi-matku-s03e18-062-2008-fhd-partak-z-trucu-s-.mp4",
@@ -235210,15 +235204,22 @@
         "display_name": "How I Met Your Mother S03E18 Rebound Bro 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:48:47.383062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30784892",
-        "size_bytes": 450686960
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30784892",
+          "size_bytes": 450686960,
+          "source_bytes_read": 450686960,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34931342",
+        "source_url": "https://sdilej.cz/34931342/jak-jsem-poznal-vasi-matku-s03e18-062-2008-fhd-partak-z-trucu-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30784892",
-        "size_bytes": 450686960,
-        "source_bytes_read": 450686960,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E18 Rebound Bro 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:49:45.302775+00:00"
       }
     },
     "560:3:19": {
@@ -235315,5 +235316,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:49:40.215527+00:00"
+  "updated_at": "2026-11-04T11:49:45.302795+00:00"
 }
