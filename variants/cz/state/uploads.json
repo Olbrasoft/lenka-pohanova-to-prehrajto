@@ -243883,12 +243883,6 @@
     },
     "1082:3:9": {
       "episode_key": "útěk z vězení:s3:e9",
-      "claim": {
-        "worker_id": "460956aa620245dcb246c48269b73750-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:59:01.497100+00:00",
-        "lease_expires_at": "2026-11-04T20:59:01.497115+00:00"
-      },
       "source": {
         "source_id": "28434844",
         "source_url": "https://sdilej.cz/28434844/prison.break.s03e09.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -243913,15 +243907,22 @@
         "display_name": "Prison Break S03E09 Boxed In 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:59:09.174461+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788268",
-        "size_bytes": 521344530
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788268",
+          "size_bytes": 521344530,
+          "source_bytes_read": 521344530,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28434844",
+        "source_url": "https://sdilej.cz/28434844/prison.break.s03e09.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788268",
-        "size_bytes": 521344530,
-        "source_bytes_read": 521344530,
-        "http_status": 201
+        "display_name": "Prison Break S03E09 Boxed In 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:00:38.244418+00:00"
       }
     },
     "1082:3:10": {
@@ -244004,5 +244005,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:00:31.635610+00:00"
+  "updated_at": "2026-11-04T15:00:38.244436+00:00"
 }
