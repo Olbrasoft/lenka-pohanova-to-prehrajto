@@ -240856,12 +240856,6 @@
     },
     "560:9:8": {
       "episode_key": "jak jsem poznal vaši matku:s9:e8",
-      "claim": {
-        "worker_id": "ed0a80bd75844991bb6e408b008dfcc6-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:03:53.466938+00:00",
-        "lease_expires_at": "2026-11-04T19:03:53.466948+00:00"
-      },
       "source": {
         "source_id": "28211844",
         "source_url": "https://sdilej.cz/28211844/jak-jsem-poznal-vasi-matku-s09e08.mkv",
@@ -240886,15 +240880,22 @@
         "display_name": "How I Met Your Mother S09E08 The Lighthouse 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:03:58.404063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786063",
-        "size_bytes": 171876310
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786063",
+          "size_bytes": 171876310,
+          "source_bytes_read": 171876310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211844",
+        "source_url": "https://sdilej.cz/28211844/jak-jsem-poznal-vasi-matku-s09e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786063",
-        "size_bytes": 171876310,
-        "source_bytes_read": 171876310,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S09E08 The Lighthouse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:04:37.886386+00:00"
       }
     },
     "560:9:9": {
@@ -240945,5 +240946,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:04:35.088444+00:00"
+  "updated_at": "2026-11-04T13:04:37.886400+00:00"
 }
