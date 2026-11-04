@@ -236103,12 +236103,6 @@
     },
     "560:4:20": {
       "episode_key": "jak jsem poznal vaši matku:s4:e20",
-      "claim": {
-        "worker_id": "8bf9396e69bd485da548cf72dafad8d6-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:58:25.298793+00:00",
-        "lease_expires_at": "2026-11-04T17:58:25.298807+00:00"
-      },
       "source": {
         "source_id": "28211419",
         "source_url": "https://sdilej.cz/28211419/jak-jsem-poznal-vasi-matku-s04e20.mkv",
@@ -236133,15 +236127,22 @@
         "display_name": "How I Met Your Mother S04E20 Mosbius Designs 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:58:29.246945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785012",
-        "size_bytes": 177037367
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785012",
+          "size_bytes": 177037367,
+          "source_bytes_read": 177037367,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211419",
+        "source_url": "https://sdilej.cz/28211419/jak-jsem-poznal-vasi-matku-s04e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785012",
-        "size_bytes": 177037367,
-        "source_bytes_read": 177037367,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S04E20 Mosbius Designs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T11:58:56.633379+00:00"
       }
     },
     "560:4:19": {
@@ -236187,5 +236188,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T11:58:54.530287+00:00"
+  "updated_at": "2026-11-04T11:58:56.633397+00:00"
 }
