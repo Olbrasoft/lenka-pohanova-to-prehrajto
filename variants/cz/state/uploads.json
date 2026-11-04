@@ -244180,12 +244180,6 @@
     },
     "1082:4:5": {
       "episode_key": "útěk z vězení:s4:e5",
-      "claim": {
-        "worker_id": "3703350b90144b3f9abc8d22e2314dc8-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:06:25.560103+00:00",
-        "lease_expires_at": "2026-11-04T21:06:25.560116+00:00"
-      },
       "source": {
         "source_id": "30660982",
         "source_url": "https://sdilej.cz/30660982/utek-z-vezeni-prison-break-s04e05-1080p-10bit-bluray-ac3-x265-hevc-6ch-mrn-czaudio.mkv",
@@ -244210,15 +244204,22 @@
         "display_name": "Prison Break S04E05 Safe and Sound 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:06:28.884794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788463",
-        "size_bytes": 528776238
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788463",
+          "size_bytes": 528776238,
+          "source_bytes_read": 528776238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660982",
+        "source_url": "https://sdilej.cz/30660982/utek-z-vezeni-prison-break-s04e05-1080p-10bit-bluray-ac3-x265-hevc-6ch-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788463",
-        "size_bytes": 528776238,
-        "source_bytes_read": 528776238,
-        "http_status": 201
+        "display_name": "Prison Break S04E05 Safe and Sound 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:07:54.316093+00:00"
       }
     },
     "1082:4:6": {
@@ -244271,5 +244272,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:07:48.228543+00:00"
+  "updated_at": "2026-11-04T15:07:54.316112+00:00"
 }
