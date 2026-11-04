@@ -215638,12 +215638,6 @@
     },
     "1507:1:2": {
       "episode_key": "normální lidi:s1:e2",
-      "claim": {
-        "worker_id": "4cb847856a9b498b971e16f7fd503544-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T00:03:46.685612+00:00",
-        "lease_expires_at": "2026-11-04T06:03:46.685623+00:00"
-      },
       "source": {
         "source_id": "16111675",
         "source_url": "https://sdilej.cz/16111675/normalni-lidi-normal.people.s01e02.720p.hdtv.cz.dabing.mkv",
@@ -215668,15 +215662,22 @@
         "display_name": "Normal People S01E02 720p CZ Dabing",
         "prepared_at": "2026-11-04T00:03:49.463694+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30775473",
-        "size_bytes": 618325965
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30775473",
+          "size_bytes": 618325965,
+          "source_bytes_read": 618325965,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16111675",
+        "source_url": "https://sdilej.cz/16111675/normalni-lidi-normal.people.s01e02.720p.hdtv.cz.dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30775473",
-        "size_bytes": 618325965,
-        "source_bytes_read": 618325965,
-        "http_status": 201
+        "display_name": "Normal People S01E02 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T00:05:32.855969+00:00"
       }
     },
     "1507:1:3": {
@@ -215729,5 +215730,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T00:05:28.516758+00:00"
+  "updated_at": "2026-11-04T00:05:32.855984+00:00"
 }
