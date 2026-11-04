@@ -241604,12 +241604,6 @@
     },
     "1082:1:1": {
       "episode_key": "útěk z vězení:s1:e1",
-      "claim": {
-        "worker_id": "bc8a40a770194856ab41e751b11c1f95-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:11:59.530337+00:00",
-        "lease_expires_at": "2026-11-04T19:11:59.530348+00:00"
-      },
       "source": {
         "source_id": "28434165",
         "source_url": "https://sdilej.cz/28434165/prison.break.s01e01.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -241634,15 +241628,22 @@
         "display_name": "Prison Break S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:12:03.139632+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786247",
-        "size_bytes": 520777714
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786247",
+          "size_bytes": 520777714,
+          "source_bytes_read": 520777714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28434165",
+        "source_url": "https://sdilej.cz/28434165/prison.break.s01e01.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786247",
-        "size_bytes": 520777714,
-        "source_bytes_read": 520777714,
-        "http_status": 201
+        "display_name": "Prison Break S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:15:51.138488+00:00"
       }
     },
     "1082:1:2": {
@@ -241731,5 +241732,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:15:45.621973+00:00"
+  "updated_at": "2026-11-04T13:15:51.138507+00:00"
 }
