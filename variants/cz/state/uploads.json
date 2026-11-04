@@ -229768,12 +229768,6 @@
     },
     "2658:1:23": {
       "episode_key": "gumballův úžasný svět:s1:e23",
-      "claim": {
-        "worker_id": "96038dad65f04f5790d58e492c443d92-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:08:35.390902+00:00",
-        "lease_expires_at": "2026-11-04T14:08:35.390917+00:00"
-      },
       "source": {
         "source_id": "22816664",
         "source_url": "https://sdilej.cz/22816664/gumballuv-uzasny-svet-s01e23-cz-dabing.mp4",
@@ -229798,15 +229792,22 @@
         "display_name": "The Amazing World of Gumball S01E23 The Sock SD CZ Dabing",
         "prepared_at": "2026-11-04T08:08:41.083684+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782010",
-        "size_bytes": 86306857
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782010",
+          "size_bytes": 86306857,
+          "source_bytes_read": 86306857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22816664",
+        "source_url": "https://sdilej.cz/22816664/gumballuv-uzasny-svet-s01e23-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782010",
-        "size_bytes": 86306857,
-        "source_bytes_read": 86306857,
-        "http_status": 201
+        "display_name": "The Amazing World of Gumball S01E23 The Sock SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:09:09.977832+00:00"
       }
     },
     "2658:1:29": {
@@ -229888,5 +229889,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:09:06.400548+00:00"
+  "updated_at": "2026-11-04T08:09:09.977856+00:00"
 }
