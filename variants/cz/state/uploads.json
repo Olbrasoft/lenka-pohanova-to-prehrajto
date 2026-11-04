@@ -230729,12 +230729,6 @@
     },
     "105:1:1": {
       "episode_key": "alfred hitchcock uvádí:s1:e1",
-      "claim": {
-        "worker_id": "564a63e61b6942368b32d9a2bdc2b986-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:18:08.217183+00:00",
-        "lease_expires_at": "2026-11-04T14:18:08.217202+00:00"
-      },
       "source": {
         "source_id": "31604636",
         "source_url": "https://sdilej.cz/31604636/alfred-hitchcock-uvadi-s01e01-480p.mp4",
@@ -230759,15 +230753,22 @@
         "display_name": "Alfred Hitchcock Presents S01E01 Revenge SD CZ Dabing",
         "prepared_at": "2026-11-04T08:18:14.859926+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782144",
-        "size_bytes": 75703479
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782144",
+          "size_bytes": 75703479,
+          "source_bytes_read": 75703479,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31604636",
+        "source_url": "https://sdilej.cz/31604636/alfred-hitchcock-uvadi-s01e01-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782144",
-        "size_bytes": 75703479,
-        "source_bytes_read": 75703479,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E01 Revenge SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:18:36.914104+00:00"
       }
     },
     "105:1:2": {
@@ -230819,5 +230820,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:18:33.924510+00:00"
+  "updated_at": "2026-11-04T08:18:36.914124+00:00"
 }
