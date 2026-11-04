@@ -229636,12 +229636,6 @@
     },
     "2658:1:11": {
       "episode_key": "gumballův úžasný svět:s1:e11",
-      "claim": {
-        "worker_id": "e782f96f1831405a92b41f99c8116367-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:07:47.537298+00:00",
-        "lease_expires_at": "2026-11-04T14:07:47.537315+00:00"
-      },
       "source": {
         "source_id": "11942530",
         "source_url": "https://sdilej.cz/11942530/gumballuv-uzasny-svet-s01e11-lenoch.mp4",
@@ -229666,15 +229660,22 @@
         "display_name": "The Amazing World of Gumball S01E11 The Laziest SD CZ Dabing",
         "prepared_at": "2026-11-04T08:07:53.430363+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781997",
-        "size_bytes": 85779901
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781997",
+          "size_bytes": 85779901,
+          "source_bytes_read": 85779901,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11942530",
+        "source_url": "https://sdilej.cz/11942530/gumballuv-uzasny-svet-s01e11-lenoch.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781997",
-        "size_bytes": 85779901,
-        "source_bytes_read": 85779901,
-        "http_status": 201
+        "display_name": "The Amazing World of Gumball S01E11 The Laziest SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:08:24.400427+00:00"
       }
     },
     "2658:1:21": {
@@ -229756,5 +229757,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:08:20.232244+00:00"
+  "updated_at": "2026-11-04T08:08:24.400447+00:00"
 }
