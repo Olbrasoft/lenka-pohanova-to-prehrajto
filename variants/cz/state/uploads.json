@@ -238656,12 +238656,6 @@
     },
     "560:7:6": {
       "episode_key": "jak jsem poznal vaši matku:s7:e6",
-      "claim": {
-        "worker_id": "1e8107d9aec04aeda3d194c1d3f3fc51-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:18:58.717991+00:00",
-        "lease_expires_at": "2026-11-04T18:18:58.718001+00:00"
-      },
       "source": {
         "source_id": "28211642",
         "source_url": "https://sdilej.cz/28211642/jak-jsem-poznal-vasi-matku-s07e06.mkv",
@@ -238686,15 +238680,22 @@
         "display_name": "How I Met Your Mother S07E06 Mystery vs. History 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:19:04.074851+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785339",
-        "size_bytes": 177080362
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785339",
+          "size_bytes": 177080362,
+          "source_bytes_read": 177080362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211642",
+        "source_url": "https://sdilej.cz/28211642/jak-jsem-poznal-vasi-matku-s07e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785339",
-        "size_bytes": 177080362,
-        "source_bytes_read": 177080362,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S07E06 Mystery vs. History 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:19:36.513571+00:00"
       }
     },
     "560:7:7": {
@@ -238777,5 +238778,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:19:33.188210+00:00"
+  "updated_at": "2026-11-04T12:19:36.513589+00:00"
 }
