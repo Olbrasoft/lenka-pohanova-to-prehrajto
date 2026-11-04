@@ -223324,12 +223324,6 @@
     },
     "6:9:1": {
       "episode_key": "hvězdná brána:s9:e1",
-      "claim": {
-        "worker_id": "358acb7d179f4eda95adbe3b2ccdd808-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T05:03:07.423274+00:00",
-        "lease_expires_at": "2026-11-04T11:03:07.423290+00:00"
-      },
       "source": {
         "source_id": "17871428",
         "source_url": "https://sdilej.cz/17871428/stargate.sg-1.-2005-.s09e01.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -223354,15 +223348,22 @@
         "display_name": "Stargate SG-1 S09E01 Avalon (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T05:03:18.936383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779619",
-        "size_bytes": 1370796056
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779619",
+          "size_bytes": 1370796056,
+          "source_bytes_read": 1370796056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17871428",
+        "source_url": "https://sdilej.cz/17871428/stargate.sg-1.-2005-.s09e01.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779619",
-        "size_bytes": 1370796056,
-        "source_bytes_read": 1370796056,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S09E01 Avalon (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T05:05:15.054821+00:00"
       }
     }
   },
@@ -223371,5 +223372,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T05:05:11.031594+00:00"
+  "updated_at": "2026-11-04T05:05:15.054840+00:00"
 }
