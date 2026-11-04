@@ -218630,12 +218630,6 @@
     },
     "6:3:22": {
       "episode_key": "hvězdná brána:s3:e22",
-      "claim": {
-        "worker_id": "16561e30cc47415d9b5bad34088e72f9-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:10:48.404009+00:00",
-        "lease_expires_at": "2026-11-04T08:10:48.404024+00:00"
-      },
       "source": {
         "source_id": "33520362",
         "source_url": "https://sdilej.cz/33520362/hvezdna-brana-s03e22-nemesis.mkv",
@@ -218660,15 +218654,22 @@
         "display_name": "Stargate SG-1 S03E22 Nemesis (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:10:53.904210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777339",
-        "size_bytes": 2036291096
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777339",
+          "size_bytes": 2036291096,
+          "source_bytes_read": 2036291096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33520362",
+        "source_url": "https://sdilej.cz/33520362/hvezdna-brana-s03e22-nemesis.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777339",
-        "size_bytes": 2036291096,
-        "source_bytes_read": 2036291096,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S03E22 Nemesis (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:14:58.693019+00:00"
       }
     },
     "6:4:2": {
@@ -218765,5 +218766,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:14:52.670615+00:00"
+  "updated_at": "2026-11-04T02:14:58.693039+00:00"
 }
