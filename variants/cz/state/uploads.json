@@ -242553,12 +242553,6 @@
     },
     "1082:2:1": {
       "episode_key": "útěk z vězení:s2:e1",
-      "claim": {
-        "worker_id": "d0f0ad6cb2ad49dda9b7f06667aaf5a7-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:02:07.158283+00:00",
-        "lease_expires_at": "2026-11-04T20:02:07.158295+00:00"
-      },
       "source": {
         "source_id": "33250534",
         "source_url": "https://sdilej.cz/33250534/utek-z-vezeni-s02e01-22-2006-cz-dab-1080p-stvanice.mkv",
@@ -242583,15 +242577,22 @@
         "display_name": "Prison Break S02E01 Manhunt 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:02:10.146931+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787239",
-        "size_bytes": 499574502
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787239",
+          "size_bytes": 499574502,
+          "source_bytes_read": 499574502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250534",
+        "source_url": "https://sdilej.cz/33250534/utek-z-vezeni-s02e01-22-2006-cz-dab-1080p-stvanice.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787239",
-        "size_bytes": 499574502,
-        "source_bytes_read": 499574502,
-        "http_status": 201
+        "display_name": "Prison Break S02E01 Manhunt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:03:05.787214+00:00"
       }
     }
   },
@@ -242600,5 +242601,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:03:01.296732+00:00"
+  "updated_at": "2026-11-04T14:03:05.787230+00:00"
 }
