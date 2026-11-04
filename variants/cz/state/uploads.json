@@ -239140,12 +239140,6 @@
     },
     "560:7:17": {
       "episode_key": "jak jsem poznal vaši matku:s7:e17",
-      "claim": {
-        "worker_id": "72a193bc5da34251860f1fafbcf2bd69-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:23:02.830213+00:00",
-        "lease_expires_at": "2026-11-04T18:23:02.830227+00:00"
-      },
       "source": {
         "source_id": "28211683",
         "source_url": "https://sdilej.cz/28211683/jak-jsem-poznal-vasi-matku-s07e17.mkv",
@@ -239170,15 +239164,22 @@
         "display_name": "How I Met Your Mother S07E17 No Pressure 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:23:06.446493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785402",
-        "size_bytes": 176840248
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785402",
+          "size_bytes": 176840248,
+          "source_bytes_read": 176840248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211683",
+        "source_url": "https://sdilej.cz/28211683/jak-jsem-poznal-vasi-matku-s07e17.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785402",
-        "size_bytes": 176840248,
-        "source_bytes_read": 176840248,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S07E17 No Pressure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:23:37.165324+00:00"
       }
     },
     "560:7:19": {
@@ -239261,5 +239262,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:23:33.778966+00:00"
+  "updated_at": "2026-11-04T12:23:37.165343+00:00"
 }
