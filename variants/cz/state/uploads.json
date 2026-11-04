@@ -220288,12 +220288,6 @@
     },
     "6:5:18": {
       "episode_key": "hvězdná brána:s5:e18",
-      "claim": {
-        "worker_id": "7bfb53d481804e1895717edc24714c53-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:59:51.158093+00:00",
-        "lease_expires_at": "2026-11-04T08:59:51.158109+00:00"
-      },
       "source": {
         "source_id": "34208659",
         "source_url": "https://sdilej.cz/34208659/stargate-sg-1-s05e18-cz-dabing-full-hd.mkv",
@@ -220318,15 +220312,22 @@
         "display_name": "Stargate SG-1 S05E18 The Warrior 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:59:54.009266+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778132",
-        "size_bytes": 939772862
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778132",
+          "size_bytes": 939772862,
+          "source_bytes_read": 939772862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34208659",
+        "source_url": "https://sdilej.cz/34208659/stargate-sg-1-s05e18-cz-dabing-full-hd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778132",
-        "size_bytes": 939772862,
-        "source_bytes_read": 939772862,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E18 The Warrior 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T03:01:04.141959+00:00"
       }
     }
   },
@@ -220335,5 +220336,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T03:00:59.743422+00:00"
+  "updated_at": "2026-11-04T03:01:04.141981+00:00"
 }
