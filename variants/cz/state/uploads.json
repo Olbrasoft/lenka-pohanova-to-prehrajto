@@ -225626,12 +225626,6 @@
     },
     "1680:2:7": {
       "episode_key": "viceprezident(ka):s2:e7",
-      "claim": {
-        "worker_id": "90993b3b31114075bd1182d8b48069d4-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T06:41:59.914633+00:00",
-        "lease_expires_at": "2026-11-04T12:41:59.914651+00:00"
-      },
       "source": {
         "source_id": "34751716",
         "source_url": "https://sdilej.cz/34751716/veep-s02e07-015-2013-fhd-krizova-situace-s-.mp4",
@@ -225656,15 +225650,22 @@
         "display_name": "Veep S02E07 Shutdown 1080p CZ Dabing",
         "prepared_at": "2026-11-04T06:42:04.423417+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30780925",
-        "size_bytes": 536189970
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30780925",
+          "size_bytes": 536189970,
+          "source_bytes_read": 536189970,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34751716",
+        "source_url": "https://sdilej.cz/34751716/veep-s02e07-015-2013-fhd-krizova-situace-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30780925",
-        "size_bytes": 536189970,
-        "source_bytes_read": 536189970,
-        "http_status": 201
+        "display_name": "Veep S02E07 Shutdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T06:43:00.970390+00:00"
       }
     },
     "1680:2:8": {
@@ -225709,5 +225710,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T06:42:56.030065+00:00"
+  "updated_at": "2026-11-04T06:43:00.970408+00:00"
 }
