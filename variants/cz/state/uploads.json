@@ -231132,12 +231132,6 @@
     },
     "105:1:13": {
       "episode_key": "alfred hitchcock uvádí:s1:e13",
-      "claim": {
-        "worker_id": "12ab9c611f3f4c0da474ad624e5ae46c-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:33:28.369591+00:00",
-        "lease_expires_at": "2026-11-04T14:33:28.369608+00:00"
-      },
       "source": {
         "source_id": "30434506",
         "source_url": "https://sdilej.cz/30434506/alfred-hitchcock-uvadi-s01e13-480p.mp4",
@@ -231162,15 +231156,22 @@
         "display_name": "Alfred Hitchcock Presents S01E13 The Cheney Vase SD CZ Dabing",
         "prepared_at": "2026-11-04T08:33:38.115093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782330",
-        "size_bytes": 92925080
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782330",
+          "size_bytes": 92925080,
+          "source_bytes_read": 92925080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434506",
+        "source_url": "https://sdilej.cz/30434506/alfred-hitchcock-uvadi-s01e13-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782330",
-        "size_bytes": 92925080,
-        "source_bytes_read": 92925080,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E13 The Cheney Vase SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:34:06.476205+00:00"
       }
     },
     "105:1:14": {
@@ -231223,5 +231224,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:34:03.688871+00:00"
+  "updated_at": "2026-11-04T08:34:06.476227+00:00"
 }
