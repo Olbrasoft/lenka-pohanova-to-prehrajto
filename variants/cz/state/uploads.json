@@ -218352,12 +218352,6 @@
     },
     "6:3:16": {
       "episode_key": "hvězdná brána:s3:e16",
-      "claim": {
-        "worker_id": "c28c540f39604a03a62aaf9d1a0fe82c-worker-0",
-        "run_id": "41730086305",
-        "claimed_at": "2026-11-04T01:50:21.325808+00:00",
-        "lease_expires_at": "2026-11-04T07:50:21.325817+00:00"
-      },
       "source": {
         "source_id": "28497981",
         "source_url": "https://sdilej.cz/28497981/hvezdna-brana-s03e16.mkv",
@@ -218382,15 +218376,22 @@
         "display_name": "Stargate SG-1 S03E16 Urgo 1080p CZ Dabing",
         "prepared_at": "2026-11-04T01:50:29.892826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777137",
-        "size_bytes": 329346050
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777137",
+          "size_bytes": 329346050,
+          "source_bytes_read": 329346050,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28497981",
+        "source_url": "https://sdilej.cz/28497981/hvezdna-brana-s03e16.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777137",
-        "size_bytes": 329346050,
-        "source_bytes_read": 329346050,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S03E16 Urgo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T01:51:22.535053+00:00"
       }
     }
   },
@@ -218399,5 +218400,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T01:51:17.728025+00:00"
+  "updated_at": "2026-11-04T01:51:22.535067+00:00"
 }
