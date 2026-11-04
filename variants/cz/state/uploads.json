@@ -230032,12 +230032,6 @@
     },
     "2662:1:1": {
       "episode_key": "carnivale:s1:e1",
-      "claim": {
-        "worker_id": "00b0b032fde142b98891ad5cf505931e-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:10:11.123885+00:00",
-        "lease_expires_at": "2026-11-04T14:10:11.123902+00:00"
-      },
       "source": {
         "source_id": "22249880",
         "source_url": "https://sdilej.cz/22249880/carnivale-s01e01-czdab.avi",
@@ -230062,15 +230056,22 @@
         "display_name": "Carnivàle S01E01 Milfay SD CZ Dabing",
         "prepared_at": "2026-11-04T08:10:16.458279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782033",
-        "size_bytes": 423446528
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782033",
+          "size_bytes": 423446528,
+          "source_bytes_read": 423446528,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22249880",
+        "source_url": "https://sdilej.cz/22249880/carnivale-s01e01-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782033",
-        "size_bytes": 423446528,
-        "source_bytes_read": 423446528,
-        "http_status": 201
+        "display_name": "Carnivàle S01E01 Milfay SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:10:58.453625+00:00"
       }
     },
     "2662:1:2": {
@@ -230153,5 +230154,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:10:54.091177+00:00"
+  "updated_at": "2026-11-04T08:10:58.453646+00:00"
 }
