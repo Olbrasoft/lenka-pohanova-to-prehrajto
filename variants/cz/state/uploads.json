@@ -230917,12 +230917,6 @@
     },
     "105:1:6": {
       "episode_key": "alfred hitchcock uvádí:s1:e6",
-      "claim": {
-        "worker_id": "c0ce5ae24ffa47989515a0052260e442-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:30:06.826296+00:00",
-        "lease_expires_at": "2026-11-04T14:30:06.826312+00:00"
-      },
       "source": {
         "source_id": "30434494",
         "source_url": "https://sdilej.cz/30434494/alfred-hitchcock-uvadi-s01e06-480p.mp4",
@@ -230947,15 +230941,22 @@
         "display_name": "Alfred Hitchcock Presents S01E06 Salvage SD CZ Dabing",
         "prepared_at": "2026-11-04T08:30:14.195392+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782296",
-        "size_bytes": 74259766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782296",
+          "size_bytes": 74259766,
+          "source_bytes_read": 74259766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434494",
+        "source_url": "https://sdilej.cz/30434494/alfred-hitchcock-uvadi-s01e06-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782296",
-        "size_bytes": 74259766,
-        "source_bytes_read": 74259766,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E06 Salvage SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:30:41.278250+00:00"
       }
     }
   },
@@ -230964,5 +230965,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:30:38.186924+00:00"
+  "updated_at": "2026-11-04T08:30:41.278269+00:00"
 }
