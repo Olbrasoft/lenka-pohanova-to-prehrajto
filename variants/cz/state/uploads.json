@@ -253390,12 +253390,6 @@
     },
     "1519:1:2": {
       "episode_key": "vláda:s1:e2",
-      "claim": {
-        "worker_id": "0a3433e92fc14fca80e3fdb93364d4b4-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:39:16.444103+00:00",
-        "lease_expires_at": "2026-11-05T02:39:16.444115+00:00"
-      },
       "source": {
         "source_id": "33872438",
         "source_url": "https://sdilej.cz/33872438/vlada-s01e02-napocitej-do-devadesati-borgen-2010-cz-dan.serial.avi",
@@ -253419,7 +253413,13 @@
         },
         "display_name": "Borgen S01E02 Tæl til 90 SD CZ Dabing",
         "prepared_at": "2026-11-04T20:39:23.576346+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:39:36.272266+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:1:3": {
       "episode_key": "vláda:s1:e3",
@@ -253493,5 +253493,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:39:31.294857+00:00"
+  "updated_at": "2026-11-04T20:39:36.272282+00:00"
 }
