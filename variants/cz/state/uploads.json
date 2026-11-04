@@ -227649,12 +227649,6 @@
     },
     "1680:7:5": {
       "episode_key": "viceprezident(ka):s7:e5",
-      "claim": {
-        "worker_id": "0293314a3ff147c38eb7cb8258f24c40-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:13:13.889035+00:00",
-        "lease_expires_at": "2026-11-04T13:13:13.889050+00:00"
-      },
       "source": {
         "source_id": "34754206",
         "source_url": "https://sdilej.cz/34754206/veep-s07e05-063-2019-fhd-volebni-superutery-s-.mp4",
@@ -227679,15 +227673,22 @@
         "display_name": "Veep S07E05 Super Tuesday 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:13:18.734176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781347",
-        "size_bytes": 624678046
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781347",
+          "size_bytes": 624678046,
+          "source_bytes_read": 624678046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34754206",
+        "source_url": "https://sdilej.cz/34754206/veep-s07e05-063-2019-fhd-volebni-superutery-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781347",
-        "size_bytes": 624678046,
-        "source_bytes_read": 624678046,
-        "http_status": 201
+        "display_name": "Veep S07E05 Super Tuesday 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:14:44.475523+00:00"
       }
     },
     "1680:7:6": {
@@ -227733,5 +227734,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:14:42.300211+00:00"
+  "updated_at": "2026-11-04T07:14:44.475541+00:00"
 }
