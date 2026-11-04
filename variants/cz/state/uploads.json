@@ -240240,12 +240240,6 @@
     },
     "560:8:18": {
       "episode_key": "jak jsem poznal vaši matku:s8:e18",
-      "claim": {
-        "worker_id": "0b1b4964fbc14218a6c73899ad905aac-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T12:58:59.318391+00:00",
-        "lease_expires_at": "2026-11-04T18:58:59.318403+00:00"
-      },
       "source": {
         "source_id": "28211795",
         "source_url": "https://sdilej.cz/28211795/jak-jsem-poznal-vasi-matku-s08e18.mkv",
@@ -240270,15 +240264,22 @@
         "display_name": "How I Met Your Mother S08E18 Weekend at Barney's 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:59:03.513367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785949",
-        "size_bytes": 176757963
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785949",
+          "size_bytes": 176757963,
+          "source_bytes_read": 176757963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211795",
+        "source_url": "https://sdilej.cz/28211795/jak-jsem-poznal-vasi-matku-s08e18.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785949",
-        "size_bytes": 176757963,
-        "source_bytes_read": 176757963,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S08E18 Weekend at Barney's 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:59:44.920754+00:00"
       }
     },
     "560:8:19": {
@@ -240367,5 +240368,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:59:40.641968+00:00"
+  "updated_at": "2026-11-04T12:59:44.920768+00:00"
 }
