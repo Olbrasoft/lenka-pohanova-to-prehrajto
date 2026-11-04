@@ -245108,12 +245108,6 @@
     },
     "1082:5:5": {
       "episode_key": "útěk z vězení:s5:e5",
-      "claim": {
-        "worker_id": "700f8d038ac94bb7972ef29042d62ba8-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:22:05.118337+00:00",
-        "lease_expires_at": "2026-11-04T21:22:05.118350+00:00"
-      },
       "source": {
         "source_id": "27709773",
         "source_url": "https://sdilej.cz/27709773/utek-z-vezeni-s05e05-cz.mkv",
@@ -245138,15 +245132,22 @@
         "display_name": "Prison Break S05E05 Contingency 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:22:08.294109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788847",
-        "size_bytes": 518752026
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788847",
+          "size_bytes": 518752026,
+          "source_bytes_read": 518752026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27709773",
+        "source_url": "https://sdilej.cz/27709773/utek-z-vezeni-s05e05-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788847",
-        "size_bytes": 518752026,
-        "source_bytes_read": 518752026,
-        "http_status": 201
+        "display_name": "Prison Break S05E05 Contingency 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:23:10.805670+00:00"
       }
     },
     "1082:5:6": {
@@ -245229,5 +245230,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:23:06.235996+00:00"
+  "updated_at": "2026-11-04T15:23:10.805688+00:00"
 }
