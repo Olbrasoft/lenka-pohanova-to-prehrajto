@@ -236280,12 +236280,6 @@
     },
     "560:4:23": {
       "episode_key": "jak jsem poznal vaši matku:s4:e23",
-      "claim": {
-        "worker_id": "7fe4fe63de494589b8c5727d9c9c84f8-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T11:59:25.590410+00:00",
-        "lease_expires_at": "2026-11-04T17:59:25.590418+00:00"
-      },
       "source": {
         "source_id": "28211428",
         "source_url": "https://sdilej.cz/28211428/jak-jsem-poznal-vasi-matku-s04e23.mkv",
@@ -236310,15 +236304,22 @@
         "display_name": "How I Met Your Mother S04E23 As Fast as She Can 1080p CZ Dabing",
         "prepared_at": "2026-11-04T11:59:30.300584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785036",
-        "size_bytes": 176938342
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785036",
+          "size_bytes": 176938342,
+          "source_bytes_read": 176938342,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211428",
+        "source_url": "https://sdilej.cz/28211428/jak-jsem-poznal-vasi-matku-s04e23.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785036",
-        "size_bytes": 176938342,
-        "source_bytes_read": 176938342,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S04E23 As Fast as She Can 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:00:03.854476+00:00"
       }
     }
   },
@@ -236327,5 +236328,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:00:01.808934+00:00"
+  "updated_at": "2026-11-04T12:00:03.854497+00:00"
 }
