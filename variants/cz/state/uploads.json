@@ -248933,12 +248933,6 @@
     },
     "41:5:1": {
       "episode_key": "ve jménu vlasti:s5:e1",
-      "claim": {
-        "worker_id": "e565d0468fe542e7a6db759dd227fd49-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T18:35:06.747853+00:00",
-        "lease_expires_at": "2026-11-05T00:35:06.747873+00:00"
-      },
       "source": {
         "source_id": "33122380",
         "source_url": "https://sdilej.cz/33122380/homeland-ve-jmenu-vlasti-s05e01-cz-dabing-1080p.mkv",
@@ -248963,15 +248957,22 @@
         "display_name": "Homeland S05E01 Separation Anxiety 1080p CZ Dabing",
         "prepared_at": "2026-11-04T18:35:13.372496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30791498",
-        "size_bytes": 660775480
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30791498",
+          "size_bytes": 660775480,
+          "source_bytes_read": 660775480,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33122380",
+        "source_url": "https://sdilej.cz/33122380/homeland-ve-jmenu-vlasti-s05e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30791498",
-        "size_bytes": 660775480,
-        "source_bytes_read": 660775480,
-        "http_status": 201
+        "display_name": "Homeland S05E01 Separation Anxiety 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T18:36:31.690596+00:00"
       }
     }
   },
@@ -248980,5 +248981,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T18:36:29.535957+00:00"
+  "updated_at": "2026-11-04T18:36:31.690616+00:00"
 }
