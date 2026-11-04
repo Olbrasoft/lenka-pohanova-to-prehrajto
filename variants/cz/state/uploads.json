@@ -227027,12 +227027,6 @@
     },
     "1680:6:1": {
       "episode_key": "viceprezident(ka):s6:e1",
-      "claim": {
-        "worker_id": "d0c1cffcb6ec4f2ab6a82acbf61e5ec2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:03:57.643084+00:00",
-        "lease_expires_at": "2026-11-04T13:03:57.643100+00:00"
-      },
       "source": {
         "source_id": "30305247",
         "source_url": "https://sdilej.cz/30305247/veep-s06e01-049-2017-fhd-omaha-s-.mp4",
@@ -227057,15 +227051,22 @@
         "display_name": "Veep S06E01 Omaha 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:04:02.886744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781202",
-        "size_bytes": 563966208
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781202",
+          "size_bytes": 563966208,
+          "source_bytes_read": 563966208,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305247",
+        "source_url": "https://sdilej.cz/30305247/veep-s06e01-049-2017-fhd-omaha-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781202",
-        "size_bytes": 563966208,
-        "source_bytes_read": 563966208,
-        "http_status": 201
+        "display_name": "Veep S06E01 Omaha 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:05:01.860085+00:00"
       }
     }
   },
@@ -227074,5 +227075,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:04:56.892809+00:00"
+  "updated_at": "2026-11-04T07:05:01.860105+00:00"
 }
