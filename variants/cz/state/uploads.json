@@ -253666,12 +253666,6 @@
     },
     "1519:1:10": {
       "episode_key": "vláda:s1:e10",
-      "claim": {
-        "worker_id": "76a4c26e34b8446b813c71cedd9ce811-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:40:36.510652+00:00",
-        "lease_expires_at": "2026-11-05T02:40:36.510666+00:00"
-      },
       "source": {
         "source_id": "33614297",
         "source_url": "https://sdilej.cz/33614297/vlada-borgen-s01e10-czdab.mp4",
@@ -253695,7 +253689,13 @@
         },
         "display_name": "Borgen S01E10 Første tirsdag i oktober SD CZ Dabing",
         "prepared_at": "2026-11-04T20:40:41.951006+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:40:57.466000+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -253703,5 +253703,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:40:54.962605+00:00"
+  "updated_at": "2026-11-04T20:40:57.466016+00:00"
 }
