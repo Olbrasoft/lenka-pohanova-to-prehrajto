@@ -238172,12 +238172,6 @@
     },
     "560:6:20": {
       "episode_key": "jak jsem poznal vaši matku:s6:e20",
-      "claim": {
-        "worker_id": "6c5099e7ca2642489c30200230507e3d-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:15:35.467953+00:00",
-        "lease_expires_at": "2026-11-04T18:15:35.467966+00:00"
-      },
       "source": {
         "source_id": "28211607",
         "source_url": "https://sdilej.cz/28211607/jak-jsem-poznal-vasi-matku-s06e20.mkv",
@@ -238202,15 +238196,22 @@
         "display_name": "How I Met Your Mother S06E20 The Exploding Meatball Sub 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:15:45.569978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785295",
-        "size_bytes": 176617628
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785295",
+          "size_bytes": 176617628,
+          "source_bytes_read": 176617628,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211607",
+        "source_url": "https://sdilej.cz/28211607/jak-jsem-poznal-vasi-matku-s06e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785295",
-        "size_bytes": 176617628,
-        "source_bytes_read": 176617628,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S06E20 The Exploding Meatball Sub 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:16:19.295344+00:00"
       }
     },
     "560:6:19": {
@@ -238263,5 +238264,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:16:16.402277+00:00"
+  "updated_at": "2026-11-04T12:16:19.295364+00:00"
 }
