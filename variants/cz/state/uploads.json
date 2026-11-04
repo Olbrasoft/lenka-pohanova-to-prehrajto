@@ -245064,12 +245064,6 @@
     },
     "1082:5:4": {
       "episode_key": "útěk z vězení:s5:e4",
-      "claim": {
-        "worker_id": "11522e0eba764395af21050aa3f5cd2c-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:21:16.853489+00:00",
-        "lease_expires_at": "2026-11-04T21:21:16.853504+00:00"
-      },
       "source": {
         "source_id": "29634753",
         "source_url": "https://sdilej.cz/29634753/utek-z-vezeni-s05e04-veznovo-dilema-juraison-.mkv",
@@ -245094,15 +245088,22 @@
         "display_name": "Prison Break S05E04 The Prisoner's Dilemma 1080p CZ Dabing",
         "prepared_at": "2026-11-04T15:21:20.146273+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788838",
-        "size_bytes": 524591963
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788838",
+          "size_bytes": 524591963,
+          "source_bytes_read": 524591963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29634753",
+        "source_url": "https://sdilej.cz/29634753/utek-z-vezeni-s05e04-veznovo-dilema-juraison-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788838",
-        "size_bytes": 524591963,
-        "source_bytes_read": 524591963,
-        "http_status": 201
+        "display_name": "Prison Break S05E04 The Prisoner's Dilemma 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:22:25.032283+00:00"
       }
     },
     "1082:5:5": {
@@ -245147,5 +245148,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:22:22.350700+00:00"
+  "updated_at": "2026-11-04T15:22:25.032303+00:00"
 }
