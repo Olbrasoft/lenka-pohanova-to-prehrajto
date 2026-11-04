@@ -227385,12 +227385,6 @@
     },
     "1680:6:9": {
       "episode_key": "viceprezident(ka):s6:e9",
-      "claim": {
-        "worker_id": "8dcb284fdf4c482680f7b3a1d842f18c-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:09:28.213706+00:00",
-        "lease_expires_at": "2026-11-04T13:09:28.213722+00:00"
-      },
       "source": {
         "source_id": "34753777",
         "source_url": "https://sdilej.cz/34753777/veep-s06e09-057-2017-fhd-zena-poprve-s-.mp4",
@@ -227415,15 +227409,22 @@
         "display_name": "Veep S06E09 A Woman First 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:09:32.599155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781285",
-        "size_bytes": 566027369
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781285",
+          "size_bytes": 566027369,
+          "source_bytes_read": 566027369,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34753777",
+        "source_url": "https://sdilej.cz/34753777/veep-s06e09-057-2017-fhd-zena-poprve-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781285",
-        "size_bytes": 566027369,
-        "source_bytes_read": 566027369,
-        "http_status": 201
+        "display_name": "Veep S06E09 A Woman First 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:10:59.988311+00:00"
       }
     },
     "1680:6:10": {
@@ -227476,5 +227477,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:10:58.018036+00:00"
+  "updated_at": "2026-11-04T07:10:59.988330+00:00"
 }
