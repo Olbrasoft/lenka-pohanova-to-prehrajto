@@ -222766,12 +222766,6 @@
     },
     "6:8:8": {
       "episode_key": "hvězdná brána:s8:e8",
-      "claim": {
-        "worker_id": "8567be674dc84ca081a32799476e61c4-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:48:14.895247+00:00",
-        "lease_expires_at": "2026-11-04T10:48:14.895264+00:00"
-      },
       "source": {
         "source_id": "29251697",
         "source_url": "https://sdilej.cz/29251697/hvezdna-brana-s08e08-umluva.mkv",
@@ -222796,15 +222790,22 @@
         "display_name": "Stargate SG-1 S08E08 Covenant 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:48:17.489814+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30779390",
-        "size_bytes": 1229957551
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30779390",
+          "size_bytes": 1229957551,
+          "source_bytes_read": 1229957551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251697",
+        "source_url": "https://sdilej.cz/29251697/hvezdna-brana-s08e08-umluva.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30779390",
-        "size_bytes": 1229957551,
-        "source_bytes_read": 1229957551,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S08E08 Covenant 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:49:48.354762+00:00"
       }
     },
     "6:8:9": {
@@ -222887,5 +222888,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:49:43.473973+00:00"
+  "updated_at": "2026-11-04T04:49:48.354782+00:00"
 }
