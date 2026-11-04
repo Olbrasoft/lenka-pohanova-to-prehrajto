@@ -245497,12 +245497,6 @@
     },
     "1287:1:7": {
       "episode_key": "babylon berlín:s1:e7",
-      "claim": {
-        "worker_id": "943659cb1ae74cb7b8fd20451c9f2b8f-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T15:30:18.163958+00:00",
-        "lease_expires_at": "2026-11-04T21:30:18.163973+00:00"
-      },
       "source": {
         "source_id": "34889039",
         "source_url": "https://sdilej.cz/34889039/babylon-berlin-s01e07-007-2017-hd-epizoda-7-sd-.mp4",
@@ -245527,15 +245521,22 @@
         "display_name": "Babylon Berlin S01E07 720p CZ Dabing",
         "prepared_at": "2026-11-04T15:30:21.366810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30788963",
-        "size_bytes": 953589496
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30788963",
+          "size_bytes": 953589496,
+          "source_bytes_read": 953589496,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34889039",
+        "source_url": "https://sdilej.cz/34889039/babylon-berlin-s01e07-007-2017-hd-epizoda-7-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30788963",
-        "size_bytes": 953589496,
-        "source_bytes_read": 953589496,
-        "http_status": 201
+        "display_name": "Babylon Berlin S01E07 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T15:31:52.111521+00:00"
       }
     }
   },
@@ -245544,5 +245545,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T15:31:46.593058+00:00"
+  "updated_at": "2026-11-04T15:31:52.111549+00:00"
 }
