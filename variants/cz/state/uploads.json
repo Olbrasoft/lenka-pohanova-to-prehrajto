@@ -219950,12 +219950,6 @@
     },
     "6:5:9": {
       "episode_key": "hvězdná brána:s5:e9",
-      "claim": {
-        "worker_id": "234418cbbc44455c891b07883f437f1c-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:54:53.635682+00:00",
-        "lease_expires_at": "2026-11-04T08:54:53.635699+00:00"
-      },
       "source": {
         "source_id": "33522367",
         "source_url": "https://sdilej.cz/33522367/hvezdna-brana-s05e09-mezi-dvema-ohni.mkv",
@@ -219980,15 +219974,22 @@
         "display_name": "Stargate SG-1 S05E09 Between Two Fires 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:54:58.476757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778058",
-        "size_bytes": 1933530049
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778058",
+          "size_bytes": 1933530049,
+          "source_bytes_read": 1933530049,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522367",
+        "source_url": "https://sdilej.cz/33522367/hvezdna-brana-s05e09-mezi-dvema-ohni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778058",
-        "size_bytes": 1933530049,
-        "source_bytes_read": 1933530049,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S05E09 Between Two Fires 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:58:12.976382+00:00"
       }
     },
     "6:5:10": {
@@ -220121,5 +220122,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:58:09.007618+00:00"
+  "updated_at": "2026-11-04T02:58:12.976401+00:00"
 }
