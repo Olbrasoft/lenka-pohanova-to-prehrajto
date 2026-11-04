@@ -230874,12 +230874,6 @@
     },
     "105:1:5": {
       "episode_key": "alfred hitchcock uvádí:s1:e5",
-      "claim": {
-        "worker_id": "48852415fa62428d8ea21ee37f627eb2-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:30:02.683300+00:00",
-        "lease_expires_at": "2026-11-04T14:30:02.683317+00:00"
-      },
       "source": {
         "source_id": "30434491",
         "source_url": "https://sdilej.cz/30434491/alfred-hitchcock-uvadi-s01e05-480p.mp4",
@@ -230904,15 +230898,22 @@
         "display_name": "Alfred Hitchcock Presents S01E05 Into Thin Air SD CZ Dabing",
         "prepared_at": "2026-11-04T08:30:11.134714+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782295",
-        "size_bytes": 100692426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782295",
+          "size_bytes": 100692426,
+          "source_bytes_read": 100692426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434491",
+        "source_url": "https://sdilej.cz/30434491/alfred-hitchcock-uvadi-s01e05-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782295",
-        "size_bytes": 100692426,
-        "source_bytes_read": 100692426,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E05 Into Thin Air SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:30:43.322890+00:00"
       }
     },
     "105:1:6": {
@@ -230965,5 +230966,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:30:41.278269+00:00"
+  "updated_at": "2026-11-04T08:30:43.322911+00:00"
 }
