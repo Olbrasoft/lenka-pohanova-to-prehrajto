@@ -227341,12 +227341,6 @@
     },
     "1680:6:8": {
       "episode_key": "viceprezident(ka):s6:e8",
-      "claim": {
-        "worker_id": "070ad6c57b4042a9a6da9a6382663a32-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:09:26.253444+00:00",
-        "lease_expires_at": "2026-11-04T13:09:26.253460+00:00"
-      },
       "source": {
         "source_id": "34753706",
         "source_url": "https://sdilej.cz/34753706/veep-s06e08-056-2017-fhd-soudce-s-.mp4",
@@ -227371,15 +227365,22 @@
         "display_name": "Veep S06E08 Judge 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:09:34.632025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781286",
-        "size_bytes": 564868508
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781286",
+          "size_bytes": 564868508,
+          "source_bytes_read": 564868508,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34753706",
+        "source_url": "https://sdilej.cz/34753706/veep-s06e08-056-2017-fhd-soudce-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781286",
-        "size_bytes": 564868508,
-        "source_bytes_read": 564868508,
-        "http_status": 201
+        "display_name": "Veep S06E08 Judge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T07:10:49.582871+00:00"
       }
     },
     "1680:6:9": {
@@ -227462,5 +227463,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:10:44.624216+00:00"
+  "updated_at": "2026-11-04T07:10:49.582892+00:00"
 }
