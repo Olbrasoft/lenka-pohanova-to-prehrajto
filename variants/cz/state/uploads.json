@@ -229328,12 +229328,6 @@
     },
     "2162:2:7": {
       "episode_key": "knick: doktoři bez hranic:s2:e7",
-      "claim": {
-        "worker_id": "49019345e74c481c82629f25e9314d37-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:58:33.357266+00:00",
-        "lease_expires_at": "2026-11-04T13:58:33.357282+00:00"
-      },
       "source": {
         "source_id": "24962067",
         "source_url": "https://sdilej.cz/24962067/the.knick.s02e07.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -229358,15 +229352,22 @@
         "display_name": "The Knick S02E07 Williams and Walker 1080p CZ Dabing",
         "prepared_at": "2026-11-04T07:58:35.803745+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781890",
-        "size_bytes": 1764108231
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781890",
+          "size_bytes": 1764108231,
+          "source_bytes_read": 1764108231,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24962067",
+        "source_url": "https://sdilej.cz/24962067/the.knick.s02e07.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781890",
-        "size_bytes": 1764108231,
-        "source_bytes_read": 1764108231,
-        "http_status": 201
+        "display_name": "The Knick S02E07 Williams and Walker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T08:01:22.090412+00:00"
       }
     },
     "2162:2:8": {
@@ -229412,5 +229413,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:01:19.964269+00:00"
+  "updated_at": "2026-11-04T08:01:22.090436+00:00"
 }
