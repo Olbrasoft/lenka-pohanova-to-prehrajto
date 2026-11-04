@@ -227920,12 +227920,6 @@
     },
     "1203:1:4": {
       "episode_key": "řekni, kdo tě zabil:s1:e4",
-      "claim": {
-        "worker_id": "fff9e527e1b14940a5fbfba6d2dac480-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:27:18.924029+00:00",
-        "lease_expires_at": "2026-11-04T13:27:18.924046+00:00"
-      },
       "source": {
         "source_id": "22420113",
         "source_url": "https://sdilej.cz/22420113/rekni-kdo-te-zabil-s01e04-holoubek-cz-dabing.avi",
@@ -227950,15 +227944,22 @@
         "display_name": "Pushing Daisies S01E04 Pigeon SD CZ Dabing",
         "prepared_at": "2026-11-04T07:27:22.936765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781508",
-        "size_bytes": 346208760
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781508",
+          "size_bytes": 346208760,
+          "source_bytes_read": 346208760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420113",
+        "source_url": "https://sdilej.cz/22420113/rekni-kdo-te-zabil-s01e04-holoubek-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781508",
-        "size_bytes": 346208760,
-        "source_bytes_read": 346208760,
-        "http_status": 201
+        "display_name": "Pushing Daisies S01E04 Pigeon SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:28:03.058954+00:00"
       }
     }
   },
@@ -227967,5 +227968,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:27:58.744437+00:00"
+  "updated_at": "2026-11-04T07:28:03.058975+00:00"
 }
