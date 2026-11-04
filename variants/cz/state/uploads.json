@@ -233508,12 +233508,6 @@
     },
     "560:2:2": {
       "episode_key": "jak jsem poznal vaši matku:s2:e2",
-      "claim": {
-        "worker_id": "62b922479e7147b283991c0881e39813-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:14:51.842605+00:00",
-        "lease_expires_at": "2026-11-04T15:14:51.842617+00:00"
-      },
       "source": {
         "source_id": "28211228",
         "source_url": "https://sdilej.cz/28211228/jak-jsem-poznal-vasi-matku-s02e02.mkv",
@@ -233538,15 +233532,22 @@
         "display_name": "How I Met Your Mother S02E02 The Scorpion and the Toad 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:14:55.514458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782958",
-        "size_bytes": 181141847
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782958",
+          "size_bytes": 181141847,
+          "source_bytes_read": 181141847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211228",
+        "source_url": "https://sdilej.cz/28211228/jak-jsem-poznal-vasi-matku-s02e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782958",
-        "size_bytes": 181141847,
-        "source_bytes_read": 181141847,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E02 The Scorpion and the Toad 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:15:25.936810+00:00"
       }
     },
     "560:2:3": {
@@ -233628,5 +233629,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:15:22.889842+00:00"
+  "updated_at": "2026-11-04T09:15:25.936830+00:00"
 }
