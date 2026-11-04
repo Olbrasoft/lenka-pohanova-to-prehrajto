@@ -236632,12 +236632,6 @@
     },
     "560:5:8": {
       "episode_key": "jak jsem poznal vaši matku:s5:e8",
-      "claim": {
-        "worker_id": "70d1c6453b174066b243caab981429e6-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:02:11.935781+00:00",
-        "lease_expires_at": "2026-11-04T18:02:11.935793+00:00"
-      },
       "source": {
         "source_id": "28211461",
         "source_url": "https://sdilej.cz/28211461/jak-jsem-poznal-vasi-matku-s05e08.mkv",
@@ -236662,15 +236656,22 @@
         "display_name": "How I Met Your Mother S05E08 The Playbook 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:02:19.899635+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785087",
-        "size_bytes": 175022906
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785087",
+          "size_bytes": 175022906,
+          "source_bytes_read": 175022906,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211461",
+        "source_url": "https://sdilej.cz/28211461/jak-jsem-poznal-vasi-matku-s05e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785087",
-        "size_bytes": 175022906,
-        "source_bytes_read": 175022906,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S05E08 The Playbook 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:02:54.457275+00:00"
       }
     },
     "560:5:7": {
@@ -236723,5 +236724,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:02:52.558292+00:00"
+  "updated_at": "2026-11-04T12:02:54.457293+00:00"
 }
