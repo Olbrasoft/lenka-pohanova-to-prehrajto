@@ -234563,12 +234563,6 @@
     },
     "560:3:4": {
       "episode_key": "jak jsem poznal vaši matku:s3:e4",
-      "claim": {
-        "worker_id": "894f05c00b2f4be09f2fb414a5ca1da1-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:33:36.463905+00:00",
-        "lease_expires_at": "2026-11-04T15:33:36.463933+00:00"
-      },
       "source": {
         "source_id": "28211305",
         "source_url": "https://sdilej.cz/28211305/jak-jsem-poznal-vasi-matku-s03e04.mkv",
@@ -234593,15 +234587,22 @@
         "display_name": "How I Met Your Mother S03E04 Little Boys 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:33:38.872726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30783190",
-        "size_bytes": 177006290
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30783190",
+          "size_bytes": 177006290,
+          "source_bytes_read": 177006290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211305",
+        "source_url": "https://sdilej.cz/28211305/jak-jsem-poznal-vasi-matku-s03e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30783190",
-        "size_bytes": 177006290,
-        "source_bytes_read": 177006290,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E04 Little Boys 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:34:20.009307+00:00"
       }
     }
   },
@@ -234610,5 +234611,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:34:18.124386+00:00"
+  "updated_at": "2026-11-04T09:34:20.009325+00:00"
 }
