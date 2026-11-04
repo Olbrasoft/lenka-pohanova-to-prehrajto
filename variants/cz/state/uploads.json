@@ -239360,12 +239360,6 @@
     },
     "560:7:22": {
       "episode_key": "jak jsem poznal vaši matku:s7:e22",
-      "claim": {
-        "worker_id": "de822cc7122045cc997fd67103971ee9-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T12:24:28.479350+00:00",
-        "lease_expires_at": "2026-11-04T18:24:28.479360+00:00"
-      },
       "source": {
         "source_id": "28211705",
         "source_url": "https://sdilej.cz/28211705/jak-jsem-poznal-vasi-matku-s07e22.mkv",
@@ -239390,15 +239384,22 @@
         "display_name": "How I Met Your Mother S07E22 Good Crazy 1080p CZ Dabing",
         "prepared_at": "2026-11-04T12:24:31.114225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30785426",
-        "size_bytes": 177035465
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30785426",
+          "size_bytes": 177035465,
+          "source_bytes_read": 177035465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211705",
+        "source_url": "https://sdilej.cz/28211705/jak-jsem-poznal-vasi-matku-s07e22.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30785426",
-        "size_bytes": 177035465,
-        "source_bytes_read": 177035465,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S07E22 Good Crazy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T12:25:03.426646+00:00"
       }
     }
   },
@@ -239407,5 +239408,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T12:24:57.975987+00:00"
+  "updated_at": "2026-11-04T12:25:03.426666+00:00"
 }
