@@ -246168,12 +246168,6 @@
     },
     "1287:3:8": {
       "episode_key": "babylon berlín:s3:e8",
-      "claim": {
-        "worker_id": "61c17118af054df3823dcc0be176d317-worker-0",
-        "run_id": "41857026570",
-        "claimed_at": "2026-11-04T16:17:31.600379+00:00",
-        "lease_expires_at": "2026-11-04T22:17:31.600397+00:00"
-      },
       "source": {
         "source_id": "34890693",
         "source_url": "https://sdilej.cz/34890693/babylon-berlin-s03e08-024-2020-hd-epizoda-8-sd-.mp4",
@@ -246198,15 +246192,22 @@
         "display_name": "Babylon Berlin S03E08 720p CZ Dabing",
         "prepared_at": "2026-11-04T16:17:36.316170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30789556",
-        "size_bytes": 1050669395
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30789556",
+          "size_bytes": 1050669395,
+          "source_bytes_read": 1050669395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34890693",
+        "source_url": "https://sdilej.cz/34890693/babylon-berlin-s03e08-024-2020-hd-epizoda-8-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30789556",
-        "size_bytes": 1050669395,
-        "source_bytes_read": 1050669395,
-        "http_status": 201
+        "display_name": "Babylon Berlin S03E08 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T16:19:44.233347+00:00"
       }
     }
   },
@@ -246215,5 +246216,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T16:19:41.949553+00:00"
+  "updated_at": "2026-11-04T16:19:44.233367+00:00"
 }
