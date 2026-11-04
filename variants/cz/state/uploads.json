@@ -231094,12 +231094,6 @@
     },
     "105:1:11": {
       "episode_key": "alfred hitchcock uvádí:s1:e11",
-      "claim": {
-        "worker_id": "0417c66477e84e499bcec3b5a0dfeb1e-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:31:49.032637+00:00",
-        "lease_expires_at": "2026-11-04T14:31:49.032652+00:00"
-      },
       "source": {
         "source_id": "30434504",
         "source_url": "https://sdilej.cz/30434504/alfred-hitchcock-uvadi-s01e11-480p.mp4",
@@ -231124,15 +231118,22 @@
         "display_name": "Alfred Hitchcock Presents S01E11 Guilty Witness SD CZ Dabing",
         "prepared_at": "2026-11-04T08:31:57.018489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782317",
-        "size_bytes": 95256194
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782317",
+          "size_bytes": 95256194,
+          "source_bytes_read": 95256194,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434504",
+        "source_url": "https://sdilej.cz/30434504/alfred-hitchcock-uvadi-s01e11-480p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782317",
-        "size_bytes": 95256194,
-        "source_bytes_read": 95256194,
-        "http_status": 201
+        "display_name": "Alfred Hitchcock Presents S01E11 Guilty Witness SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:32:24.511433+00:00"
       }
     }
   },
@@ -231141,5 +231142,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:32:22.458941+00:00"
+  "updated_at": "2026-11-04T08:32:24.511454+00:00"
 }
