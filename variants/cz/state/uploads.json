@@ -232225,12 +232225,6 @@
     },
     "1309:1:8": {
       "episode_key": "pc rebelové:s1:e8",
-      "claim": {
-        "worker_id": "86336ff6764c43aa9f21fb01c56d91e4-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:59:23.057435+00:00",
-        "lease_expires_at": "2026-11-04T14:59:23.057450+00:00"
-      },
       "source": {
         "source_id": "10602310",
         "source_url": "https://sdilej.cz/10602310/pc-rebelove-s01e08-cz-dabing-halt-and-catch-fire.avi",
@@ -232255,15 +232249,22 @@
         "display_name": "Halt and Catch Fire S01E08 The 214s 720p CZ Dabing",
         "prepared_at": "2026-11-04T08:59:28.325825+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782750",
-        "size_bytes": 660438418
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782750",
+          "size_bytes": 660438418,
+          "source_bytes_read": 660438418,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10602310",
+        "source_url": "https://sdilej.cz/10602310/pc-rebelove-s01e08-cz-dabing-halt-and-catch-fire.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782750",
-        "size_bytes": 660438418,
-        "source_bytes_read": 660438418,
-        "http_status": 201
+        "display_name": "Halt and Catch Fire S01E08 The 214s 720p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:00:41.025978+00:00"
       }
     },
     "1309:1:9": {
@@ -232353,5 +232354,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:00:36.240587+00:00"
+  "updated_at": "2026-11-04T09:00:41.026000+00:00"
 }
