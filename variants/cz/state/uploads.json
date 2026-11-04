@@ -232672,12 +232672,6 @@
     },
     "560:1:5": {
       "episode_key": "jak jsem poznal vaši matku:s1:e5",
-      "claim": {
-        "worker_id": "97213d79646547f186fda289fba2646e-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T09:04:29.233503+00:00",
-        "lease_expires_at": "2026-11-04T15:04:29.233516+00:00"
-      },
       "source": {
         "source_id": "28211090",
         "source_url": "https://sdilej.cz/28211090/jak-jsem-poznal-vasi-matku-s01e05.mkv",
@@ -232702,15 +232696,22 @@
         "display_name": "How I Met Your Mother S01E05 Okay Awesome 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:04:34.333516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782819",
-        "size_bytes": 180246007
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782819",
+          "size_bytes": 180246007,
+          "source_bytes_read": 180246007,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211090",
+        "source_url": "https://sdilej.cz/28211090/jak-jsem-poznal-vasi-matku-s01e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782819",
-        "size_bytes": 180246007,
-        "source_bytes_read": 180246007,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S01E05 Okay Awesome 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:05:11.294806+00:00"
       }
     },
     "560:1:6": {
@@ -232762,5 +232763,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:05:08.253235+00:00"
+  "updated_at": "2026-11-04T09:05:11.294840+00:00"
 }
