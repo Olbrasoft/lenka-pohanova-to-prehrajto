@@ -227788,12 +227788,6 @@
     },
     "1203:1:1": {
       "episode_key": "řekni, kdo tě zabil:s1:e1",
-      "claim": {
-        "worker_id": "eb0802d9c8594cc8bf5fbfa4bf59121b-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T07:26:18.239822+00:00",
-        "lease_expires_at": "2026-11-04T13:26:18.239839+00:00"
-      },
       "source": {
         "source_id": "22420095",
         "source_url": "https://sdilej.cz/22420095/rekni-kdo-te-zabil-s01e01-k-nakousnuti-cz-dabing.avi",
@@ -227818,15 +227812,22 @@
         "display_name": "Pushing Daisies S01E01 Pie-lette SD CZ Dabing",
         "prepared_at": "2026-11-04T07:26:23.040208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781494",
-        "size_bytes": 344992958
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781494",
+          "size_bytes": 344992958,
+          "source_bytes_read": 344992958,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22420095",
+        "source_url": "https://sdilej.cz/22420095/rekni-kdo-te-zabil-s01e01-k-nakousnuti-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781494",
-        "size_bytes": 344992958,
-        "source_bytes_read": 344992958,
-        "http_status": 201
+        "display_name": "Pushing Daisies S01E01 Pie-lette SD CZ Dabing",
+        "uploaded_at": "2026-11-04T07:27:01.076702+00:00"
       }
     },
     "1203:1:2": {
@@ -227878,5 +227879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T07:26:57.960485+00:00"
+  "updated_at": "2026-11-04T07:27:01.076724+00:00"
 }
