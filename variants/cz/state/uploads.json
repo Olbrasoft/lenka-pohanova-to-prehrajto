@@ -242219,12 +242219,6 @@
     },
     "1082:1:15": {
       "episode_key": "útěk z vězení:s1:e15",
-      "claim": {
-        "worker_id": "e309b43431174f42afab2231ab4c40ad-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:53:25.891415+00:00",
-        "lease_expires_at": "2026-11-04T19:53:25.891427+00:00"
-      },
       "source": {
         "source_id": "14061428",
         "source_url": "https://sdilej.cz/14061428/utek-z-vezeni-prison.break.s01e15.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
@@ -242249,15 +242243,22 @@
         "display_name": "Prison Break S01E15 By the Skin and the Teeth 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:53:34.576473+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787122",
-        "size_bytes": 530357719
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787122",
+          "size_bytes": 530357719,
+          "source_bytes_read": 530357719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14061428",
+        "source_url": "https://sdilej.cz/14061428/utek-z-vezeni-prison.break.s01e15.1080p.10bit.bluray.ac3.x265.hevc-mrn-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787122",
-        "size_bytes": 530357719,
-        "source_bytes_read": 530357719,
-        "http_status": 201
+        "display_name": "Prison Break S01E15 By the Skin and the Teeth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:55:47.538265+00:00"
       }
     },
     "1082:1:16": {
@@ -242347,5 +242348,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:55:43.614214+00:00"
+  "updated_at": "2026-11-04T13:55:47.538279+00:00"
 }
