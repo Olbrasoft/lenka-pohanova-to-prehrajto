@@ -242077,12 +242077,6 @@
     },
     "1082:1:12": {
       "episode_key": "útěk z vězení:s1:e12",
-      "claim": {
-        "worker_id": "0564422c311745f7bdb541fcad2f908d-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T13:23:47.829695+00:00",
-        "lease_expires_at": "2026-11-04T19:23:47.829707+00:00"
-      },
       "source": {
         "source_id": "33250494",
         "source_url": "https://sdilej.cz/33250494/utek-z-vezeni-s01e12-22-2005-cz-dab-1080p-jeden-z-kola-ven.mkv",
@@ -242107,15 +242101,22 @@
         "display_name": "Prison Break S01E12 Odd Man Out 1080p CZ Dabing",
         "prepared_at": "2026-11-04T13:23:50.690794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30786545",
-        "size_bytes": 793411377
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30786545",
+          "size_bytes": 793411377,
+          "source_bytes_read": 793411377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250494",
+        "source_url": "https://sdilej.cz/33250494/utek-z-vezeni-s01e12-22-2005-cz-dab-1080p-jeden-z-kola-ven.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30786545",
-        "size_bytes": 793411377,
-        "source_bytes_read": 793411377,
-        "http_status": 201
+        "display_name": "Prison Break S01E12 Odd Man Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T13:27:07.324381+00:00"
       }
     },
     "1082:1:13": {
@@ -242212,5 +242213,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T13:27:02.697986+00:00"
+  "updated_at": "2026-11-04T13:27:07.324394+00:00"
 }
