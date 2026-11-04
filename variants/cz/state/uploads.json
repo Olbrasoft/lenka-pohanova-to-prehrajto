@@ -253852,12 +253852,6 @@
     },
     "1519:2:6": {
       "episode_key": "vláda:s2:e6",
-      "claim": {
-        "worker_id": "28abd7cc0d7c4868bb2f3c850051b463-worker-0",
-        "run_id": "41896226281",
-        "claimed_at": "2026-11-04T20:42:11.771931+00:00",
-        "lease_expires_at": "2026-11-05T02:42:11.771941+00:00"
-      },
       "source": {
         "source_id": "33614305",
         "source_url": "https://sdilej.cz/33614305/vlada-borgen-s02e06-czdab.mp4",
@@ -253881,7 +253875,13 @@
         },
         "display_name": "Borgen S02E06 Dem & os SD CZ Dabing",
         "prepared_at": "2026-11-04T20:42:16.474246+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-04T20:42:29.163551+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1519:2:7": {
       "episode_key": "vláda:s2:e7",
@@ -253922,5 +253922,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T20:42:25.009800+00:00"
+  "updated_at": "2026-11-04T20:42:29.163577+00:00"
 }
