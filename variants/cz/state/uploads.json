@@ -219378,12 +219378,6 @@
     },
     "6:4:18": {
       "episode_key": "hvězdná brána:s4:e18",
-      "claim": {
-        "worker_id": "32c27740c8c84b9d9570414a7a2547ab-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T02:42:18.117796+00:00",
-        "lease_expires_at": "2026-11-04T08:42:18.117813+00:00"
-      },
       "source": {
         "source_id": "28461430",
         "source_url": "https://sdilej.cz/28461430/stargate.sg-1.-2000-.s04e18.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -219408,15 +219402,22 @@
         "display_name": "Stargate SG-1 S04E18 The Light 1080p CZ Dabing",
         "prepared_at": "2026-11-04T02:42:20.722021+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30777861",
-        "size_bytes": 1367507704
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30777861",
+          "size_bytes": 1367507704,
+          "source_bytes_read": 1367507704,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28461430",
+        "source_url": "https://sdilej.cz/28461430/stargate.sg-1.-2000-.s04e18.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30777861",
-        "size_bytes": 1367507704,
-        "source_bytes_read": 1367507704,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S04E18 The Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T02:44:59.048388+00:00"
       }
     },
     "6:4:19": {
@@ -219469,5 +219470,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T02:44:54.404751+00:00"
+  "updated_at": "2026-11-04T02:44:59.048406+00:00"
 }
