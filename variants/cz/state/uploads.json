@@ -243027,12 +243027,6 @@
     },
     "1082:2:12": {
       "episode_key": "útěk z vězení:s2:e12",
-      "claim": {
-        "worker_id": "a22410b4f2ba4363905d87c7ad77dcea-worker-0",
-        "run_id": "41829359283",
-        "claimed_at": "2026-11-04T14:09:44.359755+00:00",
-        "lease_expires_at": "2026-11-04T20:09:44.359767+00:00"
-      },
       "source": {
         "source_id": "33250567",
         "source_url": "https://sdilej.cz/33250567/utek-z-vezeni-s02e12-22-2006-cz-dab-1080p-spojeni-prerusit.mkv",
@@ -243057,15 +243051,22 @@
         "display_name": "Prison Break S02E12 Disconnect 1080p CZ Dabing",
         "prepared_at": "2026-11-04T14:09:47.225446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30787384",
-        "size_bytes": 532139299
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30787384",
+          "size_bytes": 532139299,
+          "source_bytes_read": 532139299,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33250567",
+        "source_url": "https://sdilej.cz/33250567/utek-z-vezeni-s02e12-22-2006-cz-dab-1080p-spojeni-prerusit.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30787384",
-        "size_bytes": 532139299,
-        "source_bytes_read": 532139299,
-        "http_status": 201
+        "display_name": "Prison Break S02E12 Disconnect 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T14:12:48.080562+00:00"
       }
     },
     "1082:2:13": {
@@ -243148,5 +243149,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T14:12:44.411118+00:00"
+  "updated_at": "2026-11-04T14:12:48.080579+00:00"
 }
