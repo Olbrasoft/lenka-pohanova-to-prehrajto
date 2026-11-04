@@ -233684,12 +233684,6 @@
     },
     "560:2:6": {
       "episode_key": "jak jsem poznal vaši matku:s2:e6",
-      "claim": {
-        "worker_id": "b1167302de8a41a5b9ea5480501c6a56-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:16:01.918896+00:00",
-        "lease_expires_at": "2026-11-04T15:16:01.918906+00:00"
-      },
       "source": {
         "source_id": "28211236",
         "source_url": "https://sdilej.cz/28211236/jak-jsem-poznal-vasi-matku-s02e06.mkv",
@@ -233714,15 +233708,22 @@
         "display_name": "How I Met Your Mother S02E06 Aldrin Justice 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:16:13.171950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782985",
-        "size_bytes": 180718322
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782985",
+          "size_bytes": 180718322,
+          "source_bytes_read": 180718322,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211236",
+        "source_url": "https://sdilej.cz/28211236/jak-jsem-poznal-vasi-matku-s02e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782985",
-        "size_bytes": 180718322,
-        "source_bytes_read": 180718322,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E06 Aldrin Justice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:16:46.124365+00:00"
       }
     },
     "560:2:7": {
@@ -233812,5 +233813,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:16:43.011414+00:00"
+  "updated_at": "2026-11-04T09:16:46.124380+00:00"
 }
