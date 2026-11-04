@@ -234520,12 +234520,6 @@
     },
     "560:3:3": {
       "episode_key": "jak jsem poznal vaši matku:s3:e3",
-      "claim": {
-        "worker_id": "9552fa61fb1f438ab977c87fdc506b44-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:33:24.963252+00:00",
-        "lease_expires_at": "2026-11-04T15:33:24.963261+00:00"
-      },
       "source": {
         "source_id": "28211301",
         "source_url": "https://sdilej.cz/28211301/jak-jsem-poznal-vasi-matku-s03e03.mkv",
@@ -234550,15 +234544,22 @@
         "display_name": "How I Met Your Mother S03E03 Third Wheel 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:33:30.340778+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30783187",
-        "size_bytes": 178014090
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30783187",
+          "size_bytes": 178014090,
+          "source_bytes_read": 178014090,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211301",
+        "source_url": "https://sdilej.cz/28211301/jak-jsem-poznal-vasi-matku-s03e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30783187",
-        "size_bytes": 178014090,
-        "source_bytes_read": 178014090,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S03E03 Third Wheel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:34:21.834800+00:00"
       }
     },
     "560:3:4": {
@@ -234611,5 +234612,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:34:20.009325+00:00"
+  "updated_at": "2026-11-04T09:34:21.834817+00:00"
 }
