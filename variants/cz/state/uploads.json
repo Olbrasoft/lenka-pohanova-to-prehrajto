@@ -222238,12 +222238,6 @@
     },
     "6:7:18": {
       "episode_key": "hvězdná brána:s7:e18",
-      "claim": {
-        "worker_id": "6e3c8d35784a40bfaa24e82419f4e2ff-worker-0",
-        "run_id": "41753496688",
-        "claimed_at": "2026-11-04T04:16:18.246533+00:00",
-        "lease_expires_at": "2026-11-04T10:16:18.246551+00:00"
-      },
       "source": {
         "source_id": "17409178",
         "source_url": "https://sdilej.cz/17409178/stargate.sg-1.-2003-.s07e18.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -222268,15 +222262,22 @@
         "display_name": "Stargate SG-1 S07E18 Heroes (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-04T04:16:24.499599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30778957",
-        "size_bytes": 1382997356
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30778957",
+          "size_bytes": 1382997356,
+          "source_bytes_read": 1382997356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17409178",
+        "source_url": "https://sdilej.cz/17409178/stargate.sg-1.-2003-.s07e18.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30778957",
-        "size_bytes": 1382997356,
-        "source_bytes_read": 1382997356,
-        "http_status": 201
+        "display_name": "Stargate SG-1 S07E18 Heroes (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T04:18:43.136108+00:00"
       }
     },
     "6:7:19": {
@@ -222359,5 +222360,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T04:18:37.468259+00:00"
+  "updated_at": "2026-11-04T04:18:43.136129+00:00"
 }
