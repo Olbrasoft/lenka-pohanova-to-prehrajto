@@ -233816,12 +233816,6 @@
     },
     "560:2:9": {
       "episode_key": "jak jsem poznal vaši matku:s2:e9",
-      "claim": {
-        "worker_id": "2cd44d00f5964f0dbdb81d4cebca9fe6-worker-0",
-        "run_id": "41799369301",
-        "claimed_at": "2026-11-04T09:16:55.578217+00:00",
-        "lease_expires_at": "2026-11-04T15:16:55.578229+00:00"
-      },
       "source": {
         "source_id": "28211246",
         "source_url": "https://sdilej.cz/28211246/jak-jsem-poznal-vasi-matku-s02e09.mkv",
@@ -233846,15 +233840,22 @@
         "display_name": "How I Met Your Mother S02E09 Slap Bet 1080p CZ Dabing",
         "prepared_at": "2026-11-04T09:16:59.948304+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30782993",
-        "size_bytes": 181150113
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30782993",
+          "size_bytes": 181150113,
+          "source_bytes_read": 181150113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28211246",
+        "source_url": "https://sdilej.cz/28211246/jak-jsem-poznal-vasi-matku-s02e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30782993",
-        "size_bytes": 181150113,
-        "source_bytes_read": 181150113,
-        "http_status": 201
+        "display_name": "How I Met Your Mother S02E09 Slap Bet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-04T09:17:35.305175+00:00"
       }
     },
     "560:2:10": {
@@ -233937,5 +233938,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T09:17:32.090331+00:00"
+  "updated_at": "2026-11-04T09:17:35.305195+00:00"
 }
