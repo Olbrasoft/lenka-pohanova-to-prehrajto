@@ -229548,12 +229548,6 @@
     },
     "2658:1:5": {
       "episode_key": "gumballův úžasný svět:s1:e5",
-      "claim": {
-        "worker_id": "08b8acbcb6cb4cc5bc5db772a62a4f13-worker-0",
-        "run_id": "41778857675",
-        "claimed_at": "2026-11-04T08:07:12.181051+00:00",
-        "lease_expires_at": "2026-11-04T14:07:12.181066+00:00"
-      },
       "source": {
         "source_id": "11942525",
         "source_url": "https://sdilej.cz/11942525/gumballuv-uzasny-svet-s01e05-konec.mp4",
@@ -229578,15 +229572,22 @@
         "display_name": "The Amazing World of Gumball S01E05 The End SD CZ Dabing",
         "prepared_at": "2026-11-04T08:07:18.326184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30781988",
-        "size_bytes": 86293562
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30781988",
+          "size_bytes": 86293562,
+          "source_bytes_read": 86293562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11942525",
+        "source_url": "https://sdilej.cz/11942525/gumballuv-uzasny-svet-s01e05-konec.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30781988",
-        "size_bytes": 86293562,
-        "source_bytes_read": 86293562,
-        "http_status": 201
+        "display_name": "The Amazing World of Gumball S01E05 The End SD CZ Dabing",
+        "uploaded_at": "2026-11-04T08:07:45.365751+00:00"
       }
     },
     "2658:1:10": {
@@ -229632,5 +229633,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-04T08:07:42.233048+00:00"
+  "updated_at": "2026-11-04T08:07:45.365771+00:00"
 }
