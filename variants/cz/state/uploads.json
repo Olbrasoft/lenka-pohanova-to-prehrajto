@@ -260018,12 +260018,6 @@
     },
     "1087:2:16": {
       "episode_key": "buffy, přemožitelka upírů:s2:e16",
-      "claim": {
-        "worker_id": "65056f0c8cb94b5da51ccf7ed9ed1d6a-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:31:54.664060+00:00",
-        "lease_expires_at": "2026-11-05T15:31:54.664075+00:00"
-      },
       "source": {
         "source_id": "32392350",
         "source_url": "https://sdilej.cz/32392350/buffy-premozitelka-upiru-s02e16-ocarovani-usouzeni-a-pomateni.mkv",
@@ -260048,15 +260042,22 @@
         "display_name": "Buffy the Vampire Slayer S02E16 Bewitched, Bothered and Bewildered 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:32:00.118454+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812833",
-        "size_bytes": 959796222
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812833",
+          "size_bytes": 959796222,
+          "source_bytes_read": 959796222,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392350",
+        "source_url": "https://sdilej.cz/32392350/buffy-premozitelka-upiru-s02e16-ocarovani-usouzeni-a-pomateni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812833",
-        "size_bytes": 959796222,
-        "source_bytes_read": 959796222,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E16 Bewitched, Bothered and Bewildered 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:34:47.999794+00:00"
       }
     },
     "1087:2:17": {
@@ -260179,5 +260180,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:34:45.577958+00:00"
+  "updated_at": "2026-11-05T09:34:47.999809+00:00"
 }
