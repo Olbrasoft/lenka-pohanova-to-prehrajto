@@ -264706,12 +264706,6 @@
     },
     "1087:7:17": {
       "episode_key": "buffy, přemožitelka upírů:s7:e17",
-      "claim": {
-        "worker_id": "2ee27882b19d435c86d3677a57182730-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:21:41.833181+00:00",
-        "lease_expires_at": "2026-11-05T19:21:41.833194+00:00"
-      },
       "source": {
         "source_id": "32418902",
         "source_url": "https://sdilej.cz/32418902/buffy-premozitelka-upiru-s07e17-lzi-mych-rodicu.mkv",
@@ -264736,15 +264730,22 @@
         "display_name": "Buffy the Vampire Slayer S07E17 Lies My Parents Told Me 1080p CZ Dabing",
         "prepared_at": "2026-11-05T13:21:44.948140+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818802",
-        "size_bytes": 908750712
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818802",
+          "size_bytes": 908750712,
+          "source_bytes_read": 908750712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32418902",
+        "source_url": "https://sdilej.cz/32418902/buffy-premozitelka-upiru-s07e17-lzi-mych-rodicu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818802",
-        "size_bytes": 908750712,
-        "source_bytes_read": 908750712,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E17 Lies My Parents Told Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:24:48.997860+00:00"
       }
     },
     "1087:7:18": {
@@ -264790,5 +264791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:24:46.433559+00:00"
+  "updated_at": "2026-11-05T13:24:48.997884+00:00"
 }
