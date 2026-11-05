@@ -264189,12 +264189,6 @@
     },
     "1087:7:5": {
       "episode_key": "buffy, přemožitelka upírů:s7:e5",
-      "claim": {
-        "worker_id": "04a9bb34708b44c4a8cc823c02335356-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:06:31.187516+00:00",
-        "lease_expires_at": "2026-11-05T19:06:31.187531+00:00"
-      },
       "source": {
         "source_id": "29501452",
         "source_url": "https://sdilej.cz/29501452/buffy-premozitelka-upiru-s07e05-obetavost-cz-dabing-akcni-fantasy-horor-angel-.mp4",
@@ -264219,15 +264213,22 @@
         "display_name": "Buffy the Vampire Slayer S07E05 Selfless 720p CZ Dabing",
         "prepared_at": "2026-11-05T13:06:34.110063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818483",
-        "size_bytes": 545382274
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818483",
+          "size_bytes": 545382274,
+          "source_bytes_read": 545382274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29501452",
+        "source_url": "https://sdilej.cz/29501452/buffy-premozitelka-upiru-s07e05-obetavost-cz-dabing-akcni-fantasy-horor-angel-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818483",
-        "size_bytes": 545382274,
-        "source_bytes_read": 545382274,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E05 Selfless 720p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:10:07.594246+00:00"
       }
     },
     "1087:7:6": {
@@ -264269,5 +264270,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:10:04.224322+00:00"
+  "updated_at": "2026-11-05T13:10:07.594268+00:00"
 }
