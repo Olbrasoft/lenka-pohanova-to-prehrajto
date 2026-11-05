@@ -253033,21 +253033,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "3a6b3ef5371f4017a4ba8b1c8927a930-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-05T01:04:18.000908+00:00",
-        "lease_expires_at": "2026-11-05T07:04:18.000917+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30798743",
+          "size_bytes": 608287032,
+          "source_bytes_read": 608287032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34253783",
+        "source_url": "https://sdilej.cz/34253783/pribeh-sluzebnice-s03e02-marie-a-marta.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30798743",
-        "size_bytes": 608287032
-      },
-      "transfer_receipt": {
-        "target_video_id": "30798743",
-        "size_bytes": 608287032,
-        "source_bytes_read": 608287032,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S03E02 Mary and Martha 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T01:07:06.074051+00:00"
       }
     },
     "843:3:3": {
@@ -255291,5 +255292,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T01:06:59.930875+00:00"
+  "updated_at": "2026-11-05T01:07:06.074067+00:00"
 }
