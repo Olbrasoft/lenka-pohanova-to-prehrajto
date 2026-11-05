@@ -270484,12 +270484,6 @@
     },
     "1110:9:5": {
       "episode_key": "haló, haló!:s9:e5",
-      "claim": {
-        "worker_id": "99183f32d95b45a8a5bee185adaca319-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T21:49:03.259197+00:00",
-        "lease_expires_at": "2026-11-06T03:49:03.259213+00:00"
-      },
       "source": {
         "source_id": "29431012",
         "source_url": "https://sdilej.cz/29431012/halo-halo-s09e05-golfovy-klub.mkv",
@@ -270514,15 +270508,22 @@
         "display_name": "'Allo 'Allo! S09E05 A Fishy Send-Off 1080p CZ Dabing",
         "prepared_at": "2026-11-05T21:49:09.780393+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30833433",
-        "size_bytes": 671264991
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30833433",
+          "size_bytes": 671264991,
+          "source_bytes_read": 671264991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29431012",
+        "source_url": "https://sdilej.cz/29431012/halo-halo-s09e05-golfovy-klub.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30833433",
-        "size_bytes": 671264991,
-        "source_bytes_read": 671264991,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S09E05 A Fishy Send-Off 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T21:53:35.729730+00:00"
       }
     },
     "1110:9:6": {
@@ -270612,5 +270613,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T21:53:30.178619+00:00"
+  "updated_at": "2026-11-05T21:53:35.729748+00:00"
 }
