@@ -268799,12 +268799,6 @@
     },
     "1110:5:18": {
       "episode_key": "haló, haló!:s5:e18",
-      "claim": {
-        "worker_id": "09884dd4831448b79372e1fb93bc136f-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T20:14:17.310177+00:00",
-        "lease_expires_at": "2026-11-06T02:14:17.310188+00:00"
-      },
       "source": {
         "source_id": "29430982",
         "source_url": "https://sdilej.cz/29430982/halo-halo-s05e18-penize-z-nebe.mkv",
@@ -268829,15 +268823,22 @@
         "display_name": "'Allo 'Allo! S05E18 Money to Burn 1080p CZ Dabing",
         "prepared_at": "2026-11-05T20:14:22.300662+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30830268",
-        "size_bytes": 575936603
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30830268",
+          "size_bytes": 575936603,
+          "source_bytes_read": 575936603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29430982",
+        "source_url": "https://sdilej.cz/29430982/halo-halo-s05e18-penize-z-nebe.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30830268",
-        "size_bytes": 575936603,
-        "source_bytes_read": 575936603,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S05E18 Money to Burn 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T20:18:27.973802+00:00"
       }
     }
   },
@@ -268846,5 +268847,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T20:18:25.426527+00:00"
+  "updated_at": "2026-11-05T20:18:27.973817+00:00"
 }
