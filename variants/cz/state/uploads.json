@@ -269994,12 +269994,6 @@
     },
     "1110:8:1": {
       "episode_key": "haló, haló!:s8:e1",
-      "claim": {
-        "worker_id": "5a527df6d7e44a75aff1f491b02eecab-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T21:21:25.155445+00:00",
-        "lease_expires_at": "2026-11-06T03:21:25.155456+00:00"
-      },
       "source": {
         "source_id": "25625102",
         "source_url": "https://sdilej.cz/25625102/halo-halo-s08e01-73-1991-full-hd-radio-sd-.mp4",
@@ -270024,15 +270018,22 @@
         "display_name": "'Allo 'Allo! S08E01 Arousing Suspicions 1080p CZ Dabing",
         "prepared_at": "2026-11-05T21:21:27.892622+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30832725",
-        "size_bytes": 605243712
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30832725",
+          "size_bytes": 605243712,
+          "source_bytes_read": 605243712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25625102",
+        "source_url": "https://sdilej.cz/25625102/halo-halo-s08e01-73-1991-full-hd-radio-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30832725",
-        "size_bytes": 605243712,
-        "source_bytes_read": 605243712,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S08E01 Arousing Suspicions 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T21:25:38.571544+00:00"
       }
     },
     "1110:8:2": {
@@ -270085,5 +270086,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T21:25:34.392759+00:00"
+  "updated_at": "2026-11-05T21:25:38.571566+00:00"
 }
