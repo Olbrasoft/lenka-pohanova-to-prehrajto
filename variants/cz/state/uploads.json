@@ -253910,21 +253910,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "c1b58f25ee134d8f9097ddc75c4d21fd-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-05T02:41:06.481629+00:00",
-        "lease_expires_at": "2026-11-05T08:41:06.481638+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30801207",
+          "size_bytes": 1581239010,
+          "source_bytes_read": 1581239010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30954999",
+        "source_url": "https://sdilej.cz/30954999/pribeh-sluzebnice-s04e04-2021-1080p-h265-cz.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30801207",
-        "size_bytes": 1581239010
-      },
-      "transfer_receipt": {
-        "target_video_id": "30801207",
-        "size_bytes": 1581239010,
-        "source_bytes_read": 1581239010,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S04E04 Milk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T02:48:36.345250+00:00"
       }
     },
     "843:4:5": {
@@ -255580,5 +255581,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T02:48:31.661406+00:00"
+  "updated_at": "2026-11-05T02:48:36.345263+00:00"
 }
