@@ -256102,21 +256102,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "c8d3fdeb4cd9476b85f8b70cbe703677-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:08:57.334810+00:00",
-        "lease_expires_at": "2026-11-05T11:08:57.334820+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30804855",
+          "size_bytes": 394370423,
+          "source_bytes_read": 394370423,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33614305",
+        "source_url": "https://sdilej.cz/33614305/vlada-borgen-s02e06-czdab.mp4",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30804855",
-        "size_bytes": 394370423
-      },
-      "transfer_receipt": {
-        "target_video_id": "30804855",
-        "size_bytes": 394370423,
-        "source_bytes_read": 394370423,
-        "http_status": 201
+        "display_name": "Borgen S02E06 Dem & os SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:09:46.251616+00:00"
       }
     },
     "1519:2:7": {
@@ -256277,5 +256278,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:09:43.527106+00:00"
+  "updated_at": "2026-11-05T05:09:46.251630+00:00"
 }
