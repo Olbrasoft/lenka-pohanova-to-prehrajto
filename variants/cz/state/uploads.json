@@ -254752,21 +254752,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "73d6263687e8479fb84d4ede68c50ed6-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T03:53:45.586724+00:00",
-        "lease_expires_at": "2026-11-05T09:53:45.586735+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30802942",
+          "size_bytes": 1723744822,
+          "source_bytes_read": 1723744822,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203294",
+        "source_url": "https://sdilej.cz/33203294/pribeh-sluzebnice-s05e10-10-2022-cz-dab-1080p-trezor.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30802942",
-        "size_bytes": 1723744822
-      },
-      "transfer_receipt": {
-        "target_video_id": "30802942",
-        "size_bytes": 1723744822,
-        "source_bytes_read": 1723744822,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S05E10 Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T04:03:31.879154+00:00"
       }
     },
     "843:5:9": {
@@ -255832,5 +255833,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T04:03:26.785454+00:00"
+  "updated_at": "2026-11-05T04:03:31.879165+00:00"
 }
