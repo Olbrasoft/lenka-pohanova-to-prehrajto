@@ -261910,12 +261910,6 @@
     },
     "1087:4:18": {
       "episode_key": "buffy, přemožitelka upírů:s4:e18",
-      "claim": {
-        "worker_id": "7741279e511a4f04a20f89a14ee54d92-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:14:06.053919+00:00",
-        "lease_expires_at": "2026-11-05T17:14:06.053935+00:00"
-      },
       "source": {
         "source_id": "32400229",
         "source_url": "https://sdilej.cz/32400229/buffy-premozitelka-upiru-s04e18-tam-kde-ziji-divociny.mkv",
@@ -261940,15 +261934,22 @@
         "display_name": "Buffy the Vampire Slayer S04E18 Where the Wild Things Are 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:14:13.339506+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815635",
-        "size_bytes": 945841426
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815635",
+          "size_bytes": 945841426,
+          "source_bytes_read": 945841426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32400229",
+        "source_url": "https://sdilej.cz/32400229/buffy-premozitelka-upiru-s04e18-tam-kde-ziji-divociny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815635",
-        "size_bytes": 945841426,
-        "source_bytes_read": 945841426,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E18 Where the Wild Things Are 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:17:21.580212+00:00"
       }
     },
     "1087:4:20": {
@@ -262001,5 +262002,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:17:16.936485+00:00"
+  "updated_at": "2026-11-05T11:17:21.580229+00:00"
 }
