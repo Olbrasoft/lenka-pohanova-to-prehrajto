@@ -262680,12 +262680,6 @@
     },
     "1087:5:15": {
       "episode_key": "buffy, přemožitelka upírů:s5:e15",
-      "claim": {
-        "worker_id": "f02ed491481e485cbe32bda6c7b586bc-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:00:32.602849+00:00",
-        "lease_expires_at": "2026-11-05T18:00:32.602864+00:00"
-      },
       "source": {
         "source_id": "32402031",
         "source_url": "https://sdilej.cz/32402031/buffy-premozitelka-upiru-s05e15-byla-jsem-stvorena-abych-te-milovala.mkv",
@@ -262710,15 +262704,22 @@
         "display_name": "Buffy the Vampire Slayer S05E15 I Was Made to Love You 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:00:37.407189+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30816919",
-        "size_bytes": 941006295
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30816919",
+          "size_bytes": 941006295,
+          "source_bytes_read": 941006295,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402031",
+        "source_url": "https://sdilej.cz/32402031/buffy-premozitelka-upiru-s05e15-byla-jsem-stvorena-abych-te-milovala.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30816919",
-        "size_bytes": 941006295,
-        "source_bytes_read": 941006295,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E15 I Was Made to Love You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:02:38.111521+00:00"
       }
     },
     "1087:5:16": {
@@ -262800,5 +262801,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:02:35.728989+00:00"
+  "updated_at": "2026-11-05T12:02:38.111539+00:00"
 }
