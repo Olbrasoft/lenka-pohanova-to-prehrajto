@@ -261808,12 +261808,6 @@
     },
     "1087:4:16": {
       "episode_key": "buffy, přemožitelka upírů:s4:e16",
-      "claim": {
-        "worker_id": "9d47d9ed903e456cbb1fdf1d328463d0-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:11:16.785715+00:00",
-        "lease_expires_at": "2026-11-05T17:11:16.785731+00:00"
-      },
       "source": {
         "source_id": "32400185",
         "source_url": "https://sdilej.cz/32400185/buffy-premozitelka-upiru-s04e16-kdo-jsi.mkv",
@@ -261838,15 +261832,22 @@
         "display_name": "Buffy the Vampire Slayer S04E16 Who Are You? (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:11:19.958384+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815550",
-        "size_bytes": 962617386
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815550",
+          "size_bytes": 962617386,
+          "source_bytes_read": 962617386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32400185",
+        "source_url": "https://sdilej.cz/32400185/buffy-premozitelka-upiru-s04e16-kdo-jsi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815550",
-        "size_bytes": 962617386,
-        "source_bytes_read": 962617386,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E16 Who Are You? (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:13:33.096459+00:00"
       }
     }
   },
@@ -261855,5 +261856,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:13:26.414833+00:00"
+  "updated_at": "2026-11-05T11:13:33.096477+00:00"
 }
