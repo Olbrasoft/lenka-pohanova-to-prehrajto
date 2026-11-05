@@ -267560,12 +267560,6 @@
     },
     "1110:3:1": {
       "episode_key": "haló, haló!:s3:e1",
-      "claim": {
-        "worker_id": "9707096822cb4761a9a6768b64d03e71-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T19:15:24.085163+00:00",
-        "lease_expires_at": "2026-11-06T01:15:24.085180+00:00"
-      },
       "source": {
         "source_id": "25622656",
         "source_url": "https://sdilej.cz/25622656/halo-halo-s03e01-16-1986-full-hd-ukradeny-salam-sd-.mp4",
@@ -267590,15 +267584,22 @@
         "display_name": "'Allo 'Allo! S03E01 The Nicked Knockwurst 1080p CZ Dabing",
         "prepared_at": "2026-11-05T19:15:29.756692+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30828451",
-        "size_bytes": 710161223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30828451",
+          "size_bytes": 710161223,
+          "source_bytes_read": 710161223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25622656",
+        "source_url": "https://sdilej.cz/25622656/halo-halo-s03e01-16-1986-full-hd-ukradeny-salam-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30828451",
-        "size_bytes": 710161223,
-        "source_bytes_read": 710161223,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S03E01 The Nicked Knockwurst 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T19:16:53.869688+00:00"
       }
     }
   },
@@ -267607,5 +267608,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T19:16:48.878472+00:00"
+  "updated_at": "2026-11-05T19:16:53.869706+00:00"
 }
