@@ -261162,12 +261162,6 @@
     },
     "1087:3:22": {
       "episode_key": "buffy, přemožitelka upírů:s3:e22",
-      "claim": {
-        "worker_id": "0ddc5604459644068d70e4a5be89f5be-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T10:55:40.894073+00:00",
-        "lease_expires_at": "2026-11-05T16:55:40.894087+00:00"
-      },
       "source": {
         "source_id": "32398702",
         "source_url": "https://sdilej.cz/32398702/buffy-premozitelka-upiru-s03e22-maturita-cast-2.mkv",
@@ -261192,15 +261186,22 @@
         "display_name": "Buffy the Vampire Slayer S03E22 Earshot 1080p CZ Dabing",
         "prepared_at": "2026-11-05T10:55:43.903054+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815146",
-        "size_bytes": 948095415
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815146",
+          "size_bytes": 948095415,
+          "source_bytes_read": 948095415,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32398702",
+        "source_url": "https://sdilej.cz/32398702/buffy-premozitelka-upiru-s03e22-maturita-cast-2.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815146",
-        "size_bytes": 948095415,
-        "source_bytes_read": 948095415,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E22 Earshot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T10:57:23.759695+00:00"
       }
     },
     "1087:4:1": {
@@ -261283,5 +261284,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T10:57:17.898273+00:00"
+  "updated_at": "2026-11-05T10:57:23.759712+00:00"
 }
