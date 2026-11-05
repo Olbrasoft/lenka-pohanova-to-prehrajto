@@ -261778,12 +261778,6 @@
     },
     "1087:4:15": {
       "episode_key": "buffy, přemožitelka upírů:s4:e15",
-      "claim": {
-        "worker_id": "768c64ecadab4708947378c3879d7be2-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:10:12.136017+00:00",
-        "lease_expires_at": "2026-11-05T17:10:12.136036+00:00"
-      },
       "source": {
         "source_id": "32400168",
         "source_url": "https://sdilej.cz/32400168/buffy-premozitelka-upiru-s04e15-letosni-holka.mkv",
@@ -261808,15 +261802,22 @@
         "display_name": "Buffy the Vampire Slayer S04E15 This Year's Girl (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:10:15.572050+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815520",
-        "size_bytes": 945227522
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815520",
+          "size_bytes": 945227522,
+          "source_bytes_read": 945227522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32400168",
+        "source_url": "https://sdilej.cz/32400168/buffy-premozitelka-upiru-s04e15-letosni-holka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815520",
-        "size_bytes": 945227522,
-        "source_bytes_read": 945227522,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E15 This Year's Girl (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:14:03.614478+00:00"
       }
     },
     "1087:4:16": {
@@ -261902,5 +261903,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:14:01.211512+00:00"
+  "updated_at": "2026-11-05T11:14:03.614498+00:00"
 }
