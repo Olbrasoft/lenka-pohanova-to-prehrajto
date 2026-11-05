@@ -259402,12 +259402,6 @@
     },
     "1087:2:2": {
       "episode_key": "buffy, přemožitelka upírů:s2:e2",
-      "claim": {
-        "worker_id": "632c67c455754c7a8bae02a9accd5b99-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:42:51.414364+00:00",
-        "lease_expires_at": "2026-11-05T14:42:51.414376+00:00"
-      },
       "source": {
         "source_id": "32390797",
         "source_url": "https://sdilej.cz/32390797/buffy-premozitelka-upiru-s02e02-vlastni-montaz-nutna.mkv",
@@ -259432,15 +259426,22 @@
         "display_name": "Buffy the Vampire Slayer S02E02 Some Assembly Required 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:42:59.612176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30811202",
-        "size_bytes": 936199548
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30811202",
+          "size_bytes": 936199548,
+          "source_bytes_read": 936199548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32390797",
+        "source_url": "https://sdilej.cz/32390797/buffy-premozitelka-upiru-s02e02-vlastni-montaz-nutna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30811202",
-        "size_bytes": 936199548,
-        "source_bytes_read": 936199548,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E02 Some Assembly Required 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:46:14.424280+00:00"
       }
     },
     "1087:2:3": {
@@ -259523,5 +259524,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:46:08.105306+00:00"
+  "updated_at": "2026-11-05T08:46:14.424299+00:00"
 }
