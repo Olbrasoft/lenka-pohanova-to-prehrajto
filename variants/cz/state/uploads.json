@@ -258302,12 +258302,6 @@
     },
     "1108:3:2": {
       "episode_key": "cizinka:s3:e2",
-      "claim": {
-        "worker_id": "9df4a6cad22e4d59bc0c58cd85a1caef-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T07:23:52.523771+00:00",
-        "lease_expires_at": "2026-11-05T13:23:52.523781+00:00"
-      },
       "source": {
         "source_id": "34189683",
         "source_url": "https://sdilej.cz/34189683/cizinka-s03e02-031-2017-fhd-kapitulace-s-.mp4",
@@ -258332,15 +258326,22 @@
         "display_name": "Outlander S03E02 Surrender 1080p CZ Dabing",
         "prepared_at": "2026-11-05T07:24:00.559293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30808587",
-        "size_bytes": 1160691631
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30808587",
+          "size_bytes": 1160691631,
+          "source_bytes_read": 1160691631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34189683",
+        "source_url": "https://sdilej.cz/34189683/cizinka-s03e02-031-2017-fhd-kapitulace-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30808587",
-        "size_bytes": 1160691631,
-        "source_bytes_read": 1160691631,
-        "http_status": 201
+        "display_name": "Outlander S03E02 Surrender 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T07:26:50.084765+00:00"
       }
     },
     "1108:3:3": {
@@ -258467,5 +258468,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T07:26:46.001427+00:00"
+  "updated_at": "2026-11-05T07:26:50.084781+00:00"
 }
