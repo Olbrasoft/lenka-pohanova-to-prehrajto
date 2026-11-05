@@ -254084,21 +254084,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "37e1d575a95a47bcadfae988d50e4a97-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-05T02:42:51.703754+00:00",
-        "lease_expires_at": "2026-11-05T08:42:51.703766+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30801241",
+          "size_bytes": 1445225803,
+          "source_bytes_read": 1445225803,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30955015",
+        "source_url": "https://sdilej.cz/30955015/pribeh-sluzebnice-s04e07-2021-1080p-h265-cz.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30801241",
-        "size_bytes": 1445225803
-      },
-      "transfer_receipt": {
-        "target_video_id": "30801241",
-        "size_bytes": 1445225803,
-        "source_bytes_read": 1445225803,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S04E07 Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T02:51:43.469927+00:00"
       }
     },
     "843:4:8": {
@@ -255594,5 +255595,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T02:51:38.760108+00:00"
+  "updated_at": "2026-11-05T02:51:43.469940+00:00"
 }
