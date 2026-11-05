@@ -271131,12 +271131,6 @@
     },
     "1130:2:1": {
       "episode_key": "zločin:s2:e1",
-      "claim": {
-        "worker_id": "f561a848164244a9b70d4d107a1fc8d5-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T22:59:12.350838+00:00",
-        "lease_expires_at": "2026-11-06T04:59:12.350849+00:00"
-      },
       "source": {
         "source_id": "28748386",
         "source_url": "https://sdilej.cz/28748386/zlocin-the-killing-s02e01-hd-cz-dabing.mkv",
@@ -271161,15 +271155,22 @@
         "display_name": "The Killing (2011) [ID 1130] S02E01 Reflections 1080p CZ Dabing",
         "prepared_at": "2026-11-05T22:59:19.355902+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30835558",
-        "size_bytes": 569723701
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30835558",
+          "size_bytes": 569723701,
+          "source_bytes_read": 569723701,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28748386",
+        "source_url": "https://sdilej.cz/28748386/zlocin-the-killing-s02e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30835558",
-        "size_bytes": 569723701,
-        "source_bytes_read": 569723701,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S02E01 Reflections 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T23:10:21.607891+00:00"
       }
     }
   },
@@ -271178,5 +271179,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T23:10:16.160073+00:00"
+  "updated_at": "2026-11-05T23:10:21.607902+00:00"
 }
