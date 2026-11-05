@@ -254490,21 +254490,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "03aa5307427e4a799b322625f4438b2d-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T03:18:01.096104+00:00",
-        "lease_expires_at": "2026-11-05T09:18:01.096114+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30802104",
+          "size_bytes": 1400306625,
+          "source_bytes_read": 1400306625,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30924965",
+        "source_url": "https://sdilej.cz/30924965/pribeh-sluzebnice-2022-s05e04-cz-dab-1080p-dear-offred.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30802104",
-        "size_bytes": 1400306625
-      },
-      "transfer_receipt": {
-        "target_video_id": "30802104",
-        "size_bytes": 1400306625,
-        "source_bytes_read": 1400306625,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S05E04 Dear Offred 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T03:23:37.409123+00:00"
       }
     },
     "843:5:5": {
@@ -255723,5 +255724,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T03:23:32.689533+00:00"
+  "updated_at": "2026-11-05T03:23:37.409139+00:00"
 }
