@@ -268322,12 +268322,6 @@
     },
     "1110:5:7": {
       "episode_key": "haló, haló!:s5:e7",
-      "claim": {
-        "worker_id": "366f71189fe54d808c5b05dc2d2f9cdc-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T19:49:59.402424+00:00",
-        "lease_expires_at": "2026-11-06T01:49:59.402434+00:00"
-      },
       "source": {
         "source_id": "25623048",
         "source_url": "https://sdilej.cz/25623048/halo-halo-s05e07-34-1988-full-hd-jsem-svuj-otec-sd-.mp4",
@@ -268352,15 +268346,22 @@
         "display_name": "'Allo 'Allo! S05E07 No Hiding Place 1080p CZ Dabing",
         "prepared_at": "2026-11-05T19:50:06.236636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30829509",
-        "size_bytes": 507716196
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30829509",
+          "size_bytes": 507716196,
+          "source_bytes_read": 507716196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25623048",
+        "source_url": "https://sdilej.cz/25623048/halo-halo-s05e07-34-1988-full-hd-jsem-svuj-otec-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30829509",
-        "size_bytes": 507716196,
-        "source_bytes_read": 507716196,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S05E07 No Hiding Place 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T19:52:25.841532+00:00"
       }
     },
     "1110:5:8": {
@@ -268443,5 +268444,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T19:52:21.391990+00:00"
+  "updated_at": "2026-11-05T19:52:25.841549+00:00"
 }
