@@ -263128,12 +263128,6 @@
     },
     "1087:6:3": {
       "episode_key": "buffy, přemožitelka upírů:s6:e3",
-      "claim": {
-        "worker_id": "250ffcf9ccf9489284a64380be182685-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:13:39.522022+00:00",
-        "lease_expires_at": "2026-11-05T18:13:39.522037+00:00"
-      },
       "source": {
         "source_id": "32402222",
         "source_url": "https://sdilej.cz/32402222/buffy-premozitelka-upiru-s06e03-po-zivote.mkv",
@@ -263158,15 +263152,22 @@
         "display_name": "Buffy the Vampire Slayer S06E03 After Life 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:13:46.825852+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817238",
-        "size_bytes": 923445350
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817238",
+          "size_bytes": 923445350,
+          "source_bytes_read": 923445350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402222",
+        "source_url": "https://sdilej.cz/32402222/buffy-premozitelka-upiru-s06e03-po-zivote.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817238",
-        "size_bytes": 923445350,
-        "source_bytes_read": 923445350,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E03 After Life 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:16:21.560326+00:00"
       }
     },
     "1087:6:4": {
@@ -263333,5 +263334,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:16:16.635179+00:00"
+  "updated_at": "2026-11-05T12:16:21.560344+00:00"
 }
