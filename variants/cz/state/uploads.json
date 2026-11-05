@@ -270383,12 +270383,6 @@
     },
     "1110:9:3": {
       "episode_key": "haló, haló!:s9:e3",
-      "claim": {
-        "worker_id": "3f49ff0df0ca419584b28e2313d835de-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T21:35:08.240139+00:00",
-        "lease_expires_at": "2026-11-06T03:35:08.240153+00:00"
-      },
       "source": {
         "source_id": "25625484",
         "source_url": "https://sdilej.cz/25625484/halo-halo-s09e03-82-1992-full-hd-amnezie-sd-.mp4",
@@ -270413,15 +270407,22 @@
         "display_name": "'Allo 'Allo! S09E03 Rene Artois Is Still Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-05T21:35:17.744538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30833056",
-        "size_bytes": 598539631
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30833056",
+          "size_bytes": 598539631,
+          "source_bytes_read": 598539631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25625484",
+        "source_url": "https://sdilej.cz/25625484/halo-halo-s09e03-82-1992-full-hd-amnezie-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30833056",
-        "size_bytes": 598539631,
-        "source_bytes_read": 598539631,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S09E03 Rene Artois Is Still Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T21:37:40.160217+00:00"
       }
     },
     "1110:9:4": {
@@ -270467,5 +270468,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T21:37:34.455553+00:00"
+  "updated_at": "2026-11-05T21:37:40.160238+00:00"
 }
