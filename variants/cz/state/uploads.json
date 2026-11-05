@@ -266254,12 +266254,6 @@
     },
     "3454:1:10": {
       "episode_key": "temný krystal: věk vzdoru:s1:e10",
-      "claim": {
-        "worker_id": "2ab453eb15734cdea55c085343c1298f-worker-0",
-        "run_id": "42035047878",
-        "claimed_at": "2026-11-05T15:51:41.398147+00:00",
-        "lease_expires_at": "2026-11-05T21:51:41.398156+00:00"
-      },
       "source": {
         "source_id": "32947813",
         "source_url": "https://sdilej.cz/32947813/temny-krystal-vek-vzdoru-s01e10-jen-strepina-byla-ztracena.mkv",
@@ -266284,15 +266278,22 @@
         "display_name": "The Dark Crystal: Age of Resistance S01E10 A Single Piece Was Lost 1080p CZ Dabing",
         "prepared_at": "2026-11-05T15:51:49.436894+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30822444",
-        "size_bytes": 1667384620
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30822444",
+          "size_bytes": 1667384620,
+          "source_bytes_read": 1667384620,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32947813",
+        "source_url": "https://sdilej.cz/32947813/temny-krystal-vek-vzdoru-s01e10-jen-strepina-byla-ztracena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30822444",
-        "size_bytes": 1667384620,
-        "source_bytes_read": 1667384620,
-        "http_status": 201
+        "display_name": "The Dark Crystal: Age of Resistance S01E10 A Single Piece Was Lost 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T15:58:30.020588+00:00"
       }
     },
     "1971:1:1": {
@@ -266375,5 +266376,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T15:58:25.517089+00:00"
+  "updated_at": "2026-11-05T15:58:30.020604+00:00"
 }
