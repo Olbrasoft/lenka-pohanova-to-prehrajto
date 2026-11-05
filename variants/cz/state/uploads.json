@@ -269503,12 +269503,6 @@
     },
     "1110:6:8": {
       "episode_key": "haló, haló!:s6:e8",
-      "claim": {
-        "worker_id": "155b5ad166b44c29ac203428e787c8c1-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T20:54:20.001043+00:00",
-        "lease_expires_at": "2026-11-06T02:54:20.001050+00:00"
-      },
       "source": {
         "source_id": "25624521",
         "source_url": "https://sdilej.cz/25624521/halo-halo-s06e08-61-1989-full-hd-letajici-postel-sd-.mp4",
@@ -269533,15 +269527,22 @@
         "display_name": "'Allo 'Allo! S06E08 Rising to the Occasion 1080p CZ Dabing",
         "prepared_at": "2026-11-05T20:54:24.783706+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30831641",
-        "size_bytes": 609425892
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30831641",
+          "size_bytes": 609425892,
+          "source_bytes_read": 609425892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25624521",
+        "source_url": "https://sdilej.cz/25624521/halo-halo-s06e08-61-1989-full-hd-letajici-postel-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30831641",
-        "size_bytes": 609425892,
-        "source_bytes_read": 609425892,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S06E08 Rising to the Occasion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T20:55:36.931099+00:00"
       }
     },
     "1110:7:1": {
@@ -269587,5 +269588,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T20:55:33.332235+00:00"
+  "updated_at": "2026-11-05T20:55:36.931110+00:00"
 }
