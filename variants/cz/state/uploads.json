@@ -259226,12 +259226,6 @@
     },
     "1087:1:10": {
       "episode_key": "buffy, přemožitelka upírů:s1:e10",
-      "claim": {
-        "worker_id": "bdff82056875491c8aa36db72f266bc5-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:27:45.754083+00:00",
-        "lease_expires_at": "2026-11-05T14:27:45.754094+00:00"
-      },
       "source": {
         "source_id": "32390435",
         "source_url": "https://sdilej.cz/32390435/buffy-premozitelka-upiru-s01e10-nocni-mury.mkv",
@@ -259256,15 +259250,22 @@
         "display_name": "Buffy the Vampire Slayer S01E10 Nightmares 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:27:48.816198+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30810632",
-        "size_bytes": 961351046
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30810632",
+          "size_bytes": 961351046,
+          "source_bytes_read": 961351046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32390435",
+        "source_url": "https://sdilej.cz/32390435/buffy-premozitelka-upiru-s01e10-nocni-mury.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30810632",
-        "size_bytes": 961351046,
-        "source_bytes_read": 961351046,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S01E10 Nightmares 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:31:45.262516+00:00"
       }
     },
     "1087:1:11": {
@@ -259347,5 +259348,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:31:40.914990+00:00"
+  "updated_at": "2026-11-05T08:31:45.262534+00:00"
 }
