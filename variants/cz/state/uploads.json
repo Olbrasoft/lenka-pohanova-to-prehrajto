@@ -269855,12 +269855,6 @@
     },
     "1110:7:8": {
       "episode_key": "haló, haló!:s7:e8",
-      "claim": {
-        "worker_id": "402e0567e8c14747a3a38dc4d2560e25-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T21:16:16.706069+00:00",
-        "lease_expires_at": "2026-11-06T03:16:16.706075+00:00"
-      },
       "source": {
         "source_id": "25624959",
         "source_url": "https://sdilej.cz/25624959/halo-halo-s07e08-69-1991-full-hd-pomatene-manzelstvi-sd-.mp4",
@@ -269885,15 +269879,22 @@
         "display_name": "'Allo 'Allo! S07E08 Prior Engagements 1080p CZ Dabing",
         "prepared_at": "2026-11-05T21:16:19.371016+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30832536",
-        "size_bytes": 601067071
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30832536",
+          "size_bytes": 601067071,
+          "source_bytes_read": 601067071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25624959",
+        "source_url": "https://sdilej.cz/25624959/halo-halo-s07e08-69-1991-full-hd-pomatene-manzelstvi-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30832536",
-        "size_bytes": 601067071,
-        "source_bytes_read": 601067071,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S07E08 Prior Engagements 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T21:21:16.817996+00:00"
       }
     },
     "1110:7:9": {
@@ -269946,5 +269947,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T21:21:12.465936+00:00"
+  "updated_at": "2026-11-05T21:21:16.818014+00:00"
 }
