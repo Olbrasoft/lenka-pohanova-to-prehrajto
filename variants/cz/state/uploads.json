@@ -260502,12 +260502,6 @@
     },
     "1087:3:6": {
       "episode_key": "buffy, přemožitelka upírů:s3:e6",
-      "claim": {
-        "worker_id": "22fd6300ee5d48a981a6563ea972859f-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:54:18.158231+00:00",
-        "lease_expires_at": "2026-11-05T15:54:18.158315+00:00"
-      },
       "source": {
         "source_id": "32395798",
         "source_url": "https://sdilej.cz/32395798/buffy-premozitelka-upiru-s03e06-cokolada-pro-kapelu.mkv",
@@ -260532,15 +260526,22 @@
         "display_name": "Buffy the Vampire Slayer S03E06 Band Candy 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:54:24.480561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813530",
-        "size_bytes": 949100850
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813530",
+          "size_bytes": 949100850,
+          "source_bytes_read": 949100850,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32395798",
+        "source_url": "https://sdilej.cz/32395798/buffy-premozitelka-upiru-s03e06-cokolada-pro-kapelu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813530",
-        "size_bytes": 949100850,
-        "source_bytes_read": 949100850,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E06 Band Candy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:57:17.908406+00:00"
       }
     },
     "1087:3:7": {
@@ -260593,5 +260594,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:57:12.107309+00:00"
+  "updated_at": "2026-11-05T09:57:17.908424+00:00"
 }
