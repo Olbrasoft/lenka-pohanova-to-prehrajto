@@ -261558,12 +261558,6 @@
     },
     "1087:4:10": {
       "episode_key": "buffy, přemožitelka upírů:s4:e10",
-      "claim": {
-        "worker_id": "7801b20402cc4136b7159785246a73f1-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:05:00.380520+00:00",
-        "lease_expires_at": "2026-11-05T17:05:00.380536+00:00"
-      },
       "source": {
         "source_id": "32400073",
         "source_url": "https://sdilej.cz/32400073/buffy-premozitelka-upiru-s04e10-ticho.mkv",
@@ -261588,15 +261582,22 @@
         "display_name": "Buffy the Vampire Slayer S04E10 Hush 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:05:10.640737+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815347",
-        "size_bytes": 940218590
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815347",
+          "size_bytes": 940218590,
+          "source_bytes_read": 940218590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32400073",
+        "source_url": "https://sdilej.cz/32400073/buffy-premozitelka-upiru-s04e10-ticho.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815347",
-        "size_bytes": 940218590,
-        "source_bytes_read": 940218590,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E10 Hush 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:07:34.088906+00:00"
       }
     },
     "1087:4:11": {
@@ -261641,5 +261642,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:07:29.832963+00:00"
+  "updated_at": "2026-11-05T11:07:34.088922+00:00"
 }
