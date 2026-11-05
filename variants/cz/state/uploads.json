@@ -260092,12 +260092,6 @@
     },
     "1087:2:18": {
       "episode_key": "buffy, přemožitelka upírů:s2:e18",
-      "claim": {
-        "worker_id": "dc3b4c32a0034260b01778f15caad53c-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:32:34.276418+00:00",
-        "lease_expires_at": "2026-11-05T15:32:34.276431+00:00"
-      },
       "source": {
         "source_id": "32392571",
         "source_url": "https://sdilej.cz/32392571/buffy-premozitelka-upiru-s02e18-jak-zabit-smrt.mkv",
@@ -260122,15 +260116,22 @@
         "display_name": "Buffy the Vampire Slayer S02E18 Killed by Death 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:32:37.345478+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812860",
-        "size_bytes": 932625250
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812860",
+          "size_bytes": 932625250,
+          "source_bytes_read": 932625250,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392571",
+        "source_url": "https://sdilej.cz/32392571/buffy-premozitelka-upiru-s02e18-jak-zabit-smrt.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812860",
-        "size_bytes": 932625250,
-        "source_bytes_read": 932625250,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E18 Killed by Death 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:34:28.440951+00:00"
       }
     }
   },
@@ -260139,5 +260140,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:34:22.303442+00:00"
+  "updated_at": "2026-11-05T09:34:28.440967+00:00"
 }
