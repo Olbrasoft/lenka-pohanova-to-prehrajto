@@ -263977,12 +263977,6 @@
     },
     "1087:6:22": {
       "episode_key": "buffy, přemožitelka upírů:s6:e22",
-      "claim": {
-        "worker_id": "7a18c4bce0c749fe94efd448ef167323-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:52:16.071848+00:00",
-        "lease_expires_at": "2026-11-05T18:52:16.071865+00:00"
-      },
       "source": {
         "source_id": "32407035",
         "source_url": "https://sdilej.cz/32407035/buffy-premozitelka-upiru-s06e22-hrob.mkv",
@@ -264007,15 +264001,22 @@
         "display_name": "Buffy the Vampire Slayer S06E22 Grave 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:52:19.174524+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818132",
-        "size_bytes": 935960802
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818132",
+          "size_bytes": 935960802,
+          "source_bytes_read": 935960802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32407035",
+        "source_url": "https://sdilej.cz/32407035/buffy-premozitelka-upiru-s06e22-hrob.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818132",
-        "size_bytes": 935960802,
-        "source_bytes_read": 935960802,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E22 Grave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:54:29.303768+00:00"
       }
     }
   },
@@ -264024,5 +264025,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:54:26.790219+00:00"
+  "updated_at": "2026-11-05T12:54:29.303789+00:00"
 }
