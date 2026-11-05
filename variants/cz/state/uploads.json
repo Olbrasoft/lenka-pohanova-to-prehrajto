@@ -260062,12 +260062,6 @@
     },
     "1087:2:17": {
       "episode_key": "buffy, přemožitelka upírů:s2:e17",
-      "claim": {
-        "worker_id": "427edf0a8ae74ed1a04e22ef55cf579e-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:31:57.197063+00:00",
-        "lease_expires_at": "2026-11-05T15:31:57.197074+00:00"
-      },
       "source": {
         "source_id": "32392446",
         "source_url": "https://sdilej.cz/32392446/buffy-premozitelka-upiru-s02e17-vasen.mkv",
@@ -260092,15 +260086,22 @@
         "display_name": "Buffy the Vampire Slayer S02E17 Passion 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:32:02.758332+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812836",
-        "size_bytes": 947890339
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812836",
+          "size_bytes": 947890339,
+          "source_bytes_read": 947890339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392446",
+        "source_url": "https://sdilej.cz/32392446/buffy-premozitelka-upiru-s02e17-vasen.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812836",
-        "size_bytes": 947890339,
-        "source_bytes_read": 947890339,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E17 Passion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:35:10.965637+00:00"
       }
     },
     "1087:2:18": {
@@ -260190,5 +260191,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:35:05.128614+00:00"
+  "updated_at": "2026-11-05T09:35:10.965654+00:00"
 }
