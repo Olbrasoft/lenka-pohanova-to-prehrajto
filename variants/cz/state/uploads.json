@@ -263165,12 +263165,6 @@
     },
     "1087:6:4": {
       "episode_key": "buffy, přemožitelka upírů:s6:e4",
-      "claim": {
-        "worker_id": "7631e4262a16442d92df287d824f9602-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:13:42.002504+00:00",
-        "lease_expires_at": "2026-11-05T18:13:42.002518+00:00"
-      },
       "source": {
         "source_id": "32402249",
         "source_url": "https://sdilej.cz/32402249/buffy-premozitelka-upiru-s06e04-zaplavena.mkv",
@@ -263195,15 +263189,22 @@
         "display_name": "Buffy the Vampire Slayer S06E04 Flooded 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:13:49.285017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817240",
-        "size_bytes": 931360780
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817240",
+          "size_bytes": 931360780,
+          "source_bytes_read": 931360780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402249",
+        "source_url": "https://sdilej.cz/32402249/buffy-premozitelka-upiru-s06e04-zaplavena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817240",
-        "size_bytes": 931360780,
-        "source_bytes_read": 931360780,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E04 Flooded 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:15:42.276360+00:00"
       }
     },
     "1087:6:5": {
@@ -263255,5 +263256,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:15:39.837918+00:00"
+  "updated_at": "2026-11-05T12:15:42.276381+00:00"
 }
