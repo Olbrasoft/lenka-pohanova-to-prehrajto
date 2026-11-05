@@ -259270,12 +259270,6 @@
     },
     "1087:1:11": {
       "episode_key": "buffy, přemožitelka upírů:s1:e11",
-      "claim": {
-        "worker_id": "c1df064161fb4f3a8bd464b7b7f6ed53-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:28:47.944922+00:00",
-        "lease_expires_at": "2026-11-05T14:28:47.944936+00:00"
-      },
       "source": {
         "source_id": "32390583",
         "source_url": "https://sdilej.cz/32390583/buffy-premozitelka-upiru-s01e11-sejde-z-mysli-sejde-z-oci.mkv",
@@ -259300,15 +259294,22 @@
         "display_name": "Buffy the Vampire Slayer S01E11 Out of Mind, Out of Sight 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:28:54.789553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30810672",
-        "size_bytes": 954938455
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30810672",
+          "size_bytes": 954938455,
+          "source_bytes_read": 954938455,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32390583",
+        "source_url": "https://sdilej.cz/32390583/buffy-premozitelka-upiru-s01e11-sejde-z-mysli-sejde-z-oci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30810672",
-        "size_bytes": 954938455,
-        "source_bytes_read": 954938455,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S01E11 Out of Mind, Out of Sight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:32:24.737280+00:00"
       }
     },
     "1087:1:12": {
@@ -259354,5 +259355,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:32:22.125689+00:00"
+  "updated_at": "2026-11-05T08:32:24.737298+00:00"
 }
