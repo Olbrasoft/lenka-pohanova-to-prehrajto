@@ -260414,12 +260414,6 @@
     },
     "1087:3:4": {
       "episode_key": "buffy, přemožitelka upírů:s3:e4",
-      "claim": {
-        "worker_id": "96425f20277a4cdc9b1fe2090a89e2a8-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:49:31.319384+00:00",
-        "lease_expires_at": "2026-11-05T15:49:31.319396+00:00"
-      },
       "source": {
         "source_id": "32061769",
         "source_url": "https://sdilej.cz/32061769/buffy-premozitelka-upiru-s03e04.mkv",
@@ -260444,15 +260438,22 @@
         "display_name": "Buffy the Vampire Slayer S03E04 Beauty and the Beasts 720p CZ Dabing",
         "prepared_at": "2026-11-05T09:49:34.382571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813423",
-        "size_bytes": 1604387799
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813423",
+          "size_bytes": 1604387799,
+          "source_bytes_read": 1604387799,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32061769",
+        "source_url": "https://sdilej.cz/32061769/buffy-premozitelka-upiru-s03e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813423",
-        "size_bytes": 1604387799,
-        "source_bytes_read": 1604387799,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E04 Beauty and the Beasts 720p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:53:53.443970+00:00"
       }
     },
     "1087:3:5": {
@@ -260498,5 +260499,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:53:48.167912+00:00"
+  "updated_at": "2026-11-05T09:53:53.443989+00:00"
 }
