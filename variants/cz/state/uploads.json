@@ -261206,12 +261206,6 @@
     },
     "1087:4:1": {
       "episode_key": "buffy, přemožitelka upírů:s4:e1",
-      "claim": {
-        "worker_id": "df13e17cb1be4585903eaa063855f737-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T10:55:46.448642+00:00",
-        "lease_expires_at": "2026-11-05T16:55:46.448655+00:00"
-      },
       "source": {
         "source_id": "32399058",
         "source_url": "https://sdilej.cz/32399058/buffy-premozitelka-upiru-s04e01-novacek.mkv",
@@ -261236,15 +261230,22 @@
         "display_name": "Buffy the Vampire Slayer S04E01 The Freshman 1080p CZ Dabing",
         "prepared_at": "2026-11-05T10:55:54.257772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815150",
-        "size_bytes": 947675270
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815150",
+          "size_bytes": 947675270,
+          "source_bytes_read": 947675270,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32399058",
+        "source_url": "https://sdilej.cz/32399058/buffy-premozitelka-upiru-s04e01-novacek.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815150",
-        "size_bytes": 947675270,
-        "source_bytes_read": 947675270,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E01 The Freshman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T10:57:53.725661+00:00"
       }
     },
     "1087:4:3": {
@@ -261327,5 +261328,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T10:57:49.416665+00:00"
+  "updated_at": "2026-11-05T10:57:53.725677+00:00"
 }
