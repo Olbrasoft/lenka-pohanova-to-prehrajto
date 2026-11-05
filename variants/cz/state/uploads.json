@@ -264053,12 +264053,6 @@
     },
     "1087:7:2": {
       "episode_key": "buffy, přemožitelka upírů:s7:e2",
-      "claim": {
-        "worker_id": "9e799b09e0ca4b1e88386cf619bfeb12-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:01:59.585865+00:00",
-        "lease_expires_at": "2026-11-05T19:01:59.585884+00:00"
-      },
       "source": {
         "source_id": "32410939",
         "source_url": "https://sdilej.cz/32410939/buffy-premozitelka-upiru-s07e02-pod-tebou.mkv",
@@ -264083,15 +264077,22 @@
         "display_name": "Buffy the Vampire Slayer S07E02 Beneath You 1080p CZ Dabing",
         "prepared_at": "2026-11-05T13:02:07.116398+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818357",
-        "size_bytes": 914137782
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818357",
+          "size_bytes": 914137782,
+          "source_bytes_read": 914137782,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32410939",
+        "source_url": "https://sdilej.cz/32410939/buffy-premozitelka-upiru-s07e02-pod-tebou.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818357",
-        "size_bytes": 914137782,
-        "source_bytes_read": 914137782,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E02 Beneath You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:07:18.947764+00:00"
       }
     },
     "1087:7:3": {
@@ -264218,5 +264219,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:07:14.110456+00:00"
+  "updated_at": "2026-11-05T13:07:18.947782+00:00"
 }
