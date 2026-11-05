@@ -266034,12 +266034,6 @@
     },
     "3454:1:5": {
       "episode_key": "temný krystal: věk vzdoru:s1:e5",
-      "claim": {
-        "worker_id": "309df0530d0c4fac80b29fe86d9ee5ab-worker-0",
-        "run_id": "42035047878",
-        "claimed_at": "2026-11-05T15:23:45.745116+00:00",
-        "lease_expires_at": "2026-11-05T21:23:45.745127+00:00"
-      },
       "source": {
         "source_id": "13242323",
         "source_url": "https://sdilej.cz/13242323/the.dark.crystal.age.of.resistance.s01e05.1080p.10bit.nf.webrip.ac3.x265.hevc-d0ct0rlew-sev-czaudio-.mkv",
@@ -266064,15 +266058,22 @@
         "display_name": "The Dark Crystal: Age of Resistance S01E05 She Knows All the Secrets 1080p CZ Dabing",
         "prepared_at": "2026-11-05T15:23:49.136162+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30821750",
-        "size_bytes": 906080530
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30821750",
+          "size_bytes": 906080530,
+          "source_bytes_read": 906080530,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13242323",
+        "source_url": "https://sdilej.cz/13242323/the.dark.crystal.age.of.resistance.s01e05.1080p.10bit.nf.webrip.ac3.x265.hevc-d0ct0rlew-sev-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30821750",
-        "size_bytes": 906080530,
-        "source_bytes_read": 906080530,
-        "http_status": 201
+        "display_name": "The Dark Crystal: Age of Resistance S01E05 She Knows All the Secrets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T15:26:40.980011+00:00"
       }
     }
   },
@@ -266081,5 +266082,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T15:26:36.084257+00:00"
+  "updated_at": "2026-11-05T15:26:40.980026+00:00"
 }
