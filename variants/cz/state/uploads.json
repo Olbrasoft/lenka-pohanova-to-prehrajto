@@ -262130,12 +262130,6 @@
     },
     "1087:5:2": {
       "episode_key": "buffy, přemožitelka upírů:s5:e2",
-      "claim": {
-        "worker_id": "baa75035fd4945a9a80af8b8ddd227b2-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:43:45.247156+00:00",
-        "lease_expires_at": "2026-11-05T17:43:45.247176+00:00"
-      },
       "source": {
         "source_id": "32401602",
         "source_url": "https://sdilej.cz/32401602/buffy-premozitelka-upiru-s05e02-me-skutecne-ja.mkv",
@@ -262160,15 +262154,22 @@
         "display_name": "Buffy the Vampire Slayer S05E02 Real Me 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:43:51.145511+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30816493",
-        "size_bytes": 918003383
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30816493",
+          "size_bytes": 918003383,
+          "source_bytes_read": 918003383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32401602",
+        "source_url": "https://sdilej.cz/32401602/buffy-premozitelka-upiru-s05e02-me-skutecne-ja.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30816493",
-        "size_bytes": 918003383,
-        "source_bytes_read": 918003383,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E02 Real Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:45:45.912307+00:00"
       }
     },
     "1087:5:3": {
@@ -262294,5 +262295,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:45:41.074578+00:00"
+  "updated_at": "2026-11-05T11:45:45.912325+00:00"
 }
