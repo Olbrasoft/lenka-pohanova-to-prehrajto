@@ -258559,12 +258559,6 @@
     },
     "1108:3:8": {
       "episode_key": "cizinka:s3:e8",
-      "claim": {
-        "worker_id": "db9e5944863c47478bbf582210f52b24-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T07:39:17.333997+00:00",
-        "lease_expires_at": "2026-11-05T13:39:17.334008+00:00"
-      },
       "source": {
         "source_id": "34189703",
         "source_url": "https://sdilej.cz/34189703/cizinka-s03e08-037-2017-fhd-prvni-zena-s-.mp4",
@@ -258589,15 +258583,22 @@
         "display_name": "Outlander S03E08 First Wife 1080p CZ Dabing",
         "prepared_at": "2026-11-05T07:39:20.265884+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30808966",
-        "size_bytes": 1252398933
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30808966",
+          "size_bytes": 1252398933,
+          "source_bytes_read": 1252398933,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34189703",
+        "source_url": "https://sdilej.cz/34189703/cizinka-s03e08-037-2017-fhd-prvni-zena-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30808966",
-        "size_bytes": 1252398933,
-        "source_bytes_read": 1252398933,
-        "http_status": 201
+        "display_name": "Outlander S03E08 First Wife 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T07:43:11.271256+00:00"
       }
     },
     "1108:3:9": {
@@ -258643,5 +258644,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T07:43:06.784577+00:00"
+  "updated_at": "2026-11-05T07:43:11.271274+00:00"
 }
