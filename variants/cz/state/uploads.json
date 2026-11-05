@@ -256711,12 +256711,6 @@
     },
     "1519:3:10": {
       "episode_key": "vláda:s3:e10",
-      "claim": {
-        "worker_id": "f6bd59aa96e24af08ac3e579227bdbf8-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:18:04.884645+00:00",
-        "lease_expires_at": "2026-11-05T11:18:04.884654+00:00"
-      },
       "source": {
         "source_id": "33614327",
         "source_url": "https://sdilej.cz/33614327/vlada-borgen-s03e10-czdab.mp4",
@@ -256741,15 +256735,22 @@
         "display_name": "Borgen S03E10 Valget SD CZ Dabing",
         "prepared_at": "2026-11-05T05:18:09.324864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30805106",
-        "size_bytes": 562240085
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30805106",
+          "size_bytes": 562240085,
+          "source_bytes_read": 562240085,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33614327",
+        "source_url": "https://sdilej.cz/33614327/vlada-borgen-s03e10-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30805106",
-        "size_bytes": 562240085,
-        "source_bytes_read": 562240085,
-        "http_status": 201
+        "display_name": "Borgen S03E10 Valget SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:19:05.540546+00:00"
       }
     }
   },
@@ -256758,5 +256759,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:19:03.397271+00:00"
+  "updated_at": "2026-11-05T05:19:05.540561+00:00"
 }
