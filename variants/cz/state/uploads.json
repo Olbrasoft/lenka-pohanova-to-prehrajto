@@ -267296,12 +267296,6 @@
     },
     "1110:2:1": {
       "episode_key": "haló, haló!:s2:e1",
-      "claim": {
-        "worker_id": "e231dc48644046a0b6b93d725dca32f5-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T18:49:25.203189+00:00",
-        "lease_expires_at": "2026-11-06T00:49:25.203198+00:00"
-      },
       "source": {
         "source_id": "25622445",
         "source_url": "https://sdilej.cz/25622445/halo-halo-s02e01-09-1985-full-hd-sest-velkych-melounu-sd-.mp4",
@@ -267326,15 +267320,22 @@
         "display_name": "'Allo 'Allo! S02E01 Six Big Boobies 1080p CZ Dabing",
         "prepared_at": "2026-11-05T18:49:28.495424+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30827673",
-        "size_bytes": 650141543
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30827673",
+          "size_bytes": 650141543,
+          "source_bytes_read": 650141543,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25622445",
+        "source_url": "https://sdilej.cz/25622445/halo-halo-s02e01-09-1985-full-hd-sest-velkych-melounu-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30827673",
-        "size_bytes": 650141543,
-        "source_bytes_read": 650141543,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S02E01 Six Big Boobies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T18:52:03.533967+00:00"
       }
     }
   },
@@ -267343,5 +267344,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T18:51:57.754261+00:00"
+  "updated_at": "2026-11-05T18:52:03.533983+00:00"
 }
