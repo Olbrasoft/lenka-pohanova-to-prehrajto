@@ -269026,12 +269026,6 @@
     },
     "1110:5:23": {
       "episode_key": "haló, haló!:s5:e23",
-      "claim": {
-        "worker_id": "555fc43e54fe44a4ab899f362cd5091d-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T20:23:28.014279+00:00",
-        "lease_expires_at": "2026-11-06T02:23:28.014291+00:00"
-      },
       "source": {
         "source_id": "25623568",
         "source_url": "https://sdilej.cz/25623568/halo-halo-s05e23-50-1988-full-hd-kvarteto-excelsior-sd-.mp4",
@@ -269056,15 +269050,22 @@
         "display_name": "'Allo 'Allo! S05E23 An Enigma Variation 1080p CZ Dabing",
         "prepared_at": "2026-11-05T20:23:35.228957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30830558",
-        "size_bytes": 510281892
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30830558",
+          "size_bytes": 510281892,
+          "source_bytes_read": 510281892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25623568",
+        "source_url": "https://sdilej.cz/25623568/halo-halo-s05e23-50-1988-full-hd-kvarteto-excelsior-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30830558",
-        "size_bytes": 510281892,
-        "source_bytes_read": 510281892,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S05E23 An Enigma Variation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T20:25:35.368811+00:00"
       }
     },
     "1110:5:24": {
@@ -269110,5 +269111,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T20:25:29.868493+00:00"
+  "updated_at": "2026-11-05T20:25:35.368828+00:00"
 }
