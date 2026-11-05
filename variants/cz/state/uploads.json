@@ -262464,12 +262464,6 @@
     },
     "1087:5:10": {
       "episode_key": "buffy, přemožitelka upírů:s5:e10",
-      "claim": {
-        "worker_id": "e020555113724614a47398fd46470829-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:56:51.427615+00:00",
-        "lease_expires_at": "2026-11-05T17:56:51.427630+00:00"
-      },
       "source": {
         "source_id": "32401981",
         "source_url": "https://sdilej.cz/32401981/buffy-premozitelka-upiru-s05e10-do-lesu.mkv",
@@ -262493,7 +262487,13 @@
         },
         "display_name": "Buffy the Vampire Slayer S05E10 Into the Woods 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:56:58.768360+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-05T11:57:13.667156+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -262501,5 +262501,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:57:11.040018+00:00"
+  "updated_at": "2026-11-05T11:57:13.667174+00:00"
 }
