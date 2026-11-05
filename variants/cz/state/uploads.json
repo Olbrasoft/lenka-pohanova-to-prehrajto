@@ -260356,12 +260356,6 @@
     },
     "1087:3:3": {
       "episode_key": "buffy, přemožitelka upírů:s3:e3",
-      "claim": {
-        "worker_id": "45976779a1654ca5976c5411d6f18453-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:47:22.953485+00:00",
-        "lease_expires_at": "2026-11-05T15:47:22.953516+00:00"
-      },
       "source": {
         "source_id": "30731294",
         "source_url": "https://sdilej.cz/30731294/buffy-premozitelka-upiru-03x03.mp4",
@@ -260386,15 +260380,22 @@
         "display_name": "Buffy the Vampire Slayer S03E03 Faith, Hope & Trick 720p CZ Dabing",
         "prepared_at": "2026-11-05T09:47:28.511889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813370",
-        "size_bytes": 536288440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813370",
+          "size_bytes": 536288440,
+          "source_bytes_read": 536288440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30731294",
+        "source_url": "https://sdilej.cz/30731294/buffy-premozitelka-upiru-03x03.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813370",
-        "size_bytes": 536288440,
-        "source_bytes_read": 536288440,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E03 Faith, Hope & Trick 720p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:49:20.805255+00:00"
       }
     }
   },
@@ -260403,5 +260404,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:49:16.019492+00:00"
+  "updated_at": "2026-11-05T09:49:20.805273+00:00"
 }
