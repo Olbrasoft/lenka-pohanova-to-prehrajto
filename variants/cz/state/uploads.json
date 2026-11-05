@@ -260200,12 +260200,6 @@
     },
     "1087:2:20": {
       "episode_key": "buffy, přemožitelka upírů:s2:e20",
-      "claim": {
-        "worker_id": "7629d2147690471989c39100b92e75a2-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:36:40.623044+00:00",
-        "lease_expires_at": "2026-11-05T15:36:40.623053+00:00"
-      },
       "source": {
         "source_id": "32392754",
         "source_url": "https://sdilej.cz/32392754/buffy-premozitelka-upiru-s02e20-na-rybach.mkv",
@@ -260230,15 +260224,22 @@
         "display_name": "Buffy the Vampire Slayer S02E20 Go Fish 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:36:47.439687+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813006",
-        "size_bytes": 922242937
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813006",
+          "size_bytes": 922242937,
+          "source_bytes_read": 922242937,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392754",
+        "source_url": "https://sdilej.cz/32392754/buffy-premozitelka-upiru-s02e20-na-rybach.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813006",
-        "size_bytes": 922242937,
-        "source_bytes_read": 922242937,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E20 Go Fish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:39:08.222832+00:00"
       }
     },
     "1087:2:21": {
@@ -260284,5 +260285,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:39:02.191400+00:00"
+  "updated_at": "2026-11-05T09:39:08.222851+00:00"
 }
