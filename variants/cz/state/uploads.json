@@ -255752,21 +255752,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "e48aa53a52bc46d2973023323177b520-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:01:12.518538+00:00",
-        "lease_expires_at": "2026-11-05T11:01:12.518550+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30804618",
+          "size_bytes": 563375216,
+          "source_bytes_read": 563375216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33614296",
+        "source_url": "https://sdilej.cz/33614296/vlada-borgen-s01e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30804618",
-        "size_bytes": 563375216
-      },
-      "transfer_receipt": {
-        "target_video_id": "30804618",
-        "size_bytes": 563375216,
-        "source_bytes_read": 563375216,
-        "http_status": 201
+        "display_name": "Borgen S01E09 Del og hersk SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:03:33.660379+00:00"
       }
     },
     "1519:1:10": {
@@ -256178,5 +256179,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:03:31.326425+00:00"
+  "updated_at": "2026-11-05T05:03:33.660397+00:00"
 }
