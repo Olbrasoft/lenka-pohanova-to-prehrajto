@@ -255108,21 +255108,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "22f9ac6e8424420297652da097cb3403-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T04:22:09.603232+00:00",
-        "lease_expires_at": "2026-11-05T10:22:09.603242+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30803753",
+          "size_bytes": 1428849765,
+          "source_bytes_read": 1428849765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203320",
+        "source_url": "https://sdilej.cz/33203320/pribeh-sluzebnice-s06e06-10-2025-cz-dab-1080p-prekvapeni.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30803753",
-        "size_bytes": 1428849765
-      },
-      "transfer_receipt": {
-        "target_video_id": "30803753",
-        "size_bytes": 1428849765,
-        "source_bytes_read": 1428849765,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S06E06 Surprise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T04:29:13.471250+00:00"
       }
     },
     "843:6:7": {
@@ -255933,5 +255934,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T04:29:10.070449+00:00"
+  "updated_at": "2026-11-05T04:29:13.471265+00:00"
 }
