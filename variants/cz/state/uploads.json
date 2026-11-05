@@ -262167,12 +262167,6 @@
     },
     "1087:5:3": {
       "episode_key": "buffy, přemožitelka upírů:s5:e3",
-      "claim": {
-        "worker_id": "b974be7c65814008933f7717a41a20fc-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:43:48.239896+00:00",
-        "lease_expires_at": "2026-11-05T17:43:48.239914+00:00"
-      },
       "source": {
         "source_id": "32401626",
         "source_url": "https://sdilej.cz/32401626/buffy-premozitelka-upiru-s05e03-zamena.mkv",
@@ -262197,15 +262191,22 @@
         "display_name": "Buffy the Vampire Slayer S05E03 The Replacement 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:43:53.581504+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30816496",
-        "size_bytes": 955086768
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30816496",
+          "size_bytes": 955086768,
+          "source_bytes_read": 955086768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32401626",
+        "source_url": "https://sdilej.cz/32401626/buffy-premozitelka-upiru-s05e03-zamena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30816496",
-        "size_bytes": 955086768,
-        "source_bytes_read": 955086768,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E03 The Replacement 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:45:22.108523+00:00"
       }
     },
     "1087:5:4": {
@@ -262251,5 +262252,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:45:15.040847+00:00"
+  "updated_at": "2026-11-05T11:45:22.108541+00:00"
 }
