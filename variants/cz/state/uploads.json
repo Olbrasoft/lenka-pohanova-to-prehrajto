@@ -264798,12 +264798,6 @@
     },
     "1087:7:19": {
       "episode_key": "buffy, přemožitelka upírů:s7:e19",
-      "claim": {
-        "worker_id": "ff1f0dcf872c48ac8fb0c07657565651-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:41:50.026985+00:00",
-        "lease_expires_at": "2026-11-05T19:41:50.027021+00:00"
-      },
       "source": {
         "source_id": "32421761",
         "source_url": "https://sdilej.cz/32421761/buffy-premozitelka-upiru-s07e19-opustena.mkv",
@@ -264828,15 +264822,22 @@
         "display_name": "Buffy the Vampire Slayer S07E19 Empty Places 1080p CZ Dabing",
         "prepared_at": "2026-11-05T13:41:57.393588+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30819244",
-        "size_bytes": 921755311
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30819244",
+          "size_bytes": 921755311,
+          "source_bytes_read": 921755311,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32421761",
+        "source_url": "https://sdilej.cz/32421761/buffy-premozitelka-upiru-s07e19-opustena.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30819244",
-        "size_bytes": 921755311,
-        "source_bytes_read": 921755311,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E19 Empty Places 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:43:17.525540+00:00"
       }
     }
   },
@@ -264845,5 +264846,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:43:11.998836+00:00"
+  "updated_at": "2026-11-05T13:43:17.525557+00:00"
 }
