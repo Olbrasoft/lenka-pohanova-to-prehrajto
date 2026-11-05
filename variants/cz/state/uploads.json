@@ -258654,12 +258654,6 @@
     },
     "1108:3:10": {
       "episode_key": "cizinka:s3:e10",
-      "claim": {
-        "worker_id": "67326ec70b474a73a3fd8b7b60dcda41-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T07:44:34.607905+00:00",
-        "lease_expires_at": "2026-11-05T13:44:34.607918+00:00"
-      },
       "source": {
         "source_id": "28411634",
         "source_url": "https://sdilej.cz/28411634/cizinka-s03e10-1080p-cz-dabing.mkv",
@@ -258684,15 +258678,22 @@
         "display_name": "Outlander S03E10 Heaven and Earth 1080p CZ Dabing",
         "prepared_at": "2026-11-05T07:44:39.979449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30809063",
-        "size_bytes": 1485086217
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30809063",
+          "size_bytes": 1485086217,
+          "source_bytes_read": 1485086217,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28411634",
+        "source_url": "https://sdilej.cz/28411634/cizinka-s03e10-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30809063",
-        "size_bytes": 1485086217,
-        "source_bytes_read": 1485086217,
-        "http_status": 201
+        "display_name": "Outlander S03E10 Heaven and Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T07:49:29.381569+00:00"
       }
     }
   },
@@ -258701,5 +258702,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T07:49:26.011959+00:00"
+  "updated_at": "2026-11-05T07:49:29.381587+00:00"
 }
