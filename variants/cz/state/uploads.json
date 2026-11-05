@@ -261866,12 +261866,6 @@
     },
     "1087:4:17": {
       "episode_key": "buffy, přemožitelka upírů:s4:e17",
-      "claim": {
-        "worker_id": "320eafc44b4d4376a0b7730988d38001-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:13:56.822105+00:00",
-        "lease_expires_at": "2026-11-05T17:13:56.822122+00:00"
-      },
       "source": {
         "source_id": "32400199",
         "source_url": "https://sdilej.cz/32400199/buffy-premozitelka-upiru-s04e17-superstar.mkv",
@@ -261896,15 +261890,22 @@
         "display_name": "Buffy the Vampire Slayer S04E17 Superstar 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:14:01.211496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30815630",
-        "size_bytes": 948166860
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30815630",
+          "size_bytes": 948166860,
+          "source_bytes_read": 948166860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32400199",
+        "source_url": "https://sdilej.cz/32400199/buffy-premozitelka-upiru-s04e17-superstar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30815630",
-        "size_bytes": 948166860,
-        "source_bytes_read": 948166860,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S04E17 Superstar 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:16:37.915455+00:00"
       }
     },
     "1087:4:18": {
@@ -261994,5 +261995,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:16:35.294349+00:00"
+  "updated_at": "2026-11-05T11:16:37.915475+00:00"
 }
