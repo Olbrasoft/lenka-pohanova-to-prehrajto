@@ -266473,12 +266473,6 @@
     },
     "1971:1:5": {
       "episode_key": "městečko broadchurch:s1:e5",
-      "claim": {
-        "worker_id": "8504a19253e6445b9193f2ab8cba1985-worker-0",
-        "run_id": "42035047878",
-        "claimed_at": "2026-11-05T16:28:57.213525+00:00",
-        "lease_expires_at": "2026-11-05T22:28:57.213536+00:00"
-      },
       "source": {
         "source_id": "32911057",
         "source_url": "https://sdilej.cz/32911057/mestecko-broadchurch-s01e05-cz-dabing.mkv",
@@ -266503,15 +266497,22 @@
         "display_name": "Broadchurch S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-05T16:29:02.659980+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30823527",
-        "size_bytes": 2158139831
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30823527",
+          "size_bytes": 2158139831,
+          "source_bytes_read": 2158139831,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32911057",
+        "source_url": "https://sdilej.cz/32911057/mestecko-broadchurch-s01e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30823527",
-        "size_bytes": 2158139831,
-        "source_bytes_read": 2158139831,
-        "http_status": 201
+        "display_name": "Broadchurch S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T16:36:08.341817+00:00"
       }
     }
   },
@@ -266520,5 +266521,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T16:36:05.641078+00:00"
+  "updated_at": "2026-11-05T16:36:08.341831+00:00"
 }
