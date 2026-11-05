@@ -262534,12 +262534,6 @@
     },
     "1087:5:12": {
       "episode_key": "buffy, přemožitelka upírů:s5:e12",
-      "claim": {
-        "worker_id": "21075a1dbc1c4bdabc772ea2ea7e40d3-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T11:57:25.340042+00:00",
-        "lease_expires_at": "2026-11-05T17:57:25.340061+00:00"
-      },
       "source": {
         "source_id": "32401999",
         "source_url": "https://sdilej.cz/32401999/buffy-premozitelka-upiru-s05e12-bod-obratu.mkv",
@@ -262564,15 +262558,22 @@
         "display_name": "Buffy the Vampire Slayer S05E12 Checkpoint 1080p CZ Dabing",
         "prepared_at": "2026-11-05T11:57:28.450984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30816826",
-        "size_bytes": 953000574
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30816826",
+          "size_bytes": 953000574,
+          "source_bytes_read": 953000574,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32401999",
+        "source_url": "https://sdilej.cz/32401999/buffy-premozitelka-upiru-s05e12-bod-obratu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30816826",
-        "size_bytes": 953000574,
-        "source_bytes_read": 953000574,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E12 Checkpoint 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T11:59:42.669085+00:00"
       }
     }
   },
@@ -262581,5 +262582,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T11:59:36.222270+00:00"
+  "updated_at": "2026-11-05T11:59:42.669102+00:00"
 }
