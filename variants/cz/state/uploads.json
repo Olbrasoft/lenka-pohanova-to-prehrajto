@@ -257642,12 +257642,6 @@
     },
     "1108:1:16": {
       "episode_key": "cizinka:s1:e16",
-      "claim": {
-        "worker_id": "6a2971039d4345158ae171ea4836c47a-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T06:16:46.841010+00:00",
-        "lease_expires_at": "2026-11-05T12:16:46.841020+00:00"
-      },
       "source": {
         "source_id": "28210055",
         "source_url": "https://sdilej.cz/28210055/cizinka-s01e16-1080p-cz-dabing.mkv",
@@ -257672,15 +257666,22 @@
         "display_name": "Outlander S01E16 To Ransom a Man's Soul 1080p CZ Dabing",
         "prepared_at": "2026-11-05T06:16:49.495821+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30806731",
-        "size_bytes": 1724666477
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30806731",
+          "size_bytes": 1724666477,
+          "source_bytes_read": 1724666477,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28210055",
+        "source_url": "https://sdilej.cz/28210055/cizinka-s01e16-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30806731",
-        "size_bytes": 1724666477,
-        "source_bytes_read": 1724666477,
-        "http_status": 201
+        "display_name": "Outlander S01E16 To Ransom a Man's Soul 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T06:25:12.811269+00:00"
       }
     }
   },
@@ -257689,5 +257690,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T06:25:08.158122+00:00"
+  "updated_at": "2026-11-05T06:25:12.811283+00:00"
 }
