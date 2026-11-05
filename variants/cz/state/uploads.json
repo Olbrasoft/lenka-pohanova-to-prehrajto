@@ -257151,12 +257151,6 @@
     },
     "1108:1:5": {
       "episode_key": "cizinka:s1:e5",
-      "claim": {
-        "worker_id": "df8c494591bb4f22bcc055d7d1d47a34-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:54:53.871276+00:00",
-        "lease_expires_at": "2026-11-05T11:54:53.871287+00:00"
-      },
       "source": {
         "source_id": "34189612",
         "source_url": "https://sdilej.cz/34189612/cizinka-s01e05-005-2014-fhd-pachtovne-s-.mp4",
@@ -257181,15 +257175,22 @@
         "display_name": "Outlander S01E05 Rent 1080p CZ Dabing",
         "prepared_at": "2026-11-05T05:54:58.809180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30806078",
-        "size_bytes": 1201980899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30806078",
+          "size_bytes": 1201980899,
+          "source_bytes_read": 1201980899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34189612",
+        "source_url": "https://sdilej.cz/34189612/cizinka-s01e05-005-2014-fhd-pachtovne-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30806078",
-        "size_bytes": 1201980899,
-        "source_bytes_read": 1201980899,
-        "http_status": 201
+        "display_name": "Outlander S01E05 Rent 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T05:57:38.952079+00:00"
       }
     },
     "1108:1:6": {
@@ -257235,5 +257236,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:57:35.647485+00:00"
+  "updated_at": "2026-11-05T05:57:38.952093+00:00"
 }
