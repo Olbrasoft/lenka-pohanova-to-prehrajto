@@ -259886,12 +259886,6 @@
     },
     "1087:2:13": {
       "episode_key": "buffy, přemožitelka upírů:s2:e13",
-      "claim": {
-        "worker_id": "d549b6cd63344b8b89d85e5658f0c3b8-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:27:15.076486+00:00",
-        "lease_expires_at": "2026-11-05T15:27:15.076520+00:00"
-      },
       "source": {
         "source_id": "32391792",
         "source_url": "https://sdilej.cz/32391792/buffy-premozitelka-upiru-s02e13-prekvapeni.mkv",
@@ -259916,15 +259910,22 @@
         "display_name": "Buffy the Vampire Slayer S02E13 Surprise (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:27:22.443203+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812633",
-        "size_bytes": 948558682
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812633",
+          "size_bytes": 948558682,
+          "source_bytes_read": 948558682,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32391792",
+        "source_url": "https://sdilej.cz/32391792/buffy-premozitelka-upiru-s02e13-prekvapeni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812633",
-        "size_bytes": 948558682,
-        "source_bytes_read": 948558682,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E13 Surprise (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:32:22.820838+00:00"
       }
     },
     "1087:2:14": {
@@ -260095,5 +260096,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:32:18.468306+00:00"
+  "updated_at": "2026-11-05T09:32:22.820857+00:00"
 }
