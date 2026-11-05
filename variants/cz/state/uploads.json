@@ -260860,12 +260860,6 @@
     },
     "1087:3:15": {
       "episode_key": "buffy, přemožitelka upírů:s3:e15",
-      "claim": {
-        "worker_id": "bcdf73193e90482a9a0ce6946ac5781d-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T10:38:14.678435+00:00",
-        "lease_expires_at": "2026-11-05T16:38:14.678450+00:00"
-      },
       "source": {
         "source_id": "32397838",
         "source_url": "https://sdilej.cz/32397838/buffy-premozitelka-upiru-s03e15-nasledky.mkv",
@@ -260890,15 +260884,22 @@
         "display_name": "Buffy the Vampire Slayer S03E15 Consequences 1080p CZ Dabing",
         "prepared_at": "2026-11-05T10:38:20.143315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30814642",
-        "size_bytes": 946869299
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30814642",
+          "size_bytes": 946869299,
+          "source_bytes_read": 946869299,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32397838",
+        "source_url": "https://sdilej.cz/32397838/buffy-premozitelka-upiru-s03e15-nasledky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30814642",
-        "size_bytes": 946869299,
-        "source_bytes_read": 946869299,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E15 Consequences 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T10:40:46.125282+00:00"
       }
     }
   },
@@ -260907,5 +260908,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T10:40:43.800630+00:00"
+  "updated_at": "2026-11-05T10:40:46.125305+00:00"
 }
