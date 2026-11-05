@@ -259967,12 +259967,6 @@
     },
     "1087:2:15": {
       "episode_key": "buffy, přemožitelka upírů:s2:e15",
-      "claim": {
-        "worker_id": "550a80858cb1449686c87972dd523615-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:27:39.989530+00:00",
-        "lease_expires_at": "2026-11-05T15:27:39.989541+00:00"
-      },
       "source": {
         "source_id": "32392163",
         "source_url": "https://sdilej.cz/32392163/buffy-premozitelka-upiru-s02e15-vlkodlak-v-sunnydale.mkv",
@@ -259997,15 +259991,22 @@
         "display_name": "Buffy the Vampire Slayer S02E15 Phases 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:27:43.047224+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812650",
-        "size_bytes": 936197110
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812650",
+          "size_bytes": 936197110,
+          "source_bytes_read": 936197110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392163",
+        "source_url": "https://sdilej.cz/32392163/buffy-premozitelka-upiru-s02e15-vlkodlak-v-sunnydale.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812650",
-        "size_bytes": 936197110,
-        "source_bytes_read": 936197110,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E15 Phases 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:31:44.578111+00:00"
       }
     }
   },
@@ -260014,5 +260015,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:31:41.960419+00:00"
+  "updated_at": "2026-11-05T09:31:44.578127+00:00"
 }
