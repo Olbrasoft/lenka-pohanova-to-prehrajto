@@ -256498,12 +256498,6 @@
     },
     "1519:3:5": {
       "episode_key": "vláda:s3:e5",
-      "claim": {
-        "worker_id": "788c13d10b204f6ca66e041a573f2bd5-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:15:12.645893+00:00",
-        "lease_expires_at": "2026-11-05T11:15:12.645904+00:00"
-      },
       "source": {
         "source_id": "33614321",
         "source_url": "https://sdilej.cz/33614321/vlada-borgen-s03e05-czdab.mp4",
@@ -256528,15 +256522,22 @@
         "display_name": "Borgen S03E05 Du skal ikke bedrive hor SD CZ Dabing",
         "prepared_at": "2026-11-05T05:15:16.390059+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30805028",
-        "size_bytes": 566663571
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30805028",
+          "size_bytes": 566663571,
+          "source_bytes_read": 566663571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33614321",
+        "source_url": "https://sdilej.cz/33614321/vlada-borgen-s03e05-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30805028",
-        "size_bytes": 566663571,
-        "source_bytes_read": 566663571,
-        "http_status": 201
+        "display_name": "Borgen S03E05 Du skal ikke bedrive hor SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:16:33.418777+00:00"
       }
     },
     "1519:3:6": {
@@ -256615,5 +256616,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:16:31.341617+00:00"
+  "updated_at": "2026-11-05T05:16:33.418792+00:00"
 }
