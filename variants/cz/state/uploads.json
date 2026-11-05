@@ -255302,21 +255302,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "0f4c8e00296f409db568ba135d0f11d8-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T04:52:18.396024+00:00",
-        "lease_expires_at": "2026-11-05T10:52:18.396034+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30804402",
+          "size_bytes": 2742629486,
+          "source_bytes_read": 2742629486,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203370",
+        "source_url": "https://sdilej.cz/33203370/pribeh-sluzebnice-s06e09-10-2025-cz-dab-1080p-poprava.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30804402",
-        "size_bytes": 2742629486
-      },
-      "transfer_receipt": {
-        "target_video_id": "30804402",
-        "size_bytes": 2742629486,
-        "source_bytes_read": 2742629486,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S06E09 Execution 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T04:59:11.649904+00:00"
       }
     },
     "1519:1:1": {
@@ -256039,5 +256040,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T04:59:07.249946+00:00"
+  "updated_at": "2026-11-05T04:59:11.649920+00:00"
 }
