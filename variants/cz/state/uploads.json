@@ -262856,12 +262856,6 @@
     },
     "1087:5:19": {
       "episode_key": "buffy, přemožitelka upírů:s5:e19",
-      "claim": {
-        "worker_id": "635469756ee54abb80b7b61d88e1ee50-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:08:37.606681+00:00",
-        "lease_expires_at": "2026-11-05T18:08:37.606696+00:00"
-      },
       "source": {
         "source_id": "32402076",
         "source_url": "https://sdilej.cz/32402076/buffy-premozitelka-upiru-s05e19-obeti-pro-lasku.mkv",
@@ -262886,15 +262880,22 @@
         "display_name": "Buffy the Vampire Slayer S05E19 Tough Love 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:08:44.968590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817115",
-        "size_bytes": 959618842
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817115",
+          "size_bytes": 959618842,
+          "source_bytes_read": 959618842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402076",
+        "source_url": "https://sdilej.cz/32402076/buffy-premozitelka-upiru-s05e19-obeti-pro-lasku.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817115",
-        "size_bytes": 959618842,
-        "source_bytes_read": 959618842,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E19 Tough Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:11:21.285744+00:00"
       }
     },
     "1087:5:20": {
@@ -263061,5 +263062,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:11:18.878979+00:00"
+  "updated_at": "2026-11-05T12:11:21.285764+00:00"
 }
