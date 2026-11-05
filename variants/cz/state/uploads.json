@@ -262893,12 +262893,6 @@
     },
     "1087:5:20": {
       "episode_key": "buffy, přemožitelka upírů:s5:e20",
-      "claim": {
-        "worker_id": "e82da3385d0d4a1fa23969956d086b3c-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:08:40.077833+00:00",
-        "lease_expires_at": "2026-11-05T18:08:40.077848+00:00"
-      },
       "source": {
         "source_id": "34253900",
         "source_url": "https://sdilej.cz/34253900/buffy-premozitelka-upiru-s05e20-spirala.mkv",
@@ -262923,15 +262917,22 @@
         "display_name": "Buffy the Vampire Slayer S05E20 Spiral 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:08:51.942153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817126",
-        "size_bytes": 973759708
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817126",
+          "size_bytes": 973759708,
+          "source_bytes_read": 973759708,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34253900",
+        "source_url": "https://sdilej.cz/34253900/buffy-premozitelka-upiru-s05e20-spirala.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817126",
-        "size_bytes": 973759708,
-        "source_bytes_read": 973759708,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E20 Spiral 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:10:39.103577+00:00"
       }
     },
     "1087:5:21": {
@@ -262977,5 +262978,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:10:32.914316+00:00"
+  "updated_at": "2026-11-05T12:10:39.103593+00:00"
 }
