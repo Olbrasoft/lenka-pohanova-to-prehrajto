@@ -258044,12 +258044,6 @@
     },
     "1108:2:9": {
       "episode_key": "cizinka:s2:e9",
-      "claim": {
-        "worker_id": "df48cff1662b441ca7b1459603e5b80c-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T07:08:44.093927+00:00",
-        "lease_expires_at": "2026-11-05T13:08:44.093941+00:00"
-      },
       "source": {
         "source_id": "28357321",
         "source_url": "https://sdilej.cz/28357321/cizinka-s02e09-1080p-cz-dabing.mkv",
@@ -258074,15 +258068,22 @@
         "display_name": "Outlander S02E09 Je Suis Prest 1080p CZ Dabing",
         "prepared_at": "2026-11-05T07:08:48.215102+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30808053",
-        "size_bytes": 1544037013
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30808053",
+          "size_bytes": 1544037013,
+          "source_bytes_read": 1544037013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28357321",
+        "source_url": "https://sdilej.cz/28357321/cizinka-s02e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30808053",
-        "size_bytes": 1544037013,
-        "source_bytes_read": 1544037013,
-        "http_status": 201
+        "display_name": "Outlander S02E09 Je Suis Prest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T07:13:57.585753+00:00"
       }
     },
     "1108:2:10": {
@@ -258179,5 +258180,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T07:13:54.920073+00:00"
+  "updated_at": "2026-11-05T07:13:57.585771+00:00"
 }
