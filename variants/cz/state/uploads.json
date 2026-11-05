@@ -262988,12 +262988,6 @@
     },
     "1087:5:22": {
       "episode_key": "buffy, přemožitelka upírů:s5:e22",
-      "claim": {
-        "worker_id": "aec027497e854411a54ef21421fec672-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:10:49.038894+00:00",
-        "lease_expires_at": "2026-11-05T18:10:49.038911+00:00"
-      },
       "source": {
         "source_id": "32402127",
         "source_url": "https://sdilej.cz/32402127/buffy-premozitelka-upiru-s05e22-dar.mkv",
@@ -263018,15 +263012,22 @@
         "display_name": "Buffy the Vampire Slayer S05E22 The Gift 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:10:54.691407+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817160",
-        "size_bytes": 963348835
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817160",
+          "size_bytes": 963348835,
+          "source_bytes_read": 963348835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402127",
+        "source_url": "https://sdilej.cz/32402127/buffy-premozitelka-upiru-s05e22-dar.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817160",
-        "size_bytes": 963348835,
-        "source_bytes_read": 963348835,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S05E22 The Gift 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:12:39.929262+00:00"
       }
     },
     "1087:6:1": {
@@ -263109,5 +263110,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:12:33.186099+00:00"
+  "updated_at": "2026-11-05T12:12:39.929279+00:00"
 }
