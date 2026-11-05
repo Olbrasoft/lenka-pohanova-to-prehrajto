@@ -259703,12 +259703,6 @@
     },
     "1087:2:9": {
       "episode_key": "buffy, přemožitelka upírů:s2:e9",
-      "claim": {
-        "worker_id": "a5af8090dfd4460bb42a7dd7b573f40f-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:15:54.435119+00:00",
-        "lease_expires_at": "2026-11-05T15:15:54.435129+00:00"
-      },
       "source": {
         "source_id": "32391318",
         "source_url": "https://sdilej.cz/32391318/buffy-premozitelka-upiru-s02e09-cim-budu-cast-1.mkv",
@@ -259733,15 +259727,22 @@
         "display_name": "Buffy the Vampire Slayer S02E09 What's My Line? (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:16:02.672118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812323",
-        "size_bytes": 957446221
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812323",
+          "size_bytes": 957446221,
+          "source_bytes_read": 957446221,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32391318",
+        "source_url": "https://sdilej.cz/32391318/buffy-premozitelka-upiru-s02e09-cim-budu-cast-1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812323",
-        "size_bytes": 957446221,
-        "source_bytes_read": 957446221,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E09 What's My Line? (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:18:49.167272+00:00"
       }
     },
     "1087:2:10": {
@@ -259787,5 +259788,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:18:42.787021+00:00"
+  "updated_at": "2026-11-05T09:18:49.167287+00:00"
 }
