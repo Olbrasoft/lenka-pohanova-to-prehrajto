@@ -258968,12 +258968,6 @@
     },
     "1087:1:4": {
       "episode_key": "buffy, přemožitelka upírů:s1:e4",
-      "claim": {
-        "worker_id": "73d5fa61872d4b998b0792012f099696-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:20:45.467649+00:00",
-        "lease_expires_at": "2026-11-05T14:20:45.467663+00:00"
-      },
       "source": {
         "source_id": "32389595",
         "source_url": "https://sdilej.cz/32389595/buffy-premozitelka-upiru-s01e04-ucitelcin-mazlicek.mkv",
@@ -258998,15 +258992,22 @@
         "display_name": "Buffy the Vampire Slayer S01E04 Teacher's Pet 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:20:53.079062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30810322",
-        "size_bytes": 957105044
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30810322",
+          "size_bytes": 957105044,
+          "source_bytes_read": 957105044,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32389595",
+        "source_url": "https://sdilej.cz/32389595/buffy-premozitelka-upiru-s01e04-ucitelcin-mazlicek.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30810322",
-        "size_bytes": 957105044,
-        "source_bytes_read": 957105044,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S01E04 Teacher's Pet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:23:11.815996+00:00"
       }
     },
     "1087:1:5": {
@@ -259102,5 +259103,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:23:08.870226+00:00"
+  "updated_at": "2026-11-05T08:23:11.816009+00:00"
 }
