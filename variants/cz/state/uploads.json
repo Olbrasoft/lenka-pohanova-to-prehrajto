@@ -252982,21 +252982,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "20a120f770f04e1287a5d1d2c5c0bf04-worker-0",
-        "run_id": "41924605899",
-        "claimed_at": "2026-11-05T01:03:09.689440+00:00",
-        "lease_expires_at": "2026-11-05T07:03:09.689450+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30798723",
+          "size_bytes": 1815358945,
+          "source_bytes_read": 1815358945,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203087",
+        "source_url": "https://sdilej.cz/33203087/pribeh-sluzebnice-s03e01-13-2019-cz-dab-1080p-noc.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30798723",
-        "size_bytes": 1815358945
-      },
-      "transfer_receipt": {
-        "target_video_id": "30798723",
-        "size_bytes": 1815358945,
-        "source_bytes_read": 1815358945,
-        "http_status": 201
+        "display_name": "The Handmaid's Tale S03E01 Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T01:09:15.716742+00:00"
       }
     },
     "843:3:2": {
@@ -255298,5 +255299,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T01:09:10.683750+00:00"
+  "updated_at": "2026-11-05T01:09:15.716759+00:00"
 }
