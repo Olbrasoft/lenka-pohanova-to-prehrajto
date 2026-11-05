@@ -259490,12 +259490,6 @@
     },
     "1087:2:4": {
       "episode_key": "buffy, přemožitelka upírů:s2:e4",
-      "claim": {
-        "worker_id": "77bafe6d02ed4da784b4a24f8daa2649-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:45:51.895149+00:00",
-        "lease_expires_at": "2026-11-05T14:45:51.895160+00:00"
-      },
       "source": {
         "source_id": "32390857",
         "source_url": "https://sdilej.cz/32390857/buffy-premozitelka-upiru-s02e04-incka-mumie.mkv",
@@ -259520,15 +259514,22 @@
         "display_name": "Buffy the Vampire Slayer S02E04 Inca Mummy Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:45:55.386045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30811319",
-        "size_bytes": 961415622
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30811319",
+          "size_bytes": 961415622,
+          "source_bytes_read": 961415622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32390857",
+        "source_url": "https://sdilej.cz/32390857/buffy-premozitelka-upiru-s02e04-incka-mumie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30811319",
-        "size_bytes": 961415622,
-        "source_bytes_read": 961415622,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E04 Inca Mummy Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:52:04.490609+00:00"
       }
     },
     "1087:2:5": {
@@ -259574,5 +259575,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:52:01.994588+00:00"
+  "updated_at": "2026-11-05T08:52:04.490625+00:00"
 }
