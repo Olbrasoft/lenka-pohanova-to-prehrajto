@@ -266216,12 +266216,6 @@
     },
     "3454:1:9": {
       "episode_key": "temný krystal: věk vzdoru:s1:e9",
-      "claim": {
-        "worker_id": "1e031ad82aed4234be5ef72c2af5ce98-worker-0",
-        "run_id": "42035047878",
-        "claimed_at": "2026-11-05T15:29:33.735376+00:00",
-        "lease_expires_at": "2026-11-05T21:29:33.735388+00:00"
-      },
       "source": {
         "source_id": "35097221",
         "source_url": "https://sdilej.cz/35097221/temny-krystal-vek-vzdoru-s01e09-krystal-vola.mkv",
@@ -266246,15 +266240,22 @@
         "display_name": "The Dark Crystal: Age of Resistance S01E09 The Crystal Calls 1080p CZ Dabing",
         "prepared_at": "2026-11-05T15:29:36.799953+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30821961",
-        "size_bytes": 1429003748
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30821961",
+          "size_bytes": 1429003748,
+          "source_bytes_read": 1429003748,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35097221",
+        "source_url": "https://sdilej.cz/35097221/temny-krystal-vek-vzdoru-s01e09-krystal-vola.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30821961",
-        "size_bytes": 1429003748,
-        "source_bytes_read": 1429003748,
-        "http_status": 201
+        "display_name": "The Dark Crystal: Age of Resistance S01E09 The Crystal Calls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T15:40:18.956767+00:00"
       }
     }
   },
@@ -266263,5 +266264,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T15:40:14.712451+00:00"
+  "updated_at": "2026-11-05T15:40:18.956787+00:00"
 }
