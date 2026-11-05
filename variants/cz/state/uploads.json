@@ -260282,12 +260282,6 @@
     },
     "1087:3:1": {
       "episode_key": "buffy, přemožitelka upírů:s3:e1",
-      "claim": {
-        "worker_id": "d38b43cf888c41de80c7f7b269a06f98-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:46:50.778263+00:00",
-        "lease_expires_at": "2026-11-05T15:46:50.778272+00:00"
-      },
       "source": {
         "source_id": "32394238",
         "source_url": "https://sdilej.cz/32394238/buffy-premozitelka-upiru-s03e01-anne.mkv",
@@ -260312,15 +260306,22 @@
         "display_name": "Buffy the Vampire Slayer S03E01 Anne 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:46:59.170982+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813343",
-        "size_bytes": 958991383
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813343",
+          "size_bytes": 958991383,
+          "source_bytes_read": 958991383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32394238",
+        "source_url": "https://sdilej.cz/32394238/buffy-premozitelka-upiru-s03e01-anne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813343",
-        "size_bytes": 958991383,
-        "source_bytes_read": 958991383,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E01 Anne 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:50:58.543255+00:00"
       }
     },
     "1087:3:2": {
@@ -260454,5 +260455,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:50:52.781146+00:00"
+  "updated_at": "2026-11-05T09:50:58.543268+00:00"
 }
