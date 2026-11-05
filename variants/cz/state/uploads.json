@@ -255338,21 +255338,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "1cd73aa7a3434b4799a34740ad09ff06-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T04:52:34.822372+00:00",
-        "lease_expires_at": "2026-11-05T10:52:34.822381+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30804406",
+          "size_bytes": 507433184,
+          "source_bytes_read": 507433184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33872433",
+        "source_url": "https://sdilej.cz/33872433/vlada-s01e01-ctnost-uprostred-borgen-2010-cz-dan.serial.avi",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30804406",
-        "size_bytes": 507433184
-      },
-      "transfer_receipt": {
-        "target_video_id": "30804406",
-        "size_bytes": 507433184,
-        "source_bytes_read": 507433184,
-        "http_status": 201
+        "display_name": "Borgen S01E01 Dyden i midten SD CZ Dabing",
+        "uploaded_at": "2026-11-05T04:54:34.303040+00:00"
       }
     },
     "1519:1:2": {
@@ -255988,5 +255989,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T04:54:29.503052+00:00"
+  "updated_at": "2026-11-05T04:54:34.303055+00:00"
 }
