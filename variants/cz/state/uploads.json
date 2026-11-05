@@ -264353,12 +264353,6 @@
     },
     "1087:7:9": {
       "episode_key": "buffy, přemožitelka upírů:s7:e9",
-      "claim": {
-        "worker_id": "7e8107d938ae42058f8ed7d1d57e4f37-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:14:17.985386+00:00",
-        "lease_expires_at": "2026-11-05T19:14:17.985401+00:00"
-      },
       "source": {
         "source_id": "32411428",
         "source_url": "https://sdilej.cz/32411428/buffy-premozitelka-upiru-s07e09-nikdy-me-neopoustej.mkv",
@@ -264383,15 +264377,22 @@
         "display_name": "Buffy the Vampire Slayer S07E09 Never Leave Me 1080p CZ Dabing",
         "prepared_at": "2026-11-05T13:14:26.357710+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818612",
-        "size_bytes": 894622343
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818612",
+          "size_bytes": 894622343,
+          "source_bytes_read": 894622343,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411428",
+        "source_url": "https://sdilej.cz/32411428/buffy-premozitelka-upiru-s07e09-nikdy-me-neopoustej.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818612",
-        "size_bytes": 894622343,
-        "source_bytes_read": 894622343,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E09 Never Leave Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:16:35.481906+00:00"
       }
     },
     "1087:7:10": {
@@ -264437,5 +264438,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:16:31.154831+00:00"
+  "updated_at": "2026-11-05T13:16:35.481922+00:00"
 }
