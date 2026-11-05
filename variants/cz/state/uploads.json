@@ -268410,12 +268410,6 @@
     },
     "1110:5:9": {
       "episode_key": "haló, haló!:s5:e9",
-      "claim": {
-        "worker_id": "ae5f552babe44b15b15503007fb1d2cb-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T19:50:08.639662+00:00",
-        "lease_expires_at": "2026-11-06T01:50:08.639672+00:00"
-      },
       "source": {
         "source_id": "25623102",
         "source_url": "https://sdilej.cz/25623102/halo-halo-s05e09-36-1988-full-hd-konference-sd-.mp4",
@@ -268440,15 +268434,22 @@
         "display_name": "'Allo 'Allo! S05E09 Watch the Birdie 1080p CZ Dabing",
         "prepared_at": "2026-11-05T19:50:16.779047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30829519",
-        "size_bytes": 504516908
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30829519",
+          "size_bytes": 504516908,
+          "source_bytes_read": 504516908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25623102",
+        "source_url": "https://sdilej.cz/25623102/halo-halo-s05e09-36-1988-full-hd-konference-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30829519",
-        "size_bytes": 504516908,
-        "source_bytes_read": 504516908,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S05E09 Watch the Birdie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T19:53:00.804146+00:00"
       }
     }
   },
@@ -268457,5 +268458,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T19:52:55.231260+00:00"
+  "updated_at": "2026-11-05T19:53:00.804163+00:00"
 }
