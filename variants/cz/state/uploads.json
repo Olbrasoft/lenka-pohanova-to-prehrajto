@@ -266907,12 +266907,6 @@
     },
     "1971:2:7": {
       "episode_key": "městečko broadchurch:s2:e7",
-      "claim": {
-        "worker_id": "0ffe5464f157416887b9a9421f25fe6d-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T18:09:25.032005+00:00",
-        "lease_expires_at": "2026-11-06T00:09:25.032016+00:00"
-      },
       "source": {
         "source_id": "32911137",
         "source_url": "https://sdilej.cz/32911137/mestecko-broadchurch-s02e07-cz-dabing.mkv",
@@ -266937,15 +266931,22 @@
         "display_name": "Broadchurch S02E07 1080p CZ Dabing",
         "prepared_at": "2026-11-05T18:09:28.232374+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30826620",
-        "size_bytes": 2162984100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30826620",
+          "size_bytes": 2162984100,
+          "source_bytes_read": 2162984100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32911137",
+        "source_url": "https://sdilej.cz/32911137/mestecko-broadchurch-s02e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30826620",
-        "size_bytes": 2162984100,
-        "source_bytes_read": 2162984100,
-        "http_status": 201
+        "display_name": "Broadchurch S02E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T18:21:57.457071+00:00"
       }
     },
     "1971:2:8": {
@@ -266991,5 +266992,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T18:21:52.144048+00:00"
+  "updated_at": "2026-11-05T18:21:57.457087+00:00"
 }
