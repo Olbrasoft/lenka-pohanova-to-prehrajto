@@ -256806,12 +256806,6 @@
     },
     "1257:1:11": {
       "episode_key": "vražda:s1:e11",
-      "claim": {
-        "worker_id": "7b98a0b222c04d64abe184839ff6f179-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:24:18.577240+00:00",
-        "lease_expires_at": "2026-11-05T11:24:18.577249+00:00"
-      },
       "source": {
         "source_id": "14799061",
         "source_url": "https://sdilej.cz/14799061/the.killing.-2011-.s01e11.480p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -256836,15 +256830,22 @@
         "display_name": "The Killing (2011) [ID 1257] S01E11 Missing SD CZ Dabing",
         "prepared_at": "2026-11-05T05:24:25.859171+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30805251",
-        "size_bytes": 319132557
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30805251",
+          "size_bytes": 319132557,
+          "source_bytes_read": 319132557,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14799061",
+        "source_url": "https://sdilej.cz/14799061/the.killing.-2011-.s01e11.480p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30805251",
-        "size_bytes": 319132557,
-        "source_bytes_read": 319132557,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1257] S01E11 Missing SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:28:32.170703+00:00"
       }
     },
     "1257:1:13": {
@@ -256890,5 +256891,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:28:26.464269+00:00"
+  "updated_at": "2026-11-05T05:28:32.170713+00:00"
 }
