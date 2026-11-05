@@ -260539,12 +260539,6 @@
     },
     "1087:3:7": {
       "episode_key": "buffy, přemožitelka upírů:s3:e7",
-      "claim": {
-        "worker_id": "b4fc1ef165dd49e4b4967d1b875e58ed-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:54:20.796228+00:00",
-        "lease_expires_at": "2026-11-05T15:54:20.796246+00:00"
-      },
       "source": {
         "source_id": "32395874",
         "source_url": "https://sdilej.cz/32395874/buffy-premozitelka-upiru-s03e07-odhaleni.mkv",
@@ -260569,15 +260563,22 @@
         "display_name": "Buffy the Vampire Slayer S03E07 Revelations 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:54:27.116724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30813531",
-        "size_bytes": 950231151
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30813531",
+          "size_bytes": 950231151,
+          "source_bytes_read": 950231151,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32395874",
+        "source_url": "https://sdilej.cz/32395874/buffy-premozitelka-upiru-s03e07-odhaleni.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30813531",
-        "size_bytes": 950231151,
-        "source_bytes_read": 950231151,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E07 Revelations 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:56:51.807697+00:00"
       }
     }
   },
@@ -260586,5 +260587,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:56:44.911249+00:00"
+  "updated_at": "2026-11-05T09:56:51.807713+00:00"
 }
