@@ -263209,12 +263209,6 @@
     },
     "1087:6:5": {
       "episode_key": "buffy, přemožitelka upírů:s6:e5",
-      "claim": {
-        "worker_id": "c5300e98d11c4793b13c3df097ec9380-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:13:44.366569+00:00",
-        "lease_expires_at": "2026-11-05T18:13:44.366583+00:00"
-      },
       "source": {
         "source_id": "32402279",
         "source_url": "https://sdilej.cz/32402279/buffy-premozitelka-upiru-s06e05-serialovy-zivot.mkv",
@@ -263239,15 +263233,22 @@
         "display_name": "Buffy the Vampire Slayer S06E05 Life Serial 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:13:55.045422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817246",
-        "size_bytes": 923613074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817246",
+          "size_bytes": 923613074,
+          "source_bytes_read": 923613074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402279",
+        "source_url": "https://sdilej.cz/32402279/buffy-premozitelka-upiru-s06e05-serialovy-zivot.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817246",
-        "size_bytes": 923613074,
-        "source_bytes_read": 923613074,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E05 Life Serial 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:15:47.176238+00:00"
       }
     }
   },
@@ -263256,5 +263257,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:15:42.276381+00:00"
+  "updated_at": "2026-11-05T12:15:47.176256+00:00"
 }
