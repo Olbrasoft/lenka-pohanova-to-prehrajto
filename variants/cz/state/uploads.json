@@ -257686,12 +257686,6 @@
     },
     "1108:2:1": {
       "episode_key": "cizinka:s2:e1",
-      "claim": {
-        "worker_id": "70ef088f14e3415d8635f41e6f1ad407-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T06:35:54.795437+00:00",
-        "lease_expires_at": "2026-11-05T12:35:54.795447+00:00"
-      },
       "source": {
         "source_id": "28352963",
         "source_url": "https://sdilej.cz/28352963/cizinka-s02e01-1080p-cz-dabing.mkv",
@@ -257716,15 +257710,22 @@
         "display_name": "Outlander S02E01 Through a Glass, Darkly 1080p CZ Dabing",
         "prepared_at": "2026-11-05T06:35:59.453602+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30807158",
-        "size_bytes": 1689435663
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30807158",
+          "size_bytes": 1689435663,
+          "source_bytes_read": 1689435663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28352963",
+        "source_url": "https://sdilej.cz/28352963/cizinka-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30807158",
-        "size_bytes": 1689435663,
-        "source_bytes_read": 1689435663,
-        "http_status": 201
+        "display_name": "Outlander S02E01 Through a Glass, Darkly 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T06:44:32.697209+00:00"
       }
     },
     "1108:2:2": {
@@ -257821,5 +257822,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T06:44:28.576780+00:00"
+  "updated_at": "2026-11-05T06:44:32.697227+00:00"
 }
