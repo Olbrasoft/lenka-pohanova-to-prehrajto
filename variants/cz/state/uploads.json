@@ -268372,12 +268372,6 @@
     },
     "1110:5:8": {
       "episode_key": "haló, haló!:s5:e8",
-      "claim": {
-        "worker_id": "44c6577aa1f947b3b5ca390ea12b341c-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T19:50:03.677901+00:00",
-        "lease_expires_at": "2026-11-06T01:50:03.677911+00:00"
-      },
       "source": {
         "source_id": "25623075",
         "source_url": "https://sdilej.cz/25623075/halo-halo-s05e08-35-1988-full-hd-dalekonosny-kacer-sd-.mp4",
@@ -268402,15 +268396,22 @@
         "display_name": "'Allo 'Allo! S05E08 The Arrival of the Homing Duck 1080p CZ Dabing",
         "prepared_at": "2026-11-05T19:50:13.800854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30829517",
-        "size_bytes": 552248524
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30829517",
+          "size_bytes": 552248524,
+          "source_bytes_read": 552248524,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25623075",
+        "source_url": "https://sdilej.cz/25623075/halo-halo-s05e08-35-1988-full-hd-dalekonosny-kacer-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30829517",
-        "size_bytes": 552248524,
-        "source_bytes_read": 552248524,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S05E08 The Arrival of the Homing Duck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T19:52:46.948491+00:00"
       }
     },
     "1110:5:9": {
@@ -268456,5 +268457,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T19:52:43.178571+00:00"
+  "updated_at": "2026-11-05T19:52:46.948507+00:00"
 }
