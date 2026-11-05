@@ -263657,12 +263657,6 @@
     },
     "1087:6:15": {
       "episode_key": "buffy, přemožitelka upírů:s6:e15",
-      "claim": {
-        "worker_id": "7315ae6d0c964e23b9abb96417a1cf57-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:47:28.294833+00:00",
-        "lease_expires_at": "2026-11-05T18:47:28.294849+00:00"
-      },
       "source": {
         "source_id": "32406083",
         "source_url": "https://sdilej.cz/32406083/buffy-premozitelka-upiru-s06e15-pohov-rozchod.mkv",
@@ -263687,15 +263681,22 @@
         "display_name": "Buffy the Vampire Slayer S06E15 As You Were 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:47:35.373029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818039",
-        "size_bytes": 925553833
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818039",
+          "size_bytes": 925553833,
+          "source_bytes_read": 925553833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32406083",
+        "source_url": "https://sdilej.cz/32406083/buffy-premozitelka-upiru-s06e15-pohov-rozchod.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818039",
-        "size_bytes": 925553833,
-        "source_bytes_read": 925553833,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E15 As You Were 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:49:37.643966+00:00"
       }
     },
     "1087:6:16": {
@@ -263785,5 +263786,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:49:32.100174+00:00"
+  "updated_at": "2026-11-05T12:49:37.643983+00:00"
 }
