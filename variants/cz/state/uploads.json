@@ -260150,12 +260150,6 @@
     },
     "1087:2:19": {
       "episode_key": "buffy, přemožitelka upírů:s2:e19",
-      "claim": {
-        "worker_id": "c3da8fa1ea8840789526e41ae38b4880-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T09:34:40.001911+00:00",
-        "lease_expires_at": "2026-11-05T15:34:40.001922+00:00"
-      },
       "source": {
         "source_id": "32392645",
         "source_url": "https://sdilej.cz/32392645/buffy-premozitelka-upiru-s02e19-jsem-do-tebe-blazen.mkv",
@@ -260180,15 +260174,22 @@
         "display_name": "Buffy the Vampire Slayer S02E19 I Only Have Eyes for You 1080p CZ Dabing",
         "prepared_at": "2026-11-05T09:34:45.577940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30812942",
-        "size_bytes": 962653086
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30812942",
+          "size_bytes": 962653086,
+          "source_bytes_read": 962653086,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32392645",
+        "source_url": "https://sdilej.cz/32392645/buffy-premozitelka-upiru-s02e19-jsem-do-tebe-blazen.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30812942",
-        "size_bytes": 962653086,
-        "source_bytes_read": 962653086,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E19 I Only Have Eyes for You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T09:36:21.649212+00:00"
       }
     }
   },
@@ -260197,5 +260198,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T09:36:19.184020+00:00"
+  "updated_at": "2026-11-05T09:36:21.649227+00:00"
 }
