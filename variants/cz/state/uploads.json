@@ -264398,12 +264398,6 @@
     },
     "1087:7:10": {
       "episode_key": "buffy, přemožitelka upírů:s7:e10",
-      "claim": {
-        "worker_id": "2e693e660a5c4122946ac86e7680084e-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T13:14:23.149204+00:00",
-        "lease_expires_at": "2026-11-05T19:14:23.149219+00:00"
-      },
       "source": {
         "source_id": "32411551",
         "source_url": "https://sdilej.cz/32411551/buffy-premozitelka-upiru-s07e10-noc-prichazi.mkv",
@@ -264428,15 +264422,22 @@
         "display_name": "Buffy the Vampire Slayer S07E10 Bring on the Night 1080p CZ Dabing",
         "prepared_at": "2026-11-05T13:14:29.069157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30818613",
-        "size_bytes": 919135256
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30818613",
+          "size_bytes": 919135256,
+          "source_bytes_read": 919135256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411551",
+        "source_url": "https://sdilej.cz/32411551/buffy-premozitelka-upiru-s07e10-noc-prichazi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30818613",
-        "size_bytes": 919135256,
-        "source_bytes_read": 919135256,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S07E10 Bring on the Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T13:17:16.222571+00:00"
       }
     },
     "1087:7:11": {
@@ -264519,5 +264520,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T13:17:10.395497+00:00"
+  "updated_at": "2026-11-05T13:17:16.222588+00:00"
 }
