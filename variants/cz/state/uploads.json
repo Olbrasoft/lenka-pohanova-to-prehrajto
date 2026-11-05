@@ -259358,12 +259358,6 @@
     },
     "1087:2:1": {
       "episode_key": "buffy, přemožitelka upírů:s2:e1",
-      "claim": {
-        "worker_id": "a8b452c7c7f4445ba6c7f0bc4b677fc0-worker-0",
-        "run_id": "41973513060",
-        "claimed_at": "2026-11-05T08:42:21.874584+00:00",
-        "lease_expires_at": "2026-11-05T14:42:21.874593+00:00"
-      },
       "source": {
         "source_id": "32390752",
         "source_url": "https://sdilej.cz/32390752/buffy-premozitelka-upiru-s02e01-kdyz-byla-zla.mkv",
@@ -259388,15 +259382,22 @@
         "display_name": "Buffy the Vampire Slayer S02E01 When She Was Bad 1080p CZ Dabing",
         "prepared_at": "2026-11-05T08:42:29.659119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30811186",
-        "size_bytes": 969248267
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30811186",
+          "size_bytes": 969248267,
+          "source_bytes_read": 969248267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32390752",
+        "source_url": "https://sdilej.cz/32390752/buffy-premozitelka-upiru-s02e01-kdyz-byla-zla.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30811186",
-        "size_bytes": 969248267,
-        "source_bytes_read": 969248267,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S02E01 When She Was Bad 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T08:45:18.485885+00:00"
       }
     },
     "1087:2:2": {
@@ -259479,5 +259480,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T08:45:13.470778+00:00"
+  "updated_at": "2026-11-05T08:45:18.485900+00:00"
 }
