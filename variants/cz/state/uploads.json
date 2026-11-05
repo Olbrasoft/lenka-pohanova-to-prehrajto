@@ -257584,12 +257584,6 @@
     },
     "1108:1:15": {
       "episode_key": "cizinka:s1:e15",
-      "claim": {
-        "worker_id": "046d331e4f6343d38ec70d94d388d344-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T06:10:41.774930+00:00",
-        "lease_expires_at": "2026-11-05T12:10:41.774945+00:00"
-      },
       "source": {
         "source_id": "34189645",
         "source_url": "https://sdilej.cz/34189645/cizinka-s01e15-015-2014-fhd-vezeni-wentworth-s-.mp4",
@@ -257614,15 +257608,22 @@
         "display_name": "Outlander S01E15 Wentworth Prison 1080p CZ Dabing",
         "prepared_at": "2026-11-05T06:10:44.529761+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30806561",
-        "size_bytes": 1175730657
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30806561",
+          "size_bytes": 1175730657,
+          "source_bytes_read": 1175730657,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34189645",
+        "source_url": "https://sdilej.cz/34189645/cizinka-s01e15-015-2014-fhd-vezeni-wentworth-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30806561",
-        "size_bytes": 1175730657,
-        "source_bytes_read": 1175730657,
-        "http_status": 201
+        "display_name": "Outlander S01E15 Wentworth Prison 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T06:16:38.963206+00:00"
       }
     }
   },
@@ -257631,5 +257632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T06:16:34.398272+00:00"
+  "updated_at": "2026-11-05T06:16:38.963258+00:00"
 }
