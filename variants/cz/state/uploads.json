@@ -269422,12 +269422,6 @@
     },
     "1110:6:6": {
       "episode_key": "haló, haló!:s6:e6",
-      "claim": {
-        "worker_id": "0357e00c18ab4cf7bccc35fe2a48edd9-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T20:53:52.393225+00:00",
-        "lease_expires_at": "2026-11-06T02:53:52.393233+00:00"
-      },
       "source": {
         "source_id": "25624382",
         "source_url": "https://sdilej.cz/25624382/halo-halo-s06e06-59-1989-full-hd-plot-sd-.mp4",
@@ -269452,15 +269446,22 @@
         "display_name": "'Allo 'Allo! S06E06 The Crooked Fences 1080p CZ Dabing",
         "prepared_at": "2026-11-05T20:53:59.359722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30831618",
-        "size_bytes": 601747978
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30831618",
+          "size_bytes": 601747978,
+          "source_bytes_read": 601747978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25624382",
+        "source_url": "https://sdilej.cz/25624382/halo-halo-s06e06-59-1989-full-hd-plot-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30831618",
-        "size_bytes": 601747978,
-        "source_bytes_read": 601747978,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S06E06 The Crooked Fences 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T20:56:14.438639+00:00"
       }
     },
     "1110:6:7": {
@@ -269631,5 +269632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T20:56:09.579152+00:00"
+  "updated_at": "2026-11-05T20:56:14.438652+00:00"
 }
