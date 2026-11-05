@@ -260998,12 +260998,6 @@
     },
     "1087:3:18": {
       "episode_key": "buffy, přemožitelka upírů:s3:e18",
-      "claim": {
-        "worker_id": "ab4ec620be0c447c95e4e8734a4c36dd-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T10:42:31.599236+00:00",
-        "lease_expires_at": "2026-11-05T16:42:31.599251+00:00"
-      },
       "source": {
         "source_id": "32398211",
         "source_url": "https://sdilej.cz/32398211/buffy-premozitelka-upiru-s03e18-na-doslech.mkv",
@@ -261028,15 +261022,22 @@
         "display_name": "Buffy the Vampire Slayer S03E18 Choices 1080p CZ Dabing",
         "prepared_at": "2026-11-05T10:42:34.679157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30814747",
-        "size_bytes": 966887100
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30814747",
+          "size_bytes": 966887100,
+          "source_bytes_read": 966887100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32398211",
+        "source_url": "https://sdilej.cz/32398211/buffy-premozitelka-upiru-s03e18-na-doslech.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30814747",
-        "size_bytes": 966887100,
-        "source_bytes_read": 966887100,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S03E18 Choices 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T10:44:54.937572+00:00"
       }
     }
   },
@@ -261045,5 +261046,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T10:44:52.586167+00:00"
+  "updated_at": "2026-11-05T10:44:54.937593+00:00"
 }
