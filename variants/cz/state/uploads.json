@@ -267259,12 +267259,6 @@
     },
     "1110:1:7": {
       "episode_key": "haló, haló!:s1:e7",
-      "claim": {
-        "worker_id": "e3a784eaeb564d02869f18eab36ddb9a-worker-0",
-        "run_id": "42064152810",
-        "claimed_at": "2026-11-05T18:49:02.966001+00:00",
-        "lease_expires_at": "2026-11-06T00:49:02.966012+00:00"
-      },
       "source": {
         "source_id": "29463348",
         "source_url": "https://sdilej.cz/29463348/halo-halo-s01e07-07-1984-full-hd-plukovnik-slavi-sd-.mp4",
@@ -267289,15 +267283,22 @@
         "display_name": "'Allo 'Allo! S01E07 The Dance of Hitler Youth 1080p CZ Dabing",
         "prepared_at": "2026-11-05T18:49:10.486013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30827664",
-        "size_bytes": 585940023
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30827664",
+          "size_bytes": 585940023,
+          "source_bytes_read": 585940023,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29463348",
+        "source_url": "https://sdilej.cz/29463348/halo-halo-s01e07-07-1984-full-hd-plukovnik-slavi-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30827664",
-        "size_bytes": 585940023,
-        "source_bytes_read": 585940023,
-        "http_status": 201
+        "display_name": "'Allo 'Allo! S01E07 The Dance of Hitler Youth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T18:53:30.570221+00:00"
       }
     },
     "1110:2:1": {
@@ -267350,5 +267351,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T18:53:27.935366+00:00"
+  "updated_at": "2026-11-05T18:53:30.570236+00:00"
 }
