@@ -255845,21 +255845,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "0c6d0bf8fd3c4c59846d97d3a5c0fb39-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T05:01:55.322434+00:00",
-        "lease_expires_at": "2026-11-05T11:01:55.322444+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30804631",
+          "size_bytes": 561982435,
+          "source_bytes_read": 561982435,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33614298",
+        "source_url": "https://sdilej.cz/33614298/vlada-borgen-s02e01-czdab.mp4",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30804631",
-        "size_bytes": 561982435
-      },
-      "transfer_receipt": {
-        "target_video_id": "30804631",
-        "size_bytes": 561982435,
-        "source_bytes_read": 561982435,
-        "http_status": 201
+        "display_name": "Borgen S02E01 89.000 Børn SD CZ Dabing",
+        "uploaded_at": "2026-11-05T05:02:47.838233+00:00"
       }
     },
     "1519:2:2": {
@@ -256165,5 +256166,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T05:02:43.981400+00:00"
+  "updated_at": "2026-11-05T05:02:47.838248+00:00"
 }
