@@ -257289,12 +257289,6 @@
     },
     "1108:1:8": {
       "episode_key": "cizinka:s1:e8",
-      "claim": {
-        "worker_id": "7b8f2be078b44002b0eefbbbebec53a3-worker-0",
-        "run_id": "41955136470",
-        "claimed_at": "2026-11-05T06:01:30.253814+00:00",
-        "lease_expires_at": "2026-11-05T12:01:30.253824+00:00"
-      },
       "source": {
         "source_id": "14807910",
         "source_url": "https://sdilej.cz/14807910/outlander.s01e08-1080p.x264-cz-audio-.mkv",
@@ -257319,15 +257313,22 @@
         "display_name": "Outlander S01E08 Both Sides Now 1080p CZ Dabing",
         "prepared_at": "2026-11-05T06:01:32.801705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30806336",
-        "size_bytes": 1100228720
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30806336",
+          "size_bytes": 1100228720,
+          "source_bytes_read": 1100228720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14807910",
+        "source_url": "https://sdilej.cz/14807910/outlander.s01e08-1080p.x264-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30806336",
-        "size_bytes": 1100228720,
-        "source_bytes_read": 1100228720,
-        "http_status": 201
+        "display_name": "Outlander S01E08 Both Sides Now 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T06:02:55.289396+00:00"
       }
     },
     "1108:1:9": {
@@ -257372,5 +257373,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T06:02:53.113686+00:00"
+  "updated_at": "2026-11-05T06:02:55.289409+00:00"
 }
