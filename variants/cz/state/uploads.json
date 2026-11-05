@@ -271446,12 +271446,6 @@
     },
     "1130:2:8": {
       "episode_key": "zločin:s2:e8",
-      "claim": {
-        "worker_id": "1a0e855fad414af3a05ed55b8343e485-worker-0",
-        "run_id": "42102779159",
-        "claimed_at": "2026-11-05T23:42:16.504806+00:00",
-        "lease_expires_at": "2026-11-06T05:42:16.504814+00:00"
-      },
       "source": {
         "source_id": "28748441",
         "source_url": "https://sdilej.cz/28748441/zlocin-the-killing-s02e08-hd-cz-dabing.mkv",
@@ -271476,15 +271470,22 @@
         "display_name": "The Killing (2011) [ID 1130] S02E08 Off the Reservation 1080p CZ Dabing",
         "prepared_at": "2026-11-05T23:42:19.236646+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30837094",
-        "size_bytes": 565622899
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30837094",
+          "size_bytes": 565622899,
+          "source_bytes_read": 565622899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28748441",
+        "source_url": "https://sdilej.cz/28748441/zlocin-the-killing-s02e08-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30837094",
-        "size_bytes": 565622899,
-        "source_bytes_read": 565622899,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S02E08 Off the Reservation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T23:53:19.163830+00:00"
       }
     },
     "1130:2:9": {
@@ -271581,5 +271582,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T23:53:16.946841+00:00"
+  "updated_at": "2026-11-05T23:53:19.163850+00:00"
 }
