@@ -263042,12 +263042,6 @@
     },
     "1087:6:1": {
       "episode_key": "buffy, přemožitelka upírů:s6:e1",
-      "claim": {
-        "worker_id": "5465dc5a878342b0984c0bfc8dbf10c0-worker-0",
-        "run_id": "42001956256",
-        "claimed_at": "2026-11-05T12:11:15.887149+00:00",
-        "lease_expires_at": "2026-11-05T18:11:15.887167+00:00"
-      },
       "source": {
         "source_id": "32402185",
         "source_url": "https://sdilej.cz/32402185/buffy-premozitelka-upiru-s06e01-navrat-mezi-zive-cast-1.mkv",
@@ -263072,15 +263066,22 @@
         "display_name": "Buffy the Vampire Slayer S06E01 Bargaining (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-05T12:11:18.878959+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30817176",
-        "size_bytes": 930444701
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30817176",
+          "size_bytes": 930444701,
+          "source_bytes_read": 930444701,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32402185",
+        "source_url": "https://sdilej.cz/32402185/buffy-premozitelka-upiru-s06e01-navrat-mezi-zive-cast-1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30817176",
-        "size_bytes": 930444701,
-        "source_bytes_read": 930444701,
-        "http_status": 201
+        "display_name": "Buffy the Vampire Slayer S06E01 Bargaining (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-05T12:13:26.311119+00:00"
       }
     },
     "1087:6:2": {
@@ -263132,5 +263133,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-05T12:13:21.222445+00:00"
+  "updated_at": "2026-11-05T12:13:26.311136+00:00"
 }
