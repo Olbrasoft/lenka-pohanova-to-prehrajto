@@ -274184,12 +274184,6 @@
     },
     "1147:1:2": {
       "episode_key": "miliardy:s1:e2",
-      "claim": {
-        "worker_id": "aaa507ddbb5e4b0ebd76447d0e051f5a-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T07:34:15.473807+00:00",
-        "lease_expires_at": "2026-11-06T13:34:15.473819+00:00"
-      },
       "source": {
         "source_id": "29261744",
         "source_url": "https://sdilej.cz/29261744/miliardy-s01e02-cz-dabing-billions.mp4",
@@ -274214,15 +274208,22 @@
         "display_name": "Billions S01E02 Naming Rights 1080p CZ Dabing",
         "prepared_at": "2026-11-06T07:34:18.557785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30852622",
-        "size_bytes": 554683246
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30852622",
+          "size_bytes": 554683246,
+          "source_bytes_read": 554683246,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29261744",
+        "source_url": "https://sdilej.cz/29261744/miliardy-s01e02-cz-dabing-billions.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30852622",
-        "size_bytes": 554683246,
-        "source_bytes_read": 554683246,
-        "http_status": 201
+        "display_name": "Billions S01E02 Naming Rights 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T07:39:15.370734+00:00"
       }
     }
   },
@@ -274231,5 +274232,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T07:39:13.141250+00:00"
+  "updated_at": "2026-11-06T07:39:15.370751+00:00"
 }
