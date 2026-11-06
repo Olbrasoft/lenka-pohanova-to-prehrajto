@@ -274360,12 +274360,6 @@
     },
     "1147:1:6": {
       "episode_key": "miliardy:s1:e6",
-      "claim": {
-        "worker_id": "2530ae98b5ad4603b7fe8bcd7281ff54-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:15:47.224088+00:00",
-        "lease_expires_at": "2026-11-06T14:15:47.224099+00:00"
-      },
       "source": {
         "source_id": "26754787",
         "source_url": "https://sdilej.cz/26754787/billions.s01e06.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -274390,15 +274384,22 @@
         "display_name": "Billions S01E06 The Deal 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:15:50.305416+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30853967",
-        "size_bytes": 869505944
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30853967",
+          "size_bytes": 869505944,
+          "source_bytes_read": 869505944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26754787",
+        "source_url": "https://sdilej.cz/26754787/billions.s01e06.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30853967",
-        "size_bytes": 869505944,
-        "source_bytes_read": 869505944,
-        "http_status": 201
+        "display_name": "Billions S01E06 The Deal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T08:20:38.826456+00:00"
       }
     },
     "1147:1:7": {
@@ -274444,5 +274445,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T08:20:34.884682+00:00"
+  "updated_at": "2026-11-06T08:20:38.826473+00:00"
 }
