@@ -279254,12 +279254,6 @@
     },
     "1662:1:13": {
       "episode_key": "dobrá manželka:s1:e13",
-      "claim": {
-        "worker_id": "51d5dbe72f324fb8b82c77857c607066-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T14:40:16.568597+00:00",
-        "lease_expires_at": "2026-11-06T20:40:16.568607+00:00"
-      },
       "source": {
         "source_id": "29139312",
         "source_url": "https://sdilej.cz/29139312/dobra-manzelka-s01e13.mkv",
@@ -279284,15 +279278,22 @@
         "display_name": "The Good Wife S01E13 Bad 1080p CZ Dabing",
         "prepared_at": "2026-11-06T14:40:28.942614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30861493",
-        "size_bytes": 1035820873
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30861493",
+          "size_bytes": 1035820873,
+          "source_bytes_read": 1035820873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29139312",
+        "source_url": "https://sdilej.cz/29139312/dobra-manzelka-s01e13.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30861493",
-        "size_bytes": 1035820873,
-        "source_bytes_read": 1035820873,
-        "http_status": 201
+        "display_name": "The Good Wife S01E13 Bad 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T14:50:11.482500+00:00"
       }
     },
     "1662:1:14": {
@@ -279345,5 +279346,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T14:50:07.630041+00:00"
+  "updated_at": "2026-11-06T14:50:11.482516+00:00"
 }
