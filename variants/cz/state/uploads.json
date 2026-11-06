@@ -274705,12 +274705,6 @@
     },
     "1147:2:2": {
       "episode_key": "miliardy:s2:e2",
-      "claim": {
-        "worker_id": "be698413a6e24d6b933c561a77b82ddc-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:41:25.347979+00:00",
-        "lease_expires_at": "2026-11-06T14:41:25.347989+00:00"
-      },
       "source": {
         "source_id": "26775415",
         "source_url": "https://sdilej.cz/26775415/billions.s02e02.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -274735,15 +274729,22 @@
         "display_name": "Billions S02E02 Dead Cat Bounce 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:41:30.749477+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30854619",
-        "size_bytes": 965789864
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30854619",
+          "size_bytes": 965789864,
+          "source_bytes_read": 965789864,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26775415",
+        "source_url": "https://sdilej.cz/26775415/billions.s02e02.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30854619",
-        "size_bytes": 965789864,
-        "source_bytes_read": 965789864,
-        "http_status": 201
+        "display_name": "Billions S02E02 Dead Cat Bounce 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T08:43:28.039391+00:00"
       }
     }
   },
@@ -274752,5 +274753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T08:43:23.743194+00:00"
+  "updated_at": "2026-11-06T08:43:28.039408+00:00"
 }
