@@ -285408,12 +285408,6 @@
     },
     "2523:1:1": {
       "episode_key": "rodina smolíkova:s1:e1",
-      "claim": {
-        "worker_id": "6b3bba7607e94c75abb976998eb926ee-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:10:24.120798+00:00",
-        "lease_expires_at": "2026-11-07T04:10:24.120812+00:00"
-      },
       "source": {
         "source_id": "30864086",
         "source_url": "https://sdilej.cz/30864086/rodina-smolikova-s01e01-cz-1969-720p.mp4",
@@ -285438,15 +285432,22 @@
         "display_name": "Mézga család S01E01 A távszerviz 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:10:27.384238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871067",
-        "size_bytes": 315295766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871067",
+          "size_bytes": 315295766,
+          "source_bytes_read": 315295766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30864086",
+        "source_url": "https://sdilej.cz/30864086/rodina-smolikova-s01e01-cz-1969-720p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871067",
-        "size_bytes": 315295766,
-        "source_bytes_read": 315295766,
-        "http_status": 201
+        "display_name": "Mézga család S01E01 A távszerviz 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:11:23.633681+00:00"
       }
     },
     "2523:1:2": {
@@ -285525,5 +285526,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:11:21.041310+00:00"
+  "updated_at": "2026-11-06T22:11:23.633701+00:00"
 }
