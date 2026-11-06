@@ -277525,12 +277525,6 @@
     },
     "1147:7:6": {
       "episode_key": "miliardy:s7:e6",
-      "claim": {
-        "worker_id": "d5711b482f8a43e88015fc0653322de5-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:25:04.171499+00:00",
-        "lease_expires_at": "2026-11-06T17:25:04.171511+00:00"
-      },
       "source": {
         "source_id": "27223004",
         "source_url": "https://sdilej.cz/27223004/billions.s07e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -277555,15 +277549,22 @@
         "display_name": "Billions S07E06 The Man in the Olive Drab T-Shirt 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:25:06.900767+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857635",
-        "size_bytes": 982436115
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857635",
+          "size_bytes": 982436115,
+          "source_bytes_read": 982436115,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27223004",
+        "source_url": "https://sdilej.cz/27223004/billions.s07e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857635",
-        "size_bytes": 982436115,
-        "source_bytes_read": 982436115,
-        "http_status": 201
+        "display_name": "Billions S07E06 The Man in the Olive Drab T-Shirt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:26:56.563802+00:00"
       }
     }
   },
@@ -277572,5 +277573,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:26:51.620493+00:00"
+  "updated_at": "2026-11-06T11:26:56.563820+00:00"
 }
