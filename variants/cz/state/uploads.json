@@ -274045,12 +274045,6 @@
     },
     "681:1:10": {
       "episode_key": "země gangů:s1:e10",
-      "claim": {
-        "worker_id": "8c00a639b5d64dddb0f5f931ca75d488-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T07:03:34.678891+00:00",
-        "lease_expires_at": "2026-11-06T13:03:34.678901+00:00"
-      },
       "source": {
         "source_id": "34345533",
         "source_url": "https://sdilej.cz/34345533/zeme-gangu-s01e10-bestie-ve-mne.mkv",
@@ -274075,15 +274069,22 @@
         "display_name": "MobLand S01E10 The Beast in Me 4K CZ Dabing",
         "prepared_at": "2026-11-06T07:03:44.245705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30851871",
-        "size_bytes": 2608483703
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30851871",
+          "size_bytes": 2608483703,
+          "source_bytes_read": 2608483703,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345533",
+        "source_url": "https://sdilej.cz/34345533/zeme-gangu-s01e10-bestie-ve-mne.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30851871",
-        "size_bytes": 2608483703,
-        "source_bytes_read": 2608483703,
-        "http_status": 201
+        "display_name": "MobLand S01E10 The Beast in Me 4K CZ Dabing",
+        "uploaded_at": "2026-11-06T07:20:24.165709+00:00"
       }
     }
   },
@@ -274092,5 +274093,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T07:20:19.562505+00:00"
+  "updated_at": "2026-11-06T07:20:24.165725+00:00"
 }
