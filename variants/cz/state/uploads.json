@@ -283597,12 +283597,6 @@
     },
     "1662:6:4": {
       "episode_key": "dobrá manželka:s6:e4",
-      "claim": {
-        "worker_id": "d0e922e059564de1bc1da689dd564aeb-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:00:29.673471+00:00",
-        "lease_expires_at": "2026-11-07T02:00:29.673483+00:00"
-      },
       "source": {
         "source_id": "33702141",
         "source_url": "https://sdilej.cz/33702141/the-good-wife-dobra-manzelka-s06e04-czdab.mp4",
@@ -283627,15 +283621,22 @@
         "display_name": "The Good Wife S06E04 Oppo Research 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:00:37.452344+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868007",
-        "size_bytes": 698371268
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868007",
+          "size_bytes": 698371268,
+          "source_bytes_read": 698371268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702141",
+        "source_url": "https://sdilej.cz/33702141/the-good-wife-dobra-manzelka-s06e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868007",
-        "size_bytes": 698371268,
-        "source_bytes_read": 698371268,
-        "http_status": 201
+        "display_name": "The Good Wife S06E04 Oppo Research 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:05:41.731494+00:00"
       }
     },
     "1662:6:5": {
@@ -283725,5 +283726,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:05:36.576992+00:00"
+  "updated_at": "2026-11-06T20:05:41.731513+00:00"
 }
