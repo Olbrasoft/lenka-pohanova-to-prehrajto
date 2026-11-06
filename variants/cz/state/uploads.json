@@ -272419,12 +272419,6 @@
     },
     "1130:4:6": {
       "episode_key": "zločin:s4:e6",
-      "claim": {
-        "worker_id": "963d0b45d5ee4a10b26bd13803f60b79-worker-0",
-        "run_id": "42128974447",
-        "claimed_at": "2026-11-06T01:25:14.364213+00:00",
-        "lease_expires_at": "2026-11-06T07:25:14.364223+00:00"
-      },
       "source": {
         "source_id": "28409340",
         "source_url": "https://sdilej.cz/28409340/zlocin-the-killing-2011-s04e06.cz.webrip.1080p.hevc.c4u.mkv",
@@ -272449,15 +272443,22 @@
         "display_name": "The Killing (2011) [ID 1130] S04E06 Eden 1080p CZ Dabing",
         "prepared_at": "2026-11-06T01:25:20.359373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30840744",
-        "size_bytes": 777410800
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30840744",
+          "size_bytes": 777410800,
+          "source_bytes_read": 777410800,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28409340",
+        "source_url": "https://sdilej.cz/28409340/zlocin-the-killing-2011-s04e06.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30840744",
-        "size_bytes": 777410800,
-        "source_bytes_read": 777410800,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S04E06 Eden 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T01:31:39.102556+00:00"
       }
     },
     "1672:1:1": {
@@ -272503,5 +272504,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T01:31:34.884956+00:00"
+  "updated_at": "2026-11-06T01:31:39.102572+00:00"
 }
