@@ -275101,12 +275101,6 @@
     },
     "1147:2:11": {
       "episode_key": "miliardy:s2:e11",
-      "claim": {
-        "worker_id": "9fc5303b21e342a9a9b115f3810f554d-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:21:06.651324+00:00",
-        "lease_expires_at": "2026-11-06T15:21:06.651336+00:00"
-      },
       "source": {
         "source_id": "26775873",
         "source_url": "https://sdilej.cz/26775873/billions.s02e11.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -275131,15 +275125,22 @@
         "display_name": "Billions S02E11 Golden Frog Time 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:21:13.607175+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855321",
-        "size_bytes": 910194952
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855321",
+          "size_bytes": 910194952,
+          "source_bytes_read": 910194952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26775873",
+        "source_url": "https://sdilej.cz/26775873/billions.s02e11.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855321",
-        "size_bytes": 910194952,
-        "source_bytes_read": 910194952,
-        "http_status": 201
+        "display_name": "Billions S02E11 Golden Frog Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:23:56.065360+00:00"
       }
     }
   },
@@ -275148,5 +275149,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:23:49.543329+00:00"
+  "updated_at": "2026-11-06T09:23:56.065378+00:00"
 }
