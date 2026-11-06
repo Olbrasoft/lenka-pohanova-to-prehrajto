@@ -286507,12 +286507,6 @@
     },
     "2523:3:1": {
       "episode_key": "rodina smolíkova:s3:e1",
-      "claim": {
-        "worker_id": "c08f8f9eb3954ea39e18721879003a1a-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:46:31.005221+00:00",
-        "lease_expires_at": "2026-11-07T04:46:31.005235+00:00"
-      },
       "source": {
         "source_id": "35161138",
         "source_url": "https://sdilej.cz/35161138/rodina-smolikova-s03e01-1968-cz-dabing-bedobi.avi",
@@ -286537,15 +286531,22 @@
         "display_name": "Mézga család S03E01 Vakáció! SD CZ Dabing",
         "prepared_at": "2026-11-06T22:46:38.050554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872085",
-        "size_bytes": 326567019
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872085",
+          "size_bytes": 326567019,
+          "source_bytes_read": 326567019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161138",
+        "source_url": "https://sdilej.cz/35161138/rodina-smolikova-s03e01-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872085",
-        "size_bytes": 326567019,
-        "source_bytes_read": 326567019,
-        "http_status": 201
+        "display_name": "Mézga család S03E01 Vakáció! SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:47:29.329315+00:00"
       }
     }
   },
@@ -286554,5 +286555,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:47:26.173676+00:00"
+  "updated_at": "2026-11-06T22:47:29.329335+00:00"
 }
