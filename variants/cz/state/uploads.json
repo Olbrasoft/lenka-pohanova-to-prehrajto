@@ -275724,12 +275724,6 @@
     },
     "1147:4:1": {
       "episode_key": "miliardy:s4:e1",
-      "claim": {
-        "worker_id": "1807dcbdd4b04402a964dacf16012b15-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:42:38.065194+00:00",
-        "lease_expires_at": "2026-11-06T15:42:38.065208+00:00"
-      },
       "source": {
         "source_id": "26810921",
         "source_url": "https://sdilej.cz/26810921/billions.s04e01.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -275754,15 +275748,22 @@
         "display_name": "Billions S04E01 Chucky Rhoades's Greatest Game 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:42:44.241869+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855667",
-        "size_bytes": 860040985
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855667",
+          "size_bytes": 860040985,
+          "source_bytes_read": 860040985,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26810921",
+        "source_url": "https://sdilej.cz/26810921/billions.s04e01.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855667",
-        "size_bytes": 860040985,
-        "source_bytes_read": 860040985,
-        "http_status": 201
+        "display_name": "Billions S04E01 Chucky Rhoades's Greatest Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:45:07.407468+00:00"
       }
     },
     "1147:4:2": {
@@ -275844,5 +275845,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:45:02.311821+00:00"
+  "updated_at": "2026-11-06T09:45:07.407485+00:00"
 }
