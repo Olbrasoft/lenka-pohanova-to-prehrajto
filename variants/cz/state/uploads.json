@@ -271898,12 +271898,6 @@
     },
     "1130:3:5": {
       "episode_key": "zločin:s3:e5",
-      "claim": {
-        "worker_id": "44f8c498218e4a0f91005ddf433a1294-worker-0",
-        "run_id": "42128974447",
-        "claimed_at": "2026-11-06T01:09:52.288936+00:00",
-        "lease_expires_at": "2026-11-06T07:09:52.288947+00:00"
-      },
       "source": {
         "source_id": "28748474",
         "source_url": "https://sdilej.cz/28748474/zlocin-the-killing-s03e05-hd-cz-dabing.mkv",
@@ -271928,15 +271922,22 @@
         "display_name": "The Killing (2011) [ID 1130] S03E05 Scared and Running 1080p CZ Dabing",
         "prepared_at": "2026-11-06T01:09:59.282833+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30840210",
-        "size_bytes": 562890210
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30840210",
+          "size_bytes": 562890210,
+          "source_bytes_read": 562890210,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28748474",
+        "source_url": "https://sdilej.cz/28748474/zlocin-the-killing-s03e05-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30840210",
-        "size_bytes": 562890210,
-        "source_bytes_read": 562890210,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S03E05 Scared and Running 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T01:14:29.318634+00:00"
       }
     },
     "1130:3:7": {
@@ -272107,5 +272108,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T01:14:25.701312+00:00"
+  "updated_at": "2026-11-06T01:14:29.318654+00:00"
 }
