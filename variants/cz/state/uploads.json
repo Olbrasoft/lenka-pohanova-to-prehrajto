@@ -272827,12 +272827,6 @@
     },
     "1672:1:10": {
       "episode_key": "pozůstalí:s1:e10",
-      "claim": {
-        "worker_id": "68408bb8fb7d4f2d9a37b8cf9032838c-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T03:16:54.616448+00:00",
-        "lease_expires_at": "2026-11-06T09:16:54.616458+00:00"
-      },
       "source": {
         "source_id": "28443027",
         "source_url": "https://sdilej.cz/28443027/the-leftovers-s01e10-1080p-cz-dabing.mkv",
@@ -272857,15 +272851,22 @@
         "display_name": "The Leftovers S01E10 The Prodigal Son Returns 1080p CZ Dabing",
         "prepared_at": "2026-11-06T03:17:00.697668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30844316",
-        "size_bytes": 1635261789
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30844316",
+          "size_bytes": 1635261789,
+          "source_bytes_read": 1635261789,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28443027",
+        "source_url": "https://sdilej.cz/28443027/the-leftovers-s01e10-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30844316",
-        "size_bytes": 1635261789,
-        "source_bytes_read": 1635261789,
-        "http_status": 201
+        "display_name": "The Leftovers S01E10 The Prodigal Son Returns 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T03:32:01.794175+00:00"
       }
     },
     "1672:2:1": {
@@ -272991,5 +272992,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T03:31:58.094036+00:00"
+  "updated_at": "2026-11-06T03:32:01.794190+00:00"
 }
