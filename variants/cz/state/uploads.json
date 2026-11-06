@@ -280568,12 +280568,6 @@
     },
     "1662:2:20": {
       "episode_key": "dobrá manželka:s2:e20",
-      "claim": {
-        "worker_id": "40e4576a66e74dd5b9c0e6312a233f7b-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T16:49:29.673926+00:00",
-        "lease_expires_at": "2026-11-06T22:49:29.673936+00:00"
-      },
       "source": {
         "source_id": "33701646",
         "source_url": "https://sdilej.cz/33701646/the-good-wife-dobra-manzelka-s02e20-czdab.mp4",
@@ -280598,15 +280592,22 @@
         "display_name": "The Good Wife S02E20 Foreign Affairs 1080p CZ Dabing",
         "prepared_at": "2026-11-06T16:49:36.982269+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30864140",
-        "size_bytes": 1106693944
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30864140",
+          "size_bytes": 1106693944,
+          "source_bytes_read": 1106693944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701646",
+        "source_url": "https://sdilej.cz/33701646/the-good-wife-dobra-manzelka-s02e20-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30864140",
-        "size_bytes": 1106693944,
-        "source_bytes_read": 1106693944,
-        "http_status": 201
+        "display_name": "The Good Wife S02E20 Foreign Affairs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T16:51:46.227005+00:00"
       }
     },
     "1662:2:21": {
@@ -280689,5 +280690,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T16:51:41.672897+00:00"
+  "updated_at": "2026-11-06T16:51:46.227020+00:00"
 }
