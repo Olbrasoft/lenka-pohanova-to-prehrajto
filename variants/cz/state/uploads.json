@@ -283956,12 +283956,6 @@
     },
     "1662:6:12": {
       "episode_key": "dobrá manželka:s6:e12",
-      "claim": {
-        "worker_id": "e9c64607e6a142cfa5fd076af2a18612-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:18:13.462299+00:00",
-        "lease_expires_at": "2026-11-07T02:18:13.462309+00:00"
-      },
       "source": {
         "source_id": "33702194",
         "source_url": "https://sdilej.cz/33702194/the-good-wife-dobra-manzelka-s06e12-czdab.mp4",
@@ -283986,15 +283980,22 @@
         "display_name": "The Good Wife S06E12 The Debate 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:18:18.991600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868620",
-        "size_bytes": 796432967
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868620",
+          "size_bytes": 796432967,
+          "source_bytes_read": 796432967,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702194",
+        "source_url": "https://sdilej.cz/33702194/the-good-wife-dobra-manzelka-s06e12-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868620",
-        "size_bytes": 796432967,
-        "source_bytes_read": 796432967,
-        "http_status": 201
+        "display_name": "The Good Wife S06E12 The Debate 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:20:10.255792+00:00"
       }
     },
     "1662:6:13": {
@@ -284077,5 +284078,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:20:04.024335+00:00"
+  "updated_at": "2026-11-06T20:20:10.255803+00:00"
 }
