@@ -277808,12 +277808,6 @@
     },
     "1147:7:12": {
       "episode_key": "miliardy:s7:e12",
-      "claim": {
-        "worker_id": "a5e5911c9bb041bc97f9406d601e4f1b-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:52:26.289767+00:00",
-        "lease_expires_at": "2026-11-06T17:52:26.289781+00:00"
-      },
       "source": {
         "source_id": "32305991",
         "source_url": "https://sdilej.cz/32305991/miliardy-s07e12-cz-dabing-1080p-billions.mkv",
@@ -277838,15 +277832,22 @@
         "display_name": "Billions S07E12 Admirals Fund 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:52:31.533961+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30858250",
-        "size_bytes": 3711992722
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30858250",
+          "size_bytes": 3711992722,
+          "source_bytes_read": 3711992722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305991",
+        "source_url": "https://sdilej.cz/32305991/miliardy-s07e12-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30858250",
-        "size_bytes": 3711992722,
-        "source_bytes_read": 3711992722,
-        "http_status": 201
+        "display_name": "Billions S07E12 Admirals Fund 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:08:21.459901+00:00"
       }
     },
     "1167:1:1": {
@@ -278031,5 +278032,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:08:17.823465+00:00"
+  "updated_at": "2026-11-06T12:08:21.459920+00:00"
 }
