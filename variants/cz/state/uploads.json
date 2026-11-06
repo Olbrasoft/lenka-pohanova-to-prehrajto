@@ -285716,12 +285716,6 @@
     },
     "2523:1:9": {
       "episode_key": "rodina smolíkova:s1:e9",
-      "claim": {
-        "worker_id": "aed62390482b4e47b77714c793bec3ca-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:13:23.782501+00:00",
-        "lease_expires_at": "2026-11-07T04:13:23.782517+00:00"
-      },
       "source": {
         "source_id": "30864165",
         "source_url": "https://sdilej.cz/30864165/rodina-smolikova-s01e09-cz-1969-720p.mp4",
@@ -285746,15 +285740,22 @@
         "display_name": "Mézga család S01E09 Akerkiter 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:13:42.465589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871160",
-        "size_bytes": 342996174
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871160",
+          "size_bytes": 342996174,
+          "source_bytes_read": 342996174,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30864165",
+        "source_url": "https://sdilej.cz/30864165/rodina-smolikova-s01e09-cz-1969-720p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871160",
-        "size_bytes": 342996174,
-        "source_bytes_read": 342996174,
-        "http_status": 201
+        "display_name": "Mézga család S01E09 Akerkiter 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:14:48.150025+00:00"
       }
     },
     "2523:1:10": {
@@ -285859,5 +285860,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:14:45.852250+00:00"
+  "updated_at": "2026-11-06T22:14:48.150043+00:00"
 }
