@@ -274763,12 +274763,6 @@
     },
     "1147:2:3": {
       "episode_key": "miliardy:s2:e3",
-      "claim": {
-        "worker_id": "78f63b6be1d4422d9fe8c4811bb85e63-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:58:18.078331+00:00",
-        "lease_expires_at": "2026-11-06T14:58:18.078343+00:00"
-      },
       "source": {
         "source_id": "26775450",
         "source_url": "https://sdilej.cz/26775450/billions.s02e03.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -274793,15 +274787,22 @@
         "display_name": "Billions S02E03 Optimal Play 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:58:20.972912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30854883",
-        "size_bytes": 969571943
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30854883",
+          "size_bytes": 969571943,
+          "source_bytes_read": 969571943,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26775450",
+        "source_url": "https://sdilej.cz/26775450/billions.s02e03.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30854883",
-        "size_bytes": 969571943,
-        "source_bytes_read": 969571943,
-        "http_status": 201
+        "display_name": "Billions S02E03 Optimal Play 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:00:26.862750+00:00"
       }
     },
     "1147:2:4": {
@@ -274853,5 +274854,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:00:24.270190+00:00"
+  "updated_at": "2026-11-06T09:00:26.862767+00:00"
 }
