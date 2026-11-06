@@ -287529,12 +287529,6 @@
     },
     "1921:1:2": {
       "episode_key": "borci z blue mountain state:s1:e2",
-      "claim": {
-        "worker_id": "640733b997ea40df9519442d17406b5c-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T23:37:52.329713+00:00",
-        "lease_expires_at": "2026-11-07T05:37:52.329730+00:00"
-      },
       "source": {
         "source_id": "12345067",
         "source_url": "https://sdilej.cz/12345067/borci-z-blue-mountain-state-1x02.-predsnubni-prsten-dvdrip-cz-ss23-.avi",
@@ -287559,15 +287553,22 @@
         "display_name": "Blue Mountain State S01E02 Promise Ring SD CZ Dabing",
         "prepared_at": "2026-11-06T23:37:58.404025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873298",
-        "size_bytes": 191708746
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873298",
+          "size_bytes": 191708746,
+          "source_bytes_read": 191708746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12345067",
+        "source_url": "https://sdilej.cz/12345067/borci-z-blue-mountain-state-1x02.-predsnubni-prsten-dvdrip-cz-ss23-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873298",
-        "size_bytes": 191708746,
-        "source_bytes_read": 191708746,
-        "http_status": 201
+        "display_name": "Blue Mountain State S01E02 Promise Ring SD CZ Dabing",
+        "uploaded_at": "2026-11-06T23:41:29.757398+00:00"
       }
     }
   },
@@ -287576,5 +287577,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T23:41:27.257789+00:00"
+  "updated_at": "2026-11-06T23:41:29.757420+00:00"
 }
