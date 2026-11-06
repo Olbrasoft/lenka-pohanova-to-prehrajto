@@ -285672,12 +285672,6 @@
     },
     "2523:1:8": {
       "episode_key": "rodina smolíkova:s1:e8",
-      "claim": {
-        "worker_id": "6bb75cb872804491840f4c6785924b10-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:12:40.117443+00:00",
-        "lease_expires_at": "2026-11-07T04:12:40.117459+00:00"
-      },
       "source": {
         "source_id": "30864155",
         "source_url": "https://sdilej.cz/30864155/rodina-smolikova-s01e08-cz-1969-720p.mp4",
@@ -285702,15 +285696,22 @@
         "display_name": "Mézga család S01E08 Időkibővítő 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:12:43.929663+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871135",
-        "size_bytes": 326618447
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871135",
+          "size_bytes": 326618447,
+          "source_bytes_read": 326618447,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30864155",
+        "source_url": "https://sdilej.cz/30864155/rodina-smolikova-s01e08-cz-1969-720p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871135",
-        "size_bytes": 326618447,
-        "source_bytes_read": 326618447,
-        "http_status": 201
+        "display_name": "Mézga család S01E08 Időkibővítő 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:13:44.883841+00:00"
       }
     },
     "2523:1:9": {
@@ -285785,5 +285786,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:13:42.465615+00:00"
+  "updated_at": "2026-11-06T22:13:44.883855+00:00"
 }
