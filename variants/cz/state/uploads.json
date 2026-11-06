@@ -281756,12 +281756,6 @@
     },
     "1662:4:5": {
       "episode_key": "dobrá manželka:s4:e5",
-      "claim": {
-        "worker_id": "18eeef8711f54cecb9bed4eac80deecd-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T18:00:58.044026+00:00",
-        "lease_expires_at": "2026-11-07T00:00:58.044037+00:00"
-      },
       "source": {
         "source_id": "33701820",
         "source_url": "https://sdilej.cz/33701820/the-good-wife-dobra-manzelka-s04e05-czdab.mp4",
@@ -281786,15 +281780,22 @@
         "display_name": "The Good Wife S04E05 Waiting for the Knock 1080p CZ Dabing",
         "prepared_at": "2026-11-06T18:01:01.328086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30865760",
-        "size_bytes": 1026485588
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30865760",
+          "size_bytes": 1026485588,
+          "source_bytes_read": 1026485588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701820",
+        "source_url": "https://sdilej.cz/33701820/the-good-wife-dobra-manzelka-s04e05-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30865760",
-        "size_bytes": 1026485588,
-        "source_bytes_read": 1026485588,
-        "http_status": 201
+        "display_name": "The Good Wife S04E05 Waiting for the Knock 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T18:05:06.579332+00:00"
       }
     }
   },
@@ -281803,5 +281804,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T18:05:04.044735+00:00"
+  "updated_at": "2026-11-06T18:05:06.579351+00:00"
 }
