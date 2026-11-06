@@ -277048,12 +277048,6 @@
     },
     "1147:6:7": {
       "episode_key": "miliardy:s6:e7",
-      "claim": {
-        "worker_id": "60db69a2b40d483b940c0e3feb95b57a-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T10:51:46.787355+00:00",
-        "lease_expires_at": "2026-11-06T16:51:46.787367+00:00"
-      },
       "source": {
         "source_id": "32305692",
         "source_url": "https://sdilej.cz/32305692/miliardy-s06e07-cz-dabing-1080p-billions.mkv",
@@ -277078,15 +277072,22 @@
         "display_name": "Billions S06E07 Napoleon's Hat 1080p CZ Dabing",
         "prepared_at": "2026-11-06T10:51:49.487028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30856935",
-        "size_bytes": 869052330
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30856935",
+          "size_bytes": 869052330,
+          "source_bytes_read": 869052330,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305692",
+        "source_url": "https://sdilej.cz/32305692/miliardy-s06e07-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30856935",
-        "size_bytes": 869052330,
-        "source_bytes_read": 869052330,
-        "http_status": 201
+        "display_name": "Billions S06E07 Napoleon's Hat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T10:53:13.055085+00:00"
       }
     },
     "1147:6:8": {
@@ -277128,5 +277129,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T10:53:10.648063+00:00"
+  "updated_at": "2026-11-06T10:53:13.055105+00:00"
 }
