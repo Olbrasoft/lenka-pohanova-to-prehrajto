@@ -284044,12 +284044,6 @@
     },
     "1662:6:14": {
       "episode_key": "dobrá manželka:s6:e14",
-      "claim": {
-        "worker_id": "8efadcc5ef90452caeeb585f64d32292-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:19:39.607734+00:00",
-        "lease_expires_at": "2026-11-07T02:19:39.607745+00:00"
-      },
       "source": {
         "source_id": "33702207",
         "source_url": "https://sdilej.cz/33702207/the-good-wife-dobra-manzelka-s06e14-czdab.mp4",
@@ -284074,15 +284068,22 @@
         "display_name": "The Good Wife S06E14 Mind's Eye 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:19:42.601879+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868651",
-        "size_bytes": 784362067
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868651",
+          "size_bytes": 784362067,
+          "source_bytes_read": 784362067,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702207",
+        "source_url": "https://sdilej.cz/33702207/the-good-wife-dobra-manzelka-s06e14-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868651",
-        "size_bytes": 784362067,
-        "source_bytes_read": 784362067,
-        "http_status": 201
+        "display_name": "The Good Wife S06E14 Mind's Eye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:21:04.544227+00:00"
       }
     },
     "1662:6:15": {
@@ -284164,5 +284165,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:21:00.212671+00:00"
+  "updated_at": "2026-11-06T20:21:04.544238+00:00"
 }
