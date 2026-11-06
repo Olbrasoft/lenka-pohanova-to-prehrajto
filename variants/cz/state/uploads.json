@@ -284352,12 +284352,6 @@
     },
     "1662:6:21": {
       "episode_key": "dobrá manželka:s6:e21",
-      "claim": {
-        "worker_id": "4dd24dfc46924215b2dda3d039175c8b-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:32:31.767941+00:00",
-        "lease_expires_at": "2026-11-07T02:32:31.767952+00:00"
-      },
       "source": {
         "source_id": "33702260",
         "source_url": "https://sdilej.cz/33702260/the-good-wife-dobra-manzelka-s06e21-czdab.mp4",
@@ -284382,15 +284376,22 @@
         "display_name": "The Good Wife S06E21 Don't Fail 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:32:34.858431+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868905",
-        "size_bytes": 778520091
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868905",
+          "size_bytes": 778520091,
+          "source_bytes_read": 778520091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702260",
+        "source_url": "https://sdilej.cz/33702260/the-good-wife-dobra-manzelka-s06e21-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868905",
-        "size_bytes": 778520091,
-        "source_bytes_read": 778520091,
-        "http_status": 201
+        "display_name": "The Good Wife S06E21 Don't Fail 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:39:26.943018+00:00"
       }
     }
   },
@@ -284399,5 +284400,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:39:21.573233+00:00"
+  "updated_at": "2026-11-06T20:39:26.943034+00:00"
 }
