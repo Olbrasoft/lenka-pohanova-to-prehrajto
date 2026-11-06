@@ -273480,12 +273480,6 @@
     },
     "1672:3:5": {
       "episode_key": "pozůstalí:s3:e5",
-      "claim": {
-        "worker_id": "aa4bbc52774248039179cc19d032c12d-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T04:33:05.999094+00:00",
-        "lease_expires_at": "2026-11-06T10:33:05.999105+00:00"
-      },
       "source": {
         "source_id": "28511899",
         "source_url": "https://sdilej.cz/28511899/the-leftovers-s03e05-1080p-cz-dabing.mkv",
@@ -273510,15 +273504,22 @@
         "display_name": "The Leftovers S03E05 It's a Matt, Matt, Matt, Matt World 1080p CZ Dabing",
         "prepared_at": "2026-11-06T04:33:16.648941+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30847172",
-        "size_bytes": 1696649307
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30847172",
+          "size_bytes": 1696649307,
+          "source_bytes_read": 1696649307,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28511899",
+        "source_url": "https://sdilej.cz/28511899/the-leftovers-s03e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30847172",
-        "size_bytes": 1696649307,
-        "source_bytes_read": 1696649307,
-        "http_status": 201
+        "display_name": "The Leftovers S03E05 It's a Matt, Matt, Matt, Matt World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T04:44:14.021190+00:00"
       }
     },
     "1672:3:6": {
@@ -273571,5 +273572,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T04:44:08.429847+00:00"
+  "updated_at": "2026-11-06T04:44:14.021204+00:00"
 }
