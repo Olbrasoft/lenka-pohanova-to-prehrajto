@@ -273185,12 +273185,6 @@
     },
     "1672:2:8": {
       "episode_key": "pozůstalí:s2:e8",
-      "claim": {
-        "worker_id": "f90a805d0e164af2b962d28cc8bcbf2f-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T03:37:58.081548+00:00",
-        "lease_expires_at": "2026-11-06T09:37:58.081560+00:00"
-      },
       "source": {
         "source_id": "28475176",
         "source_url": "https://sdilej.cz/28475176/the-leftovers-s02e08-1080p-cz-dabing.mkv",
@@ -273215,15 +273209,22 @@
         "display_name": "The Leftovers S02E08 International Assassin 1080p CZ Dabing",
         "prepared_at": "2026-11-06T03:38:00.881279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30845026",
-        "size_bytes": 1928896725
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30845026",
+          "size_bytes": 1928896725,
+          "source_bytes_read": 1928896725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28475176",
+        "source_url": "https://sdilej.cz/28475176/the-leftovers-s02e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30845026",
-        "size_bytes": 1928896725,
-        "source_bytes_read": 1928896725,
-        "http_status": 201
+        "display_name": "The Leftovers S02E08 International Assassin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T04:01:21.186741+00:00"
       }
     }
   },
@@ -273232,5 +273233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T04:01:16.344660+00:00"
+  "updated_at": "2026-11-06T04:01:21.186755+00:00"
 }
