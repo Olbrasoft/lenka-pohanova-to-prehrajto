@@ -273517,12 +273517,6 @@
     },
     "1672:3:6": {
       "episode_key": "pozůstalí:s3:e6",
-      "claim": {
-        "worker_id": "b48dfbbff2a84da49025b5b2049526c4-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T04:33:33.822698+00:00",
-        "lease_expires_at": "2026-11-06T10:33:33.822707+00:00"
-      },
       "source": {
         "source_id": "33681383",
         "source_url": "https://sdilej.cz/33681383/pozustali-s03e06-cz-dabing.mp4",
@@ -273547,15 +273541,22 @@
         "display_name": "The Leftovers S03E06 Certified 720p CZ Dabing",
         "prepared_at": "2026-11-06T04:33:36.929161+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30847179",
-        "size_bytes": 594328937
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30847179",
+          "size_bytes": 594328937,
+          "source_bytes_read": 594328937,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33681383",
+        "source_url": "https://sdilej.cz/33681383/pozustali-s03e06-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30847179",
-        "size_bytes": 594328937,
-        "source_bytes_read": 594328937,
-        "http_status": 201
+        "display_name": "The Leftovers S03E06 Certified 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T04:42:46.756988+00:00"
       }
     }
   },
@@ -273564,5 +273565,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T04:42:41.634837+00:00"
+  "updated_at": "2026-11-06T04:42:46.757003+00:00"
 }
