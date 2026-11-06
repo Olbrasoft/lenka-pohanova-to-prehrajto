@@ -287242,12 +287242,6 @@
     },
     "1500:1:4": {
       "episode_key": "ze země na měsíc:s1:e4",
-      "claim": {
-        "worker_id": "7740e85f87b54b61ae630c5911321dd0-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T23:12:18.488922+00:00",
-        "lease_expires_at": "2026-11-07T05:12:18.488940+00:00"
-      },
       "source": {
         "source_id": "24780282",
         "source_url": "https://sdilej.cz/24780282/from.the.earth.to.the.moon.s01e04.1080p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -287271,7 +287265,13 @@
         },
         "display_name": "From the Earth to the Moon S01E04 1968 1080p CZ Dabing",
         "prepared_at": "2026-11-06T23:12:24.215837+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-06T23:12:35.809417+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -287279,5 +287279,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T23:12:29.005850+00:00"
+  "updated_at": "2026-11-06T23:12:35.809436+00:00"
 }
