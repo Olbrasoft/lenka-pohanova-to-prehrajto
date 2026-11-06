@@ -287080,12 +287080,6 @@
     },
     "3851:1:6": {
       "episode_key": "druhá světová válka v barvě:s1:e6",
-      "claim": {
-        "worker_id": "a128ead50f3d496ab4e1a0e655a68d17-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T23:02:27.470600+00:00",
-        "lease_expires_at": "2026-11-07T05:02:27.470612+00:00"
-      },
       "source": {
         "source_id": "31359746",
         "source_url": "https://sdilej.cz/31359746/druha-svetova-valka-v-barve-s01e06.mkv",
@@ -287110,15 +287104,22 @@
         "display_name": "World War II in Colour S01E06 The Mediterranean and North Africa SD CZ Dabing",
         "prepared_at": "2026-11-06T23:02:34.381678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872457",
-        "size_bytes": 985936892
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872457",
+          "size_bytes": 985936892,
+          "source_bytes_read": 985936892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31359746",
+        "source_url": "https://sdilej.cz/31359746/druha-svetova-valka-v-barve-s01e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872457",
-        "size_bytes": 985936892,
-        "source_bytes_read": 985936892,
-        "http_status": 201
+        "display_name": "World War II in Colour S01E06 The Mediterranean and North Africa SD CZ Dabing",
+        "uploaded_at": "2026-11-06T23:08:02.749319+00:00"
       }
     },
     "3851:1:7": {
@@ -287171,5 +287172,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T23:08:00.224159+00:00"
+  "updated_at": "2026-11-06T23:08:02.749337+00:00"
 }
