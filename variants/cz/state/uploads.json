@@ -286596,12 +286596,6 @@
     },
     "2523:3:3": {
       "episode_key": "rodina smolíkova:s3:e3",
-      "claim": {
-        "worker_id": "810034c89bef4a25aeda9677fd0f4de8-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:49:14.961120+00:00",
-        "lease_expires_at": "2026-11-07T04:49:14.961136+00:00"
-      },
       "source": {
         "source_id": "35133863",
         "source_url": "https://sdilej.cz/35133863/rodina-smolikova-s03e03-1968-cz-dabing-bedobi.avi",
@@ -286626,15 +286620,22 @@
         "display_name": "Mézga család S03E03 A jég hátán SD CZ Dabing",
         "prepared_at": "2026-11-06T22:49:22.342592+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872155",
-        "size_bytes": 332385674
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872155",
+          "size_bytes": 332385674,
+          "source_bytes_read": 332385674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133863",
+        "source_url": "https://sdilej.cz/35133863/rodina-smolikova-s03e03-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872155",
-        "size_bytes": 332385674,
-        "source_bytes_read": 332385674,
-        "http_status": 201
+        "display_name": "Mézga család S03E03 A jég hátán SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:50:30.360488+00:00"
       }
     },
     "2523:3:4": {
@@ -286686,5 +286687,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:50:27.932619+00:00"
+  "updated_at": "2026-11-06T22:50:30.360506+00:00"
 }
