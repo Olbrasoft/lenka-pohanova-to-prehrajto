@@ -285936,12 +285936,6 @@
     },
     "2523:2:1": {
       "episode_key": "rodina smolíkova:s2:e1",
-      "claim": {
-        "worker_id": "358acd2816b64d53bbe6ad88bf36053e-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:15:08.226703+00:00",
-        "lease_expires_at": "2026-11-07T04:15:08.226718+00:00"
-      },
       "source": {
         "source_id": "35133834",
         "source_url": "https://sdilej.cz/35133834/rodina-smolikova-s02e01-1968-cz-dabing-bedobi.mp4",
@@ -285966,15 +285960,22 @@
         "display_name": "Mézga család S02E01 Második dimenzió 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:15:13.722486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871200",
-        "size_bytes": 420261556
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871200",
+          "size_bytes": 420261556,
+          "source_bytes_read": 420261556,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133834",
+        "source_url": "https://sdilej.cz/35133834/rodina-smolikova-s02e01-1968-cz-dabing-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871200",
-        "size_bytes": 420261556,
-        "source_bytes_read": 420261556,
-        "http_status": 201
+        "display_name": "Mézga család S02E01 Második dimenzió 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:16:46.881551+00:00"
       }
     },
     "2523:2:2": {
@@ -286063,5 +286064,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:16:44.221891+00:00"
+  "updated_at": "2026-11-06T22:16:46.881569+00:00"
 }
