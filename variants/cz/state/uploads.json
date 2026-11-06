@@ -281214,12 +281214,6 @@
     },
     "1662:3:13": {
       "episode_key": "dobrá manželka:s3:e13",
-      "claim": {
-        "worker_id": "afb8282f207d4432a06de056f2485d1c-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T17:23:56.875032+00:00",
-        "lease_expires_at": "2026-11-06T23:23:56.875046+00:00"
-      },
       "source": {
         "source_id": "33701741",
         "source_url": "https://sdilej.cz/33701741/the-good-wife-dobra-manzelka-s03e13-czdab.mp4",
@@ -281244,15 +281238,22 @@
         "display_name": "The Good Wife S03E13 Bitcoin for Dummies 1080p CZ Dabing",
         "prepared_at": "2026-11-06T17:24:02.733988+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30864938",
-        "size_bytes": 909384289
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30864938",
+          "size_bytes": 909384289,
+          "source_bytes_read": 909384289,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701741",
+        "source_url": "https://sdilej.cz/33701741/the-good-wife-dobra-manzelka-s03e13-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30864938",
-        "size_bytes": 909384289,
-        "source_bytes_read": 909384289,
-        "http_status": 201
+        "display_name": "The Good Wife S03E13 Bitcoin for Dummies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T17:25:57.486291+00:00"
       }
     }
   },
@@ -281261,5 +281262,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T17:25:49.839263+00:00"
+  "updated_at": "2026-11-06T17:25:57.486309+00:00"
 }
