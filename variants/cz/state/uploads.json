@@ -278845,12 +278845,6 @@
     },
     "1662:1:4": {
       "episode_key": "dobrá manželka:s1:e4",
-      "claim": {
-        "worker_id": "494637b5df184b8496bbb5011e7f6dfb-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T13:37:20.413282+00:00",
-        "lease_expires_at": "2026-11-06T19:37:20.413296+00:00"
-      },
       "source": {
         "source_id": "33701276",
         "source_url": "https://sdilej.cz/33701276/the-good-wife-dobra-manzelka-s01e04-czdab.mp4",
@@ -278875,15 +278869,22 @@
         "display_name": "The Good Wife S01E04 Fixed 1080p CZ Dabing",
         "prepared_at": "2026-11-06T13:37:23.188647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30860267",
-        "size_bytes": 1007712950
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30860267",
+          "size_bytes": 1007712950,
+          "source_bytes_read": 1007712950,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701276",
+        "source_url": "https://sdilej.cz/33701276/the-good-wife-dobra-manzelka-s01e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30860267",
-        "size_bytes": 1007712950,
-        "source_bytes_read": 1007712950,
-        "http_status": 201
+        "display_name": "The Good Wife S01E04 Fixed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T13:38:45.916831+00:00"
       }
     }
   },
@@ -278892,5 +278893,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T13:38:41.298673+00:00"
+  "updated_at": "2026-11-06T13:38:45.916851+00:00"
 }
