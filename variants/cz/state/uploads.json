@@ -275574,12 +275574,6 @@
     },
     "1147:3:10": {
       "episode_key": "miliardy:s3:e10",
-      "claim": {
-        "worker_id": "97952668a63e4c49a68c28fa27c3651a-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:30:07.094988+00:00",
-        "lease_expires_at": "2026-11-06T15:30:07.095001+00:00"
-      },
       "source": {
         "source_id": "32317708",
         "source_url": "https://sdilej.cz/32317708/miliardy-s03e10-cz-dabing-billions.mp4",
@@ -275604,15 +275598,22 @@
         "display_name": "Billions S03E10 Redemption 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:30:11.763514+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855463",
-        "size_bytes": 594665756
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855463",
+          "size_bytes": 594665756,
+          "source_bytes_read": 594665756,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32317708",
+        "source_url": "https://sdilej.cz/32317708/miliardy-s03e10-cz-dabing-billions.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855463",
-        "size_bytes": 594665756,
-        "source_bytes_read": 594665756,
-        "http_status": 201
+        "display_name": "Billions S03E10 Redemption 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:33:02.227281+00:00"
       }
     }
   },
@@ -275621,5 +275622,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:32:56.461622+00:00"
+  "updated_at": "2026-11-06T09:33:02.227300+00:00"
 }
