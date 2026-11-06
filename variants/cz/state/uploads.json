@@ -282365,12 +282365,6 @@
     },
     "1662:4:20": {
       "episode_key": "dobrá manželka:s4:e20",
-      "claim": {
-        "worker_id": "8a097e10455140f7931ad6787f07304a-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T18:28:15.860351+00:00",
-        "lease_expires_at": "2026-11-07T00:28:15.860395+00:00"
-      },
       "source": {
         "source_id": "33701916",
         "source_url": "https://sdilej.cz/33701916/the-good-wife-dobra-manzelka-s04e20-czdab.mp4",
@@ -282395,15 +282389,22 @@
         "display_name": "The Good Wife S04E20 Rape: A Modern Perspective 1080p CZ Dabing",
         "prepared_at": "2026-11-06T18:28:18.904119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30866252",
-        "size_bytes": 820734029
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30866252",
+          "size_bytes": 820734029,
+          "source_bytes_read": 820734029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701916",
+        "source_url": "https://sdilej.cz/33701916/the-good-wife-dobra-manzelka-s04e20-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30866252",
-        "size_bytes": 820734029,
-        "source_bytes_read": 820734029,
-        "http_status": 201
+        "display_name": "The Good Wife S04E20 Rape: A Modern Perspective 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T18:30:34.719350+00:00"
       }
     },
     "1662:4:21": {
@@ -282449,5 +282450,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T18:30:30.461240+00:00"
+  "updated_at": "2026-11-06T18:30:34.719367+00:00"
 }
