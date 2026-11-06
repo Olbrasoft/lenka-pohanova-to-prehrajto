@@ -277430,12 +277430,6 @@
     },
     "1147:7:4": {
       "episode_key": "miliardy:s7:e4",
-      "claim": {
-        "worker_id": "cfcef503dc884012a61edeb76be331f1-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:21:59.397665+00:00",
-        "lease_expires_at": "2026-11-06T17:21:59.397677+00:00"
-      },
       "source": {
         "source_id": "27071724",
         "source_url": "https://sdilej.cz/27071724/billions.s07e04.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -277460,15 +277454,22 @@
         "display_name": "Billions S07E04 Hurricane Rosie 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:22:05.416367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857584",
-        "size_bytes": 1173107584
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857584",
+          "size_bytes": 1173107584,
+          "source_bytes_read": 1173107584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27071724",
+        "source_url": "https://sdilej.cz/27071724/billions.s07e04.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857584",
-        "size_bytes": 1173107584,
-        "source_bytes_read": 1173107584,
-        "http_status": 201
+        "display_name": "Billions S07E04 Hurricane Rosie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:24:00.854483+00:00"
       }
     }
   },
@@ -277477,5 +277478,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:23:54.441090+00:00"
+  "updated_at": "2026-11-06T11:24:00.854505+00:00"
 }
