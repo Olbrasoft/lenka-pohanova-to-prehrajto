@@ -272287,12 +272287,6 @@
     },
     "1130:4:3": {
       "episode_key": "zločin:s4:e3",
-      "claim": {
-        "worker_id": "6c4621c07e7940379b911f3f0bb82f28-worker-0",
-        "run_id": "42128974447",
-        "claimed_at": "2026-11-06T01:20:18.646294+00:00",
-        "lease_expires_at": "2026-11-06T07:20:18.646307+00:00"
-      },
       "source": {
         "source_id": "28409304",
         "source_url": "https://sdilej.cz/28409304/zlocin-the-killing-2011-s04e03.cz.webrip.1080p.hevc.c4u.mkv",
@@ -272317,15 +272311,22 @@
         "display_name": "The Killing (2011) [ID 1130] S04E03 The Good Soldier 1080p CZ Dabing",
         "prepared_at": "2026-11-06T01:20:21.573614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30840552",
-        "size_bytes": 727007108
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30840552",
+          "size_bytes": 727007108,
+          "source_bytes_read": 727007108,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28409304",
+        "source_url": "https://sdilej.cz/28409304/zlocin-the-killing-2011-s04e03.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30840552",
-        "size_bytes": 727007108,
-        "source_bytes_read": 727007108,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S04E03 The Good Soldier 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T01:21:22.053772+00:00"
       }
     },
     "1130:4:4": {
@@ -272371,5 +272372,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T01:21:16.204747+00:00"
+  "updated_at": "2026-11-06T01:21:22.053789+00:00"
 }
