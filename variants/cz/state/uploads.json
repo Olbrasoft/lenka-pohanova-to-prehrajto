@@ -281309,12 +281309,6 @@
     },
     "1662:3:14": {
       "episode_key": "dobrá manželka:s3:e14",
-      "claim": {
-        "worker_id": "06af80ecf3f64f7ab2f91bb48ee1a021-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T17:27:26.288065+00:00",
-        "lease_expires_at": "2026-11-06T23:27:26.288076+00:00"
-      },
       "source": {
         "source_id": "33701746",
         "source_url": "https://sdilej.cz/33701746/the-good-wife-dobra-manzelka-s03e14-czdab.mp4",
@@ -281339,15 +281333,22 @@
         "display_name": "The Good Wife S03E14 Another Ham Sandwich 1080p CZ Dabing",
         "prepared_at": "2026-11-06T17:27:37.110848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30865032",
-        "size_bytes": 947114237
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30865032",
+          "size_bytes": 947114237,
+          "source_bytes_read": 947114237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701746",
+        "source_url": "https://sdilej.cz/33701746/the-good-wife-dobra-manzelka-s03e14-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30865032",
-        "size_bytes": 947114237,
-        "source_bytes_read": 947114237,
-        "http_status": 201
+        "display_name": "The Good Wife S03E14 Another Ham Sandwich 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T17:29:05.985947+00:00"
       }
     },
     "1662:3:16": {
@@ -281393,5 +281394,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T17:29:00.723040+00:00"
+  "updated_at": "2026-11-06T17:29:05.985965+00:00"
 }
