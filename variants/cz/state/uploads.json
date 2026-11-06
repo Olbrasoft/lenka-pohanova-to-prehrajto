@@ -273787,12 +273787,6 @@
     },
     "681:1:4": {
       "episode_key": "země gangů:s1:e4",
-      "claim": {
-        "worker_id": "b94f21fa1ea4456abdb40c7c84badf37-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T05:25:16.282567+00:00",
-        "lease_expires_at": "2026-11-06T11:25:16.282578+00:00"
-      },
       "source": {
         "source_id": "34344820",
         "source_url": "https://sdilej.cz/34344820/zeme-gangu-s01e04-past-na-krysy.mkv",
@@ -273817,15 +273811,22 @@
         "display_name": "MobLand S01E04 Rat Trap 4K CZ Dabing",
         "prepared_at": "2026-11-06T05:25:21.584582+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30848853",
-        "size_bytes": 1978968123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30848853",
+          "size_bytes": 1978968123,
+          "source_bytes_read": 1978968123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34344820",
+        "source_url": "https://sdilej.cz/34344820/zeme-gangu-s01e04-past-na-krysy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30848853",
-        "size_bytes": 1978968123,
-        "source_bytes_read": 1978968123,
-        "http_status": 201
+        "display_name": "MobLand S01E04 Rat Trap 4K CZ Dabing",
+        "uploaded_at": "2026-11-06T05:37:53.743267+00:00"
       }
     }
   },
@@ -273834,5 +273835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T05:37:51.170372+00:00"
+  "updated_at": "2026-11-06T05:37:53.743287+00:00"
 }
