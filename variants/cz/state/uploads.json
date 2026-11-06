@@ -274675,12 +274675,6 @@
     },
     "1147:2:1": {
       "episode_key": "miliardy:s2:e1",
-      "claim": {
-        "worker_id": "a2a48b81868140b4ac7102f94979e24e-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:41:18.130016+00:00",
-        "lease_expires_at": "2026-11-06T14:41:18.130026+00:00"
-      },
       "source": {
         "source_id": "34459635",
         "source_url": "https://sdilej.cz/34459635/miliardy-s02e01-manazerstvo-rizika.mkv",
@@ -274705,15 +274699,22 @@
         "display_name": "Billions S02E01 Risk Management 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:41:21.671272+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30854616",
-        "size_bytes": 3381309246
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30854616",
+          "size_bytes": 3381309246,
+          "source_bytes_read": 3381309246,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34459635",
+        "source_url": "https://sdilej.cz/34459635/miliardy-s02e01-manazerstvo-rizika.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30854616",
-        "size_bytes": 3381309246,
-        "source_bytes_read": 3381309246,
-        "http_status": 201
+        "display_name": "Billions S02E01 Risk Management 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T08:59:49.738161+00:00"
       }
     },
     "1147:2:2": {
@@ -274840,5 +274841,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T08:59:45.310136+00:00"
+  "updated_at": "2026-11-06T08:59:49.738178+00:00"
 }
