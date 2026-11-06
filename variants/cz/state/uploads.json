@@ -285892,12 +285892,6 @@
     },
     "2523:1:13": {
       "episode_key": "rodina smolíkova:s1:e13",
-      "claim": {
-        "worker_id": "551f32b659dd45b88e38afd8a048544e-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:15:05.824132+00:00",
-        "lease_expires_at": "2026-11-07T04:15:05.824144+00:00"
-      },
       "source": {
         "source_id": "35133830",
         "source_url": "https://sdilej.cz/35133830/rodina-smolikova-s01e13-1968-cz-dabing-bedobi.mp4",
@@ -285922,15 +285916,22 @@
         "display_name": "Mézga család S01E13 Mag-lak 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:15:11.302519+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871198",
-        "size_bytes": 333414490
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871198",
+          "size_bytes": 333414490,
+          "source_bytes_read": 333414490,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133830",
+        "source_url": "https://sdilej.cz/35133830/rodina-smolikova-s01e13-1968-cz-dabing-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871198",
-        "size_bytes": 333414490,
-        "source_bytes_read": 333414490,
-        "http_status": 201
+        "display_name": "Mézga család S01E13 Mag-lak 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:16:19.146333+00:00"
       }
     },
     "2523:2:1": {
@@ -286013,5 +286014,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:16:14.209626+00:00"
+  "updated_at": "2026-11-06T22:16:19.146355+00:00"
 }
