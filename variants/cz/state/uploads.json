@@ -286112,12 +286112,6 @@
     },
     "2523:2:5": {
       "episode_key": "rodina smolíkova:s2:e5",
-      "claim": {
-        "worker_id": "535cd95860e3477882041702d3fe2fe2-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:17:00.664992+00:00",
-        "lease_expires_at": "2026-11-07T04:17:00.665009+00:00"
-      },
       "source": {
         "source_id": "35133843",
         "source_url": "https://sdilej.cz/35133843/rodina-smolikova-s02e05-1968-cz-dabing-bedobi.mp4",
@@ -286142,15 +286136,22 @@
         "display_name": "Mézga család S02E05 Musicanta 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:17:04.005950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871233",
-        "size_bytes": 420369691
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871233",
+          "size_bytes": 420369691,
+          "source_bytes_read": 420369691,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133843",
+        "source_url": "https://sdilej.cz/35133843/rodina-smolikova-s02e05-1968-cz-dabing-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871233",
-        "size_bytes": 420369691,
-        "source_bytes_read": 420369691,
-        "http_status": 201
+        "display_name": "Mézga család S02E05 Musicanta 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:18:21.043180+00:00"
       }
     }
   },
@@ -286159,5 +286160,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:18:18.517277+00:00"
+  "updated_at": "2026-11-06T22:18:21.043199+00:00"
 }
