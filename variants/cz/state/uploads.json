@@ -274454,12 +274454,6 @@
     },
     "1147:1:8": {
       "episode_key": "miliardy:s1:e8",
-      "claim": {
-        "worker_id": "5d492f01838044de9bd35c9bd79a8b4a-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:20:47.909867+00:00",
-        "lease_expires_at": "2026-11-06T14:20:47.909878+00:00"
-      },
       "source": {
         "source_id": "26754859",
         "source_url": "https://sdilej.cz/26754859/billions.s01e08.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -274484,15 +274478,22 @@
         "display_name": "Billions S01E08 Boasts and Rails 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:20:52.224635+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30854106",
-        "size_bytes": 994701567
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30854106",
+          "size_bytes": 994701567,
+          "source_bytes_read": 994701567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26754859",
+        "source_url": "https://sdilej.cz/26754859/billions.s01e08.1080p.10bit.bluray.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30854106",
-        "size_bytes": 994701567,
-        "source_bytes_read": 994701567,
-        "http_status": 201
+        "display_name": "Billions S01E08 Boasts and Rails 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T08:31:15.702835+00:00"
       }
     }
   },
@@ -274501,5 +274502,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T08:31:13.263313+00:00"
+  "updated_at": "2026-11-06T08:31:15.702854+00:00"
 }
