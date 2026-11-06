@@ -283201,12 +283201,6 @@
     },
     "1662:5:17": {
       "episode_key": "dobrá manželka:s5:e17",
-      "claim": {
-        "worker_id": "9904c0ebb70745ab9ca3a71c5602fdd5-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T19:20:02.743996+00:00",
-        "lease_expires_at": "2026-11-07T01:20:02.744005+00:00"
-      },
       "source": {
         "source_id": "33702071",
         "source_url": "https://sdilej.cz/33702071/the-good-wife-dobra-manzelka-s05e17-czdab.mp4",
@@ -283231,15 +283225,22 @@
         "display_name": "The Good Wife S05E17 A Material World 1080p CZ Dabing",
         "prepared_at": "2026-11-06T19:20:07.623947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30867258",
-        "size_bytes": 768397994
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30867258",
+          "size_bytes": 768397994,
+          "source_bytes_read": 768397994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702071",
+        "source_url": "https://sdilej.cz/33702071/the-good-wife-dobra-manzelka-s05e17-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30867258",
-        "size_bytes": 768397994,
-        "source_bytes_read": 768397994,
-        "http_status": 201
+        "display_name": "The Good Wife S05E17 A Material World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T19:21:28.556535+00:00"
       }
     }
   },
@@ -283248,5 +283249,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T19:21:26.154487+00:00"
+  "updated_at": "2026-11-06T19:21:28.556551+00:00"
 }
