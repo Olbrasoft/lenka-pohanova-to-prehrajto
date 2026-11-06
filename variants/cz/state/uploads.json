@@ -278486,12 +278486,6 @@
     },
     "1167:2:8": {
       "episode_key": "narcos: mexiko:s2:e8",
-      "claim": {
-        "worker_id": "2e00c531eb954cbb8d8af11ba75421bc-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T12:44:51.403956+00:00",
-        "lease_expires_at": "2026-11-06T18:44:51.403973+00:00"
-      },
       "source": {
         "source_id": "18594077",
         "source_url": "https://sdilej.cz/18594077/narcos-mexico-s02e08-cz.mkv",
@@ -278516,15 +278510,22 @@
         "display_name": "Narcos: Mexico S02E08 Se Cayó El Sistema 1080p CZ Dabing",
         "prepared_at": "2026-11-06T12:44:54.281352+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30859378",
-        "size_bytes": 688827864
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30859378",
+          "size_bytes": 688827864,
+          "source_bytes_read": 688827864,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18594077",
+        "source_url": "https://sdilej.cz/18594077/narcos-mexico-s02e08-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30859378",
-        "size_bytes": 688827864,
-        "source_bytes_read": 688827864,
-        "http_status": 201
+        "display_name": "Narcos: Mexico S02E08 Se Cayó El Sistema 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:46:07.262992+00:00"
       }
     }
   },
@@ -278533,5 +278534,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:46:02.588938+00:00"
+  "updated_at": "2026-11-06T12:46:07.263009+00:00"
 }
