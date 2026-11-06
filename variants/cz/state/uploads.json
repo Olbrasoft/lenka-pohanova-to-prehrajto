@@ -278148,12 +278148,6 @@
     },
     "1167:1:9": {
       "episode_key": "narcos: mexiko:s1:e9",
-      "claim": {
-        "worker_id": "277ba75f4a85447d8862e240a7e0b285-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T12:27:42.584466+00:00",
-        "lease_expires_at": "2026-11-06T18:27:42.584477+00:00"
-      },
       "source": {
         "source_id": "29366992",
         "source_url": "https://sdilej.cz/29366992/narcos-mexiko-s01e09-1080p-cz-dabing.mkv",
@@ -278178,15 +278172,22 @@
         "display_name": "Narcos: Mexico S01E09 881 Lope de Vega 1080p CZ Dabing",
         "prepared_at": "2026-11-06T12:27:51.488310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30859017",
-        "size_bytes": 1395522371
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30859017",
+          "size_bytes": 1395522371,
+          "source_bytes_read": 1395522371,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29366992",
+        "source_url": "https://sdilej.cz/29366992/narcos-mexiko-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30859017",
-        "size_bytes": 1395522371,
-        "source_bytes_read": 1395522371,
-        "http_status": 201
+        "display_name": "Narcos: Mexico S01E09 881 Lope de Vega 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:33:55.426410+00:00"
       }
     },
     "1167:1:10": {
@@ -278357,5 +278358,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:33:50.336724+00:00"
+  "updated_at": "2026-11-06T12:33:55.426437+00:00"
 }
