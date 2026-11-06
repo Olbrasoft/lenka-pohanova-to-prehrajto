@@ -285584,12 +285584,6 @@
     },
     "2523:1:6": {
       "episode_key": "rodina smolíkova:s1:e6",
-      "claim": {
-        "worker_id": "f6a79a979685466a96ee2bdaa8cf5ecd-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:11:59.271295+00:00",
-        "lease_expires_at": "2026-11-07T04:11:59.271309+00:00"
-      },
       "source": {
         "source_id": "30864137",
         "source_url": "https://sdilej.cz/30864137/rodina-smolikova-s01e06-cz-1969-720p.mp4",
@@ -285614,15 +285608,22 @@
         "display_name": "Mézga család S01E06 Im-bolygó 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:12:05.283431+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871117",
-        "size_bytes": 346950491
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871117",
+          "size_bytes": 346950491,
+          "source_bytes_read": 346950491,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30864137",
+        "source_url": "https://sdilej.cz/30864137/rodina-smolikova-s01e06-cz-1969-720p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871117",
-        "size_bytes": 346950491,
-        "source_bytes_read": 346950491,
-        "http_status": 201
+        "display_name": "Mézga család S01E06 Im-bolygó 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:13:13.756211+00:00"
       }
     },
     "2523:1:7": {
@@ -285712,5 +285713,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:13:10.827574+00:00"
+  "updated_at": "2026-11-06T22:13:13.756227+00:00"
 }
