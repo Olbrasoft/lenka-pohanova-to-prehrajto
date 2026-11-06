@@ -286156,12 +286156,6 @@
     },
     "2523:2:6": {
       "episode_key": "rodina smolíkova:s2:e6",
-      "claim": {
-        "worker_id": "ce250fdcacd048f1ad204decc6492ce0-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:18:31.849363+00:00",
-        "lease_expires_at": "2026-11-07T04:18:31.849378+00:00"
-      },
       "source": {
         "source_id": "35133844",
         "source_url": "https://sdilej.cz/35133844/rodina-smolikova-s02e06-1968-cz-dabing-bedobi.mp4",
@@ -286186,15 +286180,22 @@
         "display_name": "Mézga család S02E06 Krimibolygó 720p CZ Dabing",
         "prepared_at": "2026-11-06T22:18:38.944351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30871271",
-        "size_bytes": 418624334
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30871271",
+          "size_bytes": 418624334,
+          "source_bytes_read": 418624334,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133844",
+        "source_url": "https://sdilej.cz/35133844/rodina-smolikova-s02e06-1968-cz-dabing-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30871271",
-        "size_bytes": 418624334,
-        "source_bytes_read": 418624334,
-        "http_status": 201
+        "display_name": "Mézga család S02E06 Krimibolygó 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:19:36.331875+00:00"
       }
     },
     "2523:2:7": {
@@ -286240,5 +286241,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:19:31.093591+00:00"
+  "updated_at": "2026-11-06T22:19:36.331893+00:00"
 }
