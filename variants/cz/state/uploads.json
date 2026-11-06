@@ -286640,12 +286640,6 @@
     },
     "2523:3:4": {
       "episode_key": "rodina smolíkova:s3:e4",
-      "claim": {
-        "worker_id": "dbb97ce2547340b9b4be2a9a4d126cac-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:49:17.455292+00:00",
-        "lease_expires_at": "2026-11-07T04:49:17.455305+00:00"
-      },
       "source": {
         "source_id": "35133864",
         "source_url": "https://sdilej.cz/35133864/rodina-smolikova-s03e04-1968-cz-dabing-bedobi.avi",
@@ -286670,15 +286664,22 @@
         "display_name": "Mézga család S03E04 A lakatlan sziget SD CZ Dabing",
         "prepared_at": "2026-11-06T22:49:27.117687+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872158",
-        "size_bytes": 332949315
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872158",
+          "size_bytes": 332949315,
+          "source_bytes_read": 332949315,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133864",
+        "source_url": "https://sdilej.cz/35133864/rodina-smolikova-s03e04-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872158",
-        "size_bytes": 332949315,
-        "source_bytes_read": 332949315,
-        "http_status": 201
+        "display_name": "Mézga család S03E04 A lakatlan sziget SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:50:33.408964+00:00"
       }
     }
   },
@@ -286687,5 +286688,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:50:30.360506+00:00"
+  "updated_at": "2026-11-06T22:50:33.408983+00:00"
 }
