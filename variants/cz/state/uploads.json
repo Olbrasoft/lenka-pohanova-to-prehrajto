@@ -277224,12 +277224,6 @@
     },
     "1147:6:11": {
       "episode_key": "miliardy:s6:e11",
-      "claim": {
-        "worker_id": "93035a457c2e4da0960af25549ba04c2-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:07:05.504950+00:00",
-        "lease_expires_at": "2026-11-06T17:07:05.504962+00:00"
-      },
       "source": {
         "source_id": "32305705",
         "source_url": "https://sdilej.cz/32305705/miliardy-s06e11-cz-dabing-1080p-billions.mkv",
@@ -277254,15 +277248,22 @@
         "display_name": "Billions S06E11 Succession 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:07:08.325533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857289",
-        "size_bytes": 882276119
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857289",
+          "size_bytes": 882276119,
+          "source_bytes_read": 882276119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305705",
+        "source_url": "https://sdilej.cz/32305705/miliardy-s06e11-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857289",
-        "size_bytes": 882276119,
-        "source_bytes_read": 882276119,
-        "http_status": 201
+        "display_name": "Billions S06E11 Succession 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:09:49.200803+00:00"
       }
     },
     "1147:6:12": {
@@ -277345,5 +277346,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:09:44.176203+00:00"
+  "updated_at": "2026-11-06T11:09:49.200821+00:00"
 }
