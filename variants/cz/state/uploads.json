@@ -275159,12 +275159,6 @@
     },
     "1147:2:12": {
       "episode_key": "miliardy:s2:e12",
-      "claim": {
-        "worker_id": "084fb5b7206949758daae1f7c2b839b7-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:24:06.873661+00:00",
-        "lease_expires_at": "2026-11-06T15:24:06.873673+00:00"
-      },
       "source": {
         "source_id": "26775914",
         "source_url": "https://sdilej.cz/26775914/billions.s02e12.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -275189,15 +275183,22 @@
         "display_name": "Billions S02E12 Ball in Hand 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:24:10.095848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855381",
-        "size_bytes": 1044008746
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855381",
+          "size_bytes": 1044008746,
+          "source_bytes_read": 1044008746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26775914",
+        "source_url": "https://sdilej.cz/26775914/billions.s02e12.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855381",
-        "size_bytes": 1044008746,
-        "source_bytes_read": 1044008746,
-        "http_status": 201
+        "display_name": "Billions S02E12 Ball in Hand 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:26:18.088448+00:00"
       }
     },
     "1147:3:1": {
@@ -275258,5 +275259,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:26:15.781424+00:00"
+  "updated_at": "2026-11-06T09:26:18.088467+00:00"
 }
