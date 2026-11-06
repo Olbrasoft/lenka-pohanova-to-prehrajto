@@ -277720,12 +277720,6 @@
     },
     "1147:7:10": {
       "episode_key": "miliardy:s7:e10",
-      "claim": {
-        "worker_id": "63f95c29f4ec49a2ad458eba696baf66-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:35:14.303380+00:00",
-        "lease_expires_at": "2026-11-06T17:35:14.303393+00:00"
-      },
       "source": {
         "source_id": "32305971",
         "source_url": "https://sdilej.cz/32305971/miliardy-s07e10-cz-dabing-1080p-billions.mkv",
@@ -277750,15 +277744,22 @@
         "display_name": "Billions S07E10 Enemies List 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:35:17.157816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857834",
-        "size_bytes": 3818023393
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857834",
+          "size_bytes": 3818023393,
+          "source_bytes_read": 3818023393,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305971",
+        "source_url": "https://sdilej.cz/32305971/miliardy-s07e10-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857834",
-        "size_bytes": 3818023393,
-        "source_bytes_read": 3818023393,
-        "http_status": 201
+        "display_name": "Billions S07E10 Enemies List 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:48:34.275457+00:00"
       }
     }
   },
@@ -277767,5 +277768,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:48:31.995129+00:00"
+  "updated_at": "2026-11-06T11:48:34.275473+00:00"
 }
