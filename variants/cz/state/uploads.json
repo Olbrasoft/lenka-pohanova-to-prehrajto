@@ -285144,12 +285144,6 @@
     },
     "1662:7:17": {
       "episode_key": "dobrá manželka:s7:e17",
-      "claim": {
-        "worker_id": "451b1b6b850c4aeca4a12385e8c9aa6a-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:02:40.929938+00:00",
-        "lease_expires_at": "2026-11-07T04:02:40.929955+00:00"
-      },
       "source": {
         "source_id": "33702396",
         "source_url": "https://sdilej.cz/33702396/the-good-wife-dobra-manzelka-s07e17-czdab.mp4",
@@ -285174,15 +285168,22 @@
         "display_name": "The Good Wife S07E17 Shoot 1080p CZ Dabing",
         "prepared_at": "2026-11-06T22:02:44.505023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30870877",
-        "size_bytes": 763897537
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30870877",
+          "size_bytes": 763897537,
+          "source_bytes_read": 763897537,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702396",
+        "source_url": "https://sdilej.cz/33702396/the-good-wife-dobra-manzelka-s07e17-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30870877",
-        "size_bytes": 763897537,
-        "source_bytes_read": 763897537,
-        "http_status": 201
+        "display_name": "The Good Wife S07E17 Shoot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:04:07.489315+00:00"
       }
     },
     "1662:7:18": {
@@ -285228,5 +285229,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:04:04.849177+00:00"
+  "updated_at": "2026-11-06T22:04:07.489332+00:00"
 }
