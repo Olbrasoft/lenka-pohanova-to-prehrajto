@@ -273399,12 +273399,6 @@
     },
     "1672:3:3": {
       "episode_key": "pozůstalí:s3:e3",
-      "claim": {
-        "worker_id": "d18624e71cf54a3f8125d8377bc5c30a-worker-0",
-        "run_id": "42150191959",
-        "claimed_at": "2026-11-06T04:32:12.053471+00:00",
-        "lease_expires_at": "2026-11-06T10:32:12.053481+00:00"
-      },
       "source": {
         "source_id": "33681254",
         "source_url": "https://sdilej.cz/33681254/pozustali-s03e03-cz-dabing.mp4",
@@ -273429,15 +273423,22 @@
         "display_name": "The Leftovers S03E03 Crazy Whitefella Thinking 720p CZ Dabing",
         "prepared_at": "2026-11-06T04:32:14.830127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30847155",
-        "size_bytes": 589674059
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30847155",
+          "size_bytes": 589674059,
+          "source_bytes_read": 589674059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33681254",
+        "source_url": "https://sdilej.cz/33681254/pozustali-s03e03-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30847155",
-        "size_bytes": 589674059,
-        "source_bytes_read": 589674059,
-        "http_status": 201
+        "display_name": "The Leftovers S03E03 Crazy Whitefella Thinking 720p CZ Dabing",
+        "uploaded_at": "2026-11-06T04:33:22.278035+00:00"
       }
     },
     "1672:3:4": {
@@ -273516,5 +273517,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T04:33:19.053534+00:00"
+  "updated_at": "2026-11-06T04:33:22.278050+00:00"
 }
