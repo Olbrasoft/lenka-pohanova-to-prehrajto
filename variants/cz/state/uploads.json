@@ -278537,12 +278537,6 @@
     },
     "1167:2:9": {
       "episode_key": "narcos: mexiko:s2:e9",
-      "claim": {
-        "worker_id": "740f6c41c9d24516810aff24d77987cd-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T12:46:15.510669+00:00",
-        "lease_expires_at": "2026-11-06T18:46:15.510680+00:00"
-      },
       "source": {
         "source_id": "18594044",
         "source_url": "https://sdilej.cz/18594044/narcos-mexico-s02e09-cz.mkv",
@@ -278567,15 +278561,22 @@
         "display_name": "Narcos: Mexico S02E09 Growth, Prosperity, and Liberation 1080p CZ Dabing",
         "prepared_at": "2026-11-06T12:46:18.325941+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30859409",
-        "size_bytes": 603078043
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30859409",
+          "size_bytes": 603078043,
+          "source_bytes_read": 603078043,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18594044",
+        "source_url": "https://sdilej.cz/18594044/narcos-mexico-s02e09-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30859409",
-        "size_bytes": 603078043,
-        "source_bytes_read": 603078043,
-        "http_status": 201
+        "display_name": "Narcos: Mexico S02E09 Growth, Prosperity, and Liberation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:48:25.347092+00:00"
       }
     },
     "1167:2:10": {
@@ -278621,5 +278622,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:48:20.516835+00:00"
+  "updated_at": "2026-11-06T12:48:25.347111+00:00"
 }
