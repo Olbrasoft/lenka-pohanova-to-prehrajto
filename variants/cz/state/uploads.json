@@ -278449,12 +278449,6 @@
     },
     "1167:2:7": {
       "episode_key": "narcos: mexiko:s2:e7",
-      "claim": {
-        "worker_id": "86c421f678c54af691c171df4278f2d4-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T12:41:50.461999+00:00",
-        "lease_expires_at": "2026-11-06T18:41:50.462011+00:00"
-      },
       "source": {
         "source_id": "29465488",
         "source_url": "https://sdilej.cz/29465488/narcos-mexiko-s02e07-cz-dabing.mkv",
@@ -278479,15 +278473,22 @@
         "display_name": "Narcos: Mexico S02E07 Truth and Reconciliation 1080p CZ Dabing",
         "prepared_at": "2026-11-06T12:41:54.264990+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30859322",
-        "size_bytes": 1299190538
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30859322",
+          "size_bytes": 1299190538,
+          "source_bytes_read": 1299190538,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29465488",
+        "source_url": "https://sdilej.cz/29465488/narcos-mexiko-s02e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30859322",
-        "size_bytes": 1299190538,
-        "source_bytes_read": 1299190538,
-        "http_status": 201
+        "display_name": "Narcos: Mexico S02E07 Truth and Reconciliation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:47:53.381061+00:00"
       }
     },
     "1167:2:8": {
@@ -278577,5 +278578,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:47:48.381036+00:00"
+  "updated_at": "2026-11-06T12:47:53.381080+00:00"
 }
