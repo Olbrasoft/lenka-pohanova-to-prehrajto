@@ -280656,12 +280656,6 @@
     },
     "1662:2:23": {
       "episode_key": "dobrá manželka:s2:e23",
-      "claim": {
-        "worker_id": "a59890fcf37a42f2b7f647ec3ef2f653-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T16:50:01.520543+00:00",
-        "lease_expires_at": "2026-11-06T22:50:01.520555+00:00"
-      },
       "source": {
         "source_id": "29140020",
         "source_url": "https://sdilej.cz/29140020/dobra-manzelka-s02e23.mkv",
@@ -280686,15 +280680,22 @@
         "display_name": "The Good Wife S02E23 Closing Arguments 1080p CZ Dabing",
         "prepared_at": "2026-11-06T16:50:07.068221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30864152",
-        "size_bytes": 1335094110
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30864152",
+          "size_bytes": 1335094110,
+          "source_bytes_read": 1335094110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29140020",
+        "source_url": "https://sdilej.cz/29140020/dobra-manzelka-s02e23.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30864152",
-        "size_bytes": 1335094110,
-        "source_bytes_read": 1335094110,
-        "http_status": 201
+        "display_name": "The Good Wife S02E23 Closing Arguments 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T16:54:32.761691+00:00"
       }
     },
     "1662:3:1": {
@@ -280777,5 +280778,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T16:54:25.713310+00:00"
+  "updated_at": "2026-11-06T16:54:32.761706+00:00"
 }
