@@ -274316,12 +274316,6 @@
     },
     "1147:1:5": {
       "episode_key": "miliardy:s1:e5",
-      "claim": {
-        "worker_id": "c34b339a454342d78130e1d87ff66e72-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T08:14:18.901199+00:00",
-        "lease_expires_at": "2026-11-06T14:14:18.901213+00:00"
-      },
       "source": {
         "source_id": "29261985",
         "source_url": "https://sdilej.cz/29261985/miliardy-s01e05-cz-dabing-billions.mp4",
@@ -274346,15 +274340,22 @@
         "display_name": "Billions S01E05 The Good Life 1080p CZ Dabing",
         "prepared_at": "2026-11-06T08:14:21.994918+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30853932",
-        "size_bytes": 603155808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30853932",
+          "size_bytes": 603155808,
+          "source_bytes_read": 603155808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29261985",
+        "source_url": "https://sdilej.cz/29261985/miliardy-s01e05-cz-dabing-billions.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30853932",
-        "size_bytes": 603155808,
-        "source_bytes_read": 603155808,
-        "http_status": 201
+        "display_name": "Billions S01E05 The Good Life 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T08:16:44.675067+00:00"
       }
     },
     "1147:1:6": {
@@ -274400,5 +274401,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T08:16:39.007161+00:00"
+  "updated_at": "2026-11-06T08:16:44.675083+00:00"
 }
