@@ -287036,12 +287036,6 @@
     },
     "3851:1:1": {
       "episode_key": "druhá světová válka v barvě:s1:e1",
-      "claim": {
-        "worker_id": "9e595917fe2f47dc9a26decb09fcf7ba-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T23:02:20.045809+00:00",
-        "lease_expires_at": "2026-11-07T05:02:20.045828+00:00"
-      },
       "source": {
         "source_id": "31359163",
         "source_url": "https://sdilej.cz/31359163/druha-svetova-valka-v-barve-s01e01.mkv",
@@ -287066,15 +287060,22 @@
         "display_name": "World War II in Colour S01E01 The Gathering Storm SD CZ Dabing",
         "prepared_at": "2026-11-06T23:02:24.954246+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872454",
-        "size_bytes": 980103554
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872454",
+          "size_bytes": 980103554,
+          "source_bytes_read": 980103554,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31359163",
+        "source_url": "https://sdilej.cz/31359163/druha-svetova-valka-v-barve-s01e01.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872454",
-        "size_bytes": 980103554,
-        "source_bytes_read": 980103554,
-        "http_status": 201
+        "display_name": "World War II in Colour S01E01 The Gathering Storm SD CZ Dabing",
+        "uploaded_at": "2026-11-06T23:05:49.281846+00:00"
       }
     },
     "3851:1:6": {
@@ -287157,5 +287158,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T23:05:43.528706+00:00"
+  "updated_at": "2026-11-06T23:05:49.281863+00:00"
 }
