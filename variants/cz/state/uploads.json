@@ -276205,12 +276205,6 @@
     },
     "1147:4:12": {
       "episode_key": "miliardy:s4:e12",
-      "claim": {
-        "worker_id": "dedf5eef1d3c4183a44a3fa0b9195f26-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T10:19:30.138667+00:00",
-        "lease_expires_at": "2026-11-06T16:19:30.138684+00:00"
-      },
       "source": {
         "source_id": "26811712",
         "source_url": "https://sdilej.cz/26811712/billions.s04e12.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -276235,15 +276229,22 @@
         "display_name": "Billions S04E12 Extreme Sandbox 1080p CZ Dabing",
         "prepared_at": "2026-11-06T10:19:36.057047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30856377",
-        "size_bytes": 728517219
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30856377",
+          "size_bytes": 728517219,
+          "source_bytes_read": 728517219,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26811712",
+        "source_url": "https://sdilej.cz/26811712/billions.s04e12.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30856377",
-        "size_bytes": 728517219,
-        "source_bytes_read": 728517219,
-        "http_status": 201
+        "display_name": "Billions S04E12 Extreme Sandbox 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T10:22:17.098711+00:00"
       }
     }
   },
@@ -276252,5 +276253,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T10:22:11.531712+00:00"
+  "updated_at": "2026-11-06T10:22:17.098732+00:00"
 }
