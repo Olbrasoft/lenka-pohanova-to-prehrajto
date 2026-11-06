@@ -279864,12 +279864,6 @@
     },
     "1662:2:4": {
       "episode_key": "dobrá manželka:s2:e4",
-      "claim": {
-        "worker_id": "fd3a2cfda5ec42d188fdd249d9c2b773-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T15:44:21.271914+00:00",
-        "lease_expires_at": "2026-11-06T21:44:21.271925+00:00"
-      },
       "source": {
         "source_id": "33701500",
         "source_url": "https://sdilej.cz/33701500/the-good-wife-dobra-manzelka-s02e04-czdab.mp4",
@@ -279894,15 +279888,22 @@
         "display_name": "The Good Wife S02E04 Cleaning House 1080p CZ Dabing",
         "prepared_at": "2026-11-06T15:44:30.115868+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30862644",
-        "size_bytes": 926497492
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30862644",
+          "size_bytes": 926497492,
+          "source_bytes_read": 926497492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701500",
+        "source_url": "https://sdilej.cz/33701500/the-good-wife-dobra-manzelka-s02e04-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30862644",
-        "size_bytes": 926497492,
-        "source_bytes_read": 926497492,
-        "http_status": 201
+        "display_name": "The Good Wife S02E04 Cleaning House 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T15:48:42.788554+00:00"
       }
     },
     "1662:2:5": {
@@ -279991,5 +279992,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T15:48:40.163304+00:00"
+  "updated_at": "2026-11-06T15:48:42.788570+00:00"
 }
