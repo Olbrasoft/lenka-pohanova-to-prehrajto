@@ -286947,12 +286947,6 @@
     },
     "2523:3:12": {
       "episode_key": "rodina smolíkova:s3:e12",
-      "claim": {
-        "worker_id": "a4ee25cde4914afb975c9a704fa638a5-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:59:56.177184+00:00",
-        "lease_expires_at": "2026-11-07T04:59:56.177198+00:00"
-      },
       "source": {
         "source_id": "35133877",
         "source_url": "https://sdilej.cz/35133877/rodina-smolikova-s03e12-1968-cz-dabing-bedobi.avi",
@@ -286977,15 +286971,22 @@
         "display_name": "Mézga család S03E12 Hamis barátok SD CZ Dabing",
         "prepared_at": "2026-11-06T22:59:59.307410+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872417",
-        "size_bytes": 335777740
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872417",
+          "size_bytes": 335777740,
+          "source_bytes_read": 335777740,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35133877",
+        "source_url": "https://sdilej.cz/35133877/rodina-smolikova-s03e12-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872417",
-        "size_bytes": 335777740,
-        "source_bytes_read": 335777740,
-        "http_status": 201
+        "display_name": "Mézga család S03E12 Hamis barátok SD CZ Dabing",
+        "uploaded_at": "2026-11-06T23:02:06.849602+00:00"
       }
     },
     "2523:3:13": {
@@ -287031,5 +287032,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T23:02:04.416514+00:00"
+  "updated_at": "2026-11-06T23:02:06.849621+00:00"
 }
