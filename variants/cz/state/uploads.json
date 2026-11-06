@@ -280128,12 +280128,6 @@
     },
     "1662:2:10": {
       "episode_key": "dobrá manželka:s2:e10",
-      "claim": {
-        "worker_id": "83b67d35c58e48d1b7e70e91d15a922f-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T16:00:14.692276+00:00",
-        "lease_expires_at": "2026-11-06T22:00:14.692285+00:00"
-      },
       "source": {
         "source_id": "33701560",
         "source_url": "https://sdilej.cz/33701560/the-good-wife-dobra-manzelka-s02e10-czdab.mp4",
@@ -280158,15 +280152,22 @@
         "display_name": "The Good Wife S02E10 Breaking Up 1080p CZ Dabing",
         "prepared_at": "2026-11-06T16:00:21.038628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30863032",
-        "size_bytes": 959057010
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30863032",
+          "size_bytes": 959057010,
+          "source_bytes_read": 959057010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701560",
+        "source_url": "https://sdilej.cz/33701560/the-good-wife-dobra-manzelka-s02e10-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30863032",
-        "size_bytes": 959057010,
-        "source_bytes_read": 959057010,
-        "http_status": 201
+        "display_name": "The Good Wife S02E10 Breaking Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T16:03:09.724562+00:00"
       }
     },
     "1662:2:11": {
@@ -280249,5 +280250,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T16:03:03.954581+00:00"
+  "updated_at": "2026-11-06T16:03:09.724578+00:00"
 }
