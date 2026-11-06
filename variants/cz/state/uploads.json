@@ -277664,12 +277664,6 @@
     },
     "1147:7:9": {
       "episode_key": "miliardy:s7:e9",
-      "claim": {
-        "worker_id": "6f3e0693529d4fcdbbe3d86b89abe9d4-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:31:04.611361+00:00",
-        "lease_expires_at": "2026-11-06T17:31:04.611373+00:00"
-      },
       "source": {
         "source_id": "32305962",
         "source_url": "https://sdilej.cz/32305962/miliardy-s07e09-cz-dabing-1080p-billions.mkv",
@@ -277694,15 +277688,22 @@
         "display_name": "Billions S07E09 Game Theory Optimal 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:31:09.938670+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857761",
-        "size_bytes": 3755825440
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857761",
+          "size_bytes": 3755825440,
+          "source_bytes_read": 3755825440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305962",
+        "source_url": "https://sdilej.cz/32305962/miliardy-s07e09-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857761",
-        "size_bytes": 3755825440,
-        "source_bytes_read": 3755825440,
-        "http_status": 201
+        "display_name": "Billions S07E09 Game Theory Optimal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:44:31.614289+00:00"
       }
     },
     "1147:7:10": {
@@ -277748,5 +277749,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:44:29.250515+00:00"
+  "updated_at": "2026-11-06T11:44:31.614306+00:00"
 }
