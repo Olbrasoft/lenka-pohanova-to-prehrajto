@@ -278097,12 +278097,6 @@
     },
     "1167:1:7": {
       "episode_key": "narcos: mexiko:s1:e7",
-      "claim": {
-        "worker_id": "dcd159e24e2841bc8af01cbccfd2c4f2-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T12:13:49.594194+00:00",
-        "lease_expires_at": "2026-11-06T18:13:49.594205+00:00"
-      },
       "source": {
         "source_id": "31822480",
         "source_url": "https://sdilej.cz/31822480/narcos-mexiko-s01e07-sef-sefu-2018-1080p-czdab-czsub-h264.mkv",
@@ -278127,15 +278121,22 @@
         "display_name": "Narcos: Mexico S01E07 Jefe de Jefes 1080p CZ Dabing",
         "prepared_at": "2026-11-06T12:13:54.591217+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30858748",
-        "size_bytes": 1257035766
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30858748",
+          "size_bytes": 1257035766,
+          "source_bytes_read": 1257035766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31822480",
+        "source_url": "https://sdilej.cz/31822480/narcos-mexiko-s01e07-sef-sefu-2018-1080p-czdab-czsub-h264.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30858748",
-        "size_bytes": 1257035766,
-        "source_bytes_read": 1257035766,
-        "http_status": 201
+        "display_name": "Narcos: Mexico S01E07 Jefe de Jefes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T12:17:15.020448+00:00"
       }
     }
   },
@@ -278144,5 +278145,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T12:17:12.675548+00:00"
+  "updated_at": "2026-11-06T12:17:15.020465+00:00"
 }
