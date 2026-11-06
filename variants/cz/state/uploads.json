@@ -276608,12 +276608,6 @@
     },
     "1147:5:9": {
       "episode_key": "miliardy:s5:e9",
-      "claim": {
-        "worker_id": "ef74367469c645779254b2898f25f0c7-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T10:34:26.777112+00:00",
-        "lease_expires_at": "2026-11-06T16:34:26.777150+00:00"
-      },
       "source": {
         "source_id": "26815685",
         "source_url": "https://sdilej.cz/26815685/billions.s05e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -276638,15 +276632,22 @@
         "display_name": "Billions S05E09 Implosion 1080p CZ Dabing",
         "prepared_at": "2026-11-06T10:34:29.708262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30856594",
-        "size_bytes": 835240957
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30856594",
+          "size_bytes": 835240957,
+          "source_bytes_read": 835240957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26815685",
+        "source_url": "https://sdilej.cz/26815685/billions.s05e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30856594",
-        "size_bytes": 835240957,
-        "source_bytes_read": 835240957,
-        "http_status": 201
+        "display_name": "Billions S05E09 Implosion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T10:38:37.459537+00:00"
       }
     },
     "1147:5:10": {
@@ -276773,5 +276774,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T10:38:33.520503+00:00"
+  "updated_at": "2026-11-06T10:38:37.459557+00:00"
 }
