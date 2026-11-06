@@ -286420,12 +286420,6 @@
     },
     "2523:2:12": {
       "episode_key": "rodina smolíkova:s2:e12",
-      "claim": {
-        "worker_id": "ac97c478984740b985da7a6d2c11631e-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:46:19.197090+00:00",
-        "lease_expires_at": "2026-11-07T04:46:19.197106+00:00"
-      },
       "source": {
         "source_id": "35161132",
         "source_url": "https://sdilej.cz/35161132/rodina-smolikova-s02e12-1968-cz-dabing-bedobi.mp4",
@@ -286450,15 +286444,22 @@
         "display_name": "Mézga család S02E12 Syrének bolygója SD CZ Dabing",
         "prepared_at": "2026-11-06T22:46:28.484289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872081",
-        "size_bytes": 447972031
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872081",
+          "size_bytes": 447972031,
+          "source_bytes_read": 447972031,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161132",
+        "source_url": "https://sdilej.cz/35161132/rodina-smolikova-s02e12-1968-cz-dabing-bedobi.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872081",
-        "size_bytes": 447972031,
-        "source_bytes_read": 447972031,
-        "http_status": 201
+        "display_name": "Mézga család S02E12 Syrének bolygója SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:47:34.812555+00:00"
       }
     },
     "2523:2:13": {
@@ -286555,5 +286556,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:47:29.329335+00:00"
+  "updated_at": "2026-11-06T22:47:34.812572+00:00"
 }
