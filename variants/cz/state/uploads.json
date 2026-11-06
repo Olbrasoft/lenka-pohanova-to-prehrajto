@@ -279694,12 +279694,6 @@
     },
     "1662:1:23": {
       "episode_key": "dobrá manželka:s1:e23",
-      "claim": {
-        "worker_id": "9444847822a14f06a1e255c906a3bfdb-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T15:14:03.114846+00:00",
-        "lease_expires_at": "2026-11-06T21:14:03.114856+00:00"
-      },
       "source": {
         "source_id": "33701467",
         "source_url": "https://sdilej.cz/33701467/the-good-wife-dobra-manzelka-s01e23-czdab.mp4",
@@ -279724,15 +279718,22 @@
         "display_name": "The Good Wife S01E23 Running 1080p CZ Dabing",
         "prepared_at": "2026-11-06T15:14:11.178570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30862044",
-        "size_bytes": 905904461
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30862044",
+          "size_bytes": 905904461,
+          "source_bytes_read": 905904461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701467",
+        "source_url": "https://sdilej.cz/33701467/the-good-wife-dobra-manzelka-s01e23-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30862044",
-        "size_bytes": 905904461,
-        "source_bytes_read": 905904461,
-        "http_status": 201
+        "display_name": "The Good Wife S01E23 Running 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T15:17:05.526631+00:00"
       }
     },
     "1662:2:1": {
@@ -279778,5 +279779,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T15:16:59.118265+00:00"
+  "updated_at": "2026-11-06T15:17:05.526640+00:00"
 }
