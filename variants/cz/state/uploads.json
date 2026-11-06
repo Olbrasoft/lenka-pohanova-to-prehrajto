@@ -280084,12 +280084,6 @@
     },
     "1662:2:9": {
       "episode_key": "dobrá manželka:s2:e9",
-      "claim": {
-        "worker_id": "5dd4b909f0a94701a09de7ebf7c2cbdd-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T15:49:30.115798+00:00",
-        "lease_expires_at": "2026-11-06T21:49:30.115810+00:00"
-      },
       "source": {
         "source_id": "33701549",
         "source_url": "https://sdilej.cz/33701549/the-good-wife-dobra-manzelka-s02e09-czdab.mp4",
@@ -280114,15 +280108,22 @@
         "display_name": "The Good Wife S02E09 Nine Hours 1080p CZ Dabing",
         "prepared_at": "2026-11-06T15:49:33.561443+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30862791",
-        "size_bytes": 1032723372
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30862791",
+          "size_bytes": 1032723372,
+          "source_bytes_read": 1032723372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701549",
+        "source_url": "https://sdilej.cz/33701549/the-good-wife-dobra-manzelka-s02e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30862791",
-        "size_bytes": 1032723372,
-        "source_bytes_read": 1032723372,
-        "http_status": 201
+        "display_name": "The Good Wife S02E09 Nine Hours 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T15:58:32.769408+00:00"
       }
     }
   },
@@ -280131,5 +280132,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T15:58:30.320565+00:00"
+  "updated_at": "2026-11-06T15:58:32.769423+00:00"
 }
