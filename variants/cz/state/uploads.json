@@ -286772,12 +286772,6 @@
     },
     "2523:3:7": {
       "episode_key": "rodina smolíkova:s3:e7",
-      "claim": {
-        "worker_id": "ee5d034eb9a2473bbe8a7f51022a08c3-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:57:19.078101+00:00",
-        "lease_expires_at": "2026-11-07T04:57:19.078117+00:00"
-      },
       "source": {
         "source_id": "35161153",
         "source_url": "https://sdilej.cz/35161153/rodina-smolikova-s03e07-1968-cz-dabing-bedobi.avi",
@@ -286802,15 +286796,22 @@
         "display_name": "Mézga család S03E07 Púpos Bill hálójában SD CZ Dabing",
         "prepared_at": "2026-11-06T22:57:24.344114+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872373",
-        "size_bytes": 330252617
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872373",
+          "size_bytes": 330252617,
+          "source_bytes_read": 330252617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161153",
+        "source_url": "https://sdilej.cz/35161153/rodina-smolikova-s03e07-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872373",
-        "size_bytes": 330252617,
-        "source_bytes_read": 330252617,
-        "http_status": 201
+        "display_name": "Mézga család S03E07 Púpos Bill hálójában SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:58:54.670347+00:00"
       }
     },
     "2523:3:8": {
@@ -286864,5 +286865,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:58:52.265176+00:00"
+  "updated_at": "2026-11-06T22:58:54.670362+00:00"
 }
