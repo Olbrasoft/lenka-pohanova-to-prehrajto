@@ -275500,12 +275500,6 @@
     },
     "1147:3:8": {
       "episode_key": "miliardy:s3:e8",
-      "claim": {
-        "worker_id": "ee7a9ea309f64fe88da66e94c77878ea-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:28:46.440443+00:00",
-        "lease_expires_at": "2026-11-06T15:28:46.440456+00:00"
-      },
       "source": {
         "source_id": "32317703",
         "source_url": "https://sdilej.cz/32317703/miliardy-s03e08-cz-dabing-billions.mp4",
@@ -275530,15 +275524,22 @@
         "display_name": "Billions S03E08 All the Wilburys 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:28:49.293651+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855443",
-        "size_bytes": 592934745
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855443",
+          "size_bytes": 592934745,
+          "source_bytes_read": 592934745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32317703",
+        "source_url": "https://sdilej.cz/32317703/miliardy-s03e08-cz-dabing-billions.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855443",
-        "size_bytes": 592934745,
-        "source_bytes_read": 592934745,
-        "http_status": 201
+        "display_name": "Billions S03E08 All the Wilburys 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:34:02.813585+00:00"
       }
     },
     "1147:3:9": {
@@ -275635,5 +275636,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:33:56.064871+00:00"
+  "updated_at": "2026-11-06T09:34:02.813603+00:00"
 }
