@@ -281008,12 +281008,6 @@
     },
     "1662:3:8": {
       "episode_key": "dobrá manželka:s3:e8",
-      "claim": {
-        "worker_id": "1eaad305f00e48cbbe12a928c60421b0-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T17:07:20.810788+00:00",
-        "lease_expires_at": "2026-11-06T23:07:20.810798+00:00"
-      },
       "source": {
         "source_id": "33701710",
         "source_url": "https://sdilej.cz/33701710/the-good-wife-dobra-manzelka-s03e08-czdab.mp4",
@@ -281038,15 +281032,22 @@
         "display_name": "The Good Wife S03E08 Death Row Tip 1080p CZ Dabing",
         "prepared_at": "2026-11-06T17:07:30.894159+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30864561",
-        "size_bytes": 990052999
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30864561",
+          "size_bytes": 990052999,
+          "source_bytes_read": 990052999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701710",
+        "source_url": "https://sdilej.cz/33701710/the-good-wife-dobra-manzelka-s03e08-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30864561",
-        "size_bytes": 990052999,
-        "source_bytes_read": 990052999,
-        "http_status": 201
+        "display_name": "The Good Wife S03E08 Death Row Tip 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T17:12:21.349414+00:00"
       }
     },
     "1662:3:9": {
@@ -281129,5 +281130,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T17:12:16.516625+00:00"
+  "updated_at": "2026-11-06T17:12:21.349429+00:00"
 }
