@@ -286684,12 +286684,6 @@
     },
     "2523:3:5": {
       "episode_key": "rodina smolíkova:s3:e5",
-      "claim": {
-        "worker_id": "9dba8a5db7cd4239b64d5113b0fee4cc-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:56:56.483352+00:00",
-        "lease_expires_at": "2026-11-07T04:56:56.483366+00:00"
-      },
       "source": {
         "source_id": "35161149",
         "source_url": "https://sdilej.cz/35161149/rodina-smolikova-s03e05-1968-cz-dabing-bedobi.avi",
@@ -286714,15 +286708,22 @@
         "display_name": "Mézga család S03E05 Cseberből vederbe SD CZ Dabing",
         "prepared_at": "2026-11-06T22:57:04.544121+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872365",
-        "size_bytes": 330230518
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872365",
+          "size_bytes": 330230518,
+          "source_bytes_read": 330230518,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161149",
+        "source_url": "https://sdilej.cz/35161149/rodina-smolikova-s03e05-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872365",
-        "size_bytes": 330230518,
-        "source_bytes_read": 330230518,
-        "http_status": 201
+        "display_name": "Mézga család S03E05 Cseberből vederbe SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:58:29.628329+00:00"
       }
     },
     "2523:3:6": {
@@ -286805,5 +286806,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:58:23.564398+00:00"
+  "updated_at": "2026-11-06T22:58:29.628345+00:00"
 }
