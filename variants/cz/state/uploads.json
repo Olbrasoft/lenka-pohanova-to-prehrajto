@@ -280040,12 +280040,6 @@
     },
     "1662:2:8": {
       "episode_key": "dobrá manželka:s2:e8",
-      "claim": {
-        "worker_id": "b9df538678d14ee483884c382d671bfe-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T15:48:59.134513+00:00",
-        "lease_expires_at": "2026-11-06T21:48:59.134523+00:00"
-      },
       "source": {
         "source_id": "33701536",
         "source_url": "https://sdilej.cz/33701536/the-good-wife-dobra-manzelka-s02e08-czdab.mp4",
@@ -280070,15 +280064,22 @@
         "display_name": "The Good Wife S02E08 On Tap 1080p CZ Dabing",
         "prepared_at": "2026-11-06T15:49:05.013979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30862783",
-        "size_bytes": 959946650
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30862783",
+          "size_bytes": 959946650,
+          "source_bytes_read": 959946650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701536",
+        "source_url": "https://sdilej.cz/33701536/the-good-wife-dobra-manzelka-s02e08-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30862783",
-        "size_bytes": 959946650,
-        "source_bytes_read": 959946650,
-        "http_status": 201
+        "display_name": "The Good Wife S02E08 On Tap 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T15:55:11.925064+00:00"
       }
     },
     "1662:2:9": {
@@ -280124,5 +280125,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T15:55:09.459876+00:00"
+  "updated_at": "2026-11-06T15:55:11.925080+00:00"
 }
