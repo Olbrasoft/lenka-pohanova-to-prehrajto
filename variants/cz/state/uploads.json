@@ -276916,12 +276916,6 @@
     },
     "1147:6:4": {
       "episode_key": "miliardy:s6:e4",
-      "claim": {
-        "worker_id": "2204fdd7a3a14ca084925d132ea8d5f0-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T10:48:43.958449+00:00",
-        "lease_expires_at": "2026-11-06T16:48:43.958461+00:00"
-      },
       "source": {
         "source_id": "32305679",
         "source_url": "https://sdilej.cz/32305679/miliardy-s06e04-cz-dabing-1080p-billions.mkv",
@@ -276946,15 +276940,22 @@
         "display_name": "Billions S06E04 Burn Rate 1080p CZ Dabing",
         "prepared_at": "2026-11-06T10:48:46.757017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30856848",
-        "size_bytes": 710441964
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30856848",
+          "size_bytes": 710441964,
+          "source_bytes_read": 710441964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305679",
+        "source_url": "https://sdilej.cz/32305679/miliardy-s06e04-cz-dabing-1080p-billions.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30856848",
-        "size_bytes": 710441964,
-        "source_bytes_read": 710441964,
-        "http_status": 201
+        "display_name": "Billions S06E04 Burn Rate 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T10:52:52.862631+00:00"
       }
     },
     "1147:6:5": {
@@ -277081,5 +277082,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T10:52:48.780882+00:00"
+  "updated_at": "2026-11-06T10:52:52.862651+00:00"
 }
