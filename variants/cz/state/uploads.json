@@ -283824,12 +283824,6 @@
     },
     "1662:6:9": {
       "episode_key": "dobrá manželka:s6:e9",
-      "claim": {
-        "worker_id": "1f5573dfc1f843359c43592434526f4f-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:15:33.232424+00:00",
-        "lease_expires_at": "2026-11-07T02:15:33.232435+00:00"
-      },
       "source": {
         "source_id": "33702176",
         "source_url": "https://sdilej.cz/33702176/the-good-wife-dobra-manzelka-s06e09-czdab.mp4",
@@ -283854,15 +283848,22 @@
         "display_name": "The Good Wife S06E09 Sticky Content 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:15:45.026882+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868568",
-        "size_bytes": 781216179
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868568",
+          "size_bytes": 781216179,
+          "source_bytes_read": 781216179,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702176",
+        "source_url": "https://sdilej.cz/33702176/the-good-wife-dobra-manzelka-s06e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868568",
-        "size_bytes": 781216179,
-        "source_bytes_read": 781216179,
-        "http_status": 201
+        "display_name": "The Good Wife S06E09 Sticky Content 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:17:58.474049+00:00"
       }
     },
     "1662:6:10": {
@@ -283951,5 +283952,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:17:54.088273+00:00"
+  "updated_at": "2026-11-06T20:17:58.474067+00:00"
 }
