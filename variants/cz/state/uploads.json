@@ -278750,12 +278750,6 @@
     },
     "1662:1:2": {
       "episode_key": "dobrá manželka:s1:e2",
-      "claim": {
-        "worker_id": "f10d15b24fff435f938768068a11402a-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T13:35:11.657599+00:00",
-        "lease_expires_at": "2026-11-06T19:35:11.657613+00:00"
-      },
       "source": {
         "source_id": "29136728",
         "source_url": "https://sdilej.cz/29136728/dobra-manzelka-s01e02.mkv",
@@ -278780,15 +278774,22 @@
         "display_name": "The Good Wife S01E02 Stripped 1080p CZ Dabing",
         "prepared_at": "2026-11-06T13:35:16.907375+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30860247",
-        "size_bytes": 1067751498
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30860247",
+          "size_bytes": 1067751498,
+          "source_bytes_read": 1067751498,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29136728",
+        "source_url": "https://sdilej.cz/29136728/dobra-manzelka-s01e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30860247",
-        "size_bytes": 1067751498,
-        "source_bytes_read": 1067751498,
-        "http_status": 201
+        "display_name": "The Good Wife S01E02 Stripped 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T13:36:49.733074+00:00"
       }
     }
   },
@@ -278797,5 +278798,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T13:36:44.845055+00:00"
+  "updated_at": "2026-11-06T13:36:49.733094+00:00"
 }
