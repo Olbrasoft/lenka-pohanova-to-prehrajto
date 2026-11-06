@@ -286552,12 +286552,6 @@
     },
     "2523:3:2": {
       "episode_key": "rodina smolíkova:s3:e2",
-      "claim": {
-        "worker_id": "b84b17dc3bed4e2f8e20610833366e63-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:49:12.510527+00:00",
-        "lease_expires_at": "2026-11-07T04:49:12.510544+00:00"
-      },
       "source": {
         "source_id": "35161141",
         "source_url": "https://sdilej.cz/35161141/rodina-smolikova-s03e02-1968-cz-dabing-bedobi.avi",
@@ -286582,15 +286576,22 @@
         "display_name": "Mézga család S03E02 Az ígéret földje SD CZ Dabing",
         "prepared_at": "2026-11-06T22:49:19.988950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872153",
-        "size_bytes": 334902306
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872153",
+          "size_bytes": 334902306,
+          "source_bytes_read": 334902306,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161141",
+        "source_url": "https://sdilej.cz/35161141/rodina-smolikova-s03e02-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872153",
-        "size_bytes": 334902306,
-        "source_bytes_read": 334902306,
-        "http_status": 201
+        "display_name": "Mézga család S03E02 Az ígéret földje SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:50:07.260686+00:00"
       }
     },
     "2523:3:3": {
@@ -286673,5 +286674,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:50:03.132430+00:00"
+  "updated_at": "2026-11-06T22:50:07.260703+00:00"
 }
