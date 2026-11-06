@@ -283868,12 +283868,6 @@
     },
     "1662:6:10": {
       "episode_key": "dobrá manželka:s6:e10",
-      "claim": {
-        "worker_id": "8f444c7b6ee047598a7b642e29f0d482-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T20:15:36.452806+00:00",
-        "lease_expires_at": "2026-11-07T02:15:36.452816+00:00"
-      },
       "source": {
         "source_id": "33702181",
         "source_url": "https://sdilej.cz/33702181/the-good-wife-dobra-manzelka-s06e10-czdab.mp4",
@@ -283898,15 +283892,22 @@
         "display_name": "The Good Wife S06E10 The Trial 1080p CZ Dabing",
         "prepared_at": "2026-11-06T20:15:41.401636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30868567",
-        "size_bytes": 723778612
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30868567",
+          "size_bytes": 723778612,
+          "source_bytes_read": 723778612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702181",
+        "source_url": "https://sdilej.cz/33702181/the-good-wife-dobra-manzelka-s06e10-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30868567",
-        "size_bytes": 723778612,
-        "source_bytes_read": 723778612,
-        "http_status": 201
+        "display_name": "The Good Wife S06E10 The Trial 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T20:18:01.971425+00:00"
       }
     },
     "1662:6:11": {
@@ -283952,5 +283953,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T20:17:58.474067+00:00"
+  "updated_at": "2026-11-06T20:18:01.971436+00:00"
 }
