@@ -277481,12 +277481,6 @@
     },
     "1147:7:5": {
       "episode_key": "miliardy:s7:e5",
-      "claim": {
-        "worker_id": "3f0c10544d62483d80ad84ae8e9dd759-worker-0",
-        "run_id": "42194606666",
-        "claimed_at": "2026-11-06T11:24:08.514221+00:00",
-        "lease_expires_at": "2026-11-06T17:24:08.514235+00:00"
-      },
       "source": {
         "source_id": "27222891",
         "source_url": "https://sdilej.cz/27222891/billions.s07e05.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -277511,15 +277505,22 @@
         "display_name": "Billions S07E05 The Gulag Archipelago 1080p CZ Dabing",
         "prepared_at": "2026-11-06T11:24:11.352134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30857622",
-        "size_bytes": 968772182
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30857622",
+          "size_bytes": 968772182,
+          "source_bytes_read": 968772182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27222891",
+        "source_url": "https://sdilej.cz/27222891/billions.s07e05.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30857622",
-        "size_bytes": 968772182,
-        "source_bytes_read": 968772182,
-        "http_status": 201
+        "display_name": "Billions S07E05 The Gulag Archipelago 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T11:26:16.015347+00:00"
       }
     },
     "1147:7:6": {
@@ -277565,5 +277566,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T11:26:12.364588+00:00"
+  "updated_at": "2026-11-06T11:26:16.015366+00:00"
 }
