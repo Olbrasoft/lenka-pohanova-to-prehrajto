@@ -279336,12 +279336,6 @@
     },
     "1662:1:15": {
       "episode_key": "dobrá manželka:s1:e15",
-      "claim": {
-        "worker_id": "2feb24e18a204555b4ff22779cf136eb-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T14:53:38.321115+00:00",
-        "lease_expires_at": "2026-11-06T20:53:38.321125+00:00"
-      },
       "source": {
         "source_id": "29139556",
         "source_url": "https://sdilej.cz/29139556/dobra-manzelka-s01e15.mkv",
@@ -279366,15 +279360,22 @@
         "display_name": "The Good Wife S01E15 Bang 1080p CZ Dabing",
         "prepared_at": "2026-11-06T14:53:43.181954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30861721",
-        "size_bytes": 1077595130
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30861721",
+          "size_bytes": 1077595130,
+          "source_bytes_read": 1077595130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29139556",
+        "source_url": "https://sdilej.cz/29139556/dobra-manzelka-s01e15.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30861721",
-        "size_bytes": 1077595130,
-        "source_bytes_read": 1077595130,
-        "http_status": 201
+        "display_name": "The Good Wife S01E15 Bang 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T14:59:02.137958+00:00"
       }
     },
     "1662:1:16": {
@@ -279501,5 +279502,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T14:58:56.577636+00:00"
+  "updated_at": "2026-11-06T14:59:02.137973+00:00"
 }
