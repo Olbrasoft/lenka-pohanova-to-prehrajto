@@ -272206,12 +272206,6 @@
     },
     "1130:4:1": {
       "episode_key": "zločin:s4:e1",
-      "claim": {
-        "worker_id": "8cc50d8cdcef4dea8a10d5d5d1fe244e-worker-0",
-        "run_id": "42128974447",
-        "claimed_at": "2026-11-06T01:16:17.072778+00:00",
-        "lease_expires_at": "2026-11-06T07:16:17.072790+00:00"
-      },
       "source": {
         "source_id": "28409298",
         "source_url": "https://sdilej.cz/28409298/zlocin-the-killing-2011-s04e01.cz.webrip.1080p.hevc.c4u.mkv",
@@ -272236,15 +272230,22 @@
         "display_name": "The Killing (2011) [ID 1130] S04E01 Blood in the Water 1080p CZ Dabing",
         "prepared_at": "2026-11-06T01:16:21.946744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30840373",
-        "size_bytes": 761647022
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30840373",
+          "size_bytes": 761647022,
+          "source_bytes_read": 761647022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28409298",
+        "source_url": "https://sdilej.cz/28409298/zlocin-the-killing-2011-s04e01.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30840373",
-        "size_bytes": 761647022,
-        "source_bytes_read": 761647022,
-        "http_status": 201
+        "display_name": "The Killing (2011) [ID 1130] S04E01 Blood in the Water 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T01:21:41.180410+00:00"
       }
     },
     "1130:4:2": {
@@ -272378,5 +272379,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T01:21:35.832465+00:00"
+  "updated_at": "2026-11-06T01:21:41.180425+00:00"
 }
