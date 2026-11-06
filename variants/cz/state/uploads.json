@@ -280178,12 +280178,6 @@
     },
     "1662:2:11": {
       "episode_key": "dobrá manželka:s2:e11",
-      "claim": {
-        "worker_id": "49dc273d46074690b2c6f52788c1a16d-worker-0",
-        "run_id": "42224904442",
-        "claimed_at": "2026-11-06T16:00:17.257508+00:00",
-        "lease_expires_at": "2026-11-06T22:00:17.257517+00:00"
-      },
       "source": {
         "source_id": "33701574",
         "source_url": "https://sdilej.cz/33701574/the-good-wife-dobra-manzelka-s02e11-czdab.mp4",
@@ -280208,15 +280202,22 @@
         "display_name": "The Good Wife S02E11 Two Courts 1080p CZ Dabing",
         "prepared_at": "2026-11-06T16:00:29.955296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30863035",
-        "size_bytes": 957097954
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30863035",
+          "size_bytes": 957097954,
+          "source_bytes_read": 957097954,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701574",
+        "source_url": "https://sdilej.cz/33701574/the-good-wife-dobra-manzelka-s02e11-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30863035",
-        "size_bytes": 957097954,
-        "source_bytes_read": 957097954,
-        "http_status": 201
+        "display_name": "The Good Wife S02E11 Two Courts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T16:04:17.134102+00:00"
       }
     },
     "1662:2:12": {
@@ -280262,5 +280263,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T16:04:12.921462+00:00"
+  "updated_at": "2026-11-06T16:04:17.134116+00:00"
 }
