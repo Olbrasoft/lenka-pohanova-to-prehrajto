@@ -286816,12 +286816,6 @@
     },
     "2523:3:8": {
       "episode_key": "rodina smolíkova:s3:e8",
-      "claim": {
-        "worker_id": "b048c6cbda944c3f9639d7dfa0278a8a-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T22:58:40.843012+00:00",
-        "lease_expires_at": "2026-11-07T04:58:40.843028+00:00"
-      },
       "source": {
         "source_id": "35161159",
         "source_url": "https://sdilej.cz/35161159/rodina-smolikova-s03e08-1968-cz-dabing-bedobi.avi",
@@ -286846,15 +286840,22 @@
         "display_name": "Mézga család S03E08 Egymillió dollár SD CZ Dabing",
         "prepared_at": "2026-11-06T22:58:47.570713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30872397",
-        "size_bytes": 327675820
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30872397",
+          "size_bytes": 327675820,
+          "source_bytes_read": 327675820,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35161159",
+        "source_url": "https://sdilej.cz/35161159/rodina-smolikova-s03e08-1968-cz-dabing-bedobi.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30872397",
-        "size_bytes": 327675820,
-        "source_bytes_read": 327675820,
-        "http_status": 201
+        "display_name": "Mézga család S03E08 Egymillió dollár SD CZ Dabing",
+        "uploaded_at": "2026-11-06T22:59:46.936824+00:00"
       }
     },
     "2523:3:9": {
@@ -286937,5 +286938,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:59:42.321527+00:00"
+  "updated_at": "2026-11-06T22:59:46.936843+00:00"
 }
