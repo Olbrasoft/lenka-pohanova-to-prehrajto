@@ -284924,12 +284924,6 @@
     },
     "1662:7:12": {
       "episode_key": "dobrá manželka:s7:e12",
-      "claim": {
-        "worker_id": "fed3c7ee012d4289ae04ed26eca654c8-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-06T21:59:50.573182+00:00",
-        "lease_expires_at": "2026-11-07T03:59:50.573201+00:00"
-      },
       "source": {
         "source_id": "33702360",
         "source_url": "https://sdilej.cz/33702360/the-good-wife-dobra-manzelka-s07e12-czdab.mp4",
@@ -284954,15 +284948,22 @@
         "display_name": "The Good Wife S07E12 Tracks 1080p CZ Dabing",
         "prepared_at": "2026-11-06T21:59:56.320668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30870798",
-        "size_bytes": 677589786
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30870798",
+          "size_bytes": 677589786,
+          "source_bytes_read": 677589786,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33702360",
+        "source_url": "https://sdilej.cz/33702360/the-good-wife-dobra-manzelka-s07e12-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30870798",
-        "size_bytes": 677589786,
-        "source_bytes_read": 677589786,
-        "http_status": 201
+        "display_name": "The Good Wife S07E12 Tracks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T22:01:13.677920+00:00"
       }
     },
     "1662:7:13": {
@@ -285045,5 +285046,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T22:01:09.509897+00:00"
+  "updated_at": "2026-11-06T22:01:13.677937+00:00"
 }
