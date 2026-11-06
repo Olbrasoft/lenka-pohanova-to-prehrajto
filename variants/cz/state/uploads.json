@@ -276032,12 +276032,6 @@
     },
     "1147:4:8": {
       "episode_key": "miliardy:s4:e8",
-      "claim": {
-        "worker_id": "dc0639c007ac4cb7818295804cad08a3-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T10:04:05.637387+00:00",
-        "lease_expires_at": "2026-11-06T16:04:05.637398+00:00"
-      },
       "source": {
         "source_id": "26811377",
         "source_url": "https://sdilej.cz/26811377/billions.s04e08.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -276062,15 +276056,22 @@
         "display_name": "Billions S04E08 Fight Night 1080p CZ Dabing",
         "prepared_at": "2026-11-06T10:04:15.253820+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30856023",
-        "size_bytes": 1004226856
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30856023",
+          "size_bytes": 1004226856,
+          "source_bytes_read": 1004226856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26811377",
+        "source_url": "https://sdilej.cz/26811377/billions.s04e08.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30856023",
-        "size_bytes": 1004226856,
-        "source_bytes_read": 1004226856,
-        "http_status": 201
+        "display_name": "Billions S04E08 Fight Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T10:07:46.145906+00:00"
       }
     },
     "1147:4:9": {
@@ -276123,5 +276124,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T10:07:43.666324+00:00"
+  "updated_at": "2026-11-06T10:07:46.145924+00:00"
 }
