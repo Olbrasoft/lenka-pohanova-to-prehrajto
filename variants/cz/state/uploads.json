@@ -275537,12 +275537,6 @@
     },
     "1147:3:9": {
       "episode_key": "miliardy:s3:e9",
-      "claim": {
-        "worker_id": "55aa0d4cf2484414a00a93ac39402052-worker-0",
-        "run_id": "42167943366",
-        "claimed_at": "2026-11-06T09:29:56.389273+00:00",
-        "lease_expires_at": "2026-11-06T15:29:56.389288+00:00"
-      },
       "source": {
         "source_id": "32317706",
         "source_url": "https://sdilej.cz/32317706/miliardy-s03e09-cz-dabing-billions.mp4",
@@ -275567,15 +275561,22 @@
         "display_name": "Billions S03E09 Icebreaker 1080p CZ Dabing",
         "prepared_at": "2026-11-06T09:29:59.392895+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30855457",
-        "size_bytes": 527681639
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30855457",
+          "size_bytes": 527681639,
+          "source_bytes_read": 527681639,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32317706",
+        "source_url": "https://sdilej.cz/32317706/miliardy-s03e09-cz-dabing-billions.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30855457",
-        "size_bytes": 527681639,
-        "source_bytes_read": 527681639,
-        "http_status": 201
+        "display_name": "Billions S03E09 Icebreaker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T09:33:12.138235+00:00"
       }
     },
     "1147:3:10": {
@@ -275628,5 +275629,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T09:33:04.667653+00:00"
+  "updated_at": "2026-11-06T09:33:12.138254+00:00"
 }
