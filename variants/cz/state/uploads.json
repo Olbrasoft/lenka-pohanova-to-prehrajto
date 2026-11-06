@@ -281932,12 +281932,6 @@
     },
     "1662:4:9": {
       "episode_key": "dobrá manželka:s4:e9",
-      "claim": {
-        "worker_id": "08f9118e133d4905addfc142688558b1-worker-0",
-        "run_id": "42251770000",
-        "claimed_at": "2026-11-06T18:11:51.305346+00:00",
-        "lease_expires_at": "2026-11-07T00:11:51.305359+00:00"
-      },
       "source": {
         "source_id": "33701837",
         "source_url": "https://sdilej.cz/33701837/the-good-wife-dobra-manzelka-s04e09-czdab.mp4",
@@ -281962,15 +281956,22 @@
         "display_name": "The Good Wife S04E09 A Defense of Marriage 1080p CZ Dabing",
         "prepared_at": "2026-11-06T18:11:57.097119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30865977",
-        "size_bytes": 827168013
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30865977",
+          "size_bytes": 827168013,
+          "source_bytes_read": 827168013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33701837",
+        "source_url": "https://sdilej.cz/33701837/the-good-wife-dobra-manzelka-s04e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30865977",
-        "size_bytes": 827168013,
-        "source_bytes_read": 827168013,
-        "http_status": 201
+        "display_name": "The Good Wife S04E09 A Defense of Marriage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-06T18:13:57.638817+00:00"
       }
     },
     "1662:4:11": {
@@ -282053,5 +282054,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-06T18:13:51.869856+00:00"
+  "updated_at": "2026-11-06T18:13:57.638835+00:00"
 }
