@@ -288526,12 +288526,6 @@
     },
     "2352:4:10": {
       "episode_key": "bořiči mýtů:s4:e10",
-      "claim": {
-        "worker_id": "53008d8de740461484656ee564fb23c5-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:19:33.999583+00:00",
-        "lease_expires_at": "2026-11-07T06:19:33.999599+00:00"
-      },
       "source": {
         "source_id": "11743721",
         "source_url": "https://sdilej.cz/11743721/borici-mytu-s04e10-vystrelujici-kislikova-bomba.avi",
@@ -288556,15 +288550,22 @@
         "display_name": "MythBusters S04E10 Exploding Pants SD CZ Dabing",
         "prepared_at": "2026-11-07T00:19:41.600244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30874000",
-        "size_bytes": 480111006
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30874000",
+          "size_bytes": 480111006,
+          "source_bytes_read": 480111006,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11743721",
+        "source_url": "https://sdilej.cz/11743721/borici-mytu-s04e10-vystrelujici-kislikova-bomba.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30874000",
-        "size_bytes": 480111006,
-        "source_bytes_read": 480111006,
-        "http_status": 201
+        "display_name": "MythBusters S04E10 Exploding Pants SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:23:50.878038+00:00"
       }
     },
     "2352:4:11": {
@@ -288617,5 +288618,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:23:48.433496+00:00"
+  "updated_at": "2026-11-07T00:23:50.878056+00:00"
 }
