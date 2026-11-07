@@ -288784,12 +288784,6 @@
     },
     "2352:7:22": {
       "episode_key": "bořiči mýtů:s7:e22",
-      "claim": {
-        "worker_id": "6576af96a3084a3eb61ebb527bb810d1-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T00:54:35.491736+00:00",
-        "lease_expires_at": "2026-11-07T06:54:35.491747+00:00"
-      },
       "source": {
         "source_id": "28289262",
         "source_url": "https://sdilej.cz/28289262/borici-mytu-s07e22-cz-dab-hd-tv-rip.avi",
@@ -288814,15 +288808,22 @@
         "display_name": "MythBusters S07E22 Hidden Nasties SD CZ Dabing",
         "prepared_at": "2026-11-07T00:54:43.941106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30874904",
-        "size_bytes": 398826186
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30874904",
+          "size_bytes": 398826186,
+          "source_bytes_read": 398826186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28289262",
+        "source_url": "https://sdilej.cz/28289262/borici-mytu-s07e22-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30874904",
-        "size_bytes": 398826186,
-        "source_bytes_read": 398826186,
-        "http_status": 201
+        "display_name": "MythBusters S07E22 Hidden Nasties SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:55:30.811086+00:00"
       }
     },
     "2352:7:23": {
@@ -288868,5 +288869,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:55:28.422722+00:00"
+  "updated_at": "2026-11-07T00:55:30.811104+00:00"
 }
