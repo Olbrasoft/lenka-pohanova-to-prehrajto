@@ -290544,12 +290544,6 @@
     },
     "2562:3:9": {
       "episode_key": "drsný šerif:s3:e9",
-      "claim": {
-        "worker_id": "5084ed8fd1f94c03b2b948c73533e608-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T03:04:31.329703+00:00",
-        "lease_expires_at": "2026-11-07T09:04:31.329711+00:00"
-      },
       "source": {
         "source_id": "12872667",
         "source_url": "https://sdilej.cz/12872667/drsny.serif.03x09.1080i.hdtv.cz.mkv",
@@ -290574,15 +290568,22 @@
         "display_name": "Longmire S03E09 Counting Coup 1080p CZ Dabing",
         "prepared_at": "2026-11-07T03:04:36.427683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30877920",
-        "size_bytes": 2823109206
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30877920",
+          "size_bytes": 2823109206,
+          "source_bytes_read": 2823109206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12872667",
+        "source_url": "https://sdilej.cz/12872667/drsny.serif.03x09.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30877920",
-        "size_bytes": 2823109206,
-        "source_bytes_read": 2823109206,
-        "http_status": 201
+        "display_name": "Longmire S03E09 Counting Coup 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T03:12:55.856773+00:00"
       }
     },
     "2562:4:1": {
@@ -290672,5 +290673,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T03:12:53.487623+00:00"
+  "updated_at": "2026-11-07T03:12:55.856790+00:00"
 }
