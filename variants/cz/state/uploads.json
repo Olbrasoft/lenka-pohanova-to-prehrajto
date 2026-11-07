@@ -301710,12 +301710,6 @@
     },
     "1069:2:7": {
       "episode_key": "mentalista:s2:e7",
-      "claim": {
-        "worker_id": "58de4bec559941adb4c289bfba4744b5-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:10:21.179187+00:00",
-        "lease_expires_at": "2026-11-08T05:10:21.179195+00:00"
-      },
       "source": {
         "source_id": "22058795",
         "source_url": "https://sdilej.cz/22058795/mentalista-the-mentalist-s02e07-red-bulls-1080p-hevc-cz-dabing.mkv",
@@ -301740,15 +301734,22 @@
         "display_name": "The Mentalist S02E07 Red Bulls 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:10:24.131248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30900971",
-        "size_bytes": 750371705
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30900971",
+          "size_bytes": 750371705,
+          "source_bytes_read": 750371705,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058795",
+        "source_url": "https://sdilej.cz/22058795/mentalista-the-mentalist-s02e07-red-bulls-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30900971",
-        "size_bytes": 750371705,
-        "source_bytes_read": 750371705,
-        "http_status": 201
+        "display_name": "The Mentalist S02E07 Red Bulls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:12:08.744288+00:00"
       }
     },
     "1069:2:8": {
@@ -301794,5 +301795,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:12:04.603376+00:00"
+  "updated_at": "2026-11-07T23:12:08.744306+00:00"
 }
