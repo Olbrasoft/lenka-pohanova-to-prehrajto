@@ -295563,12 +295563,6 @@
     },
     "183:2:7": {
       "episode_key": "papírový dům:s2:e7",
-      "claim": {
-        "worker_id": "43153c09dc814b308be287d4a5845298-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:41:56.319784+00:00",
-        "lease_expires_at": "2026-11-07T19:41:56.319793+00:00"
-      },
       "source": {
         "source_id": "27661177",
         "source_url": "https://sdilej.cz/27661177/papirovy.dum.s02e07.1080p.czdab.mkv",
@@ -295593,15 +295587,22 @@
         "display_name": "La casa de papel S02E07 Pequeñas vacaciones 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:42:05.537634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891689",
-        "size_bytes": 1027527687
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891689",
+          "size_bytes": 1027527687,
+          "source_bytes_read": 1027527687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27661177",
+        "source_url": "https://sdilej.cz/27661177/papirovy.dum.s02e07.1080p.czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891689",
-        "size_bytes": 1027527687,
-        "source_bytes_read": 1027527687,
-        "http_status": 201
+        "display_name": "La casa de papel S02E07 Pequeñas vacaciones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:45:51.476045+00:00"
       }
     },
     "183:2:8": {
@@ -295647,5 +295648,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:45:48.951818+00:00"
+  "updated_at": "2026-11-07T13:45:51.476059+00:00"
 }
