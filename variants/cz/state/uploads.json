@@ -291186,12 +291186,6 @@
     },
     "2562:5:7": {
       "episode_key": "drsný šerif:s5:e7",
-      "claim": {
-        "worker_id": "175a1cec94534b308c31764e4ff9d3dd-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T04:10:51.051144+00:00",
-        "lease_expires_at": "2026-11-07T10:10:51.051154+00:00"
-      },
       "source": {
         "source_id": "30662063",
         "source_url": "https://sdilej.cz/30662063/drsny-serif-longmire-s05e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -291216,15 +291210,22 @@
         "display_name": "Longmire S05E07 From This Day Forward 1080p CZ Dabing",
         "prepared_at": "2026-11-07T04:10:53.975134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30879423",
-        "size_bytes": 1814638309
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30879423",
+          "size_bytes": 1814638309,
+          "source_bytes_read": 1814638309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662063",
+        "source_url": "https://sdilej.cz/30662063/drsny-serif-longmire-s05e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30879423",
-        "size_bytes": 1814638309,
-        "source_bytes_read": 1814638309,
-        "http_status": 201
+        "display_name": "Longmire S05E07 From This Day Forward 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T04:18:36.833080+00:00"
       }
     },
     "2562:5:8": {
@@ -291270,5 +291271,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T04:18:31.717330+00:00"
+  "updated_at": "2026-11-07T04:18:36.833098+00:00"
 }
