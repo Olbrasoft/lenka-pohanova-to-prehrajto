@@ -290141,12 +290141,6 @@
     },
     "2562:2:12": {
       "episode_key": "drsný šerif:s2:e12",
-      "claim": {
-        "worker_id": "c5736f4292a04c6584aa2f12240231af-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T02:13:55.005135+00:00",
-        "lease_expires_at": "2026-11-07T08:13:55.005146+00:00"
-      },
       "source": {
         "source_id": "12900717",
         "source_url": "https://sdilej.cz/12900717/drsny-serif-s02e12-je-tezke-zemrit-se-cti-cz-dabing-2-.avi",
@@ -290171,15 +290165,22 @@
         "display_name": "Longmire S02E12 A Good Death Is Hard to Find SD CZ Dabing",
         "prepared_at": "2026-11-07T02:13:57.757667+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30876570",
-        "size_bytes": 321198172
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30876570",
+          "size_bytes": 321198172,
+          "source_bytes_read": 321198172,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12900717",
+        "source_url": "https://sdilej.cz/12900717/drsny-serif-s02e12-je-tezke-zemrit-se-cti-cz-dabing-2-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30876570",
-        "size_bytes": 321198172,
-        "source_bytes_read": 321198172,
-        "http_status": 201
+        "display_name": "Longmire S02E12 A Good Death Is Hard to Find SD CZ Dabing",
+        "uploaded_at": "2026-11-07T02:16:10.662245+00:00"
       }
     },
     "2562:2:13": {
@@ -290225,5 +290226,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T02:16:07.059999+00:00"
+  "updated_at": "2026-11-07T02:16:10.662261+00:00"
 }
