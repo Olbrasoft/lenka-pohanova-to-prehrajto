@@ -292206,12 +292206,6 @@
     },
     "3220:1:1": {
       "episode_key": "dobrý boj:s1:e1",
-      "claim": {
-        "worker_id": "ac40075f8f7d4d7cb08ca0fe435af679-worker-0",
-        "run_id": "42338173454",
-        "claimed_at": "2026-11-07T06:34:32.775652+00:00",
-        "lease_expires_at": "2026-11-07T12:34:32.775663+00:00"
-      },
       "source": {
         "source_id": "18595667",
         "source_url": "https://sdilej.cz/18595667/dobry.boj.s01e01.1080p.mkv",
@@ -292236,15 +292230,22 @@
         "display_name": "The Good Fight S01E01 Inauguration 1080p CZ Dabing",
         "prepared_at": "2026-11-07T06:34:37.885682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30883285",
-        "size_bytes": 759090591
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30883285",
+          "size_bytes": 759090591,
+          "source_bytes_read": 759090591,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18595667",
+        "source_url": "https://sdilej.cz/18595667/dobry.boj.s01e01.1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30883285",
-        "size_bytes": 759090591,
-        "source_bytes_read": 759090591,
-        "http_status": 201
+        "display_name": "The Good Fight S01E01 Inauguration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T06:37:54.949481+00:00"
       }
     },
     "3220:1:2": {
@@ -292290,5 +292291,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T06:37:50.292790+00:00"
+  "updated_at": "2026-11-07T06:37:54.949495+00:00"
 }
