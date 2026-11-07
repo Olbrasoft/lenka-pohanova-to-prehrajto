@@ -289136,12 +289136,6 @@
     },
     "688:1:9": {
       "episode_key": "mladý papež:s1:e9",
-      "claim": {
-        "worker_id": "d22d6b67ff3445369a4da3096d940aad-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:08:26.528130+00:00",
-        "lease_expires_at": "2026-11-07T07:08:26.528142+00:00"
-      },
       "source": {
         "source_id": "34062352",
         "source_url": "https://sdilej.cz/34062352/mlady-papez-s01e09-cz-dabing.ts",
@@ -289166,15 +289160,22 @@
         "display_name": "The Young Pope S01E09 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:08:29.265229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875290",
-        "size_bytes": 1757605232
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875290",
+          "size_bytes": 1757605232,
+          "source_bytes_read": 1757605232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34062352",
+        "source_url": "https://sdilej.cz/34062352/mlady-papez-s01e09-cz-dabing.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875290",
-        "size_bytes": 1757605232,
-        "source_bytes_read": 1757605232,
-        "http_status": 201
+        "display_name": "The Young Pope S01E09 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:14:23.907393+00:00"
       }
     },
     "688:1:10": {
@@ -289308,5 +289309,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:14:21.512365+00:00"
+  "updated_at": "2026-11-07T01:14:23.907409+00:00"
 }
