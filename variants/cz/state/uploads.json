@@ -296525,12 +296525,6 @@
     },
     "597:2:6": {
       "episode_key": "rod draka:s2:e6",
-      "claim": {
-        "worker_id": "4fafe4dd61444cf9a349742bf2bda76b-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T15:48:00.860051+00:00",
-        "lease_expires_at": "2026-11-07T21:48:00.860063+00:00"
-      },
       "source": {
         "source_id": "33479102",
         "source_url": "https://sdilej.cz/33479102/house-of-the-dragon-s02e06-cz-dabing-2160p.mkv",
@@ -296555,15 +296549,22 @@
         "display_name": "House of the Dragon S02E06 Smallfolk 4K CZ Dabing",
         "prepared_at": "2026-11-07T15:48:05.375365+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30893834",
-        "size_bytes": 3491567803
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30893834",
+          "size_bytes": 3491567803,
+          "source_bytes_read": 3491567803,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479102",
+        "source_url": "https://sdilej.cz/33479102/house-of-the-dragon-s02e06-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30893834",
-        "size_bytes": 3491567803,
-        "source_bytes_read": 3491567803,
-        "http_status": 201
+        "display_name": "House of the Dragon S02E06 Smallfolk 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T15:58:03.516265+00:00"
       }
     },
     "597:2:7": {
@@ -296658,5 +296659,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T15:58:01.123457+00:00"
+  "updated_at": "2026-11-07T15:58:03.516282+00:00"
 }
