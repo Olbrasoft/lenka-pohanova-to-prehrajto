@@ -287760,12 +287760,6 @@
     },
     "2741:1:1": {
       "episode_key": "komparz:s1:e1",
-      "claim": {
-        "worker_id": "37f0e630ee9649abaf9d9cf2da4392b4-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:01:30.748586+00:00",
-        "lease_expires_at": "2026-11-07T06:01:30.748602+00:00"
-      },
       "source": {
         "source_id": "23666675",
         "source_url": "https://sdilej.cz/23666675/komparz-extras.s01e01.1080p.hmax.web-dl.dd2.0.h.264-pedro-cz-eng-audio-.mkv",
@@ -287790,15 +287784,22 @@
         "display_name": "Extras S01E01 Ben Stiller 1080p CZ Dabing",
         "prepared_at": "2026-11-07T00:01:33.887575+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873675",
-        "size_bytes": 1954378091
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873675",
+          "size_bytes": 1954378091,
+          "source_bytes_read": 1954378091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23666675",
+        "source_url": "https://sdilej.cz/23666675/komparz-extras.s01e01.1080p.hmax.web-dl.dd2.0.h.264-pedro-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873675",
-        "size_bytes": 1954378091,
-        "source_bytes_read": 1954378091,
-        "http_status": 201
+        "display_name": "Extras S01E01 Ben Stiller 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T00:11:39.249155+00:00"
       }
     },
     "2352:1:2": {
@@ -288159,5 +288160,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:11:32.630716+00:00"
+  "updated_at": "2026-11-07T00:11:39.249174+00:00"
 }
