@@ -296569,12 +296569,6 @@
     },
     "597:2:7": {
       "episode_key": "rod draka:s2:e7",
-      "claim": {
-        "worker_id": "7ea933a872d74b5ab6d018c6f56023b9-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T15:48:20.192899+00:00",
-        "lease_expires_at": "2026-11-07T21:48:20.192907+00:00"
-      },
       "source": {
         "source_id": "33479090",
         "source_url": "https://sdilej.cz/33479090/house-of-the-dragon-s02e07-cz-dabing-2160p.mkv",
@@ -296599,15 +296593,22 @@
         "display_name": "House of the Dragon S02E07 The Red Sowing 4K CZ Dabing",
         "prepared_at": "2026-11-07T15:48:25.186172+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30893840",
-        "size_bytes": 3302461295
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30893840",
+          "size_bytes": 3302461295,
+          "source_bytes_read": 3302461295,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479090",
+        "source_url": "https://sdilej.cz/33479090/house-of-the-dragon-s02e07-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30893840",
-        "size_bytes": 3302461295,
-        "source_bytes_read": 3302461295,
-        "http_status": 201
+        "display_name": "House of the Dragon S02E07 The Red Sowing 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T15:58:10.485875+00:00"
       }
     },
     "597:2:8": {
@@ -296660,5 +296661,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T15:58:05.762348+00:00"
+  "updated_at": "2026-11-07T15:58:10.485883+00:00"
 }
