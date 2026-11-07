@@ -302201,12 +302201,6 @@
     },
     "1069:2:18": {
       "episode_key": "mentalista:s2:e18",
-      "claim": {
-        "worker_id": "78c5d0ef4ff54501b9000b3294c76e0f-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:39:46.666136+00:00",
-        "lease_expires_at": "2026-11-08T05:39:46.666145+00:00"
-      },
       "source": {
         "source_id": "28171705",
         "source_url": "https://sdilej.cz/28171705/mentalista-s02e18-ruda-voda.mkv",
@@ -302231,15 +302225,22 @@
         "display_name": "The Mentalist S02E18 Aingavite Baa 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:39:49.355960+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901521",
-        "size_bytes": 762977602
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901521",
+          "size_bytes": 762977602,
+          "source_bytes_read": 762977602,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28171705",
+        "source_url": "https://sdilej.cz/28171705/mentalista-s02e18-ruda-voda.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901521",
-        "size_bytes": 762977602,
-        "source_bytes_read": 762977602,
-        "http_status": 201
+        "display_name": "The Mentalist S02E18 Aingavite Baa 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:43:03.481761+00:00"
       }
     },
     "1069:2:19": {
@@ -302366,5 +302367,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:42:58.488002+00:00"
+  "updated_at": "2026-11-07T23:43:03.481773+00:00"
 }
