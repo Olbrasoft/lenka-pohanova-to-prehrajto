@@ -289934,12 +289934,6 @@
     },
     "2562:2:7": {
       "episode_key": "drsný šerif:s2:e7",
-      "claim": {
-        "worker_id": "07b5775311324da2a1da3a6709f7c985-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:57:02.711293+00:00",
-        "lease_expires_at": "2026-11-07T07:57:02.711304+00:00"
-      },
       "source": {
         "source_id": "30662032",
         "source_url": "https://sdilej.cz/30662032/drsny-serif-longmire-s02e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -289964,15 +289958,22 @@
         "display_name": "Longmire S02E07 Sound and Fury 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:57:07.943652+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30876205",
-        "size_bytes": 1363763541
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30876205",
+          "size_bytes": 1363763541,
+          "source_bytes_read": 1363763541,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662032",
+        "source_url": "https://sdilej.cz/30662032/drsny-serif-longmire-s02e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30876205",
-        "size_bytes": 1363763541,
-        "source_bytes_read": 1363763541,
-        "http_status": 201
+        "display_name": "Longmire S02E07 Sound and Fury 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T02:06:35.678472+00:00"
       }
     },
     "2562:2:8": {
@@ -290025,5 +290026,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T02:06:31.984019+00:00"
+  "updated_at": "2026-11-07T02:06:35.678485+00:00"
 }
