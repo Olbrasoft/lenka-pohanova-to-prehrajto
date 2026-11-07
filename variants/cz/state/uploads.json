@@ -295733,12 +295733,6 @@
     },
     "183:3:2": {
       "episode_key": "papírový dům:s3:e2",
-      "claim": {
-        "worker_id": "acebf0af723243e8a274aa4a5aa2679d-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:47:40.713560+00:00",
-        "lease_expires_at": "2026-11-07T19:47:40.713572+00:00"
-      },
       "source": {
         "source_id": "33517154",
         "source_url": "https://sdilej.cz/33517154/la-casa-de-papel-s03e02-cz-dabing-1080p.mkv",
@@ -295763,15 +295757,22 @@
         "display_name": "La casa de papel S03E02 ¿Crees en la reencarnación? 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:47:43.819736+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891775",
-        "size_bytes": 953278061
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891775",
+          "size_bytes": 953278061,
+          "source_bytes_read": 953278061,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33517154",
+        "source_url": "https://sdilej.cz/33517154/la-casa-de-papel-s03e02-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891775",
-        "size_bytes": 953278061,
-        "source_bytes_read": 953278061,
-        "http_status": 201
+        "display_name": "La casa de papel S03E02 ¿Crees en la reencarnación? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:51:08.874349+00:00"
       }
     },
     "183:3:3": {
@@ -295854,5 +295855,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:51:02.366470+00:00"
+  "updated_at": "2026-11-07T13:51:08.874364+00:00"
 }
