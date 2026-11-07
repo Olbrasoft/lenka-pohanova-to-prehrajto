@@ -295198,12 +295198,6 @@
     },
     "183:1:11": {
       "episode_key": "papírový dům:s1:e11",
-      "claim": {
-        "worker_id": "d8e4e9670d974c338c5c720501314250-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:29:29.113753+00:00",
-        "lease_expires_at": "2026-11-07T19:29:29.113763+00:00"
-      },
       "source": {
         "source_id": "18126477",
         "source_url": "https://sdilej.cz/18126477/papirovy-dum-s01e11-cz-dabing-hd-.mkv",
@@ -295228,15 +295222,22 @@
         "display_name": "La casa de papel S01E11 Capítulo 11 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:29:34.982830+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891481",
-        "size_bytes": 221476123
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891481",
+          "size_bytes": 221476123,
+          "source_bytes_read": 221476123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18126477",
+        "source_url": "https://sdilej.cz/18126477/papirovy-dum-s01e11-cz-dabing-hd-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891481",
-        "size_bytes": 221476123,
-        "source_bytes_read": 221476123,
-        "http_status": 201
+        "display_name": "La casa de papel S01E11 Capítulo 11 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:30:35.132409+00:00"
       }
     },
     "183:1:13": {
@@ -295282,5 +295283,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:30:30.923620+00:00"
+  "updated_at": "2026-11-07T13:30:35.132425+00:00"
 }
