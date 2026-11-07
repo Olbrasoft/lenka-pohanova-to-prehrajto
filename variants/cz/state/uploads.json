@@ -297625,12 +297625,6 @@
     },
     "2384:4:4": {
       "episode_key": "vraždy na shetlandech:s4:e4",
-      "claim": {
-        "worker_id": "e77701221afb4e73a41e11ad1c800dbc-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T17:26:25.950494+00:00",
-        "lease_expires_at": "2026-11-07T23:26:25.950503+00:00"
-      },
       "source": {
         "source_id": "20312389",
         "source_url": "https://sdilej.cz/20312389/vrazdy.na.shetlandech.04x04.1080i.hevc.hdtv.cz.mkv",
@@ -297655,15 +297649,22 @@
         "display_name": "Shetland S04E04 1080p CZ Dabing",
         "prepared_at": "2026-11-07T17:26:31.895643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895217",
-        "size_bytes": 702607468
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895217",
+          "size_bytes": 702607468,
+          "source_bytes_read": 702607468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20312389",
+        "source_url": "https://sdilej.cz/20312389/vrazdy.na.shetlandech.04x04.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895217",
-        "size_bytes": 702607468,
-        "source_bytes_read": 702607468,
-        "http_status": 201
+        "display_name": "Shetland S04E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T17:28:59.456365+00:00"
       }
     },
     "2384:4:5": {
@@ -297753,5 +297754,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T17:28:57.196321+00:00"
+  "updated_at": "2026-11-07T17:28:59.456378+00:00"
 }
