@@ -288168,12 +288168,6 @@
     },
     "2352:3:6": {
       "episode_key": "bořiči mýtů:s3:e6",
-      "claim": {
-        "worker_id": "88a85a17fb074798ae19e7c265269038-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:14:24.608117+00:00",
-        "lease_expires_at": "2026-11-07T06:14:24.608130+00:00"
-      },
       "source": {
         "source_id": "28259593",
         "source_url": "https://sdilej.cz/28259593/borici-mytu-s03e06-cz-dab-hd-tv-rip.avi",
@@ -288198,15 +288192,22 @@
         "display_name": "MythBusters S03E06 Son of a Gun SD CZ Dabing",
         "prepared_at": "2026-11-07T00:14:34.979259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873921",
-        "size_bytes": 367708160
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873921",
+          "size_bytes": 367708160,
+          "source_bytes_read": 367708160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28259593",
+        "source_url": "https://sdilej.cz/28259593/borici-mytu-s03e06-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873921",
-        "size_bytes": 367708160,
-        "source_bytes_read": 367708160,
-        "http_status": 201
+        "display_name": "MythBusters S03E06 Son of a Gun SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:16:04.244661+00:00"
       }
     },
     "2352:3:4": {
@@ -288289,5 +288290,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:15:59.352572+00:00"
+  "updated_at": "2026-11-07T00:16:04.244678+00:00"
 }
