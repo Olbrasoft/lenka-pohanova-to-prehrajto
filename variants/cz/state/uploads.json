@@ -298586,12 +298586,6 @@
     },
     "113:2:2": {
       "episode_key": "loki:s2:e2",
-      "claim": {
-        "worker_id": "eb4c9471b6514de1ac66339cdbc0994e-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:31:11.053943+00:00",
-        "lease_expires_at": "2026-11-08T00:31:11.053954+00:00"
-      },
       "source": {
         "source_id": "32106788",
         "source_url": "https://sdilej.cz/32106788/loki-s02e02-bidak-brad.mkv",
@@ -298616,15 +298610,22 @@
         "display_name": "Loki S02E02 Breaking Brad 4K CZ Dabing",
         "prepared_at": "2026-11-07T18:31:16.494262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30896168",
-        "size_bytes": 2267236815
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30896168",
+          "size_bytes": 2267236815,
+          "source_bytes_read": 2267236815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32106788",
+        "source_url": "https://sdilej.cz/32106788/loki-s02e02-bidak-brad.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30896168",
-        "size_bytes": 2267236815,
-        "source_bytes_read": 2267236815,
-        "http_status": 201
+        "display_name": "Loki S02E02 Breaking Brad 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T18:39:09.279289+00:00"
       }
     }
   },
@@ -298633,5 +298634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:39:07.046252+00:00"
+  "updated_at": "2026-11-07T18:39:09.279307+00:00"
 }
