@@ -288476,12 +288476,6 @@
     },
     "2352:4:9": {
       "episode_key": "bořiči mýtů:s4:e9",
-      "claim": {
-        "worker_id": "64b5c5f45f6846949acd35e1c6938964-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:19:26.489520+00:00",
-        "lease_expires_at": "2026-11-07T06:19:26.489535+00:00"
-      },
       "source": {
         "source_id": "28289129",
         "source_url": "https://sdilej.cz/28289129/borici-mytu-s04e09-cz-dab-hd-tv-rip.avi",
@@ -288506,15 +288500,22 @@
         "display_name": "MythBusters S04E09 Mind Control SD CZ Dabing",
         "prepared_at": "2026-11-07T00:19:29.678389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873994",
-        "size_bytes": 407025036
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873994",
+          "size_bytes": 407025036,
+          "source_bytes_read": 407025036,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28289129",
+        "source_url": "https://sdilej.cz/28289129/borici-mytu-s04e09-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873994",
-        "size_bytes": 407025036,
-        "source_bytes_read": 407025036,
-        "http_status": 201
+        "display_name": "MythBusters S04E09 Mind Control SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:23:39.663301+00:00"
       }
     },
     "2352:4:10": {
@@ -288604,5 +288605,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:23:33.608099+00:00"
+  "updated_at": "2026-11-07T00:23:39.663319+00:00"
 }
