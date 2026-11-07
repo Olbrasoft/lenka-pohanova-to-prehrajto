@@ -301189,12 +301189,6 @@
     },
     "1069:1:18": {
       "episode_key": "mentalista:s1:e18",
-      "claim": {
-        "worker_id": "3ac44766eacd4a819777f28447b0a0c7-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T22:50:30.792643+00:00",
-        "lease_expires_at": "2026-11-08T04:50:30.792650+00:00"
-      },
       "source": {
         "source_id": "22058608",
         "source_url": "https://sdilej.cz/22058608/mentalista-the-mentalist-s01e18-russet-potatoes-1080p-hevc-cz-dabing.mkv",
@@ -301219,15 +301213,22 @@
         "display_name": "The Mentalist S01E18 Russet Potatoes 1080p CZ Dabing",
         "prepared_at": "2026-11-07T22:50:36.891126+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30900657",
-        "size_bytes": 752721298
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30900657",
+          "size_bytes": 752721298,
+          "source_bytes_read": 752721298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058608",
+        "source_url": "https://sdilej.cz/22058608/mentalista-the-mentalist-s01e18-russet-potatoes-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30900657",
-        "size_bytes": 752721298,
-        "source_bytes_read": 752721298,
-        "http_status": 201
+        "display_name": "The Mentalist S01E18 Russet Potatoes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T22:54:10.132934+00:00"
       }
     },
     "1069:1:19": {
@@ -301309,5 +301310,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T22:54:06.598970+00:00"
+  "updated_at": "2026-11-07T22:54:10.132950+00:00"
 }
