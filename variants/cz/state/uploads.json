@@ -293621,12 +293621,6 @@
     },
     "3220:4:2": {
       "episode_key": "dobrý boj:s4:e2",
-      "claim": {
-        "worker_id": "3f850fe0d74841ad9a32672a4f0b86c0-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T10:11:21.376932+00:00",
-        "lease_expires_at": "2026-11-07T16:11:21.376946+00:00"
-      },
       "source": {
         "source_id": "33120400",
         "source_url": "https://sdilej.cz/33120400/dobry-boj-s04e02-07-2020-cz-dab-1080p-gang-se-snazi-obslouzit-predvolani.mkv",
@@ -293651,15 +293645,22 @@
         "display_name": "The Good Fight S04E02 The Gang Tries to Serve a Subpoena 1080p CZ Dabing",
         "prepared_at": "2026-11-07T10:11:26.260603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30887642",
-        "size_bytes": 2784583364
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30887642",
+          "size_bytes": 2784583364,
+          "source_bytes_read": 2784583364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120400",
+        "source_url": "https://sdilej.cz/33120400/dobry-boj-s04e02-07-2020-cz-dab-1080p-gang-se-snazi-obslouzit-predvolani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30887642",
-        "size_bytes": 2784583364,
-        "source_bytes_read": 2784583364,
-        "http_status": 201
+        "display_name": "The Good Fight S04E02 The Gang Tries to Serve a Subpoena 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T10:18:34.206928+00:00"
       }
     },
     "3220:4:3": {
@@ -293742,5 +293743,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T10:18:29.466292+00:00"
+  "updated_at": "2026-11-07T10:18:34.206946+00:00"
 }
