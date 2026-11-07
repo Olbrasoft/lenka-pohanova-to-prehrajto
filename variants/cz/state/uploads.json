@@ -289488,12 +289488,6 @@
     },
     "2562:1:7": {
       "episode_key": "drsný šerif:s1:e7",
-      "claim": {
-        "worker_id": "91505321265244dbb170bc041a40a118-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:22:23.799812+00:00",
-        "lease_expires_at": "2026-11-07T07:22:23.799823+00:00"
-      },
       "source": {
         "source_id": "30661238",
         "source_url": "https://sdilej.cz/30661238/drsny-serif-longmire-s01e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -289518,15 +289512,22 @@
         "display_name": "Longmire S01E07 8 Seconds 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:22:27.988417+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875609",
-        "size_bytes": 1362602635
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875609",
+          "size_bytes": 1362602635,
+          "source_bytes_read": 1362602635,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661238",
+        "source_url": "https://sdilej.cz/30661238/drsny-serif-longmire-s01e07-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875609",
-        "size_bytes": 1362602635,
-        "source_bytes_read": 1362602635,
-        "http_status": 201
+        "display_name": "Longmire S01E07 8 Seconds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:25:48.215108+00:00"
       }
     },
     "2562:1:8": {
@@ -289623,5 +289624,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:25:43.877284+00:00"
+  "updated_at": "2026-11-07T01:25:48.215126+00:00"
 }
