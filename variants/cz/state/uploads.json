@@ -288652,12 +288652,6 @@
     },
     "2352:5:10": {
       "episode_key": "bořiči mýtů:s5:e10",
-      "claim": {
-        "worker_id": "821936a8c0634832bc202dfef5791828-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:25:08.925152+00:00",
-        "lease_expires_at": "2026-11-07T06:25:08.925170+00:00"
-      },
       "source": {
         "source_id": "21588226",
         "source_url": "https://sdilej.cz/21588226/borici-mytu-s05e10-westernove-myty.avi",
@@ -288682,15 +288676,22 @@
         "display_name": "MythBusters S05E10 Western Myths SD CZ Dabing",
         "prepared_at": "2026-11-07T00:25:11.996947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30874179",
-        "size_bytes": 408242176
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30874179",
+          "size_bytes": 408242176,
+          "source_bytes_read": 408242176,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21588226",
+        "source_url": "https://sdilej.cz/21588226/borici-mytu-s05e10-westernove-myty.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30874179",
-        "size_bytes": 408242176,
-        "source_bytes_read": 408242176,
-        "http_status": 201
+        "display_name": "MythBusters S05E10 Western Myths SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:26:26.045788+00:00"
       }
     }
   },
@@ -288699,5 +288700,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:26:20.189044+00:00"
+  "updated_at": "2026-11-07T00:26:26.045804+00:00"
 }
