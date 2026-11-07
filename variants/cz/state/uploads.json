@@ -298417,12 +298417,6 @@
     },
     "113:1:4": {
       "episode_key": "loki:s1:e4",
-      "claim": {
-        "worker_id": "ff16d25f650645e8a058bcf6c58af1f3-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:23:48.129469+00:00",
-        "lease_expires_at": "2026-11-08T00:23:48.129481+00:00"
-      },
       "source": {
         "source_id": "33114439",
         "source_url": "https://sdilej.cz/33114439/loki-s01e04-cz-en-h264-ezio.mkv",
@@ -298447,15 +298441,22 @@
         "display_name": "Loki S01E04 The Nexus Event 1080p CZ Dabing",
         "prepared_at": "2026-11-07T18:23:52.927119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30896074",
-        "size_bytes": 1118823610
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30896074",
+          "size_bytes": 1118823610,
+          "source_bytes_read": 1118823610,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33114439",
+        "source_url": "https://sdilej.cz/33114439/loki-s01e04-cz-en-h264-ezio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30896074",
-        "size_bytes": 1118823610,
-        "source_bytes_read": 1118823610,
-        "http_status": 201
+        "display_name": "Loki S01E04 The Nexus Event 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T18:27:30.481183+00:00"
       }
     },
     "113:1:5": {
@@ -298538,5 +298539,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:27:26.692086+00:00"
+  "updated_at": "2026-11-07T18:27:30.481196+00:00"
 }
