@@ -290380,12 +290380,6 @@
     },
     "2562:3:4": {
       "episode_key": "drsný šerif:s3:e4",
-      "claim": {
-        "worker_id": "f15ea2e273cd41e9bc99fc5cf56d3763-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T02:32:00.263319+00:00",
-        "lease_expires_at": "2026-11-07T08:32:00.263329+00:00"
-      },
       "source": {
         "source_id": "30662045",
         "source_url": "https://sdilej.cz/30662045/drsny-serif-longmire-s03e04-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -290410,15 +290404,22 @@
         "display_name": "Longmire S03E04 In the Pines 1080p CZ Dabing",
         "prepared_at": "2026-11-07T02:32:03.126193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30877084",
-        "size_bytes": 1356523337
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30877084",
+          "size_bytes": 1356523337,
+          "source_bytes_read": 1356523337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662045",
+        "source_url": "https://sdilej.cz/30662045/drsny-serif-longmire-s03e04-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30877084",
-        "size_bytes": 1356523337,
-        "source_bytes_read": 1356523337,
-        "http_status": 201
+        "display_name": "Longmire S03E04 In the Pines 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T02:39:03.616367+00:00"
       }
     }
   },
@@ -290427,5 +290428,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T02:39:01.379945+00:00"
+  "updated_at": "2026-11-07T02:39:03.616381+00:00"
 }
