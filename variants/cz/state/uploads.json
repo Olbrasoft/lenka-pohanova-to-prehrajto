@@ -302817,12 +302817,6 @@
     },
     "1069:3:9": {
       "episode_key": "mentalista:s3:e9",
-      "claim": {
-        "worker_id": "d9612ab907e14af6ac85b4927e6e64c0-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:56:31.629282+00:00",
-        "lease_expires_at": "2026-11-08T05:56:31.629290+00:00"
-      },
       "source": {
         "source_id": "22059115",
         "source_url": "https://sdilej.cz/22059115/mentalista-the-mentalist-s03e09-red-moon-1080p-hevc-cz-dabing.mkv",
@@ -302847,15 +302841,22 @@
         "display_name": "The Mentalist S03E09 Red Moon 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:56:34.335920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901906",
-        "size_bytes": 757082939
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901906",
+          "size_bytes": 757082939,
+          "source_bytes_read": 757082939,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22059115",
+        "source_url": "https://sdilej.cz/22059115/mentalista-the-mentalist-s03e09-red-moon-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901906",
-        "size_bytes": 757082939,
-        "source_bytes_read": 757082939,
-        "http_status": 201
+        "display_name": "The Mentalist S03E09 Red Moon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:57:48.273651+00:00"
       }
     },
     "1069:3:10": {
@@ -302937,5 +302938,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:57:46.081044+00:00"
+  "updated_at": "2026-11-07T23:57:48.273665+00:00"
 }
