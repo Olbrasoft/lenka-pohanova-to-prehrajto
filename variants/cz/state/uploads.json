@@ -301321,12 +301321,6 @@
     },
     "1069:1:21": {
       "episode_key": "mentalista:s1:e21",
-      "claim": {
-        "worker_id": "4f765d33f9234071ab9e7cfff1cb81fa-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T22:54:20.091341+00:00",
-        "lease_expires_at": "2026-11-08T04:54:20.091349+00:00"
-      },
       "source": {
         "source_id": "33063541",
         "source_url": "https://sdilej.cz/33063541/the-mentalist-s01e21-miss-red.mkv",
@@ -301351,15 +301345,22 @@
         "display_name": "The Mentalist S01E21 Miss Red 1080p CZ Dabing",
         "prepared_at": "2026-11-07T22:54:22.601337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30900745",
-        "size_bytes": 771775855
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30900745",
+          "size_bytes": 771775855,
+          "source_bytes_read": 771775855,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33063541",
+        "source_url": "https://sdilej.cz/33063541/the-mentalist-s01e21-miss-red.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30900745",
-        "size_bytes": 771775855,
-        "source_bytes_read": 771775855,
-        "http_status": 201
+        "display_name": "The Mentalist S01E21 Miss Red 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T22:55:49.242310+00:00"
       }
     },
     "1069:1:22": {
@@ -301441,5 +301442,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T22:55:45.194618+00:00"
+  "updated_at": "2026-11-07T22:55:49.242330+00:00"
 }
