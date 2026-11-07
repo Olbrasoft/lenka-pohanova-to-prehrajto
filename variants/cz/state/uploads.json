@@ -297185,12 +297185,6 @@
     },
     "2384:2:6": {
       "episode_key": "vraždy na shetlandech:s2:e6",
-      "claim": {
-        "worker_id": "b656fb92c24e43f8b354fd8321d61654-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T17:10:15.470031+00:00",
-        "lease_expires_at": "2026-11-07T23:10:15.470038+00:00"
-      },
       "source": {
         "source_id": "19138561",
         "source_url": "https://sdilej.cz/19138561/vrazdy.na.shetlandech.-02x06.avi",
@@ -297215,15 +297209,22 @@
         "display_name": "Shetland S02E06 Blue Lightning - Part 2 720p CZ Dabing",
         "prepared_at": "2026-11-07T17:10:21.748765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895007",
-        "size_bytes": 910900602
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895007",
+          "size_bytes": 910900602,
+          "source_bytes_read": 910900602,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19138561",
+        "source_url": "https://sdilej.cz/19138561/vrazdy.na.shetlandech.-02x06.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895007",
-        "size_bytes": 910900602,
-        "source_bytes_read": 910900602,
-        "http_status": 201
+        "display_name": "Shetland S02E06 Blue Lightning - Part 2 720p CZ Dabing",
+        "uploaded_at": "2026-11-07T17:13:39.750189+00:00"
       }
     },
     "2384:3:1": {
@@ -297269,5 +297270,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T17:13:37.547641+00:00"
+  "updated_at": "2026-11-07T17:13:39.750207+00:00"
 }
