@@ -295073,12 +295073,6 @@
     },
     "183:1:4": {
       "episode_key": "papírový dům:s1:e4",
-      "claim": {
-        "worker_id": "bed12229dda4409fa168c6ebe49a59e7-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:25:41.622852+00:00",
-        "lease_expires_at": "2026-11-07T19:25:41.622864+00:00"
-      },
       "source": {
         "source_id": "21045937",
         "source_url": "https://sdilej.cz/21045937/papirovy-dum-la-casa-de-papel-s01e04-cz-dabing-1080p-iv-n-.mkv",
@@ -295103,15 +295097,22 @@
         "display_name": "La casa de papel S01E04 Capítulo 4 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:25:50.527963+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891406",
-        "size_bytes": 1328929566
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891406",
+          "size_bytes": 1328929566,
+          "source_bytes_read": 1328929566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21045937",
+        "source_url": "https://sdilej.cz/21045937/papirovy-dum-la-casa-de-papel-s01e04-cz-dabing-1080p-iv-n-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891406",
-        "size_bytes": 1328929566,
-        "source_bytes_read": 1328929566,
-        "http_status": 201
+        "display_name": "La casa de papel S01E04 Capítulo 4 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:29:20.345131+00:00"
       }
     },
     "183:1:7": {
@@ -295201,5 +295202,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:29:17.808509+00:00"
+  "updated_at": "2026-11-07T13:29:20.345144+00:00"
 }
