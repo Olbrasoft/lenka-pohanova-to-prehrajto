@@ -294890,12 +294890,6 @@
     },
     "2292:1:7": {
       "episode_key": "na útěku:s1:e7",
-      "claim": {
-        "worker_id": "94541073ddc245868fe94977242c56e9-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T12:46:23.192226+00:00",
-        "lease_expires_at": "2026-11-07T18:46:23.192238+00:00"
-      },
       "source": {
         "source_id": "34669771",
         "source_url": "https://sdilej.cz/34669771/na-uteku-s01e07-srdcova-sedma.mkv",
@@ -294920,15 +294914,22 @@
         "display_name": "Moving S01E07 1080p CZ Dabing",
         "prepared_at": "2026-11-07T12:46:28.922515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30890629",
-        "size_bytes": 1048838820
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30890629",
+          "size_bytes": 1048838820,
+          "source_bytes_read": 1048838820,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34669771",
+        "source_url": "https://sdilej.cz/34669771/na-uteku-s01e07-srdcova-sedma.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30890629",
-        "size_bytes": 1048838820,
-        "source_bytes_read": 1048838820,
-        "http_status": 201
+        "display_name": "Moving S01E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T12:50:04.151418+00:00"
       }
     }
   },
@@ -294937,5 +294938,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T12:49:58.263391+00:00"
+  "updated_at": "2026-11-07T12:50:04.151434+00:00"
 }
