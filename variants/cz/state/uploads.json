@@ -293225,12 +293225,6 @@
     },
     "3220:3:3": {
       "episode_key": "dobrý boj:s3:e3",
-      "claim": {
-        "worker_id": "fc99c7962a1d47ac900e7071559c1201-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T09:08:01.297810+00:00",
-        "lease_expires_at": "2026-11-07T15:08:01.297826+00:00"
-      },
       "source": {
         "source_id": "33120365",
         "source_url": "https://sdilej.cz/33120365/dobry-boj-s03e03-10-2019-cz-dab-1080p-ten-kde-se-diane-pripojuje-k-odporu.mkv",
@@ -293255,15 +293249,22 @@
         "display_name": "The Good Fight S03E03 The One Where Diane Joins the Resistance 1080p CZ Dabing",
         "prepared_at": "2026-11-07T09:08:08.451912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30886383",
-        "size_bytes": 3588994754
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30886383",
+          "size_bytes": 3588994754,
+          "source_bytes_read": 3588994754,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120365",
+        "source_url": "https://sdilej.cz/33120365/dobry-boj-s03e03-10-2019-cz-dab-1080p-ten-kde-se-diane-pripojuje-k-odporu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30886383",
-        "size_bytes": 3588994754,
-        "source_bytes_read": 3588994754,
-        "http_status": 201
+        "display_name": "The Good Fight S03E03 The One Where Diane Joins the Resistance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T09:22:56.621532+00:00"
       }
     }
   },
@@ -293272,5 +293273,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T09:22:53.491840+00:00"
+  "updated_at": "2026-11-07T09:22:56.621552+00:00"
 }
