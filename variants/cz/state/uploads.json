@@ -293445,12 +293445,6 @@
     },
     "3220:3:8": {
       "episode_key": "dobrý boj:s3:e8",
-      "claim": {
-        "worker_id": "fca0fdcb6f0545a3bdd4c98f7d36b717-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T10:00:15.648331+00:00",
-        "lease_expires_at": "2026-11-07T16:00:15.648342+00:00"
-      },
       "source": {
         "source_id": "33120379",
         "source_url": "https://sdilej.cz/33120379/dobry-boj-s03e08-10-2019-cz-dab-1080p-ten-kde-kurt-zachrani-diane.mkv",
@@ -293475,15 +293469,22 @@
         "display_name": "The Good Fight S03E08 The One Where Kurt Saves Diane 1080p CZ Dabing",
         "prepared_at": "2026-11-07T10:00:18.584215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30887319",
-        "size_bytes": 3161178588
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30887319",
+          "size_bytes": 3161178588,
+          "source_bytes_read": 3161178588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120379",
+        "source_url": "https://sdilej.cz/33120379/dobry-boj-s03e08-10-2019-cz-dab-1080p-ten-kde-kurt-zachrani-diane.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30887319",
-        "size_bytes": 3161178588,
-        "source_bytes_read": 3161178588,
-        "http_status": 201
+        "display_name": "The Good Fight S03E08 The One Where Kurt Saves Diane 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T10:07:56.096358+00:00"
       }
     },
     "3220:3:9": {
@@ -293566,5 +293567,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T10:07:49.272108+00:00"
+  "updated_at": "2026-11-07T10:07:56.096376+00:00"
 }
