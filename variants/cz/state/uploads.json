@@ -290852,12 +290852,6 @@
     },
     "2562:4:8": {
       "episode_key": "drsný šerif:s4:e8",
-      "claim": {
-        "worker_id": "80ed949d9c8e46f6ad6cb0902c0ef6fc-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T03:23:49.711753+00:00",
-        "lease_expires_at": "2026-11-07T09:23:49.711764+00:00"
-      },
       "source": {
         "source_id": "12904948",
         "source_url": "https://sdilej.cz/12904948/drsny.serif.04x08.1080i.hdtv.cz.mkv",
@@ -290882,15 +290876,22 @@
         "display_name": "Longmire S04E08 Hector Lives 1080p CZ Dabing",
         "prepared_at": "2026-11-07T03:23:52.454099+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30878313",
-        "size_bytes": 3726789621
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30878313",
+          "size_bytes": 3726789621,
+          "source_bytes_read": 3726789621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12904948",
+        "source_url": "https://sdilej.cz/12904948/drsny.serif.04x08.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30878313",
-        "size_bytes": 3726789621,
-        "source_bytes_read": 3726789621,
-        "http_status": 201
+        "display_name": "Longmire S04E08 Hector Lives 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T03:37:05.424835+00:00"
       }
     },
     "2562:4:10": {
@@ -290943,5 +290944,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T03:37:00.827154+00:00"
+  "updated_at": "2026-11-07T03:37:05.424853+00:00"
 }
