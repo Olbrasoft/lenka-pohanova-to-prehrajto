@@ -289525,12 +289525,6 @@
     },
     "2562:1:8": {
       "episode_key": "drsný šerif:s1:e8",
-      "claim": {
-        "worker_id": "c09df96c94684c4f930016af35ea3891-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:22:30.931686+00:00",
-        "lease_expires_at": "2026-11-07T07:22:30.931705+00:00"
-      },
       "source": {
         "source_id": "18978505",
         "source_url": "https://sdilej.cz/18978505/drsny.serif-longmire.s01e08.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio.mkv",
@@ -289555,15 +289549,22 @@
         "display_name": "Longmire S01E08 An Incredibly Beautiful Thing 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:22:35.940456+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875612",
-        "size_bytes": 1344129381
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875612",
+          "size_bytes": 1344129381,
+          "source_bytes_read": 1344129381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18978505",
+        "source_url": "https://sdilej.cz/18978505/drsny.serif-longmire.s01e08.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875612",
-        "size_bytes": 1344129381,
-        "source_bytes_read": 1344129381,
-        "http_status": 201
+        "display_name": "Longmire S01E08 An Incredibly Beautiful Thing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:24:16.732125+00:00"
       }
     },
     "2562:1:9": {
@@ -289609,5 +289610,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:24:12.100630+00:00"
+  "updated_at": "2026-11-07T01:24:16.732141+00:00"
 }
