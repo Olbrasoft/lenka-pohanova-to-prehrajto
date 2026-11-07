@@ -297705,12 +297705,6 @@
     },
     "2384:4:6": {
       "episode_key": "vraždy na shetlandech:s4:e6",
-      "claim": {
-        "worker_id": "d5b4dd6031a0448d9d1a2b1cd6b2442c-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T17:26:34.099727+00:00",
-        "lease_expires_at": "2026-11-07T23:26:34.099735+00:00"
-      },
       "source": {
         "source_id": "20222918",
         "source_url": "https://sdilej.cz/20222918/vrazdy-na-shetlandech-04x06-utajeny-syn.mp4",
@@ -297735,15 +297729,22 @@
         "display_name": "Shetland S04E06 720p CZ Dabing",
         "prepared_at": "2026-11-07T17:26:42.205020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895225",
-        "size_bytes": 621844894
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895225",
+          "size_bytes": 621844894,
+          "source_bytes_read": 621844894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20222918",
+        "source_url": "https://sdilej.cz/20222918/vrazdy-na-shetlandech-04x06-utajeny-syn.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895225",
-        "size_bytes": 621844894,
-        "source_bytes_read": 621844894,
-        "http_status": 201
+        "display_name": "Shetland S04E06 720p CZ Dabing",
+        "uploaded_at": "2026-11-07T17:28:57.196306+00:00"
       }
     }
   },
@@ -297752,5 +297753,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T17:28:53.285201+00:00"
+  "updated_at": "2026-11-07T17:28:57.196321+00:00"
 }
