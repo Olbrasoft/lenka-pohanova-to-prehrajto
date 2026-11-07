@@ -290977,12 +290977,6 @@
     },
     "2562:5:1": {
       "episode_key": "drsný šerif:s5:e1",
-      "claim": {
-        "worker_id": "0ebac5686560432c9c7b1e898ae591bd-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T03:45:31.182339+00:00",
-        "lease_expires_at": "2026-11-07T09:45:31.182348+00:00"
-      },
       "source": {
         "source_id": "13009501",
         "source_url": "https://sdilej.cz/13009501/drsny-serif-5x01.-mlha-co-se-nezveda-webrip-cz-ss23-bt-.avi",
@@ -291007,15 +291001,22 @@
         "display_name": "Longmire S05E01 A Fog That Won't Lift SD CZ Dabing",
         "prepared_at": "2026-11-07T03:45:36.822238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30878699",
-        "size_bytes": 566923640
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30878699",
+          "size_bytes": 566923640,
+          "source_bytes_read": 566923640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13009501",
+        "source_url": "https://sdilej.cz/13009501/drsny-serif-5x01.-mlha-co-se-nezveda-webrip-cz-ss23-bt-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30878699",
-        "size_bytes": 566923640,
-        "source_bytes_read": 566923640,
-        "http_status": 201
+        "display_name": "Longmire S05E01 A Fog That Won't Lift SD CZ Dabing",
+        "uploaded_at": "2026-11-07T03:47:05.032984+00:00"
       }
     },
     "2562:5:3": {
@@ -291061,5 +291062,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T03:46:59.901536+00:00"
+  "updated_at": "2026-11-07T03:47:05.032998+00:00"
 }
