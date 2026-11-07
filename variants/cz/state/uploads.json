@@ -289444,12 +289444,6 @@
     },
     "2562:1:6": {
       "episode_key": "drsný šerif:s1:e6",
-      "claim": {
-        "worker_id": "e95d9e46e06e4f4191dcda631eb995de-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:21:59.646935+00:00",
-        "lease_expires_at": "2026-11-07T07:21:59.646946+00:00"
-      },
       "source": {
         "source_id": "12798554",
         "source_url": "https://sdilej.cz/12798554/drsny-serif-s01e06-nejhorsi-druh-lovce-tvrip-480p-czdab.avi",
@@ -289474,15 +289468,22 @@
         "display_name": "Longmire S01E06 The Worst Kind of Hunter SD CZ Dabing",
         "prepared_at": "2026-11-07T01:22:02.456453+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875597",
-        "size_bytes": 345513566
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875597",
+          "size_bytes": 345513566,
+          "source_bytes_read": 345513566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12798554",
+        "source_url": "https://sdilej.cz/12798554/drsny-serif-s01e06-nejhorsi-druh-lovce-tvrip-480p-czdab.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875597",
-        "size_bytes": 345513566,
-        "source_bytes_read": 345513566,
-        "http_status": 201
+        "display_name": "Longmire S01E06 The Worst Kind of Hunter SD CZ Dabing",
+        "uploaded_at": "2026-11-07T01:22:53.258947+00:00"
       }
     },
     "2562:1:7": {
@@ -289565,5 +289566,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:22:49.050333+00:00"
+  "updated_at": "2026-11-07T01:22:53.258963+00:00"
 }
