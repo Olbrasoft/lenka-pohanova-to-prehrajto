@@ -301849,12 +301849,6 @@
     },
     "1069:2:10": {
       "episode_key": "mentalista:s2:e10",
-      "claim": {
-        "worker_id": "f2d981d0fa19414e9ac827169e6ccf77-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:13:00.585354+00:00",
-        "lease_expires_at": "2026-11-08T05:13:00.585361+00:00"
-      },
       "source": {
         "source_id": "22058847",
         "source_url": "https://sdilej.cz/22058847/mentalista-the-mentalist-s02e10-throwing-fire-1080p-hevc-cz-dabing.mkv",
@@ -301879,15 +301873,22 @@
         "display_name": "The Mentalist S02E10 Throwing Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:13:05.446213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901017",
-        "size_bytes": 763743315
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901017",
+          "size_bytes": 763743315,
+          "source_bytes_read": 763743315,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058847",
+        "source_url": "https://sdilej.cz/22058847/mentalista-the-mentalist-s02e10-throwing-fire-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901017",
-        "size_bytes": 763743315,
-        "source_bytes_read": 763743315,
-        "http_status": 201
+        "display_name": "The Mentalist S02E10 Throwing Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:16:06.228852+00:00"
       }
     },
     "1069:2:11": {
@@ -301940,5 +301941,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:16:04.117181+00:00"
+  "updated_at": "2026-11-07T23:16:06.228870+00:00"
 }
