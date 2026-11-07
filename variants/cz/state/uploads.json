@@ -302333,12 +302333,6 @@
     },
     "1069:2:21": {
       "episode_key": "mentalista:s2:e21",
-      "claim": {
-        "worker_id": "3271b1552fab4079866229d5273965a8-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:42:06.722310+00:00",
-        "lease_expires_at": "2026-11-08T05:42:06.722319+00:00"
-      },
       "source": {
         "source_id": "22058980",
         "source_url": "https://sdilej.cz/22058980/mentalista-the-mentalist-s02e21-18-5-4-1080p-hevc-cz-dabing.mkv",
@@ -302363,15 +302357,22 @@
         "display_name": "The Mentalist S02E21 18-5-4 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:42:09.525815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901580",
-        "size_bytes": 757744171
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901580",
+          "size_bytes": 757744171,
+          "source_bytes_read": 757744171,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058980",
+        "source_url": "https://sdilej.cz/22058980/mentalista-the-mentalist-s02e21-18-5-4-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901580",
-        "size_bytes": 757744171,
-        "source_bytes_read": 757744171,
-        "http_status": 201
+        "display_name": "The Mentalist S02E21 18-5-4 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:44:12.776786+00:00"
       }
     },
     "1069:2:22": {
@@ -302454,5 +302455,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:44:09.196783+00:00"
+  "updated_at": "2026-11-07T23:44:12.776800+00:00"
 }
