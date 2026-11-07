@@ -292873,12 +292873,6 @@
     },
     "3220:2:8": {
       "episode_key": "dobrý boj:s2:e8",
-      "claim": {
-        "worker_id": "4eb278269d9c4c82bc330a33b23fe69f-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T08:19:49.118355+00:00",
-        "lease_expires_at": "2026-11-07T14:19:49.118372+00:00"
-      },
       "source": {
         "source_id": "33120339",
         "source_url": "https://sdilej.cz/33120339/dobry-boj-s02e08-13-2018-cz-dab-1080p-den-457.mkv",
@@ -292903,15 +292897,22 @@
         "display_name": "The Good Fight S02E08 Day 457 1080p CZ Dabing",
         "prepared_at": "2026-11-07T08:19:55.987388+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30885691",
-        "size_bytes": 3176732750
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30885691",
+          "size_bytes": 3176732750,
+          "source_bytes_read": 3176732750,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120339",
+        "source_url": "https://sdilej.cz/33120339/dobry-boj-s02e08-13-2018-cz-dab-1080p-den-457.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30885691",
-        "size_bytes": 3176732750,
-        "source_bytes_read": 3176732750,
-        "http_status": 201
+        "display_name": "The Good Fight S02E08 Day 457 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T08:28:33.463702+00:00"
       }
     },
     "3220:2:9": {
@@ -293008,5 +293009,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T08:28:31.079008+00:00"
+  "updated_at": "2026-11-07T08:28:33.463721+00:00"
 }
