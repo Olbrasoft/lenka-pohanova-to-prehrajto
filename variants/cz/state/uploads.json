@@ -301805,12 +301805,6 @@
     },
     "1069:2:9": {
       "episode_key": "mentalista:s2:e9",
-      "claim": {
-        "worker_id": "5c056518618040c39a71a5dc3d922be0-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:12:53.022867+00:00",
-        "lease_expires_at": "2026-11-08T05:12:53.022879+00:00"
-      },
       "source": {
         "source_id": "32443246",
         "source_url": "https://sdilej.cz/32443246/mentalista-s02e09-cennejsi-nez-rubiny.mkv",
@@ -301835,15 +301829,22 @@
         "display_name": "The Mentalist S02E09 A Price Above Rubies 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:12:56.340500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901013",
-        "size_bytes": 841095940
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901013",
+          "size_bytes": 841095940,
+          "source_bytes_read": 841095940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443246",
+        "source_url": "https://sdilej.cz/32443246/mentalista-s02e09-cennejsi-nez-rubiny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901013",
-        "size_bytes": 841095940,
-        "source_bytes_read": 841095940,
-        "http_status": 201
+        "display_name": "The Mentalist S02E09 A Price Above Rubies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:15:42.435488+00:00"
       }
     },
     "1069:2:10": {
@@ -301933,5 +301934,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:15:36.505244+00:00"
+  "updated_at": "2026-11-07T23:15:42.435500+00:00"
 }
