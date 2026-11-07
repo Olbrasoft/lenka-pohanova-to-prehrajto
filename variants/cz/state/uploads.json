@@ -302553,12 +302553,6 @@
     },
     "1069:3:3": {
       "episode_key": "mentalista:s3:e3",
-      "claim": {
-        "worker_id": "9f5fc5e07b524761ba12fd27130511ec-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:52:34.421367+00:00",
-        "lease_expires_at": "2026-11-08T05:52:34.421374+00:00"
-      },
       "source": {
         "source_id": "27364886",
         "source_url": "https://sdilej.cz/27364886/the-mentalist-s03e03-the-blood-on-his-hands.mkv",
@@ -302583,15 +302577,22 @@
         "display_name": "The Mentalist S03E03 The Blood on His Hands 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:52:41.321501+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901818",
-        "size_bytes": 756578010
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901818",
+          "size_bytes": 756578010,
+          "source_bytes_read": 756578010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27364886",
+        "source_url": "https://sdilej.cz/27364886/the-mentalist-s03e03-the-blood-on-his-hands.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901818",
-        "size_bytes": 756578010,
-        "source_bytes_read": 756578010,
-        "http_status": 201
+        "display_name": "The Mentalist S03E03 The Blood on His Hands 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:55:21.850435+00:00"
       }
     },
     "1069:3:4": {
@@ -302718,5 +302719,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:55:16.835060+00:00"
+  "updated_at": "2026-11-07T23:55:21.850448+00:00"
 }
