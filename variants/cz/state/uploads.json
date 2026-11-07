@@ -294237,12 +294237,6 @@
     },
     "3220:5:9": {
       "episode_key": "dobrý boj:s5:e9",
-      "claim": {
-        "worker_id": "a6c1dc2743054e8f8d646e14233cfcdd-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T11:21:31.405206+00:00",
-        "lease_expires_at": "2026-11-07T17:21:31.405223+00:00"
-      },
       "source": {
         "source_id": "33120470",
         "source_url": "https://sdilej.cz/33120470/dobry-boj-s05e09-10-2021-cz-dab-1080p-a-ten-konec-byl-nasilny....mkv",
@@ -294267,15 +294261,22 @@
         "display_name": "The Good Fight S05E09 And the end was violent… 1080p CZ Dabing",
         "prepared_at": "2026-11-07T11:21:34.415553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30889052",
-        "size_bytes": 2155465124
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30889052",
+          "size_bytes": 2155465124,
+          "source_bytes_read": 2155465124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120470",
+        "source_url": "https://sdilej.cz/33120470/dobry-boj-s05e09-10-2021-cz-dab-1080p-a-ten-konec-byl-nasilny....mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30889052",
-        "size_bytes": 2155465124,
-        "source_bytes_read": 2155465124,
-        "http_status": 201
+        "display_name": "The Good Fight S05E09 And the end was violent… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T11:26:41.242155+00:00"
       }
     },
     "3220:5:10": {
@@ -294358,5 +294359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T11:26:37.064933+00:00"
+  "updated_at": "2026-11-07T11:26:41.242172+00:00"
 }
