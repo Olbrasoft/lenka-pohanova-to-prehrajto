@@ -301270,12 +301270,6 @@
     },
     "1069:1:20": {
       "episode_key": "mentalista:s1:e20",
-      "claim": {
-        "worker_id": "83e6386b67a740f6be56d503c9e3fcc9-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T22:53:58.601225+00:00",
-        "lease_expires_at": "2026-11-08T04:53:58.601236+00:00"
-      },
       "source": {
         "source_id": "22058646",
         "source_url": "https://sdilej.cz/22058646/mentalista-the-mentalist-s01e20-red-sauce-1080p-hevc-cz-dabing.mkv",
@@ -301300,15 +301294,22 @@
         "display_name": "The Mentalist S01E20 Red Sauce 1080p CZ Dabing",
         "prepared_at": "2026-11-07T22:54:01.463834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30900738",
-        "size_bytes": 770317126
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30900738",
+          "size_bytes": 770317126,
+          "source_bytes_read": 770317126,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058646",
+        "source_url": "https://sdilej.cz/22058646/mentalista-the-mentalist-s01e20-red-sauce-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30900738",
-        "size_bytes": 770317126,
-        "source_bytes_read": 770317126,
-        "http_status": 201
+        "display_name": "The Mentalist S01E20 Red Sauce 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T22:55:14.593399+00:00"
       }
     },
     "1069:1:21": {
@@ -301354,5 +301355,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T22:55:09.990915+00:00"
+  "updated_at": "2026-11-07T22:55:14.593413+00:00"
 }
