@@ -296657,12 +296657,6 @@
     },
     "597:3:1": {
       "episode_key": "rod draka:s3:e1",
-      "claim": {
-        "worker_id": "d3f781b7c43f42b892135b2719edff9b-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T16:01:22.675580+00:00",
-        "lease_expires_at": "2026-11-07T22:01:22.675593+00:00"
-      },
       "source": {
         "source_id": "34630464",
         "source_url": "https://sdilej.cz/34630464/rod-draka-s03e01-dil1.mkv",
@@ -296687,15 +296681,22 @@
         "display_name": "House of the Dragon S03E01 Salt and Sea, Fire and Blood 4K CZ Dabing",
         "prepared_at": "2026-11-07T16:01:29.841070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30894027",
-        "size_bytes": 5131726824
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30894027",
+          "size_bytes": 5131726824,
+          "source_bytes_read": 5131726824,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34630464",
+        "source_url": "https://sdilej.cz/34630464/rod-draka-s03e01-dil1.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30894027",
-        "size_bytes": 5131726824,
-        "source_bytes_read": 5131726824,
-        "http_status": 201
+        "display_name": "House of the Dragon S03E01 Salt and Sea, Fire and Blood 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T16:21:45.576802+00:00"
       }
     },
     "597:3:2": {
@@ -296778,5 +296779,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T16:21:39.032130+00:00"
+  "updated_at": "2026-11-07T16:21:45.576820+00:00"
 }
