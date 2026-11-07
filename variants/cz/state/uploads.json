@@ -301879,12 +301879,6 @@
     },
     "1069:2:11": {
       "episode_key": "mentalista:s2:e11",
-      "claim": {
-        "worker_id": "c875e865e75c4362b559b8292606cf78-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:13:19.872646+00:00",
-        "lease_expires_at": "2026-11-08T05:13:19.872654+00:00"
-      },
       "source": {
         "source_id": "27420455",
         "source_url": "https://sdilej.cz/27420455/the-mentalist-s02e11-rose-colored-glasses.mkv",
@@ -301909,15 +301903,22 @@
         "display_name": "The Mentalist S02E11 Rose-Colored Glasses 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:13:22.527109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901023",
-        "size_bytes": 752628898
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901023",
+          "size_bytes": 752628898,
+          "source_bytes_read": 752628898,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27420455",
+        "source_url": "https://sdilej.cz/27420455/the-mentalist-s02e11-rose-colored-glasses.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901023",
-        "size_bytes": 752628898,
-        "source_bytes_read": 752628898,
-        "http_status": 201
+        "display_name": "The Mentalist S02E11 Rose-Colored Glasses 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:15:12.241916+00:00"
       }
     }
   },
@@ -301926,5 +301927,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:15:07.522618+00:00"
+  "updated_at": "2026-11-07T23:15:12.241928+00:00"
 }
