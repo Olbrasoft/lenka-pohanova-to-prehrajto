@@ -288057,12 +288057,6 @@
     },
     "2352:3:2": {
       "episode_key": "bořiči mýtů:s3:e2",
-      "claim": {
-        "worker_id": "3fda186a2f9f42d5acade69a8fd00fcf-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:06:46.509640+00:00",
-        "lease_expires_at": "2026-11-07T06:06:46.509653+00:00"
-      },
       "source": {
         "source_id": "28259578",
         "source_url": "https://sdilej.cz/28259578/borici-mytu-s03e02-cz-dab-hd-tv-rip.avi",
@@ -288087,15 +288081,22 @@
         "display_name": "MythBusters S03E02 Salsa Escape SD CZ Dabing",
         "prepared_at": "2026-11-07T00:06:51.912937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873813",
-        "size_bytes": 366649344
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873813",
+          "size_bytes": 366649344,
+          "source_bytes_read": 366649344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28259578",
+        "source_url": "https://sdilej.cz/28259578/borici-mytu-s03e02-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873813",
-        "size_bytes": 366649344,
-        "source_bytes_read": 366649344,
-        "http_status": 201
+        "display_name": "MythBusters S03E02 Salsa Escape SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:08:58.571282+00:00"
       }
     },
     "2352:3:3": {
@@ -288141,5 +288142,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:08:53.319158+00:00"
+  "updated_at": "2026-11-07T00:08:58.571298+00:00"
 }
