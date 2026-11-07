@@ -298109,12 +298109,6 @@
     },
     "2384:6:3": {
       "episode_key": "vraždy na shetlandech:s6:e3",
-      "claim": {
-        "worker_id": "25834bea6e1042f287f0afdf311fb454-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:05:29.884047+00:00",
-        "lease_expires_at": "2026-11-08T00:05:29.884061+00:00"
-      },
       "source": {
         "source_id": "21266532",
         "source_url": "https://sdilej.cz/21266532/vrazdy.na.shetlandech.06x03.1080i.hdtv.cz.mkv",
@@ -298139,15 +298133,22 @@
         "display_name": "Shetland S06E03 1080p CZ Dabing",
         "prepared_at": "2026-11-07T18:05:32.718768+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895836",
-        "size_bytes": 2682244835
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895836",
+          "size_bytes": 2682244835,
+          "source_bytes_read": 2682244835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21266532",
+        "source_url": "https://sdilej.cz/21266532/vrazdy.na.shetlandech.06x03.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895836",
-        "size_bytes": 2682244835,
-        "source_bytes_read": 2682244835,
-        "http_status": 201
+        "display_name": "Shetland S06E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T18:14:37.975739+00:00"
       }
     },
     "2384:6:4": {
@@ -298362,5 +298363,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:14:34.549797+00:00"
+  "updated_at": "2026-11-07T18:14:37.975752+00:00"
 }
