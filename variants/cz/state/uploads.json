@@ -291142,12 +291142,6 @@
     },
     "2562:5:6": {
       "episode_key": "drsný šerif:s5:e6",
-      "claim": {
-        "worker_id": "8fbb9929b0cf45bbad8226f0d7d76e08-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T04:08:38.767314+00:00",
-        "lease_expires_at": "2026-11-07T10:08:38.767325+00:00"
-      },
       "source": {
         "source_id": "13009097",
         "source_url": "https://sdilej.cz/13009097/longmire.s05e06.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -291172,15 +291166,22 @@
         "display_name": "Longmire S05E06 Objection 1080p CZ Dabing",
         "prepared_at": "2026-11-07T04:08:43.558479+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30879330",
-        "size_bytes": 1798443765
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30879330",
+          "size_bytes": 1798443765,
+          "source_bytes_read": 1798443765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13009097",
+        "source_url": "https://sdilej.cz/13009097/longmire.s05e06.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30879330",
-        "size_bytes": 1798443765,
-        "source_bytes_read": 1798443765,
-        "http_status": 201
+        "display_name": "Longmire S05E06 Objection 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T04:16:38.471708+00:00"
       }
     },
     "2562:5:7": {
@@ -291226,5 +291227,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T04:16:34.244190+00:00"
+  "updated_at": "2026-11-07T04:16:38.471724+00:00"
 }
