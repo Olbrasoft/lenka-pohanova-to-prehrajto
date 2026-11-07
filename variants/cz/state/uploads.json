@@ -296612,12 +296612,6 @@
     },
     "597:2:8": {
       "episode_key": "rod draka:s2:e8",
-      "claim": {
-        "worker_id": "1fe182db4fd346b7adf961577dc1f4c2-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T15:48:22.528283+00:00",
-        "lease_expires_at": "2026-11-07T21:48:22.528294+00:00"
-      },
       "source": {
         "source_id": "33479165",
         "source_url": "https://sdilej.cz/33479165/house-of-the-dragon-s02e08-cz-dabing-2160p.mkv",
@@ -296642,15 +296636,22 @@
         "display_name": "House of the Dragon S02E08 The Queen Who Ever Was 4K CZ Dabing",
         "prepared_at": "2026-11-07T15:48:27.464774+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30893842",
-        "size_bytes": 3586129723
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30893842",
+          "size_bytes": 3586129723,
+          "source_bytes_read": 3586129723,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479165",
+        "source_url": "https://sdilej.cz/33479165/house-of-the-dragon-s02e08-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30893842",
-        "size_bytes": 3586129723,
-        "source_bytes_read": 3586129723,
-        "http_status": 201
+        "display_name": "House of the Dragon S02E08 The Queen Who Ever Was 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T15:58:05.762332+00:00"
       }
     }
   },
@@ -296659,5 +296660,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T15:58:03.516282+00:00"
+  "updated_at": "2026-11-07T15:58:05.762348+00:00"
 }
