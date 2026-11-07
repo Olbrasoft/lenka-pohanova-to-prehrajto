@@ -293137,12 +293137,6 @@
     },
     "3220:3:1": {
       "episode_key": "dobrý boj:s3:e1",
-      "claim": {
-        "worker_id": "61ce2bcfb764444687786d8bc71ef656-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T09:07:50.565048+00:00",
-        "lease_expires_at": "2026-11-07T15:07:50.565061+00:00"
-      },
       "source": {
         "source_id": "33120363",
         "source_url": "https://sdilej.cz/33120363/dobry-boj-s03e01-10-2019-cz-dab-1080p-ten-o-nedavnych-potizich.mkv",
@@ -293167,15 +293161,22 @@
         "display_name": "The Good Fight S03E01 The One About the Recent Troubles 1080p CZ Dabing",
         "prepared_at": "2026-11-07T09:07:59.039261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30886382",
-        "size_bytes": 3357662935
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30886382",
+          "size_bytes": 3357662935,
+          "source_bytes_read": 3357662935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120363",
+        "source_url": "https://sdilej.cz/33120363/dobry-boj-s03e01-10-2019-cz-dab-1080p-ten-o-nedavnych-potizich.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30886382",
-        "size_bytes": 3357662935,
-        "source_bytes_read": 3357662935,
-        "http_status": 201
+        "display_name": "The Good Fight S03E01 The One About the Recent Troubles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T09:22:03.742884+00:00"
       }
     },
     "3220:3:2": {
@@ -293265,5 +293266,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T09:22:01.348118+00:00"
+  "updated_at": "2026-11-07T09:22:03.742904+00:00"
 }
