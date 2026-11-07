@@ -288344,12 +288344,6 @@
     },
     "2352:4:6": {
       "episode_key": "bořiči mýtů:s4:e6",
-      "claim": {
-        "worker_id": "1d9f359813ef432e90bca2372490d1f4-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:16:51.904337+00:00",
-        "lease_expires_at": "2026-11-07T06:16:51.904355+00:00"
-      },
       "source": {
         "source_id": "11743700",
         "source_url": "https://sdilej.cz/11743700/borici-mytu-s04e06-zlociny-motivovane-fikci-2.avi",
@@ -288374,15 +288368,22 @@
         "display_name": "MythBusters S04E06 Cell Phones on Planes SD CZ Dabing",
         "prepared_at": "2026-11-07T00:16:55.138277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873955",
-        "size_bytes": 482122648
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873955",
+          "size_bytes": 482122648,
+          "source_bytes_read": 482122648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11743700",
+        "source_url": "https://sdilej.cz/11743700/borici-mytu-s04e06-zlociny-motivovane-fikci-2.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873955",
-        "size_bytes": 482122648,
-        "source_bytes_read": 482122648,
-        "http_status": 201
+        "display_name": "MythBusters S04E06 Cell Phones on Planes SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:19:23.837555+00:00"
       }
     },
     "2352:4:7": {
@@ -288479,5 +288480,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:19:18.752914+00:00"
+  "updated_at": "2026-11-07T00:19:23.837573+00:00"
 }
