@@ -288256,12 +288256,6 @@
     },
     "2352:3:8": {
       "episode_key": "bořiči mýtů:s3:e8",
-      "claim": {
-        "worker_id": "ca86c04ed4e84bfb8f5f3906e258905b-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:15:47.633545+00:00",
-        "lease_expires_at": "2026-11-07T06:15:47.633561+00:00"
-      },
       "source": {
         "source_id": "28289094",
         "source_url": "https://sdilej.cz/28289094/borici-mytu-s03e08-cz-dab-hd-tv-rip.avi",
@@ -288286,15 +288280,22 @@
         "display_name": "MythBusters S03E08 Jet Pack SD CZ Dabing",
         "prepared_at": "2026-11-07T00:15:50.613195+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873941",
-        "size_bytes": 617400448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873941",
+          "size_bytes": 617400448,
+          "source_bytes_read": 617400448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28289094",
+        "source_url": "https://sdilej.cz/28289094/borici-mytu-s03e08-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873941",
-        "size_bytes": 617400448,
-        "source_bytes_read": 617400448,
-        "http_status": 201
+        "display_name": "MythBusters S03E08 Jet Pack SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:17:31.804480+00:00"
       }
     },
     "2352:3:12": {
@@ -288383,5 +288384,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:17:27.793295+00:00"
+  "updated_at": "2026-11-07T00:17:31.804499+00:00"
 }
