@@ -302069,12 +302069,6 @@
     },
     "1069:2:15": {
       "episode_key": "mentalista:s2:e15",
-      "claim": {
-        "worker_id": "c3c7c228437842b7a83421b27b2494e6-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:37:43.230967+00:00",
-        "lease_expires_at": "2026-11-08T05:37:43.230974+00:00"
-      },
       "source": {
         "source_id": "32443265",
         "source_url": "https://sdilej.cz/32443265/mentalista-s02e15-paliva-omacka.mkv",
@@ -302099,15 +302093,22 @@
         "display_name": "The Mentalist S02E15 Red Herring 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:37:47.661556+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901479",
-        "size_bytes": 876992585
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901479",
+          "size_bytes": 876992585,
+          "source_bytes_read": 876992585,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443265",
+        "source_url": "https://sdilej.cz/32443265/mentalista-s02e15-paliva-omacka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901479",
-        "size_bytes": 876992585,
-        "source_bytes_read": 876992585,
-        "http_status": 201
+        "display_name": "The Mentalist S02E15 Red Herring 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:39:38.191702+00:00"
       }
     },
     "1069:2:16": {
@@ -302190,5 +302191,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:39:33.116429+00:00"
+  "updated_at": "2026-11-07T23:39:38.191715+00:00"
 }
