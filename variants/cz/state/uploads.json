@@ -301761,12 +301761,6 @@
     },
     "1069:2:8": {
       "episode_key": "mentalista:s2:e8",
-      "claim": {
-        "worker_id": "c995d833d9b442e9aedccbb2968aa762-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:10:48.453788+00:00",
-        "lease_expires_at": "2026-11-08T05:10:48.453798+00:00"
-      },
       "source": {
         "source_id": "22058815",
         "source_url": "https://sdilej.cz/22058815/mentalista-the-mentalist-s02e08-his-red-right-hand-1080p-hevc-cz-dabing.mkv",
@@ -301791,15 +301785,22 @@
         "display_name": "The Mentalist S02E08 His Red Right Hand 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:10:51.095098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30900978",
-        "size_bytes": 761446800
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30900978",
+          "size_bytes": 761446800,
+          "source_bytes_read": 761446800,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058815",
+        "source_url": "https://sdilej.cz/22058815/mentalista-the-mentalist-s02e08-his-red-right-hand-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30900978",
-        "size_bytes": 761446800,
-        "source_bytes_read": 761446800,
-        "http_status": 201
+        "display_name": "The Mentalist S02E08 His Red Right Hand 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:13:07.727973+00:00"
       }
     },
     "1069:2:9": {
@@ -301877,5 +301878,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:13:05.446224+00:00"
+  "updated_at": "2026-11-07T23:13:07.727985+00:00"
 }
