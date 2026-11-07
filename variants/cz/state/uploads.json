@@ -290060,12 +290060,6 @@
     },
     "2562:2:10": {
       "episode_key": "drsný šerif:s2:e10",
-      "claim": {
-        "worker_id": "170d97b6cb3c41f5bddd06e11d2f61e0-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T02:10:46.402727+00:00",
-        "lease_expires_at": "2026-11-07T08:10:46.402737+00:00"
-      },
       "source": {
         "source_id": "30662040",
         "source_url": "https://sdilej.cz/30662040/drsny-serif-longmire-s02e10-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -290090,15 +290084,22 @@
         "display_name": "Longmire S02E10 Election Day 1080p CZ Dabing",
         "prepared_at": "2026-11-07T02:10:57.788514+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30876504",
-        "size_bytes": 1369941296
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30876504",
+          "size_bytes": 1369941296,
+          "source_bytes_read": 1369941296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662040",
+        "source_url": "https://sdilej.cz/30662040/drsny-serif-longmire-s02e10-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30876504",
-        "size_bytes": 1369941296,
-        "source_bytes_read": 1369941296,
-        "http_status": 201
+        "display_name": "Longmire S02E10 Election Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T02:17:39.159872+00:00"
       }
     },
     "2562:2:11": {
@@ -290269,5 +290270,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T02:17:33.183968+00:00"
+  "updated_at": "2026-11-07T02:17:39.159888+00:00"
 }
