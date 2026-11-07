@@ -293269,12 +293269,6 @@
     },
     "3220:3:4": {
       "episode_key": "dobrý boj:s3:e4",
-      "claim": {
-        "worker_id": "beda80768263464799e7c8cbdcbf4ffa-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T09:29:54.854545+00:00",
-        "lease_expires_at": "2026-11-07T15:29:54.854560+00:00"
-      },
       "source": {
         "source_id": "11750535",
         "source_url": "https://sdilej.cz/11750535/dobry.boj.03x04.hdtv.cz.avi",
@@ -293299,15 +293293,22 @@
         "display_name": "The Good Fight S03E04 The One with Lucca Becoming a Meme SD CZ Dabing",
         "prepared_at": "2026-11-07T09:30:02.456035+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30886655",
-        "size_bytes": 559791500
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30886655",
+          "size_bytes": 559791500,
+          "source_bytes_read": 559791500,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11750535",
+        "source_url": "https://sdilej.cz/11750535/dobry.boj.03x04.hdtv.cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30886655",
-        "size_bytes": 559791500,
-        "source_bytes_read": 559791500,
-        "http_status": 201
+        "display_name": "The Good Fight S03E04 The One with Lucca Becoming a Meme SD CZ Dabing",
+        "uploaded_at": "2026-11-07T09:32:05.113277+00:00"
       }
     },
     "3220:3:5": {
@@ -293390,5 +293391,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T09:31:59.794954+00:00"
+  "updated_at": "2026-11-07T09:32:05.113293+00:00"
 }
