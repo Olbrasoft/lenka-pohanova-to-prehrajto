@@ -291109,12 +291109,6 @@
     },
     "2562:5:5": {
       "episode_key": "drsný šerif:s5:e5",
-      "claim": {
-        "worker_id": "fb2aab98c06643629c4cb2c09e3ea278-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T04:07:57.276109+00:00",
-        "lease_expires_at": "2026-11-07T10:07:57.276121+00:00"
-      },
       "source": {
         "source_id": "30662064",
         "source_url": "https://sdilej.cz/30662064/drsny-serif-longmire-s05e05-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -291138,7 +291132,13 @@
         },
         "display_name": "Longmire S05E05 Pure Peckinpah 1080p CZ Dabing",
         "prepared_at": "2026-11-07T04:08:02.299555+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-07T04:08:15.087139+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -291146,5 +291146,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T04:08:12.235236+00:00"
+  "updated_at": "2026-11-07T04:08:15.087157+00:00"
 }
