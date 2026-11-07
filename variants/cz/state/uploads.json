@@ -295161,12 +295161,6 @@
     },
     "183:1:10": {
       "episode_key": "papírový dům:s1:e10",
-      "claim": {
-        "worker_id": "bcf31785b3754188b4b8ca41a7595096-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:26:19.007953+00:00",
-        "lease_expires_at": "2026-11-07T19:26:19.007965+00:00"
-      },
       "source": {
         "source_id": "21048129",
         "source_url": "https://sdilej.cz/21048129/papirovy-dum-la-casa-de-papel-s01e10-cz-dabing-1080p-iv-n-.mkv",
@@ -295191,15 +295185,22 @@
         "display_name": "La casa de papel S01E10 Capítulo 10 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:26:23.287262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891426",
-        "size_bytes": 1321987249
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891426",
+          "size_bytes": 1321987249,
+          "source_bytes_read": 1321987249,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21048129",
+        "source_url": "https://sdilej.cz/21048129/papirovy-dum-la-casa-de-papel-s01e10-cz-dabing-1080p-iv-n-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891426",
-        "size_bytes": 1321987249,
-        "source_bytes_read": 1321987249,
-        "http_status": 201
+        "display_name": "La casa de papel S01E10 Capítulo 10 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:30:58.837636+00:00"
       }
     },
     "183:1:11": {
@@ -295325,5 +295326,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:30:54.443518+00:00"
+  "updated_at": "2026-11-07T13:30:58.837658+00:00"
 }
