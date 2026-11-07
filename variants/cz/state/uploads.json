@@ -292483,12 +292483,6 @@
     },
     "3220:1:8": {
       "episode_key": "dobrý boj:s1:e8",
-      "claim": {
-        "worker_id": "00842a4915ab4afdb85a3f482edbb010-worker-0",
-        "run_id": "42338173454",
-        "claimed_at": "2026-11-07T06:52:12.162464+00:00",
-        "lease_expires_at": "2026-11-07T12:52:12.162474+00:00"
-      },
       "source": {
         "source_id": "33120290",
         "source_url": "https://sdilej.cz/33120290/dobry-boj-s01e08-10-2017-cz-dab-1080p-reddick-v-boseman.mkv",
@@ -292513,15 +292507,22 @@
         "display_name": "The Good Fight S01E08 Reddick v Boseman 1080p CZ Dabing",
         "prepared_at": "2026-11-07T06:52:17.503286+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30883748",
-        "size_bytes": 2901508234
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30883748",
+          "size_bytes": 2901508234,
+          "source_bytes_read": 2901508234,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120290",
+        "source_url": "https://sdilej.cz/33120290/dobry-boj-s01e08-10-2017-cz-dab-1080p-reddick-v-boseman.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30883748",
-        "size_bytes": 2901508234,
-        "source_bytes_read": 2901508234,
-        "http_status": 201
+        "display_name": "The Good Fight S01E08 Reddick v Boseman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T07:22:28.054617+00:00"
       }
     },
     "3220:1:9": {
@@ -292574,5 +292575,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T07:22:23.438880+00:00"
+  "updated_at": "2026-11-07T07:22:28.054629+00:00"
 }
