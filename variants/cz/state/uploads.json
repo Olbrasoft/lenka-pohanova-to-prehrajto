@@ -292815,12 +292815,6 @@
     },
     "3220:2:7": {
       "episode_key": "dobrý boj:s2:e7",
-      "claim": {
-        "worker_id": "1304c04c338846e1b1314d34f3b655e9-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T08:01:35.076318+00:00",
-        "lease_expires_at": "2026-11-07T14:01:35.076330+00:00"
-      },
       "source": {
         "source_id": "33120342",
         "source_url": "https://sdilej.cz/33120342/dobry-boj-s02e07-13-2018-cz-dab-1080p-den-450.mkv",
@@ -292845,15 +292839,22 @@
         "display_name": "The Good Fight S02E07 Day 450 1080p CZ Dabing",
         "prepared_at": "2026-11-07T08:01:42.196425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30885399",
-        "size_bytes": 3090180927
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30885399",
+          "size_bytes": 3090180927,
+          "source_bytes_read": 3090180927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120342",
+        "source_url": "https://sdilej.cz/33120342/dobry-boj-s02e07-13-2018-cz-dab-1080p-den-450.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30885399",
-        "size_bytes": 3090180927,
-        "source_bytes_read": 3090180927,
-        "http_status": 201
+        "display_name": "The Good Fight S02E07 Day 450 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T08:10:44.924511+00:00"
       }
     }
   },
@@ -292862,5 +292863,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T08:10:39.635793+00:00"
+  "updated_at": "2026-11-07T08:10:44.924528+00:00"
 }
