@@ -289965,12 +289965,6 @@
     },
     "2562:2:8": {
       "episode_key": "drsný šerif:s2:e8",
-      "claim": {
-        "worker_id": "8997cffce5374bddbc567a1eb821359c-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:57:05.057253+00:00",
-        "lease_expires_at": "2026-11-07T07:57:05.057262+00:00"
-      },
       "source": {
         "source_id": "30662036",
         "source_url": "https://sdilej.cz/30662036/drsny-serif-longmire-s02e08-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -289995,15 +289989,22 @@
         "display_name": "Longmire S02E08 The Great Spirit 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:57:10.443039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30876207",
-        "size_bytes": 1360724290
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30876207",
+          "size_bytes": 1360724290,
+          "source_bytes_read": 1360724290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662036",
+        "source_url": "https://sdilej.cz/30662036/drsny-serif-longmire-s02e08-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30876207",
-        "size_bytes": 1360724290,
-        "source_bytes_read": 1360724290,
-        "http_status": 201
+        "display_name": "Longmire S02E08 The Great Spirit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T02:06:20.225947+00:00"
       }
     }
   },
@@ -290012,5 +290013,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T02:06:15.482977+00:00"
+  "updated_at": "2026-11-07T02:06:20.225962+00:00"
 }
