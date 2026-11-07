@@ -291021,12 +291021,6 @@
     },
     "2562:5:3": {
       "episode_key": "drsný šerif:s5:e3",
-      "claim": {
-        "worker_id": "bf1f9daedaf24b88b889af01922defea-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T03:45:33.594499+00:00",
-        "lease_expires_at": "2026-11-07T09:45:33.594511+00:00"
-      },
       "source": {
         "source_id": "13003417",
         "source_url": "https://sdilej.cz/13003417/longmire.s05e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -291051,15 +291045,22 @@
         "display_name": "Longmire S05E03 Chrysalis 1080p CZ Dabing",
         "prepared_at": "2026-11-07T03:45:39.132473+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30878700",
-        "size_bytes": 2038477749
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30878700",
+          "size_bytes": 2038477749,
+          "source_bytes_read": 2038477749,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13003417",
+        "source_url": "https://sdilej.cz/13003417/longmire.s05e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30878700",
-        "size_bytes": 2038477749,
-        "source_bytes_read": 2038477749,
-        "http_status": 201
+        "display_name": "Longmire S05E03 Chrysalis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T03:54:10.922354+00:00"
       }
     }
   },
@@ -291068,5 +291069,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T03:54:05.966344+00:00"
+  "updated_at": "2026-11-07T03:54:10.922371+00:00"
 }
