@@ -287925,12 +287925,6 @@
     },
     "2352:1:10": {
       "episode_key": "bořiči mýtů:s1:e10",
-      "claim": {
-        "worker_id": "8ff366a0a22448149571b4ab187003ba-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:04:15.841972+00:00",
-        "lease_expires_at": "2026-11-07T06:04:15.841989+00:00"
-      },
       "source": {
         "source_id": "28289046",
         "source_url": "https://sdilej.cz/28289046/borici-mytu-s01e10-cz-dab-hd-tv-rip.avi",
@@ -287955,15 +287949,22 @@
         "display_name": "MythBusters S01E10 Stinky Car SD CZ Dabing",
         "prepared_at": "2026-11-07T00:04:21.588573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873740",
-        "size_bytes": 367151104
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873740",
+          "size_bytes": 367151104,
+          "source_bytes_read": 367151104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28289046",
+        "source_url": "https://sdilej.cz/28289046/borici-mytu-s01e10-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873740",
-        "size_bytes": 367151104,
-        "source_bytes_read": 367151104,
-        "http_status": 201
+        "display_name": "MythBusters S01E10 Stinky Car SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:05:48.370429+00:00"
       }
     },
     "2352:2:1": {
@@ -288009,5 +288010,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:05:43.453119+00:00"
+  "updated_at": "2026-11-07T00:05:48.370449+00:00"
 }
