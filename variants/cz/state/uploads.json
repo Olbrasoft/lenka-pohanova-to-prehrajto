@@ -289620,12 +289620,6 @@
     },
     "2562:1:10": {
       "episode_key": "drsný šerif:s1:e10",
-      "claim": {
-        "worker_id": "c7b511ad6ee14681a6793752cf551e26-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:25:51.543172+00:00",
-        "lease_expires_at": "2026-11-07T07:25:51.543180+00:00"
-      },
       "source": {
         "source_id": "12852117",
         "source_url": "https://sdilej.cz/12852117/longmire.s01e10.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -289650,15 +289644,22 @@
         "display_name": "Longmire S01E10 Unfinished Business 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:25:55.192044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875655",
-        "size_bytes": 1354172381
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875655",
+          "size_bytes": 1354172381,
+          "source_bytes_read": 1354172381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12852117",
+        "source_url": "https://sdilej.cz/12852117/longmire.s01e10.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875655",
-        "size_bytes": 1354172381,
-        "source_bytes_read": 1354172381,
-        "http_status": 201
+        "display_name": "Longmire S01E10 Unfinished Business 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:30:11.093523+00:00"
       }
     },
     "2562:2:1": {
@@ -289748,5 +289749,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:30:04.855109+00:00"
+  "updated_at": "2026-11-07T01:30:11.093540+00:00"
 }
