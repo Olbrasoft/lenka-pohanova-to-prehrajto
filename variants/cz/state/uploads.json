@@ -300529,12 +300529,6 @@
     },
     "1069:1:2": {
       "episode_key": "mentalista:s1:e2",
-      "claim": {
-        "worker_id": "786be899c6b84eaabfcacc0fdeecc7dd-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T22:09:54.512970+00:00",
-        "lease_expires_at": "2026-11-08T04:09:54.512981+00:00"
-      },
       "source": {
         "source_id": "28172510",
         "source_url": "https://sdilej.cz/28172510/mentalista-s01e02-rude-vlasy-a-stribrna-paska.mkv",
@@ -300559,15 +300553,22 @@
         "display_name": "The Mentalist S01E02 Red Hair and Silver Tape 1080p CZ Dabing",
         "prepared_at": "2026-11-07T22:09:57.389114+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30899749",
-        "size_bytes": 769050994
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30899749",
+          "size_bytes": 769050994,
+          "source_bytes_read": 769050994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28172510",
+        "source_url": "https://sdilej.cz/28172510/mentalista-s01e02-rude-vlasy-a-stribrna-paska.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30899749",
-        "size_bytes": 769050994,
-        "source_bytes_read": 769050994,
-        "http_status": 201
+        "display_name": "The Mentalist S01E02 Red Hair and Silver Tape 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T22:12:31.761500+00:00"
       }
     },
     "1069:1:3": {
@@ -300694,5 +300695,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T22:12:27.135027+00:00"
+  "updated_at": "2026-11-07T22:12:31.761513+00:00"
 }
