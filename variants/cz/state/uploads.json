@@ -302024,12 +302024,6 @@
     },
     "1069:2:13": {
       "episode_key": "mentalista:s2:e13",
-      "claim": {
-        "worker_id": "b9eec9a7ef12454f9954da9a72cf2786-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-07T23:24:58.159247+00:00",
-        "lease_expires_at": "2026-11-08T05:24:58.159255+00:00"
-      },
       "source": {
         "source_id": "22058892",
         "source_url": "https://sdilej.cz/22058892/mentalista-the-mentalist-s02e13-redline-1080p-hevc-cz-dabing.mkv",
@@ -302054,15 +302048,22 @@
         "display_name": "The Mentalist S02E13 Redline 1080p CZ Dabing",
         "prepared_at": "2026-11-07T23:25:02.696320+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30901203",
-        "size_bytes": 741117614
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30901203",
+          "size_bytes": 741117614,
+          "source_bytes_read": 741117614,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22058892",
+        "source_url": "https://sdilej.cz/22058892/mentalista-the-mentalist-s02e13-redline-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30901203",
-        "size_bytes": 741117614,
-        "source_bytes_read": 741117614,
-        "http_status": 201
+        "display_name": "The Mentalist S02E13 Redline 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T23:27:53.388664+00:00"
       }
     }
   },
@@ -302071,5 +302072,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T23:27:48.714170+00:00"
+  "updated_at": "2026-11-07T23:27:53.388674+00:00"
 }
