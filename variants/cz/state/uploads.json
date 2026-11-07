@@ -294413,12 +294413,6 @@
     },
     "3220:6:3": {
       "episode_key": "dobrý boj:s6:e3",
-      "claim": {
-        "worker_id": "fd0687004ebf4216a777ce7784daada9-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T12:11:15.595755+00:00",
-        "lease_expires_at": "2026-11-07T18:11:15.595765+00:00"
-      },
       "source": {
         "source_id": "33120498",
         "source_url": "https://sdilej.cz/33120498/dobry-boj-s06e03-10-2022-cz-dab-1080p-konec-fotbalu.mkv",
@@ -294443,15 +294437,22 @@
         "display_name": "The Good Fight S06E03 The End of Football 1080p CZ Dabing",
         "prepared_at": "2026-11-07T12:11:23.562356+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30890034",
-        "size_bytes": 3041101588
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30890034",
+          "size_bytes": 3041101588,
+          "source_bytes_read": 3041101588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120498",
+        "source_url": "https://sdilej.cz/33120498/dobry-boj-s06e03-10-2022-cz-dab-1080p-konec-fotbalu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30890034",
-        "size_bytes": 3041101588,
-        "source_bytes_read": 3041101588,
-        "http_status": 201
+        "display_name": "The Good Fight S06E03 The End of Football 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T12:21:48.585170+00:00"
       }
     },
     "3220:6:4": {
@@ -294504,5 +294505,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T12:21:46.158431+00:00"
+  "updated_at": "2026-11-07T12:21:48.585186+00:00"
 }
