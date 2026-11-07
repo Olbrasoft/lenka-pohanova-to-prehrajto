@@ -298549,12 +298549,6 @@
     },
     "113:2:1": {
       "episode_key": "loki:s2:e1",
-      "claim": {
-        "worker_id": "88fbe910e67a48dab77d9d0d83c02fc0-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:31:05.649274+00:00",
-        "lease_expires_at": "2026-11-08T00:31:05.649285+00:00"
-      },
       "source": {
         "source_id": "26956922",
         "source_url": "https://sdilej.cz/26956922/loki-s02e01-ouroboros-2160p-dd-5.1-atmos-hdr-cz-sk-dabing.mkv",
@@ -298579,15 +298573,22 @@
         "display_name": "Loki S02E01 Ouroboros 4K CZ Dabing",
         "prepared_at": "2026-11-07T18:31:14.197827+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30896167",
-        "size_bytes": 4798016867
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30896167",
+          "size_bytes": 4798016867,
+          "source_bytes_read": 4798016867,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26956922",
+        "source_url": "https://sdilej.cz/26956922/loki-s02e01-ouroboros-2160p-dd-5.1-atmos-hdr-cz-sk-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30896167",
-        "size_bytes": 4798016867,
-        "source_bytes_read": 4798016867,
-        "http_status": 201
+        "display_name": "Loki S02E01 Ouroboros 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T18:47:55.683752+00:00"
       }
     },
     "113:2:2": {
@@ -298640,5 +298641,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:47:51.887061+00:00"
+  "updated_at": "2026-11-07T18:47:55.683764+00:00"
 }
