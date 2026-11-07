@@ -300214,12 +300214,6 @@
     },
     "6424:1:1": {
       "episode_key": "z deníku sherlocka holmese:s1:e1",
-      "claim": {
-        "worker_id": "ee510ded4a62444d98edd6dbca01bb6e-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T21:48:32.093513+00:00",
-        "lease_expires_at": "2026-11-08T03:48:32.093523+00:00"
-      },
       "source": {
         "source_id": "22430750",
         "source_url": "https://sdilej.cz/22430750/z-deniku-sherlocka-holmese-1x01-nezvestna-slechticna.mkv",
@@ -300244,15 +300238,22 @@
         "display_name": "The Case-Book of Sherlock Holmes S01E01 The Disappearance of Lady Frances Carfax SD CZ Dabing",
         "prepared_at": "2026-11-07T21:48:42.797253+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30899386",
-        "size_bytes": 1565863855
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30899386",
+          "size_bytes": 1565863855,
+          "source_bytes_read": 1565863855,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22430750",
+        "source_url": "https://sdilej.cz/22430750/z-deniku-sherlocka-holmese-1x01-nezvestna-slechticna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30899386",
-        "size_bytes": 1565863855,
-        "source_bytes_read": 1565863855,
-        "http_status": 201
+        "display_name": "The Case-Book of Sherlock Holmes S01E01 The Disappearance of Lady Frances Carfax SD CZ Dabing",
+        "uploaded_at": "2026-11-07T21:52:17.971334+00:00"
       }
     },
     "6424:1:2": {
@@ -300305,5 +300306,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T21:52:13.832455+00:00"
+  "updated_at": "2026-11-07T21:52:17.971350+00:00"
 }
