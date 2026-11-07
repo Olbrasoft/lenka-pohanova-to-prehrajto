@@ -293577,12 +293577,6 @@
     },
     "3220:4:1": {
       "episode_key": "dobrý boj:s4:e1",
-      "claim": {
-        "worker_id": "2b700550ab034078a45b48c9fc7eed39-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T10:11:19.020081+00:00",
-        "lease_expires_at": "2026-11-07T16:11:19.020096+00:00"
-      },
       "source": {
         "source_id": "33120388",
         "source_url": "https://sdilej.cz/33120388/dobry-boj-s04e01-07-2020-cz-dab-1080p-gang-se-zabyva-alternativni-realitou.mkv",
@@ -293607,15 +293601,22 @@
         "display_name": "The Good Fight S04E01 The Gang Deals with Alternate Reality 1080p CZ Dabing",
         "prepared_at": "2026-11-07T10:11:29.820063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30887646",
-        "size_bytes": 2424695626
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30887646",
+          "size_bytes": 2424695626,
+          "source_bytes_read": 2424695626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120388",
+        "source_url": "https://sdilej.cz/33120388/dobry-boj-s04e01-07-2020-cz-dab-1080p-gang-se-zabyva-alternativni-realitou.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30887646",
-        "size_bytes": 2424695626,
-        "source_bytes_read": 2424695626,
-        "http_status": 201
+        "display_name": "The Good Fight S04E01 The Gang Deals with Alternate Reality 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T10:17:45.777150+00:00"
       }
     },
     "3220:4:2": {
@@ -293661,5 +293662,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T10:17:39.137839+00:00"
+  "updated_at": "2026-11-07T10:17:45.777167+00:00"
 }
