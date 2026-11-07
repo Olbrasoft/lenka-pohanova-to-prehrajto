@@ -297235,12 +297235,6 @@
     },
     "2384:3:1": {
       "episode_key": "vraždy na shetlandech:s3:e1",
-      "claim": {
-        "worker_id": "c9ae8f080b5d4c47a6a16c7aa8aa3529-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T17:11:15.712452+00:00",
-        "lease_expires_at": "2026-11-07T23:11:15.712461+00:00"
-      },
       "source": {
         "source_id": "19089142",
         "source_url": "https://sdilej.cz/19089142/vrazdy.na.shetlandech.03x01.1080i.hevc.hdtv.cz.mkv",
@@ -297265,15 +297259,22 @@
         "display_name": "Shetland S03E01 1080p CZ Dabing",
         "prepared_at": "2026-11-07T17:11:18.538853+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895021",
-        "size_bytes": 710165532
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895021",
+          "size_bytes": 710165532,
+          "source_bytes_read": 710165532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19089142",
+        "source_url": "https://sdilej.cz/19089142/vrazdy.na.shetlandech.03x01.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895021",
-        "size_bytes": 710165532,
-        "source_bytes_read": 710165532,
-        "http_status": 201
+        "display_name": "Shetland S03E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T17:14:06.385616+00:00"
       }
     }
   },
@@ -297282,5 +297283,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T17:14:04.211814+00:00"
+  "updated_at": "2026-11-07T17:14:06.385633+00:00"
 }
