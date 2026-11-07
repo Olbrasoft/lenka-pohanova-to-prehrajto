@@ -300359,12 +300359,6 @@
     },
     "6424:1:4": {
       "episode_key": "z deníku sherlocka holmese:s1:e4",
-      "claim": {
-        "worker_id": "092c268b55d64992a944c5fe97c49a89-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T21:53:00.430225+00:00",
-        "lease_expires_at": "2026-11-08T03:53:00.430235+00:00"
-      },
       "source": {
         "source_id": "25061141",
         "source_url": "https://sdilej.cz/25061141/z-deniku-sherlocka-holmese-1x04-zahada-boscombskeho-udoli.mkv",
@@ -300389,15 +300383,22 @@
         "display_name": "The Case-Book of Sherlock Holmes S01E04 The Boscombe Valley Mystery SD CZ Dabing",
         "prepared_at": "2026-11-07T21:53:03.502561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30899476",
-        "size_bytes": 1617302645
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30899476",
+          "size_bytes": 1617302645,
+          "source_bytes_read": 1617302645,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25061141",
+        "source_url": "https://sdilej.cz/25061141/z-deniku-sherlocka-holmese-1x04-zahada-boscombskeho-udoli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30899476",
-        "size_bytes": 1617302645,
-        "source_bytes_read": 1617302645,
-        "http_status": 201
+        "display_name": "The Case-Book of Sherlock Holmes S01E04 The Boscombe Valley Mystery SD CZ Dabing",
+        "uploaded_at": "2026-11-07T21:57:13.046575+00:00"
       }
     }
   },
@@ -300406,5 +300407,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T21:57:10.640357+00:00"
+  "updated_at": "2026-11-07T21:57:13.046592+00:00"
 }
