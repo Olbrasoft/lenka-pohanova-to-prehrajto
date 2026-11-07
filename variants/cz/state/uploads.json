@@ -294677,12 +294677,6 @@
     },
     "3220:6:9": {
       "episode_key": "dobrý boj:s6:e9",
-      "claim": {
-        "worker_id": "1d29148f81f44c64880f3f5b8a7fff64-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T12:36:07.731598+00:00",
-        "lease_expires_at": "2026-11-07T18:36:07.731610+00:00"
-      },
       "source": {
         "source_id": "33120540",
         "source_url": "https://sdilej.cz/33120540/dobry-boj-s06e09-10-2022-cz-dab-1080p-konec-demokracie.mkv",
@@ -294707,15 +294701,22 @@
         "display_name": "The Good Fight S06E09 The End of Democracy 1080p CZ Dabing",
         "prepared_at": "2026-11-07T12:36:15.770044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30890457",
-        "size_bytes": 3135074386
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30890457",
+          "size_bytes": 3135074386,
+          "source_bytes_read": 3135074386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120540",
+        "source_url": "https://sdilej.cz/33120540/dobry-boj-s06e09-10-2022-cz-dab-1080p-konec-demokracie.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30890457",
-        "size_bytes": 3135074386,
-        "source_bytes_read": 3135074386,
-        "http_status": 201
+        "display_name": "The Good Fight S06E09 The End of Democracy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T12:45:42.075906+00:00"
       }
     },
     "3220:6:10": {
@@ -294849,5 +294850,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T12:45:38.827815+00:00"
+  "updated_at": "2026-11-07T12:45:42.075922+00:00"
 }
