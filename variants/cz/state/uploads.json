@@ -298775,12 +298775,6 @@
     },
     "113:2:6": {
       "episode_key": "loki:s2:e6",
-      "claim": {
-        "worker_id": "6415911dbe814e13a850aafe9c35cc3b-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T19:28:59.216050+00:00",
-        "lease_expires_at": "2026-11-08T01:28:59.216060+00:00"
-      },
       "source": {
         "source_id": "27267058",
         "source_url": "https://sdilej.cz/27267058/loki-s02e06-cz-4k.mkv",
@@ -298805,15 +298799,22 @@
         "display_name": "Loki S02E06 Glorious Purpose 4K CZ Dabing",
         "prepared_at": "2026-11-07T19:29:04.958449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30897171",
-        "size_bytes": 5967669903
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30897171",
+          "size_bytes": 5967669903,
+          "source_bytes_read": 5967669903,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27267058",
+        "source_url": "https://sdilej.cz/27267058/loki-s02e06-cz-4k.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30897171",
-        "size_bytes": 5967669903,
-        "source_bytes_read": 5967669903,
-        "http_status": 201
+        "display_name": "Loki S02E06 Glorious Purpose 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T19:51:25.600132+00:00"
       }
     },
     "102:1:1": {
@@ -298998,5 +298999,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T19:51:21.778499+00:00"
+  "updated_at": "2026-11-07T19:51:25.600145+00:00"
 }
