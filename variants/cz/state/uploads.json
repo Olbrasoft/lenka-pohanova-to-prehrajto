@@ -288608,12 +288608,6 @@
     },
     "2352:4:15": {
       "episode_key": "bořiči mýtů:s4:e15",
-      "claim": {
-        "worker_id": "86ca4d2edda9471b880c3ef344742c34-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:24:43.813917+00:00",
-        "lease_expires_at": "2026-11-07T06:24:43.813940+00:00"
-      },
       "source": {
         "source_id": "11743745",
         "source_url": "https://sdilej.cz/11743745/borici-mytu-s04e15-protigravitacni-zarizeni.avi",
@@ -288638,15 +288632,22 @@
         "display_name": "MythBusters S04E15 Shattering Subwoofer SD CZ Dabing",
         "prepared_at": "2026-11-07T00:24:51.155814+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30874167",
-        "size_bytes": 462097682
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30874167",
+          "size_bytes": 462097682,
+          "source_bytes_read": 462097682,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11743745",
+        "source_url": "https://sdilej.cz/11743745/borici-mytu-s04e15-protigravitacni-zarizeni.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30874167",
-        "size_bytes": 462097682,
-        "source_bytes_read": 462097682,
-        "http_status": 201
+        "display_name": "MythBusters S04E15 Shattering Subwoofer SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:25:58.666716+00:00"
       }
     },
     "2352:5:10": {
@@ -288692,5 +288693,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:25:56.056272+00:00"
+  "updated_at": "2026-11-07T00:25:58.666736+00:00"
 }
