@@ -298498,12 +298498,6 @@
     },
     "113:1:6": {
       "episode_key": "loki:s1:e6",
-      "claim": {
-        "worker_id": "b3252104b2ce43dbb2cb6047fea16d63-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:24:05.550316+00:00",
-        "lease_expires_at": "2026-11-08T00:24:05.550326+00:00"
-      },
       "source": {
         "source_id": "34276865",
         "source_url": "https://sdilej.cz/34276865/loki-s01e06-cz-dabing-2160p-uhd.mkv",
@@ -298528,15 +298522,22 @@
         "display_name": "Loki S01E06 For All Time. Always. 4K CZ Dabing",
         "prepared_at": "2026-11-07T18:24:10.425248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30896084",
-        "size_bytes": 2076440905
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30896084",
+          "size_bytes": 2076440905,
+          "source_bytes_read": 2076440905,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34276865",
+        "source_url": "https://sdilej.cz/34276865/loki-s01e06-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30896084",
-        "size_bytes": 2076440905,
-        "source_bytes_read": 2076440905,
-        "http_status": 201
+        "display_name": "Loki S01E06 For All Time. Always. 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T18:30:24.032175+00:00"
       }
     }
   },
@@ -298545,5 +298546,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:30:21.819409+00:00"
+  "updated_at": "2026-11-07T18:30:24.032195+00:00"
 }
