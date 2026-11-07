@@ -296084,12 +296084,6 @@
     },
     "597:1:4": {
       "episode_key": "rod draka:s1:e4",
-      "claim": {
-        "worker_id": "ad22b86330074aa49823cd38f417c818-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T14:31:22.062859+00:00",
-        "lease_expires_at": "2026-11-07T20:31:22.062869+00:00"
-      },
       "source": {
         "source_id": "33478934",
         "source_url": "https://sdilej.cz/33478934/house-of-the-dragon-s01e04-cz-dabing-2160p.mkv",
@@ -296114,15 +296108,22 @@
         "display_name": "House of the Dragon S01E04 King of the Narrow Sea 4K CZ Dabing",
         "prepared_at": "2026-11-07T14:31:29.459522+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30892638",
-        "size_bytes": 3303944928
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30892638",
+          "size_bytes": 3303944928,
+          "source_bytes_read": 3303944928,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33478934",
+        "source_url": "https://sdilej.cz/33478934/house-of-the-dragon-s01e04-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30892638",
-        "size_bytes": 3303944928,
-        "source_bytes_read": 3303944928,
-        "http_status": 201
+        "display_name": "House of the Dragon S01E04 King of the Narrow Sea 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T14:41:12.135098+00:00"
       }
     },
     "597:1:5": {
@@ -296175,5 +296176,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T14:41:09.478973+00:00"
+  "updated_at": "2026-11-07T14:41:12.135114+00:00"
 }
