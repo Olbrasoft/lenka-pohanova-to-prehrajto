@@ -300045,12 +300045,6 @@
     },
     "102:4:5": {
       "episode_key": "sexuální výchova:s4:e5",
-      "claim": {
-        "worker_id": "31d6e864e0634ce9b74dc2dfafbbf248-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T21:33:54.730849+00:00",
-        "lease_expires_at": "2026-11-08T03:33:54.730860+00:00"
-      },
       "source": {
         "source_id": "32183531",
         "source_url": "https://sdilej.cz/32183531/sexualni-vychova-s04e05-08-2023-cz-dab-1080p-epizoda-5.mkv",
@@ -300075,15 +300069,22 @@
         "display_name": "Sex Education S04E05 1080p CZ Dabing",
         "prepared_at": "2026-11-07T21:33:57.673831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30899117",
-        "size_bytes": 2363404555
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30899117",
+          "size_bytes": 2363404555,
+          "source_bytes_read": 2363404555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32183531",
+        "source_url": "https://sdilej.cz/32183531/sexualni-vychova-s04e05-08-2023-cz-dab-1080p-epizoda-5.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30899117",
-        "size_bytes": 2363404555,
-        "source_bytes_read": 2363404555,
-        "http_status": 201
+        "display_name": "Sex Education S04E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T21:40:50.608254+00:00"
       }
     },
     "102:4:6": {
@@ -300166,5 +300167,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T21:40:44.343279+00:00"
+  "updated_at": "2026-11-07T21:40:50.608269+00:00"
 }
