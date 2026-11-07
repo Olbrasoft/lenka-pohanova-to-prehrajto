@@ -287793,12 +287793,6 @@
     },
     "2352:1:2": {
       "episode_key": "bořiči mýtů:s1:e2",
-      "claim": {
-        "worker_id": "06c568375beb40e78cc3a5a2bae8dd54-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:02:55.601276+00:00",
-        "lease_expires_at": "2026-11-07T06:02:55.601293+00:00"
-      },
       "source": {
         "source_id": "6375324",
         "source_url": "https://sdilej.cz/6375324/borici-mytu-s01e02-cz-dabing.avi",
@@ -287823,15 +287817,22 @@
         "display_name": "MythBusters S01E02 Biscuit Bazooka SD CZ Dabing",
         "prepared_at": "2026-11-07T00:02:58.809950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873706",
-        "size_bytes": 429804026
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873706",
+          "size_bytes": 429804026,
+          "source_bytes_read": 429804026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6375324",
+        "source_url": "https://sdilej.cz/6375324/borici-mytu-s01e02-cz-dabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873706",
-        "size_bytes": 429804026,
-        "source_bytes_read": 429804026,
-        "http_status": 201
+        "display_name": "MythBusters S01E02 Biscuit Bazooka SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:03:56.521531+00:00"
       }
     },
     "2352:1:3": {
@@ -287877,5 +287878,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:03:52.445640+00:00"
+  "updated_at": "2026-11-07T00:03:56.521548+00:00"
 }
