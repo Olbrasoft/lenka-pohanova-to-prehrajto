@@ -287661,12 +287661,6 @@
     },
     "1921:2:9": {
       "episode_key": "borci z blue mountain state:s2:e9",
-      "claim": {
-        "worker_id": "0c2cfc9214d64c5b85e702ee8b9df95a-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:00:29.458587+00:00",
-        "lease_expires_at": "2026-11-07T06:00:29.458604+00:00"
-      },
       "source": {
         "source_id": "12347582",
         "source_url": "https://sdilej.cz/12347582/borci-z-blue-mountain-state-2x09.-jezevec-dvdrip-cz-ss23-.avi",
@@ -287691,15 +287685,22 @@
         "display_name": "Blue Mountain State S02E09 The Badger SD CZ Dabing",
         "prepared_at": "2026-11-07T00:00:36.909372+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873654",
-        "size_bytes": 209276048
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873654",
+          "size_bytes": 209276048,
+          "source_bytes_read": 209276048,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12347582",
+        "source_url": "https://sdilej.cz/12347582/borci-z-blue-mountain-state-2x09.-jezevec-dvdrip-cz-ss23-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873654",
-        "size_bytes": 209276048,
-        "source_bytes_read": 209276048,
-        "http_status": 201
+        "display_name": "Blue Mountain State S02E09 The Badger SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:01:19.317936+00:00"
       }
     },
     "1921:2:7": {
@@ -287745,5 +287746,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:01:14.704128+00:00"
+  "updated_at": "2026-11-07T00:01:19.317953+00:00"
 }
