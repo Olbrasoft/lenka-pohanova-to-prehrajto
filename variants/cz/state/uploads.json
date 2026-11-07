@@ -292784,12 +292784,6 @@
     },
     "3220:2:6": {
       "episode_key": "dobrý boj:s2:e6",
-      "claim": {
-        "worker_id": "4147d01e4d0a45c5aa951411ef959a78-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T08:01:19.933543+00:00",
-        "lease_expires_at": "2026-11-07T14:01:19.933557+00:00"
-      },
       "source": {
         "source_id": "33120336",
         "source_url": "https://sdilej.cz/33120336/dobry-boj-s02e06-13-2018-cz-dab-1080p-den-443.mkv",
@@ -292814,15 +292808,22 @@
         "display_name": "The Good Fight S02E06 Day 443 1080p CZ Dabing",
         "prepared_at": "2026-11-07T08:01:27.285544+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30885397",
-        "size_bytes": 2970284778
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30885397",
+          "size_bytes": 2970284778,
+          "source_bytes_read": 2970284778,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120336",
+        "source_url": "https://sdilej.cz/33120336/dobry-boj-s02e06-13-2018-cz-dab-1080p-den-443.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30885397",
-        "size_bytes": 2970284778,
-        "source_bytes_read": 2970284778,
-        "http_status": 201
+        "display_name": "The Good Fight S02E06 Day 443 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T08:11:12.280586+00:00"
       }
     },
     "3220:2:7": {
@@ -292875,5 +292876,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T08:11:08.157546+00:00"
+  "updated_at": "2026-11-07T08:11:12.280605+00:00"
 }
