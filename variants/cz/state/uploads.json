@@ -291685,12 +291685,6 @@
     },
     "2562:6:9": {
       "episode_key": "drsný šerif:s6:e9",
-      "claim": {
-        "worker_id": "631413e986054a99969e964dca62a1ac-worker-0",
-        "run_id": "42338173454",
-        "claimed_at": "2026-11-07T05:41:45.075638+00:00",
-        "lease_expires_at": "2026-11-07T11:41:45.075648+00:00"
-      },
       "source": {
         "source_id": "30661250",
         "source_url": "https://sdilej.cz/30661250/drsny-serif-longmire-s06e09-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -291715,15 +291709,22 @@
         "display_name": "Longmire S06E09 Running Eagle Challenge 1080p CZ Dabing",
         "prepared_at": "2026-11-07T05:41:51.465236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30882184",
-        "size_bytes": 1844101030
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30882184",
+          "size_bytes": 1844101030,
+          "source_bytes_read": 1844101030,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661250",
+        "source_url": "https://sdilej.cz/30661250/drsny-serif-longmire-s06e09-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30882184",
-        "size_bytes": 1844101030,
-        "source_bytes_read": 1844101030,
-        "http_status": 201
+        "display_name": "Longmire S06E09 Running Eagle Challenge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T05:49:10.069585+00:00"
       }
     },
     "2562:6:10": {
@@ -291813,5 +291814,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T05:49:04.877947+00:00"
+  "updated_at": "2026-11-07T05:49:10.069605+00:00"
 }
