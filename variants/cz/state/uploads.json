@@ -292433,12 +292433,6 @@
     },
     "3220:1:7": {
       "episode_key": "dobrý boj:s1:e7",
-      "claim": {
-        "worker_id": "033ef610357d446a9d071eddce080a3a-worker-0",
-        "run_id": "42338173454",
-        "claimed_at": "2026-11-07T06:52:03.911619+00:00",
-        "lease_expires_at": "2026-11-07T12:52:03.911630+00:00"
-      },
       "source": {
         "source_id": "33120280",
         "source_url": "https://sdilej.cz/33120280/dobry-boj-s01e07-10-2017-cz-dab-1080p-ne-az-tak-velka-porota.mkv",
@@ -292463,15 +292457,22 @@
         "display_name": "The Good Fight S01E07 Not So Grand Jury 1080p CZ Dabing",
         "prepared_at": "2026-11-07T06:52:08.291957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30883742",
-        "size_bytes": 2751215522
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30883742",
+          "size_bytes": 2751215522,
+          "source_bytes_read": 2751215522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120280",
+        "source_url": "https://sdilej.cz/33120280/dobry-boj-s01e07-10-2017-cz-dab-1080p-ne-az-tak-velka-porota.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30883742",
-        "size_bytes": 2751215522,
-        "source_bytes_read": 2751215522,
-        "http_status": 201
+        "display_name": "The Good Fight S01E07 Not So Grand Jury 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T07:19:44.376005+00:00"
       }
     },
     "3220:1:8": {
@@ -292561,5 +292562,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T07:19:38.338703+00:00"
+  "updated_at": "2026-11-07T07:19:44.376016+00:00"
 }
