@@ -295688,12 +295688,6 @@
     },
     "183:3:1": {
       "episode_key": "papírový dům:s3:e1",
-      "claim": {
-        "worker_id": "241f9f226c40408d9950477a5a0f7bfb-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T13:46:12.461137+00:00",
-        "lease_expires_at": "2026-11-07T19:46:12.461147+00:00"
-      },
       "source": {
         "source_id": "18152280",
         "source_url": "https://sdilej.cz/18152280/papirovy-dum-la-casa-de-papel-s03e01-1080p.web.ddp5.1.x264-cz-audio-.mkv",
@@ -295718,15 +295712,22 @@
         "display_name": "La casa de papel S03E01 El final del camino 1080p CZ Dabing",
         "prepared_at": "2026-11-07T13:46:20.262000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30891758",
-        "size_bytes": 960436957
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30891758",
+          "size_bytes": 960436957,
+          "source_bytes_read": 960436957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18152280",
+        "source_url": "https://sdilej.cz/18152280/papirovy-dum-la-casa-de-papel-s03e01-1080p.web.ddp5.1.x264-cz-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30891758",
-        "size_bytes": 960436957,
-        "source_bytes_read": 960436957,
-        "http_status": 201
+        "display_name": "La casa de papel S03E01 El final del camino 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T13:49:10.382262+00:00"
       }
     },
     "183:3:2": {
@@ -295772,5 +295773,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T13:49:06.099198+00:00"
+  "updated_at": "2026-11-07T13:49:10.382279+00:00"
 }
