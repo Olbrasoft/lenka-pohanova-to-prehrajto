@@ -297977,12 +297977,6 @@
     },
     "2384:5:6": {
       "episode_key": "vraždy na shetlandech:s5:e6",
-      "claim": {
-        "worker_id": "d8328511c2fe4afb9de409567d88865c-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T18:02:47.196252+00:00",
-        "lease_expires_at": "2026-11-08T00:02:47.196261+00:00"
-      },
       "source": {
         "source_id": "21044874",
         "source_url": "https://sdilej.cz/21044874/vrazdy.na.shetlandech.05x06.1080i.hevc.hdtv.cz.mkv",
@@ -298007,15 +298001,22 @@
         "display_name": "Shetland S05E06 1080p CZ Dabing",
         "prepared_at": "2026-11-07T18:02:52.384185+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895790",
-        "size_bytes": 684431548
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895790",
+          "size_bytes": 684431548,
+          "source_bytes_read": 684431548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21044874",
+        "source_url": "https://sdilej.cz/21044874/vrazdy.na.shetlandech.05x06.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895790",
-        "size_bytes": 684431548,
-        "source_bytes_read": 684431548,
-        "http_status": 201
+        "display_name": "Shetland S05E06 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T18:05:17.379172+00:00"
       }
     },
     "2384:6:1": {
@@ -298097,5 +298098,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T18:05:13.305103+00:00"
+  "updated_at": "2026-11-07T18:05:17.379190+00:00"
 }
