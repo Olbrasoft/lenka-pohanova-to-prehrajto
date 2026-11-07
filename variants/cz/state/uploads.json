@@ -296393,12 +296393,6 @@
     },
     "597:2:2": {
       "episode_key": "rod draka:s2:e2",
-      "claim": {
-        "worker_id": "2106fe88800d435084416f608ad27c60-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T15:32:27.686404+00:00",
-        "lease_expires_at": "2026-11-07T21:32:27.686418+00:00"
-      },
       "source": {
         "source_id": "33479148",
         "source_url": "https://sdilej.cz/33479148/house-of-the-dragon-s02e02-cz-dabing-2160p.mkv",
@@ -296423,15 +296417,22 @@
         "display_name": "House of the Dragon S02E02 Rhaenyra the Cruel 4K CZ Dabing",
         "prepared_at": "2026-11-07T15:32:30.467056+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30893558",
-        "size_bytes": 3577103381
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30893558",
+          "size_bytes": 3577103381,
+          "source_bytes_read": 3577103381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479148",
+        "source_url": "https://sdilej.cz/33479148/house-of-the-dragon-s02e02-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30893558",
-        "size_bytes": 3577103381,
-        "source_bytes_read": 3577103381,
-        "http_status": 201
+        "display_name": "House of the Dragon S02E02 Rhaenyra the Cruel 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T15:43:24.423545+00:00"
       }
     },
     "597:2:3": {
@@ -296521,5 +296522,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T15:43:22.345236+00:00"
+  "updated_at": "2026-11-07T15:43:24.423578+00:00"
 }
