@@ -289268,12 +289268,6 @@
     },
     "2562:1:2": {
       "episode_key": "drsný šerif:s1:e2",
-      "claim": {
-        "worker_id": "60f9c35a9abb4500848721c8f63a4677-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:10:17.607666+00:00",
-        "lease_expires_at": "2026-11-07T07:10:17.607674+00:00"
-      },
       "source": {
         "source_id": "30661232",
         "source_url": "https://sdilej.cz/30661232/drsny-serif-longmire-s01e02-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -289298,15 +289292,22 @@
         "display_name": "Longmire S01E02 The Dark Road 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:10:20.608084+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875360",
-        "size_bytes": 1345194552
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875360",
+          "size_bytes": 1345194552,
+          "source_bytes_read": 1345194552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661232",
+        "source_url": "https://sdilej.cz/30661232/drsny-serif-longmire-s01e02-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875360",
-        "size_bytes": 1345194552,
-        "source_bytes_read": 1345194552,
-        "http_status": 201
+        "display_name": "Longmire S01E02 The Dark Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:16:16.359282+00:00"
       }
     }
   },
@@ -289315,5 +289316,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:16:11.136089+00:00"
+  "updated_at": "2026-11-07T01:16:16.359298+00:00"
 }
