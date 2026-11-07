@@ -294142,12 +294142,6 @@
     },
     "3220:5:7": {
       "episode_key": "dobrý boj:s5:e7",
-      "claim": {
-        "worker_id": "b5ce2702a4c04a879f18e9e58ee5ca8c-worker-0",
-        "run_id": "42350959939",
-        "claimed_at": "2026-11-07T11:15:28.031342+00:00",
-        "lease_expires_at": "2026-11-07T17:15:28.031356+00:00"
-      },
       "source": {
         "source_id": "33120457",
         "source_url": "https://sdilej.cz/33120457/dobry-boj-s05e07-10-2021-cz-dab-1080p-a-ta-hadka-mela-primeri....mkv",
@@ -294172,15 +294166,22 @@
         "display_name": "The Good Fight S05E07 And the fight had a détente… 1080p CZ Dabing",
         "prepared_at": "2026-11-07T11:15:33.214424+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30888886",
-        "size_bytes": 2452226653
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30888886",
+          "size_bytes": 2452226653,
+          "source_bytes_read": 2452226653,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120457",
+        "source_url": "https://sdilej.cz/33120457/dobry-boj-s05e07-10-2021-cz-dab-1080p-a-ta-hadka-mela-primeri....mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30888886",
-        "size_bytes": 2452226653,
-        "source_bytes_read": 2452226653,
-        "http_status": 201
+        "display_name": "The Good Fight S05E07 And the fight had a détente… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T11:22:16.971147+00:00"
       }
     },
     "3220:5:8": {
@@ -294270,5 +294271,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T11:22:11.339224+00:00"
+  "updated_at": "2026-11-07T11:22:16.971165+00:00"
 }
