@@ -299787,12 +299787,6 @@
     },
     "102:3:7": {
       "episode_key": "sexuální výchova:s3:e7",
-      "claim": {
-        "worker_id": "3bbdfb22dad64df2906fe4d42461518c-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T20:58:13.766144+00:00",
-        "lease_expires_at": "2026-11-08T02:58:13.766155+00:00"
-      },
       "source": {
         "source_id": "32183466",
         "source_url": "https://sdilej.cz/32183466/sexualni-vychova-s03e07-08-2021-cz-dab-1080p-epizoda-7.mkv",
@@ -299817,15 +299811,22 @@
         "display_name": "Sex Education S03E07 1080p CZ Dabing",
         "prepared_at": "2026-11-07T20:58:16.725891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30898567",
-        "size_bytes": 1666109189
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30898567",
+          "size_bytes": 1666109189,
+          "source_bytes_read": 1666109189,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32183466",
+        "source_url": "https://sdilej.cz/32183466/sexualni-vychova-s03e07-08-2021-cz-dab-1080p-epizoda-7.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30898567",
-        "size_bytes": 1666109189,
-        "source_bytes_read": 1666109189,
-        "http_status": 201
+        "display_name": "Sex Education S03E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T21:03:47.763841+00:00"
       }
     }
   },
@@ -299834,5 +299835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T21:03:45.455284+00:00"
+  "updated_at": "2026-11-07T21:03:47.763854+00:00"
 }
