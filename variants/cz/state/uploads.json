@@ -287624,12 +287624,6 @@
     },
     "1921:1:11": {
       "episode_key": "borci z blue mountain state:s1:e11",
-      "claim": {
-        "worker_id": "7185252df1f94efb825a4ad1cf2b2cb5-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:00:27.047975+00:00",
-        "lease_expires_at": "2026-11-07T06:00:27.047994+00:00"
-      },
       "source": {
         "source_id": "12345139",
         "source_url": "https://sdilej.cz/12345139/borci-z-blue-mountain-state-1x11.-vykupne-dvdrip-cz-ss23-.avi",
@@ -287654,15 +287648,22 @@
         "display_name": "Blue Mountain State S01E11 Ransom SD CZ Dabing",
         "prepared_at": "2026-11-07T00:00:34.327725+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873649",
-        "size_bytes": 182841248
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873649",
+          "size_bytes": 182841248,
+          "source_bytes_read": 182841248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12345139",
+        "source_url": "https://sdilej.cz/12345139/borci-z-blue-mountain-state-1x11.-vykupne-dvdrip-cz-ss23-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873649",
-        "size_bytes": 182841248,
-        "source_bytes_read": 182841248,
-        "http_status": 201
+        "display_name": "Blue Mountain State S01E11 Ransom SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:02:42.908045+00:00"
       }
     },
     "1921:2:9": {
@@ -287795,5 +287796,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:02:40.364081+00:00"
+  "updated_at": "2026-11-07T00:02:42.908063+00:00"
 }
