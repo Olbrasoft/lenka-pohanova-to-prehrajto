@@ -287969,12 +287969,6 @@
     },
     "2352:2:1": {
       "episode_key": "bořiči mýtů:s2:e1",
-      "claim": {
-        "worker_id": "a0991019cc1848d8840459ad620cb3e9-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:05:16.782534+00:00",
-        "lease_expires_at": "2026-11-07T06:05:16.782550+00:00"
-      },
       "source": {
         "source_id": "28259534",
         "source_url": "https://sdilej.cz/28259534/borici-mytu-s02e01-cz-dab-hd-tv-rip.avi",
@@ -287999,15 +287993,22 @@
         "display_name": "MythBusters S02E01 Explosive Decompression SD CZ Dabing",
         "prepared_at": "2026-11-07T00:05:20.085430+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873770",
-        "size_bytes": 366942208
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873770",
+          "size_bytes": 366942208,
+          "source_bytes_read": 366942208,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28259534",
+        "source_url": "https://sdilej.cz/28259534/borici-mytu-s02e01-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873770",
-        "size_bytes": 366942208,
-        "source_bytes_read": 366942208,
-        "http_status": 201
+        "display_name": "MythBusters S02E01 Explosive Decompression SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:06:36.956785+00:00"
       }
     },
     "2352:2:7": {
@@ -288053,5 +288054,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:06:32.799208+00:00"
+  "updated_at": "2026-11-07T00:06:36.956801+00:00"
 }
