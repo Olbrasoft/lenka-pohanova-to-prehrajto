@@ -294633,12 +294633,6 @@
     },
     "3220:6:8": {
       "episode_key": "dobrý boj:s6:e8",
-      "claim": {
-        "worker_id": "fc36e2e983604bb5865ed5dae96daac9-worker-0",
-        "run_id": "42367815736",
-        "claimed_at": "2026-11-07T12:35:00.808161+00:00",
-        "lease_expires_at": "2026-11-07T18:35:00.808170+00:00"
-      },
       "source": {
         "source_id": "24555121",
         "source_url": "https://sdilej.cz/24555121/dobry-boj-6x08.-konec-hrani-her-webrip-cz-ss23-.avi",
@@ -294663,15 +294657,22 @@
         "display_name": "The Good Fight S06E08 The End of Playing Games SD CZ Dabing",
         "prepared_at": "2026-11-07T12:35:09.941515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30890439",
-        "size_bytes": 465955244
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30890439",
+          "size_bytes": 465955244,
+          "source_bytes_read": 465955244,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24555121",
+        "source_url": "https://sdilej.cz/24555121/dobry-boj-6x08.-konec-hrani-her-webrip-cz-ss23-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30890439",
-        "size_bytes": 465955244,
-        "source_bytes_read": 465955244,
-        "http_status": 201
+        "display_name": "The Good Fight S06E08 The End of Playing Games SD CZ Dabing",
+        "uploaded_at": "2026-11-07T12:36:44.342759+00:00"
       }
     },
     "3220:6:9": {
@@ -294717,5 +294718,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T12:36:41.827912+00:00"
+  "updated_at": "2026-11-07T12:36:44.342775+00:00"
 }
