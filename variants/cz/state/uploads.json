@@ -300315,12 +300315,6 @@
     },
     "6424:1:3": {
       "episode_key": "z deníku sherlocka holmese:s1:e3",
-      "claim": {
-        "worker_id": "308c470c99504129ba15f06f24756e58-worker-0",
-        "run_id": "42400867501",
-        "claimed_at": "2026-11-07T21:52:55.902201+00:00",
-        "lease_expires_at": "2026-11-08T03:52:55.902212+00:00"
-      },
       "source": {
         "source_id": "21952405",
         "source_url": "https://sdilej.cz/21952405/z-deniku-sherlocka-holmese-1x03-na-starem-zamku-v-shoscombe.mkv",
@@ -300345,15 +300339,22 @@
         "display_name": "The Case-Book of Sherlock Holmes S01E03 Shoscombe Old Place SD CZ Dabing",
         "prepared_at": "2026-11-07T21:53:05.937618+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30899478",
-        "size_bytes": 1615736376
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30899478",
+          "size_bytes": 1615736376,
+          "source_bytes_read": 1615736376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21952405",
+        "source_url": "https://sdilej.cz/21952405/z-deniku-sherlocka-holmese-1x03-na-starem-zamku-v-shoscombe.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30899478",
-        "size_bytes": 1615736376,
-        "source_bytes_read": 1615736376,
-        "http_status": 201
+        "display_name": "The Case-Book of Sherlock Holmes S01E03 Shoscombe Old Place SD CZ Dabing",
+        "uploaded_at": "2026-11-07T21:57:10.640343+00:00"
       }
     },
     "6424:1:4": {
@@ -300405,5 +300406,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T21:57:07.989727+00:00"
+  "updated_at": "2026-11-07T21:57:10.640357+00:00"
 }
