@@ -290632,12 +290632,6 @@
     },
     "2562:4:2": {
       "episode_key": "drsný šerif:s4:e2",
-      "claim": {
-        "worker_id": "3015404ee82840018392599ab6fc8ded-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T03:07:25.186212+00:00",
-        "lease_expires_at": "2026-11-07T09:07:25.186223+00:00"
-      },
       "source": {
         "source_id": "30662052",
         "source_url": "https://sdilej.cz/30662052/drsny-serif-longmire-s04e02-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
@@ -290662,15 +290656,22 @@
         "display_name": "Longmire S04E02 War Eagle 1080p CZ Dabing",
         "prepared_at": "2026-11-07T03:07:27.907135+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30877964",
-        "size_bytes": 1740311448
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30877964",
+          "size_bytes": 1740311448,
+          "source_bytes_read": 1740311448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30662052",
+        "source_url": "https://sdilej.cz/30662052/drsny-serif-longmire-s04e02-1080p-10bit-bluray-ac3-x265-hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30877964",
-        "size_bytes": 1740311448,
-        "source_bytes_read": 1740311448,
-        "http_status": 201
+        "display_name": "Longmire S04E02 War Eagle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T03:16:52.725691+00:00"
       }
     }
   },
@@ -290679,5 +290680,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T03:16:46.952681+00:00"
+  "updated_at": "2026-11-07T03:16:52.725722+00:00"
 }
