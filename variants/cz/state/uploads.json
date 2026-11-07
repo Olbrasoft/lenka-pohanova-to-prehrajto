@@ -296430,12 +296430,6 @@
     },
     "597:2:3": {
       "episode_key": "rod draka:s2:e3",
-      "claim": {
-        "worker_id": "8b9b46117f424f4d8837190b6e48555f-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T15:32:34.966150+00:00",
-        "lease_expires_at": "2026-11-07T21:32:34.966168+00:00"
-      },
       "source": {
         "source_id": "33479136",
         "source_url": "https://sdilej.cz/33479136/house-of-the-dragon-s02e03-cz-dabing-2160p.mkv",
@@ -296460,15 +296454,22 @@
         "display_name": "House of the Dragon S02E03 The Burning Mill 4K CZ Dabing",
         "prepared_at": "2026-11-07T15:32:40.322525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30893565",
-        "size_bytes": 3422793753
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30893565",
+          "size_bytes": 3422793753,
+          "source_bytes_read": 3422793753,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479136",
+        "source_url": "https://sdilej.cz/33479136/house-of-the-dragon-s02e03-cz-dabing-2160p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30893565",
-        "size_bytes": 3422793753,
-        "source_bytes_read": 3422793753,
-        "http_status": 201
+        "display_name": "House of the Dragon S02E03 The Burning Mill 4K CZ Dabing",
+        "uploaded_at": "2026-11-07T15:42:25.624130+00:00"
       }
     },
     "597:2:5": {
@@ -296514,5 +296515,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T15:42:20.071500+00:00"
+  "updated_at": "2026-11-07T15:42:25.624148+00:00"
 }
