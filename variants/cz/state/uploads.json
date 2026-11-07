@@ -288101,12 +288101,6 @@
     },
     "2352:3:3": {
       "episode_key": "bořiči mýtů:s3:e3",
-      "claim": {
-        "worker_id": "13c1ff46e2dd4d8cbe16e76dfd950f99-worker-0",
-        "run_id": "42287720172",
-        "claimed_at": "2026-11-07T00:07:00.233149+00:00",
-        "lease_expires_at": "2026-11-07T06:07:00.233165+00:00"
-      },
       "source": {
         "source_id": "28259582",
         "source_url": "https://sdilej.cz/28259582/borici-mytu-s03e03-cz-dab-hd-tv-rip.avi",
@@ -288131,15 +288125,22 @@
         "display_name": "MythBusters S03E03 Exploding Port-a-Potty SD CZ Dabing",
         "prepared_at": "2026-11-07T00:07:05.657418+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30873820",
-        "size_bytes": 366368768
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30873820",
+          "size_bytes": 366368768,
+          "source_bytes_read": 366368768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28259582",
+        "source_url": "https://sdilej.cz/28259582/borici-mytu-s03e03-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30873820",
-        "size_bytes": 366368768,
-        "source_bytes_read": 366368768,
-        "http_status": 201
+        "display_name": "MythBusters S03E03 Exploding Port-a-Potty SD CZ Dabing",
+        "uploaded_at": "2026-11-07T00:09:45.870844+00:00"
       }
     }
   },
@@ -288148,5 +288149,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T00:09:39.049542+00:00"
+  "updated_at": "2026-11-07T00:09:45.870861+00:00"
 }
