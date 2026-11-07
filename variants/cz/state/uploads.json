@@ -288960,12 +288960,6 @@
     },
     "688:1:4": {
       "episode_key": "mladý papež:s1:e4",
-      "claim": {
-        "worker_id": "b960a7df82dd4fcf9820481ff2f41697-worker-0",
-        "run_id": "42319461466",
-        "claimed_at": "2026-11-07T01:02:14.722124+00:00",
-        "lease_expires_at": "2026-11-07T07:02:14.722134+00:00"
-      },
       "source": {
         "source_id": "34062318",
         "source_url": "https://sdilej.cz/34062318/mlady-papez-s01e04-cz-dabing.ts",
@@ -288990,15 +288984,22 @@
         "display_name": "The Young Pope S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-07T01:02:23.935052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30875132",
-        "size_bytes": 1812085752
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30875132",
+          "size_bytes": 1812085752,
+          "source_bytes_read": 1812085752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34062318",
+        "source_url": "https://sdilej.cz/34062318/mlady-papez-s01e04-cz-dabing.ts",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30875132",
-        "size_bytes": 1812085752,
-        "source_bytes_read": 1812085752,
-        "http_status": 201
+        "display_name": "The Young Pope S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-07T01:08:18.777772+00:00"
       }
     },
     "688:1:5": {
@@ -289125,5 +289126,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T01:08:12.728302+00:00"
+  "updated_at": "2026-11-07T01:08:18.777788+00:00"
 }
