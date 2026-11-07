@@ -297361,12 +297361,6 @@
     },
     "2384:3:4": {
       "episode_key": "vraždy na shetlandech:s3:e4",
-      "claim": {
-        "worker_id": "fd1a3441d4f2433ca333af871d1aa02e-worker-0",
-        "run_id": "42381214321",
-        "claimed_at": "2026-11-07T17:15:24.638727+00:00",
-        "lease_expires_at": "2026-11-07T23:15:24.638737+00:00"
-      },
       "source": {
         "source_id": "34134015",
         "source_url": "https://sdilej.cz/34134015/vrazdy-na-shetlandech-03x04.avi",
@@ -297391,15 +297385,22 @@
         "display_name": "Shetland S03E04 720p CZ Dabing",
         "prepared_at": "2026-11-07T17:15:33.641065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30895093",
-        "size_bytes": 872104612
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30895093",
+          "size_bytes": 872104612,
+          "source_bytes_read": 872104612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34134015",
+        "source_url": "https://sdilej.cz/34134015/vrazdy-na-shetlandech-03x04.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30895093",
-        "size_bytes": 872104612,
-        "source_bytes_read": 872104612,
-        "http_status": 201
+        "display_name": "Shetland S03E04 720p CZ Dabing",
+        "uploaded_at": "2026-11-07T17:18:42.593699+00:00"
       }
     },
     "2384:3:5": {
@@ -297482,5 +297483,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-07T17:18:37.940496+00:00"
+  "updated_at": "2026-11-07T17:18:42.593719+00:00"
 }
