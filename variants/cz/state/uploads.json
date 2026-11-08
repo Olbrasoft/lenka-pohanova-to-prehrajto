@@ -303646,12 +303646,6 @@
     },
     "1069:4:4": {
       "episode_key": "mentalista:s4:e4",
-      "claim": {
-        "worker_id": "59ad326cb3f84b808a903fb2da748840-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:32:26.693167+00:00",
-        "lease_expires_at": "2026-11-08T06:32:26.693176+00:00"
-      },
       "source": {
         "source_id": "32443373",
         "source_url": "https://sdilej.cz/32443373/mentalista-s04e04-kolo-kolo-mlynsky.mkv",
@@ -303676,15 +303670,22 @@
         "display_name": "The Mentalist S04E04 Ring Around the Rosie 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:32:31.665724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902681",
-        "size_bytes": 889139211
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902681",
+          "size_bytes": 889139211,
+          "source_bytes_read": 889139211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443373",
+        "source_url": "https://sdilej.cz/32443373/mentalista-s04e04-kolo-kolo-mlynsky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902681",
-        "size_bytes": 889139211,
-        "source_bytes_read": 889139211,
-        "http_status": 201
+        "display_name": "The Mentalist S04E04 Ring Around the Rosie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:35:26.541693+00:00"
       }
     },
     "1069:4:5": {
@@ -303737,5 +303738,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:35:21.130001+00:00"
+  "updated_at": "2026-11-08T00:35:26.541706+00:00"
 }
