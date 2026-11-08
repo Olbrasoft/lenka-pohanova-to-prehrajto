@@ -306557,12 +306557,6 @@
     },
     "1069:7:3": {
       "episode_key": "mentalista:s7:e3",
-      "claim": {
-        "worker_id": "5e01e36090074f2f9b4dd4ea91fac256-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:00:51.081934+00:00",
-        "lease_expires_at": "2026-11-08T09:00:51.081944+00:00"
-      },
       "source": {
         "source_id": "22060332",
         "source_url": "https://sdilej.cz/22060332/mentalista-the-mentalist-s07e03-orange-blossom-ice-cream-1080p-hevc-cz-dabing.mkv",
@@ -306587,15 +306581,22 @@
         "display_name": "The Mentalist S07E03 Orange Blossom Ice Cream 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:00:54.048177+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30905702",
-        "size_bytes": 912941438
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30905702",
+          "size_bytes": 912941438,
+          "source_bytes_read": 912941438,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22060332",
+        "source_url": "https://sdilej.cz/22060332/mentalista-the-mentalist-s07e03-orange-blossom-ice-cream-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30905702",
-        "size_bytes": 912941438,
-        "source_bytes_read": 912941438,
-        "http_status": 201
+        "display_name": "The Mentalist S07E03 Orange Blossom Ice Cream 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:03:13.027941+00:00"
       }
     }
   },
@@ -306604,5 +306605,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:03:10.678331+00:00"
+  "updated_at": "2026-11-08T03:03:13.027959+00:00"
 }
