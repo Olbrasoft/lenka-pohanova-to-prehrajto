@@ -310385,12 +310385,6 @@
     },
     "566:5:5": {
       "episode_key": "gilmorova děvčata:s5:e5",
-      "claim": {
-        "worker_id": "66648ae357b740eea994c04ccb1da562-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T07:26:34.634150+00:00",
-        "lease_expires_at": "2026-11-08T13:26:34.634162+00:00"
-      },
       "source": {
         "source_id": "12338064",
         "source_url": "https://sdilej.cz/12338064/gilmore.girls.s05e05.dvdrip.xvid.cz-vid.avi",
@@ -310415,15 +310409,22 @@
         "display_name": "Gilmore Girls S05E05 We Got Us a Pippi Virgin! SD CZ Dabing",
         "prepared_at": "2026-11-08T07:26:37.670101+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30910956",
-        "size_bytes": 366995456
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30910956",
+          "size_bytes": 366995456,
+          "source_bytes_read": 366995456,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12338064",
+        "source_url": "https://sdilej.cz/12338064/gilmore.girls.s05e05.dvdrip.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30910956",
-        "size_bytes": 366995456,
-        "source_bytes_read": 366995456,
-        "http_status": 201
+        "display_name": "Gilmore Girls S05E05 We Got Us a Pippi Virgin! SD CZ Dabing",
+        "uploaded_at": "2026-11-08T07:27:27.655445+00:00"
       }
     },
     "566:5:7": {
@@ -310506,5 +310507,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T07:27:24.210925+00:00"
+  "updated_at": "2026-11-08T07:27:27.655460+00:00"
 }
