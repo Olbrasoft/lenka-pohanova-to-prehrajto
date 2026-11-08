@@ -322482,12 +322482,6 @@
     },
     "1244:2:4": {
       "episode_key": "jistě, pane ministře:s2:e4",
-      "claim": {
-        "worker_id": "f7ed4004ddd7427f9da98212b44bd30a-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:37:27.358875+00:00",
-        "lease_expires_at": "2026-11-09T04:37:27.358885+00:00"
-      },
       "source": {
         "source_id": "34860895",
         "source_url": "https://sdilej.cz/34860895/jiste-pane-ministre-s02e04-1080p-cz.mkv",
@@ -322512,15 +322506,22 @@
         "display_name": "Yes Minister S02E04 The Greasy Pole 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:37:30.471671+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927037",
-        "size_bytes": 1142234169
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927037",
+          "size_bytes": 1142234169,
+          "source_bytes_read": 1142234169,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860895",
+        "source_url": "https://sdilej.cz/34860895/jiste-pane-ministre-s02e04-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927037",
-        "size_bytes": 1142234169,
-        "source_bytes_read": 1142234169,
-        "http_status": 201
+        "display_name": "Yes Minister S02E04 The Greasy Pole 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:39:55.833710+00:00"
       }
     },
     "1244:2:5": {
@@ -322573,5 +322574,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:39:50.559059+00:00"
+  "updated_at": "2026-11-08T22:39:55.833723+00:00"
 }
