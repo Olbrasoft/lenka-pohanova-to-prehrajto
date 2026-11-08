@@ -304269,12 +304269,6 @@
     },
     "1069:4:18": {
       "episode_key": "mentalista:s4:e18",
-      "claim": {
-        "worker_id": "8464cc89f4314be881a58778bc3f84f5-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:56:34.170528+00:00",
-        "lease_expires_at": "2026-11-08T06:56:34.170536+00:00"
-      },
       "source": {
         "source_id": "32443401",
         "source_url": "https://sdilej.cz/32443401/mentalista-s04e18-zdrave-tvare.mkv",
@@ -304299,15 +304293,22 @@
         "display_name": "The Mentalist S04E18 Ruddy Cheeks 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:56:42.361280+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903138",
-        "size_bytes": 884919943
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903138",
+          "size_bytes": 884919943,
+          "source_bytes_read": 884919943,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443401",
+        "source_url": "https://sdilej.cz/32443401/mentalista-s04e18-zdrave-tvare.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903138",
-        "size_bytes": 884919943,
-        "source_bytes_read": 884919943,
-        "http_status": 201
+        "display_name": "The Mentalist S04E18 Ruddy Cheeks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:00:12.275894+00:00"
       }
     },
     "1069:4:19": {
@@ -304390,5 +304391,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:00:03.274562+00:00"
+  "updated_at": "2026-11-08T01:00:12.275907+00:00"
 }
