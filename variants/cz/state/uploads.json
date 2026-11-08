@@ -307569,12 +307569,6 @@
     },
     "1165:2:3": {
       "episode_key": "dobré místo:s2:e3",
-      "claim": {
-        "worker_id": "0714b467491244818f7af15e5c801040-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:54:52.517780+00:00",
-        "lease_expires_at": "2026-11-08T09:54:52.517792+00:00"
-      },
       "source": {
         "source_id": "33816240",
         "source_url": "https://sdilej.cz/33816240/the-good-place-s02e03-dobre-misto-fhd-1080p-cz.mkv",
@@ -307599,15 +307593,22 @@
         "display_name": "The Good Place S02E03 Team Cockroach 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:54:57.298319+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906783",
-        "size_bytes": 279008150
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906783",
+          "size_bytes": 279008150,
+          "source_bytes_read": 279008150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816240",
+        "source_url": "https://sdilej.cz/33816240/the-good-place-s02e03-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906783",
-        "size_bytes": 279008150,
-        "source_bytes_read": 279008150,
-        "http_status": 201
+        "display_name": "The Good Place S02E03 Team Cockroach 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:57:53.870425+00:00"
       }
     },
     "1165:2:4": {
@@ -307747,5 +307748,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:57:51.164140+00:00"
+  "updated_at": "2026-11-08T03:57:53.870441+00:00"
 }
