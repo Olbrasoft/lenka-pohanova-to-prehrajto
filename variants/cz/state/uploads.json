@@ -312584,12 +312584,6 @@
     },
     "119:1:12": {
       "episode_key": "původní:s1:e12",
-      "claim": {
-        "worker_id": "d8f8352bcdb343708851cc78ee530b25-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:43:09.909530+00:00",
-        "lease_expires_at": "2026-11-08T14:43:09.909541+00:00"
-      },
       "source": {
         "source_id": "31994441",
         "source_url": "https://sdilej.cz/31994441/puvodni-s01e12-cz-dab-.mp4",
@@ -312614,15 +312608,22 @@
         "display_name": "The Originals S01E12 Dance Back from the Grave 1080p CZ Dabing",
         "prepared_at": "2026-11-08T08:43:16.678976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912519",
-        "size_bytes": 711616792
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912519",
+          "size_bytes": 711616792,
+          "source_bytes_read": 711616792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994441",
+        "source_url": "https://sdilej.cz/31994441/puvodni-s01e12-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912519",
-        "size_bytes": 711616792,
-        "source_bytes_read": 711616792,
-        "http_status": 201
+        "display_name": "The Originals S01E12 Dance Back from the Grave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T08:44:26.595403+00:00"
       }
     }
   },
@@ -312631,5 +312632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:44:22.801773+00:00"
+  "updated_at": "2026-11-08T08:44:26.595416+00:00"
 }
