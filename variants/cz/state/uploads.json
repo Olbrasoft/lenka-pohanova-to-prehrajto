@@ -318845,12 +318845,6 @@
     },
     "261:1:9": {
       "episode_key": "watchmen:s1:e9",
-      "claim": {
-        "worker_id": "a553f7b14091439e973068472e6015e8-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T18:31:10.488406+00:00",
-        "lease_expires_at": "2026-11-09T00:31:10.488420+00:00"
-      },
       "source": {
         "source_id": "34021408",
         "source_url": "https://sdilej.cz/34021408/watchmen-s01e09-09-2019-cz-dab-see-how-they-fly.mkv",
@@ -318875,15 +318869,22 @@
         "display_name": "Watchmen S01E09 See How They Fly 1080p CZ Dabing",
         "prepared_at": "2026-11-08T18:31:16.228791+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30923984",
-        "size_bytes": 1639608682
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30923984",
+          "size_bytes": 1639608682,
+          "source_bytes_read": 1639608682,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34021408",
+        "source_url": "https://sdilej.cz/34021408/watchmen-s01e09-09-2019-cz-dab-see-how-they-fly.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30923984",
-        "size_bytes": 1639608682,
-        "source_bytes_read": 1639608682,
-        "http_status": 201
+        "display_name": "Watchmen S01E09 See How They Fly 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T18:35:44.090777+00:00"
       }
     }
   },
@@ -318892,5 +318893,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T18:35:38.651665+00:00"
+  "updated_at": "2026-11-08T18:35:44.090800+00:00"
 }
