@@ -322399,12 +322399,6 @@
     },
     "1244:2:2": {
       "episode_key": "jistě, pane ministře:s2:e2",
-      "claim": {
-        "worker_id": "438bc393daa840f59ce797704edde6ca-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:28:57.596843+00:00",
-        "lease_expires_at": "2026-11-09T04:28:57.596853+00:00"
-      },
       "source": {
         "source_id": "34860891",
         "source_url": "https://sdilej.cz/34860891/jiste-pane-ministre-s02e02-1080p-cz.mkv",
@@ -322429,15 +322423,22 @@
         "display_name": "Yes Minister S02E02 Doing the Honours 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:29:03.351697+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926929",
-        "size_bytes": 1096583617
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926929",
+          "size_bytes": 1096583617,
+          "source_bytes_read": 1096583617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860891",
+        "source_url": "https://sdilej.cz/34860891/jiste-pane-ministre-s02e02-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926929",
-        "size_bytes": 1096583617,
-        "source_bytes_read": 1096583617,
-        "http_status": 201
+        "display_name": "Yes Minister S02E02 Doing the Honours 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:30:44.427598+00:00"
       }
     }
   },
@@ -322446,5 +322447,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:30:39.254444+00:00"
+  "updated_at": "2026-11-08T22:30:44.427622+00:00"
 }
