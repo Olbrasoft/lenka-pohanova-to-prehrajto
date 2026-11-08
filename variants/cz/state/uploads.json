@@ -311541,12 +311541,6 @@
     },
     "566:6:10": {
       "episode_key": "gilmorova děvčata:s6:e10",
-      "claim": {
-        "worker_id": "62feb19fafc54d588c8d58d5278fc021-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:22:50.893272+00:00",
-        "lease_expires_at": "2026-11-08T14:22:50.893287+00:00"
-      },
       "source": {
         "source_id": "33077852",
         "source_url": "https://sdilej.cz/33077852/gilmore.girls.s06e10.otcove.a.dcery.dvd.xvid.cz-vid.avi",
@@ -311571,15 +311565,22 @@
         "display_name": "Gilmore Girls S06E10 He's Slippin’ ‘Em Bread… Dig? SD CZ Dabing",
         "prepared_at": "2026-11-08T08:22:59.524244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912137",
-        "size_bytes": 366979072
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912137",
+          "size_bytes": 366979072,
+          "source_bytes_read": 366979072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077852",
+        "source_url": "https://sdilej.cz/33077852/gilmore.girls.s06e10.otcove.a.dcery.dvd.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912137",
-        "size_bytes": 366979072,
-        "source_bytes_read": 366979072,
-        "http_status": 201
+        "display_name": "Gilmore Girls S06E10 He's Slippin’ ‘Em Bread… Dig? SD CZ Dabing",
+        "uploaded_at": "2026-11-08T08:23:47.890117+00:00"
       }
     }
   },
@@ -311588,5 +311589,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:23:44.177600+00:00"
+  "updated_at": "2026-11-08T08:23:47.890138+00:00"
 }
