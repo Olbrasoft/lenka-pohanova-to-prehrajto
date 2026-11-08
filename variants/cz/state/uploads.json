@@ -315891,12 +315891,6 @@
     },
     "119:5:10": {
       "episode_key": "původní:s5:e10",
-      "claim": {
-        "worker_id": "dc6f4bc672b24faeaf8518a816b86bb7-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T15:01:14.857163+00:00",
-        "lease_expires_at": "2026-11-08T21:01:14.857176+00:00"
-      },
       "source": {
         "source_id": "30457395",
         "source_url": "https://sdilej.cz/30457395/the-originals-s05e10.mkv",
@@ -315921,15 +315915,22 @@
         "display_name": "The Originals S05E10 There in the Disappearing Light 1080p CZ Dabing",
         "prepared_at": "2026-11-08T15:01:23.492576+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30920162",
-        "size_bytes": 2732517389
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30920162",
+          "size_bytes": 2732517389,
+          "source_bytes_read": 2732517389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457395",
+        "source_url": "https://sdilej.cz/30457395/the-originals-s05e10.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30920162",
-        "size_bytes": 2732517389,
-        "source_bytes_read": 2732517389,
-        "http_status": 201
+        "display_name": "The Originals S05E10 There in the Disappearing Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T15:16:29.585412+00:00"
       }
     },
     "119:5:11": {
@@ -316052,5 +316053,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T15:16:22.718116+00:00"
+  "updated_at": "2026-11-08T15:16:29.585433+00:00"
 }
