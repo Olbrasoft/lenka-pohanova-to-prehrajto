@@ -309027,12 +309027,6 @@
     },
     "325:1:1": {
       "episode_key": "zlá krev:s1:e1",
-      "claim": {
-        "worker_id": "88f26c14bdca4be8ad161ed9d2eab7db-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T05:04:43.841692+00:00",
-        "lease_expires_at": "2026-11-08T11:04:43.841703+00:00"
-      },
       "source": {
         "source_id": "28681749",
         "source_url": "https://sdilej.cz/28681749/feud-s01e01-1080p-cz-dabing.mkv",
@@ -309057,15 +309051,22 @@
         "display_name": "FEUD S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-08T05:04:46.928581+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908423",
-        "size_bytes": 1111137828
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908423",
+          "size_bytes": 1111137828,
+          "source_bytes_read": 1111137828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28681749",
+        "source_url": "https://sdilej.cz/28681749/feud-s01e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908423",
-        "size_bytes": 1111137828,
-        "source_bytes_read": 1111137828,
-        "http_status": 201
+        "display_name": "FEUD S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T05:09:45.662998+00:00"
       }
     },
     "325:1:2": {
@@ -309171,5 +309172,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T05:09:43.359571+00:00"
+  "updated_at": "2026-11-08T05:09:45.663014+00:00"
 }
