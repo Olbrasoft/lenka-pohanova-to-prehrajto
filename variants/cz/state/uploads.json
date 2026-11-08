@@ -310429,12 +310429,6 @@
     },
     "566:5:7": {
       "episode_key": "gilmorova děvčata:s5:e7",
-      "claim": {
-        "worker_id": "7da7542b17a548c99e90aa26c91a6315-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T07:27:01.798836+00:00",
-        "lease_expires_at": "2026-11-08T13:27:01.798845+00:00"
-      },
       "source": {
         "source_id": "33528799",
         "source_url": "https://sdilej.cz/33528799/gilmore.girls.s05e07.dvdrip.xvid.cz-vid.avi",
@@ -310459,15 +310453,22 @@
         "display_name": "Gilmore Girls S05E07 You Jump, I Jump, Jack SD CZ Dabing",
         "prepared_at": "2026-11-08T07:27:10.015889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30910973",
-        "size_bytes": 367003648
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30910973",
+          "size_bytes": 367003648,
+          "source_bytes_read": 367003648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33528799",
+        "source_url": "https://sdilej.cz/33528799/gilmore.girls.s05e07.dvdrip.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30910973",
-        "size_bytes": 367003648,
-        "source_bytes_read": 367003648,
-        "http_status": 201
+        "display_name": "Gilmore Girls S05E07 You Jump, I Jump, Jack SD CZ Dabing",
+        "uploaded_at": "2026-11-08T07:28:00.460822+00:00"
       }
     },
     "566:5:8": {
@@ -310557,5 +310558,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T07:27:55.297933+00:00"
+  "updated_at": "2026-11-08T07:28:00.460836+00:00"
 }
