@@ -305985,12 +305985,6 @@
     },
     "1069:6:12": {
       "episode_key": "mentalista:s6:e12",
-      "claim": {
-        "worker_id": "ff8c7385ab1e495dba58f9cdd615af6b-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:23:41.033965+00:00",
-        "lease_expires_at": "2026-11-08T08:23:41.033976+00:00"
-      },
       "source": {
         "source_id": "32443500",
         "source_url": "https://sdilej.cz/32443500/mentalista-s06e12-kdo-s-cim-zachazi.mkv",
@@ -306015,15 +306009,22 @@
         "display_name": "The Mentalist S06E12 The Golden Hammer 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:23:46.546134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904872",
-        "size_bytes": 853575777
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904872",
+          "size_bytes": 853575777,
+          "source_bytes_read": 853575777,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443500",
+        "source_url": "https://sdilej.cz/32443500/mentalista-s06e12-kdo-s-cim-zachazi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904872",
-        "size_bytes": 853575777,
-        "source_bytes_read": 853575777,
-        "http_status": 201
+        "display_name": "The Mentalist S06E12 The Golden Hammer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:26:47.454281+00:00"
       }
     },
     "1069:6:13": {
@@ -306069,5 +306070,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:26:45.006764+00:00"
+  "updated_at": "2026-11-08T02:26:47.454298+00:00"
 }
