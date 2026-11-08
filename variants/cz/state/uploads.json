@@ -315538,12 +315538,6 @@
     },
     "119:5:2": {
       "episode_key": "původní:s5:e2",
-      "claim": {
-        "worker_id": "4f7a7357ed014269a72d1a3fef4bda32-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T13:56:55.157255+00:00",
-        "lease_expires_at": "2026-11-08T19:56:55.157266+00:00"
-      },
       "source": {
         "source_id": "30457356",
         "source_url": "https://sdilej.cz/30457356/the-originals-s05e02.mkv",
@@ -315568,15 +315562,22 @@
         "display_name": "The Originals S05E02 One Wrong Turn On Bourbon 1080p CZ Dabing",
         "prepared_at": "2026-11-08T13:57:03.028580+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30918861",
-        "size_bytes": 2740350569
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30918861",
+          "size_bytes": 2740350569,
+          "source_bytes_read": 2740350569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457356",
+        "source_url": "https://sdilej.cz/30457356/the-originals-s05e02.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30918861",
-        "size_bytes": 2740350569,
-        "source_bytes_read": 2740350569,
-        "http_status": 201
+        "display_name": "The Originals S05E02 One Wrong Turn On Bourbon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T14:07:04.110120+00:00"
       }
     },
     "119:5:3": {
@@ -315618,5 +315619,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T14:07:01.482375+00:00"
+  "updated_at": "2026-11-08T14:07:04.110137+00:00"
 }
