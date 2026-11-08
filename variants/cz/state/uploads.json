@@ -312981,12 +312981,6 @@
     },
     "119:1:21": {
       "episode_key": "původní:s1:e21",
-      "claim": {
-        "worker_id": "9751547777fb40d49eff066e38448fe4-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T09:01:56.863312+00:00",
-        "lease_expires_at": "2026-11-08T15:01:56.863328+00:00"
-      },
       "source": {
         "source_id": "31994455",
         "source_url": "https://sdilej.cz/31994455/puvodni-s01e21-cz-dab-.mp4",
@@ -313011,15 +313005,22 @@
         "display_name": "The Originals S01E21 The Battle of New Orleans 1080p CZ Dabing",
         "prepared_at": "2026-11-08T09:02:04.817348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912923",
-        "size_bytes": 705829213
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912923",
+          "size_bytes": 705829213,
+          "source_bytes_read": 705829213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994455",
+        "source_url": "https://sdilej.cz/31994455/puvodni-s01e21-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912923",
-        "size_bytes": 705829213,
-        "source_bytes_read": 705829213,
-        "http_status": 201
+        "display_name": "The Originals S01E21 The Battle of New Orleans 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T09:04:07.641206+00:00"
       }
     }
   },
@@ -313028,5 +313029,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T09:04:02.917483+00:00"
+  "updated_at": "2026-11-08T09:04:07.641226+00:00"
 }
