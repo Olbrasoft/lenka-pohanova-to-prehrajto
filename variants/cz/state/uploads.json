@@ -304790,12 +304790,6 @@
     },
     "1069:5:6": {
       "episode_key": "mentalista:s5:e6",
-      "claim": {
-        "worker_id": "d29d75e528f94af2bf45e12da66ef250-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:17:15.032387+00:00",
-        "lease_expires_at": "2026-11-08T07:17:15.032394+00:00"
-      },
       "source": {
         "source_id": "27423964",
         "source_url": "https://sdilej.cz/27423964/the-mentalist-s05e06-cherry-picked.mkv",
@@ -304820,15 +304814,22 @@
         "display_name": "The Mentalist S05E06 Cherry Picked 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:17:17.794235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903524",
-        "size_bytes": 712395918
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903524",
+          "size_bytes": 712395918,
+          "source_bytes_read": 712395918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27423964",
+        "source_url": "https://sdilej.cz/27423964/the-mentalist-s05e06-cherry-picked.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903524",
-        "size_bytes": 712395918,
-        "source_bytes_read": 712395918,
-        "http_status": 201
+        "display_name": "The Mentalist S05E06 Cherry Picked 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:20:44.714350+00:00"
       }
     },
     "1069:5:7": {
@@ -304874,5 +304875,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:20:39.983200+00:00"
+  "updated_at": "2026-11-08T01:20:44.714365+00:00"
 }
