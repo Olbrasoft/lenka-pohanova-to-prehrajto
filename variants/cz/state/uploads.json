@@ -320289,12 +320289,6 @@
     },
     "89:3:5": {
       "episode_key": "penny dreadful:s3:e5",
-      "claim": {
-        "worker_id": "1433bbd8000948cb8451d45bf25455dd-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:52:04.701851+00:00",
-        "lease_expires_at": "2026-11-09T02:52:04.701862+00:00"
-      },
       "source": {
         "source_id": "30906458",
         "source_url": "https://sdilej.cz/30906458/penny-dreadful-2016-s03e05-1080p-bluray-cz-dab.mkv",
@@ -320319,15 +320313,22 @@
         "display_name": "Penny Dreadful S03E05 This World is Our Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:52:07.829242+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925674",
-        "size_bytes": 633360309
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925674",
+          "size_bytes": 633360309,
+          "source_bytes_read": 633360309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906458",
+        "source_url": "https://sdilej.cz/30906458/penny-dreadful-2016-s03e05-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925674",
-        "size_bytes": 633360309,
-        "source_bytes_read": 633360309,
-        "http_status": 201
+        "display_name": "Penny Dreadful S03E05 This World is Our Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:53:39.506963+00:00"
       }
     },
     "89:3:6": {
@@ -320417,5 +320418,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:53:32.913298+00:00"
+  "updated_at": "2026-11-08T20:53:39.506980+00:00"
 }
