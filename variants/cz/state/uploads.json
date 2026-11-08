@@ -304563,12 +304563,6 @@
     },
     "1069:5:1": {
       "episode_key": "mentalista:s5:e1",
-      "claim": {
-        "worker_id": "d4b088a40bac4dafa4f7a8930202c6f0-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:04:17.093248+00:00",
-        "lease_expires_at": "2026-11-08T07:04:17.093258+00:00"
-      },
       "source": {
         "source_id": "22059604",
         "source_url": "https://sdilej.cz/22059604/mentalista-the-mentalist-s05e01-the-red-glass-bead-1080p-hevc-cz-dabing.mkv",
@@ -304593,15 +304587,22 @@
         "display_name": "The Mentalist S05E01 The Crimson Ticket 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:04:22.432032+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903280",
-        "size_bytes": 728184535
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903280",
+          "size_bytes": 728184535,
+          "source_bytes_read": 728184535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22059604",
+        "source_url": "https://sdilej.cz/22059604/mentalista-the-mentalist-s05e01-the-red-glass-bead-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903280",
-        "size_bytes": 728184535,
-        "source_bytes_read": 728184535,
-        "http_status": 201
+        "display_name": "The Mentalist S05E01 The Crimson Ticket 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:05:50.613459+00:00"
       }
     }
   },
@@ -304610,5 +304611,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:05:45.452605+00:00"
+  "updated_at": "2026-11-08T01:05:50.613470+00:00"
 }
