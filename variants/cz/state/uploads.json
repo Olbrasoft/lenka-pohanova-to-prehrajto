@@ -323105,12 +323105,6 @@
     },
     "190:1:2": {
       "episode_key": "landman:s1:e2",
-      "claim": {
-        "worker_id": "513516e272cf47eebe2d9af9a498eb62-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T23:01:57.809205+00:00",
-        "lease_expires_at": "2026-11-09T05:01:57.809215+00:00"
-      },
       "source": {
         "source_id": "32695794",
         "source_url": "https://sdilej.cz/32695794/landman-2024-s01e02-cz-en-dabing-2160p-hevc.mkv",
@@ -323135,15 +323129,22 @@
         "display_name": "Landman S01E02 Dreamers and Losers 4K CZ Dabing",
         "prepared_at": "2026-11-08T23:02:04.080497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927408",
-        "size_bytes": 6436827080
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927408",
+          "size_bytes": 6436827080,
+          "source_bytes_read": 6436827080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32695794",
+        "source_url": "https://sdilej.cz/32695794/landman-2024-s01e02-cz-en-dabing-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927408",
-        "size_bytes": 6436827080,
-        "source_bytes_read": 6436827080,
-        "http_status": 201
+        "display_name": "Landman S01E02 Dreamers and Losers 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T23:13:00.397236+00:00"
       }
     }
   },
@@ -323152,5 +323153,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T23:12:53.021102+00:00"
+  "updated_at": "2026-11-08T23:13:00.397251+00:00"
 }
