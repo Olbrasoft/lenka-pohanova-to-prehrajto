@@ -304885,12 +304885,6 @@
     },
     "1069:5:8": {
       "episode_key": "mentalista:s5:e8",
-      "claim": {
-        "worker_id": "48153316b5f64f15b1d590456c040abd-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:20:52.458704+00:00",
-        "lease_expires_at": "2026-11-08T07:20:52.458720+00:00"
-      },
       "source": {
         "source_id": "34917564",
         "source_url": "https://sdilej.cz/34917564/-mentalista-s05e08-rudy-zapad-cz-dabing-.mkv",
@@ -304915,15 +304909,22 @@
         "display_name": "The Mentalist S05E08 Red Sails in the Sunset 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:20:57.328877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903649",
-        "size_bytes": 687278271
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903649",
+          "size_bytes": 687278271,
+          "source_bytes_read": 687278271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34917564",
+        "source_url": "https://sdilej.cz/34917564/-mentalista-s05e08-rudy-zapad-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903649",
-        "size_bytes": 687278271,
-        "source_bytes_read": 687278271,
-        "http_status": 201
+        "display_name": "The Mentalist S05E08 Red Sails in the Sunset 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:22:13.088291+00:00"
       }
     },
     "1069:5:9": {
@@ -305006,5 +305007,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:22:09.326757+00:00"
+  "updated_at": "2026-11-08T01:22:13.088304+00:00"
 }
