@@ -313157,12 +313157,6 @@
     },
     "119:2:3": {
       "episode_key": "původní:s2:e3",
-      "claim": {
-        "worker_id": "f86c30385a2a4485b265b93ee6161ed0-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T09:28:12.102866+00:00",
-        "lease_expires_at": "2026-11-08T15:28:12.102886+00:00"
-      },
       "source": {
         "source_id": "30456971",
         "source_url": "https://sdilej.cz/30456971/the-originals-s02e03.mkv",
@@ -313187,15 +313181,22 @@
         "display_name": "The Originals S02E03 Every Mother's Son 1080p CZ Dabing",
         "prepared_at": "2026-11-08T09:28:23.609429+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30913418",
-        "size_bytes": 1993284965
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30913418",
+          "size_bytes": 1993284965,
+          "source_bytes_read": 1993284965,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30456971",
+        "source_url": "https://sdilej.cz/30456971/the-originals-s02e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30913418",
-        "size_bytes": 1993284965,
-        "source_bytes_read": 1993284965,
-        "http_status": 201
+        "display_name": "The Originals S02E03 Every Mother's Son 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T09:41:04.198253+00:00"
       }
     },
     "119:2:4": {
@@ -313329,5 +313330,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T09:41:01.571861+00:00"
+  "updated_at": "2026-11-08T09:41:04.198274+00:00"
 }
