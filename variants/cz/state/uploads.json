@@ -312761,12 +312761,6 @@
     },
     "119:1:16": {
       "episode_key": "původní:s1:e16",
-      "claim": {
-        "worker_id": "1a9f0da37bcc4c279b14bfb2553bfd89-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:57:51.666938+00:00",
-        "lease_expires_at": "2026-11-08T14:57:51.666948+00:00"
-      },
       "source": {
         "source_id": "31994448",
         "source_url": "https://sdilej.cz/31994448/puvodni-s01e16-cz-dab-.mp4",
@@ -312791,15 +312785,22 @@
         "display_name": "The Originals S01E16 Farewell to Storyville 1080p CZ Dabing",
         "prepared_at": "2026-11-08T08:57:54.718264+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912875",
-        "size_bytes": 614425475
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912875",
+          "size_bytes": 614425475,
+          "source_bytes_read": 614425475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994448",
+        "source_url": "https://sdilej.cz/31994448/puvodni-s01e16-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912875",
-        "size_bytes": 614425475,
-        "source_bytes_read": 614425475,
-        "http_status": 201
+        "display_name": "The Originals S01E16 Farewell to Storyville 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T08:59:01.841391+00:00"
       }
     },
     "119:1:17": {
@@ -312878,5 +312879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:58:59.127560+00:00"
+  "updated_at": "2026-11-08T08:59:01.841405+00:00"
 }
