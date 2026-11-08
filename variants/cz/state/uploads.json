@@ -307921,12 +307921,6 @@
     },
     "1165:2:11": {
       "episode_key": "dobré místo:s2:e11",
-      "claim": {
-        "worker_id": "e8e0254933db4d25955a418a6f1eef50-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T04:00:42.846883+00:00",
-        "lease_expires_at": "2026-11-08T10:00:42.846893+00:00"
-      },
       "source": {
         "source_id": "26262141",
         "source_url": "https://sdilej.cz/26262141/dobre.misto.s02e11.hdtv.cz.avi",
@@ -307951,15 +307945,22 @@
         "display_name": "The Good Place S02E11 The Burrito SD CZ Dabing",
         "prepared_at": "2026-11-08T04:00:46.820161+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906925",
-        "size_bytes": 323437352
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906925",
+          "size_bytes": 323437352,
+          "source_bytes_read": 323437352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26262141",
+        "source_url": "https://sdilej.cz/26262141/dobre.misto.s02e11.hdtv.cz.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906925",
-        "size_bytes": 323437352,
-        "source_bytes_read": 323437352,
-        "http_status": 201
+        "display_name": "The Good Place S02E11 The Burrito SD CZ Dabing",
+        "uploaded_at": "2026-11-08T04:01:45.057112+00:00"
       }
     },
     "1165:2:12": {
@@ -308042,5 +308043,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:01:40.772312+00:00"
+  "updated_at": "2026-11-08T04:01:45.057128+00:00"
 }
