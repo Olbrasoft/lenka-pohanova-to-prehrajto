@@ -317886,12 +317886,6 @@
     },
     "1196:3:14": {
       "episode_key": "ve službách fbi:s3:e14",
-      "claim": {
-        "worker_id": "e9207362bcb44bfe8ff42ad4fe44422b-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T17:18:41.907274+00:00",
-        "lease_expires_at": "2026-11-08T23:18:41.907288+00:00"
-      },
       "source": {
         "source_id": "10100731",
         "source_url": "https://sdilej.cz/10100731/ve-sluzbach-fbi-s03e14-cz-dab.2011-jad.avi",
@@ -317916,15 +317910,22 @@
         "display_name": "White Collar S03E14 Pulling Strings SD CZ Dabing",
         "prepared_at": "2026-11-08T17:18:47.605371+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30922850",
-        "size_bytes": 380751136
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30922850",
+          "size_bytes": 380751136,
+          "source_bytes_read": 380751136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10100731",
+        "source_url": "https://sdilej.cz/10100731/ve-sluzbach-fbi-s03e14-cz-dab.2011-jad.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30922850",
-        "size_bytes": 380751136,
-        "source_bytes_read": 380751136,
-        "http_status": 201
+        "display_name": "White Collar S03E14 Pulling Strings SD CZ Dabing",
+        "uploaded_at": "2026-11-08T17:19:33.408214+00:00"
       }
     },
     "1196:3:15": {
@@ -317970,5 +317971,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T17:19:28.811931+00:00"
+  "updated_at": "2026-11-08T17:19:33.408236+00:00"
 }
