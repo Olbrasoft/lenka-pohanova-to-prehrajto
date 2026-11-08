@@ -320898,12 +320898,6 @@
     },
     "1162:2:3": {
       "episode_key": "pod černou vlajkou:s2:e3",
-      "claim": {
-        "worker_id": "f7872cc3aad24d29b1fb1964e92065f1-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T21:35:04.959024+00:00",
-        "lease_expires_at": "2026-11-09T03:35:04.959033+00:00"
-      },
       "source": {
         "source_id": "29780902",
         "source_url": "https://sdilej.cz/29780902/black.sails-s02e03-1080p-cz-dabing.mkv",
@@ -320928,15 +320922,22 @@
         "display_name": "Black Sails S02E03 XI. 1080p CZ Dabing",
         "prepared_at": "2026-11-08T21:35:12.906791+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926278",
-        "size_bytes": 917911447
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926278",
+          "size_bytes": 917911447,
+          "source_bytes_read": 917911447,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29780902",
+        "source_url": "https://sdilej.cz/29780902/black.sails-s02e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926278",
-        "size_bytes": 917911447,
-        "source_bytes_read": 917911447,
-        "http_status": 201
+        "display_name": "Black Sails S02E03 XI. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T21:37:17.629333+00:00"
       }
     },
     "1162:2:4": {
@@ -320982,5 +320983,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T21:37:10.711523+00:00"
+  "updated_at": "2026-11-08T21:37:17.629348+00:00"
 }
