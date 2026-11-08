@@ -308831,12 +308831,6 @@
     },
     "1165:4:9": {
       "episode_key": "dobré místo:s4:e9",
-      "claim": {
-        "worker_id": "ef6372dc8c6140118f541d9bce0a736b-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T05:01:54.952730+00:00",
-        "lease_expires_at": "2026-11-08T11:01:54.952742+00:00"
-      },
       "source": {
         "source_id": "26262267",
         "source_url": "https://sdilej.cz/26262267/dobre.misto.s04e09.720i.hdtv.cz.mp4",
@@ -308861,15 +308855,22 @@
         "display_name": "The Good Place S04E09 The Answer 720p CZ Dabing",
         "prepared_at": "2026-11-08T05:01:58.840538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908361",
-        "size_bytes": 156914274
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908361",
+          "size_bytes": 156914274,
+          "source_bytes_read": 156914274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26262267",
+        "source_url": "https://sdilej.cz/26262267/dobre.misto.s04e09.720i.hdtv.cz.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908361",
-        "size_bytes": 156914274,
-        "source_bytes_read": 156914274,
-        "http_status": 201
+        "display_name": "The Good Place S04E09 The Answer 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T05:02:30.799348+00:00"
       }
     }
   },
@@ -308878,5 +308879,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T05:02:25.991335+00:00"
+  "updated_at": "2026-11-08T05:02:30.799365+00:00"
 }
