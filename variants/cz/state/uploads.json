@@ -322137,12 +322137,6 @@
     },
     "1244:1:3": {
       "episode_key": "jistě, pane ministře:s1:e3",
-      "claim": {
-        "worker_id": "f21a07458115417c835de6cb7e3c511e-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:23:31.581409+00:00",
-        "lease_expires_at": "2026-11-09T04:23:31.581419+00:00"
-      },
       "source": {
         "source_id": "34830467",
         "source_url": "https://sdilej.cz/34830467/jiste-pane-ministre-s01e03-1080p-cz.mkv",
@@ -322167,15 +322161,22 @@
         "display_name": "Yes Minister S01E03 The Economy Drive 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:23:37.609517+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926858",
-        "size_bytes": 1096918581
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926858",
+          "size_bytes": 1096918581,
+          "source_bytes_read": 1096918581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830467",
+        "source_url": "https://sdilej.cz/34830467/jiste-pane-ministre-s01e03-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926858",
-        "size_bytes": 1096918581,
-        "source_bytes_read": 1096918581,
-        "http_status": 201
+        "display_name": "Yes Minister S01E03 The Economy Drive 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:25:45.973095+00:00"
       }
     },
     "1244:1:4": {
@@ -322221,5 +322222,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:25:43.314682+00:00"
+  "updated_at": "2026-11-08T22:25:45.973110+00:00"
 }
