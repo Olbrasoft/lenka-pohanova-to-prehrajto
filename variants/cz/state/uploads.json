@@ -306909,12 +306909,6 @@
     },
     "1069:7:11": {
       "episode_key": "mentalista:s7:e11",
-      "claim": {
-        "worker_id": "cc1b61fc10484e6783755f76519441a9-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:25:49.506171+00:00",
-        "lease_expires_at": "2026-11-08T09:25:49.506182+00:00"
-      },
       "source": {
         "source_id": "33065913",
         "source_url": "https://sdilej.cz/33065913/the-mentalist-s07e11-byzantium.mkv",
@@ -306939,15 +306933,22 @@
         "display_name": "The Mentalist S07E11 Byzantium 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:25:58.759929+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906220",
-        "size_bytes": 732712932
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906220",
+          "size_bytes": 732712932,
+          "source_bytes_read": 732712932,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33065913",
+        "source_url": "https://sdilej.cz/33065913/the-mentalist-s07e11-byzantium.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906220",
-        "size_bytes": 732712932,
-        "source_bytes_read": 732712932,
-        "http_status": 201
+        "display_name": "The Mentalist S07E11 Byzantium 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:29:10.209898+00:00"
       }
     },
     "1069:7:12": {
@@ -307000,5 +307001,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:29:05.107475+00:00"
+  "updated_at": "2026-11-08T03:29:10.209911+00:00"
 }
