@@ -312497,12 +312497,6 @@
     },
     "119:1:10": {
       "episode_key": "původní:s1:e10",
-      "claim": {
-        "worker_id": "22d95b213469409e853599320d0ae7cd-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:41:43.666484+00:00",
-        "lease_expires_at": "2026-11-08T14:41:43.666493+00:00"
-      },
       "source": {
         "source_id": "31994436",
         "source_url": "https://sdilej.cz/31994436/puvodni-s01e10-cz-dab-.mp4",
@@ -312527,15 +312521,22 @@
         "display_name": "The Originals S01E10 The Casket Girls 1080p CZ Dabing",
         "prepared_at": "2026-11-08T08:41:53.337822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912486",
-        "size_bytes": 612444626
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912486",
+          "size_bytes": 612444626,
+          "source_bytes_read": 612444626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994436",
+        "source_url": "https://sdilej.cz/31994436/puvodni-s01e10-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912486",
-        "size_bytes": 612444626,
-        "source_bytes_read": 612444626,
-        "http_status": 201
+        "display_name": "The Originals S01E10 The Casket Girls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T08:44:03.688254+00:00"
       }
     },
     "119:1:11": {
@@ -312618,5 +312619,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:43:59.181791+00:00"
+  "updated_at": "2026-11-08T08:44:03.688269+00:00"
 }
