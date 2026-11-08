@@ -320458,12 +320458,6 @@
     },
     "3274:7:23": {
       "episode_key": "spongebob v kalhotách:s7:e23",
-      "claim": {
-        "worker_id": "a0381efbbb76418c8502cfc2cf4c03d1-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:53:53.216089+00:00",
-        "lease_expires_at": "2026-11-09T02:53:53.216099+00:00"
-      },
       "source": {
         "source_id": "27937755",
         "source_url": "https://sdilej.cz/27937755/spongebob-v-kalhotach-07x23.avi",
@@ -320488,15 +320482,22 @@
         "display_name": "SpongeBob SquarePants S07E23 SpongeBob's Last Stand SD CZ Dabing",
         "prepared_at": "2026-11-08T20:54:01.033352+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925696",
-        "size_bytes": 197386060
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925696",
+          "size_bytes": 197386060,
+          "source_bytes_read": 197386060,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27937755",
+        "source_url": "https://sdilej.cz/27937755/spongebob-v-kalhotach-07x23.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925696",
-        "size_bytes": 197386060,
-        "source_bytes_read": 197386060,
-        "http_status": 201
+        "display_name": "SpongeBob SquarePants S07E23 SpongeBob's Last Stand SD CZ Dabing",
+        "uploaded_at": "2026-11-08T20:54:44.688454+00:00"
       }
     }
   },
@@ -320505,5 +320506,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:54:41.769685+00:00"
+  "updated_at": "2026-11-08T20:54:44.688468+00:00"
 }
