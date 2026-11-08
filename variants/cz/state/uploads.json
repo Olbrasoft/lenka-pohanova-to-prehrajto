@@ -309335,12 +309335,6 @@
     },
     "73:1:1": {
       "episode_key": "peacemaker:s1:e1",
-      "claim": {
-        "worker_id": "b4e299bf4ab94cfd9ca4cae2612505e4-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T05:18:21.836408+00:00",
-        "lease_expires_at": "2026-11-08T11:18:21.836420+00:00"
-      },
       "source": {
         "source_id": "34869422",
         "source_url": "https://sdilej.cz/34869422/peacemaker-s01e01-cz.en-2160p-chmeli.mkv",
@@ -309365,15 +309359,22 @@
         "display_name": "Peacemaker S01E01 A Whole New Whirled 4K CZ Dabing",
         "prepared_at": "2026-11-08T05:18:24.585328+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908693",
-        "size_bytes": 2193663190
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908693",
+          "size_bytes": 2193663190,
+          "source_bytes_read": 2193663190,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34869422",
+        "source_url": "https://sdilej.cz/34869422/peacemaker-s01e01-cz.en-2160p-chmeli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908693",
-        "size_bytes": 2193663190,
-        "source_bytes_read": 2193663190,
-        "http_status": 201
+        "display_name": "Peacemaker S01E01 A Whole New Whirled 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T05:26:01.796088+00:00"
       }
     },
     "73:1:2": {
@@ -309419,5 +309420,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T05:25:57.763273+00:00"
+  "updated_at": "2026-11-08T05:26:01.796104+00:00"
 }
