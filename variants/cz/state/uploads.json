@@ -307757,12 +307757,6 @@
     },
     "1165:2:7": {
       "episode_key": "dobré místo:s2:e7",
-      "claim": {
-        "worker_id": "af953fc385074f8887eda1fa4533b5f2-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:58:08.995974+00:00",
-        "lease_expires_at": "2026-11-08T09:58:08.995985+00:00"
-      },
       "source": {
         "source_id": "33816261",
         "source_url": "https://sdilej.cz/33816261/the-good-place-s02e07-dobre-misto-fhd-1080p-cz.mkv",
@@ -307787,15 +307781,22 @@
         "display_name": "The Good Place S02E07 Derek 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:58:19.981245+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906851",
-        "size_bytes": 278422928
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906851",
+          "size_bytes": 278422928,
+          "source_bytes_read": 278422928,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816261",
+        "source_url": "https://sdilej.cz/33816261/the-good-place-s02e07-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906851",
-        "size_bytes": 278422928,
-        "source_bytes_read": 278422928,
-        "http_status": 201
+        "display_name": "The Good Place S02E07 Derek 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:59:11.557743+00:00"
       }
     }
   },
@@ -307804,5 +307805,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:59:09.134776+00:00"
+  "updated_at": "2026-11-08T03:59:11.557757+00:00"
 }
