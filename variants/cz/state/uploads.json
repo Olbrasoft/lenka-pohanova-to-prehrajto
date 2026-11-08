@@ -322049,12 +322049,6 @@
     },
     "1244:1:1": {
       "episode_key": "jistě, pane ministře:s1:e1",
-      "claim": {
-        "worker_id": "6383196a06c8422b97ff471382873426-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:22:58.568824+00:00",
-        "lease_expires_at": "2026-11-09T04:22:58.568835+00:00"
-      },
       "source": {
         "source_id": "34830478",
         "source_url": "https://sdilej.cz/34830478/jiste-pane-ministre-s01e01-1080p-cz.mkv",
@@ -322079,15 +322073,22 @@
         "display_name": "Yes Minister S01E01 Open Government 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:23:08.229771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926852",
-        "size_bytes": 1097284392
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926852",
+          "size_bytes": 1097284392,
+          "source_bytes_read": 1097284392,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830478",
+        "source_url": "https://sdilej.cz/34830478/jiste-pane-ministre-s01e01-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926852",
-        "size_bytes": 1097284392,
-        "source_bytes_read": 1097284392,
-        "http_status": 201
+        "display_name": "Yes Minister S01E01 Open Government 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:25:10.659361+00:00"
       }
     },
     "1244:1:2": {
@@ -322176,5 +322177,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:25:05.373248+00:00"
+  "updated_at": "2026-11-08T22:25:10.659374+00:00"
 }
