@@ -317600,12 +317600,6 @@
     },
     "1196:3:7": {
       "episode_key": "ve službách fbi:s3:e7",
-      "claim": {
-        "worker_id": "4c9e12d1034e43c98494daaabe7c8f79-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T17:12:58.463385+00:00",
-        "lease_expires_at": "2026-11-08T23:12:58.463396+00:00"
-      },
       "source": {
         "source_id": "29058304",
         "source_url": "https://sdilej.cz/29058304/ve-sluzbach-fbi-03x07-cz-dabong-zdeno791.avi",
@@ -317630,15 +317624,22 @@
         "display_name": "White Collar S03E07 Taking Account SD CZ Dabing",
         "prepared_at": "2026-11-08T17:13:02.685358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30922777",
-        "size_bytes": 373793148
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30922777",
+          "size_bytes": 373793148,
+          "source_bytes_read": 373793148,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29058304",
+        "source_url": "https://sdilej.cz/29058304/ve-sluzbach-fbi-03x07-cz-dabong-zdeno791.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30922777",
-        "size_bytes": 373793148,
-        "source_bytes_read": 373793148,
-        "http_status": 201
+        "display_name": "White Collar S03E07 Taking Account SD CZ Dabing",
+        "uploaded_at": "2026-11-08T17:13:57.610016+00:00"
       }
     },
     "1196:3:8": {
@@ -317684,5 +317685,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T17:13:52.689357+00:00"
+  "updated_at": "2026-11-08T17:13:57.610034+00:00"
 }
