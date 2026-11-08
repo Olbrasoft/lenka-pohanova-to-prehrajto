@@ -306293,12 +306293,6 @@
     },
     "1069:6:19": {
       "episode_key": "mentalista:s6:e19",
-      "claim": {
-        "worker_id": "b2312016a0a1453e9ad2a6c2e58172d5-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:51:41.205888+00:00",
-        "lease_expires_at": "2026-11-08T08:51:41.205898+00:00"
-      },
       "source": {
         "source_id": "27425822",
         "source_url": "https://sdilej.cz/27425822/the-mentalist-s06e19-brown-eyed-girls.mkv",
@@ -306323,15 +306317,22 @@
         "display_name": "The Mentalist S06E19 Brown Eyed Girls 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:51:50.910758+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30905484",
-        "size_bytes": 912728011
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30905484",
+          "size_bytes": 912728011,
+          "source_bytes_read": 912728011,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27425822",
+        "source_url": "https://sdilej.cz/27425822/the-mentalist-s06e19-brown-eyed-girls.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30905484",
-        "size_bytes": 912728011,
-        "source_bytes_read": 912728011,
-        "http_status": 201
+        "display_name": "The Mentalist S06E19 Brown Eyed Girls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:55:19.124429+00:00"
       }
     },
     "1069:6:20": {
@@ -306414,5 +306415,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:55:12.103943+00:00"
+  "updated_at": "2026-11-08T02:55:19.124447+00:00"
 }
