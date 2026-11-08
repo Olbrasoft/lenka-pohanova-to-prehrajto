@@ -313333,12 +313333,6 @@
     },
     "119:2:7": {
       "episode_key": "původní:s2:e7",
-      "claim": {
-        "worker_id": "c970547a95124e3fab2ba6238400f416-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T09:43:55.580161+00:00",
-        "lease_expires_at": "2026-11-08T15:43:55.580175+00:00"
-      },
       "source": {
         "source_id": "33203606",
         "source_url": "https://sdilej.cz/33203606/puvodni-s02e07-22-2014-cz-dab-720p-honit-se-za-dablem.mkv",
@@ -313363,15 +313357,22 @@
         "display_name": "The Originals S02E07 Chasing The Devil's Tail 720p CZ Dabing",
         "prepared_at": "2026-11-08T09:43:59.772653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30913750",
-        "size_bytes": 604004490
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30913750",
+          "size_bytes": 604004490,
+          "source_bytes_read": 604004490,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203606",
+        "source_url": "https://sdilej.cz/33203606/puvodni-s02e07-22-2014-cz-dab-720p-honit-se-za-dablem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30913750",
-        "size_bytes": 604004490,
-        "source_bytes_read": 604004490,
-        "http_status": 201
+        "display_name": "The Originals S02E07 Chasing The Devil's Tail 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T09:46:12.115586+00:00"
       }
     },
     "119:2:8": {
@@ -313454,5 +313455,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T09:46:06.068488+00:00"
+  "updated_at": "2026-11-08T09:46:12.115603+00:00"
 }
