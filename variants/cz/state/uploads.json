@@ -320823,12 +320823,6 @@
     },
     "1162:2:1": {
       "episode_key": "pod černou vlajkou:s2:e1",
-      "claim": {
-        "worker_id": "cbe47e5a88594f61b0fd939ef7d693cf-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T21:27:48.652561+00:00",
-        "lease_expires_at": "2026-11-09T03:27:48.652571+00:00"
-      },
       "source": {
         "source_id": "29780859",
         "source_url": "https://sdilej.cz/29780859/black.sails-s02e01-1080p-cz-dabing.mkv",
@@ -320853,15 +320847,22 @@
         "display_name": "Black Sails S02E01 IX. 1080p CZ Dabing",
         "prepared_at": "2026-11-08T21:27:53.607478+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926159",
-        "size_bytes": 917279963
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926159",
+          "size_bytes": 917279963,
+          "source_bytes_read": 917279963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29780859",
+        "source_url": "https://sdilej.cz/29780859/black.sails-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926159",
-        "size_bytes": 917279963,
-        "source_bytes_read": 917279963,
-        "http_status": 201
+        "display_name": "Black Sails S02E01 IX. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T21:32:32.544227+00:00"
       }
     }
   },
@@ -320870,5 +320871,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T21:32:27.337704+00:00"
+  "updated_at": "2026-11-08T21:32:32.544240+00:00"
 }
