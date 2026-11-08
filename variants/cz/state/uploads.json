@@ -308699,12 +308699,6 @@
     },
     "1165:4:6": {
       "episode_key": "dobré místo:s4:e6",
-      "claim": {
-        "worker_id": "ce3428a40f58468ea99b3dc613f8d899-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T04:49:52.690761+00:00",
-        "lease_expires_at": "2026-11-08T10:49:52.690773+00:00"
-      },
       "source": {
         "source_id": "33816422",
         "source_url": "https://sdilej.cz/33816422/the-good-place-s04e06-dobre-misto-fhd-1080p-cz.mkv",
@@ -308729,15 +308723,22 @@
         "display_name": "The Good Place S04E06 A Chip Driver Mystery 1080p CZ Dabing",
         "prepared_at": "2026-11-08T04:49:58.193761+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908124",
-        "size_bytes": 737943305
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908124",
+          "size_bytes": 737943305,
+          "source_bytes_read": 737943305,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816422",
+        "source_url": "https://sdilej.cz/33816422/the-good-place-s04e06-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908124",
-        "size_bytes": 737943305,
-        "source_bytes_read": 737943305,
-        "http_status": 201
+        "display_name": "The Good Place S04E06 A Chip Driver Mystery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T04:53:53.662976+00:00"
       }
     }
   },
@@ -308746,5 +308747,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:53:46.238503+00:00"
+  "updated_at": "2026-11-08T04:53:53.662996+00:00"
 }
