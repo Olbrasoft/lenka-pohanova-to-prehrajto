@@ -303257,12 +303257,6 @@
     },
     "1069:3:19": {
       "episode_key": "mentalista:s3:e19",
-      "claim": {
-        "worker_id": "8e81cfcfe49d4d7fa18ef9dbcf51f64a-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:13:04.429245+00:00",
-        "lease_expires_at": "2026-11-08T06:13:04.429256+00:00"
-      },
       "source": {
         "source_id": "33063964",
         "source_url": "https://sdilej.cz/33063964/the-mentalist-s03e19-every-rose-has-its-thorn.mkv",
@@ -303287,15 +303281,22 @@
         "display_name": "The Mentalist S03E19 Every Rose Has Its Thorn 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:13:07.185086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902343",
-        "size_bytes": 753426959
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902343",
+          "size_bytes": 753426959,
+          "source_bytes_read": 753426959,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33063964",
+        "source_url": "https://sdilej.cz/33063964/the-mentalist-s03e19-every-rose-has-its-thorn.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902343",
-        "size_bytes": 753426959,
-        "source_bytes_read": 753426959,
-        "http_status": 201
+        "display_name": "The Mentalist S03E19 Every Rose Has Its Thorn 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:15:52.682777+00:00"
       }
     },
     "1069:3:20": {
@@ -303385,5 +303386,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:15:47.024018+00:00"
+  "updated_at": "2026-11-08T00:15:52.682785+00:00"
 }
