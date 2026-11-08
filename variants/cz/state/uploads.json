@@ -307267,12 +307267,6 @@
     },
     "1165:1:9": {
       "episode_key": "dobré místo:s1:e9",
-      "claim": {
-        "worker_id": "1ba168c1d93e4ca19efa66409cada9ed-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:46:43.665896+00:00",
-        "lease_expires_at": "2026-11-08T09:46:43.665906+00:00"
-      },
       "source": {
         "source_id": "33816201",
         "source_url": "https://sdilej.cz/33816201/the-good-place-s01e09-dobre-misto-fhd-1080p-cz.mkv",
@@ -307297,15 +307291,22 @@
         "display_name": "The Good Place S01E09 …Someone Like Me as a Member 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:46:47.349222+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906607",
-        "size_bytes": 294018655
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906607",
+          "size_bytes": 294018655,
+          "source_bytes_read": 294018655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816201",
+        "source_url": "https://sdilej.cz/33816201/the-good-place-s01e09-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906607",
-        "size_bytes": 294018655,
-        "source_bytes_read": 294018655,
-        "http_status": 201
+        "display_name": "The Good Place S01E09 …Someone Like Me as a Member 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:47:41.813355+00:00"
       }
     },
     "1165:1:10": {
@@ -307351,5 +307352,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:47:39.397014+00:00"
+  "updated_at": "2026-11-08T03:47:41.813370+00:00"
 }
