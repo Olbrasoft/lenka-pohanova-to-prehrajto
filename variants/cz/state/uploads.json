@@ -305017,12 +305017,6 @@
     },
     "1069:5:11": {
       "episode_key": "mentalista:s5:e11",
-      "claim": {
-        "worker_id": "3bff440e46924a11a25b1889bb8e60c2-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:34:59.792552+00:00",
-        "lease_expires_at": "2026-11-08T07:34:59.792560+00:00"
-      },
       "source": {
         "source_id": "28169861",
         "source_url": "https://sdilej.cz/28169861/mentalista-s05e11-rubinovy-nahrdelnik.mkv",
@@ -305047,15 +305041,22 @@
         "display_name": "The Mentalist S05E11 Days of Wine and Roses 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:35:04.247583+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903903",
-        "size_bytes": 745626072
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903903",
+          "size_bytes": 745626072,
+          "source_bytes_read": 745626072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28169861",
+        "source_url": "https://sdilej.cz/28169861/mentalista-s05e11-rubinovy-nahrdelnik.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903903",
-        "size_bytes": 745626072,
-        "source_bytes_read": 745626072,
-        "http_status": 201
+        "display_name": "The Mentalist S05E11 Days of Wine and Roses 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:36:41.259735+00:00"
       }
     },
     "1069:5:12": {
@@ -305138,5 +305139,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:36:36.059035+00:00"
+  "updated_at": "2026-11-08T01:36:41.259747+00:00"
 }
