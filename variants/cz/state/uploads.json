@@ -317930,12 +317930,6 @@
     },
     "1196:3:15": {
       "episode_key": "ve službách fbi:s3:e15",
-      "claim": {
-        "worker_id": "179eac7ef7a1482fbd6fd32cf0153b5b-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T17:19:16.035261+00:00",
-        "lease_expires_at": "2026-11-08T23:19:16.035279+00:00"
-      },
       "source": {
         "source_id": "26202255",
         "source_url": "https://sdilej.cz/26202255/ve-sluzbach-fbi-03x15.-na-domaci-mete-dvdrip-cz-ss23-bt-.avi",
@@ -317960,15 +317954,22 @@
         "display_name": "White Collar S03E15 Stealing Home SD CZ Dabing",
         "prepared_at": "2026-11-08T17:19:19.614814+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30922856",
-        "size_bytes": 382322180
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30922856",
+          "size_bytes": 382322180,
+          "source_bytes_read": 382322180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26202255",
+        "source_url": "https://sdilej.cz/26202255/ve-sluzbach-fbi-03x15.-na-domaci-mete-dvdrip-cz-ss23-bt-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30922856",
-        "size_bytes": 382322180,
-        "source_bytes_read": 382322180,
-        "http_status": 201
+        "display_name": "White Collar S03E15 Stealing Home SD CZ Dabing",
+        "uploaded_at": "2026-11-08T17:20:13.325243+00:00"
       }
     }
   },
@@ -317977,5 +317978,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T17:20:09.744152+00:00"
+  "updated_at": "2026-11-08T17:20:13.325264+00:00"
 }
