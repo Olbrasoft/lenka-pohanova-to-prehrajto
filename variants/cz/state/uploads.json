@@ -313112,12 +313112,6 @@
     },
     "119:2:2": {
       "episode_key": "původní:s2:e2",
-      "claim": {
-        "worker_id": "d54af7d743d54e2186db05115fb4d909-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T09:16:59.149633+00:00",
-        "lease_expires_at": "2026-11-08T15:16:59.149848+00:00"
-      },
       "source": {
         "source_id": "33263935",
         "source_url": "https://sdilej.cz/33263935/puvodni-s02e02-cz-dabing-1080p-fhd.mkv",
@@ -313142,15 +313136,22 @@
         "display_name": "The Originals S02E02 Alive and Kicking 1080p CZ Dabing",
         "prepared_at": "2026-11-08T09:17:06.627004+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30913237",
-        "size_bytes": 1566090958
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30913237",
+          "size_bytes": 1566090958,
+          "source_bytes_read": 1566090958,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33263935",
+        "source_url": "https://sdilej.cz/33263935/puvodni-s02e02-cz-dabing-1080p-fhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30913237",
-        "size_bytes": 1566090958,
-        "source_bytes_read": 1566090958,
-        "http_status": 201
+        "display_name": "The Originals S02E02 Alive and Kicking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T09:22:13.331047+00:00"
       }
     }
   },
@@ -313159,5 +313160,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T09:22:10.670437+00:00"
+  "updated_at": "2026-11-08T09:22:13.331066+00:00"
 }
