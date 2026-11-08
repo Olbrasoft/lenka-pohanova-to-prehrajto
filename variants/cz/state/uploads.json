@@ -308530,12 +308530,6 @@
     },
     "1165:4:2": {
       "episode_key": "dobré místo:s4:e2",
-      "claim": {
-        "worker_id": "9d4339b0bc994281963d83d79fd9b1cc-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T04:34:23.551537+00:00",
-        "lease_expires_at": "2026-11-08T10:34:23.551548+00:00"
-      },
       "source": {
         "source_id": "33816393",
         "source_url": "https://sdilej.cz/33816393/the-good-place-s04e02-dobre-misto-fhd-1080p-cz.mkv",
@@ -308560,15 +308554,22 @@
         "display_name": "The Good Place S04E02 A Girl from Arizona (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-08T04:34:37.044512+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30907792",
-        "size_bytes": 895313604
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30907792",
+          "size_bytes": 895313604,
+          "source_bytes_read": 895313604,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816393",
+        "source_url": "https://sdilej.cz/33816393/the-good-place-s04e02-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30907792",
-        "size_bytes": 895313604,
-        "source_bytes_read": 895313604,
-        "http_status": 201
+        "display_name": "The Good Place S04E02 A Girl from Arizona (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T04:37:32.702969+00:00"
       }
     },
     "1165:4:3": {
@@ -308621,5 +308622,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:37:26.271560+00:00"
+  "updated_at": "2026-11-08T04:37:32.702988+00:00"
 }
