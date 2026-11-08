@@ -312057,12 +312057,6 @@
     },
     "566:6:22": {
       "episode_key": "gilmorova děvčata:s6:e22",
-      "claim": {
-        "worker_id": "b2a5d42d9f9c4df19366ef2b93e2b6ef-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:29:35.167037+00:00",
-        "lease_expires_at": "2026-11-08T14:29:35.167051+00:00"
-      },
       "source": {
         "source_id": "12338150",
         "source_url": "https://sdilej.cz/12338150/gilmore.girls.s06e22.louceni.a.rozchody.dvd.xvid.cz-vid.avi",
@@ -312087,15 +312081,22 @@
         "display_name": "Gilmore Girls S06E22 Partings SD CZ Dabing",
         "prepared_at": "2026-11-08T08:29:39.401307+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912268",
-        "size_bytes": 366974976
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912268",
+          "size_bytes": 366974976,
+          "source_bytes_read": 366974976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12338150",
+        "source_url": "https://sdilej.cz/12338150/gilmore.girls.s06e22.louceni.a.rozchody.dvd.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912268",
-        "size_bytes": 366974976,
-        "source_bytes_read": 366974976,
-        "http_status": 201
+        "display_name": "Gilmore Girls S06E22 Partings SD CZ Dabing",
+        "uploaded_at": "2026-11-08T08:31:27.068554+00:00"
       }
     },
     "119:1:1": {
@@ -312174,5 +312175,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:31:24.049729+00:00"
+  "updated_at": "2026-11-08T08:31:27.068578+00:00"
 }
