@@ -314485,12 +314485,6 @@
     },
     "119:3:12": {
       "episode_key": "původní:s3:e12",
-      "claim": {
-        "worker_id": "c74dc4c14c7c4f00944e0a4bf4565054-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T11:29:10.183313+00:00",
-        "lease_expires_at": "2026-11-08T17:29:10.183329+00:00"
-      },
       "source": {
         "source_id": "30457267",
         "source_url": "https://sdilej.cz/30457267/the-originals-s03e12.mkv",
@@ -314514,7 +314508,13 @@
         },
         "display_name": "The Originals S03E12 Dead Angels 1080p CZ Dabing",
         "prepared_at": "2026-11-08T11:29:15.813593+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-08T11:29:31.901201+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -314522,5 +314522,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T11:29:26.111531+00:00"
+  "updated_at": "2026-11-08T11:29:31.901220+00:00"
 }
