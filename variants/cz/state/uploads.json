@@ -303294,12 +303294,6 @@
     },
     "1069:3:20": {
       "episode_key": "mentalista:s3:e20",
-      "claim": {
-        "worker_id": "89eefd80bc9248f289f50ca647961faa-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:13:33.297988+00:00",
-        "lease_expires_at": "2026-11-08T06:13:33.297997+00:00"
-      },
       "source": {
         "source_id": "22059263",
         "source_url": "https://sdilej.cz/22059263/mentalista-the-mentalist-s03e20-redacted-1080p-hevc-cz-dabing.mkv",
@@ -303324,15 +303318,22 @@
         "display_name": "The Mentalist S03E20 Redacted 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:13:36.115470+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902350",
-        "size_bytes": 749067285
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902350",
+          "size_bytes": 749067285,
+          "source_bytes_read": 749067285,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22059263",
+        "source_url": "https://sdilej.cz/22059263/mentalista-the-mentalist-s03e20-redacted-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902350",
-        "size_bytes": 749067285,
-        "source_bytes_read": 749067285,
-        "http_status": 201
+        "display_name": "The Mentalist S03E20 Redacted 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:15:44.830827+00:00"
       }
     },
     "1069:3:21": {
@@ -303378,5 +303379,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:15:39.158821+00:00"
+  "updated_at": "2026-11-08T00:15:44.830841+00:00"
 }
