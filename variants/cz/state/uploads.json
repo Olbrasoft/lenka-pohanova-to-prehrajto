@@ -314743,12 +314743,6 @@
     },
     "119:3:18": {
       "episode_key": "původní:s3:e18",
-      "claim": {
-        "worker_id": "f4440d299bde487d87c9d06a66b64461-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T11:58:35.811724+00:00",
-        "lease_expires_at": "2026-11-08T17:58:35.811738+00:00"
-      },
       "source": {
         "source_id": "30457290",
         "source_url": "https://sdilej.cz/30457290/the-originals-s03e18.mkv",
@@ -314773,15 +314767,22 @@
         "display_name": "The Originals S03E18 The Devil Comes Here and Sighs 1080p CZ Dabing",
         "prepared_at": "2026-11-08T11:58:43.541267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30916705",
-        "size_bytes": 1955472226
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30916705",
+          "size_bytes": 1955472226,
+          "source_bytes_read": 1955472226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457290",
+        "source_url": "https://sdilej.cz/30457290/the-originals-s03e18.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30916705",
-        "size_bytes": 1955472226,
-        "source_bytes_read": 1955472226,
-        "http_status": 201
+        "display_name": "The Originals S03E18 The Devil Comes Here and Sighs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T12:08:01.233336+00:00"
       }
     },
     "119:3:19": {
@@ -314834,5 +314835,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T12:07:58.613575+00:00"
+  "updated_at": "2026-11-08T12:08:01.233354+00:00"
 }
