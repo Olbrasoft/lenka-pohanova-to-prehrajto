@@ -309725,12 +309725,6 @@
     },
     "73:2:2": {
       "episode_key": "peacemaker:s2:e2",
-      "claim": {
-        "worker_id": "3244dbd22eb1470fb2b418f785f7f990-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T06:23:16.888602+00:00",
-        "lease_expires_at": "2026-11-08T12:23:16.888614+00:00"
-      },
       "source": {
         "source_id": "34945838",
         "source_url": "https://sdilej.cz/34945838/peacemaker-s02e02-cz-dabing.mkv",
@@ -309755,15 +309749,22 @@
         "display_name": "Peacemaker S02E02 A Man Is Only As Good As His Bird 4K CZ Dabing",
         "prepared_at": "2026-11-08T06:23:25.233244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30909745",
-        "size_bytes": 2573439870
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30909745",
+          "size_bytes": 2573439870,
+          "source_bytes_read": 2573439870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34945838",
+        "source_url": "https://sdilej.cz/34945838/peacemaker-s02e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30909745",
-        "size_bytes": 2573439870,
-        "source_bytes_read": 2573439870,
-        "http_status": 201
+        "display_name": "Peacemaker S02E02 A Man Is Only As Good As His Bird 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T06:36:54.320334+00:00"
       }
     },
     "73:2:3": {
@@ -309860,5 +309861,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T06:36:51.893609+00:00"
+  "updated_at": "2026-11-08T06:36:54.320352+00:00"
 }
