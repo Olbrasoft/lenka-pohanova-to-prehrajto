@@ -314448,12 +314448,6 @@
     },
     "119:3:11": {
       "episode_key": "původní:s3:e11",
-      "claim": {
-        "worker_id": "87667680c4f946f3b20ddf3e33957207-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T11:28:37.863271+00:00",
-        "lease_expires_at": "2026-11-08T17:28:37.863288+00:00"
-      },
       "source": {
         "source_id": "30457263",
         "source_url": "https://sdilej.cz/30457263/the-originals-s03e11.mkv",
@@ -314477,7 +314471,13 @@
         },
         "display_name": "The Originals S03E11 Wild at Heart 1080p CZ Dabing",
         "prepared_at": "2026-11-08T11:28:45.487202+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-08T11:28:59.300438+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -314485,5 +314485,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T11:28:56.419578+00:00"
+  "updated_at": "2026-11-08T11:28:59.300454+00:00"
 }
