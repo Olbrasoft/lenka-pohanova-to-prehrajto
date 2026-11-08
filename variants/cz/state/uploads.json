@@ -306167,12 +306167,6 @@
     },
     "1069:6:16": {
       "episode_key": "mentalista:s6:e16",
-      "claim": {
-        "worker_id": "8e1e9bd8a0034fd5a812e6d96cf8195b-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:41:47.935230+00:00",
-        "lease_expires_at": "2026-11-08T08:41:47.935239+00:00"
-      },
       "source": {
         "source_id": "32443508",
         "source_url": "https://sdilej.cz/32443508/mentalista-s06e16-fialky.mkv",
@@ -306197,15 +306191,22 @@
         "display_name": "The Mentalist S06E16 Violets 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:41:52.999308+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30905299",
-        "size_bytes": 835738881
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30905299",
+          "size_bytes": 835738881,
+          "source_bytes_read": 835738881,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443508",
+        "source_url": "https://sdilej.cz/32443508/mentalista-s06e16-fialky.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30905299",
-        "size_bytes": 835738881,
-        "source_bytes_read": 835738881,
-        "http_status": 201
+        "display_name": "The Mentalist S06E16 Violets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:46:03.654516+00:00"
       }
     }
   },
@@ -306214,5 +306215,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:45:57.824214+00:00"
+  "updated_at": "2026-11-08T02:46:03.654534+00:00"
 }
