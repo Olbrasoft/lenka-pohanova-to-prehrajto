@@ -311837,12 +311837,6 @@
     },
     "566:6:17": {
       "episode_key": "gilmorova děvčata:s6:e17",
-      "claim": {
-        "worker_id": "101c45e2fc524842b4cbfbfcee1891d0-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:27:51.453223+00:00",
-        "lease_expires_at": "2026-11-08T14:27:51.453239+00:00"
-      },
       "source": {
         "source_id": "13578041",
         "source_url": "https://sdilej.cz/13578041/gilmore.girls.s06e17.ja.jsem.ok.ty.jsi.ok.dvdrip.xvid.cz-vid.avi",
@@ -311867,15 +311861,22 @@
         "display_name": "Gilmore Girls S06E17 I'm OK, You're OK SD CZ Dabing",
         "prepared_at": "2026-11-08T08:27:59.134947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912227",
-        "size_bytes": 367056896
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912227",
+          "size_bytes": 367056896,
+          "source_bytes_read": 367056896,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13578041",
+        "source_url": "https://sdilej.cz/13578041/gilmore.girls.s06e17.ja.jsem.ok.ty.jsi.ok.dvdrip.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912227",
-        "size_bytes": 367056896,
-        "source_bytes_read": 367056896,
-        "http_status": 201
+        "display_name": "Gilmore Girls S06E17 I'm OK, You're OK SD CZ Dabing",
+        "uploaded_at": "2026-11-08T08:28:57.416570+00:00"
       }
     },
     "566:6:18": {
@@ -311965,5 +311966,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:28:52.089593+00:00"
+  "updated_at": "2026-11-08T08:28:57.416589+00:00"
 }
