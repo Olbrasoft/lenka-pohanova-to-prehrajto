@@ -322262,12 +322262,6 @@
     },
     "1244:1:6": {
       "episode_key": "jistě, pane ministře:s1:e6",
-      "claim": {
-        "worker_id": "0b06412cbf9144c0849b461bbe287202-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:26:25.341714+00:00",
-        "lease_expires_at": "2026-11-09T04:26:25.341725+00:00"
-      },
       "source": {
         "source_id": "34830441",
         "source_url": "https://sdilej.cz/34830441/jiste-pane-ministre-s01e06-1080p-cz.mkv",
@@ -322292,15 +322286,22 @@
         "display_name": "Yes Minister S01E06 The Right to Know 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:26:28.905374+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926905",
-        "size_bytes": 1136179181
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926905",
+          "size_bytes": 1136179181,
+          "source_bytes_read": 1136179181,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830441",
+        "source_url": "https://sdilej.cz/34830441/jiste-pane-ministre-s01e06-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926905",
-        "size_bytes": 1136179181,
-        "source_bytes_read": 1136179181,
-        "http_status": 201
+        "display_name": "Yes Minister S01E06 The Right to Know 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:28:21.843421+00:00"
       }
     }
   },
@@ -322309,5 +322310,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:28:15.650895+00:00"
+  "updated_at": "2026-11-08T22:28:21.843437+00:00"
 }
