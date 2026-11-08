@@ -320112,12 +320112,6 @@
     },
     "89:2:10": {
       "episode_key": "penny dreadful:s2:e10",
-      "claim": {
-        "worker_id": "f42242ac7b6044da83d33af8b3c85486-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:49:30.135549+00:00",
-        "lease_expires_at": "2026-11-09T02:49:30.135560+00:00"
-      },
       "source": {
         "source_id": "30906445",
         "source_url": "https://sdilej.cz/30906445/penny-dreadful-2015-s02e10-1080p-bluray-cz-dab.mkv",
@@ -320142,15 +320136,22 @@
         "display_name": "Penny Dreadful S02E10 And They Were Enemies 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:49:33.454858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925645",
-        "size_bytes": 438467195
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925645",
+          "size_bytes": 438467195,
+          "source_bytes_read": 438467195,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906445",
+        "source_url": "https://sdilej.cz/30906445/penny-dreadful-2015-s02e10-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925645",
-        "size_bytes": 438467195,
-        "source_bytes_read": 438467195,
-        "http_status": 201
+        "display_name": "Penny Dreadful S02E10 And They Were Enemies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:50:27.699574+00:00"
       }
     }
   },
@@ -320159,5 +320160,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:50:24.942713+00:00"
+  "updated_at": "2026-11-08T20:50:27.699591+00:00"
 }
