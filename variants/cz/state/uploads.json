@@ -309373,12 +309373,6 @@
     },
     "73:1:2": {
       "episode_key": "peacemaker:s1:e2",
-      "claim": {
-        "worker_id": "fecb790be1784358acc5bc1f00607ebb-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T05:23:28.152353+00:00",
-        "lease_expires_at": "2026-11-08T11:23:28.152365+00:00"
-      },
       "source": {
         "source_id": "34869430",
         "source_url": "https://sdilej.cz/34869430/peacemaker-s01e02-cz.en-2160p-chmeli.mkv",
@@ -309403,15 +309397,22 @@
         "display_name": "Peacemaker S01E02 Best Friends, For Never 4K CZ Dabing",
         "prepared_at": "2026-11-08T05:23:31.084181+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908771",
-        "size_bytes": 1927107213
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908771",
+          "size_bytes": 1927107213,
+          "source_bytes_read": 1927107213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34869430",
+        "source_url": "https://sdilej.cz/34869430/peacemaker-s01e02-cz.en-2160p-chmeli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908771",
-        "size_bytes": 1927107213,
-        "source_bytes_read": 1927107213,
-        "http_status": 201
+        "display_name": "Peacemaker S01E02 Best Friends, For Never 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T05:29:06.374016+00:00"
       }
     }
   },
@@ -309420,5 +309421,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T05:29:00.617794+00:00"
+  "updated_at": "2026-11-08T05:29:06.374033+00:00"
 }
