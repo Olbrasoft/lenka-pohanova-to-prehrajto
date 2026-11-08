@@ -317238,12 +317238,6 @@
     },
     "1196:2:15": {
       "episode_key": "ve službách fbi:s2:e15",
-      "claim": {
-        "worker_id": "c133521c8d8048b18537203fc1c2e7ee-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T16:20:43.762365+00:00",
-        "lease_expires_at": "2026-11-08T22:20:43.762377+00:00"
-      },
       "source": {
         "source_id": "9566825",
         "source_url": "https://sdilej.cz/9566825/ve-sluzbach-fbi-s02e15-white-collar-dvdrip-czdabing.avi",
@@ -317268,15 +317262,22 @@
         "display_name": "White Collar S02E15 Power Play SD CZ Dabing",
         "prepared_at": "2026-11-08T16:20:49.237643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30921744",
-        "size_bytes": 373407746
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30921744",
+          "size_bytes": 373407746,
+          "source_bytes_read": 373407746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9566825",
+        "source_url": "https://sdilej.cz/9566825/ve-sluzbach-fbi-s02e15-white-collar-dvdrip-czdabing.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30921744",
-        "size_bytes": 373407746,
-        "source_bytes_read": 373407746,
-        "http_status": 201
+        "display_name": "White Collar S02E15 Power Play SD CZ Dabing",
+        "uploaded_at": "2026-11-08T16:23:34.749454+00:00"
       }
     },
     "1196:2:16": {
@@ -317403,5 +317404,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T16:23:29.413696+00:00"
+  "updated_at": "2026-11-08T16:23:34.749473+00:00"
 }
