@@ -306821,12 +306821,6 @@
     },
     "1069:7:9": {
       "episode_key": "mentalista:s7:e9",
-      "claim": {
-        "worker_id": "fcb65ba2c0454743ab93fd175ddf29ae-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:13:42.869346+00:00",
-        "lease_expires_at": "2026-11-08T09:13:42.869364+00:00"
-      },
       "source": {
         "source_id": "33065899",
         "source_url": "https://sdilej.cz/33065899/the-mentalist-s07e09-copper-bullet.mkv",
@@ -306851,15 +306845,22 @@
         "display_name": "The Mentalist S07E09 Copper Bullet 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:13:46.897459+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30905971",
-        "size_bytes": 883567695
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30905971",
+          "size_bytes": 883567695,
+          "source_bytes_read": 883567695,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33065899",
+        "source_url": "https://sdilej.cz/33065899/the-mentalist-s07e09-copper-bullet.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30905971",
-        "size_bytes": 883567695,
-        "source_bytes_read": 883567695,
-        "http_status": 201
+        "display_name": "The Mentalist S07E09 Copper Bullet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T03:19:11.999302+00:00"
       }
     },
     "1069:7:10": {
@@ -306912,5 +306913,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T03:19:08.212102+00:00"
+  "updated_at": "2026-11-08T03:19:11.999319+00:00"
 }
