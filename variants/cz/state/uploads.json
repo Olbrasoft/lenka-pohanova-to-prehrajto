@@ -318394,12 +318394,6 @@
     },
     "1196:4:12": {
       "episode_key": "ve službách fbi:s4:e12",
-      "claim": {
-        "worker_id": "fbbcbea2c73c413ca60bbda362bae190-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T18:21:26.962254+00:00",
-        "lease_expires_at": "2026-11-09T00:21:26.962270+00:00"
-      },
       "source": {
         "source_id": "8034198",
         "source_url": "https://sdilej.cz/8034198/ve-sluzbach-fbi-04x12-vysoka-hra-xvid-.avi",
@@ -318424,15 +318418,22 @@
         "display_name": "White Collar S04E12 Brass Tacks SD CZ Dabing",
         "prepared_at": "2026-11-08T18:21:36.268811+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30923828",
-        "size_bytes": 587832422
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30923828",
+          "size_bytes": 587832422,
+          "source_bytes_read": 587832422,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8034198",
+        "source_url": "https://sdilej.cz/8034198/ve-sluzbach-fbi-04x12-vysoka-hra-xvid-.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30923828",
-        "size_bytes": 587832422,
-        "source_bytes_read": 587832422,
-        "http_status": 201
+        "display_name": "White Collar S04E12 Brass Tacks SD CZ Dabing",
+        "uploaded_at": "2026-11-08T18:23:46.805255+00:00"
       }
     },
     "1196:4:14": {
@@ -318515,5 +318516,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T18:23:40.448539+00:00"
+  "updated_at": "2026-11-08T18:23:46.805277+00:00"
 }
