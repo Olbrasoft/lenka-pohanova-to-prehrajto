@@ -315152,12 +315152,6 @@
     },
     "119:4:5": {
       "episode_key": "původní:s4:e5",
-      "claim": {
-        "worker_id": "75dd115df6fd457ba704453aadb94f74-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T12:49:41.469345+00:00",
-        "lease_expires_at": "2026-11-08T18:49:41.469357+00:00"
-      },
       "source": {
         "source_id": "30457318",
         "source_url": "https://sdilej.cz/30457318/the-originals-s04e05.mkv",
@@ -315182,15 +315176,22 @@
         "display_name": "The Originals S04E05 I Hear You Knocking 1080p CZ Dabing",
         "prepared_at": "2026-11-08T12:49:47.197036+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30917610",
-        "size_bytes": 2738052726
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30917610",
+          "size_bytes": 2738052726,
+          "source_bytes_read": 2738052726,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457318",
+        "source_url": "https://sdilej.cz/30457318/the-originals-s04e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30917610",
-        "size_bytes": 2738052726,
-        "source_bytes_read": 2738052726,
-        "http_status": 201
+        "display_name": "The Originals S04E05 I Hear You Knocking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T13:04:18.678269+00:00"
       }
     },
     "119:4:6": {
@@ -315236,5 +315237,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T13:04:13.077719+00:00"
+  "updated_at": "2026-11-08T13:04:18.678292+00:00"
 }
