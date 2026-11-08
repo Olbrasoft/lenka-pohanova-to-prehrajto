@@ -308933,12 +308933,6 @@
     },
     "1165:4:11": {
       "episode_key": "dobré místo:s4:e11",
-      "claim": {
-        "worker_id": "cbe05642f3cb4301839557633f344eb4-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T05:03:31.188601+00:00",
-        "lease_expires_at": "2026-11-08T11:03:31.188611+00:00"
-      },
       "source": {
         "source_id": "33816439",
         "source_url": "https://sdilej.cz/33816439/the-good-place-s04e11-dobre-misto-fhd-1080p-cz.mkv",
@@ -308963,15 +308957,22 @@
         "display_name": "The Good Place S04E11 Mondays, Am I Right? 1080p CZ Dabing",
         "prepared_at": "2026-11-08T05:03:35.299475+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30908396",
-        "size_bytes": 892601757
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30908396",
+          "size_bytes": 892601757,
+          "source_bytes_read": 892601757,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816439",
+        "source_url": "https://sdilej.cz/33816439/the-good-place-s04e11-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30908396",
-        "size_bytes": 892601757,
-        "source_bytes_read": 892601757,
-        "http_status": 201
+        "display_name": "The Good Place S04E11 Mondays, Am I Right? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T05:06:52.430764+00:00"
       }
     },
     "1165:4:12": {
@@ -309098,5 +309099,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T05:06:48.341723+00:00"
+  "updated_at": "2026-11-08T05:06:52.430782+00:00"
 }
