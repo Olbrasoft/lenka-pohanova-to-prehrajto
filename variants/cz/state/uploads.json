@@ -319673,12 +319673,6 @@
     },
     "89:1:8": {
       "episode_key": "penny dreadful:s1:e8",
-      "claim": {
-        "worker_id": "98db99631cc74e649636abbc4296e26d-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:37:31.319577+00:00",
-        "lease_expires_at": "2026-11-09T02:37:31.319588+00:00"
-      },
       "source": {
         "source_id": "30906397",
         "source_url": "https://sdilej.cz/30906397/penny-dreadful-2014-s01e08-1080p-bluray-cz-dab.mkv",
@@ -319703,15 +319697,22 @@
         "display_name": "Penny Dreadful S01E08 Grand Guignol 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:37:36.340771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925484",
-        "size_bytes": 663852418
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925484",
+          "size_bytes": 663852418,
+          "source_bytes_read": 663852418,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906397",
+        "source_url": "https://sdilej.cz/30906397/penny-dreadful-2014-s01e08-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925484",
-        "size_bytes": 663852418,
-        "source_bytes_read": 663852418,
-        "http_status": 201
+        "display_name": "Penny Dreadful S01E08 Grand Guignol 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:39:23.719224+00:00"
       }
     }
   },
@@ -319720,5 +319721,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:39:17.917144+00:00"
+  "updated_at": "2026-11-08T20:39:23.719239+00:00"
 }
