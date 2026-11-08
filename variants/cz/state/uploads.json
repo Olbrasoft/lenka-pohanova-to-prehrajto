@@ -313597,12 +313597,6 @@
     },
     "119:2:13": {
       "episode_key": "původní:s2:e13",
-      "claim": {
-        "worker_id": "bd2827ea58f94d64ba710bd7754f38cc-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:01:59.237426+00:00",
-        "lease_expires_at": "2026-11-08T16:01:59.237440+00:00"
-      },
       "source": {
         "source_id": "25290064",
         "source_url": "https://sdilej.cz/25290064/puvodni-the.originals.s02e13.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
@@ -313627,15 +313621,22 @@
         "display_name": "The Originals S02E13 The Devil Is Damned 1080p CZ Dabing",
         "prepared_at": "2026-11-08T10:02:02.317827+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30914132",
-        "size_bytes": 1988881844
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30914132",
+          "size_bytes": 1988881844,
+          "source_bytes_read": 1988881844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25290064",
+        "source_url": "https://sdilej.cz/25290064/puvodni-the.originals.s02e13.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30914132",
-        "size_bytes": 1988881844,
-        "source_bytes_read": 1988881844,
-        "http_status": 201
+        "display_name": "The Originals S02E13 The Devil Is Damned 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:09:06.721925+00:00"
       }
     }
   },
@@ -313644,5 +313645,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:09:04.211028+00:00"
+  "updated_at": "2026-11-08T10:09:06.721944+00:00"
 }
