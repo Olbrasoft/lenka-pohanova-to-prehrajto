@@ -305237,12 +305237,6 @@
     },
     "1069:5:16": {
       "episode_key": "mentalista:s5:e16",
-      "claim": {
-        "worker_id": "cf600672c66a421c903c8ca257210ad6-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:45:13.475221+00:00",
-        "lease_expires_at": "2026-11-08T07:45:13.475228+00:00"
-      },
       "source": {
         "source_id": "28169792",
         "source_url": "https://sdilej.cz/28169792/mentalista-s05e16-krveproliti.mkv",
@@ -305267,15 +305261,22 @@
         "display_name": "The Mentalist S05E16 There Will Be Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:45:21.846651+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904085",
-        "size_bytes": 753892005
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904085",
+          "size_bytes": 753892005,
+          "source_bytes_read": 753892005,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28169792",
+        "source_url": "https://sdilej.cz/28169792/mentalista-s05e16-krveproliti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904085",
-        "size_bytes": 753892005,
-        "source_bytes_read": 753892005,
-        "http_status": 201
+        "display_name": "The Mentalist S05E16 There Will Be Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:48:06.319623+00:00"
       }
     },
     "1069:5:17": {
@@ -305358,5 +305359,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:48:00.294867+00:00"
+  "updated_at": "2026-11-08T01:48:06.319634+00:00"
 }
