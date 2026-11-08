@@ -303829,12 +303829,6 @@
     },
     "1069:4:8": {
       "episode_key": "mentalista:s4:e8",
-      "claim": {
-        "worker_id": "38aea650f5424638aa2d03dc4dcea5c0-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:42:04.479475+00:00",
-        "lease_expires_at": "2026-11-08T06:42:04.479485+00:00"
-      },
       "source": {
         "source_id": "32443383",
         "source_url": "https://sdilej.cz/32443383/mentalista-s04e08-ruzove-saty.mkv",
@@ -303859,15 +303853,22 @@
         "display_name": "The Mentalist S04E08 Pink Tops 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:42:10.853209+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902852",
-        "size_bytes": 876563808
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902852",
+          "size_bytes": 876563808,
+          "source_bytes_read": 876563808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443383",
+        "source_url": "https://sdilej.cz/32443383/mentalista-s04e08-ruzove-saty.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902852",
-        "size_bytes": 876563808,
-        "source_bytes_read": 876563808,
-        "http_status": 201
+        "display_name": "The Mentalist S04E08 Pink Tops 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:44:37.164630+00:00"
       }
     },
     "1069:4:9": {
@@ -303950,5 +303951,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:44:32.139640+00:00"
+  "updated_at": "2026-11-08T00:44:37.164644+00:00"
 }
