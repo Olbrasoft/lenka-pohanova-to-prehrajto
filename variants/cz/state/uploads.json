@@ -304181,12 +304181,6 @@
     },
     "1069:4:17": {
       "episode_key": "mentalista:s4:e17",
-      "claim": {
-        "worker_id": "efe2d74786d540ecbe66f5f1bf036b75-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:49:02.550601+00:00",
-        "lease_expires_at": "2026-11-08T06:49:02.550610+00:00"
-      },
       "source": {
         "source_id": "32443399",
         "source_url": "https://sdilej.cz/32443399/mentalista-s04e17-levne-burgundske.mkv",
@@ -304211,15 +304205,22 @@
         "display_name": "The Mentalist S04E17 Cheap Burgundy 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:49:09.763186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902969",
-        "size_bytes": 894045879
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902969",
+          "size_bytes": 894045879,
+          "source_bytes_read": 894045879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443399",
+        "source_url": "https://sdilej.cz/32443399/mentalista-s04e17-levne-burgundske.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902969",
-        "size_bytes": 894045879,
-        "source_bytes_read": 894045879,
-        "http_status": 201
+        "display_name": "The Mentalist S04E17 Cheap Burgundy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:51:59.137167+00:00"
       }
     },
     "1069:4:16": {
@@ -304272,5 +304273,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:51:56.937348+00:00"
+  "updated_at": "2026-11-08T00:51:59.137183+00:00"
 }
