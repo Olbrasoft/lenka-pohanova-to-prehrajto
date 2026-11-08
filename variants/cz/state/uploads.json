@@ -319754,12 +319754,6 @@
     },
     "89:2:2": {
       "episode_key": "penny dreadful:s2:e2",
-      "claim": {
-        "worker_id": "72557b8e80db4ad9a32b005eae87fa30-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:45:01.367724+00:00",
-        "lease_expires_at": "2026-11-09T02:45:01.367734+00:00"
-      },
       "source": {
         "source_id": "30906429",
         "source_url": "https://sdilej.cz/30906429/penny-dreadful-2015-s02e02-1080p-bluray-cz-dab.mkv",
@@ -319784,15 +319778,22 @@
         "display_name": "Penny Dreadful S02E02 Verbis Diablo 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:45:07.171178+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925596",
-        "size_bytes": 620291765
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925596",
+          "size_bytes": 620291765,
+          "source_bytes_read": 620291765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906429",
+        "source_url": "https://sdilej.cz/30906429/penny-dreadful-2015-s02e02-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925596",
-        "size_bytes": 620291765,
-        "source_bytes_read": 620291765,
-        "http_status": 201
+        "display_name": "Penny Dreadful S02E02 Verbis Diablo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:46:34.536258+00:00"
       }
     },
     "89:2:3": {
@@ -319838,5 +319839,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:46:29.359023+00:00"
+  "updated_at": "2026-11-08T20:46:34.536274+00:00"
 }
