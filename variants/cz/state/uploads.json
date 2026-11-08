@@ -323192,12 +323192,6 @@
     },
     "190:1:4": {
       "episode_key": "landman:s1:e4",
-      "claim": {
-        "worker_id": "b3d9da3ec0224acc96654bac67676a6c-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-08T23:32:06.712487+00:00",
-        "lease_expires_at": "2026-11-09T05:32:06.712506+00:00"
-      },
       "source": {
         "source_id": "32695820",
         "source_url": "https://sdilej.cz/32695820/landman-2024-s01e04-cz-en-dabing-2160p-hevc.mkv",
@@ -323222,15 +323216,22 @@
         "display_name": "Landman S01E04 The Sting of Second Chances 4K CZ Dabing",
         "prepared_at": "2026-11-08T23:32:10.080142+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927815",
-        "size_bytes": 5084067795
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927815",
+          "size_bytes": 5084067795,
+          "source_bytes_read": 5084067795,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32695820",
+        "source_url": "https://sdilej.cz/32695820/landman-2024-s01e04-cz-en-dabing-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927815",
-        "size_bytes": 5084067795,
-        "source_bytes_read": 5084067795,
-        "http_status": 201
+        "display_name": "Landman S01E04 The Sting of Second Chances 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T23:44:40.067003+00:00"
       }
     }
   },
@@ -323239,5 +323240,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T23:44:37.272632+00:00"
+  "updated_at": "2026-11-08T23:44:40.067023+00:00"
 }
