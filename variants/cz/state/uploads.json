@@ -312314,12 +312314,6 @@
     },
     "119:1:6": {
       "episode_key": "původní:s1:e6",
-      "claim": {
-        "worker_id": "5af1aab0fb42405f8eba306aaf3434f8-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:38:31.223725+00:00",
-        "lease_expires_at": "2026-11-08T14:38:31.223736+00:00"
-      },
       "source": {
         "source_id": "31994430",
         "source_url": "https://sdilej.cz/31994430/puvodni-s01e06-cz-dab-.mp4",
@@ -312344,15 +312338,22 @@
         "display_name": "The Originals S01E06 Fruit of the Poisoned Tree 1080p CZ Dabing",
         "prepared_at": "2026-11-08T08:38:34.349811+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912404",
-        "size_bytes": 579894223
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912404",
+          "size_bytes": 579894223,
+          "source_bytes_read": 579894223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994430",
+        "source_url": "https://sdilej.cz/31994430/puvodni-s01e06-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912404",
-        "size_bytes": 579894223,
-        "source_bytes_read": 579894223,
-        "http_status": 201
+        "display_name": "The Originals S01E06 Fruit of the Poisoned Tree 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T08:40:08.552584+00:00"
       }
     },
     "119:1:7": {
@@ -312398,5 +312399,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:40:03.342091+00:00"
+  "updated_at": "2026-11-08T08:40:08.552598+00:00"
 }
