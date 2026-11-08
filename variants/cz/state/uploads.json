@@ -315922,12 +315922,6 @@
     },
     "119:5:11": {
       "episode_key": "původní:s5:e11",
-      "claim": {
-        "worker_id": "d7c3196369c546288736244b854f2317-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T15:01:17.518230+00:00",
-        "lease_expires_at": "2026-11-08T21:01:17.518240+00:00"
-      },
       "source": {
         "source_id": "30457397",
         "source_url": "https://sdilej.cz/30457397/the-originals-s05e11.mkv",
@@ -315952,15 +315946,22 @@
         "display_name": "The Originals S05E11 Til the Day I Die 1080p CZ Dabing",
         "prepared_at": "2026-11-08T15:01:20.768622+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30920160",
-        "size_bytes": 2738773424
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30920160",
+          "size_bytes": 2738773424,
+          "source_bytes_read": 2738773424,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457397",
+        "source_url": "https://sdilej.cz/30457397/the-originals-s05e11.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30920160",
-        "size_bytes": 2738773424,
-        "source_bytes_read": 2738773424,
-        "http_status": 201
+        "display_name": "The Originals S05E11 Til the Day I Die 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T15:16:04.543599+00:00"
       }
     },
     "119:5:12": {
@@ -316039,5 +316040,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T15:15:57.040618+00:00"
+  "updated_at": "2026-11-08T15:16:04.543614+00:00"
 }
