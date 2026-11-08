@@ -322658,12 +322658,6 @@
     },
     "1244:3:1": {
       "episode_key": "jistě, pane ministře:s3:e1",
-      "claim": {
-        "worker_id": "16762df623c9468e978297dbe6d11909-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:41:44.637306+00:00",
-        "lease_expires_at": "2026-11-09T04:41:44.637316+00:00"
-      },
       "source": {
         "source_id": "34904259",
         "source_url": "https://sdilej.cz/34904259/jiste-pane-ministre-s03e01-1080p-cz.mkv",
@@ -322688,15 +322682,22 @@
         "display_name": "Yes Minister S03E01 Equal Opportunities 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:41:50.711079+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927115",
-        "size_bytes": 1104759160
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927115",
+          "size_bytes": 1104759160,
+          "source_bytes_read": 1104759160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34904259",
+        "source_url": "https://sdilej.cz/34904259/jiste-pane-ministre-s03e01-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927115",
-        "size_bytes": 1104759160,
-        "source_bytes_read": 1104759160,
-        "http_status": 201
+        "display_name": "Yes Minister S03E01 Equal Opportunities 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:45:17.453166+00:00"
       }
     }
   },
@@ -322705,5 +322706,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:45:13.081663+00:00"
+  "updated_at": "2026-11-08T22:45:17.453183+00:00"
 }
