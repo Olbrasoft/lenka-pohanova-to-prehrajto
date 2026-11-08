@@ -315639,21 +315639,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "9cec4efff51c401f9b3d731c1d550bd9-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T19:19:45.891620+00:00",
-        "lease_expires_at": "2026-11-09T01:19:45.891636+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30924662",
+          "size_bytes": 2671545098,
+          "source_bytes_read": 2671545098,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457338",
+        "source_url": "https://sdilej.cz/30457338/the-originals-s04e12.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30924662",
-        "size_bytes": 2671545098
-      },
-      "transfer_receipt": {
-        "target_video_id": "30924662",
-        "size_bytes": 2671545098,
-        "source_bytes_read": 2671545098,
-        "http_status": 201
+        "display_name": "The Originals S04E12 Voodoo Child 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T19:26:40.655484+00:00"
       }
     },
     "119:5:1": {
@@ -319055,5 +319056,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T19:26:35.002979+00:00"
+  "updated_at": "2026-11-08T19:26:40.655502+00:00"
 }
