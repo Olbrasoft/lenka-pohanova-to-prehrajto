@@ -305633,12 +305633,6 @@
     },
     "1069:6:3": {
       "episode_key": "mentalista:s6:e3",
-      "claim": {
-        "worker_id": "af95bc136df24e1da93a468ed183f616-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:54:06.008944+00:00",
-        "lease_expires_at": "2026-11-08T07:54:06.008953+00:00"
-      },
       "source": {
         "source_id": "32443476",
         "source_url": "https://sdilej.cz/32443476/mentalista-s06e03-svatba-v-rudem.mkv",
@@ -305663,15 +305657,22 @@
         "display_name": "The Mentalist S06E03 Wedding in Red 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:54:10.805431+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904259",
-        "size_bytes": 867309120
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904259",
+          "size_bytes": 867309120,
+          "source_bytes_read": 867309120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443476",
+        "source_url": "https://sdilej.cz/32443476/mentalista-s06e03-svatba-v-rudem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904259",
-        "size_bytes": 867309120,
-        "source_bytes_read": 867309120,
-        "http_status": 201
+        "display_name": "The Mentalist S06E03 Wedding in Red 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:55:18.060449+00:00"
       }
     }
   },
@@ -305680,5 +305681,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:55:13.946276+00:00"
+  "updated_at": "2026-11-08T01:55:18.060460+00:00"
 }
