@@ -303213,12 +303213,6 @@
     },
     "1069:3:18": {
       "episode_key": "mentalista:s3:e18",
-      "claim": {
-        "worker_id": "ad93dcec834a46bbaa97131f7d41927a-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:12:02.862914+00:00",
-        "lease_expires_at": "2026-11-08T06:12:02.862921+00:00"
-      },
       "source": {
         "source_id": "28171304",
         "source_url": "https://sdilej.cz/28171304/mentalista-s03e18-ruda-mile.mkv",
@@ -303243,15 +303237,22 @@
         "display_name": "The Mentalist S03E18 The Red Mile 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:12:07.776861+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902331",
-        "size_bytes": 749100885
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902331",
+          "size_bytes": 749100885,
+          "source_bytes_read": 749100885,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28171304",
+        "source_url": "https://sdilej.cz/28171304/mentalista-s03e18-ruda-mile.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902331",
-        "size_bytes": 749100885,
-        "source_bytes_read": 749100885,
-        "http_status": 201
+        "display_name": "The Mentalist S03E18 The Red Mile 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:14:28.225423+00:00"
       }
     },
     "1069:3:19": {
@@ -303334,5 +303335,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:14:23.063184+00:00"
+  "updated_at": "2026-11-08T00:14:28.225435+00:00"
 }
