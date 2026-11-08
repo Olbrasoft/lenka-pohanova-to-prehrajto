@@ -308273,12 +308273,6 @@
     },
     "1165:3:8": {
       "episode_key": "dobré místo:s3:e8",
-      "claim": {
-        "worker_id": "e3e2c5d68df5490b8ce79a905c2873ec-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T04:15:27.098547+00:00",
-        "lease_expires_at": "2026-11-08T10:15:27.098557+00:00"
-      },
       "source": {
         "source_id": "33816338",
         "source_url": "https://sdilej.cz/33816338/the-good-place-s03e08-dobre-misto-fhd-1080p-cz.mkv",
@@ -308303,15 +308297,22 @@
         "display_name": "The Good Place S03E08 Don't Let the Good Life Pass You By 1080p CZ Dabing",
         "prepared_at": "2026-11-08T04:15:31.788867+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30907340",
-        "size_bytes": 874916883
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30907340",
+          "size_bytes": 874916883,
+          "source_bytes_read": 874916883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816338",
+        "source_url": "https://sdilej.cz/33816338/the-good-place-s03e08-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30907340",
-        "size_bytes": 874916883,
-        "source_bytes_read": 874916883,
-        "http_status": 201
+        "display_name": "The Good Place S03E08 Don't Let the Good Life Pass You By 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T04:19:44.707939+00:00"
       }
     },
     "1165:3:9": {
@@ -308390,5 +308391,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:19:42.344309+00:00"
+  "updated_at": "2026-11-08T04:19:44.707958+00:00"
 }
