@@ -311001,12 +311001,6 @@
     },
     "566:5:20": {
       "episode_key": "gilmorova děvčata:s5:e20",
-      "claim": {
-        "worker_id": "38ac5a04d07246e9af23291bc284c055-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T07:54:21.445615+00:00",
-        "lease_expires_at": "2026-11-08T13:54:21.445626+00:00"
-      },
       "source": {
         "source_id": "34898167",
         "source_url": "https://sdilej.cz/34898167/gilmore.girls.s05e20.how.many.kropogs.to.cape.cod.1080p.x265.10bit.hevc.mkv",
@@ -311031,15 +311025,22 @@
         "display_name": "Gilmore Girls S05E20 How Many Kropogs to Cape Cod? 1080p CZ Dabing",
         "prepared_at": "2026-11-08T07:54:29.374670+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30911608",
-        "size_bytes": 1495659744
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30911608",
+          "size_bytes": 1495659744,
+          "source_bytes_read": 1495659744,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34898167",
+        "source_url": "https://sdilej.cz/34898167/gilmore.girls.s05e20.how.many.kropogs.to.cape.cod.1080p.x265.10bit.hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30911608",
-        "size_bytes": 1495659744,
-        "source_bytes_read": 1495659744,
-        "http_status": 201
+        "display_name": "Gilmore Girls S05E20 How Many Kropogs to Cape Cod? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T07:58:35.874636+00:00"
       }
     },
     "566:5:21": {
@@ -311122,5 +311123,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T07:58:29.993739+00:00"
+  "updated_at": "2026-11-08T07:58:35.874655+00:00"
 }
