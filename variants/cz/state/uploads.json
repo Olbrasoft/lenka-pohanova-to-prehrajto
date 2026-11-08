@@ -311579,12 +311579,6 @@
     },
     "566:6:11": {
       "episode_key": "gilmorova děvčata:s6:e11",
-      "claim": {
-        "worker_id": "2f477751201c4124946fbc06e9ee0b43-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:24:03.219315+00:00",
-        "lease_expires_at": "2026-11-08T14:24:03.219334+00:00"
-      },
       "source": {
         "source_id": "33077853",
         "source_url": "https://sdilej.cz/33077853/gilmore.girls.s06e11.perfektni.saty.dvd.xvid.cz-vid.avi",
@@ -311609,15 +311603,22 @@
         "display_name": "Gilmore Girls S06E11 The Perfect Dress SD CZ Dabing",
         "prepared_at": "2026-11-08T08:24:17.001310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912167",
-        "size_bytes": 366913536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912167",
+          "size_bytes": 366913536,
+          "source_bytes_read": 366913536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077853",
+        "source_url": "https://sdilej.cz/33077853/gilmore.girls.s06e11.perfektni.saty.dvd.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912167",
-        "size_bytes": 366913536,
-        "source_bytes_read": 366913536,
-        "http_status": 201
+        "display_name": "Gilmore Girls S06E11 The Perfect Dress SD CZ Dabing",
+        "uploaded_at": "2026-11-08T08:26:25.280629+00:00"
       }
     },
     "566:6:12": {
@@ -311670,5 +311671,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:26:22.821308+00:00"
+  "updated_at": "2026-11-08T08:26:25.280647+00:00"
 }
