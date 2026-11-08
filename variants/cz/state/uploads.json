@@ -311339,12 +311339,6 @@
     },
     "566:6:6": {
       "episode_key": "gilmorova děvčata:s6:e6",
-      "claim": {
-        "worker_id": "8beb4f3f51294aad89a7c64148c64194-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:15:29.077458+00:00",
-        "lease_expires_at": "2026-11-08T14:15:29.077470+00:00"
-      },
       "source": {
         "source_id": "33077846",
         "source_url": "https://sdilej.cz/33077846/gilmore.girls.s06e06.vytejte.v.dome.panenek.dvd.xvid.cz-vid.avi",
@@ -311369,15 +311363,22 @@
         "display_name": "Gilmore Girls S06E06 Welcome to the Doll House SD CZ Dabing",
         "prepared_at": "2026-11-08T08:15:32.085614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912020",
-        "size_bytes": 366944256
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912020",
+          "size_bytes": 366944256,
+          "source_bytes_read": 366944256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077846",
+        "source_url": "https://sdilej.cz/33077846/gilmore.girls.s06e06.vytejte.v.dome.panenek.dvd.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912020",
-        "size_bytes": 366944256,
-        "source_bytes_read": 366944256,
-        "http_status": 201
+        "display_name": "Gilmore Girls S06E06 Welcome to the Doll House SD CZ Dabing",
+        "uploaded_at": "2026-11-08T08:16:08.430906+00:00"
       }
     }
   },
@@ -311386,5 +311387,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:16:04.768318+00:00"
+  "updated_at": "2026-11-08T08:16:08.430926+00:00"
 }
