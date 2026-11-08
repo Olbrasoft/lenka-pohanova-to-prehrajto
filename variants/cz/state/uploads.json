@@ -305494,12 +305494,6 @@
     },
     "1069:5:22": {
       "episode_key": "mentalista:s5:e22",
-      "claim": {
-        "worker_id": "2ca8a368bb544636bb387fa0a214399a-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:50:36.099747+00:00",
-        "lease_expires_at": "2026-11-08T07:50:36.099757+00:00"
-      },
       "source": {
         "source_id": "28167619",
         "source_url": "https://sdilej.cz/28167619/mentalista-s05e22-pravidla-rudeho-johna.mkv",
@@ -305524,15 +305518,22 @@
         "display_name": "The Mentalist S05E22 Red John's Rules 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:50:38.758760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904196",
-        "size_bytes": 749680617
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904196",
+          "size_bytes": 749680617,
+          "source_bytes_read": 749680617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28167619",
+        "source_url": "https://sdilej.cz/28167619/mentalista-s05e22-pravidla-rudeho-johna.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904196",
-        "size_bytes": 749680617,
-        "source_bytes_read": 749680617,
-        "http_status": 201
+        "display_name": "The Mentalist S05E22 Red John's Rules 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:52:34.250387+00:00"
       }
     },
     "1069:6:1": {
@@ -305578,5 +305579,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:52:30.163220+00:00"
+  "updated_at": "2026-11-08T01:52:34.250399+00:00"
 }
