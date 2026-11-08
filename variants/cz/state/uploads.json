@@ -309857,12 +309857,6 @@
     },
     "73:2:5": {
       "episode_key": "peacemaker:s2:e5",
-      "claim": {
-        "worker_id": "da4920425315412aacf2b5a93d81118d-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T06:47:48.582259+00:00",
-        "lease_expires_at": "2026-11-08T12:47:48.582269+00:00"
-      },
       "source": {
         "source_id": "34945880",
         "source_url": "https://sdilej.cz/34945880/peacemaker-s02e05-cz-dabing.mkv",
@@ -309887,15 +309881,22 @@
         "display_name": "Peacemaker S02E05 Back to the Suture 4K CZ Dabing",
         "prepared_at": "2026-11-08T06:47:55.842420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30910174",
-        "size_bytes": 1970138593
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30910174",
+          "size_bytes": 1970138593,
+          "source_bytes_read": 1970138593,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34945880",
+        "source_url": "https://sdilej.cz/34945880/peacemaker-s02e05-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30910174",
-        "size_bytes": 1970138593,
-        "source_bytes_read": 1970138593,
-        "http_status": 201
+        "display_name": "Peacemaker S02E05 Back to the Suture 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T06:55:04.638335+00:00"
       }
     },
     "73:2:6": {
@@ -309984,5 +309985,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T06:55:00.938445+00:00"
+  "updated_at": "2026-11-08T06:55:04.638349+00:00"
 }
