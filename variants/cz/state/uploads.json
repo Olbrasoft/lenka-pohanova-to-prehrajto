@@ -323017,12 +323017,6 @@
     },
     "1162:4:10": {
       "episode_key": "pod černou vlajkou:s4:e10",
-      "claim": {
-        "worker_id": "fb2af5314fcd44ab82f822539f6c902b-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:58:08.562461+00:00",
-        "lease_expires_at": "2026-11-09T04:58:08.562473+00:00"
-      },
       "source": {
         "source_id": "30906852",
         "source_url": "https://sdilej.cz/30906852/pod-cernou-vlajkou-2017-s04e10-cz-dab1080p.mkv",
@@ -323047,15 +323041,22 @@
         "display_name": "Black Sails S04E10 XXXVIII. 1080p CZ Dabing",
         "prepared_at": "2026-11-08T22:58:14.719831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927333",
-        "size_bytes": 1195696182
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927333",
+          "size_bytes": 1195696182,
+          "source_bytes_read": 1195696182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906852",
+        "source_url": "https://sdilej.cz/30906852/pod-cernou-vlajkou-2017-s04e10-cz-dab1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927333",
-        "size_bytes": 1195696182,
-        "source_bytes_read": 1195696182,
-        "http_status": 201
+        "display_name": "Black Sails S04E10 XXXVIII. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T23:00:34.453117+00:00"
       }
     },
     "190:1:1": {
@@ -323101,5 +323102,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T23:00:29.803417+00:00"
+  "updated_at": "2026-11-08T23:00:34.453134+00:00"
 }
