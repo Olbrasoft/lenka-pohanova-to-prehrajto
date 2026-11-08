@@ -322093,12 +322093,6 @@
     },
     "1244:1:2": {
       "episode_key": "jistě, pane ministře:s1:e2",
-      "claim": {
-        "worker_id": "cd7bf477b9bb43f7835e8e841bba7971-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:23:15.480371+00:00",
-        "lease_expires_at": "2026-11-09T04:23:15.480390+00:00"
-      },
       "source": {
         "source_id": "34830474",
         "source_url": "https://sdilej.cz/34830474/jiste-pane-ministre-s01e02-1080p-cz.mkv",
@@ -322123,15 +322117,22 @@
         "display_name": "Yes Minister S01E02 The Official Visit 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:23:23.587150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926854",
-        "size_bytes": 1088655051
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926854",
+          "size_bytes": 1088655051,
+          "source_bytes_read": 1088655051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830474",
+        "source_url": "https://sdilej.cz/34830474/jiste-pane-ministre-s01e02-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926854",
-        "size_bytes": 1088655051,
-        "source_bytes_read": 1088655051,
-        "http_status": 201
+        "display_name": "Yes Minister S01E02 The Official Visit 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:25:13.306799+00:00"
       }
     },
     "1244:1:3": {
@@ -322177,5 +322178,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:25:10.659374+00:00"
+  "updated_at": "2026-11-08T22:25:13.306813+00:00"
 }
