@@ -321257,12 +321257,6 @@
     },
     "1162:3:1": {
       "episode_key": "pod černou vlajkou:s3:e1",
-      "claim": {
-        "worker_id": "61b0d3435ccb4eb381866477d9e14adc-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T21:48:15.271959+00:00",
-        "lease_expires_at": "2026-11-09T03:48:15.271970+00:00"
-      },
       "source": {
         "source_id": "30906779",
         "source_url": "https://sdilej.cz/30906779/pod-cernou-vlajkou-2016-s03e01-cz-dab1080p.mkv",
@@ -321287,15 +321281,22 @@
         "display_name": "Black Sails S03E01 XIX. 1080p CZ Dabing",
         "prepared_at": "2026-11-08T21:48:20.720678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30926426",
-        "size_bytes": 997697329
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30926426",
+          "size_bytes": 997697329,
+          "source_bytes_read": 997697329,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906779",
+        "source_url": "https://sdilej.cz/30906779/pod-cernou-vlajkou-2016-s03e01-cz-dab1080p.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30926426",
-        "size_bytes": 997697329,
-        "source_bytes_read": 997697329,
-        "http_status": 201
+        "display_name": "Black Sails S03E01 XIX. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T21:49:48.551873+00:00"
       }
     },
     "1162:3:2": {
@@ -321378,5 +321379,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T21:49:42.825087+00:00"
+  "updated_at": "2026-11-08T21:49:48.551895+00:00"
 }
