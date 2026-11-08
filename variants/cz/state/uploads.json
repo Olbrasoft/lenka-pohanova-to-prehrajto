@@ -308009,12 +308009,6 @@
     },
     "1165:3:2": {
       "episode_key": "dobré místo:s3:e2",
-      "claim": {
-        "worker_id": "67e7785786954778baa9e5974ecf142b-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T04:01:16.826278+00:00",
-        "lease_expires_at": "2026-11-08T10:01:16.826290+00:00"
-      },
       "source": {
         "source_id": "33816307",
         "source_url": "https://sdilej.cz/33816307/the-good-place-s03e02-dobre-misto-fhd-1080p-cz.mkv",
@@ -308039,15 +308033,22 @@
         "display_name": "The Good Place S03E02 The Brainy Bunch 1080p CZ Dabing",
         "prepared_at": "2026-11-08T04:01:23.837160+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906937",
-        "size_bytes": 778733580
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906937",
+          "size_bytes": 778733580,
+          "source_bytes_read": 778733580,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816307",
+        "source_url": "https://sdilej.cz/33816307/the-good-place-s03e02-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906937",
-        "size_bytes": 778733580,
-        "source_bytes_read": 778733580,
-        "http_status": 201
+        "display_name": "The Good Place S03E02 The Brainy Bunch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T04:05:48.656301+00:00"
       }
     },
     "1165:3:3": {
@@ -308174,5 +308175,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:05:44.096580+00:00"
+  "updated_at": "2026-11-08T04:05:48.656315+00:00"
 }
