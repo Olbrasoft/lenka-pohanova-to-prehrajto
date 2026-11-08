@@ -318482,12 +318482,6 @@
     },
     "1196:4:16": {
       "episode_key": "ve službách fbi:s4:e16",
-      "claim": {
-        "worker_id": "45ddf52c381d423493d12ac5198cfd01-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T18:22:50.092518+00:00",
-        "lease_expires_at": "2026-11-09T00:22:50.092533+00:00"
-      },
       "source": {
         "source_id": "23257397",
         "source_url": "https://sdilej.cz/23257397/ve-sluzbach-fbi-s04e16-stary-zlocin.avi",
@@ -318512,15 +318506,22 @@
         "display_name": "White Collar S04E16 In the Wind SD CZ Dabing",
         "prepared_at": "2026-11-08T18:22:53.077812+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30923858",
-        "size_bytes": 574361134
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30923858",
+          "size_bytes": 574361134,
+          "source_bytes_read": 574361134,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23257397",
+        "source_url": "https://sdilej.cz/23257397/ve-sluzbach-fbi-s04e16-stary-zlocin.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30923858",
-        "size_bytes": 574361134,
-        "source_bytes_read": 574361134,
-        "http_status": 201
+        "display_name": "White Collar S04E16 In the Wind SD CZ Dabing",
+        "uploaded_at": "2026-11-08T18:23:59.669502+00:00"
       }
     }
   },
@@ -318529,5 +318530,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T18:23:57.092788+00:00"
+  "updated_at": "2026-11-08T18:23:59.669524+00:00"
 }
