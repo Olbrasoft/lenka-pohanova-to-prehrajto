@@ -314125,12 +314125,6 @@
     },
     "119:3:3": {
       "episode_key": "původní:s3:e3",
-      "claim": {
-        "worker_id": "47223ee8e63648ac8ebd6e09b1d1da0c-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:52:54.874812+00:00",
-        "lease_expires_at": "2026-11-08T16:52:54.874830+00:00"
-      },
       "source": {
         "source_id": "25433751",
         "source_url": "https://sdilej.cz/25433751/puvodni-the.originals.s03e03.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
@@ -314155,15 +314149,22 @@
         "display_name": "The Originals S03E03 I'll See You in Hell or New Orleans 1080p CZ Dabing",
         "prepared_at": "2026-11-08T10:53:02.202799+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30915249",
-        "size_bytes": 1973257764
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30915249",
+          "size_bytes": 1973257764,
+          "source_bytes_read": 1973257764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25433751",
+        "source_url": "https://sdilej.cz/25433751/puvodni-the.originals.s03e03.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30915249",
-        "size_bytes": 1973257764,
-        "source_bytes_read": 1973257764,
-        "http_status": 201
+        "display_name": "The Originals S03E03 I'll See You in Hell or New Orleans 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:58:53.502531+00:00"
       }
     },
     "119:3:4": {
@@ -314246,5 +314247,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:58:46.907535+00:00"
+  "updated_at": "2026-11-08T10:58:53.502548+00:00"
 }
