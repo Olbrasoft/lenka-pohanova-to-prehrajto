@@ -315575,12 +315575,6 @@
     },
     "119:5:3": {
       "episode_key": "původní:s5:e3",
-      "claim": {
-        "worker_id": "eb4422aa6f9242fa848c4b406b16db10-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T14:06:30.497514+00:00",
-        "lease_expires_at": "2026-11-08T20:06:30.497527+00:00"
-      },
       "source": {
         "source_id": "30457364",
         "source_url": "https://sdilej.cz/30457364/the-originals-s05e03.mkv",
@@ -315604,7 +315598,13 @@
         },
         "display_name": "The Originals S05E03 Ne Me Quitte Pas 1080p CZ Dabing",
         "prepared_at": "2026-11-08T14:06:36.558840+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-08T14:06:49.927199+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -315612,5 +315612,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T14:06:42.186806+00:00"
+  "updated_at": "2026-11-08T14:06:49.927216+00:00"
 }
