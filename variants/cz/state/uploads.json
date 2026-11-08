@@ -319717,12 +319717,6 @@
     },
     "89:2:1": {
       "episode_key": "penny dreadful:s2:e1",
-      "claim": {
-        "worker_id": "02af98c175844389b7d8ee4549554b86-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:44:58.798415+00:00",
-        "lease_expires_at": "2026-11-09T02:44:58.798425+00:00"
-      },
       "source": {
         "source_id": "30906427",
         "source_url": "https://sdilej.cz/30906427/penny-dreadful-2015-s02e01-1080p-bluray-cz-dab.mkv",
@@ -319747,15 +319741,22 @@
         "display_name": "Penny Dreadful S02E01 Fresh Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:45:09.770319+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925598",
-        "size_bytes": 647574539
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925598",
+          "size_bytes": 647574539,
+          "source_bytes_read": 647574539,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906427",
+        "source_url": "https://sdilej.cz/30906427/penny-dreadful-2015-s02e01-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925598",
-        "size_bytes": 647574539,
-        "source_bytes_read": 647574539,
-        "http_status": 201
+        "display_name": "Penny Dreadful S02E01 Fresh Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:47:22.621895+00:00"
       }
     },
     "89:2:2": {
@@ -319889,5 +319890,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:47:15.983699+00:00"
+  "updated_at": "2026-11-08T20:47:22.621907+00:00"
 }
