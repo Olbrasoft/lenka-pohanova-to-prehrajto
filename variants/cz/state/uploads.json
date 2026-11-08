@@ -303426,12 +303426,6 @@
     },
     "1069:3:23": {
       "episode_key": "mentalista:s3:e23",
-      "claim": {
-        "worker_id": "3c3cfe6f4dfe404ab1a9cfe700920454-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:16:40.092015+00:00",
-        "lease_expires_at": "2026-11-08T06:16:40.092023+00:00"
-      },
       "source": {
         "source_id": "22059299",
         "source_url": "https://sdilej.cz/22059299/mentalista-the-mentalist-s03e23-strawberries-and-cream-part-1-1080p-hevc-cz-dabing.mkv",
@@ -303456,15 +303450,22 @@
         "display_name": "The Mentalist S03E23 Strawberries and Cream (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:16:47.301352+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902401",
-        "size_bytes": 740235349
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902401",
+          "size_bytes": 740235349,
+          "source_bytes_read": 740235349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22059299",
+        "source_url": "https://sdilej.cz/22059299/mentalista-the-mentalist-s03e23-strawberries-and-cream-part-1-1080p-hevc-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902401",
-        "size_bytes": 740235349,
-        "source_bytes_read": 740235349,
-        "http_status": 201
+        "display_name": "The Mentalist S03E23 Strawberries and Cream (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:17:58.897907+00:00"
       }
     },
     "1069:3:24": {
@@ -303510,5 +303511,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:17:54.091528+00:00"
+  "updated_at": "2026-11-08T00:17:58.897920+00:00"
 }
