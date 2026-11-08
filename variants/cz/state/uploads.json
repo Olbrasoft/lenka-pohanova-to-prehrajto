@@ -319936,12 +319936,6 @@
     },
     "89:2:6": {
       "episode_key": "penny dreadful:s2:e6",
-      "claim": {
-        "worker_id": "c284bd1505304f6fbe643be14b0ee188-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:47:32.997557+00:00",
-        "lease_expires_at": "2026-11-09T02:47:32.997568+00:00"
-      },
       "source": {
         "source_id": "30906437",
         "source_url": "https://sdilej.cz/30906437/penny-dreadful-2015-s02e06-1080p-bluray-cz-dab.mkv",
@@ -319966,15 +319960,22 @@
         "display_name": "Penny Dreadful S02E06 Glorious Horrors 1080p CZ Dabing",
         "prepared_at": "2026-11-08T20:47:36.225025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30925628",
-        "size_bytes": 640923228
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925628",
+          "size_bytes": 640923228,
+          "source_bytes_read": 640923228,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906437",
+        "source_url": "https://sdilej.cz/30906437/penny-dreadful-2015-s02e06-1080p-bluray-cz-dab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30925628",
-        "size_bytes": 640923228,
-        "source_bytes_read": 640923228,
-        "http_status": 201
+        "display_name": "Penny Dreadful S02E06 Glorious Horrors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:48:45.467898+00:00"
       }
     },
     "89:2:7": {
@@ -320020,5 +320021,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:48:41.667181+00:00"
+  "updated_at": "2026-11-08T20:48:45.467914+00:00"
 }
