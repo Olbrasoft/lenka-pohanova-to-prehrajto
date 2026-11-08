@@ -303345,12 +303345,6 @@
     },
     "1069:3:21": {
       "episode_key": "mentalista:s3:e21",
-      "claim": {
-        "worker_id": "101d9e076be542d6ad8ab2750e57b89f-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:14:36.020938+00:00",
-        "lease_expires_at": "2026-11-08T06:14:36.020947+00:00"
-      },
       "source": {
         "source_id": "28171261",
         "source_url": "https://sdilej.cz/28171261/mentalista-s03e21-odstrceny-syn.mkv",
@@ -303375,15 +303369,22 @@
         "display_name": "The Mentalist S03E21 Like a Redheaded Stepchild 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:14:38.926924+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902369",
-        "size_bytes": 752436456
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902369",
+          "size_bytes": 752436456,
+          "source_bytes_read": 752436456,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28171261",
+        "source_url": "https://sdilej.cz/28171261/mentalista-s03e21-odstrceny-syn.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902369",
-        "size_bytes": 752436456,
-        "source_bytes_read": 752436456,
-        "http_status": 201
+        "display_name": "The Mentalist S03E21 Like a Redheaded Stepchild 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:16:29.756362+00:00"
       }
     },
     "1069:3:22": {
@@ -303425,5 +303426,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:16:27.599471+00:00"
+  "updated_at": "2026-11-08T00:16:29.756377+00:00"
 }
