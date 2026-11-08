@@ -310517,12 +310517,6 @@
     },
     "566:5:9": {
       "episode_key": "gilmorova děvčata:s5:e9",
-      "claim": {
-        "worker_id": "73eeb2bcdcc240548306dc4cde19ddb5-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T07:27:36.289549+00:00",
-        "lease_expires_at": "2026-11-08T13:27:36.289561+00:00"
-      },
       "source": {
         "source_id": "33077805",
         "source_url": "https://sdilej.cz/33077805/gilmore.girls.s05e09.dvdrip.xvid.cz-vid.avi",
@@ -310547,15 +310541,22 @@
         "display_name": "Gilmore Girls S05E09 Emily Says Hello SD CZ Dabing",
         "prepared_at": "2026-11-08T07:27:39.267265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30910981",
-        "size_bytes": 366997504
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30910981",
+          "size_bytes": 366997504,
+          "source_bytes_read": 366997504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077805",
+        "source_url": "https://sdilej.cz/33077805/gilmore.girls.s05e09.dvdrip.xvid.cz-vid.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30910981",
-        "size_bytes": 366997504,
-        "source_bytes_read": 366997504,
-        "http_status": 201
+        "display_name": "Gilmore Girls S05E09 Emily Says Hello SD CZ Dabing",
+        "uploaded_at": "2026-11-08T07:28:22.595094+00:00"
       }
     },
     "566:5:10": {
@@ -310634,5 +310635,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T07:28:20.311298+00:00"
+  "updated_at": "2026-11-08T07:28:22.595109+00:00"
 }
