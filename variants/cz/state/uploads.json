@@ -303873,12 +303873,6 @@
     },
     "1069:4:9": {
       "episode_key": "mentalista:s4:e9",
-      "claim": {
-        "worker_id": "1e4a77ff69284712871b758ec3118043-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:43:37.170160+00:00",
-        "lease_expires_at": "2026-11-08T06:43:37.170171+00:00"
-      },
       "source": {
         "source_id": "32443385",
         "source_url": "https://sdilej.cz/32443385/mentalista-s04e09-rude-tricko.mkv",
@@ -303903,15 +303897,22 @@
         "display_name": "The Mentalist S04E09 The Redshirt 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:43:39.982292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902875",
-        "size_bytes": 875579491
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902875",
+          "size_bytes": 875579491,
+          "source_bytes_read": 875579491,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443385",
+        "source_url": "https://sdilej.cz/32443385/mentalista-s04e09-rude-tricko.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902875",
-        "size_bytes": 875579491,
-        "source_bytes_read": 875579491,
-        "http_status": 201
+        "display_name": "The Mentalist S04E09 The Redshirt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:46:27.154687+00:00"
       }
     },
     "1069:4:10": {
@@ -304037,5 +304038,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:46:22.725771+00:00"
+  "updated_at": "2026-11-08T00:46:27.154698+00:00"
 }
