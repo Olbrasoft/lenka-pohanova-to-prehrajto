@@ -305721,12 +305721,6 @@
     },
     "1069:6:5": {
       "episode_key": "mentalista:s6:e5",
-      "claim": {
-        "worker_id": "922f942ee0fc4349a0be46d79a7c5c8e-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:04:49.961521+00:00",
-        "lease_expires_at": "2026-11-08T08:04:49.961532+00:00"
-      },
       "source": {
         "source_id": "32443482",
         "source_url": "https://sdilej.cz/32443482/mentalista-s06e05-rude-tetovani.mkv",
@@ -305751,15 +305745,22 @@
         "display_name": "The Mentalist S06E05 The Red Tattoo 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:04:55.431596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904453",
-        "size_bytes": 852874792
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904453",
+          "size_bytes": 852874792,
+          "source_bytes_read": 852874792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443482",
+        "source_url": "https://sdilej.cz/32443482/mentalista-s06e05-rude-tetovani.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904453",
-        "size_bytes": 852874792,
-        "source_bytes_read": 852874792,
-        "http_status": 201
+        "display_name": "The Mentalist S06E05 The Red Tattoo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:08:31.527330+00:00"
       }
     },
     "1069:6:6": {
@@ -305812,5 +305813,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:08:26.667888+00:00"
+  "updated_at": "2026-11-08T02:08:31.527348+00:00"
 }
