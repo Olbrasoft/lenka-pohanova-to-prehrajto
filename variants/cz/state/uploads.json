@@ -317150,12 +317150,6 @@
     },
     "1196:2:13": {
       "episode_key": "ve službách fbi:s2:e13",
-      "claim": {
-        "worker_id": "ac8aa298b15c40c898502158a3a399e8-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T16:17:30.842765+00:00",
-        "lease_expires_at": "2026-11-08T22:17:30.842782+00:00"
-      },
       "source": {
         "source_id": "10084525",
         "source_url": "https://sdilej.cz/10084525/ve-sluzbach-fbi-s02e13-cz-dab.2010-jad.avi",
@@ -317180,15 +317174,22 @@
         "display_name": "White Collar S02E13 Countermeasures SD CZ Dabing",
         "prepared_at": "2026-11-08T16:17:36.078518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30921709",
-        "size_bytes": 376267088
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30921709",
+          "size_bytes": 376267088,
+          "source_bytes_read": 376267088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10084525",
+        "source_url": "https://sdilej.cz/10084525/ve-sluzbach-fbi-s02e13-cz-dab.2010-jad.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30921709",
-        "size_bytes": 376267088,
-        "source_bytes_read": 376267088,
-        "http_status": 201
+        "display_name": "White Collar S02E13 Countermeasures SD CZ Dabing",
+        "uploaded_at": "2026-11-08T16:18:26.084424+00:00"
       }
     },
     "1196:2:14": {
@@ -317234,5 +317235,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T16:18:23.422388+00:00"
+  "updated_at": "2026-11-08T16:18:26.084444+00:00"
 }
