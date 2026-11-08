@@ -314030,12 +314030,6 @@
     },
     "119:3:1": {
       "episode_key": "původní:s3:e1",
-      "claim": {
-        "worker_id": "af38ff4374fe43ea909adef3ad2e09d2-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:36:49.274859+00:00",
-        "lease_expires_at": "2026-11-08T16:36:49.274878+00:00"
-      },
       "source": {
         "source_id": "25433634",
         "source_url": "https://sdilej.cz/25433634/puvodni-the.originals.s03e01.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
@@ -314060,15 +314054,22 @@
         "display_name": "The Originals S03E01 For the Next Millennium 1080p CZ Dabing",
         "prepared_at": "2026-11-08T10:36:52.784207+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30914848",
-        "size_bytes": 1996648889
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30914848",
+          "size_bytes": 1996648889,
+          "source_bytes_read": 1996648889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25433634",
+        "source_url": "https://sdilej.cz/25433634/puvodni-the.originals.s03e01.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30914848",
-        "size_bytes": 1996648889,
-        "source_bytes_read": 1996648889,
-        "http_status": 201
+        "display_name": "The Originals S03E01 For the Next Millennium 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:42:05.691614+00:00"
       }
     },
     "119:3:2": {
@@ -314114,5 +314115,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:41:59.076920+00:00"
+  "updated_at": "2026-11-08T10:42:05.691635+00:00"
 }
