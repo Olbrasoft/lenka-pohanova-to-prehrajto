@@ -315292,12 +315292,6 @@
     },
     "119:4:8": {
       "episode_key": "původní:s4:e8",
-      "claim": {
-        "worker_id": "8ba58bf66cfa492d8b15027675a880dc-worker-0",
-        "run_id": "42480093730",
-        "claimed_at": "2026-11-08T13:24:47.438718+00:00",
-        "lease_expires_at": "2026-11-08T19:24:47.438730+00:00"
-      },
       "source": {
         "source_id": "30457326",
         "source_url": "https://sdilej.cz/30457326/the-originals-s04e08.mkv",
@@ -315322,15 +315316,22 @@
         "display_name": "The Originals S04E08 Voodoo in My Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-08T13:24:53.208185+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30918236",
-        "size_bytes": 2676578518
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30918236",
+          "size_bytes": 2676578518,
+          "source_bytes_read": 2676578518,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457326",
+        "source_url": "https://sdilej.cz/30457326/the-originals-s04e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30918236",
-        "size_bytes": 2676578518,
-        "source_bytes_read": 2676578518,
-        "http_status": 201
+        "display_name": "The Originals S04E08 Voodoo in My Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T13:36:16.063993+00:00"
       }
     },
     "119:4:9": {
@@ -315416,5 +315417,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T13:36:09.709516+00:00"
+  "updated_at": "2026-11-08T13:36:16.064009+00:00"
 }
