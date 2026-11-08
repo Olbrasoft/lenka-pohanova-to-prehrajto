@@ -313641,12 +313641,6 @@
     },
     "119:2:14": {
       "episode_key": "původní:s2:e14",
-      "claim": {
-        "worker_id": "e4684086ea4045e5aac59e81687f5d1a-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:21:00.555861+00:00",
-        "lease_expires_at": "2026-11-08T16:21:00.555876+00:00"
-      },
       "source": {
         "source_id": "33203614",
         "source_url": "https://sdilej.cz/33203614/puvodni-s02e14-22-2014-cz-dab-720p-miluji-te-sbohem.mkv",
@@ -313671,15 +313665,22 @@
         "display_name": "The Originals S02E14 I Love You, Goodbye 720p CZ Dabing",
         "prepared_at": "2026-11-08T10:21:08.078241+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30914481",
-        "size_bytes": 605193132
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30914481",
+          "size_bytes": 605193132,
+          "source_bytes_read": 605193132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203614",
+        "source_url": "https://sdilej.cz/33203614/puvodni-s02e14-22-2014-cz-dab-720p-miluji-te-sbohem.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30914481",
-        "size_bytes": 605193132,
-        "source_bytes_read": 605193132,
-        "http_status": 201
+        "display_name": "The Originals S02E14 I Love You, Goodbye 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:26:21.507913+00:00"
       }
     },
     "119:2:15": {
@@ -313776,5 +313777,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:26:17.440212+00:00"
+  "updated_at": "2026-11-08T10:26:21.507931+00:00"
 }
