@@ -322525,12 +322525,6 @@
     },
     "1244:2:5": {
       "episode_key": "jistě, pane ministře:s2:e5",
-      "claim": {
-        "worker_id": "25ce71700d524360b1bf39b814f2d9fe-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:37:56.958369+00:00",
-        "lease_expires_at": "2026-11-09T04:37:56.958379+00:00"
-      },
       "source": {
         "source_id": "34860897",
         "source_url": "https://sdilej.cz/34860897/jiste-pane-ministre-s02e05-1080p-cz.mkv",
@@ -322555,15 +322549,22 @@
         "display_name": "Yes Minister S02E05 The Devil You Know 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:38:00.112493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927048",
-        "size_bytes": 1138150917
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927048",
+          "size_bytes": 1138150917,
+          "source_bytes_read": 1138150917,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860897",
+        "source_url": "https://sdilej.cz/34860897/jiste-pane-ministre-s02e05-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927048",
-        "size_bytes": 1138150917,
-        "source_bytes_read": 1138150917,
-        "http_status": 201
+        "display_name": "Yes Minister S02E05 The Devil You Know 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:39:50.559044+00:00"
       }
     }
   },
@@ -322572,5 +322573,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:39:47.806499+00:00"
+  "updated_at": "2026-11-08T22:39:50.559059+00:00"
 }
