@@ -313678,12 +313678,6 @@
     },
     "119:2:15": {
       "episode_key": "původní:s2:e15",
-      "claim": {
-        "worker_id": "70aa82df081746768d3f08f7452d54db-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:21:28.937454+00:00",
-        "lease_expires_at": "2026-11-08T16:21:28.937468+00:00"
-      },
       "source": {
         "source_id": "33203616",
         "source_url": "https://sdilej.cz/33203616/puvodni-s02e15-22-2014-cz-dab-720p-ptali-se-po-tobe.mkv",
@@ -313708,15 +313702,22 @@
         "display_name": "The Originals S02E15 They All Asked For You 720p CZ Dabing",
         "prepared_at": "2026-11-08T10:21:34.858599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30914499",
-        "size_bytes": 603905886
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30914499",
+          "size_bytes": 603905886,
+          "source_bytes_read": 603905886,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203616",
+        "source_url": "https://sdilej.cz/33203616/puvodni-s02e15-22-2014-cz-dab-720p-ptali-se-po-tobe.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30914499",
-        "size_bytes": 603905886,
-        "source_bytes_read": 603905886,
-        "http_status": 201
+        "display_name": "The Originals S02E15 They All Asked For You 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:24:46.472573+00:00"
       }
     },
     "119:2:16": {
@@ -313762,5 +313763,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:24:41.732493+00:00"
+  "updated_at": "2026-11-08T10:24:46.472590+00:00"
 }
