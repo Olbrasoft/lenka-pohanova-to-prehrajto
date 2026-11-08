@@ -313414,12 +313414,6 @@
     },
     "119:2:9": {
       "episode_key": "původní:s2:e9",
-      "claim": {
-        "worker_id": "ab3f726711ce4ed08b99d56140f02ef1-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T09:44:30.099277+00:00",
-        "lease_expires_at": "2026-11-08T15:44:30.099296+00:00"
-      },
       "source": {
         "source_id": "25290009",
         "source_url": "https://sdilej.cz/25290009/puvodni-the.originals.s02e09.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
@@ -313444,15 +313438,22 @@
         "display_name": "The Originals S02E09 The Map of Moments 1080p CZ Dabing",
         "prepared_at": "2026-11-08T09:44:33.465804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30913760",
-        "size_bytes": 1997935173
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30913760",
+          "size_bytes": 1997935173,
+          "source_bytes_read": 1997935173,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25290009",
+        "source_url": "https://sdilej.cz/25290009/puvodni-the.originals.s02e09.1080p.hmax.web-dl.dd5.1.x265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30913760",
-        "size_bytes": 1997935173,
-        "source_bytes_read": 1997935173,
-        "http_status": 201
+        "display_name": "The Originals S02E09 The Map of Moments 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T09:48:36.796212+00:00"
       }
     }
   },
@@ -313461,5 +313462,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T09:48:34.181411+00:00"
+  "updated_at": "2026-11-08T09:48:36.796231+00:00"
 }
