@@ -317294,12 +317294,6 @@
     },
     "1196:2:16": {
       "episode_key": "ve službách fbi:s2:e16",
-      "claim": {
-        "worker_id": "cc93d2cf0d8745e4ad6dad57fb7af466-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T16:20:52.592570+00:00",
-        "lease_expires_at": "2026-11-08T22:20:52.592583+00:00"
-      },
       "source": {
         "source_id": "29058137",
         "source_url": "https://sdilej.cz/29058137/ve-sluzbach-fbi-02x16-cz-dabong-zdeno791.avi",
@@ -317324,15 +317318,22 @@
         "display_name": "White Collar S02E16 Under the Radar SD CZ Dabing",
         "prepared_at": "2026-11-08T16:20:58.119653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30921757",
-        "size_bytes": 522540948
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30921757",
+          "size_bytes": 522540948,
+          "source_bytes_read": 522540948,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29058137",
+        "source_url": "https://sdilej.cz/29058137/ve-sluzbach-fbi-02x16-cz-dabong-zdeno791.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30921757",
-        "size_bytes": 522540948,
-        "source_bytes_read": 522540948,
-        "http_status": 201
+        "display_name": "White Collar S02E16 Under the Radar SD CZ Dabing",
+        "uploaded_at": "2026-11-08T16:25:05.077215+00:00"
       }
     },
     "1196:3:1": {
@@ -317429,5 +317430,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T16:25:02.533342+00:00"
+  "updated_at": "2026-11-08T16:25:05.077232+00:00"
 }
