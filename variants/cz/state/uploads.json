@@ -307789,12 +307789,6 @@
     },
     "1165:2:8": {
       "episode_key": "dobré místo:s2:e8",
-      "claim": {
-        "worker_id": "691392466cb84373b4885327bc0041f2-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T03:59:29.225988+00:00",
-        "lease_expires_at": "2026-11-08T09:59:29.225999+00:00"
-      },
       "source": {
         "source_id": "33816269",
         "source_url": "https://sdilej.cz/33816269/the-good-place-s02e08-dobre-misto-fhd-1080p-cz.mkv",
@@ -307819,15 +307813,22 @@
         "display_name": "The Good Place S02E08 Leap to Faith 1080p CZ Dabing",
         "prepared_at": "2026-11-08T03:59:40.698366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30906894",
-        "size_bytes": 278456863
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30906894",
+          "size_bytes": 278456863,
+          "source_bytes_read": 278456863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816269",
+        "source_url": "https://sdilej.cz/33816269/the-good-place-s02e08-dobre-misto-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30906894",
-        "size_bytes": 278456863,
-        "source_bytes_read": 278456863,
-        "http_status": 201
+        "display_name": "The Good Place S02E08 Leap to Faith 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T04:01:01.474175+00:00"
       }
     },
     "1165:2:9": {
@@ -307960,5 +307961,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T04:00:59.015967+00:00"
+  "updated_at": "2026-11-08T04:01:01.474191+00:00"
 }
