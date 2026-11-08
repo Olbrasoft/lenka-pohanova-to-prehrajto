@@ -318106,12 +318106,6 @@
     },
     "1196:4:5": {
       "episode_key": "ve službách fbi:s4:e5",
-      "claim": {
-        "worker_id": "eee213ceb42d4bb29c8f4838b728fbef-worker-0",
-        "run_id": "42494374139",
-        "claimed_at": "2026-11-08T17:23:05.122096+00:00",
-        "lease_expires_at": "2026-11-08T23:23:05.122111+00:00"
-      },
       "source": {
         "source_id": "15391255",
         "source_url": "https://sdilej.cz/15391255/ve-sluzbach-fbi-04x05-zlodejska-cesta.avi",
@@ -318136,15 +318130,22 @@
         "display_name": "White Collar S04E05 Honor Among Thieves SD CZ Dabing",
         "prepared_at": "2026-11-08T17:23:09.244327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30922909",
-        "size_bytes": 650309632
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30922909",
+          "size_bytes": 650309632,
+          "source_bytes_read": 650309632,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15391255",
+        "source_url": "https://sdilej.cz/15391255/ve-sluzbach-fbi-04x05-zlodejska-cesta.avi",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30922909",
-        "size_bytes": 650309632,
-        "source_bytes_read": 650309632,
-        "http_status": 201
+        "display_name": "White Collar S04E05 Honor Among Thieves SD CZ Dabing",
+        "uploaded_at": "2026-11-08T17:25:57.647799+00:00"
       }
     },
     "1196:4:6": {
@@ -318227,5 +318228,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T17:25:53.585550+00:00"
+  "updated_at": "2026-11-08T17:25:57.647816+00:00"
 }
