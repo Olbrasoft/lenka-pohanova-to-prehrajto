@@ -314181,12 +314181,6 @@
     },
     "119:3:4": {
       "episode_key": "původní:s3:e4",
-      "claim": {
-        "worker_id": "f71d1969b47d4232864292bbc03e5b02-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:52:57.322596+00:00",
-        "lease_expires_at": "2026-11-08T16:52:57.322614+00:00"
-      },
       "source": {
         "source_id": "30457228",
         "source_url": "https://sdilej.cz/30457228/the-originals-s03e04.mkv",
@@ -314211,15 +314205,22 @@
         "display_name": "The Originals S03E04 A Walk on the Wild Side 1080p CZ Dabing",
         "prepared_at": "2026-11-08T10:53:04.682605+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30915250",
-        "size_bytes": 1990436089
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30915250",
+          "size_bytes": 1990436089,
+          "source_bytes_read": 1990436089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30457228",
+        "source_url": "https://sdilej.cz/30457228/the-originals-s03e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30915250",
-        "size_bytes": 1990436089,
-        "source_bytes_read": 1990436089,
-        "http_status": 201
+        "display_name": "The Originals S03E04 A Walk on the Wild Side 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T11:04:04.342306+00:00"
       }
     },
     "119:3:5": {
@@ -314272,5 +314273,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T11:04:01.836173+00:00"
+  "updated_at": "2026-11-08T11:04:04.342326+00:00"
 }
