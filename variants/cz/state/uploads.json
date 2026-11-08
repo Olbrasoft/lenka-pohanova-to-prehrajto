@@ -305105,12 +305105,6 @@
     },
     "1069:5:13": {
       "episode_key": "mentalista:s5:e13",
-      "claim": {
-        "worker_id": "9dc2fef8e32b4a89ab6c8f184d53b76a-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:35:30.243940+00:00",
-        "lease_expires_at": "2026-11-08T07:35:30.243950+00:00"
-      },
       "source": {
         "source_id": "28169845",
         "source_url": "https://sdilej.cz/28169845/mentalista-s05e13-ruda-stodola.mkv",
@@ -305135,15 +305129,22 @@
         "display_name": "The Mentalist S05E13 The Red Barn 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:35:33.355490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30903910",
-        "size_bytes": 745656098
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30903910",
+          "size_bytes": 745656098,
+          "source_bytes_read": 745656098,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28169845",
+        "source_url": "https://sdilej.cz/28169845/mentalista-s05e13-ruda-stodola.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30903910",
-        "size_bytes": 745656098,
-        "source_bytes_read": 745656098,
-        "http_status": 201
+        "display_name": "The Mentalist S05E13 The Red Barn 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:38:55.837223+00:00"
       }
     },
     "1069:5:14": {
@@ -305195,5 +305196,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:38:52.170935+00:00"
+  "updated_at": "2026-11-08T01:38:55.837235+00:00"
 }
