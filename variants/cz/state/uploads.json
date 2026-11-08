@@ -304218,12 +304218,6 @@
     },
     "1069:4:16": {
       "episode_key": "mentalista:s4:e16",
-      "claim": {
-        "worker_id": "38dd5910fda2412f946f3f4e66b19cf2-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:49:04.732305+00:00",
-        "lease_expires_at": "2026-11-08T06:49:04.732314+00:00"
-      },
       "source": {
         "source_id": "32443397",
         "source_url": "https://sdilej.cz/32443397/mentalista-s04e16-jeho-myslenky-byly-rude.mkv",
@@ -304248,15 +304242,22 @@
         "display_name": "The Mentalist S04E16 His Thoughts Were Red Thoughts 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:49:07.626929+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902968",
-        "size_bytes": 879695742
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902968",
+          "size_bytes": 879695742,
+          "source_bytes_read": 879695742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443397",
+        "source_url": "https://sdilej.cz/32443397/mentalista-s04e16-jeho-myslenky-byly-rude.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902968",
-        "size_bytes": 879695742,
-        "source_bytes_read": 879695742,
-        "http_status": 201
+        "display_name": "The Mentalist S04E16 His Thoughts Were Red Thoughts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:51:21.133982+00:00"
       }
     }
   },
@@ -304265,5 +304266,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:51:15.622412+00:00"
+  "updated_at": "2026-11-08T00:51:21.133993+00:00"
 }
