@@ -306374,12 +306374,6 @@
     },
     "1069:6:21": {
       "episode_key": "mentalista:s6:e21",
-      "claim": {
-        "worker_id": "9ad810895b3f402793af8f2bef3ed772-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:53:41.070645+00:00",
-        "lease_expires_at": "2026-11-08T08:53:41.070657+00:00"
-      },
       "source": {
         "source_id": "27426000",
         "source_url": "https://sdilej.cz/27426000/the-mentalist-s06e21-black-hearts.mkv",
@@ -306404,15 +306398,22 @@
         "display_name": "The Mentalist S06E21 Black Hearts 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:53:44.099378+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30905535",
-        "size_bytes": 885195883
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30905535",
+          "size_bytes": 885195883,
+          "source_bytes_read": 885195883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27426000",
+        "source_url": "https://sdilej.cz/27426000/the-mentalist-s06e21-black-hearts.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30905535",
-        "size_bytes": 885195883,
-        "source_bytes_read": 885195883,
-        "http_status": 201
+        "display_name": "The Mentalist S06E21 Black Hearts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:57:54.209876+00:00"
       }
     }
   },
@@ -306421,5 +306422,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:57:51.874104+00:00"
+  "updated_at": "2026-11-08T02:57:54.209892+00:00"
 }
