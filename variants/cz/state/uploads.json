@@ -313722,12 +313722,6 @@
     },
     "119:2:16": {
       "episode_key": "původní:s2:e16",
-      "claim": {
-        "worker_id": "078354b63ca04bd4908ef4ea7850f8cd-worker-0",
-        "run_id": "42462646619",
-        "claimed_at": "2026-11-08T10:21:31.662999+00:00",
-        "lease_expires_at": "2026-11-08T16:21:31.663087+00:00"
-      },
       "source": {
         "source_id": "33203615",
         "source_url": "https://sdilej.cz/33203615/puvodni-s02e16-22-2014-cz-dab-720p-zachran-moji-dusi.mkv",
@@ -313752,15 +313746,22 @@
         "display_name": "The Originals S02E16 Save My Soul 720p CZ Dabing",
         "prepared_at": "2026-11-08T10:21:37.589003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30914504",
-        "size_bytes": 605488608
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30914504",
+          "size_bytes": 605488608,
+          "source_bytes_read": 605488608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33203615",
+        "source_url": "https://sdilej.cz/33203615/puvodni-s02e16-22-2014-cz-dab-720p-zachran-moji-dusi.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30914504",
-        "size_bytes": 605488608,
-        "source_bytes_read": 605488608,
-        "http_status": 201
+        "display_name": "The Originals S02E16 Save My Soul 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T10:25:42.157787+00:00"
       }
     }
   },
@@ -313769,5 +313770,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T10:25:39.554590+00:00"
+  "updated_at": "2026-11-08T10:25:42.157810+00:00"
 }
