@@ -312270,12 +312270,6 @@
     },
     "119:1:5": {
       "episode_key": "původní:s1:e5",
-      "claim": {
-        "worker_id": "6e16478f68e4447b9da3ff6acd725450-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T08:37:41.122412+00:00",
-        "lease_expires_at": "2026-11-08T14:37:41.122421+00:00"
-      },
       "source": {
         "source_id": "31994428",
         "source_url": "https://sdilej.cz/31994428/puvodni-s01e05-cz-dab-.mp4",
@@ -312300,15 +312294,22 @@
         "display_name": "The Originals S01E05 Sinners and Saints 1080p CZ Dabing",
         "prepared_at": "2026-11-08T08:37:44.111034+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30912376",
-        "size_bytes": 696132396
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30912376",
+          "size_bytes": 696132396,
+          "source_bytes_read": 696132396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31994428",
+        "source_url": "https://sdilej.cz/31994428/puvodni-s01e05-cz-dab-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30912376",
-        "size_bytes": 696132396,
-        "source_bytes_read": 696132396,
-        "http_status": 201
+        "display_name": "The Originals S01E05 Sinners and Saints 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T08:38:53.607666+00:00"
       }
     },
     "119:1:6": {
@@ -312354,5 +312355,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T08:38:49.337654+00:00"
+  "updated_at": "2026-11-08T08:38:53.607681+00:00"
 }
