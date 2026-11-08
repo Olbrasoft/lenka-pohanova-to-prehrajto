@@ -309762,12 +309762,6 @@
     },
     "73:2:3": {
       "episode_key": "peacemaker:s2:e3",
-      "claim": {
-        "worker_id": "039302cfb91444dc9e77b1ab27ae52a9-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T06:23:19.415899+00:00",
-        "lease_expires_at": "2026-11-08T12:23:19.415911+00:00"
-      },
       "source": {
         "source_id": "34869675",
         "source_url": "https://sdilej.cz/34869675/peacemaker-s02e03-cz.en-2160p-chmeli.mkv",
@@ -309792,15 +309786,22 @@
         "display_name": "Peacemaker S02E03 Another Rick Up My Sleeve 4K CZ Dabing",
         "prepared_at": "2026-11-08T06:23:22.706995+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30909742",
-        "size_bytes": 1844222192
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30909742",
+          "size_bytes": 1844222192,
+          "source_bytes_read": 1844222192,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34869675",
+        "source_url": "https://sdilej.cz/34869675/peacemaker-s02e03-cz.en-2160p-chmeli.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30909742",
-        "size_bytes": 1844222192,
-        "source_bytes_read": 1844222192,
-        "http_status": 201
+        "display_name": "Peacemaker S02E03 Another Rick Up My Sleeve 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T06:36:05.544805+00:00"
       }
     },
     "73:2:4": {
@@ -309853,5 +309854,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T06:36:01.628254+00:00"
+  "updated_at": "2026-11-08T06:36:05.544819+00:00"
 }
