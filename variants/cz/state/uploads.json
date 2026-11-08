@@ -319113,21 +319113,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "c8fb7a7cc30145e9bfa6738b3f62c92a-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T20:29:14.943753+00:00",
-        "lease_expires_at": "2026-11-09T02:29:14.943768+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30925402",
+          "size_bytes": 354256604,
+          "source_bytes_read": 354256604,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33436182",
+        "source_url": "https://sdilej.cz/33436182/watchmen-s01e04-pokud-se-vam-muj-pribeh-nelibi-napiste-si-vlastni-cz-dab-1080p-2019.mkv",
+        "audio_language": "cs"
       },
-      "prepared_target": {
+      "upload": {
         "target_video_id": "30925402",
-        "size_bytes": 354256604
-      },
-      "transfer_receipt": {
-        "target_video_id": "30925402",
-        "size_bytes": 354256604,
-        "source_bytes_read": 354256604,
-        "http_status": 201
+        "display_name": "Watchmen S01E04 If You Don't Like My Story, Write Your Own 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T20:30:08.934974+00:00"
       }
     },
     "261:1:5": {
@@ -319354,5 +319355,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T20:30:03.411334+00:00"
+  "updated_at": "2026-11-08T20:30:08.934989+00:00"
 }
