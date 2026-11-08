@@ -305853,12 +305853,6 @@
     },
     "1069:6:8": {
       "episode_key": "mentalista:s6:e8",
-      "claim": {
-        "worker_id": "9b699aa6ff1544efbaa48d55466d83ad-worker-0",
-        "run_id": "42433907878",
-        "claimed_at": "2026-11-08T02:09:49.168783+00:00",
-        "lease_expires_at": "2026-11-08T08:09:49.168792+00:00"
-      },
       "source": {
         "source_id": "32443488",
         "source_url": "https://sdilej.cz/32443488/mentalista-s06e08-rudy-john.mkv",
@@ -305883,15 +305877,22 @@
         "display_name": "The Mentalist S06E08 Red John 1080p CZ Dabing",
         "prepared_at": "2026-11-08T02:09:55.490968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904555",
-        "size_bytes": 895115382
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904555",
+          "size_bytes": 895115382,
+          "source_bytes_read": 895115382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443488",
+        "source_url": "https://sdilej.cz/32443488/mentalista-s06e08-rudy-john.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904555",
-        "size_bytes": 895115382,
-        "source_bytes_read": 895115382,
-        "http_status": 201
+        "display_name": "The Mentalist S06E08 Red John 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T02:17:06.090951+00:00"
       }
     },
     "1069:6:9": {
@@ -305944,5 +305945,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T02:17:02.505141+00:00"
+  "updated_at": "2026-11-08T02:17:06.090967+00:00"
 }
