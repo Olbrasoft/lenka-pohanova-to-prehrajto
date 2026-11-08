@@ -303521,12 +303521,6 @@
     },
     "1069:4:1": {
       "episode_key": "mentalista:s4:e1",
-      "claim": {
-        "worker_id": "7206092b6949433a827fc3115e05a161-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T00:18:06.875819+00:00",
-        "lease_expires_at": "2026-11-08T06:18:06.875829+00:00"
-      },
       "source": {
         "source_id": "32443367",
         "source_url": "https://sdilej.cz/32443367/mentalista-s04e01-sarlatove-stuhy.mkv",
@@ -303551,15 +303545,22 @@
         "display_name": "The Mentalist S04E01 Scarlet Ribbons 1080p CZ Dabing",
         "prepared_at": "2026-11-08T00:18:09.728466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30902426",
-        "size_bytes": 879829516
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30902426",
+          "size_bytes": 879829516,
+          "source_bytes_read": 879829516,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443367",
+        "source_url": "https://sdilej.cz/32443367/mentalista-s04e01-sarlatove-stuhy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30902426",
-        "size_bytes": 879829516,
-        "source_bytes_read": 879829516,
-        "http_status": 201
+        "display_name": "The Mentalist S04E01 Scarlet Ribbons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T00:20:30.859363+00:00"
       }
     },
     "1069:4:2": {
@@ -303605,5 +303606,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T00:20:28.553503+00:00"
+  "updated_at": "2026-11-08T00:20:30.859376+00:00"
 }
