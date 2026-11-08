@@ -309649,12 +309649,6 @@
     },
     "73:1:8": {
       "episode_key": "peacemaker:s1:e8",
-      "claim": {
-        "worker_id": "5c589d2b1de0452cada256f733656d3e-worker-0",
-        "run_id": "42450469874",
-        "claimed_at": "2026-11-08T06:10:49.986409+00:00",
-        "lease_expires_at": "2026-11-08T12:10:49.986420+00:00"
-      },
       "source": {
         "source_id": "34945790",
         "source_url": "https://sdilej.cz/34945790/peacemaker-s01e08-cz-dabing.mkv",
@@ -309679,15 +309673,22 @@
         "display_name": "Peacemaker S01E08 It's Cow or Never 4K CZ Dabing",
         "prepared_at": "2026-11-08T06:10:53.047076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30909536",
-        "size_bytes": 2310703528
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30909536",
+          "size_bytes": 2310703528,
+          "source_bytes_read": 2310703528,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34945790",
+        "source_url": "https://sdilej.cz/34945790/peacemaker-s01e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30909536",
-        "size_bytes": 2310703528,
-        "source_bytes_read": 2310703528,
-        "http_status": 201
+        "display_name": "Peacemaker S01E08 It's Cow or Never 4K CZ Dabing",
+        "uploaded_at": "2026-11-08T06:21:12.598501+00:00"
       }
     },
     "73:2:1": {
@@ -309740,5 +309741,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T06:21:10.062736+00:00"
+  "updated_at": "2026-11-08T06:21:12.598516+00:00"
 }
