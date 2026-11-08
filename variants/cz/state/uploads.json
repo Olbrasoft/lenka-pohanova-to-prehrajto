@@ -322621,12 +322621,6 @@
     },
     "1244:2:7": {
       "episode_key": "jistě, pane ministře:s2:e7",
-      "claim": {
-        "worker_id": "f814c6752a9c4165877fddf771424cb4-worker-0",
-        "run_id": "42514639200",
-        "claimed_at": "2026-11-08T22:41:24.249576+00:00",
-        "lease_expires_at": "2026-11-09T04:41:24.249585+00:00"
-      },
       "source": {
         "source_id": "34860914",
         "source_url": "https://sdilej.cz/34860914/jiste-pane-ministre-s02e07-1080p-cz.mkv",
@@ -322651,15 +322645,22 @@
         "display_name": "Yes Minister S02E07 A Question of Loyalty 720p CZ Dabing",
         "prepared_at": "2026-11-08T22:41:37.035520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30927114",
-        "size_bytes": 1108781507
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30927114",
+          "size_bytes": 1108781507,
+          "source_bytes_read": 1108781507,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860914",
+        "source_url": "https://sdilej.cz/34860914/jiste-pane-ministre-s02e07-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30927114",
-        "size_bytes": 1108781507,
-        "source_bytes_read": 1108781507,
-        "http_status": 201
+        "display_name": "Yes Minister S02E07 A Question of Loyalty 720p CZ Dabing",
+        "uploaded_at": "2026-11-08T22:45:43.744882+00:00"
       }
     },
     "1244:3:1": {
@@ -322712,5 +322713,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T22:45:37.912488+00:00"
+  "updated_at": "2026-11-08T22:45:43.744903+00:00"
 }
