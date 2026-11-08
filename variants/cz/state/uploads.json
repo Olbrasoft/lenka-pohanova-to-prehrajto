@@ -305538,12 +305538,6 @@
     },
     "1069:6:1": {
       "episode_key": "mentalista:s6:e1",
-      "claim": {
-        "worker_id": "1963b2c9c6d94c048bc6e83db2a94b41-worker-0",
-        "run_id": "42420217320",
-        "claimed_at": "2026-11-08T01:51:19.741827+00:00",
-        "lease_expires_at": "2026-11-08T07:51:19.741837+00:00"
-      },
       "source": {
         "source_id": "34917639",
         "source_url": "https://sdilej.cz/34917639/-mentalista-s06e01-poustni-ruze-cz-dabing-.mkv",
@@ -305568,15 +305562,22 @@
         "display_name": "The Mentalist S06E01 The Desert Rose 1080p CZ Dabing",
         "prepared_at": "2026-11-08T01:51:22.686631+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30904213",
-        "size_bytes": 539228396
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30904213",
+          "size_bytes": 539228396,
+          "source_bytes_read": 539228396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34917639",
+        "source_url": "https://sdilej.cz/34917639/-mentalista-s06e01-poustni-ruze-cz-dabing-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30904213",
-        "size_bytes": 539228396,
-        "source_bytes_read": 539228396,
-        "http_status": 201
+        "display_name": "The Mentalist S06E01 The Desert Rose 1080p CZ Dabing",
+        "uploaded_at": "2026-11-08T01:53:07.322114+00:00"
       }
     },
     "1069:6:2": {
@@ -305622,5 +305623,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-08T01:53:02.141453+00:00"
+  "updated_at": "2026-11-08T01:53:07.322128+00:00"
 }
