@@ -327021,12 +327021,6 @@
     },
     "1052:1:13": {
       "episode_key": "hvězdná brána - atlantida:s1:e13",
-      "claim": {
-        "worker_id": "198f51761d864633bf952c28037e61c1-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T08:51:45.778625+00:00",
-        "lease_expires_at": "2026-11-09T14:51:45.778636+00:00"
-      },
       "source": {
         "source_id": "23949984",
         "source_url": "https://sdilej.cz/23949984/hvezdna-brana-atlantida-stargate-atlantis-s01e13-hd-cz-dabing.mkv",
@@ -327051,15 +327045,22 @@
         "display_name": "Stargate Atlantis S01E13 Hot Zone 1080p CZ Dabing",
         "prepared_at": "2026-11-09T08:51:51.022426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30941933",
-        "size_bytes": 409307607
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30941933",
+          "size_bytes": 409307607,
+          "source_bytes_read": 409307607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23949984",
+        "source_url": "https://sdilej.cz/23949984/hvezdna-brana-atlantida-stargate-atlantis-s01e13-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30941933",
-        "size_bytes": 409307607,
-        "source_bytes_read": 409307607,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S01E13 Hot Zone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T08:52:36.895165+00:00"
       }
     },
     "1052:1:14": {
@@ -327138,5 +327139,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T08:52:34.328301+00:00"
+  "updated_at": "2026-11-09T08:52:36.895179+00:00"
 }
