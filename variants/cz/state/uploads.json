@@ -335014,12 +335014,6 @@
     },
     "2439:3:12": {
       "episode_key": "tintinova dobrodružství:s3:e12",
-      "claim": {
-        "worker_id": "404f9ad2cfe245c995ca9218a7490d2c-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:57:08.099382+00:00",
-        "lease_expires_at": "2026-11-10T00:57:08.099392+00:00"
-      },
       "source": {
         "source_id": "32885396",
         "source_url": "https://sdilej.cz/32885396/tintinova-dobrodruzstvi-s03e12-pruzkumnikem-na-mesici-cast-2.720p.bdrip-cz.mkv",
@@ -335044,15 +335038,22 @@
         "display_name": "The Adventures of Tintin S03E12 720p CZ Dabing",
         "prepared_at": "2026-11-09T18:57:14.896841+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952274",
-        "size_bytes": 298904704
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952274",
+          "size_bytes": 298904704,
+          "source_bytes_read": 298904704,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885396",
+        "source_url": "https://sdilej.cz/32885396/tintinova-dobrodruzstvi-s03e12-pruzkumnikem-na-mesici-cast-2.720p.bdrip-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952274",
-        "size_bytes": 298904704,
-        "source_bytes_read": 298904704,
-        "http_status": 201
+        "display_name": "The Adventures of Tintin S03E12 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:57:57.200597+00:00"
       }
     },
     "2439:3:13": {
@@ -335135,5 +335136,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:57:50.812616+00:00"
+  "updated_at": "2026-11-09T18:57:57.200617+00:00"
 }
