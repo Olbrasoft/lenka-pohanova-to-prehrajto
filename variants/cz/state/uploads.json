@@ -323802,12 +323802,6 @@
     },
     "190:2:8": {
       "episode_key": "landman:s2:e8",
-      "claim": {
-        "worker_id": "38c0bb43d7d141fbae6053f7d6769283-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T01:39:31.573371+00:00",
-        "lease_expires_at": "2026-11-09T07:39:31.573388+00:00"
-      },
       "source": {
         "source_id": "32871270",
         "source_url": "https://sdilej.cz/32871270/landman.s02e08.2160p.cz.dabing.mkv",
@@ -323832,15 +323826,22 @@
         "display_name": "Landman S02E08 Handsome Touched Me 4K CZ Dabing",
         "prepared_at": "2026-11-09T01:39:44.186555+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30930539",
-        "size_bytes": 3332217288
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30930539",
+          "size_bytes": 3332217288,
+          "source_bytes_read": 3332217288,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32871270",
+        "source_url": "https://sdilej.cz/32871270/landman.s02e08.2160p.cz.dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30930539",
-        "size_bytes": 3332217288,
-        "source_bytes_read": 3332217288,
-        "http_status": 201
+        "display_name": "Landman S02E08 Handsome Touched Me 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T01:58:43.254807+00:00"
       }
     },
     "190:2:9": {
@@ -323886,5 +323887,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T01:58:37.713154+00:00"
+  "updated_at": "2026-11-09T01:58:43.254826+00:00"
 }
