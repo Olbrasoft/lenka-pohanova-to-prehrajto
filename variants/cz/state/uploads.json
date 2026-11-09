@@ -331698,12 +331698,6 @@
     },
     "580:3:2": {
       "episode_key": "starosta kingstownu:s3:e2",
-      "claim": {
-        "worker_id": "9630d41b64f74b4fb3ab9f4071bb1884-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:29:01.612754+00:00",
-        "lease_expires_at": "2026-11-09T19:29:01.612764+00:00"
-      },
       "source": {
         "source_id": "33243527",
         "source_url": "https://sdilej.cz/33243527/starosta-kingstownu-s03e02-streva.mkv",
@@ -331728,15 +331722,22 @@
         "display_name": "Mayor of Kingstown S03E02 Guts 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:29:13.071201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30946535",
-        "size_bytes": 1845358680
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30946535",
+          "size_bytes": 1845358680,
+          "source_bytes_read": 1845358680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33243527",
+        "source_url": "https://sdilej.cz/33243527/starosta-kingstownu-s03e02-streva.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30946535",
-        "size_bytes": 1845358680,
-        "source_bytes_read": 1845358680,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S03E02 Guts 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T13:39:49.072376+00:00"
       }
     },
     "580:3:3": {
@@ -331789,5 +331790,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:39:42.162241+00:00"
+  "updated_at": "2026-11-09T13:39:49.072393+00:00"
 }
