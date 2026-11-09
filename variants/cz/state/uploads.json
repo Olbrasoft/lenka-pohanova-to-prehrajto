@@ -330662,12 +330662,6 @@
     },
     "1052:5:16": {
       "episode_key": "hvězdná brána - atlantida:s5:e16",
-      "claim": {
-        "worker_id": "562e073950f9400e8dd43ca528843a5a-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T11:58:14.776138+00:00",
-        "lease_expires_at": "2026-11-09T17:58:14.776149+00:00"
-      },
       "source": {
         "source_id": "23950915",
         "source_url": "https://sdilej.cz/23950915/hvezdna-brana-atlantida-stargate-atlantis-s05e16-hd-cz-dabing.mkv",
@@ -330692,15 +330686,22 @@
         "display_name": "Stargate Atlantis S05E16 Brain Storm 1080p CZ Dabing",
         "prepared_at": "2026-11-09T11:58:18.042972+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30945191",
-        "size_bytes": 472719355
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30945191",
+          "size_bytes": 472719355,
+          "source_bytes_read": 472719355,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950915",
+        "source_url": "https://sdilej.cz/23950915/hvezdna-brana-atlantida-stargate-atlantis-s05e16-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30945191",
-        "size_bytes": 472719355,
-        "source_bytes_read": 472719355,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S05E16 Brain Storm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T12:00:45.771977+00:00"
       }
     },
     "1052:5:17": {
@@ -330790,5 +330791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T12:00:38.772526+00:00"
+  "updated_at": "2026-11-09T12:00:45.771993+00:00"
 }
