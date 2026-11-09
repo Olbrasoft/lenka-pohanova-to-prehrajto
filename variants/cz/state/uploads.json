@@ -336686,12 +336686,6 @@
     },
     "355:2:6": {
       "episode_key": "pluk mizerů:s2:e6",
-      "claim": {
-        "worker_id": "478f974ddce54a0b9e17bac7c72a39aa-worker-0",
-        "run_id": "42692219930",
-        "claimed_at": "2026-11-09T21:41:13.430382+00:00",
-        "lease_expires_at": "2026-11-10T03:41:13.430394+00:00"
-      },
       "source": {
         "source_id": "30641857",
         "source_url": "https://sdilej.cz/30641857/pluk-mizeru-s02e06-sas-rogue-heroes-cz-dabing.mp4",
@@ -336716,15 +336710,22 @@
         "display_name": "SAS Rogue Heroes S02E06 1080p CZ Dabing",
         "prepared_at": "2026-11-09T21:41:22.470862+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30954724",
-        "size_bytes": 823989840
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30954724",
+          "size_bytes": 823989840,
+          "source_bytes_read": 823989840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30641857",
+        "source_url": "https://sdilej.cz/30641857/pluk-mizeru-s02e06-sas-rogue-heroes-cz-dabing.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30954724",
-        "size_bytes": 823989840,
-        "source_bytes_read": 823989840,
-        "http_status": 201
+        "display_name": "SAS Rogue Heroes S02E06 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T21:44:01.623623+00:00"
       }
     },
     "1859:1:5": {
@@ -336807,5 +336808,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T21:43:55.027599+00:00"
+  "updated_at": "2026-11-09T21:44:01.623638+00:00"
 }
