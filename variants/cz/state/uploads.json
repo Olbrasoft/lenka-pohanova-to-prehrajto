@@ -332248,12 +332248,6 @@
     },
     "580:4:6": {
       "episode_key": "starosta kingstownu:s4:e6",
-      "claim": {
-        "worker_id": "57cf22c96bf049c79345d4b9934c689f-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T14:38:04.114450+00:00",
-        "lease_expires_at": "2026-11-09T20:38:04.114468+00:00"
-      },
       "source": {
         "source_id": "33120129",
         "source_url": "https://sdilej.cz/33120129/mayor-of-kingstown-s04e06-cz-dabing.mkv",
@@ -332278,15 +332272,22 @@
         "display_name": "Mayor of Kingstown S04E06 #081693 4K CZ Dabing",
         "prepared_at": "2026-11-09T14:38:10.795336+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947346",
-        "size_bytes": 2241758638
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947346",
+          "size_bytes": 2241758638,
+          "source_bytes_read": 2241758638,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120129",
+        "source_url": "https://sdilej.cz/33120129/mayor-of-kingstown-s04e06-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947346",
-        "size_bytes": 2241758638,
-        "source_bytes_read": 2241758638,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E06 #081693 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T14:51:06.068480+00:00"
       }
     }
   },
@@ -332295,5 +332296,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T14:51:02.133062+00:00"
+  "updated_at": "2026-11-09T14:51:06.068503+00:00"
 }
