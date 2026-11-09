@@ -335102,12 +335102,6 @@
     },
     "1015:1:1": {
       "episode_key": "mladá modrá krev:s1:e1",
-      "claim": {
-        "worker_id": "6cc4d5cac41e49f09e0bd98aef4b7005-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:57:26.953292+00:00",
-        "lease_expires_at": "2026-11-10T00:57:26.953301+00:00"
-      },
       "source": {
         "source_id": "23636210",
         "source_url": "https://sdilej.cz/23636210/young.royals.s01e01.1080p.web.h264-forsee.mkv",
@@ -335132,15 +335126,22 @@
         "display_name": "Young Royals S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-09T18:57:36.864589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952284",
-        "size_bytes": 1630849957
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952284",
+          "size_bytes": 1630849957,
+          "source_bytes_read": 1630849957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23636210",
+        "source_url": "https://sdilej.cz/23636210/young.royals.s01e01.1080p.web.h264-forsee.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952284",
-        "size_bytes": 1630849957,
-        "source_bytes_read": 1630849957,
-        "http_status": 201
+        "display_name": "Young Royals S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:01:12.733424+00:00"
       }
     },
     "1015:1:2": {
@@ -335223,5 +335224,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:01:06.965225+00:00"
+  "updated_at": "2026-11-09T19:01:12.733442+00:00"
 }
