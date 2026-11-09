@@ -328610,12 +328610,6 @@
     },
     "1052:3:9": {
       "episode_key": "hvězdná brána - atlantida:s3:e9",
-      "claim": {
-        "worker_id": "0378b432307d422db61f1848b61ef3ad-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:37:53.913965+00:00",
-        "lease_expires_at": "2026-11-09T16:37:53.913978+00:00"
-      },
       "source": {
         "source_id": "33262945",
         "source_url": "https://sdilej.cz/33262945/stargate-atlantis-s03e09.mkv",
@@ -328640,15 +328634,22 @@
         "display_name": "Stargate Atlantis S03E09 Phantoms 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:38:02.432305+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943725",
-        "size_bytes": 581686644
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943725",
+          "size_bytes": 581686644,
+          "source_bytes_read": 581686644,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33262945",
+        "source_url": "https://sdilej.cz/33262945/stargate-atlantis-s03e09.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943725",
-        "size_bytes": 581686644,
-        "source_bytes_read": 581686644,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E09 Phantoms 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:39:45.927030+00:00"
       }
     },
     "1052:3:10": {
@@ -328701,5 +328702,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:39:43.184817+00:00"
+  "updated_at": "2026-11-09T10:39:45.927046+00:00"
 }
