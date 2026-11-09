@@ -326229,12 +326229,6 @@
     },
     "617:4:1": {
       "episode_key": "star trek: podivné nové světy:s4:e1",
-      "claim": {
-        "worker_id": "a11fcf68eb1e4031a4bb9c672e015ec5-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:34:05.873379+00:00",
-        "lease_expires_at": "2026-11-09T13:34:05.873390+00:00"
-      },
       "source": {
         "source_id": "34785503",
         "source_url": "https://sdilej.cz/34785503/star-trek-podivne-nove-svety-2026-s04e01-czdab.2160p-udoli-na-marsu.mkv",
@@ -326259,15 +326253,22 @@
         "display_name": "Star Trek: Strange New Worlds S04E01 Valles Marineris 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:34:13.045831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937853",
-        "size_bytes": 6994033283
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937853",
+          "size_bytes": 6994033283,
+          "source_bytes_read": 6994033283,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34785503",
+        "source_url": "https://sdilej.cz/34785503/star-trek-podivne-nove-svety-2026-s04e01-czdab.2160p-udoli-na-marsu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937853",
-        "size_bytes": 6994033283,
-        "source_bytes_read": 6994033283,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S04E01 Valles Marineris 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T08:06:47.183606+00:00"
       }
     },
     "617:4:2": {
@@ -326364,5 +326365,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T08:06:43.690811+00:00"
+  "updated_at": "2026-11-09T08:06:47.183623+00:00"
 }
