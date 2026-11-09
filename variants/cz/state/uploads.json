@@ -329874,12 +329874,6 @@
     },
     "1052:4:18": {
       "episode_key": "hvězdná brána - atlantida:s4:e18",
-      "claim": {
-        "worker_id": "66ecbe49f2234a34be520e3e226fa177-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T11:16:16.109753+00:00",
-        "lease_expires_at": "2026-11-09T17:16:16.109767+00:00"
-      },
       "source": {
         "source_id": "23950719",
         "source_url": "https://sdilej.cz/23950719/hvezdna-brana-atlantida-stargate-atlantis-s04e18-hd-cz-dabing.mkv",
@@ -329904,15 +329898,22 @@
         "display_name": "Stargate Atlantis S04E18 The Kindred (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T11:16:22.247864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30944362",
-        "size_bytes": 526476895
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30944362",
+          "size_bytes": 526476895,
+          "source_bytes_read": 526476895,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950719",
+        "source_url": "https://sdilej.cz/23950719/hvezdna-brana-atlantida-stargate-atlantis-s04e18-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30944362",
-        "size_bytes": 526476895,
-        "source_bytes_read": 526476895,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E18 The Kindred (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T11:18:03.166785+00:00"
       }
     }
   },
@@ -329921,5 +329922,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T11:18:00.250252+00:00"
+  "updated_at": "2026-11-09T11:18:03.166802+00:00"
 }
