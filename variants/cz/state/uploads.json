@@ -333694,12 +333694,6 @@
     },
     "2444:3:8": {
       "episode_key": "stále v kurzu:s3:e8",
-      "claim": {
-        "worker_id": "307f277402e843a8b4f23e66dc4b8347-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T17:55:59.469698+00:00",
-        "lease_expires_at": "2026-11-09T23:55:59.469711+00:00"
-      },
       "source": {
         "source_id": "34457110",
         "source_url": "https://sdilej.cz/34457110/hacks-s03e08-stale-v-kurzu.czdab.mkv",
@@ -333724,15 +333718,22 @@
         "display_name": "Hacks S03E08 Yes, And 1080p CZ Dabing",
         "prepared_at": "2026-11-09T17:56:07.776197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951016",
-        "size_bytes": 393614350
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951016",
+          "size_bytes": 393614350,
+          "source_bytes_read": 393614350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34457110",
+        "source_url": "https://sdilej.cz/34457110/hacks-s03e08-stale-v-kurzu.czdab.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951016",
-        "size_bytes": 393614350,
-        "source_bytes_read": 393614350,
-        "http_status": 201
+        "display_name": "Hacks S03E08 Yes, And 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T17:58:36.434487+00:00"
       }
     },
     "2444:3:9": {
@@ -333822,5 +333823,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T17:58:30.337360+00:00"
+  "updated_at": "2026-11-09T17:58:36.434507+00:00"
 }
