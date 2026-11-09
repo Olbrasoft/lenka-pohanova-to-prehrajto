@@ -333460,12 +333460,6 @@
     },
     "2444:3:3": {
       "episode_key": "stále v kurzu:s3:e3",
-      "claim": {
-        "worker_id": "b7b2af9c1e9d4939a73c1133e2a7620f-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T17:27:14.242081+00:00",
-        "lease_expires_at": "2026-11-09T23:27:14.242093+00:00"
-      },
       "source": {
         "source_id": "34949760",
         "source_url": "https://sdilej.cz/34949760/hacks-s03e03-stale-v-kurzu-fhd-1080p-cz-en.mkv",
@@ -333490,15 +333484,22 @@
         "display_name": "Hacks S03E03 The Roast of Deborah Vance 1080p CZ Dabing",
         "prepared_at": "2026-11-09T17:27:17.382802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30950243",
-        "size_bytes": 371141111
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30950243",
+          "size_bytes": 371141111,
+          "source_bytes_read": 371141111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34949760",
+        "source_url": "https://sdilej.cz/34949760/hacks-s03e03-stale-v-kurzu-fhd-1080p-cz-en.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30950243",
-        "size_bytes": 371141111,
-        "source_bytes_read": 371141111,
-        "http_status": 201
+        "display_name": "Hacks S03E03 The Roast of Deborah Vance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T17:28:03.049045+00:00"
       }
     }
   },
@@ -333507,5 +333508,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T17:27:57.089608+00:00"
+  "updated_at": "2026-11-09T17:28:03.049066+00:00"
 }
