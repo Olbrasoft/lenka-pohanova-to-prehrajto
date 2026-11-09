@@ -329170,12 +329170,6 @@
     },
     "1052:4:2": {
       "episode_key": "hvězdná brána - atlantida:s4:e2",
-      "claim": {
-        "worker_id": "090f3651ad264b66aaafdbb3421503e0-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:51:21.586763+00:00",
-        "lease_expires_at": "2026-11-09T16:51:21.586773+00:00"
-      },
       "source": {
         "source_id": "23950521",
         "source_url": "https://sdilej.cz/23950521/hvezdna-brana-atlantida-stargate-atlantis-s04e02-hd-cz-dabing.mkv",
@@ -329200,15 +329194,22 @@
         "display_name": "Stargate Atlantis S04E02 Lifeline (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:51:28.280008+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943930",
-        "size_bytes": 417346444
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943930",
+          "size_bytes": 417346444,
+          "source_bytes_read": 417346444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950521",
+        "source_url": "https://sdilej.cz/23950521/hvezdna-brana-atlantida-stargate-atlantis-s04e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943930",
-        "size_bytes": 417346444,
-        "source_bytes_read": 417346444,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E02 Lifeline (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:52:49.992493+00:00"
       }
     },
     "1052:4:3": {
@@ -329254,5 +329255,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:52:44.320751+00:00"
+  "updated_at": "2026-11-09T10:52:49.992509+00:00"
 }
