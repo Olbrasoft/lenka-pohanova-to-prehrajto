@@ -327542,12 +327542,6 @@
     },
     "1052:2:5": {
       "episode_key": "hvězdná brána - atlantida:s2:e5",
-      "claim": {
-        "worker_id": "ae12821e04c04d7787fa7f2ce0e45897-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:39:08.533307+00:00",
-        "lease_expires_at": "2026-11-09T15:39:08.533317+00:00"
-      },
       "source": {
         "source_id": "29906668",
         "source_url": "https://sdilej.cz/29906668/stargate-atlantis-s02e05-odsouzenci.mkv",
@@ -327572,15 +327566,22 @@
         "display_name": "Stargate Atlantis S02E05 Condemned 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:39:14.134033+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942683",
-        "size_bytes": 575773040
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942683",
+          "size_bytes": 575773040,
+          "source_bytes_read": 575773040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29906668",
+        "source_url": "https://sdilej.cz/29906668/stargate-atlantis-s02e05-odsouzenci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942683",
-        "size_bytes": 575773040,
-        "source_bytes_read": 575773040,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S02E05 Condemned 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:40:49.211526+00:00"
       }
     },
     "1052:2:6": {
@@ -327670,5 +327671,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:40:44.075963+00:00"
+  "updated_at": "2026-11-09T09:40:49.211543+00:00"
 }
