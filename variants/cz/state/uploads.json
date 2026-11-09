@@ -331565,12 +331565,6 @@
     },
     "580:2:8": {
       "episode_key": "starosta kingstownu:s2:e8",
-      "claim": {
-        "worker_id": "cca795d1a33f485d99df5d0378dfe583-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:07:48.272491+00:00",
-        "lease_expires_at": "2026-11-09T19:07:48.272503+00:00"
-      },
       "source": {
         "source_id": "35003583",
         "source_url": "https://sdilej.cz/35003583/starosta-kingstownu-s02e08-santa-jezis-cz-dabing.mkv",
@@ -331595,15 +331589,22 @@
         "display_name": "Mayor of Kingstown S02E08 Santa Jesus 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:07:51.810829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30946235",
-        "size_bytes": 2049816425
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30946235",
+          "size_bytes": 2049816425,
+          "source_bytes_read": 2049816425,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003583",
+        "source_url": "https://sdilej.cz/35003583/starosta-kingstownu-s02e08-santa-jezis-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30946235",
-        "size_bytes": 2049816425,
-        "source_bytes_read": 2049816425,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S02E08 Santa Jesus 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T13:16:26.824580+00:00"
       }
     },
     "580:2:9": {
@@ -331682,5 +331683,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:16:20.924611+00:00"
+  "updated_at": "2026-11-09T13:16:26.824601+00:00"
 }
