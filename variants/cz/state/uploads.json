@@ -328429,12 +328429,6 @@
     },
     "1052:3:5": {
       "episode_key": "hvězdná brána - atlantida:s3:e5",
-      "claim": {
-        "worker_id": "296af3cf0056490ab36dae1cdfc0f9ed-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:55:36.685489+00:00",
-        "lease_expires_at": "2026-11-09T15:55:36.685503+00:00"
-      },
       "source": {
         "source_id": "14343068",
         "source_url": "https://sdilej.cz/14343068/hvezdna-brana-atlantida-stargate-atlantis-720p-cz-s03e05-potomci.mkv",
@@ -328459,15 +328453,22 @@
         "display_name": "Stargate Atlantis S03E05 Progeny 720p CZ Dabing",
         "prepared_at": "2026-11-09T09:55:39.885974+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942978",
-        "size_bytes": 607510417
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942978",
+          "size_bytes": 607510417,
+          "source_bytes_read": 607510417,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14343068",
+        "source_url": "https://sdilej.cz/14343068/hvezdna-brana-atlantida-stargate-atlantis-720p-cz-s03e05-potomci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942978",
-        "size_bytes": 607510417,
-        "source_bytes_read": 607510417,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E05 Progeny 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:59:42.497471+00:00"
       }
     },
     "1052:3:6": {
@@ -328520,5 +328521,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:59:39.281933+00:00"
+  "updated_at": "2026-11-09T09:59:42.497487+00:00"
 }
