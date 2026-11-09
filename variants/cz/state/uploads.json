@@ -325349,12 +325349,6 @@
     },
     "617:2:1": {
       "episode_key": "star trek: podivné nové světy:s2:e1",
-      "claim": {
-        "worker_id": "8f231594c4404fbca2ec216ddc646226-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T04:06:51.977526+00:00",
-        "lease_expires_at": "2026-11-09T10:06:51.977541+00:00"
-      },
       "source": {
         "source_id": "33649064",
         "source_url": "https://sdilej.cz/33649064/star-trek-podivne-nove-svety-s02e01-prerusene-kruhy.mkv",
@@ -325379,15 +325373,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E01 The Broken Circle 4K CZ Dabing",
         "prepared_at": "2026-11-09T04:06:54.954261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30933124",
-        "size_bytes": 2272728120
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30933124",
+          "size_bytes": 2272728120,
+          "source_bytes_read": 2272728120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33649064",
+        "source_url": "https://sdilej.cz/33649064/star-trek-podivne-nove-svety-s02e01-prerusene-kruhy.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30933124",
-        "size_bytes": 2272728120,
-        "source_bytes_read": 2272728120,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E01 The Broken Circle 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T04:24:24.898644+00:00"
       }
     }
   },
@@ -325396,5 +325397,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T04:24:20.902889+00:00"
+  "updated_at": "2026-11-09T04:24:24.898655+00:00"
 }
