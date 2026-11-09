@@ -332990,12 +332990,6 @@
     },
     "2444:1:10": {
       "episode_key": "stále v kurzu:s1:e10",
-      "claim": {
-        "worker_id": "de849099be474abda7fb189a6252be1a-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T16:18:12.491428+00:00",
-        "lease_expires_at": "2026-11-09T22:18:12.491447+00:00"
-      },
       "source": {
         "source_id": "21642615",
         "source_url": "https://sdilej.cz/21642615/stale-v-kurzu-hacks-s01e10-cz-dabing-hd-1080p.mp4",
@@ -333020,15 +333014,22 @@
         "display_name": "Hacks S01E10 I Think She Will 1080p CZ Dabing",
         "prepared_at": "2026-11-09T16:18:16.044905+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30948752",
-        "size_bytes": 518505093
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30948752",
+          "size_bytes": 518505093,
+          "source_bytes_read": 518505093,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21642615",
+        "source_url": "https://sdilej.cz/21642615/stale-v-kurzu-hacks-s01e10-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30948752",
-        "size_bytes": 518505093,
-        "source_bytes_read": 518505093,
-        "http_status": 201
+        "display_name": "Hacks S01E10 I Think She Will 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T16:20:27.307419+00:00"
       }
     },
     "2444:2:1": {
@@ -333074,5 +333075,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T16:20:21.264237+00:00"
+  "updated_at": "2026-11-09T16:20:27.307437+00:00"
 }
