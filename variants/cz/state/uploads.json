@@ -326009,12 +326009,6 @@
     },
     "617:3:6": {
       "episode_key": "star trek: podivné nové světy:s3:e6",
-      "claim": {
-        "worker_id": "a54c94a66acb47629176bd10c5cdbe6e-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:11:11.059154+00:00",
-        "lease_expires_at": "2026-11-09T13:11:11.059168+00:00"
-      },
       "source": {
         "source_id": "33650620",
         "source_url": "https://sdilej.cz/33650620/star-trek-podivne-nove-svety-2025-s03e06-czdab-uhdr-sehlat-ktery-snedl-svuj-vlastni....mkv",
@@ -326039,15 +326033,22 @@
         "display_name": "Star Trek: Strange New Worlds S03E06 The Sehlat Who Ate Its Tail 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:11:17.488392+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937188",
-        "size_bytes": 2293352152
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937188",
+          "size_bytes": 2293352152,
+          "source_bytes_read": 2293352152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33650620",
+        "source_url": "https://sdilej.cz/33650620/star-trek-podivne-nove-svety-2025-s03e06-czdab-uhdr-sehlat-ktery-snedl-svuj-vlastni....mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937188",
-        "size_bytes": 2293352152,
-        "source_bytes_read": 2293352152,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S03E06 The Sehlat Who Ate Its Tail 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T07:22:15.646446+00:00"
       }
     },
     "617:3:7": {
@@ -326130,5 +326131,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T07:22:10.251475+00:00"
+  "updated_at": "2026-11-09T07:22:15.646461+00:00"
 }
