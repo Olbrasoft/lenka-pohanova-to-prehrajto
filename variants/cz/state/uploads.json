@@ -326141,12 +326141,6 @@
     },
     "617:3:9": {
       "episode_key": "star trek: podivné nové světy:s3:e9",
-      "claim": {
-        "worker_id": "68cf40e9c4d741bd81e3255905efe74a-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:22:24.308464+00:00",
-        "lease_expires_at": "2026-11-09T13:22:24.308476+00:00"
-      },
       "source": {
         "source_id": "33648418",
         "source_url": "https://sdilej.cz/33648418/star-trek-podivne-nove-svety-s03e09-terrarium.mkv",
@@ -326171,15 +326165,22 @@
         "display_name": "Star Trek: Strange New Worlds S03E09 Terrarium 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:22:27.616017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937508",
-        "size_bytes": 2640899432
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937508",
+          "size_bytes": 2640899432,
+          "source_bytes_read": 2640899432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33648418",
+        "source_url": "https://sdilej.cz/33648418/star-trek-podivne-nove-svety-s03e09-terrarium.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937508",
-        "size_bytes": 2640899432,
-        "source_bytes_read": 2640899432,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S03E09 Terrarium 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T07:30:25.336278+00:00"
       }
     },
     "617:3:10": {
@@ -326232,5 +326233,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T07:30:19.783702+00:00"
+  "updated_at": "2026-11-09T07:30:25.336294+00:00"
 }
