@@ -336289,12 +336289,6 @@
     },
     "355:1:3": {
       "episode_key": "pluk mizerů:s1:e3",
-      "claim": {
-        "worker_id": "8e168c96fd614b3b93c7d3c06ae7948b-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T20:23:04.789035+00:00",
-        "lease_expires_at": "2026-11-10T02:23:04.789047+00:00"
-      },
       "source": {
         "source_id": "25786429",
         "source_url": "https://sdilej.cz/25786429/pluk-mizeru-sas-rogue-heroes-s01e03-2022-cz-dabing.mkv",
@@ -336319,15 +336313,22 @@
         "display_name": "SAS Rogue Heroes S01E03 1080p CZ Dabing",
         "prepared_at": "2026-11-09T20:23:10.081590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30953599",
-        "size_bytes": 816216840
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30953599",
+          "size_bytes": 816216840,
+          "source_bytes_read": 816216840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25786429",
+        "source_url": "https://sdilej.cz/25786429/pluk-mizeru-sas-rogue-heroes-s01e03-2022-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30953599",
-        "size_bytes": 816216840,
-        "source_bytes_read": 816216840,
-        "http_status": 201
+        "display_name": "SAS Rogue Heroes S01E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T20:24:39.212506+00:00"
       }
     },
     "355:1:4": {
@@ -336373,5 +336374,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T20:24:34.288830+00:00"
+  "updated_at": "2026-11-09T20:24:39.212523+00:00"
 }
