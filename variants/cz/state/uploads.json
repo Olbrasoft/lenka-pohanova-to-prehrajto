@@ -331978,12 +331978,6 @@
     },
     "580:3:10": {
       "episode_key": "starosta kingstownu:s3:e10",
-      "claim": {
-        "worker_id": "817b25b1dff945c1a6a8d799fd038e08-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T14:09:57.635045+00:00",
-        "lease_expires_at": "2026-11-09T20:09:57.635070+00:00"
-      },
       "source": {
         "source_id": "33243688",
         "source_url": "https://sdilej.cz/33243688/starosta-kingstownu-s03e10-bozi-mlyny.mkv",
@@ -332008,15 +332002,22 @@
         "display_name": "Mayor of Kingstown S03E10 Comeuppance 4K CZ Dabing",
         "prepared_at": "2026-11-09T14:10:03.920804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947009",
-        "size_bytes": 2825967155
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947009",
+          "size_bytes": 2825967155,
+          "source_bytes_read": 2825967155,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33243688",
+        "source_url": "https://sdilej.cz/33243688/starosta-kingstownu-s03e10-bozi-mlyny.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947009",
-        "size_bytes": 2825967155,
-        "source_bytes_read": 2825967155,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S03E10 Comeuppance 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T14:18:50.001985+00:00"
       }
     },
     "580:4:1": {
@@ -332106,5 +332107,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T14:18:43.436273+00:00"
+  "updated_at": "2026-11-09T14:18:50.002002+00:00"
 }
