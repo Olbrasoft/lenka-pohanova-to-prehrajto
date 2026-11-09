@@ -335894,12 +335894,6 @@
     },
     "604:3:5": {
       "episode_key": "kominského metoda:s3:e5",
-      "claim": {
-        "worker_id": "547dcee2cf3f4840a838c4a9265dd9d3-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:32:28.307872+00:00",
-        "lease_expires_at": "2026-11-10T01:32:28.307882+00:00"
-      },
       "source": {
         "source_id": "32580626",
         "source_url": "https://sdilej.cz/32580626/kominskeho-metoda-2021-s03e05-czdab-1080p-blizko-ci-dal-at-jsi-kdekoli-stal.mkv",
@@ -335924,15 +335918,22 @@
         "display_name": "The Kominsky Method S03E05 Chapter 21. Near, far, wherever you are 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:32:36.439013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952897",
-        "size_bytes": 406771679
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952897",
+          "size_bytes": 406771679,
+          "source_bytes_read": 406771679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32580626",
+        "source_url": "https://sdilej.cz/32580626/kominskeho-metoda-2021-s03e05-czdab-1080p-blizko-ci-dal-at-jsi-kdekoli-stal.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952897",
-        "size_bytes": 406771679,
-        "source_bytes_read": 406771679,
-        "http_status": 201
+        "display_name": "The Kominsky Method S03E05 Chapter 21. Near, far, wherever you are 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:33:54.865326+00:00"
       }
     },
     "604:3:6": {
@@ -336015,5 +336016,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:33:49.442489+00:00"
+  "updated_at": "2026-11-09T19:33:54.865346+00:00"
 }
