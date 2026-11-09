@@ -327718,12 +327718,6 @@
     },
     "1052:2:9": {
       "episode_key": "hvězdná brána - atlantida:s2:e9",
-      "claim": {
-        "worker_id": "5f42175a560d4174a423c6275f109afc-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:41:31.579955+00:00",
-        "lease_expires_at": "2026-11-09T15:41:31.579967+00:00"
-      },
       "source": {
         "source_id": "29678702",
         "source_url": "https://sdilej.cz/29678702/stargate-atlantis-s02e09-aurora-bluray-1080p.mp4",
@@ -327748,15 +327742,22 @@
         "display_name": "Stargate Atlantis S02E09 Aurora 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:41:34.627897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942720",
-        "size_bytes": 478251966
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942720",
+          "size_bytes": 478251966,
+          "source_bytes_read": 478251966,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29678702",
+        "source_url": "https://sdilej.cz/29678702/stargate-atlantis-s02e09-aurora-bluray-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942720",
-        "size_bytes": 478251966,
-        "source_bytes_read": 478251966,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S02E09 Aurora 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:43:29.555939+00:00"
       }
     }
   },
@@ -327765,5 +327766,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:43:23.056103+00:00"
+  "updated_at": "2026-11-09T09:43:29.555954+00:00"
 }
