@@ -327989,12 +327989,6 @@
     },
     "1052:2:15": {
       "episode_key": "hvězdná brána - atlantida:s2:e15",
-      "claim": {
-        "worker_id": "5893b5b2a23f44838a38237e0f339438-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:49:30.341531+00:00",
-        "lease_expires_at": "2026-11-09T15:49:30.341542+00:00"
-      },
       "source": {
         "source_id": "23950251",
         "source_url": "https://sdilej.cz/23950251/hvezdna-brana-atlantida-stargate-atlantis-s02e15-hd-cz-dabing.mkv",
@@ -328019,15 +328013,22 @@
         "display_name": "Stargate Atlantis S02E15 The Tower 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:49:33.577694+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942839",
-        "size_bytes": 533302182
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942839",
+          "size_bytes": 533302182,
+          "source_bytes_read": 533302182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950251",
+        "source_url": "https://sdilej.cz/23950251/hvezdna-brana-atlantida-stargate-atlantis-s02e15-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942839",
-        "size_bytes": 533302182,
-        "source_bytes_read": 533302182,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S02E15 The Tower 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:50:46.234098+00:00"
       }
     },
     "1052:2:16": {
@@ -328110,5 +328111,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:50:41.398945+00:00"
+  "updated_at": "2026-11-09T09:50:46.234115+00:00"
 }
