@@ -325606,12 +325606,6 @@
     },
     "617:2:7": {
       "episode_key": "star trek: podivné nové světy:s2:e7",
-      "claim": {
-        "worker_id": "37d84368f66946f5bac77fee8b75944a-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T05:08:19.875542+00:00",
-        "lease_expires_at": "2026-11-09T11:08:19.875556+00:00"
-      },
       "source": {
         "source_id": "26587451",
         "source_url": "https://sdilej.cz/26587451/star.trek.strange.new.worlds.s02e07.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -325636,15 +325630,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E07 Those Old Scientists 1080p CZ Dabing",
         "prepared_at": "2026-11-09T05:08:25.444772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30934293",
-        "size_bytes": 1107177637
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30934293",
+          "size_bytes": 1107177637,
+          "source_bytes_read": 1107177637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26587451",
+        "source_url": "https://sdilej.cz/26587451/star.trek.strange.new.worlds.s02e07.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30934293",
-        "size_bytes": 1107177637,
-        "source_bytes_read": 1107177637,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E07 Those Old Scientists 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T05:16:09.302606+00:00"
       }
     },
     "617:2:8": {
@@ -325690,5 +325691,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T05:16:03.414169+00:00"
+  "updated_at": "2026-11-09T05:16:09.302627+00:00"
 }
