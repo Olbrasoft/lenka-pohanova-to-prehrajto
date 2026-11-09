@@ -330145,12 +330145,6 @@
     },
     "1052:5:4": {
       "episode_key": "hvězdná brána - atlantida:s5:e4",
-      "claim": {
-        "worker_id": "8831a78c390d4cc0802ab2e1c535c984-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T11:43:50.962070+00:00",
-        "lease_expires_at": "2026-11-09T17:43:50.962080+00:00"
-      },
       "source": {
         "source_id": "23950782",
         "source_url": "https://sdilej.cz/23950782/hvezdna-brana-atlantida-stargate-atlantis-s05e04-hd-cz-dabing.mkv",
@@ -330175,15 +330169,22 @@
         "display_name": "Stargate Atlantis S05E04 The Daedalus Variations 1080p CZ Dabing",
         "prepared_at": "2026-11-09T11:43:56.300904+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30944914",
-        "size_bytes": 460966555
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30944914",
+          "size_bytes": 460966555,
+          "source_bytes_read": 460966555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950782",
+        "source_url": "https://sdilej.cz/23950782/hvezdna-brana-atlantida-stargate-atlantis-s05e04-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30944914",
-        "size_bytes": 460966555,
-        "source_bytes_read": 460966555,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S05E04 The Daedalus Variations 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T11:47:29.776710+00:00"
       }
     },
     "1052:5:5": {
@@ -330324,5 +330325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T11:47:23.950926+00:00"
+  "updated_at": "2026-11-09T11:47:29.776726+00:00"
 }
