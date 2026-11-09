@@ -326493,12 +326493,6 @@
     },
     "617:4:8": {
       "episode_key": "star trek: podivné nové světy:s4:e8",
-      "claim": {
-        "worker_id": "0289e2927a8e402cb03840f78e28d059-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T08:43:18.173304+00:00",
-        "lease_expires_at": "2026-11-09T14:43:18.173317+00:00"
-      },
       "source": {
         "source_id": "34984038",
         "source_url": "https://sdilej.cz/34984038/star-trek-podivne-nove-svety-s04e08-1080p-10bit-webrip-opus-5.1-x265-cz-dabing.mkv",
@@ -326523,15 +326517,22 @@
         "display_name": "Star Trek: Strange New Worlds S04E08 Orders of Magnitude 1080p CZ Dabing",
         "prepared_at": "2026-11-09T08:43:24.039026+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30941813",
-        "size_bytes": 687692623
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30941813",
+          "size_bytes": 687692623,
+          "source_bytes_read": 687692623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34984038",
+        "source_url": "https://sdilej.cz/34984038/star-trek-podivne-nove-svety-s04e08-1080p-10bit-webrip-opus-5.1-x265-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30941813",
-        "size_bytes": 687692623,
-        "source_bytes_read": 687692623,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S04E08 Orders of Magnitude 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T08:45:23.120543+00:00"
       }
     },
     "1052:1:2": {
@@ -326620,5 +326621,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T08:45:20.264478+00:00"
+  "updated_at": "2026-11-09T08:45:23.120559+00:00"
 }
