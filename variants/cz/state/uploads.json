@@ -335366,12 +335366,6 @@
     },
     "604:1:2": {
       "episode_key": "kominského metoda:s1:e2",
-      "claim": {
-        "worker_id": "8bd6d31a3b4e4bfd99a9d2d9b81cfafc-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:17:32.177865+00:00",
-        "lease_expires_at": "2026-11-10T01:17:32.177875+00:00"
-      },
       "source": {
         "source_id": "32305144",
         "source_url": "https://sdilej.cz/32305144/kominskeho-metoda-s01e02-kapitola-2-agent-truchli-cz-dabing.mkv",
@@ -335396,15 +335390,22 @@
         "display_name": "The Kominsky Method S01E02 Chapter 2. An Agent Grieves 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:17:35.701740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952642",
-        "size_bytes": 970744493
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952642",
+          "size_bytes": 970744493,
+          "source_bytes_read": 970744493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32305144",
+        "source_url": "https://sdilej.cz/32305144/kominskeho-metoda-s01e02-kapitola-2-agent-truchli-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952642",
-        "size_bytes": 970744493,
-        "source_bytes_read": 970744493,
-        "http_status": 201
+        "display_name": "The Kominsky Method S01E02 Chapter 2. An Agent Grieves 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:19:45.649908+00:00"
       }
     },
     "604:1:3": {
@@ -335531,5 +335532,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:19:41.563410+00:00"
+  "updated_at": "2026-11-09T19:19:45.649926+00:00"
 }
