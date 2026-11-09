@@ -331389,12 +331389,6 @@
     },
     "580:2:3": {
       "episode_key": "starosta kingstownu:s2:e3",
-      "claim": {
-        "worker_id": "43005f1451b046f5a614b4e2c6ff1501-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:02:22.200655+00:00",
-        "lease_expires_at": "2026-11-09T19:02:22.200666+00:00"
-      },
       "source": {
         "source_id": "34104846",
         "source_url": "https://sdilej.cz/34104846/starosta-kingstownu-s02e03-cz-dabing-2160p-uhd.mkv",
@@ -331419,15 +331413,22 @@
         "display_name": "Mayor of Kingstown S02E03 Five at Five 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:02:28.305777+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30946153",
-        "size_bytes": 1623773536
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30946153",
+          "size_bytes": 1623773536,
+          "source_bytes_read": 1623773536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34104846",
+        "source_url": "https://sdilej.cz/34104846/starosta-kingstownu-s02e03-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30946153",
-        "size_bytes": 1623773536,
-        "source_bytes_read": 1623773536,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S02E03 Five at Five 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T13:06:32.956965+00:00"
       }
     },
     "580:2:5": {
@@ -331506,5 +331507,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:06:26.804461+00:00"
+  "updated_at": "2026-11-09T13:06:32.956984+00:00"
 }
