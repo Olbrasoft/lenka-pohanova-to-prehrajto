@@ -332360,12 +332360,6 @@
     },
     "580:4:9": {
       "episode_key": "starosta kingstownu:s4:e9",
-      "claim": {
-        "worker_id": "ad476c20725f420f93b61638e29cc10f-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T15:12:13.834852+00:00",
-        "lease_expires_at": "2026-11-09T21:12:13.834875+00:00"
-      },
       "source": {
         "source_id": "33120152",
         "source_url": "https://sdilej.cz/33120152/mayor-of-kingstown-s04e09-cz-dabing.mkv",
@@ -332390,15 +332384,22 @@
         "display_name": "Mayor of Kingstown S04E09 Teeth and Tissue 4K CZ Dabing",
         "prepared_at": "2026-11-09T15:12:17.399622+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947794",
-        "size_bytes": 2108036770
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947794",
+          "size_bytes": 2108036770,
+          "source_bytes_read": 2108036770,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120152",
+        "source_url": "https://sdilej.cz/33120152/mayor-of-kingstown-s04e09-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947794",
-        "size_bytes": 2108036770,
-        "source_bytes_read": 2108036770,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E09 Teeth and Tissue 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T15:17:01.010510+00:00"
       }
     }
   },
@@ -332407,5 +332408,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T15:16:53.976014+00:00"
+  "updated_at": "2026-11-09T15:17:01.010529+00:00"
 }
