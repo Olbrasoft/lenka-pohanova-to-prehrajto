@@ -323375,12 +323375,6 @@
     },
     "190:1:8": {
       "episode_key": "landman:s1:e8",
-      "claim": {
-        "worker_id": "1b9c79d390d44d738e0fb75159e94266-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T00:00:40.141144+00:00",
-        "lease_expires_at": "2026-11-09T06:00:40.141161+00:00"
-      },
       "source": {
         "source_id": "32695885",
         "source_url": "https://sdilej.cz/32695885/landman-2024-s01e08-cz-en-dabing-2160p-hevc.mkv",
@@ -323405,15 +323399,22 @@
         "display_name": "Landman S01E08 Clumsy, This Life 4K CZ Dabing",
         "prepared_at": "2026-11-09T00:00:46.442032+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30928213",
-        "size_bytes": 6411705533
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30928213",
+          "size_bytes": 6411705533,
+          "source_bytes_read": 6411705533,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32695885",
+        "source_url": "https://sdilej.cz/32695885/landman-2024-s01e08-cz-en-dabing-2160p-hevc.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30928213",
-        "size_bytes": 6411705533,
-        "source_bytes_read": 6411705533,
-        "http_status": 201
+        "display_name": "Landman S01E08 Clumsy, This Life 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T00:16:31.750188+00:00"
       }
     },
     "190:1:9": {
@@ -323510,5 +323511,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T00:16:29.034738+00:00"
+  "updated_at": "2026-11-09T00:16:31.750208+00:00"
 }
