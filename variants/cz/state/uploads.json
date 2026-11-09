@@ -325393,12 +325393,6 @@
     },
     "617:2:2": {
       "episode_key": "star trek: podivné nové světy:s2:e2",
-      "claim": {
-        "worker_id": "95384cfa2e294fe6993ffaa04b301f95-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T04:48:49.760420+00:00",
-        "lease_expires_at": "2026-11-09T10:48:49.760430+00:00"
-      },
       "source": {
         "source_id": "34939791",
         "source_url": "https://sdilej.cz/34939791/star-trek-podivne-nove-svety-s02e02-cz-dabing.mkv",
@@ -325423,15 +325417,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E02 Ad Astra per Aspera 4K CZ Dabing",
         "prepared_at": "2026-11-09T04:48:56.470917+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30933897",
-        "size_bytes": 2506700352
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30933897",
+          "size_bytes": 2506700352,
+          "source_bytes_read": 2506700352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34939791",
+        "source_url": "https://sdilej.cz/34939791/star-trek-podivne-nove-svety-s02e02-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30933897",
-        "size_bytes": 2506700352,
-        "source_bytes_read": 2506700352,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E02 Ad Astra per Aspera 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T05:03:23.910952+00:00"
       }
     },
     "617:2:3": {
@@ -325558,5 +325559,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T05:03:18.093703+00:00"
+  "updated_at": "2026-11-09T05:03:23.910971+00:00"
 }
