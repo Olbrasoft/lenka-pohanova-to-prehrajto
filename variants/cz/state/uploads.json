@@ -335328,12 +335328,6 @@
     },
     "604:1:1": {
       "episode_key": "kominského metoda:s1:e1",
-      "claim": {
-        "worker_id": "df79aa8d8a9a4f13805a5207f93f297a-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:03:15.116525+00:00",
-        "lease_expires_at": "2026-11-10T01:03:15.116537+00:00"
-      },
       "source": {
         "source_id": "32302175",
         "source_url": "https://sdilej.cz/32302175/kominskeho-metoda-s01e01-kapitola-1-herec-se-vyhyba-cz-dabing.mkv",
@@ -335358,15 +335352,22 @@
         "display_name": "The Kominsky Method S01E01 Chapter 1. An Actor Avoids 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:03:20.704406+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952372",
-        "size_bytes": 1613935801
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952372",
+          "size_bytes": 1613935801,
+          "source_bytes_read": 1613935801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32302175",
+        "source_url": "https://sdilej.cz/32302175/kominskeho-metoda-s01e01-kapitola-1-herec-se-vyhyba-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952372",
-        "size_bytes": 1613935801,
-        "source_bytes_read": 1613935801,
-        "http_status": 201
+        "display_name": "The Kominsky Method S01E01 Chapter 1. An Actor Avoids 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:08:40.436769+00:00"
       }
     }
   },
@@ -335375,5 +335376,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:08:35.649631+00:00"
+  "updated_at": "2026-11-09T19:08:40.436783+00:00"
 }
