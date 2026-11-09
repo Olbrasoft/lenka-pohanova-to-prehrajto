@@ -324161,12 +324161,6 @@
     },
     "1229:1:6": {
       "episode_key": "studio 60:s1:e6",
-      "claim": {
-        "worker_id": "b2d1a641d2ec466fa8a6f6f363d2ce1a-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T02:41:06.221414+00:00",
-        "lease_expires_at": "2026-11-09T08:41:06.221433+00:00"
-      },
       "source": {
         "source_id": "33560492",
         "source_url": "https://sdilej.cz/33560492/studio-60-s01e06-czdab.mp4",
@@ -324191,15 +324185,22 @@
         "display_name": "Studio 60 on the Sunset Strip S01E06 The Wrap Party SD CZ Dabing",
         "prepared_at": "2026-11-09T02:41:16.657055+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30931607",
-        "size_bytes": 257421138
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30931607",
+          "size_bytes": 257421138,
+          "source_bytes_read": 257421138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33560492",
+        "source_url": "https://sdilej.cz/33560492/studio-60-s01e06-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30931607",
-        "size_bytes": 257421138,
-        "source_bytes_read": 257421138,
-        "http_status": 201
+        "display_name": "Studio 60 on the Sunset Strip S01E06 The Wrap Party SD CZ Dabing",
+        "uploaded_at": "2026-11-09T02:42:21.562232+00:00"
       }
     },
     "1229:1:7": {
@@ -324285,5 +324286,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T02:42:18.271422+00:00"
+  "updated_at": "2026-11-09T02:42:21.562255+00:00"
 }
