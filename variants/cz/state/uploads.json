@@ -325430,12 +325430,6 @@
     },
     "617:2:3": {
       "episode_key": "star trek: podivné nové světy:s2:e3",
-      "claim": {
-        "worker_id": "e6bad473968740978da2c9573a1cd769-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T04:49:03.410989+00:00",
-        "lease_expires_at": "2026-11-09T10:49:03.410996+00:00"
-      },
       "source": {
         "source_id": "34939809",
         "source_url": "https://sdilej.cz/34939809/star-trek-podivne-nove-svety-s02e03-cz-dabing.mkv",
@@ -325460,15 +325454,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E03 Tomorrow and Tomorrow and Tomorrow 4K CZ Dabing",
         "prepared_at": "2026-11-09T04:49:10.213911+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30933910",
-        "size_bytes": 2669496759
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30933910",
+          "size_bytes": 2669496759,
+          "source_bytes_read": 2669496759,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34939809",
+        "source_url": "https://sdilej.cz/34939809/star-trek-podivne-nove-svety-s02e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30933910",
-        "size_bytes": 2669496759,
-        "source_bytes_read": 2669496759,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E03 Tomorrow and Tomorrow and Tomorrow 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T05:01:05.171487+00:00"
       }
     },
     "617:2:4": {
@@ -325514,5 +325515,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T05:00:58.398141+00:00"
+  "updated_at": "2026-11-09T05:01:05.171506+00:00"
 }
