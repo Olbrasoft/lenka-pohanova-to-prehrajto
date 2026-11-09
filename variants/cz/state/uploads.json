@@ -324645,12 +324645,6 @@
     },
     "1229:1:17": {
       "episode_key": "studio 60:s1:e17",
-      "claim": {
-        "worker_id": "709a79e394124735aded1c42e515b863-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T02:47:07.241411+00:00",
-        "lease_expires_at": "2026-11-09T08:47:07.241429+00:00"
-      },
       "source": {
         "source_id": "33560523",
         "source_url": "https://sdilej.cz/33560523/studio-60-s01e17-czdab.mp4",
@@ -324675,15 +324669,22 @@
         "display_name": "Studio 60 on the Sunset Strip S01E17 The Disaster Show SD CZ Dabing",
         "prepared_at": "2026-11-09T02:47:11.115688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30931728",
-        "size_bytes": 202821297
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30931728",
+          "size_bytes": 202821297,
+          "source_bytes_read": 202821297,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33560523",
+        "source_url": "https://sdilej.cz/33560523/studio-60-s01e17-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30931728",
-        "size_bytes": 202821297,
-        "source_bytes_read": 202821297,
-        "http_status": 201
+        "display_name": "Studio 60 on the Sunset Strip S01E17 The Disaster Show SD CZ Dabing",
+        "uploaded_at": "2026-11-09T02:48:15.276324+00:00"
       }
     }
   },
@@ -324692,5 +324693,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T02:48:11.875106+00:00"
+  "updated_at": "2026-11-09T02:48:15.276343+00:00"
 }
