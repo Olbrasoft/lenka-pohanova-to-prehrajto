@@ -332015,12 +332015,6 @@
     },
     "580:4:1": {
       "episode_key": "starosta kingstownu:s4:e1",
-      "claim": {
-        "worker_id": "31f04ed4fd454a698b24c8eccba0c264-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T14:10:06.956859+00:00",
-        "lease_expires_at": "2026-11-09T20:10:06.956879+00:00"
-      },
       "source": {
         "source_id": "33120067",
         "source_url": "https://sdilej.cz/33120067/mayor-of-kingstown-s04e01-cz-dabing.mkv",
@@ -332045,15 +332039,22 @@
         "display_name": "Mayor of Kingstown S04E01 Coming 'Round the Mountain 4K CZ Dabing",
         "prepared_at": "2026-11-09T14:10:17.927868+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947011",
-        "size_bytes": 2469494727
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947011",
+          "size_bytes": 2469494727,
+          "source_bytes_read": 2469494727,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120067",
+        "source_url": "https://sdilej.cz/33120067/mayor-of-kingstown-s04e01-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947011",
-        "size_bytes": 2469494727,
-        "source_bytes_read": 2469494727,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E01 Coming 'Round the Mountain 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T14:15:53.805475+00:00"
       }
     },
     "580:4:2": {
@@ -332099,5 +332100,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T14:15:46.686736+00:00"
+  "updated_at": "2026-11-09T14:15:53.805495+00:00"
 }
