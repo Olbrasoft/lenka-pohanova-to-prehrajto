@@ -323846,12 +323846,6 @@
     },
     "190:2:9": {
       "episode_key": "landman:s2:e9",
-      "claim": {
-        "worker_id": "86834513b0824339b9cc6fb40333a7a7-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T01:39:52.359905+00:00",
-        "lease_expires_at": "2026-11-09T07:39:52.359925+00:00"
-      },
       "source": {
         "source_id": "32926216",
         "source_url": "https://sdilej.cz/32926216/landman.s02e09.2160p.cz.dabing.mkv",
@@ -323876,15 +323870,22 @@
         "display_name": "Landman S02E09 Plans, Tears and Sirens 4K CZ Dabing",
         "prepared_at": "2026-11-09T01:39:58.104301+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30930548",
-        "size_bytes": 3930632859
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30930548",
+          "size_bytes": 3930632859,
+          "source_bytes_read": 3930632859,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32926216",
+        "source_url": "https://sdilej.cz/32926216/landman.s02e09.2160p.cz.dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30930548",
-        "size_bytes": 3930632859,
-        "source_bytes_read": 3930632859,
-        "http_status": 201
+        "display_name": "Landman S02E09 Plans, Tears and Sirens 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T02:03:42.328251+00:00"
       }
     }
   },
@@ -323893,5 +323894,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T02:03:34.977287+00:00"
+  "updated_at": "2026-11-09T02:03:42.328272+00:00"
 }
