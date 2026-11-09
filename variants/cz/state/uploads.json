@@ -332323,12 +332323,6 @@
     },
     "580:4:8": {
       "episode_key": "starosta kingstownu:s4:e8",
-      "claim": {
-        "worker_id": "b17b0f4e93c642508c8f4a74a04a780a-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T15:10:32.351085+00:00",
-        "lease_expires_at": "2026-11-09T21:10:32.351105+00:00"
-      },
       "source": {
         "source_id": "33120146",
         "source_url": "https://sdilej.cz/33120146/mayor-of-kingstown-s04e08-cz-dabing.mkv",
@@ -332353,15 +332347,22 @@
         "display_name": "Mayor of Kingstown S04E08 Belleville 4K CZ Dabing",
         "prepared_at": "2026-11-09T15:10:45.632255+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947775",
-        "size_bytes": 1915968842
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947775",
+          "size_bytes": 1915968842,
+          "source_bytes_read": 1915968842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120146",
+        "source_url": "https://sdilej.cz/33120146/mayor-of-kingstown-s04e08-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947775",
-        "size_bytes": 1915968842,
-        "source_bytes_read": 1915968842,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E08 Belleville 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T15:22:02.883660+00:00"
       }
     },
     "580:4:9": {
@@ -332451,5 +332452,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T15:21:56.172367+00:00"
+  "updated_at": "2026-11-09T15:22:02.883680+00:00"
 }
