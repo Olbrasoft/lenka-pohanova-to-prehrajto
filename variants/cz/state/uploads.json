@@ -328465,12 +328465,6 @@
     },
     "1052:3:6": {
       "episode_key": "hvězdná brána - atlantida:s3:e6",
-      "claim": {
-        "worker_id": "4155f0998bd94ffcb5c07cf79133c2f5-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:56:07.544922+00:00",
-        "lease_expires_at": "2026-11-09T15:56:07.544935+00:00"
-      },
       "source": {
         "source_id": "33262915",
         "source_url": "https://sdilej.cz/33262915/stargate-atlantis-s03e06.mkv",
@@ -328495,15 +328489,22 @@
         "display_name": "Stargate Atlantis S03E06 The Real World 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:56:10.914946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942989",
-        "size_bytes": 436756980
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942989",
+          "size_bytes": 436756980,
+          "source_bytes_read": 436756980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33262915",
+        "source_url": "https://sdilej.cz/33262915/stargate-atlantis-s03e06.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942989",
-        "size_bytes": 436756980,
-        "source_bytes_read": 436756980,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E06 The Real World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:58:28.669507+00:00"
       }
     }
   },
@@ -328512,5 +328513,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:58:24.215578+00:00"
+  "updated_at": "2026-11-09T09:58:28.669523+00:00"
 }
