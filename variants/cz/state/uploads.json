@@ -332763,12 +332763,6 @@
     },
     "2444:1:5": {
       "episode_key": "stále v kurzu:s1:e5",
-      "claim": {
-        "worker_id": "e6ebcec0341f459584df7bd8c9109784-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T15:50:14.631280+00:00",
-        "lease_expires_at": "2026-11-09T21:50:14.631303+00:00"
-      },
       "source": {
         "source_id": "21635351",
         "source_url": "https://sdilej.cz/21635351/stale-v-kurzu-hacks-s01e05-cz-dabing-hd-1080p.mp4",
@@ -332793,15 +332787,22 @@
         "display_name": "Hacks S01E05 Falling 1080p CZ Dabing",
         "prepared_at": "2026-11-09T15:50:18.234557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30948283",
-        "size_bytes": 486209499
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30948283",
+          "size_bytes": 486209499,
+          "source_bytes_read": 486209499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21635351",
+        "source_url": "https://sdilej.cz/21635351/stale-v-kurzu-hacks-s01e05-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30948283",
-        "size_bytes": 486209499,
-        "source_bytes_read": 486209499,
-        "http_status": 201
+        "display_name": "Hacks S01E05 Falling 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T15:52:11.556497+00:00"
       }
     },
     "2444:1:6": {
@@ -332854,5 +332855,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T15:52:08.628424+00:00"
+  "updated_at": "2026-11-09T15:52:11.556553+00:00"
 }
