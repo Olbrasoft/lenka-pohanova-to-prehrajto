@@ -334662,12 +334662,6 @@
     },
     "2439:3:4": {
       "episode_key": "tintinova dobrodružství:s3:e4",
-      "claim": {
-        "worker_id": "82381352f704492aac6af7eaa9185457-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:33:34.115894+00:00",
-        "lease_expires_at": "2026-11-10T00:33:34.115905+00:00"
-      },
       "source": {
         "source_id": "32885359",
         "source_url": "https://sdilej.cz/32885359/tintinova-dobrodruzstvi-s03e04-sedm-kristalovych-kouli-cast-2.720p.bdrip-cz.mkv",
@@ -334692,15 +334686,22 @@
         "display_name": "The Adventures of Tintin S03E04 720p CZ Dabing",
         "prepared_at": "2026-11-09T18:33:37.661312+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951795",
-        "size_bytes": 301460017
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951795",
+          "size_bytes": 301460017,
+          "source_bytes_read": 301460017,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885359",
+        "source_url": "https://sdilej.cz/32885359/tintinova-dobrodruzstvi-s03e04-sedm-kristalovych-kouli-cast-2.720p.bdrip-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951795",
-        "size_bytes": 301460017,
-        "source_bytes_read": 301460017,
-        "http_status": 201
+        "display_name": "The Adventures of Tintin S03E04 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:34:38.815242+00:00"
       }
     },
     "2439:3:5": {
@@ -334783,5 +334784,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:34:34.650750+00:00"
+  "updated_at": "2026-11-09T18:34:38.815262+00:00"
 }
