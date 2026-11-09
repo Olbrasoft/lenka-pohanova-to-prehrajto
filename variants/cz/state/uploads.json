@@ -329573,12 +329573,6 @@
     },
     "1052:4:11": {
       "episode_key": "hvězdná brána - atlantida:s4:e11",
-      "claim": {
-        "worker_id": "24883419b53244edad5785b399bcf1ab-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:59:02.495945+00:00",
-        "lease_expires_at": "2026-11-09T16:59:02.495957+00:00"
-      },
       "source": {
         "source_id": "23950643",
         "source_url": "https://sdilej.cz/23950643/hvezdna-brana-atlantida-stargate-atlantis-s04e11-hd-cz-dabing.mkv",
@@ -329603,15 +329597,22 @@
         "display_name": "Stargate Atlantis S04E11 Be All My Sins Remember'd (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:59:07.278196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30944067",
-        "size_bytes": 467078453
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30944067",
+          "size_bytes": 467078453,
+          "source_bytes_read": 467078453,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950643",
+        "source_url": "https://sdilej.cz/23950643/hvezdna-brana-atlantida-stargate-atlantis-s04e11-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30944067",
-        "size_bytes": 467078453,
-        "source_bytes_read": 467078453,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E11 Be All My Sins Remember'd (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T11:00:23.340035+00:00"
       }
     },
     "1052:4:12": {
@@ -329694,5 +329695,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T11:00:16.564269+00:00"
+  "updated_at": "2026-11-09T11:00:23.340053+00:00"
 }
