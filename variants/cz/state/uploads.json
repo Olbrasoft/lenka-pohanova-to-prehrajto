@@ -324953,12 +324953,6 @@
     },
     "617:1:2": {
       "episode_key": "star trek: podivné nové světy:s1:e2",
-      "claim": {
-        "worker_id": "563e590fb80948a4abdad41b1b08ad3e-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T03:03:35.335198+00:00",
-        "lease_expires_at": "2026-11-09T09:03:35.335207+00:00"
-      },
       "source": {
         "source_id": "33638970",
         "source_url": "https://sdilej.cz/33638970/star-trek-podivne-nove-svety-s01e02-deti-komety.mkv",
@@ -324983,15 +324977,22 @@
         "display_name": "Star Trek: Strange New Worlds S01E02 Children of the Comet 4K CZ Dabing",
         "prepared_at": "2026-11-09T03:03:42.363327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30932026",
-        "size_bytes": 2285168445
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30932026",
+          "size_bytes": 2285168445,
+          "source_bytes_read": 2285168445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33638970",
+        "source_url": "https://sdilej.cz/33638970/star-trek-podivne-nove-svety-s01e02-deti-komety.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30932026",
-        "size_bytes": 2285168445,
-        "source_bytes_read": 2285168445,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S01E02 Children of the Comet 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T03:22:26.879249+00:00"
       }
     },
     "617:1:3": {
@@ -325088,5 +325089,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T03:22:21.202998+00:00"
+  "updated_at": "2026-11-09T03:22:26.879259+00:00"
 }
