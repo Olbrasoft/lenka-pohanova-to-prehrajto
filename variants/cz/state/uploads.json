@@ -327277,12 +327277,6 @@
     },
     "1052:1:19": {
       "episode_key": "hvězdná brána - atlantida:s1:e19",
-      "claim": {
-        "worker_id": "7a1db8bac0e747129c6a722a49954af5-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:06:35.222712+00:00",
-        "lease_expires_at": "2026-11-09T15:06:35.222724+00:00"
-      },
       "source": {
         "source_id": "23950148",
         "source_url": "https://sdilej.cz/23950148/hvezdna-brana-atlantida-stargate-atlantis-s01e19-hd-cz-dabing.mkv",
@@ -327307,15 +327301,22 @@
         "display_name": "Stargate Atlantis S01E19 The Siege (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:06:38.280092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942155",
-        "size_bytes": 407884111
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942155",
+          "size_bytes": 407884111,
+          "source_bytes_read": 407884111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950148",
+        "source_url": "https://sdilej.cz/23950148/hvezdna-brana-atlantida-stargate-atlantis-s01e19-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942155",
-        "size_bytes": 407884111,
-        "source_bytes_read": 407884111,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S01E19 The Siege (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:08:33.015937+00:00"
       }
     }
   },
@@ -327324,5 +327325,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:08:28.915374+00:00"
+  "updated_at": "2026-11-09T09:08:33.015953+00:00"
 }
