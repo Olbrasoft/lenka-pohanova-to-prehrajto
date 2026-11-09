@@ -334882,12 +334882,6 @@
     },
     "2439:3:9": {
       "episode_key": "tintinova dobrodružství:s3:e9",
-      "claim": {
-        "worker_id": "7747072a131345ce805c2b056245175e-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:36:29.013484+00:00",
-        "lease_expires_at": "2026-11-10T00:36:29.013495+00:00"
-      },
       "source": {
         "source_id": "32885381",
         "source_url": "https://sdilej.cz/32885381/tintinova-dobrodruzstvi-s03e09-vzhuru-na-mesic-cast-1.720p.bdrip-cz.mkv",
@@ -334912,15 +334906,22 @@
         "display_name": "The Adventures of Tintin S03E09 720p CZ Dabing",
         "prepared_at": "2026-11-09T18:36:36.819672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951869",
-        "size_bytes": 273876074
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951869",
+          "size_bytes": 273876074,
+          "source_bytes_read": 273876074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885381",
+        "source_url": "https://sdilej.cz/32885381/tintinova-dobrodruzstvi-s03e09-vzhuru-na-mesic-cast-1.720p.bdrip-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951869",
-        "size_bytes": 273876074,
-        "source_bytes_read": 273876074,
-        "http_status": 201
+        "display_name": "The Adventures of Tintin S03E09 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:37:30.881252+00:00"
       }
     }
   },
@@ -334929,5 +334930,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:37:26.984273+00:00"
+  "updated_at": "2026-11-09T18:37:30.881270+00:00"
 }
