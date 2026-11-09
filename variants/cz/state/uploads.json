@@ -325745,12 +325745,6 @@
     },
     "617:2:10": {
       "episode_key": "star trek: podivné nové světy:s2:e10",
-      "claim": {
-        "worker_id": "1f0a82cee8ca4c8da041bce0ed8dc971-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T06:10:54.528204+00:00",
-        "lease_expires_at": "2026-11-09T12:10:54.528213+00:00"
-      },
       "source": {
         "source_id": "26683311",
         "source_url": "https://sdilej.cz/26683311/star-trek-podivne-nove-svety-s02e10-cz-dabing-hd-1080p.mp4",
@@ -325775,15 +325769,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E10 Hegemony (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T06:10:57.355900+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30935627",
-        "size_bytes": 1192091038
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30935627",
+          "size_bytes": 1192091038,
+          "source_bytes_read": 1192091038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26683311",
+        "source_url": "https://sdilej.cz/26683311/star-trek-podivne-nove-svety-s02e10-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30935627",
-        "size_bytes": 1192091038,
-        "source_bytes_read": 1192091038,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E10 Hegemony (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T06:17:05.084071+00:00"
       }
     },
     "617:3:1": {
@@ -325862,5 +325863,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T06:17:02.660002+00:00"
+  "updated_at": "2026-11-09T06:17:05.084087+00:00"
 }
