@@ -328385,12 +328385,6 @@
     },
     "1052:3:4": {
       "episode_key": "hvězdná brána - atlantida:s3:e4",
-      "claim": {
-        "worker_id": "f821e359390440be82805ed0fcbde62c-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:54:45.566870+00:00",
-        "lease_expires_at": "2026-11-09T15:54:45.566881+00:00"
-      },
       "source": {
         "source_id": "33262895",
         "source_url": "https://sdilej.cz/33262895/stargate-atlantis-s03e04.mkv",
@@ -328415,15 +328409,22 @@
         "display_name": "Stargate Atlantis S03E04 Sateda 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:54:48.670309+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942962",
-        "size_bytes": 561032843
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942962",
+          "size_bytes": 561032843,
+          "source_bytes_read": 561032843,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33262895",
+        "source_url": "https://sdilej.cz/33262895/stargate-atlantis-s03e04.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942962",
-        "size_bytes": 561032843,
-        "source_bytes_read": 561032843,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E04 Sateda 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:58:31.278968+00:00"
       }
     },
     "1052:3:5": {
@@ -328513,5 +328514,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:58:28.669523+00:00"
+  "updated_at": "2026-11-09T09:58:31.278984+00:00"
 }
