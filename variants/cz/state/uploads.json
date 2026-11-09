@@ -335454,12 +335454,6 @@
     },
     "604:1:4": {
       "episode_key": "kominského metoda:s1:e4",
-      "claim": {
-        "worker_id": "082b3dde860e44f0ab4b2566ff27b582-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:17:53.330601+00:00",
-        "lease_expires_at": "2026-11-10T01:17:53.330610+00:00"
-      },
       "source": {
         "source_id": "32302438",
         "source_url": "https://sdilej.cz/32302438/kominskeho-metoda-s01e04-kapitola-4-kegel-vrze-cz-dabing.mkv",
@@ -335484,15 +335478,22 @@
         "display_name": "The Kominsky Method S01E04 Chapter 4. A Kegel Squeaks 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:17:58.750000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952649",
-        "size_bytes": 850126186
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952649",
+          "size_bytes": 850126186,
+          "source_bytes_read": 850126186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32302438",
+        "source_url": "https://sdilej.cz/32302438/kominskeho-metoda-s01e04-kapitola-4-kegel-vrze-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952649",
-        "size_bytes": 850126186,
-        "source_bytes_read": 850126186,
-        "http_status": 201
+        "display_name": "The Kominsky Method S01E04 Chapter 4. A Kegel Squeaks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:19:54.869193+00:00"
       }
     },
     "604:1:5": {
@@ -335538,5 +335539,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:19:48.087710+00:00"
+  "updated_at": "2026-11-09T19:19:54.869209+00:00"
 }
