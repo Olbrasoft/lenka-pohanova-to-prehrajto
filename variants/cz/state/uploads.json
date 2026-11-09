@@ -333511,12 +333511,6 @@
     },
     "2444:3:4": {
       "episode_key": "stále v kurzu:s3:e4",
-      "claim": {
-        "worker_id": "01e205a6994d4b3b81fc13acdfe6027e-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T17:28:25.237305+00:00",
-        "lease_expires_at": "2026-11-09T23:28:25.237320+00:00"
-      },
       "source": {
         "source_id": "31554225",
         "source_url": "https://sdilej.cz/31554225/hacks-s03e04-stale-v-kurzu-fhd-1080p-cz.mkv",
@@ -333541,15 +333535,22 @@
         "display_name": "Hacks S03E04 Join the Club 1080p CZ Dabing",
         "prepared_at": "2026-11-09T17:28:28.323783+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30950293",
-        "size_bytes": 638861171
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30950293",
+          "size_bytes": 638861171,
+          "source_bytes_read": 638861171,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554225",
+        "source_url": "https://sdilej.cz/31554225/hacks-s03e04-stale-v-kurzu-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30950293",
-        "size_bytes": 638861171,
-        "source_bytes_read": 638861171,
-        "http_status": 201
+        "display_name": "Hacks S03E04 Join the Club 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T17:30:29.832600+00:00"
       }
     },
     "2444:3:5": {
@@ -333595,5 +333596,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T17:30:23.404441+00:00"
+  "updated_at": "2026-11-09T17:30:29.832625+00:00"
 }
