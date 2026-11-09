@@ -335586,12 +335586,6 @@
     },
     "604:1:7": {
       "episode_key": "kominského metoda:s1:e7",
-      "claim": {
-        "worker_id": "c886e05393e84851a7f43a2c3136103a-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:20:08.394501+00:00",
-        "lease_expires_at": "2026-11-10T01:20:08.394510+00:00"
-      },
       "source": {
         "source_id": "32302719",
         "source_url": "https://sdilej.cz/32302719/kominskeho-metoda-s01e07-kapitola-7-je-utvoren-zavazek-cz-dabing.mkv",
@@ -335616,15 +335610,22 @@
         "display_name": "The Kominsky Method S01E07 Chapter 7. A String Is Attached 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:20:13.879499+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952687",
-        "size_bytes": 871991725
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952687",
+          "size_bytes": 871991725,
+          "source_bytes_read": 871991725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32302719",
+        "source_url": "https://sdilej.cz/32302719/kominskeho-metoda-s01e07-kapitola-7-je-utvoren-zavazek-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952687",
-        "size_bytes": 871991725,
-        "source_bytes_read": 871991725,
-        "http_status": 201
+        "display_name": "The Kominsky Method S01E07 Chapter 7. A String Is Attached 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:22:14.545913+00:00"
       }
     }
   },
@@ -335633,5 +335634,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:22:11.170245+00:00"
+  "updated_at": "2026-11-09T19:22:14.545932+00:00"
 }
