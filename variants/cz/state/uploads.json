@@ -334486,12 +334486,6 @@
     },
     "2444:5:7": {
       "episode_key": "stále v kurzu:s5:e7",
-      "claim": {
-        "worker_id": "04e3d2229edd48439f4b67ac58fd220c-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:31:23.199011+00:00",
-        "lease_expires_at": "2026-11-10T00:31:23.199024+00:00"
-      },
       "source": {
         "source_id": "34172163",
         "source_url": "https://sdilej.cz/34172163/stale-v-kurzu-s05e07-montecito.mkv",
@@ -334516,15 +334510,22 @@
         "display_name": "Hacks S05E07 Montecito 1080p CZ Dabing",
         "prepared_at": "2026-11-09T18:31:32.426951+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951766",
-        "size_bytes": 975077091
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951766",
+          "size_bytes": 975077091,
+          "source_bytes_read": 975077091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34172163",
+        "source_url": "https://sdilej.cz/34172163/stale-v-kurzu-s05e07-montecito.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951766",
-        "size_bytes": 975077091,
-        "source_bytes_read": 975077091,
-        "http_status": 201
+        "display_name": "Hacks S05E07 Montecito 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:34:01.665685+00:00"
       }
     },
     "2444:5:8": {
@@ -334702,5 +334703,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:33:56.584915+00:00"
+  "updated_at": "2026-11-09T18:34:01.665705+00:00"
 }
