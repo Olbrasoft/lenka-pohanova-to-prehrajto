@@ -332286,12 +332286,6 @@
     },
     "580:4:7": {
       "episode_key": "starosta kingstownu:s4:e7",
-      "claim": {
-        "worker_id": "810242d19ba84f1c93225bf0ab9b4faf-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T15:10:29.523515+00:00",
-        "lease_expires_at": "2026-11-09T21:10:29.523540+00:00"
-      },
       "source": {
         "source_id": "33120143",
         "source_url": "https://sdilej.cz/33120143/mayor-of-kingstown-s04e07-cz-dabing.mkv",
@@ -332316,15 +332310,22 @@
         "display_name": "Mayor of Kingstown S04E07 My Way 4K CZ Dabing",
         "prepared_at": "2026-11-09T15:10:35.241799+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947774",
-        "size_bytes": 2418975425
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947774",
+          "size_bytes": 2418975425,
+          "source_bytes_read": 2418975425,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120143",
+        "source_url": "https://sdilej.cz/33120143/mayor-of-kingstown-s04e07-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947774",
-        "size_bytes": 2418975425,
-        "source_bytes_read": 2418975425,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E07 My Way 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T15:23:31.619275+00:00"
       }
     },
     "580:4:8": {
@@ -332458,5 +332459,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T15:23:28.669327+00:00"
+  "updated_at": "2026-11-09T15:23:31.619297+00:00"
 }
