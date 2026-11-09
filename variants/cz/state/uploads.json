@@ -328327,12 +328327,6 @@
     },
     "1052:3:3": {
       "episode_key": "hvězdná brána - atlantida:s3:e3",
-      "claim": {
-        "worker_id": "ad89b6fc19af4d30a8d7a7545eae06de-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:52:26.464477+00:00",
-        "lease_expires_at": "2026-11-09T15:52:26.464486+00:00"
-      },
       "source": {
         "source_id": "33262883",
         "source_url": "https://sdilej.cz/33262883/stargate-atlantis-s03e03.mkv",
@@ -328357,15 +328351,22 @@
         "display_name": "Stargate Atlantis S03E03 Irresistible 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:52:37.127717+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942910",
-        "size_bytes": 378291270
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942910",
+          "size_bytes": 378291270,
+          "source_bytes_read": 378291270,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33262883",
+        "source_url": "https://sdilej.cz/33262883/stargate-atlantis-s03e03.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942910",
-        "size_bytes": 378291270,
-        "source_bytes_read": 378291270,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E03 Irresistible 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:54:36.401811+00:00"
       }
     }
   },
@@ -328374,5 +328375,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:54:32.548916+00:00"
+  "updated_at": "2026-11-09T09:54:36.401828+00:00"
 }
