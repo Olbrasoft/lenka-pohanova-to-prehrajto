@@ -335938,12 +335938,6 @@
     },
     "604:3:6": {
       "episode_key": "kominského metoda:s3:e6",
-      "claim": {
-        "worker_id": "89571d4400014f5e8f327911f17a6783-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:32:33.332302+00:00",
-        "lease_expires_at": "2026-11-10T01:32:33.332312+00:00"
-      },
       "source": {
         "source_id": "32580627",
         "source_url": "https://sdilej.cz/32580627/kominskeho-metoda-2021-s03e06-czdab-1080p-tady-plati-zakladni-pravidla.mkv",
@@ -335968,15 +335962,22 @@
         "display_name": "The Kominsky Method S03E06 Chapter 22. The fundamental things apply 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:32:44.781758+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952902",
-        "size_bytes": 481669401
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952902",
+          "size_bytes": 481669401,
+          "source_bytes_read": 481669401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32580627",
+        "source_url": "https://sdilej.cz/32580627/kominskeho-metoda-2021-s03e06-czdab-1080p-tady-plati-zakladni-pravidla.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952902",
-        "size_bytes": 481669401,
-        "source_bytes_read": 481669401,
-        "http_status": 201
+        "display_name": "The Kominsky Method S03E06 Chapter 22. The fundamental things apply 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:34:51.459254+00:00"
       }
     },
     "2578:1:2": {
@@ -336059,5 +336060,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:34:45.848993+00:00"
+  "updated_at": "2026-11-09T19:34:51.459274+00:00"
 }
