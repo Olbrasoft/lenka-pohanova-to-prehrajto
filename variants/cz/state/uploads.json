@@ -331018,12 +331018,6 @@
     },
     "580:1:4": {
       "episode_key": "starosta kingstownu:s1:e4",
-      "claim": {
-        "worker_id": "97533b6a5de944b0b16255af979b11fe-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T12:19:59.891960+00:00",
-        "lease_expires_at": "2026-11-09T18:19:59.891971+00:00"
-      },
       "source": {
         "source_id": "35003298",
         "source_url": "https://sdilej.cz/35003298/starosta-kingstownu-s01e04-cena-cz-dabing.mkv",
@@ -331048,15 +331042,22 @@
         "display_name": "Mayor of Kingstown S01E04 The Price 4K CZ Dabing",
         "prepared_at": "2026-11-09T12:20:08.155451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30945532",
-        "size_bytes": 2031086551
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30945532",
+          "size_bytes": 2031086551,
+          "source_bytes_read": 2031086551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003298",
+        "source_url": "https://sdilej.cz/35003298/starosta-kingstownu-s01e04-cena-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30945532",
-        "size_bytes": 2031086551,
-        "source_bytes_read": 2031086551,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S01E04 The Price 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T12:25:20.268304+00:00"
       }
     },
     "580:1:5": {
@@ -331152,5 +331153,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T12:25:17.356787+00:00"
+  "updated_at": "2026-11-09T12:25:20.268321+00:00"
 }
