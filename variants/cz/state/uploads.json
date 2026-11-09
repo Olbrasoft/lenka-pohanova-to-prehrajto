@@ -331356,12 +331356,6 @@
     },
     "580:2:2": {
       "episode_key": "starosta kingstownu:s2:e2",
-      "claim": {
-        "worker_id": "587c2e3ba39c4b1c83014c07f8265d5b-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:02:12.646801+00:00",
-        "lease_expires_at": "2026-11-09T19:02:12.646812+00:00"
-      },
       "source": {
         "source_id": "35003476",
         "source_url": "https://sdilej.cz/35003476/starosta-kingstownu-s02e02-zirani-na-dabla-cz-dabing.mkv",
@@ -331386,15 +331380,22 @@
         "display_name": "Mayor of Kingstown S02E02 Staring at the Devil 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:02:17.480669+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30946150",
-        "size_bytes": 2045085088
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30946150",
+          "size_bytes": 2045085088,
+          "source_bytes_read": 2045085088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003476",
+        "source_url": "https://sdilej.cz/35003476/starosta-kingstownu-s02e02-zirani-na-dabla-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30946150",
-        "size_bytes": 2045085088,
-        "source_bytes_read": 2045085088,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S02E02 Staring at the Devil 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T13:07:38.778718+00:00"
       }
     },
     "580:2:3": {
@@ -331554,5 +331555,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:07:32.522326+00:00"
+  "updated_at": "2026-11-09T13:07:38.778735+00:00"
 }
