@@ -325826,12 +325826,6 @@
     },
     "617:3:2": {
       "episode_key": "star trek: podivné nové světy:s3:e2",
-      "claim": {
-        "worker_id": "d0292af6b7e84a469b74ddd708dc5e81-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T06:16:59.671443+00:00",
-        "lease_expires_at": "2026-11-09T12:16:59.671456+00:00"
-      },
       "source": {
         "source_id": "31584902",
         "source_url": "https://sdilej.cz/31584902/star-trek-podivne-nove-svety-s03e02-blues-svatebnich-zvonu-czdab-endab-hevc-.mkv",
@@ -325856,15 +325850,22 @@
         "display_name": "Star Trek: Strange New Worlds S03E02 Wedding Bell Blues 1080p CZ Dabing",
         "prepared_at": "2026-11-09T06:17:02.659984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30935750",
-        "size_bytes": 2130947437
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30935750",
+          "size_bytes": 2130947437,
+          "source_bytes_read": 2130947437,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31584902",
+        "source_url": "https://sdilej.cz/31584902/star-trek-podivne-nove-svety-s03e02-blues-svatebnich-zvonu-czdab-endab-hevc-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30935750",
-        "size_bytes": 2130947437,
-        "source_bytes_read": 2130947437,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S03E02 Wedding Bell Blues 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T06:25:36.298958+00:00"
       }
     },
     "617:3:3": {
@@ -325917,5 +325918,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T06:25:30.121877+00:00"
+  "updated_at": "2026-11-09T06:25:36.298978+00:00"
 }
