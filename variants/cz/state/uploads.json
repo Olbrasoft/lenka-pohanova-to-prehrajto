@@ -326184,12 +326184,6 @@
     },
     "617:3:10": {
       "episode_key": "star trek: podivné nové světy:s3:e10",
-      "claim": {
-        "worker_id": "dd232f2419d246fdb51c2cfb7807a9e2-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:23:04.824597+00:00",
-        "lease_expires_at": "2026-11-09T13:23:04.824609+00:00"
-      },
       "source": {
         "source_id": "34940210",
         "source_url": "https://sdilej.cz/34940210/star-trek-podivne-nove-svety-s03e10-cz-dabing.mkv",
@@ -326214,15 +326208,22 @@
         "display_name": "Star Trek: Strange New Worlds S03E10 New Life and New Civilizations 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:23:08.165637+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937527",
-        "size_bytes": 2645898249
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937527",
+          "size_bytes": 2645898249,
+          "source_bytes_read": 2645898249,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34940210",
+        "source_url": "https://sdilej.cz/34940210/star-trek-podivne-nove-svety-s03e10-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937527",
-        "size_bytes": 2645898249,
-        "source_bytes_read": 2645898249,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S03E10 New Life and New Civilizations 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T07:29:56.161571+00:00"
       }
     }
   },
@@ -326231,5 +326232,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T07:29:53.411697+00:00"
+  "updated_at": "2026-11-09T07:29:56.161587+00:00"
 }
