@@ -325525,12 +325525,6 @@
     },
     "617:2:5": {
       "episode_key": "star trek: podivné nové světy:s2:e5",
-      "claim": {
-        "worker_id": "216378af790f476c91e6529b90bb71de-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T05:01:26.514528+00:00",
-        "lease_expires_at": "2026-11-09T11:01:26.514543+00:00"
-      },
       "source": {
         "source_id": "26586809",
         "source_url": "https://sdilej.cz/26586809/star.trek.strange.new.worlds.s02e05.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -325555,15 +325549,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E05 Charades 1080p CZ Dabing",
         "prepared_at": "2026-11-09T05:01:29.490746+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30934145",
-        "size_bytes": 1397235603
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30934145",
+          "size_bytes": 1397235603,
+          "source_bytes_read": 1397235603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26586809",
+        "source_url": "https://sdilej.cz/26586809/star.trek.strange.new.worlds.s02e05.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30934145",
-        "size_bytes": 1397235603,
-        "source_bytes_read": 1397235603,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E05 Charades 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T05:10:45.881828+00:00"
       }
     },
     "617:2:6": {
@@ -325646,5 +325647,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T05:10:41.671258+00:00"
+  "updated_at": "2026-11-09T05:10:45.881847+00:00"
 }
