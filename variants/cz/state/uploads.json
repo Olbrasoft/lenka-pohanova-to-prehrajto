@@ -336817,12 +336817,6 @@
     },
     "194:1:2": {
       "episode_key": "sedmnáct zastavení jara:s1:e2",
-      "claim": {
-        "worker_id": "3fefa44275934c3fa75881972f913862-worker-0",
-        "run_id": "42692219930",
-        "claimed_at": "2026-11-09T21:44:10.671844+00:00",
-        "lease_expires_at": "2026-11-10T03:44:10.671857+00:00"
-      },
       "source": {
         "source_id": "28237551",
         "source_url": "https://sdilej.cz/28237551/sedmnact-zastaveni-jara--------s01e02-1973-1080p-cz-dabing.mkv",
@@ -336856,7 +336850,13 @@
         "size_bytes": 2240407277,
         "source_bytes_read": 2240407277,
         "http_status": 201
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-09T21:49:36.145323+00:00",
+          "error": "PrehrajtoError"
+        }
+      ]
     },
     "194:1:3": {
       "episode_key": "sedmnáct zastavení jara:s1:e3",
@@ -336950,5 +336950,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T21:49:33.166759+00:00"
+  "updated_at": "2026-11-09T21:49:36.145358+00:00"
 }
