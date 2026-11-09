@@ -325217,12 +325217,6 @@
     },
     "617:1:8": {
       "episode_key": "star trek: podivné nové světy:s1:e8",
-      "claim": {
-        "worker_id": "a20ff6f6054f48eca13cd528f0c16885-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T04:01:06.417845+00:00",
-        "lease_expires_at": "2026-11-09T10:01:06.417857+00:00"
-      },
       "source": {
         "source_id": "26400509",
         "source_url": "https://sdilej.cz/26400509/star.trek.strange.new.worlds.s01e08.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -325247,15 +325241,22 @@
         "display_name": "Star Trek: Strange New Worlds S01E08 The Elysian Kingdom 1080p CZ Dabing",
         "prepared_at": "2026-11-09T04:01:14.104397+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30933048",
-        "size_bytes": 1240833433
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30933048",
+          "size_bytes": 1240833433,
+          "source_bytes_read": 1240833433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26400509",
+        "source_url": "https://sdilej.cz/26400509/star.trek.strange.new.worlds.s01e08.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30933048",
-        "size_bytes": 1240833433,
-        "source_bytes_read": 1240833433,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S01E08 The Elysian Kingdom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T04:06:43.343852+00:00"
       }
     },
     "617:1:9": {
@@ -325338,5 +325339,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T04:06:37.611022+00:00"
+  "updated_at": "2026-11-09T04:06:43.343878+00:00"
 }
