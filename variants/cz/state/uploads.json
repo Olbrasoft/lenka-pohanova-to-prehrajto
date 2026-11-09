@@ -326706,12 +326706,6 @@
     },
     "1052:1:6": {
       "episode_key": "hvězdná brána - atlantida:s1:e6",
-      "claim": {
-        "worker_id": "72d120d59a31482aa761409e8b9c8e0b-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T08:46:50.654597+00:00",
-        "lease_expires_at": "2026-11-09T14:46:50.654609+00:00"
-      },
       "source": {
         "source_id": "23949765",
         "source_url": "https://sdilej.cz/23949765/hvezdna-brana-atlantida-stargate-atlantis-s01e06-hd-cz-dabing.mkv",
@@ -326736,15 +326730,22 @@
         "display_name": "Stargate Atlantis S01E06 Childhood's End 1080p CZ Dabing",
         "prepared_at": "2026-11-09T08:46:53.908983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30941871",
-        "size_bytes": 589896252
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30941871",
+          "size_bytes": 589896252,
+          "source_bytes_read": 589896252,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23949765",
+        "source_url": "https://sdilej.cz/23949765/hvezdna-brana-atlantida-stargate-atlantis-s01e06-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30941871",
-        "size_bytes": 589896252,
-        "source_bytes_read": 589896252,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S01E06 Childhood's End 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T08:48:18.221504+00:00"
       }
     },
     "1052:1:7": {
@@ -326790,5 +326791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T08:48:11.912169+00:00"
+  "updated_at": "2026-11-09T08:48:18.221521+00:00"
 }
