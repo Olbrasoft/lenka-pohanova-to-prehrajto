@@ -327203,12 +327203,6 @@
     },
     "1052:1:17": {
       "episode_key": "hvězdná brána - atlantida:s1:e17",
-      "claim": {
-        "worker_id": "178fc8cd77404848a22fd183b0cfd980-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:05:44.741207+00:00",
-        "lease_expires_at": "2026-11-09T15:05:44.741218+00:00"
-      },
       "source": {
         "source_id": "23950102",
         "source_url": "https://sdilej.cz/23950102/hvezdna-brana-atlantida-stargate-atlantis-s01e17-hd-cz-dabing.mkv",
@@ -327233,15 +327227,22 @@
         "display_name": "Stargate Atlantis S01E17 Letters From Pegasus 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:05:47.668158+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942139",
-        "size_bytes": 423613834
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942139",
+          "size_bytes": 423613834,
+          "source_bytes_read": 423613834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950102",
+        "source_url": "https://sdilej.cz/23950102/hvezdna-brana-atlantida-stargate-atlantis-s01e17-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942139",
-        "size_bytes": 423613834,
-        "source_bytes_read": 423613834,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S01E17 Letters From Pegasus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:09:04.647404+00:00"
       }
     },
     "1052:1:18": {
@@ -327338,5 +327339,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:09:01.988535+00:00"
+  "updated_at": "2026-11-09T09:09:04.647421+00:00"
 }
