@@ -325687,12 +325687,6 @@
     },
     "617:2:9": {
       "episode_key": "star trek: podivné nové světy:s2:e9",
-      "claim": {
-        "worker_id": "64aa183032d7476daf254f9f70c654f1-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T05:16:17.772717+00:00",
-        "lease_expires_at": "2026-11-09T11:16:17.772732+00:00"
-      },
       "source": {
         "source_id": "26637029",
         "source_url": "https://sdilej.cz/26637029/star.trek.strange.new.worlds.s02e09.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -325717,15 +325711,22 @@
         "display_name": "Star Trek: Strange New Worlds S02E09 Subspace Rhapsody 1080p CZ Dabing",
         "prepared_at": "2026-11-09T05:16:20.976113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30934465",
-        "size_bytes": 1466578687
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30934465",
+          "size_bytes": 1466578687,
+          "source_bytes_read": 1466578687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26637029",
+        "source_url": "https://sdilej.cz/26637029/star.trek.strange.new.worlds.s02e09.1080p.10bit.skyshow.web-dl.e-ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30934465",
-        "size_bytes": 1466578687,
-        "source_bytes_read": 1466578687,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S02E09 Subspace Rhapsody 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T05:23:25.917207+00:00"
       }
     }
   },
@@ -325734,5 +325735,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T05:23:20.526087+00:00"
+  "updated_at": "2026-11-09T05:23:25.917229+00:00"
 }
