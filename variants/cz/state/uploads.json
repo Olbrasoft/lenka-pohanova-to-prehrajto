@@ -335762,12 +335762,6 @@
     },
     "604:3:1": {
       "episode_key": "kominského metoda:s3:e1",
-      "claim": {
-        "worker_id": "0dfc9d7732f44141b272b55c13677479-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:30:48.290928+00:00",
-        "lease_expires_at": "2026-11-10T01:30:48.290941+00:00"
-      },
       "source": {
         "source_id": "34663817",
         "source_url": "https://sdilej.cz/34663817/kominskeho-metoda-s03e01-017-2021-fhd-na-vsech-tech-starych-znamych-mistech-s-.mp4",
@@ -335792,15 +335786,22 @@
         "display_name": "The Kominsky Method S03E01 Chapter 17. In all the old familiar places 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:30:56.599804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952864",
-        "size_bytes": 759261043
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952864",
+          "size_bytes": 759261043,
+          "source_bytes_read": 759261043,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34663817",
+        "source_url": "https://sdilej.cz/34663817/kominskeho-metoda-s03e01-017-2021-fhd-na-vsech-tech-starych-znamych-mistech-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952864",
-        "size_bytes": 759261043,
-        "source_bytes_read": 759261043,
-        "http_status": 201
+        "display_name": "The Kominsky Method S03E01 Chapter 17. In all the old familiar places 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:32:17.076121+00:00"
       }
     },
     "604:3:2": {
@@ -335889,5 +335890,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:32:11.880897+00:00"
+  "updated_at": "2026-11-09T19:32:17.076136+00:00"
 }
