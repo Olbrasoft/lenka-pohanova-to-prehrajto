@@ -323443,12 +323443,6 @@
     },
     "190:1:10": {
       "episode_key": "landman:s1:e10",
-      "claim": {
-        "worker_id": "a91b39e8b26e43348d6140cb246dfa6b-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T00:01:16.201156+00:00",
-        "lease_expires_at": "2026-11-09T06:01:16.201175+00:00"
-      },
       "source": {
         "source_id": "34983881",
         "source_url": "https://sdilej.cz/34983881/landman-s01e10-cz.mkv",
@@ -323473,15 +323467,22 @@
         "display_name": "Landman S01E10 The Crumbs of Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-09T00:01:19.818450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30928221",
-        "size_bytes": 1248112382
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30928221",
+          "size_bytes": 1248112382,
+          "source_bytes_read": 1248112382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983881",
+        "source_url": "https://sdilej.cz/34983881/landman-s01e10-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30928221",
-        "size_bytes": 1248112382,
-        "source_bytes_read": 1248112382,
-        "http_status": 201
+        "display_name": "Landman S01E10 The Crumbs of Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T00:03:06.690316+00:00"
       }
     }
   },
@@ -323490,5 +323491,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T00:03:01.225400+00:00"
+  "updated_at": "2026-11-09T00:03:06.690336+00:00"
 }
