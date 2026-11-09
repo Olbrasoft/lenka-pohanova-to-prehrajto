@@ -333826,12 +333826,6 @@
     },
     "2444:4:2": {
       "episode_key": "stále v kurzu:s4:e2",
-      "claim": {
-        "worker_id": "dc7aa68b02a542e6b2c0b9b0011b1f35-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T17:59:44.626731+00:00",
-        "lease_expires_at": "2026-11-09T23:59:44.626742+00:00"
-      },
       "source": {
         "source_id": "31554259",
         "source_url": "https://sdilej.cz/31554259/hacks-s04e02-stale-v-kurzu-fhd-1080p-cz.mkv",
@@ -333856,15 +333850,22 @@
         "display_name": "Hacks S04E02 Cover Girls 1080p CZ Dabing",
         "prepared_at": "2026-11-09T17:59:50.377257+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951074",
-        "size_bytes": 679741508
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951074",
+          "size_bytes": 679741508,
+          "source_bytes_read": 679741508,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31554259",
+        "source_url": "https://sdilej.cz/31554259/hacks-s04e02-stale-v-kurzu-fhd-1080p-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951074",
-        "size_bytes": 679741508,
-        "source_bytes_read": 679741508,
-        "http_status": 201
+        "display_name": "Hacks S04E02 Cover Girls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:03:20.690108+00:00"
       }
     },
     "2444:4:3": {
@@ -334042,5 +334043,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:03:17.263478+00:00"
+  "updated_at": "2026-11-09T18:03:20.690129+00:00"
 }
