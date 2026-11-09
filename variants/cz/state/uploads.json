@@ -329089,12 +329089,6 @@
     },
     "1052:3:20": {
       "episode_key": "hvězdná brána - atlantida:s3:e20",
-      "claim": {
-        "worker_id": "67eac76e9cb743e39d8e25be55bc342f-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:44:10.482483+00:00",
-        "lease_expires_at": "2026-11-09T16:44:10.482493+00:00"
-      },
       "source": {
         "source_id": "33263064",
         "source_url": "https://sdilej.cz/33263064/stargate-atlantis-s03e20.mkv",
@@ -329119,15 +329113,22 @@
         "display_name": "Stargate Atlantis S03E20 First Strike (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:44:16.872061+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943823",
-        "size_bytes": 445860850
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943823",
+          "size_bytes": 445860850,
+          "source_bytes_read": 445860850,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33263064",
+        "source_url": "https://sdilej.cz/33263064/stargate-atlantis-s03e20.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943823",
-        "size_bytes": 445860850,
-        "source_bytes_read": 445860850,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E20 First Strike (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:46:08.516398+00:00"
       }
     }
   },
@@ -329136,5 +329137,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:46:05.505531+00:00"
+  "updated_at": "2026-11-09T10:46:08.516411+00:00"
 }
