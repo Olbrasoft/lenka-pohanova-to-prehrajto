@@ -327579,12 +327579,6 @@
     },
     "1052:2:6": {
       "episode_key": "hvězdná brána - atlantida:s2:e6",
-      "claim": {
-        "worker_id": "9f0afab714f04e03896856b186e66cea-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:39:28.252760+00:00",
-        "lease_expires_at": "2026-11-09T15:39:28.252771+00:00"
-      },
       "source": {
         "source_id": "29907710",
         "source_url": "https://sdilej.cz/29907710/stargate-atlantis-s02e06-vsemohouci.mkv",
@@ -327609,15 +327603,22 @@
         "display_name": "Stargate Atlantis S02E06 Trinity 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:39:31.433465+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942690",
-        "size_bytes": 451142680
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942690",
+          "size_bytes": 451142680,
+          "source_bytes_read": 451142680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29907710",
+        "source_url": "https://sdilej.cz/29907710/stargate-atlantis-s02e06-vsemohouci.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942690",
-        "size_bytes": 451142680,
-        "source_bytes_read": 451142680,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S02E06 Trinity 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:40:16.055147+00:00"
       }
     }
   },
@@ -327626,5 +327627,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:40:10.667963+00:00"
+  "updated_at": "2026-11-09T09:40:16.055165+00:00"
 }
