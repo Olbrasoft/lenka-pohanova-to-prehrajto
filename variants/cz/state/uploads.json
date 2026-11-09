@@ -329221,12 +329221,6 @@
     },
     "1052:4:3": {
       "episode_key": "hvězdná brána - atlantida:s4:e3",
-      "claim": {
-        "worker_id": "de68accbd25a44b9be108aff24081573-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:51:33.574440+00:00",
-        "lease_expires_at": "2026-11-09T16:51:33.574450+00:00"
-      },
       "source": {
         "source_id": "23950539",
         "source_url": "https://sdilej.cz/23950539/hvezdna-brana-atlantida-stargate-atlantis-s04e03-hd-cz-dabing.mkv",
@@ -329251,15 +329245,22 @@
         "display_name": "Stargate Atlantis S04E03 Reunion 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:51:40.213134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943934",
-        "size_bytes": 485168513
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943934",
+          "size_bytes": 485168513,
+          "source_bytes_read": 485168513,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950539",
+        "source_url": "https://sdilej.cz/23950539/hvezdna-brana-atlantida-stargate-atlantis-s04e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943934",
-        "size_bytes": 485168513,
-        "source_bytes_read": 485168513,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E03 Reunion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:53:23.786829+00:00"
       }
     },
     "1052:4:4": {
@@ -329304,5 +329305,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:53:18.969067+00:00"
+  "updated_at": "2026-11-09T10:53:23.786846+00:00"
 }
