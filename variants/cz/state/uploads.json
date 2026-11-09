@@ -335710,12 +335710,6 @@
     },
     "604:2:8": {
       "episode_key": "kominského metoda:s2:e8",
-      "claim": {
-        "worker_id": "db00cf17464d47ae9dc988dbf4dfb742-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:23:16.101149+00:00",
-        "lease_expires_at": "2026-11-10T01:23:16.101164+00:00"
-      },
       "source": {
         "source_id": "34663810",
         "source_url": "https://sdilej.cz/34663810/kominskeho-metoda-s02e08-016-2019-fhd-thetan-prichazi-s-.mp4",
@@ -335740,15 +335734,22 @@
         "display_name": "The Kominsky Method S02E08 Chapter 16. A Thetan Arrives 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:23:23.605678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952738",
-        "size_bytes": 534431245
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952738",
+          "size_bytes": 534431245,
+          "source_bytes_read": 534431245,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34663810",
+        "source_url": "https://sdilej.cz/34663810/kominskeho-metoda-s02e08-016-2019-fhd-thetan-prichazi-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952738",
-        "size_bytes": 534431245,
-        "source_bytes_read": 534431245,
-        "http_status": 201
+        "display_name": "The Kominsky Method S02E08 Chapter 16. A Thetan Arrives 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:24:28.534736+00:00"
       }
     }
   },
@@ -335757,5 +335758,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:24:23.970121+00:00"
+  "updated_at": "2026-11-09T19:24:28.534749+00:00"
 }
