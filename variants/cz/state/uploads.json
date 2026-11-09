@@ -327945,12 +327945,6 @@
     },
     "1052:2:14": {
       "episode_key": "hvězdná brána - atlantida:s2:e14",
-      "claim": {
-        "worker_id": "22ceea62319d4a82bf30bdc34e698c36-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T09:49:00.656862+00:00",
-        "lease_expires_at": "2026-11-09T15:49:00.656874+00:00"
-      },
       "source": {
         "source_id": "23950237",
         "source_url": "https://sdilej.cz/23950237/hvezdna-brana-atlantida-stargate-atlantis-s02e14-hd-cz-dabing.mkv",
@@ -327975,15 +327969,22 @@
         "display_name": "Stargate Atlantis S02E14 Grace Under Pressure 1080p CZ Dabing",
         "prepared_at": "2026-11-09T09:49:15.104471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30942835",
-        "size_bytes": 401955431
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30942835",
+          "size_bytes": 401955431,
+          "source_bytes_read": 401955431,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950237",
+        "source_url": "https://sdilej.cz/23950237/hvezdna-brana-atlantida-stargate-atlantis-s02e14-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30942835",
-        "size_bytes": 401955431,
-        "source_bytes_read": 401955431,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S02E14 Grace Under Pressure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T09:49:58.534852+00:00"
       }
     },
     "1052:2:15": {
@@ -328029,5 +328030,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T09:49:55.816490+00:00"
+  "updated_at": "2026-11-09T09:49:58.534867+00:00"
 }
