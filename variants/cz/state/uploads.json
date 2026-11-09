@@ -325261,12 +325261,6 @@
     },
     "617:1:9": {
       "episode_key": "star trek: podivné nové světy:s1:e9",
-      "claim": {
-        "worker_id": "3ffd175bb4fe4229a769d39f10a84096-worker-0",
-        "run_id": "42550897685",
-        "claimed_at": "2026-11-09T04:01:22.124344+00:00",
-        "lease_expires_at": "2026-11-09T10:01:22.124355+00:00"
-      },
       "source": {
         "source_id": "33651130",
         "source_url": "https://sdilej.cz/33651130/star-trek-podivne-nove-svety-2022-s01e09-czdab-uhdr-vsichni-na-cestach.mkv",
@@ -325291,15 +325285,22 @@
         "display_name": "Star Trek: Strange New Worlds S01E09 All Those Who Wander 4K CZ Dabing",
         "prepared_at": "2026-11-09T04:01:29.724371+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30933050",
-        "size_bytes": 2334973147
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30933050",
+          "size_bytes": 2334973147,
+          "source_bytes_read": 2334973147,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33651130",
+        "source_url": "https://sdilej.cz/33651130/star-trek-podivne-nove-svety-2022-s01e09-czdab-uhdr-vsichni-na-cestach.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30933050",
-        "size_bytes": 2334973147,
-        "source_bytes_read": 2334973147,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S01E09 All Those Who Wander 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T04:15:19.103648+00:00"
       }
     },
     "617:1:10": {
@@ -325382,5 +325383,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T04:15:14.972730+00:00"
+  "updated_at": "2026-11-09T04:15:19.103664+00:00"
 }
