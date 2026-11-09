@@ -336334,12 +336334,6 @@
     },
     "355:1:4": {
       "episode_key": "pluk mizerů:s1:e4",
-      "claim": {
-        "worker_id": "08b2bbf9efa64c3eb43d12cee0f4cdd0-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T20:23:24.896145+00:00",
-        "lease_expires_at": "2026-11-10T02:23:24.896154+00:00"
-      },
       "source": {
         "source_id": "33752849",
         "source_url": "https://sdilej.cz/33752849/pluk-mizeru-01x04-1080p.cz.mkv",
@@ -336364,15 +336358,22 @@
         "display_name": "SAS Rogue Heroes S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-09T20:23:28.007405+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30953603",
-        "size_bytes": 1078681792
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30953603",
+          "size_bytes": 1078681792,
+          "source_bytes_read": 1078681792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33752849",
+        "source_url": "https://sdilej.cz/33752849/pluk-mizeru-01x04-1080p.cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30953603",
-        "size_bytes": 1078681792,
-        "source_bytes_read": 1078681792,
-        "http_status": 201
+        "display_name": "SAS Rogue Heroes S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T20:25:42.739334+00:00"
       }
     }
   },
@@ -336381,5 +336382,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T20:25:36.219249+00:00"
+  "updated_at": "2026-11-09T20:25:42.739348+00:00"
 }
