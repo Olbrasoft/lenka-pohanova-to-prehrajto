@@ -326310,12 +326310,6 @@
     },
     "617:4:3": {
       "episode_key": "star trek: podivné nové světy:s4:e3",
-      "claim": {
-        "worker_id": "4f77d69defb74a1db97a8bd4769d57bb-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:34:18.111495+00:00",
-        "lease_expires_at": "2026-11-09T13:34:18.111505+00:00"
-      },
       "source": {
         "source_id": "34823566",
         "source_url": "https://sdilej.cz/34823566/star-trek-podivne-nove-svety-2026-s04e03-czdab.2160p-nejlepsi-pritel-cloveka.mkv",
@@ -326340,15 +326334,22 @@
         "display_name": "Star Trek: Strange New Worlds S04E03 Human Best Friend 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:34:25.820300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937857",
-        "size_bytes": 5650910348
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937857",
+          "size_bytes": 5650910348,
+          "source_bytes_read": 5650910348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34823566",
+        "source_url": "https://sdilej.cz/34823566/star-trek-podivne-nove-svety-2026-s04e03-czdab.2160p-nejlepsi-pritel-cloveka.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937857",
-        "size_bytes": 5650910348,
-        "source_bytes_read": 5650910348,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S04E03 Human Best Friend 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T07:58:28.000810+00:00"
       }
     }
   },
@@ -326357,5 +326358,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T07:58:21.288934+00:00"
+  "updated_at": "2026-11-09T07:58:28.000829+00:00"
 }
