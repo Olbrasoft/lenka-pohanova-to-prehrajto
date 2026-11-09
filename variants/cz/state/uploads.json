@@ -332110,12 +332110,6 @@
     },
     "580:4:3": {
       "episode_key": "starosta kingstownu:s4:e3",
-      "claim": {
-        "worker_id": "2bab459feb1343169ef7991b71c72b3f-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T14:19:19.812738+00:00",
-        "lease_expires_at": "2026-11-09T20:19:19.812783+00:00"
-      },
       "source": {
         "source_id": "33120088",
         "source_url": "https://sdilej.cz/33120088/mayor-of-kingstown-s04e03-cz-dabing.mkv",
@@ -332140,15 +332134,22 @@
         "display_name": "Mayor of Kingstown S04E03 People Who Died 4K CZ Dabing",
         "prepared_at": "2026-11-09T14:19:24.871215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947115",
-        "size_bytes": 2470917017
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947115",
+          "size_bytes": 2470917017,
+          "source_bytes_read": 2470917017,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33120088",
+        "source_url": "https://sdilej.cz/33120088/mayor-of-kingstown-s04e03-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947115",
-        "size_bytes": 2470917017,
-        "source_bytes_read": 2470917017,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S04E03 People Who Died 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T14:24:41.321394+00:00"
       }
     }
   },
@@ -332157,5 +332158,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T14:24:35.347940+00:00"
+  "updated_at": "2026-11-09T14:24:41.321416+00:00"
 }
