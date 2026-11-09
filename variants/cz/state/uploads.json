@@ -329045,12 +329045,6 @@
     },
     "1052:3:19": {
       "episode_key": "hvězdná brána - atlantida:s3:e19",
-      "claim": {
-        "worker_id": "9b66be068cf041fdaed58ab015d4bc08-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:44:07.547341+00:00",
-        "lease_expires_at": "2026-11-09T16:44:07.547354+00:00"
-      },
       "source": {
         "source_id": "33263057",
         "source_url": "https://sdilej.cz/33263057/stargate-atlantis-s03e19.mkv",
@@ -329075,15 +329069,22 @@
         "display_name": "Stargate Atlantis S03E19 Vengeance 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:44:14.032840+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943822",
-        "size_bytes": 489418822
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943822",
+          "size_bytes": 489418822,
+          "source_bytes_read": 489418822,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33263057",
+        "source_url": "https://sdilej.cz/33263057/stargate-atlantis-s03e19.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943822",
-        "size_bytes": 489418822,
-        "source_bytes_read": 489418822,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E19 Vengeance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:46:05.505515+00:00"
       }
     },
     "1052:3:20": {
@@ -329135,5 +329136,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:46:01.107097+00:00"
+  "updated_at": "2026-11-09T10:46:05.505531+00:00"
 }
