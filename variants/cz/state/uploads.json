@@ -331595,12 +331595,6 @@
     },
     "580:2:9": {
       "episode_key": "starosta kingstownu:s2:e9",
-      "claim": {
-        "worker_id": "2defcac82b744af6b1c756c2af6aaaad-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:08:28.225750+00:00",
-        "lease_expires_at": "2026-11-09T19:08:28.225761+00:00"
-      },
       "source": {
         "source_id": "34104894",
         "source_url": "https://sdilej.cz/34104894/starosta-kingstownu-s02e09-cz-dabing-2160p-uhd.mkv",
@@ -331624,7 +331618,13 @@
         },
         "display_name": "Mayor of Kingstown S02E09 Peace in the Valley 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:08:31.892285+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-09T13:08:42.864603+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -331632,5 +331632,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:08:31.892301+00:00"
+  "updated_at": "2026-11-09T13:08:42.864620+00:00"
 }
