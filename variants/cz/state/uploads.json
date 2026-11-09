@@ -328994,12 +328994,6 @@
     },
     "1052:3:18": {
       "episode_key": "hvězdná brána - atlantida:s3:e18",
-      "claim": {
-        "worker_id": "554716681ef5434ebe46010251425c30-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:43:00.101184+00:00",
-        "lease_expires_at": "2026-11-09T16:43:00.101195+00:00"
-      },
       "source": {
         "source_id": "23950460",
         "source_url": "https://sdilej.cz/23950460/hvezdna-brana-atlantida-stargate-atlantis-s03e18-hd-cz-dabing.mkv",
@@ -329024,15 +329018,22 @@
         "display_name": "Stargate Atlantis S03E18 Submersion 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:43:06.238790+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943813",
-        "size_bytes": 378389583
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943813",
+          "size_bytes": 378389583,
+          "source_bytes_read": 378389583,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950460",
+        "source_url": "https://sdilej.cz/23950460/hvezdna-brana-atlantida-stargate-atlantis-s03e18-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943813",
-        "size_bytes": 378389583,
-        "source_bytes_read": 378389583,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S03E18 Submersion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:43:58.809841+00:00"
       }
     }
   },
@@ -329041,5 +329042,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:43:54.493624+00:00"
+  "updated_at": "2026-11-09T10:43:58.809858+00:00"
 }
