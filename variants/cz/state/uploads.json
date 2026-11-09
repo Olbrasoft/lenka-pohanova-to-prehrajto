@@ -332939,12 +332939,6 @@
     },
     "2444:1:9": {
       "episode_key": "stále v kurzu:s1:e9",
-      "claim": {
-        "worker_id": "1c9e06c87989456c851ec5e94b1e1edb-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T16:16:14.409595+00:00",
-        "lease_expires_at": "2026-11-09T22:16:14.409613+00:00"
-      },
       "source": {
         "source_id": "21642327",
         "source_url": "https://sdilej.cz/21642327/stale-v-kurzu-hacks-s01e09-cz-dabing-hd-1080p.mp4",
@@ -332969,15 +332963,22 @@
         "display_name": "Hacks S01E09 Interview 1080p CZ Dabing",
         "prepared_at": "2026-11-09T16:16:22.001856+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30948711",
-        "size_bytes": 369231379
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30948711",
+          "size_bytes": 369231379,
+          "source_bytes_read": 369231379,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21642327",
+        "source_url": "https://sdilej.cz/21642327/stale-v-kurzu-hacks-s01e09-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30948711",
-        "size_bytes": 369231379,
-        "source_bytes_read": 369231379,
-        "http_status": 201
+        "display_name": "Hacks S01E09 Interview 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T16:19:44.847516+00:00"
       }
     },
     "2444:1:10": {
@@ -333023,5 +333024,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T16:19:37.479066+00:00"
+  "updated_at": "2026-11-09T16:19:44.847535+00:00"
 }
