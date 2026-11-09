@@ -325965,12 +325965,6 @@
     },
     "617:3:5": {
       "episode_key": "star trek: podivné nové světy:s3:e5",
-      "claim": {
-        "worker_id": "15fdd5b52a864441b8312c016b6c568d-worker-0",
-        "run_id": "42574345341",
-        "claimed_at": "2026-11-09T07:08:14.117925+00:00",
-        "lease_expires_at": "2026-11-09T13:08:14.117936+00:00"
-      },
       "source": {
         "source_id": "33650594",
         "source_url": "https://sdilej.cz/33650594/star-trek-podivne-nove-svety-2025-s03e05-czdab-uhdr-pohled-do-minulosti.mkv",
@@ -325995,15 +325989,22 @@
         "display_name": "Star Trek: Strange New Worlds S03E05 Through the Lens of Time 4K CZ Dabing",
         "prepared_at": "2026-11-09T07:08:24.006804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30937085",
-        "size_bytes": 2575096159
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30937085",
+          "size_bytes": 2575096159,
+          "source_bytes_read": 2575096159,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33650594",
+        "source_url": "https://sdilej.cz/33650594/star-trek-podivne-nove-svety-2025-s03e05-czdab-uhdr-pohled-do-minulosti.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30937085",
-        "size_bytes": 2575096159,
-        "source_bytes_read": 2575096159,
-        "http_status": 201
+        "display_name": "Star Trek: Strange New Worlds S03E05 Through the Lens of Time 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T07:19:42.864305+00:00"
       }
     },
     "617:3:6": {
@@ -326086,5 +326087,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T07:19:37.542603+00:00"
+  "updated_at": "2026-11-09T07:19:42.864322+00:00"
 }
