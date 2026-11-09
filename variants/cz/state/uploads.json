@@ -331934,12 +331934,6 @@
     },
     "580:3:8": {
       "episode_key": "starosta kingstownu:s3:e8",
-      "claim": {
-        "worker_id": "5b7ff4e6d9d64f0dbf46c714461d3c71-worker-0",
-        "run_id": "42624937442",
-        "claimed_at": "2026-11-09T14:09:49.146062+00:00",
-        "lease_expires_at": "2026-11-09T20:09:49.146081+00:00"
-      },
       "source": {
         "source_id": "29594103",
         "source_url": "https://sdilej.cz/29594103/mayor-of-kingstown-s03e08.mkv",
@@ -331964,15 +331958,22 @@
         "display_name": "Mayor of Kingstown S03E08 Captain of the Sh*t Out of Luck 1080p CZ Dabing",
         "prepared_at": "2026-11-09T14:09:53.704278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30947004",
-        "size_bytes": 504463832
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30947004",
+          "size_bytes": 504463832,
+          "source_bytes_read": 504463832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29594103",
+        "source_url": "https://sdilej.cz/29594103/mayor-of-kingstown-s03e08.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30947004",
-        "size_bytes": 504463832,
-        "source_bytes_read": 504463832,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S03E08 Captain of the Sh*t Out of Luck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T14:11:16.922945+00:00"
       }
     },
     "580:3:10": {
@@ -332055,5 +332056,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T14:11:09.027754+00:00"
+  "updated_at": "2026-11-09T14:11:16.922963+00:00"
 }
