@@ -331319,12 +331319,6 @@
     },
     "580:2:1": {
       "episode_key": "starosta kingstownu:s2:e1",
-      "claim": {
-        "worker_id": "adc6c056aa614789a79d7cef9b89956b-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T13:01:48.135514+00:00",
-        "lease_expires_at": "2026-11-09T19:01:48.135525+00:00"
-      },
       "source": {
         "source_id": "34104822",
         "source_url": "https://sdilej.cz/34104822/starosta-kingstownu-s02e01-cz-dabing-2160p-uhd.mkv",
@@ -331348,7 +331342,13 @@
         },
         "display_name": "Mayor of Kingstown S02E01 Never Missed a Pigeon 4K CZ Dabing",
         "prepared_at": "2026-11-09T13:01:56.427811+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-09T13:02:09.767631+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -331356,5 +331356,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T13:02:07.117405+00:00"
+  "updated_at": "2026-11-09T13:02:09.767647+00:00"
 }
