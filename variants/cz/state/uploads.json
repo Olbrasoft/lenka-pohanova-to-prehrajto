@@ -331150,12 +331150,6 @@
     },
     "580:1:7": {
       "episode_key": "starosta kingstownu:s1:e7",
-      "claim": {
-        "worker_id": "f8f0c48f56924e01b7fad0f13659e215-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T12:49:23.173523+00:00",
-        "lease_expires_at": "2026-11-09T18:49:23.173535+00:00"
-      },
       "source": {
         "source_id": "34104739",
         "source_url": "https://sdilej.cz/34104739/starosta-kingstownu-s01e07-cz-dabing-2160p-uhd.mkv",
@@ -331180,15 +331174,22 @@
         "display_name": "Mayor of Kingstown S01E07 Along Came a Spider 4K CZ Dabing",
         "prepared_at": "2026-11-09T12:49:38.810751+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30945914",
-        "size_bytes": 2494952513
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30945914",
+          "size_bytes": 2494952513,
+          "source_bytes_read": 2494952513,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34104739",
+        "source_url": "https://sdilej.cz/34104739/starosta-kingstownu-s01e07-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30945914",
-        "size_bytes": 2494952513,
-        "source_bytes_read": 2494952513,
-        "http_status": 201
+        "display_name": "Mayor of Kingstown S01E07 Along Came a Spider 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T12:57:19.325775+00:00"
       }
     },
     "580:1:8": {
@@ -331311,5 +331312,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T12:57:13.840242+00:00"
+  "updated_at": "2026-11-09T12:57:19.325790+00:00"
 }
