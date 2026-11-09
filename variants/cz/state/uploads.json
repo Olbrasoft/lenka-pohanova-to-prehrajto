@@ -334442,12 +334442,6 @@
     },
     "2444:5:6": {
       "episode_key": "stále v kurzu:s5:e6",
-      "claim": {
-        "worker_id": "14d5284554424b6d98014b66e7c099a4-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:28:08.004153+00:00",
-        "lease_expires_at": "2026-11-10T00:28:08.004164+00:00"
-      },
       "source": {
         "source_id": "34172160",
         "source_url": "https://sdilej.cz/34172160/stale-v-kurzu-s05e06-vylepsovac-stylu.mkv",
@@ -334472,15 +334466,22 @@
         "display_name": "Hacks S05E06 QuikScribbl 1080p CZ Dabing",
         "prepared_at": "2026-11-09T18:28:11.087890+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951721",
-        "size_bytes": 934900264
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951721",
+          "size_bytes": 934900264,
+          "source_bytes_read": 934900264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34172160",
+        "source_url": "https://sdilej.cz/34172160/stale-v-kurzu-s05e06-vylepsovac-stylu.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951721",
-        "size_bytes": 934900264,
-        "source_bytes_read": 934900264,
-        "http_status": 201
+        "display_name": "Hacks S05E06 QuikScribbl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:31:15.147765+00:00"
       }
     }
   },
@@ -334489,5 +334490,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:31:11.054909+00:00"
+  "updated_at": "2026-11-09T18:31:15.147786+00:00"
 }
