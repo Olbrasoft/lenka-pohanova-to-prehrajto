@@ -334222,12 +334222,6 @@
     },
     "2444:5:1": {
       "episode_key": "stále v kurzu:s5:e1",
-      "claim": {
-        "worker_id": "55c32027f9eb4eb6bd950794ec5aa15b-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:18:22.272258+00:00",
-        "lease_expires_at": "2026-11-10T00:18:22.272272+00:00"
-      },
       "source": {
         "source_id": "33956523",
         "source_url": "https://sdilej.cz/33956523/stale-v-kurzu-s05e01-egot.cz.dabing.mkv",
@@ -334252,15 +334246,22 @@
         "display_name": "Hacks S05E01 EGOT 4K CZ Dabing",
         "prepared_at": "2026-11-09T18:18:25.366275+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951458",
-        "size_bytes": 1287785116
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951458",
+          "size_bytes": 1287785116,
+          "source_bytes_read": 1287785116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33956523",
+        "source_url": "https://sdilej.cz/33956523/stale-v-kurzu-s05e01-egot.cz.dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951458",
-        "size_bytes": 1287785116,
-        "source_bytes_read": 1287785116,
-        "http_status": 201
+        "display_name": "Hacks S05E01 EGOT 4K CZ Dabing",
+        "uploaded_at": "2026-11-09T18:21:21.051974+00:00"
       }
     },
     "2444:5:2": {
@@ -334343,5 +334344,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:21:17.179598+00:00"
+  "updated_at": "2026-11-09T18:21:21.051988+00:00"
 }
