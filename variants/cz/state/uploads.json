@@ -329309,12 +329309,6 @@
     },
     "1052:4:5": {
       "episode_key": "hvězdná brána - atlantida:s4:e5",
-      "claim": {
-        "worker_id": "4cab1b8bb3354585ad0497b42ec7d861-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T10:53:35.517124+00:00",
-        "lease_expires_at": "2026-11-09T16:53:35.517134+00:00"
-      },
       "source": {
         "source_id": "33263122",
         "source_url": "https://sdilej.cz/33263122/stargate-atlantis-s04e05.mkv",
@@ -329339,15 +329333,22 @@
         "display_name": "Stargate Atlantis S04E05 Travelers 1080p CZ Dabing",
         "prepared_at": "2026-11-09T10:53:42.980511+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30943955",
-        "size_bytes": 423902915
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30943955",
+          "size_bytes": 423902915,
+          "source_bytes_read": 423902915,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33263122",
+        "source_url": "https://sdilej.cz/33263122/stargate-atlantis-s04e05.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30943955",
-        "size_bytes": 423902915,
-        "source_bytes_read": 423902915,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E05 Travelers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T10:54:38.896460+00:00"
       }
     },
     "1052:4:6": {
@@ -329426,5 +329427,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T10:54:34.756309+00:00"
+  "updated_at": "2026-11-09T10:54:38.896474+00:00"
 }
