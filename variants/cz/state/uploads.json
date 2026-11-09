@@ -329969,12 +329969,6 @@
     },
     "1052:4:20": {
       "episode_key": "hvězdná brána - atlantida:s4:e20",
-      "claim": {
-        "worker_id": "e75e60ff5261434e8a6e933ff6841086-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T11:42:15.477028+00:00",
-        "lease_expires_at": "2026-11-09T17:42:15.477038+00:00"
-      },
       "source": {
         "source_id": "23950738",
         "source_url": "https://sdilej.cz/23950738/hvezdna-brana-atlantida-stargate-atlantis-s04e20-hd-cz-dabing.mkv",
@@ -329999,15 +329993,22 @@
         "display_name": "Stargate Atlantis S04E20 The Last Man (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-09T11:42:20.994313+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30944889",
-        "size_bytes": 453373051
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30944889",
+          "size_bytes": 453373051,
+          "source_bytes_read": 453373051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950738",
+        "source_url": "https://sdilej.cz/23950738/hvezdna-brana-atlantida-stargate-atlantis-s04e20-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30944889",
-        "size_bytes": 453373051,
-        "source_bytes_read": 453373051,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S04E20 The Last Man (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T11:43:28.204917+00:00"
       }
     },
     "1052:5:1": {
@@ -330090,5 +330091,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T11:43:22.441565+00:00"
+  "updated_at": "2026-11-09T11:43:28.204947+00:00"
 }
