@@ -324329,12 +324329,6 @@
     },
     "1229:1:9": {
       "episode_key": "studio 60:s1:e9",
-      "claim": {
-        "worker_id": "7e22b1cda3a144d1946a3c65580c7f5e-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T02:42:36.893701+00:00",
-        "lease_expires_at": "2026-11-09T08:42:36.893722+00:00"
-      },
       "source": {
         "source_id": "33560501",
         "source_url": "https://sdilej.cz/33560501/studio-60-s01e09-czdab.mp4",
@@ -324359,15 +324353,22 @@
         "display_name": "Studio 60 on the Sunset Strip S01E09 The Option Period SD CZ Dabing",
         "prepared_at": "2026-11-09T02:42:43.127154+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30931635",
-        "size_bytes": 243322543
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30931635",
+          "size_bytes": 243322543,
+          "source_bytes_read": 243322543,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33560501",
+        "source_url": "https://sdilej.cz/33560501/studio-60-s01e09-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30931635",
-        "size_bytes": 243322543,
-        "source_bytes_read": 243322543,
-        "http_status": 201
+        "display_name": "Studio 60 on the Sunset Strip S01E09 The Option Period SD CZ Dabing",
+        "uploaded_at": "2026-11-09T02:43:22.338569+00:00"
       }
     }
   },
@@ -324376,5 +324377,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T02:43:18.445152+00:00"
+  "updated_at": "2026-11-09T02:43:22.338589+00:00"
 }
