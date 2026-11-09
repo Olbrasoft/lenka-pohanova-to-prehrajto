@@ -335630,12 +335630,6 @@
     },
     "604:2:6": {
       "episode_key": "kominského metoda:s2:e6",
-      "claim": {
-        "worker_id": "3856bad89a4d477dbd844ff48eb72c86-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T19:23:03.780398+00:00",
-        "lease_expires_at": "2026-11-10T01:23:03.780415+00:00"
-      },
       "source": {
         "source_id": "34663804",
         "source_url": "https://sdilej.cz/34663804/kominskeho-metoda-s02e06-014-2019-fhd-unik-informaci-a-ucitelova-rec-s-.mp4",
@@ -335660,15 +335654,22 @@
         "display_name": "The Kominsky Method S02E06 Chapter 14. A Secret Leaks, a Teacher Speaks 1080p CZ Dabing",
         "prepared_at": "2026-11-09T19:23:13.491066+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30952733",
-        "size_bytes": 535780665
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30952733",
+          "size_bytes": 535780665,
+          "source_bytes_read": 535780665,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34663804",
+        "source_url": "https://sdilej.cz/34663804/kominskeho-metoda-s02e06-014-2019-fhd-unik-informaci-a-ucitelova-rec-s-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30952733",
-        "size_bytes": 535780665,
-        "source_bytes_read": 535780665,
-        "http_status": 201
+        "display_name": "The Kominsky Method S02E06 Chapter 14. A Secret Leaks, a Teacher Speaks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T19:24:31.168560+00:00"
       }
     },
     "604:1:8": {
@@ -335758,5 +335759,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T19:24:28.534749+00:00"
+  "updated_at": "2026-11-09T19:24:31.168582+00:00"
 }
