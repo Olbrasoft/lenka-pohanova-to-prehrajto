@@ -334838,12 +334838,6 @@
     },
     "2439:3:8": {
       "episode_key": "tintinova dobrodružství:s3:e8",
-      "claim": {
-        "worker_id": "248b12b400684495b14d809076b992ec-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:36:20.387431+00:00",
-        "lease_expires_at": "2026-11-10T00:36:20.387444+00:00"
-      },
       "source": {
         "source_id": "32885376",
         "source_url": "https://sdilej.cz/32885376/tintinova-dobrodruzstvi-s03e08-sperky-operni-divy-cast-2.720p.bdrip-cz.mkv",
@@ -334868,15 +334862,22 @@
         "display_name": "The Adventures of Tintin S03E08 720p CZ Dabing",
         "prepared_at": "2026-11-09T18:36:23.511427+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951866",
-        "size_bytes": 274632257
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951866",
+          "size_bytes": 274632257,
+          "source_bytes_read": 274632257,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885376",
+        "source_url": "https://sdilej.cz/32885376/tintinova-dobrodruzstvi-s03e08-sperky-operni-divy-cast-2.720p.bdrip-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951866",
-        "size_bytes": 274632257,
-        "source_bytes_read": 274632257,
-        "http_status": 201
+        "display_name": "The Adventures of Tintin S03E08 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:37:06.905981+00:00"
       }
     },
     "2439:3:9": {
@@ -334922,5 +334923,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:37:04.236821+00:00"
+  "updated_at": "2026-11-09T18:37:06.905999+00:00"
 }
