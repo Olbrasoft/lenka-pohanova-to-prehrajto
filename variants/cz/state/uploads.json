@@ -330699,12 +330699,6 @@
     },
     "1052:5:17": {
       "episode_key": "hvězdná brána - atlantida:s5:e17",
-      "claim": {
-        "worker_id": "07ef891aee1c4e47b45fdce29bc90506-worker-0",
-        "run_id": "42593377814",
-        "claimed_at": "2026-11-09T11:58:44.756126+00:00",
-        "lease_expires_at": "2026-11-09T17:58:44.756137+00:00"
-      },
       "source": {
         "source_id": "23950927",
         "source_url": "https://sdilej.cz/23950927/hvezdna-brana-atlantida-stargate-atlantis-s05e17-hd-cz-dabing.mkv",
@@ -330729,15 +330723,22 @@
         "display_name": "Stargate Atlantis S05E17 Infection 1080p CZ Dabing",
         "prepared_at": "2026-11-09T11:58:48.026647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30945199",
-        "size_bytes": 484153698
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30945199",
+          "size_bytes": 484153698,
+          "source_bytes_read": 484153698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23950927",
+        "source_url": "https://sdilej.cz/23950927/hvezdna-brana-atlantida-stargate-atlantis-s05e17-hd-cz-dabing.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30945199",
-        "size_bytes": 484153698,
-        "source_bytes_read": 484153698,
-        "http_status": 201
+        "display_name": "Stargate Atlantis S05E17 Infection 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T12:00:33.187599+00:00"
       }
     },
     "1052:5:18": {
@@ -330782,5 +330783,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T12:00:27.906764+00:00"
+  "updated_at": "2026-11-09T12:00:33.187616+00:00"
 }
