@@ -336730,12 +336730,6 @@
     },
     "1859:1:5": {
       "episode_key": "roky a roky:s1:e5",
-      "claim": {
-        "worker_id": "8ba14a07b2cc426bb84b51fc6e275988-worker-0",
-        "run_id": "42692219930",
-        "claimed_at": "2026-11-09T21:41:16.292942+00:00",
-        "lease_expires_at": "2026-11-10T03:41:16.292952+00:00"
-      },
       "source": {
         "source_id": "28494460",
         "source_url": "https://sdilej.cz/28494460/roky-a-roky-s01e05-2019-full-hd-epizoda-5-sd-.mp4",
@@ -336760,15 +336754,22 @@
         "display_name": "Years and Years S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-09T21:41:27.159082+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30954728",
-        "size_bytes": 1206935108
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30954728",
+          "size_bytes": 1206935108,
+          "source_bytes_read": 1206935108,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28494460",
+        "source_url": "https://sdilej.cz/28494460/roky-a-roky-s01e05-2019-full-hd-epizoda-5-sd-.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30954728",
-        "size_bytes": 1206935108,
-        "source_bytes_read": 1206935108,
-        "http_status": 201
+        "display_name": "Years and Years S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-09T21:44:56.913415+00:00"
       }
     },
     "194:1:1": {
@@ -336851,5 +336852,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T21:44:51.775526+00:00"
+  "updated_at": "2026-11-09T21:44:56.913431+00:00"
 }
