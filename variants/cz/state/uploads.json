@@ -324777,12 +324777,6 @@
     },
     "1229:1:20": {
       "episode_key": "studio 60:s1:e20",
-      "claim": {
-        "worker_id": "2eb3ae5708c344c294822a14e893829d-worker-0",
-        "run_id": "42534780894",
-        "claimed_at": "2026-11-09T02:50:53.765886+00:00",
-        "lease_expires_at": "2026-11-09T08:50:53.765904+00:00"
-      },
       "source": {
         "source_id": "33560532",
         "source_url": "https://sdilej.cz/33560532/studio-60-s01e20-czdab.mp4",
@@ -324807,15 +324801,22 @@
         "display_name": "Studio 60 on the Sunset Strip S01E20 K&R (2) SD CZ Dabing",
         "prepared_at": "2026-11-09T02:50:58.388123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30931790",
-        "size_bytes": 217226930
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30931790",
+          "size_bytes": 217226930,
+          "source_bytes_read": 217226930,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33560532",
+        "source_url": "https://sdilej.cz/33560532/studio-60-s01e20-czdab.mp4",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30931790",
-        "size_bytes": 217226930,
-        "source_bytes_read": 217226930,
-        "http_status": 201
+        "display_name": "Studio 60 on the Sunset Strip S01E20 K&R (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-09T02:51:44.613672+00:00"
       }
     }
   },
@@ -324824,5 +324825,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T02:51:38.414166+00:00"
+  "updated_at": "2026-11-09T02:51:44.613689+00:00"
 }
