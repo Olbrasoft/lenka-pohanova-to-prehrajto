@@ -334706,12 +334706,6 @@
     },
     "2439:3:5": {
       "episode_key": "tintinova dobrodružství:s3:e5",
-      "claim": {
-        "worker_id": "c6c21d33b9f244d39964c602a78704f9-worker-0",
-        "run_id": "42654217642",
-        "claimed_at": "2026-11-09T18:34:05.993604+00:00",
-        "lease_expires_at": "2026-11-10T00:34:05.993619+00:00"
-      },
       "source": {
         "source_id": "32885362",
         "source_url": "https://sdilej.cz/32885362/tintinova-dobrodruzstvi-s03e05-cesta-k-slunecnimu-chramu-cast-1.720p.bdrip-cz.mkv",
@@ -334736,15 +334730,22 @@
         "display_name": "The Adventures of Tintin S03E05 720p CZ Dabing",
         "prepared_at": "2026-11-09T18:34:10.248860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30951803",
-        "size_bytes": 256799617
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30951803",
+          "size_bytes": 256799617,
+          "source_bytes_read": 256799617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32885362",
+        "source_url": "https://sdilej.cz/32885362/tintinova-dobrodruzstvi-s03e05-cesta-k-slunecnimu-chramu-cast-1.720p.bdrip-cz.mkv",
+        "audio_language": "cs"
       },
-      "transfer_receipt": {
+      "upload": {
         "target_video_id": "30951803",
-        "size_bytes": 256799617,
-        "source_bytes_read": 256799617,
-        "http_status": 201
+        "display_name": "The Adventures of Tintin S03E05 720p CZ Dabing",
+        "uploaded_at": "2026-11-09T18:34:53.977195+00:00"
       }
     },
     "2439:3:6": {
@@ -334790,5 +334791,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-09T18:34:51.588693+00:00"
+  "updated_at": "2026-11-09T18:34:53.977212+00:00"
 }
