@@ -28,8 +28,8 @@ from sdilej_serialy.resilience import (
     TargetPending, error_evidence, receipt_matches, receipt_requester as base_receipt_requester, transient_http,
 )
 
-# The current authenticated web uploader uses this gateway. The pinned SDK
-# still points at api.premiumcdn.net, which stalls while receiving file bodies.
+# The current authenticated web uploader uses this gateway. Route each request
+# here without changing the pinned SDK's process-wide configuration.
 UPLOAD_URL = "https://upload.premiumcdn.net/upload/"
 
 
@@ -39,11 +39,43 @@ def upload_post(_sdk_url, **kwargs):
 
 def receipt_requester(state, episode):
     request_with_receipt = base_receipt_requester(state, episode)
+    finished = threading.Event()
+    finished.set()
 
     def request(_sdk_url, **kwargs):
-        return request_with_receipt(UPLOAD_URL, **kwargs)
+        finished.clear()
+        reader = None
+        try:
+            reader = kwargs["data"].fields[0][1][1]
+            # urllib3 also uses the connection timeout while writing the body;
+            # the read timeout starts only after the full multipart request is sent.
+            kwargs["timeout"] = (300, 7200)
+            response = request_with_receipt(UPLOAD_URL, **kwargs)
+            if response.status_code not in (200, 201) or reader.position != reader.total:
+                save_failure(reader, http_status=response.status_code)
+            return response
+        except Exception as error:
+            chain, seen = [], set()
+            while error is not None and id(error) not in seen:
+                seen.add(id(error))
+                chain.append(error_evidence(error))
+                error = error.__cause__ or error.__context__
+            if reader is not None:
+                save_failure(reader, errors=chain)
+            raise
+        finally:
+            finished.set()
 
-    request.finished = request_with_receipt.finished
+    def save_failure(reader, **details):
+        with state._lock:
+            record = state.row(episode)
+            record["transfer_failure"] = dict(
+                target_video_id=record.get("prepared_target", {}).get("target_video_id"),
+                source_bytes_read=reader.position, size_bytes=reader.total, **details,
+            )
+            state.save()
+
+    request.finished = finished
     return request
 
 

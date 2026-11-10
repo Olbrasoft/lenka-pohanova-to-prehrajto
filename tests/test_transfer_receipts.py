@@ -1,5 +1,6 @@
 from types import SimpleNamespace
 import copy
+import json
 import pytest
 
 from sdilej_serialy.models import Episode
@@ -90,6 +91,7 @@ def test_current_gateway_keeps_receipt_and_request_completion_guards(tmp_path, c
 
     def post(url, **kwargs):
         assert not request.finished.is_set()
+        assert kwargs["timeout"] == (300, 7200)
         destinations.append(url)
         return SimpleNamespace(status_code=201)
 
@@ -97,12 +99,40 @@ def test_current_gateway_keeps_receipt_and_request_completion_guards(tmp_path, c
     request(sdk_destination, data=encoder)
     assert request.finished.is_set()
     assert not state.row(episode).get("transfer_receipt")
+    assert state.row(episode)["transfer_failure"]["source_bytes_read"] == 1
     reader.position = reader.total
     request(sdk_destination, data=encoder)
     assert request.finished.is_set()
     assert destinations == ["https://upload.premiumcdn.net/upload/"] * 2
     assert transfer.prehrajto.UPLOAD_URL == sdk_destination
     assert state.row(episode)["transfer_receipt"]["source_bytes_read"] == 500_000_000
+
+
+def test_failed_request_keeps_partial_byte_evidence_without_secret_messages(tmp_path, czech_row, monkeypatch):
+    state = VariantState(tmp_path / "uploads.json", "cz")
+    episode = Episode.from_dict(czech_row["episode"])
+    state.row(episode)["prepared_target"] = dict(target_video_id="777", size_bytes=500_000_000)
+    request = transfer.receipt_requester(state, episode)
+    reader = SimpleNamespace(position=6_000_000, total=500_000_000)
+    encoder = SimpleNamespace(fields=[("files", ("episode.mkv", reader, "video/mp4"))])
+
+    def post(*args, **kwargs):
+        try:
+            raise TimeoutError("private-signed-token")
+        except TimeoutError as error:
+            raise transfer.requests.ConnectionError("private-password") from error
+
+    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", post)
+    with pytest.raises(transfer.requests.ConnectionError):
+        request(transfer.prehrajto.UPLOAD_URL, data=encoder)
+    assert request.finished.is_set()
+    record = state.row(episode)
+    assert not record.get("transfer_receipt")
+    assert record["prepared_target"]["target_video_id"] == "777"
+    evidence = record["transfer_failure"]
+    assert evidence["source_bytes_read"] == 6_000_000
+    assert [e["type"] for e in evidence["errors"]] == ["ConnectionError", "TimeoutError"]
+    assert "private-" not in json.dumps(evidence)
 
 
 def accepted(state, row, video_id, name):

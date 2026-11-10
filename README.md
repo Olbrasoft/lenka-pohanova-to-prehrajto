@@ -167,6 +167,10 @@ Neznámé existující video se odloží k prověření, nikoli označí za hoto
 Soubory se odesílají na `https://upload.premiumcdn.net/upload/`, kterou používá
 současný webový uploader. Přenosový adaptér nahrazuje zastaralou adresu v
 připnuté knihovně a zachovává úplné účtenky i čekání na ukončení požadavku.
+Zápis dat má limit nečinnosti 300 sekund, protože HTTP klient používá při
+odesílání těla požadavku první hodnotu timeoutu; druhá se týká až čekání na
+odpověď. Neúspěšný přenos uchovává počty bajtů a typy chyb, nikoli soukromé
+podepsané údaje nebo zprávy výjimek.
 
 Při kontrole přijatého videa se rozpozná i název, ze kterého web odstranil celý
 nelatinkový text. Přejmenování takového videa vyžaduje vlastní cílové ID, vazbu

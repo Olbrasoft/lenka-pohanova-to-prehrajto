@@ -74,6 +74,7 @@ class VariantState(EpisodeState):
                     }:
                         raise RuntimeError("Target ID already belongs to another language variant")
             row = self.row(episode)
+            row.pop("transfer_failure", None)
             receipt = dict(row.get("transfer_receipt") or {})
             source = dict(row.get("source") or {})
             # Persist completion provenance before the base class removes transient fields.
