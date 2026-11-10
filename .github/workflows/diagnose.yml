@@ -1,0 +1,48 @@
+name: diagnose-upload-connectivity
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install .
+      - name: Probe upload gateway without allocating or transferring a video
+        run: |
+          python - <<'PY'
+          import json
+          import socket
+          import time
+          from urllib.parse import urlsplit
+          import requests
+          from sdilej_serialy.resilience import error_evidence
+          from sdilej_to_prehrajto import prehrajto
+
+          host = urlsplit(prehrajto.UPLOAD_URL).hostname
+          addresses = socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)
+          print(json.dumps({"dns_families": sorted({int(a[0]) for a in addresses})}), flush=True)
+          for method in ("GET", "POST"):
+              started = time.monotonic()
+              try:
+                  response = requests.request(method, prehrajto.UPLOAD_URL, data=b"", timeout=(10, 10))
+                  print(json.dumps({"method": method, "status": response.status_code,
+                                    "elapsed": round(time.monotonic() - started, 2)}), flush=True)
+                  response.close()
+              except Exception as error:
+                  chain, seen = [], set()
+                  while error is not None and id(error) not in seen:
+                      seen.add(id(error))
+                      chain.append(error_evidence(error))
+                      error = error.__cause__ or error.__context__
+                  print(json.dumps({"method": method, "errors": chain,
+                                    "elapsed": round(time.monotonic() - started, 2)}), flush=True)
+          PY
