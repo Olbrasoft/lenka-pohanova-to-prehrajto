@@ -9,6 +9,8 @@ import threading
 import time
 import uuid
 import unicodedata
+import json
+from datetime import UTC, datetime
 from collections.abc import Callable
 
 import requests
@@ -22,10 +24,11 @@ from sdilej_serialy.pipeline import EpisodeState, target_session
 from .target import existing_episode, rename_video, owned_name, clean_name
 from .policy import upload_eligible
 from .naming import target_text
+from .scheduling import execution_environment
 from sdilej_serialy.git_state import CheckpointError
 from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
 from sdilej_serialy.resilience import (
-    TargetPending, error_evidence, receipt_matches, receipt_requester as base_receipt_requester, transient_http,
+    TargetPending, error_evidence, receipt_matches, transient_http,
 )
 
 # The current authenticated web uploader uses this gateway. Route each request
@@ -34,24 +37,83 @@ UPLOAD_URL = "https://upload.premiumcdn.net/upload/"
 
 
 def upload_post(_sdk_url, **kwargs):
-    return requests.post(UPLOAD_URL, **kwargs)
+    kwargs["timeout"] = (300, 300)
+    response = requests.post(UPLOAD_URL, **kwargs)
+    validate_upload_response(response)
+    return response
+
+
+def validate_upload_response(response):
+    """An HTTP 200 error document is not an accepted file upload."""
+    headers = getattr(response, "headers", {})
+    rejected = "text/html" in headers.get("Content-Type", "").lower()
+    parse = getattr(response, "json", None)
+    if callable(parse):
+        try:
+            payload = parse()
+        except (ValueError, TypeError):
+            payload = None
+        if isinstance(payload, dict):
+            entries = [payload]
+            files = payload.get("files", [])
+            if isinstance(files, list):
+                entries.extend(item for item in files if isinstance(item, dict))
+            rejected = rejected or any(
+                item.get("error") or item.get("errors") or item.get("success") is False
+                or item.get("status") in ("error", "failed", "fail") for item in entries
+            )
+    if rejected:
+        raise requests.HTTPError("Upload gateway rejected the file", response=response)
+
+
+def report_transfer_progress(reader, finished, video_id, started):
+    while not finished.wait(60):
+        now = time.monotonic()
+        elapsed = max(now - started, 0.001)
+        rate = reader.position / elapsed
+        print(json.dumps(dict(
+            relay_progress_bytes=reader.position, total_bytes=reader.total, target_video_id=video_id,
+            elapsed_seconds=round(elapsed, 1), mib_per_second=round(rate / 1024 / 1024, 3),
+            idle_seconds=round(max(0, now - getattr(reader, "last_progress_at", started)), 1),
+            estimated_seconds_left=round((reader.total - reader.position) / rate) if rate else None,
+            phase="awaiting_gateway_receipt" if reader.position == reader.total else "streaming",
+        )), flush=True)
 
 
 def receipt_requester(state, episode):
-    request_with_receipt = base_receipt_requester(state, episode)
     finished = threading.Event()
     finished.set()
 
     def request(_sdk_url, **kwargs):
         finished.clear()
         reader = None
+        monitor = None
+        started = time.monotonic()
         try:
             reader = kwargs["data"].fields[0][1][1]
-            # urllib3 also uses the connection timeout while writing the body;
-            # the read timeout starts only after the full multipart request is sent.
-            kwargs["timeout"] = (300, 7200)
-            response = request_with_receipt(UPLOAD_URL, **kwargs)
-            if response.status_code not in (200, 201) or reader.position != reader.total:
+            video_id = state.row(episode).get("prepared_target", {}).get("target_video_id")
+            monitor = threading.Thread(
+                target=report_transfer_progress, args=(reader, finished, video_id, started), daemon=True,
+            )
+            monitor.start()
+            response = upload_post(_sdk_url, **kwargs)
+            elapsed = max(time.monotonic() - started, 0.001)
+            if response.status_code in (200, 201) and reader.position == reader.total:
+                with state._lock:
+                    record = state.row(episode)
+                    prepared = record.get("prepared_target") or {}
+                    if prepared.get("target_video_id") and prepared.get("size_bytes") == reader.total:
+                        record["transfer_receipt"] = dict(
+                            target_video_id=prepared["target_video_id"], size_bytes=reader.total,
+                            source_bytes_read=reader.position, http_status=response.status_code,
+                        )
+                        record["transfer_statistics"] = dict(
+                            target_video_id=prepared["target_video_id"], source_bytes_read=reader.position,
+                            elapsed_seconds=round(elapsed, 3), finished_at=datetime.now(UTC).isoformat(),
+                            environment=execution_environment(),
+                        )
+                        state.save()
+            else:
                 save_failure(reader, http_status=response.status_code)
             return response
         except Exception as error:
@@ -65,6 +127,8 @@ def receipt_requester(state, episode):
             raise
         finally:
             finished.set()
+            if monitor is not None:
+                monitor.join(timeout=1)
 
     def save_failure(reader, **details):
         with state._lock:

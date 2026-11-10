@@ -25,6 +25,7 @@ from .state import VariantState, validate_target_ownership
 from .storage import Publisher, atomic_json, read_json, rows, write_rows
 from .subtitles import followup
 from .transfer import upload_continuously
+from .scheduling import select_transfers, upload_rate
 
 
 def credentials(environ=os.environ):
@@ -55,6 +56,8 @@ def validate_sources(queue):
 
 
 def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None):
+    if limit == 0:
+        return []
     ready = []
     names = series_names(titles["series"])
     for variant in states if variants is None else variants:
@@ -182,6 +185,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
         state.release_orphaned_claims()
     stop, paused = threading.Event(), threading.Event()
     deadline = time.monotonic() + runtime_minutes * 60
+    transfer_deadline = min(deadline + 120 * 60, time.monotonic() + 330 * 60)
     subtitle_deadline = min(deadline + 90 * 60, time.monotonic() + 330 * 60)
     pending, reserved, submitted, completed = {}, set(), 0, 0
     draining = False
@@ -267,15 +271,23 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                     capacity = 0
                 if not continuous:
                     capacity = min(capacity, limit - submitted)
-                with lock:
-                    selected = planned(
-                        queue,
-                        titles,
-                        states,
-                        max(0, capacity),
-                        reserved,
-                        variants=selected_variants,
-                    )
+                selected = []
+                if capacity > 0:
+                    with lock:
+                        ready = planned(queue, titles, states, None, reserved, variants=selected_variants)
+                        rate = upload_rate(states, runtime)
+                        selected = select_transfers(
+                            ready, states, pending.values(), capacity=capacity, rate=rate,
+                            seconds_left=max(0, transfer_deadline - time.monotonic()), runtime=runtime,
+                        )
+                    if ready and not selected and not pending:
+                        print("admission_deferred=transfer_budget_no_original_can_finish", flush=True)
+                        draining = True
+                    if selected:
+                        print(
+                            f"transfer_admission count={len(selected)} estimated_bytes_per_second={rate:.0f} "
+                            f"remaining_seconds={max(0, transfer_deadline - time.monotonic()):.0f}", flush=True,
+                        )
                 for row in selected:
                     reserved.add((row["variant"], row["identity"]))
                     pending[transfers.submit(execute, row)] = row

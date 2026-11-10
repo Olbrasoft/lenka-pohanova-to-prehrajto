@@ -103,6 +103,22 @@ Všechny tři varianty sdílejí tento limit. Po dokončení úlohy volný worke
 převezme další epizodu. Titulkový worker používá vlastní relace a běží na pozadí
 po deseti minutách, také během doběhu velkých přenosů.
 
+Plánovač navíc porovnává velikost již vybraného originálu s naměřenou rychlostí
+a zbývajícím časem runneru. Přenosy, které se do času nevejdou, odloží;
+nevybírá kvůli tomu nižší rozlišení ani nemění zdroj. Výchozí nejvýše jeden
+dlouhý přenos ponechává ostatní místa kratším epizodám. Pořadí katalogu
+zůstává zachované v rámci těchto skupin. Rychlost se učí pouze z úplných,
+potvrzených přenosů ve stejném prostředí. Do té doby používá hodnotu
+`upload_rate_bytes_per_second` v `config/runtime.json`; hranici krátkého
+přenosu nastavuje `short_transfer_minutes` a počet dlouhých `max_long_transfers`.
+Při trvale pomalém příjmu cílového serveru zůstávají příliš velké originály
+odložené. Uložené účtenky lze ověřovat bez tohoto časového omezení.
+
+Každou minutu se zapisuje počet přečtených bajtů, průměrná rychlost a odhad
+zbývajícího času. Přečtení celého zdroje ještě nepotvrzuje přijetí na serveru:
+v této fázi log uvádí `awaiting_gateway_receipt`. Chybové JSON nebo HTML
+odpovědi brány se nepovažují za úspěch ani při HTTP 200.
+
 Před alokací se uloží záměr a po alokaci cílové ID. Přijetí všech bajtů musí
 potvrdit uložená HTTP 200/201 účtenka a následná kontrola cílového videa.
 Nejistý přenos se znovu nenahrává. Ostatní epizody mohou pokračovat;

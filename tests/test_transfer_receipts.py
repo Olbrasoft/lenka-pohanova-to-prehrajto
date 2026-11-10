@@ -91,7 +91,7 @@ def test_current_gateway_keeps_receipt_and_request_completion_guards(tmp_path, c
 
     def post(url, **kwargs):
         assert not request.finished.is_set()
-        assert kwargs["timeout"] == (300, 7200)
+        assert kwargs["timeout"] == (300, 300)
         destinations.append(url)
         return SimpleNamespace(status_code=201)
 
@@ -133,6 +133,28 @@ def test_failed_request_keeps_partial_byte_evidence_without_secret_messages(tmp_
     assert evidence["source_bytes_read"] == 6_000_000
     assert [e["type"] for e in evidence["errors"]] == ["ConnectionError", "TimeoutError"]
     assert "private-" not in json.dumps(evidence)
+
+
+@pytest.mark.parametrize("payload", [
+    {"files": [{"error": "private-signed-token"}]},
+    {"success": False, "message": "private-password"},
+])
+def test_http_200_error_payload_cannot_create_a_complete_transfer_receipt(tmp_path, czech_row, monkeypatch, payload):
+    state = VariantState(tmp_path / "uploads.json", "cz")
+    episode = Episode.from_dict(czech_row["episode"])
+    state.row(episode)["prepared_target"] = dict(target_video_id="777", size_bytes=500_000_000)
+    reader = SimpleNamespace(position=500_000_000, total=500_000_000)
+    encoder = SimpleNamespace(fields=[("files", ("episode.mkv", reader, "video/mp4"))])
+    response = SimpleNamespace(status_code=200, headers={"Content-Type": "application/json"}, json=lambda: payload)
+    monkeypatch.setattr(transfer.requests, "post", lambda *_, **__: response)
+    request = transfer.receipt_requester(state, episode)
+    with pytest.raises(transfer.requests.HTTPError):
+        request(transfer.prehrajto.UPLOAD_URL, data=encoder)
+    assert request.finished.is_set()
+    record = state.row(episode)
+    assert not record.get("transfer_receipt") and not record.get("transfer_statistics")
+    assert record["prepared_target"]["target_video_id"] == "777"
+    assert "private-" not in json.dumps(record)
 
 
 def accepted(state, row, video_id, name):
