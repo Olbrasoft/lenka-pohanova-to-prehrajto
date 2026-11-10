@@ -22631,18 +22631,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E19 松田 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E19 matsuda 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:02:15.609161+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626667",
-        "size_bytes": 458227893
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626667",
-        "size_bytes": 458227893,
-        "source_bytes_read": 458227893,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -22658,11 +22648,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "4b8f2872821c4dd49bc291ae27d61cf5-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T14:02:11.377215+00:00",
-        "lease_expires_at": "2026-11-10T20:02:11.377228+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626667",
+          "size_bytes": 458227893,
+          "source_bytes_read": 458227893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23547755",
+        "source_url": "https://sdilej.cz/23547755/death-note-s01e19-720p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626667",
+        "display_name": "DEATH NOTE S01E19 matsuda 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:02:17.870922+00:00"
       }
     },
     "925:1:20": {
@@ -337549,5 +337550,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:02:15.171268+00:00"
+  "updated_at": "2026-11-10T14:02:17.870943+00:00"
 }
