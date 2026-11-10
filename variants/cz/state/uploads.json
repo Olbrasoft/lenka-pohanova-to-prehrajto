@@ -262672,24 +262672,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:15:42.693203+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:57:28.957888+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T13:01:02.121911+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-10T14:34:47.941751+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "1bee4b42e7ce4ce48feba190372f7694-worker-0",
-        "run_id": "42833313602",
-        "claimed_at": "2026-11-10T14:34:28.760619+00:00",
-        "lease_expires_at": "2026-11-10T20:34:28.760634+00:00"
-      }
+      ]
     },
     "1087:5:9": {
       "episode_key": "buffy, přemožitelka upírů:s5:e9",
@@ -337675,7 +337669,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:34:43.082777+00:00",
+  "updated_at": "2026-11-10T14:34:47.941758+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -337813,6 +337807,14 @@
         }
       ],
       "retry_after": "2026-11-10T14:44:43.082708+00:00"
+    },
+    "1087": {
+      "recent_failures": [
+        {
+          "identity": "1087:5:8",
+          "at": "2026-11-10T14:34:47.941722+00:00"
+        }
+      ]
     }
   }
 }
