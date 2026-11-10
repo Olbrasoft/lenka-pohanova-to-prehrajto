@@ -24,7 +24,27 @@ from .policy import upload_eligible
 from .naming import target_text
 from sdilej_serialy.git_state import CheckpointError
 from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
-from sdilej_serialy.resilience import TargetPending, error_evidence, receipt_matches, receipt_requester, transient_http
+from sdilej_serialy.resilience import (
+    TargetPending, error_evidence, receipt_matches, receipt_requester as base_receipt_requester, transient_http,
+)
+
+# The current authenticated web uploader uses this gateway. The pinned SDK
+# still points at api.premiumcdn.net, which stalls while receiving file bodies.
+UPLOAD_URL = "https://upload.premiumcdn.net/upload/"
+
+
+def upload_post(_sdk_url, **kwargs):
+    return requests.post(UPLOAD_URL, **kwargs)
+
+
+def receipt_requester(state, episode):
+    request_with_receipt = base_receipt_requester(state, episode)
+
+    def request(_sdk_url, **kwargs):
+        return request_with_receipt(UPLOAD_URL, **kwargs)
+
+    request.finished = request_with_receipt.finished
+    return request
 
 
 def prepare_source(provider, candidate, require_original_size):
@@ -323,7 +343,7 @@ def upload_continuously(
                     options = (
                         {"upload_requester": upload_request, "confirmation_timeout_seconds": 0}
                         if upload_request
-                        else {}
+                        else {"upload_requester": upload_post}
                     )
                     # Checkpoints and the SDK's statistics can outlive a media
                     # URL. Resolve again at its actual GET and retain that stream.

@@ -164,6 +164,10 @@ Dokončení vyžaduje vlastní cílové ID, úplnou přenosovou účtenku a ově
 celého názvu na účtu. Jedno cílové ID nesmí být sdílené historiemi různých variant.
 Neznámé existující video se odloží k prověření, nikoli označí za hotový upload.
 
+Soubory se odesílají na `https://upload.premiumcdn.net/upload/`, kterou používá
+současný webový uploader. Přenosový adaptér nahrazuje zastaralou adresu v
+připnuté knihovně a zachovává úplné účtenky i čekání na ukončení požadavku.
+
 Při kontrole přijatého videa se rozpozná i název, ze kterého web odstranil celý
 nelatinkový text. Přejmenování takového videa vyžaduje vlastní cílové ID, vazbu
 na zdroj a úplnou HTTP 200/201 účtenku se shodnou velikostí všech přijatých bajtů.

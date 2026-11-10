@@ -26,15 +26,16 @@ jobs:
           import requests
           from sdilej_serialy.resilience import error_evidence
           from sdilej_to_prehrajto import prehrajto
+          from lenka_sync.transfer import UPLOAD_URL
 
           host = urlsplit(prehrajto.UPLOAD_URL).hostname
           addresses = socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)
           print(json.dumps({"dns_families": sorted({int(a[0]) for a in addresses})}), flush=True)
-          for method in ("GET", "POST"):
+          for gateway, method in ((g, m) for g in (prehrajto.UPLOAD_URL, UPLOAD_URL) for m in ("GET", "POST")):
               started = time.monotonic()
               try:
-                  response = requests.request(method, prehrajto.UPLOAD_URL, data=b"", timeout=(10, 10))
-                  print(json.dumps({"method": method, "status": response.status_code,
+                  response = requests.request(method, gateway, data=b"", timeout=(10, 10))
+                  print(json.dumps({"gateway": urlsplit(gateway).hostname, "method": method, "status": response.status_code,
                                     "elapsed": round(time.monotonic() - started, 2)}), flush=True)
                   response.close()
               except Exception as error:
@@ -43,6 +44,6 @@ jobs:
                       seen.add(id(error))
                       chain.append(error_evidence(error))
                       error = error.__cause__ or error.__context__
-                  print(json.dumps({"method": method, "errors": chain,
+                  print(json.dumps({"gateway": urlsplit(gateway).hostname, "method": method, "errors": chain,
                                     "elapsed": round(time.monotonic() - started, 2)}), flush=True)
           PY

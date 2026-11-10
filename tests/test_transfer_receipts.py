@@ -78,6 +78,33 @@ def test_confirmed_upload_requires_exact_bytes_and_http_receipt(tmp_path, czech_
     assert "prepared_target" not in record
 
 
+def test_current_gateway_keeps_receipt_and_request_completion_guards(tmp_path, czech_row, monkeypatch):
+    state = VariantState(tmp_path / "uploads.json", "cz")
+    episode = Episode.from_dict(czech_row["episode"])
+    state.row(episode)["prepared_target"] = dict(target_video_id="777", size_bytes=500_000_000)
+    request = transfer.receipt_requester(state, episode)
+    reader = SimpleNamespace(position=1, total=500_000_000)
+    encoder = SimpleNamespace(fields=[("files", ("episode.mkv", reader, "video/mp4"))])
+    destinations = []
+    sdk_destination = transfer.prehrajto.UPLOAD_URL
+
+    def post(url, **kwargs):
+        assert not request.finished.is_set()
+        destinations.append(url)
+        return SimpleNamespace(status_code=201)
+
+    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", post)
+    request(sdk_destination, data=encoder)
+    assert request.finished.is_set()
+    assert not state.row(episode).get("transfer_receipt")
+    reader.position = reader.total
+    request(sdk_destination, data=encoder)
+    assert request.finished.is_set()
+    assert destinations == ["https://upload.premiumcdn.net/upload/"] * 2
+    assert transfer.prehrajto.UPLOAD_URL == sdk_destination
+    assert state.row(episode)["transfer_receipt"]["source_bytes_read"] == 500_000_000
+
+
 def accepted(state, row, video_id, name):
     episode = Episode.from_dict(row["episode"])
     candidate = Candidate.from_dict(row["selected"])
