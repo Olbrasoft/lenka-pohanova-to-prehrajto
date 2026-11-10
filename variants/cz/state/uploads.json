@@ -338195,12 +338195,6 @@
     },
     "9693:3:10": {
       "episode_key": "myšák mickey:s3:e10",
-      "claim": {
-        "worker_id": "afea2711fc2f4756ad60128ce07fc2f3-worker-0",
-        "run_id": null,
-        "claimed_at": "2026-11-10T18:39:46.092291+00:00",
-        "lease_expires_at": "2026-11-11T00:39:46.092307+00:00"
-      },
       "source": {
         "source_id": "26905216",
         "source_url": "https://sdilej.cz/26905216/mysak-mickey-3x10-ne.avi",
@@ -338225,22 +338219,29 @@
         "display_name": "Mickey Mouse S03E10 No SD CZ Dabing",
         "prepared_at": "2026-11-10T18:39:50.980864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30985048",
-        "size_bytes": 49553384
-      },
-      "transfer_receipt": {
-        "target_video_id": "30985048",
-        "size_bytes": 49553384,
-        "source_bytes_read": 49553384,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30985048",
         "source_bytes_read": 49553384,
         "elapsed_seconds": 895.016,
         "finished_at": "2026-11-10T18:54:59.547706+00:00",
         "environment": "local"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30985048",
+          "size_bytes": 49553384,
+          "source_bytes_read": 49553384,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26905216",
+        "source_url": "https://sdilej.cz/26905216/mysak-mickey-3x10-ne.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30985048",
+        "display_name": "Mickey Mouse S03E10 No SD CZ Dabing",
+        "uploaded_at": "2026-11-10T18:55:05.934680+00:00"
       }
     }
   },
@@ -338249,7 +338250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T18:54:59.547724+00:00",
+  "updated_at": "2026-11-10T18:55:05.934692+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
