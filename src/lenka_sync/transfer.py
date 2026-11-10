@@ -8,6 +8,7 @@ import math
 import threading
 import time
 import uuid
+import unicodedata
 from collections.abc import Callable
 
 import requests
@@ -18,8 +19,9 @@ from sdilej_to_prehrajto.sdilej import SdilejError
 from sdilej_serialy.episodes import EpisodeSourceProvider
 from sdilej_serialy.models import Episode
 from sdilej_serialy.pipeline import EpisodeState, target_session
-from .target import existing_episode, rename_video
+from .target import existing_episode, rename_video, owned_name, clean_name
 from .policy import upload_eligible
+from .naming import target_text
 from sdilej_serialy.git_state import CheckpointError
 from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
 from sdilej_serialy.resilience import TargetPending, error_evidence, receipt_matches, receipt_requester, transient_http
@@ -58,6 +60,33 @@ def target_confirmed(session, video_id: str, display_name: str) -> bool:
     return prehrajto.uploaded_video_count(session) is not None and existing_episode(
         session, display_name, video_id
     ) == str(video_id)
+
+
+def confirm_received_target(session, record: dict, display_name: str) -> bool:
+    """Repair a sanitized name only for the exact, fully accepted saved transfer."""
+    source = record.get("source", {})
+    if (
+        not receipt_matches(record)
+        or not source.get("source_id")
+        or not source.get("source_url")
+        or source.get("size_bytes") != record["transfer_receipt"]["size_bytes"]
+    ):
+        return False
+    video_id = record["prepared_target"]["target_video_id"]
+    visible = owned_name(session, video_id)
+    if visible is None:
+        return False
+    wanted = target_text(display_name)
+    original = record.get("source", {}).get("display_name", display_name)
+    stripped = "".join(
+        char for char in unicodedata.normalize("NFC", original)
+        if not char.isalpha() or unicodedata.name(char, "").startswith("LATIN ")
+    )
+    if clean_name(visible) not in {clean_name(original), clean_name(stripped), clean_name(wanted)}:
+        raise TargetPending("Owned target name changed outside its source binding")
+    if clean_name(visible) != clean_name(wanted):
+        rename_video(session, video_id, wanted)
+    return target_confirmed(session, video_id, wanted)
 
 
 def upload_continuously(
@@ -235,8 +264,9 @@ def upload_continuously(
                         record = state.row(episode)
                         if receipt_matches(record):
                             target_id = record["prepared_target"]["target_video_id"]
-                            name = record.get("source", {}).get("display_name", row["display_name"])
-                            if target_confirmed(target, target_id, name):
+                            name = row["display_name"]
+                            if confirm_received_target(target, record, name):
+                                record["source"]["display_name"] = name
                                 state.success(episode, target_id, name)
                                 completed += 1
                                 continue
@@ -384,7 +414,10 @@ def upload_continuously(
                                 and receipt_matches(record)
                             ):
                                 saved_id = record["prepared_target"]["target_video_id"]
-                                if target_confirmed(target, saved_id, row["display_name"]):
+                                name = row["display_name"]
+                                if confirm_received_target(target, record, name):
+                                    record["source"]["display_name"] = name
+                                    row["display_name"] = name
                                     reconciled = saved_id
                         else:
                             reconciled = existing_episode(

@@ -14,6 +14,12 @@ Název seriálu i epizody se používá v původním jazyce díla. Názvy se
 nepřekládají ani neodhadují z názvů souborů. Následuje `S01E01`, dostupný
 oficiální původní název epizody, skutečné rozlišení originálu a jazykový dodatek.
 U anglických seriálů jsou tedy názvy anglické, u ostatních v jejich původním jazyce.
+Písma, která Přehraj.to v názvu odstraní nebo odmítne, se přepisují do latinky.
+Jde o přepis původního jazyka, nikoli překlad názvu; latinková diakritika zůstává.
+Japonské názvy používají japonské čtení a Hepburnův přepis. Původní zápis seriálu
+i epizody zůstává uložený v metadatech. Přepis zajišťují
+[AnyAscii](https://github.com/anyascii/anyascii) a
+[PyKakasi](https://pykakasi.readthedocs.io/en/latest/api.html).
 Pokud původní název epizody po ověření není dostupný, vynechá se.
 Nedokončená kontrola nebo technická chyba odloží upload do vyřešení metadat.
 Stejně pojmenované seriály se rozlišují rokem, případně katalogovým ID.
@@ -157,6 +163,13 @@ Samotný název nebo shodné `SxxExx` nepotvrzuje přenos vybraného zdroje.
 Dokončení vyžaduje vlastní cílové ID, úplnou přenosovou účtenku a ověření
 celého názvu na účtu. Jedno cílové ID nesmí být sdílené historiemi různých variant.
 Neznámé existující video se odloží k prověření, nikoli označí za hotový upload.
+
+Při kontrole přijatého videa se rozpozná i název, ze kterého web odstranil celý
+nelatinkový text. Přejmenování takového videa vyžaduje vlastní cílové ID, vazbu
+na zdroj a úplnou HTTP 200/201 účtenku se shodnou velikostí všech přijatých bajtů.
+Odmítnutí názvu nebo nečitelná stránka odloží dotčenou epizodu a zachová její ID;
+ostatní přenosy pokračují. Kontroluje se i chybový HTML snippet v AJAX odpovědi,
+protože samotný HTTP 200 nepotvrzuje přijetí názvu.
 
 `--variant en` umožňuje ověřit anglickou dávku s českými titulky, `--variant en_plain`
 anglickou dávku bez českých titulků. `--variant all` zahrnuje všechny tři varianty,

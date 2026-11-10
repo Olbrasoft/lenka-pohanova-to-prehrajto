@@ -1,4 +1,5 @@
 import pytest
+import copy
 from lenka_sync.naming import combined_title, display_name, series_names
 from lenka_sync.policy import upload_eligible, target_credentials
 
@@ -52,6 +53,36 @@ def test_series_name_collisions():
     assert series_names(data) == {"1": "The Office (2001)", "2": "The Office (2005)"}
     data["2"]["year"] = "2001"
     assert "[ID 1]" in series_names(data)["1"]
+
+
+def test_original_cyrillic_series_and_episode_are_romanized_without_changing_metadata(czech_row, titles):
+    titles["series"]["42"].update(
+        original_title="Семнадцать мгновений весны", original_language="ru", english_title="Seventeen Moments of Spring"
+    )
+    titles["episodes"][czech_row["identity"]] = {"original_title": "1 серия", "original_language": "ru"}
+    before = copy.deepcopy(titles)
+    assert display_name(czech_row, titles) == "Semnadtsat' mgnoveniy vesny S01E01 1 seriya 1080p CZ Dabing"
+    assert titles == before
+
+
+def test_latin_accents_and_romanized_collisions_are_preserved():
+    from lenka_sync.naming import target_text
+
+    assert target_text("Příliš žluťoučký kůň") == "Příliš žluťoučký kůň"
+    data = {"1": dict(original_title="Москва", year="2000"), "2": dict(original_title="Moskva", year="2001")}
+    assert series_names(data) == {"1": "Moskva (2000)", "2": "Moskva (2001)"}
+
+
+def test_unmappable_title_does_not_hide_other_ready_series(monkeypatch):
+    monkeypatch.setattr("lenka_sync.naming.anyascii", lambda _: "")
+    assert series_names({"1": dict(original_title="Ж"), "2": dict(original_title="Ready")}) == {"2": "Ready"}
+
+
+@pytest.mark.parametrize("original,romanized", [("新生", "shinsei"), ("対決", "taiketsu"), ("取引", "torihiki")])
+def test_japanese_episode_names_use_japanese_readings(czech_row, titles, original, romanized):
+    titles["series"]["42"].update(original_title="DEATH NOTE", original_language="ja")
+    titles["episodes"][czech_row["identity"]] = {"original_title": original, "original_language": "ja"}
+    assert display_name(czech_row, titles) == f"DEATH NOTE S01E01 {romanized} 1080p CZ Dabing"
 
 
 @pytest.mark.parametrize(

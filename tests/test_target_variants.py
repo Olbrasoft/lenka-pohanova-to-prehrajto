@@ -6,6 +6,7 @@ from sdilej_serialy.models import Episode
 from lenka_sync import transfer
 from lenka_sync.target import existing_episode, clean_name
 from lenka_sync.state import VariantState
+from sdilej_serialy.resilience import TargetPending
 
 
 def response(body):
@@ -48,6 +49,36 @@ def test_owned_heading_does_not_duplicate_mobile_and_desktop_text():
     from lenka_sync.target import owned_name
 
     assert owned_name(session, "11") == "Show S01E01 Pilot CZ Dabing.mkv"
+
+
+def test_owned_heading_survives_platform_removal_of_non_latin_title():
+    from lenka_sync.target import owned_name
+
+    session = SimpleNamespace(get=lambda *_, **__: response(
+        '<h1>Změna složky videa</h1><h2>S01E01 1 1080p CZ Dabing.mkv</h2><h2>Soubory</h2>'
+    ))
+    assert owned_name(session, "11") == "S01E01 1 1080p CZ Dabing.mkv"
+
+
+def test_ambiguous_owned_heading_defers_instead_of_stopping_all_transfers():
+    from lenka_sync.target import owned_name
+
+    session = SimpleNamespace(get=lambda *_, **__: response(
+        '<h1>Změna složky videa</h1><h2>First S01E01</h2><h2>Second S01E01</h2>'
+    ))
+    with pytest.raises(TargetPending):
+        owned_name(session, "11")
+
+
+def test_rename_detects_validation_error_in_naja_snippet():
+    from lenka_sync.target import rename_video, TargetNameRejected
+
+    session = SimpleNamespace(get=lambda *_, **__: SimpleNamespace(
+        headers={"Content-Type": "application/json"}, raise_for_status=lambda: None,
+        json=lambda: {"snippets": {"snippet-uploadedVideoListing-videoNameError-11": "<p>Invalid name</p>"}},
+    ))
+    with pytest.raises(TargetNameRejected):
+        rename_video(session, "11", "Rejected name")
 
 
 def test_rename_uses_the_live_naja_get_contract():

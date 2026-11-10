@@ -9,8 +9,14 @@ from sdilej_serialy.target import episode_key, listing_rows
 from sdilej_to_prehrajto import prehrajto
 import requests
 from requests.adapters import HTTPAdapter
+from sdilej_serialy.resilience import TargetPending
 
 MEDIA_EXTENSION = re.compile(r"\.(?:mkv|mp4|avi|m4v|webm|mov|ts|m2ts|mpeg|mpg|wmv)$", re.I)
+EPISODE_CODE = re.compile(r"\bS\d+E\d+(?=\D|$)", re.I)
+
+
+class TargetNameRejected(TargetPending):
+    """The owned target exists, but its requested name needs review."""
 
 
 def clean_name(value):
@@ -41,15 +47,18 @@ def owned_name(session, video_id):
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     if not any("Změna složky videa" in heading.get_text(" ", strip=True) for heading in soup.select("h1")):
-        raise RuntimeError("Owned target page is unavailable")
+        raise TargetPending("Owned target page is unavailable")
     headings = []
     for heading in soup.select("h2"):
         visible = heading.select_one(".show-for-large") or heading.select_one(".hide-for-large") or heading
         text = visible.get_text(" ", strip=True)
-        if episode_key(text):
+        # Upload filename sanitization may remove the entire non-Latin series
+        # title. Return the observed heading so receipt-bound recovery can name it.
+        if EPISODE_CODE.search(text):
             headings.append(text)
+    headings = list(dict.fromkeys(headings))
     if len(headings) != 1:
-        raise RuntimeError("Owned target heading is ambiguous")
+        raise TargetPending("Owned target heading is ambiguous")
     return headings[0]
 
 
@@ -72,8 +81,10 @@ def rename_video(session, video_id, name):
         )
         response.raise_for_status()
         if "application/json" in getattr(response, "headers", {}).get("Content-Type", ""):
-            if response.json().get("nameError"):
-                raise ValueError("Target rejected the requested title")
+            payload = response.json()
+            snippet = payload.get("snippets", {}).get(f"snippet-uploadedVideoListing-videoNameError-{video_id}", "")
+            if payload.get("nameError") or BeautifulSoup(snippet, "html.parser").get_text(strip=True):
+                raise TargetNameRejected("Target rejected the requested title")
     finally:
         if adapter is not None:
             session.mount(prehrajto.BASE_URL + "/", adapter)
@@ -92,7 +103,7 @@ def existing_episode(session, name, known_id=None, *, variant=None, excluded_ids
     )
     response.raise_for_status()
     if "uploadedVideoListing" not in response.text:
-        raise RuntimeError("Target listing unavailable; refusing new upload")
+        raise TargetPending("Target listing unavailable; refusing new upload")
     variant = variant or name_variant(name)
     # Evaluate after the request: another worker may allocate its target during the read.
     excluded_ids = set(excluded_ids() if callable(excluded_ids) else excluded_ids)
@@ -103,5 +114,5 @@ def existing_episode(session, name, known_id=None, *, variant=None, excluded_ids
         if row["key"] == episode_key(name) and name_variant(row["name"]) in allowed and row["id"] not in excluded_ids
     ]
     if len(matches) > 1:
-        raise RuntimeError("Multiple targets exist for the same episode variant")
+        raise TargetPending("Multiple targets exist for the same episode variant")
     return matches[0]["id"] if matches else None

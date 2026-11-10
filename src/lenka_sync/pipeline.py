@@ -19,7 +19,7 @@ from sdilej_serialy.source_transfer import SourceUnavailable
 from .discovery import EnglishDiscovery
 from .language import WhisperLanguageDetector
 from .metadata import Metadata
-from .naming import display_name, series_names
+from .naming import display_name, series_names, target_text
 from .policy import POLICY, VARIANTS, ENGLISH_VARIANTS, ENGLISH_SELECTION_POLICY, target_credentials, upload_eligible
 from .state import VariantState, validate_target_ownership
 from .storage import Publisher, atomic_json, read_json, rows, write_rows
@@ -76,13 +76,16 @@ def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None
             ):
                 continue
             try:
+                # Keep the allocated source's title and resolution, romanizing only its script.
                 saved_name = record.get("source", {}).get("display_name") if record.get("prepared_target") else None
-                row = {**source, "display_name": saved_name or display_name(source, titles, names=names)}
+                language = titles["series"].get(str(source["episode"]["series_id"]), {}).get("original_language")
+                row = {
+                    **source,
+                    "display_name": target_text(saved_name, language=language)
+                    if saved_name else display_name(source, titles, names=names),
+                }
             except KeyError:
                 continue
-            # Resume an allocated target with the same name, even after metadata grows.
-            if record.get("prepared_target") and record.get("source", {}).get("display_name"):
-                row["display_name"] = record["source"]["display_name"]
             ready.append(row)
     ready.sort(key=lambda row: (row["catalog"].get("priority_rank") or 10**9, row["identity"], VARIANTS.index(row["variant"])))
     return ready[:limit]

@@ -8,6 +8,8 @@ version = "0.1.0"
 description = "Independent Czech and English series variants for the Lenka account"
 requires-python = ">=3.12"
 dependencies = [
+  "anyascii==0.3.3",
+  "pykakasi==2.3.0",
   "sdilej-serialy @ git+https://github.com/Olbrasoft/sdilej-serialy.git@a83ddf96d486711cd6477c34ef04ced791ab344a",
 ]
 

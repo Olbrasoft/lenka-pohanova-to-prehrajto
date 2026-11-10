@@ -47,6 +47,19 @@ def test_uncertain_allocation_cannot_be_replaced(tmp_path, czech_row, titles):
     assert len(planned({"cz": [czech_row], "en": []}, titles, states)) == 1
 
 
+def test_saved_allocated_title_is_romanized_without_changing_its_source(tmp_path, czech_row, titles):
+    states = {variant: VariantState(tmp_path / f"{variant}.json", variant) for variant in ("cz", "en")}
+    record = states["cz"].row(Episode.from_dict(czech_row["episode"]))
+    record["source"] = {"source_id": "123", "display_name": "Москва S01E01 1 серия 1080p CZ Dabing"}
+    record["prepared_target"] = dict(target_video_id="777", size_bytes=500_000_000)
+    record["transfer_receipt"] = dict(
+        target_video_id="777", size_bytes=500_000_000, source_bytes_read=500_000_000, http_status=201
+    )
+    ready = planned({"cz": [czech_row], "en": []}, titles, states)
+    assert ready[0]["display_name"] == "Moskva S01E01 1 seriya 1080p CZ Dabing"
+    assert record["source"]["display_name"] == "Москва S01E01 1 серия 1080p CZ Dabing"
+
+
 def test_unchecked_episode_names_wait_for_metadata(tmp_path, czech_row, titles):
     states = {variant: VariantState(tmp_path / f"{variant}.json", variant) for variant in ("cz", "en")}
     titles["episodes"] = {}
