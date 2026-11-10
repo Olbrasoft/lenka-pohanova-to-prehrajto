@@ -22341,18 +22341,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E14 友達 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E14 tomodachi 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:00:04.812694+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626626",
-        "size_bytes": 471880074
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626626",
-        "size_bytes": 471880074,
-        "source_bytes_read": 471880074,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -22368,11 +22358,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "435f4fa80673445fa8d9a00415e856aa-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T14:01:35.464887+00:00",
-        "lease_expires_at": "2026-11-10T20:01:35.464902+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626626",
+          "size_bytes": 471880074,
+          "source_bytes_read": 471880074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23547749",
+        "source_url": "https://sdilej.cz/23547749/death-note-s01e14-720p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626626",
+        "display_name": "DEATH NOTE S01E14 tomodachi 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:01:42.898169+00:00"
       }
     },
     "925:1:15": {
@@ -337514,5 +337515,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:01:38.562239+00:00"
+  "updated_at": "2026-11-10T14:01:42.898190+00:00"
 }
