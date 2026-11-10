@@ -339647,12 +339647,6 @@
     },
     "1410:1:13": {
       "episode_key": "phineas a ferb:s1:e13",
-      "claim": {
-        "worker_id": "c10f49a047c3442bad7a04f038d2da5f-worker-0",
-        "run_id": "42913821684",
-        "claimed_at": "2026-11-10T23:30:45.160189+00:00",
-        "lease_expires_at": "2026-11-11T05:30:45.160199+00:00"
-      },
       "source": {
         "source_id": "33547938",
         "source_url": "https://sdilej.cz/33547938/phineas.a.ferb.1x13.ty.jsi.mumie.720p.cz.batmaster.mkv",
@@ -339676,7 +339670,13 @@
         },
         "display_name": "Phineas and Ferb S01E13 Are You My Mummy? 720p CZ Dabing",
         "prepared_at": "2026-11-10T23:30:48.598762+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-10T23:30:59.954437+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -339684,7 +339684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T23:30:48.598779+00:00",
+  "updated_at": "2026-11-10T23:30:59.954442+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -339910,12 +339910,8 @@
     "1410": {
       "recent_failures": [
         {
-          "identity": "1410:1:14",
-          "at": "2026-11-10T23:00:53.634928+00:00"
-        },
-        {
-          "identity": "1410:1:16",
-          "at": "2026-11-10T23:01:22.433111+00:00"
+          "identity": "1410:1:13",
+          "at": "2026-11-10T23:30:59.954405+00:00"
         }
       ]
     }
