@@ -339408,12 +339408,6 @@
     },
     "1410:1:41": {
       "episode_key": "phineas a ferb:s1:e41",
-      "claim": {
-        "worker_id": "4d2ffc698cfa4b61ae329166782bb54c-worker-0",
-        "run_id": "42880100262",
-        "claimed_at": "2026-11-10T22:29:51.907267+00:00",
-        "lease_expires_at": "2026-11-11T04:29:51.907286+00:00"
-      },
       "source": {
         "source_id": "33548149",
         "source_url": "https://sdilej.cz/33548149/phineas.a.ferb.1x41.olej.a.candy.720p.cz.batmaster.mkv",
@@ -339438,22 +339432,29 @@
         "display_name": "Phineas and Ferb S01E41 Oil on Candace 720p CZ Dabing",
         "prepared_at": "2026-11-10T22:29:55.798614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30985903",
-        "size_bytes": 85243763
-      },
-      "transfer_receipt": {
-        "target_video_id": "30985903",
-        "size_bytes": 85243763,
-        "source_bytes_read": 85243763,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30985903",
         "source_bytes_read": 85243763,
         "elapsed_seconds": 1080.655,
         "finished_at": "2026-11-10T22:48:08.901663+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30985903",
+          "size_bytes": 85243763,
+          "source_bytes_read": 85243763,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548149",
+        "source_url": "https://sdilej.cz/33548149/phineas.a.ferb.1x41.olej.a.candy.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30985903",
+        "display_name": "Phineas and Ferb S01E41 Oil on Candace 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T22:48:13.627646+00:00"
       }
     }
   },
@@ -339462,7 +339463,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T22:48:08.901681+00:00",
+  "updated_at": "2026-11-10T22:48:13.627660+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
