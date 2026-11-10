@@ -338829,12 +338829,6 @@
     },
     "1410:1:16": {
       "episode_key": "phineas a ferb:s1:e16",
-      "claim": {
-        "worker_id": "2a2f40f9ecee4d658741587b85f51a78-worker-0",
-        "run_id": "42880100262",
-        "claimed_at": "2026-11-10T20:42:58.222209+00:00",
-        "lease_expires_at": "2026-11-11T02:42:58.222220+00:00"
-      },
       "source": {
         "source_id": "33547951",
         "source_url": "https://sdilej.cz/33547951/phineas.a.ferb.1x16.svetu.hracky.720p.cz.batmaster.mkv",
@@ -338858,7 +338852,13 @@
         },
         "display_name": "Phineas and Ferb S01E16 Toy to the World 720p CZ Dabing",
         "prepared_at": "2026-11-10T20:43:01.494923+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-10T20:43:12.532005+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -338866,7 +338866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T20:43:01.494941+00:00",
+  "updated_at": "2026-11-10T20:43:12.532011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -339094,6 +339094,10 @@
         {
           "identity": "1410:1:14",
           "at": "2026-11-10T20:42:49.512517+00:00"
+        },
+        {
+          "identity": "1410:1:16",
+          "at": "2026-11-10T20:43:12.531974+00:00"
         }
       ]
     }
