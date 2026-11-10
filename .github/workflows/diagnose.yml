@@ -16,6 +16,54 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install .
+      - name: Measure the original source without allocating a target video
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          from pathlib import Path
+          from sdilej_serialy.episodes import EpisodeSourceProvider
+          from sdilej_serialy.resilience import error_evidence
+          from sdilej_serialy.source_transfer import FreshSourceSession
+          from sdilej_to_prehrajto.models import Candidate
+          from lenka_sync.transfer import prepare_source
+
+          identity = "7382:1:2"
+          rows = Path("variants/cz/manifests/selected-episodes.jsonl").read_text().splitlines()
+          row = next(json.loads(line) for line in rows if json.loads(line)["identity"] == identity)
+          candidate = Candidate.from_dict(row["selected"])
+          provider = None
+          try:
+              provider = EpisodeSourceProvider.authenticated(os.environ["SDILEJ_EMAIL"], os.environ["SDILEJ_PASSWORD"])
+              refreshed = prepare_source(provider, candidate, True)
+              source = FreshSourceSession(provider, candidate, require_original_size=True)
+              response = source.get(refreshed.download_url, headers={
+                  "Accept-Encoding": "identity", "Range": "bytes=0-", "Referer": candidate.url,
+              }, stream=True, timeout=(15, 30))
+              started, received = time.monotonic(), 0
+              try:
+                  while received < 4 * 1024 * 1024 and time.monotonic() - started < 90:
+                      block = response.raw.read(min(65536, 4 * 1024 * 1024 - received))
+                      if not block:
+                          break
+                      received += len(block)
+                  elapsed = time.monotonic() - started
+                  print(json.dumps({"source_id": candidate.source_id, "sample_bytes": received,
+                                    "elapsed_seconds": round(elapsed, 3),
+                                    "mib_per_second": round(received / max(elapsed, 0.001) / 1024 / 1024, 3)}), flush=True)
+              finally:
+                  response.close()
+          except Exception as error:
+              print(json.dumps({"source_probe_failed": error_evidence(error)}), flush=True)
+              raise SystemExit(1) from None
+          finally:
+              if provider is not None:
+                  provider.session.close()
+          PY
       - name: Probe upload gateway without allocating or transferring a video
         run: |
           python - <<'PY'
