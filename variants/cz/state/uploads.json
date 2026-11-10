@@ -22283,18 +22283,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E13 告白 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E13 kokuhaku 720p CZ Dabing",
         "prepared_at": "2026-10-30T04:58:34.276429+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626606",
-        "size_bytes": 468909698
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626606",
-        "size_bytes": 468909698,
-        "source_bytes_read": 468909698,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -22310,11 +22300,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "7081a050fe3944a6852b5af5694b1c79-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T14:01:31.498773+00:00",
-        "lease_expires_at": "2026-11-10T20:01:31.498783+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626606",
+          "size_bytes": 468909698,
+          "source_bytes_read": 468909698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31746945",
+        "source_url": "https://sdilej.cz/31746945/zapisnik-smrti-s01e13-720p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626606",
+        "display_name": "DEATH NOTE S01E13 kokuhaku 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:01:38.562216+00:00"
       }
     },
     "925:1:14": {
@@ -337513,5 +337514,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:01:35.464907+00:00"
+  "updated_at": "2026-11-10T14:01:38.562239+00:00"
 }
