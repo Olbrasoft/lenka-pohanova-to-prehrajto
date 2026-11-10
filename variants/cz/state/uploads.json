@@ -21593,18 +21593,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E01 新生 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E01 shinsei 720p CZ Dabing",
         "prepared_at": "2026-10-30T04:50:51.668503+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626493",
-        "size_bytes": 462355734
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626493",
-        "size_bytes": 462355734,
-        "source_bytes_read": 462355734,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -21620,11 +21610,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "e4e9c8bd8a954613aaacf4e0336f18f8-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T13:57:47.306028+00:00",
-        "lease_expires_at": "2026-11-10T19:57:47.306040+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626493",
+          "size_bytes": 462355734,
+          "source_bytes_read": 462355734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31746903",
+        "source_url": "https://sdilej.cz/31746903/zapisnik-smrti-s01e01-720p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626493",
+        "display_name": "DEATH NOTE S01E01 shinsei 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T13:57:55.845694+00:00"
       }
     },
     "925:1:2": {
@@ -337435,5 +337436,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T13:57:53.413364+00:00"
+  "updated_at": "2026-11-10T13:57:55.845715+00:00"
 }
