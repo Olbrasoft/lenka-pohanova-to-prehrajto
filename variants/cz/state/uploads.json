@@ -338796,12 +338796,6 @@
     },
     "1410:1:14": {
       "episode_key": "phineas a ferb:s1:e14",
-      "claim": {
-        "worker_id": "0280a2440061488799f07b50d924b1d2-worker-0",
-        "run_id": "42880100262",
-        "claimed_at": "2026-11-10T20:42:35.496287+00:00",
-        "lease_expires_at": "2026-11-11T02:42:35.496300+00:00"
-      },
       "source": {
         "source_id": "33547941",
         "source_url": "https://sdilej.cz/33547941/phineas.a.ferb.1x14.a.prijizdi.betty.720p.cz.batmaster.mkv",
@@ -338825,7 +338819,13 @@
         },
         "display_name": "Phineas and Ferb S01E14 Ready For The Bettys 720p CZ Dabing",
         "prepared_at": "2026-11-10T20:42:38.720522+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-10T20:42:49.512541+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -338833,7 +338833,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T20:42:38.720539+00:00",
+  "updated_at": "2026-11-10T20:42:49.512548+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -339055,6 +339055,14 @@
         }
       ],
       "retry_after": "2026-11-10T19:13:05.118478+00:00"
+    },
+    "1410": {
+      "recent_failures": [
+        {
+          "identity": "1410:1:14",
+          "at": "2026-11-10T20:42:49.512517+00:00"
+        }
+      ]
     }
   }
 }
