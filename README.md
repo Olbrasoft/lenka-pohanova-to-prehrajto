@@ -171,6 +171,12 @@ Odmítnutí názvu nebo nečitelná stránka odloží dotčenou epizodu a zachov
 ostatní přenosy pokračují. Kontroluje se i chybový HTML snippet v AJAX odpovědi,
 protože samotný HTTP 200 nepotvrzuje přijetí názvu.
 
+Pokud během pěti minut selžou před přidělením cíle zdroje tří různých epizod
+stejného seriálu, jeho nové přenosy se na deset minut odloží. Další seriály
+a jiné jazykové varianty mohou pokračovat. Uložené potvrzené přenosy se stále
+smějí kontrolovat bez dostupného zdroje. Odklad se uchovává ve stavu a po
+vypršení se původní pořadí automaticky obnoví.
+
 `--variant en` umožňuje ověřit anglickou dávku s českými titulky, `--variant en_plain`
 anglickou dávku bez českých titulků. `--variant all` zahrnuje všechny tři varianty,
 je výchozí pro průběžný běh a zachovává společný limit přenosů. Každá varianta má

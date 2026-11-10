@@ -60,6 +60,7 @@ def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None
     for variant in states if variants is None else variants:
         state = states[variant]
         deferred = state.retry_deferred_identities()
+        unavailable_series = state.source_deferred_series()
         for source in queue.get(variant, []):
             identity = source["identity"]
             record = state.data["episodes"].get(identity, {})
@@ -67,6 +68,7 @@ def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None
             if (
                 (variant, identity) in excluded
                 or identity in deferred
+                or str(source["episode"]["series_id"]) in unavailable_series and not record.get("prepared_target")
                 or record.get("upload")
                 or active_claim
                 or record.get("review_target_id")
