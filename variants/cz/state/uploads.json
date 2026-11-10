@@ -22109,18 +22109,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E10 疑惑 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E10 giwaku 720p CZ Dabing",
         "prepared_at": "2026-10-30T04:56:34.110009+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626574",
-        "size_bytes": 466076555
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626574",
-        "size_bytes": 466076555,
-        "source_bytes_read": 466076555,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -22136,11 +22126,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "df1e641fa12e4d01bb894929c4242a66-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T14:00:42.891232+00:00",
-        "lease_expires_at": "2026-11-10T20:00:42.891246+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626574",
+          "size_bytes": 466076555,
+          "source_bytes_read": 466076555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14268963",
+        "source_url": "https://sdilej.cz/14268963/death-note-s01e10-720p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626574",
+        "display_name": "DEATH NOTE S01E10 giwaku 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:01:16.679622+00:00"
       }
     },
     "925:1:11": {
@@ -337492,5 +337493,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:01:13.129036+00:00"
+  "updated_at": "2026-11-10T14:01:16.679641+00:00"
 }
