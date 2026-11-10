@@ -52,6 +52,23 @@ def test_repeating_one_episode_failure_does_not_block_its_series(tmp_path, czech
     assert not state.source_deferred_series()
 
 
+def test_source_outage_does_not_defer_confirmation_of_received_target(tmp_path, czech_row, titles):
+    state = VariantState(tmp_path / "cz.json", "cz")
+    selected = episodes(czech_row)
+    for row in selected[:3]:
+        fail(state, row)
+    received = selected[-1]
+    episode = Episode.from_dict(received["episode"])
+    state.prepared(episode, Candidate.from_dict(received["selected"]), "Received S01E04 1080p CZ Dabing")
+    record = state.row(episode)
+    record["prepared_target"] = dict(target_video_id="777", size_bytes=500_000_000)
+    record["transfer_receipt"] = dict(
+        target_video_id="777", size_bytes=500_000_000, source_bytes_read=500_000_000, http_status=201
+    )
+    ready = planned({"cz": selected}, titles, {"cz": state})
+    assert [row["identity"] for row in ready] == [received["identity"]]
+
+
 def test_allocated_target_failures_do_not_defer_other_episode_sources(tmp_path, czech_row):
     state = VariantState(tmp_path / "cz.json", "cz")
     for row in episodes(czech_row)[:3]:
