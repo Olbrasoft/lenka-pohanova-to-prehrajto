@@ -47,8 +47,10 @@ jobs:
           cache: pip
       - run: |
           pip install .
-          sudo apt-get -o Acquire::Retries=2 update
-          sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get -o Acquire::Retries=2 update
+            sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg
+          fi
       - name: Configure checkpoints
         run: |
           git config user.name 'github-actions[bot]'
