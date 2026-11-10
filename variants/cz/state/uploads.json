@@ -337491,18 +337491,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "Семнадцать мгновений весны S01E09 9 серия 1080p CZ Dabing",
+        "display_name": "Semnadtsat' mgnoveniy vesny S01E09 9 seriya 1080p CZ Dabing",
         "prepared_at": "2026-11-09T22:01:56.631698+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30955028",
-        "size_bytes": 2271465226
-      },
-      "transfer_receipt": {
-        "target_video_id": "30955028",
-        "size_bytes": 2271465226,
-        "source_bytes_read": 2271465226,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -337514,11 +337504,22 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "208e579fef694efb9cddaa8a59bec458-worker-0",
-        "run_id": "42833313602",
-        "claimed_at": "2026-11-10T14:38:33.835767+00:00",
-        "lease_expires_at": "2026-11-10T20:38:33.835782+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30955028",
+          "size_bytes": 2271465226,
+          "source_bytes_read": 2271465226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237626",
+        "source_url": "https://sdilej.cz/28237626/sedmnact-zastaveni-jara--------s01e09-1973-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30955028",
+        "display_name": "Semnadtsat' mgnoveniy vesny S01E09 9 seriya 1080p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:38:41.861998+00:00"
       }
     },
     "194:1:10": {
@@ -337738,7 +337739,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:38:39.234585+00:00",
+  "updated_at": "2026-11-10T14:38:41.862014+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
