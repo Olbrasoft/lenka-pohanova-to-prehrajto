@@ -22921,18 +22921,8 @@
           "series_alias_match": true,
           "unmatched_series_prefix": ""
         },
-        "display_name": "DEATH NOTE S01E24 復活 720p CZ Dabing",
+        "display_name": "DEATH NOTE S01E24 fukkatsu 720p CZ Dabing",
         "prepared_at": "2026-10-30T05:05:56.127174+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "30626715",
-        "size_bytes": 455143266
-      },
-      "transfer_receipt": {
-        "target_video_id": "30626715",
-        "size_bytes": 455143266,
-        "source_bytes_read": 455143266,
-        "http_status": 201
       },
       "attempts": [
         {
@@ -22948,11 +22938,22 @@
           "error": "TargetPending"
         }
       ],
-      "claim": {
-        "worker_id": "9f660d14e48f45ceb5d8f9872bcac742-worker-0",
-        "run_id": "42828981132",
-        "claimed_at": "2026-11-10T14:02:50.479777+00:00",
-        "lease_expires_at": "2026-11-10T20:02:50.479792+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30626715",
+          "size_bytes": 455143266,
+          "source_bytes_read": 455143266,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23472593",
+        "source_url": "https://sdilej.cz/23472593/death-note-s01e24-720p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30626715",
+        "display_name": "DEATH NOTE S01E24 fukkatsu 720p CZ Dabing",
+        "uploaded_at": "2026-11-10T14:02:55.892845+00:00"
       }
     },
     "925:1:25": {
@@ -337584,5 +337585,5 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-10T14:02:50.479799+00:00"
+  "updated_at": "2026-11-10T14:02:55.892868+00:00"
 }
