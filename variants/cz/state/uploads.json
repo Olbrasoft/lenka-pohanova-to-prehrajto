@@ -356252,12 +356252,6 @@
     },
     "572:3:7": {
       "episode_key": "teorie velkého třesku:s3:e7",
-      "claim": {
-        "worker_id": "b9fd458e467d4628b11c1730188c7580-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:44:10.467800+00:00",
-        "lease_expires_at": "2026-11-11T19:44:10.467821+00:00"
-      },
       "source": {
         "source_id": "35084321",
         "source_url": "https://sdilej.cz/35084321/teorie-velkeho-tresku-s03e07-zesilene-vzpominky-cz-dabing-1080p-hevc-2009-.mkv",
@@ -356282,22 +356276,29 @@
         "display_name": "The Big Bang Theory S03E07 The Guitarist Amplification 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:44:14.742954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990568",
-        "size_bytes": 329162221
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990568",
-        "size_bytes": 329162221,
-        "source_bytes_read": 329162221,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990568",
         "source_bytes_read": 329162221,
         "elapsed_seconds": 54.996,
         "finished_at": "2026-11-11T13:45:32.063108+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990568",
+          "size_bytes": 329162221,
+          "source_bytes_read": 329162221,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35084321",
+        "source_url": "https://sdilej.cz/35084321/teorie-velkeho-tresku-s03e07-zesilene-vzpominky-cz-dabing-1080p-hevc-2009-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990568",
+        "display_name": "The Big Bang Theory S03E07 The Guitarist Amplification 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:45:40.508397+00:00"
       }
     },
     "572:3:8": {
@@ -356379,7 +356380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:45:35.969118+00:00",
+  "updated_at": "2026-11-11T13:45:40.508414+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
