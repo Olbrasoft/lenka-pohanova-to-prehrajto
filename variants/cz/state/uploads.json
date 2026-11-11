@@ -369980,12 +369980,6 @@
     },
     "394:17:6": {
       "episode_key": "griffinovi:s17:e6",
-      "claim": {
-        "worker_id": "7ae9d1c4b30f4a3fae282e4a8cd188b3-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:46:42.805379+00:00",
-        "lease_expires_at": "2026-11-12T05:46:42.805394+00:00"
-      },
       "source": {
         "source_id": "34480742",
         "source_url": "https://sdilej.cz/34480742/griffinovi-s17e06-zachrante-meg-1080p-web-dl-cz-dabing.mkv",
@@ -370010,22 +370004,29 @@
         "display_name": "Family Guy S17E06 Stand By Meg 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:46:49.294236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995548",
-        "size_bytes": 801386607
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995548",
-        "size_bytes": 801386607,
-        "source_bytes_read": 801386607,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995548",
         "source_bytes_read": 801386607,
         "elapsed_seconds": 195.407,
         "finished_at": "2026-11-11T23:50:25.486153+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995548",
+          "size_bytes": 801386607,
+          "source_bytes_read": 801386607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34480742",
+        "source_url": "https://sdilej.cz/34480742/griffinovi-s17e06-zachrante-meg-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995548",
+        "display_name": "Family Guy S17E06 Stand By Meg 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:50:33.013235+00:00"
       }
     },
     "394:17:7": {
@@ -370071,7 +370072,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:50:25.486179+00:00",
+  "updated_at": "2026-11-11T23:50:33.013255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
