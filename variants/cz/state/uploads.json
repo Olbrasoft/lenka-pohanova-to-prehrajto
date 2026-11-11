@@ -350301,12 +350301,6 @@
     },
     "561:8:5": {
       "episode_key": "živí mrtví:s8:e5",
-      "claim": {
-        "worker_id": "a8d57f97a89040558920eca91f00882a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:11:27.227349+00:00",
-        "lease_expires_at": "2026-11-11T18:11:27.227367+00:00"
-      },
       "source": {
         "source_id": "34013711",
         "source_url": "https://sdilej.cz/34013711/zivi-mrtvi-s08e05-16-2017-cz-dab-1080p-velke-hrozive-n.mkv",
@@ -350331,22 +350325,29 @@
         "display_name": "The Walking Dead S08E05 The Big Scary U 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:11:30.743386+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989727",
-        "size_bytes": 940966592
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989727",
-        "size_bytes": 940966592,
-        "source_bytes_read": 940966592,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989727",
         "source_bytes_read": 940966592,
         "elapsed_seconds": 60.241,
         "finished_at": "2026-11-11T12:12:45.230522+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989727",
+          "size_bytes": 940966592,
+          "source_bytes_read": 940966592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34013711",
+        "source_url": "https://sdilej.cz/34013711/zivi-mrtvi-s08e05-16-2017-cz-dab-1080p-velke-hrozive-n.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989727",
+        "display_name": "The Walking Dead S08E05 The Big Scary U 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:12:50.083359+00:00"
       }
     },
     "561:8:6": {
@@ -350429,7 +350430,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:12:45.230540+00:00",
+  "updated_at": "2026-11-11T12:12:50.083376+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
