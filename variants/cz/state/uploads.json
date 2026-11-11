@@ -358413,12 +358413,6 @@
     },
     "572:5:2": {
       "episode_key": "teorie velkého třesku:s5:e2",
-      "claim": {
-        "worker_id": "1e4cb151f7a341eba306515c7a9b962d-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:15:18.861544+00:00",
-        "lease_expires_at": "2026-11-11T20:15:18.861563+00:00"
-      },
       "source": {
         "source_id": "29798784",
         "source_url": "https://sdilej.cz/29798784/teorie-velkeho-tresku-s05e02.mkv",
@@ -358443,22 +358437,29 @@
         "display_name": "The Big Bang Theory S05E02 The Infestation Hypothesis 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:15:23.812920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990948",
-        "size_bytes": 571082806
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990948",
-        "size_bytes": 571082806,
-        "source_bytes_read": 571082806,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990948",
         "source_bytes_read": 571082806,
         "elapsed_seconds": 84.955,
         "finished_at": "2026-11-11T14:17:03.865957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990948",
+          "size_bytes": 571082806,
+          "source_bytes_read": 571082806,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798784",
+        "source_url": "https://sdilej.cz/29798784/teorie-velkeho-tresku-s05e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990948",
+        "display_name": "The Big Bang Theory S05E02 The Infestation Hypothesis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:17:10.183570+00:00"
       }
     },
     "572:5:4": {
@@ -358541,7 +358542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:17:03.865975+00:00",
+  "updated_at": "2026-11-11T14:17:10.183588+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
