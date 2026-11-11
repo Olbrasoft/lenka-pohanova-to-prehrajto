@@ -347853,12 +347853,6 @@
     },
     "561:5:2": {
       "episode_key": "živí mrtví:s5:e2",
-      "claim": {
-        "worker_id": "6502301631f8414d9951453a9d2972d1-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:42:38.522674+00:00",
-        "lease_expires_at": "2026-11-11T17:42:38.522693+00:00"
-      },
       "source": {
         "source_id": "33264774",
         "source_url": "https://sdilej.cz/33264774/zivi-mrtvi-s05e02-16-2014-cz-dab-1080p-cizaci.mkv",
@@ -347883,22 +347877,29 @@
         "display_name": "The Walking Dead S05E02 Strangers 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:42:43.934689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989392",
-        "size_bytes": 843283961
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989392",
-        "size_bytes": 843283961,
-        "source_bytes_read": 843283961,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989392",
         "source_bytes_read": 843283961,
         "elapsed_seconds": 55.006,
         "finished_at": "2026-11-11T11:43:55.154113+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989392",
+          "size_bytes": 843283961,
+          "source_bytes_read": 843283961,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264774",
+        "source_url": "https://sdilej.cz/33264774/zivi-mrtvi-s05e02-16-2014-cz-dab-1080p-cizaci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989392",
+        "display_name": "The Walking Dead S05E02 Strangers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:44:01.592263+00:00"
       }
     },
     "561:5:3": {
@@ -347981,7 +347982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:43:55.154129+00:00",
+  "updated_at": "2026-11-11T11:44:01.592280+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
