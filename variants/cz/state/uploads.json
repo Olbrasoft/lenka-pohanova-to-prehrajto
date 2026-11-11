@@ -370045,12 +370045,6 @@
     },
     "394:17:7": {
       "episode_key": "griffinovi:s17:e7",
-      "claim": {
-        "worker_id": "0790e3dedb134d508c58d9fdf6ec4fa1-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:47:23.187496+00:00",
-        "lease_expires_at": "2026-11-12T05:47:23.187509+00:00"
-      },
       "source": {
         "source_id": "34480934",
         "source_url": "https://sdilej.cz/34480934/griffinovi-s17e07-meg-na-zimnich-hrach-1080p-web-dl-cz-dabing.mkv",
@@ -370075,22 +370069,29 @@
         "display_name": "Family Guy S17E07 The Griffin Winter Games 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:47:26.825042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995555",
-        "size_bytes": 951191451
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995555",
-        "size_bytes": 951191451,
-        "source_bytes_read": 951191451,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995555",
         "source_bytes_read": 951191451,
         "elapsed_seconds": 264.055,
         "finished_at": "2026-11-11T23:52:04.134790+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995555",
+          "size_bytes": 951191451,
+          "source_bytes_read": 951191451,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34480934",
+        "source_url": "https://sdilej.cz/34480934/griffinovi-s17e07-meg-na-zimnich-hrach-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995555",
+        "display_name": "Family Guy S17E07 The Griffin Winter Games 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:52:09.085765+00:00"
       }
     },
     "394:17:8": {
@@ -370173,7 +370174,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:52:04.134817+00:00",
+  "updated_at": "2026-11-11T23:52:09.085786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
