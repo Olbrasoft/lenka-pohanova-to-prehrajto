@@ -340397,12 +340397,6 @@
     },
     "1410:2:8": {
       "episode_key": "phineas a ferb:s2:e8",
-      "claim": {
-        "worker_id": "0823edf5bcda4687b757809e044f2ec7-worker-0",
-        "run_id": "42913821684",
-        "claimed_at": "2026-11-11T02:00:37.031849+00:00",
-        "lease_expires_at": "2026-11-11T08:00:37.031860+00:00"
-      },
       "source": {
         "source_id": "33548271",
         "source_url": "https://sdilej.cz/33548271/phineas.a.ferb.2x08.ani.nemrkni.720p.cz.batmaster.mkv",
@@ -340427,22 +340421,29 @@
         "display_name": "Phineas and Ferb S02E08 Don't Even Blink 720p CZ Dabing",
         "prepared_at": "2026-11-11T02:00:40.224747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30986760",
-        "size_bytes": 92131010
-      },
-      "transfer_receipt": {
-        "target_video_id": "30986760",
-        "size_bytes": 92131010,
-        "source_bytes_read": 92131010,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30986760",
         "source_bytes_read": 92131010,
         "elapsed_seconds": 1216.176,
         "finished_at": "2026-11-11T02:21:08.824407+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30986760",
+          "size_bytes": 92131010,
+          "source_bytes_read": 92131010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548271",
+        "source_url": "https://sdilej.cz/33548271/phineas.a.ferb.2x08.ani.nemrkni.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30986760",
+        "display_name": "Phineas and Ferb S02E08 Don't Even Blink 720p CZ Dabing",
+        "uploaded_at": "2026-11-11T02:21:13.523319+00:00"
       }
     },
     "1410:2:9": {
@@ -340488,7 +340489,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T02:21:08.824427+00:00",
+  "updated_at": "2026-11-11T02:21:13.523336+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
