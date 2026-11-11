@@ -343987,12 +343987,6 @@
     },
     "42:5:2": {
       "episode_key": "dračí princ:s5:e2",
-      "claim": {
-        "worker_id": "3d20e80d83e44091bf57fe6ad8cdb560-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:45:45.805158+00:00",
-        "lease_expires_at": "2026-11-11T16:45:45.805168+00:00"
-      },
       "source": {
         "source_id": "26563695",
         "source_url": "https://sdilej.cz/26563695/draci-princ-s05e02-cz-dabing-1080p.mkv",
@@ -344017,22 +344011,29 @@
         "display_name": "The Dragon Prince S05E02 Old Wounds 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:45:52.913118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988956",
-        "size_bytes": 1234879118
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988956",
-        "size_bytes": 1234879118,
-        "source_bytes_read": 1234879118,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988956",
         "source_bytes_read": 1234879118,
         "elapsed_seconds": 54.026,
         "finished_at": "2026-11-11T10:47:05.993513+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988956",
+          "size_bytes": 1234879118,
+          "source_bytes_read": 1234879118,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26563695",
+        "source_url": "https://sdilej.cz/26563695/draci-princ-s05e02-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988956",
+        "display_name": "The Dragon Prince S05E02 Old Wounds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:47:13.073458+00:00"
       }
     },
     "42:5:3": {
@@ -344128,7 +344129,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:47:10.458099+00:00",
+  "updated_at": "2026-11-11T10:47:13.073475+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
