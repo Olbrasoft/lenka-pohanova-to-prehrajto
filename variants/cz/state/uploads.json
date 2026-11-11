@@ -340296,6 +340296,103 @@
       "prepared_target": {
         "target_video_id": "30986680",
         "size_bytes": 106420090
+      },
+      "transfer_failure": {
+        "target_video_id": "30986680",
+        "source_bytes_read": 106420090,
+        "size_bytes": 106420090,
+        "errors": [
+          {
+            "type": "ReadTimeout",
+            "frames": [
+              {
+                "file": "api.py",
+                "function": "post",
+                "line": 134
+              },
+              {
+                "file": "api.py",
+                "function": "request",
+                "line": 71
+              },
+              {
+                "file": "sessions.py",
+                "function": "request",
+                "line": 651
+              },
+              {
+                "file": "sessions.py",
+                "function": "send",
+                "line": 784
+              },
+              {
+                "file": "adapters.py",
+                "function": "send",
+                "line": 742
+              }
+            ]
+          },
+          {
+            "type": "ReadTimeoutError",
+            "frames": [
+              {
+                "file": "retry.py",
+                "function": "increment",
+                "line": 510
+              },
+              {
+                "file": "util.py",
+                "function": "reraise",
+                "line": 39
+              },
+              {
+                "file": "connectionpool.py",
+                "function": "urlopen",
+                "line": 793
+              },
+              {
+                "file": "connectionpool.py",
+                "function": "_make_request",
+                "line": 542
+              },
+              {
+                "file": "connectionpool.py",
+                "function": "_raise_timeout",
+                "line": 373
+              }
+            ]
+          },
+          {
+            "type": "TimeoutError",
+            "frames": [
+              {
+                "file": "client.py",
+                "function": "begin",
+                "line": 343
+              },
+              {
+                "file": "client.py",
+                "function": "_read_status",
+                "line": 304
+              },
+              {
+                "file": "socket.py",
+                "function": "readinto",
+                "line": 720
+              },
+              {
+                "file": "ssl.py",
+                "function": "recv_into",
+                "line": 1264
+              },
+              {
+                "file": "ssl.py",
+                "function": "read",
+                "line": 1116
+              }
+            ]
+          }
+        ]
       }
     },
     "1410:2:8": {
@@ -340341,7 +340438,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T02:00:49.941115+00:00",
+  "updated_at": "2026-11-11T02:05:24.783652+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
