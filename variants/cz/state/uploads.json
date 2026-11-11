@@ -349726,12 +349726,6 @@
     },
     "561:7:9": {
       "episode_key": "živí mrtví:s7:e9",
-      "claim": {
-        "worker_id": "19da59f5f80c4e9094464eaec015e7f3-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:04:28.776253+00:00",
-        "lease_expires_at": "2026-11-11T18:04:28.776271+00:00"
-      },
       "source": {
         "source_id": "32504595",
         "source_url": "https://sdilej.cz/32504595/zivi-mrtvi-s07e09-v-nouzi-poznas-pritele.mkv",
@@ -349756,22 +349750,29 @@
         "display_name": "The Walking Dead S07E09 Rock in the Road 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:04:35.703393+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989671",
-        "size_bytes": 1081644095
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989671",
-        "size_bytes": 1081644095,
-        "source_bytes_read": 1081644095,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989671",
         "source_bytes_read": 1081644095,
         "elapsed_seconds": 62.687,
         "finished_at": "2026-11-11T12:05:58.734033+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989671",
+          "size_bytes": 1081644095,
+          "source_bytes_read": 1081644095,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504595",
+        "source_url": "https://sdilej.cz/32504595/zivi-mrtvi-s07e09-v-nouzi-poznas-pritele.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989671",
+        "display_name": "The Walking Dead S07E09 Rock in the Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:06:05.872298+00:00"
       }
     },
     "561:7:10": {
@@ -349817,7 +349818,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:05:58.734053+00:00",
+  "updated_at": "2026-11-11T12:06:05.872314+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
