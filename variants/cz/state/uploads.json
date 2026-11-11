@@ -347594,12 +347594,6 @@
     },
     "561:4:13": {
       "episode_key": "živí mrtví:s4:e13",
-      "claim": {
-        "worker_id": "bfa81c33f33240b1bfa58c14ea2c6af2-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:38:45.659118+00:00",
-        "lease_expires_at": "2026-11-11T17:38:45.659136+00:00"
-      },
       "source": {
         "source_id": "32500246",
         "source_url": "https://sdilej.cz/32500246/zivi-mrtvi-s04e13-sami.mkv",
@@ -347624,22 +347618,29 @@
         "display_name": "The Walking Dead S04E13 Alone 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:38:54.818876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989346",
-        "size_bytes": 907206191
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989346",
-        "size_bytes": 907206191,
-        "source_bytes_read": 907206191,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989346",
         "source_bytes_read": 907206191,
         "elapsed_seconds": 60.152,
         "finished_at": "2026-11-11T11:40:14.813141+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989346",
+          "size_bytes": 907206191,
+          "source_bytes_read": 907206191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32500246",
+        "source_url": "https://sdilej.cz/32500246/zivi-mrtvi-s04e13-sami.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989346",
+        "display_name": "The Walking Dead S04E13 Alone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:40:20.946524+00:00"
       }
     }
   },
@@ -347648,7 +347649,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:40:14.813157+00:00",
+  "updated_at": "2026-11-11T11:40:20.946541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
