@@ -358668,12 +358668,6 @@
     },
     "572:5:8": {
       "episode_key": "teorie velkého třesku:s5:e8",
-      "claim": {
-        "worker_id": "e140a5b56ea44317a185ee5640751075-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:18:49.384924+00:00",
-        "lease_expires_at": "2026-11-11T20:18:49.384940+00:00"
-      },
       "source": {
         "source_id": "27591943",
         "source_url": "https://sdilej.cz/27591943/teorie-velkeho-tresku-s05e08-cz.mkv",
@@ -358698,22 +358692,29 @@
         "display_name": "The Big Bang Theory S05E08 The Isolation Permutation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:18:57.291039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990972",
-        "size_bytes": 182371995
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990972",
-        "size_bytes": 182371995,
-        "source_bytes_read": 182371995,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990972",
         "source_bytes_read": 182371995,
         "elapsed_seconds": 32.325,
         "finished_at": "2026-11-11T14:19:50.070158+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990972",
+          "size_bytes": 182371995,
+          "source_bytes_read": 182371995,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27591943",
+        "source_url": "https://sdilej.cz/27591943/teorie-velkeho-tresku-s05e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990972",
+        "display_name": "The Big Bang Theory S05E08 The Isolation Permutation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:19:57.287980+00:00"
       }
     },
     "572:5:9": {
@@ -358759,7 +358760,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:19:50.070175+00:00",
+  "updated_at": "2026-11-11T14:19:57.287996+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
