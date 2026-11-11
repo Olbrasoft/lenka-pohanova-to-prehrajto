@@ -343783,12 +343783,6 @@
     },
     "42:4:7": {
       "episode_key": "dračí princ:s4:e7",
-      "claim": {
-        "worker_id": "2c9eb0747a824ed4ae3cbcb51ba5e13e-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:43:02.683832+00:00",
-        "lease_expires_at": "2026-11-11T16:43:02.683842+00:00"
-      },
       "source": {
         "source_id": "31734191",
         "source_url": "https://sdilej.cz/31734191/draci-princ-s04e07-pod-povrchem.mkv",
@@ -343813,22 +343807,29 @@
         "display_name": "The Dragon Prince S04E07 Beneath the Surface 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:43:08.067209+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988943",
-        "size_bytes": 581076342
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988943",
-        "size_bytes": 581076342,
-        "source_bytes_read": 581076342,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988943",
         "source_bytes_read": 581076342,
         "elapsed_seconds": 25.739,
         "finished_at": "2026-11-11T10:43:56.784448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988943",
+          "size_bytes": 581076342,
+          "source_bytes_read": 581076342,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31734191",
+        "source_url": "https://sdilej.cz/31734191/draci-princ-s04e07-pod-povrchem.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988943",
+        "display_name": "The Dragon Prince S04E07 Beneath the Surface 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:44:06.912524+00:00"
       }
     }
   },
@@ -343837,7 +343838,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:44:03.332833+00:00",
+  "updated_at": "2026-11-11T10:44:06.912538+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
