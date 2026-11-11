@@ -362191,12 +362191,6 @@
     },
     "572:8:7": {
       "episode_key": "teorie velkého třesku:s8:e7",
-      "claim": {
-        "worker_id": "c2039b4c80b14df997472067f7b8dc05-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:33:54.068281+00:00",
-        "lease_expires_at": "2026-11-12T00:33:54.068298+00:00"
-      },
       "source": {
         "source_id": "27592559",
         "source_url": "https://sdilej.cz/27592559/teorie-velkeho-tresku-s08e07-cz.mkv",
@@ -362221,22 +362215,29 @@
         "display_name": "The Big Bang Theory S08E07 The Misinterpretation Agitation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:33:57.503150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992886",
-        "size_bytes": 242591234
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992886",
-        "size_bytes": 242591234,
-        "source_bytes_read": 242591234,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992886",
         "source_bytes_read": 242591234,
         "elapsed_seconds": 95.42,
         "finished_at": "2026-11-11T18:35:46.275724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992886",
+          "size_bytes": 242591234,
+          "source_bytes_read": 242591234,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592559",
+        "source_url": "https://sdilej.cz/27592559/teorie-velkeho-tresku-s08e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992886",
+        "display_name": "The Big Bang Theory S08E07 The Misinterpretation Agitation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:35:52.040886+00:00"
       }
     },
     "572:8:8": {
@@ -362319,7 +362320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:35:46.275746+00:00",
+  "updated_at": "2026-11-11T18:35:52.040906+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
