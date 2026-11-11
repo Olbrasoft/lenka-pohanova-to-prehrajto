@@ -360916,12 +360916,6 @@
     },
     "572:7:4": {
       "episode_key": "teorie velkého třesku:s7:e4",
-      "claim": {
-        "worker_id": "2b5ba2ac4f4b4dccbaadda3cf96c3d1d-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:51:54.408786+00:00",
-        "lease_expires_at": "2026-11-11T23:51:54.408801+00:00"
-      },
       "source": {
         "source_id": "29798711",
         "source_url": "https://sdilej.cz/29798711/teorie-velkeho-tresku-s07e04.mkv",
@@ -360946,22 +360940,29 @@
         "display_name": "The Big Bang Theory S07E04 The Raiders Minimization 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:51:57.999010+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992550",
-        "size_bytes": 645075299
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992550",
-        "size_bytes": 645075299,
-        "source_bytes_read": 645075299,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992550",
         "source_bytes_read": 645075299,
         "elapsed_seconds": 264.515,
         "finished_at": "2026-11-11T17:56:41.764422+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992550",
+          "size_bytes": 645075299,
+          "source_bytes_read": 645075299,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798711",
+        "source_url": "https://sdilej.cz/29798711/teorie-velkeho-tresku-s07e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992550",
+        "display_name": "The Big Bang Theory S07E04 The Raiders Minimization 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:56:47.752465+00:00"
       }
     },
     "572:7:5": {
@@ -361160,7 +361161,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:56:41.764441+00:00",
+  "updated_at": "2026-11-11T17:56:47.752483+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
