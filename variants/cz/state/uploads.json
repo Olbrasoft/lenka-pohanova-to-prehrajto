@@ -369535,12 +369535,6 @@
     },
     "394:15:1": {
       "episode_key": "griffinovi:s15:e1",
-      "claim": {
-        "worker_id": "49d4db07380845a09aa2c8dc740c80ef-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:20:50.886059+00:00",
-        "lease_expires_at": "2026-11-12T05:20:50.886074+00:00"
-      },
       "source": {
         "source_id": "35269065",
         "source_url": "https://sdilej.cz/35269065/griffinovi-s15e01-kluci-z-kapely-cz.mkv",
@@ -369565,22 +369559,29 @@
         "display_name": "Family Guy S15E01 The Boys in the Band 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:20:57.316904+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995295",
-        "size_bytes": 787980374
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995295",
-        "size_bytes": 787980374,
-        "source_bytes_read": 787980374,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995295",
         "source_bytes_read": 787980374,
         "elapsed_seconds": 326.106,
         "finished_at": "2026-11-11T23:26:41.833798+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995295",
+          "size_bytes": 787980374,
+          "source_bytes_read": 787980374,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35269065",
+        "source_url": "https://sdilej.cz/35269065/griffinovi-s15e01-kluci-z-kapely-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995295",
+        "display_name": "Family Guy S15E01 The Boys in the Band 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:26:47.912161+00:00"
       }
     },
     "394:15:2": {
@@ -369663,7 +369664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:26:41.833823+00:00",
+  "updated_at": "2026-11-11T23:26:47.912196+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
