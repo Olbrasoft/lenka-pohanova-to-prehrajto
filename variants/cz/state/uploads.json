@@ -346829,12 +346829,6 @@
     },
     "561:3:14": {
       "episode_key": "živí mrtví:s3:e14",
-      "claim": {
-        "worker_id": "33cf229d7a464bc395df7926c57995ec-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:29:55.033922+00:00",
-        "lease_expires_at": "2026-11-11T17:29:55.033939+00:00"
-      },
       "source": {
         "source_id": "32499802",
         "source_url": "https://sdilej.cz/32499802/zivi-mrtvi-s03e14-korist.mkv",
@@ -346859,22 +346853,29 @@
         "display_name": "The Walking Dead S03E14 Prey 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:29:59.507343+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989268",
-        "size_bytes": 892148325
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989268",
-        "size_bytes": 892148325,
-        "source_bytes_read": 892148325,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989268",
         "source_bytes_read": 892148325,
         "elapsed_seconds": 61.206,
         "finished_at": "2026-11-11T11:31:18.993869+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989268",
+          "size_bytes": 892148325,
+          "source_bytes_read": 892148325,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499802",
+        "source_url": "https://sdilej.cz/32499802/zivi-mrtvi-s03e14-korist.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989268",
+        "display_name": "The Walking Dead S03E14 Prey 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:31:27.313088+00:00"
       }
     },
     "561:3:15": {
@@ -346970,7 +346971,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:31:24.281765+00:00",
+  "updated_at": "2026-11-11T11:31:27.313105+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
