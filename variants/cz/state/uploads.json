@@ -357648,12 +357648,6 @@
     },
     "572:4:11": {
       "episode_key": "teorie velkého třesku:s4:e11",
-      "claim": {
-        "worker_id": "f241701707a4431fba700018646d4921-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:03:52.110602+00:00",
-        "lease_expires_at": "2026-11-11T20:03:52.110634+00:00"
-      },
       "source": {
         "source_id": "35086925",
         "source_url": "https://sdilej.cz/35086925/teorie-velkeho-tresku-s04e11-rekombinace-ligy-spravedlnosti-cz-2010.mkv",
@@ -357678,22 +357672,29 @@
         "display_name": "The Big Bang Theory S04E11 The Justice League Recombination 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:04:03.807894+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990881",
-        "size_bytes": 360922452
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990881",
-        "size_bytes": 360922452,
-        "source_bytes_read": 360922452,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990881",
         "source_bytes_read": 360922452,
         "elapsed_seconds": 50.275,
         "finished_at": "2026-11-11T14:05:20.116537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990881",
+          "size_bytes": 360922452,
+          "source_bytes_read": 360922452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35086925",
+        "source_url": "https://sdilej.cz/35086925/teorie-velkeho-tresku-s04e11-rekombinace-ligy-spravedlnosti-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990881",
+        "display_name": "The Big Bang Theory S04E11 The Justice League Recombination 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:05:29.618114+00:00"
       }
     },
     "572:4:12": {
@@ -357804,7 +357805,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:05:26.440073+00:00",
+  "updated_at": "2026-11-11T14:05:29.618140+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
