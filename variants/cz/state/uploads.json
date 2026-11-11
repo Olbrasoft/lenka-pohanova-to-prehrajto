@@ -346529,12 +346529,6 @@
     },
     "561:3:8": {
       "episode_key": "živí mrtví:s3:e8",
-      "claim": {
-        "worker_id": "47ed6f2307cd4ba990d31a4714c5bcec-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:17:38.173755+00:00",
-        "lease_expires_at": "2026-11-11T17:17:38.173770+00:00"
-      },
       "source": {
         "source_id": "32499609",
         "source_url": "https://sdilej.cz/32499609/zivi-mrtvi-s03e08-zrozeni-k-bolesti.mkv",
@@ -346559,22 +346553,29 @@
         "display_name": "The Walking Dead S03E08 Made to Suffer 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:17:47.636352+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989156",
-        "size_bytes": 902570452
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989156",
-        "size_bytes": 902570452,
-        "source_bytes_read": 902570452,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989156",
         "source_bytes_read": 902570452,
         "elapsed_seconds": 59.635,
         "finished_at": "2026-11-11T11:19:03.586257+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989156",
+          "size_bytes": 902570452,
+          "source_bytes_read": 902570452,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499609",
+        "source_url": "https://sdilej.cz/32499609/zivi-mrtvi-s03e08-zrozeni-k-bolesti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989156",
+        "display_name": "The Walking Dead S03E08 Made to Suffer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:19:11.932113+00:00"
       }
     }
   },
@@ -346583,7 +346584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:19:06.395974+00:00",
+  "updated_at": "2026-11-11T11:19:11.932129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
