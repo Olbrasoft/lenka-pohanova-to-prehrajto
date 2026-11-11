@@ -367640,12 +367640,6 @@
     },
     "572:12:18": {
       "episode_key": "teorie velkého třesku:s12:e18",
-      "claim": {
-        "worker_id": "447e612c3401401aafafec79e23fa7be-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:09:57.103457+00:00",
-        "lease_expires_at": "2026-11-12T04:09:57.103472+00:00"
-      },
       "source": {
         "source_id": "29798560",
         "source_url": "https://sdilej.cz/29798560/teorie-velkeho-tresku-s12e18.mkv",
@@ -367670,22 +367664,29 @@
         "display_name": "The Big Bang Theory S12E18 The Laureate Accumulation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:10:00.532850+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994600",
-        "size_bytes": 658173104
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994600",
-        "size_bytes": 658173104,
-        "source_bytes_read": 658173104,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994600",
         "source_bytes_read": 658173104,
         "elapsed_seconds": 211.332,
         "finished_at": "2026-11-11T22:13:50.317336+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994600",
+          "size_bytes": 658173104,
+          "source_bytes_read": 658173104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798560",
+        "source_url": "https://sdilej.cz/29798560/teorie-velkeho-tresku-s12e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994600",
+        "display_name": "The Big Bang Theory S12E18 The Laureate Accumulation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:13:55.336473+00:00"
       }
     }
   },
@@ -367694,7 +367695,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:13:50.317363+00:00",
+  "updated_at": "2026-11-11T22:13:55.336494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
