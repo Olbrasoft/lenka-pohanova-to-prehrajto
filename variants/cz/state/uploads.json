@@ -358876,12 +358876,6 @@
     },
     "572:5:12": {
       "episode_key": "teorie velkého třesku:s5:e12",
-      "claim": {
-        "worker_id": "c2276e5ea4e14d08b125dd13d59674f6-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:21:24.345557+00:00",
-        "lease_expires_at": "2026-11-11T20:21:24.345575+00:00"
-      },
       "source": {
         "source_id": "27591964",
         "source_url": "https://sdilej.cz/27591964/teorie-velkeho-tresku-s05e12-cz.mkv",
@@ -358906,22 +358900,29 @@
         "display_name": "The Big Bang Theory S05E12 The Shiny Trinket Maneuver 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:21:31.471739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990990",
-        "size_bytes": 179300578
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990990",
-        "size_bytes": 179300578,
-        "source_bytes_read": 179300578,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990990",
         "source_bytes_read": 179300578,
         "elapsed_seconds": 44.722,
         "finished_at": "2026-11-11T14:22:38.151462+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990990",
+          "size_bytes": 179300578,
+          "source_bytes_read": 179300578,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27591964",
+        "source_url": "https://sdilej.cz/27591964/teorie-velkeho-tresku-s05e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990990",
+        "display_name": "The Big Bang Theory S05E12 The Shiny Trinket Maneuver 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:22:44.251916+00:00"
       }
     }
   },
@@ -358930,7 +358931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:22:38.151483+00:00",
+  "updated_at": "2026-11-11T14:22:44.251931+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
