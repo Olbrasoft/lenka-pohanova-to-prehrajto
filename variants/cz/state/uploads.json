@@ -345230,12 +345230,6 @@
     },
     "561:1:1": {
       "episode_key": "živí mrtví:s1:e1",
-      "claim": {
-        "worker_id": "df095a5e663f478bb6edb564b02c874e-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:58:32.088226+00:00",
-        "lease_expires_at": "2026-11-11T16:58:32.088236+00:00"
-      },
       "source": {
         "source_id": "35168192",
         "source_url": "https://sdilej.cz/35168192/the-walking-dead-s01e01-2010-cz-dabing-1080p.-bedobi.mkv",
@@ -345260,22 +345254,29 @@
         "display_name": "The Walking Dead S01E01 Days Gone Bye 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:58:38.236467+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989032",
-        "size_bytes": 930731278
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989032",
-        "size_bytes": 930731278,
-        "source_bytes_read": 930731278,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989032",
         "source_bytes_read": 930731278,
         "elapsed_seconds": 36.692,
         "finished_at": "2026-11-11T10:59:30.717379+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989032",
+          "size_bytes": 930731278,
+          "source_bytes_read": 930731278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35168192",
+        "source_url": "https://sdilej.cz/35168192/the-walking-dead-s01e01-2010-cz-dabing-1080p.-bedobi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989032",
+        "display_name": "The Walking Dead S01E01 Days Gone Bye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:59:35.881210+00:00"
       }
     }
   },
@@ -345284,7 +345285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:59:30.717398+00:00",
+  "updated_at": "2026-11-11T10:59:35.881227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
