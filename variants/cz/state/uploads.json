@@ -352648,12 +352648,6 @@
     },
     "561:10:22": {
       "episode_key": "živí mrtví:s10:e22",
-      "claim": {
-        "worker_id": "8aa1810ae5d94049a11677f21a900bb2-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:52:54.510988+00:00",
-        "lease_expires_at": "2026-11-11T18:52:54.511008+00:00"
-      },
       "source": {
         "source_id": "31873584",
         "source_url": "https://sdilej.cz/31873584/the-walking-dead-s10e22-zivi-mrtvi-fhd-1080p-cz-sk-tady-negan.mkv",
@@ -352678,22 +352672,29 @@
         "display_name": "The Walking Dead S10E22 Here's Negan 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:53:02.016005+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990069",
-        "size_bytes": 540146278
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990069",
-        "size_bytes": 540146278,
-        "source_bytes_read": 540146278,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990069",
         "source_bytes_read": 540146278,
         "elapsed_seconds": 57.303,
         "finished_at": "2026-11-11T12:54:18.183219+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990069",
+          "size_bytes": 540146278,
+          "source_bytes_read": 540146278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31873584",
+        "source_url": "https://sdilej.cz/31873584/the-walking-dead-s10e22-zivi-mrtvi-fhd-1080p-cz-sk-tady-negan.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990069",
+        "display_name": "The Walking Dead S10E22 Here's Negan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:54:23.311167+00:00"
       }
     },
     "561:11:1": {
@@ -352776,7 +352777,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:54:18.183240+00:00",
+  "updated_at": "2026-11-11T12:54:23.311182+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
