@@ -366577,12 +366577,6 @@
     },
     "572:11:21": {
       "episode_key": "teorie velkého třesku:s11:e21",
-      "claim": {
-        "worker_id": "9c42fb7aaad8482a950a0c88935fc82a-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T21:43:54.174756+00:00",
-        "lease_expires_at": "2026-11-12T03:43:54.174774+00:00"
-      },
       "source": {
         "source_id": "29798583",
         "source_url": "https://sdilej.cz/29798583/teorie-velkeho-tresku-s11e21.mkv",
@@ -366607,22 +366601,29 @@
         "display_name": "The Big Bang Theory S11E21 The Comet Polarization 1080p CZ Dabing",
         "prepared_at": "2026-11-11T21:43:57.723647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994360",
-        "size_bytes": 629713956
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994360",
-        "size_bytes": 629713956,
-        "source_bytes_read": 629713956,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994360",
         "source_bytes_read": 629713956,
         "elapsed_seconds": 274.551,
         "finished_at": "2026-11-11T21:48:46.798403+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994360",
+          "size_bytes": 629713956,
+          "source_bytes_read": 629713956,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798583",
+        "source_url": "https://sdilej.cz/29798583/teorie-velkeho-tresku-s11e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994360",
+        "display_name": "The Big Bang Theory S11E21 The Comet Polarization 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T21:48:52.175872+00:00"
       }
     },
     "572:11:22": {
@@ -366705,7 +366706,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T21:48:46.798427+00:00",
+  "updated_at": "2026-11-11T21:48:52.175890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
