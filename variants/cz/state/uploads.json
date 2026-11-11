@@ -348210,12 +348210,6 @@
     },
     "561:5:9": {
       "episode_key": "živí mrtví:s5:e9",
-      "claim": {
-        "worker_id": "102ca658df0c4c679f0a977c92a5384e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:46:00.894206+00:00",
-        "lease_expires_at": "2026-11-11T17:46:00.894224+00:00"
-      },
       "source": {
         "source_id": "33264808",
         "source_url": "https://sdilej.cz/33264808/zivi-mrtvi-s05e09-16-2014-cz-dab-1080p-vzpominky.mkv",
@@ -348240,22 +348234,29 @@
         "display_name": "The Walking Dead S05E09 What Happened and What's Going On 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:46:06.870561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989446",
-        "size_bytes": 844315073
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989446",
-        "size_bytes": 844315073,
-        "source_bytes_read": 844315073,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989446",
         "source_bytes_read": 844315073,
         "elapsed_seconds": 53.271,
         "finished_at": "2026-11-11T11:47:19.492743+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989446",
+          "size_bytes": 844315073,
+          "source_bytes_read": 844315073,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264808",
+        "source_url": "https://sdilej.cz/33264808/zivi-mrtvi-s05e09-16-2014-cz-dab-1080p-vzpominky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989446",
+        "display_name": "The Walking Dead S05E09 What Happened and What's Going On 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:47:31.868870+00:00"
       }
     },
     "561:5:10": {
@@ -348337,7 +348338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:47:27.865256+00:00",
+  "updated_at": "2026-11-11T11:47:31.868889+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
