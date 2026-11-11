@@ -356034,12 +356034,6 @@
     },
     "572:3:3": {
       "episode_key": "teorie velkého třesku:s3:e3",
-      "claim": {
-        "worker_id": "d73d77656a5643c5aade96ac12af8382-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:41:45.610433+00:00",
-        "lease_expires_at": "2026-11-11T19:41:45.610450+00:00"
-      },
       "source": {
         "source_id": "15747515",
         "source_url": "https://sdilej.cz/15747515/teorie-velkeho-tresku-s03e03.avi",
@@ -356064,22 +356058,29 @@
         "display_name": "The Big Bang Theory S03E03 The Gothowitz Deviation SD CZ Dabing",
         "prepared_at": "2026-11-11T13:41:54.563351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990539",
-        "size_bytes": 187915416
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990539",
-        "size_bytes": 187915416,
-        "source_bytes_read": 187915416,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990539",
         "source_bytes_read": 187915416,
         "elapsed_seconds": 16.703,
         "finished_at": "2026-11-11T13:42:33.828460+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990539",
+          "size_bytes": 187915416,
+          "source_bytes_read": 187915416,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15747515",
+        "source_url": "https://sdilej.cz/15747515/teorie-velkeho-tresku-s03e03.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990539",
+        "display_name": "The Big Bang Theory S03E03 The Gothowitz Deviation SD CZ Dabing",
+        "uploaded_at": "2026-11-11T13:42:40.295296+00:00"
       }
     }
   },
@@ -356088,7 +356089,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:42:33.828489+00:00",
+  "updated_at": "2026-11-11T13:42:40.295314+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
