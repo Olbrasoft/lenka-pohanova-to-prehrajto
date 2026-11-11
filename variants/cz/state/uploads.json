@@ -345689,12 +345689,6 @@
     },
     "561:2:4": {
       "episode_key": "živí mrtví:s2:e4",
-      "claim": {
-        "worker_id": "5a8e3e6e3d034b759f95e188319ba1ab-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:07:52.757111+00:00",
-        "lease_expires_at": "2026-11-11T17:07:52.757130+00:00"
-      },
       "source": {
         "source_id": "33264587",
         "source_url": "https://sdilej.cz/33264587/zivi-mrtvi-s02e04-13-2011-cz-dab-1080p-cerokezska-ruze.mkv",
@@ -345719,22 +345713,29 @@
         "display_name": "The Walking Dead S02E04 Cherokee Rose 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:07:56.024419+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989081",
-        "size_bytes": 777639159
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989081",
-        "size_bytes": 777639159,
-        "source_bytes_read": 777639159,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989081",
         "source_bytes_read": 777639159,
         "elapsed_seconds": 53.007,
         "finished_at": "2026-11-11T11:09:12.141865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989081",
+          "size_bytes": 777639159,
+          "source_bytes_read": 777639159,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264587",
+        "source_url": "https://sdilej.cz/33264587/zivi-mrtvi-s02e04-13-2011-cz-dab-1080p-cerokezska-ruze.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989081",
+        "display_name": "The Walking Dead S02E04 Cherokee Rose 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:09:18.221573+00:00"
       }
     },
     "561:2:5": {
@@ -345780,7 +345781,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:09:12.141884+00:00",
+  "updated_at": "2026-11-11T11:09:18.221589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
