@@ -349332,12 +349332,6 @@
     },
     "561:6:16": {
       "episode_key": "živí mrtví:s6:e16",
-      "claim": {
-        "worker_id": "5bb7ab80e9be4c30b064672b2e5e9e1a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:59:20.585761+00:00",
-        "lease_expires_at": "2026-11-11T17:59:20.585778+00:00"
-      },
       "source": {
         "source_id": "33264884",
         "source_url": "https://sdilej.cz/33264884/zivi-mrtvi-s06e16-16-2015-cz-dab-1080p-posledni-den-na-zemi.mkv",
@@ -349362,22 +349356,29 @@
         "display_name": "The Walking Dead S06E16 Last Day on Earth 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:59:25.611323+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989603",
-        "size_bytes": 1256300790
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989603",
-        "size_bytes": 1256300790,
-        "source_bytes_read": 1256300790,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989603",
         "source_bytes_read": 1256300790,
         "elapsed_seconds": 81.516,
         "finished_at": "2026-11-11T12:01:03.044380+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989603",
+          "size_bytes": 1256300790,
+          "source_bytes_read": 1256300790,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264884",
+        "source_url": "https://sdilej.cz/33264884/zivi-mrtvi-s06e16-16-2015-cz-dab-1080p-posledni-den-na-zemi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989603",
+        "display_name": "The Walking Dead S06E16 Last Day on Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:01:12.475128+00:00"
       }
     },
     "561:7:1": {
@@ -349507,7 +349508,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:01:09.506419+00:00",
+  "updated_at": "2026-11-11T12:01:12.475148+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
