@@ -359437,12 +359437,6 @@
     },
     "572:5:23": {
       "episode_key": "teorie velkého třesku:s5:e23",
-      "claim": {
-        "worker_id": "d9326608cf8040188781afb4883a82bb-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:16:05.522925+00:00",
-        "lease_expires_at": "2026-11-11T23:16:05.522941+00:00"
-      },
       "source": {
         "source_id": "27592013",
         "source_url": "https://sdilej.cz/27592013/teorie-velkeho-tresku-s05e23-cz.mkv",
@@ -359467,22 +359461,29 @@
         "display_name": "The Big Bang Theory S05E23 The Launch Acceleration 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:16:10.814744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992219",
-        "size_bytes": 185543761
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992219",
-        "size_bytes": 185543761,
-        "source_bytes_read": 185543761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992219",
         "source_bytes_read": 185543761,
         "elapsed_seconds": 68.029,
         "finished_at": "2026-11-11T17:17:35.815779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992219",
+          "size_bytes": 185543761,
+          "source_bytes_read": 185543761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592013",
+        "source_url": "https://sdilej.cz/27592013/teorie-velkeho-tresku-s05e23-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992219",
+        "display_name": "The Big Bang Theory S05E23 The Launch Acceleration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:17:40.951494+00:00"
       }
     },
     "572:5:24": {
@@ -359565,7 +359566,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:17:35.815800+00:00",
+  "updated_at": "2026-11-11T17:17:40.951513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
