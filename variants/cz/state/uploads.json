@@ -348573,12 +348573,6 @@
     },
     "561:5:16": {
       "episode_key": "živí mrtví:s5:e16",
-      "claim": {
-        "worker_id": "dc1e9bcd69f8408383647c568ee77d39-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:49:43.496053+00:00",
-        "lease_expires_at": "2026-11-11T17:49:43.496068+00:00"
-      },
       "source": {
         "source_id": "31891858",
         "source_url": "https://sdilej.cz/31891858/the-walking-dead-s05e16-fhd-1080p-cz-ortel.mkv",
@@ -348603,22 +348597,29 @@
         "display_name": "The Walking Dead S05E16 Conquer 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:49:47.233009+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989484",
-        "size_bytes": 1274209216
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989484",
-        "size_bytes": 1274209216,
-        "source_bytes_read": 1274209216,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989484",
         "source_bytes_read": 1274209216,
         "elapsed_seconds": 77.949,
         "finished_at": "2026-11-11T11:51:21.049503+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989484",
+          "size_bytes": 1274209216,
+          "source_bytes_read": 1274209216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31891858",
+        "source_url": "https://sdilej.cz/31891858/the-walking-dead-s05e16-fhd-1080p-cz-ortel.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989484",
+        "display_name": "The Walking Dead S05E16 Conquer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:51:26.129038+00:00"
       }
     },
     "561:6:2": {
@@ -348664,7 +348665,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:51:21.049527+00:00",
+  "updated_at": "2026-11-11T11:51:26.129055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
