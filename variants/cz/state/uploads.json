@@ -350946,12 +350946,6 @@
     },
     "561:9:2": {
       "episode_key": "živí mrtví:s9:e2",
-      "claim": {
-        "worker_id": "3f031b453e6a41bc91061bc9c5c4955f-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:20:29.792268+00:00",
-        "lease_expires_at": "2026-11-11T18:20:29.792285+00:00"
-      },
       "source": {
         "source_id": "33264975",
         "source_url": "https://sdilej.cz/33264975/zivi-mrtvi-s09e02-16-2018-cz-dab-1080p-most.mkv",
@@ -350976,22 +350970,29 @@
         "display_name": "The Walking Dead S09E02 The Bridge 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:20:33.525845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989835",
-        "size_bytes": 870906776
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989835",
-        "size_bytes": 870906776,
-        "source_bytes_read": 870906776,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989835",
         "source_bytes_read": 870906776,
         "elapsed_seconds": 55.503,
         "finished_at": "2026-11-11T12:21:45.479648+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989835",
+          "size_bytes": 870906776,
+          "source_bytes_read": 870906776,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264975",
+        "source_url": "https://sdilej.cz/33264975/zivi-mrtvi-s09e02-16-2018-cz-dab-1080p-most.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989835",
+        "display_name": "The Walking Dead S09E02 The Bridge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:22:00.833476+00:00"
       }
     },
     "561:9:3": {
@@ -351073,7 +351074,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:21:57.975423+00:00",
+  "updated_at": "2026-11-11T12:22:00.833497+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
