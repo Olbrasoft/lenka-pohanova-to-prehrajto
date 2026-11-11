@@ -368413,12 +368413,6 @@
     },
     "394:3:1": {
       "episode_key": "griffinovi:s3:e1",
-      "claim": {
-        "worker_id": "d0faf5e439bb4b02bf00910a9d823979-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:41:49.713603+00:00",
-        "lease_expires_at": "2026-11-12T04:41:49.713621+00:00"
-      },
       "source": {
         "source_id": "31562433",
         "source_url": "https://sdilej.cz/31562433/griffinovi-s03e01-tenka-bila-linie-1080p-cz.mkv",
@@ -368443,22 +368437,29 @@
         "display_name": "Family Guy S03E01 The Thin White Line (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:41:55.422502+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994902",
-        "size_bytes": 512462458
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994902",
-        "size_bytes": 512462458,
-        "source_bytes_read": 512462458,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994902",
         "source_bytes_read": 512462458,
         "elapsed_seconds": 168.779,
         "finished_at": "2026-11-11T22:45:01.376520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994902",
+          "size_bytes": 512462458,
+          "source_bytes_read": 512462458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31562433",
+        "source_url": "https://sdilej.cz/31562433/griffinovi-s03e01-tenka-bila-linie-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994902",
+        "display_name": "Family Guy S03E01 The Thin White Line (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:45:06.288557+00:00"
       }
     },
     "394:3:2": {
@@ -368541,7 +368542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:45:01.376547+00:00",
+  "updated_at": "2026-11-11T22:45:06.288577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
