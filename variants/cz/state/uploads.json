@@ -349542,12 +349542,6 @@
     },
     "561:7:4": {
       "episode_key": "živí mrtví:s7:e4",
-      "claim": {
-        "worker_id": "f6edb3876530481d9c4c30213b5caddb-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:01:31.466214+00:00",
-        "lease_expires_at": "2026-11-11T18:01:31.466233+00:00"
-      },
       "source": {
         "source_id": "32504559",
         "source_url": "https://sdilej.cz/32504559/zivi-mrtvi-s07e04-beze-zbrani.mkv",
@@ -349572,22 +349566,29 @@
         "display_name": "The Walking Dead S07E04 Service 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:01:36.456912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989635",
-        "size_bytes": 1233970185
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989635",
-        "size_bytes": 1233970185,
-        "source_bytes_read": 1233970185,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989635",
         "source_bytes_read": 1233970185,
         "elapsed_seconds": 81.268,
         "finished_at": "2026-11-11T12:03:14.554602+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989635",
+          "size_bytes": 1233970185,
+          "source_bytes_read": 1233970185,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504559",
+        "source_url": "https://sdilej.cz/32504559/zivi-mrtvi-s07e04-beze-zbrani.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989635",
+        "display_name": "The Walking Dead S07E04 Service 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:03:24.685355+00:00"
       }
     },
     "561:7:5": {
@@ -349684,7 +349685,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:03:21.353405+00:00",
+  "updated_at": "2026-11-11T12:03:24.685372+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
