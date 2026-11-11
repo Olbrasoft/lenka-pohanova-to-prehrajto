@@ -346478,12 +346478,6 @@
     },
     "561:3:7": {
       "episode_key": "živí mrtví:s3:e7",
-      "claim": {
-        "worker_id": "6126ce5df91148338234bf2e632d3a58-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:17:28.885214+00:00",
-        "lease_expires_at": "2026-11-11T17:17:28.885230+00:00"
-      },
       "source": {
         "source_id": "32499575",
         "source_url": "https://sdilej.cz/32499575/zivi-mrtvi-s03e07-kdyz-mrtvi-klepou-na-dvere.mkv",
@@ -346508,22 +346502,29 @@
         "display_name": "The Walking Dead S03E07 When the Dead Come Knocking 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:17:35.294784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989155",
-        "size_bytes": 906689867
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989155",
-        "size_bytes": 906689867,
-        "source_bytes_read": 906689867,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989155",
         "source_bytes_read": 906689867,
         "elapsed_seconds": 60.561,
         "finished_at": "2026-11-11T11:18:56.989843+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989155",
+          "size_bytes": 906689867,
+          "source_bytes_read": 906689867,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499575",
+        "source_url": "https://sdilej.cz/32499575/zivi-mrtvi-s03e07-kdyz-mrtvi-klepou-na-dvere.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989155",
+        "display_name": "The Walking Dead S03E07 When the Dead Come Knocking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:19:06.395955+00:00"
       }
     },
     "561:3:8": {
@@ -346582,7 +346583,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:19:03.586276+00:00",
+  "updated_at": "2026-11-11T11:19:06.395974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
