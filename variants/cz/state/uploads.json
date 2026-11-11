@@ -355298,12 +355298,6 @@
     },
     "572:2:11": {
       "episode_key": "teorie velkého třesku:s2:e11",
-      "claim": {
-        "worker_id": "eecde625175c455596e9df0d35165c98-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:32:10.144706+00:00",
-        "lease_expires_at": "2026-11-11T19:32:10.144720+00:00"
-      },
       "source": {
         "source_id": "29145405",
         "source_url": "https://sdilej.cz/29145405/teorie-velkeho-tresku-s02e11-hypoteza-darkovych-predmetu-do-koupele-komedie-cz-dabing-angel-.mp4",
@@ -355327,7 +355321,13 @@
         },
         "display_name": "The Big Bang Theory S02E11 The Bath Item Gift Hypothesis 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:32:14.957100+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-11T13:32:27.535534+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "572:2:12": {
       "episode_key": "teorie velkého třesku:s2:e12",
@@ -355377,7 +355377,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:32:24.598122+00:00",
+  "updated_at": "2026-11-11T13:32:27.535541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -355625,6 +355625,14 @@
         }
       ],
       "retry_after": "2026-11-11T13:17:48.032227+00:00"
+    },
+    "572": {
+      "recent_failures": [
+        {
+          "identity": "572:2:11",
+          "at": "2026-11-11T13:32:27.535505+00:00"
+        }
+      ]
     }
   }
 }
