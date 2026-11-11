@@ -340676,12 +340676,6 @@
     },
     "583:3:10": {
       "episode_key": "dobrý doktor:s3:e10",
-      "claim": {
-        "worker_id": "89261ab7043b456986413008657781bc-worker-0",
-        "run_id": "42945606317",
-        "claimed_at": "2026-11-11T03:12:10.749603+00:00",
-        "lease_expires_at": "2026-11-11T09:12:10.749618+00:00"
-      },
       "source": {
         "source_id": "21588895",
         "source_url": "https://sdilej.cz/21588895/dobry-doktor-s03e10.mkv",
@@ -340706,22 +340700,29 @@
         "display_name": "The Good Doctor S03E10 Friends and Family SD CZ Dabing",
         "prepared_at": "2026-11-11T03:12:22.237516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30987002",
-        "size_bytes": 82077591
-      },
-      "transfer_receipt": {
-        "target_video_id": "30987002",
-        "size_bytes": 82077591,
-        "source_bytes_read": 82077591,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30987002",
         "source_bytes_read": 82077591,
         "elapsed_seconds": 1222.03,
         "finished_at": "2026-11-11T03:33:01.720291+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30987002",
+          "size_bytes": 82077591,
+          "source_bytes_read": 82077591,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21588895",
+        "source_url": "https://sdilej.cz/21588895/dobry-doktor-s03e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30987002",
+        "display_name": "The Good Doctor S03E10 Friends and Family SD CZ Dabing",
+        "uploaded_at": "2026-11-11T03:33:06.342464+00:00"
       }
     },
     "583:3:13": {
@@ -340767,7 +340768,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T03:33:01.720310+00:00",
+  "updated_at": "2026-11-11T03:33:06.342481+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
