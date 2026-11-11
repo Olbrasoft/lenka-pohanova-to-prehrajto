@@ -349689,12 +349689,6 @@
     },
     "561:7:7": {
       "episode_key": "živí mrtví:s7:e7",
-      "claim": {
-        "worker_id": "114e769a932e4000bd6536228796625a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:04:19.989462+00:00",
-        "lease_expires_at": "2026-11-11T18:04:19.989480+00:00"
-      },
       "source": {
         "source_id": "32504579",
         "source_url": "https://sdilej.cz/32504579/zivi-mrtvi-s07e07-zazpivej.mkv",
@@ -349719,22 +349713,29 @@
         "display_name": "The Walking Dead S07E07 Sing Me a Song 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:04:32.512680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989670",
-        "size_bytes": 1301626823
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989670",
-        "size_bytes": 1301626823,
-        "source_bytes_read": 1301626823,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989670",
         "source_bytes_read": 1301626823,
         "elapsed_seconds": 86.309,
         "finished_at": "2026-11-11T12:06:20.349429+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989670",
+          "size_bytes": 1301626823,
+          "source_bytes_read": 1301626823,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504579",
+        "source_url": "https://sdilej.cz/32504579/zivi-mrtvi-s07e07-zazpivej.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989670",
+        "display_name": "The Walking Dead S07E07 Sing Me a Song 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:06:30.546214+00:00"
       }
     },
     "561:7:9": {
@@ -349878,7 +349879,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:06:26.996890+00:00",
+  "updated_at": "2026-11-11T12:06:30.546233+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
