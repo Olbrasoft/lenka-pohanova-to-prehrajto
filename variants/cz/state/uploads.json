@@ -362956,12 +362956,6 @@
     },
     "572:8:22": {
       "episode_key": "teorie velkého třesku:s8:e22",
-      "claim": {
-        "worker_id": "4e97c9e5fcea4c55ad66eb9678da8bb3-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:48:35.356189+00:00",
-        "lease_expires_at": "2026-11-12T00:48:35.356212+00:00"
-      },
       "source": {
         "source_id": "29798664",
         "source_url": "https://sdilej.cz/29798664/teorie-velkeho-tresku-s08e22.mkv",
@@ -362986,22 +362980,29 @@
         "display_name": "The Big Bang Theory S08E22 The Graduation Transmission 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:48:41.365050+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993011",
-        "size_bytes": 585750032
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993011",
-        "size_bytes": 585750032,
-        "source_bytes_read": 585750032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993011",
         "source_bytes_read": 585750032,
         "elapsed_seconds": 195.263,
         "finished_at": "2026-11-11T18:52:15.229201+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993011",
+          "size_bytes": 585750032,
+          "source_bytes_read": 585750032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798664",
+        "source_url": "https://sdilej.cz/29798664/teorie-velkeho-tresku-s08e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993011",
+        "display_name": "The Big Bang Theory S08E22 The Graduation Transmission 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:52:27.180076+00:00"
       }
     },
     "572:8:23": {
@@ -363061,7 +363062,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:52:23.381779+00:00",
+  "updated_at": "2026-11-11T18:52:27.180099+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
