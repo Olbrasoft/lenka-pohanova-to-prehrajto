@@ -351772,12 +351772,6 @@
     },
     "561:10:4": {
       "episode_key": "živí mrtví:s10:e4",
-      "claim": {
-        "worker_id": "ef6ffece36934d2e9a55ba3c274c87bb-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:39:50.693574+00:00",
-        "lease_expires_at": "2026-11-11T18:39:50.693594+00:00"
-      },
       "source": {
         "source_id": "27147048",
         "source_url": "https://sdilej.cz/27147048/zivi-mrtvi-s10e04-umlcte-septace.mkv",
@@ -351802,22 +351796,29 @@
         "display_name": "The Walking Dead S10E04 Silence the Whisperers 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:39:56.865677+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989980",
-        "size_bytes": 1274987182
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989980",
-        "size_bytes": 1274987182,
-        "source_bytes_read": 1274987182,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989980",
         "source_bytes_read": 1274987182,
         "elapsed_seconds": 97.056,
         "finished_at": "2026-11-11T12:41:51.030518+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989980",
+          "size_bytes": 1274987182,
+          "source_bytes_read": 1274987182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27147048",
+        "source_url": "https://sdilej.cz/27147048/zivi-mrtvi-s10e04-umlcte-septace.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989980",
+        "display_name": "The Walking Dead S10E04 Silence the Whisperers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:42:00.854233+00:00"
       }
     },
     "561:10:5": {
@@ -351910,7 +351911,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:41:57.798513+00:00",
+  "updated_at": "2026-11-11T12:42:00.854258+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
