@@ -361732,12 +361732,6 @@
     },
     "572:7:21": {
       "episode_key": "teorie velkého třesku:s7:e21",
-      "claim": {
-        "worker_id": "d882a03c94794c2483ff9edbe4ee11f7-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:22:02.474372+00:00",
-        "lease_expires_at": "2026-11-12T00:22:02.474390+00:00"
-      },
       "source": {
         "source_id": "29798693",
         "source_url": "https://sdilej.cz/29798693/teorie-velkeho-tresku-s07e21.mkv",
@@ -361762,22 +361756,29 @@
         "display_name": "The Big Bang Theory S07E21 The Anything Can Happen Recurrence 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:22:09.950513+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992782",
-        "size_bytes": 577677925
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992782",
-        "size_bytes": 577677925,
-        "source_bytes_read": 577677925,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992782",
         "source_bytes_read": 577677925,
         "elapsed_seconds": 227.687,
         "finished_at": "2026-11-11T18:26:16.922598+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992782",
+          "size_bytes": 577677925,
+          "source_bytes_read": 577677925,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798693",
+        "source_url": "https://sdilej.cz/29798693/teorie-velkeho-tresku-s07e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992782",
+        "display_name": "The Big Bang Theory S07E21 The Anything Can Happen Recurrence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:26:21.249323+00:00"
       }
     },
     "572:7:23": {
@@ -361873,7 +361874,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:26:16.922626+00:00",
+  "updated_at": "2026-11-11T18:26:21.249341+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
