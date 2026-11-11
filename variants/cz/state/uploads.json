@@ -352276,12 +352276,6 @@
     },
     "561:10:14": {
       "episode_key": "živí mrtví:s10:e14",
-      "claim": {
-        "worker_id": "426815040fbd4bc4bc1ac97731042f3a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:46:13.317778+00:00",
-        "lease_expires_at": "2026-11-11T18:46:13.317798+00:00"
-      },
       "source": {
         "source_id": "32504871",
         "source_url": "https://sdilej.cz/32504871/zivi-mrtvi-s10e14-divej-se-na-kytky.mkv",
@@ -352306,22 +352300,29 @@
         "display_name": "The Walking Dead S10E14 Look at the Flowers 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:46:18.286045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990025",
-        "size_bytes": 952274840
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990025",
-        "size_bytes": 952274840,
-        "source_bytes_read": 952274840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990025",
         "source_bytes_read": 952274840,
         "elapsed_seconds": 129.85,
         "finished_at": "2026-11-11T12:48:42.182239+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990025",
+          "size_bytes": 952274840,
+          "source_bytes_read": 952274840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504871",
+        "source_url": "https://sdilej.cz/32504871/zivi-mrtvi-s10e14-divej-se-na-kytky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990025",
+        "display_name": "The Walking Dead S10E14 Look at the Flowers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:48:50.444029+00:00"
       }
     },
     "561:10:15": {
@@ -352403,7 +352404,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:48:45.378589+00:00",
+  "updated_at": "2026-11-11T12:48:50.444047+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
