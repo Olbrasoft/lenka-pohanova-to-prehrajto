@@ -369592,12 +369592,6 @@
     },
     "394:15:2": {
       "episode_key": "griffinovi:s15:e2",
-      "claim": {
-        "worker_id": "c169e40df46a4afab62d75e75469f6c1-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:20:53.895004+00:00",
-        "lease_expires_at": "2026-11-12T05:20:53.895021+00:00"
-      },
       "source": {
         "source_id": "35269085",
         "source_url": "https://sdilej.cz/35269085/griffinovi-s15e02-sazkar-roku-cz.mkv",
@@ -369622,22 +369616,29 @@
         "display_name": "Family Guy S15E02 Bookie of the Year 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:21:00.242814+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995297",
-        "size_bytes": 829710867
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995297",
-        "size_bytes": 829710867,
-        "source_bytes_read": 829710867,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995297",
         "source_bytes_read": 829710867,
         "elapsed_seconds": 344.819,
         "finished_at": "2026-11-11T23:27:06.066478+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995297",
+          "size_bytes": 829710867,
+          "source_bytes_read": 829710867,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35269085",
+        "source_url": "https://sdilej.cz/35269085/griffinovi-s15e02-sazkar-roku-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995297",
+        "display_name": "Family Guy S15E02 Bookie of the Year 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:27:12.602358+00:00"
       }
     },
     "394:15:3": {
@@ -369683,7 +369684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:27:06.066501+00:00",
+  "updated_at": "2026-11-11T23:27:12.602377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
