@@ -363976,12 +363976,6 @@
     },
     "572:9:18": {
       "episode_key": "teorie velkého třesku:s9:e18",
-      "claim": {
-        "worker_id": "7ad536cd5932483ebcac6eaa9480d1b4-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:23:37.717833+00:00",
-        "lease_expires_at": "2026-11-12T01:23:37.717847+00:00"
-      },
       "source": {
         "source_id": "29798644",
         "source_url": "https://sdilej.cz/29798644/teorie-velkeho-tresku-s09e18.mkv",
@@ -364006,22 +364000,29 @@
         "display_name": "The Big Bang Theory S09E18 The Application Deterioration 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:23:46.247778+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993259",
-        "size_bytes": 589304224
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993259",
-        "size_bytes": 589304224,
-        "source_bytes_read": 589304224,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993259",
         "source_bytes_read": 589304224,
         "elapsed_seconds": 214.429,
         "finished_at": "2026-11-11T19:27:36.710968+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993259",
+          "size_bytes": 589304224,
+          "source_bytes_read": 589304224,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798644",
+        "source_url": "https://sdilej.cz/29798644/teorie-velkeho-tresku-s09e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993259",
+        "display_name": "The Big Bang Theory S09E18 The Application Deterioration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:27:40.956086+00:00"
       }
     },
     "572:9:19": {
@@ -364104,7 +364105,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:27:36.710988+00:00",
+  "updated_at": "2026-11-11T19:27:40.956105+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
