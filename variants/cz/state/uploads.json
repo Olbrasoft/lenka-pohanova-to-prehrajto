@@ -353209,12 +353209,6 @@
     },
     "561:11:11": {
       "episode_key": "živí mrtví:s11:e11",
-      "claim": {
-        "worker_id": "85e38dfda6da423c9bccc31c04c930e5-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:59:43.082472+00:00",
-        "lease_expires_at": "2026-11-11T18:59:43.082486+00:00"
-      },
       "source": {
         "source_id": "35006059",
         "source_url": "https://sdilej.cz/35006059/zivi-mrtvi-s11e11-164-2022-fhd-nevyzpytatelny-prvek-s-.mp4",
@@ -353239,22 +353233,29 @@
         "display_name": "The Walking Dead S11E11 Rogue Element 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:59:46.581872+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990116",
-        "size_bytes": 980777436
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990116",
-        "size_bytes": 980777436,
-        "source_bytes_read": 980777436,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990116",
         "source_bytes_read": 980777436,
         "elapsed_seconds": 63.387,
         "finished_at": "2026-11-11T13:01:05.538666+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990116",
+          "size_bytes": 980777436,
+          "source_bytes_read": 980777436,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35006059",
+        "source_url": "https://sdilej.cz/35006059/zivi-mrtvi-s11e11-164-2022-fhd-nevyzpytatelny-prvek-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990116",
+        "display_name": "The Walking Dead S11E11 Rogue Element 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:01:14.697769+00:00"
       }
     },
     "561:11:12": {
@@ -353337,7 +353338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:01:10.066666+00:00",
+  "updated_at": "2026-11-11T13:01:14.697786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
