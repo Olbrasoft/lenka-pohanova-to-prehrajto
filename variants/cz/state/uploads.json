@@ -364537,12 +364537,6 @@
     },
     "572:10:5": {
       "episode_key": "teorie velkého třesku:s10:e5",
-      "claim": {
-        "worker_id": "0ee1f81142544edbbf44e4083a7fb1c4-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:36:46.921108+00:00",
-        "lease_expires_at": "2026-11-12T01:36:46.921124+00:00"
-      },
       "source": {
         "source_id": "29798631",
         "source_url": "https://sdilej.cz/29798631/teorie-velkeho-tresku-s10e05.mkv",
@@ -364567,22 +364561,29 @@
         "display_name": "The Big Bang Theory S10E05 The Hot Tub Contamination 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:36:50.676559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993343",
-        "size_bytes": 1291617907
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993343",
-        "size_bytes": 1291617907,
-        "source_bytes_read": 1291617907,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993343",
         "source_bytes_read": 1291617907,
         "elapsed_seconds": 481.631,
         "finished_at": "2026-11-11T19:45:07.466634+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993343",
+          "size_bytes": 1291617907,
+          "source_bytes_read": 1291617907,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798631",
+        "source_url": "https://sdilej.cz/29798631/teorie-velkeho-tresku-s10e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993343",
+        "display_name": "The Big Bang Theory S10E05 The Hot Tub Contamination 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:45:12.085366+00:00"
       }
     },
     "572:10:6": {
@@ -364767,7 +364768,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:45:07.466654+00:00",
+  "updated_at": "2026-11-11T19:45:12.085385+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
