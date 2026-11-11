@@ -364690,12 +364690,6 @@
     },
     "572:10:8": {
       "episode_key": "teorie velkého třesku:s10:e8",
-      "claim": {
-        "worker_id": "6f16866c058b48cc9a14d37075b452b2-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:44:33.800180+00:00",
-        "lease_expires_at": "2026-11-12T01:44:33.800196+00:00"
-      },
       "source": {
         "source_id": "11024350",
         "source_url": "https://sdilej.cz/11024350/the.big.bang.theory.s10e08.1080p.10bit.bluray.ac3.x265.hevc-rcv-czaudio-.mkv",
@@ -364720,22 +364714,29 @@
         "display_name": "The Big Bang Theory S10E08 The Brain Bowl Incubation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:44:40.375892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993385",
-        "size_bytes": 564966284
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993385",
-        "size_bytes": 564966284,
-        "source_bytes_read": 564966284,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993385",
         "source_bytes_read": 564966284,
         "elapsed_seconds": 216.645,
         "finished_at": "2026-11-11T19:48:34.745529+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993385",
+          "size_bytes": 564966284,
+          "source_bytes_read": 564966284,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11024350",
+        "source_url": "https://sdilej.cz/11024350/the.big.bang.theory.s10e08.1080p.10bit.bluray.ac3.x265.hevc-rcv-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993385",
+        "display_name": "The Big Bang Theory S10E08 The Brain Bowl Incubation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:48:40.828051+00:00"
       }
     },
     "572:10:9": {
@@ -364920,7 +364921,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:48:34.745547+00:00",
+  "updated_at": "2026-11-11T19:48:40.828070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
