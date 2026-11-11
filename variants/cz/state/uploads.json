@@ -362395,12 +362395,6 @@
     },
     "572:8:11": {
       "episode_key": "teorie velkého třesku:s8:e11",
-      "claim": {
-        "worker_id": "4aa3b00c41444ad6892113e0a67bf1bb-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:36:51.962284+00:00",
-        "lease_expires_at": "2026-11-12T00:36:51.962300+00:00"
-      },
       "source": {
         "source_id": "13056179",
         "source_url": "https://sdilej.cz/13056179/teorie-velkeho-tresku-s08e11-infiltrace-sterilni-mistnosti-cz.h265.tweety.mkv",
@@ -362425,22 +362419,29 @@
         "display_name": "The Big Bang Theory S08E11 The Clean Room Infiltration 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:36:55.457699+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992908",
-        "size_bytes": 224246335
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992908",
-        "size_bytes": 224246335,
-        "source_bytes_read": 224246335,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992908",
         "source_bytes_read": 224246335,
         "elapsed_seconds": 68.188,
         "finished_at": "2026-11-11T18:38:20.832532+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992908",
+          "size_bytes": 224246335,
+          "source_bytes_read": 224246335,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13056179",
+        "source_url": "https://sdilej.cz/13056179/teorie-velkeho-tresku-s08e11-infiltrace-sterilni-mistnosti-cz.h265.tweety.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992908",
+        "display_name": "The Big Bang Theory S08E11 The Clean Room Infiltration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:38:25.654431+00:00"
       }
     },
     "572:8:12": {
@@ -362523,7 +362524,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:38:20.832549+00:00",
+  "updated_at": "2026-11-11T18:38:25.654449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
