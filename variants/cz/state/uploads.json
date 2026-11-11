@@ -366869,12 +366869,6 @@
     },
     "572:12:3": {
       "episode_key": "teorie velkého třesku:s12:e3",
-      "claim": {
-        "worker_id": "72f92138831f4754a1a8712d4b571b75-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T21:52:06.043007+00:00",
-        "lease_expires_at": "2026-11-12T03:52:06.043024+00:00"
-      },
       "source": {
         "source_id": "11526962",
         "source_url": "https://sdilej.cz/11526962/teorie-velkeho-tresku-s12e03.mkv",
@@ -366899,22 +366893,29 @@
         "display_name": "The Big Bang Theory S12E03 The Procreation Calculation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T21:52:09.471132+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994433",
-        "size_bytes": 164646152
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994433",
-        "size_bytes": 164646152,
-        "source_bytes_read": 164646152,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994433",
         "source_bytes_read": 164646152,
         "elapsed_seconds": 84.103,
         "finished_at": "2026-11-11T21:53:47.482767+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994433",
+          "size_bytes": 164646152,
+          "source_bytes_read": 164646152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11526962",
+        "source_url": "https://sdilej.cz/11526962/teorie-velkeho-tresku-s12e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994433",
+        "display_name": "The Big Bang Theory S12E03 The Procreation Calculation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T21:53:51.834222+00:00"
       }
     },
     "572:12:4": {
@@ -366960,7 +366961,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T21:53:47.482793+00:00",
+  "updated_at": "2026-11-11T21:53:51.834245+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
