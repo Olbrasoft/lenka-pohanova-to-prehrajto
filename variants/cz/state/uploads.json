@@ -361120,12 +361120,6 @@
     },
     "572:7:8": {
       "episode_key": "teorie velkého třesku:s7:e8",
-      "claim": {
-        "worker_id": "4813cc8aad1f4f658105d67436bea82c-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:56:02.711466+00:00",
-        "lease_expires_at": "2026-11-11T23:56:02.711483+00:00"
-      },
       "source": {
         "source_id": "27592332",
         "source_url": "https://sdilej.cz/27592332/teorie-velkeho-tresku-s07e08-cz.mkv",
@@ -361150,22 +361144,29 @@
         "display_name": "The Big Bang Theory S07E08 The Itchy Brain Simulation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:56:06.877515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992582",
-        "size_bytes": 198312692
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992582",
-        "size_bytes": 198312692,
-        "source_bytes_read": 198312692,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992582",
         "source_bytes_read": 198312692,
         "elapsed_seconds": 61.598,
         "finished_at": "2026-11-11T17:57:24.743321+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992582",
+          "size_bytes": 198312692,
+          "source_bytes_read": 198312692,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592332",
+        "source_url": "https://sdilej.cz/27592332/teorie-velkeho-tresku-s07e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992582",
+        "display_name": "The Big Bang Theory S07E08 The Itchy Brain Simulation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:57:29.362669+00:00"
       }
     },
     "572:7:9": {
@@ -361248,7 +361249,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:57:24.743340+00:00",
+  "updated_at": "2026-11-11T17:57:29.362688+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
