@@ -345860,12 +345860,6 @@
     },
     "561:2:7": {
       "episode_key": "živí mrtví:s2:e7",
-      "claim": {
-        "worker_id": "5ce3768bf0614a40ae98c8fd31d57793-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:10:06.564722+00:00",
-        "lease_expires_at": "2026-11-11T17:10:06.564739+00:00"
-      },
       "source": {
         "source_id": "33264592",
         "source_url": "https://sdilej.cz/33264592/zivi-mrtvi-s02e07-13-2011-cz-dab-1080p-stodola.mkv",
@@ -345890,22 +345884,29 @@
         "display_name": "The Walking Dead S02E07 Pretty Much Dead Already 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:10:12.501903+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989092",
-        "size_bytes": 843907016
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989092",
-        "size_bytes": 843907016,
-        "source_bytes_read": 843907016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989092",
         "source_bytes_read": 843907016,
         "elapsed_seconds": 52.966,
         "finished_at": "2026-11-11T11:11:21.157474+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989092",
+          "size_bytes": 843907016,
+          "source_bytes_read": 843907016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264592",
+        "source_url": "https://sdilej.cz/33264592/zivi-mrtvi-s02e07-13-2011-cz-dab-1080p-stodola.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989092",
+        "display_name": "The Walking Dead S02E07 Pretty Much Dead Already 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:11:28.586789+00:00"
       }
     },
     "561:2:8": {
@@ -345988,7 +345989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:11:24.144468+00:00",
+  "updated_at": "2026-11-11T11:11:28.586805+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
