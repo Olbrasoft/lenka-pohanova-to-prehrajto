@@ -353750,12 +353750,6 @@
     },
     "561:11:22": {
       "episode_key": "živí mrtví:s11:e22",
-      "claim": {
-        "worker_id": "12ee613af48445d5a395cf3980ca0958-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:07:32.230249+00:00",
-        "lease_expires_at": "2026-11-11T19:07:32.230265+00:00"
-      },
       "source": {
         "source_id": "31892093",
         "source_url": "https://sdilej.cz/31892093/the-walking-dead-s11e22-zivi-mrtvi-fhd-1080p-cz-sk-vira.mkv",
@@ -353779,7 +353773,13 @@
         },
         "display_name": "The Walking Dead S11E22 Faith 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:07:35.850735+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-11T13:07:48.032290+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -353787,7 +353787,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:07:35.850753+00:00",
+  "updated_at": "2026-11-11T13:07:48.032297+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -354004,8 +354004,13 @@
         {
           "identity": "561:10:18",
           "at": "2026-11-11T13:05:25.413633+00:00"
+        },
+        {
+          "identity": "561:11:22",
+          "at": "2026-11-11T13:07:48.032227+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-11T13:17:48.032227+00:00"
     }
   }
 }
