@@ -366628,12 +366628,6 @@
     },
     "572:11:22": {
       "episode_key": "teorie velkého třesku:s11:e22",
-      "claim": {
-        "worker_id": "3566ae61dbbf4e2892f0d3b3892ab06f-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T21:44:57.987398+00:00",
-        "lease_expires_at": "2026-11-12T03:44:57.987414+00:00"
-      },
       "source": {
         "source_id": "29798582",
         "source_url": "https://sdilej.cz/29798582/teorie-velkeho-tresku-s11e22.mkv",
@@ -366658,22 +366652,29 @@
         "display_name": "The Big Bang Theory S11E22 The Monetary Insufficiency 1080p CZ Dabing",
         "prepared_at": "2026-11-11T21:45:01.566514+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994372",
-        "size_bytes": 585957574
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994372",
-        "size_bytes": 585957574,
-        "source_bytes_read": 585957574,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994372",
         "source_bytes_read": 585957574,
         "elapsed_seconds": 241.384,
         "finished_at": "2026-11-11T21:49:19.423899+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994372",
+          "size_bytes": 585957574,
+          "source_bytes_read": 585957574,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798582",
+        "source_url": "https://sdilej.cz/29798582/teorie-velkeho-tresku-s11e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994372",
+        "display_name": "The Big Bang Theory S11E22 The Monetary Insufficiency 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T21:49:25.140562+00:00"
       }
     },
     "572:11:23": {
@@ -366719,7 +366720,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T21:49:19.423931+00:00",
+  "updated_at": "2026-11-11T21:49:25.140581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
