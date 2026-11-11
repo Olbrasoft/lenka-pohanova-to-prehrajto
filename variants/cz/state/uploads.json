@@ -360661,12 +360661,6 @@
     },
     "572:6:23": {
       "episode_key": "teorie velkého třesku:s6:e23",
-      "claim": {
-        "worker_id": "54c096aba0654c5eb3aef82c15e80a23-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:42:59.258394+00:00",
-        "lease_expires_at": "2026-11-11T23:42:59.258411+00:00"
-      },
       "source": {
         "source_id": "29798716",
         "source_url": "https://sdilej.cz/29798716/teorie-velkeho-tresku-s06e23.mkv",
@@ -360691,22 +360685,29 @@
         "display_name": "The Big Bang Theory S06E23 The Love Spell Potential 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:43:02.768432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992484",
-        "size_bytes": 594168328
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992484",
-        "size_bytes": 594168328,
-        "source_bytes_read": 594168328,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992484",
         "source_bytes_read": 594168328,
         "elapsed_seconds": 212.7,
         "finished_at": "2026-11-11T17:46:53.405532+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992484",
+          "size_bytes": 594168328,
+          "source_bytes_read": 594168328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798716",
+        "source_url": "https://sdilej.cz/29798716/teorie-velkeho-tresku-s06e23.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992484",
+        "display_name": "The Big Bang Theory S06E23 The Love Spell Potential 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:46:59.046624+00:00"
       }
     },
     "572:6:24": {
@@ -360803,7 +360804,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:46:53.405551+00:00",
+  "updated_at": "2026-11-11T17:46:59.046643+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
