@@ -350548,12 +350548,6 @@
     },
     "561:8:10": {
       "episode_key": "živí mrtví:s8:e10",
-      "claim": {
-        "worker_id": "9360416298cc42e6b9ac021fea91090e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:14:03.774348+00:00",
-        "lease_expires_at": "2026-11-11T18:14:03.774368+00:00"
-      },
       "source": {
         "source_id": "32509903",
         "source_url": "https://sdilej.cz/32509903/the-walking-dead-s08e10-cz-dabing-1080p.mkv",
@@ -350578,22 +350572,29 @@
         "display_name": "The Walking Dead S08E10 The Lost and the Plunderers 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:14:12.601930+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989762",
-        "size_bytes": 925806400
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989762",
-        "size_bytes": 925806400,
-        "source_bytes_read": 925806400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989762",
         "source_bytes_read": 925806400,
         "elapsed_seconds": 58.654,
         "finished_at": "2026-11-11T12:15:28.100475+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989762",
+          "size_bytes": 925806400,
+          "source_bytes_read": 925806400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32509903",
+        "source_url": "https://sdilej.cz/32509903/the-walking-dead-s08e10-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989762",
+        "display_name": "The Walking Dead S08E10 The Lost and the Plunderers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:15:34.886102+00:00"
       }
     }
   },
@@ -350602,7 +350603,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:15:31.652060+00:00",
+  "updated_at": "2026-11-11T12:15:34.886120+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
