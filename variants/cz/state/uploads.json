@@ -355247,12 +355247,6 @@
     },
     "572:2:10": {
       "episode_key": "teorie velkého třesku:s2:e10",
-      "claim": {
-        "worker_id": "3946059ea52f42a3acf1a879b7440a60-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:29:29.074371+00:00",
-        "lease_expires_at": "2026-11-11T19:29:29.074388+00:00"
-      },
       "source": {
         "source_id": "29798894",
         "source_url": "https://sdilej.cz/29798894/teorie-velkeho-tresku-s02e10.mkv",
@@ -355277,22 +355271,29 @@
         "display_name": "The Big Bang Theory S02E10 The Vartabedian Conundrum 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:29:35.464319+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990426",
-        "size_bytes": 615990681
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990426",
-        "size_bytes": 615990681,
-        "source_bytes_read": 615990681,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990426",
         "source_bytes_read": 615990681,
         "elapsed_seconds": 51.039,
         "finished_at": "2026-11-11T13:30:46.722732+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990426",
+          "size_bytes": 615990681,
+          "source_bytes_read": 615990681,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798894",
+        "source_url": "https://sdilej.cz/29798894/teorie-velkeho-tresku-s02e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990426",
+        "display_name": "The Big Bang Theory S02E10 The Vartabedian Conundrum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:30:57.025979+00:00"
       }
     }
   },
@@ -355301,7 +355302,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:30:50.821737+00:00",
+  "updated_at": "2026-11-11T13:30:57.026005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
