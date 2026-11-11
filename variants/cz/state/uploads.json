@@ -346319,12 +346319,6 @@
     },
     "561:3:3": {
       "episode_key": "živí mrtví:s3:e3",
-      "claim": {
-        "worker_id": "72c7702d301d474eb400b36181971ba1-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:14:51.236031+00:00",
-        "lease_expires_at": "2026-11-11T17:14:51.236048+00:00"
-      },
       "source": {
         "source_id": "32499451",
         "source_url": "https://sdilej.cz/32499451/zivi-mrtvi-s03e03-pojd-se-mnou.mkv",
@@ -346349,22 +346343,29 @@
         "display_name": "The Walking Dead S03E03 Walk with Me 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:14:54.836425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989133",
-        "size_bytes": 890273870
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989133",
-        "size_bytes": 890273870,
-        "source_bytes_read": 890273870,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989133",
         "source_bytes_read": 890273870,
         "elapsed_seconds": 58.037,
         "finished_at": "2026-11-11T11:16:08.381936+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989133",
+          "size_bytes": 890273870,
+          "source_bytes_read": 890273870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499451",
+        "source_url": "https://sdilej.cz/32499451/zivi-mrtvi-s03e03-pojd-se-mnou.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989133",
+        "display_name": "The Walking Dead S03E03 Walk with Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:16:13.298307+00:00"
       }
     },
     "561:3:4": {
@@ -346447,7 +346448,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:16:08.381956+00:00",
+  "updated_at": "2026-11-11T11:16:13.298323+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
