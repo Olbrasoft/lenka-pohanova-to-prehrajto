@@ -348630,12 +348630,6 @@
     },
     "561:6:2": {
       "episode_key": "živí mrtví:s6:e2",
-      "claim": {
-        "worker_id": "55858ab8d50b4aaa9dfb47660dfa1e50-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:50:14.990787+00:00",
-        "lease_expires_at": "2026-11-11T17:50:14.990805+00:00"
-      },
       "source": {
         "source_id": "32502037",
         "source_url": "https://sdilej.cz/32502037/zivi-mrtvi-s06e02-jss.mkv",
@@ -348660,22 +348654,29 @@
         "display_name": "The Walking Dead S06E02 JSS 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:50:18.504409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989492",
-        "size_bytes": 889754772
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989492",
-        "size_bytes": 889754772,
-        "source_bytes_read": 889754772,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989492",
         "source_bytes_read": 889754772,
         "elapsed_seconds": 70.229,
         "finished_at": "2026-11-11T11:51:45.614278+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989492",
+          "size_bytes": 889754772,
+          "source_bytes_read": 889754772,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32502037",
+        "source_url": "https://sdilej.cz/32502037/zivi-mrtvi-s06e02-jss.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989492",
+        "display_name": "The Walking Dead S06E02 JSS 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:51:51.839854+00:00"
       }
     }
   },
@@ -348684,7 +348685,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:51:48.503232+00:00",
+  "updated_at": "2026-11-11T11:51:51.839875+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
