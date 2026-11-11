@@ -350657,12 +350657,6 @@
     },
     "561:8:12": {
       "episode_key": "živí mrtví:s8:e12",
-      "claim": {
-        "worker_id": "31044abda112455b992e47ec9d2354f9-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:16:56.525026+00:00",
-        "lease_expires_at": "2026-11-11T18:16:56.525041+00:00"
-      },
       "source": {
         "source_id": "32504687",
         "source_url": "https://sdilej.cz/32504687/zivi-mrtvi-s08e12-klic.mkv",
@@ -350687,22 +350681,29 @@
         "display_name": "The Walking Dead S08E12 The Key 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:17:00.052772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989793",
-        "size_bytes": 954166158
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989793",
-        "size_bytes": 954166158,
-        "source_bytes_read": 954166158,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989793",
         "source_bytes_read": 954166158,
         "elapsed_seconds": 63.6,
         "finished_at": "2026-11-11T12:18:18.974109+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989793",
+          "size_bytes": 954166158,
+          "source_bytes_read": 954166158,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504687",
+        "source_url": "https://sdilej.cz/32504687/zivi-mrtvi-s08e12-klic.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989793",
+        "display_name": "The Walking Dead S08E12 The Key 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:18:26.867885+00:00"
       }
     },
     "561:8:13": {
@@ -350781,7 +350782,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:18:22.110781+00:00",
+  "updated_at": "2026-11-11T12:18:26.867901+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
