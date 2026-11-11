@@ -358311,12 +358311,6 @@
     },
     "572:4:24": {
       "episode_key": "teorie velkého třesku:s4:e24",
-      "claim": {
-        "worker_id": "d34b245e5dc94472b4068733741c33e8-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:13:07.754543+00:00",
-        "lease_expires_at": "2026-11-11T20:13:07.754558+00:00"
-      },
       "source": {
         "source_id": "29798788",
         "source_url": "https://sdilej.cz/29798788/teorie-velkeho-tresku-s04e24.mkv",
@@ -358341,22 +358335,29 @@
         "display_name": "The Big Bang Theory S04E24 The Roommate Transmogrification 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:13:14.383860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990938",
-        "size_bytes": 622665515
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990938",
-        "size_bytes": 622665515,
-        "source_bytes_read": 622665515,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990938",
         "source_bytes_read": 622665515,
         "elapsed_seconds": 133.338,
         "finished_at": "2026-11-11T14:15:47.730542+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990938",
+          "size_bytes": 622665515,
+          "source_bytes_read": 622665515,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798788",
+        "source_url": "https://sdilej.cz/29798788/teorie-velkeho-tresku-s04e24.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990938",
+        "display_name": "The Big Bang Theory S04E24 The Roommate Transmogrification 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:15:55.502243+00:00"
       }
     },
     "572:5:1": {
@@ -358452,7 +358453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:15:50.831206+00:00",
+  "updated_at": "2026-11-11T14:15:55.502261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
