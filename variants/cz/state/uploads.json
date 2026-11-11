@@ -348108,12 +348108,6 @@
     },
     "561:5:7": {
       "episode_key": "živí mrtví:s5:e7",
-      "claim": {
-        "worker_id": "ae2c356ec12c45c0b92f944a1eb550d6-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:45:05.079304+00:00",
-        "lease_expires_at": "2026-11-11T17:45:05.079323+00:00"
-      },
       "source": {
         "source_id": "33264811",
         "source_url": "https://sdilej.cz/33264811/zivi-mrtvi-s05e07-16-2014-cz-dab-1080p-krize.mkv",
@@ -348138,22 +348132,29 @@
         "display_name": "The Walking Dead S05E07 Crossed 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:45:08.669062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989426",
-        "size_bytes": 845268869
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989426",
-        "size_bytes": 845268869,
-        "source_bytes_read": 845268869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989426",
         "source_bytes_read": 845268869,
         "elapsed_seconds": 54.432,
         "finished_at": "2026-11-11T11:46:18.241690+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989426",
+          "size_bytes": 845268869,
+          "source_bytes_read": 845268869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264811",
+        "source_url": "https://sdilej.cz/33264811/zivi-mrtvi-s05e07-16-2014-cz-dab-1080p-krize.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989426",
+        "display_name": "The Walking Dead S05E07 Crossed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:46:25.831359+00:00"
       }
     },
     "561:5:8": {
@@ -348236,7 +348237,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:46:21.217614+00:00",
+  "updated_at": "2026-11-11T11:46:25.831377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
