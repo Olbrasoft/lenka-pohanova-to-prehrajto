@@ -368770,12 +368770,6 @@
     },
     "394:11:17": {
       "episode_key": "griffinovi:s11:e17",
-      "claim": {
-        "worker_id": "7e95cdacd27d4af9a4978eaa90850a29-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:49:49.550855+00:00",
-        "lease_expires_at": "2026-11-12T04:49:49.550873+00:00"
-      },
       "source": {
         "source_id": "34469207",
         "source_url": "https://sdilej.cz/34469207/griffinovi-s11e17-peter-divochem-1080p-web-dl-cz-dabing.mkv",
@@ -368800,22 +368794,29 @@
         "display_name": "Family Guy S11E17 Bigfat 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:49:56.335220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994972",
-        "size_bytes": 1040598403
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994972",
-        "size_bytes": 1040598403,
-        "source_bytes_read": 1040598403,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994972",
         "source_bytes_read": 1040598403,
         "elapsed_seconds": 345.237,
         "finished_at": "2026-11-11T22:55:55.978440+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994972",
+          "size_bytes": 1040598403,
+          "source_bytes_read": 1040598403,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34469207",
+        "source_url": "https://sdilej.cz/34469207/griffinovi-s11e17-peter-divochem-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994972",
+        "display_name": "Family Guy S11E17 Bigfat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:56:02.189550+00:00"
       }
     },
     "394:11:18": {
@@ -368949,7 +368950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:55:55.978463+00:00",
+  "updated_at": "2026-11-11T22:56:02.189568+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
