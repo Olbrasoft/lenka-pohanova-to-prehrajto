@@ -343922,12 +343922,6 @@
     },
     "42:4:9": {
       "episode_key": "dračí princ:s4:e9",
-      "claim": {
-        "worker_id": "089c9519a9b146bf9d862de9873d070c-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:44:20.403793+00:00",
-        "lease_expires_at": "2026-11-11T16:44:20.403809+00:00"
-      },
       "source": {
         "source_id": "23636652",
         "source_url": "https://sdilej.cz/23636652/draci-princ-the-dragon-prince-s04e09-hd-5.1-cz-dabing.mkv",
@@ -343952,22 +343946,29 @@
         "display_name": "The Dragon Prince S04E09 Escape from Umber Tor 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:44:31.220883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988950",
-        "size_bytes": 963512018
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988950",
-        "size_bytes": 963512018,
-        "source_bytes_read": 963512018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988950",
         "source_bytes_read": 963512018,
         "elapsed_seconds": 40.029,
         "finished_at": "2026-11-11T10:45:28.714624+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988950",
+          "size_bytes": 963512018,
+          "source_bytes_read": 963512018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23636652",
+        "source_url": "https://sdilej.cz/23636652/draci-princ-the-dragon-prince-s04e09-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988950",
+        "display_name": "The Dragon Prince S04E09 Escape from Umber Tor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:45:33.256609+00:00"
       }
     }
   },
@@ -343976,7 +343977,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:45:28.714644+00:00",
+  "updated_at": "2026-11-11T10:45:33.256624+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
