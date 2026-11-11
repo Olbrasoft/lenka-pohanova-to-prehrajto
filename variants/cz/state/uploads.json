@@ -351048,12 +351048,6 @@
     },
     "561:9:4": {
       "episode_key": "živí mrtví:s9:e4",
-      "claim": {
-        "worker_id": "f682405b40e74d9fabe2077d9d33a0cb-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:21:39.527855+00:00",
-        "lease_expires_at": "2026-11-11T18:21:39.527876+00:00"
-      },
       "source": {
         "source_id": "33264976",
         "source_url": "https://sdilej.cz/33264976/zivi-mrtvi-s09e04-16-2018-cz-dab-1080p-zavazky.mkv",
@@ -351078,22 +351072,29 @@
         "display_name": "The Walking Dead S09E04 The Obliged 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:21:48.630413+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989847",
-        "size_bytes": 825582070
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989847",
-        "size_bytes": 825582070,
-        "source_bytes_read": 825582070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989847",
         "source_bytes_read": 825582070,
         "elapsed_seconds": 53.066,
         "finished_at": "2026-11-11T12:23:04.197645+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989847",
+          "size_bytes": 825582070,
+          "source_bytes_read": 825582070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264976",
+        "source_url": "https://sdilej.cz/33264976/zivi-mrtvi-s09e04-16-2018-cz-dab-1080p-zavazky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989847",
+        "display_name": "The Walking Dead S09E04 The Obliged 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:23:12.365490+00:00"
       }
     }
   },
@@ -351102,7 +351103,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:23:09.501236+00:00",
+  "updated_at": "2026-11-11T12:23:12.365508+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
