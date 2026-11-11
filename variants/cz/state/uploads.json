@@ -359641,12 +359641,6 @@
     },
     "572:6:3": {
       "episode_key": "teorie velkého třesku:s6:e3",
-      "claim": {
-        "worker_id": "a7c20d98bbda4d99a4eadd38bba2f4e3-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:18:19.466531+00:00",
-        "lease_expires_at": "2026-11-11T23:18:19.466546+00:00"
-      },
       "source": {
         "source_id": "13055494",
         "source_url": "https://sdilej.cz/13055494/teorie-velkeho-tresku-s06e03-poznatek-o-higgsove-bosonu-cz.h265.tweety.mkv",
@@ -359671,22 +359665,29 @@
         "display_name": "The Big Bang Theory S06E03 The Higgs Boson Observation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:18:24.035109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992249",
-        "size_bytes": 226186995
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992249",
-        "size_bytes": 226186995,
-        "source_bytes_read": 226186995,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992249",
         "source_bytes_read": 226186995,
         "elapsed_seconds": 97.142,
         "finished_at": "2026-11-11T17:20:16.155168+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992249",
+          "size_bytes": 226186995,
+          "source_bytes_read": 226186995,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13055494",
+        "source_url": "https://sdilej.cz/13055494/teorie-velkeho-tresku-s06e03-poznatek-o-higgsove-bosonu-cz.h265.tweety.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992249",
+        "display_name": "The Big Bang Theory S06E03 The Higgs Boson Observation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:20:26.012131+00:00"
       }
     },
     "572:6:4": {
@@ -359769,7 +359770,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:20:16.155188+00:00",
+  "updated_at": "2026-11-11T17:20:26.012150+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
