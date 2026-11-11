@@ -344599,12 +344599,6 @@
     },
     "42:7:3": {
       "episode_key": "dračí princ:s7:e3",
-      "claim": {
-        "worker_id": "b4045a2654154f58b7b908129e2f458e-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:51:56.795591+00:00",
-        "lease_expires_at": "2026-11-11T16:51:56.795601+00:00"
-      },
       "source": {
         "source_id": "30249635",
         "source_url": "https://sdilej.cz/30249635/draci-princ-s07e03-trpytive-kosti.mkv",
@@ -344629,22 +344623,29 @@
         "display_name": "The Dragon Prince S07E03 The Glittering Bones 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:52:00.371835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988993",
-        "size_bytes": 675807516
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988993",
-        "size_bytes": 675807516,
-        "source_bytes_read": 675807516,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988993",
         "source_bytes_read": 675807516,
         "elapsed_seconds": 31.254,
         "finished_at": "2026-11-11T10:52:52.003034+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988993",
+          "size_bytes": 675807516,
+          "source_bytes_read": 675807516,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30249635",
+        "source_url": "https://sdilej.cz/30249635/draci-princ-s07e03-trpytive-kosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988993",
+        "display_name": "The Dragon Prince S07E03 The Glittering Bones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:52:58.855709+00:00"
       }
     },
     "42:7:4": {
@@ -344727,7 +344728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:52:54.896428+00:00",
+  "updated_at": "2026-11-11T10:52:58.855722+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
