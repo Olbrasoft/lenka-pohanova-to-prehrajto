@@ -359335,12 +359335,6 @@
     },
     "572:5:21": {
       "episode_key": "teorie velkého třesku:s5:e21",
-      "claim": {
-        "worker_id": "6128fd90793943f4b330607e65dcd588-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:14:04.792700+00:00",
-        "lease_expires_at": "2026-11-11T23:14:04.792716+00:00"
-      },
       "source": {
         "source_id": "35087334",
         "source_url": "https://sdilej.cz/35087334/teorie-velkeho-tresku-s05e21-hawkingova-excitace-cz-2011.mkv",
@@ -359365,22 +359359,29 @@
         "display_name": "The Big Bang Theory S05E21 The Hawking Excitation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:14:08.680397+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992207",
-        "size_bytes": 333716734
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992207",
-        "size_bytes": 333716734,
-        "source_bytes_read": 333716734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992207",
         "source_bytes_read": 333716734,
         "elapsed_seconds": 89.89,
         "finished_at": "2026-11-11T17:15:56.707057+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992207",
+          "size_bytes": 333716734,
+          "source_bytes_read": 333716734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35087334",
+        "source_url": "https://sdilej.cz/35087334/teorie-velkeho-tresku-s05e21-hawkingova-excitace-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992207",
+        "display_name": "The Big Bang Theory S05E21 The Hawking Excitation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:16:02.569054+00:00"
       }
     },
     "572:5:22": {
@@ -359426,7 +359427,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:15:56.707088+00:00",
+  "updated_at": "2026-11-11T17:16:02.569073+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
