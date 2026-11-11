@@ -345586,12 +345586,6 @@
     },
     "561:2:2": {
       "episode_key": "živí mrtví:s2:e2",
-      "claim": {
-        "worker_id": "6ec1befc742249e3977afa9d157a9b5f-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:06:15.073560+00:00",
-        "lease_expires_at": "2026-11-11T17:06:15.073576+00:00"
-      },
       "source": {
         "source_id": "33264576",
         "source_url": "https://sdilej.cz/33264576/zivi-mrtvi-s02e02-13-2011-cz-dab-1080p-krev-me-krve.mkv",
@@ -345616,22 +345610,29 @@
         "display_name": "The Walking Dead S02E02 Bloodletting 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:06:23.827474+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989073",
-        "size_bytes": 824615314
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989073",
-        "size_bytes": 824615314,
-        "source_bytes_read": 824615314,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989073",
         "source_bytes_read": 824615314,
         "elapsed_seconds": 47.246,
         "finished_at": "2026-11-11T11:07:29.305791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989073",
+          "size_bytes": 824615314,
+          "source_bytes_read": 824615314,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264576",
+        "source_url": "https://sdilej.cz/33264576/zivi-mrtvi-s02e02-13-2011-cz-dab-1080p-krev-me-krve.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989073",
+        "display_name": "The Walking Dead S02E02 Bloodletting 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:07:37.442331+00:00"
       }
     }
   },
@@ -345640,7 +345641,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:07:32.270751+00:00",
+  "updated_at": "2026-11-11T11:07:37.442348+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
