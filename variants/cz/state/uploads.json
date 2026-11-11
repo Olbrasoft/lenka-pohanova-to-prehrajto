@@ -358107,12 +358107,6 @@
     },
     "572:4:20": {
       "episode_key": "teorie velkého třesku:s4:e20",
-      "claim": {
-        "worker_id": "cc4a87cd04134a2a95776181ea438ada-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:09:37.020188+00:00",
-        "lease_expires_at": "2026-11-11T20:09:37.020208+00:00"
-      },
       "source": {
         "source_id": "29156830",
         "source_url": "https://sdilej.cz/29156830/teorie-velkeho-tresku-s04e20-kontrolni-drb-o-okrasne-zahrade-komedie-cz-dabing-angel-.mp4",
@@ -358137,22 +358131,29 @@
         "display_name": "The Big Bang Theory S04E20 The Herb Garden Germination 1440p CZ Dabing",
         "prepared_at": "2026-11-11T14:09:40.771096+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990923",
-        "size_bytes": 583067064
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990923",
-        "size_bytes": 583067064,
-        "source_bytes_read": 583067064,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990923",
         "source_bytes_read": 583067064,
         "elapsed_seconds": 84.479,
         "finished_at": "2026-11-11T14:11:21.846566+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990923",
+          "size_bytes": 583067064,
+          "source_bytes_read": 583067064,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29156830",
+        "source_url": "https://sdilej.cz/29156830/teorie-velkeho-tresku-s04e20-kontrolni-drb-o-okrasne-zahrade-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990923",
+        "display_name": "The Big Bang Theory S04E20 The Herb Garden Germination 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:11:28.272382+00:00"
       }
     },
     "572:4:21": {
@@ -358235,7 +358236,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:11:21.846584+00:00",
+  "updated_at": "2026-11-11T14:11:28.272401+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
