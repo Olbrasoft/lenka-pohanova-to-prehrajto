@@ -345346,12 +345346,6 @@
     },
     "561:1:2": {
       "episode_key": "živí mrtví:s1:e2",
-      "claim": {
-        "worker_id": "beb390e97f41434c981efa09334fe54c-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:02:34.852001+00:00",
-        "lease_expires_at": "2026-11-11T17:02:34.852019+00:00"
-      },
       "source": {
         "source_id": "28291207",
         "source_url": "https://sdilej.cz/28291207/zivi-mrtvi-s01e02.mkv",
@@ -345376,22 +345370,29 @@
         "display_name": "The Walking Dead S01E02 Guts 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:02:44.889783+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989055",
-        "size_bytes": 1382676590
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989055",
-        "size_bytes": 1382676590,
-        "source_bytes_read": 1382676590,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989055",
         "source_bytes_read": 1382676590,
         "elapsed_seconds": 84.223,
         "finished_at": "2026-11-11T11:04:32.856048+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989055",
+          "size_bytes": 1382676590,
+          "source_bytes_read": 1382676590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28291207",
+        "source_url": "https://sdilej.cz/28291207/zivi-mrtvi-s01e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989055",
+        "display_name": "The Walking Dead S01E02 Guts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:04:42.127267+00:00"
       }
     },
     "561:1:4": {
@@ -345487,7 +345488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:04:39.166073+00:00",
+  "updated_at": "2026-11-11T11:04:42.127286+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
