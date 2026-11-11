@@ -357852,12 +357852,6 @@
     },
     "572:4:15": {
       "episode_key": "teorie velkého třesku:s4:e15",
-      "claim": {
-        "worker_id": "c48fe32e4c064285a8dd15e3f67c3daa-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:05:44.424764+00:00",
-        "lease_expires_at": "2026-11-11T20:05:44.424783+00:00"
-      },
       "source": {
         "source_id": "29798805",
         "source_url": "https://sdilej.cz/29798805/teorie-velkeho-tresku-s04e15.mkv",
@@ -357882,22 +357876,29 @@
         "display_name": "The Big Bang Theory S04E15 The Benefactor Factor 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:06:03.465428+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990901",
-        "size_bytes": 577485054
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990901",
-        "size_bytes": 577485054,
-        "source_bytes_read": 577485054,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990901",
         "source_bytes_read": 577485054,
         "elapsed_seconds": 110.894,
         "finished_at": "2026-11-11T14:08:11.874035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990901",
+          "size_bytes": 577485054,
+          "source_bytes_read": 577485054,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798805",
+        "source_url": "https://sdilej.cz/29798805/teorie-velkeho-tresku-s04e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990901",
+        "display_name": "The Big Bang Theory S04E15 The Benefactor Factor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:08:21.178301+00:00"
       }
     },
     "572:4:16": {
@@ -357965,7 +357966,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:08:17.934006+00:00",
+  "updated_at": "2026-11-11T14:08:21.178318+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
