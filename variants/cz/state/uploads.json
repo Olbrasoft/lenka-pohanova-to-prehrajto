@@ -340499,12 +340499,6 @@
     },
     "1410:2:10": {
       "episode_key": "phineas a ferb:s2:e10",
-      "claim": {
-        "worker_id": "e2fca2c868c941c18e227b851245b60a-worker-0",
-        "run_id": "42913821684",
-        "claimed_at": "2026-11-11T02:21:23.569790+00:00",
-        "lease_expires_at": "2026-11-11T08:21:23.569801+00:00"
-      },
       "source": {
         "source_id": "33548282",
         "source_url": "https://sdilej.cz/33548282/phineas.a.ferb.2x10.perry.snasi.vejce.720p.cz.batmaster.mkv",
@@ -340529,22 +340523,29 @@
         "display_name": "Phineas and Ferb S02E10 Perry Lays an Egg 720p CZ Dabing",
         "prepared_at": "2026-11-11T02:21:26.703889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30986855",
-        "size_bytes": 87784865
-      },
-      "transfer_receipt": {
-        "target_video_id": "30986855",
-        "size_bytes": 87784865,
-        "source_bytes_read": 87784865,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30986855",
         "source_bytes_read": 87784865,
         "elapsed_seconds": 1588.194,
         "finished_at": "2026-11-11T02:48:07.728576+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30986855",
+          "size_bytes": 87784865,
+          "source_bytes_read": 87784865,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548282",
+        "source_url": "https://sdilej.cz/33548282/phineas.a.ferb.2x10.perry.snasi.vejce.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30986855",
+        "display_name": "Phineas and Ferb S02E10 Perry Lays an Egg 720p CZ Dabing",
+        "uploaded_at": "2026-11-11T02:48:12.026526+00:00"
       }
     },
     "1410:2:14": {
@@ -340590,7 +340591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T02:48:07.728602+00:00",
+  "updated_at": "2026-11-11T02:48:12.026541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
