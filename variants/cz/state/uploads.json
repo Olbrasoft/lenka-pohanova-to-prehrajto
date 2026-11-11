@@ -353862,12 +353862,6 @@
     },
     "572:1:2": {
       "episode_key": "teorie velkého třesku:s1:e2",
-      "claim": {
-        "worker_id": "2eeafcff94854c449bd7f8ff425d2515-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:08:26.189912+00:00",
-        "lease_expires_at": "2026-11-11T19:08:26.189929+00:00"
-      },
       "source": {
         "source_id": "29143530",
         "source_url": "https://sdilej.cz/29143530/teorie-velkeho-tresku-s01e02-hypoteza-otrubove-vlakniny-komedie-cz-dabing-angel-.mp4",
@@ -353892,22 +353886,29 @@
         "display_name": "The Big Bang Theory S01E02 The Big Bran Hypothesis 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:08:29.778037+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990175",
-        "size_bytes": 601306304
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990175",
-        "size_bytes": 601306304,
-        "source_bytes_read": 601306304,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990175",
         "source_bytes_read": 601306304,
         "elapsed_seconds": 47.077,
         "finished_at": "2026-11-11T13:09:36.878322+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990175",
+          "size_bytes": 601306304,
+          "source_bytes_read": 601306304,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29143530",
+        "source_url": "https://sdilej.cz/29143530/teorie-velkeho-tresku-s01e02-hypoteza-otrubove-vlakniny-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990175",
+        "display_name": "The Big Bang Theory S01E02 The Big Bran Hypothesis 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:09:42.336848+00:00"
       }
     },
     "572:1:3": {
@@ -353990,7 +353991,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:09:36.878341+00:00",
+  "updated_at": "2026-11-11T13:09:42.336865+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
