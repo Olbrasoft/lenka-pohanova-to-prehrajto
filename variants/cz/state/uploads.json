@@ -340014,6 +340014,34 @@
       "prepared_target": {
         "target_video_id": "30986453",
         "size_bytes": 96163517
+      },
+      "transfer_failure": {
+        "target_video_id": "30986453",
+        "source_bytes_read": 96163517,
+        "size_bytes": 96163517,
+        "errors": [
+          {
+            "type": "HTTPError",
+            "http_status": 504,
+            "frames": [
+              {
+                "file": "transfer.py",
+                "function": "request",
+                "line": 99
+              },
+              {
+                "file": "transfer.py",
+                "function": "upload_post",
+                "line": 42
+              },
+              {
+                "file": "transfer.py",
+                "function": "validate_upload_response",
+                "line": 66
+              }
+            ]
+          }
+        ]
       }
     }
   },
@@ -340022,7 +340050,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T00:31:59.393246+00:00",
+  "updated_at": "2026-11-11T00:58:27.388939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
