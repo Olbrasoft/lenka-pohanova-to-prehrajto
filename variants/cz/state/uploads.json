@@ -348873,12 +348873,6 @@
     },
     "561:6:7": {
       "episode_key": "živí mrtví:s6:e7",
-      "claim": {
-        "worker_id": "41eee839ddb34a378bd659de067fa077-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:54:27.009491+00:00",
-        "lease_expires_at": "2026-11-11T17:54:27.009510+00:00"
-      },
       "source": {
         "source_id": "31841691",
         "source_url": "https://sdilej.cz/31841691/the-walking-dead-s06e07-zivi-mrtvi-fhd-1080p-cz-sk-postreh.mkv",
@@ -348903,22 +348897,29 @@
         "display_name": "The Walking Dead S06E07 Heads Up 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:54:32.235079+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989540",
-        "size_bytes": 843453339
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989540",
-        "size_bytes": 843453339,
-        "source_bytes_read": 843453339,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989540",
         "source_bytes_read": 843453339,
         "elapsed_seconds": 54.186,
         "finished_at": "2026-11-11T11:55:44.179350+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989540",
+          "size_bytes": 843453339,
+          "source_bytes_read": 843453339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31841691",
+        "source_url": "https://sdilej.cz/31841691/the-walking-dead-s06e07-zivi-mrtvi-fhd-1080p-cz-sk-postreh.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989540",
+        "display_name": "The Walking Dead S06E07 Heads Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:55:52.631795+00:00"
       }
     },
     "561:6:8": {
@@ -349001,7 +349002,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:55:48.009076+00:00",
+  "updated_at": "2026-11-11T11:55:52.631810+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
