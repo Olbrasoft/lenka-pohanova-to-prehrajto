@@ -356981,12 +356981,6 @@
     },
     "572:3:21": {
       "episode_key": "teorie velkého třesku:s3:e21",
-      "claim": {
-        "worker_id": "d14741886e8e4c0eb0d00f87128fe03e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:52:27.429345+00:00",
-        "lease_expires_at": "2026-11-11T19:52:27.429363+00:00"
-      },
       "source": {
         "source_id": "29798841",
         "source_url": "https://sdilej.cz/29798841/teorie-velkeho-tresku-s03e21.mkv",
@@ -357011,22 +357005,29 @@
         "display_name": "The Big Bang Theory S03E21 The Plimpton Stimulation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:52:34.074538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990735",
-        "size_bytes": 616096390
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990735",
-        "size_bytes": 616096390,
-        "source_bytes_read": 616096390,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990735",
         "source_bytes_read": 616096390,
         "elapsed_seconds": 83.282,
         "finished_at": "2026-11-11T13:54:13.545460+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990735",
+          "size_bytes": 616096390,
+          "source_bytes_read": 616096390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798841",
+        "source_url": "https://sdilej.cz/29798841/teorie-velkeho-tresku-s03e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990735",
+        "display_name": "The Big Bang Theory S03E21 The Plimpton Stimulation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:54:22.370350+00:00"
       }
     },
     "572:3:22": {
@@ -357109,7 +357110,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:54:17.800441+00:00",
+  "updated_at": "2026-11-11T13:54:22.370367+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
