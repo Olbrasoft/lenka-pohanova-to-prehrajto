@@ -343004,12 +343004,6 @@
     },
     "42:3:1": {
       "episode_key": "dračí princ:s3:e1",
-      "claim": {
-        "worker_id": "bfb3e2bf585849b0bfa0beb7fcfaf427-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:35:07.473822+00:00",
-        "lease_expires_at": "2026-11-11T16:35:07.473834+00:00"
-      },
       "source": {
         "source_id": "12673198",
         "source_url": "https://sdilej.cz/12673198/the-dragon-prince-s03e01-2019-cz-dabing-1080p.mkv",
@@ -343034,22 +343028,29 @@
         "display_name": "The Dragon Prince S03E01 Sol Regem 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:35:13.862396+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988899",
-        "size_bytes": 773435227
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988899",
-        "size_bytes": 773435227,
-        "source_bytes_read": 773435227,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988899",
         "source_bytes_read": 773435227,
         "elapsed_seconds": 32.755,
         "finished_at": "2026-11-11T10:36:02.065819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988899",
+          "size_bytes": 773435227,
+          "source_bytes_read": 773435227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12673198",
+        "source_url": "https://sdilej.cz/12673198/the-dragon-prince-s03e01-2019-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988899",
+        "display_name": "The Dragon Prince S03E01 Sol Regem 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:36:07.333720+00:00"
       }
     },
     "42:3:2": {
@@ -343095,7 +343096,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:36:02.065839+00:00",
+  "updated_at": "2026-11-11T10:36:07.333736+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
