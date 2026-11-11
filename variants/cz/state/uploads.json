@@ -361922,12 +361922,6 @@
     },
     "572:8:2": {
       "episode_key": "teorie velkého třesku:s8:e2",
-      "claim": {
-        "worker_id": "699cb2fea9a44f1a83e18dc35561b334-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:26:37.538069+00:00",
-        "lease_expires_at": "2026-11-12T00:26:37.538085+00:00"
-      },
       "source": {
         "source_id": "27592518",
         "source_url": "https://sdilej.cz/27592518/teorie-velkeho-tresku-s08e02-cz.mkv",
@@ -361952,22 +361946,29 @@
         "display_name": "The Big Bang Theory S08E02 The Junior Professor Solution 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:26:41.023144+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992810",
-        "size_bytes": 244098694
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992810",
-        "size_bytes": 244098694,
-        "source_bytes_read": 244098694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992810",
         "source_bytes_read": 244098694,
         "elapsed_seconds": 109.505,
         "finished_at": "2026-11-11T18:28:46.163590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992810",
+          "size_bytes": 244098694,
+          "source_bytes_read": 244098694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592518",
+        "source_url": "https://sdilej.cz/27592518/teorie-velkeho-tresku-s08e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992810",
+        "display_name": "The Big Bang Theory S08E02 The Junior Professor Solution 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:28:50.581436+00:00"
       }
     },
     "572:8:3": {
@@ -362013,7 +362014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:28:46.163610+00:00",
+  "updated_at": "2026-11-11T18:28:50.581455+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
