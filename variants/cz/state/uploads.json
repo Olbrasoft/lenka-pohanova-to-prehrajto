@@ -361579,12 +361579,6 @@
     },
     "572:7:18": {
       "episode_key": "teorie velkého třesku:s7:e18",
-      "claim": {
-        "worker_id": "e7bfbabc3f734dbda6aa32137d58e608-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:18:02.538057+00:00",
-        "lease_expires_at": "2026-11-12T00:18:02.538074+00:00"
-      },
       "source": {
         "source_id": "29798696",
         "source_url": "https://sdilej.cz/29798696/teorie-velkeho-tresku-s07e18.mkv",
@@ -361609,22 +361603,29 @@
         "display_name": "The Big Bang Theory S07E18 The Mommy Observation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:18:13.628357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992741",
-        "size_bytes": 636498693
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992741",
-        "size_bytes": 636498693,
-        "source_bytes_read": 636498693,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992741",
         "source_bytes_read": 636498693,
         "elapsed_seconds": 213.136,
         "finished_at": "2026-11-11T18:22:06.510331+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992741",
+          "size_bytes": 636498693,
+          "source_bytes_read": 636498693,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798696",
+        "source_url": "https://sdilej.cz/29798696/teorie-velkeho-tresku-s07e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992741",
+        "display_name": "The Big Bang Theory S07E18 The Mommy Observation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:22:13.284701+00:00"
       }
     },
     "572:7:19": {
@@ -361754,7 +361755,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:22:09.950536+00:00",
+  "updated_at": "2026-11-11T18:22:13.284720+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
