@@ -349893,12 +349893,6 @@
     },
     "561:7:12": {
       "episode_key": "živí mrtví:s7:e12",
-      "claim": {
-        "worker_id": "3705581bb48a494e897c0860fa493be9-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:06:44.766004+00:00",
-        "lease_expires_at": "2026-11-11T18:06:44.766021+00:00"
-      },
       "source": {
         "source_id": "32504608",
         "source_url": "https://sdilej.cz/32504608/zivi-mrtvi-s07e12-rekni-ano.mkv",
@@ -349923,22 +349917,29 @@
         "display_name": "The Walking Dead S07E12 Say Yes 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:06:51.359498+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989688",
-        "size_bytes": 888098933
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989688",
-        "size_bytes": 888098933,
-        "source_bytes_read": 888098933,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989688",
         "source_bytes_read": 888098933,
         "elapsed_seconds": 56.729,
         "finished_at": "2026-11-11T12:08:05.817694+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989688",
+          "size_bytes": 888098933,
+          "source_bytes_read": 888098933,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504608",
+        "source_url": "https://sdilej.cz/32504608/zivi-mrtvi-s07e12-rekni-ano.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989688",
+        "display_name": "The Walking Dead S07E12 Say Yes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:08:17.485750+00:00"
       }
     },
     "561:7:13": {
@@ -350033,7 +350034,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:08:12.080262+00:00",
+  "updated_at": "2026-11-11T12:08:17.485767+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
