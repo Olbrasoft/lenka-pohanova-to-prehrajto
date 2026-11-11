@@ -359123,12 +359123,6 @@
     },
     "572:5:17": {
       "episode_key": "teorie velkého třesku:s5:e17",
-      "claim": {
-        "worker_id": "83ab4f3343e84061bac1764ff6bdc10c-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:10:17.852621+00:00",
-        "lease_expires_at": "2026-11-11T23:10:17.852637+00:00"
-      },
       "source": {
         "source_id": "35087290",
         "source_url": "https://sdilej.cz/35087290/teorie-velkeho-tresku-s05e17-rothmanova-degenerace-cz-2011.mkv",
@@ -359153,22 +359147,29 @@
         "display_name": "The Big Bang Theory S05E17 The Rothman Disintegration 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:10:27.944226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992180",
-        "size_bytes": 348227241
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992180",
-        "size_bytes": 348227241,
-        "source_bytes_read": 348227241,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992180",
         "source_bytes_read": 348227241,
         "elapsed_seconds": 122.751,
         "finished_at": "2026-11-11T17:12:46.000471+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992180",
+          "size_bytes": 348227241,
+          "source_bytes_read": 348227241,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35087290",
+        "source_url": "https://sdilej.cz/35087290/teorie-velkeho-tresku-s05e17-rothmanova-degenerace-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992180",
+        "display_name": "The Big Bang Theory S05E17 The Rothman Disintegration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:12:55.363372+00:00"
       }
     },
     "572:5:18": {
@@ -359228,7 +359229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:12:52.518255+00:00",
+  "updated_at": "2026-11-11T17:12:55.363388+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
