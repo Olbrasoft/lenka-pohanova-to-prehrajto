@@ -351650,12 +351650,6 @@
     },
     "561:9:16": {
       "episode_key": "živí mrtví:s9:e16",
-      "claim": {
-        "worker_id": "671dbf4fd542445cb831b8f4655704c5-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:36:56.140022+00:00",
-        "lease_expires_at": "2026-11-11T18:36:56.140072+00:00"
-      },
       "source": {
         "source_id": "33265045",
         "source_url": "https://sdilej.cz/33265045/zivi-mrtvi-s09e16-16-2018-cz-dab-1080p-boure.mkv",
@@ -351680,22 +351674,29 @@
         "display_name": "The Walking Dead S09E16 The Storm 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:37:02.958771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989960",
-        "size_bytes": 884382422
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989960",
-        "size_bytes": 884382422,
-        "source_bytes_read": 884382422,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989960",
         "source_bytes_read": 884382422,
         "elapsed_seconds": 53.729,
         "finished_at": "2026-11-11T12:38:13.975064+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989960",
+          "size_bytes": 884382422,
+          "source_bytes_read": 884382422,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33265045",
+        "source_url": "https://sdilej.cz/33265045/zivi-mrtvi-s09e16-16-2018-cz-dab-1080p-boure.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989960",
+        "display_name": "The Walking Dead S09E16 The Storm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:38:21.511565+00:00"
       }
     }
   },
@@ -351704,7 +351705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:38:13.975088+00:00",
+  "updated_at": "2026-11-11T12:38:21.511582+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
