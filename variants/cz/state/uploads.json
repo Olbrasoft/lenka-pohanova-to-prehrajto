@@ -350352,12 +350352,6 @@
     },
     "561:8:6": {
       "episode_key": "živí mrtví:s8:e6",
-      "claim": {
-        "worker_id": "0b63b21607844182a3bcdda49d67dc3a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:12:18.883400+00:00",
-        "lease_expires_at": "2026-11-11T18:12:18.883414+00:00"
-      },
       "source": {
         "source_id": "32504660",
         "source_url": "https://sdilej.cz/32504660/zivi-mrtvi-s08e06-kral-vdova-a-rick.mkv",
@@ -350382,22 +350376,29 @@
         "display_name": "The Walking Dead S08E06 The King, the Widow, and Rick 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:12:28.409277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989739",
-        "size_bytes": 937504833
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989739",
-        "size_bytes": 937504833,
-        "source_bytes_read": 937504833,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989739",
         "source_bytes_read": 937504833,
         "elapsed_seconds": 58.075,
         "finished_at": "2026-11-11T12:13:42.346786+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989739",
+          "size_bytes": 937504833,
+          "source_bytes_read": 937504833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504660",
+        "source_url": "https://sdilej.cz/32504660/zivi-mrtvi-s08e06-kral-vdova-a-rick.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989739",
+        "display_name": "The Walking Dead S08E06 The King, the Widow, and Rick 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:13:51.452128+00:00"
       }
     },
     "561:8:7": {
@@ -350494,7 +350495,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:13:45.886077+00:00",
+  "updated_at": "2026-11-11T12:13:51.452145+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
