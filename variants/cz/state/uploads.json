@@ -364574,12 +364574,6 @@
     },
     "572:10:6": {
       "episode_key": "teorie velkého třesku:s10:e6",
-      "claim": {
-        "worker_id": "05d176ab273a4a57b8dea0b8f26982c8-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:39:08.996789+00:00",
-        "lease_expires_at": "2026-11-12T01:39:08.996804+00:00"
-      },
       "source": {
         "source_id": "29798630",
         "source_url": "https://sdilej.cz/29798630/teorie-velkeho-tresku-s10e06.mkv",
@@ -364604,22 +364598,29 @@
         "display_name": "The Big Bang Theory S10E06 The Fetal Kick Catalyst 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:39:12.386568+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993353",
-        "size_bytes": 565675642
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993353",
-        "size_bytes": 565675642,
-        "source_bytes_read": 565675642,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993353",
         "source_bytes_read": 565675642,
         "elapsed_seconds": 212.929,
         "finished_at": "2026-11-11T19:43:01.141239+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993353",
+          "size_bytes": 565675642,
+          "source_bytes_read": 565675642,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798630",
+        "source_url": "https://sdilej.cz/29798630/teorie-velkeho-tresku-s10e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993353",
+        "display_name": "The Big Bang Theory S10E06 The Fetal Kick Catalyst 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:43:05.657599+00:00"
       }
     },
     "572:10:7": {
@@ -364665,7 +364666,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:43:01.141259+00:00",
+  "updated_at": "2026-11-11T19:43:05.657626+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
