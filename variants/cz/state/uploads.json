@@ -351460,12 +351460,6 @@
     },
     "561:9:12": {
       "episode_key": "živí mrtví:s9:e12",
-      "claim": {
-        "worker_id": "ec13f7ec3116469a866f9da52120751d-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:35:03.806434+00:00",
-        "lease_expires_at": "2026-11-11T18:35:03.806450+00:00"
-      },
       "source": {
         "source_id": "33265021",
         "source_url": "https://sdilej.cz/33265021/zivi-mrtvi-s09e12-16-2018-cz-dab-1080p-strazci.mkv",
@@ -351490,22 +351484,29 @@
         "display_name": "The Walking Dead S09E12 Guardians 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:35:11.350999+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989951",
-        "size_bytes": 862898555
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989951",
-        "size_bytes": 862898555,
-        "source_bytes_read": 862898555,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989951",
         "source_bytes_read": 862898555,
         "elapsed_seconds": 58.569,
         "finished_at": "2026-11-11T12:36:26.698297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989951",
+          "size_bytes": 862898555,
+          "source_bytes_read": 862898555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33265021",
+        "source_url": "https://sdilej.cz/33265021/zivi-mrtvi-s09e12-16-2018-cz-dab-1080p-strazci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989951",
+        "display_name": "The Walking Dead S09E12 Guardians 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:36:40.412726+00:00"
       }
     },
     "561:9:13": {
@@ -351601,7 +351602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:36:37.433010+00:00",
+  "updated_at": "2026-11-11T12:36:40.412743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
