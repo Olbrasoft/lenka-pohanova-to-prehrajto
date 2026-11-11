@@ -349230,12 +349230,6 @@
     },
     "561:6:14": {
       "episode_key": "živí mrtví:s6:e14",
-      "claim": {
-        "worker_id": "4d4941016f4c425a844c1ce845aaa272-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:57:52.688105+00:00",
-        "lease_expires_at": "2026-11-11T17:57:52.688123+00:00"
-      },
       "source": {
         "source_id": "33264874",
         "source_url": "https://sdilej.cz/33264874/zivi-mrtvi-s06e14-16-2015-cz-dab-1080p-dvojnasobna-dalka.mkv",
@@ -349260,22 +349254,29 @@
         "display_name": "The Walking Dead S06E14 Twice as Far 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:57:58.995052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989582",
-        "size_bytes": 845065265
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989582",
-        "size_bytes": 845065265,
-        "source_bytes_read": 845065265,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989582",
         "source_bytes_read": 845065265,
         "elapsed_seconds": 53.449,
         "finished_at": "2026-11-11T11:59:10.254458+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989582",
+          "size_bytes": 845065265,
+          "source_bytes_read": 845065265,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264874",
+        "source_url": "https://sdilej.cz/33264874/zivi-mrtvi-s06e14-16-2015-cz-dab-1080p-dvojnasobna-dalka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989582",
+        "display_name": "The Walking Dead S06E14 Twice as Far 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:59:17.590225+00:00"
       }
     },
     "561:6:15": {
@@ -349321,7 +349322,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:59:10.254482+00:00",
+  "updated_at": "2026-11-11T11:59:17.590241+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
