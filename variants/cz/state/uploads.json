@@ -351919,12 +351919,6 @@
     },
     "561:10:7": {
       "episode_key": "živí mrtví:s10:e7",
-      "claim": {
-        "worker_id": "6e2d1f2a85514b118e23a703b5feb2b0-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:42:20.389503+00:00",
-        "lease_expires_at": "2026-11-11T18:42:20.389520+00:00"
-      },
       "source": {
         "source_id": "27154956",
         "source_url": "https://sdilej.cz/27154956/zivi-mrtvi-s10e07-otevri-oci.mkv",
@@ -351949,22 +351943,29 @@
         "display_name": "The Walking Dead S10E07 Open Your Eyes 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:42:27.055445+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989988",
-        "size_bytes": 1281589196
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989988",
-        "size_bytes": 1281589196,
-        "source_bytes_read": 1281589196,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989988",
         "source_bytes_read": 1281589196,
         "elapsed_seconds": 78.074,
         "finished_at": "2026-11-11T12:44:01.457709+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989988",
+          "size_bytes": 1281589196,
+          "source_bytes_read": 1281589196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27154956",
+        "source_url": "https://sdilej.cz/27154956/zivi-mrtvi-s10e07-otevri-oci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989988",
+        "display_name": "The Walking Dead S10E07 Open Your Eyes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:44:06.597723+00:00"
       }
     },
     "561:10:8": {
@@ -352098,7 +352099,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:44:01.457728+00:00",
+  "updated_at": "2026-11-11T12:44:06.597742+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
