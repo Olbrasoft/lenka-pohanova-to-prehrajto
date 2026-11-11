@@ -359749,12 +359749,6 @@
     },
     "572:6:5": {
       "episode_key": "teorie velkého třesku:s6:e5",
-      "claim": {
-        "worker_id": "cd5b37642ba14b16898fbba494afb4c7-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:19:45.344738+00:00",
-        "lease_expires_at": "2026-11-11T23:19:45.344755+00:00"
-      },
       "source": {
         "source_id": "29157810",
         "source_url": "https://sdilej.cz/29157810/teorie-velkeho-tresku-s06e05-holograficka-stimulace-komedie-cz-dabing-angel-.mp4",
@@ -359779,22 +359773,29 @@
         "display_name": "The Big Bang Theory S06E05 The Holographic Excitation 1440p CZ Dabing",
         "prepared_at": "2026-11-11T17:19:50.070590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992259",
-        "size_bytes": 586285654
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992259",
-        "size_bytes": 586285654,
-        "source_bytes_read": 586285654,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992259",
         "source_bytes_read": 586285654,
         "elapsed_seconds": 248.797,
         "finished_at": "2026-11-11T17:24:14.516357+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992259",
+          "size_bytes": 586285654,
+          "source_bytes_read": 586285654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29157810",
+        "source_url": "https://sdilej.cz/29157810/teorie-velkeho-tresku-s06e05-holograficka-stimulace-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992259",
+        "display_name": "The Big Bang Theory S06E05 The Holographic Excitation 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:24:24.262191+00:00"
       }
     },
     "572:6:6": {
@@ -359891,7 +359892,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:24:21.073376+00:00",
+  "updated_at": "2026-11-11T17:24:24.262210+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
