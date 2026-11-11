@@ -359284,12 +359284,6 @@
     },
     "572:5:20": {
       "episode_key": "teorie velkého třesku:s5:e20",
-      "claim": {
-        "worker_id": "9a3745d5ada2472d8dbea21bbbc5981e-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:13:37.171193+00:00",
-        "lease_expires_at": "2026-11-11T23:13:37.171210+00:00"
-      },
       "source": {
         "source_id": "35087327",
         "source_url": "https://sdilej.cz/35087327/teorie-velkeho-tresku-s05e20-porucha-transporteru-cz-2011.mkv",
@@ -359314,22 +359308,29 @@
         "display_name": "The Big Bang Theory S05E20 The Transporter Malfunction 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:13:40.479302+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992204",
-        "size_bytes": 360796878
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992204",
-        "size_bytes": 360796878,
-        "source_bytes_read": 360796878,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992204",
         "source_bytes_read": 360796878,
         "elapsed_seconds": 105.919,
         "finished_at": "2026-11-11T17:15:46.179821+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992204",
+          "size_bytes": 360796878,
+          "source_bytes_read": 360796878,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35087327",
+        "source_url": "https://sdilej.cz/35087327/teorie-velkeho-tresku-s05e20-porucha-transporteru-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992204",
+        "display_name": "The Big Bang Theory S05E20 The Transporter Malfunction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:15:53.702403+00:00"
       }
     },
     "572:5:21": {
@@ -359412,7 +359413,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:15:49.170883+00:00",
+  "updated_at": "2026-11-11T17:15:53.702420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
