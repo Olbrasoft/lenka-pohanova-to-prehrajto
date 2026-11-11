@@ -348312,12 +348312,6 @@
     },
     "561:5:11": {
       "episode_key": "živí mrtví:s5:e11",
-      "claim": {
-        "worker_id": "78351e62e08f440fbd5540c266893ff6-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:47:16.619874+00:00",
-        "lease_expires_at": "2026-11-11T17:47:16.619890+00:00"
-      },
       "source": {
         "source_id": "33264822",
         "source_url": "https://sdilej.cz/33264822/zivi-mrtvi-s05e11-16-2014-cz-dab-1080p-neduveruj-a-proveruj.mkv",
@@ -348342,22 +348336,29 @@
         "display_name": "The Walking Dead S05E11 The Distance 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:47:22.879674+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989457",
-        "size_bytes": 835302140
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989457",
-        "size_bytes": 835302140,
-        "source_bytes_read": 835302140,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989457",
         "source_bytes_read": 835302140,
         "elapsed_seconds": 51.289,
         "finished_at": "2026-11-11T11:48:30.114206+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989457",
+          "size_bytes": 835302140,
+          "source_bytes_read": 835302140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264822",
+        "source_url": "https://sdilej.cz/33264822/zivi-mrtvi-s05e11-16-2014-cz-dab-1080p-neduveruj-a-proveruj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989457",
+        "display_name": "The Walking Dead S05E11 The Distance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:48:35.837121+00:00"
       }
     },
     "561:5:12": {
@@ -348440,7 +348441,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:48:30.114225+00:00",
+  "updated_at": "2026-11-11T11:48:35.837136+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
