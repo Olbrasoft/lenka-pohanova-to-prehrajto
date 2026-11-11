@@ -370204,12 +370204,6 @@
     },
     "394:17:10": {
       "episode_key": "griffinovi:s17:e10",
-      "claim": {
-        "worker_id": "5bef0b8aacc14ab8911ecbf4bdf4d911-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:52:19.317921+00:00",
-        "lease_expires_at": "2026-11-12T05:52:19.317937+00:00"
-      },
       "source": {
         "source_id": "35292801",
         "source_url": "https://sdilej.cz/35292801/griffinovi-s17e10-chlapacke-odstiny-sedi-cz.mkv",
@@ -370234,22 +370228,29 @@
         "display_name": "Family Guy S17E10 Hefty Shades of Gray 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:52:23.885155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995607",
-        "size_bytes": 903422878
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995607",
-        "size_bytes": 903422878,
-        "source_bytes_read": 903422878,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995607",
         "source_bytes_read": 903422878,
         "elapsed_seconds": 295.493,
         "finished_at": "2026-11-11T23:57:36.956741+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995607",
+          "size_bytes": 903422878,
+          "source_bytes_read": 903422878,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35292801",
+        "source_url": "https://sdilej.cz/35292801/griffinovi-s17e10-chlapacke-odstiny-sedi-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995607",
+        "display_name": "Family Guy S17E10 Hefty Shades of Gray 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:57:41.803257+00:00"
       }
     },
     "394:17:11": {
@@ -370295,7 +370296,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:57:36.956765+00:00",
+  "updated_at": "2026-11-11T23:57:41.803274+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
