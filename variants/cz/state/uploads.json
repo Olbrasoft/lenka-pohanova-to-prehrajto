@@ -349790,12 +349790,6 @@
     },
     "561:7:10": {
       "episode_key": "živí mrtví:s7:e10",
-      "claim": {
-        "worker_id": "5950f08197d84fb78b3a22e9248782cc-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:04:57.013457+00:00",
-        "lease_expires_at": "2026-11-11T18:04:57.013475+00:00"
-      },
       "source": {
         "source_id": "32504599",
         "source_url": "https://sdilej.cz/32504599/zivi-mrtvi-s07e10-spojenci.mkv",
@@ -349820,22 +349814,29 @@
         "display_name": "The Walking Dead S07E10 New Best Friends 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:05:00.541747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989675",
-        "size_bytes": 958909145
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989675",
-        "size_bytes": 958909145,
-        "source_bytes_read": 958909145,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989675",
         "source_bytes_read": 958909145,
         "elapsed_seconds": 57.749,
         "finished_at": "2026-11-11T12:06:14.121298+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989675",
+          "size_bytes": 958909145,
+          "source_bytes_read": 958909145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504599",
+        "source_url": "https://sdilej.cz/32504599/zivi-mrtvi-s07e10-spojenci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989675",
+        "display_name": "The Walking Dead S07E10 New Best Friends 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:06:23.914005+00:00"
       }
     },
     "561:7:11": {
@@ -349853,7 +349854,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:06:20.349456+00:00",
+  "updated_at": "2026-11-11T12:06:23.914022+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
