@@ -341822,12 +341822,6 @@
     },
     "1117:5:8": {
       "episode_key": "nová holka:s5:e8",
-      "claim": {
-        "worker_id": "8490a0bfced843d1b8a5614257c076bf-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T07:30:16.285956+00:00",
-        "lease_expires_at": "2026-11-11T13:30:16.285966+00:00"
-      },
       "source": {
         "source_id": "33299519",
         "source_url": "https://sdilej.cz/33299519/nova-holka-s05e08-cz.mp4",
@@ -341883,7 +341877,13 @@
             ]
           }
         ]
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-11T08:04:39.320467+00:00",
+          "error": "TargetPending"
+        }
+      ]
     }
   },
   "binding": {
@@ -341891,7 +341891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T08:04:36.839372+00:00",
+  "updated_at": "2026-11-11T08:04:39.320485+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
