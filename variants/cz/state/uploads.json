@@ -350454,12 +350454,6 @@
     },
     "561:8:8": {
       "episode_key": "živí mrtví:s8:e8",
-      "claim": {
-        "worker_id": "51a1a264def64b2091a4abf35a466060-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:13:00.024805+00:00",
-        "lease_expires_at": "2026-11-11T18:13:00.024821+00:00"
-      },
       "source": {
         "source_id": "32504669",
         "source_url": "https://sdilej.cz/32504669/zivi-mrtvi-s08e08-jak-to-musi-byt.mkv",
@@ -350484,22 +350478,29 @@
         "display_name": "The Walking Dead S08E08 How It's Gotta Be 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:13:03.881921+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989752",
-        "size_bytes": 1281692071
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989752",
-        "size_bytes": 1281692071,
-        "source_bytes_read": 1281692071,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989752",
         "source_bytes_read": 1281692071,
         "elapsed_seconds": 81.972,
         "finished_at": "2026-11-11T12:14:40.854065+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989752",
+          "size_bytes": 1281692071,
+          "source_bytes_read": 1281692071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504669",
+        "source_url": "https://sdilej.cz/32504669/zivi-mrtvi-s08e08-jak-to-musi-byt.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989752",
+        "display_name": "The Walking Dead S08E08 How It's Gotta Be 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:14:46.996303+00:00"
       }
     },
     "561:8:9": {
@@ -350582,7 +350583,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:14:40.854081+00:00",
+  "updated_at": "2026-11-11T12:14:46.996320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
