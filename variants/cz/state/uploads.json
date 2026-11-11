@@ -350199,12 +350199,6 @@
     },
     "561:8:2": {
       "episode_key": "živí mrtví:s8:e2",
-      "claim": {
-        "worker_id": "3c257212e27e4e39a0a6c1e07412b155-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:10:43.831137+00:00",
-        "lease_expires_at": "2026-11-11T18:10:43.831151+00:00"
-      },
       "source": {
         "source_id": "32504642",
         "source_url": "https://sdilej.cz/32504642/zivi-mrtvi-s08e02-proklati.mkv",
@@ -350229,22 +350223,29 @@
         "display_name": "The Walking Dead S08E02 The Damned 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:10:50.694490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989721",
-        "size_bytes": 867976732
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989721",
-        "size_bytes": 867976732,
-        "source_bytes_read": 867976732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989721",
         "source_bytes_read": 867976732,
         "elapsed_seconds": 55.485,
         "finished_at": "2026-11-11T12:12:01.485547+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989721",
+          "size_bytes": 867976732,
+          "source_bytes_read": 867976732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504642",
+        "source_url": "https://sdilej.cz/32504642/zivi-mrtvi-s08e02-proklati.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989721",
+        "display_name": "The Walking Dead S08E02 The Damned 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:12:09.278010+00:00"
       }
     },
     "561:8:3": {
@@ -350341,7 +350342,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:12:06.468376+00:00",
+  "updated_at": "2026-11-11T12:12:09.278033+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
