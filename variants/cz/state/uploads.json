@@ -338298,12 +338298,6 @@
         }
       ],
       "episode_key": "dračí princ:s2:e2",
-      "claim": {
-        "worker_id": "052e57b2e5bf454f91b47c34a4162fbe-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:31:47.911626+00:00",
-        "lease_expires_at": "2026-11-11T16:31:47.911637+00:00"
-      },
       "source": {
         "source_id": "23658743",
         "source_url": "https://sdilej.cz/23658743/draci-princ-the.dragon.prince.s02e02.1080p.web.x264-strife-cz-eng-audio-.mkv",
@@ -338328,22 +338322,29 @@
         "display_name": "The Dragon Prince S02E02 Half Moon Lies 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:31:54.860726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988887",
-        "size_bytes": 767140172
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988887",
-        "size_bytes": 767140172,
-        "source_bytes_read": 767140172,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988887",
         "source_bytes_read": 767140172,
         "elapsed_seconds": 34.401,
         "finished_at": "2026-11-11T10:32:45.768814+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988887",
+          "size_bytes": 767140172,
+          "source_bytes_read": 767140172,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23658743",
+        "source_url": "https://sdilej.cz/23658743/draci-princ-the.dragon.prince.s02e02.1080p.web.x264-strife-cz-eng-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988887",
+        "display_name": "The Dragon Prince S02E02 Half Moon Lies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:32:53.009580+00:00"
       }
     },
     "42:2:4": {
@@ -342805,7 +342806,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:32:45.768830+00:00",
+  "updated_at": "2026-11-11T10:32:53.009595+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
