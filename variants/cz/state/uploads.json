@@ -368005,12 +368005,6 @@
     },
     "394:1:6": {
       "episode_key": "griffinovi:s1:e6",
-      "claim": {
-        "worker_id": "b9af5b2f17f6499d8fbc12688c792e4a-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:20:09.832255+00:00",
-        "lease_expires_at": "2026-11-12T04:20:09.832271+00:00"
-      },
       "source": {
         "source_id": "27812952",
         "source_url": "https://sdilej.cz/27812952/griffinovi-01x06-posledni-skaut.avi",
@@ -368035,22 +368029,29 @@
         "display_name": "Family Guy S01E06 The Son Also Draws SD CZ Dabing",
         "prepared_at": "2026-11-11T22:20:16.199561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994709",
-        "size_bytes": 182829056
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994709",
-        "size_bytes": 182829056,
-        "source_bytes_read": 182829056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994709",
         "source_bytes_read": 182829056,
         "elapsed_seconds": 71.282,
         "finished_at": "2026-11-11T22:21:42.644680+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994709",
+          "size_bytes": 182829056,
+          "source_bytes_read": 182829056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27812952",
+        "source_url": "https://sdilej.cz/27812952/griffinovi-01x06-posledni-skaut.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994709",
+        "display_name": "Family Guy S01E06 The Son Also Draws SD CZ Dabing",
+        "uploaded_at": "2026-11-11T22:21:52.953993+00:00"
       }
     },
     "394:1:7": {
@@ -368096,7 +368097,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:21:50.107345+00:00",
+  "updated_at": "2026-11-11T22:21:52.954015+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
