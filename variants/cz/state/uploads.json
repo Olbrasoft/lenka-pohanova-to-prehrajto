@@ -342902,12 +342902,6 @@
     },
     "42:2:8": {
       "episode_key": "dračí princ:s2:e8",
-      "claim": {
-        "worker_id": "29a4e3f111ba4d0899910f5d7a40eab7-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:34:09.341188+00:00",
-        "lease_expires_at": "2026-11-11T16:34:09.341204+00:00"
-      },
       "source": {
         "source_id": "20639768",
         "source_url": "https://sdilej.cz/20639768/draci-princ-s02e08-kniha-osudu-cz.mkv",
@@ -342932,22 +342926,29 @@
         "display_name": "The Dragon Prince S02E08 The Book of Destiny 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:34:15.399776+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988896",
-        "size_bytes": 571034256
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988896",
-        "size_bytes": 571034256,
-        "source_bytes_read": 571034256,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988896",
         "source_bytes_read": 571034256,
         "elapsed_seconds": 23.691,
         "finished_at": "2026-11-11T10:34:53.565484+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988896",
+          "size_bytes": 571034256,
+          "source_bytes_read": 571034256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20639768",
+        "source_url": "https://sdilej.cz/20639768/draci-princ-s02e08-kniha-osudu-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988896",
+        "display_name": "The Dragon Prince S02E08 The Book of Destiny 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:34:58.869039+00:00"
       }
     },
     "42:2:9": {
@@ -342993,7 +342994,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:34:53.565502+00:00",
+  "updated_at": "2026-11-11T10:34:58.869055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
