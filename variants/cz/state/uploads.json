@@ -351200,12 +351200,6 @@
     },
     "561:9:7": {
       "episode_key": "živí mrtví:s9:e7",
-      "claim": {
-        "worker_id": "bf28c1fdab2f4ee6bdca79b58d3fd860-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:31:25.498250+00:00",
-        "lease_expires_at": "2026-11-11T18:31:25.498270+00:00"
-      },
       "source": {
         "source_id": "33265005",
         "source_url": "https://sdilej.cz/33265005/zivi-mrtvi-s09e07-16-2018-cz-dab-1080p-stradivarky.mkv",
@@ -351230,22 +351224,29 @@
         "display_name": "The Walking Dead S09E07 Stradivarius 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:31:31.860473+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989924",
-        "size_bytes": 851076514
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989924",
-        "size_bytes": 851076514,
-        "source_bytes_read": 851076514,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989924",
         "source_bytes_read": 851076514,
         "elapsed_seconds": 53.331,
         "finished_at": "2026-11-11T12:32:41.094262+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989924",
+          "size_bytes": 851076514,
+          "source_bytes_read": 851076514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33265005",
+        "source_url": "https://sdilej.cz/33265005/zivi-mrtvi-s09e07-16-2018-cz-dab-1080p-stradivarky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989924",
+        "display_name": "The Walking Dead S09E07 Stradivarius 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:32:52.263811+00:00"
       }
     },
     "561:9:8": {
@@ -351290,7 +351291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:32:49.224346+00:00",
+  "updated_at": "2026-11-11T12:32:52.263830+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
