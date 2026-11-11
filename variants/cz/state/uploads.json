@@ -363846,12 +363846,6 @@
     },
     "572:9:16": {
       "episode_key": "teorie velkého třesku:s9:e16",
-      "claim": {
-        "worker_id": "4b36241a6d0543a8b92c423011a6b77e-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:21:32.185285+00:00",
-        "lease_expires_at": "2026-11-12T01:21:32.185301+00:00"
-      },
       "source": {
         "source_id": "6310976",
         "source_url": "https://sdilej.cz/6310976/teorie-velkeho-tresku-s09e16.avi",
@@ -363876,22 +363870,29 @@
         "display_name": "The Big Bang Theory S09E16 The Positive Negative Reaction SD CZ Dabing",
         "prepared_at": "2026-11-11T19:21:35.727929+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993246",
-        "size_bytes": 186974208
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993246",
-        "size_bytes": 186974208,
-        "source_bytes_read": 186974208,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993246",
         "source_bytes_read": 186974208,
         "elapsed_seconds": 67.456,
         "finished_at": "2026-11-11T19:22:57.845115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993246",
+          "size_bytes": 186974208,
+          "source_bytes_read": 186974208,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6310976",
+        "source_url": "https://sdilej.cz/6310976/teorie-velkeho-tresku-s09e16.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993246",
+        "display_name": "The Big Bang Theory S09E16 The Positive Negative Reaction SD CZ Dabing",
+        "uploaded_at": "2026-11-11T19:23:05.037997+00:00"
       }
     }
   },
@@ -363900,7 +363901,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:22:57.845135+00:00",
+  "updated_at": "2026-11-11T19:23:05.038016+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
