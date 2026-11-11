@@ -356726,12 +356726,6 @@
     },
     "572:3:16": {
       "episode_key": "teorie velkého třesku:s3:e16",
-      "claim": {
-        "worker_id": "ea3e621e57ee411aa049dfd3305fcc39-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:50:03.928647+00:00",
-        "lease_expires_at": "2026-11-11T19:50:03.928664+00:00"
-      },
       "source": {
         "source_id": "29147618",
         "source_url": "https://sdilej.cz/29147618/teorie-velkeho-tresku-s03e16-kauza-excelsior-komedie-cz-dabing-angel-.mp4",
@@ -356756,22 +356750,29 @@
         "display_name": "The Big Bang Theory S03E16 The Excelsior Acquisition 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:50:16.703454+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990688",
-        "size_bytes": 582880554
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990688",
-        "size_bytes": 582880554,
-        "source_bytes_read": 582880554,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990688",
         "source_bytes_read": 582880554,
         "elapsed_seconds": 60.308,
         "finished_at": "2026-11-11T13:51:34.477945+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990688",
+          "size_bytes": 582880554,
+          "source_bytes_read": 582880554,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29147618",
+        "source_url": "https://sdilej.cz/29147618/teorie-velkeho-tresku-s03e16-kauza-excelsior-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990688",
+        "display_name": "The Big Bang Theory S03E16 The Excelsior Acquisition 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:51:39.146770+00:00"
       }
     },
     "572:3:17": {
@@ -356854,7 +356855,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:51:34.477970+00:00",
+  "updated_at": "2026-11-11T13:51:39.146786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
