@@ -342490,12 +342490,6 @@
     },
     "1410:2:35": {
       "episode_key": "phineas a ferb:s2:e35",
-      "claim": {
-        "worker_id": "f4dc58bf2d3649b0bb5c6ac31191a7e8-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:16:16.500278+00:00",
-        "lease_expires_at": "2026-11-11T16:16:16.500288+00:00"
-      },
       "source": {
         "source_id": "33548490",
         "source_url": "https://sdilej.cz/33548490/phineas.a.ferb.2x35.co.to.dela.720p.cz.batmaster.mkv",
@@ -342520,22 +342514,29 @@
         "display_name": "Phineas and Ferb S02E35 What Do It Do 720p CZ Dabing",
         "prepared_at": "2026-11-11T10:16:19.648236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988837",
-        "size_bytes": 104320132
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988837",
-        "size_bytes": 104320132,
-        "source_bytes_read": 104320132,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988837",
         "source_bytes_read": 104320132,
         "elapsed_seconds": 5.243,
         "finished_at": "2026-11-11T10:16:37.382735+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988837",
+          "size_bytes": 104320132,
+          "source_bytes_read": 104320132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548490",
+        "source_url": "https://sdilej.cz/33548490/phineas.a.ferb.2x35.co.to.dela.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988837",
+        "display_name": "Phineas and Ferb S02E35 What Do It Do 720p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:16:42.034199+00:00"
       }
     }
   },
@@ -342544,7 +342545,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:16:37.382752+00:00",
+  "updated_at": "2026-11-11T10:16:42.034213+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
