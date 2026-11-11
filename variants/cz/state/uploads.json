@@ -367801,12 +367801,6 @@
     },
     "572:12:22": {
       "episode_key": "teorie velkého třesku:s12:e22",
-      "claim": {
-        "worker_id": "63753bc084c242a082b13794a6631a92-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:16:57.220216+00:00",
-        "lease_expires_at": "2026-11-12T04:16:57.220233+00:00"
-      },
       "source": {
         "source_id": "29798556",
         "source_url": "https://sdilej.cz/29798556/teorie-velkeho-tresku-s12e22.mkv",
@@ -367831,22 +367825,29 @@
         "display_name": "The Big Bang Theory S12E22 The Maternal Conclusion 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:17:00.827201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994675",
-        "size_bytes": 624845368
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994675",
-        "size_bytes": 624845368,
-        "source_bytes_read": 624845368,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994675",
         "source_bytes_read": 624845368,
         "elapsed_seconds": 201.165,
         "finished_at": "2026-11-11T22:20:36.276483+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994675",
+          "size_bytes": 624845368,
+          "source_bytes_read": 624845368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798556",
+        "source_url": "https://sdilej.cz/29798556/teorie-velkeho-tresku-s12e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994675",
+        "display_name": "The Big Bang Theory S12E22 The Maternal Conclusion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:20:42.032773+00:00"
       }
     },
     "394:1:2": {
@@ -368031,7 +368032,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:20:36.276510+00:00",
+  "updated_at": "2026-11-11T22:20:42.032794+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
