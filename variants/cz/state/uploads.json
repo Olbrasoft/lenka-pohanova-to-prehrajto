@@ -355090,12 +355090,6 @@
     },
     "572:2:7": {
       "episode_key": "teorie velkého třesku:s2:e7",
-      "claim": {
-        "worker_id": "1a7f0eb5c95a4818bae7753640339735-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:21:25.930151+00:00",
-        "lease_expires_at": "2026-11-11T19:21:25.930165+00:00"
-      },
       "source": {
         "source_id": "29798898",
         "source_url": "https://sdilej.cz/29798898/teorie-velkeho-tresku-s02e07.mkv",
@@ -355120,22 +355114,29 @@
         "display_name": "The Big Bang Theory S02E07 The Panty Piñata Polarization 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:21:29.752689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990333",
-        "size_bytes": 611324437
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990333",
-        "size_bytes": 611324437,
-        "source_bytes_read": 611324437,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990333",
         "source_bytes_read": 611324437,
         "elapsed_seconds": 42.754,
         "finished_at": "2026-11-11T13:22:27.720872+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990333",
+          "size_bytes": 611324437,
+          "source_bytes_read": 611324437,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798898",
+        "source_url": "https://sdilej.cz/29798898/teorie-velkeho-tresku-s02e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990333",
+        "display_name": "The Big Bang Theory S02E07 The Panty Piñata Polarization 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:22:33.263779+00:00"
       }
     },
     "572:2:8": {
@@ -355181,7 +355182,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:22:27.720896+00:00",
+  "updated_at": "2026-11-11T13:22:33.263795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
