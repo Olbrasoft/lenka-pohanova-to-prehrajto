@@ -356558,12 +356558,6 @@
     },
     "572:3:13": {
       "episode_key": "teorie velkého třesku:s3:e13",
-      "claim": {
-        "worker_id": "eb72f6456a8a4e0a8028d107a0bc1b28-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:47:23.227681+00:00",
-        "lease_expires_at": "2026-11-11T19:47:23.227699+00:00"
-      },
       "source": {
         "source_id": "27591612",
         "source_url": "https://sdilej.cz/27591612/teorie-velkeho-tresku-s03e13-cz.mkv",
@@ -356588,22 +356582,29 @@
         "display_name": "The Big Bang Theory S03E13 The Bozeman Reaction 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:47:26.884262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990636",
-        "size_bytes": 172767902
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990636",
-        "size_bytes": 172767902,
-        "source_bytes_read": 172767902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990636",
         "source_bytes_read": 172767902,
         "elapsed_seconds": 28.957,
         "finished_at": "2026-11-11T13:48:16.923325+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990636",
+          "size_bytes": 172767902,
+          "source_bytes_read": 172767902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27591612",
+        "source_url": "https://sdilej.cz/27591612/teorie-velkeho-tresku-s03e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990636",
+        "display_name": "The Big Bang Theory S03E13 The Bozeman Reaction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:48:27.126904+00:00"
       }
     }
   },
@@ -356612,7 +356613,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:48:21.315068+00:00",
+  "updated_at": "2026-11-11T13:48:27.126922+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
