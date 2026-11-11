@@ -345962,12 +345962,6 @@
     },
     "561:2:9": {
       "episode_key": "živí mrtví:s2:e9",
-      "claim": {
-        "worker_id": "827914d73246410491024bdd595e239c-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:11:06.174289+00:00",
-        "lease_expires_at": "2026-11-11T17:11:06.174313+00:00"
-      },
       "source": {
         "source_id": "32499277",
         "source_url": "https://sdilej.cz/32499277/zivi-mrtvi-s02e09-prestrelka.mkv",
@@ -345992,22 +345986,29 @@
         "display_name": "The Walking Dead S02E09 Triggerfinger 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:11:09.860513+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989098",
-        "size_bytes": 895585262
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989098",
-        "size_bytes": 895585262,
-        "source_bytes_read": 895585262,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989098",
         "source_bytes_read": 895585262,
         "elapsed_seconds": 56.54,
         "finished_at": "2026-11-11T11:12:26.538481+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989098",
+          "size_bytes": 895585262,
+          "source_bytes_read": 895585262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499277",
+        "source_url": "https://sdilej.cz/32499277/zivi-mrtvi-s02e09-prestrelka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989098",
+        "display_name": "The Walking Dead S02E09 Triggerfinger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:12:31.077429+00:00"
       }
     },
     "561:2:10": {
@@ -346090,7 +346091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:12:26.538509+00:00",
+  "updated_at": "2026-11-11T11:12:31.077448+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
