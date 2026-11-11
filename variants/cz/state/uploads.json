@@ -366424,12 +366424,6 @@
     },
     "572:11:18": {
       "episode_key": "teorie velkého třesku:s11:e18",
-      "claim": {
-        "worker_id": "2f48f5394add41afbe5ea2f4ee68463f-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T21:38:42.723824+00:00",
-        "lease_expires_at": "2026-11-12T03:38:42.723850+00:00"
-      },
       "source": {
         "source_id": "29798587",
         "source_url": "https://sdilej.cz/29798587/teorie-velkeho-tresku-s11e18.mkv",
@@ -366454,22 +366448,29 @@
         "display_name": "The Big Bang Theory S11E18 The Gates Excitation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T21:38:46.267853+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994315",
-        "size_bytes": 621949761
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994315",
-        "size_bytes": 621949761,
-        "source_bytes_read": 621949761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994315",
         "source_bytes_read": 621949761,
         "elapsed_seconds": 278.246,
         "finished_at": "2026-11-11T21:43:38.921715+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994315",
+          "size_bytes": 621949761,
+          "source_bytes_read": 621949761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798587",
+        "source_url": "https://sdilej.cz/29798587/teorie-velkeho-tresku-s11e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994315",
+        "display_name": "The Big Bang Theory S11E18 The Gates Excitation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T21:43:44.410592+00:00"
       }
     },
     "572:11:19": {
@@ -366552,7 +366553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T21:43:38.921742+00:00",
+  "updated_at": "2026-11-11T21:43:44.410612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
