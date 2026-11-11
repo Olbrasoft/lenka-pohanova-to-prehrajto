@@ -354117,12 +354117,6 @@
     },
     "572:1:7": {
       "episode_key": "teorie velkého třesku:s1:e7",
-      "claim": {
-        "worker_id": "81e257d370ce4d9ba3cab3ee2676237a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:10:39.882189+00:00",
-        "lease_expires_at": "2026-11-11T19:10:39.882206+00:00"
-      },
       "source": {
         "source_id": "29143759",
         "source_url": "https://sdilej.cz/29143759/teorie-velkeho-tresku-s01e07-knedlickovy-paradox-komedie-cz-dabing-angel-.mp4",
@@ -354147,22 +354141,29 @@
         "display_name": "The Big Bang Theory S01E07 The Dumpling Paradox 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:10:43.583679+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990199",
-        "size_bytes": 587699047
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990199",
-        "size_bytes": 587699047,
-        "source_bytes_read": 587699047,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990199",
         "source_bytes_read": 587699047,
         "elapsed_seconds": 56.588,
         "finished_at": "2026-11-11T13:11:57.803535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990199",
+          "size_bytes": 587699047,
+          "source_bytes_read": 587699047,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29143759",
+        "source_url": "https://sdilej.cz/29143759/teorie-velkeho-tresku-s01e07-knedlickovy-paradox-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990199",
+        "display_name": "The Big Bang Theory S01E07 The Dumpling Paradox 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:12:13.590070+00:00"
       }
     },
     "572:1:8": {
@@ -354244,7 +354245,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:12:10.687596+00:00",
+  "updated_at": "2026-11-11T13:12:13.590089+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
