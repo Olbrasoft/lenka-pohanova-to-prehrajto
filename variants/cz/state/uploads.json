@@ -355640,12 +355640,6 @@
     },
     "572:2:18": {
       "episode_key": "teorie velkého třesku:s2:e18",
-      "claim": {
-        "worker_id": "5680ce2adef54a529b67c83225d15cfe-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:37:54.161083+00:00",
-        "lease_expires_at": "2026-11-11T19:37:54.161101+00:00"
-      },
       "source": {
         "source_id": "29798881",
         "source_url": "https://sdilej.cz/29798881/teorie-velkeho-tresku-s02e18.mkv",
@@ -355670,22 +355664,29 @@
         "display_name": "The Big Bang Theory S02E18 The Work Song Nanocluster 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:38:01.155482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990513",
-        "size_bytes": 594026679
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990513",
-        "size_bytes": 594026679,
-        "source_bytes_read": 594026679,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990513",
         "source_bytes_read": 594026679,
         "elapsed_seconds": 40.556,
         "finished_at": "2026-11-11T13:39:01.781478+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990513",
+          "size_bytes": 594026679,
+          "source_bytes_read": 594026679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798881",
+        "source_url": "https://sdilej.cz/29798881/teorie-velkeho-tresku-s02e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990513",
+        "display_name": "The Big Bang Theory S02E18 The Work Song Nanocluster 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:39:12.244907+00:00"
       }
     },
     "572:2:19": {
@@ -355782,7 +355783,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:39:09.072076+00:00",
+  "updated_at": "2026-11-11T13:39:12.244923+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
