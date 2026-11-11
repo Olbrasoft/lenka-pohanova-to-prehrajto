@@ -367736,12 +367736,6 @@
     },
     "572:12:21": {
       "episode_key": "teorie velkého třesku:s12:e21",
-      "claim": {
-        "worker_id": "40cdaeae842b4d0093c3ca7a6363c1fb-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:14:11.995769+00:00",
-        "lease_expires_at": "2026-11-12T04:14:11.995785+00:00"
-      },
       "source": {
         "source_id": "29798557",
         "source_url": "https://sdilej.cz/29798557/teorie-velkeho-tresku-s12e21.mkv",
@@ -367766,22 +367760,29 @@
         "display_name": "The Big Bang Theory S12E21 The Plagiarism Schism 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:14:18.494013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994642",
-        "size_bytes": 609126149
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994642",
-        "size_bytes": 609126149,
-        "source_bytes_read": 609126149,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994642",
         "source_bytes_read": 609126149,
         "elapsed_seconds": 201.561,
         "finished_at": "2026-11-11T22:17:55.580978+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994642",
+          "size_bytes": 609126149,
+          "source_bytes_read": 609126149,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798557",
+        "source_url": "https://sdilej.cz/29798557/teorie-velkeho-tresku-s12e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994642",
+        "display_name": "The Big Bang Theory S12E21 The Plagiarism Schism 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:18:02.547141+00:00"
       }
     },
     "572:12:22": {
@@ -367827,7 +367828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:17:55.581005+00:00",
+  "updated_at": "2026-11-11T22:18:02.547162+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
