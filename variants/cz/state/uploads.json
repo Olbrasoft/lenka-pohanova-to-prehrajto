@@ -351409,12 +351409,6 @@
     },
     "561:9:11": {
       "episode_key": "živí mrtví:s9:e11",
-      "claim": {
-        "worker_id": "fcfe932303774341b819c5b9b1e00f8c-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:34:42.519434+00:00",
-        "lease_expires_at": "2026-11-11T18:34:42.519451+00:00"
-      },
       "source": {
         "source_id": "33265017",
         "source_url": "https://sdilej.cz/33265017/zivi-mrtvi-s09e11-16-2018-cz-dab-1080p-odmena.mkv",
@@ -351439,22 +351433,29 @@
         "display_name": "The Walking Dead S09E11 Bounty 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:34:51.703564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989947",
-        "size_bytes": 816983714
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989947",
-        "size_bytes": 816983714,
-        "source_bytes_read": 816983714,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989947",
         "source_bytes_read": 816983714,
         "elapsed_seconds": 50.891,
         "finished_at": "2026-11-11T12:36:01.692060+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989947",
+          "size_bytes": 816983714,
+          "source_bytes_read": 816983714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33265017",
+        "source_url": "https://sdilej.cz/33265017/zivi-mrtvi-s09e11-16-2018-cz-dab-1080p-odmena.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989947",
+        "display_name": "The Walking Dead S09E11 Bounty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:36:07.939478+00:00"
       }
     },
     "561:9:12": {
@@ -351537,7 +351538,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:36:01.692076+00:00",
+  "updated_at": "2026-11-11T12:36:07.939494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
