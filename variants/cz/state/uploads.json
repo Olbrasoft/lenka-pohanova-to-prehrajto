@@ -339814,12 +339814,6 @@
     },
     "30:3:20": {
       "episode_key": "lucifer:s3:e20",
-      "claim": {
-        "worker_id": "9613a348649144a3a26a266cabab649d-worker-0",
-        "run_id": "42913821684",
-        "claimed_at": "2026-11-11T00:04:44.678502+00:00",
-        "lease_expires_at": "2026-11-11T06:04:44.678512+00:00"
-      },
       "source": {
         "source_id": "34485705",
         "source_url": "https://sdilej.cz/34485705/lucifer-s03e20-1080p-cz-en-andel-ze-san-bernardina.mkv",
@@ -339875,7 +339869,13 @@
             ]
           }
         ]
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-11T00:31:29.126221+00:00",
+          "error": "TargetPending"
+        }
+      ]
     },
     "583:3:8": {
       "episode_key": "dobrý doktor:s3:e8",
@@ -339957,7 +339957,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T00:31:26.497455+00:00",
+  "updated_at": "2026-11-11T00:31:29.126236+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
