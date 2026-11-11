@@ -352801,12 +352801,6 @@
     },
     "561:11:3": {
       "episode_key": "živí mrtví:s11:e3",
-      "claim": {
-        "worker_id": "5892d24e68b241aa9612f137424d295f-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:54:35.979250+00:00",
-        "lease_expires_at": "2026-11-11T18:54:35.979267+00:00"
-      },
       "source": {
         "source_id": "35005962",
         "source_url": "https://sdilej.cz/35005962/zivi-mrtvi-s11e03-156-2021-fhd-lovena-zver-s-.mp4",
@@ -352831,22 +352825,29 @@
         "display_name": "The Walking Dead S11E03 Hunted 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:54:40.538866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990079",
-        "size_bytes": 911809032
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990079",
-        "size_bytes": 911809032,
-        "source_bytes_read": 911809032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990079",
         "source_bytes_read": 911809032,
         "elapsed_seconds": 78.192,
         "finished_at": "2026-11-11T12:56:12.698316+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990079",
+          "size_bytes": 911809032,
+          "source_bytes_read": 911809032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35005962",
+        "source_url": "https://sdilej.cz/35005962/zivi-mrtvi-s11e03-156-2021-fhd-lovena-zver-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990079",
+        "display_name": "The Walking Dead S11E03 Hunted 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:56:17.628029+00:00"
       }
     },
     "561:11:4": {
@@ -352929,7 +352930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:56:12.698334+00:00",
+  "updated_at": "2026-11-11T12:56:17.628044+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
