@@ -364472,12 +364472,6 @@
     },
     "572:10:4": {
       "episode_key": "teorie velkého třesku:s10:e4",
-      "claim": {
-        "worker_id": "1e57e151295d4b9db7ca5706d6dee34b-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:36:43.958333+00:00",
-        "lease_expires_at": "2026-11-12T01:36:43.958348+00:00"
-      },
       "source": {
         "source_id": "7844236",
         "source_url": "https://sdilej.cz/7844236/teorie.velkeho.tresku.s10e04.avi",
@@ -364502,22 +364496,29 @@
         "display_name": "The Big Bang Theory S10E04 The Cohabitation Experimentation SD CZ Dabing",
         "prepared_at": "2026-11-11T19:36:53.598342+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993345",
-        "size_bytes": 244994734
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993345",
-        "size_bytes": 244994734,
-        "source_bytes_read": 244994734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993345",
         "source_bytes_read": 244994734,
         "elapsed_seconds": 103.431,
         "finished_at": "2026-11-11T19:38:52.291545+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993345",
+          "size_bytes": 244994734,
+          "source_bytes_read": 244994734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7844236",
+        "source_url": "https://sdilej.cz/7844236/teorie.velkeho.tresku.s10e04.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993345",
+        "display_name": "The Big Bang Theory S10E04 The Cohabitation Experimentation SD CZ Dabing",
+        "uploaded_at": "2026-11-11T19:38:57.696880+00:00"
       }
     },
     "572:10:5": {
@@ -364563,7 +364564,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:38:52.291566+00:00",
+  "updated_at": "2026-11-11T19:38:57.696899+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
