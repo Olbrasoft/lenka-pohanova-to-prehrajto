@@ -354627,12 +354627,6 @@
     },
     "572:1:17": {
       "episode_key": "teorie velkého třesku:s1:e17",
-      "claim": {
-        "worker_id": "37f40ac513d046d488c1eb72ab8716db-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:16:21.827693+00:00",
-        "lease_expires_at": "2026-11-11T19:16:21.827710+00:00"
-      },
       "source": {
         "source_id": "29798912",
         "source_url": "https://sdilej.cz/29798912/teorie-velkeho-tresku-s01e17.mkv",
@@ -354657,22 +354651,29 @@
         "display_name": "The Big Bang Theory S01E17 The Tangerine Factor 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:16:25.392316+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990255",
-        "size_bytes": 582732131
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990255",
-        "size_bytes": 582732131,
-        "source_bytes_read": 582732131,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990255",
         "source_bytes_read": 582732131,
         "elapsed_seconds": 37.881,
         "finished_at": "2026-11-11T13:17:21.887222+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990255",
+          "size_bytes": 582732131,
+          "source_bytes_read": 582732131,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798912",
+        "source_url": "https://sdilej.cz/29798912/teorie-velkeho-tresku-s01e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990255",
+        "display_name": "The Big Bang Theory S01E17 The Tangerine Factor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:17:30.101412+00:00"
       }
     },
     "572:2:1": {
@@ -354754,7 +354755,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:17:24.859659+00:00",
+  "updated_at": "2026-11-11T13:17:30.101429+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
