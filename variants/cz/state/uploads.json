@@ -361527,12 +361527,6 @@
     },
     "572:7:17": {
       "episode_key": "teorie velkého třesku:s7:e17",
-      "claim": {
-        "worker_id": "130e825f83c346ac98ab62cf2e811f3c-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:13:16.870389+00:00",
-        "lease_expires_at": "2026-11-12T00:13:16.870404+00:00"
-      },
       "source": {
         "source_id": "29798697",
         "source_url": "https://sdilej.cz/29798697/teorie-velkeho-tresku-s07e17.mkv",
@@ -361557,22 +361551,29 @@
         "display_name": "The Big Bang Theory S07E17 The Friendship Turbulence 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:13:25.545318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992714",
-        "size_bytes": 589442405
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992714",
-        "size_bytes": 589442405,
-        "source_bytes_read": 589442405,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992714",
         "source_bytes_read": 589442405,
         "elapsed_seconds": 195.503,
         "finished_at": "2026-11-11T18:17:02.962337+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992714",
+          "size_bytes": 589442405,
+          "source_bytes_read": 589442405,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798697",
+        "source_url": "https://sdilej.cz/29798697/teorie-velkeho-tresku-s07e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992714",
+        "display_name": "The Big Bang Theory S07E17 The Friendship Turbulence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:17:12.713292+00:00"
       }
     }
   },
@@ -361581,7 +361582,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:17:09.731485+00:00",
+  "updated_at": "2026-11-11T18:17:12.713309+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
