@@ -362112,12 +362112,6 @@
     },
     "572:8:6": {
       "episode_key": "teorie velkého třesku:s8:e6",
-      "claim": {
-        "worker_id": "6a965c3db5d845679539f44b9e5e9a26-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:31:15.721286+00:00",
-        "lease_expires_at": "2026-11-12T00:31:15.721303+00:00"
-      },
       "source": {
         "source_id": "35104210",
         "source_url": "https://sdilej.cz/35104210/teorie-velkeho-tresku-s08e06-simulace-dulni-expedice-cz-dabing-1080p-hevc-2014-.mkv",
@@ -362142,22 +362136,29 @@
         "display_name": "The Big Bang Theory S08E06 The Expedition Approximation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:31:19.141570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992855",
-        "size_bytes": 371108273
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992855",
-        "size_bytes": 371108273,
-        "source_bytes_read": 371108273,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992855",
         "source_bytes_read": 371108273,
         "elapsed_seconds": 125.351,
         "finished_at": "2026-11-11T18:33:38.199490+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992855",
+          "size_bytes": 371108273,
+          "source_bytes_read": 371108273,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35104210",
+        "source_url": "https://sdilej.cz/35104210/teorie-velkeho-tresku-s08e06-simulace-dulni-expedice-cz-dabing-1080p-hevc-2014-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992855",
+        "display_name": "The Big Bang Theory S08E06 The Expedition Approximation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:33:44.627040+00:00"
       }
     }
   },
@@ -362166,7 +362167,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:33:38.199510+00:00",
+  "updated_at": "2026-11-11T18:33:44.627058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
