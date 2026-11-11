@@ -363058,12 +363058,6 @@
     },
     "572:8:24": {
       "episode_key": "teorie velkého třesku:s8:e24",
-      "claim": {
-        "worker_id": "f10a22b68947409a8ac7fb2bffe7991b-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:53:12.280139+00:00",
-        "lease_expires_at": "2026-11-12T00:53:12.280155+00:00"
-      },
       "source": {
         "source_id": "29798662",
         "source_url": "https://sdilej.cz/29798662/teorie-velkeho-tresku-s08e24.mkv",
@@ -363088,22 +363082,29 @@
         "display_name": "The Big Bang Theory S08E24 The Commitment Determination 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:53:21.804531+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993046",
-        "size_bytes": 609341919
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993046",
-        "size_bytes": 609341919,
-        "source_bytes_read": 609341919,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993046",
         "source_bytes_read": 609341919,
         "elapsed_seconds": 212.522,
         "finished_at": "2026-11-11T18:57:13.691339+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993046",
+          "size_bytes": 609341919,
+          "source_bytes_read": 609341919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798662",
+        "source_url": "https://sdilej.cz/29798662/teorie-velkeho-tresku-s08e24.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993046",
+        "display_name": "The Big Bang Theory S08E24 The Commitment Determination 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:57:27.551144+00:00"
       }
     },
     "572:9:2": {
@@ -363200,7 +363201,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:57:24.590839+00:00",
+  "updated_at": "2026-11-11T18:57:27.551165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
