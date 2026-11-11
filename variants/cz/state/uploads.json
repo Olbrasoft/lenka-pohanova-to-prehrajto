@@ -344395,12 +344395,6 @@
     },
     "42:6:2": {
       "episode_key": "dračí princ:s6:e2",
-      "claim": {
-        "worker_id": "ff6f6e92572e432abb4879126ae48078-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:49:31.679275+00:00",
-        "lease_expires_at": "2026-11-11T16:49:31.679286+00:00"
-      },
       "source": {
         "source_id": "31885487",
         "source_url": "https://sdilej.cz/31885487/the-dragon-prince-s06e02-love-war-and-mushrooms.mkv",
@@ -344425,22 +344419,29 @@
         "display_name": "The Dragon Prince S06E02 Love, War and Mushrooms 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:49:34.918502+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988976",
-        "size_bytes": 712501186
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988976",
-        "size_bytes": 712501186,
-        "source_bytes_read": 712501186,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988976",
         "source_bytes_read": 712501186,
         "elapsed_seconds": 33.241,
         "finished_at": "2026-11-11T10:50:23.243065+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988976",
+          "size_bytes": 712501186,
+          "source_bytes_read": 712501186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31885487",
+        "source_url": "https://sdilej.cz/31885487/the-dragon-prince-s06e02-love-war-and-mushrooms.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988976",
+        "display_name": "The Dragon Prince S06E02 Love, War and Mushrooms 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:50:33.051330+00:00"
       }
     }
   },
@@ -344449,7 +344450,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:50:28.608906+00:00",
+  "updated_at": "2026-11-11T10:50:33.051346+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
