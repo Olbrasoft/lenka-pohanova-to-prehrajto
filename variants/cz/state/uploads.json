@@ -344938,12 +344938,6 @@
     },
     "164:2:2": {
       "episode_key": "čmuchalové:s2:e2",
-      "claim": {
-        "worker_id": "44cb162355374d03a192690774054395-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:55:11.700408+00:00",
-        "lease_expires_at": "2026-11-11T16:55:11.700419+00:00"
-      },
       "source": {
         "source_id": "33927376",
         "source_url": "https://sdilej.cz/33927376/cmuchalove-s02e02-2026-cz-dabing-1080p.mp4",
@@ -344968,22 +344962,29 @@
         "display_name": "SaNyangGaeDeul S02E02 2Hwa 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:55:18.276261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989012",
-        "size_bytes": 1162362913
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989012",
-        "size_bytes": 1162362913,
-        "source_bytes_read": 1162362913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989012",
         "source_bytes_read": 1162362913,
         "elapsed_seconds": 51.221,
         "finished_at": "2026-11-11T10:56:27.197136+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989012",
+          "size_bytes": 1162362913,
+          "source_bytes_read": 1162362913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33927376",
+        "source_url": "https://sdilej.cz/33927376/cmuchalove-s02e02-2026-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989012",
+        "display_name": "SaNyangGaeDeul S02E02 2Hwa 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:56:34.185300+00:00"
       }
     },
     "164:2:3": {
@@ -345029,7 +345030,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:56:31.491472+00:00",
+  "updated_at": "2026-11-11T10:56:34.185315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
