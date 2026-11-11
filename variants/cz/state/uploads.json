@@ -356456,12 +356456,6 @@
     },
     "572:3:11": {
       "episode_key": "teorie velkého třesku:s3:e11",
-      "claim": {
-        "worker_id": "f7a16bea0fbb4fc5bf4f6dbb13ae14bb-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:46:15.586098+00:00",
-        "lease_expires_at": "2026-11-11T19:46:15.586115+00:00"
-      },
       "source": {
         "source_id": "35084373",
         "source_url": "https://sdilej.cz/35084373/teorie-velkeho-tresku-s03e11-materska-shoda-cz-dabing-hevc-2009-.mkv",
@@ -356486,22 +356480,29 @@
         "display_name": "The Big Bang Theory S03E11 The Maternal Congruence 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:46:19.344784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990615",
-        "size_bytes": 336773349
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990615",
-        "size_bytes": 336773349,
-        "source_bytes_read": 336773349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990615",
         "source_bytes_read": 336773349,
         "elapsed_seconds": 53.276,
         "finished_at": "2026-11-11T13:47:31.316986+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990615",
+          "size_bytes": 336773349,
+          "source_bytes_read": 336773349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35084373",
+        "source_url": "https://sdilej.cz/35084373/teorie-velkeho-tresku-s03e11-materska-shoda-cz-dabing-hevc-2009-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990615",
+        "display_name": "The Big Bang Theory S03E11 The Maternal Congruence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:47:39.678079+00:00"
       }
     },
     "572:3:12": {
@@ -356583,7 +356584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:47:34.504289+00:00",
+  "updated_at": "2026-11-11T13:47:39.678096+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
