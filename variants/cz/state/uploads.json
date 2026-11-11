@@ -347802,12 +347802,6 @@
     },
     "561:5:1": {
       "episode_key": "živí mrtví:s5:e1",
-      "claim": {
-        "worker_id": "07bb1ffe74d646d181fdb8bf6d98fe29-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:42:04.933708+00:00",
-        "lease_expires_at": "2026-11-11T17:42:04.933726+00:00"
-      },
       "source": {
         "source_id": "33264773",
         "source_url": "https://sdilej.cz/33264773/zivi-mrtvi-s05e01-16-2014-cz-dab-1080p-porazka.mkv",
@@ -347832,22 +347826,29 @@
         "display_name": "The Walking Dead S05E01 No Sanctuary 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:42:08.575953+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989383",
-        "size_bytes": 855972524
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989383",
-        "size_bytes": 855972524,
-        "source_bytes_read": 855972524,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989383",
         "source_bytes_read": 855972524,
         "elapsed_seconds": 55.748,
         "finished_at": "2026-11-11T11:43:19.857948+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989383",
+          "size_bytes": 855972524,
+          "source_bytes_read": 855972524,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264773",
+        "source_url": "https://sdilej.cz/33264773/zivi-mrtvi-s05e01-16-2014-cz-dab-1080p-porazka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989383",
+        "display_name": "The Walking Dead S05E01 No Sanctuary 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:43:26.036497+00:00"
       }
     },
     "561:5:2": {
@@ -347930,7 +347931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:43:19.857966+00:00",
+  "updated_at": "2026-11-11T11:43:26.036516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
