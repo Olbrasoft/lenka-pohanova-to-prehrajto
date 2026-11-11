@@ -369943,12 +369943,6 @@
     },
     "394:17:4": {
       "episode_key": "griffinovi:s17:e4",
-      "claim": {
-        "worker_id": "04cb1810197e4fd497b3a8d4c4b97fe8-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:46:39.991657+00:00",
-        "lease_expires_at": "2026-11-12T05:46:39.991672+00:00"
-      },
       "source": {
         "source_id": "35292665",
         "source_url": "https://sdilej.cz/35292665/griffinovi-s17e04-velke-nesnaze-v-malem-quahogu-cz.mkv",
@@ -369973,22 +369967,29 @@
         "display_name": "Family Guy S17E04 Big Trouble in Little Quahog 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:46:46.356501+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995546",
-        "size_bytes": 983526313
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995546",
-        "size_bytes": 983526313,
-        "source_bytes_read": 983526313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995546",
         "source_bytes_read": 983526313,
         "elapsed_seconds": 259.812,
         "finished_at": "2026-11-11T23:51:24.789033+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995546",
+          "size_bytes": 983526313,
+          "source_bytes_read": 983526313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35292665",
+        "source_url": "https://sdilej.cz/35292665/griffinovi-s17e04-velke-nesnaze-v-malem-quahogu-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995546",
+        "display_name": "Family Guy S17E04 Big Trouble in Little Quahog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:51:29.463760+00:00"
       }
     },
     "394:17:6": {
@@ -370122,7 +370123,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:51:24.789060+00:00",
+  "updated_at": "2026-11-11T23:51:29.463782+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
