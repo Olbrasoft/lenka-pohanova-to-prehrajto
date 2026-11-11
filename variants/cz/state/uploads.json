@@ -363421,12 +363421,6 @@
     },
     "572:9:7": {
       "episode_key": "teorie velkého třesku:s9:e7",
-      "claim": {
-        "worker_id": "b1dacd43f6fc45acb4f32b2b4335effa-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:01:17.775181+00:00",
-        "lease_expires_at": "2026-11-12T01:01:17.775198+00:00"
-      },
       "source": {
         "source_id": "29798655",
         "source_url": "https://sdilej.cz/29798655/teorie-velkeho-tresku-s09e07.mkv",
@@ -363451,22 +363445,29 @@
         "display_name": "The Big Bang Theory S09E07 The Spock Resonance 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:01:23.059829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993103",
-        "size_bytes": 570107215
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993103",
-        "size_bytes": 570107215,
-        "source_bytes_read": 570107215,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993103",
         "source_bytes_read": 570107215,
         "elapsed_seconds": 174.515,
         "finished_at": "2026-11-11T19:04:32.978742+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993103",
+          "size_bytes": 570107215,
+          "source_bytes_read": 570107215,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798655",
+        "source_url": "https://sdilej.cz/29798655/teorie-velkeho-tresku-s09e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993103",
+        "display_name": "The Big Bang Theory S09E07 The Spock Resonance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:04:37.983586+00:00"
       }
     },
     "572:9:8": {
@@ -363512,7 +363513,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:04:32.978761+00:00",
+  "updated_at": "2026-11-11T19:04:37.983606+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
