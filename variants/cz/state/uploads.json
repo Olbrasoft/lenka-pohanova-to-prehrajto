@@ -353107,12 +353107,6 @@
     },
     "561:11:9": {
       "episode_key": "živí mrtví:s11:e9",
-      "claim": {
-        "worker_id": "77dd8e50c833430ba2d698d329770553-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:58:11.351605+00:00",
-        "lease_expires_at": "2026-11-11T18:58:11.351632+00:00"
-      },
       "source": {
         "source_id": "35006044",
         "source_url": "https://sdilej.cz/35006044/zivi-mrtvi-s11e09-162-2022-fhd-neni-jine-cesty-s-.mp4",
@@ -353137,22 +353131,29 @@
         "display_name": "The Walking Dead S11E09 No Other Way 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:58:14.955348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990104",
-        "size_bytes": 937219278
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990104",
-        "size_bytes": 937219278,
-        "source_bytes_read": 937219278,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990104",
         "source_bytes_read": 937219278,
         "elapsed_seconds": 70.557,
         "finished_at": "2026-11-11T12:59:39.942180+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990104",
+          "size_bytes": 937219278,
+          "source_bytes_read": 937219278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35006044",
+        "source_url": "https://sdilej.cz/35006044/zivi-mrtvi-s11e09-162-2022-fhd-neni-jine-cesty-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990104",
+        "display_name": "The Walking Dead S11E09 No Other Way 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:59:49.449806+00:00"
       }
     },
     "561:11:10": {
@@ -353231,7 +353232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:59:46.581889+00:00",
+  "updated_at": "2026-11-11T12:59:49.449821+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
