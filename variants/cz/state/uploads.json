@@ -352699,12 +352699,6 @@
     },
     "561:11:1": {
       "episode_key": "živí mrtví:s11:e1",
-      "claim": {
-        "worker_id": "377ad0529a7c4b5ca0584d0c9e49591d-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:52:59.111202+00:00",
-        "lease_expires_at": "2026-11-11T18:52:59.111216+00:00"
-      },
       "source": {
         "source_id": "35005941",
         "source_url": "https://sdilej.cz/35005941/zivi-mrtvi-s11e01-154-2021-fhd-acheron-i.-s-.mp4",
@@ -352729,22 +352723,29 @@
         "display_name": "The Walking Dead S11E01 Acheron (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:53:11.104171+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990072",
-        "size_bytes": 973991646
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990072",
-        "size_bytes": 973991646,
-        "source_bytes_read": 973991646,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990072",
         "source_bytes_read": 973991646,
         "elapsed_seconds": 91.171,
         "finished_at": "2026-11-11T12:55:00.930390+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990072",
+          "size_bytes": 973991646,
+          "source_bytes_read": 973991646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35005941",
+        "source_url": "https://sdilej.cz/35005941/zivi-mrtvi-s11e01-154-2021-fhd-acheron-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990072",
+        "display_name": "The Walking Dead S11E01 Acheron (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:55:07.047375+00:00"
       }
     },
     "561:11:2": {
@@ -352827,7 +352828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:55:00.930406+00:00",
+  "updated_at": "2026-11-11T12:55:07.047391+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
