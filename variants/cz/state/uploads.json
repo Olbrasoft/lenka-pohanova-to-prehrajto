@@ -365455,12 +365455,6 @@
     },
     "572:10:23": {
       "episode_key": "teorie velkého třesku:s10:e23",
-      "claim": {
-        "worker_id": "c66dc3dc1b8049b39a89efcecc0c2fa7-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:59:00.393715+00:00",
-        "lease_expires_at": "2026-11-12T01:59:00.393732+00:00"
-      },
       "source": {
         "source_id": "35134769",
         "source_url": "https://sdilej.cz/35134769/teorie-velkeho-tresku-s10e23-konfiskace-z-prisne-tajnych-duvodu.mkv",
@@ -365485,22 +365479,29 @@
         "display_name": "The Big Bang Theory S10E23 The Gyroscopic Collapse 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:59:03.902096+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993520",
-        "size_bytes": 321235271
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993520",
-        "size_bytes": 321235271,
-        "source_bytes_read": 321235271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993520",
         "source_bytes_read": 321235271,
         "elapsed_seconds": 92.422,
         "finished_at": "2026-11-11T20:00:51.837377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993520",
+          "size_bytes": 321235271,
+          "source_bytes_read": 321235271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35134769",
+        "source_url": "https://sdilej.cz/35134769/teorie-velkeho-tresku-s10e23-konfiskace-z-prisne-tajnych-duvodu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993520",
+        "display_name": "The Big Bang Theory S10E23 The Gyroscopic Collapse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T20:01:00.568942+00:00"
       }
     },
     "572:10:24": {
@@ -365583,7 +365584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T20:00:55.744066+00:00",
+  "updated_at": "2026-11-11T20:01:00.568962+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
