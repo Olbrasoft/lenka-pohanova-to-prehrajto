@@ -338341,12 +338341,6 @@
         }
       ],
       "episode_key": "dračí princ:s2:e4",
-      "claim": {
-        "worker_id": "bda2b700ceca4f2a9d8c026f7c8b0e53-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:32:03.702124+00:00",
-        "lease_expires_at": "2026-11-11T16:32:03.702136+00:00"
-      },
       "source": {
         "source_id": "12672772",
         "source_url": "https://sdilej.cz/12672772/draci-princ-s02e04-plavba-bezohlednych-cz-dabing.avi",
@@ -338371,22 +338365,29 @@
         "display_name": "The Dragon Prince S02E04 Voyage of the Ruthless SD CZ Dabing",
         "prepared_at": "2026-11-11T10:32:10.187680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988889",
-        "size_bytes": 258975872
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988889",
-        "size_bytes": 258975872,
-        "source_bytes_read": 258975872,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988889",
         "source_bytes_read": 258975872,
         "elapsed_seconds": 12.909,
         "finished_at": "2026-11-11T10:32:37.115578+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988889",
+          "size_bytes": 258975872,
+          "source_bytes_read": 258975872,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12672772",
+        "source_url": "https://sdilej.cz/12672772/draci-princ-s02e04-plavba-bezohlednych-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988889",
+        "display_name": "The Dragon Prince S02E04 Voyage of the Ruthless SD CZ Dabing",
+        "uploaded_at": "2026-11-11T10:32:42.954800+00:00"
       }
     },
     "42:2:3": {
@@ -342791,7 +342792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:32:37.115595+00:00",
+  "updated_at": "2026-11-11T10:32:42.954818+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
