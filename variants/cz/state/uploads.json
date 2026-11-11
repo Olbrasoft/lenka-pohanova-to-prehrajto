@@ -345911,12 +345911,6 @@
     },
     "561:2:8": {
       "episode_key": "živí mrtví:s2:e8",
-      "claim": {
-        "worker_id": "0d9a399970054ebba429fc140580972a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:10:34.679745+00:00",
-        "lease_expires_at": "2026-11-11T17:10:34.679761+00:00"
-      },
       "source": {
         "source_id": "33264600",
         "source_url": "https://sdilej.cz/33264600/zivi-mrtvi-s02e08-13-2011-cz-dab-1080p-nebraska.mkv",
@@ -345941,22 +345935,29 @@
         "display_name": "The Walking Dead S02E08 Nebraska 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:10:39.385561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989093",
-        "size_bytes": 846142908
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989093",
-        "size_bytes": 846142908,
-        "source_bytes_read": 846142908,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989093",
         "source_bytes_read": 846142908,
         "elapsed_seconds": 55.542,
         "finished_at": "2026-11-11T11:11:50.053658+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989093",
+          "size_bytes": 846142908,
+          "source_bytes_read": 846142908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264600",
+        "source_url": "https://sdilej.cz/33264600/zivi-mrtvi-s02e08-13-2011-cz-dab-1080p-nebraska.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989093",
+        "display_name": "The Walking Dead S02E08 Nebraska 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:11:58.681633+00:00"
       }
     },
     "561:2:9": {
@@ -346039,7 +346040,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:11:53.437510+00:00",
+  "updated_at": "2026-11-11T11:11:58.681650+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
