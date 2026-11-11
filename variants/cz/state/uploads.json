@@ -337770,12 +337770,6 @@
         }
       ],
       "episode_key": "zelená planeta:s1:e5",
-      "claim": {
-        "worker_id": "a7a21fd3d31e40f2aced45f2f1cd1f60-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:29:05.564397+00:00",
-        "lease_expires_at": "2026-11-11T16:29:05.564408+00:00"
-      },
       "source": {
         "source_id": "34298596",
         "source_url": "https://sdilej.cz/34298596/zelena-planeta-s01e05-svet-cloveka-czdab-h265-1080p-tvrip-.mkv",
@@ -337800,22 +337794,29 @@
         "display_name": "The Green Planet S01E05 Human Worlds 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:29:14.247945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988882",
-        "size_bytes": 2754588655
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988882",
-        "size_bytes": 2754588655,
-        "source_bytes_read": 2754588655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988882",
         "source_bytes_read": 2754588655,
         "elapsed_seconds": 120.204,
         "finished_at": "2026-11-11T10:31:29.418049+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988882",
+          "size_bytes": 2754588655,
+          "source_bytes_read": 2754588655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34298596",
+        "source_url": "https://sdilej.cz/34298596/zelena-planeta-s01e05-svet-cloveka-czdab-h265-1080p-tvrip-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988882",
+        "display_name": "The Green Planet S01E05 Human Worlds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:31:35.984442+00:00"
       }
     },
     "42:1:2": {
@@ -342713,7 +342714,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:31:32.988603+00:00",
+  "updated_at": "2026-11-11T10:31:35.984457+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
