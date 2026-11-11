@@ -356507,12 +356507,6 @@
     },
     "572:3:12": {
       "episode_key": "teorie velkého třesku:s3:e12",
-      "claim": {
-        "worker_id": "abbdd3c30faf48e3811afc4dce5e5f9c-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:46:51.485566+00:00",
-        "lease_expires_at": "2026-11-11T19:46:51.485584+00:00"
-      },
       "source": {
         "source_id": "35084386",
         "source_url": "https://sdilej.cz/35084386/teorie-velkeho-tresku-s03e12-okultni-klamy-cz-dabing-hevc-2009-.mkv",
@@ -356537,22 +356531,29 @@
         "display_name": "The Big Bang Theory S03E12 The Psychic Vortex 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:46:55.192378+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990624",
-        "size_bytes": 328148357
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990624",
-        "size_bytes": 328148357,
-        "source_bytes_read": 328148357,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990624",
         "source_bytes_read": 328148357,
         "elapsed_seconds": 60.508,
         "finished_at": "2026-11-11T13:48:10.661608+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990624",
+          "size_bytes": 328148357,
+          "source_bytes_read": 328148357,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35084386",
+        "source_url": "https://sdilej.cz/35084386/teorie-velkeho-tresku-s03e12-okultni-klamy-cz-dabing-hevc-2009-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990624",
+        "display_name": "The Big Bang Theory S03E12 The Psychic Vortex 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:48:21.315046+00:00"
       }
     },
     "572:3:13": {
@@ -356611,7 +356612,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:48:16.923353+00:00",
+  "updated_at": "2026-11-11T13:48:21.315068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
