@@ -346370,12 +346370,6 @@
     },
     "561:3:4": {
       "episode_key": "živí mrtví:s3:e4",
-      "claim": {
-        "worker_id": "4f22d49a59da472e8ba162241e796fd5-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:15:21.804123+00:00",
-        "lease_expires_at": "2026-11-11T17:15:21.804140+00:00"
-      },
       "source": {
         "source_id": "32499479",
         "source_url": "https://sdilej.cz/32499479/zivi-mrtvi-s03e04-skryty-vrah.mkv",
@@ -346400,22 +346394,29 @@
         "display_name": "The Walking Dead S03E04 Killer Within 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:15:25.301152+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989139",
-        "size_bytes": 903129809
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989139",
-        "size_bytes": 903129809,
-        "source_bytes_read": 903129809,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989139",
         "source_bytes_read": 903129809,
         "elapsed_seconds": 55.376,
         "finished_at": "2026-11-11T11:16:40.993311+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989139",
+          "size_bytes": 903129809,
+          "source_bytes_read": 903129809,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32499479",
+        "source_url": "https://sdilej.cz/32499479/zivi-mrtvi-s03e04-skryty-vrah.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989139",
+        "display_name": "The Walking Dead S03E04 Killer Within 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:16:47.192133+00:00"
       }
     },
     "561:3:6": {
@@ -346461,7 +346462,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:16:40.993333+00:00",
+  "updated_at": "2026-11-11T11:16:47.192148+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
