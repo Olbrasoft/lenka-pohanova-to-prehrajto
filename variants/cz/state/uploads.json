@@ -343259,12 +343259,6 @@
     },
     "42:3:6": {
       "episode_key": "dračí princ:s3:e6",
-      "claim": {
-        "worker_id": "3246922a57874d0483dc3c2cb2a346f5-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:38:16.767889+00:00",
-        "lease_expires_at": "2026-11-11T16:38:16.767900+00:00"
-      },
       "source": {
         "source_id": "12673680",
         "source_url": "https://sdilej.cz/12673680/draci-princ-s03e06-bourka-cz-dabing.avi",
@@ -343289,22 +343283,29 @@
         "display_name": "The Dragon Prince S03E06 Thunderfall SD CZ Dabing",
         "prepared_at": "2026-11-11T10:38:22.874806+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988912",
-        "size_bytes": 266707844
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988912",
-        "size_bytes": 266707844,
-        "source_bytes_read": 266707844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988912",
         "source_bytes_read": 266707844,
         "elapsed_seconds": 13.587,
         "finished_at": "2026-11-11T10:38:52.969535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988912",
+          "size_bytes": 266707844,
+          "source_bytes_read": 266707844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12673680",
+        "source_url": "https://sdilej.cz/12673680/draci-princ-s03e06-bourka-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988912",
+        "display_name": "The Dragon Prince S03E06 Thunderfall SD CZ Dabing",
+        "uploaded_at": "2026-11-11T10:38:59.742148+00:00"
       }
     },
     "42:3:7": {
@@ -343350,7 +343351,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:38:55.718521+00:00",
+  "updated_at": "2026-11-11T10:38:59.742164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
