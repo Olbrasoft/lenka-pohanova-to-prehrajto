@@ -355331,12 +355331,6 @@
     },
     "572:2:12": {
       "episode_key": "teorie velkého třesku:s2:e12",
-      "claim": {
-        "worker_id": "7a15867fef414f818947859d7119cd54-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:32:17.947581+00:00",
-        "lease_expires_at": "2026-11-11T19:32:17.947604+00:00"
-      },
       "source": {
         "source_id": "29145438",
         "source_url": "https://sdilej.cz/29145438/teorie-velkeho-tresku-s02e12-labilita-robozabijaka-komedie-cz-dabing-angel-.mp4",
@@ -355361,22 +355355,29 @@
         "display_name": "The Big Bang Theory S02E12 The Killer Robot Instability 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:32:24.598104+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990454",
-        "size_bytes": 585807291
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990454",
-        "size_bytes": 585807291,
-        "source_bytes_read": 585807291,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990454",
         "source_bytes_read": 585807291,
         "elapsed_seconds": 62.718,
         "finished_at": "2026-11-11T13:33:43.666023+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990454",
+          "size_bytes": 585807291,
+          "source_bytes_read": 585807291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29145438",
+        "source_url": "https://sdilej.cz/29145438/teorie-velkeho-tresku-s02e12-labilita-robozabijaka-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990454",
+        "display_name": "The Big Bang Theory S02E12 The Killer Robot Instability 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:33:51.084778+00:00"
       }
     },
     "572:2:13": {
@@ -355459,7 +355460,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:33:43.666040+00:00",
+  "updated_at": "2026-11-11T13:33:51.084795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
