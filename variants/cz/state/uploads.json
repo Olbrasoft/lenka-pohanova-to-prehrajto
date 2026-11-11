@@ -354372,12 +354372,6 @@
     },
     "572:1:12": {
       "episode_key": "teorie velkého třesku:s1:e12",
-      "claim": {
-        "worker_id": "53d1eb4e887842899b5d2d9bc990a632-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:14:03.053805+00:00",
-        "lease_expires_at": "2026-11-11T19:14:03.053821+00:00"
-      },
       "source": {
         "source_id": "27591377",
         "source_url": "https://sdilej.cz/27591377/teorie-velkeho-tresku-s01e12-cz.mkv",
@@ -354402,22 +354396,29 @@
         "display_name": "The Big Bang Theory S01E12 The Jerusalem Duality 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:14:14.157176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990235",
-        "size_bytes": 171018854
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990235",
-        "size_bytes": 171018854,
-        "source_bytes_read": 171018854,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990235",
         "source_bytes_read": 171018854,
         "elapsed_seconds": 16.32,
         "finished_at": "2026-11-11T13:14:48.906071+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990235",
+          "size_bytes": 171018854,
+          "source_bytes_read": 171018854,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27591377",
+        "source_url": "https://sdilej.cz/27591377/teorie-velkeho-tresku-s01e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990235",
+        "display_name": "The Big Bang Theory S01E12 The Jerusalem Duality 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:14:57.452211+00:00"
       }
     },
     "572:1:13": {
@@ -354463,7 +354464,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:14:52.972379+00:00",
+  "updated_at": "2026-11-11T13:14:57.452226+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
