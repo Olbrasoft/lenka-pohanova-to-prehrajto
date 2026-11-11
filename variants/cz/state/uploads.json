@@ -361324,12 +361324,6 @@
     },
     "572:7:13": {
       "episode_key": "teorie velkého třesku:s7:e13",
-      "claim": {
-        "worker_id": "3ef1ea9b6bce4b908d8d27d325798439-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:58:25.778391+00:00",
-        "lease_expires_at": "2026-11-11T23:58:25.778406+00:00"
-      },
       "source": {
         "source_id": "29798701",
         "source_url": "https://sdilej.cz/29798701/teorie-velkeho-tresku-s07e13.mkv",
@@ -361354,22 +361348,29 @@
         "display_name": "The Big Bang Theory S07E13 The Occupation Recalibration 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:58:32.462623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992607",
-        "size_bytes": 635561631
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992607",
-        "size_bytes": 635561631,
-        "source_bytes_read": 635561631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992607",
         "source_bytes_read": 635561631,
         "elapsed_seconds": 214.506,
         "finished_at": "2026-11-11T18:02:22.695194+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992607",
+          "size_bytes": 635561631,
+          "source_bytes_read": 635561631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798701",
+        "source_url": "https://sdilej.cz/29798701/teorie-velkeho-tresku-s07e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992607",
+        "display_name": "The Big Bang Theory S07E13 The Occupation Recalibration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:02:28.342685+00:00"
       }
     },
     "572:7:14": {
@@ -361415,7 +361416,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:02:22.695215+00:00",
+  "updated_at": "2026-11-11T18:02:28.342705+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
