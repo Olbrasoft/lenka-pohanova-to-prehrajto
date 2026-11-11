@@ -342003,12 +342003,6 @@
     },
     "1117:5:9": {
       "episode_key": "nová holka:s5:e9",
-      "claim": {
-        "worker_id": "a27ad6fd5fb447e1875436120eb86119-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T08:33:31.679250+00:00",
-        "lease_expires_at": "2026-11-11T14:33:31.679260+00:00"
-      },
       "source": {
         "source_id": "33299520",
         "source_url": "https://sdilej.cz/33299520/nova-holka-s05e09-cz.mp4",
@@ -342033,22 +342027,29 @@
         "display_name": "New Girl S05E09 Heat Wave SD CZ Dabing",
         "prepared_at": "2026-11-11T08:33:34.848129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988469",
-        "size_bytes": 114773689
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988469",
-        "size_bytes": 114773689,
-        "source_bytes_read": 114773689,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988469",
         "source_bytes_read": 114773689,
         "elapsed_seconds": 2153.287,
         "finished_at": "2026-11-11T09:09:40.420852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988469",
+          "size_bytes": 114773689,
+          "source_bytes_read": 114773689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33299520",
+        "source_url": "https://sdilej.cz/33299520/nova-holka-s05e09-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988469",
+        "display_name": "New Girl S05E09 Heat Wave SD CZ Dabing",
+        "uploaded_at": "2026-11-11T09:09:45.996725+00:00"
       }
     },
     "1117:5:14": {
@@ -342094,7 +342095,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T09:09:40.420872+00:00",
+  "updated_at": "2026-11-11T09:09:45.996743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
