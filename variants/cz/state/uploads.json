@@ -359488,12 +359488,6 @@
     },
     "572:5:24": {
       "episode_key": "teorie velkého třesku:s5:e24",
-      "claim": {
-        "worker_id": "fae0173945934922b5d47bd9c5f834cb-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:16:15.341223+00:00",
-        "lease_expires_at": "2026-11-11T23:16:15.341238+00:00"
-      },
       "source": {
         "source_id": "27592022",
         "source_url": "https://sdilej.cz/27592022/teorie-velkeho-tresku-s05e24-cz.mkv",
@@ -359518,22 +359512,29 @@
         "display_name": "The Big Bang Theory S05E24 The Countdown Reflection 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:16:21.747901+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992221",
-        "size_bytes": 184615367
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992221",
-        "size_bytes": 184615367,
-        "source_bytes_read": 184615367,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992221",
         "source_bytes_read": 184615367,
         "elapsed_seconds": 78.743,
         "finished_at": "2026-11-11T17:17:57.331937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992221",
+          "size_bytes": 184615367,
+          "source_bytes_read": 184615367,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592022",
+        "source_url": "https://sdilej.cz/27592022/teorie-velkeho-tresku-s05e24-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992221",
+        "display_name": "The Big Bang Theory S05E24 The Countdown Reflection 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:18:05.233146+00:00"
       }
     },
     "572:6:1": {
@@ -359615,7 +359616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:18:00.220868+00:00",
+  "updated_at": "2026-11-11T17:18:05.233166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
