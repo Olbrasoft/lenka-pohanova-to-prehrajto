@@ -355901,12 +355901,6 @@
     },
     "572:2:23": {
       "episode_key": "teorie velkého třesku:s2:e23",
-      "claim": {
-        "worker_id": "25d6eb0ca5e7442f80ac7f0d0aaf3ffe-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:40:09.505975+00:00",
-        "lease_expires_at": "2026-11-11T19:40:09.505991+00:00"
-      },
       "source": {
         "source_id": "29798875",
         "source_url": "https://sdilej.cz/29798875/teorie-velkeho-tresku-s02e23.mkv",
@@ -355931,22 +355925,29 @@
         "display_name": "The Big Bang Theory S02E23 The Monopolar Expedition 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:40:16.178741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990530",
-        "size_bytes": 615104611
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990530",
-        "size_bytes": 615104611,
-        "source_bytes_read": 615104611,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990530",
         "source_bytes_read": 615104611,
         "elapsed_seconds": 40.556,
         "finished_at": "2026-11-11T13:41:13.906754+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990530",
+          "size_bytes": 615104611,
+          "source_bytes_read": 615104611,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798875",
+        "source_url": "https://sdilej.cz/29798875/teorie-velkeho-tresku-s02e23.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990530",
+        "display_name": "The Big Bang Theory S02E23 The Monopolar Expedition 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:41:24.531147+00:00"
       }
     },
     "572:3:1": {
@@ -355992,7 +355993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:41:21.316512+00:00",
+  "updated_at": "2026-11-11T13:41:24.531163+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
