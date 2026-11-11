@@ -351868,12 +351868,6 @@
     },
     "561:10:6": {
       "episode_key": "živí mrtví:s10:e6",
-      "claim": {
-        "worker_id": "848a4d07aa5847cc9a6620ea8191f15a-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:41:54.089952+00:00",
-        "lease_expires_at": "2026-11-11T18:41:54.089972+00:00"
-      },
       "source": {
         "source_id": "32504821",
         "source_url": "https://sdilej.cz/32504821/zivi-mrtvi-s10e06-vazby.mkv",
@@ -351898,22 +351892,29 @@
         "display_name": "The Walking Dead S10E06 Bonds 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:41:57.798495+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989987",
-        "size_bytes": 946160290
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989987",
-        "size_bytes": 946160290,
-        "source_bytes_read": 946160290,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989987",
         "source_bytes_read": 946160290,
         "elapsed_seconds": 57.458,
         "finished_at": "2026-11-11T12:43:15.827641+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989987",
+          "size_bytes": 946160290,
+          "source_bytes_read": 946160290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504821",
+        "source_url": "https://sdilej.cz/32504821/zivi-mrtvi-s10e06-vazby.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989987",
+        "display_name": "The Walking Dead S10E06 Bonds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:43:23.213133+00:00"
       }
     },
     "561:10:7": {
@@ -352010,7 +352011,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:43:20.146963+00:00",
+  "updated_at": "2026-11-11T12:43:23.213152+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
