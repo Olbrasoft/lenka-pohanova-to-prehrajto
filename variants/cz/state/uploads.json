@@ -362089,12 +362089,6 @@
     },
     "572:8:5": {
       "episode_key": "teorie velkého třesku:s8:e5",
-      "claim": {
-        "worker_id": "b67e3050309943bb9743a13a58e0402a-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:30:30.130833+00:00",
-        "lease_expires_at": "2026-11-12T00:30:30.130849+00:00"
-      },
       "source": {
         "source_id": "29798684",
         "source_url": "https://sdilej.cz/29798684/teorie-velkeho-tresku-s08e05.mkv",
@@ -362119,22 +362113,29 @@
         "display_name": "The Big Bang Theory S08E05 The Focus Attenuation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T18:30:36.523405+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992842",
-        "size_bytes": 594065941
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992842",
-        "size_bytes": 594065941,
-        "source_bytes_read": 594065941,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992842",
         "source_bytes_read": 594065941,
         "elapsed_seconds": 203.06,
         "finished_at": "2026-11-11T18:34:14.259680+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992842",
+          "size_bytes": 594065941,
+          "source_bytes_read": 594065941,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798684",
+        "source_url": "https://sdilej.cz/29798684/teorie-velkeho-tresku-s08e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992842",
+        "display_name": "The Big Bang Theory S08E05 The Focus Attenuation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:34:22.588264+00:00"
       }
     },
     "572:8:6": {
@@ -362231,7 +362232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:34:17.099879+00:00",
+  "updated_at": "2026-11-11T18:34:22.588279+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
