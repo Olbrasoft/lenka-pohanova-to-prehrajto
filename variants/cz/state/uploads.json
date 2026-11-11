@@ -366526,12 +366526,6 @@
     },
     "572:11:20": {
       "episode_key": "teorie velkého třesku:s11:e20",
-      "claim": {
-        "worker_id": "f2f887cc80ff471788fb730601da82d4-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T21:40:58.177366+00:00",
-        "lease_expires_at": "2026-11-12T03:40:58.177385+00:00"
-      },
       "source": {
         "source_id": "29798584",
         "source_url": "https://sdilej.cz/29798584/teorie-velkeho-tresku-s11e20.mkv",
@@ -366556,22 +366550,29 @@
         "display_name": "The Big Bang Theory S11E20 The Reclusive Potential 1080p CZ Dabing",
         "prepared_at": "2026-11-11T21:41:01.781696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994332",
-        "size_bytes": 647625461
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994332",
-        "size_bytes": 647625461,
-        "source_bytes_read": 647625461,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994332",
         "source_bytes_read": 647625461,
         "elapsed_seconds": 273.643,
         "finished_at": "2026-11-11T21:45:49.406648+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994332",
+          "size_bytes": 647625461,
+          "source_bytes_read": 647625461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798584",
+        "source_url": "https://sdilej.cz/29798584/teorie-velkeho-tresku-s11e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994332",
+        "display_name": "The Big Bang Theory S11E20 The Reclusive Potential 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T21:45:54.965660+00:00"
       }
     },
     "572:11:21": {
@@ -366654,7 +366655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T21:45:49.406673+00:00",
+  "updated_at": "2026-11-11T21:45:54.965677+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
