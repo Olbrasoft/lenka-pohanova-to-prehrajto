@@ -352615,12 +352615,6 @@
     },
     "561:10:21": {
       "episode_key": "živí mrtví:s10:e21",
-      "claim": {
-        "worker_id": "0717d25c8d0645d5a616d91794b244f5-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:52:34.301665+00:00",
-        "lease_expires_at": "2026-11-11T18:52:34.301681+00:00"
-      },
       "source": {
         "source_id": "31873227",
         "source_url": "https://sdilej.cz/31873227/the-walking-dead-s10e21-zivi-mrtvi-fhd-1080p-cz-sk-svou-cestou.mkv",
@@ -352644,7 +352638,13 @@
         },
         "display_name": "The Walking Dead S10E21 Diverged 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:52:37.851721+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-11T12:52:50.177401+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -352652,7 +352652,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:52:43.668850+00:00",
+  "updated_at": "2026-11-11T12:52:50.177406+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -352865,6 +352865,10 @@
         {
           "identity": "561:10:18",
           "at": "2026-11-11T12:49:43.041249+00:00"
+        },
+        {
+          "identity": "561:10:21",
+          "at": "2026-11-11T12:52:50.177368+00:00"
         }
       ]
     }
