@@ -369178,12 +369178,6 @@
     },
     "394:12:3": {
       "episode_key": "griffinovi:s12:e3",
-      "claim": {
-        "worker_id": "74bcde53e685471ca1f960fb9dca1f83-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:07:22.265024+00:00",
-        "lease_expires_at": "2026-11-12T05:07:22.265041+00:00"
-      },
       "source": {
         "source_id": "34472182",
         "source_url": "https://sdilej.cz/34472182/griffinovi-s12e03-quagmire-je-quagmire-1080p-web-dl-cz-dabing.mkv",
@@ -369208,22 +369202,29 @@
         "display_name": "Family Guy S12E03 Quagmire's Quagmire 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:07:29.530834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995153",
-        "size_bytes": 824873702
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995153",
-        "size_bytes": 824873702,
-        "source_bytes_read": 824873702,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995153",
         "source_bytes_read": 824873702,
         "elapsed_seconds": 322.939,
         "finished_at": "2026-11-11T23:13:23.377581+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995153",
+          "size_bytes": 824873702,
+          "source_bytes_read": 824873702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34472182",
+        "source_url": "https://sdilej.cz/34472182/griffinovi-s12e03-quagmire-je-quagmire-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995153",
+        "display_name": "Family Guy S12E03 Quagmire's Quagmire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:13:29.450045+00:00"
       }
     },
     "394:12:4": {
@@ -369306,7 +369307,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:13:23.377608+00:00",
+  "updated_at": "2026-11-11T23:13:29.450067+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
