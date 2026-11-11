@@ -366192,12 +366192,6 @@
     },
     "572:11:14": {
       "episode_key": "teorie velkého třesku:s11:e14",
-      "claim": {
-        "worker_id": "b7992fbcdeca4b57af0cd2a1c4d25e83-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T20:28:11.253177+00:00",
-        "lease_expires_at": "2026-11-12T02:28:11.253192+00:00"
-      },
       "source": {
         "source_id": "18470400",
         "source_url": "https://sdilej.cz/18470400/teorie-velkeho-tresku-s11e14.avi",
@@ -366222,22 +366216,29 @@
         "display_name": "The Big Bang Theory S11E14 The Separation Triangulation SD CZ Dabing",
         "prepared_at": "2026-11-11T20:28:15.124176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993733",
-        "size_bytes": 186950822
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993733",
-        "size_bytes": 186950822,
-        "source_bytes_read": 186950822,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993733",
         "source_bytes_read": 186950822,
         "elapsed_seconds": 84.425,
         "finished_at": "2026-11-11T20:29:53.468541+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993733",
+          "size_bytes": 186950822,
+          "source_bytes_read": 186950822,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18470400",
+        "source_url": "https://sdilej.cz/18470400/teorie-velkeho-tresku-s11e14.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993733",
+        "display_name": "The Big Bang Theory S11E14 The Separation Triangulation SD CZ Dabing",
+        "uploaded_at": "2026-11-11T20:29:58.106315+00:00"
       }
     }
   },
@@ -366246,7 +366247,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T20:29:53.468562+00:00",
+  "updated_at": "2026-11-11T20:29:58.106332+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
