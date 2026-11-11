@@ -368872,12 +368872,6 @@
     },
     "394:11:19": {
       "episode_key": "griffinovi:s11:e19",
-      "claim": {
-        "worker_id": "8eafa3c8c3664897a1e0878566dc3b3c-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:55:18.599340+00:00",
-        "lease_expires_at": "2026-11-12T04:55:18.599354+00:00"
-      },
       "source": {
         "source_id": "34469235",
         "source_url": "https://sdilej.cz/34469235/griffinovi-s11e19-zachrante-skebli-1080p-web-dl-cz-dabing.mkv",
@@ -368902,22 +368896,29 @@
         "display_name": "Family Guy S11E19 Save the Clam 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:55:25.008135+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995025",
-        "size_bytes": 781608898
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995025",
-        "size_bytes": 781608898,
-        "source_bytes_read": 781608898,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995025",
         "source_bytes_read": 781608898,
         "elapsed_seconds": 250.63,
         "finished_at": "2026-11-11T22:59:53.125645+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995025",
+          "size_bytes": 781608898,
+          "source_bytes_read": 781608898,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34469235",
+        "source_url": "https://sdilej.cz/34469235/griffinovi-s11e19-zachrante-skebli-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995025",
+        "display_name": "Family Guy S11E19 Save the Clam 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:59:57.844126+00:00"
       }
     },
     "394:11:20": {
@@ -369000,7 +369001,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:59:53.125665+00:00",
+  "updated_at": "2026-11-11T22:59:57.844144+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
