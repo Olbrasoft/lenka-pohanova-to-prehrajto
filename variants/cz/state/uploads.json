@@ -364893,12 +364893,6 @@
     },
     "572:10:12": {
       "episode_key": "teorie velkého třesku:s10:e12",
-      "claim": {
-        "worker_id": "868f9e297a6e47df9184f187a8268843-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:47:32.475246+00:00",
-        "lease_expires_at": "2026-11-12T01:47:32.475261+00:00"
-      },
       "source": {
         "source_id": "13054170",
         "source_url": "https://sdilej.cz/13054170/teorie-velkeho-tresku-s10e12-resume-vanocnich-svatku-cz.h265.tweety.mkv",
@@ -364923,22 +364917,29 @@
         "display_name": "The Big Bang Theory S10E12 The Holiday Summation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:47:35.782349+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993407",
-        "size_bytes": 220152051
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993407",
-        "size_bytes": 220152051,
-        "source_bytes_read": 220152051,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993407",
         "source_bytes_read": 220152051,
         "elapsed_seconds": 86.61,
         "finished_at": "2026-11-11T19:49:17.843324+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993407",
+          "size_bytes": 220152051,
+          "source_bytes_read": 220152051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13054170",
+        "source_url": "https://sdilej.cz/13054170/teorie-velkeho-tresku-s10e12-resume-vanocnich-svatku-cz.h265.tweety.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993407",
+        "display_name": "The Big Bang Theory S10E12 The Holiday Summation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:49:26.031226+00:00"
       }
     },
     "572:10:13": {
@@ -364984,7 +364985,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:49:23.132250+00:00",
+  "updated_at": "2026-11-11T19:49:26.031246+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
