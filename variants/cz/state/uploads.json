@@ -345550,12 +345550,6 @@
     },
     "561:2:1": {
       "episode_key": "živí mrtví:s2:e1",
-      "claim": {
-        "worker_id": "52f6af62ad734d938442d1244f67ae5f-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:06:04.311442+00:00",
-        "lease_expires_at": "2026-11-11T17:06:04.311464+00:00"
-      },
       "source": {
         "source_id": "28291454",
         "source_url": "https://sdilej.cz/28291454/zivi-mrtvi-s02e01.mkv",
@@ -345580,22 +345574,29 @@
         "display_name": "The Walking Dead S02E01 What Lies Ahead 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:06:08.633295+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989071",
-        "size_bytes": 1392080623
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989071",
-        "size_bytes": 1392080623,
-        "source_bytes_read": 1392080623,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989071",
         "source_bytes_read": 1392080623,
         "elapsed_seconds": 89.645,
         "finished_at": "2026-11-11T11:08:02.173404+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989071",
+          "size_bytes": 1392080623,
+          "source_bytes_read": 1392080623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28291454",
+        "source_url": "https://sdilej.cz/28291454/zivi-mrtvi-s02e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989071",
+        "display_name": "The Walking Dead S02E01 What Lies Ahead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:08:19.135312+00:00"
       }
     },
     "561:2:2": {
@@ -345728,7 +345729,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:08:15.798197+00:00",
+  "updated_at": "2026-11-11T11:08:19.135329+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
