@@ -359590,12 +359590,6 @@
     },
     "572:6:2": {
       "episode_key": "teorie velkého třesku:s6:e2",
-      "claim": {
-        "worker_id": "b26683344b884e93960afed9f5d889f5-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:17:50.481781+00:00",
-        "lease_expires_at": "2026-11-11T23:17:50.481796+00:00"
-      },
       "source": {
         "source_id": "27592045",
         "source_url": "https://sdilej.cz/27592045/teorie-velkeho-tresku-s06e02-cz.mkv",
@@ -359620,22 +359614,29 @@
         "display_name": "The Big Bang Theory S06E02 The Decoupling Fluctuation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:17:54.570282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992241",
-        "size_bytes": 195510364
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992241",
-        "size_bytes": 195510364,
-        "source_bytes_read": 195510364,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992241",
         "source_bytes_read": 195510364,
         "elapsed_seconds": 74.317,
         "finished_at": "2026-11-11T17:19:29.068014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992241",
+          "size_bytes": 195510364,
+          "source_bytes_read": 195510364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592045",
+        "source_url": "https://sdilej.cz/27592045/teorie-velkeho-tresku-s06e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992241",
+        "display_name": "The Big Bang Theory S06E02 The Decoupling Fluctuation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:19:34.881416+00:00"
       }
     },
     "572:6:3": {
@@ -359718,7 +359719,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:19:29.068041+00:00",
+  "updated_at": "2026-11-11T17:19:34.881435+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
