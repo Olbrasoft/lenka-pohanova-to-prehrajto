@@ -365302,12 +365302,6 @@
     },
     "572:10:20": {
       "episode_key": "teorie velkého třesku:s10:e20",
-      "claim": {
-        "worker_id": "d2a40234e4204c1f94f3f7360d41409d-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:55:57.490085+00:00",
-        "lease_expires_at": "2026-11-12T01:55:57.490101+00:00"
-      },
       "source": {
         "source_id": "35140946",
         "source_url": "https://sdilej.cz/35140946/teorie-velkeho-tresku-s10e20-bezprecedentni-ztrata-pameti.mkv",
@@ -365332,22 +365326,29 @@
         "display_name": "The Big Bang Theory S10E20 The Recollection Dissipation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:56:04.943599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993495",
-        "size_bytes": 322602171
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993495",
-        "size_bytes": 322602171,
-        "source_bytes_read": 322602171,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993495",
         "source_bytes_read": 322602171,
         "elapsed_seconds": 134.797,
         "finished_at": "2026-11-11T19:58:39.124299+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993495",
+          "size_bytes": 322602171,
+          "source_bytes_read": 322602171,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35140946",
+        "source_url": "https://sdilej.cz/35140946/teorie-velkeho-tresku-s10e20-bezprecedentni-ztrata-pameti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993495",
+        "display_name": "The Big Bang Theory S10E20 The Recollection Dissipation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:58:49.384307+00:00"
       }
     },
     "572:10:21": {
@@ -365430,7 +365431,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:58:39.124319+00:00",
+  "updated_at": "2026-11-11T19:58:49.384326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
