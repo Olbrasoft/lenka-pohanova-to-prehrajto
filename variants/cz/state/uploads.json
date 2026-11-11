@@ -346115,12 +346115,6 @@
     },
     "561:2:12": {
       "episode_key": "živí mrtví:s2:e12",
-      "claim": {
-        "worker_id": "12f259df63cd475d94ea06f00b3faeb3-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:12:41.193137+00:00",
-        "lease_expires_at": "2026-11-11T17:12:41.193155+00:00"
-      },
       "source": {
         "source_id": "33264607",
         "source_url": "https://sdilej.cz/33264607/zivi-mrtvi-s02e12-13-2011-cz-dab-1080p-to-lepsi-v-nas.mkv",
@@ -346145,22 +346139,29 @@
         "display_name": "The Walking Dead S02E12 Better Angels 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:12:44.951230+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989117",
-        "size_bytes": 798894177
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989117",
-        "size_bytes": 798894177,
-        "source_bytes_read": 798894177,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989117",
         "source_bytes_read": 798894177,
         "elapsed_seconds": 50.647,
         "finished_at": "2026-11-11T11:13:52.655852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989117",
+          "size_bytes": 798894177,
+          "source_bytes_read": 798894177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264607",
+        "source_url": "https://sdilej.cz/33264607/zivi-mrtvi-s02e12-13-2011-cz-dab-1080p-to-lepsi-v-nas.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989117",
+        "display_name": "The Walking Dead S02E12 Better Angels 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:14:00.804086+00:00"
       }
     },
     "561:2:13": {
@@ -346242,7 +346243,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:13:55.654527+00:00",
+  "updated_at": "2026-11-11T11:14:00.804104+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
