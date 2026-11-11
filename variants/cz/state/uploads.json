@@ -365710,12 +365710,6 @@
     },
     "572:11:4": {
       "episode_key": "teorie velkého třesku:s11:e4",
-      "claim": {
-        "worker_id": "17f888267f994db88bcbd0e3c2feed63-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T20:05:12.243217+00:00",
-        "lease_expires_at": "2026-11-12T02:05:12.243234+00:00"
-      },
       "source": {
         "source_id": "29798603",
         "source_url": "https://sdilej.cz/29798603/teorie-velkeho-tresku-s11e04.mkv",
@@ -365740,22 +365734,29 @@
         "display_name": "The Big Bang Theory S11E04 The Explosion Implosion 1080p CZ Dabing",
         "prepared_at": "2026-11-11T20:05:16.124748+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993556",
-        "size_bytes": 1355635124
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993556",
-        "size_bytes": 1355635124,
-        "source_bytes_read": 1355635124,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993556",
         "source_bytes_read": 1355635124,
         "elapsed_seconds": 418.993,
         "finished_at": "2026-11-11T20:12:32.103740+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993556",
+          "size_bytes": 1355635124,
+          "source_bytes_read": 1355635124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798603",
+        "source_url": "https://sdilej.cz/29798603/teorie-velkeho-tresku-s11e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993556",
+        "display_name": "The Big Bang Theory S11E04 The Explosion Implosion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T20:12:38.853471+00:00"
       }
     }
   },
@@ -365764,7 +365765,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T20:12:32.103771+00:00",
+  "updated_at": "2026-11-11T20:12:38.853485+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
