@@ -347955,12 +347955,6 @@
     },
     "561:5:4": {
       "episode_key": "živí mrtví:s5:e4",
-      "claim": {
-        "worker_id": "822d30222ca64bbdb36cc60a9d7a4ffe-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:43:36.513917+00:00",
-        "lease_expires_at": "2026-11-11T17:43:36.513932+00:00"
-      },
       "source": {
         "source_id": "33264800",
         "source_url": "https://sdilej.cz/33264800/zivi-mrtvi-s05e04-16-2014-cz-dab-1080p-bezpravi-a-poradek.mkv",
@@ -347985,22 +347979,29 @@
         "display_name": "The Walking Dead S05E04 Slabtown 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:43:40.147225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989410",
-        "size_bytes": 843705437
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989410",
-        "size_bytes": 843705437,
-        "source_bytes_read": 843705437,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989410",
         "source_bytes_read": 843705437,
         "elapsed_seconds": 53.553,
         "finished_at": "2026-11-11T11:44:48.301376+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989410",
+          "size_bytes": 843705437,
+          "source_bytes_read": 843705437,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264800",
+        "source_url": "https://sdilej.cz/33264800/zivi-mrtvi-s05e04-16-2014-cz-dab-1080p-bezpravi-a-poradek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989410",
+        "display_name": "The Walking Dead S05E04 Slabtown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:44:54.431834+00:00"
       }
     },
     "561:5:5": {
@@ -348083,7 +348084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:44:48.301394+00:00",
+  "updated_at": "2026-11-11T11:44:54.431853+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
