@@ -353266,12 +353266,6 @@
     },
     "561:11:12": {
       "episode_key": "živí mrtví:s11:e12",
-      "claim": {
-        "worker_id": "58776135f1b1408ea03ca566880ad12b-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:00:02.152537+00:00",
-        "lease_expires_at": "2026-11-11T19:00:02.152550+00:00"
-      },
       "source": {
         "source_id": "32504942",
         "source_url": "https://sdilej.cz/32504942/zivi-mrtvi-s11e12-stastlivci.mkv",
@@ -353296,22 +353290,29 @@
         "display_name": "The Walking Dead S11E12 The Lucky Ones 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:00:06.517976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990119",
-        "size_bytes": 979749722
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990119",
-        "size_bytes": 979749722,
-        "source_bytes_read": 979749722,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990119",
         "source_bytes_read": 979749722,
         "elapsed_seconds": 59.684,
         "finished_at": "2026-11-11T13:01:21.310476+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990119",
+          "size_bytes": 979749722,
+          "source_bytes_read": 979749722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504942",
+        "source_url": "https://sdilej.cz/32504942/zivi-mrtvi-s11e12-stastlivci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990119",
+        "display_name": "The Walking Dead S11E12 The Lucky Ones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:01:32.346332+00:00"
       }
     },
     "561:11:13": {
@@ -353357,7 +353358,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:01:28.970703+00:00",
+  "updated_at": "2026-11-11T13:01:32.346351+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
