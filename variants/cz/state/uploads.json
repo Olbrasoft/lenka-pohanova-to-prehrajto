@@ -361820,12 +361820,6 @@
     },
     "572:7:24": {
       "episode_key": "teorie velkého třesku:s7:e24",
-      "claim": {
-        "worker_id": "4744d7009bcc4063b277dec5c9868435-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T18:22:52.670134+00:00",
-        "lease_expires_at": "2026-11-12T00:22:52.670150+00:00"
-      },
       "source": {
         "source_id": "29798689",
         "source_url": "https://sdilej.cz/29798689/teorie-velkeho-tresku-s07e24.mkv",
@@ -361850,22 +361844,29 @@
         "display_name": "The Big Bang Theory S07E24 The Status Quo Combustion 720p CZ Dabing",
         "prepared_at": "2026-11-11T18:22:56.079933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992786",
-        "size_bytes": 425711928
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992786",
-        "size_bytes": 425711928,
-        "source_bytes_read": 425711928,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992786",
         "source_bytes_read": 425711928,
         "elapsed_seconds": 183.009,
         "finished_at": "2026-11-11T18:26:12.605425+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992786",
+          "size_bytes": 425711928,
+          "source_bytes_read": 425711928,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798689",
+        "source_url": "https://sdilej.cz/29798689/teorie-velkeho-tresku-s07e24.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992786",
+        "display_name": "The Big Bang Theory S07E24 The Status Quo Combustion 720p CZ Dabing",
+        "uploaded_at": "2026-11-11T18:26:24.209781+00:00"
       }
     }
   },
@@ -361874,7 +361875,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T18:26:21.249341+00:00",
+  "updated_at": "2026-11-11T18:26:24.209800+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
