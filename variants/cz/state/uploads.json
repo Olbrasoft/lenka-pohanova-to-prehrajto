@@ -359946,12 +359946,6 @@
     },
     "572:6:9": {
       "episode_key": "teorie velkého třesku:s6:e9",
-      "claim": {
-        "worker_id": "34fbb698a2a742a19ac9a30d13a580e1-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:25:29.313675+00:00",
-        "lease_expires_at": "2026-11-11T23:25:29.313688+00:00"
-      },
       "source": {
         "source_id": "27592112",
         "source_url": "https://sdilej.cz/27592112/teorie-velkeho-tresku-s06e09-cz.mkv",
@@ -359976,22 +359970,29 @@
         "display_name": "The Big Bang Theory S06E09 The Parking Spot Escalation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:25:36.568508+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992316",
-        "size_bytes": 182767529
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992316",
-        "size_bytes": 182767529,
-        "source_bytes_read": 182767529,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992316",
         "source_bytes_read": 182767529,
         "elapsed_seconds": 77.613,
         "finished_at": "2026-11-11T17:27:15.623764+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992316",
+          "size_bytes": 182767529,
+          "source_bytes_read": 182767529,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27592112",
+        "source_url": "https://sdilej.cz/27592112/teorie-velkeho-tresku-s06e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992316",
+        "display_name": "The Big Bang Theory S06E09 The Parking Spot Escalation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:27:22.784307+00:00"
       }
     },
     "572:6:10": {
@@ -360037,7 +360038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:27:19.875541+00:00",
+  "updated_at": "2026-11-11T17:27:22.784326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
