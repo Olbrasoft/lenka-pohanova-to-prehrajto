@@ -354225,12 +354225,6 @@
     },
     "572:1:9": {
       "episode_key": "teorie velkého třesku:s1:e9",
-      "claim": {
-        "worker_id": "3c22e91f93c64d42856c5bd48e6b9d6b-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:11:50.807404+00:00",
-        "lease_expires_at": "2026-11-11T19:11:50.807422+00:00"
-      },
       "source": {
         "source_id": "29798928",
         "source_url": "https://sdilej.cz/29798928/teorie-velkeho-tresku-s01e09.mkv",
@@ -354255,22 +354249,29 @@
         "display_name": "The Big Bang Theory S01E09 The Cooper-Hofstadter Polarization 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:11:54.850882+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990210",
-        "size_bytes": 563358957
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990210",
-        "size_bytes": 563358957,
-        "source_bytes_read": 563358957,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990210",
         "source_bytes_read": 563358957,
         "elapsed_seconds": 42.434,
         "finished_at": "2026-11-11T13:12:53.122127+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990210",
+          "size_bytes": 563358957,
+          "source_bytes_read": 563358957,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798928",
+        "source_url": "https://sdilej.cz/29798928/teorie-velkeho-tresku-s01e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990210",
+        "display_name": "The Big Bang Theory S01E09 The Cooper-Hofstadter Polarization 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:13:02.491939+00:00"
       }
     },
     "572:1:10": {
@@ -354329,7 +354330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:12:59.471835+00:00",
+  "updated_at": "2026-11-11T13:13:02.491958+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
