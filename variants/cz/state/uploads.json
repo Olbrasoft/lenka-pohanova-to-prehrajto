@@ -358515,12 +358515,6 @@
     },
     "572:5:5": {
       "episode_key": "teorie velkého třesku:s5:e5",
-      "claim": {
-        "worker_id": "964ed996c31f46cd9ea1f3a47a625fc0-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:16:11.721085+00:00",
-        "lease_expires_at": "2026-11-11T20:16:11.721103+00:00"
-      },
       "source": {
         "source_id": "29798778",
         "source_url": "https://sdilej.cz/29798778/teorie-velkeho-tresku-s05e05.mkv",
@@ -358545,22 +358539,29 @@
         "display_name": "The Big Bang Theory S05E05 The Russian Rocket Reaction 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:16:15.272415+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990953",
-        "size_bytes": 620796949
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990953",
-        "size_bytes": 620796949,
-        "source_bytes_read": 620796949,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990953",
         "source_bytes_read": 620796949,
         "elapsed_seconds": 123.972,
         "finished_at": "2026-11-11T14:18:34.840941+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990953",
+          "size_bytes": 620796949,
+          "source_bytes_read": 620796949,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798778",
+        "source_url": "https://sdilej.cz/29798778/teorie-velkeho-tresku-s05e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990953",
+        "display_name": "The Big Bang Theory S05E05 The Russian Rocket Reaction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:18:46.287706+00:00"
       }
     },
     "572:5:6": {
@@ -358653,7 +358654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:18:43.034864+00:00",
+  "updated_at": "2026-11-11T14:18:46.287725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
