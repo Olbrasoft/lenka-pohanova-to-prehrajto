@@ -342851,12 +342851,6 @@
     },
     "42:2:7": {
       "episode_key": "dračí princ:s2:e7",
-      "claim": {
-        "worker_id": "07c8c3b7a430410886c2290d07350b43-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:33:05.209748+00:00",
-        "lease_expires_at": "2026-11-11T16:33:05.209758+00:00"
-      },
       "source": {
         "source_id": "20639750",
         "source_url": "https://sdilej.cz/20639750/draci-princ-s02e07-zachvat-zurivosti-cz.mkv",
@@ -342881,22 +342875,29 @@
         "display_name": "The Dragon Prince S02E07 Fire and Fury 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:33:11.043014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988894",
-        "size_bytes": 637624032
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988894",
-        "size_bytes": 637624032,
-        "source_bytes_read": 637624032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988894",
         "source_bytes_read": 637624032,
         "elapsed_seconds": 26.38,
         "finished_at": "2026-11-11T10:33:53.094858+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988894",
+          "size_bytes": 637624032,
+          "source_bytes_read": 637624032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20639750",
+        "source_url": "https://sdilej.cz/20639750/draci-princ-s02e07-zachvat-zurivosti-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988894",
+        "display_name": "The Dragon Prince S02E07 Fire and Fury 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:34:00.099718+00:00"
       }
     }
   },
@@ -342905,7 +342906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:33:57.528865+00:00",
+  "updated_at": "2026-11-11T10:34:00.099733+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
