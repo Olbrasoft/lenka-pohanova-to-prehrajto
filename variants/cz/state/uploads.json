@@ -355433,12 +355433,6 @@
     },
     "572:2:14": {
       "episode_key": "teorie velkého třesku:s2:e14",
-      "claim": {
-        "worker_id": "67529afca9da47aead34ec193b702d5e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:32:44.927568+00:00",
-        "lease_expires_at": "2026-11-11T19:32:44.927586+00:00"
-      },
       "source": {
         "source_id": "29798886",
         "source_url": "https://sdilej.cz/29798886/teorie-velkeho-tresku-s02e14.mkv",
@@ -355463,22 +355457,29 @@
         "display_name": "The Big Bang Theory S02E14 The Financial Permeability 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:32:51.545888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990460",
-        "size_bytes": 622880262
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990460",
-        "size_bytes": 622880262,
-        "source_bytes_read": 622880262,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990460",
         "source_bytes_read": 622880262,
         "elapsed_seconds": 74.906,
         "finished_at": "2026-11-11T13:34:20.943642+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990460",
+          "size_bytes": 622880262,
+          "source_bytes_read": 622880262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798886",
+        "source_url": "https://sdilej.cz/29798886/teorie-velkeho-tresku-s02e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990460",
+        "display_name": "The Big Bang Theory S02E14 The Financial Permeability 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:34:33.232521+00:00"
       }
     },
     "572:2:15": {
@@ -355533,7 +355534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:34:27.822392+00:00",
+  "updated_at": "2026-11-11T13:34:33.232538+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
