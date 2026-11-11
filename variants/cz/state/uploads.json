@@ -344038,12 +344038,6 @@
     },
     "42:5:3": {
       "episode_key": "dračí princ:s5:e3",
-      "claim": {
-        "worker_id": "89d1bc81c4ac4c3db9648956e22df3eb-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:45:48.529714+00:00",
-        "lease_expires_at": "2026-11-11T16:45:48.529725+00:00"
-      },
       "source": {
         "source_id": "26565331",
         "source_url": "https://sdilej.cz/26565331/draci-princ-the-dragon-prince-s05e03-hd-5.1-atmos-cz-dabing.mkv",
@@ -344068,22 +344062,29 @@
         "display_name": "The Dragon Prince S05E03 Nightmares and Revelations 1080p CZ Dabing",
         "prepared_at": "2026-11-11T10:45:55.509357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988961",
-        "size_bytes": 1272409370
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988961",
-        "size_bytes": 1272409370,
-        "source_bytes_read": 1272409370,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988961",
         "source_bytes_read": 1272409370,
         "elapsed_seconds": 55.822,
         "finished_at": "2026-11-11T10:47:10.458081+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988961",
+          "size_bytes": 1272409370,
+          "source_bytes_read": 1272409370,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26565331",
+        "source_url": "https://sdilej.cz/26565331/draci-princ-the-dragon-prince-s05e03-hd-5.1-atmos-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988961",
+        "display_name": "The Dragon Prince S05E03 Nightmares and Revelations 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T10:47:19.450486+00:00"
       }
     },
     "42:5:4": {
@@ -344142,7 +344143,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:47:15.856591+00:00",
+  "updated_at": "2026-11-11T10:47:19.450500+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
