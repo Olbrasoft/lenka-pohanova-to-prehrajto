@@ -360531,12 +360531,6 @@
     },
     "572:6:21": {
       "episode_key": "teorie velkého třesku:s6:e21",
-      "claim": {
-        "worker_id": "08f7b1e37b8e441c817e2098e2b2e6e9-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T17:38:51.572943+00:00",
-        "lease_expires_at": "2026-11-11T23:38:51.572962+00:00"
-      },
       "source": {
         "source_id": "29798719",
         "source_url": "https://sdilej.cz/29798719/teorie-velkeho-tresku-s06e21.mkv",
@@ -360561,22 +360555,29 @@
         "display_name": "The Big Bang Theory S06E21 The Closure Alternative 1080p CZ Dabing",
         "prepared_at": "2026-11-11T17:38:58.992951+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30992451",
-        "size_bytes": 391796220
-      },
-      "transfer_receipt": {
-        "target_video_id": "30992451",
-        "size_bytes": 391796220,
-        "source_bytes_read": 391796220,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30992451",
         "source_bytes_read": 391796220,
         "elapsed_seconds": 157.369,
         "finished_at": "2026-11-11T17:41:51.190419+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30992451",
+          "size_bytes": 391796220,
+          "source_bytes_read": 391796220,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798719",
+        "source_url": "https://sdilej.cz/29798719/teorie-velkeho-tresku-s06e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30992451",
+        "display_name": "The Big Bang Theory S06E21 The Closure Alternative 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T17:41:56.411343+00:00"
       }
     }
   },
@@ -360585,7 +360586,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T17:41:51.190438+00:00",
+  "updated_at": "2026-11-11T17:41:56.411361+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
