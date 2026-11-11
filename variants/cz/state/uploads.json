@@ -344693,12 +344693,6 @@
     },
     "164:1:2": {
       "episode_key": "čmuchalové:s1:e2",
-      "claim": {
-        "worker_id": "5b8ca98d8ca34ff78ec2e6403049f8c1-worker-0",
-        "run_id": "42979002915",
-        "claimed_at": "2026-11-11T10:52:35.128440+00:00",
-        "lease_expires_at": "2026-11-11T16:52:35.128449+00:00"
-      },
       "source": {
         "source_id": "31969238",
         "source_url": "https://sdilej.cz/31969238/cmuchalove-s01e02.mp4",
@@ -344723,22 +344717,29 @@
         "display_name": "SaNyangGaeDeul S01E02 SD CZ Dabing",
         "prepared_at": "2026-11-11T10:52:41.810376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30988998",
-        "size_bytes": 170474741
-      },
-      "transfer_receipt": {
-        "target_video_id": "30988998",
-        "size_bytes": 170474741,
-        "source_bytes_read": 170474741,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30988998",
         "source_bytes_read": 170474741,
         "elapsed_seconds": 11.047,
         "finished_at": "2026-11-11T10:53:08.813829+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30988998",
+          "size_bytes": 170474741,
+          "source_bytes_read": 170474741,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31969238",
+        "source_url": "https://sdilej.cz/31969238/cmuchalove-s01e02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30988998",
+        "display_name": "SaNyangGaeDeul S01E02 SD CZ Dabing",
+        "uploaded_at": "2026-11-11T10:53:19.195070+00:00"
       }
     }
   },
@@ -344747,7 +344748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T10:53:16.236933+00:00",
+  "updated_at": "2026-11-11T10:53:19.195083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
