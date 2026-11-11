@@ -355520,16 +355520,6 @@
         "display_name": "The Big Bang Theory S02E15 The Maternal Capacitance 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:34:08.007520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990473",
-        "size_bytes": 604969900
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990473",
-        "size_bytes": 604969900,
-        "source_bytes_read": 604969900,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990473",
         "source_bytes_read": 604969900,
@@ -355543,11 +355533,22 @@
           "error": "ConnectionError"
         }
       ],
-      "claim": {
-        "worker_id": "4ab465181bbc414babb7973fe56b3751-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:50:53.429661+00:00",
-        "lease_expires_at": "2026-11-11T19:50:53.429678+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990473",
+          "size_bytes": 604969900,
+          "source_bytes_read": 604969900,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29798885",
+        "source_url": "https://sdilej.cz/29798885/teorie-velkeho-tresku-s02e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990473",
+        "display_name": "The Big Bang Theory S02E15 The Maternal Capacitance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:51:03.065310+00:00"
       }
     },
     "572:2:16": {
@@ -356799,7 +356800,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:51:00.064203+00:00",
+  "updated_at": "2026-11-11T13:51:03.065328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
