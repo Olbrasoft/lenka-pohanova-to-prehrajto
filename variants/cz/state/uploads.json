@@ -358927,12 +358927,6 @@
     },
     "572:5:13": {
       "episode_key": "teorie velkého třesku:s5:e13",
-      "claim": {
-        "worker_id": "355547850c3042febec88de5c623aba7-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:22:47.262520+00:00",
-        "lease_expires_at": "2026-11-11T20:22:47.262537+00:00"
-      },
       "source": {
         "source_id": "13055434",
         "source_url": "https://sdilej.cz/13055434/teorie-velkeho-tresku-s05e13-hypoteza-rekombinace-cz.h265.tweety.mkv",
@@ -358957,22 +358951,29 @@
         "display_name": "The Big Bang Theory S05E13 The Recombination Hypothesis 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:22:59.274923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990998",
-        "size_bytes": 179933024
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990998",
-        "size_bytes": 179933024,
-        "source_bytes_read": 179933024,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990998",
         "source_bytes_read": 179933024,
         "elapsed_seconds": 38.011,
         "finished_at": "2026-11-11T14:23:59.246605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990998",
+          "size_bytes": 179933024,
+          "source_bytes_read": 179933024,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13055434",
+        "source_url": "https://sdilej.cz/13055434/teorie-velkeho-tresku-s05e13-hypoteza-rekombinace-cz.h265.tweety.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990998",
+        "display_name": "The Big Bang Theory S05E13 The Recombination Hypothesis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:24:04.052367+00:00"
       }
     },
     "572:5:14": {
@@ -359069,7 +359070,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:23:59.246636+00:00",
+  "updated_at": "2026-11-11T14:24:04.052384+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
