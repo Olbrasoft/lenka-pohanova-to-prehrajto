@@ -349842,12 +349842,6 @@
     },
     "561:7:11": {
       "episode_key": "živí mrtví:s7:e11",
-      "claim": {
-        "worker_id": "1854814210c84609a7e8eeb9131e4891-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:06:17.384109+00:00",
-        "lease_expires_at": "2026-11-11T18:06:17.384126+00:00"
-      },
       "source": {
         "source_id": "18123154",
         "source_url": "https://sdilej.cz/18123154/the.walking.dead.s07e11.hostiles.and.calamities.1080p.10bit.bluray.5.1.x265.hevc-mzabi-cz-audio-.mkv",
@@ -349872,22 +349866,29 @@
         "display_name": "The Walking Dead S07E11 Hostiles and Calamities 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:06:26.996871+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989683",
-        "size_bytes": 879507514
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989683",
-        "size_bytes": 879507514,
-        "source_bytes_read": 879507514,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989683",
         "source_bytes_read": 879507514,
         "elapsed_seconds": 59.086,
         "finished_at": "2026-11-11T12:07:43.845974+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989683",
+          "size_bytes": 879507514,
+          "source_bytes_read": 879507514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18123154",
+        "source_url": "https://sdilej.cz/18123154/the.walking.dead.s07e11.hostiles.and.calamities.1080p.10bit.bluray.5.1.x265.hevc-mzabi-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989683",
+        "display_name": "The Walking Dead S07E11 Hostiles and Calamities 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:07:49.124842+00:00"
       }
     },
     "561:7:12": {
@@ -349970,7 +349971,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:07:43.845992+00:00",
+  "updated_at": "2026-11-11T12:07:49.124859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
