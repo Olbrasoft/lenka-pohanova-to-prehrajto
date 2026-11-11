@@ -349179,12 +349179,6 @@
     },
     "561:6:13": {
       "episode_key": "živí mrtví:s6:e13",
-      "claim": {
-        "worker_id": "4864c2c7f00e48228d8d520da66770f8-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:57:43.754983+00:00",
-        "lease_expires_at": "2026-11-11T17:57:43.754998+00:00"
-      },
       "source": {
         "source_id": "32504456",
         "source_url": "https://sdilej.cz/32504456/zivi-mrtvi-s06e13-na-jedne-lodi.mkv",
@@ -349209,22 +349203,29 @@
         "display_name": "The Walking Dead S06E13 The Same Boat 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:57:48.960672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989578",
-        "size_bytes": 879226054
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989578",
-        "size_bytes": 879226054,
-        "source_bytes_read": 879226054,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989578",
         "source_bytes_read": 879226054,
         "elapsed_seconds": 57.398,
         "finished_at": "2026-11-11T11:59:02.089525+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989578",
+          "size_bytes": 879226054,
+          "source_bytes_read": 879226054,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504456",
+        "source_url": "https://sdilej.cz/32504456/zivi-mrtvi-s06e13-na-jedne-lodi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989578",
+        "display_name": "The Walking Dead S06E13 The Same Boat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:59:07.415769+00:00"
       }
     },
     "561:6:14": {
@@ -349307,7 +349308,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:59:02.089542+00:00",
+  "updated_at": "2026-11-11T11:59:07.415786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
