@@ -356668,12 +356668,6 @@
     },
     "572:3:15": {
       "episode_key": "teorie velkého třesku:s3:e15",
-      "claim": {
-        "worker_id": "446c0182d5a945e694f79745cb945b26-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:49:46.074296+00:00",
-        "lease_expires_at": "2026-11-11T19:49:46.074315+00:00"
-      },
       "source": {
         "source_id": "27591623",
         "source_url": "https://sdilej.cz/27591623/teorie-velkeho-tresku-s03e15-cz.mkv",
@@ -356698,22 +356692,29 @@
         "display_name": "The Big Bang Theory S03E15 The Large Hadron Collision 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:49:52.724949+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990678",
-        "size_bytes": 181209487
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990678",
-        "size_bytes": 181209487,
-        "source_bytes_read": 181209487,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990678",
         "source_bytes_read": 181209487,
         "elapsed_seconds": 20.818,
         "finished_at": "2026-11-11T13:50:33.610615+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990678",
+          "size_bytes": 181209487,
+          "source_bytes_read": 181209487,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27591623",
+        "source_url": "https://sdilej.cz/27591623/teorie-velkeho-tresku-s03e15-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990678",
+        "display_name": "The Big Bang Theory S03E15 The Large Hadron Collision 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:50:44.079171+00:00"
       }
     },
     "572:3:16": {
@@ -356759,7 +356760,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:50:41.028710+00:00",
+  "updated_at": "2026-11-11T13:50:44.079191+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
