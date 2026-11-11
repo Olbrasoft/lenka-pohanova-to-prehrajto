@@ -354474,12 +354474,6 @@
     },
     "572:1:14": {
       "episode_key": "teorie velkého třesku:s1:e14",
-      "claim": {
-        "worker_id": "1bd71b3a3c274c08a90d11ab5d1d093e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:15:06.420162+00:00",
-        "lease_expires_at": "2026-11-11T19:15:06.420181+00:00"
-      },
       "source": {
         "source_id": "35068328",
         "source_url": "https://sdilej.cz/35068328/teorie-velkeho-tresku-s01e14-zkaza-mimonoraje-cz.mkv",
@@ -354504,22 +354498,29 @@
         "display_name": "The Big Bang Theory S01E14 The Nerdvana Annihilation 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:15:13.045861+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990245",
-        "size_bytes": 340178411
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990245",
-        "size_bytes": 340178411,
-        "source_bytes_read": 340178411,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990245",
         "source_bytes_read": 340178411,
         "elapsed_seconds": 32.185,
         "finished_at": "2026-11-11T13:16:02.078760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990245",
+          "size_bytes": 340178411,
+          "source_bytes_read": 340178411,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35068328",
+        "source_url": "https://sdilej.cz/35068328/teorie-velkeho-tresku-s01e14-zkaza-mimonoraje-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990245",
+        "display_name": "The Big Bang Theory S01E14 The Nerdvana Annihilation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:16:09.512319+00:00"
       }
     },
     "572:1:15": {
@@ -354601,7 +354602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:16:05.162656+00:00",
+  "updated_at": "2026-11-11T13:16:09.512335+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
