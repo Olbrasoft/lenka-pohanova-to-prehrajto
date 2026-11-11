@@ -369062,12 +369062,6 @@
     },
     "394:12:1": {
       "episode_key": "griffinovi:s12:e1",
-      "claim": {
-        "worker_id": "e029703c91014906b49f54d2b61d6555-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:00:48.006479+00:00",
-        "lease_expires_at": "2026-11-12T05:00:48.006493+00:00"
-      },
       "source": {
         "source_id": "34472178",
         "source_url": "https://sdilej.cz/34472178/griffinovi-s12e01-honba-za-pokladem-1080p-web-dl-cz-dabing.mkv",
@@ -369092,22 +369086,29 @@
         "display_name": "Family Guy S12E01 Finders Keepers 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:00:53.784159+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995081",
-        "size_bytes": 874948972
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995081",
-        "size_bytes": 874948972,
-        "source_bytes_read": 874948972,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995081",
         "source_bytes_read": 874948972,
         "elapsed_seconds": 289.572,
         "finished_at": "2026-11-11T23:05:56.796603+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995081",
+          "size_bytes": 874948972,
+          "source_bytes_read": 874948972,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34472178",
+        "source_url": "https://sdilej.cz/34472178/griffinovi-s12e01-honba-za-pokladem-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995081",
+        "display_name": "Family Guy S12E01 Finders Keepers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:06:01.655238+00:00"
       }
     },
     "394:12:2": {
@@ -369153,7 +369154,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:05:56.796626+00:00",
+  "updated_at": "2026-11-11T23:06:01.655256+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
