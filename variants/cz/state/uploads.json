@@ -357801,12 +357801,6 @@
     },
     "572:4:14": {
       "episode_key": "teorie velkého třesku:s4:e14",
-      "claim": {
-        "worker_id": "345bf197c2a846e4b71f1d8d8357e9d3-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:05:34.039700+00:00",
-        "lease_expires_at": "2026-11-11T20:05:34.039720+00:00"
-      },
       "source": {
         "source_id": "29148564",
         "source_url": "https://sdilej.cz/29148564/teorie-velkeho-tresku-s04e14-genialita-uspavace-hadu-komedie-cz-dabing-angel-.mp4",
@@ -357831,22 +357825,29 @@
         "display_name": "The Big Bang Theory S04E14 The Thespian Catalyst 1440p CZ Dabing",
         "prepared_at": "2026-11-11T14:05:40.886573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990897",
-        "size_bytes": 557154879
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990897",
-        "size_bytes": 557154879,
-        "source_bytes_read": 557154879,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990897",
         "source_bytes_read": 557154879,
         "elapsed_seconds": 114.601,
         "finished_at": "2026-11-11T14:07:58.066549+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990897",
+          "size_bytes": 557154879,
+          "source_bytes_read": 557154879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29148564",
+        "source_url": "https://sdilej.cz/29148564/teorie-velkeho-tresku-s04e14-genialita-uspavace-hadu-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990897",
+        "display_name": "The Big Bang Theory S04E14 The Thespian Catalyst 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:08:04.138494+00:00"
       }
     },
     "572:4:15": {
@@ -357929,7 +357930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:07:58.066567+00:00",
+  "updated_at": "2026-11-11T14:08:04.138513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
