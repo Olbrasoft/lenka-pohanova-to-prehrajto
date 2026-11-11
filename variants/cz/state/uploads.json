@@ -369382,12 +369382,6 @@
     },
     "394:12:7": {
       "episode_key": "griffinovi:s12:e7",
-      "claim": {
-        "worker_id": "309efb06abf14cf48a4e84fe1d5361f2-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:14:02.258388+00:00",
-        "lease_expires_at": "2026-11-12T05:14:02.258402+00:00"
-      },
       "source": {
         "source_id": "34472402",
         "source_url": "https://sdilej.cz/34472402/griffinovi-s12e07-cesta-k-harmonii-1080p-web-dl-cz-dabing.mkv",
@@ -369412,22 +369406,29 @@
         "display_name": "Family Guy S12E07 Into Harmony's Way 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:14:05.692708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995218",
-        "size_bytes": 820851575
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995218",
-        "size_bytes": 820851575,
-        "source_bytes_read": 820851575,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995218",
         "source_bytes_read": 820851575,
         "elapsed_seconds": 303.498,
         "finished_at": "2026-11-11T23:19:23.091390+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995218",
+          "size_bytes": 820851575,
+          "source_bytes_read": 820851575,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34472402",
+        "source_url": "https://sdilej.cz/34472402/griffinovi-s12e07-cesta-k-harmonii-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995218",
+        "display_name": "Family Guy S12E07 Into Harmony's Way 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T23:19:32.822706+00:00"
       }
     },
     "394:12:11": {
@@ -369487,7 +369488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T23:19:27.402635+00:00",
+  "updated_at": "2026-11-11T23:19:32.822724+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
