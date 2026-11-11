@@ -354886,12 +354886,6 @@
     },
     "561:11:24": {
       "episode_key": "živí mrtví:s11:e24",
-      "claim": {
-        "worker_id": "77bc6e948ae94bb3b55c63c46d6059bd-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:18:35.872639+00:00",
-        "lease_expires_at": "2026-11-11T19:18:35.872659+00:00"
-      },
       "source": {
         "source_id": "31892551",
         "source_url": "https://sdilej.cz/31892551/the-walking-dead-s11e24-zivi-mrtvi-fhd-1080p-cz-sk-odpocivej-v-pokoji.mkv",
@@ -354916,22 +354910,29 @@
         "display_name": "The Walking Dead S11E24 Rest in Peace 1080p CZ Dabing",
         "prepared_at": "2026-11-11T13:18:39.480835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990293",
-        "size_bytes": 1302135969
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990293",
-        "size_bytes": 1302135969,
-        "source_bytes_read": 1302135969,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990293",
         "source_bytes_read": 1302135969,
         "elapsed_seconds": 89.947,
         "finished_at": "2026-11-11T13:20:25.802880+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990293",
+          "size_bytes": 1302135969,
+          "source_bytes_read": 1302135969,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31892551",
+        "source_url": "https://sdilej.cz/31892551/the-walking-dead-s11e24-zivi-mrtvi-fhd-1080p-cz-sk-odpocivej-v-pokoji.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990293",
+        "display_name": "The Walking Dead S11E24 Rest in Peace 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:20:35.639013+00:00"
       }
     },
     "572:2:4": {
@@ -354976,7 +354977,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:20:32.569337+00:00",
+  "updated_at": "2026-11-11T13:20:35.639032+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
