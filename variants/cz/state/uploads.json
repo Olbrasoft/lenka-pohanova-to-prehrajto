@@ -349573,12 +349573,6 @@
     },
     "561:7:5": {
       "episode_key": "živí mrtví:s7:e5",
-      "claim": {
-        "worker_id": "2ff211608ebf4acfb046729c021e4244-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:01:40.302147+00:00",
-        "lease_expires_at": "2026-11-11T18:01:40.302168+00:00"
-      },
       "source": {
         "source_id": "32504568",
         "source_url": "https://sdilej.cz/32504568/zivi-mrtvi-s07e05-ranari.mkv",
@@ -349603,22 +349597,29 @@
         "display_name": "The Walking Dead S07E05 Go Getters 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:01:47.335339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989637",
-        "size_bytes": 916171947
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989637",
-        "size_bytes": 916171947,
-        "source_bytes_read": 916171947,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989637",
         "source_bytes_read": 916171947,
         "elapsed_seconds": 57.361,
         "finished_at": "2026-11-11T12:03:00.726178+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989637",
+          "size_bytes": 916171947,
+          "source_bytes_read": 916171947,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504568",
+        "source_url": "https://sdilej.cz/32504568/zivi-mrtvi-s07e05-ranari.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989637",
+        "display_name": "The Walking Dead S07E05 Go Getters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:03:05.859046+00:00"
       }
     },
     "561:7:6": {
@@ -349664,7 +349665,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:03:00.726197+00:00",
+  "updated_at": "2026-11-11T12:03:05.859063+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
