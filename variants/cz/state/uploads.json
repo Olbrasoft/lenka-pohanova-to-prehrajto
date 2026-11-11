@@ -368617,12 +368617,6 @@
     },
     "394:3:9": {
       "episode_key": "griffinovi:s3:e9",
-      "claim": {
-        "worker_id": "952c5038d3c54ba0ac6bef8dff7827da-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T22:45:39.566557+00:00",
-        "lease_expires_at": "2026-11-12T04:45:39.566574+00:00"
-      },
       "source": {
         "source_id": "31562455",
         "source_url": "https://sdilej.cz/31562455/griffinovi-s03e09-rytir-sobotni-noci-1080p-cz.mkv",
@@ -368647,22 +368641,29 @@
         "display_name": "Family Guy S03E09 Mr. Saturday Knight 1080p CZ Dabing",
         "prepared_at": "2026-11-11T22:45:45.707680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30994936",
-        "size_bytes": 523198161
-      },
-      "transfer_receipt": {
-        "target_video_id": "30994936",
-        "size_bytes": 523198161,
-        "source_bytes_read": 523198161,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30994936",
         "source_bytes_read": 523198161,
         "elapsed_seconds": 222.045,
         "finished_at": "2026-11-11T22:49:45.852160+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30994936",
+          "size_bytes": 523198161,
+          "source_bytes_read": 523198161,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31562455",
+        "source_url": "https://sdilej.cz/31562455/griffinovi-s03e09-rytir-sobotni-noci-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30994936",
+        "display_name": "Family Guy S03E09 Mr. Saturday Knight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T22:49:52.350654+00:00"
       }
     },
     "394:3:10": {
@@ -368768,7 +368769,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T22:49:49.550883+00:00",
+  "updated_at": "2026-11-11T22:49:52.350677+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
