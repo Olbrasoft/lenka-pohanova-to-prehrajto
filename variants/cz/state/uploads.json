@@ -364129,12 +364129,6 @@
     },
     "572:9:21": {
       "episode_key": "teorie velkého třesku:s9:e21",
-      "claim": {
-        "worker_id": "587f0ee6b6524245bedada14b36f3f1b-worker-0",
-        "run_id": "43057666197",
-        "claimed_at": "2026-11-11T19:27:50.332750+00:00",
-        "lease_expires_at": "2026-11-12T01:27:50.332766+00:00"
-      },
       "source": {
         "source_id": "29409176",
         "source_url": "https://sdilej.cz/29409176/teorie-velkeho-tresku-s09e21.avi",
@@ -364159,22 +364153,29 @@
         "display_name": "The Big Bang Theory S09E21 The Viewing Party Combustion 1080p CZ Dabing",
         "prepared_at": "2026-11-11T19:27:53.699940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30993285",
-        "size_bytes": 274889182
-      },
-      "transfer_receipt": {
-        "target_video_id": "30993285",
-        "size_bytes": 274889182,
-        "source_bytes_read": 274889182,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30993285",
         "source_bytes_read": 274889182,
         "elapsed_seconds": 123.448,
         "finished_at": "2026-11-11T19:30:10.607291+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30993285",
+          "size_bytes": 274889182,
+          "source_bytes_read": 274889182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29409176",
+        "source_url": "https://sdilej.cz/29409176/teorie-velkeho-tresku-s09e21.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30993285",
+        "display_name": "The Big Bang Theory S09E21 The Viewing Party Combustion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T19:30:15.104932+00:00"
       }
     },
     "572:9:22": {
@@ -364257,7 +364258,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T19:30:10.607312+00:00",
+  "updated_at": "2026-11-11T19:30:15.104949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
