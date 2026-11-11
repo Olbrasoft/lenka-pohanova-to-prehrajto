@@ -356303,12 +356303,6 @@
     },
     "572:3:8": {
       "episode_key": "teorie velkého třesku:s3:e8",
-      "claim": {
-        "worker_id": "95cb568236c949729adce538386bc080-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T13:44:38.779139+00:00",
-        "lease_expires_at": "2026-11-11T19:44:38.779155+00:00"
-      },
       "source": {
         "source_id": "29147451",
         "source_url": "https://sdilej.cz/29147451/teorie-velkeho-tresku-s03e08-deficit-lepicich-kachen-komedie-cz-dabing-angel-.mp4",
@@ -356333,22 +356327,29 @@
         "display_name": "The Big Bang Theory S03E08 The Adhesive Duck Deficiency 1440p CZ Dabing",
         "prepared_at": "2026-11-11T13:44:42.320296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990581",
-        "size_bytes": 516494069
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990581",
-        "size_bytes": 516494069,
-        "source_bytes_read": 516494069,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990581",
         "source_bytes_read": 516494069,
         "elapsed_seconds": 54.704,
         "finished_at": "2026-11-11T13:45:52.207338+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990581",
+          "size_bytes": 516494069,
+          "source_bytes_read": 516494069,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29147451",
+        "source_url": "https://sdilej.cz/29147451/teorie-velkeho-tresku-s03e08-deficit-lepicich-kachen-komedie-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990581",
+        "display_name": "The Big Bang Theory S03E08 The Adhesive Duck Deficiency 1440p CZ Dabing",
+        "uploaded_at": "2026-11-11T13:46:01.981042+00:00"
       }
     },
     "572:3:9": {
@@ -356427,7 +356428,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T13:45:58.753872+00:00",
+  "updated_at": "2026-11-11T13:46:01.981072+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
