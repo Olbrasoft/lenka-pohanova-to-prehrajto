@@ -357691,12 +357691,6 @@
     },
     "572:4:12": {
       "episode_key": "teorie velkého třesku:s4:e12",
-      "claim": {
-        "worker_id": "339bc867fac94593ab2898b8c601500c-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T14:03:54.999584+00:00",
-        "lease_expires_at": "2026-11-11T20:03:54.999600+00:00"
-      },
       "source": {
         "source_id": "35086934",
         "source_url": "https://sdilej.cz/35086934/teorie-velkeho-tresku-s04e12-vyuziti-kalhot-do-autobusu-cz-2010.mkv",
@@ -357721,22 +357715,29 @@
         "display_name": "The Big Bang Theory S04E12 The Bus Pants Utilization 1080p CZ Dabing",
         "prepared_at": "2026-11-11T14:04:00.891535+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990880",
-        "size_bytes": 373196743
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990880",
-        "size_bytes": 373196743,
-        "source_bytes_read": 373196743,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990880",
         "source_bytes_read": 373196743,
         "elapsed_seconds": 46.829,
         "finished_at": "2026-11-11T14:05:06.790121+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990880",
+          "size_bytes": 373196743,
+          "source_bytes_read": 373196743,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35086934",
+        "source_url": "https://sdilej.cz/35086934/teorie-velkeho-tresku-s04e12-vyuziti-kalhot-do-autobusu-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990880",
+        "display_name": "The Big Bang Theory S04E12 The Bus Pants Utilization 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T14:05:16.851472+00:00"
       }
     },
     "572:4:13": {
@@ -357796,7 +357797,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T14:05:13.748492+00:00",
+  "updated_at": "2026-11-11T14:05:16.851496+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
