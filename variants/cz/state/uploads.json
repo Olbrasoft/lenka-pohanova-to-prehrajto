@@ -351562,12 +351562,6 @@
     },
     "561:9:14": {
       "episode_key": "živí mrtví:s9:e14",
-      "claim": {
-        "worker_id": "cda17a3a31714e22813ce359d7bdaa30-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:36:17.856644+00:00",
-        "lease_expires_at": "2026-11-11T18:36:17.856661+00:00"
-      },
       "source": {
         "source_id": "33265040",
         "source_url": "https://sdilej.cz/33265040/zivi-mrtvi-s09e14-16-2018-cz-dab-1080p-jizvy.mkv",
@@ -351592,22 +351586,29 @@
         "display_name": "The Walking Dead S09E14 Scars 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:36:21.764722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989957",
-        "size_bytes": 886722551
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989957",
-        "size_bytes": 886722551,
-        "source_bytes_read": 886722551,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989957",
         "source_bytes_read": 886722551,
         "elapsed_seconds": 57.734,
         "finished_at": "2026-11-11T12:37:38.146242+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989957",
+          "size_bytes": 886722551,
+          "source_bytes_read": 886722551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33265040",
+        "source_url": "https://sdilej.cz/33265040/zivi-mrtvi-s09e14-16-2018-cz-dab-1080p-jizvy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989957",
+        "display_name": "The Walking Dead S09E14 Scars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:37:43.323439+00:00"
       }
     },
     "561:9:15": {
@@ -351690,7 +351691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:37:38.146260+00:00",
+  "updated_at": "2026-11-11T12:37:43.323455+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
