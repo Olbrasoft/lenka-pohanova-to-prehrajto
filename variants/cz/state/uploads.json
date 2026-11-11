@@ -352852,12 +352852,6 @@
     },
     "561:11:4": {
       "episode_key": "živí mrtví:s11:e4",
-      "claim": {
-        "worker_id": "113a8383a3c64811a899d08c603c3f0e-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T12:55:17.122962+00:00",
-        "lease_expires_at": "2026-11-11T18:55:17.122978+00:00"
-      },
       "source": {
         "source_id": "31891896",
         "source_url": "https://sdilej.cz/31891896/the-walking-dead-s11e04-zivi-mrtvi-fhd-1080p-cz-sk-provedeni.mkv",
@@ -352882,22 +352876,29 @@
         "display_name": "The Walking Dead S11E04 Rendition 1080p CZ Dabing",
         "prepared_at": "2026-11-11T12:55:23.894024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30990081",
-        "size_bytes": 818437406
-      },
-      "transfer_receipt": {
-        "target_video_id": "30990081",
-        "size_bytes": 818437406,
-        "source_bytes_read": 818437406,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30990081",
         "source_bytes_read": 818437406,
         "elapsed_seconds": 79.892,
         "finished_at": "2026-11-11T12:56:58.694687+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30990081",
+          "size_bytes": 818437406,
+          "source_bytes_read": 818437406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31891896",
+        "source_url": "https://sdilej.cz/31891896/the-walking-dead-s11e04-zivi-mrtvi-fhd-1080p-cz-sk-provedeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30990081",
+        "display_name": "The Walking Dead S11E04 Rendition 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T12:57:03.517823+00:00"
       }
     },
     "561:11:5": {
@@ -352980,7 +352981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T12:56:58.694707+00:00",
+  "updated_at": "2026-11-11T12:57:03.517865+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
