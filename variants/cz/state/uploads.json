@@ -345295,12 +345295,6 @@
     },
     "561:1:3": {
       "episode_key": "živí mrtví:s1:e3",
-      "claim": {
-        "worker_id": "b6bb78197cc143488b026e5b210bfcce-worker-0",
-        "run_id": "43002951734",
-        "claimed_at": "2026-11-11T11:02:31.832242+00:00",
-        "lease_expires_at": "2026-11-11T17:02:31.832256+00:00"
-      },
       "source": {
         "source_id": "28291260",
         "source_url": "https://sdilej.cz/28291260/zivi-mrtvi-s01e03.mkv",
@@ -345325,22 +345319,29 @@
         "display_name": "The Walking Dead S01E03 Tell It to the Frogs 1080p CZ Dabing",
         "prepared_at": "2026-11-11T11:02:42.062359+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30989054",
-        "size_bytes": 1393878544
-      },
-      "transfer_receipt": {
-        "target_video_id": "30989054",
-        "size_bytes": 1393878544,
-        "source_bytes_read": 1393878544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30989054",
         "source_bytes_read": 1393878544,
         "elapsed_seconds": 88.929,
         "finished_at": "2026-11-11T11:04:29.896036+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30989054",
+          "size_bytes": 1393878544,
+          "source_bytes_read": 1393878544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28291260",
+        "source_url": "https://sdilej.cz/28291260/zivi-mrtvi-s01e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30989054",
+        "display_name": "The Walking Dead S01E03 Tell It to the Frogs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-11T11:04:39.166055+00:00"
       }
     },
     "561:1:2": {
@@ -345486,7 +345487,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-11T11:04:35.704963+00:00",
+  "updated_at": "2026-11-11T11:04:39.166073+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
