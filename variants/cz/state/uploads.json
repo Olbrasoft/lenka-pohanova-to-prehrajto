@@ -381521,12 +381521,6 @@
     },
     "1073:2:2": {
       "episode_key": "zlatá sedmdesátá:s2:e2",
-      "claim": {
-        "worker_id": "cc3b78a9376c40799c6e5174eef023c8-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:23:05.962099+00:00",
-        "lease_expires_at": "2026-11-12T18:23:05.962110+00:00"
-      },
       "source": {
         "source_id": "33826596",
         "source_url": "https://sdilej.cz/33826596/zlata-sedmdesata-s02e02.mkv",
@@ -381551,22 +381545,29 @@
         "display_name": "That '70s Show S02E02 Red's Last Day 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:23:12.457362+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002183",
-        "size_bytes": 517847388
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002183",
-        "size_bytes": 517847388,
-        "source_bytes_read": 517847388,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002183",
         "source_bytes_read": 517847388,
         "elapsed_seconds": 317.056,
         "finished_at": "2026-11-12T12:28:47.353892+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002183",
+          "size_bytes": 517847388,
+          "source_bytes_read": 517847388,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826596",
+        "source_url": "https://sdilej.cz/33826596/zlata-sedmdesata-s02e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002183",
+        "display_name": "That '70s Show S02E02 Red's Last Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:28:51.603189+00:00"
       }
     },
     "1073:2:3": {
@@ -381751,7 +381752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:28:47.353912+00:00",
+  "updated_at": "2026-11-12T12:28:51.603204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
