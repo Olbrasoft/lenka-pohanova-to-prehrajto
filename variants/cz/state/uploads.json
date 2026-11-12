@@ -380014,12 +380014,6 @@
     },
     "1423:15:1": {
       "episode_key": "myšlenky zločince:s15:e1",
-      "claim": {
-        "worker_id": "4a29978baf154f6a82edcf87ed59eff5-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T11:11:18.710786+00:00",
-        "lease_expires_at": "2026-11-12T17:11:18.710797+00:00"
-      },
       "source": {
         "source_id": "28237303",
         "source_url": "https://sdilej.cz/28237303/criminal-minds-s15e01-cz-dab-hd-tv-rip-.mp4",
@@ -380044,22 +380038,29 @@
         "display_name": "Criminal Minds S15E01 Under the Skin 720p CZ Dabing",
         "prepared_at": "2026-11-12T11:11:22.242018+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001528",
-        "size_bytes": 434098111
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001528",
-        "size_bytes": 434098111,
-        "source_bytes_read": 434098111,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001528",
         "source_bytes_read": 434098111,
         "elapsed_seconds": 251.065,
         "finished_at": "2026-11-12T11:15:47.085690+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001528",
+          "size_bytes": 434098111,
+          "source_bytes_read": 434098111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237303",
+        "source_url": "https://sdilej.cz/28237303/criminal-minds-s15e01-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001528",
+        "display_name": "Criminal Minds S15E01 Under the Skin 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T11:15:51.804046+00:00"
       }
     }
   },
@@ -380068,7 +380069,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T11:15:47.085712+00:00",
+  "updated_at": "2026-11-12T11:15:51.804062+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
