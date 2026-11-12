@@ -391558,12 +391558,6 @@
     },
     "746:2:3": {
       "episode_key": "gentlemani:s2:e3",
-      "claim": {
-        "worker_id": "2c1d20d81aa840839834ea4ed6046a9f-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T18:40:37.515770+00:00",
-        "lease_expires_at": "2026-11-13T00:40:37.515781+00:00"
-      },
       "source": {
         "source_id": "34965521",
         "source_url": "https://sdilej.cz/34965521/gentlemani-s02e03-4k-cz.mkv",
@@ -391588,22 +391582,29 @@
         "display_name": "The Gentlemen S02E03 Do You Reject Satan? 4K CZ Dabing",
         "prepared_at": "2026-11-12T18:40:41.313645+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004979",
-        "size_bytes": 7850907712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004979",
-        "size_bytes": 7850907712,
-        "source_bytes_read": 7850907712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004979",
         "source_bytes_read": 7850907712,
         "elapsed_seconds": 3942.052,
         "finished_at": "2026-11-12T19:46:37.623315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004979",
+          "size_bytes": 7850907712,
+          "source_bytes_read": 7850907712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34965521",
+        "source_url": "https://sdilej.cz/34965521/gentlemani-s02e03-4k-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004979",
+        "display_name": "The Gentlemen S02E03 Do You Reject Satan? 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T19:46:42.160299+00:00"
       }
     },
     "593:1:10": {
@@ -392020,7 +392021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T19:46:37.623334+00:00",
+  "updated_at": "2026-11-12T19:46:42.160335+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
