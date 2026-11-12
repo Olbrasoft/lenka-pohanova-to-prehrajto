@@ -384516,12 +384516,6 @@
     },
     "1073:4:10": {
       "episode_key": "zlatá sedmdesátá:s4:e10",
-      "claim": {
-        "worker_id": "129b5c77ac794230b99cb2e7b4ba8239-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:35:32.396036+00:00",
-        "lease_expires_at": "2026-11-12T19:35:32.396047+00:00"
-      },
       "source": {
         "source_id": "34482718",
         "source_url": "https://sdilej.cz/34482718/zlata-sedmdesata-s04e10.mp4",
@@ -384546,22 +384540,29 @@
         "display_name": "That '70s Show S04E10 Red and Stacey 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:35:37.840865+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002945",
-        "size_bytes": 188726280
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002945",
-        "size_bytes": 188726280,
-        "source_bytes_read": 188726280,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002945",
         "source_bytes_read": 188726280,
         "elapsed_seconds": 88.28,
         "finished_at": "2026-11-12T13:37:19.173771+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002945",
+          "size_bytes": 188726280,
+          "source_bytes_read": 188726280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482718",
+        "source_url": "https://sdilej.cz/34482718/zlata-sedmdesata-s04e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002945",
+        "display_name": "That '70s Show S04E10 Red and Stacey 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:37:23.177010+00:00"
       }
     },
     "1073:4:11": {
@@ -384644,7 +384645,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:37:19.173790+00:00",
+  "updated_at": "2026-11-12T13:37:23.177024+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
