@@ -375239,12 +375239,6 @@
     },
     "1423:5:8": {
       "episode_key": "myšlenky zločince:s5:e8",
-      "claim": {
-        "worker_id": "6e5f3b19dadb4445976b5a33d0502511-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T06:39:00.294756+00:00",
-        "lease_expires_at": "2026-11-12T12:39:00.294766+00:00"
-      },
       "source": {
         "source_id": "34875481",
         "source_url": "https://sdilej.cz/34875481/myslenky.zlocince-s05e08.avi",
@@ -375269,22 +375263,29 @@
         "display_name": "Criminal Minds S05E08 Outfoxed SD CZ Dabing",
         "prepared_at": "2026-11-12T06:39:03.629723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999419",
-        "size_bytes": 414351360
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999419",
-        "size_bytes": 414351360,
-        "source_bytes_read": 414351360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999419",
         "source_bytes_read": 414351360,
         "elapsed_seconds": 177.998,
         "finished_at": "2026-11-12T06:42:15.185060+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999419",
+          "size_bytes": 414351360,
+          "source_bytes_read": 414351360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34875481",
+        "source_url": "https://sdilej.cz/34875481/myslenky.zlocince-s05e08.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999419",
+        "display_name": "Criminal Minds S05E08 Outfoxed SD CZ Dabing",
+        "uploaded_at": "2026-11-12T06:42:20.105479+00:00"
       }
     }
   },
@@ -375293,7 +375294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T06:42:15.185081+00:00",
+  "updated_at": "2026-11-12T06:42:20.105494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
