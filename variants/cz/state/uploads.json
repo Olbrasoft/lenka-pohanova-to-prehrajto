@@ -378881,12 +378881,6 @@
     },
     "1423:13:10": {
       "episode_key": "myšlenky zločince:s13:e10",
-      "claim": {
-        "worker_id": "d9e5f7df98c44439a4dbf0e998288066-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T09:26:41.532799+00:00",
-        "lease_expires_at": "2026-11-12T15:26:41.532810+00:00"
-      },
       "source": {
         "source_id": "33688052",
         "source_url": "https://sdilej.cz/33688052/myslenky-zlocince-s13e10-22-2017-cz-dab-1080p-ponoreno.mp4",
@@ -378911,22 +378905,29 @@
         "display_name": "Criminal Minds S13E10 Submerged 1080p CZ Dabing",
         "prepared_at": "2026-11-12T09:26:44.853383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000758",
-        "size_bytes": 1537182176
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000758",
-        "size_bytes": 1537182176,
-        "source_bytes_read": 1537182176,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000758",
         "source_bytes_read": 1537182176,
         "elapsed_seconds": 622.064,
         "finished_at": "2026-11-12T09:37:20.362931+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000758",
+          "size_bytes": 1537182176,
+          "source_bytes_read": 1537182176,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33688052",
+        "source_url": "https://sdilej.cz/33688052/myslenky-zlocince-s13e10-22-2017-cz-dab-1080p-ponoreno.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000758",
+        "display_name": "Criminal Minds S13E10 Submerged 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:37:33.454575+00:00"
       }
     }
   },
@@ -378935,7 +378936,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:37:30.569334+00:00",
+  "updated_at": "2026-11-12T09:37:33.454589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
