@@ -387529,12 +387529,6 @@
     },
     "1073:6:18": {
       "episode_key": "zlatá sedmdesátá:s6:e18",
-      "claim": {
-        "worker_id": "7201196cd2764a5a9bb86a5c330c8ad0-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:03:17.987526+00:00",
-        "lease_expires_at": "2026-11-12T21:03:17.987537+00:00"
-      },
       "source": {
         "source_id": "31059937",
         "source_url": "https://sdilej.cz/31059937/zlata-sedmdesata-s06e18-cz.mkv",
@@ -387559,22 +387553,29 @@
         "display_name": "That '70s Show S06E18 Do You Think It's Alright? 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:03:22.414691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003592",
-        "size_bytes": 508713146
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003592",
-        "size_bytes": 508713146,
-        "source_bytes_read": 508713146,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003592",
         "source_bytes_read": 508713146,
         "elapsed_seconds": 240.353,
         "finished_at": "2026-11-12T15:07:37.638085+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003592",
+          "size_bytes": 508713146,
+          "source_bytes_read": 508713146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31059937",
+        "source_url": "https://sdilej.cz/31059937/zlata-sedmdesata-s06e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003592",
+        "display_name": "That '70s Show S06E18 Do You Think It's Alright? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:07:45.932399+00:00"
       }
     },
     "1073:6:19": {
@@ -387620,7 +387621,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:07:42.903846+00:00",
+  "updated_at": "2026-11-12T15:07:45.932415+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
