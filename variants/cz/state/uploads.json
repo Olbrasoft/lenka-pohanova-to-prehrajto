@@ -371867,12 +371867,6 @@
     },
     "757:3:2": {
       "episode_key": "euforie:s3:e2",
-      "claim": {
-        "worker_id": "5d8613f8963b407d8d27ae09a4092eb3-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T02:20:12.231096+00:00",
-        "lease_expires_at": "2026-11-12T08:20:12.231103+00:00"
-      },
       "source": {
         "source_id": "34433749",
         "source_url": "https://sdilej.cz/34433749/euforie-s03e02-amerika-muj-sen.mkv",
@@ -371897,22 +371891,29 @@
         "display_name": "Euphoria S03E02 America My Dream 4K CZ Dabing",
         "prepared_at": "2026-11-12T02:20:15.395760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997057",
-        "size_bytes": 3082768943
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997057",
-        "size_bytes": 3082768943,
-        "source_bytes_read": 3082768943,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997057",
         "source_bytes_read": 3082768943,
         "elapsed_seconds": 960.53,
         "finished_at": "2026-11-12T02:36:27.730465+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997057",
+          "size_bytes": 3082768943,
+          "source_bytes_read": 3082768943,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433749",
+        "source_url": "https://sdilej.cz/34433749/euforie-s03e02-amerika-muj-sen.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997057",
+        "display_name": "Euphoria S03E02 America My Dream 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T02:36:32.061587+00:00"
       }
     },
     "757:3:3": {
@@ -371958,7 +371959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T02:36:27.730478+00:00",
+  "updated_at": "2026-11-12T02:36:32.061603+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
