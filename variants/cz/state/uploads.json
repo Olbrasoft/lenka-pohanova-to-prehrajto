@@ -385795,12 +385795,6 @@
     },
     "1073:5:8": {
       "episode_key": "zlatá sedmdesátá:s5:e8",
-      "claim": {
-        "worker_id": "49946792b40f45adb57dce81c296deea-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:09:20.104773+00:00",
-        "lease_expires_at": "2026-11-12T20:09:20.104783+00:00"
-      },
       "source": {
         "source_id": "34482890",
         "source_url": "https://sdilej.cz/34482890/zlata-sedmdesata-s05e8.mp4",
@@ -385825,22 +385819,29 @@
         "display_name": "That '70s Show S05E08 Thank You 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:09:23.862696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003275",
-        "size_bytes": 407258719
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003275",
-        "size_bytes": 407258719,
-        "source_bytes_read": 407258719,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003275",
         "source_bytes_read": 407258719,
         "elapsed_seconds": 229.885,
         "finished_at": "2026-11-12T14:13:27.874494+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003275",
+          "size_bytes": 407258719,
+          "source_bytes_read": 407258719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482890",
+        "source_url": "https://sdilej.cz/34482890/zlata-sedmdesata-s05e8.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003275",
+        "display_name": "That '70s Show S05E08 Thank You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:13:32.126294+00:00"
       }
     },
     "1073:5:9": {
@@ -385923,7 +385924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:13:27.874513+00:00",
+  "updated_at": "2026-11-12T14:13:32.126309+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
