@@ -385693,12 +385693,6 @@
     },
     "1073:5:6": {
       "episode_key": "zlatá sedmdesátá:s5:e6",
-      "claim": {
-        "worker_id": "50fca82aaf1347fc83b692489869a721-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:07:15.414616+00:00",
-        "lease_expires_at": "2026-11-12T20:07:15.414628+00:00"
-      },
       "source": {
         "source_id": "34482884",
         "source_url": "https://sdilej.cz/34482884/zlata-sedmdesata-s05e6.mp4",
@@ -385723,22 +385717,29 @@
         "display_name": "That '70s Show S05E06 Over the Hills and Far Away 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:07:25.240553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003267",
-        "size_bytes": 287599043
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003267",
-        "size_bytes": 287599043,
-        "source_bytes_read": 287599043,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003267",
         "source_bytes_read": 287599043,
         "elapsed_seconds": 151.78,
         "finished_at": "2026-11-12T14:10:14.508312+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003267",
+          "size_bytes": 287599043,
+          "source_bytes_read": 287599043,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482884",
+        "source_url": "https://sdilej.cz/34482884/zlata-sedmdesata-s05e6.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003267",
+        "display_name": "That '70s Show S05E06 Over the Hills and Far Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:10:20.893247+00:00"
       }
     },
     "1073:5:7": {
@@ -385835,7 +385836,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:10:14.508327+00:00",
+  "updated_at": "2026-11-12T14:10:20.893261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
