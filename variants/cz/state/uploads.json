@@ -377957,12 +377957,6 @@
     },
     "1423:10:14": {
       "episode_key": "myšlenky zločince:s10:e14",
-      "claim": {
-        "worker_id": "55177c7bf6044be5a11a63285ec6d8e7-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T08:54:41.416442+00:00",
-        "lease_expires_at": "2026-11-12T14:54:41.416457+00:00"
-      },
       "source": {
         "source_id": "34875701",
         "source_url": "https://sdilej.cz/34875701/myslenky-zlocince-s10e14.mkv",
@@ -377987,22 +377981,29 @@
         "display_name": "Criminal Minds S10E14 Hero Worship SD CZ Dabing",
         "prepared_at": "2026-11-12T08:54:47.390892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000517",
-        "size_bytes": 493135426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000517",
-        "size_bytes": 493135426,
-        "source_bytes_read": 493135426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000517",
         "source_bytes_read": 493135426,
         "elapsed_seconds": 249.247,
         "finished_at": "2026-11-12T08:59:17.085818+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000517",
+          "size_bytes": 493135426,
+          "source_bytes_read": 493135426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34875701",
+        "source_url": "https://sdilej.cz/34875701/myslenky-zlocince-s10e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000517",
+        "display_name": "Criminal Minds S10E14 Hero Worship SD CZ Dabing",
+        "uploaded_at": "2026-11-12T08:59:21.534464+00:00"
       }
     },
     "1423:10:15": {
@@ -378062,7 +378063,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T08:59:17.085839+00:00",
+  "updated_at": "2026-11-12T08:59:21.534485+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
