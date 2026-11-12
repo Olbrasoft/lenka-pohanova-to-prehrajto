@@ -372595,12 +372595,6 @@
     },
     "1423:1:5": {
       "episode_key": "myšlenky zločince:s1:e5",
-      "claim": {
-        "worker_id": "210c5fbd821b4e4795ccacfa9222ec68-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T03:53:55.788335+00:00",
-        "lease_expires_at": "2026-11-12T09:53:55.788346+00:00"
-      },
       "source": {
         "source_id": "26657258",
         "source_url": "https://sdilej.cz/26657258/myslenky-zlocince-criminal-minds-s01e05-cz-dabing-720p.mkv",
@@ -372625,22 +372619,29 @@
         "display_name": "Criminal Minds S01E05 Broken Mirror 720p CZ Dabing",
         "prepared_at": "2026-11-12T03:53:58.731766+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997909",
-        "size_bytes": 1511227999
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997909",
-        "size_bytes": 1511227999,
-        "source_bytes_read": 1511227999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997909",
         "source_bytes_read": 1511227999,
         "elapsed_seconds": 544.446,
         "finished_at": "2026-11-12T04:03:15.107120+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997909",
+          "size_bytes": 1511227999,
+          "source_bytes_read": 1511227999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26657258",
+        "source_url": "https://sdilej.cz/26657258/myslenky-zlocince-criminal-minds-s01e05-cz-dabing-720p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997909",
+        "display_name": "Criminal Minds S01E05 Broken Mirror 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T04:03:19.674856+00:00"
       }
     },
     "1423:1:6": {
@@ -372723,7 +372724,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T04:03:15.107138+00:00",
+  "updated_at": "2026-11-12T04:03:19.674871+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
