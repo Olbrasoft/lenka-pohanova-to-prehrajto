@@ -372085,12 +372085,6 @@
     },
     "757:3:6": {
       "episode_key": "euforie:s3:e6",
-      "claim": {
-        "worker_id": "fc6d2b3dd8f148e0958897f6dbd7a4fa-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T03:06:49.869710+00:00",
-        "lease_expires_at": "2026-11-12T09:06:49.869720+00:00"
-      },
       "source": {
         "source_id": "34433798",
         "source_url": "https://sdilej.cz/34433798/euforie-s03e06-zustan-stat-a-uvidis.mkv",
@@ -372115,22 +372109,29 @@
         "display_name": "Euphoria S03E06 Stand Still and See 4K CZ Dabing",
         "prepared_at": "2026-11-12T03:06:59.809880+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997427",
-        "size_bytes": 3113891296
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997427",
-        "size_bytes": 3113891296,
-        "source_bytes_read": 3113891296,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997427",
         "source_bytes_read": 3113891296,
         "elapsed_seconds": 1258.97,
         "finished_at": "2026-11-12T03:28:14.891311+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997427",
+          "size_bytes": 3113891296,
+          "source_bytes_read": 3113891296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433798",
+        "source_url": "https://sdilej.cz/34433798/euforie-s03e06-zustan-stat-a-uvidis.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997427",
+        "display_name": "Euphoria S03E06 Stand Still and See 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T03:28:20.530341+00:00"
       }
     },
     "757:3:7": {
@@ -372213,7 +372214,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T03:28:14.891328+00:00",
+  "updated_at": "2026-11-12T03:28:20.530356+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
