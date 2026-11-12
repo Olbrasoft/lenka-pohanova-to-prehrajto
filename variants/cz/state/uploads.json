@@ -371153,12 +371153,6 @@
     },
     "757:1:6": {
       "episode_key": "euforie:s1:e6",
-      "claim": {
-        "worker_id": "cda0bf8d13d2423a8644afe879c8226c-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:31:06.611449+00:00",
-        "lease_expires_at": "2026-11-12T06:31:06.611464+00:00"
-      },
       "source": {
         "source_id": "34045997",
         "source_url": "https://sdilej.cz/34045997/euforie-s01e06-dalsi-epizoda.mkv",
@@ -371183,22 +371177,29 @@
         "display_name": "Euphoria S01E06 The Next Episode 4K CZ Dabing",
         "prepared_at": "2026-11-12T00:31:15.514654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995973",
-        "size_bytes": 2407345625
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995973",
-        "size_bytes": 2407345625,
-        "source_bytes_read": 2407345625,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995973",
         "source_bytes_read": 2407345625,
         "elapsed_seconds": 722.575,
         "finished_at": "2026-11-12T00:43:32.984612+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995973",
+          "size_bytes": 2407345625,
+          "source_bytes_read": 2407345625,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34045997",
+        "source_url": "https://sdilej.cz/34045997/euforie-s01e06-dalsi-epizoda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995973",
+        "display_name": "Euphoria S01E06 The Next Episode 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T00:43:40.190158+00:00"
       }
     },
     "757:1:7": {
@@ -371244,7 +371245,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T00:43:32.984639+00:00",
+  "updated_at": "2026-11-12T00:43:40.190181+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
