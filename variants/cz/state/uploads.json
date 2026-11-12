@@ -389473,12 +389473,6 @@
     },
     "1073:8:6": {
       "episode_key": "zlatá sedmdesátá:s8:e6",
-      "claim": {
-        "worker_id": "f3ba8a1bc93a40cda43de56276105381-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:28:06.584940+00:00",
-        "lease_expires_at": "2026-11-12T22:28:06.584951+00:00"
-      },
       "source": {
         "source_id": "33840958",
         "source_url": "https://sdilej.cz/33840958/zlata-sedmdesata-s08e06.mkv",
@@ -389503,22 +389497,29 @@
         "display_name": "That '70s Show S08E06 Long Away 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:28:12.271743+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004126",
-        "size_bytes": 473807503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004126",
-        "size_bytes": 473807503,
-        "source_bytes_read": 473807503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004126",
         "source_bytes_read": 473807503,
         "elapsed_seconds": 199.975,
         "finished_at": "2026-11-12T16:31:51.522100+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004126",
+          "size_bytes": 473807503,
+          "source_bytes_read": 473807503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840958",
+        "source_url": "https://sdilej.cz/33840958/zlata-sedmdesata-s08e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004126",
+        "display_name": "That '70s Show S08E06 Long Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:31:55.665322+00:00"
       }
     },
     "1073:8:7": {
@@ -389615,7 +389616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:31:51.522115+00:00",
+  "updated_at": "2026-11-12T16:31:55.665338+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
