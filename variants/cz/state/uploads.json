@@ -380756,12 +380756,6 @@
     },
     "1073:1:10": {
       "episode_key": "zlatá sedmdesátá:s1:e10",
-      "claim": {
-        "worker_id": "43632884b98c4d88b373f29375328745-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T11:56:57.313338+00:00",
-        "lease_expires_at": "2026-11-12T17:56:57.313349+00:00"
-      },
       "source": {
         "source_id": "33826573",
         "source_url": "https://sdilej.cz/33826573/zlata-sedmdesata-s01e10.mkv",
@@ -380786,22 +380780,29 @@
         "display_name": "That '70s Show S01E10 Sunday, Bloody Sunday 1080p CZ Dabing",
         "prepared_at": "2026-11-12T11:57:02.008202+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001882",
-        "size_bytes": 563297566
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001882",
-        "size_bytes": 563297566,
-        "source_bytes_read": 563297566,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001882",
         "source_bytes_read": 563297566,
         "elapsed_seconds": 279.519,
         "finished_at": "2026-11-12T12:01:59.964279+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001882",
+          "size_bytes": 563297566,
+          "source_bytes_read": 563297566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826573",
+        "source_url": "https://sdilej.cz/33826573/zlata-sedmdesata-s01e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001882",
+        "display_name": "That '70s Show S01E10 Sunday, Bloody Sunday 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:02:04.397021+00:00"
       }
     },
     "1073:1:11": {
@@ -380898,7 +380899,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:01:59.964298+00:00",
+  "updated_at": "2026-11-12T12:02:04.397039+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
