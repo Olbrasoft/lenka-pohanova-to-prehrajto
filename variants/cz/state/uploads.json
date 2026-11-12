@@ -390232,12 +390232,6 @@
     },
     "1073:8:22": {
       "episode_key": "zlatá sedmdesátá:s8:e22",
-      "claim": {
-        "worker_id": "3fd2a54529554d7288e2a0709cbc104c-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:01:08.130303+00:00",
-        "lease_expires_at": "2026-11-12T23:01:08.130314+00:00"
-      },
       "source": {
         "source_id": "25218517",
         "source_url": "https://sdilej.cz/25218517/zlata-sedmdesata-8x22-zlate-finale.avi",
@@ -390262,22 +390256,29 @@
         "display_name": "That '70s Show S08E22 That '70s Finale SD CZ Dabing",
         "prepared_at": "2026-11-12T17:01:25.849485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004351",
-        "size_bytes": 181440512
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004351",
-        "size_bytes": 181440512,
-        "source_bytes_read": 181440512,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004351",
         "source_bytes_read": 181440512,
         "elapsed_seconds": 84.007,
         "finished_at": "2026-11-12T17:03:05.910837+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004351",
+          "size_bytes": 181440512,
+          "source_bytes_read": 181440512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25218517",
+        "source_url": "https://sdilej.cz/25218517/zlata-sedmdesata-8x22-zlate-finale.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004351",
+        "display_name": "That '70s Show S08E22 That '70s Finale SD CZ Dabing",
+        "uploaded_at": "2026-11-12T17:03:10.428457+00:00"
       }
     },
     "3568:1:3": {
@@ -390360,7 +390361,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T17:03:05.910856+00:00",
+  "updated_at": "2026-11-12T17:03:10.428474+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
