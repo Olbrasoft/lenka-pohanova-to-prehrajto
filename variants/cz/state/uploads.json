@@ -381462,12 +381462,6 @@
     },
     "1073:2:1": {
       "episode_key": "zlatá sedmdesátá:s2:e1",
-      "claim": {
-        "worker_id": "dec3fcbd62694d2b852c4fd464f59b3b-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:18:19.193055+00:00",
-        "lease_expires_at": "2026-11-12T18:18:19.193067+00:00"
-      },
       "source": {
         "source_id": "33840279",
         "source_url": "https://sdilej.cz/33840279/zlata-sedmdesata-s02e01.mkv",
@@ -381492,22 +381486,29 @@
         "display_name": "That '70s Show S02E01 Garage Sale 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:18:22.655513+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002124",
-        "size_bytes": 400838817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002124",
-        "size_bytes": 400838817,
-        "source_bytes_read": 400838817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002124",
         "source_bytes_read": 400838817,
         "elapsed_seconds": 224.789,
         "finished_at": "2026-11-12T12:22:19.881698+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002124",
+          "size_bytes": 400838817,
+          "source_bytes_read": 400838817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840279",
+        "source_url": "https://sdilej.cz/33840279/zlata-sedmdesata-s02e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002124",
+        "display_name": "That '70s Show S02E01 Garage Sale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:22:24.609273+00:00"
       }
     }
   },
@@ -381516,7 +381517,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:22:19.881716+00:00",
+  "updated_at": "2026-11-12T12:22:24.609289+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
