@@ -382105,12 +382105,6 @@
     },
     "1073:2:14": {
       "episode_key": "zlatá sedmdesátá:s2:e14",
-      "claim": {
-        "worker_id": "242fd129a5c84b458a807ea05ca80da8-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:37:20.911610+00:00",
-        "lease_expires_at": "2026-11-12T18:37:20.911619+00:00"
-      },
       "source": {
         "source_id": "34482578",
         "source_url": "https://sdilej.cz/34482578/zlata-sedmdesata-s02e14.avi",
@@ -382135,22 +382129,29 @@
         "display_name": "That '70s Show S02E14 Red's New Job SD CZ Dabing",
         "prepared_at": "2026-11-12T12:37:27.736664+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002329",
-        "size_bytes": 182725988
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002329",
-        "size_bytes": 182725988,
-        "source_bytes_read": 182725988,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002329",
         "source_bytes_read": 182725988,
         "elapsed_seconds": 72.789,
         "finished_at": "2026-11-12T12:38:57.883969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002329",
+          "size_bytes": 182725988,
+          "source_bytes_read": 182725988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482578",
+        "source_url": "https://sdilej.cz/34482578/zlata-sedmdesata-s02e14.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002329",
+        "display_name": "That '70s Show S02E14 Red's New Job SD CZ Dabing",
+        "uploaded_at": "2026-11-12T12:39:02.623874+00:00"
       }
     }
   },
@@ -382159,7 +382160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:38:57.883986+00:00",
+  "updated_at": "2026-11-12T12:39:02.623890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
