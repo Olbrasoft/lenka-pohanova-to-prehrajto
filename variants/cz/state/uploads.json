@@ -370351,12 +370351,6 @@
     },
     "394:17:13": {
       "episode_key": "griffinovi:s17:e13",
-      "claim": {
-        "worker_id": "3ffb3cb63dd940e6b4ac7e92570a672f-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-11T23:57:58.523655+00:00",
-        "lease_expires_at": "2026-11-12T05:57:58.523672+00:00"
-      },
       "source": {
         "source_id": "35292872",
         "source_url": "https://sdilej.cz/35292872/griffinovi-s17e13-trans-tloust-cz-web-dl-cz-dabing.mkv",
@@ -370381,22 +370375,29 @@
         "display_name": "Family Guy S17E13 Trans-Fat 1080p CZ Dabing",
         "prepared_at": "2026-11-11T23:58:01.961633+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995670",
-        "size_bytes": 758454456
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995670",
-        "size_bytes": 758454456,
-        "source_bytes_read": 758454456,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995670",
         "source_bytes_read": 758454456,
         "elapsed_seconds": 238.615,
         "finished_at": "2026-11-12T00:02:18.142570+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995670",
+          "size_bytes": 758454456,
+          "source_bytes_read": 758454456,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35292872",
+        "source_url": "https://sdilej.cz/35292872/griffinovi-s17e13-trans-tloust-cz-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995670",
+        "display_name": "Family Guy S17E13 Trans-Fat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T00:02:27.867492+00:00"
       }
     },
     "394:17:14": {
@@ -370479,7 +370480,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T00:02:18.142596+00:00",
+  "updated_at": "2026-11-12T00:02:27.867513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
