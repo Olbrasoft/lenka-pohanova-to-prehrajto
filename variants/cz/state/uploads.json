@@ -390652,12 +390652,6 @@
     },
     "746:1:6": {
       "episode_key": "gentlemani:s1:e6",
-      "claim": {
-        "worker_id": "bcd424a049b14b39948830474e5d85b1-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:17:21.278183+00:00",
-        "lease_expires_at": "2026-11-12T23:17:21.278197+00:00"
-      },
       "source": {
         "source_id": "35055240",
         "source_url": "https://sdilej.cz/35055240/the-gentlemen-s01e06-czen-dabing.mp4",
@@ -390682,22 +390676,29 @@
         "display_name": "The Gentlemen S01E06 All Eventualities 1080p CZ Dabing",
         "prepared_at": "2026-11-12T17:17:30.967831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004461",
-        "size_bytes": 579273714
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004461",
-        "size_bytes": 579273714,
-        "source_bytes_read": 579273714,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004461",
         "source_bytes_read": 579273714,
         "elapsed_seconds": 254.662,
         "finished_at": "2026-11-12T17:22:05.304781+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004461",
+          "size_bytes": 579273714,
+          "source_bytes_read": 579273714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35055240",
+        "source_url": "https://sdilej.cz/35055240/the-gentlemen-s01e06-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004461",
+        "display_name": "The Gentlemen S01E06 All Eventualities 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T17:22:11.858566+00:00"
       }
     },
     "746:1:7": {
@@ -390757,7 +390758,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T17:22:08.865229+00:00",
+  "updated_at": "2026-11-12T17:22:11.858581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
