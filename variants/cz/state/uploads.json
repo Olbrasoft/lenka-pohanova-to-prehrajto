@@ -388651,12 +388651,6 @@
     },
     "1073:7:15": {
       "episode_key": "zlatá sedmdesátá:s7:e15",
-      "claim": {
-        "worker_id": "23545b82fbea4a2db7cdecba08fd5b82-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T15:59:22.183004+00:00",
-        "lease_expires_at": "2026-11-12T21:59:22.183016+00:00"
-      },
       "source": {
         "source_id": "29205284",
         "source_url": "https://sdilej.cz/29205284/zlata-sedmdesata-s07e15-je-po-vsem-it-s-all-over-now-.mkv",
@@ -388681,22 +388675,29 @@
         "display_name": "That '70s Show S07E15 It's All Over Now 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:59:28.632947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003908",
-        "size_bytes": 576561339
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003908",
-        "size_bytes": 576561339,
-        "source_bytes_read": 576561339,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003908",
         "source_bytes_read": 576561339,
         "elapsed_seconds": 344.844,
         "finished_at": "2026-11-12T16:05:33.802940+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003908",
+          "size_bytes": 576561339,
+          "source_bytes_read": 576561339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29205284",
+        "source_url": "https://sdilej.cz/29205284/zlata-sedmdesata-s07e15-je-po-vsem-it-s-all-over-now-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003908",
+        "display_name": "That '70s Show S07E15 It's All Over Now 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:05:38.815686+00:00"
       }
     },
     "1073:7:16": {
@@ -388806,7 +388807,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:05:33.802966+00:00",
+  "updated_at": "2026-11-12T16:05:38.815702+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
