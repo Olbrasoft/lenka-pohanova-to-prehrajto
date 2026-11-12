@@ -395377,12 +395377,6 @@
     },
     "692:1:7": {
       "episode_key": "den šakala:s1:e7",
-      "claim": {
-        "worker_id": "c50b0492187a4bc39f1c3d69fc3c3456-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:27:59.294523+00:00",
-        "lease_expires_at": "2026-11-13T04:27:59.294534+00:00"
-      },
       "source": {
         "source_id": "30575823",
         "source_url": "https://sdilej.cz/30575823/den-sakala-1x7.mp4",
@@ -395407,22 +395401,29 @@
         "display_name": "The Day of the Jackal S01E07 1080p CZ Dabing",
         "prepared_at": "2026-11-12T22:28:02.692385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31006723",
-        "size_bytes": 721936335
-      },
-      "transfer_receipt": {
-        "target_video_id": "31006723",
-        "size_bytes": 721936335,
-        "source_bytes_read": 721936335,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31006723",
         "source_bytes_read": 721936335,
         "elapsed_seconds": 342.702,
         "finished_at": "2026-11-12T22:33:59.422444+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31006723",
+          "size_bytes": 721936335,
+          "source_bytes_read": 721936335,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30575823",
+        "source_url": "https://sdilej.cz/30575823/den-sakala-1x7.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31006723",
+        "display_name": "The Day of the Jackal S01E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T22:34:06.255222+00:00"
       }
     }
   },
@@ -395431,7 +395432,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:33:59.422463+00:00",
+  "updated_at": "2026-11-12T22:34:06.255247+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
