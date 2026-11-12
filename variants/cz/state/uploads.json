@@ -380909,12 +380909,6 @@
     },
     "1073:1:13": {
       "episode_key": "zlatá sedmdesátá:s1:e13",
-      "claim": {
-        "worker_id": "e6ac74beab03483fab068ce17b95e920-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:03:20.255488+00:00",
-        "lease_expires_at": "2026-11-12T18:03:20.255498+00:00"
-      },
       "source": {
         "source_id": "27607921",
         "source_url": "https://sdilej.cz/27607921/zlata-sedmdesata-s01e13-cz.mkv",
@@ -380939,22 +380933,29 @@
         "display_name": "That '70s Show S01E13 Ski Trip 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:03:38.722045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001955",
-        "size_bytes": 494257721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001955",
-        "size_bytes": 494257721,
-        "source_bytes_read": 494257721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001955",
         "source_bytes_read": 494257721,
         "elapsed_seconds": 265.762,
         "finished_at": "2026-11-12T12:08:19.360496+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001955",
+          "size_bytes": 494257721,
+          "source_bytes_read": 494257721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27607921",
+        "source_url": "https://sdilej.cz/27607921/zlata-sedmdesata-s01e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001955",
+        "display_name": "That '70s Show S01E13 Ski Trip 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:08:28.595653+00:00"
       }
     },
     "1073:1:14": {
@@ -381064,7 +381065,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:08:25.829347+00:00",
+  "updated_at": "2026-11-12T12:08:28.595669+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
