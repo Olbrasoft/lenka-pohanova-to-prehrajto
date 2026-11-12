@@ -378359,12 +378359,6 @@
     },
     "1423:10:22": {
       "episode_key": "myšlenky zločince:s10:e22",
-      "claim": {
-        "worker_id": "b6c4265da9c445e49b7fd6325ea490c2-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T09:09:20.602085+00:00",
-        "lease_expires_at": "2026-11-12T15:09:20.602096+00:00"
-      },
       "source": {
         "source_id": "28237192",
         "source_url": "https://sdilej.cz/28237192/criminal-minds-s10e22-cz-dab-hd-tv-rip-.mp4",
@@ -378389,22 +378383,29 @@
         "display_name": "Criminal Minds S10E22 Protection 720p CZ Dabing",
         "prepared_at": "2026-11-12T09:09:25.071089+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000635",
-        "size_bytes": 461093883
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000635",
-        "size_bytes": 461093883,
-        "source_bytes_read": 461093883,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000635",
         "source_bytes_read": 461093883,
         "elapsed_seconds": 246.91,
         "finished_at": "2026-11-12T09:13:49.905455+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000635",
+          "size_bytes": 461093883,
+          "source_bytes_read": 461093883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237192",
+        "source_url": "https://sdilej.cz/28237192/criminal-minds-s10e22-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000635",
+        "display_name": "Criminal Minds S10E22 Protection 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:13:58.794305+00:00"
       }
     },
     "1423:10:23": {
@@ -378534,7 +378535,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:13:56.011806+00:00",
+  "updated_at": "2026-11-12T09:13:58.794319+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
