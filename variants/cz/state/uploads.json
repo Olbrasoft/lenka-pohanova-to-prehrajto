@@ -385948,12 +385948,6 @@
     },
     "1073:5:11": {
       "episode_key": "zlatá sedmdesátá:s5:e11",
-      "claim": {
-        "worker_id": "324008a2aed04faba797aa9a4e2bdedf-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:13:42.739099+00:00",
-        "lease_expires_at": "2026-11-12T20:13:42.739112+00:00"
-      },
       "source": {
         "source_id": "34482841",
         "source_url": "https://sdilej.cz/34482841/zlata-sedmdesata-s05e11.mp4",
@@ -385978,22 +385972,29 @@
         "display_name": "That '70s Show S05E11 The Girl I Love 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:13:46.385117+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003297",
-        "size_bytes": 298998407
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003297",
-        "size_bytes": 298998407,
-        "source_bytes_read": 298998407,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003297",
         "source_bytes_read": 298998407,
         "elapsed_seconds": 129.181,
         "finished_at": "2026-11-12T14:16:08.998366+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003297",
+          "size_bytes": 298998407,
+          "source_bytes_read": 298998407,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482841",
+        "source_url": "https://sdilej.cz/34482841/zlata-sedmdesata-s05e11.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003297",
+        "display_name": "That '70s Show S05E11 The Girl I Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:16:13.420959+00:00"
       }
     },
     "1073:5:12": {
@@ -386076,7 +386077,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:16:08.998387+00:00",
+  "updated_at": "2026-11-12T14:16:13.420975+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
