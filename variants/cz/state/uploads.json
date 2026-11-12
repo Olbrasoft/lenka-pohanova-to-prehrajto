@@ -392118,12 +392118,6 @@
     },
     "593:2:5": {
       "episode_key": "vražedná práva:s2:e5",
-      "claim": {
-        "worker_id": "665a1816eb8c4d9b83f30dc16e10e69a-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T19:54:39.628048+00:00",
-        "lease_expires_at": "2026-11-13T01:54:39.628063+00:00"
-      },
       "source": {
         "source_id": "33334625",
         "source_url": "https://sdilej.cz/33334625/vrazedna-prava-s02e05-schuzka-s-bonnie-2014-15-cz.avi",
@@ -392148,22 +392142,29 @@
         "display_name": "How to Get Away with Murder S02E05 Meet Bonnie SD CZ Dabing",
         "prepared_at": "2026-11-12T19:54:46.394385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005499",
-        "size_bytes": 453133008
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005499",
-        "size_bytes": 453133008,
-        "source_bytes_read": 453133008,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005499",
         "source_bytes_read": 453133008,
         "elapsed_seconds": 215.775,
         "finished_at": "2026-11-12T19:58:42.570261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005499",
+          "size_bytes": 453133008,
+          "source_bytes_read": 453133008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33334625",
+        "source_url": "https://sdilej.cz/33334625/vrazedna-prava-s02e05-schuzka-s-bonnie-2014-15-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005499",
+        "display_name": "How to Get Away with Murder S02E05 Meet Bonnie SD CZ Dabing",
+        "uploaded_at": "2026-11-12T19:58:51.080912+00:00"
       }
     },
     "593:2:6": {
@@ -392208,7 +392209,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T19:58:46.361736+00:00",
+  "updated_at": "2026-11-12T19:58:51.080931+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
