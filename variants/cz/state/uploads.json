@@ -393808,12 +393808,6 @@
     },
     "1402:2:13": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s2:e13",
-      "claim": {
-        "worker_id": "675146996de64689a665aa4f9885e33e-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T21:01:16.531673+00:00",
-        "lease_expires_at": "2026-11-13T03:01:16.531687+00:00"
-      },
       "source": {
         "source_id": "29094172",
         "source_url": "https://sdilej.cz/29094172/zakon-a-poradek-utvar-pro-zvlastni-obeti-s02e13-035-2001-sd-obeti-sd-.mp4",
@@ -393838,22 +393832,29 @@
         "display_name": "Law & Order: Special Victims Unit S02E13 Victims SD CZ Dabing",
         "prepared_at": "2026-11-12T21:01:20.930946+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31006009",
-        "size_bytes": 575299930
-      },
-      "transfer_receipt": {
-        "target_video_id": "31006009",
-        "size_bytes": 575299930,
-        "source_bytes_read": 575299930,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31006009",
         "source_bytes_read": 575299930,
         "elapsed_seconds": 284.562,
         "finished_at": "2026-11-12T21:06:25.085803+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31006009",
+          "size_bytes": 575299930,
+          "source_bytes_read": 575299930,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29094172",
+        "source_url": "https://sdilej.cz/29094172/zakon-a-poradek-utvar-pro-zvlastni-obeti-s02e13-035-2001-sd-obeti-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31006009",
+        "display_name": "Law & Order: Special Victims Unit S02E13 Victims SD CZ Dabing",
+        "uploaded_at": "2026-11-12T21:06:36.341033+00:00"
       }
     },
     "1402:2:14": {
@@ -393913,7 +393914,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T21:06:32.008781+00:00",
+  "updated_at": "2026-11-12T21:06:36.341051+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
