@@ -394882,12 +394882,6 @@
     },
     "9201:1:1": {
       "episode_key": "ranč duttonových:s1:e1",
-      "claim": {
-        "worker_id": "95a2b32ce4c343bc9ef5a3956f9804fc-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T21:47:09.012600+00:00",
-        "lease_expires_at": "2026-11-13T03:47:09.012613+00:00"
-      },
       "source": {
         "source_id": "34355221",
         "source_url": "https://sdilej.cz/34355221/dutton-ranch-s01e01-cz-dabing-2160p-uhd.mkv",
@@ -394912,22 +394906,29 @@
         "display_name": "Dutton Ranch S01E01 The Untold Want 4K CZ Dabing",
         "prepared_at": "2026-11-12T21:47:12.613630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31006392",
-        "size_bytes": 5602493612
-      },
-      "transfer_receipt": {
-        "target_video_id": "31006392",
-        "size_bytes": 5602493612,
-        "source_bytes_read": 5602493612,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31006392",
         "source_bytes_read": 5602493612,
         "elapsed_seconds": 2310.589,
         "finished_at": "2026-11-12T22:25:58.355007+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31006392",
+          "size_bytes": 5602493612,
+          "source_bytes_read": 5602493612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34355221",
+        "source_url": "https://sdilej.cz/34355221/dutton-ranch-s01e01-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31006392",
+        "display_name": "Dutton Ranch S01E01 The Untold Want 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T22:26:04.644436+00:00"
       }
     },
     "9201:1:7": {
@@ -395290,7 +395291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:25:58.355022+00:00",
+  "updated_at": "2026-11-12T22:26:04.644453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
