@@ -387821,12 +387821,6 @@
     },
     "1073:6:24": {
       "episode_key": "zlatá sedmdesátá:s6:e24",
-      "claim": {
-        "worker_id": "2e0281072acf4cbc8b5a2e1d152d9e4e-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:13:09.572790+00:00",
-        "lease_expires_at": "2026-11-12T21:13:09.572802+00:00"
-      },
       "source": {
         "source_id": "34482969",
         "source_url": "https://sdilej.cz/34482969/zlata-sedmdesata-s06e24.mp4",
@@ -387851,22 +387845,29 @@
         "display_name": "That '70s Show S06E24 Going Mobile 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:13:12.777979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003654",
-        "size_bytes": 301747509
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003654",
-        "size_bytes": 301747509,
-        "source_bytes_read": 301747509,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003654",
         "source_bytes_read": 301747509,
         "elapsed_seconds": 142.932,
         "finished_at": "2026-11-12T15:15:48.830602+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003654",
+          "size_bytes": 301747509,
+          "source_bytes_read": 301747509,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482969",
+        "source_url": "https://sdilej.cz/34482969/zlata-sedmdesata-s06e24.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003654",
+        "display_name": "That '70s Show S06E24 Going Mobile 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:15:53.193047+00:00"
       }
     },
     "1073:6:25": {
@@ -387912,7 +387913,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:15:48.830620+00:00",
+  "updated_at": "2026-11-12T15:15:53.193062+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
