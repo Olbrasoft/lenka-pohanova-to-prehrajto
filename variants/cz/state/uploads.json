@@ -394210,12 +394210,6 @@
     },
     "1402:3:15": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s3:e15",
-      "claim": {
-        "worker_id": "4daa908f7d814b66a3a361785c071df6-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T21:26:33.777410+00:00",
-        "lease_expires_at": "2026-11-13T03:26:33.777422+00:00"
-      },
       "source": {
         "source_id": "35096671",
         "source_url": "https://sdilej.cz/35096671/zakon-a-poradek-utvar-pro-zvlastni-obeti-s03e15-058-2002-hd-poprava-sd-.mp4",
@@ -394239,7 +394233,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S03E15 Execution 720p CZ Dabing",
         "prepared_at": "2026-11-12T21:26:37.499538+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-12T21:26:53.472824+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -394247,7 +394247,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T21:26:50.301356+00:00",
+  "updated_at": "2026-11-12T21:26:53.472829+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -394509,6 +394509,14 @@
         {
           "identity": "1073:2:21",
           "at": "2026-11-12T20:56:26.903267+00:00"
+        }
+      ]
+    },
+    "1402": {
+      "recent_failures": [
+        {
+          "identity": "1402:3:15",
+          "at": "2026-11-12T21:26:53.472798+00:00"
         }
       ]
     }
