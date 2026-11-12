@@ -393241,12 +393241,6 @@
     },
     "1402:1:10": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s1:e10",
-      "claim": {
-        "worker_id": "3aab414242c64fcdbf3555b784d636f3-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:38:04.504097+00:00",
-        "lease_expires_at": "2026-11-13T02:38:04.504113+00:00"
-      },
       "source": {
         "source_id": "29093691",
         "source_url": "https://sdilej.cz/29093691/zakon-a-poradek-utvar-pro-zvlastni-obeti-s01e10-010-2000-sd-otevreny-pripad-sd-.mp4",
@@ -393271,22 +393265,29 @@
         "display_name": "Law & Order: Special Victims Unit S01E10 Closure SD CZ Dabing",
         "prepared_at": "2026-11-12T20:38:08.104279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005824",
-        "size_bytes": 557495035
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005824",
-        "size_bytes": 557495035,
-        "source_bytes_read": 557495035,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005824",
         "source_bytes_read": 557495035,
         "elapsed_seconds": 271.446,
         "finished_at": "2026-11-12T20:42:55.145589+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005824",
+          "size_bytes": 557495035,
+          "source_bytes_read": 557495035,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29093691",
+        "source_url": "https://sdilej.cz/29093691/zakon-a-poradek-utvar-pro-zvlastni-obeti-s01e10-010-2000-sd-otevreny-pripad-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005824",
+        "display_name": "Law & Order: Special Victims Unit S01E10 Closure SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:43:00.572622+00:00"
       }
     },
     "1402:1:11": {
@@ -393369,7 +393370,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:42:55.145606+00:00",
+  "updated_at": "2026-11-12T20:43:00.572642+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
