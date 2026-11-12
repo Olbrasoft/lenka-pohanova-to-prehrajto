@@ -386852,12 +386852,6 @@
     },
     "1073:6:4": {
       "episode_key": "zlatá sedmdesátá:s6:e4",
-      "claim": {
-        "worker_id": "1688781513eb47ce8dc3f724939aa38e-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:33:05.429986+00:00",
-        "lease_expires_at": "2026-11-12T20:33:05.429996+00:00"
-      },
       "source": {
         "source_id": "33840714",
         "source_url": "https://sdilej.cz/33840714/zlata-sedmdesata-s06e04.mkv",
@@ -386882,22 +386876,29 @@
         "display_name": "That '70s Show S06E04 The Acid Queen 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:33:08.782354+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003415",
-        "size_bytes": 480321493
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003415",
-        "size_bytes": 480321493,
-        "source_bytes_read": 480321493,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003415",
         "source_bytes_read": 480321493,
         "elapsed_seconds": 239.852,
         "finished_at": "2026-11-12T14:37:21.178920+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003415",
+          "size_bytes": 480321493,
+          "source_bytes_read": 480321493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840714",
+        "source_url": "https://sdilej.cz/33840714/zlata-sedmdesata-s06e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003415",
+        "display_name": "That '70s Show S06E04 The Acid Queen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:37:25.303967+00:00"
       }
     },
     "1073:6:5": {
@@ -386943,7 +386944,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:37:21.178940+00:00",
+  "updated_at": "2026-11-12T14:37:25.303981+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
