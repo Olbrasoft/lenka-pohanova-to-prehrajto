@@ -382611,12 +382611,6 @@
     },
     "1073:2:24": {
       "episode_key": "zlatá sedmdesátá:s2:e24",
-      "claim": {
-        "worker_id": "c6dd88f004ec4de5875289e9ab4b7e92-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:58:17.435620+00:00",
-        "lease_expires_at": "2026-11-12T18:58:17.435632+00:00"
-      },
       "source": {
         "source_id": "34482609",
         "source_url": "https://sdilej.cz/34482609/zlata-sedmdesata-s02e24.mp4",
@@ -382641,22 +382635,29 @@
         "display_name": "That '70s Show S02E24 Red Fired Up 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:58:20.703735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002480",
-        "size_bytes": 251711993
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002480",
-        "size_bytes": 251711993,
-        "source_bytes_read": 251711993,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002480",
         "source_bytes_read": 251711993,
         "elapsed_seconds": 165.474,
         "finished_at": "2026-11-12T13:01:18.821251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002480",
+          "size_bytes": 251711993,
+          "source_bytes_read": 251711993,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482609",
+        "source_url": "https://sdilej.cz/34482609/zlata-sedmdesata-s02e24.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002480",
+        "display_name": "That '70s Show S02E24 Red Fired Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:01:23.733880+00:00"
       }
     },
     "1073:2:25": {
@@ -382702,7 +382703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:01:18.821270+00:00",
+  "updated_at": "2026-11-12T13:01:23.733896+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
