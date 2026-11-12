@@ -384567,12 +384567,6 @@
     },
     "1073:4:11": {
       "episode_key": "zlatá sedmdesátá:s4:e11",
-      "claim": {
-        "worker_id": "f9d6eda7d08e4675a63ba9c9564eff8d-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:36:19.299526+00:00",
-        "lease_expires_at": "2026-11-12T19:36:19.299535+00:00"
-      },
       "source": {
         "source_id": "34482721",
         "source_url": "https://sdilej.cz/34482721/zlata-sedmdesata-s04e11.mp4",
@@ -384597,22 +384591,29 @@
         "display_name": "That '70s Show S04E11 The Third Wheel 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:36:24.303496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002958",
-        "size_bytes": 242424655
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002958",
-        "size_bytes": 242424655,
-        "source_bytes_read": 242424655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002958",
         "source_bytes_read": 242424655,
         "elapsed_seconds": 121.655,
         "finished_at": "2026-11-12T13:38:42.695655+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002958",
+          "size_bytes": 242424655,
+          "source_bytes_read": 242424655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482721",
+        "source_url": "https://sdilej.cz/34482721/zlata-sedmdesata-s04e11.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002958",
+        "display_name": "That '70s Show S04E11 The Third Wheel 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:38:47.307910+00:00"
       }
     },
     "1073:4:12": {
@@ -384708,7 +384709,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:38:42.695674+00:00",
+  "updated_at": "2026-11-12T13:38:47.307926+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
