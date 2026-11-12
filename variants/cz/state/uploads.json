@@ -387988,12 +387988,6 @@
     },
     "1073:7:2": {
       "episode_key": "zlatá sedmdesátá:s7:e2",
-      "claim": {
-        "worker_id": "9c57a596d06545c594fc7be82018d52c-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:16:17.096326+00:00",
-        "lease_expires_at": "2026-11-12T21:16:17.096337+00:00"
-      },
       "source": {
         "source_id": "33840849",
         "source_url": "https://sdilej.cz/33840849/zlata-sedmdesata-s07e02.mkv",
@@ -388018,22 +388012,29 @@
         "display_name": "That '70s Show S07E02 Let's Spend the Night Together 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:16:23.926789+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003673",
-        "size_bytes": 585402389
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003673",
-        "size_bytes": 585402389,
-        "source_bytes_read": 585402389,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003673",
         "source_bytes_read": 585402389,
         "elapsed_seconds": 261.651,
         "finished_at": "2026-11-12T15:21:02.122664+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003673",
+          "size_bytes": 585402389,
+          "source_bytes_read": 585402389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840849",
+        "source_url": "https://sdilej.cz/33840849/zlata-sedmdesata-s07e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003673",
+        "display_name": "That '70s Show S07E02 Let's Spend the Night Together 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:21:11.996174+00:00"
       }
     },
     "1073:7:3": {
@@ -388079,7 +388080,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:21:06.410927+00:00",
+  "updated_at": "2026-11-12T15:21:11.996190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
