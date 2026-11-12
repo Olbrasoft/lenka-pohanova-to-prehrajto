@@ -389365,12 +389365,6 @@
     },
     "1073:8:4": {
       "episode_key": "zlatá sedmdesátá:s8:e4",
-      "claim": {
-        "worker_id": "70fd1d4416364a6bad2cd31c73cb582a-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:24:52.654138+00:00",
-        "lease_expires_at": "2026-11-12T22:24:52.654149+00:00"
-      },
       "source": {
         "source_id": "34483157",
         "source_url": "https://sdilej.cz/34483157/zlata-sedmdesata-s08e4.mp4",
@@ -389395,22 +389389,29 @@
         "display_name": "That '70s Show S08E04 Misfire 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:24:57.138916+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004103",
-        "size_bytes": 286409086
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004103",
-        "size_bytes": 286409086,
-        "source_bytes_read": 286409086,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004103",
         "source_bytes_read": 286409086,
         "elapsed_seconds": 160.603,
         "finished_at": "2026-11-12T16:27:56.887609+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004103",
+          "size_bytes": 286409086,
+          "source_bytes_read": 286409086,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34483157",
+        "source_url": "https://sdilej.cz/34483157/zlata-sedmdesata-s08e4.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004103",
+        "display_name": "That '70s Show S08E04 Misfire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:28:03.536305+00:00"
       }
     },
     "1073:8:5": {
@@ -389456,7 +389457,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:27:56.887634+00:00",
+  "updated_at": "2026-11-12T16:28:03.536321+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
