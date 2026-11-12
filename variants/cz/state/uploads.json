@@ -382523,12 +382523,6 @@
     },
     "1073:2:22": {
       "episode_key": "zlatá sedmdesátá:s2:e22",
-      "claim": {
-        "worker_id": "9eef3d7cd9b2401990d29a9c9944c4dd-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:54:26.931030+00:00",
-        "lease_expires_at": "2026-11-12T18:54:26.931040+00:00"
-      },
       "source": {
         "source_id": "33840312",
         "source_url": "https://sdilej.cz/33840312/zlata-sedmdesata-s02e22.mkv",
@@ -382553,22 +382547,29 @@
         "display_name": "That '70s Show S02E22 Jackie Moves On 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:54:33.200063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002455",
-        "size_bytes": 538914150
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002455",
-        "size_bytes": 538914150,
-        "source_bytes_read": 538914150,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002455",
         "source_bytes_read": 538914150,
         "elapsed_seconds": 286.65,
         "finished_at": "2026-11-12T12:59:37.814173+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002455",
+          "size_bytes": 538914150,
+          "source_bytes_read": 538914150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840312",
+        "source_url": "https://sdilej.cz/33840312/zlata-sedmdesata-s02e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002455",
+        "display_name": "That '70s Show S02E22 Jackie Moves On 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:59:43.210776+00:00"
       }
     },
     "1073:2:23": {
@@ -382651,7 +382652,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:59:37.814195+00:00",
+  "updated_at": "2026-11-12T12:59:43.210791+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
