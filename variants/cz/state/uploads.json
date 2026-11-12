@@ -379391,12 +379391,6 @@
     },
     "1423:13:22": {
       "episode_key": "myšlenky zločince:s13:e22",
-      "claim": {
-        "worker_id": "a476246d0dde452fb3fb4d6b8988686e-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T10:12:10.877774+00:00",
-        "lease_expires_at": "2026-11-12T16:12:10.877785+00:00"
-      },
       "source": {
         "source_id": "33688119",
         "source_url": "https://sdilej.cz/33688119/myslenky-zlocince-s13e22-22-2017-cz-dab-1080p-verici.mp4",
@@ -379421,22 +379415,29 @@
         "display_name": "Criminal Minds S13E22 Believer 1080p CZ Dabing",
         "prepared_at": "2026-11-12T10:12:14.637490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001088",
-        "size_bytes": 1562766824
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001088",
-        "size_bytes": 1562766824,
-        "source_bytes_read": 1562766824,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001088",
         "source_bytes_read": 1562766824,
         "elapsed_seconds": 759.242,
         "finished_at": "2026-11-12T10:25:09.951327+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001088",
+          "size_bytes": 1562766824,
+          "source_bytes_read": 1562766824,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33688119",
+        "source_url": "https://sdilej.cz/33688119/myslenky-zlocince-s13e22-22-2017-cz-dab-1080p-verici.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001088",
+        "display_name": "Criminal Minds S13E22 Believer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T10:25:22.098468+00:00"
       }
     },
     "1423:14:1": {
@@ -379496,7 +379497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T10:25:19.309111+00:00",
+  "updated_at": "2026-11-12T10:25:22.098484+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
