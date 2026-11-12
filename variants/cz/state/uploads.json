@@ -392717,12 +392717,6 @@
     },
     "3700:4:6": {
       "episode_key": "páteční večeře:s4:e6",
-      "claim": {
-        "worker_id": "6e76058f01fe4845890b724a77cc3859-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:19:26.428962+00:00",
-        "lease_expires_at": "2026-11-13T02:19:26.428973+00:00"
-      },
       "source": {
         "source_id": "11174552",
         "source_url": "https://sdilej.cz/11174552/patecni.vecere.04x06.hdtv.cz.avi",
@@ -392747,22 +392741,29 @@
         "display_name": "Friday Night Dinner S04E06 For Sale SD CZ Dabing",
         "prepared_at": "2026-11-12T20:19:33.762503+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005696",
-        "size_bytes": 367358080
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005696",
-        "size_bytes": 367358080,
-        "source_bytes_read": 367358080,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005696",
         "source_bytes_read": 367358080,
         "elapsed_seconds": 209.812,
         "finished_at": "2026-11-12T20:23:20.496392+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005696",
+          "size_bytes": 367358080,
+          "source_bytes_read": 367358080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11174552",
+        "source_url": "https://sdilej.cz/11174552/patecni.vecere.04x06.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005696",
+        "display_name": "Friday Night Dinner S04E06 For Sale SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:23:26.461722+00:00"
       }
     },
     "3700:5:1": {
@@ -392808,7 +392809,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:23:20.496411+00:00",
+  "updated_at": "2026-11-12T20:23:26.461740+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
