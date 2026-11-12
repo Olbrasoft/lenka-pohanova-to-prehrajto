@@ -395655,12 +395655,6 @@
     },
     "1177:1:2": {
       "episode_key": "batesův motel:s1:e2",
-      "claim": {
-        "worker_id": "897969159f1841208a5a9dcf055ab90d-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:43:05.897692+00:00",
-        "lease_expires_at": "2026-11-13T04:43:05.897706+00:00"
-      },
       "source": {
         "source_id": "34959143",
         "source_url": "https://sdilej.cz/34959143/batesuv-motel-s01e02.cz.webrip.1080p.10b.hevc.c4u-hezke-mesto-jsi-vybrala-normo....mkv",
@@ -395685,22 +395679,29 @@
         "display_name": "Bates Motel S01E02 Nice Town You Picked, Norma… 1080p CZ Dabing",
         "prepared_at": "2026-11-12T22:43:09.274324+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31006823",
-        "size_bytes": 890489260
-      },
-      "transfer_receipt": {
-        "target_video_id": "31006823",
-        "size_bytes": 890489260,
-        "source_bytes_read": 890489260,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31006823",
         "source_bytes_read": 890489260,
         "elapsed_seconds": 377.367,
         "finished_at": "2026-11-12T22:49:40.431035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31006823",
+          "size_bytes": 890489260,
+          "source_bytes_read": 890489260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34959143",
+        "source_url": "https://sdilej.cz/34959143/batesuv-motel-s01e02.cz.webrip.1080p.10b.hevc.c4u-hezke-mesto-jsi-vybrala-normo....mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31006823",
+        "display_name": "Bates Motel S01E02 Nice Town You Picked, Norma… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T22:49:46.521921+00:00"
       }
     }
   },
@@ -395709,7 +395710,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:49:40.431052+00:00",
+  "updated_at": "2026-11-12T22:49:46.521939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
