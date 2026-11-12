@@ -391340,12 +391340,6 @@
     },
     "593:1:6": {
       "episode_key": "vražedná práva:s1:e6",
-      "claim": {
-        "worker_id": "6fa272ce391a498eb46e765b40a2372b-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T18:33:22.231209+00:00",
-        "lease_expires_at": "2026-11-13T00:33:22.231221+00:00"
-      },
       "source": {
         "source_id": "14191067",
         "source_url": "https://sdilej.cz/14191067/vrazedna-prava-s01e06.avi",
@@ -391370,22 +391364,29 @@
         "display_name": "How to Get Away with Murder S01E06 Freakin' Whack-a-Mole SD CZ Dabing",
         "prepared_at": "2026-11-12T18:33:29.276738+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004932",
-        "size_bytes": 457864192
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004932",
-        "size_bytes": 457864192,
-        "source_bytes_read": 457864192,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004932",
         "source_bytes_read": 457864192,
         "elapsed_seconds": 240.188,
         "finished_at": "2026-11-12T18:37:45.782845+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004932",
+          "size_bytes": 457864192,
+          "source_bytes_read": 457864192,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14191067",
+        "source_url": "https://sdilej.cz/14191067/vrazedna-prava-s01e06.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004932",
+        "display_name": "How to Get Away with Murder S01E06 Freakin' Whack-a-Mole SD CZ Dabing",
+        "uploaded_at": "2026-11-12T18:37:53.629786+00:00"
       }
     },
     "593:1:7": {
@@ -391445,7 +391446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T18:37:48.872231+00:00",
+  "updated_at": "2026-11-12T18:37:53.629804+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
