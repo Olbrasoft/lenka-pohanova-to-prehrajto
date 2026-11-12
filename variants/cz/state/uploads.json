@@ -378563,12 +378563,6 @@
     },
     "1423:13:3": {
       "episode_key": "myšlenky zločince:s13:e3",
-      "claim": {
-        "worker_id": "48b3aa6d3f564e77901c4807eff5f2dd-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T09:14:11.628288+00:00",
-        "lease_expires_at": "2026-11-12T15:14:11.628298+00:00"
-      },
       "source": {
         "source_id": "28237251",
         "source_url": "https://sdilej.cz/28237251/criminal-minds-s13e03-cz-dab-hd-tv-rip-.mp4",
@@ -378593,22 +378587,29 @@
         "display_name": "Criminal Minds S13E03 Blue Angel 720p CZ Dabing",
         "prepared_at": "2026-11-12T09:14:14.773196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000676",
-        "size_bytes": 431408301
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000676",
-        "size_bytes": 431408301,
-        "source_bytes_read": 431408301,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000676",
         "source_bytes_read": 431408301,
         "elapsed_seconds": 194.274,
         "finished_at": "2026-11-12T09:17:48.911451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000676",
+          "size_bytes": 431408301,
+          "source_bytes_read": 431408301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237251",
+        "source_url": "https://sdilej.cz/28237251/criminal-minds-s13e03-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000676",
+        "display_name": "Criminal Minds S13E03 Blue Angel 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:17:55.729324+00:00"
       }
     },
     "1423:13:4": {
@@ -378654,7 +378655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:17:48.911471+00:00",
+  "updated_at": "2026-11-12T09:17:55.729341+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
