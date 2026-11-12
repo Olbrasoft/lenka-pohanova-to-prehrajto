@@ -395340,12 +395340,6 @@
     },
     "692:1:6": {
       "episode_key": "den šakala:s1:e6",
-      "claim": {
-        "worker_id": "66a44eb9e83d4f7e8e467ec7b1a1dd8b-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:27:33.792505+00:00",
-        "lease_expires_at": "2026-11-13T04:27:33.792516+00:00"
-      },
       "source": {
         "source_id": "30434984",
         "source_url": "https://sdilej.cz/30434984/den-sakala-s01e06-2024-cz-dab.mp4",
@@ -395370,22 +395364,29 @@
         "display_name": "The Day of the Jackal S01E06 1080p CZ Dabing",
         "prepared_at": "2026-11-12T22:27:42.828965+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31006719",
-        "size_bytes": 765212503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31006719",
-        "size_bytes": 765212503,
-        "source_bytes_read": 765212503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31006719",
         "source_bytes_read": 765212503,
         "elapsed_seconds": 393.319,
         "finished_at": "2026-11-12T22:34:35.023910+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31006719",
+          "size_bytes": 765212503,
+          "source_bytes_read": 765212503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30434984",
+        "source_url": "https://sdilej.cz/30434984/den-sakala-s01e06-2024-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31006719",
+        "display_name": "The Day of the Jackal S01E06 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T22:34:41.517992+00:00"
       }
     },
     "692:1:7": {
@@ -395445,7 +395446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:34:35.023933+00:00",
+  "updated_at": "2026-11-12T22:34:41.518011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
