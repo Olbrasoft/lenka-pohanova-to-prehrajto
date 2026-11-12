@@ -331611,24 +331611,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T09:38:55.945425+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T10:47:55.346653+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T11:50:01.162325+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-12T12:52:54.709466+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "eff9807e16aa4a37ad4dbdfd412ba36f-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:52:36.406959+00:00",
-        "lease_expires_at": "2026-11-12T18:52:36.406972+00:00"
-      }
+      ]
     },
     "580:2:2": {
       "episode_key": "starosta kingstownu:s2:e2",
@@ -382455,7 +382449,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:52:51.359452+00:00",
+  "updated_at": "2026-11-12T12:52:54.709472+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -382649,6 +382643,10 @@
         {
           "identity": "580:1:9",
           "at": "2026-11-12T12:52:51.359415+00:00"
+        },
+        {
+          "identity": "580:2:1",
+          "at": "2026-11-12T12:52:54.709437+00:00"
         }
       ],
       "retry_after": "2026-11-12T12:00:12.374062+00:00"
