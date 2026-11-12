@@ -379977,12 +379977,6 @@
     },
     "1423:14:14": {
       "episode_key": "myšlenky zločince:s14:e14",
-      "claim": {
-        "worker_id": "d5051743cc2b43acadc689c92d7b2fff-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T11:10:25.014610+00:00",
-        "lease_expires_at": "2026-11-12T17:10:25.014622+00:00"
-      },
       "source": {
         "source_id": "29479417",
         "source_url": "https://sdilej.cz/29479417/myslenky-zlocince-14x14.mp4",
@@ -380007,22 +380001,29 @@
         "display_name": "Criminal Minds S14E14 Sick and Evil 1080p CZ Dabing",
         "prepared_at": "2026-11-12T11:10:33.368989+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001523",
-        "size_bytes": 1465004058
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001523",
-        "size_bytes": 1465004058,
-        "source_bytes_read": 1465004058,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001523",
         "source_bytes_read": 1465004058,
         "elapsed_seconds": 818.554,
         "finished_at": "2026-11-12T11:24:30.892352+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001523",
+          "size_bytes": 1465004058,
+          "source_bytes_read": 1465004058,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29479417",
+        "source_url": "https://sdilej.cz/29479417/myslenky-zlocince-14x14.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001523",
+        "display_name": "Criminal Minds S14E14 Sick and Evil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T11:24:35.752839+00:00"
       }
     },
     "1423:15:1": {
@@ -380170,7 +380171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T11:24:30.892372+00:00",
+  "updated_at": "2026-11-12T11:24:35.752855+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
