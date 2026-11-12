@@ -377798,12 +377798,6 @@
     },
     "1423:10:11": {
       "episode_key": "myšlenky zločince:s10:e11",
-      "claim": {
-        "worker_id": "1211dfbe9999460a96bd0af33882cc72-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T08:49:47.898890+00:00",
-        "lease_expires_at": "2026-11-12T14:49:47.898900+00:00"
-      },
       "source": {
         "source_id": "28237177",
         "source_url": "https://sdilej.cz/28237177/criminal-minds-s10e11-cz-dab-hd-tv-rip-.mp4",
@@ -377828,22 +377822,29 @@
         "display_name": "Criminal Minds S10E11 The Forever People 720p CZ Dabing",
         "prepared_at": "2026-11-12T08:49:51.232837+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000486",
-        "size_bytes": 396539364
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000486",
-        "size_bytes": 396539364,
-        "source_bytes_read": 396539364,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000486",
         "source_bytes_read": 396539364,
         "elapsed_seconds": 186.849,
         "finished_at": "2026-11-12T08:53:11.940034+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000486",
+          "size_bytes": 396539364,
+          "source_bytes_read": 396539364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237177",
+        "source_url": "https://sdilej.cz/28237177/criminal-minds-s10e11-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000486",
+        "display_name": "Criminal Minds S10E11 The Forever People 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T08:53:20.705908+00:00"
       }
     },
     "1423:10:12": {
@@ -377889,7 +377890,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T08:53:15.186386+00:00",
+  "updated_at": "2026-11-12T08:53:20.705929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
