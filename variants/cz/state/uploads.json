@@ -370861,12 +370861,6 @@
     },
     "394:21:6": {
       "episode_key": "griffinovi:s21:e6",
-      "claim": {
-        "worker_id": "64d49f93088b46929bc45a69821f9e80-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:14:02.831581+00:00",
-        "lease_expires_at": "2026-11-12T06:14:02.831598+00:00"
-      },
       "source": {
         "source_id": "31416332",
         "source_url": "https://sdilej.cz/31416332/griffinovi-s21e06-vesely-holo-ween.mkv",
@@ -370891,22 +370885,29 @@
         "display_name": "Family Guy S21E06 Happy Holo-ween 1080p CZ Dabing",
         "prepared_at": "2026-11-12T00:14:06.529809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995825",
-        "size_bytes": 230792128
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995825",
-        "size_bytes": 230792128,
-        "source_bytes_read": 230792128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995825",
         "source_bytes_read": 230792128,
         "elapsed_seconds": 81.614,
         "finished_at": "2026-11-12T00:15:44.395969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995825",
+          "size_bytes": 230792128,
+          "source_bytes_read": 230792128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31416332",
+        "source_url": "https://sdilej.cz/31416332/griffinovi-s21e06-vesely-holo-ween.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995825",
+        "display_name": "Family Guy S21E06 Happy Holo-ween 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T00:15:52.121235+00:00"
       }
     },
     "757:1:1": {
@@ -370989,7 +370990,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T00:15:47.606295+00:00",
+  "updated_at": "2026-11-12T00:15:52.121254+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
