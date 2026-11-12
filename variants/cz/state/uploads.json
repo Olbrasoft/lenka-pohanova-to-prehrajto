@@ -383190,12 +383190,6 @@
     },
     "1073:3:9": {
       "episode_key": "zlatá sedmdesátá:s3:e9",
-      "claim": {
-        "worker_id": "49c1c82586a8478fb732132db7eec8b2-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:13:33.950614+00:00",
-        "lease_expires_at": "2026-11-12T19:13:33.950626+00:00"
-      },
       "source": {
         "source_id": "34482647",
         "source_url": "https://sdilej.cz/34482647/zlata-sedmdesata-s03e9.mp4",
@@ -383220,22 +383214,29 @@
         "display_name": "That '70s Show S03E09 Hyde's Christmas Rager 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:13:43.320976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002605",
-        "size_bytes": 156762003
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002605",
-        "size_bytes": 156762003,
-        "source_bytes_read": 156762003,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002605",
         "source_bytes_read": 156762003,
         "elapsed_seconds": 78.816,
         "finished_at": "2026-11-12T13:15:17.354889+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002605",
+          "size_bytes": 156762003,
+          "source_bytes_read": 156762003,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482647",
+        "source_url": "https://sdilej.cz/34482647/zlata-sedmdesata-s03e9.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002605",
+        "display_name": "That '70s Show S03E09 Hyde's Christmas Rager 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:15:21.779787+00:00"
       }
     },
     "1073:3:10": {
@@ -383318,7 +383319,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:15:17.354910+00:00",
+  "updated_at": "2026-11-12T13:15:21.779802+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
