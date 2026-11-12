@@ -391507,12 +391507,6 @@
     },
     "593:1:9": {
       "episode_key": "vražedná práva:s1:e9",
-      "claim": {
-        "worker_id": "ae55488f031e46509d82265b24004c24-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T18:39:05.339145+00:00",
-        "lease_expires_at": "2026-11-13T00:39:05.339157+00:00"
-      },
       "source": {
         "source_id": "14191061",
         "source_url": "https://sdilej.cz/14191061/vrazedna-prava-s01e09.avi",
@@ -391537,22 +391531,29 @@
         "display_name": "How to Get Away with Murder S01E09 Kill Me, Kill Me, Kill Me SD CZ Dabing",
         "prepared_at": "2026-11-12T18:39:12.486950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004968",
-        "size_bytes": 450886568
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004968",
-        "size_bytes": 450886568,
-        "source_bytes_read": 450886568,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004968",
         "source_bytes_read": 450886568,
         "elapsed_seconds": 280.517,
         "finished_at": "2026-11-12T18:44:12.197069+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004968",
+          "size_bytes": 450886568,
+          "source_bytes_read": 450886568,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14191061",
+        "source_url": "https://sdilej.cz/14191061/vrazedna-prava-s01e09.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004968",
+        "display_name": "How to Get Away with Murder S01E09 Kill Me, Kill Me, Kill Me SD CZ Dabing",
+        "uploaded_at": "2026-11-12T18:44:20.463589+00:00"
       }
     },
     "746:2:3": {
@@ -391598,7 +391599,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T18:44:17.333776+00:00",
+  "updated_at": "2026-11-12T18:44:20.463604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
