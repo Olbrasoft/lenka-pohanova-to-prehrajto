@@ -377594,12 +377594,6 @@
     },
     "1423:10:7": {
       "episode_key": "myšlenky zločince:s10:e7",
-      "claim": {
-        "worker_id": "2f675894cb4748078a57d69b8595bf13-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T08:45:17.585072+00:00",
-        "lease_expires_at": "2026-11-12T14:45:17.585086+00:00"
-      },
       "source": {
         "source_id": "28237171",
         "source_url": "https://sdilej.cz/28237171/criminal-minds-s10e07-cz-dab-hd-tv-rip-.mp4",
@@ -377624,22 +377618,29 @@
         "display_name": "Criminal Minds S10E07 Hashtag 720p CZ Dabing",
         "prepared_at": "2026-11-12T08:45:25.827974+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000451",
-        "size_bytes": 412277070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000451",
-        "size_bytes": 412277070,
-        "source_bytes_read": 412277070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000451",
         "source_bytes_read": 412277070,
         "elapsed_seconds": 185.996,
         "finished_at": "2026-11-12T08:48:51.229261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000451",
+          "size_bytes": 412277070,
+          "source_bytes_read": 412277070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237171",
+        "source_url": "https://sdilej.cz/28237171/criminal-minds-s10e07-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000451",
+        "display_name": "Criminal Minds S10E07 Hashtag 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T08:49:01.904154+00:00"
       }
     },
     "1423:10:8": {
@@ -377749,7 +377750,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T08:48:57.516478+00:00",
+  "updated_at": "2026-11-12T08:49:01.904171+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
