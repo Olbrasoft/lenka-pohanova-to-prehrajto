@@ -371343,12 +371343,6 @@
     },
     "757:1:10": {
       "episode_key": "euforie:s1:e10",
-      "claim": {
-        "worker_id": "ce6b8179994e47d5aa34e4911ba05019-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:54:11.407045+00:00",
-        "lease_expires_at": "2026-11-12T06:54:11.407064+00:00"
-      },
       "source": {
         "source_id": "34046011",
         "source_url": "https://sdilej.cz/34046011/euforie-s01e10-2.-cast-jules.mkv",
@@ -371373,22 +371367,29 @@
         "display_name": "Euphoria S01E10 4K CZ Dabing",
         "prepared_at": "2026-11-12T00:54:23.948554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30996183",
-        "size_bytes": 2215050221
-      },
-      "transfer_receipt": {
-        "target_video_id": "30996183",
-        "size_bytes": 2215050221,
-        "source_bytes_read": 2215050221,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30996183",
         "source_bytes_read": 2215050221,
         "elapsed_seconds": 776.445,
         "finished_at": "2026-11-12T01:07:34.444150+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30996183",
+          "size_bytes": 2215050221,
+          "source_bytes_read": 2215050221,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34046011",
+        "source_url": "https://sdilej.cz/34046011/euforie-s01e10-2.-cast-jules.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30996183",
+        "display_name": "Euphoria S01E10 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T01:07:39.890193+00:00"
       }
     }
   },
@@ -371397,7 +371398,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T01:07:34.444174+00:00",
+  "updated_at": "2026-11-12T01:07:39.890213+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
