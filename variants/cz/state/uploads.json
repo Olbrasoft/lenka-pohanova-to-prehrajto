@@ -387376,12 +387376,6 @@
     },
     "1073:6:15": {
       "episode_key": "zlatá sedmdesátá:s6:e15",
-      "claim": {
-        "worker_id": "7c331e48af664307b0ee9e7bbf5ebd3f-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:58:24.718198+00:00",
-        "lease_expires_at": "2026-11-12T20:58:24.718209+00:00"
-      },
       "source": {
         "source_id": "29202032",
         "source_url": "https://sdilej.cz/29202032/zlata-sedmdesata-s06e15-necekany-navrat-who-are-you-.mkv",
@@ -387406,22 +387400,29 @@
         "display_name": "That '70s Show S06E15 Who Are You 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:58:34.231283+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003563",
-        "size_bytes": 494053212
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003563",
-        "size_bytes": 494053212,
-        "source_bytes_read": 494053212,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003563",
         "source_bytes_read": 494053212,
         "elapsed_seconds": 226.924,
         "finished_at": "2026-11-12T15:02:39.199916+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003563",
+          "size_bytes": 494053212,
+          "source_bytes_read": 494053212,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29202032",
+        "source_url": "https://sdilej.cz/29202032/zlata-sedmdesata-s06e15-necekany-navrat-who-are-you-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003563",
+        "display_name": "That '70s Show S06E15 Who Are You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:02:44.557514+00:00"
       }
     },
     "1073:6:16": {
@@ -387504,7 +387505,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:02:39.199934+00:00",
+  "updated_at": "2026-11-12T15:02:44.557530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
