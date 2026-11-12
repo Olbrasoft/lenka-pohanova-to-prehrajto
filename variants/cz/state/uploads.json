@@ -390830,12 +390830,6 @@
     },
     "746:2:4": {
       "episode_key": "gentlemani:s2:e4",
-      "claim": {
-        "worker_id": "609d8ffb735043e996de7c81ff816c1f-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:23:32.974871+00:00",
-        "lease_expires_at": "2026-11-12T23:23:32.974881+00:00"
-      },
       "source": {
         "source_id": "34945859",
         "source_url": "https://sdilej.cz/34945859/gentlemani-s02e04.mkv",
@@ -390860,22 +390854,29 @@
         "display_name": "The Gentlemen S02E04 The Bigger Picture 1080p CZ Dabing",
         "prepared_at": "2026-11-12T17:23:36.764879+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004500",
-        "size_bytes": 2060082259
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004500",
-        "size_bytes": 2060082259,
-        "source_bytes_read": 2060082259,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004500",
         "source_bytes_read": 2060082259,
         "elapsed_seconds": 1004.503,
         "finished_at": "2026-11-12T17:40:35.110828+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004500",
+          "size_bytes": 2060082259,
+          "source_bytes_read": 2060082259,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34945859",
+        "source_url": "https://sdilej.cz/34945859/gentlemani-s02e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004500",
+        "display_name": "The Gentlemen S02E04 The Bigger Picture 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T17:40:39.917661+00:00"
       }
     },
     "746:2:5": {
@@ -390921,7 +390922,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T17:40:35.110846+00:00",
+  "updated_at": "2026-11-12T17:40:39.917677+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
