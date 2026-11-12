@@ -388447,12 +388447,6 @@
     },
     "1073:7:11": {
       "episode_key": "zlatá sedmdesátá:s7:e11",
-      "claim": {
-        "worker_id": "2e70a6dfdb7447449126d5236342ddea-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:32:49.368088+00:00",
-        "lease_expires_at": "2026-11-12T21:32:49.368099+00:00"
-      },
       "source": {
         "source_id": "29205278",
         "source_url": "https://sdilej.cz/29205278/zlata-sedmdesata-s07e11-darky-detem-winter-.mkv",
@@ -388477,22 +388471,29 @@
         "display_name": "That '70s Show S07E11 Winter 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:32:52.956323+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003772",
-        "size_bytes": 758154319
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003772",
-        "size_bytes": 758154319,
-        "source_bytes_read": 758154319,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003772",
         "source_bytes_read": 758154319,
         "elapsed_seconds": 310.225,
         "finished_at": "2026-11-12T15:38:17.242189+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003772",
+          "size_bytes": 758154319,
+          "source_bytes_read": 758154319,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29205278",
+        "source_url": "https://sdilej.cz/29205278/zlata-sedmdesata-s07e11-darky-detem-winter-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003772",
+        "display_name": "That '70s Show S07E11 Winter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:38:21.685461+00:00"
       }
     }
   },
@@ -388501,7 +388502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:38:17.242207+00:00",
+  "updated_at": "2026-11-12T15:38:21.685475+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
