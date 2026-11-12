@@ -352510,24 +352510,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T19:53:35.175715+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T20:55:22.796090+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T22:00:18.457804+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-12T23:01:40.520547+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "60d0d3eb0cc54f15979a2e5ad175ad5d-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T23:01:14.926831+00:00",
-        "lease_expires_at": "2026-11-13T05:01:14.926847+00:00"
-      }
+      ]
     },
     "561:10:19": {
       "episode_key": "živí mrtví:s10:e19",
@@ -395852,7 +395846,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T23:01:34.334289+00:00",
+  "updated_at": "2026-11-12T23:01:40.520554+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -396073,6 +396067,10 @@
         {
           "identity": "561:8:13",
           "at": "2026-11-12T23:01:30.557685+00:00"
+        },
+        {
+          "identity": "561:10:18",
+          "at": "2026-11-12T23:01:40.520517+00:00"
         }
       ],
       "retry_after": "2026-11-12T22:10:54.636386+00:00"
