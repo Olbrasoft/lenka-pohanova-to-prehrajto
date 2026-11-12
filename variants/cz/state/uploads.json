@@ -388396,12 +388396,6 @@
     },
     "1073:7:10": {
       "episode_key": "zlatá sedmdesátá:s7:e10",
-      "claim": {
-        "worker_id": "2b57420e87004bccbeb0b3b7d8b9810c-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:32:26.184414+00:00",
-        "lease_expires_at": "2026-11-12T21:32:26.184422+00:00"
-      },
       "source": {
         "source_id": "33840883",
         "source_url": "https://sdilej.cz/33840883/zlata-sedmdesata-s07e10.mkv",
@@ -388426,22 +388420,29 @@
         "display_name": "That '70s Show S07E10 Surprise, Surprise 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:32:29.683778+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003767",
-        "size_bytes": 558536646
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003767",
-        "size_bytes": 558536646,
-        "source_bytes_read": 558536646,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003767",
         "source_bytes_read": 558536646,
         "elapsed_seconds": 262.299,
         "finished_at": "2026-11-12T15:37:07.381965+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003767",
+          "size_bytes": 558536646,
+          "source_bytes_read": 558536646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840883",
+        "source_url": "https://sdilej.cz/33840883/zlata-sedmdesata-s07e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003767",
+        "display_name": "That '70s Show S07E10 Surprise, Surprise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:37:11.939019+00:00"
       }
     },
     "1073:7:11": {
@@ -388487,7 +388488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:37:07.381985+00:00",
+  "updated_at": "2026-11-12T15:37:11.939035+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
