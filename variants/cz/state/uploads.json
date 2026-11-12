@@ -390385,12 +390385,6 @@
     },
     "746:1:1": {
       "episode_key": "gentlemani:s1:e1",
-      "claim": {
-        "worker_id": "76d2b92a4bb14161b68623c6e56eb171-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:03:21.157768+00:00",
-        "lease_expires_at": "2026-11-12T23:03:21.157780+00:00"
-      },
       "source": {
         "source_id": "35056883",
         "source_url": "https://sdilej.cz/35056883/the-gentlemen-s01e01-czen-dabing.mp4",
@@ -390415,22 +390409,29 @@
         "display_name": "The Gentlemen S01E01 Refined Aggression 1080p CZ Dabing",
         "prepared_at": "2026-11-12T17:03:25.054443+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004368",
-        "size_bytes": 817840963
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004368",
-        "size_bytes": 817840963,
-        "source_bytes_read": 817840963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004368",
         "source_bytes_read": 817840963,
         "elapsed_seconds": 372.03,
         "finished_at": "2026-11-12T17:09:55.064550+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004368",
+          "size_bytes": 817840963,
+          "source_bytes_read": 817840963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35056883",
+        "source_url": "https://sdilej.cz/35056883/the-gentlemen-s01e01-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004368",
+        "display_name": "The Gentlemen S01E01 Refined Aggression 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T17:10:02.529149+00:00"
       }
     }
   },
@@ -390439,7 +390440,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T17:09:58.883859+00:00",
+  "updated_at": "2026-11-12T17:10:02.529166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
