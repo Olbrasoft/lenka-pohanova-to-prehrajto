@@ -380507,12 +380507,6 @@
     },
     "1073:1:5": {
       "episode_key": "zlatá sedmdesátá:s1:e5",
-      "claim": {
-        "worker_id": "0c7713ea67724b62a82d82781a6f8f30-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T11:36:41.557309+00:00",
-        "lease_expires_at": "2026-11-12T17:36:41.557322+00:00"
-      },
       "source": {
         "source_id": "33826556",
         "source_url": "https://sdilej.cz/33826556/zlata-sedmdesata-s01e05.mkv",
@@ -380537,22 +380531,29 @@
         "display_name": "That '70s Show S01E05 Eric's Burger Job 1080p CZ Dabing",
         "prepared_at": "2026-11-12T11:36:45.843312+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001708",
-        "size_bytes": 640958893
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001708",
-        "size_bytes": 640958893,
-        "source_bytes_read": 640958893,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001708",
         "source_bytes_read": 640958893,
         "elapsed_seconds": 359.381,
         "finished_at": "2026-11-12T11:43:03.097569+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001708",
+          "size_bytes": 640958893,
+          "source_bytes_read": 640958893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826556",
+        "source_url": "https://sdilej.cz/33826556/zlata-sedmdesata-s01e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001708",
+        "display_name": "That '70s Show S01E05 Eric's Burger Job 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T11:43:08.988978+00:00"
       }
     },
     "1073:1:6": {
@@ -380598,7 +380599,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T11:43:06.119094+00:00",
+  "updated_at": "2026-11-12T11:43:08.988994+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
