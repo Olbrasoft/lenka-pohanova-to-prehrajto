@@ -385183,12 +385183,6 @@
     },
     "1073:4:23": {
       "episode_key": "zlatá sedmdesátá:s4:e23",
-      "claim": {
-        "worker_id": "f5a6a04f189e43808ed9035b6694011c-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:56:09.988637+00:00",
-        "lease_expires_at": "2026-11-12T19:56:09.988647+00:00"
-      },
       "source": {
         "source_id": "34482751",
         "source_url": "https://sdilej.cz/34482751/zlata-sedmdesata-s04e23.mp4",
@@ -385213,22 +385207,29 @@
         "display_name": "That '70s Show S04E23 Hyde's Birthday 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:56:16.513657+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003207",
-        "size_bytes": 202555544
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003207",
-        "size_bytes": 202555544,
-        "source_bytes_read": 202555544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003207",
         "source_bytes_read": 202555544,
         "elapsed_seconds": 120.071,
         "finished_at": "2026-11-12T13:58:31.838782+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003207",
+          "size_bytes": 202555544,
+          "source_bytes_read": 202555544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482751",
+        "source_url": "https://sdilej.cz/34482751/zlata-sedmdesata-s04e23.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003207",
+        "display_name": "That '70s Show S04E23 Hyde's Birthday 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:58:35.842132+00:00"
       }
     },
     "1073:4:24": {
@@ -385311,7 +385312,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:58:31.838800+00:00",
+  "updated_at": "2026-11-12T13:58:35.842161+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
