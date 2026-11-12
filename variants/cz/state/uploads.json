@@ -377543,12 +377543,6 @@
     },
     "1423:10:6": {
       "episode_key": "myšlenky zločince:s10:e6",
-      "claim": {
-        "worker_id": "aec4a55efd6b46608603f4322a94eb01-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T08:41:45.166764+00:00",
-        "lease_expires_at": "2026-11-12T14:41:45.166773+00:00"
-      },
       "source": {
         "source_id": "28237173",
         "source_url": "https://sdilej.cz/28237173/criminal-minds-s10e06-cz-dab-hd-tv-rip-.mp4",
@@ -377573,22 +377567,29 @@
         "display_name": "Criminal Minds S10E06 If the Shoe Fits 720p CZ Dabing",
         "prepared_at": "2026-11-12T08:41:50.742685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000417",
-        "size_bytes": 445657332
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000417",
-        "size_bytes": 445657332,
-        "source_bytes_read": 445657332,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000417",
         "source_bytes_read": 445657332,
         "elapsed_seconds": 196.564,
         "finished_at": "2026-11-12T08:45:23.077760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000417",
+          "size_bytes": 445657332,
+          "source_bytes_read": 445657332,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237173",
+        "source_url": "https://sdilej.cz/28237173/criminal-minds-s10e06-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000417",
+        "display_name": "Criminal Minds S10E06 If the Shoe Fits 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T08:45:31.754536+00:00"
       }
     },
     "1423:10:7": {
@@ -377663,7 +377664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T08:45:28.520575+00:00",
+  "updated_at": "2026-11-12T08:45:31.754551+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
