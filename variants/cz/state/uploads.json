@@ -372377,12 +372377,6 @@
     },
     "2225:2:1": {
       "episode_key": "ted a spol.:s2:e1",
-      "claim": {
-        "worker_id": "2fba79d762854205af25b2f0a88cd28a-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T03:40:57.536548+00:00",
-        "lease_expires_at": "2026-11-12T09:40:57.536559+00:00"
-      },
       "source": {
         "source_id": "30669348",
         "source_url": "https://sdilej.cz/30669348/ted-a-spol-s02e01-laska-podle-seznamu-dvb-trip-xvid-cz-ing.avi",
@@ -372407,22 +372401,29 @@
         "display_name": "Better Off Ted S02E01 Love Blurts SD CZ Dabing",
         "prepared_at": "2026-11-12T03:41:03.084592+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997753",
-        "size_bytes": 184256512
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997753",
-        "size_bytes": 184256512,
-        "source_bytes_read": 184256512,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997753",
         "source_bytes_read": 184256512,
         "elapsed_seconds": 77.298,
         "finished_at": "2026-11-12T03:42:34.745254+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997753",
+          "size_bytes": 184256512,
+          "source_bytes_read": 184256512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30669348",
+        "source_url": "https://sdilej.cz/30669348/ted-a-spol-s02e01-laska-podle-seznamu-dvb-trip-xvid-cz-ing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997753",
+        "display_name": "Better Off Ted S02E01 Love Blurts SD CZ Dabing",
+        "uploaded_at": "2026-11-12T03:42:41.648734+00:00"
       }
     },
     "1423:1:1": {
@@ -372468,7 +372469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T03:42:34.745273+00:00",
+  "updated_at": "2026-11-12T03:42:41.648747+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
