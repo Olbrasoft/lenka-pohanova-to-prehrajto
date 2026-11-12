@@ -372340,12 +372340,6 @@
     },
     "2950:1:4": {
       "episode_key": "adolescent:s1:e4",
-      "claim": {
-        "worker_id": "9e2c221cceee4fe18e23a1243c85d861-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T03:35:57.478334+00:00",
-        "lease_expires_at": "2026-11-12T09:35:57.478344+00:00"
-      },
       "source": {
         "source_id": "30790986",
         "source_url": "https://sdilej.cz/30790986/adolescent-s01e04-2025-fhd-epizoda-4-s-.mp4",
@@ -372370,22 +372364,29 @@
         "display_name": "Adolescence S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-12T03:36:00.375338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997698",
-        "size_bytes": 1289426688
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997698",
-        "size_bytes": 1289426688,
-        "source_bytes_read": 1289426688,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997698",
         "source_bytes_read": 1289426688,
         "elapsed_seconds": 451.706,
         "finished_at": "2026-11-12T03:43:43.709593+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997698",
+          "size_bytes": 1289426688,
+          "source_bytes_read": 1289426688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30790986",
+        "source_url": "https://sdilej.cz/30790986/adolescent-s01e04-2025-fhd-epizoda-4-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997698",
+        "display_name": "Adolescence S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T03:43:48.732260+00:00"
       }
     },
     "2225:2:1": {
@@ -372519,7 +372520,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T03:43:43.709610+00:00",
+  "updated_at": "2026-11-12T03:43:48.732274+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
