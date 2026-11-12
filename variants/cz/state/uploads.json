@@ -371581,12 +371581,6 @@
     },
     "757:2:4": {
       "episode_key": "euforie:s2:e4",
-      "claim": {
-        "worker_id": "bba88ab5560f4e9da4a9256c024063e9-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T01:34:05.937252+00:00",
-        "lease_expires_at": "2026-11-12T07:34:05.937261+00:00"
-      },
       "source": {
         "source_id": "34059492",
         "source_url": "https://sdilej.cz/34059492/euforie-s02e04-drink-pred-valkou.mkv",
@@ -371611,22 +371605,29 @@
         "display_name": "Euphoria S02E04 You Who Cannot See, Think of Those Who Can 4K CZ Dabing",
         "prepared_at": "2026-11-12T01:34:12.782164+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30996523",
-        "size_bytes": 3027689444
-      },
-      "transfer_receipt": {
-        "target_video_id": "30996523",
-        "size_bytes": 3027689444,
-        "source_bytes_read": 3027689444,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30996523",
         "source_bytes_read": 3027689444,
         "elapsed_seconds": 1122.074,
         "finished_at": "2026-11-12T01:53:14.776292+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30996523",
+          "size_bytes": 3027689444,
+          "source_bytes_read": 3027689444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34059492",
+        "source_url": "https://sdilej.cz/34059492/euforie-s02e04-drink-pred-valkou.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30996523",
+        "display_name": "Euphoria S02E04 You Who Cannot See, Think of Those Who Can 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T01:53:19.090982+00:00"
       }
     },
     "757:2:5": {
@@ -371737,7 +371738,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T01:53:14.776308+00:00",
+  "updated_at": "2026-11-12T01:53:19.090996+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
