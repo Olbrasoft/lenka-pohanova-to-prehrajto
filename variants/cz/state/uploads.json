@@ -388725,12 +388725,6 @@
     },
     "1073:7:17": {
       "episode_key": "zlatá sedmdesátá:s7:e17",
-      "claim": {
-        "worker_id": "967593349a73471d8ccd21914dabdba9-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T15:59:57.634441+00:00",
-        "lease_expires_at": "2026-11-12T21:59:57.634452+00:00"
-      },
       "source": {
         "source_id": "27617537",
         "source_url": "https://sdilej.cz/27617537/zlata-sedmdesata-s07e17-cz.mkv",
@@ -388755,22 +388749,29 @@
         "display_name": "That '70s Show S07E17 Down the Road Apiece 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:00:01.281724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003910",
-        "size_bytes": 510940365
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003910",
-        "size_bytes": 510940365,
-        "source_bytes_read": 510940365,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003910",
         "source_bytes_read": 510940365,
         "elapsed_seconds": 276.601,
         "finished_at": "2026-11-12T16:04:56.542784+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003910",
+          "size_bytes": 510940365,
+          "source_bytes_read": 510940365,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27617537",
+        "source_url": "https://sdilej.cz/27617537/zlata-sedmdesata-s07e17-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003910",
+        "display_name": "That '70s Show S07E17 Down the Road Apiece 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:05:01.242465+00:00"
       }
     }
   },
@@ -388779,7 +388780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:04:56.542806+00:00",
+  "updated_at": "2026-11-12T16:05:01.242482+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
