@@ -385271,12 +385271,6 @@
     },
     "1073:4:25": {
       "episode_key": "zlatá sedmdesátá:s4:e25",
-      "claim": {
-        "worker_id": "5d05d143fd4943a19f6b5e08342b77c1-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:56:46.059635+00:00",
-        "lease_expires_at": "2026-11-12T19:56:46.059647+00:00"
-      },
       "source": {
         "source_id": "34482757",
         "source_url": "https://sdilej.cz/34482757/zlata-sedmdesata-s04e25.mp4",
@@ -385301,22 +385295,29 @@
         "display_name": "That '70s Show S04E25 Eric's False Alarm 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:56:49.470392+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003211",
-        "size_bytes": 185691237
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003211",
-        "size_bytes": 185691237,
-        "source_bytes_read": 185691237,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003211",
         "source_bytes_read": 185691237,
         "elapsed_seconds": 107.071,
         "finished_at": "2026-11-12T13:58:52.604992+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003211",
+          "size_bytes": 185691237,
+          "source_bytes_read": 185691237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482757",
+        "source_url": "https://sdilej.cz/34482757/zlata-sedmdesata-s04e25.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003211",
+        "display_name": "That '70s Show S04E25 Eric's False Alarm 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:59:00.076443+00:00"
       }
     },
     "1073:4:26": {
@@ -385361,7 +385362,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:58:55.494470+00:00",
+  "updated_at": "2026-11-12T13:59:00.076460+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
