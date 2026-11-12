@@ -5453,24 +5453,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T12:10:40.411058+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T13:11:12.467285+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T14:11:35.705244+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-12T15:12:24.293691+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "ba72c43190284d03b864d6d557babcfb-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:12:03.073989+00:00",
-        "lease_expires_at": "2026-11-12T21:12:03.074006+00:00"
-      }
+      ]
     },
     "10392:1:5": {
       "episode_key": "modrá planeta ii:s1:e5",
@@ -387786,7 +387780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:12:16.304900+00:00",
+  "updated_at": "2026-11-12T15:12:24.293698+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -387973,6 +387967,10 @@
         {
           "identity": "10392:1:2",
           "at": "2026-11-12T15:11:51.079352+00:00"
+        },
+        {
+          "identity": "10392:1:3",
+          "at": "2026-11-12T15:12:24.293659+00:00"
         }
       ],
       "retry_after": "2026-11-12T14:22:24.258331+00:00"
