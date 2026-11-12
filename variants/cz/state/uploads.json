@@ -373717,12 +373717,6 @@
     },
     "1423:3:1": {
       "episode_key": "myšlenky zločince:s3:e1",
-      "claim": {
-        "worker_id": "edad4a976e044a979c4ea00d135ceed3-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T05:28:45.017371+00:00",
-        "lease_expires_at": "2026-11-12T11:28:45.017380+00:00"
-      },
       "source": {
         "source_id": "33686780",
         "source_url": "https://sdilej.cz/33686780/myslenky-zlocince-s03e01-20-2007-cz-dab-720p-pochyby.mkv",
@@ -373747,22 +373741,29 @@
         "display_name": "Criminal Minds S03E01 Doubt 720p CZ Dabing",
         "prepared_at": "2026-11-12T05:28:56.375823+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30998943",
-        "size_bytes": 1551764973
-      },
-      "transfer_receipt": {
-        "target_video_id": "30998943",
-        "size_bytes": 1551764973,
-        "source_bytes_read": 1551764973,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30998943",
         "source_bytes_read": 1551764973,
         "elapsed_seconds": 596.82,
         "finished_at": "2026-11-12T05:39:12.530105+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30998943",
+          "size_bytes": 1551764973,
+          "source_bytes_read": 1551764973,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33686780",
+        "source_url": "https://sdilej.cz/33686780/myslenky-zlocince-s03e01-20-2007-cz-dab-720p-pochyby.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30998943",
+        "display_name": "Criminal Minds S03E01 Doubt 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T05:39:24.430725+00:00"
       }
     },
     "1423:3:2": {
@@ -373822,7 +373823,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T05:39:21.313914+00:00",
+  "updated_at": "2026-11-12T05:39:24.430740+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
