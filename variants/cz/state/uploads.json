@@ -378053,12 +378053,6 @@
     },
     "1423:10:16": {
       "episode_key": "myšlenky zločince:s10:e16",
-      "claim": {
-        "worker_id": "8f094c8ad4934630a6de6e5ee8c7b800-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T08:59:36.170275+00:00",
-        "lease_expires_at": "2026-11-12T14:59:36.170291+00:00"
-      },
       "source": {
         "source_id": "28237184",
         "source_url": "https://sdilej.cz/28237184/criminal-minds-s10e16-cz-dab-hd-tv-rip-.mp4",
@@ -378083,22 +378077,29 @@
         "display_name": "Criminal Minds S10E16 Lockdown 720p CZ Dabing",
         "prepared_at": "2026-11-12T08:59:40.313983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000564",
-        "size_bytes": 430741898
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000564",
-        "size_bytes": 430741898,
-        "source_bytes_read": 430741898,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000564",
         "source_bytes_read": 430741898,
         "elapsed_seconds": 227.533,
         "finished_at": "2026-11-12T09:03:45.972143+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000564",
+          "size_bytes": 430741898,
+          "source_bytes_read": 430741898,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237184",
+        "source_url": "https://sdilej.cz/28237184/criminal-minds-s10e16-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000564",
+        "display_name": "Criminal Minds S10E16 Lockdown 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:03:51.002202+00:00"
       }
     },
     "1423:10:17": {
@@ -378181,7 +378182,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:03:45.972164+00:00",
+  "updated_at": "2026-11-12T09:03:51.002219+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
