@@ -376471,12 +376471,6 @@
     },
     "1423:6:9": {
       "episode_key": "myšlenky zločince:s6:e9",
-      "claim": {
-        "worker_id": "08f2c6d803414a29913cb9445c9a0563-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T07:24:55.867520+00:00",
-        "lease_expires_at": "2026-11-12T13:24:55.867532+00:00"
-      },
       "source": {
         "source_id": "28237041",
         "source_url": "https://sdilej.cz/28237041/criminal-minds-s06e09-cz-dab-hd-tv-rip-.mp4",
@@ -376501,22 +376495,29 @@
         "display_name": "Criminal Minds S06E09 Into the Woods 720p CZ Dabing",
         "prepared_at": "2026-11-12T07:25:12.291502+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999833",
-        "size_bytes": 465674358
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999833",
-        "size_bytes": 465674358,
-        "source_bytes_read": 465674358,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999833",
         "source_bytes_read": 465674358,
         "elapsed_seconds": 254.084,
         "finished_at": "2026-11-12T07:29:43.633297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999833",
+          "size_bytes": 465674358,
+          "source_bytes_read": 465674358,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237041",
+        "source_url": "https://sdilej.cz/28237041/criminal-minds-s06e09-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999833",
+        "display_name": "Criminal Minds S06E09 Into the Woods 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T07:29:51.269181+00:00"
       }
     },
     "1423:6:10": {
@@ -376562,7 +376563,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T07:29:43.633313+00:00",
+  "updated_at": "2026-11-12T07:29:51.269196+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
