@@ -370657,12 +370657,6 @@
     },
     "394:17:19": {
       "episode_key": "griffinovi:s17:e19",
-      "claim": {
-        "worker_id": "c2519343deea4ad5b2ee4f237d371c16-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:09:27.780735+00:00",
-        "lease_expires_at": "2026-11-12T06:09:27.780752+00:00"
-      },
       "source": {
         "source_id": "35293001",
         "source_url": "https://sdilej.cz/35293001/griffinovi-s17e19-zinternetovana-meg-cz.mkv",
@@ -370687,22 +370681,29 @@
         "display_name": "Family Guy S17E19 Girl, Internetted 1080p CZ Dabing",
         "prepared_at": "2026-11-12T00:09:33.793619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995777",
-        "size_bytes": 873007963
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995777",
-        "size_bytes": 873007963,
-        "source_bytes_read": 873007963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995777",
         "source_bytes_read": 873007963,
         "elapsed_seconds": 238.363,
         "finished_at": "2026-11-12T00:13:46.899366+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995777",
+          "size_bytes": 873007963,
+          "source_bytes_read": 873007963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35293001",
+        "source_url": "https://sdilej.cz/35293001/griffinovi-s17e19-zinternetovana-meg-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995777",
+        "display_name": "Family Guy S17E19 Girl, Internetted 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T00:13:52.127531+00:00"
       }
     },
     "394:17:20": {
@@ -370836,7 +370837,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T00:13:46.899393+00:00",
+  "updated_at": "2026-11-12T00:13:52.127549+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
