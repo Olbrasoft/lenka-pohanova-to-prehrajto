@@ -387733,12 +387733,6 @@
     },
     "1073:6:22": {
       "episode_key": "zlatá sedmdesátá:s6:e22",
-      "claim": {
-        "worker_id": "9f572e9d9ef04261867b4b4c1f7223cd-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:09:04.045781+00:00",
-        "lease_expires_at": "2026-11-12T21:09:04.045792+00:00"
-      },
       "source": {
         "source_id": "29202042",
         "source_url": "https://sdilej.cz/29202042/zlata-sedmdesata-s06e22-kanoe-sparks-.mkv",
@@ -387763,22 +387757,29 @@
         "display_name": "That '70s Show S06E22 Sparks 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:09:07.776383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003635",
-        "size_bytes": 611201632
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003635",
-        "size_bytes": 611201632,
-        "source_bytes_read": 611201632,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003635",
         "source_bytes_read": 611201632,
         "elapsed_seconds": 276.982,
         "finished_at": "2026-11-12T15:13:59.354403+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003635",
+          "size_bytes": 611201632,
+          "source_bytes_read": 611201632,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29202042",
+        "source_url": "https://sdilej.cz/29202042/zlata-sedmdesata-s06e22-kanoe-sparks-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003635",
+        "display_name": "That '70s Show S06E22 Sparks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:14:05.350760+00:00"
       }
     },
     "1073:6:23": {
@@ -387861,7 +387862,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:13:59.354420+00:00",
+  "updated_at": "2026-11-12T15:14:05.350774+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
