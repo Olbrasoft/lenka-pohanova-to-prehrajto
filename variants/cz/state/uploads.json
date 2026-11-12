@@ -387937,12 +387937,6 @@
     },
     "1073:7:1": {
       "episode_key": "zlatá sedmdesátá:s7:e1",
-      "claim": {
-        "worker_id": "a36af87fe839404197ef78460b896a9e-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:16:06.873281+00:00",
-        "lease_expires_at": "2026-11-12T21:16:06.873292+00:00"
-      },
       "source": {
         "source_id": "29205225",
         "source_url": "https://sdilej.cz/29205225/zlata-sedmdesata-s07e01-cas-je-na-me-strane-time-is-on-my-side-.mkv",
@@ -387967,22 +387961,29 @@
         "display_name": "That '70s Show S07E01 Time Is on My Side 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:16:13.136440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003672",
-        "size_bytes": 468572121
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003672",
-        "size_bytes": 468572121,
-        "source_bytes_read": 468572121,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003672",
         "source_bytes_read": 468572121,
         "elapsed_seconds": 208.163,
         "finished_at": "2026-11-12T15:19:58.668161+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003672",
+          "size_bytes": 468572121,
+          "source_bytes_read": 468572121,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29205225",
+        "source_url": "https://sdilej.cz/29205225/zlata-sedmdesata-s07e01-cas-je-na-me-strane-time-is-on-my-side-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003672",
+        "display_name": "That '70s Show S07E01 Time Is on My Side 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:20:06.587942+00:00"
       }
     },
     "1073:7:2": {
@@ -388028,7 +388029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:19:58.668183+00:00",
+  "updated_at": "2026-11-12T15:20:06.587958+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
