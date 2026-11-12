@@ -383496,12 +383496,6 @@
     },
     "1073:3:15": {
       "episode_key": "zlatá sedmdesátá:s3:e15",
-      "claim": {
-        "worker_id": "4b049623025348079dea6bfa91f10d56-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:18:18.082906+00:00",
-        "lease_expires_at": "2026-11-12T19:18:18.082916+00:00"
-      },
       "source": {
         "source_id": "34482663",
         "source_url": "https://sdilej.cz/34482663/zlata-sedmdesata-s03e15.mp4",
@@ -383526,22 +383520,29 @@
         "display_name": "That '70s Show S03E15 Donna's Panties 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:18:22.333216+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002656",
-        "size_bytes": 188375162
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002656",
-        "size_bytes": 188375162,
-        "source_bytes_read": 188375162,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002656",
         "source_bytes_read": 188375162,
         "elapsed_seconds": 93.386,
         "finished_at": "2026-11-12T13:20:14.980819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002656",
+          "size_bytes": 188375162,
+          "source_bytes_read": 188375162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482663",
+        "source_url": "https://sdilej.cz/34482663/zlata-sedmdesata-s03e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002656",
+        "display_name": "That '70s Show S03E15 Donna's Panties 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:20:19.175896+00:00"
       }
     },
     "1073:3:16": {
@@ -383624,7 +383625,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:20:14.980838+00:00",
+  "updated_at": "2026-11-12T13:20:19.175911+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
