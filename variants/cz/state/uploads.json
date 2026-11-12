@@ -381215,12 +381215,6 @@
     },
     "1073:1:20": {
       "episode_key": "zlatá sedmdesátá:s1:e20",
-      "claim": {
-        "worker_id": "a32d66d3206143fe8ab9cd6e6d86fd91-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:11:44.321464+00:00",
-        "lease_expires_at": "2026-11-12T18:11:44.321476+00:00"
-      },
       "source": {
         "source_id": "33826611",
         "source_url": "https://sdilej.cz/33826611/zlata-sedmdesata-s01e20.mkv",
@@ -381245,22 +381239,29 @@
         "display_name": "That '70s Show S01E20 A New Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:11:47.740457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002049",
-        "size_bytes": 486822075
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002049",
-        "size_bytes": 486822075,
-        "source_bytes_read": 486822075,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002049",
         "source_bytes_read": 486822075,
         "elapsed_seconds": 305.058,
         "finished_at": "2026-11-12T12:17:05.364068+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002049",
+          "size_bytes": 486822075,
+          "source_bytes_read": 486822075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826611",
+        "source_url": "https://sdilej.cz/33826611/zlata-sedmdesata-s01e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002049",
+        "display_name": "That '70s Show S01E20 A New Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:17:10.657010+00:00"
       }
     },
     "1073:1:21": {
@@ -381394,7 +381395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:17:05.364088+00:00",
+  "updated_at": "2026-11-12T12:17:10.657024+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
