@@ -392527,12 +392527,6 @@
     },
     "593:3:8": {
       "episode_key": "vražedná práva:s3:e8",
-      "claim": {
-        "worker_id": "61ded06ae68642e5b2969f688fbd6850-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:15:05.444721+00:00",
-        "lease_expires_at": "2026-11-13T02:15:05.444735+00:00"
-      },
       "source": {
         "source_id": "14056547",
         "source_url": "https://sdilej.cz/14056547/vrazedna-prava-s03e08-czdabing-2017-krimi.mkv",
@@ -392557,22 +392551,29 @@
         "display_name": "How to Get Away with Murder S03E08 No More Blood SD CZ Dabing",
         "prepared_at": "2026-11-12T20:15:13.765839+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005653",
-        "size_bytes": 383343982
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005653",
-        "size_bytes": 383343982,
-        "source_bytes_read": 383343982,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005653",
         "source_bytes_read": 383343982,
         "elapsed_seconds": 195.938,
         "finished_at": "2026-11-12T20:18:49.433372+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005653",
+          "size_bytes": 383343982,
+          "source_bytes_read": 383343982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14056547",
+        "source_url": "https://sdilej.cz/14056547/vrazedna-prava-s03e08-czdabing-2017-krimi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005653",
+        "display_name": "How to Get Away with Murder S03E08 No More Blood SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:18:57.818717+00:00"
       }
     },
     "593:3:9": {
@@ -392651,7 +392652,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:18:54.628869+00:00",
+  "updated_at": "2026-11-12T20:18:57.818730+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
