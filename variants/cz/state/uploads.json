@@ -380946,12 +380946,6 @@
     },
     "1073:1:14": {
       "episode_key": "zlatá sedmdesátá:s1:e14",
-      "claim": {
-        "worker_id": "ff5d6ec05ae346d0b85930abd0addf0f-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:03:23.252073+00:00",
-        "lease_expires_at": "2026-11-12T18:03:23.252084+00:00"
-      },
       "source": {
         "source_id": "33826584",
         "source_url": "https://sdilej.cz/33826584/zlata-sedmdesata-s01e14.mkv",
@@ -380976,22 +380970,29 @@
         "display_name": "That '70s Show S01E14 Stolen Car 1080p CZ Dabing",
         "prepared_at": "2026-11-12T12:03:29.394844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001954",
-        "size_bytes": 451081477
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001954",
-        "size_bytes": 451081477,
-        "source_bytes_read": 451081477,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001954",
         "source_bytes_read": 451081477,
         "elapsed_seconds": 250.968,
         "finished_at": "2026-11-12T12:07:55.322919+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001954",
+          "size_bytes": 451081477,
+          "source_bytes_read": 451081477,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826584",
+        "source_url": "https://sdilej.cz/33826584/zlata-sedmdesata-s01e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001954",
+        "display_name": "That '70s Show S01E14 Stolen Car 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T12:08:01.119011+00:00"
       }
     },
     "1073:1:15": {
@@ -381037,7 +381038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:07:55.322941+00:00",
+  "updated_at": "2026-11-12T12:08:01.119027+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
