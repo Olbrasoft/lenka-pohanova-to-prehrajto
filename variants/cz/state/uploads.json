@@ -386611,12 +386611,6 @@
     },
     "1073:5:24": {
       "episode_key": "zlatá sedmdesátá:s5:e24",
-      "claim": {
-        "worker_id": "f09dd572f3fe463fb7ff262bbb742053-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:27:15.952873+00:00",
-        "lease_expires_at": "2026-11-12T20:27:15.952884+00:00"
-      },
       "source": {
         "source_id": "34482908",
         "source_url": "https://sdilej.cz/34482908/zlata-sedmdesata-s05e24.mp4",
@@ -386641,22 +386635,29 @@
         "display_name": "That '70s Show S05E24 Immigrant Song 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:27:19.296215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003376",
-        "size_bytes": 298299797
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003376",
-        "size_bytes": 298299797,
-        "source_bytes_read": 298299797,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003376",
         "source_bytes_read": 298299797,
         "elapsed_seconds": 151.954,
         "finished_at": "2026-11-12T14:30:05.595114+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003376",
+          "size_bytes": 298299797,
+          "source_bytes_read": 298299797,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482908",
+        "source_url": "https://sdilej.cz/34482908/zlata-sedmdesata-s05e24.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003376",
+        "display_name": "That '70s Show S05E24 Immigrant Song 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:30:14.921567+00:00"
       }
     },
     "1073:5:25": {
@@ -386739,7 +386740,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:30:05.595133+00:00",
+  "updated_at": "2026-11-12T14:30:14.921581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
