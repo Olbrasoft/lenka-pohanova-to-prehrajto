@@ -393037,12 +393037,6 @@
     },
     "1402:1:4": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s1:e4",
-      "claim": {
-        "worker_id": "b12b63a8a15946dbbb6c89336ec77650-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:28:52.403887+00:00",
-        "lease_expires_at": "2026-11-13T02:28:52.403899+00:00"
-      },
       "source": {
         "source_id": "12692424",
         "source_url": "https://sdilej.cz/12692424/zakon-a-poradek-utvar-pro-zvlastni-obeti-1x04-hysterie.avi",
@@ -393067,22 +393061,29 @@
         "display_name": "Law & Order: Special Victims Unit S01E04 Hysteria SD CZ Dabing",
         "prepared_at": "2026-11-12T20:29:00.477826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005769",
-        "size_bytes": 650303488
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005769",
-        "size_bytes": 650303488,
-        "source_bytes_read": 650303488,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005769",
         "source_bytes_read": 650303488,
         "elapsed_seconds": 310.19,
         "finished_at": "2026-11-12T20:34:30.489869+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005769",
+          "size_bytes": 650303488,
+          "source_bytes_read": 650303488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12692424",
+        "source_url": "https://sdilej.cz/12692424/zakon-a-poradek-utvar-pro-zvlastni-obeti-1x04-hysterie.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005769",
+        "display_name": "Law & Order: Special Victims Unit S01E04 Hysteria SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:34:36.221632+00:00"
       }
     },
     "1402:1:5": {
@@ -393165,7 +393166,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:34:30.489884+00:00",
+  "updated_at": "2026-11-12T20:34:36.221649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
