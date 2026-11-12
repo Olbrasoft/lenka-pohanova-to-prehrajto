@@ -390320,12 +390320,6 @@
     },
     "3568:1:5": {
       "episode_key": "dokonalá planeta:s1:e5",
-      "claim": {
-        "worker_id": "3f699b1e998749159038c88c02a8fead-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:01:19.493123+00:00",
-        "lease_expires_at": "2026-11-12T23:01:19.493135+00:00"
-      },
       "source": {
         "source_id": "19158395",
         "source_url": "https://sdilej.cz/19158395/dokonala-planeta-1x05-2021-lidstvo-dokument-cz-dab-lum.mp4",
@@ -390350,22 +390344,29 @@
         "display_name": "A Perfect Planet S01E05 Humans 720p CZ Dabing",
         "prepared_at": "2026-11-12T17:01:35.840574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004353",
-        "size_bytes": 980326817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004353",
-        "size_bytes": 980326817,
-        "source_bytes_read": 980326817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004353",
         "source_bytes_read": 980326817,
         "elapsed_seconds": 428.834,
         "finished_at": "2026-11-12T17:08:59.178755+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004353",
+          "size_bytes": 980326817,
+          "source_bytes_read": 980326817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19158395",
+        "source_url": "https://sdilej.cz/19158395/dokonala-planeta-1x05-2021-lidstvo-dokument-cz-dab-lum.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004353",
+        "display_name": "A Perfect Planet S01E05 Humans 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T17:09:05.537261+00:00"
       }
     },
     "746:1:1": {
@@ -390411,7 +390412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T17:08:59.178774+00:00",
+  "updated_at": "2026-11-12T17:09:05.537276+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
