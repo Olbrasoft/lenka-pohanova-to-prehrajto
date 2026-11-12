@@ -383241,12 +383241,6 @@
     },
     "1073:3:10": {
       "episode_key": "zlatá sedmdesátá:s3:e10",
-      "claim": {
-        "worker_id": "0253aa2c70734ba58c8e7a39a3f6ae83-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:13:36.873020+00:00",
-        "lease_expires_at": "2026-11-12T19:13:36.873034+00:00"
-      },
       "source": {
         "source_id": "34482650",
         "source_url": "https://sdilej.cz/34482650/zlata-sedmdesata-s03e10.mp4",
@@ -383271,22 +383265,29 @@
         "display_name": "That '70s Show S03E10 Ice Shack 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:13:40.370802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002603",
-        "size_bytes": 223441665
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002603",
-        "size_bytes": 223441665,
-        "source_bytes_read": 223441665,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002603",
         "source_bytes_read": 223441665,
         "elapsed_seconds": 115.526,
         "finished_at": "2026-11-12T13:15:51.295284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002603",
+          "size_bytes": 223441665,
+          "source_bytes_read": 223441665,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482650",
+        "source_url": "https://sdilej.cz/34482650/zlata-sedmdesata-s03e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002603",
+        "display_name": "That '70s Show S03E10 Ice Shack 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:15:55.445397+00:00"
       }
     },
     "1073:3:11": {
@@ -383369,7 +383370,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:15:51.295304+00:00",
+  "updated_at": "2026-11-12T13:15:55.445416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
