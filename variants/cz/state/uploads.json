@@ -390014,12 +390014,6 @@
     },
     "1073:8:17": {
       "episode_key": "zlatá sedmdesátá:s8:e17",
-      "claim": {
-        "worker_id": "a48221f5c1314836adb26baae0a99c4f-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:44:50.039249+00:00",
-        "lease_expires_at": "2026-11-12T22:44:50.039262+00:00"
-      },
       "source": {
         "source_id": "34483179",
         "source_url": "https://sdilej.cz/34483179/zlata-sedmdesata-s08e17.mp4",
@@ -390044,22 +390038,29 @@
         "display_name": "That '70s Show S08E17 Crazy Little Thing Called Love 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:44:53.557184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004261",
-        "size_bytes": 292804920
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004261",
-        "size_bytes": 292804920,
-        "source_bytes_read": 292804920,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004261",
         "source_bytes_read": 292804920,
         "elapsed_seconds": 149.252,
         "finished_at": "2026-11-12T16:47:39.728869+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004261",
+          "size_bytes": 292804920,
+          "source_bytes_read": 292804920,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34483179",
+        "source_url": "https://sdilej.cz/34483179/zlata-sedmdesata-s08e17.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004261",
+        "display_name": "That '70s Show S08E17 Crazy Little Thing Called Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:47:47.003472+00:00"
       }
     }
   },
@@ -390068,7 +390069,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:47:44.009457+00:00",
+  "updated_at": "2026-11-12T16:47:47.003489+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
