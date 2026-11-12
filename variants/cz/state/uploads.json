@@ -379110,12 +379110,6 @@
     },
     "1423:13:15": {
       "episode_key": "myšlenky zločince:s13:e15",
-      "claim": {
-        "worker_id": "d3a91e91b6a54efe8a102806a8e9aad7-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T09:45:55.128315+00:00",
-        "lease_expires_at": "2026-11-12T15:45:55.128326+00:00"
-      },
       "source": {
         "source_id": "29478874",
         "source_url": "https://sdilej.cz/29478874/myslenky-zlocince-13x15.mp4",
@@ -379140,22 +379134,29 @@
         "display_name": "Criminal Minds S13E15 Annihilator 1080p CZ Dabing",
         "prepared_at": "2026-11-12T09:45:58.734577+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000851",
-        "size_bytes": 1553446150
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000851",
-        "size_bytes": 1553446150,
-        "source_bytes_read": 1553446150,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000851",
         "source_bytes_read": 1553446150,
         "elapsed_seconds": 703.285,
         "finished_at": "2026-11-12T09:57:56.892315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000851",
+          "size_bytes": 1553446150,
+          "source_bytes_read": 1553446150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29478874",
+        "source_url": "https://sdilej.cz/29478874/myslenky-zlocince-13x15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000851",
+        "display_name": "Criminal Minds S13E15 Annihilator 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:58:02.642880+00:00"
       }
     },
     "1423:13:16": {
@@ -379201,7 +379202,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:57:56.892335+00:00",
+  "updated_at": "2026-11-12T09:58:02.642900+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
