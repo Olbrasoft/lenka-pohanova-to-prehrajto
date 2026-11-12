@@ -394999,12 +394999,6 @@
     },
     "1402:4:10": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e10",
-      "claim": {
-        "worker_id": "eb883b5129774c9289c46d3c85d54b69-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:01:42.900748+00:00",
-        "lease_expires_at": "2026-11-13T04:01:42.900760+00:00"
-      },
       "source": {
         "source_id": "35097218",
         "source_url": "https://sdilej.cz/35097218/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e10-076-2002-hd-odolnost-sd-.mp4",
@@ -395028,7 +395022,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S04E10 Resilience 720p CZ Dabing",
         "prepared_at": "2026-11-12T22:01:49.897162+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-12T22:02:03.510225+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -395036,7 +395036,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:01:59.386396+00:00",
+  "updated_at": "2026-11-12T22:02:03.510230+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -395290,6 +395290,10 @@
         {
           "identity": "1402:4:9",
           "at": "2026-11-12T22:01:59.386351+00:00"
+        },
+        {
+          "identity": "1402:4:10",
+          "at": "2026-11-12T22:02:03.510194+00:00"
         }
       ],
       "retry_after": "2026-11-12T21:56:55.817618+00:00"
