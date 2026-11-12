@@ -380677,12 +380677,6 @@
     },
     "1073:1:9": {
       "episode_key": "zlatá sedmdesátá:s1:e9",
-      "claim": {
-        "worker_id": "55d42d1fb9b648d292034d8c726500c0-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T11:51:43.094269+00:00",
-        "lease_expires_at": "2026-11-12T17:51:43.094280+00:00"
-      },
       "source": {
         "source_id": "33826570",
         "source_url": "https://sdilej.cz/33826570/zlata-sedmdesata-s01e09.mkv",
@@ -380707,22 +380701,29 @@
         "display_name": "That '70s Show S01E09 Thanksgiving 1080p CZ Dabing",
         "prepared_at": "2026-11-12T11:51:46.647652+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001830",
-        "size_bytes": 464818709
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001830",
-        "size_bytes": 464818709,
-        "source_bytes_read": 464818709,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001830",
         "source_bytes_read": 464818709,
         "elapsed_seconds": 189.515,
         "finished_at": "2026-11-12T11:55:10.430520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001830",
+          "size_bytes": 464818709,
+          "source_bytes_read": 464818709,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33826570",
+        "source_url": "https://sdilej.cz/33826570/zlata-sedmdesata-s01e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001830",
+        "display_name": "That '70s Show S01E09 Thanksgiving 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T11:55:16.245393+00:00"
       }
     }
   },
@@ -380731,7 +380732,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T11:55:10.430539+00:00",
+  "updated_at": "2026-11-12T11:55:16.245408+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
