@@ -378308,12 +378308,6 @@
     },
     "1423:10:21": {
       "episode_key": "myšlenky zločince:s10:e21",
-      "claim": {
-        "worker_id": "ca2f05ab03944115b1c0dd3449936740-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T09:05:41.030781+00:00",
-        "lease_expires_at": "2026-11-12T15:05:41.030792+00:00"
-      },
       "source": {
         "source_id": "28237188",
         "source_url": "https://sdilej.cz/28237188/criminal-minds-s10e21-cz-dab-hd-tv-rip-.mp4",
@@ -378338,22 +378332,29 @@
         "display_name": "Criminal Minds S10E21 Mr. Scratch 720p CZ Dabing",
         "prepared_at": "2026-11-12T09:05:47.004613+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000617",
-        "size_bytes": 360603752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000617",
-        "size_bytes": 360603752,
-        "source_bytes_read": 360603752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000617",
         "source_bytes_read": 360603752,
         "elapsed_seconds": 212.28,
         "finished_at": "2026-11-12T09:09:37.738438+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000617",
+          "size_bytes": 360603752,
+          "source_bytes_read": 360603752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237188",
+        "source_url": "https://sdilej.cz/28237188/criminal-minds-s10e21-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000617",
+        "display_name": "Criminal Minds S10E21 Mr. Scratch 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T09:09:45.578983+00:00"
       }
     },
     "1423:10:22": {
@@ -378399,7 +378400,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T09:09:42.996882+00:00",
+  "updated_at": "2026-11-12T09:09:45.578998+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
