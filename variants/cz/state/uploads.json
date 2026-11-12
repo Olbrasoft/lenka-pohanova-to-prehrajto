@@ -396042,12 +396042,6 @@
     },
     "1177:1:8": {
       "episode_key": "batesův motel:s1:e8",
-      "claim": {
-        "worker_id": "268caf09b68d4963a96854c8b7871d39-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T23:11:45.991530+00:00",
-        "lease_expires_at": "2026-11-13T05:11:45.991539+00:00"
-      },
       "source": {
         "source_id": "33977677",
         "source_url": "https://sdilej.cz/33977677/batesuv-motel-s01e08-cz-dabing-1080p-full-hd.mkv",
@@ -396072,22 +396066,29 @@
         "display_name": "Bates Motel S01E08 A Boy and His Dog 1080p CZ Dabing",
         "prepared_at": "2026-11-12T23:11:53.222092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007010",
-        "size_bytes": 883078734
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007010",
-        "size_bytes": 883078734,
-        "source_bytes_read": 883078734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007010",
         "source_bytes_read": 883078734,
         "elapsed_seconds": 462.126,
         "finished_at": "2026-11-12T23:19:50.603901+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007010",
+          "size_bytes": 883078734,
+          "source_bytes_read": 883078734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33977677",
+        "source_url": "https://sdilej.cz/33977677/batesuv-motel-s01e08-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007010",
+        "display_name": "Bates Motel S01E08 A Boy and His Dog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T23:19:55.205541+00:00"
       }
     }
   },
@@ -396096,7 +396097,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T23:19:50.603920+00:00",
+  "updated_at": "2026-11-12T23:19:55.205557+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
