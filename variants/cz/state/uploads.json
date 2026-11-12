@@ -389161,12 +389161,6 @@
     },
     "1073:7:25": {
       "episode_key": "zlatá sedmdesátá:s7:e25",
-      "claim": {
-        "worker_id": "13e1c70b8a9a4b4b8805182557921a0e-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:16:40.425326+00:00",
-        "lease_expires_at": "2026-11-12T22:16:40.425337+00:00"
-      },
       "source": {
         "source_id": "29205315",
         "source_url": "https://sdilej.cz/29205315/zlata-sedmdesata-s07e25-posledni-sbohem-till-the-next-goodbye-.mkv",
@@ -389191,22 +389185,29 @@
         "display_name": "That '70s Show S07E25 'Til the Next Goodbye 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:16:43.988424+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004033",
-        "size_bytes": 629249731
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004033",
-        "size_bytes": 629249731,
-        "source_bytes_read": 629249731,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004033",
         "source_bytes_read": 629249731,
         "elapsed_seconds": 324.359,
         "finished_at": "2026-11-12T16:22:22.496440+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004033",
+          "size_bytes": 629249731,
+          "source_bytes_read": 629249731,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29205315",
+        "source_url": "https://sdilej.cz/29205315/zlata-sedmdesata-s07e25-posledni-sbohem-till-the-next-goodbye-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004033",
+        "display_name": "That '70s Show S07E25 'Til the Next Goodbye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:22:27.922068+00:00"
       }
     },
     "1073:8:1": {
@@ -389289,7 +389290,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:22:22.496458+00:00",
+  "updated_at": "2026-11-12T16:22:27.922084+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
