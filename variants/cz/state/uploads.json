@@ -389779,12 +389779,6 @@
     },
     "1073:8:12": {
       "episode_key": "zlatá sedmdesátá:s8:e12",
-      "claim": {
-        "worker_id": "1984b71f04b040f0a04cef8ee0748a9c-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:37:55.387161+00:00",
-        "lease_expires_at": "2026-11-12T22:37:55.387172+00:00"
-      },
       "source": {
         "source_id": "29211953",
         "source_url": "https://sdilej.cz/29211953/zlata-sedmdesata-s08e12-ledova-kralovna-killer-queen-.mkv",
@@ -389809,22 +389803,29 @@
         "display_name": "That '70s Show S08E12 Killer Queen 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:37:58.956649+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004204",
-        "size_bytes": 541169689
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004204",
-        "size_bytes": 541169689,
-        "source_bytes_read": 541169689,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004204",
         "source_bytes_read": 541169689,
         "elapsed_seconds": 296.95,
         "finished_at": "2026-11-12T16:43:12.414775+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004204",
+          "size_bytes": 541169689,
+          "source_bytes_read": 541169689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29211953",
+        "source_url": "https://sdilej.cz/29211953/zlata-sedmdesata-s08e12-ledova-kralovna-killer-queen-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004204",
+        "display_name": "That '70s Show S08E12 Killer Queen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:43:19.622409+00:00"
       }
     },
     "1073:8:13": {
@@ -389921,7 +389922,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:43:16.271813+00:00",
+  "updated_at": "2026-11-12T16:43:19.622424+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
