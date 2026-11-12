@@ -395036,12 +395036,6 @@
     },
     "1402:4:11": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e11",
-      "claim": {
-        "worker_id": "0eb6b42cb9b0452f972af99ebaffdfd5-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:02:16.575825+00:00",
-        "lease_expires_at": "2026-11-13T04:02:16.575838+00:00"
-      },
       "source": {
         "source_id": "35097225",
         "source_url": "https://sdilej.cz/35097225/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e11-077-2003-hd-chudak-holka-sd-.mp4",
@@ -395065,7 +395059,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S04E11 Damaged 720p CZ Dabing",
         "prepared_at": "2026-11-12T22:02:23.377309+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-12T22:02:36.634331+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -395073,7 +395073,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:02:33.250959+00:00",
+  "updated_at": "2026-11-12T22:02:36.634335+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -395325,19 +395325,19 @@
     "1402": {
       "recent_failures": [
         {
-          "identity": "1402:4:9",
-          "at": "2026-11-12T22:01:59.386351+00:00"
-        },
-        {
           "identity": "1402:4:10",
           "at": "2026-11-12T22:02:03.510194+00:00"
         },
         {
           "identity": "1402:4:8",
           "at": "2026-11-12T22:02:33.250853+00:00"
+        },
+        {
+          "identity": "1402:4:11",
+          "at": "2026-11-12T22:02:36.634266+00:00"
         }
       ],
-      "retry_after": "2026-11-12T22:12:33.250853+00:00"
+      "retry_after": "2026-11-12T22:12:36.634266+00:00"
     }
   }
 }
