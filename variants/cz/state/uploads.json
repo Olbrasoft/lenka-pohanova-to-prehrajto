@@ -376171,12 +376171,6 @@
     },
     "1423:6:3": {
       "episode_key": "myšlenky zločince:s6:e3",
-      "claim": {
-        "worker_id": "5ec7ff4114124a24b879339aacda3a40-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T07:05:44.597109+00:00",
-        "lease_expires_at": "2026-11-12T13:05:44.597120+00:00"
-      },
       "source": {
         "source_id": "28237034",
         "source_url": "https://sdilej.cz/28237034/criminal-minds-s06e03-cz-dab-hd-tv-rip-.mp4",
@@ -376201,22 +376195,29 @@
         "display_name": "Criminal Minds S06E03 Remembrance of Things Past 720p CZ Dabing",
         "prepared_at": "2026-11-12T07:05:48.157808+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999722",
-        "size_bytes": 417739141
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999722",
-        "size_bytes": 417739141,
-        "source_bytes_read": 417739141,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999722",
         "source_bytes_read": 417739141,
         "elapsed_seconds": 203.319,
         "finished_at": "2026-11-12T07:09:25.971394+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999722",
+          "size_bytes": 417739141,
+          "source_bytes_read": 417739141,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28237034",
+        "source_url": "https://sdilej.cz/28237034/criminal-minds-s06e03-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999722",
+        "display_name": "Criminal Minds S06E03 Remembrance of Things Past 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T07:09:33.915949+00:00"
       }
     }
   },
@@ -376225,7 +376226,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T07:09:30.805118+00:00",
+  "updated_at": "2026-11-12T07:09:33.915964+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
