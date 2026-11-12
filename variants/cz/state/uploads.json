@@ -371663,12 +371663,6 @@
     },
     "757:2:6": {
       "episode_key": "euforie:s2:e6",
-      "claim": {
-        "worker_id": "fc9b4cfcf53444f996d100aa9e0c392b-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T01:34:18.173362+00:00",
-        "lease_expires_at": "2026-11-12T07:34:18.173371+00:00"
-      },
       "source": {
         "source_id": "34059819",
         "source_url": "https://sdilej.cz/34059819/euforie-s02e06-kdyz-se-kaci-les....mkv",
@@ -371693,22 +371687,29 @@
         "display_name": "Euphoria S02E06 A Thousand Little Trees of Blood 4K CZ Dabing",
         "prepared_at": "2026-11-12T01:34:25.644770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30996525",
-        "size_bytes": 2889077093
-      },
-      "transfer_receipt": {
-        "target_video_id": "30996525",
-        "size_bytes": 2889077093,
-        "source_bytes_read": 2889077093,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30996525",
         "source_bytes_read": 2889077093,
         "elapsed_seconds": 1073.411,
         "finished_at": "2026-11-12T01:52:35.311875+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30996525",
+          "size_bytes": 2889077093,
+          "source_bytes_read": 2889077093,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34059819",
+        "source_url": "https://sdilej.cz/34059819/euforie-s02e06-kdyz-se-kaci-les....mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30996525",
+        "display_name": "Euphoria S02E06 A Thousand Little Trees of Blood 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T01:52:40.038616+00:00"
       }
     }
   },
@@ -371717,7 +371718,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T01:52:35.311894+00:00",
+  "updated_at": "2026-11-12T01:52:40.038629+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
