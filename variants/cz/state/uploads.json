@@ -381864,12 +381864,6 @@
     },
     "1073:2:9": {
       "episode_key": "zlatá sedmdesátá:s2:e9",
-      "claim": {
-        "worker_id": "eb727e916924436f94ad09e9258041a0-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T12:31:38.547865+00:00",
-        "lease_expires_at": "2026-11-12T18:31:38.547876+00:00"
-      },
       "source": {
         "source_id": "34482563",
         "source_url": "https://sdilej.cz/34482563/zlata-sedmdesata-s02e9.avi",
@@ -381894,22 +381888,29 @@
         "display_name": "That '70s Show S02E09 Eric Gets Suspended SD CZ Dabing",
         "prepared_at": "2026-11-12T12:31:41.850475+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002278",
-        "size_bytes": 182716292
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002278",
-        "size_bytes": 182716292,
-        "source_bytes_read": 182716292,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002278",
         "source_bytes_read": 182716292,
         "elapsed_seconds": 102.341,
         "finished_at": "2026-11-12T12:33:36.753894+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002278",
+          "size_bytes": 182716292,
+          "source_bytes_read": 182716292,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482563",
+        "source_url": "https://sdilej.cz/34482563/zlata-sedmdesata-s02e9.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002278",
+        "display_name": "That '70s Show S02E09 Eric Gets Suspended SD CZ Dabing",
+        "uploaded_at": "2026-11-12T12:33:41.875124+00:00"
       }
     },
     "1073:2:10": {
@@ -381955,7 +381956,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T12:33:36.753912+00:00",
+  "updated_at": "2026-11-12T12:33:41.875152+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
