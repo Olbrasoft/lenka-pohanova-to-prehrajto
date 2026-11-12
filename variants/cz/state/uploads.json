@@ -371269,12 +371269,6 @@
     },
     "757:1:8": {
       "episode_key": "euforie:s1:e8",
-      "claim": {
-        "worker_id": "111ddbd5c2204cc5a930f10be6194153-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:53:57.816288+00:00",
-        "lease_expires_at": "2026-11-12T06:53:57.816305+00:00"
-      },
       "source": {
         "source_id": "34046003",
         "source_url": "https://sdilej.cz/34046003/euforie-s01e08-a-solte-zemi-za-sebou.mkv",
@@ -371299,22 +371293,29 @@
         "display_name": "Euphoria S01E08 And Salt the Earth Behind You 4K CZ Dabing",
         "prepared_at": "2026-11-12T00:54:05.239663+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30996180",
-        "size_bytes": 3129484781
-      },
-      "transfer_receipt": {
-        "target_video_id": "30996180",
-        "size_bytes": 3129484781,
-        "source_bytes_read": 3129484781,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30996180",
         "source_bytes_read": 3129484781,
         "elapsed_seconds": 1094.518,
         "finished_at": "2026-11-12T01:12:38.465362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30996180",
+          "size_bytes": 3129484781,
+          "source_bytes_read": 3129484781,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34046003",
+        "source_url": "https://sdilej.cz/34046003/euforie-s01e08-a-solte-zemi-za-sebou.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30996180",
+        "display_name": "Euphoria S01E08 And Salt the Earth Behind You 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T01:12:45.508203+00:00"
       }
     },
     "757:1:9": {
@@ -371425,7 +371426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T01:12:38.465390+00:00",
+  "updated_at": "2026-11-12T01:12:45.508223+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
