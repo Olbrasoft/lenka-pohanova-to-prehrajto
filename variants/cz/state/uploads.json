@@ -370708,12 +370708,6 @@
     },
     "394:17:20": {
       "episode_key": "griffinovi:s17:e20",
-      "claim": {
-        "worker_id": "ec6debf9a74844f4ac2a840819df4dc2-worker-0",
-        "run_id": "43102529042",
-        "claimed_at": "2026-11-12T00:10:10.290056+00:00",
-        "lease_expires_at": "2026-11-12T06:10:10.290072+00:00"
-      },
       "source": {
         "source_id": "35293018",
         "source_url": "https://sdilej.cz/35293018/griffinovi-s17e20-stredni-skola-adama-westa-cz.mkv",
@@ -370738,22 +370732,29 @@
         "display_name": "Family Guy S17E20 Adam West High 1080p CZ Dabing",
         "prepared_at": "2026-11-12T00:10:15.784295+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30995787",
-        "size_bytes": 876286033
-      },
-      "transfer_receipt": {
-        "target_video_id": "30995787",
-        "size_bytes": 876286033,
-        "source_bytes_read": 876286033,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30995787",
         "source_bytes_read": 876286033,
         "elapsed_seconds": 250.633,
         "finished_at": "2026-11-12T00:14:39.383901+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30995787",
+          "size_bytes": 876286033,
+          "source_bytes_read": 876286033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35293018",
+        "source_url": "https://sdilej.cz/35293018/griffinovi-s17e20-stredni-skola-adama-westa-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30995787",
+        "display_name": "Family Guy S17E20 Adam West High 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T00:14:44.975080+00:00"
       }
     },
     "394:19:12": {
@@ -370887,7 +370888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T00:14:39.383926+00:00",
+  "updated_at": "2026-11-12T00:14:44.975101+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
