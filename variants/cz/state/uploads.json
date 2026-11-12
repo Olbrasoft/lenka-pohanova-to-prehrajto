@@ -374635,12 +374635,6 @@
     },
     "1423:4:21": {
       "episode_key": "myšlenky zločince:s4:e21",
-      "claim": {
-        "worker_id": "1306e04894294fea83b890b78c320b00-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T06:20:30.325708+00:00",
-        "lease_expires_at": "2026-11-12T12:20:30.325717+00:00"
-      },
       "source": {
         "source_id": "28236986",
         "source_url": "https://sdilej.cz/28236986/criminal-minds-s04e21-cz-dab-hd-tv-rip-.mp4",
@@ -374665,22 +374659,29 @@
         "display_name": "Criminal Minds S04E21 A Shade of Gray 720p CZ Dabing",
         "prepared_at": "2026-11-12T06:20:39.424966+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999291",
-        "size_bytes": 516269674
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999291",
-        "size_bytes": 516269674,
-        "source_bytes_read": 516269674,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999291",
         "source_bytes_read": 516269674,
         "elapsed_seconds": 237.514,
         "finished_at": "2026-11-12T06:24:58.939377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999291",
+          "size_bytes": 516269674,
+          "source_bytes_read": 516269674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28236986",
+        "source_url": "https://sdilej.cz/28236986/criminal-minds-s04e21-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999291",
+        "display_name": "Criminal Minds S04E21 A Shade of Gray 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T06:25:05.320796+00:00"
       }
     },
     "1423:4:22": {
@@ -374726,7 +374727,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T06:24:58.939397+00:00",
+  "updated_at": "2026-11-12T06:25:05.320812+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
