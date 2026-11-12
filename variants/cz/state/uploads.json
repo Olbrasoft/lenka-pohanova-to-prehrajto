@@ -386152,12 +386152,6 @@
     },
     "1073:5:15": {
       "episode_key": "zlatá sedmdesátá:s5:e15",
-      "claim": {
-        "worker_id": "503c96df17dc4d9e81842cd84dbd1765-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T14:16:51.674154+00:00",
-        "lease_expires_at": "2026-11-12T20:16:51.674165+00:00"
-      },
       "source": {
         "source_id": "34482847",
         "source_url": "https://sdilej.cz/34482847/zlata-sedmdesata-s05e15.mp4",
@@ -386182,22 +386176,29 @@
         "display_name": "That '70s Show S05E15 When the Levee Breaks 1080p CZ Dabing",
         "prepared_at": "2026-11-12T14:16:55.170920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003315",
-        "size_bytes": 323456420
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003315",
-        "size_bytes": 323456420,
-        "source_bytes_read": 323456420,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003315",
         "source_bytes_read": 323456420,
         "elapsed_seconds": 147.281,
         "finished_at": "2026-11-12T14:19:35.279591+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003315",
+          "size_bytes": 323456420,
+          "source_bytes_read": 323456420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482847",
+        "source_url": "https://sdilej.cz/34482847/zlata-sedmdesata-s05e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003315",
+        "display_name": "That '70s Show S05E15 When the Levee Breaks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T14:19:44.559959+00:00"
       }
     }
   },
@@ -386206,7 +386207,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T14:19:41.041773+00:00",
+  "updated_at": "2026-11-12T14:19:44.559973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
