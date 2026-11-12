@@ -390116,12 +390116,6 @@
     },
     "1073:8:19": {
       "episode_key": "zlatá sedmdesátá:s8:e19",
-      "claim": {
-        "worker_id": "c0849b1be41945c4bcd4954f773e7817-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T16:47:59.036636+00:00",
-        "lease_expires_at": "2026-11-12T22:47:59.036646+00:00"
-      },
       "source": {
         "source_id": "34483183",
         "source_url": "https://sdilej.cz/34483183/zlata-sedmdesata-s08e19.mp4",
@@ -390146,22 +390140,29 @@
         "display_name": "That '70s Show S08E19 Sheer Heart Attack 1080p CZ Dabing",
         "prepared_at": "2026-11-12T16:48:02.590693+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004282",
-        "size_bytes": 267904908
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004282",
-        "size_bytes": 267904908,
-        "source_bytes_read": 267904908,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004282",
         "source_bytes_read": 267904908,
         "elapsed_seconds": 170.558,
         "finished_at": "2026-11-12T16:51:08.441426+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004282",
+          "size_bytes": 267904908,
+          "source_bytes_read": 267904908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34483183",
+        "source_url": "https://sdilej.cz/34483183/zlata-sedmdesata-s08e19.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004282",
+        "display_name": "That '70s Show S08E19 Sheer Heart Attack 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T16:51:12.935518+00:00"
       }
     },
     "1073:8:20": {
@@ -390207,7 +390208,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T16:51:08.441444+00:00",
+  "updated_at": "2026-11-12T16:51:12.935536+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
