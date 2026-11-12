@@ -391901,12 +391901,6 @@
     },
     "593:2:1": {
       "episode_key": "vražedná práva:s2:e1",
-      "claim": {
-        "worker_id": "0fd14a4f205b41b3a184bf13398809b1-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T18:58:50.836525+00:00",
-        "lease_expires_at": "2026-11-13T00:58:50.836536+00:00"
-      },
       "source": {
         "source_id": "33334598",
         "source_url": "https://sdilej.cz/33334598/vrazedna-prava-s02e01-je-cas-odejit-2014-15-cz.avi",
@@ -391931,22 +391925,29 @@
         "display_name": "How to Get Away with Murder S02E01 It's Time to Move On SD CZ Dabing",
         "prepared_at": "2026-11-12T18:58:54.533333+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005081",
-        "size_bytes": 417229138
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005081",
-        "size_bytes": 417229138,
-        "source_bytes_read": 417229138,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005081",
         "source_bytes_read": 417229138,
         "elapsed_seconds": 230.012,
         "finished_at": "2026-11-12T19:02:58.669375+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005081",
+          "size_bytes": 417229138,
+          "source_bytes_read": 417229138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33334598",
+        "source_url": "https://sdilej.cz/33334598/vrazedna-prava-s02e01-je-cas-odejit-2014-15-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005081",
+        "display_name": "How to Get Away with Murder S02E01 It's Time to Move On SD CZ Dabing",
+        "uploaded_at": "2026-11-12T19:03:04.339914+00:00"
       }
     },
     "593:2:2": {
@@ -391992,7 +391993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T19:02:58.669391+00:00",
+  "updated_at": "2026-11-12T19:03:04.339932+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
