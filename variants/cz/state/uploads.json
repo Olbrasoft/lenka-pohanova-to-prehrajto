@@ -393125,12 +393125,6 @@
     },
     "1402:1:6": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s1:e6",
-      "claim": {
-        "worker_id": "cb08834e8bb642b9893fad7f9a24add5-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:33:44.985482+00:00",
-        "lease_expires_at": "2026-11-13T02:33:44.985493+00:00"
-      },
       "source": {
         "source_id": "29093082",
         "source_url": "https://sdilej.cz/29093082/zakon-a-poradek-utvar-pro-zvlastni-obeti-s01e06-006-1999-sd-smrt-na-univerzite-sd-.mp4",
@@ -393155,22 +393149,29 @@
         "display_name": "Law & Order: Special Victims Unit S01E06 Sophomore Jinx SD CZ Dabing",
         "prepared_at": "2026-11-12T20:33:48.650672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005796",
-        "size_bytes": 541459952
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005796",
-        "size_bytes": 541459952,
-        "source_bytes_read": 541459952,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005796",
         "source_bytes_read": 541459952,
         "elapsed_seconds": 225.345,
         "finished_at": "2026-11-12T20:37:49.377032+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005796",
+          "size_bytes": 541459952,
+          "source_bytes_read": 541459952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29093082",
+        "source_url": "https://sdilej.cz/29093082/zakon-a-poradek-utvar-pro-zvlastni-obeti-s01e06-006-1999-sd-smrt-na-univerzite-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005796",
+        "display_name": "Law & Order: Special Victims Unit S01E06 Sophomore Jinx SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:37:54.188046+00:00"
       }
     },
     "1402:1:8": {
@@ -393216,7 +393217,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:37:49.377051+00:00",
+  "updated_at": "2026-11-12T20:37:54.188063+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
