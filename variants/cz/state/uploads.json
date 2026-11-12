@@ -393496,12 +393496,6 @@
     },
     "1402:1:18": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s1:e18",
-      "claim": {
-        "worker_id": "98363928add34cfa9ad6cd46268aa8d2-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:45:51.622411+00:00",
-        "lease_expires_at": "2026-11-13T02:45:51.622426+00:00"
-      },
       "source": {
         "source_id": "12748343",
         "source_url": "https://sdilej.cz/12748343/zakon-a-poradek-utvar-pro-zvlastni-obeti-1x18-diskuzni-skupina.avi",
@@ -393526,22 +393520,29 @@
         "display_name": "Law & Order: Special Victims Unit S01E18 Chat Room SD CZ Dabing",
         "prepared_at": "2026-11-12T20:45:55.149105+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005887",
-        "size_bytes": 650307584
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005887",
-        "size_bytes": 650307584,
-        "source_bytes_read": 650307584,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005887",
         "source_bytes_read": 650307584,
         "elapsed_seconds": 282.158,
         "finished_at": "2026-11-12T20:50:51.673484+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005887",
+          "size_bytes": 650307584,
+          "source_bytes_read": 650307584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12748343",
+        "source_url": "https://sdilej.cz/12748343/zakon-a-poradek-utvar-pro-zvlastni-obeti-1x18-diskuzni-skupina.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005887",
+        "display_name": "Law & Order: Special Victims Unit S01E18 Chat Room SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:50:59.240780+00:00"
       }
     },
     "1402:1:21": {
@@ -393587,7 +393588,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:50:55.512686+00:00",
+  "updated_at": "2026-11-12T20:50:59.240799+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
