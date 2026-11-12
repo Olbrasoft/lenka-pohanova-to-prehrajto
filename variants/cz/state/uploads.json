@@ -59198,24 +59198,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T20:08:25.368153+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T21:13:49.184881+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T22:18:31.366389+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-12T23:42:58.389841+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "466a7441b23d4e1da346053dcde7dcdf-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-12T23:42:27.023583+00:00",
-        "lease_expires_at": "2026-11-13T05:42:27.023592+00:00"
-      }
+      ]
     },
     "956:2:13": {
       "episode_key": "star trek: nová generace:s2:e13",
@@ -396123,7 +396117,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T23:42:54.005794+00:00",
+  "updated_at": "2026-11-12T23:42:58.389847+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -396147,6 +396141,10 @@
         {
           "identity": "956:2:19",
           "at": "2026-11-12T23:42:54.005743+00:00"
+        },
+        {
+          "identity": "956:2:14",
+          "at": "2026-11-12T23:42:58.389814+00:00"
         }
       ],
       "retry_after": "2026-11-12T22:29:05.936073+00:00"
