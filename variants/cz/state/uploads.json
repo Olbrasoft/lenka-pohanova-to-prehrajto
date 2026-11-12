@@ -373819,12 +373819,6 @@
     },
     "1423:3:3": {
       "episode_key": "myšlenky zločince:s3:e3",
-      "claim": {
-        "worker_id": "85f70f9f24d24ada9eba02811b8d3739-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T05:40:20.252419+00:00",
-        "lease_expires_at": "2026-11-12T11:40:20.252431+00:00"
-      },
       "source": {
         "source_id": "33686829",
         "source_url": "https://sdilej.cz/33686829/myslenky-zlocince-s03e03-20-2007-cz-dab-720p-vystrasen-k-smrti.mkv",
@@ -373849,22 +373843,29 @@
         "display_name": "Criminal Minds S03E03 Scared to Death 720p CZ Dabing",
         "prepared_at": "2026-11-12T05:40:26.126704+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999018",
-        "size_bytes": 1489042931
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999018",
-        "size_bytes": 1489042931,
-        "source_bytes_read": 1489042931,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999018",
         "source_bytes_read": 1489042931,
         "elapsed_seconds": 598.104,
         "finished_at": "2026-11-12T05:50:40.793571+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999018",
+          "size_bytes": 1489042931,
+          "source_bytes_read": 1489042931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33686829",
+        "source_url": "https://sdilej.cz/33686829/myslenky-zlocince-s03e03-20-2007-cz-dab-720p-vystrasen-k-smrti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999018",
+        "display_name": "Criminal Minds S03E03 Scared to Death 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T05:50:46.786272+00:00"
       }
     },
     "1423:3:4": {
@@ -373947,7 +373948,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T05:50:40.793591+00:00",
+  "updated_at": "2026-11-12T05:50:46.786288+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
