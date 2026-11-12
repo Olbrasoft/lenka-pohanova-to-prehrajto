@@ -388039,12 +388039,6 @@
     },
     "1073:7:3": {
       "episode_key": "zlatá sedmdesátá:s7:e3",
-      "claim": {
-        "worker_id": "89edf750fb33495f95a3ab99da4ac1ca-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:20:43.781115+00:00",
-        "lease_expires_at": "2026-11-12T21:20:43.781131+00:00"
-      },
       "source": {
         "source_id": "33840857",
         "source_url": "https://sdilej.cz/33840857/zlata-sedmdesata-s07e03.mkv",
@@ -388069,22 +388063,29 @@
         "display_name": "That '70s Show S07E03 (I Can't Get No) Satisfaction 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:20:50.429432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003691",
-        "size_bytes": 521923753
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003691",
-        "size_bytes": 521923753,
-        "source_bytes_read": 521923753,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003691",
         "source_bytes_read": 521923753,
         "elapsed_seconds": 224.342,
         "finished_at": "2026-11-12T15:24:54.233741+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003691",
+          "size_bytes": 521923753,
+          "source_bytes_read": 521923753,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33840857",
+        "source_url": "https://sdilej.cz/33840857/zlata-sedmdesata-s07e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003691",
+        "display_name": "That '70s Show S07E03 (I Can't Get No) Satisfaction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:24:58.928553+00:00"
       }
     },
     "1073:7:4": {
@@ -388167,7 +388168,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:24:54.233760+00:00",
+  "updated_at": "2026-11-12T15:24:58.928567+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
