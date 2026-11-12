@@ -371516,12 +371516,6 @@
     },
     "757:2:3": {
       "episode_key": "euforie:s2:e3",
-      "claim": {
-        "worker_id": "892e431549914ae8990965c612461869-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T01:14:39.139114+00:00",
-        "lease_expires_at": "2026-11-12T07:14:39.139124+00:00"
-      },
       "source": {
         "source_id": "34059785",
         "source_url": "https://sdilej.cz/34059785/euforie-s02e03-velky-a-maly-tyran.mkv",
@@ -371546,22 +371540,29 @@
         "display_name": "Euphoria S02E03 Ruminations: Big and Little Bullys 4K CZ Dabing",
         "prepared_at": "2026-11-12T01:14:44.780357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30996372",
-        "size_bytes": 2890331239
-      },
-      "transfer_receipt": {
-        "target_video_id": "30996372",
-        "size_bytes": 2890331239,
-        "source_bytes_read": 2890331239,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30996372",
         "source_bytes_read": 2890331239,
         "elapsed_seconds": 1050.12,
         "finished_at": "2026-11-12T01:32:29.083076+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30996372",
+          "size_bytes": 2890331239,
+          "source_bytes_read": 2890331239,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34059785",
+        "source_url": "https://sdilej.cz/34059785/euforie-s02e03-velky-a-maly-tyran.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30996372",
+        "display_name": "Euphoria S02E03 Ruminations: Big and Little Bullys 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T01:32:34.678833+00:00"
       }
     }
   },
@@ -371570,7 +371571,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T01:32:32.132853+00:00",
+  "updated_at": "2026-11-12T01:32:34.678848+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
