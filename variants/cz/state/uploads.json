@@ -371969,12 +371969,6 @@
     },
     "757:3:4": {
       "episode_key": "euforie:s3:e4",
-      "claim": {
-        "worker_id": "9985147ade874d2ab86af50119234158-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T02:38:21.716693+00:00",
-        "lease_expires_at": "2026-11-12T08:38:21.716702+00:00"
-      },
       "source": {
         "source_id": "34433773",
         "source_url": "https://sdilej.cz/34433773/euforie-s03e04-kitty-rada-tanci.mkv",
@@ -371999,22 +371993,29 @@
         "display_name": "Euphoria S03E04 Kitty Likes to Dance 4K CZ Dabing",
         "prepared_at": "2026-11-12T02:38:27.151231+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997199",
-        "size_bytes": 3163729475
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997199",
-        "size_bytes": 3163729475,
-        "source_bytes_read": 3163729475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997199",
         "source_bytes_read": 3163729475,
         "elapsed_seconds": 1095.719,
         "finished_at": "2026-11-12T02:56:57.023223+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997199",
+          "size_bytes": 3163729475,
+          "source_bytes_read": 3163729475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433773",
+        "source_url": "https://sdilej.cz/34433773/euforie-s03e04-kitty-rada-tanci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997199",
+        "display_name": "Euphoria S03E04 Kitty Likes to Dance 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T02:57:02.067658+00:00"
       }
     },
     "757:3:5": {
@@ -372060,7 +372061,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T02:56:57.023243+00:00",
+  "updated_at": "2026-11-12T02:57:02.067672+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
