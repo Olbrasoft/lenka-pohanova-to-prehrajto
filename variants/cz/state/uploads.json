@@ -391748,12 +391748,6 @@
     },
     "593:1:13": {
       "episode_key": "vražedná práva:s1:e13",
-      "claim": {
-        "worker_id": "de916d01fa0445e3b546c3536262e403-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T18:50:28.483107+00:00",
-        "lease_expires_at": "2026-11-13T00:50:28.483119+00:00"
-      },
       "source": {
         "source_id": "14191078",
         "source_url": "https://sdilej.cz/14191078/vrazedna-prava-s01e13.avi",
@@ -391778,22 +391772,29 @@
         "display_name": "How to Get Away with Murder S01E13 Mama's Here Now SD CZ Dabing",
         "prepared_at": "2026-11-12T18:50:32.214049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005029",
-        "size_bytes": 483691024
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005029",
-        "size_bytes": 483691024,
-        "source_bytes_read": 483691024,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005029",
         "source_bytes_read": 483691024,
         "elapsed_seconds": 255.439,
         "finished_at": "2026-11-12T18:55:01.963570+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005029",
+          "size_bytes": 483691024,
+          "source_bytes_read": 483691024,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14191078",
+        "source_url": "https://sdilej.cz/14191078/vrazedna-prava-s01e13.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005029",
+        "display_name": "How to Get Away with Murder S01E13 Mama's Here Now SD CZ Dabing",
+        "uploaded_at": "2026-11-12T18:55:06.356558+00:00"
       }
     },
     "593:1:14": {
@@ -391839,7 +391840,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T18:55:01.963591+00:00",
+  "updated_at": "2026-11-12T18:55:06.356577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
