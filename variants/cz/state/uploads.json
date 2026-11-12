@@ -374341,12 +374341,6 @@
     },
     "1423:4:3": {
       "episode_key": "myšlenky zločince:s4:e3",
-      "claim": {
-        "worker_id": "ab42fa5c68a144d8888b9f9f6bef1f7d-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T06:02:34.534331+00:00",
-        "lease_expires_at": "2026-11-12T12:02:34.534341+00:00"
-      },
       "source": {
         "source_id": "28236961",
         "source_url": "https://sdilej.cz/28236961/criminal-minds-s04e03-cz-dab-hd-tv-rip-.mp4",
@@ -374371,22 +374365,29 @@
         "display_name": "Criminal Minds S04E03 Minimal Loss 720p CZ Dabing",
         "prepared_at": "2026-11-12T06:02:41.043734+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30999172",
-        "size_bytes": 553747557
-      },
-      "transfer_receipt": {
-        "target_video_id": "30999172",
-        "size_bytes": 553747557,
-        "source_bytes_read": 553747557,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30999172",
         "source_bytes_read": 553747557,
         "elapsed_seconds": 231.658,
         "finished_at": "2026-11-12T06:06:48.276309+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30999172",
+          "size_bytes": 553747557,
+          "source_bytes_read": 553747557,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28236961",
+        "source_url": "https://sdilej.cz/28236961/criminal-minds-s04e03-cz-dab-hd-tv-rip-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30999172",
+        "display_name": "Criminal Minds S04E03 Minimal Loss 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T06:06:53.818180+00:00"
       }
     }
   },
@@ -374395,7 +374396,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T06:06:51.040790+00:00",
+  "updated_at": "2026-11-12T06:06:53.818197+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
