@@ -387631,12 +387631,6 @@
     },
     "1073:6:20": {
       "episode_key": "zlatá sedmdesátá:s6:e20",
-      "claim": {
-        "worker_id": "7c9ae2333df94220a955c8431b85ad3f-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T15:07:58.533701+00:00",
-        "lease_expires_at": "2026-11-12T21:07:58.533715+00:00"
-      },
       "source": {
         "source_id": "29202038",
         "source_url": "https://sdilej.cz/29202038/zlata-sedmdesata-s06e20-ahoj-kluci-squeeze-box-.mkv",
@@ -387661,22 +387655,29 @@
         "display_name": "That '70s Show S06E20 Squeeze Box 1080p CZ Dabing",
         "prepared_at": "2026-11-12T15:08:05.478747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003623",
-        "size_bytes": 418429439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003623",
-        "size_bytes": 418429439,
-        "source_bytes_read": 418429439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003623",
         "source_bytes_read": 418429439,
         "elapsed_seconds": 174.652,
         "finished_at": "2026-11-12T15:11:16.508326+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003623",
+          "size_bytes": 418429439,
+          "source_bytes_read": 418429439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29202038",
+        "source_url": "https://sdilej.cz/29202038/zlata-sedmdesata-s06e20-ahoj-kluci-squeeze-box-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003623",
+        "display_name": "That '70s Show S06E20 Squeeze Box 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T15:11:20.866573+00:00"
       }
     },
     "1073:6:21": {
@@ -387772,7 +387773,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:11:16.508346+00:00",
+  "updated_at": "2026-11-12T15:11:20.866589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
