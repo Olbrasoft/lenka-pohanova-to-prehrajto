@@ -384757,12 +384757,6 @@
     },
     "1073:4:15": {
       "episode_key": "zlatá sedmdesátá:s4:e15",
-      "claim": {
-        "worker_id": "9c531b3568a847c3ac0978c3a9031d38-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:39:03.992049+00:00",
-        "lease_expires_at": "2026-11-12T19:39:03.992061+00:00"
-      },
       "source": {
         "source_id": "34482730",
         "source_url": "https://sdilej.cz/34482730/zlata-sedmdesata-s04e15.mp4",
@@ -384787,22 +384781,29 @@
         "display_name": "That '70s Show S04E15 Tornado Prom 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:39:10.501284+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003001",
-        "size_bytes": 190196116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003001",
-        "size_bytes": 190196116,
-        "source_bytes_read": 190196116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003001",
         "source_bytes_read": 190196116,
         "elapsed_seconds": 89.893,
         "finished_at": "2026-11-12T13:40:56.826124+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003001",
+          "size_bytes": 190196116,
+          "source_bytes_read": 190196116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482730",
+        "source_url": "https://sdilej.cz/34482730/zlata-sedmdesata-s04e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003001",
+        "display_name": "That '70s Show S04E15 Tornado Prom 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:41:01.794332+00:00"
       }
     },
     "1073:4:16": {
@@ -384848,7 +384849,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:40:56.826181+00:00",
+  "updated_at": "2026-11-12T13:41:01.794348+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
