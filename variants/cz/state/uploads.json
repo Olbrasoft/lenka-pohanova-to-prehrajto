@@ -376993,12 +376993,6 @@
     },
     "1423:6:19": {
       "episode_key": "myšlenky zločince:s6:e19",
-      "claim": {
-        "worker_id": "5224586668c2442fae86d2302af02f62-worker-0",
-        "run_id": "43154496691",
-        "claimed_at": "2026-11-12T08:00:41.862269+00:00",
-        "lease_expires_at": "2026-11-12T14:00:41.862282+00:00"
-      },
       "source": {
         "source_id": "33687226",
         "source_url": "https://sdilej.cz/33687226/myslenky-zlocince-s06e19-24-2010-cz-dab-1080p-halucinace.mp4",
@@ -377023,22 +377017,29 @@
         "display_name": "Criminal Minds S06E19 With Friends Like These… 1080p CZ Dabing",
         "prepared_at": "2026-11-12T08:00:53.268047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31000102",
-        "size_bytes": 1542178114
-      },
-      "transfer_receipt": {
-        "target_video_id": "31000102",
-        "size_bytes": 1542178114,
-        "source_bytes_read": 1542178114,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31000102",
         "source_bytes_read": 1542178114,
         "elapsed_seconds": 732.492,
         "finished_at": "2026-11-12T08:13:26.158330+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31000102",
+          "size_bytes": 1542178114,
+          "source_bytes_read": 1542178114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33687226",
+        "source_url": "https://sdilej.cz/33687226/myslenky-zlocince-s06e19-24-2010-cz-dab-1080p-halucinace.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31000102",
+        "display_name": "Criminal Minds S06E19 With Friends Like These… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T08:13:35.612351+00:00"
       }
     },
     "1423:6:20": {
@@ -377149,7 +377150,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T08:13:32.692020+00:00",
+  "updated_at": "2026-11-12T08:13:35.612365+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
