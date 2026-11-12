@@ -384991,12 +384991,6 @@
     },
     "1073:4:19": {
       "episode_key": "zlatá sedmdesátá:s4:e19",
-      "claim": {
-        "worker_id": "55619f82a0394e00b6a4c25d9a65f9bc-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:41:50.340596+00:00",
-        "lease_expires_at": "2026-11-12T19:41:50.340608+00:00"
-      },
       "source": {
         "source_id": "34482742",
         "source_url": "https://sdilej.cz/34482742/zlata-sedmdesata-s04e19.mp4",
@@ -385021,22 +385015,29 @@
         "display_name": "That '70s Show S04E19 Jackie's Cheese Squeeze 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:42:06.180335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31003050",
-        "size_bytes": 181637482
-      },
-      "transfer_receipt": {
-        "target_video_id": "31003050",
-        "size_bytes": 181637482,
-        "source_bytes_read": 181637482,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31003050",
         "source_bytes_read": 181637482,
         "elapsed_seconds": 85.609,
         "finished_at": "2026-11-12T13:43:49.402603+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31003050",
+          "size_bytes": 181637482,
+          "source_bytes_read": 181637482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482742",
+        "source_url": "https://sdilej.cz/34482742/zlata-sedmdesata-s04e19.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31003050",
+        "display_name": "That '70s Show S04E19 Jackie's Cheese Squeeze 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:43:56.108944+00:00"
       }
     }
   },
@@ -385045,7 +385046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:43:53.063009+00:00",
+  "updated_at": "2026-11-12T13:43:56.108957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
