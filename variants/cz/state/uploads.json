@@ -40415,24 +40415,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T12:22:28.157322+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T13:33:26.967484+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T14:44:19.187656+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-12T15:54:48.069190+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "b574ba4058b84e9587d38d42f68433f2-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T15:54:23.041708+00:00",
-        "lease_expires_at": "2026-11-12T21:54:23.041719+00:00"
-      }
+      ]
     },
     "673:5:1": {
       "episode_key": "městečko south park:s5:e1",
@@ -388673,13 +388667,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T15:54:44.906799+00:00",
+  "updated_at": "2026-11-12T15:54:48.069196+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:4:16",
           "at": "2026-11-12T15:54:26.300520+00:00"
+        },
+        {
+          "identity": "673:4:17",
+          "at": "2026-11-12T15:54:48.069156+00:00"
         }
       ],
       "retry_after": "2026-11-12T15:53:58.596940+00:00"
