@@ -390793,12 +390793,6 @@
     },
     "746:2:1": {
       "episode_key": "gentlemani:s2:e1",
-      "claim": {
-        "worker_id": "058a2adf7e9649daa46969801892210e-worker-0",
-        "run_id": "43247075345",
-        "claimed_at": "2026-11-12T17:22:35.605883+00:00",
-        "lease_expires_at": "2026-11-12T23:22:35.605894+00:00"
-      },
       "source": {
         "source_id": "35102070",
         "source_url": "https://sdilej.cz/35102070/gentlemani-s02e01-cesta-k-moci-2160p-dolby-vision-ddp5.1-atmos-en-cz-dabing.mkv",
@@ -390823,22 +390817,29 @@
         "display_name": "The Gentlemen S02E01 The Road to Kingdom 4K CZ Dabing",
         "prepared_at": "2026-11-12T17:22:39.048922+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31004496",
-        "size_bytes": 9467491226
-      },
-      "transfer_receipt": {
-        "target_video_id": "31004496",
-        "size_bytes": 9467491226,
-        "source_bytes_read": 9467491226,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31004496",
         "source_bytes_read": 9467491226,
         "elapsed_seconds": 4649.109,
         "finished_at": "2026-11-12T18:40:24.219536+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31004496",
+          "size_bytes": 9467491226,
+          "source_bytes_read": 9467491226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35102070",
+        "source_url": "https://sdilej.cz/35102070/gentlemani-s02e01-cesta-k-moci-2160p-dolby-vision-ddp5.1-atmos-en-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31004496",
+        "display_name": "The Gentlemen S02E01 The Road to Kingdom 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T18:40:28.371684+00:00"
       }
     },
     "746:2:4": {
@@ -391533,7 +391534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T18:40:24.219557+00:00",
+  "updated_at": "2026-11-12T18:40:28.371702+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
