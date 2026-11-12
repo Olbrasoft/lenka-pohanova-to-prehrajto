@@ -392680,12 +392680,6 @@
     },
     "3700:4:2": {
       "episode_key": "páteční večeře:s4:e2",
-      "claim": {
-        "worker_id": "df6e1bd40e4348358e9fdb13c2c9a129-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T20:19:23.549159+00:00",
-        "lease_expires_at": "2026-11-13T02:19:23.549170+00:00"
-      },
       "source": {
         "source_id": "11137315",
         "source_url": "https://sdilej.cz/11137315/patecni.vecere.04x02.hdtv.cz.avi",
@@ -392710,22 +392704,29 @@
         "display_name": "Friday Night Dinner S04E02 The Carpet Cleaner SD CZ Dabing",
         "prepared_at": "2026-11-12T20:19:30.872522+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31005691",
-        "size_bytes": 392592722
-      },
-      "transfer_receipt": {
-        "target_video_id": "31005691",
-        "size_bytes": 392592722,
-        "source_bytes_read": 392592722,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31005691",
         "source_bytes_read": 392592722,
         "elapsed_seconds": 256.52,
         "finished_at": "2026-11-12T20:24:04.197786+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31005691",
+          "size_bytes": 392592722,
+          "source_bytes_read": 392592722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11137315",
+        "source_url": "https://sdilej.cz/11137315/patecni.vecere.04x02.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31005691",
+        "display_name": "Friday Night Dinner S04E02 The Carpet Cleaner SD CZ Dabing",
+        "uploaded_at": "2026-11-12T20:24:09.446157+00:00"
       }
     },
     "3700:4:6": {
@@ -392859,7 +392860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T20:24:04.197806+00:00",
+  "updated_at": "2026-11-12T20:24:09.446177+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
