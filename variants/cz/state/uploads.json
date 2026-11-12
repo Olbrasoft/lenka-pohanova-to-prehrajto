@@ -372187,12 +372187,6 @@
     },
     "757:3:8": {
       "episode_key": "euforie:s3:e8",
-      "claim": {
-        "worker_id": "c7c3ba5c83be4f73806ad89b3c9ba92a-worker-0",
-        "run_id": "43129114852",
-        "claimed_at": "2026-11-12T03:07:11.032776+00:00",
-        "lease_expires_at": "2026-11-12T09:07:11.032785+00:00"
-      },
       "source": {
         "source_id": "34433834",
         "source_url": "https://sdilej.cz/34433834/euforie-s03e08-in-god-we-trust.mkv",
@@ -372217,22 +372211,29 @@
         "display_name": "Euphoria S03E08 In God We Trust 4K CZ Dabing",
         "prepared_at": "2026-11-12T03:07:16.486765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "30997432",
-        "size_bytes": 4821628913
-      },
-      "transfer_receipt": {
-        "target_video_id": "30997432",
-        "size_bytes": 4821628913,
-        "source_bytes_read": 4821628913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "30997432",
         "source_bytes_read": 4821628913,
         "elapsed_seconds": 1853.409,
         "finished_at": "2026-11-12T03:38:21.555471+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "30997432",
+          "size_bytes": 4821628913,
+          "source_bytes_read": 4821628913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433834",
+        "source_url": "https://sdilej.cz/34433834/euforie-s03e08-in-god-we-trust.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "30997432",
+        "display_name": "Euphoria S03E08 In God We Trust 4K CZ Dabing",
+        "uploaded_at": "2026-11-12T03:38:26.584083+00:00"
       }
     },
     "2950:1:2": {
@@ -372366,7 +372367,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T03:38:21.555490+00:00",
+  "updated_at": "2026-11-12T03:38:26.584098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
