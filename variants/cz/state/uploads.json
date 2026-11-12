@@ -395585,12 +395585,6 @@
     },
     "1402:4:13": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e13",
-      "claim": {
-        "worker_id": "b9f87d958a7a44e5971bfd1f8181e58a-worker-0",
-        "run_id": "43289283544",
-        "claimed_at": "2026-11-12T22:42:35.284423+00:00",
-        "lease_expires_at": "2026-11-13T04:42:35.284433+00:00"
-      },
       "source": {
         "source_id": "35097235",
         "source_url": "https://sdilej.cz/35097235/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e13-079-2003-hd-prohnili-sd-.mp4",
@@ -395614,7 +395608,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S04E13 Rotten 720p CZ Dabing",
         "prepared_at": "2026-11-12T22:42:40.388291+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-12T22:42:52.668063+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "692:1:10": {
       "episode_key": "den šakala:s1:e10",
@@ -395655,7 +395655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T22:42:48.226207+00:00",
+  "updated_at": "2026-11-12T22:42:52.668070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -395907,19 +395907,19 @@
     "1402": {
       "recent_failures": [
         {
-          "identity": "1402:4:8",
-          "at": "2026-11-12T22:41:53.648682+00:00"
-        },
-        {
           "identity": "1402:4:11",
           "at": "2026-11-12T22:42:23.589011+00:00"
         },
         {
           "identity": "1402:4:12",
           "at": "2026-11-12T22:42:31.366364+00:00"
+        },
+        {
+          "identity": "1402:4:13",
+          "at": "2026-11-12T22:42:52.667993+00:00"
         }
       ],
-      "retry_after": "2026-11-12T22:52:31.366364+00:00"
+      "retry_after": "2026-11-12T22:52:52.667993+00:00"
     }
   }
 }
