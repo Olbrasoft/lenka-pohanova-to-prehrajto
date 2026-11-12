@@ -379838,12 +379838,6 @@
     },
     "1423:14:9": {
       "episode_key": "myšlenky zločince:s14:e9",
-      "claim": {
-        "worker_id": "6b50be4b3c624dd39a478e23bb9e7982-worker-0",
-        "run_id": "43182743678",
-        "claimed_at": "2026-11-12T10:55:28.909791+00:00",
-        "lease_expires_at": "2026-11-12T16:55:28.909801+00:00"
-      },
       "source": {
         "source_id": "29479348",
         "source_url": "https://sdilej.cz/29479348/myslenky-zlocince-14x09.mp4",
@@ -379868,22 +379862,29 @@
         "display_name": "Criminal Minds S14E09 Broken Wing 1080p CZ Dabing",
         "prepared_at": "2026-11-12T10:55:32.317457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31001424",
-        "size_bytes": 1565340607
-      },
-      "transfer_receipt": {
-        "target_video_id": "31001424",
-        "size_bytes": 1565340607,
-        "source_bytes_read": 1565340607,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31001424",
         "source_bytes_read": 1565340607,
         "elapsed_seconds": 826.943,
         "finished_at": "2026-11-12T11:09:32.893664+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31001424",
+          "size_bytes": 1565340607,
+          "source_bytes_read": 1565340607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29479348",
+        "source_url": "https://sdilej.cz/29479348/myslenky-zlocince-14x09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31001424",
+        "display_name": "Criminal Minds S14E09 Broken Wing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-12T11:09:41.267836+00:00"
       }
     },
     "1423:14:10": {
@@ -379929,7 +379930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T11:09:35.823277+00:00",
+  "updated_at": "2026-11-12T11:09:41.267850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
