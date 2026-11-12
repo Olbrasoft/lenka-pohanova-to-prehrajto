@@ -382880,12 +382880,6 @@
     },
     "1073:3:3": {
       "episode_key": "zlatá sedmdesátá:s3:e3",
-      "claim": {
-        "worker_id": "448f07ec3cc14c299a6e583f3c69dd0b-worker-0",
-        "run_id": "43208481871",
-        "claimed_at": "2026-11-12T13:05:30.058850+00:00",
-        "lease_expires_at": "2026-11-12T19:05:30.058865+00:00"
-      },
       "source": {
         "source_id": "34482628",
         "source_url": "https://sdilej.cz/34482628/zlata-sedmdesata-s03e3.mp4",
@@ -382910,22 +382904,29 @@
         "display_name": "That '70s Show S03E03 Hyde's Father 720p CZ Dabing",
         "prepared_at": "2026-11-12T13:05:37.013911+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31002529",
-        "size_bytes": 275731986
-      },
-      "transfer_receipt": {
-        "target_video_id": "31002529",
-        "size_bytes": 275731986,
-        "source_bytes_read": 275731986,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31002529",
         "source_bytes_read": 275731986,
         "elapsed_seconds": 177.303,
         "finished_at": "2026-11-12T13:08:54.135523+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31002529",
+          "size_bytes": 275731986,
+          "source_bytes_read": 275731986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34482628",
+        "source_url": "https://sdilej.cz/34482628/zlata-sedmdesata-s03e3.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31002529",
+        "display_name": "That '70s Show S03E03 Hyde's Father 720p CZ Dabing",
+        "uploaded_at": "2026-11-12T13:09:01.294824+00:00"
       }
     },
     "1073:3:4": {
@@ -383035,7 +383036,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-12T13:08:58.569400+00:00",
+  "updated_at": "2026-11-12T13:09:01.294838+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
