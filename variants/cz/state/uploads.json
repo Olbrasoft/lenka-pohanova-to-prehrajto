@@ -420541,12 +420541,6 @@
     },
     "1051:4:4": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e4",
-      "claim": {
-        "worker_id": "b4d9a49d818b48be9b43f01849a5071f-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:55:22.909405+00:00",
-        "lease_expires_at": "2026-11-13T22:55:22.909415+00:00"
-      },
       "source": {
         "source_id": "33220368",
         "source_url": "https://sdilej.cz/33220368/star-trek-hluboky-vesmir-devet-s04e04-25-1995-cz-dab-indisktretnost.avi",
@@ -420571,22 +420565,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E04 Indiscretion 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:55:30.098742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016073",
-        "size_bytes": 700877986
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016073",
-        "size_bytes": 700877986,
-        "source_bytes_read": 700877986,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016073",
         "source_bytes_read": 700877986,
         "elapsed_seconds": 56.51,
         "finished_at": "2026-11-13T16:56:47.037183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016073",
+          "size_bytes": 700877986,
+          "source_bytes_read": 700877986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220368",
+        "source_url": "https://sdilej.cz/33220368/star-trek-hluboky-vesmir-devet-s04e04-25-1995-cz-dab-indisktretnost.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016073",
+        "display_name": "Star Trek: Deep Space Nine S04E04 Indiscretion 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:56:55.106924+00:00"
       }
     },
     "1051:4:5": {
@@ -420669,7 +420670,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:56:50.364676+00:00",
+  "updated_at": "2026-11-13T16:56:55.106940+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
