@@ -411486,12 +411486,6 @@
     },
     "937:2:2": {
       "episode_key": "misfits: zmetci:s2:e2",
-      "claim": {
-        "worker_id": "71409128e62741659664dbe8dec6c89a-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T09:54:49.763996+00:00",
-        "lease_expires_at": "2026-11-13T15:54:49.764008+00:00"
-      },
       "source": {
         "source_id": "33078410",
         "source_url": "https://sdilej.cz/33078410/misfits-s02e02-cz-dabing.mkv",
@@ -411516,22 +411510,29 @@
         "display_name": "Misfits S02E02 Episode Two 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:55:01.461774+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011416",
-        "size_bytes": 799089545
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011416",
-        "size_bytes": 799089545,
-        "source_bytes_read": 799089545,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011416",
         "source_bytes_read": 799089545,
         "elapsed_seconds": 533.568,
         "finished_at": "2026-11-13T10:04:15.468036+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011416",
+          "size_bytes": 799089545,
+          "source_bytes_read": 799089545,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33078410",
+        "source_url": "https://sdilej.cz/33078410/misfits-s02e02-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011416",
+        "display_name": "Misfits S02E02 Episode Two 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T10:04:28.479826+00:00"
       }
     },
     "937:1:6": {
@@ -411642,7 +411643,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T10:04:25.216054+00:00",
+  "updated_at": "2026-11-13T10:04:28.479841+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
