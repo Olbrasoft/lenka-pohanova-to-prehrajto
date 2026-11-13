@@ -433430,12 +433430,6 @@
     },
     "1411:4:11": {
       "episode_key": "případy detektiva murdocha:s4:e11",
-      "claim": {
-        "worker_id": "180aca293c604b5fb462b7c035e9c08a-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:57:35.241376+00:00",
-        "lease_expires_at": "2026-11-14T04:57:35.241384+00:00"
-      },
       "source": {
         "source_id": "14038031",
         "source_url": "https://sdilej.cz/14038031/pripady-detektiva-murdocha-4x11.krveziznivost-bloodlust-.avi",
@@ -433460,22 +433454,29 @@
         "display_name": "Murdoch Mysteries S04E11 Bloodlust SD CZ Dabing",
         "prepared_at": "2026-11-13T22:57:38.722859+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020759",
-        "size_bytes": 400793156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020759",
-        "size_bytes": 400793156,
-        "source_bytes_read": 400793156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020759",
         "source_bytes_read": 400793156,
         "elapsed_seconds": 19.155,
         "finished_at": "2026-11-13T22:58:14.312351+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020759",
+          "size_bytes": 400793156,
+          "source_bytes_read": 400793156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14038031",
+        "source_url": "https://sdilej.cz/14038031/pripady-detektiva-murdocha-4x11.krveziznivost-bloodlust-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020759",
+        "display_name": "Murdoch Mysteries S04E11 Bloodlust SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:58:28.041553+00:00"
       }
     },
     "1411:4:12": {
@@ -433550,7 +433551,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:58:23.979729+00:00",
+  "updated_at": "2026-11-13T22:58:28.041572+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
