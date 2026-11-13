@@ -410813,12 +410813,6 @@
     },
     "462:11:17": {
       "episode_key": "ženatý se závazky:s11:e17",
-      "claim": {
-        "worker_id": "87a78296e0584d2399fc0d4885c1e37d-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:31:00.425001+00:00",
-        "lease_expires_at": "2026-11-13T15:31:00.425011+00:00"
-      },
       "source": {
         "source_id": "35326827",
         "source_url": "https://sdilej.cz/35326827/zenaty-se-zavazky-s11e17-peg-a-soutez-stripterek.mkv",
@@ -410843,22 +410837,29 @@
         "display_name": "Married… with Children S11E17 Live Nude Peg 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:31:08.123971+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011180",
-        "size_bytes": 375408920
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011180",
-        "size_bytes": 375408920,
-        "source_bytes_read": 375408920,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011180",
         "source_bytes_read": 375408920,
         "elapsed_seconds": 187.975,
         "finished_at": "2026-11-13T09:34:39.371979+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011180",
+          "size_bytes": 375408920,
+          "source_bytes_read": 375408920,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326827",
+        "source_url": "https://sdilej.cz/35326827/zenaty-se-zavazky-s11e17-peg-a-soutez-stripterek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011180",
+        "display_name": "Married… with Children S11E17 Live Nude Peg 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:34:47.393695+00:00"
       }
     },
     "462:11:18": {
@@ -410918,7 +410919,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:34:44.453253+00:00",
+  "updated_at": "2026-11-13T09:34:47.393710+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
