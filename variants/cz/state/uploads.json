@@ -287660,24 +287660,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T20:53:25.244406+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-12T21:54:55.399028+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-12T22:59:11.439020+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T00:00:22.654407+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "401d13b591964da886e5876132449aa2-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:00:08.417685+00:00",
-        "lease_expires_at": "2026-11-13T06:00:08.417696+00:00"
-      }
+      ]
     },
     "1500:1:8": {
       "episode_key": "ze země na měsíc:s1:e8",
@@ -396297,7 +396291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:00:11.905590+00:00",
+  "updated_at": "2026-11-13T00:00:22.654413+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -396434,6 +396428,10 @@
         {
           "identity": "1500:1:6",
           "at": "2026-11-12T23:59:58.745348+00:00"
+        },
+        {
+          "identity": "1500:1:7",
+          "at": "2026-11-13T00:00:22.654377+00:00"
         }
       ],
       "retry_after": "2026-11-12T23:09:46.515479+00:00"
