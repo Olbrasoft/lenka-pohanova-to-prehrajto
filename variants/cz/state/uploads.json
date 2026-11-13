@@ -421153,12 +421153,6 @@
     },
     "1051:4:19": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e19",
-      "claim": {
-        "worker_id": "efbb398cadda4feabca5672511c16515-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:06:27.004922+00:00",
-        "lease_expires_at": "2026-11-13T23:06:27.004934+00:00"
-      },
       "source": {
         "source_id": "33220416",
         "source_url": "https://sdilej.cz/33220416/star-trek-hluboky-vesmir-devet-s04e19-25-1995-cz-dab-roztristene-zrcadlo.avi",
@@ -421183,22 +421177,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E19 Shattered Mirror 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:06:31.148940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016309",
-        "size_bytes": 666634234
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016309",
-        "size_bytes": 666634234,
-        "source_bytes_read": 666634234,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016309",
         "source_bytes_read": 666634234,
         "elapsed_seconds": 76.605,
         "finished_at": "2026-11-13T17:08:02.270884+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016309",
+          "size_bytes": 666634234,
+          "source_bytes_read": 666634234,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220416",
+        "source_url": "https://sdilej.cz/33220416/star-trek-hluboky-vesmir-devet-s04e19-25-1995-cz-dab-roztristene-zrcadlo.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016309",
+        "display_name": "Star Trek: Deep Space Nine S04E19 Shattered Mirror 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:08:09.303030+00:00"
       }
     },
     "1051:4:20": {
@@ -421282,7 +421283,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:08:05.047713+00:00",
+  "updated_at": "2026-11-13T17:08:09.303048+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
