@@ -406027,12 +406027,6 @@
     },
     "462:7:22": {
       "episode_key": "ženatý se závazky:s7:e22",
-      "claim": {
-        "worker_id": "697ae183dc68485b85656d4faf1e9430-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:32:11.788150+00:00",
-        "lease_expires_at": "2026-11-13T12:32:11.788159+00:00"
-      },
       "source": {
         "source_id": "33523228",
         "source_url": "https://sdilej.cz/33523228/zenaty-se-zavazky-s07e22-153-1993-hd-dokud-nas-smrt-nerozdeli-s-.mp4",
@@ -406057,22 +406051,29 @@
         "display_name": "Married… with Children S07E22 'Til Death Do Us Part 720p CZ Dabing",
         "prepared_at": "2026-11-13T06:32:18.014994+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009811",
-        "size_bytes": 507200261
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009811",
-        "size_bytes": 507200261,
-        "source_bytes_read": 507200261,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009811",
         "source_bytes_read": 507200261,
         "elapsed_seconds": 288.488,
         "finished_at": "2026-11-13T06:37:20.471450+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009811",
+          "size_bytes": 507200261,
+          "source_bytes_read": 507200261,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523228",
+        "source_url": "https://sdilej.cz/33523228/zenaty-se-zavazky-s07e22-153-1993-hd-dokud-nas-smrt-nerozdeli-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009811",
+        "display_name": "Married… with Children S07E22 'Til Death Do Us Part 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:37:26.279052+00:00"
       }
     }
   },
@@ -406081,7 +406082,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:37:23.386895+00:00",
+  "updated_at": "2026-11-13T06:37:26.279065+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
