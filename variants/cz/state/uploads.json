@@ -427469,12 +427469,6 @@
     },
     "166:1:7": {
       "episode_key": "dexter: original sin:s1:e7",
-      "claim": {
-        "worker_id": "664ef1cd72204d63a193dff48a2e2e3c-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:29:13.090426+00:00",
-        "lease_expires_at": "2026-11-14T03:29:13.090441+00:00"
-      },
       "source": {
         "source_id": "30812136",
         "source_url": "https://sdilej.cz/30812136/dexter-original-sin-s01e07-cz-dabing.mp4",
@@ -427499,22 +427493,29 @@
         "display_name": "Dexter: Original Sin S01E07 The Big Bad Body Problem 1080p CZ Dabing",
         "prepared_at": "2026-11-13T21:29:16.721318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019054",
-        "size_bytes": 1324789728
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019054",
-        "size_bytes": 1324789728,
-        "source_bytes_read": 1324789728,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019054",
         "source_bytes_read": 1324789728,
         "elapsed_seconds": 55.768,
         "finished_at": "2026-11-13T21:30:25.935274+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019054",
+          "size_bytes": 1324789728,
+          "source_bytes_read": 1324789728,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30812136",
+        "source_url": "https://sdilej.cz/30812136/dexter-original-sin-s01e07-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019054",
+        "display_name": "Dexter: Original Sin S01E07 The Big Bad Body Problem 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:30:30.998824+00:00"
       }
     },
     "166:1:8": {
@@ -427560,7 +427561,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:30:25.935295+00:00",
+  "updated_at": "2026-11-13T21:30:30.998844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
