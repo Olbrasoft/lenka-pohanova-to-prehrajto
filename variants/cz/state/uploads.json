@@ -406324,12 +406324,6 @@
     },
     "462:8:3": {
       "episode_key": "ženatý se závazky:s8:e3",
-      "claim": {
-        "worker_id": "058ff82226294bebb863244524d7e848-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:43:30.874820+00:00",
-        "lease_expires_at": "2026-11-13T12:43:30.874830+00:00"
-      },
       "source": {
         "source_id": "35326670",
         "source_url": "https://sdilej.cz/35326670/zenaty-se-zavazky-s08e03-hrdy-na-sveho-buda.mkv",
@@ -406354,22 +406348,29 @@
         "display_name": "Married… with Children S08E03 Proud to Be Your Bud 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:43:39.407088+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009883",
-        "size_bytes": 315178954
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009883",
-        "size_bytes": 315178954,
-        "source_bytes_read": 315178954,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009883",
         "source_bytes_read": 315178954,
         "elapsed_seconds": 170.561,
         "finished_at": "2026-11-13T06:46:48.625810+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009883",
+          "size_bytes": 315178954,
+          "source_bytes_read": 315178954,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326670",
+        "source_url": "https://sdilej.cz/35326670/zenaty-se-zavazky-s08e03-hrdy-na-sveho-buda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009883",
+        "display_name": "Married… with Children S08E03 Proud to Be Your Bud 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:47:02.378159+00:00"
       }
     }
   },
@@ -406378,7 +406379,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:46:59.593303+00:00",
+  "updated_at": "2026-11-13T06:47:02.378174+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
