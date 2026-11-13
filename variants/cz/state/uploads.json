@@ -420898,12 +420898,6 @@
     },
     "1051:4:13": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e13",
-      "claim": {
-        "worker_id": "005e6c825c52442ebd413483e3f59943-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:03:59.506573+00:00",
-        "lease_expires_at": "2026-11-13T23:03:59.506586+00:00"
-      },
       "source": {
         "source_id": "33220393",
         "source_url": "https://sdilej.cz/33220393/star-trek-hluboky-vesmir-devet-s04e13-25-1995-cz-dab-navratna-vysluni.avi",
@@ -420928,22 +420922,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E13 Return to Grace 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:04:03.178848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016247",
-        "size_bytes": 562005254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016247",
-        "size_bytes": 562005254,
-        "source_bytes_read": 562005254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016247",
         "source_bytes_read": 562005254,
         "elapsed_seconds": 56.156,
         "finished_at": "2026-11-13T17:05:13.723228+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016247",
+          "size_bytes": 562005254,
+          "source_bytes_read": 562005254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220393",
+        "source_url": "https://sdilej.cz/33220393/star-trek-hluboky-vesmir-devet-s04e13-25-1995-cz-dab-navratna-vysluni.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016247",
+        "display_name": "Star Trek: Deep Space Nine S04E13 Return to Grace 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:05:19.645846+00:00"
       }
     },
     "1051:4:14": {
@@ -421026,7 +421027,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:05:13.723249+00:00",
+  "updated_at": "2026-11-13T17:05:19.645863+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
