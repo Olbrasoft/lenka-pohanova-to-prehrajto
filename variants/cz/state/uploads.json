@@ -406274,12 +406274,6 @@
     },
     "462:8:2": {
       "episode_key": "ženatý se závazky:s8:e2",
-      "claim": {
-        "worker_id": "29725184b08a42a992735cbf766d4771-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:43:20.599234+00:00",
-        "lease_expires_at": "2026-11-13T12:43:20.599245+00:00"
-      },
       "source": {
         "source_id": "35326669",
         "source_url": "https://sdilej.cz/35326669/zenaty-se-zavazky-s08e02-ray-rayuv-gang.mkv",
@@ -406304,22 +406298,29 @@
         "display_name": "Married… with Children S08E02 Hood 'n the Boyz 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:43:28.045941+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009882",
-        "size_bytes": 354287618
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009882",
-        "size_bytes": 354287618,
-        "source_bytes_read": 354287618,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009882",
         "source_bytes_read": 354287618,
         "elapsed_seconds": 182.895,
         "finished_at": "2026-11-13T06:46:52.346629+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009882",
+          "size_bytes": 354287618,
+          "source_bytes_read": 354287618,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326669",
+        "source_url": "https://sdilej.cz/35326669/zenaty-se-zavazky-s08e02-ray-rayuv-gang.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009882",
+        "display_name": "Married… with Children S08E02 Hood 'n the Boyz 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:47:05.726178+00:00"
       }
     },
     "462:8:3": {
@@ -406379,7 +406380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:47:02.378174+00:00",
+  "updated_at": "2026-11-13T06:47:05.726193+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
