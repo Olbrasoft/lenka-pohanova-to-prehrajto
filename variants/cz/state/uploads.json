@@ -426571,12 +426571,6 @@
     },
     "2231:4:3": {
       "episode_key": "star wars: povstalci:s4:e3",
-      "claim": {
-        "worker_id": "f95323311f72433cb18fa60e57516741-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T20:47:49.142476+00:00",
-        "lease_expires_at": "2026-11-14T02:47:49.142487+00:00"
-      },
       "source": {
         "source_id": "29132071",
         "source_url": "https://sdilej.cz/29132071/star-wars-povstalci-s04e03-cz.mkv",
@@ -426601,22 +426595,29 @@
         "display_name": "Star Wars Rebels S04E03 In the Name of the Rebellion (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T20:47:58.537250+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018713",
-        "size_bytes": 894902116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018713",
-        "size_bytes": 894902116,
-        "source_bytes_read": 894902116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018713",
         "source_bytes_read": 894902116,
         "elapsed_seconds": 387.917,
         "finished_at": "2026-11-13T20:54:42.739222+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018713",
+          "size_bytes": 894902116,
+          "source_bytes_read": 894902116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29132071",
+        "source_url": "https://sdilej.cz/29132071/star-wars-povstalci-s04e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018713",
+        "display_name": "Star Wars Rebels S04E03 In the Name of the Rebellion (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T20:54:51.652621+00:00"
       }
     },
     "2231:4:4": {
@@ -426662,7 +426663,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T20:54:48.796879+00:00",
+  "updated_at": "2026-11-13T20:54:51.652636+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
