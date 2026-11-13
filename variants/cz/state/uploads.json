@@ -397456,12 +397456,6 @@
     },
     "1177:3:10": {
       "episode_key": "batesův motel:s3:e10",
-      "claim": {
-        "worker_id": "dcfc2794a08a447d9458d1a4ee69fe33-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:26:12.122742+00:00",
-        "lease_expires_at": "2026-11-13T07:26:12.122752+00:00"
-      },
       "source": {
         "source_id": "28647501",
         "source_url": "https://sdilej.cz/28647501/batesuv-motel-bates-motel-s03e10-hd-cz-dabing.mkv",
@@ -397486,22 +397480,29 @@
         "display_name": "Bates Motel S03E10 Unconscious 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:26:15.898163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007888",
-        "size_bytes": 835143397
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007888",
-        "size_bytes": 835143397,
-        "source_bytes_read": 835143397,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007888",
         "source_bytes_read": 835143397,
         "elapsed_seconds": 334.964,
         "finished_at": "2026-11-13T01:32:04.317129+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007888",
+          "size_bytes": 835143397,
+          "source_bytes_read": 835143397,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28647501",
+        "source_url": "https://sdilej.cz/28647501/batesuv-motel-bates-motel-s03e10-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007888",
+        "display_name": "Bates Motel S03E10 Unconscious 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:32:10.219073+00:00"
       }
     },
     "1177:4:1": {
@@ -397584,7 +397585,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:32:04.317147+00:00",
+  "updated_at": "2026-11-13T01:32:10.219088+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
