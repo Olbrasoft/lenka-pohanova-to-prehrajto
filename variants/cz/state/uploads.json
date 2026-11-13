@@ -423352,12 +423352,6 @@
     },
     "1051:7:22": {
       "episode_key": "star trek: hluboký vesmír devět:s7:e22",
-      "claim": {
-        "worker_id": "3dfc11681cce4190a92f709b002734c8-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:49:35.505357+00:00",
-        "lease_expires_at": "2026-11-13T23:49:35.505368+00:00"
-      },
       "source": {
         "source_id": "33220664",
         "source_url": "https://sdilej.cz/33220664/star-trek-hluboky-vesmir-devet-s07e22-26-1998-cz-dab-proti-vetru.mkv",
@@ -423382,22 +423376,29 @@
         "display_name": "Star Trek: Deep Space Nine S07E22 Tacking Into the Wind SD CZ Dabing",
         "prepared_at": "2026-11-13T17:49:42.232146+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017158",
-        "size_bytes": 468075462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017158",
-        "size_bytes": 468075462,
-        "source_bytes_read": 468075462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017158",
         "source_bytes_read": 468075462,
         "elapsed_seconds": 137.477,
         "finished_at": "2026-11-13T17:52:19.986281+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017158",
+          "size_bytes": 468075462,
+          "source_bytes_read": 468075462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220664",
+        "source_url": "https://sdilej.cz/33220664/star-trek-hluboky-vesmir-devet-s07e22-26-1998-cz-dab-proti-vetru.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017158",
+        "display_name": "Star Trek: Deep Space Nine S07E22 Tacking Into the Wind SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:52:27.313511+00:00"
       }
     },
     "1051:7:23": {
@@ -423452,7 +423453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:52:24.049790+00:00",
+  "updated_at": "2026-11-13T17:52:27.313533+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
