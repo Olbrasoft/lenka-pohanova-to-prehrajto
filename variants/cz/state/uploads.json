@@ -421515,12 +421515,6 @@
     },
     "1051:5:13": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e13",
-      "claim": {
-        "worker_id": "82834119244c4cd98e229b7bad8636eb-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:12:19.964933+00:00",
-        "lease_expires_at": "2026-11-13T23:12:19.964948+00:00"
-      },
       "source": {
         "source_id": "33220496",
         "source_url": "https://sdilej.cz/33220496/star-trek-hluboky-vesmir-devet-s05e13-26-1996-cz-dab-kvuli-uniforme.mkv",
@@ -421545,22 +421539,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E13 For the Uniform SD CZ Dabing",
         "prepared_at": "2026-11-13T17:12:42.743286+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016415",
-        "size_bytes": 463302254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016415",
-        "size_bytes": 463302254,
-        "source_bytes_read": 463302254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016415",
         "source_bytes_read": 463302254,
         "elapsed_seconds": 37.77,
         "finished_at": "2026-11-13T17:13:40.256274+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016415",
+          "size_bytes": 463302254,
+          "source_bytes_read": 463302254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220496",
+        "source_url": "https://sdilej.cz/33220496/star-trek-hluboky-vesmir-devet-s05e13-26-1996-cz-dab-kvuli-uniforme.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016415",
+        "display_name": "Star Trek: Deep Space Nine S05E13 For the Uniform SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:13:51.413090+00:00"
       }
     },
     "1051:5:15": {
@@ -421656,7 +421657,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:13:45.376914+00:00",
+  "updated_at": "2026-11-13T17:13:51.413111+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
