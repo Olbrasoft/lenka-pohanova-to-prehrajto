@@ -411162,12 +411162,6 @@
     },
     "462:11:24": {
       "episode_key": "ženatý se závazky:s11:e24",
-      "claim": {
-        "worker_id": "5e35c676c6294d6b9442ad15db1e8197-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:40:11.672799+00:00",
-        "lease_expires_at": "2026-11-13T15:40:11.672811+00:00"
-      },
       "source": {
         "source_id": "35326837",
         "source_url": "https://sdilej.cz/35326837/zenaty-se-zavazky-s11e24-chicagska-botova-vymena.mkv",
@@ -411192,22 +411186,29 @@
         "display_name": "Married… with Children S11E24 Chicago Shoe Exchange 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:40:18.337258+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011251",
-        "size_bytes": 354750500
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011251",
-        "size_bytes": 354750500,
-        "source_bytes_read": 354750500,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011251",
         "source_bytes_read": 354750500,
         "elapsed_seconds": 221.544,
         "finished_at": "2026-11-13T09:44:12.645097+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011251",
+          "size_bytes": 354750500,
+          "source_bytes_read": 354750500,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326837",
+        "source_url": "https://sdilej.cz/35326837/zenaty-se-zavazky-s11e24-chicagska-botova-vymena.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011251",
+        "display_name": "Married… with Children S11E24 Chicago Shoe Exchange 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:44:23.062021+00:00"
       }
     }
   },
@@ -411216,7 +411217,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:44:20.244923+00:00",
+  "updated_at": "2026-11-13T09:44:23.062035+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
