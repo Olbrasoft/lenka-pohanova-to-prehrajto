@@ -397354,12 +397354,6 @@
     },
     "1177:3:8": {
       "episode_key": "batesův motel:s3:e8",
-      "claim": {
-        "worker_id": "b2480a3098fe44b899910651ff716a2c-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:23:11.973932+00:00",
-        "lease_expires_at": "2026-11-13T07:23:11.973942+00:00"
-      },
       "source": {
         "source_id": "33960816",
         "source_url": "https://sdilej.cz/33960816/batesuv-motel-2015-s03e08-czdab.1080p-jama.mkv",
@@ -397384,22 +397378,29 @@
         "display_name": "Bates Motel S03E08 The Pit 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:23:19.445389+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007872",
-        "size_bytes": 879535890
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007872",
-        "size_bytes": 879535890,
-        "source_bytes_read": 879535890,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007872",
         "source_bytes_read": 879535890,
         "elapsed_seconds": 330.395,
         "finished_at": "2026-11-13T01:29:07.602795+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007872",
+          "size_bytes": 879535890,
+          "source_bytes_read": 879535890,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33960816",
+        "source_url": "https://sdilej.cz/33960816/batesuv-motel-2015-s03e08-czdab.1080p-jama.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007872",
+        "display_name": "Bates Motel S03E08 The Pit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:29:12.025359+00:00"
       }
     },
     "1177:3:9": {
@@ -397533,7 +397534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:29:07.602812+00:00",
+  "updated_at": "2026-11-13T01:29:12.025374+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
