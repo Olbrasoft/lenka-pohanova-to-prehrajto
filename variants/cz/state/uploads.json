@@ -414138,12 +414138,6 @@
     },
     "1700:1:2": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e2",
-      "claim": {
-        "worker_id": "0cf7da8b3a954127b0b1471ba7c56afb-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:46:44.622733+00:00",
-        "lease_expires_at": "2026-11-13T18:46:44.622743+00:00"
-      },
       "source": {
         "source_id": "27763581",
         "source_url": "https://sdilej.cz/27763581/scooby-doo-zahady-s.-r.-o.-s01e02-strasidla-1080p-web-dl-cz-dabing.mkv",
@@ -414168,22 +414162,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E02 The Creeping Creatures 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:46:48.394322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012547",
-        "size_bytes": 757065952
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012547",
-        "size_bytes": 757065952,
-        "source_bytes_read": 757065952,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012547",
         "source_bytes_read": 757065952,
         "elapsed_seconds": 416.21,
         "finished_at": "2026-11-13T12:53:58.853989+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012547",
+          "size_bytes": 757065952,
+          "source_bytes_read": 757065952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27763581",
+        "source_url": "https://sdilej.cz/27763581/scooby-doo-zahady-s.-r.-o.-s01e02-strasidla-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012547",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E02 The Creeping Creatures 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:54:09.155228+00:00"
       }
     },
     "1700:1:4": {
@@ -414229,7 +414230,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:54:05.923242+00:00",
+  "updated_at": "2026-11-13T12:54:09.155245+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
