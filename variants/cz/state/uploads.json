@@ -414081,12 +414081,6 @@
     },
     "1700:1:1": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e1",
-      "claim": {
-        "worker_id": "1c0fbe6b515e430795fd145abb100d9d-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:45:25.005610+00:00",
-        "lease_expires_at": "2026-11-13T18:45:25.005621+00:00"
-      },
       "source": {
         "source_id": "27779050",
         "source_url": "https://sdilej.cz/27779050/scooby-doo-zahady-s.-r.-o.-s01e01-pozor-na-priseru-z-podzemi-1080p-web-dl-cz-dabing.mkv",
@@ -414111,22 +414105,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E01 Beware the Beast from Below 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:45:29.012835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012539",
-        "size_bytes": 842929812
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012539",
-        "size_bytes": 842929812,
-        "source_bytes_read": 842929812,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012539",
         "source_bytes_read": 842929812,
         "elapsed_seconds": 477.915,
         "finished_at": "2026-11-13T12:53:41.711967+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012539",
+          "size_bytes": 842929812,
+          "source_bytes_read": 842929812,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779050",
+        "source_url": "https://sdilej.cz/27779050/scooby-doo-zahady-s.-r.-o.-s01e01-pozor-na-priseru-z-podzemi-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012539",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E01 Beware the Beast from Below 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:53:49.249073+00:00"
       }
     },
     "1700:1:2": {
@@ -414209,7 +414210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:53:41.711985+00:00",
+  "updated_at": "2026-11-13T12:53:49.249089+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
