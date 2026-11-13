@@ -431549,12 +431549,6 @@
     },
     "1411:1:8": {
       "episode_key": "případy detektiva murdocha:s1:e8",
-      "claim": {
-        "worker_id": "cd11679041034d54ac30893b369a49a0-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:28:15.144516+00:00",
-        "lease_expires_at": "2026-11-14T04:28:15.144525+00:00"
-      },
       "source": {
         "source_id": "13946272",
         "source_url": "https://sdilej.cz/13946272/pripady-detektiva-murdocha-s01e08-tiche-vody-sd-.avi",
@@ -431579,22 +431573,29 @@
         "display_name": "Murdoch Mysteries S01E08 Still Waters SD CZ Dabing",
         "prepared_at": "2026-11-13T22:28:21.437444+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020301",
-        "size_bytes": 368670720
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020301",
-        "size_bytes": 368670720,
-        "source_bytes_read": 368670720,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020301",
         "source_bytes_read": 368670720,
         "elapsed_seconds": 21.186,
         "finished_at": "2026-11-13T22:28:58.662602+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020301",
+          "size_bytes": 368670720,
+          "source_bytes_read": 368670720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13946272",
+        "source_url": "https://sdilej.cz/13946272/pripady-detektiva-murdocha-s01e08-tiche-vody-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020301",
+        "display_name": "Murdoch Mysteries S01E08 Still Waters SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:29:09.452281+00:00"
       }
     },
     "1411:1:9": {
@@ -431654,7 +431655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:29:04.446541+00:00",
+  "updated_at": "2026-11-13T22:29:09.452308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
