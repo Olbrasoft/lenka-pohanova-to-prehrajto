@@ -409487,12 +409487,6 @@
     },
     "462:10:16": {
       "episode_key": "ženatý se závazky:s10:e16",
-      "claim": {
-        "worker_id": "46dfe0afcbe5471f8401ab8ddab93939-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:39:33.291486+00:00",
-        "lease_expires_at": "2026-11-13T14:39:33.291495+00:00"
-      },
       "source": {
         "source_id": "35326778",
         "source_url": "https://sdilej.cz/35326778/zenaty-se-zavazky-s10e16-kalendar.mkv",
@@ -409517,22 +409511,29 @@
         "display_name": "Married… with Children S10E16 Calendar Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:39:39.313682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010747",
-        "size_bytes": 334933398
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010747",
-        "size_bytes": 334933398,
-        "source_bytes_read": 334933398,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010747",
         "source_bytes_read": 334933398,
         "elapsed_seconds": 212.992,
         "finished_at": "2026-11-13T08:43:28.376781+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010747",
+          "size_bytes": 334933398,
+          "source_bytes_read": 334933398,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326778",
+        "source_url": "https://sdilej.cz/35326778/zenaty-se-zavazky-s10e16-kalendar.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010747",
+        "display_name": "Married… with Children S10E16 Calendar Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:43:34.527387+00:00"
       }
     },
     "462:10:17": {
@@ -409615,7 +409616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:43:28.376800+00:00",
+  "updated_at": "2026-11-13T08:43:34.527404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
