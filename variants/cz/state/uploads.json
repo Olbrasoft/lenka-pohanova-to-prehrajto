@@ -412857,12 +412857,6 @@
     },
     "937:5:4": {
       "episode_key": "misfits: zmetci:s5:e4",
-      "claim": {
-        "worker_id": "8cee76b2d8504e5aa5613853178226d5-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T11:41:14.707362+00:00",
-        "lease_expires_at": "2026-11-13T17:41:14.707378+00:00"
-      },
       "source": {
         "source_id": "33078555",
         "source_url": "https://sdilej.cz/33078555/misfits-s05e04-cz-dabing.mkv",
@@ -412887,22 +412881,29 @@
         "display_name": "Misfits S05E04 Episode Four 1080p CZ Dabing",
         "prepared_at": "2026-11-13T11:41:19.510282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012080",
-        "size_bytes": 653689203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012080",
-        "size_bytes": 653689203,
-        "source_bytes_read": 653689203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012080",
         "source_bytes_read": 653689203,
         "elapsed_seconds": 341.544,
         "finished_at": "2026-11-13T11:47:21.513631+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012080",
+          "size_bytes": 653689203,
+          "source_bytes_read": 653689203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33078555",
+        "source_url": "https://sdilej.cz/33078555/misfits-s05e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012080",
+        "display_name": "Misfits S05E04 Episode Four 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T11:47:28.405584+00:00"
       }
     },
     "937:5:5": {
@@ -412999,7 +413000,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T11:47:21.513650+00:00",
+  "updated_at": "2026-11-13T11:47:28.405600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
