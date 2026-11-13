@@ -408146,12 +408146,6 @@
     },
     "462:9:16": {
       "episode_key": "ženatý se závazky:s9:e16",
-      "claim": {
-        "worker_id": "91289ade98e944e7a023e15aced2b0a2-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:48:52.346945+00:00",
-        "lease_expires_at": "2026-11-13T13:48:52.346955+00:00"
-      },
       "source": {
         "source_id": "35326736",
         "source_url": "https://sdilej.cz/35326736/zenaty-se-zavazky-s09e16-ztraceny-dodge.mkv",
@@ -408176,22 +408170,29 @@
         "display_name": "Married… with Children S09E16 Get the Dodge Outta Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:48:59.249405+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010367",
-        "size_bytes": 389821976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010367",
-        "size_bytes": 389821976,
-        "source_bytes_read": 389821976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010367",
         "source_bytes_read": 389821976,
         "elapsed_seconds": 166.628,
         "finished_at": "2026-11-13T07:52:10.066240+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010367",
+          "size_bytes": 389821976,
+          "source_bytes_read": 389821976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326736",
+        "source_url": "https://sdilej.cz/35326736/zenaty-se-zavazky-s09e16-ztraceny-dodge.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010367",
+        "display_name": "Married… with Children S09E16 Get the Dodge Outta Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:52:17.423380+00:00"
       }
     }
   },
@@ -408200,7 +408201,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:52:13.095699+00:00",
+  "updated_at": "2026-11-13T07:52:17.423395+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
