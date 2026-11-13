@@ -137232,24 +137232,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T02:56:27.787962+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T03:56:59.965271+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T04:57:49.061071+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T06:00:26.219343+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "83195beaaebd4eb4aa94273ad4f92195-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T06:00:05.317373+00:00",
-        "lease_expires_at": "2026-11-13T12:00:05.317383+00:00"
-      }
+      ]
     },
     "1067:3:9": {
       "episode_key": "taková moderní rodinka:s3:e9",
@@ -405297,7 +405291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:00:22.999582+00:00",
+  "updated_at": "2026-11-13T06:00:26.219349+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -405362,6 +405356,10 @@
         {
           "identity": "1067:1:8",
           "at": "2026-11-13T06:00:22.999536+00:00"
+        },
+        {
+          "identity": "1067:3:8",
+          "at": "2026-11-13T06:00:26.219309+00:00"
         }
       ],
       "retry_after": "2026-11-13T05:09:26.931132+00:00"
