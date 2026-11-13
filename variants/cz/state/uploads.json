@@ -410105,12 +410105,6 @@
     },
     "462:11:3": {
       "episode_key": "ženatý se závazky:s11:e3",
-      "claim": {
-        "worker_id": "91eb6d7c53d8498a8451db01f8eeda29-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:57:25.216121+00:00",
-        "lease_expires_at": "2026-11-13T14:57:25.216131+00:00"
-      },
       "source": {
         "source_id": "35326804",
         "source_url": "https://sdilej.cz/35326804/zenaty-se-zavazky-s11e03-kellyina-reklama.mkv",
@@ -410135,22 +410129,29 @@
         "display_name": "Married… with Children S11E03 Kelly's Gotta Habit 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:57:28.542497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010903",
-        "size_bytes": 347821405
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010903",
-        "size_bytes": 347821405,
-        "source_bytes_read": 347821405,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010903",
         "source_bytes_read": 347821405,
         "elapsed_seconds": 200.111,
         "finished_at": "2026-11-13T09:01:06.828039+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010903",
+          "size_bytes": 347821405,
+          "source_bytes_read": 347821405,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326804",
+        "source_url": "https://sdilej.cz/35326804/zenaty-se-zavazky-s11e03-kellyina-reklama.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010903",
+        "display_name": "Married… with Children S11E03 Kelly's Gotta Habit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:01:16.907550+00:00"
       }
     }
   },
@@ -410159,7 +410160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:01:13.940100+00:00",
+  "updated_at": "2026-11-13T09:01:16.907565+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
