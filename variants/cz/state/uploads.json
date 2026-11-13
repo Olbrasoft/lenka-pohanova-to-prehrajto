@@ -399802,12 +399802,6 @@
     },
     "462:2:2": {
       "episode_key": "ženatý se závazky:s2:e2",
-      "claim": {
-        "worker_id": "d468036cef0f474db86c5345014f8624-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T03:01:41.097486+00:00",
-        "lease_expires_at": "2026-11-13T09:01:41.097495+00:00"
-      },
       "source": {
         "source_id": "27748519",
         "source_url": "https://sdilej.cz/27748519/zenaty-se-zavazky-s02e02.mkv",
@@ -399832,22 +399826,29 @@
         "display_name": "Married… with Children S02E02 Poppy's by the Tree (2) SD CZ Dabing",
         "prepared_at": "2026-11-13T03:01:50.341116+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008470",
-        "size_bytes": 256962040
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008470",
-        "size_bytes": 256962040,
-        "source_bytes_read": 256962040,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008470",
         "source_bytes_read": 256962040,
         "elapsed_seconds": 124.708,
         "finished_at": "2026-11-13T03:04:14.418200+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008470",
+          "size_bytes": 256962040,
+          "source_bytes_read": 256962040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748519",
+        "source_url": "https://sdilej.cz/27748519/zenaty-se-zavazky-s02e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008470",
+        "display_name": "Married… with Children S02E02 Poppy's by the Tree (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:04:20.345706+00:00"
       }
     },
     "462:2:4": {
@@ -399906,7 +399907,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:04:14.418227+00:00",
+  "updated_at": "2026-11-13T03:04:20.345719+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
