@@ -403401,12 +403401,6 @@
     },
     "462:5:18": {
       "episode_key": "ženatý se závazky:s5:e18",
-      "claim": {
-        "worker_id": "aef8fafbf1904b299f37f431d9b7bbc4-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:57:59.148921+00:00",
-        "lease_expires_at": "2026-11-13T10:57:59.148933+00:00"
-      },
       "source": {
         "source_id": "33522787",
         "source_url": "https://sdilej.cz/33522787/zenaty-se-zavazky-s05e18-098-1991-hd-weenie-tot-s-.mp4",
@@ -403431,22 +403425,29 @@
         "display_name": "Married… with Children S05E18 Weenie Tot Lovers & Other Strangers 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:58:02.619373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009189",
-        "size_bytes": 503444462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009189",
-        "size_bytes": 503444462,
-        "source_bytes_read": 503444462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009189",
         "source_bytes_read": 503444462,
         "elapsed_seconds": 204.563,
         "finished_at": "2026-11-13T05:01:43.458158+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009189",
+          "size_bytes": 503444462,
+          "source_bytes_read": 503444462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522787",
+        "source_url": "https://sdilej.cz/33522787/zenaty-se-zavazky-s05e18-098-1991-hd-weenie-tot-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009189",
+        "display_name": "Married… with Children S05E18 Weenie Tot Lovers & Other Strangers 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:01:53.836246+00:00"
       }
     }
   },
@@ -403455,7 +403456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:01:48.214995+00:00",
+  "updated_at": "2026-11-13T05:01:53.836266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
