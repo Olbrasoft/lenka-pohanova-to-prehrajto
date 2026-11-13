@@ -397615,12 +397615,6 @@
     },
     "1177:4:3": {
       "episode_key": "batesův motel:s4:e3",
-      "claim": {
-        "worker_id": "7e4ffbde85c947d49c386028ade96d35-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:32:20.216965+00:00",
-        "lease_expires_at": "2026-11-13T07:32:20.216975+00:00"
-      },
       "source": {
         "source_id": "33978457",
         "source_url": "https://sdilej.cz/33978457/batesuv-motel-s04e03-cz-dabing-1080p-full-hd.mkv",
@@ -397645,22 +397639,29 @@
         "display_name": "Bates Motel S04E03 'Til Death Do You Part 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:32:23.799789+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007927",
-        "size_bytes": 879196370
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007927",
-        "size_bytes": 879196370,
-        "source_bytes_read": 879196370,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007927",
         "source_bytes_read": 879196370,
         "elapsed_seconds": 284.205,
         "finished_at": "2026-11-13T01:37:21.719686+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007927",
+          "size_bytes": 879196370,
+          "source_bytes_read": 879196370,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33978457",
+        "source_url": "https://sdilej.cz/33978457/batesuv-motel-s04e03-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007927",
+        "display_name": "Bates Motel S04E03 'Til Death Do You Part 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:37:31.215224+00:00"
       }
     },
     "1402:4:19": {
@@ -397772,7 +397773,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:37:28.228679+00:00",
+  "updated_at": "2026-11-13T01:37:31.215237+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
