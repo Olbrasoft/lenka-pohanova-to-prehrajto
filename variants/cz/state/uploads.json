@@ -409538,12 +409538,6 @@
     },
     "462:10:17": {
       "episode_key": "ženatý se závazky:s10:e17",
-      "claim": {
-        "worker_id": "bcaa6d85b5d1459d95583c14ed2f1d62-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:39:42.358776+00:00",
-        "lease_expires_at": "2026-11-13T14:39:42.358784+00:00"
-      },
       "source": {
         "source_id": "35326780",
         "source_url": "https://sdilej.cz/35326780/zenaty-se-zavazky-s10e17-agonie-a-extra-c.mkv",
@@ -409568,22 +409562,29 @@
         "display_name": "Married… with Children S10E17 The Agony and the Extra C 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:39:49.096022+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010749",
-        "size_bytes": 334864816
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010749",
-        "size_bytes": 334864816,
-        "source_bytes_read": 334864816,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010749",
         "source_bytes_read": 334864816,
         "elapsed_seconds": 211.398,
         "finished_at": "2026-11-13T08:43:37.370319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010749",
+          "size_bytes": 334864816,
+          "source_bytes_read": 334864816,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326780",
+        "source_url": "https://sdilej.cz/35326780/zenaty-se-zavazky-s10e17-agonie-a-extra-c.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010749",
+        "display_name": "Married… with Children S10E17 The Agony and the Extra C 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:43:44.325426+00:00"
       }
     },
     "462:10:19": {
@@ -409629,7 +409630,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:43:37.370341+00:00",
+  "updated_at": "2026-11-13T08:43:44.325439+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
