@@ -418245,12 +418245,6 @@
     },
     "1051:1:8": {
       "episode_key": "star trek: hluboký vesmír devět:s1:e8",
-      "claim": {
-        "worker_id": "32547e1b64ae4ad893aa8804c23900fc-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:59:25.163729+00:00",
-        "lease_expires_at": "2026-11-13T21:59:25.163747+00:00"
-      },
       "source": {
         "source_id": "31405052",
         "source_url": "https://sdilej.cz/31405052/star-trek-deep-space-nine-s01e08-daxova-skyshowtime-.mkv",
@@ -418275,22 +418269,29 @@
         "display_name": "Star Trek: Deep Space Nine S01E08 The Passenger 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:59:36.159540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014852",
-        "size_bytes": 3213323256
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014852",
-        "size_bytes": 3213323256,
-        "source_bytes_read": 3213323256,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014852",
         "source_bytes_read": 3213323256,
         "elapsed_seconds": 225.53,
         "finished_at": "2026-11-13T16:03:43.994239+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014852",
+          "size_bytes": 3213323256,
+          "source_bytes_read": 3213323256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31405052",
+        "source_url": "https://sdilej.cz/31405052/star-trek-deep-space-nine-s01e08-daxova-skyshowtime-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014852",
+        "display_name": "Star Trek: Deep Space Nine S01E08 The Passenger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:03:50.522535+00:00"
       }
     },
     "1051:1:9": {
@@ -418373,7 +418374,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:03:43.994257+00:00",
+  "updated_at": "2026-11-13T16:03:50.522551+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
