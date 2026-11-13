@@ -417531,12 +417531,6 @@
     },
     "61:4:2": {
       "episode_key": "tudorovci:s4:e2",
-      "claim": {
-        "worker_id": "93842de9bb5e48b4916c5f03bd882dd4-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:30:45.431081+00:00",
-        "lease_expires_at": "2026-11-13T21:30:45.431092+00:00"
-      },
       "source": {
         "source_id": "29555601",
         "source_url": "https://sdilej.cz/29555601/tudorovci-s04e02-1080p-cz-dabing.mkv",
@@ -417561,22 +417555,29 @@
         "display_name": "The Tudors S04E02 Sister 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:30:49.781814+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014236",
-        "size_bytes": 1020540323
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014236",
-        "size_bytes": 1020540323,
-        "source_bytes_read": 1020540323,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014236",
         "source_bytes_read": 1020540323,
         "elapsed_seconds": 64.315,
         "finished_at": "2026-11-13T15:32:10.434711+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014236",
+          "size_bytes": 1020540323,
+          "source_bytes_read": 1020540323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29555601",
+        "source_url": "https://sdilej.cz/29555601/tudorovci-s04e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014236",
+        "display_name": "The Tudors S04E02 Sister 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T15:32:29.662449+00:00"
       }
     },
     "61:4:3": {
@@ -417657,7 +417658,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:32:25.184142+00:00",
+  "updated_at": "2026-11-13T15:32:29.662462+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
