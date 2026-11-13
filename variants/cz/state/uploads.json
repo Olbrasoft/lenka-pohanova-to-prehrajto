@@ -408467,12 +408467,6 @@
     },
     "462:9:22": {
       "episode_key": "ženatý se závazky:s9:e22",
-      "claim": {
-        "worker_id": "40b14fb8ec664c8cb9a9def32db5cdd6-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:58:09.796433+00:00",
-        "lease_expires_at": "2026-11-13T13:58:09.796447+00:00"
-      },
       "source": {
         "source_id": "35326745",
         "source_url": "https://sdilej.cz/35326745/zenaty-se-zavazky-s09e22-tady-prichazi-neco-jako-larry.mkv",
@@ -408497,22 +408491,29 @@
         "display_name": "Married… with Children S09E22 User Friendly 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:58:13.365020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010433",
-        "size_bytes": 347488742
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010433",
-        "size_bytes": 347488742,
-        "source_bytes_read": 347488742,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010433",
         "source_bytes_read": 347488742,
         "elapsed_seconds": 193.952,
         "finished_at": "2026-11-13T08:01:42.578323+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010433",
+          "size_bytes": 347488742,
+          "source_bytes_read": 347488742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326745",
+        "source_url": "https://sdilej.cz/35326745/zenaty-se-zavazky-s09e22-tady-prichazi-neco-jako-larry.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010433",
+        "display_name": "Married… with Children S09E22 User Friendly 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:01:54.797114+00:00"
       }
     }
   },
@@ -408521,7 +408522,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:01:51.685447+00:00",
+  "updated_at": "2026-11-13T08:01:54.797130+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
