@@ -430259,12 +430259,6 @@
     },
     "1410:2:61": {
       "episode_key": "phineas a ferb:s2:e61",
-      "claim": {
-        "worker_id": "7b83fecdd0d54734ac60692ff23b0911-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:13:07.252968+00:00",
-        "lease_expires_at": "2026-11-14T04:13:07.252986+00:00"
-      },
       "source": {
         "source_id": "33548794",
         "source_url": "https://sdilej.cz/33548794/phineas.a.ferb.2x61.rozstep.osobnosti.720p.cz.batmaster.mkv",
@@ -430289,22 +430283,29 @@
         "display_name": "Phineas and Ferb S02E61 The Doof Side of the Moon 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:13:14.206221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019905",
-        "size_bytes": 89821493
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019905",
-        "size_bytes": 89821493,
-        "source_bytes_read": 89821493,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019905",
         "source_bytes_read": 89821493,
         "elapsed_seconds": 8.18,
         "finished_at": "2026-11-13T22:13:47.413434+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019905",
+          "size_bytes": 89821493,
+          "source_bytes_read": 89821493,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548794",
+        "source_url": "https://sdilej.cz/33548794/phineas.a.ferb.2x61.rozstep.osobnosti.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019905",
+        "display_name": "Phineas and Ferb S02E61 The Doof Side of the Moon 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:13:56.220912+00:00"
       }
     }
   },
@@ -430313,7 +430314,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:13:51.230000+00:00",
+  "updated_at": "2026-11-13T22:13:56.220934+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
