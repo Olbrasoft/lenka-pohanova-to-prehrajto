@@ -416470,12 +416470,6 @@
     },
     "61:1:9": {
       "episode_key": "tudorovci:s1:e9",
-      "claim": {
-        "worker_id": "ce4f88bcf6494401bbee5f072ff3280c-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:44:46.269144+00:00",
-        "lease_expires_at": "2026-11-13T20:44:46.269153+00:00"
-      },
       "source": {
         "source_id": "29267113",
         "source_url": "https://sdilej.cz/29267113/tudorovci-s01e09-1080p-cz-dabing.mkv",
@@ -416500,22 +416494,29 @@
         "display_name": "The Tudors S01E09 Look to God First 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:45:00.103912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013596",
-        "size_bytes": 1010663828
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013596",
-        "size_bytes": 1010663828,
-        "source_bytes_read": 1010663828,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013596",
         "source_bytes_read": 1010663828,
         "elapsed_seconds": 459.396,
         "finished_at": "2026-11-13T14:53:04.184627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013596",
+          "size_bytes": 1010663828,
+          "source_bytes_read": 1010663828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29267113",
+        "source_url": "https://sdilej.cz/29267113/tudorovci-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013596",
+        "display_name": "The Tudors S01E09 Look to God First 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:53:14.041119+00:00"
       }
     }
   },
@@ -416524,7 +416525,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:53:10.911756+00:00",
+  "updated_at": "2026-11-13T14:53:14.041133+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
