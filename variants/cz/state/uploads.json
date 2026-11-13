@@ -432971,12 +432971,6 @@
     },
     "1411:4:1": {
       "episode_key": "případy detektiva murdocha:s4:e1",
-      "claim": {
-        "worker_id": "c02d15a07c934010ac724805b0efe4e2-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:54:01.801070+00:00",
-        "lease_expires_at": "2026-11-14T04:54:01.801083+00:00"
-      },
       "source": {
         "source_id": "14035811",
         "source_url": "https://sdilej.cz/14035811/pripady-detektiva-murdocha-s04e01-rozedrany-a-spinavy-sd-.mp4",
@@ -433001,22 +432995,29 @@
         "display_name": "Murdoch Mysteries S04E01 Tattered and Torn SD CZ Dabing",
         "prepared_at": "2026-11-13T22:54:24.438927+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020694",
-        "size_bytes": 206927360
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020694",
-        "size_bytes": 206927360,
-        "source_bytes_read": 206927360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020694",
         "source_bytes_read": 206927360,
         "elapsed_seconds": 9.948,
         "finished_at": "2026-11-13T22:54:54.655479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020694",
+          "size_bytes": 206927360,
+          "source_bytes_read": 206927360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14035811",
+        "source_url": "https://sdilej.cz/14035811/pripady-detektiva-murdocha-s04e01-rozedrany-a-spinavy-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020694",
+        "display_name": "Murdoch Mysteries S04E01 Tattered and Torn SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:54:58.897768+00:00"
       }
     },
     "1411:4:2": {
@@ -433099,7 +433100,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:54:54.655500+00:00",
+  "updated_at": "2026-11-13T22:54:58.897787+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
