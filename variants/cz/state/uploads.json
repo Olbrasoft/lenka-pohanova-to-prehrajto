@@ -428045,12 +428045,6 @@
     },
     "1021:1:4": {
       "episode_key": "ve jménu našeho pána:s1:e4",
-      "claim": {
-        "worker_id": "48b9115e12a943d492a1a92cdc3cd258-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:40:00.313805+00:00",
-        "lease_expires_at": "2026-11-14T03:40:00.313822+00:00"
-      },
       "source": {
         "source_id": "21319780",
         "source_url": "https://sdilej.cz/21319780/the.righteous.gemstones.s01e04.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
@@ -428075,22 +428069,29 @@
         "display_name": "The Righteous Gemstones S01E04 Wicked Lips 1080p CZ Dabing",
         "prepared_at": "2026-11-13T21:40:03.952490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019213",
-        "size_bytes": 1020241610
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019213",
-        "size_bytes": 1020241610,
-        "source_bytes_read": 1020241610,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019213",
         "source_bytes_read": 1020241610,
         "elapsed_seconds": 58.892,
         "finished_at": "2026-11-13T21:41:16.259752+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019213",
+          "size_bytes": 1020241610,
+          "source_bytes_read": 1020241610,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21319780",
+        "source_url": "https://sdilej.cz/21319780/the.righteous.gemstones.s01e04.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019213",
+        "display_name": "The Righteous Gemstones S01E04 Wicked Lips 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:41:21.521203+00:00"
       }
     },
     "1021:1:5": {
@@ -428136,7 +428137,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:41:16.259815+00:00",
+  "updated_at": "2026-11-13T21:41:21.521218+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
