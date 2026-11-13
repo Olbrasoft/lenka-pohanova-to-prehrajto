@@ -431900,12 +431900,6 @@
     },
     "1411:2:2": {
       "episode_key": "případy detektiva murdocha:s2:e2",
-      "claim": {
-        "worker_id": "988a9f5a8acc45218d789bd89c5540b1-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:31:48.254447+00:00",
-        "lease_expires_at": "2026-11-14T04:31:48.254458+00:00"
-      },
       "source": {
         "source_id": "20602231",
         "source_url": "https://sdilej.cz/20602231/pripady-detektiva-murdocha-s02e02-hadi-a-zebriky-sd-.mkv",
@@ -431930,22 +431924,29 @@
         "display_name": "Murdoch Mysteries S02E02 Snakes and Ladders 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:31:51.624073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020350",
-        "size_bytes": 1147133319
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020350",
-        "size_bytes": 1147133319,
-        "source_bytes_read": 1147133319,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020350",
         "source_bytes_read": 1147133319,
         "elapsed_seconds": 47.055,
         "finished_at": "2026-11-13T22:32:56.198743+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020350",
+          "size_bytes": 1147133319,
+          "source_bytes_read": 1147133319,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20602231",
+        "source_url": "https://sdilej.cz/20602231/pripady-detektiva-murdocha-s02e02-hadi-a-zebriky-sd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020350",
+        "display_name": "Murdoch Mysteries S02E02 Snakes and Ladders 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:33:06.778331+00:00"
       }
     },
     "1411:2:3": {
@@ -432041,7 +432042,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:33:03.761636+00:00",
+  "updated_at": "2026-11-13T22:33:06.778350+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
