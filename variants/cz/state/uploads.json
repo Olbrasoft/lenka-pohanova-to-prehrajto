@@ -428832,12 +428832,6 @@
     },
     "1021:2:8": {
       "episode_key": "ve jménu našeho pána:s2:e8",
-      "claim": {
-        "worker_id": "40e6f0f6fd2e42fb82d62e94e248267e-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:00:44.559401+00:00",
-        "lease_expires_at": "2026-11-14T04:00:44.559409+00:00"
-      },
       "source": {
         "source_id": "21693095",
         "source_url": "https://sdilej.cz/21693095/ve.jmenu.naseho.pana.02x08.hdtv.cz.avi",
@@ -428862,22 +428856,29 @@
         "display_name": "The Righteous Gemstones S02E08 The Prayer of a Righteous Man SD CZ Dabing",
         "prepared_at": "2026-11-13T22:00:53.187482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019588",
-        "size_bytes": 480614226
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019588",
-        "size_bytes": 480614226,
-        "source_bytes_read": 480614226,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019588",
         "source_bytes_read": 480614226,
         "elapsed_seconds": 20.21,
         "finished_at": "2026-11-13T22:01:29.699276+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019588",
+          "size_bytes": 480614226,
+          "source_bytes_read": 480614226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21693095",
+        "source_url": "https://sdilej.cz/21693095/ve.jmenu.naseho.pana.02x08.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019588",
+        "display_name": "The Righteous Gemstones S02E08 The Prayer of a Righteous Man SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:01:40.489283+00:00"
       }
     },
     "1021:2:9": {
@@ -428923,7 +428924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:01:35.665216+00:00",
+  "updated_at": "2026-11-13T22:01:40.489303+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
