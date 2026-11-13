@@ -406994,12 +406994,6 @@
     },
     "462:8:17": {
       "episode_key": "ženatý se závazky:s8:e17",
-      "claim": {
-        "worker_id": "1d7dfed165b544129fa1b8affbf5e14a-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:11:30.980537+00:00",
-        "lease_expires_at": "2026-11-13T13:11:30.980548+00:00"
-      },
       "source": {
         "source_id": "35326696",
         "source_url": "https://sdilej.cz/35326696/zenaty-se-zavazky-s08e17-masakr-na-sv.-valentyna.mkv",
@@ -407024,22 +407018,29 @@
         "display_name": "Married… with Children S08E17 Valentine's Day Massacre 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:11:34.439414+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010070",
-        "size_bytes": 315397213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010070",
-        "size_bytes": 315397213,
-        "source_bytes_read": 315397213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010070",
         "source_bytes_read": 315397213,
         "elapsed_seconds": 170.979,
         "finished_at": "2026-11-13T07:14:38.855865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010070",
+          "size_bytes": 315397213,
+          "source_bytes_read": 315397213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326696",
+        "source_url": "https://sdilej.cz/35326696/zenaty-se-zavazky-s08e17-masakr-na-sv.-valentyna.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010070",
+        "display_name": "Married… with Children S08E17 Valentine's Day Massacre 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:14:48.664072+00:00"
       }
     },
     "462:8:18": {
@@ -407085,7 +407086,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:14:45.648171+00:00",
+  "updated_at": "2026-11-13T07:14:48.664086+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
