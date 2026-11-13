@@ -412251,12 +412251,6 @@
     },
     "937:3:8": {
       "episode_key": "misfits: zmetci:s3:e8",
-      "claim": {
-        "worker_id": "295385fe77ea4dce97fac1e1d33e92c7-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T10:57:22.822519+00:00",
-        "lease_expires_at": "2026-11-13T16:57:22.822529+00:00"
-      },
       "source": {
         "source_id": "33078479",
         "source_url": "https://sdilej.cz/33078479/misfits-s03e08-cz-dabing.mkv",
@@ -412281,22 +412275,29 @@
         "display_name": "Misfits S03E08 Episode Eight 1080p CZ Dabing",
         "prepared_at": "2026-11-13T10:57:29.007855+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011796",
-        "size_bytes": 601431248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011796",
-        "size_bytes": 601431248,
-        "source_bytes_read": 601431248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011796",
         "source_bytes_read": 601431248,
         "elapsed_seconds": 399.691,
         "finished_at": "2026-11-13T11:04:26.336101+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011796",
+          "size_bytes": 601431248,
+          "source_bytes_read": 601431248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33078479",
+        "source_url": "https://sdilej.cz/33078479/misfits-s03e08-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011796",
+        "display_name": "Misfits S03E08 Episode Eight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T11:04:32.462201+00:00"
       }
     },
     "937:4:1": {
@@ -412393,7 +412394,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T11:04:29.276193+00:00",
+  "updated_at": "2026-11-13T11:04:32.462220+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
