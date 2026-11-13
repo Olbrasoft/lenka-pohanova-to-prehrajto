@@ -423256,12 +423256,6 @@
     },
     "1051:7:19": {
       "episode_key": "star trek: hluboký vesmír devět:s7:e19",
-      "claim": {
-        "worker_id": "6be6ab6c7464496fbbc4efb2de77c1c5-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:44:00.147313+00:00",
-        "lease_expires_at": "2026-11-13T23:44:00.147354+00:00"
-      },
       "source": {
         "source_id": "33220655",
         "source_url": "https://sdilej.cz/33220655/star-trek-hluboky-vesmir-devet-s07e19-26-1998-cz-dab-podivni-spojenci.mkv",
@@ -423286,22 +423280,29 @@
         "display_name": "Star Trek: Deep Space Nine S07E19 Strange Bedfellows SD CZ Dabing",
         "prepared_at": "2026-11-13T17:44:03.584825+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017089",
-        "size_bytes": 467989753
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017089",
-        "size_bytes": 467989753,
-        "source_bytes_read": 467989753,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017089",
         "source_bytes_read": 467989753,
         "elapsed_seconds": 72.613,
         "finished_at": "2026-11-13T17:45:35.070560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017089",
+          "size_bytes": 467989753,
+          "source_bytes_read": 467989753,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220655",
+        "source_url": "https://sdilej.cz/33220655/star-trek-hluboky-vesmir-devet-s07e19-26-1998-cz-dab-podivni-spojenci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017089",
+        "display_name": "Star Trek: Deep Space Nine S07E19 Strange Bedfellows SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:45:40.926417+00:00"
       }
     }
   },
@@ -423310,7 +423311,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:45:35.070578+00:00",
+  "updated_at": "2026-11-13T17:45:40.926436+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
