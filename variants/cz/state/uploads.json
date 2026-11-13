@@ -402382,12 +402382,6 @@
     },
     "462:4:19": {
       "episode_key": "ženatý se závazky:s4:e19",
-      "claim": {
-        "worker_id": "af633935e8f6436e842884fb37d15079-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:21:29.813963+00:00",
-        "lease_expires_at": "2026-11-13T10:21:29.813978+00:00"
-      },
       "source": {
         "source_id": "33522640",
         "source_url": "https://sdilej.cz/33522640/zenaty-se-zavazky-s04e19-076-1990-hd-rekord-v-kuzelkach-s-.mp4",
@@ -402412,22 +402406,29 @@
         "display_name": "Married… with Children S04E19 Peggy Turns 300 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:21:36.541289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008940",
-        "size_bytes": 487544377
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008940",
-        "size_bytes": 487544377,
-        "source_bytes_read": 487544377,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008940",
         "source_bytes_read": 487544377,
         "elapsed_seconds": 197.247,
         "finished_at": "2026-11-13T04:25:07.455815+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008940",
+          "size_bytes": 487544377,
+          "source_bytes_read": 487544377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522640",
+        "source_url": "https://sdilej.cz/33522640/zenaty-se-zavazky-s04e19-076-1990-hd-rekord-v-kuzelkach-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008940",
+        "display_name": "Married… with Children S04E19 Peggy Turns 300 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:25:17.376506+00:00"
       }
     }
   },
@@ -402436,7 +402437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:25:14.384364+00:00",
+  "updated_at": "2026-11-13T04:25:17.376524+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
