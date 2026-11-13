@@ -400502,12 +400502,6 @@
     },
     "462:2:17": {
       "episode_key": "ženatý se závazky:s2:e17",
-      "claim": {
-        "worker_id": "73a78c9d64c34c608e2f52e427129bde-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:23:59.700214+00:00",
-        "lease_expires_at": "2026-11-13T09:23:59.700226+00:00"
-      },
       "source": {
         "source_id": "33522267",
         "source_url": "https://sdilej.cz/33522267/zenaty-se-zavazky-s02e17-030-1988-hd-peggy-miluje-ala-s-.mp4",
@@ -400532,22 +400526,29 @@
         "display_name": "Married… with Children S02E17 Peggy Loves Al, Yeah Yeah, Yeah 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:24:04.930084+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008601",
-        "size_bytes": 472510597
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008601",
-        "size_bytes": 472510597,
-        "source_bytes_read": 472510597,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008601",
         "source_bytes_read": 472510597,
         "elapsed_seconds": 205.014,
         "finished_at": "2026-11-13T03:27:47.172967+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008601",
+          "size_bytes": 472510597,
+          "source_bytes_read": 472510597,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522267",
+        "source_url": "https://sdilej.cz/33522267/zenaty-se-zavazky-s02e17-030-1988-hd-peggy-miluje-ala-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008601",
+        "display_name": "Married… with Children S02E17 Peggy Loves Al, Yeah Yeah, Yeah 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:27:55.865185+00:00"
       }
     },
     "462:2:18": {
@@ -400630,7 +400631,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:27:52.997300+00:00",
+  "updated_at": "2026-11-13T03:27:55.865206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
