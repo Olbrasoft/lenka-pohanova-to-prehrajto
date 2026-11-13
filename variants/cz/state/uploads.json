@@ -424231,12 +424231,6 @@
     },
     "2231:1:10": {
       "episode_key": "star wars: povstalci:s1:e10",
-      "claim": {
-        "worker_id": "06b3b95332124932a3552cfec10af6e8-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T18:50:53.896939+00:00",
-        "lease_expires_at": "2026-11-14T00:50:53.896953+00:00"
-      },
       "source": {
         "source_id": "29131714",
         "source_url": "https://sdilej.cz/29131714/star-wars-povstalci-s01e10-cz.mkv",
@@ -424261,22 +424255,29 @@
         "display_name": "Star Wars Rebels S01E10 Vision of Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-13T18:51:05.933692+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017830",
-        "size_bytes": 911713483
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017830",
-        "size_bytes": 911713483,
-        "source_bytes_read": 911713483,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017830",
         "source_bytes_read": 911713483,
         "elapsed_seconds": 293.086,
         "finished_at": "2026-11-13T18:56:24.757094+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017830",
+          "size_bytes": 911713483,
+          "source_bytes_read": 911713483,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29131714",
+        "source_url": "https://sdilej.cz/29131714/star-wars-povstalci-s01e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017830",
+        "display_name": "Star Wars Rebels S01E10 Vision of Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T18:56:34.023846+00:00"
       }
     },
     "2231:1:11": {
@@ -424336,7 +424337,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T18:56:31.168750+00:00",
+  "updated_at": "2026-11-13T18:56:34.023863+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
