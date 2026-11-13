@@ -423505,12 +423505,6 @@
     },
     "2995:1:1": {
       "episode_key": "desáté království:s1:e1",
-      "claim": {
-        "worker_id": "934f26fa42a74b3aa6b73d96dd64a9cc-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:52:42.549347+00:00",
-        "lease_expires_at": "2026-11-13T23:52:42.549360+00:00"
-      },
       "source": {
         "source_id": "33293069",
         "source_url": "https://sdilej.cz/33293069/desate-kralovstvi-s01e01-05-2010-cz-dab-1080p-epizoda-1.mp4",
@@ -423535,22 +423529,29 @@
         "display_name": "The 10th Kingdom S01E01 Part 1 1080p CZ Dabing",
         "prepared_at": "2026-11-13T17:52:50.005676+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017200",
-        "size_bytes": 2760384945
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017200",
-        "size_bytes": 2760384945,
-        "source_bytes_read": 2760384945,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017200",
         "source_bytes_read": 2760384945,
         "elapsed_seconds": 807.193,
         "finished_at": "2026-11-13T18:06:37.136038+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017200",
+          "size_bytes": 2760384945,
+          "source_bytes_read": 2760384945,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33293069",
+        "source_url": "https://sdilej.cz/33293069/desate-kralovstvi-s01e01-05-2010-cz-dab-1080p-epizoda-1.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017200",
+        "display_name": "The 10th Kingdom S01E01 Part 1 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T18:06:45.410832+00:00"
       }
     },
     "2995:1:2": {
@@ -423647,7 +423648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T18:06:40.002969+00:00",
+  "updated_at": "2026-11-13T18:06:45.410845+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
