@@ -420068,12 +420068,6 @@
     },
     "1051:3:20": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e20",
-      "claim": {
-        "worker_id": "786f49453cfe4a48b707d3e3453f6148-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:48:11.182056+00:00",
-        "lease_expires_at": "2026-11-13T22:48:11.182074+00:00"
-      },
       "source": {
         "source_id": "33220331",
         "source_url": "https://sdilej.cz/33220331/star-trek-hluboky-vesmir-devet-s03e20-26-1994-cz-dab-nepravde-podobne-duvody.avi",
@@ -420098,22 +420092,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E20 Improbable Cause (1) 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:48:22.542745+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015923",
-        "size_bytes": 543478842
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015923",
-        "size_bytes": 543478842,
-        "source_bytes_read": 543478842,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015923",
         "source_bytes_read": 543478842,
         "elapsed_seconds": 72.949,
         "finished_at": "2026-11-13T16:49:56.190164+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015923",
+          "size_bytes": 543478842,
+          "source_bytes_read": 543478842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220331",
+        "source_url": "https://sdilej.cz/33220331/star-trek-hluboky-vesmir-devet-s03e20-26-1994-cz-dab-nepravde-podobne-duvody.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015923",
+        "display_name": "Star Trek: Deep Space Nine S03E20 Improbable Cause (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:50:02.538971+00:00"
       }
     },
     "1051:3:21": {
@@ -420159,7 +420160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:49:56.190185+00:00",
+  "updated_at": "2026-11-13T16:50:02.538987+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
