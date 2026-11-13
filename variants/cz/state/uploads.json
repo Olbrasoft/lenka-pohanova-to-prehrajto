@@ -421395,12 +421395,6 @@
     },
     "1051:5:11": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e11",
-      "claim": {
-        "worker_id": "836abe7129a244948df3952652d90c71-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:09:34.757955+00:00",
-        "lease_expires_at": "2026-11-13T23:09:34.757968+00:00"
-      },
       "source": {
         "source_id": "33220488",
         "source_url": "https://sdilej.cz/33220488/star-trek-hluboky-vesmir-devet-s05e11-26-1996-cz-dab-svetlo-a-temnota.mkv",
@@ -421425,22 +421419,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E11 The Darkness and the Light SD CZ Dabing",
         "prepared_at": "2026-11-13T17:09:41.350255+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016354",
-        "size_bytes": 467223296
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016354",
-        "size_bytes": 467223296,
-        "source_bytes_read": 467223296,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016354",
         "source_bytes_read": 467223296,
         "elapsed_seconds": 39.369,
         "finished_at": "2026-11-13T17:10:39.809743+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016354",
+          "size_bytes": 467223296,
+          "source_bytes_read": 467223296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220488",
+        "source_url": "https://sdilej.cz/33220488/star-trek-hluboky-vesmir-devet-s05e11-26-1996-cz-dab-svetlo-a-temnota.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016354",
+        "display_name": "Star Trek: Deep Space Nine S05E11 The Darkness and the Light SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:10:47.764943+00:00"
       }
     },
     "1051:5:12": {
@@ -421500,7 +421501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:10:44.725697+00:00",
+  "updated_at": "2026-11-13T17:10:47.764958+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
