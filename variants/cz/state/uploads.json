@@ -417030,12 +417030,6 @@
     },
     "61:3:1": {
       "episode_key": "tudorovci:s3:e1",
-      "claim": {
-        "worker_id": "f7a1ba0bd9e84a7f9ad85f905395078c-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:21:30.291094+00:00",
-        "lease_expires_at": "2026-11-13T21:21:30.291106+00:00"
-      },
       "source": {
         "source_id": "33849157",
         "source_url": "https://sdilej.cz/33849157/tudorovci-2009-s03e01-czdab.1080p-obcanske-nepokoje.mkv",
@@ -417091,7 +417085,13 @@
             ]
           }
         ]
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-13T15:23:14.172225+00:00",
+          "error": "TargetPending"
+        }
+      ]
     },
     "61:3:2": {
       "episode_key": "tudorovci:s3:e2",
@@ -417229,7 +417229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:23:10.631929+00:00",
+  "updated_at": "2026-11-13T15:23:14.172240+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
