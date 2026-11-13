@@ -415974,12 +415974,6 @@
     },
     "1700:2:25": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e25",
-      "claim": {
-        "worker_id": "90ddbb00722747afa29b165c26544bc0-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:06:23.320857+00:00",
-        "lease_expires_at": "2026-11-13T20:06:23.320885+00:00"
-      },
       "source": {
         "source_id": "29046739",
         "source_url": "https://sdilej.cz/29046739/scooby-doo-zahady-s.r.o.-s02e25-zamlzeno-1080p-25fps-h264-128kbit-aac-.mkv",
@@ -416004,22 +415998,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E25 Through the Curtain 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:06:32.101097+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013247",
-        "size_bytes": 493817979
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013247",
-        "size_bytes": 493817979,
-        "source_bytes_read": 493817979,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013247",
         "source_bytes_read": 493817979,
         "elapsed_seconds": 239.695,
         "finished_at": "2026-11-13T14:10:51.515015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013247",
+          "size_bytes": 493817979,
+          "source_bytes_read": 493817979,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29046739",
+        "source_url": "https://sdilej.cz/29046739/scooby-doo-zahady-s.r.o.-s02e25-zamlzeno-1080p-25fps-h264-128kbit-aac-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013247",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E25 Through the Curtain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:11:03.064383+00:00"
       }
     },
     "1700:2:26": {
@@ -416079,7 +416080,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:10:59.082459+00:00",
+  "updated_at": "2026-11-13T14:11:03.064399+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
