@@ -409371,12 +409371,6 @@
     },
     "462:10:14": {
       "episode_key": "ženatý se závazky:s10:e14",
-      "claim": {
-        "worker_id": "5aeba984fff94db683ba8c6a625e5cd4-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:36:02.527689+00:00",
-        "lease_expires_at": "2026-11-13T14:36:02.527701+00:00"
-      },
       "source": {
         "source_id": "35326775",
         "source_url": "https://sdilej.cz/35326775/zenaty-se-zavazky-s10e14-hood-bud-a-kelly-1.-cast.mkv",
@@ -409401,22 +409395,29 @@
         "display_name": "Married… with Children S10E14 The Hood, the Bud and the Kelly (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:36:06.075610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010716",
-        "size_bytes": 335492163
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010716",
-        "size_bytes": 335492163,
-        "source_bytes_read": 335492163,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010716",
         "source_bytes_read": 335492163,
         "elapsed_seconds": 174.028,
         "finished_at": "2026-11-13T08:39:16.124347+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010716",
+          "size_bytes": 335492163,
+          "source_bytes_read": 335492163,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326775",
+        "source_url": "https://sdilej.cz/35326775/zenaty-se-zavazky-s10e14-hood-bud-a-kelly-1.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010716",
+        "display_name": "Married… with Children S10E14 The Hood, the Bud and the Kelly (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:39:21.294865+00:00"
       }
     },
     "462:10:15": {
@@ -409462,7 +409463,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:39:16.124367+00:00",
+  "updated_at": "2026-11-13T08:39:21.294881+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
