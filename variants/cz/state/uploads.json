@@ -411119,12 +411119,6 @@
     },
     "462:11:23": {
       "episode_key": "ženatý se závazky:s11:e23",
-      "claim": {
-        "worker_id": "8d7cdd00aa6048198b28fd21c86881ca-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:39:57.100019+00:00",
-        "lease_expires_at": "2026-11-13T15:39:57.100029+00:00"
-      },
       "source": {
         "source_id": "35326835",
         "source_url": "https://sdilej.cz/35326835/zenaty-se-zavazky-s11e23-svatba-s-blbcem.mkv",
@@ -411149,22 +411143,29 @@
         "display_name": "Married… with Children S11E23 How to Marry a Moron 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:40:03.226481+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011249",
-        "size_bytes": 370793980
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011249",
-        "size_bytes": 370793980,
-        "source_bytes_read": 370793980,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011249",
         "source_bytes_read": 370793980,
         "elapsed_seconds": 252.437,
         "finished_at": "2026-11-13T09:44:30.384961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011249",
+          "size_bytes": 370793980,
+          "source_bytes_read": 370793980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326835",
+        "source_url": "https://sdilej.cz/35326835/zenaty-se-zavazky-s11e23-svatba-s-blbcem.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011249",
+        "display_name": "Married… with Children S11E23 How to Marry a Moron 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:44:37.142038+00:00"
       }
     },
     "462:11:24": {
@@ -411224,7 +411225,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:44:33.267932+00:00",
+  "updated_at": "2026-11-13T09:44:37.142051+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
