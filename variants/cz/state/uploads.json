@@ -407382,12 +407382,6 @@
     },
     "462:8:26": {
       "episode_key": "ženatý se závazky:s8:e26",
-      "claim": {
-        "worker_id": "3054f9c47e834f048f41331d324eaff4-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:25:27.887018+00:00",
-        "lease_expires_at": "2026-11-13T13:25:27.887029+00:00"
-      },
       "source": {
         "source_id": "35326711",
         "source_url": "https://sdilej.cz/35326711/zenaty-se-zavazky-s08e26-kelly-neco-vi.mkv",
@@ -407412,22 +407406,29 @@
         "display_name": "Married… with Children S08E26 Kelly Knows Something 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:25:32.328642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010176",
-        "size_bytes": 330507382
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010176",
-        "size_bytes": 330507382,
-        "source_bytes_read": 330507382,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010176",
         "source_bytes_read": 330507382,
         "elapsed_seconds": 148.574,
         "finished_at": "2026-11-13T07:28:14.345241+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010176",
+          "size_bytes": 330507382,
+          "source_bytes_read": 330507382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326711",
+        "source_url": "https://sdilej.cz/35326711/zenaty-se-zavazky-s08e26-kelly-neco-vi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010176",
+        "display_name": "Married… with Children S08E26 Kelly Knows Something 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:28:20.229961+00:00"
       }
     }
   },
@@ -407436,7 +407437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:28:14.345261+00:00",
+  "updated_at": "2026-11-13T07:28:20.229974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
