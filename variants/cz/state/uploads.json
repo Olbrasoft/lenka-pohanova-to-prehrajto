@@ -434501,12 +434501,6 @@
     },
     "1411:6:6": {
       "episode_key": "případy detektiva murdocha:s6:e6",
-      "claim": {
-        "worker_id": "c229c857c53f4b91b639492447a4d568-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:09:25.813963+00:00",
-        "lease_expires_at": "2026-11-14T05:09:25.813976+00:00"
-      },
       "source": {
         "source_id": "7852440",
         "source_url": "https://sdilej.cz/7852440/pripady.detektiva.murdocha.s06e06.murdoch.a.oblak.zkazy..avi",
@@ -434531,22 +434525,29 @@
         "display_name": "Murdoch Mysteries S06E06 Murdoch and the Cloud of Doom SD CZ Dabing",
         "prepared_at": "2026-11-13T23:09:29.463141+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021031",
-        "size_bytes": 368107520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021031",
-        "size_bytes": 368107520,
-        "source_bytes_read": 368107520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021031",
         "source_bytes_read": 368107520,
         "elapsed_seconds": 29.296,
         "finished_at": "2026-11-13T23:10:15.613408+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021031",
+          "size_bytes": 368107520,
+          "source_bytes_read": 368107520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852440",
+        "source_url": "https://sdilej.cz/7852440/pripady.detektiva.murdocha.s06e06.murdoch.a.oblak.zkazy..avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021031",
+        "display_name": "Murdoch Mysteries S06E06 Murdoch and the Cloud of Doom SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:10:27.428372+00:00"
       }
     },
     "1411:6:7": {
@@ -434628,7 +434629,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:10:21.158098+00:00",
+  "updated_at": "2026-11-13T23:10:27.428391+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
