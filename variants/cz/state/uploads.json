@@ -420642,12 +420642,6 @@
     },
     "1051:4:6": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e6",
-      "claim": {
-        "worker_id": "523bb2b6cb5c4bc28726e2ae8685f77b-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:56:25.212363+00:00",
-        "lease_expires_at": "2026-11-13T22:56:25.212372+00:00"
-      },
       "source": {
         "source_id": "33220376",
         "source_url": "https://sdilej.cz/33220376/star-trek-hluboky-vesmir-devet-s04e06-25-1995-cz-dab-lod-v-ohrozeni.avi",
@@ -420672,22 +420666,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E06 Little Green Men 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:56:28.961011+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016093",
-        "size_bytes": 630683618
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016093",
-        "size_bytes": 630683618,
-        "source_bytes_read": 630683618,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016093",
         "source_bytes_read": 630683618,
         "elapsed_seconds": 58.44,
         "finished_at": "2026-11-13T16:57:45.476914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016093",
+          "size_bytes": 630683618,
+          "source_bytes_read": 630683618,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220376",
+        "source_url": "https://sdilej.cz/33220376/star-trek-hluboky-vesmir-devet-s04e06-25-1995-cz-dab-lod-v-ohrozeni.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016093",
+        "display_name": "Star Trek: Deep Space Nine S04E06 Little Green Men 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:57:53.615710+00:00"
       }
     }
   },
@@ -420696,7 +420697,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:57:48.859477+00:00",
+  "updated_at": "2026-11-13T16:57:53.615725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
