@@ -398396,12 +398396,6 @@
     },
     "1177:5:5": {
       "episode_key": "batesův motel:s5:e5",
-      "claim": {
-        "worker_id": "e4be6299dfbf4fec82704cd48d788aa5-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:12:16.985545+00:00",
-        "lease_expires_at": "2026-11-13T08:12:16.985554+00:00"
-      },
       "source": {
         "source_id": "33978605",
         "source_url": "https://sdilej.cz/33978605/batesuv-motel-s05e05-cz-dabing-1080p-full-hd.mkv",
@@ -398426,22 +398420,29 @@
         "display_name": "Bates Motel S05E05 Dreams Die First 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:12:26.189569+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008121",
-        "size_bytes": 930711567
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008121",
-        "size_bytes": 930711567,
-        "source_bytes_read": 930711567,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008121",
         "source_bytes_read": 930711567,
         "elapsed_seconds": 489.277,
         "finished_at": "2026-11-13T02:21:00.864005+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008121",
+          "size_bytes": 930711567,
+          "source_bytes_read": 930711567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33978605",
+        "source_url": "https://sdilej.cz/33978605/batesuv-motel-s05e05-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008121",
+        "display_name": "Bates Motel S05E05 Dreams Die First 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:21:06.961854+00:00"
       }
     },
     "1177:5:4": {
@@ -398501,7 +398502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:21:03.837178+00:00",
+  "updated_at": "2026-11-13T02:21:06.961895+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
