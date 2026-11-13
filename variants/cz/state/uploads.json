@@ -404950,12 +404950,6 @@
     },
     "462:7:1": {
       "episode_key": "ženatý se závazky:s7:e1",
-      "claim": {
-        "worker_id": "e0500c53ab5b4a628bf16843446f7287-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:48:20.306626+00:00",
-        "lease_expires_at": "2026-11-13T11:48:20.306637+00:00"
-      },
       "source": {
         "source_id": "35326621",
         "source_url": "https://sdilej.cz/35326621/zenaty-se-zavazky-s07e01-uzasna-sedma.mkv",
@@ -404980,22 +404974,29 @@
         "display_name": "Married… with Children S07E01 Magnificent Seven 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:48:23.873654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009494",
-        "size_bytes": 397294645
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009494",
-        "size_bytes": 397294645,
-        "source_bytes_read": 397294645,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009494",
         "source_bytes_read": 397294645,
         "elapsed_seconds": 150.705,
         "finished_at": "2026-11-13T05:51:11.369161+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009494",
+          "size_bytes": 397294645,
+          "source_bytes_read": 397294645,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326621",
+        "source_url": "https://sdilej.cz/35326621/zenaty-se-zavazky-s07e01-uzasna-sedma.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009494",
+        "display_name": "Married… with Children S07E01 Magnificent Seven 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:51:16.312134+00:00"
       }
     },
     "462:7:2": {
@@ -405041,7 +405042,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:51:11.369179+00:00",
+  "updated_at": "2026-11-13T05:51:16.312153+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
