@@ -396510,12 +396510,6 @@
     },
     "1402:4:17": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e17",
-      "claim": {
-        "worker_id": "a9ec5d07e639484bbf6150b338ed88eb-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:17:54.180158+00:00",
-        "lease_expires_at": "2026-11-13T06:17:54.180168+00:00"
-      },
       "source": {
         "source_id": "35097251",
         "source_url": "https://sdilej.cz/35097251/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e17-083-2003-hd-vysady-sd-.mp4",
@@ -396539,7 +396533,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S04E17 Privilege 720p CZ Dabing",
         "prepared_at": "2026-11-13T00:17:57.748699+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-13T00:18:09.493384+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -396547,7 +396547,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:18:00.732446+00:00",
+  "updated_at": "2026-11-13T00:18:09.493394+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -396805,9 +396805,13 @@
         {
           "identity": "1402:4:14",
           "at": "2026-11-13T00:17:42.117320+00:00"
+        },
+        {
+          "identity": "1402:4:17",
+          "at": "2026-11-13T00:18:09.493311+00:00"
         }
       ],
-      "retry_after": "2026-11-13T00:17:01.720820+00:00"
+      "retry_after": "2026-11-13T00:28:09.493311+00:00"
     }
   }
 }
