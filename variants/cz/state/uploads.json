@@ -420592,12 +420592,6 @@
     },
     "1051:4:5": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e5",
-      "claim": {
-        "worker_id": "3b91610cb2774c369d1974e88f093ba2-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:56:21.821764+00:00",
-        "lease_expires_at": "2026-11-13T22:56:21.821775+00:00"
-      },
       "source": {
         "source_id": "33220369",
         "source_url": "https://sdilej.cz/33220369/star-trek-hluboky-vesmir-devet-s04e05-25-1995-cz-dab-brime-casu.avi",
@@ -420622,22 +420616,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E05 Rejoined 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:56:32.256155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016096",
-        "size_bytes": 584563608
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016096",
-        "size_bytes": 584563608,
-        "source_bytes_read": 584563608,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016096",
         "source_bytes_read": 584563608,
         "elapsed_seconds": 52.081,
         "finished_at": "2026-11-13T16:57:48.859457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016096",
+          "size_bytes": 584563608,
+          "source_bytes_read": 584563608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220369",
+        "source_url": "https://sdilej.cz/33220369/star-trek-hluboky-vesmir-devet-s04e05-25-1995-cz-dab-brime-casu.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016096",
+        "display_name": "Star Trek: Deep Space Nine S04E05 Rejoined 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:57:56.899562+00:00"
       }
     },
     "1051:4:6": {
@@ -420697,7 +420698,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:57:53.615725+00:00",
+  "updated_at": "2026-11-13T16:57:56.899578+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
