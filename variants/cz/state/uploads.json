@@ -396695,12 +396695,6 @@
     },
     "1177:2:7": {
       "episode_key": "batesův motel:s2:e7",
-      "claim": {
-        "worker_id": "bdfab6971b0849f6981a50bc232498ff-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:26:35.251875+00:00",
-        "lease_expires_at": "2026-11-13T06:26:35.251884+00:00"
-      },
       "source": {
         "source_id": "33960734",
         "source_url": "https://sdilej.cz/33960734/batesuv-motel-2014-s02e07-czdab.1080p-presumpce-neviny.mkv",
@@ -396725,22 +396719,29 @@
         "display_name": "Bates Motel S02E07 Presumed Innocent 1080p CZ Dabing",
         "prepared_at": "2026-11-13T00:26:41.586330+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007522",
-        "size_bytes": 867725087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007522",
-        "size_bytes": 867725087,
-        "source_bytes_read": 867725087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007522",
         "source_bytes_read": 867725087,
         "elapsed_seconds": 432.83,
         "finished_at": "2026-11-13T00:34:09.719431+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007522",
+          "size_bytes": 867725087,
+          "source_bytes_read": 867725087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33960734",
+        "source_url": "https://sdilej.cz/33960734/batesuv-motel-2014-s02e07-czdab.1080p-presumpce-neviny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007522",
+        "display_name": "Bates Motel S02E07 Presumed Innocent 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T00:34:18.297811+00:00"
       }
     }
   },
@@ -396749,7 +396750,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:34:13.873997+00:00",
+  "updated_at": "2026-11-13T00:34:18.297825+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
