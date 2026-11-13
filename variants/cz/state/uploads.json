@@ -420782,12 +420782,6 @@
     },
     "1051:4:9": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e9",
-      "claim": {
-        "worker_id": "28799e5df7784fd7be98b946aef029e4-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:00:55.150021+00:00",
-        "lease_expires_at": "2026-11-13T23:00:55.150034+00:00"
-      },
       "source": {
         "source_id": "33220380",
         "source_url": "https://sdilej.cz/33220380/star-trek-hluboky-vesmir-devet-s04e09-25-1995-cz-dab-nasagent-bashir.avi",
@@ -420812,22 +420806,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E09 Our Man Bashir 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:01:01.660593+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016186",
-        "size_bytes": 699551282
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016186",
-        "size_bytes": 699551282,
-        "source_bytes_read": 699551282,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016186",
         "source_bytes_read": 699551282,
         "elapsed_seconds": 67.817,
         "finished_at": "2026-11-13T17:02:37.869212+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016186",
+          "size_bytes": 699551282,
+          "source_bytes_read": 699551282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220380",
+        "source_url": "https://sdilej.cz/33220380/star-trek-hluboky-vesmir-devet-s04e09-25-1995-cz-dab-nasagent-bashir.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016186",
+        "display_name": "Star Trek: Deep Space Nine S04E09 Our Man Bashir 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:02:44.656847+00:00"
       }
     },
     "1051:4:12": {
@@ -420869,7 +420870,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:02:41.619860+00:00",
+  "updated_at": "2026-11-13T17:02:44.656864+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
