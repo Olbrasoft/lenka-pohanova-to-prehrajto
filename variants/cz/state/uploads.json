@@ -415152,12 +415152,6 @@
     },
     "1700:1:26": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e26",
-      "claim": {
-        "worker_id": "52ea9c0f248a424e89321bed54607087-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:37:53.133280+00:00",
-        "lease_expires_at": "2026-11-13T19:37:53.133297+00:00"
-      },
       "source": {
         "source_id": "26115340",
         "source_url": "https://sdilej.cz/26115340/scooby-doo-zahady-s.r.o.-s01e26-vsichni-se-boji-monstra-sdtv.x264.mp4",
@@ -415182,22 +415176,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E26 All Fear the Freak SD CZ Dabing",
         "prepared_at": "2026-11-13T13:37:56.864222+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012952",
-        "size_bytes": 157482478
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012952",
-        "size_bytes": 157482478,
-        "source_bytes_read": 157482478,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012952",
         "source_bytes_read": 157482478,
         "elapsed_seconds": 78.61,
         "finished_at": "2026-11-13T13:39:31.305662+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012952",
+          "size_bytes": 157482478,
+          "source_bytes_read": 157482478,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115340",
+        "source_url": "https://sdilej.cz/26115340/scooby-doo-zahady-s.r.o.-s01e26-vsichni-se-boji-monstra-sdtv.x264.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012952",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E26 All Fear the Freak SD CZ Dabing",
+        "uploaded_at": "2026-11-13T13:39:41.243336+00:00"
       }
     },
     "1700:2:2": {
@@ -415275,7 +415276,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:39:38.193154+00:00",
+  "updated_at": "2026-11-13T13:39:41.243351+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
