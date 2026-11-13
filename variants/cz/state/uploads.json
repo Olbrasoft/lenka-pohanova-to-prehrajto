@@ -400196,12 +400196,6 @@
     },
     "462:2:11": {
       "episode_key": "ženatý se závazky:s2:e11",
-      "claim": {
-        "worker_id": "710a68f388b7437b8bddabea8b01138d-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:14:49.371336+00:00",
-        "lease_expires_at": "2026-11-13T09:14:49.371345+00:00"
-      },
       "source": {
         "source_id": "33522248",
         "source_url": "https://sdilej.cz/33522248/zenaty-se-zavazky-s02e11-024-1987-hd-jak-hlaskujes-pomstu-s-.mp4",
@@ -400226,22 +400220,29 @@
         "display_name": "Married… with Children S02E11 How Do You Spell Revenge? 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:14:55.748770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008550",
-        "size_bytes": 474497405
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008550",
-        "size_bytes": 474497405,
-        "source_bytes_read": 474497405,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008550",
         "source_bytes_read": 474497405,
         "elapsed_seconds": 222.765,
         "finished_at": "2026-11-13T03:18:56.291887+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008550",
+          "size_bytes": 474497405,
+          "source_bytes_read": 474497405,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522248",
+        "source_url": "https://sdilej.cz/33522248/zenaty-se-zavazky-s02e11-024-1987-hd-jak-hlaskujes-pomstu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008550",
+        "display_name": "Married… with Children S02E11 How Do You Spell Revenge? 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:19:01.058941+00:00"
       }
     },
     "462:2:12": {
@@ -400324,7 +400325,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:18:56.291906+00:00",
+  "updated_at": "2026-11-13T03:19:01.058958+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
