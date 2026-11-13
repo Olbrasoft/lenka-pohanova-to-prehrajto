@@ -405964,12 +405964,6 @@
     },
     "462:7:21": {
       "episode_key": "ženatý se závazky:s7:e21",
-      "claim": {
-        "worker_id": "d797297821c44f0a8c7efeb2fb626d81-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:31:51.284962+00:00",
-        "lease_expires_at": "2026-11-13T12:31:51.284972+00:00"
-      },
       "source": {
         "source_id": "33523222",
         "source_url": "https://sdilej.cz/33523222/zenaty-se-zavazky-s07e21-152-1993-hd-navsteva-kina-s-.mp4",
@@ -405994,22 +405988,29 @@
         "display_name": "Married… with Children S07E21 Movie Show 720p CZ Dabing",
         "prepared_at": "2026-11-13T06:32:04.704339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009810",
-        "size_bytes": 506430911
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009810",
-        "size_bytes": 506430911,
-        "source_bytes_read": 506430911,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009810",
         "source_bytes_read": 506430911,
         "elapsed_seconds": 282.408,
         "finished_at": "2026-11-13T06:37:01.335925+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009810",
+          "size_bytes": 506430911,
+          "source_bytes_read": 506430911,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523222",
+        "source_url": "https://sdilej.cz/33523222/zenaty-se-zavazky-s07e21-152-1993-hd-navsteva-kina-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009810",
+        "display_name": "Married… with Children S07E21 Movie Show 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:37:07.650396+00:00"
       }
     },
     "462:7:22": {
@@ -406055,7 +406056,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:37:01.335947+00:00",
+  "updated_at": "2026-11-13T06:37:07.650414+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
