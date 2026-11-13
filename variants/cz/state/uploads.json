@@ -433226,12 +433226,6 @@
     },
     "1411:4:7": {
       "episode_key": "případy detektiva murdocha:s4:e7",
-      "claim": {
-        "worker_id": "47ee25fcb94e4134bbb350c6a5c096d0-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:55:40.287527+00:00",
-        "lease_expires_at": "2026-11-14T04:55:40.287537+00:00"
-      },
       "source": {
         "source_id": "7852287",
         "source_url": "https://sdilej.cz/7852287/pripady.detektiva.murdocha.s04e07.konfederacni.poklad.avi",
@@ -433256,22 +433250,29 @@
         "display_name": "Murdoch Mysteries S04E07 Confederate Treasure SD CZ Dabing",
         "prepared_at": "2026-11-13T22:55:50.764509+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020720",
-        "size_bytes": 368003072
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020720",
-        "size_bytes": 368003072,
-        "source_bytes_read": 368003072,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020720",
         "source_bytes_read": 368003072,
         "elapsed_seconds": 20.219,
         "finished_at": "2026-11-13T22:56:32.055445+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020720",
+          "size_bytes": 368003072,
+          "source_bytes_read": 368003072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852287",
+        "source_url": "https://sdilej.cz/7852287/pripady.detektiva.murdocha.s04e07.konfederacni.poklad.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020720",
+        "display_name": "Murdoch Mysteries S04E07 Confederate Treasure SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:56:43.085642+00:00"
       }
     },
     "1411:4:8": {
@@ -433316,7 +433317,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:56:39.326106+00:00",
+  "updated_at": "2026-11-13T22:56:43.085665+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
