@@ -430872,12 +430872,6 @@
     },
     "1021:4:3": {
       "episode_key": "ve jménu našeho pána:s4:e3",
-      "claim": {
-        "worker_id": "4b6dee414dd043139843a003e523ae2c-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:20:26.445338+00:00",
-        "lease_expires_at": "2026-11-14T04:20:26.445349+00:00"
-      },
       "source": {
         "source_id": "31341385",
         "source_url": "https://sdilej.cz/31341385/ve-jmenu-naseho-pana-s04e03-rmoutit-se-jako-ti-kteri-nemaji-nadeji-cz-1080p.mkv",
@@ -430902,22 +430896,29 @@
         "display_name": "The Righteous Gemstones S04E03 To Grieve Like the Rest of Men Who Have No Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:20:36.426451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020097",
-        "size_bytes": 1024758758
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020097",
-        "size_bytes": 1024758758,
-        "source_bytes_read": 1024758758,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020097",
         "source_bytes_read": 1024758758,
         "elapsed_seconds": 51.365,
         "finished_at": "2026-11-13T22:21:46.031310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020097",
+          "size_bytes": 1024758758,
+          "source_bytes_read": 1024758758,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31341385",
+        "source_url": "https://sdilej.cz/31341385/ve-jmenu-naseho-pana-s04e03-rmoutit-se-jako-ti-kteri-nemaji-nadeji-cz-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020097",
+        "display_name": "The Righteous Gemstones S04E03 To Grieve Like the Rest of Men Who Have No Hope 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:21:56.577950+00:00"
       }
     }
   },
@@ -430926,7 +430927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:21:51.916260+00:00",
+  "updated_at": "2026-11-13T22:21:56.577973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
