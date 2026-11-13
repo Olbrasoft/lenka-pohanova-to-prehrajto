@@ -396119,12 +396119,6 @@
     },
     "9201:1:4": {
       "episode_key": "ranč duttonových:s1:e4",
-      "claim": {
-        "worker_id": "901fdf2889114d2d946354b804dc59f5-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-12T23:49:06.363051+00:00",
-        "lease_expires_at": "2026-11-13T05:49:06.363063+00:00"
-      },
       "source": {
         "source_id": "34432695",
         "source_url": "https://sdilej.cz/34432695/ranc-duttonovych-s01e04-na-zacatku-je-vystrel.mkv",
@@ -396149,22 +396143,29 @@
         "display_name": "Dutton Ranch S01E04 Start with a Bullet 4K CZ Dabing",
         "prepared_at": "2026-11-12T23:49:13.031001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007270",
-        "size_bytes": 5560186049
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007270",
-        "size_bytes": 5560186049,
-        "source_bytes_read": 5560186049,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007270",
         "source_bytes_read": 5560186049,
         "elapsed_seconds": 2763.125,
         "finished_at": "2026-11-13T00:35:36.818249+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007270",
+          "size_bytes": 5560186049,
+          "source_bytes_read": 5560186049,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34432695",
+        "source_url": "https://sdilej.cz/34432695/ranc-duttonovych-s01e04-na-zacatku-je-vystrel.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007270",
+        "display_name": "Dutton Ranch S01E04 Start with a Bullet 4K CZ Dabing",
+        "uploaded_at": "2026-11-13T00:35:42.968250+00:00"
       }
     },
     "1177:1:9": {
@@ -396776,7 +396777,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:35:39.962844+00:00",
+  "updated_at": "2026-11-13T00:35:42.968265+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
