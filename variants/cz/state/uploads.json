@@ -422230,12 +422230,6 @@
     },
     "1051:6:19": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e19",
-      "claim": {
-        "worker_id": "f4faced4a98a488fb3d88804310fa6ce-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:23:13.530120+00:00",
-        "lease_expires_at": "2026-11-13T23:23:13.530128+00:00"
-      },
       "source": {
         "source_id": "33220579",
         "source_url": "https://sdilej.cz/33220579/star-trek-hluboky-vesmir-devet-s06e19-26-1997-cz-dab-zasvituluny.avi",
@@ -422260,22 +422254,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E19 In the Pale Moonlight 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:23:28.969238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016732",
-        "size_bytes": 546880806
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016732",
-        "size_bytes": 546880806,
-        "source_bytes_read": 546880806,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016732",
         "source_bytes_read": 546880806,
         "elapsed_seconds": 57.75,
         "finished_at": "2026-11-13T17:24:49.800218+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016732",
+          "size_bytes": 546880806,
+          "source_bytes_read": 546880806,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220579",
+        "source_url": "https://sdilej.cz/33220579/star-trek-hluboky-vesmir-devet-s06e19-26-1997-cz-dab-zasvituluny.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016732",
+        "display_name": "Star Trek: Deep Space Nine S06E19 In the Pale Moonlight 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:24:54.529975+00:00"
       }
     },
     "1051:6:20": {
@@ -422358,7 +422359,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:24:49.800240+00:00",
+  "updated_at": "2026-11-13T17:24:54.529995+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
