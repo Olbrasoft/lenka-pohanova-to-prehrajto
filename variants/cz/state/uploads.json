@@ -421566,12 +421566,6 @@
     },
     "1051:5:15": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e15",
-      "claim": {
-        "worker_id": "b232df9291414b9590995c82b3f75ae0-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:12:24.215602+00:00",
-        "lease_expires_at": "2026-11-13T23:12:24.215618+00:00"
-      },
       "source": {
         "source_id": "33220500",
         "source_url": "https://sdilej.cz/33220500/star-trek-hluboky-vesmir-devet-s05e15-26-1996-cz-dab-pekelnym-zarem.avi",
@@ -421596,22 +421590,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E15 By Inferno's Light (2) 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:12:31.872623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016408",
-        "size_bytes": 546405282
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016408",
-        "size_bytes": 546405282,
-        "source_bytes_read": 546405282,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016408",
         "source_bytes_read": 546405282,
         "elapsed_seconds": 49.391,
         "finished_at": "2026-11-13T17:13:45.376889+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016408",
+          "size_bytes": 546405282,
+          "source_bytes_read": 546405282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220500",
+        "source_url": "https://sdilej.cz/33220500/star-trek-hluboky-vesmir-devet-s05e15-26-1996-cz-dab-pekelnym-zarem.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016408",
+        "display_name": "Star Trek: Deep Space Nine S05E15 By Inferno's Light (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:13:54.407968+00:00"
       }
     },
     "1051:5:17": {
@@ -421657,7 +421658,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:13:51.413111+00:00",
+  "updated_at": "2026-11-13T17:13:54.407990+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
