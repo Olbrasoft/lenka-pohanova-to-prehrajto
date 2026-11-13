@@ -429597,12 +429597,6 @@
     },
     "1410:2:45": {
       "episode_key": "phineas a ferb:s2:e45",
-      "claim": {
-        "worker_id": "26e1a8fc0c124c0ab22e909c5c4fb402-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:07:57.020997+00:00",
-        "lease_expires_at": "2026-11-14T04:07:57.021007+00:00"
-      },
       "source": {
         "source_id": "33548586",
         "source_url": "https://sdilej.cz/33548586/phineas.a.ferb.2x45.tahle.jizda.neni.pro.deti.720p.cz.batmaster.mkv",
@@ -429627,22 +429621,29 @@
         "display_name": "Phineas and Ferb S02E45 Ain't No Kiddie Ride 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:08:03.885653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019745",
-        "size_bytes": 105993970
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019745",
-        "size_bytes": 105993970,
-        "source_bytes_read": 105993970,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019745",
         "source_bytes_read": 105993970,
         "elapsed_seconds": 9.137,
         "finished_at": "2026-11-13T22:08:39.256361+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019745",
+          "size_bytes": 105993970,
+          "source_bytes_read": 105993970,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548586",
+        "source_url": "https://sdilej.cz/33548586/phineas.a.ferb.2x45.tahle.jizda.neni.pro.deti.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019745",
+        "display_name": "Phineas and Ferb S02E45 Ain't No Kiddie Ride 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:08:49.189446+00:00"
       }
     },
     "1410:2:46": {
@@ -429721,7 +429722,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:08:45.553461+00:00",
+  "updated_at": "2026-11-13T22:08:49.189463+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
