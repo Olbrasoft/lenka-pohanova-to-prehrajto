@@ -414985,12 +414985,6 @@
     },
     "1700:1:23": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e23",
-      "claim": {
-        "worker_id": "cc510d6b67774a7daea012209e6eb9d7-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T13:23:31.713423+00:00",
-        "lease_expires_at": "2026-11-13T19:23:31.713439+00:00"
-      },
       "source": {
         "source_id": "26115344",
         "source_url": "https://sdilej.cz/26115344/scooby-doo-zahady-s.r.o.-s01e23-straseni-v-kristalove-zatoce-sdtv.x264.mp4",
@@ -415015,22 +415009,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E23 A Haunting in Crystal Cove SD CZ Dabing",
         "prepared_at": "2026-11-13T13:23:35.453446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012834",
-        "size_bytes": 155782675
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012834",
-        "size_bytes": 155782675,
-        "source_bytes_read": 155782675,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012834",
         "source_bytes_read": 155782675,
         "elapsed_seconds": 82.51,
         "finished_at": "2026-11-13T13:25:13.102266+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012834",
+          "size_bytes": 155782675,
+          "source_bytes_read": 155782675,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115344",
+        "source_url": "https://sdilej.cz/26115344/scooby-doo-zahady-s.r.o.-s01e23-straseni-v-kristalove-zatoce-sdtv.x264.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012834",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E23 A Haunting in Crystal Cove SD CZ Dabing",
+        "uploaded_at": "2026-11-13T13:25:18.514076+00:00"
       }
     }
   },
@@ -415039,7 +415040,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:25:13.102284+00:00",
+  "updated_at": "2026-11-13T13:25:18.514093+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
