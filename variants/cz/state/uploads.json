@@ -408524,12 +408524,6 @@
     },
     "462:9:23": {
       "episode_key": "ženatý se závazky:s9:e23",
-      "claim": {
-        "worker_id": "2a31771a6bf44e2a83375d045feb5138-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:02:41.310373+00:00",
-        "lease_expires_at": "2026-11-13T14:02:41.310383+00:00"
-      },
       "source": {
         "source_id": "35326746",
         "source_url": "https://sdilej.cz/35326746/zenaty-se-zavazky-s09e23-zpravy-z-bot.mkv",
@@ -408554,22 +408548,29 @@
         "display_name": "Married… with Children S09E23 Pump Fiction 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:02:51.729834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010465",
-        "size_bytes": 386850166
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010465",
-        "size_bytes": 386850166,
-        "source_bytes_read": 386850166,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010465",
         "source_bytes_read": 386850166,
         "elapsed_seconds": 257.095,
         "finished_at": "2026-11-13T08:07:25.856653+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010465",
+          "size_bytes": 386850166,
+          "source_bytes_read": 386850166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326746",
+        "source_url": "https://sdilej.cz/35326746/zenaty-se-zavazky-s09e23-zpravy-z-bot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010465",
+        "display_name": "Married… with Children S09E23 Pump Fiction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:07:30.041228+00:00"
       }
     },
     "462:9:24": {
@@ -408666,7 +408667,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:07:25.856675+00:00",
+  "updated_at": "2026-11-13T08:07:30.041243+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
