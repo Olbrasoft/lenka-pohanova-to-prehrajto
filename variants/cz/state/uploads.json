@@ -430464,12 +430464,6 @@
     },
     "1410:5:17": {
       "episode_key": "phineas a ferb:s5:e17",
-      "claim": {
-        "worker_id": "94073c30b2344984b066ed3e35e7d2dc-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:14:58.365117+00:00",
-        "lease_expires_at": "2026-11-14T04:14:58.365134+00:00"
-      },
       "source": {
         "source_id": "34683334",
         "source_url": "https://sdilej.cz/34683334/phineas.a.ferb.s05e17.rezervace.na.veceri.virivka.ve.chlebu.cz.en.1080p.web.h264-dolores.mkv",
@@ -430494,22 +430488,29 @@
         "display_name": "Phineas and Ferb S05E17 The Chronicles of Meap Ep. 42 Meap Me in St. Louis 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:15:03.388914+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019955",
-        "size_bytes": 862926911
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019955",
-        "size_bytes": 862926911,
-        "source_bytes_read": 862926911,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019955",
         "source_bytes_read": 862926911,
         "elapsed_seconds": 39.599,
         "finished_at": "2026-11-13T22:16:08.666045+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019955",
+          "size_bytes": 862926911,
+          "source_bytes_read": 862926911,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34683334",
+        "source_url": "https://sdilej.cz/34683334/phineas.a.ferb.s05e17.rezervace.na.veceri.virivka.ve.chlebu.cz.en.1080p.web.h264-dolores.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019955",
+        "display_name": "Phineas and Ferb S05E17 The Chronicles of Meap Ep. 42 Meap Me in St. Louis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:16:14.145513+00:00"
       }
     },
     "1021:3:5": {
@@ -430592,7 +430593,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:16:08.666092+00:00",
+  "updated_at": "2026-11-13T22:16:14.145533+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
