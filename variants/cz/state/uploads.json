@@ -402428,12 +402428,6 @@
     },
     "462:4:20": {
       "episode_key": "ženatý se závazky:s4:e20",
-      "claim": {
-        "worker_id": "b1e2a1c91ca948cf9fc55ecd0f095aee-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:26:13.915270+00:00",
-        "lease_expires_at": "2026-11-13T10:26:13.915280+00:00"
-      },
       "source": {
         "source_id": "33522645",
         "source_url": "https://sdilej.cz/33522645/zenaty-se-zavazky-s04e20-077-1990-hd-letni-skola-s-.mp4",
@@ -402458,22 +402452,29 @@
         "display_name": "Married… with Children S04E20 Peggy Made a Little Lamb 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:26:25.297875+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008961",
-        "size_bytes": 475590352
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008961",
-        "size_bytes": 475590352,
-        "source_bytes_read": 475590352,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008961",
         "source_bytes_read": 475590352,
         "elapsed_seconds": 206.066,
         "finished_at": "2026-11-13T04:30:11.166218+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008961",
+          "size_bytes": 475590352,
+          "source_bytes_read": 475590352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522645",
+        "source_url": "https://sdilej.cz/33522645/zenaty-se-zavazky-s04e20-077-1990-hd-letni-skola-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008961",
+        "display_name": "Married… with Children S04E20 Peggy Made a Little Lamb 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:30:20.407922+00:00"
       }
     },
     "462:5:1": {
@@ -402583,7 +402584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:30:15.277211+00:00",
+  "updated_at": "2026-11-13T04:30:20.407937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
