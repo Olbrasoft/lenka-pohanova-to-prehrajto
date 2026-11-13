@@ -403817,12 +403817,6 @@
     },
     "462:6:5": {
       "episode_key": "ženatý se závazky:s6:e5",
-      "claim": {
-        "worker_id": "d885bcbd28f04e5ab7ae7254271a9e8d-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:21:10.968463+00:00",
-        "lease_expires_at": "2026-11-13T11:21:10.968476+00:00"
-      },
       "source": {
         "source_id": "35326583",
         "source_url": "https://sdilej.cz/35326583/zenaty-se-zavazky-s06e05-hledani-skrinky.mkv",
@@ -403847,22 +403841,29 @@
         "display_name": "Married… with Children S06E05 Looking for a Desk in All the Wrong Places 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:21:14.770701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009336",
-        "size_bytes": 333770202
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009336",
-        "size_bytes": 333770202,
-        "source_bytes_read": 333770202,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009336",
         "source_bytes_read": 333770202,
         "elapsed_seconds": 160.987,
         "finished_at": "2026-11-13T05:24:11.181734+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009336",
+          "size_bytes": 333770202,
+          "source_bytes_read": 333770202,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326583",
+        "source_url": "https://sdilej.cz/35326583/zenaty-se-zavazky-s06e05-hledani-skrinky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009336",
+        "display_name": "Married… with Children S06E05 Looking for a Desk in All the Wrong Places 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:24:16.106655+00:00"
       }
     },
     "462:6:6": {
@@ -403945,7 +403946,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:24:11.181753+00:00",
+  "updated_at": "2026-11-13T05:24:16.106682+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
