@@ -426704,12 +426704,6 @@
     },
     "2231:4:6": {
       "episode_key": "star wars: povstalci:s4:e6",
-      "claim": {
-        "worker_id": "bf47c654369d46db8352c9f9884cbd68-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T20:56:51.931198+00:00",
-        "lease_expires_at": "2026-11-14T02:56:51.931208+00:00"
-      },
       "source": {
         "source_id": "29132077",
         "source_url": "https://sdilej.cz/29132077/star-wars-povstalci-s04e06-cz.mkv",
@@ -426734,22 +426728,29 @@
         "display_name": "Star Wars Rebels S04E06 Flight of the Defender 1080p CZ Dabing",
         "prepared_at": "2026-11-13T20:56:55.684399+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018764",
-        "size_bytes": 893086862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018764",
-        "size_bytes": 893086862,
-        "source_bytes_read": 893086862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018764",
         "source_bytes_read": 893086862,
         "elapsed_seconds": 372.102,
         "finished_at": "2026-11-13T21:03:21.718865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018764",
+          "size_bytes": 893086862,
+          "source_bytes_read": 893086862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29132077",
+        "source_url": "https://sdilej.cz/29132077/star-wars-povstalci-s04e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018764",
+        "display_name": "Star Wars Rebels S04E06 Flight of the Defender 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:03:27.775076+00:00"
       }
     },
     "2231:4:7": {
@@ -426795,7 +426796,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:03:21.718886+00:00",
+  "updated_at": "2026-11-13T21:03:27.775093+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
