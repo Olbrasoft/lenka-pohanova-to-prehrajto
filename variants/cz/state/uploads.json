@@ -431645,12 +431645,6 @@
     },
     "1411:1:10": {
       "episode_key": "případy detektiva murdocha:s1:e10",
-      "claim": {
-        "worker_id": "ae583b160ecd448ab71e6c19e79abd34-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:29:57.909139+00:00",
-        "lease_expires_at": "2026-11-14T04:29:57.909150+00:00"
-      },
       "source": {
         "source_id": "17867878",
         "source_url": "https://sdilej.cz/17867878/pripady-detektiva-murdocha-s01e10-detska-hra-sd-.avi",
@@ -431675,22 +431669,29 @@
         "display_name": "Murdoch Mysteries S01E10 Child's Play SD CZ Dabing",
         "prepared_at": "2026-11-13T22:30:06.608077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020325",
-        "size_bytes": 746271798
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020325",
-        "size_bytes": 746271798,
-        "source_bytes_read": 746271798,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020325",
         "source_bytes_read": 746271798,
         "elapsed_seconds": 64.097,
         "finished_at": "2026-11-13T22:31:32.539669+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020325",
+          "size_bytes": 746271798,
+          "source_bytes_read": 746271798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17867878",
+        "source_url": "https://sdilej.cz/17867878/pripady-detektiva-murdocha-s01e10-detska-hra-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020325",
+        "display_name": "Murdoch Mysteries S01E10 Child's Play SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:31:39.991710+00:00"
       }
     },
     "1411:1:11": {
@@ -431875,7 +431876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:31:36.038268+00:00",
+  "updated_at": "2026-11-13T22:31:39.991726+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
