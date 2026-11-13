@@ -399002,12 +399002,6 @@
     },
     "262:1:7": {
       "episode_key": "oddělení q:s1:e7",
-      "claim": {
-        "worker_id": "1537bc43cfca434f93adaa4d6a7a68ed-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:36:08.038834+00:00",
-        "lease_expires_at": "2026-11-13T08:36:08.038847+00:00"
-      },
       "source": {
         "source_id": "35054355",
         "source_url": "https://sdilej.cz/35054355/oddeleni-q-s01e07-7-dil.mkv",
@@ -399032,22 +399026,29 @@
         "display_name": "Dept. Q S01E07 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:36:17.057123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008277",
-        "size_bytes": 227185349
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008277",
-        "size_bytes": 227185349,
-        "source_bytes_read": 227185349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008277",
         "source_bytes_read": 227185349,
         "elapsed_seconds": 121.008,
         "finished_at": "2026-11-13T02:38:31.417826+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008277",
+          "size_bytes": 227185349,
+          "source_bytes_read": 227185349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35054355",
+        "source_url": "https://sdilej.cz/35054355/oddeleni-q-s01e07-7-dil.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008277",
+        "display_name": "Dept. Q S01E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:38:41.483369+00:00"
       }
     },
     "262:1:8": {
@@ -399074,7 +399075,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:38:38.102985+00:00",
+  "updated_at": "2026-11-13T02:38:41.483383+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
