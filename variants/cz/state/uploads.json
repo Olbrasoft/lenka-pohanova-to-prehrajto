@@ -399320,12 +399320,6 @@
     },
     "462:1:6": {
       "episode_key": "ženatý se závazky:s1:e6",
-      "claim": {
-        "worker_id": "c000d887c4cc48d79dbaa5b31511c58b-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:47:30.452015+00:00",
-        "lease_expires_at": "2026-11-13T08:47:30.452025+00:00"
-      },
       "source": {
         "source_id": "27748482",
         "source_url": "https://sdilej.cz/27748482/zenaty-se-zavazky-s01e06.mkv",
@@ -399350,22 +399344,29 @@
         "display_name": "Married… with Children S01E06 Sixteen Years and What Do You Get? SD CZ Dabing",
         "prepared_at": "2026-11-13T02:47:33.938577+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008363",
-        "size_bytes": 237175746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008363",
-        "size_bytes": 237175746,
-        "source_bytes_read": 237175746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008363",
         "source_bytes_read": 237175746,
         "elapsed_seconds": 102.297,
         "finished_at": "2026-11-13T02:49:29.547961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008363",
+          "size_bytes": 237175746,
+          "source_bytes_read": 237175746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748482",
+        "source_url": "https://sdilej.cz/27748482/zenaty-se-zavazky-s01e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008363",
+        "display_name": "Married… with Children S01E06 Sixteen Years and What Do You Get? SD CZ Dabing",
+        "uploaded_at": "2026-11-13T02:49:36.014515+00:00"
       }
     },
     "462:1:7": {
@@ -399411,7 +399412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:49:29.547976+00:00",
+  "updated_at": "2026-11-13T02:49:36.014528+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
