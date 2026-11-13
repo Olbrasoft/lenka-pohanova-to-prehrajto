@@ -422898,12 +422898,6 @@
     },
     "1051:7:7": {
       "episode_key": "star trek: hluboký vesmír devět:s7:e7",
-      "claim": {
-        "worker_id": "f70112182d974755801af479f5467ee8-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:33:36.556814+00:00",
-        "lease_expires_at": "2026-11-13T23:33:36.556824+00:00"
-      },
       "source": {
         "source_id": "33220614",
         "source_url": "https://sdilej.cz/33220614/star-trek-hluboky-vesmir-devet-s07e07-26-1998-cz-dab-a-znovu-do-te-prurvy.mkv",
@@ -422928,22 +422922,29 @@
         "display_name": "Star Trek: Deep Space Nine S07E07 Once More Unto the Breach SD CZ Dabing",
         "prepared_at": "2026-11-13T17:33:46.192775+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016892",
-        "size_bytes": 439371540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016892",
-        "size_bytes": 439371540,
-        "source_bytes_read": 439371540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016892",
         "source_bytes_read": 439371540,
         "elapsed_seconds": 56.663,
         "finished_at": "2026-11-13T17:35:06.169379+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016892",
+          "size_bytes": 439371540,
+          "source_bytes_read": 439371540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220614",
+        "source_url": "https://sdilej.cz/33220614/star-trek-hluboky-vesmir-devet-s07e07-26-1998-cz-dab-a-znovu-do-te-prurvy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016892",
+        "display_name": "Star Trek: Deep Space Nine S07E07 Once More Unto the Breach SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:35:14.548287+00:00"
       }
     }
   },
@@ -422952,7 +422953,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:35:09.790908+00:00",
+  "updated_at": "2026-11-13T17:35:14.548308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
