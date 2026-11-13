@@ -407637,12 +407637,6 @@
     },
     "462:9:5": {
       "episode_key": "ženatý se závazky:s9:e5",
-      "claim": {
-        "worker_id": "d382b96f1c8f44969623d23d32ee104c-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:34:50.135429+00:00",
-        "lease_expires_at": "2026-11-13T13:34:50.135439+00:00"
-      },
       "source": {
         "source_id": "35326718",
         "source_url": "https://sdilej.cz/35326718/zenaty-se-zavazky-s09e05-prace-zasrana-1.-cast.mkv",
@@ -407667,22 +407661,29 @@
         "display_name": "Married… with Children S09E05 Business Sucks (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:35:04.561155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010263",
-        "size_bytes": 350501517
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010263",
-        "size_bytes": 350501517,
-        "source_bytes_read": 350501517,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010263",
         "source_bytes_read": 350501517,
         "elapsed_seconds": 201.876,
         "finished_at": "2026-11-13T07:38:48.722050+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010263",
+          "size_bytes": 350501517,
+          "source_bytes_read": 350501517,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326718",
+        "source_url": "https://sdilej.cz/35326718/zenaty-se-zavazky-s09e05-prace-zasrana-1.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010263",
+        "display_name": "Married… with Children S09E05 Business Sucks (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:38:54.086501+00:00"
       }
     },
     "462:9:6": {
@@ -407728,7 +407729,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:38:48.722069+00:00",
+  "updated_at": "2026-11-13T07:38:54.086516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
