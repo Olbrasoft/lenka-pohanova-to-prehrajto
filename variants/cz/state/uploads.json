@@ -431236,12 +431236,6 @@
     },
     "1411:1:2": {
       "episode_key": "případy detektiva murdocha:s1:e2",
-      "claim": {
-        "worker_id": "19146259bf844cdf8a08896b43fee845-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:25:45.163309+00:00",
-        "lease_expires_at": "2026-11-14T04:25:45.163317+00:00"
-      },
       "source": {
         "source_id": "22416742",
         "source_url": "https://sdilej.cz/22416742/pripady-detektiva-murdocha-s01e02-czdab.avi",
@@ -431266,22 +431260,29 @@
         "display_name": "Murdoch Mysteries S01E02 Glass Ceiling SD CZ Dabing",
         "prepared_at": "2026-11-13T22:25:49.021068+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020237",
-        "size_bytes": 369010688
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020237",
-        "size_bytes": 369010688,
-        "source_bytes_read": 369010688,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020237",
         "source_bytes_read": 369010688,
         "elapsed_seconds": 19.568,
         "finished_at": "2026-11-13T22:26:24.856899+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020237",
+          "size_bytes": 369010688,
+          "source_bytes_read": 369010688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22416742",
+        "source_url": "https://sdilej.cz/22416742/pripady-detektiva-murdocha-s01e02-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020237",
+        "display_name": "Murdoch Mysteries S01E02 Glass Ceiling SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:26:29.332187+00:00"
       }
     },
     "1411:1:3": {
@@ -431327,7 +431328,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:26:24.856915+00:00",
+  "updated_at": "2026-11-13T22:26:29.332202+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
