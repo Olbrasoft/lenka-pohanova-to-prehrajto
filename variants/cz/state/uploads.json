@@ -402281,12 +402281,6 @@
     },
     "462:4:17": {
       "episode_key": "ženatý se závazky:s4:e17",
-      "claim": {
-        "worker_id": "065be1abd3ff4603b29086fe6c258c21-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:20:55.691112+00:00",
-        "lease_expires_at": "2026-11-13T10:20:55.691124+00:00"
-      },
       "source": {
         "source_id": "33522623",
         "source_url": "https://sdilej.cz/33522623/zenaty-se-zavazky-s04e17-074-1990-hd-las-vegas-ii.-s-.mp4",
@@ -402311,22 +402305,29 @@
         "display_name": "Married… with Children S04E17 You Gotta Know When to Fold 'Em (2) 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:21:04.758272+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008936",
-        "size_bytes": 488630913
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008936",
-        "size_bytes": 488630913,
-        "source_bytes_read": 488630913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008936",
         "source_bytes_read": 488630913,
         "elapsed_seconds": 226.211,
         "finished_at": "2026-11-13T04:25:11.296597+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008936",
+          "size_bytes": 488630913,
+          "source_bytes_read": 488630913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522623",
+        "source_url": "https://sdilej.cz/33522623/zenaty-se-zavazky-s04e17-074-1990-hd-las-vegas-ii.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008936",
+        "display_name": "Married… with Children S04E17 You Gotta Know When to Fold 'Em (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:25:24.890597+00:00"
       }
     },
     "462:4:18": {
@@ -402437,7 +402438,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:25:21.111643+00:00",
+  "updated_at": "2026-11-13T04:25:24.890612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
