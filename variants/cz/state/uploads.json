@@ -422077,12 +422077,6 @@
     },
     "1051:6:16": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e16",
-      "claim": {
-        "worker_id": "2c897cd824554be581d939feb6837447-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:20:00.330567+00:00",
-        "lease_expires_at": "2026-11-13T23:20:00.330579+00:00"
-      },
       "source": {
         "source_id": "33220562",
         "source_url": "https://sdilej.cz/33220562/star-trek-hluboky-vesmir-devet-s06e16-26-1997-cz-dab-pohnutky-srdce.avi",
@@ -422107,22 +422101,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E16 Change of Heart 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:20:11.020028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016670",
-        "size_bytes": 596196424
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016670",
-        "size_bytes": 596196424,
-        "source_bytes_read": 596196424,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016670",
         "source_bytes_read": 596196424,
         "elapsed_seconds": 90.373,
         "finished_at": "2026-11-13T17:22:10.362071+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016670",
+          "size_bytes": 596196424,
+          "source_bytes_read": 596196424,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220562",
+        "source_url": "https://sdilej.cz/33220562/star-trek-hluboky-vesmir-devet-s06e16-26-1997-cz-dab-pohnutky-srdce.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016670",
+        "display_name": "Star Trek: Deep Space Nine S06E16 Change of Heart 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:22:19.187805+00:00"
       }
     },
     "1051:6:17": {
@@ -422231,7 +422232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:22:13.379154+00:00",
+  "updated_at": "2026-11-13T17:22:19.187824+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
