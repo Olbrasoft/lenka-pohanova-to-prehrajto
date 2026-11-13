@@ -419214,12 +419214,6 @@
     },
     "1051:2:17": {
       "episode_key": "star trek: hluboký vesmír devět:s2:e17",
-      "claim": {
-        "worker_id": "d89f6ea44bbc4eaa82eb84b1d1720dfe-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:27:17.288613+00:00",
-        "lease_expires_at": "2026-11-13T22:27:17.288624+00:00"
-      },
       "source": {
         "source_id": "29050500",
         "source_url": "https://sdilej.cz/29050500/star-trek-deep-space-nine-02x17-hra-na-boha.avi",
@@ -419244,22 +419238,29 @@
         "display_name": "Star Trek: Deep Space Nine S02E17 Playing God SD CZ Dabing",
         "prepared_at": "2026-11-13T16:27:25.872753+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015432",
-        "size_bytes": 444190720
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015432",
-        "size_bytes": 444190720,
-        "source_bytes_read": 444190720,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015432",
         "source_bytes_read": 444190720,
         "elapsed_seconds": 22.579,
         "finished_at": "2026-11-13T16:28:08.370635+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015432",
+          "size_bytes": 444190720,
+          "source_bytes_read": 444190720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29050500",
+        "source_url": "https://sdilej.cz/29050500/star-trek-deep-space-nine-02x17-hra-na-boha.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015432",
+        "display_name": "Star Trek: Deep Space Nine S02E17 Playing God SD CZ Dabing",
+        "uploaded_at": "2026-11-13T16:28:14.502199+00:00"
       }
     },
     "1051:2:20": {
@@ -419305,7 +419306,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:28:08.370661+00:00",
+  "updated_at": "2026-11-13T16:28:14.502215+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
