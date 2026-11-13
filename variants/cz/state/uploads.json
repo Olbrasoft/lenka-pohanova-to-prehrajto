@@ -435455,12 +435455,6 @@
     },
     "1411:7:11": {
       "episode_key": "případy detektiva murdocha:s7:e11",
-      "claim": {
-        "worker_id": "cbe9b67487c541278d1384b841cd442c-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:22:49.782338+00:00",
-        "lease_expires_at": "2026-11-14T05:22:49.782347+00:00"
-      },
       "source": {
         "source_id": "22417662",
         "source_url": "https://sdilej.cz/22417662/pripady-detektiva-murdocha-s07e11-czdab.avi",
@@ -435485,22 +435479,29 @@
         "display_name": "Murdoch Mysteries S07E11 Journey to the Centre of Toronto SD CZ Dabing",
         "prepared_at": "2026-11-13T23:22:55.741592+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021305",
-        "size_bytes": 362411804
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021305",
-        "size_bytes": 362411804,
-        "source_bytes_read": 362411804,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021305",
         "source_bytes_read": 362411804,
         "elapsed_seconds": 49.604,
         "finished_at": "2026-11-13T23:24:02.816122+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021305",
+          "size_bytes": 362411804,
+          "source_bytes_read": 362411804,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22417662",
+        "source_url": "https://sdilej.cz/22417662/pripady-detektiva-murdocha-s07e11-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021305",
+        "display_name": "Murdoch Mysteries S07E11 Journey to the Centre of Toronto SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:24:09.217938+00:00"
       }
     },
     "1411:7:13": {
@@ -435559,7 +435560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:24:05.676117+00:00",
+  "updated_at": "2026-11-13T23:24:09.217956+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
