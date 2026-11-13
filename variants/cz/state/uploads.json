@@ -421102,12 +421102,6 @@
     },
     "1051:4:17": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e17",
-      "claim": {
-        "worker_id": "dfebe6f1cf004734874eceabd3cb9176-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:06:02.860666+00:00",
-        "lease_expires_at": "2026-11-13T23:06:02.860679+00:00"
-      },
       "source": {
         "source_id": "33220400",
         "source_url": "https://sdilej.cz/33220400/star-trek-hluboky-vesmir-devet-s04e17-25-1995-cz-dab-pravidla-boje.avi",
@@ -421132,22 +421126,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E17 Rules of Engagement 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:06:09.391119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016306",
-        "size_bytes": 572636048
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016306",
-        "size_bytes": 572636048,
-        "source_bytes_read": 572636048,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016306",
         "source_bytes_read": 572636048,
         "elapsed_seconds": 58.848,
         "finished_at": "2026-11-13T17:07:27.861000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016306",
+          "size_bytes": 572636048,
+          "source_bytes_read": 572636048,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220400",
+        "source_url": "https://sdilej.cz/33220400/star-trek-hluboky-vesmir-devet-s04e17-25-1995-cz-dab-pravidla-boje.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016306",
+        "display_name": "Star Trek: Deep Space Nine S04E17 Rules of Engagement 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:07:33.724564+00:00"
       }
     },
     "1051:4:19": {
@@ -421193,7 +421194,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:07:27.861017+00:00",
+  "updated_at": "2026-11-13T17:07:33.724580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
