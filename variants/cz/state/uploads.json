@@ -40160,24 +40160,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T16:05:11.214670+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T17:14:58.554839+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T18:23:04.342574+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T19:26:27.508469+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "1d44d876e60d4267977fb9e15377c4e1-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T19:26:01.794417+00:00",
-        "lease_expires_at": "2026-11-14T01:26:01.794435+00:00"
-      }
+      ]
     },
     "673:4:12": {
       "episode_key": "městečko south park:s4:e12",
@@ -425006,13 +425000,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T19:26:24.387687+00:00",
+  "updated_at": "2026-11-13T19:26:27.508475+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:4:10",
           "at": "2026-11-13T19:26:07.562022+00:00"
+        },
+        {
+          "identity": "673:4:11",
+          "at": "2026-11-13T19:26:27.508431+00:00"
         }
       ],
       "retry_after": "2026-11-13T19:20:30.100019+00:00"
