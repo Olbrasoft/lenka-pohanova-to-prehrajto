@@ -403609,12 +403609,6 @@
     },
     "462:5:23": {
       "episode_key": "ženatý se závazky:s5:e23",
-      "claim": {
-        "worker_id": "7864076e7ba145df82a924a6f565fc9c-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:11:45.255172+00:00",
-        "lease_expires_at": "2026-11-13T11:11:45.255192+00:00"
-      },
       "source": {
         "source_id": "33522818",
         "source_url": "https://sdilej.cz/33522818/zenaty-se-zavazky-s05e23-103-1991-hd-zlaty-dul-v-novem-mexiku-i.-s-.mp4",
@@ -403639,22 +403633,29 @@
         "display_name": "Married… with Children S05E23 Route 666 (1) 720p CZ Dabing",
         "prepared_at": "2026-11-13T05:11:49.144491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009275",
-        "size_bytes": 503003903
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009275",
-        "size_bytes": 503003903,
-        "source_bytes_read": 503003903,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009275",
         "source_bytes_read": 503003903,
         "elapsed_seconds": 212.222,
         "finished_at": "2026-11-13T05:15:37.262866+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009275",
+          "size_bytes": 503003903,
+          "source_bytes_read": 503003903,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522818",
+        "source_url": "https://sdilej.cz/33522818/zenaty-se-zavazky-s05e23-103-1991-hd-zlaty-dul-v-novem-mexiku-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009275",
+        "display_name": "Married… with Children S05E23 Route 666 (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:15:48.984986+00:00"
       }
     }
   },
@@ -403663,7 +403664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:15:44.316355+00:00",
+  "updated_at": "2026-11-13T05:15:48.985008+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
