@@ -398719,12 +398719,6 @@
     },
     "262:1:2": {
       "episode_key": "oddělení q:s1:e2",
-      "claim": {
-        "worker_id": "906e5da6f3c94ef4b78fc7b229b6d1e8-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:28:59.301081+00:00",
-        "lease_expires_at": "2026-11-13T08:28:59.301089+00:00"
-      },
       "source": {
         "source_id": "35054347",
         "source_url": "https://sdilej.cz/35054347/oddeleni-q-s01e02-2-dil.mkv",
@@ -398749,22 +398743,29 @@
         "display_name": "Dept. Q S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:29:12.571227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008239",
-        "size_bytes": 233114371
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008239",
-        "size_bytes": 233114371,
-        "source_bytes_read": 233114371,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008239",
         "source_bytes_read": 233114371,
         "elapsed_seconds": 113.664,
         "finished_at": "2026-11-13T02:31:25.763515+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008239",
+          "size_bytes": 233114371,
+          "source_bytes_read": 233114371,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35054347",
+        "source_url": "https://sdilej.cz/35054347/oddeleni-q-s01e02-2-dil.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008239",
+        "display_name": "Dept. Q S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:31:31.091966+00:00"
       }
     }
   },
@@ -398773,7 +398774,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:31:25.763533+00:00",
+  "updated_at": "2026-11-13T02:31:31.091980+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
