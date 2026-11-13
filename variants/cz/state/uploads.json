@@ -413965,12 +413965,6 @@
     },
     "2340:1:1": {
       "episode_key": "naprosto dokonalé:s1:e1",
-      "claim": {
-        "worker_id": "1d676b161c3d4c348fbb0fa2c4e6b1c1-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:39:28.666789+00:00",
-        "lease_expires_at": "2026-11-13T18:39:28.666801+00:00"
-      },
       "source": {
         "source_id": "12402705",
         "source_url": "https://sdilej.cz/12402705/naprosto-dokonale-1x01.-modni-prehlidka-webrip-cz-ss23-.avi",
@@ -413995,22 +413989,29 @@
         "display_name": "Absolutely Fabulous S01E01 Fashion SD CZ Dabing",
         "prepared_at": "2026-11-13T12:39:35.447491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012493",
-        "size_bytes": 273346564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012493",
-        "size_bytes": 273346564,
-        "source_bytes_read": 273346564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012493",
         "source_bytes_read": 273346564,
         "elapsed_seconds": 166.097,
         "finished_at": "2026-11-13T12:42:37.837837+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012493",
+          "size_bytes": 273346564,
+          "source_bytes_read": 273346564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12402705",
+        "source_url": "https://sdilej.cz/12402705/naprosto-dokonale-1x01.-modni-prehlidka-webrip-cz-ss23-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012493",
+        "display_name": "Absolutely Fabulous S01E01 Fashion SD CZ Dabing",
+        "uploaded_at": "2026-11-13T12:42:46.728005+00:00"
       }
     }
   },
@@ -414019,7 +414020,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:42:43.314114+00:00",
+  "updated_at": "2026-11-13T12:42:46.728021+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
