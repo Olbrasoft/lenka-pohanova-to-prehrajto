@@ -430362,12 +430362,6 @@
     },
     "1410:3:5": {
       "episode_key": "phineas a ferb:s3:e5",
-      "claim": {
-        "worker_id": "c5cc6c0c943546a7ad4d85f0db9ea19e-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:14:11.472653+00:00",
-        "lease_expires_at": "2026-11-14T04:14:11.472668+00:00"
-      },
       "source": {
         "source_id": "33548992",
         "source_url": "https://sdilej.cz/33548992/phineas.a.ferb.3x05.na.hloupou.otazku...-.vacnatec.na.uteku.avi",
@@ -430392,22 +430386,29 @@
         "display_name": "Phineas and Ferb S03E05 Phineas' Birthday Clip-o-Rama! SD CZ Dabing",
         "prepared_at": "2026-11-13T22:14:25.147040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019935",
-        "size_bytes": 204663016
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019935",
-        "size_bytes": 204663016,
-        "source_bytes_read": 204663016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019935",
         "source_bytes_read": 204663016,
         "elapsed_seconds": 18.72,
         "finished_at": "2026-11-13T22:15:09.729494+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019935",
+          "size_bytes": 204663016,
+          "source_bytes_read": 204663016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548992",
+        "source_url": "https://sdilej.cz/33548992/phineas.a.ferb.3x05.na.hloupou.otazku...-.vacnatec.na.uteku.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019935",
+        "display_name": "Phineas and Ferb S03E05 Phineas' Birthday Clip-o-Rama! SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:15:25.310037+00:00"
       }
     },
     "1410:3:20": {
@@ -430504,7 +430505,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:15:21.503903+00:00",
+  "updated_at": "2026-11-13T22:15:25.310066+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
