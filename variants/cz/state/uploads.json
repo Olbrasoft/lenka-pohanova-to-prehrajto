@@ -402636,12 +402636,6 @@
     },
     "462:5:3": {
       "episode_key": "ženatý se závazky:s5:e3",
-      "claim": {
-        "worker_id": "ae70249fec5442d08e0e3a08398d3cf5-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:31:43.666120+00:00",
-        "lease_expires_at": "2026-11-13T10:31:43.666129+00:00"
-      },
       "source": {
         "source_id": "33522679",
         "source_url": "https://sdilej.cz/33522679/zenaty-se-zavazky-s05e03-083-1990-hd-ridicak-s-.mp4",
@@ -402666,22 +402660,29 @@
         "display_name": "Married… with Children S05E03 Sue Casa, His Casa 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:31:50.159315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008994",
-        "size_bytes": 508445832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008994",
-        "size_bytes": 508445832,
-        "source_bytes_read": 508445832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008994",
         "source_bytes_read": 508445832,
         "elapsed_seconds": 241.705,
         "finished_at": "2026-11-13T04:36:13.993346+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008994",
+          "size_bytes": 508445832,
+          "source_bytes_read": 508445832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522679",
+        "source_url": "https://sdilej.cz/33522679/zenaty-se-zavazky-s05e03-083-1990-hd-ridicak-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008994",
+        "display_name": "Married… with Children S05E03 Sue Casa, His Casa 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:36:19.529431+00:00"
       }
     },
     "462:5:4": {
@@ -402741,7 +402742,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:36:13.993368+00:00",
+  "updated_at": "2026-11-13T04:36:19.529444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
