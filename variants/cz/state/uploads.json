@@ -425392,12 +425392,6 @@
     },
     "2231:3:1": {
       "episode_key": "star wars: povstalci:s3:e1",
-      "claim": {
-        "worker_id": "ff38475bee9b4905ace5832f6a57a320-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T19:47:19.988344+00:00",
-        "lease_expires_at": "2026-11-14T01:47:19.988353+00:00"
-      },
       "source": {
         "source_id": "32004062",
         "source_url": "https://sdilej.cz/32004062/star-wars-povstalci.s03e01-cz-dab-anim.mp4",
@@ -425422,22 +425416,29 @@
         "display_name": "Star Wars Rebels S03E01 Steps Into Shadow 1080p CZ Dabing",
         "prepared_at": "2026-11-13T19:47:28.869271+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018280",
-        "size_bytes": 629417840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018280",
-        "size_bytes": 629417840,
-        "source_bytes_read": 629417840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018280",
         "source_bytes_read": 629417840,
         "elapsed_seconds": 263.601,
         "finished_at": "2026-11-13T19:52:10.733859+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018280",
+          "size_bytes": 629417840,
+          "source_bytes_read": 629417840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32004062",
+        "source_url": "https://sdilej.cz/32004062/star-wars-povstalci.s03e01-cz-dab-anim.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018280",
+        "display_name": "Star Wars Rebels S03E01 Steps Into Shadow 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T19:52:18.816968+00:00"
       }
     },
     "2231:3:2": {
@@ -425519,7 +425520,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T19:52:13.976531+00:00",
+  "updated_at": "2026-11-13T19:52:18.816990+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
