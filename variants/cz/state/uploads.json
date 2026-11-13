@@ -419827,12 +419827,6 @@
     },
     "1051:3:15": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e15",
-      "claim": {
-        "worker_id": "92d99aa0fcb8453985924886a3d7db52-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:34:51.142468+00:00",
-        "lease_expires_at": "2026-11-13T22:34:51.142481+00:00"
-      },
       "source": {
         "source_id": "33220324",
         "source_url": "https://sdilej.cz/33220324/star-trek-hluboky-vesmir-devet-s03e15-26-1994-cz-dab-osud.avi",
@@ -419857,22 +419851,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E15 Destiny 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:34:57.702890+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015594",
-        "size_bytes": 565005242
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015594",
-        "size_bytes": 565005242,
-        "source_bytes_read": 565005242,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015594",
         "source_bytes_read": 565005242,
         "elapsed_seconds": 33.415,
         "finished_at": "2026-11-13T16:35:55.555408+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015594",
+          "size_bytes": 565005242,
+          "source_bytes_read": 565005242,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220324",
+        "source_url": "https://sdilej.cz/33220324/star-trek-hluboky-vesmir-devet-s03e15-26-1994-cz-dab-osud.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015594",
+        "display_name": "Star Trek: Deep Space Nine S03E15 Destiny 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:36:08.300023+00:00"
       }
     },
     "1051:3:16": {
@@ -419917,7 +419918,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:36:02.837739+00:00",
+  "updated_at": "2026-11-13T16:36:08.300038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
