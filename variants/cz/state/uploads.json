@@ -434552,12 +434552,6 @@
     },
     "1411:6:7": {
       "episode_key": "případy detektiva murdocha:s6:e7",
-      "claim": {
-        "worker_id": "c0b2a373febf4839bf7e39d939eb7882-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:09:50.882431+00:00",
-        "lease_expires_at": "2026-11-14T05:09:50.882442+00:00"
-      },
       "source": {
         "source_id": "13886367",
         "source_url": "https://sdilej.cz/13886367/pripady-detektiva-murdocha-s06e07-patrani-po-duchovi.mkv",
@@ -434582,22 +434576,29 @@
         "display_name": "Murdoch Mysteries S06E07 The Ghost of Queen's Park 1080p CZ Dabing",
         "prepared_at": "2026-11-13T23:09:55.986582+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021036",
-        "size_bytes": 978994087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021036",
-        "size_bytes": 978994087,
-        "source_bytes_read": 978994087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021036",
         "source_bytes_read": 978994087,
         "elapsed_seconds": 59.4,
         "finished_at": "2026-11-13T23:11:09.431509+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021036",
+          "size_bytes": 978994087,
+          "source_bytes_read": 978994087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13886367",
+        "source_url": "https://sdilej.cz/13886367/pripady-detektiva-murdocha-s06e07-patrani-po-duchovi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021036",
+        "display_name": "Murdoch Mysteries S06E07 The Ghost of Queen's Park 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T23:11:15.348458+00:00"
       }
     },
     "1411:6:8": {
@@ -434694,7 +434695,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:11:09.431534+00:00",
+  "updated_at": "2026-11-13T23:11:15.348480+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
