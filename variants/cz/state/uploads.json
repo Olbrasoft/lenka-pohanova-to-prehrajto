@@ -427730,12 +427730,6 @@
     },
     "1410:1:2": {
       "episode_key": "phineas a ferb:s1:e2",
-      "claim": {
-        "worker_id": "fbc812a6d7fd4c0083eeed598ac3e265-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:33:57.229238+00:00",
-        "lease_expires_at": "2026-11-14T03:33:57.229253+00:00"
-      },
       "source": {
         "source_id": "33547869",
         "source_url": "https://sdilej.cz/33547869/phineas.a.ferb.1x02.plazova.party.zahradnich.trpasliku.720p.cz.batmaster.mkv",
@@ -427760,22 +427754,29 @@
         "display_name": "Phineas and Ferb S01E02 Lawn Gnome Beach Party of Terror 720p CZ Dabing",
         "prepared_at": "2026-11-13T21:34:00.577292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019130",
-        "size_bytes": 158355000
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019130",
-        "size_bytes": 158355000,
-        "source_bytes_read": 158355000,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019130",
         "source_bytes_read": 158355000,
         "elapsed_seconds": 10.893,
         "finished_at": "2026-11-13T21:34:28.220169+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019130",
+          "size_bytes": 158355000,
+          "source_bytes_read": 158355000,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33547869",
+        "source_url": "https://sdilej.cz/33547869/phineas.a.ferb.1x02.plazova.party.zahradnich.trpasliku.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019130",
+        "display_name": "Phineas and Ferb S01E02 Lawn Gnome Beach Party of Terror 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:34:34.326692+00:00"
       }
     }
   },
@@ -427784,7 +427785,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:34:28.220192+00:00",
+  "updated_at": "2026-11-13T21:34:34.326708+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
