@@ -397558,12 +397558,6 @@
     },
     "1177:4:2": {
       "episode_key": "batesův motel:s4:e2",
-      "claim": {
-        "worker_id": "a150bcacacc947ebaf5ef21bda4c76b4-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:29:21.438447+00:00",
-        "lease_expires_at": "2026-11-13T07:29:21.438457+00:00"
-      },
       "source": {
         "source_id": "33978448",
         "source_url": "https://sdilej.cz/33978448/batesuv-motel-s04e02-cz-dabing-1080p-full-hd.mkv",
@@ -397588,22 +397582,29 @@
         "display_name": "Bates Motel S04E02 Goodnight, Mother 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:29:24.971497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007910",
-        "size_bytes": 881693239
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007910",
-        "size_bytes": 881693239,
-        "source_bytes_read": 881693239,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007910",
         "source_bytes_read": 881693239,
         "elapsed_seconds": 345.579,
         "finished_at": "2026-11-13T01:35:24.062763+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007910",
+          "size_bytes": 881693239,
+          "source_bytes_read": 881693239,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33978448",
+        "source_url": "https://sdilej.cz/33978448/batesuv-motel-s04e02-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007910",
+        "display_name": "Bates Motel S04E02 Goodnight, Mother 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:35:30.412107+00:00"
       }
     },
     "1177:4:3": {
@@ -397686,7 +397687,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:35:24.062784+00:00",
+  "updated_at": "2026-11-13T01:35:30.412121+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
