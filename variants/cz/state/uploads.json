@@ -401165,12 +401165,6 @@
     },
     "462:3:10": {
       "episode_key": "ženatý se závazky:s3:e10",
-      "claim": {
-        "worker_id": "8c88892b04f5472e8bfeb19045311eb1-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:41:41.956182+00:00",
-        "lease_expires_at": "2026-11-13T09:41:41.956195+00:00"
-      },
       "source": {
         "source_id": "27748692",
         "source_url": "https://sdilej.cz/27748692/zenaty-se-zavazky-s03e10.mkv",
@@ -401195,22 +401189,29 @@
         "display_name": "Married… with Children S03E10 Eatin' Out SD CZ Dabing",
         "prepared_at": "2026-11-13T03:41:46.154963+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008694",
-        "size_bytes": 234924301
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008694",
-        "size_bytes": 234924301,
-        "source_bytes_read": 234924301,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008694",
         "source_bytes_read": 234924301,
         "elapsed_seconds": 131.872,
         "finished_at": "2026-11-13T03:44:19.375984+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008694",
+          "size_bytes": 234924301,
+          "source_bytes_read": 234924301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748692",
+        "source_url": "https://sdilej.cz/27748692/zenaty-se-zavazky-s03e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008694",
+        "display_name": "Married… with Children S03E10 Eatin' Out SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:44:23.895737+00:00"
       }
     },
     "462:3:11": {
@@ -401293,7 +401294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:44:19.376000+00:00",
+  "updated_at": "2026-11-13T03:44:23.895753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
