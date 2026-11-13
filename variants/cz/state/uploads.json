@@ -407192,12 +407192,6 @@
     },
     "462:8:21": {
       "episode_key": "ženatý se závazky:s8:e21",
-      "claim": {
-        "worker_id": "03fbd6957ae64f429b9a0dea59fa892b-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:20:44.737886+00:00",
-        "lease_expires_at": "2026-11-13T13:20:44.737896+00:00"
-      },
       "source": {
         "source_id": "35326703",
         "source_url": "https://sdilej.cz/35326703/zenaty-se-zavazky-s08e21-sezehnuti-na-troud.mkv",
@@ -407222,22 +407216,29 @@
         "display_name": "Married… with Children S08E21 Nooner or Later 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:20:51.304803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010139",
-        "size_bytes": 364079670
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010139",
-        "size_bytes": 364079670,
-        "source_bytes_read": 364079670,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010139",
         "source_bytes_read": 364079670,
         "elapsed_seconds": 211.006,
         "finished_at": "2026-11-13T07:24:38.975845+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010139",
+          "size_bytes": 364079670,
+          "source_bytes_read": 364079670,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326703",
+        "source_url": "https://sdilej.cz/35326703/zenaty-se-zavazky-s08e21-sezehnuti-na-troud.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010139",
+        "display_name": "Married… with Children S08E21 Nooner or Later 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:24:43.403229+00:00"
       }
     },
     "462:8:22": {
@@ -407283,7 +407284,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:24:38.975862+00:00",
+  "updated_at": "2026-11-13T07:24:43.403243+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
