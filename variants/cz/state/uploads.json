@@ -396477,12 +396477,6 @@
     },
     "1402:4:16": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e16",
-      "claim": {
-        "worker_id": "e14e064d31cb49b6ac306c5244d91f84-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:17:51.256058+00:00",
-        "lease_expires_at": "2026-11-13T06:17:51.256068+00:00"
-      },
       "source": {
         "source_id": "35097244",
         "source_url": "https://sdilej.cz/35097244/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e16-082-2003-hd-muceni-sd-.mp4",
@@ -396506,7 +396500,13 @@
         },
         "display_name": "Law & Order: Special Victims Unit S04E16 Tortured 720p CZ Dabing",
         "prepared_at": "2026-11-13T00:18:00.732433+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-13T00:18:12.468613+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1402:4:17": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e17",
@@ -396547,7 +396547,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:18:09.493394+00:00",
+  "updated_at": "2026-11-13T00:18:12.468622+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -396799,19 +396799,19 @@
     "1402": {
       "recent_failures": [
         {
-          "identity": "1402:4:15",
-          "at": "2026-11-13T00:17:39.123016+00:00"
-        },
-        {
           "identity": "1402:4:14",
           "at": "2026-11-13T00:17:42.117320+00:00"
         },
         {
           "identity": "1402:4:17",
           "at": "2026-11-13T00:18:09.493311+00:00"
+        },
+        {
+          "identity": "1402:4:16",
+          "at": "2026-11-13T00:18:12.468549+00:00"
         }
       ],
-      "retry_after": "2026-11-13T00:28:09.493311+00:00"
+      "retry_after": "2026-11-13T00:28:12.468549+00:00"
     }
   }
 }
