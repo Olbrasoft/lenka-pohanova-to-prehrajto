@@ -416107,12 +416107,6 @@
     },
     "61:1:2": {
       "episode_key": "tudorovci:s1:e2",
-      "claim": {
-        "worker_id": "e5e76d48fab74d42b321a26a87172457-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:12:01.335102+00:00",
-        "lease_expires_at": "2026-11-13T20:12:01.335115+00:00"
-      },
       "source": {
         "source_id": "29264192",
         "source_url": "https://sdilej.cz/29264192/tudorovci-s01e02-1080p-cz-dabing.mkv",
@@ -416137,22 +416131,29 @@
         "display_name": "The Tudors S01E02 Simply Henry 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:12:11.820383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013294",
-        "size_bytes": 1065700444
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013294",
-        "size_bytes": 1065700444,
-        "source_bytes_read": 1065700444,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013294",
         "source_bytes_read": 1065700444,
         "elapsed_seconds": 494.364,
         "finished_at": "2026-11-13T14:20:53.044296+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013294",
+          "size_bytes": 1065700444,
+          "source_bytes_read": 1065700444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29264192",
+        "source_url": "https://sdilej.cz/29264192/tudorovci-s01e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013294",
+        "display_name": "The Tudors S01E02 Simply Henry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:21:01.038353+00:00"
       }
     },
     "61:1:3": {
@@ -416198,7 +416199,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:20:53.044318+00:00",
+  "updated_at": "2026-11-13T14:21:01.038369+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
