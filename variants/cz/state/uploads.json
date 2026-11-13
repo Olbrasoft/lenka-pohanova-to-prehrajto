@@ -421445,12 +421445,6 @@
     },
     "1051:5:12": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e12",
-      "claim": {
-        "worker_id": "27d0bf1d525045769453b6787885678e-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:09:44.419712+00:00",
-        "lease_expires_at": "2026-11-13T23:09:44.419723+00:00"
-      },
       "source": {
         "source_id": "33220485",
         "source_url": "https://sdilej.cz/33220485/star-trek-hluboky-vesmir-devet-s05e12-26-1996-cz-dab-zplozeni.mkv",
@@ -421475,22 +421469,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E12 The Begotten SD CZ Dabing",
         "prepared_at": "2026-11-13T17:09:54.053408+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016356",
-        "size_bytes": 463219720
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016356",
-        "size_bytes": 463219720,
-        "source_bytes_read": 463219720,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016356",
         "source_bytes_read": 463219720,
         "elapsed_seconds": 26.784,
         "finished_at": "2026-11-13T17:10:36.207723+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016356",
+          "size_bytes": 463219720,
+          "source_bytes_read": 463219720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220485",
+        "source_url": "https://sdilej.cz/33220485/star-trek-hluboky-vesmir-devet-s05e12-26-1996-cz-dab-zplozeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016356",
+        "display_name": "Star Trek: Deep Space Nine S05E12 The Begotten SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:10:44.725679+00:00"
       }
     }
   },
@@ -421499,7 +421500,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:10:39.809763+00:00",
+  "updated_at": "2026-11-13T17:10:44.725697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
