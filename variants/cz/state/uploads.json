@@ -401380,12 +401380,6 @@
     },
     "462:3:15": {
       "episode_key": "ženatý se závazky:s3:e15",
-      "claim": {
-        "worker_id": "4ace4ff5cb5949de80c07c7deeff482f-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:45:48.780100+00:00",
-        "lease_expires_at": "2026-11-13T09:45:48.780110+00:00"
-      },
       "source": {
         "source_id": "33522381",
         "source_url": "https://sdilej.cz/33522381/zenaty-se-zavazky-s03e15-050-1989-hd-trpel-jsem-v-san-quentinu-s-.mp4",
@@ -401410,22 +401404,29 @@
         "display_name": "Married… with Children S03E15 The House That Peg Lost 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:46:02.818144+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008724",
-        "size_bytes": 510425869
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008724",
-        "size_bytes": 510425869,
-        "source_bytes_read": 510425869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008724",
         "source_bytes_read": 510425869,
         "elapsed_seconds": 213.995,
         "finished_at": "2026-11-13T03:49:54.807262+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008724",
+          "size_bytes": 510425869,
+          "source_bytes_read": 510425869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522381",
+        "source_url": "https://sdilej.cz/33522381/zenaty-se-zavazky-s03e15-050-1989-hd-trpel-jsem-v-san-quentinu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008724",
+        "display_name": "Married… with Children S03E15 The House That Peg Lost 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:50:04.487221+00:00"
       }
     },
     "462:3:14": {
@@ -401485,7 +401486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:50:01.558708+00:00",
+  "updated_at": "2026-11-13T03:50:04.487236+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
