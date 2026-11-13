@@ -408212,12 +408212,6 @@
     },
     "462:9:17": {
       "episode_key": "ženatý se závazky:s9:e17",
-      "claim": {
-        "worker_id": "76fb2b3c672e463fa44084a8449b64f6-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:52:30.585327+00:00",
-        "lease_expires_at": "2026-11-13T13:52:30.585338+00:00"
-      },
       "source": {
         "source_id": "35326737",
         "source_url": "https://sdilej.cz/35326737/zenaty-se-zavazky-s09e17-25-let-a-co-mate.mkv",
@@ -408242,22 +408236,29 @@
         "display_name": "Married… with Children S09E17 25 Years and What Do You Get? 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:52:36.728418+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010382",
-        "size_bytes": 322018535
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010382",
-        "size_bytes": 322018535,
-        "source_bytes_read": 322018535,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010382",
         "source_bytes_read": 322018535,
         "elapsed_seconds": 174.295,
         "finished_at": "2026-11-13T07:55:46.795695+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010382",
+          "size_bytes": 322018535,
+          "source_bytes_read": 322018535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326737",
+        "source_url": "https://sdilej.cz/35326737/zenaty-se-zavazky-s09e17-25-let-a-co-mate.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010382",
+        "display_name": "Married… with Children S09E17 25 Years and What Do You Get? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:55:52.834815+00:00"
       }
     },
     "462:9:18": {
@@ -408340,7 +408341,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:55:46.795747+00:00",
+  "updated_at": "2026-11-13T07:55:52.834832+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
