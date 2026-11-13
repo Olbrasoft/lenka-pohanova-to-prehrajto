@@ -407549,12 +407549,6 @@
     },
     "462:9:3": {
       "episode_key": "ženatý se závazky:s9:e3",
-      "claim": {
-        "worker_id": "f3ef135749fc46908929ce12e8330743-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:30:10.419335+00:00",
-        "lease_expires_at": "2026-11-13T13:30:10.419345+00:00"
-      },
       "source": {
         "source_id": "35326715",
         "source_url": "https://sdilej.cz/35326715/zenaty-se-zavazky-s09e03-kellyin-bedar.mkv",
@@ -407579,22 +407573,29 @@
         "display_name": "Married… with Children S09E03 Kelly Breaks Out 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:30:13.704449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010213",
-        "size_bytes": 370186388
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010213",
-        "size_bytes": 370186388,
-        "source_bytes_read": 370186388,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010213",
         "source_bytes_read": 370186388,
         "elapsed_seconds": 208.668,
         "finished_at": "2026-11-13T07:33:56.634468+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010213",
+          "size_bytes": 370186388,
+          "source_bytes_read": 370186388,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326715",
+        "source_url": "https://sdilej.cz/35326715/zenaty-se-zavazky-s09e03-kellyin-bedar.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010213",
+        "display_name": "Married… with Children S09E03 Kelly Breaks Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:34:04.238248+00:00"
       }
     }
   },
@@ -407603,7 +407604,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:34:01.355005+00:00",
+  "updated_at": "2026-11-13T07:34:04.238262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
