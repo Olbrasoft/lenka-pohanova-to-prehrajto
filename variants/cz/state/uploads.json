@@ -409793,12 +409793,6 @@
     },
     "462:10:23": {
       "episode_key": "ženatý se závazky:s10:e23",
-      "claim": {
-        "worker_id": "78202d96eb7244918e9cd9b80ed98079-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:50:02.567072+00:00",
-        "lease_expires_at": "2026-11-13T14:50:02.567085+00:00"
-      },
       "source": {
         "source_id": "35326792",
         "source_url": "https://sdilej.cz/35326792/zenaty-se-zavazky-s10e23-bundovani-v-knihovne.mkv",
@@ -409823,22 +409817,29 @@
         "display_name": "Married… with Children S10E23 Bud Hits the Books 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:50:22.987278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010846",
-        "size_bytes": 301385519
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010846",
-        "size_bytes": 301385519,
-        "source_bytes_read": 301385519,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010846",
         "source_bytes_read": 301385519,
         "elapsed_seconds": 191.761,
         "finished_at": "2026-11-13T08:53:54.117078+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010846",
+          "size_bytes": 301385519,
+          "source_bytes_read": 301385519,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326792",
+        "source_url": "https://sdilej.cz/35326792/zenaty-se-zavazky-s10e23-bundovani-v-knihovne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010846",
+        "display_name": "Married… with Children S10E23 Bud Hits the Books 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:53:58.333596+00:00"
       }
     },
     "462:10:24": {
@@ -409921,7 +409922,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:53:54.117097+00:00",
+  "updated_at": "2026-11-13T08:53:58.333611+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
