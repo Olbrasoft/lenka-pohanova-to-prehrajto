@@ -405089,12 +405089,6 @@
     },
     "462:7:4": {
       "episode_key": "ženatý se závazky:s7:e4",
-      "claim": {
-        "worker_id": "9755aac6cefd410aabffc470e3f6fbd4-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:51:32.805340+00:00",
-        "lease_expires_at": "2026-11-13T11:51:32.805353+00:00"
-      },
       "source": {
         "source_id": "35326625",
         "source_url": "https://sdilej.cz/35326625/zenaty-se-zavazky-s07e04-barman-nahore-bez.mkv",
@@ -405119,22 +405113,29 @@
         "display_name": "Married… with Children S07E04 Al on the Rocks 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:51:39.952618+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009516",
-        "size_bytes": 370067732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009516",
-        "size_bytes": 370067732,
-        "source_bytes_read": 370067732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009516",
         "source_bytes_read": 370067732,
         "elapsed_seconds": 161.153,
         "finished_at": "2026-11-13T05:54:37.205292+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009516",
+          "size_bytes": 370067732,
+          "source_bytes_read": 370067732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326625",
+        "source_url": "https://sdilej.cz/35326625/zenaty-se-zavazky-s07e04-barman-nahore-bez.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009516",
+        "display_name": "Married… with Children S07E04 Al on the Rocks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:54:41.716263+00:00"
       }
     }
   },
@@ -405143,7 +405144,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:54:37.205312+00:00",
+  "updated_at": "2026-11-13T05:54:41.716279+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
