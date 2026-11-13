@@ -420700,12 +420700,6 @@
     },
     "1051:4:7": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e7",
-      "claim": {
-        "worker_id": "4691126de042413094417a38b5869f10-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:00:46.562585+00:00",
-        "lease_expires_at": "2026-11-13T23:00:46.562600+00:00"
-      },
       "source": {
         "source_id": "33220377",
         "source_url": "https://sdilej.cz/33220377/star-trek-hluboky-vesmir-devet-s04e07-25-1995-cz-dab-mali-zeleni-muzicci.avi",
@@ -420730,22 +420724,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E07 Starship Down 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:00:58.690675+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016182",
-        "size_bytes": 699758302
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016182",
-        "size_bytes": 699758302,
-        "source_bytes_read": 699758302,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016182",
         "source_bytes_read": 699758302,
         "elapsed_seconds": 99.139,
         "finished_at": "2026-11-13T17:03:01.621030+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016182",
+          "size_bytes": 699758302,
+          "source_bytes_read": 699758302,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220377",
+        "source_url": "https://sdilej.cz/33220377/star-trek-hluboky-vesmir-devet-s04e07-25-1995-cz-dab-mali-zeleni-muzicci.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016182",
+        "display_name": "Star Trek: Deep Space Nine S04E07 Starship Down 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:03:08.669476+00:00"
       }
     },
     "1051:4:8": {
@@ -420893,7 +420894,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:03:05.448080+00:00",
+  "updated_at": "2026-11-13T17:03:08.669492+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
