@@ -414322,12 +414322,6 @@
     },
     "1700:1:7": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e7",
-      "claim": {
-        "worker_id": "d34eec7afc5a4c45b45748ba4b406f1d-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:56:33.352706+00:00",
-        "lease_expires_at": "2026-11-13T18:56:33.352720+00:00"
-      },
       "source": {
         "source_id": "26115324",
         "source_url": "https://sdilej.cz/26115324/scooby-doo-zahady-s.r.o.-s01e07-fobie-z-fantoma-sdtv.x264.mp4",
@@ -414352,22 +414346,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E07 In Fear of the Phantom SD CZ Dabing",
         "prepared_at": "2026-11-13T12:56:40.712973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012611",
-        "size_bytes": 157325171
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012611",
-        "size_bytes": 157325171,
-        "source_bytes_read": 157325171,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012611",
         "source_bytes_read": 157325171,
         "elapsed_seconds": 87.027,
         "finished_at": "2026-11-13T12:58:24.512534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012611",
+          "size_bytes": 157325171,
+          "source_bytes_read": 157325171,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115324",
+        "source_url": "https://sdilej.cz/26115324/scooby-doo-zahady-s.r.o.-s01e07-fobie-z-fantoma-sdtv.x264.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012611",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E07 In Fear of the Phantom SD CZ Dabing",
+        "uploaded_at": "2026-11-13T12:58:32.365698+00:00"
       }
     }
   },
@@ -414376,7 +414377,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:58:27.467641+00:00",
+  "updated_at": "2026-11-13T12:58:32.365714+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
