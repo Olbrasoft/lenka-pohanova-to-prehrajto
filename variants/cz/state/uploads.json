@@ -59594,24 +59594,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-12T23:43:18.779227+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T00:45:09.056544+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T01:46:15.957716+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T02:46:42.978087+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "25dc94a11cc24366a7067fb15162aa2b-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:46:24.707563+00:00",
-        "lease_expires_at": "2026-11-13T08:46:24.707573+00:00"
-      }
+      ]
     },
     "956:3:1": {
       "episode_key": "star trek: nová generace:s3:e1",
@@ -399271,7 +399265,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:46:34.572048+00:00",
+  "updated_at": "2026-11-13T02:46:42.978094+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -399295,6 +399289,10 @@
         {
           "identity": "956:2:14",
           "at": "2026-11-13T02:46:14.768991+00:00"
+        },
+        {
+          "identity": "956:2:22",
+          "at": "2026-11-13T02:46:42.978057+00:00"
         }
       ],
       "retry_after": "2026-11-13T01:56:20.747748+00:00"
