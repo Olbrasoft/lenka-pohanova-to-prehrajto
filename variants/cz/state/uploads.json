@@ -429283,12 +429283,6 @@
     },
     "1410:2:38": {
       "episode_key": "phineas a ferb:s2:e38",
-      "claim": {
-        "worker_id": "59aeb8d63db4468fb06d171c91badd94-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:04:50.790865+00:00",
-        "lease_expires_at": "2026-11-14T04:04:50.790878+00:00"
-      },
       "source": {
         "source_id": "33548535",
         "source_url": "https://sdilej.cz/33548535/phineas.a.ferb.2x38.skrz.naskrz.720p.cz.batmaster.mkv",
@@ -429313,22 +429307,29 @@
         "display_name": "Phineas and Ferb S02E38 Just Passing Through 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:04:54.025888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019675",
-        "size_bytes": 99661340
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019675",
-        "size_bytes": 99661340,
-        "source_bytes_read": 99661340,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019675",
         "source_bytes_read": 99661340,
         "elapsed_seconds": 7.882,
         "finished_at": "2026-11-13T22:05:20.675231+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019675",
+          "size_bytes": 99661340,
+          "source_bytes_read": 99661340,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548535",
+        "source_url": "https://sdilej.cz/33548535/phineas.a.ferb.2x38.skrz.naskrz.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019675",
+        "display_name": "Phineas and Ferb S02E38 Just Passing Through 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:05:27.083227+00:00"
       }
     }
   },
@@ -429337,7 +429338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:05:23.493126+00:00",
+  "updated_at": "2026-11-13T22:05:27.083244+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
