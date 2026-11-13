@@ -428218,12 +428218,6 @@
     },
     "1410:1:39": {
       "episode_key": "phineas a ferb:s1:e39",
-      "claim": {
-        "worker_id": "e3d3936fc1374e139160cb4e667531aa-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:50:45.921611+00:00",
-        "lease_expires_at": "2026-11-14T03:50:45.921620+00:00"
-      },
       "source": {
         "source_id": "33548143",
         "source_url": "https://sdilej.cz/33548143/phineas.a.ferb.1x39.poradne.leknuti.by.melo.stacit.720p.cz.batmaster.mkv",
@@ -428248,22 +428242,29 @@
         "display_name": "Phineas and Ferb S01E39 One Good Scare Ought to Do It! 720p CZ Dabing",
         "prepared_at": "2026-11-13T21:50:49.078572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019382",
-        "size_bytes": 196506875
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019382",
-        "size_bytes": 196506875,
-        "source_bytes_read": 196506875,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019382",
         "source_bytes_read": 196506875,
         "elapsed_seconds": 9.986,
         "finished_at": "2026-11-13T21:51:16.588724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019382",
+          "size_bytes": 196506875,
+          "source_bytes_read": 196506875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548143",
+        "source_url": "https://sdilej.cz/33548143/phineas.a.ferb.1x39.poradne.leknuti.by.melo.stacit.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019382",
+        "display_name": "Phineas and Ferb S01E39 One Good Scare Ought to Do It! 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:51:25.838249+00:00"
       }
     },
     "1410:2:1": {
@@ -428309,7 +428310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:51:23.096855+00:00",
+  "updated_at": "2026-11-13T21:51:25.838264+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
