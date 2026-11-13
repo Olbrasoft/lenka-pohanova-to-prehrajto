@@ -40160,15 +40160,15 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T13:59:01.299005+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T15:04:48.729961+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T16:05:11.214670+00:00",
+          "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T17:14:58.554839+00:00",
           "error": "SourceUnavailable"
         }
       ]
@@ -421746,13 +421746,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:14:52.715628+00:00",
+  "updated_at": "2026-11-13T17:14:58.554844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:4:10",
           "at": "2026-11-13T17:14:52.715573+00:00"
+        },
+        {
+          "identity": "673:4:11",
+          "at": "2026-11-13T17:14:58.554806+00:00"
         }
       ],
       "retry_after": "2026-11-13T17:14:10.576690+00:00"
