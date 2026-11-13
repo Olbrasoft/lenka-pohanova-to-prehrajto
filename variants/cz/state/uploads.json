@@ -408912,12 +408912,6 @@
     },
     "462:10:5": {
       "episode_key": "ženatý se závazky:s10:e5",
-      "claim": {
-        "worker_id": "c2d414683dd3462e84101efe6c525c49-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:22:40.703147+00:00",
-        "lease_expires_at": "2026-11-13T14:22:40.703159+00:00"
-      },
       "source": {
         "source_id": "35326760",
         "source_url": "https://sdilej.cz/35326760/zenaty-se-zavazky-s10e05-zelemdra.mkv",
@@ -408942,22 +408936,29 @@
         "display_name": "Married… with Children S10E05 How Bleen Was My Kelly 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:22:44.426511+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010613",
-        "size_bytes": 343953346
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010613",
-        "size_bytes": 343953346,
-        "source_bytes_read": 343953346,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010613",
         "source_bytes_read": 343953346,
         "elapsed_seconds": 181.609,
         "finished_at": "2026-11-13T08:26:00.336958+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010613",
+          "size_bytes": 343953346,
+          "source_bytes_read": 343953346,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326760",
+        "source_url": "https://sdilej.cz/35326760/zenaty-se-zavazky-s10e05-zelemdra.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010613",
+        "display_name": "Married… with Children S10E05 How Bleen Was My Kelly 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:26:04.699052+00:00"
       }
     },
     "462:10:6": {
@@ -409003,7 +409004,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:26:00.336975+00:00",
+  "updated_at": "2026-11-13T08:26:04.699068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
