@@ -419271,12 +419271,6 @@
     },
     "1051:2:20": {
       "episode_key": "star trek: hluboký vesmír devět:s2:e20",
-      "claim": {
-        "worker_id": "28e7b8ea22f744b085754867ab038fc6-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:27:35.805223+00:00",
-        "lease_expires_at": "2026-11-13T22:27:35.805231+00:00"
-      },
       "source": {
         "source_id": "33220288",
         "source_url": "https://sdilej.cz/33220288/star-trek-hluboky-vesmir-devet-s02e20-26-1993-cz-dab-makiste-1cast.avi",
@@ -419301,22 +419295,29 @@
         "display_name": "Star Trek: Deep Space Nine S02E20 The Maquis (1) 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:27:43.198045+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015439",
-        "size_bytes": 527712138
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015439",
-        "size_bytes": 527712138,
-        "source_bytes_read": 527712138,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015439",
         "source_bytes_read": 527712138,
         "elapsed_seconds": 43.909,
         "finished_at": "2026-11-13T16:28:50.822300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015439",
+          "size_bytes": 527712138,
+          "source_bytes_read": 527712138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220288",
+        "source_url": "https://sdilej.cz/33220288/star-trek-hluboky-vesmir-devet-s02e20-26-1993-cz-dab-makiste-1cast.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015439",
+        "display_name": "Star Trek: Deep Space Nine S02E20 The Maquis (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:29:03.329772+00:00"
       }
     }
   },
@@ -419325,7 +419326,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:28:59.912464+00:00",
+  "updated_at": "2026-11-13T16:29:03.329787+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
