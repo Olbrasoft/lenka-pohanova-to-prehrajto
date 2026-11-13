@@ -415764,12 +415764,6 @@
     },
     "1700:2:21": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e21",
-      "claim": {
-        "worker_id": "351fa1e2f6a3499ba0182fde0a4fc727-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:02:20.333658+00:00",
-        "lease_expires_at": "2026-11-13T20:02:20.333671+00:00"
-      },
       "source": {
         "source_id": "29046724",
         "source_url": "https://sdilej.cz/29046724/scooby-doo-zahady-s.r.o.-s02e21-muz-v-zrcadle-1080p-25fps-h264-128kbit-aac-.mkv",
@@ -415794,22 +415788,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E21 The Man in the Mirror 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:02:28.095325+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013206",
-        "size_bytes": 484959376
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013206",
-        "size_bytes": 484959376,
-        "source_bytes_read": 484959376,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013206",
         "source_bytes_read": 484959376,
         "elapsed_seconds": 189.934,
         "finished_at": "2026-11-13T14:05:56.761956+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013206",
+          "size_bytes": 484959376,
+          "source_bytes_read": 484959376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29046724",
+        "source_url": "https://sdilej.cz/29046724/scooby-doo-zahady-s.r.o.-s02e21-muz-v-zrcadle-1080p-25fps-h264-128kbit-aac-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013206",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E21 The Man in the Mirror 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:06:05.051680+00:00"
       }
     },
     "1700:2:22": {
@@ -415905,7 +415906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:06:00.031688+00:00",
+  "updated_at": "2026-11-13T14:06:05.051696+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
