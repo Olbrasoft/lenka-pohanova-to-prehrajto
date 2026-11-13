@@ -409130,12 +409130,6 @@
     },
     "462:10:9": {
       "episode_key": "ženatý se závazky:s10:e9",
-      "claim": {
-        "worker_id": "299a523535ca4e4ea8299ca7739d0f95-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:28:22.654650+00:00",
-        "lease_expires_at": "2026-11-13T14:28:22.654661+00:00"
-      },
       "source": {
         "source_id": "35326767",
         "source_url": "https://sdilej.cz/35326767/zenaty-se-zavazky-s10e09-hladove-stene.mkv",
@@ -409160,22 +409154,29 @@
         "display_name": "Married… with Children S10E09 The Two That Got Away 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:28:26.127729+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010655",
-        "size_bytes": 336867983
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010655",
-        "size_bytes": 336867983,
-        "source_bytes_read": 336867983,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010655",
         "source_bytes_read": 336867983,
         "elapsed_seconds": 158.22,
         "finished_at": "2026-11-13T08:31:19.070855+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010655",
+          "size_bytes": 336867983,
+          "source_bytes_read": 336867983,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326767",
+        "source_url": "https://sdilej.cz/35326767/zenaty-se-zavazky-s10e09-hladove-stene.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010655",
+        "display_name": "Married… with Children S10E09 The Two That Got Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:31:31.850656+00:00"
       }
     },
     "462:10:10": {
@@ -409257,7 +409258,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:31:28.920526+00:00",
+  "updated_at": "2026-11-13T08:31:31.850670+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
