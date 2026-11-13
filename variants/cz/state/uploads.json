@@ -418704,12 +418704,6 @@
     },
     "1051:1:17": {
       "episode_key": "star trek: hluboký vesmír devět:s1:e17",
-      "claim": {
-        "worker_id": "dc576d68ca3146edba1b2863ebb4ee78-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:14:23.254368+00:00",
-        "lease_expires_at": "2026-11-13T22:14:23.254381+00:00"
-      },
       "source": {
         "source_id": "31405390",
         "source_url": "https://sdilej.cz/31405390/star-trek-deep-space-nine-s01e17-opusteny-skyshowtime-.mkv",
@@ -418734,22 +418728,29 @@
         "display_name": "Star Trek: Deep Space Nine S01E17 Dramatis Personae 1080p CZ Dabing",
         "prepared_at": "2026-11-13T16:14:27.082379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015093",
-        "size_bytes": 3224232671
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015093",
-        "size_bytes": 3224232671,
-        "source_bytes_read": 3224232671,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015093",
         "source_bytes_read": 3224232671,
         "elapsed_seconds": 230.32,
         "finished_at": "2026-11-13T16:18:42.928110+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015093",
+          "size_bytes": 3224232671,
+          "source_bytes_read": 3224232671,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31405390",
+        "source_url": "https://sdilej.cz/31405390/star-trek-deep-space-nine-s01e17-opusteny-skyshowtime-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015093",
+        "display_name": "Star Trek: Deep Space Nine S01E17 Dramatis Personae 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:18:57.726905+00:00"
       }
     },
     "1051:1:18": {
@@ -418832,7 +418833,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:18:51.612397+00:00",
+  "updated_at": "2026-11-13T16:18:57.726920+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
