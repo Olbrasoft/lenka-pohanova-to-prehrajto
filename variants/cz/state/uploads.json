@@ -400247,12 +400247,6 @@
     },
     "462:2:12": {
       "episode_key": "ženatý se závazky:s2:e12",
-      "claim": {
-        "worker_id": "468c44cf27044036b22ad2e6957f1272-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:18:13.301843+00:00",
-        "lease_expires_at": "2026-11-13T09:18:13.301854+00:00"
-      },
       "source": {
         "source_id": "33522251",
         "source_url": "https://sdilej.cz/33522251/zenaty-se-zavazky-s02e12-025-1987-hd-andel-zeme-s-.mp4",
@@ -400277,22 +400271,29 @@
         "display_name": "Married… with Children S02E12 Earth Angel 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:18:17.257744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008565",
-        "size_bytes": 474961936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008565",
-        "size_bytes": 474961936,
-        "source_bytes_read": 474961936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008565",
         "source_bytes_read": 474961936,
         "elapsed_seconds": 194.645,
         "finished_at": "2026-11-13T03:21:53.570309+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008565",
+          "size_bytes": 474961936,
+          "source_bytes_read": 474961936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522251",
+        "source_url": "https://sdilej.cz/33522251/zenaty-se-zavazky-s02e12-025-1987-hd-andel-zeme-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008565",
+        "display_name": "Married… with Children S02E12 Earth Angel 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:21:59.146162+00:00"
       }
     },
     "462:2:13": {
@@ -400375,7 +400376,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:21:53.570330+00:00",
+  "updated_at": "2026-11-13T03:21:59.146180+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
