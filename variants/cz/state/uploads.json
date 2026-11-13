@@ -413543,12 +413543,6 @@
     },
     "87:2:5": {
       "episode_key": "legion:s2:e5",
-      "claim": {
-        "worker_id": "7b6d91df789a43b696c2c6addfa3f12c-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:11:52.736415+00:00",
-        "lease_expires_at": "2026-11-13T18:11:52.736427+00:00"
-      },
       "source": {
         "source_id": "14031652",
         "source_url": "https://sdilej.cz/14031652/legion-1080p-cz-s02e05-kapitola-13.mkv",
@@ -413573,22 +413567,29 @@
         "display_name": "Legion S02E05 Chapter 13 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:12:00.406628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012285",
-        "size_bytes": 478946590
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012285",
-        "size_bytes": 478946590,
-        "source_bytes_read": 478946590,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012285",
         "source_bytes_read": 478946590,
         "elapsed_seconds": 228.448,
         "finished_at": "2026-11-13T12:16:06.009964+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012285",
+          "size_bytes": 478946590,
+          "source_bytes_read": 478946590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14031652",
+        "source_url": "https://sdilej.cz/14031652/legion-1080p-cz-s02e05-kapitola-13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012285",
+        "display_name": "Legion S02E05 Chapter 13 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:16:15.004946+00:00"
       }
     }
   },
@@ -413597,7 +413598,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:16:06.009985+00:00",
+  "updated_at": "2026-11-13T12:16:15.004962+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
