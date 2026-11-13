@@ -436016,12 +436016,6 @@
     },
     "1411:8:5": {
       "episode_key": "případy detektiva murdocha:s8:e5",
-      "claim": {
-        "worker_id": "4be0393a41d04230bed8691a832b4c53-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:32:05.812368+00:00",
-        "lease_expires_at": "2026-11-14T05:32:05.812378+00:00"
-      },
       "source": {
         "source_id": "14146410",
         "source_url": "https://sdilej.cz/14146410/pripady-detektiva-murdocha-s08e05-murdoch-zasahuje-na-manhattanu-sd-.mp4",
@@ -436046,22 +436040,29 @@
         "display_name": "Murdoch Mysteries S08E05 Murdoch Takes Manhattan 720p CZ Dabing",
         "prepared_at": "2026-11-13T23:32:08.950165+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021443",
-        "size_bytes": 411998382
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021443",
-        "size_bytes": 411998382,
-        "source_bytes_read": 411998382,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021443",
         "source_bytes_read": 411998382,
         "elapsed_seconds": 108.282,
         "finished_at": "2026-11-13T23:34:09.816645+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021443",
+          "size_bytes": 411998382,
+          "source_bytes_read": 411998382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14146410",
+        "source_url": "https://sdilej.cz/14146410/pripady-detektiva-murdocha-s08e05-murdoch-zasahuje-na-manhattanu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021443",
+        "display_name": "Murdoch Mysteries S08E05 Murdoch Takes Manhattan 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T23:34:13.916589+00:00"
       }
     },
     "1411:8:6": {
@@ -436107,7 +436108,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:34:09.816667+00:00",
+  "updated_at": "2026-11-13T23:34:13.916605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
