@@ -421924,12 +421924,6 @@
     },
     "1051:6:1": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e1",
-      "claim": {
-        "worker_id": "ca95a7548b5943c89133dc4229a21232-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:17:32.007715+00:00",
-        "lease_expires_at": "2026-11-13T23:17:32.007725+00:00"
-      },
       "source": {
         "source_id": "33220528",
         "source_url": "https://sdilej.cz/33220528/star-trek-hluboky-vesmir-devet-s06e01-26-1997-cz-dab-zmena-stragedie.mkv",
@@ -421954,22 +421948,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E01 A Time to Stand SD CZ Dabing",
         "prepared_at": "2026-11-13T17:17:35.741844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016584",
-        "size_bytes": 414446737
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016584",
-        "size_bytes": 414446737,
-        "source_bytes_read": 414446737,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016584",
         "source_bytes_read": 414446737,
         "elapsed_seconds": 103.204,
         "finished_at": "2026-11-13T17:19:35.661050+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016584",
+          "size_bytes": 414446737,
+          "source_bytes_read": 414446737,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220528",
+        "source_url": "https://sdilej.cz/33220528/star-trek-hluboky-vesmir-devet-s06e01-26-1997-cz-dab-zmena-stragedie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016584",
+        "display_name": "Star Trek: Deep Space Nine S06E01 A Time to Stand SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:19:45.488094+00:00"
       }
     },
     "1051:6:12": {
@@ -422065,7 +422066,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:19:40.101372+00:00",
+  "updated_at": "2026-11-13T17:19:45.488111+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
