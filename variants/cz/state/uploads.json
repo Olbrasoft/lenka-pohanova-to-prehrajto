@@ -401540,12 +401540,6 @@
     },
     "462:3:17": {
       "episode_key": "ženatý se závazky:s3:e17",
-      "claim": {
-        "worker_id": "2d4fb6222cf243088d1c4d585f04e909-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:52:13.112492+00:00",
-        "lease_expires_at": "2026-11-13T09:52:13.112503+00:00"
-      },
       "source": {
         "source_id": "33522396",
         "source_url": "https://sdilej.cz/33522396/zenaty-se-zavazky-s03e17-052-1989-hd-zenaty...-s-kralovnou-i.-s-.mp4",
@@ -401570,22 +401564,29 @@
         "display_name": "Married… with Children S03E17 Married… with Prom Queen: The Sequel (2) 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:52:22.970588+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008767",
-        "size_bytes": 510279835
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008767",
-        "size_bytes": 510279835,
-        "source_bytes_read": 510279835,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008767",
         "source_bytes_read": 510279835,
         "elapsed_seconds": 211.117,
         "finished_at": "2026-11-13T03:56:12.251272+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008767",
+          "size_bytes": 510279835,
+          "source_bytes_read": 510279835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522396",
+        "source_url": "https://sdilej.cz/33522396/zenaty-se-zavazky-s03e17-052-1989-hd-zenaty...-s-kralovnou-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008767",
+        "display_name": "Married… with Children S03E17 Married… with Prom Queen: The Sequel (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:56:18.926487+00:00"
       }
     },
     "462:3:18": {
@@ -401682,7 +401683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:56:15.846018+00:00",
+  "updated_at": "2026-11-13T03:56:18.926502+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
