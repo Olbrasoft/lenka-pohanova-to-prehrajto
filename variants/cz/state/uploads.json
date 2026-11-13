@@ -434144,12 +434144,6 @@
     },
     "1411:5:12": {
       "episode_key": "případy detektiva murdocha:s5:e12",
-      "claim": {
-        "worker_id": "013d909aec6845e4924735fff7a5c12b-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:06:27.794616+00:00",
-        "lease_expires_at": "2026-11-14T05:06:27.794632+00:00"
-      },
       "source": {
         "source_id": "18489640",
         "source_url": "https://sdilej.cz/18489640/pripady-detektiva-murdocha-s05e12-murdochuv-vecer-v-kanade-sd-.avi",
@@ -434174,22 +434168,29 @@
         "display_name": "Murdoch Mysteries S05E12 Murdoch Night in Canada SD CZ Dabing",
         "prepared_at": "2026-11-13T23:06:31.531598+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020961",
-        "size_bytes": 501959964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020961",
-        "size_bytes": 501959964,
-        "source_bytes_read": 501959964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020961",
         "source_bytes_read": 501959964,
         "elapsed_seconds": 26.856,
         "finished_at": "2026-11-13T23:07:21.547851+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020961",
+          "size_bytes": 501959964,
+          "source_bytes_read": 501959964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18489640",
+        "source_url": "https://sdilej.cz/18489640/pripady-detektiva-murdocha-s05e12-murdochuv-vecer-v-kanade-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020961",
+        "display_name": "Murdoch Mysteries S05E12 Murdoch Night in Canada SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:07:33.005834+00:00"
       }
     },
     "1411:5:13": {
@@ -434272,7 +434273,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:07:27.230263+00:00",
+  "updated_at": "2026-11-13T23:07:33.005850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
