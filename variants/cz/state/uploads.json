@@ -425902,12 +425902,6 @@
     },
     "2231:3:11": {
       "episode_key": "star wars: povstalci:s3:e11",
-      "claim": {
-        "worker_id": "8dbdd9c499af4043b21f29e1c3b066d4-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T20:15:31.689007+00:00",
-        "lease_expires_at": "2026-11-14T02:15:31.689021+00:00"
-      },
       "source": {
         "source_id": "29132010",
         "source_url": "https://sdilej.cz/29132010/star-wars-povstalci-s03e11-cz.mkv",
@@ -425932,22 +425926,29 @@
         "display_name": "Star Wars Rebels S03E11 Ghosts of Geonosis (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T20:15:35.542190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018498",
-        "size_bytes": 237744375
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018498",
-        "size_bytes": 237744375,
-        "source_bytes_read": 237744375,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018498",
         "source_bytes_read": 237744375,
         "elapsed_seconds": 95.245,
         "finished_at": "2026-11-13T20:17:30.557900+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018498",
+          "size_bytes": 237744375,
+          "source_bytes_read": 237744375,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29132010",
+        "source_url": "https://sdilej.cz/29132010/star-wars-povstalci-s03e11-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018498",
+        "display_name": "Star Wars Rebels S03E11 Ghosts of Geonosis (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T20:17:39.017903+00:00"
       }
     },
     "2231:3:12": {
@@ -426029,7 +426030,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T20:17:34.119898+00:00",
+  "updated_at": "2026-11-13T20:17:39.017924+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
