@@ -432002,12 +432002,6 @@
     },
     "1411:2:4": {
       "episode_key": "případy detektiva murdocha:s2:e4",
-      "claim": {
-        "worker_id": "5a1197b43f39454aa24a5eabb86a73c9-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:32:47.145172+00:00",
-        "lease_expires_at": "2026-11-14T04:32:47.145183+00:00"
-      },
       "source": {
         "source_id": "7852055",
         "source_url": "https://sdilej.cz/7852055/pripady.detektiva.murdocha.s02e04.pripad.houdini.avi",
@@ -432032,22 +432026,29 @@
         "display_name": "Murdoch Mysteries S02E04 Houdini Whodunit SD CZ Dabing",
         "prepared_at": "2026-11-13T22:32:50.625925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020374",
-        "size_bytes": 367652864
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020374",
-        "size_bytes": 367652864,
-        "source_bytes_read": 367652864,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020374",
         "source_bytes_read": 367652864,
         "elapsed_seconds": 21.246,
         "finished_at": "2026-11-13T22:33:34.643494+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020374",
+          "size_bytes": 367652864,
+          "source_bytes_read": 367652864,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852055",
+        "source_url": "https://sdilej.cz/7852055/pripady.detektiva.murdocha.s02e04.pripad.houdini.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020374",
+        "display_name": "Murdoch Mysteries S02E04 Houdini Whodunit SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:33:44.997652+00:00"
       }
     }
   },
@@ -432056,7 +432057,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:33:41.382654+00:00",
+  "updated_at": "2026-11-13T22:33:44.997668+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
