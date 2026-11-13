@@ -400859,12 +400859,6 @@
     },
     "462:3:2": {
       "episode_key": "ženatý se závazky:s3:e2",
-      "claim": {
-        "worker_id": "e020796585e447a48da2cde4b6a495c9-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:36:31.005797+00:00",
-        "lease_expires_at": "2026-11-13T09:36:31.005809+00:00"
-      },
       "source": {
         "source_id": "27748679",
         "source_url": "https://sdilej.cz/27748679/zenaty-se-zavazky-s03e02.mkv",
@@ -400889,22 +400883,29 @@
         "display_name": "Married… with Children S03E02 I'm Going to Sweatland SD CZ Dabing",
         "prepared_at": "2026-11-13T03:36:38.097106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008671",
-        "size_bytes": 235573534
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008671",
-        "size_bytes": 235573534,
-        "source_bytes_read": 235573534,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008671",
         "source_bytes_read": 235573534,
         "elapsed_seconds": 123.183,
         "finished_at": "2026-11-13T03:39:05.340873+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008671",
+          "size_bytes": 235573534,
+          "source_bytes_read": 235573534,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748679",
+        "source_url": "https://sdilej.cz/27748679/zenaty-se-zavazky-s03e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008671",
+        "display_name": "Married… with Children S03E02 I'm Going to Sweatland SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:39:12.971089+00:00"
       }
     },
     "462:3:4": {
@@ -401000,7 +401001,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:39:08.352205+00:00",
+  "updated_at": "2026-11-13T03:39:12.971108+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
