@@ -408365,12 +408365,6 @@
     },
     "462:9:20": {
       "episode_key": "ženatý se závazky:s9:e20",
-      "claim": {
-        "worker_id": "1105ecb36c104a2880b5a44bf029e4a7-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:57:01.207224+00:00",
-        "lease_expires_at": "2026-11-13T13:57:01.207234+00:00"
-      },
       "source": {
         "source_id": "33523580",
         "source_url": "https://sdilej.cz/33523580/zenaty-se-zavazky-s09e20-203-1995-hd-tady-prichazi-neco-jako-larry-s-.mp4",
@@ -408395,22 +408389,29 @@
         "display_name": "Married… with Children S09E20 Something Larry This Way Comes 720p CZ Dabing",
         "prepared_at": "2026-11-13T07:57:11.398823+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010424",
-        "size_bytes": 494106225
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010424",
-        "size_bytes": 494106225,
-        "source_bytes_read": 494106225,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010424",
         "source_bytes_read": 494106225,
         "elapsed_seconds": 255.353,
         "finished_at": "2026-11-13T08:01:46.924016+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010424",
+          "size_bytes": 494106225,
+          "source_bytes_read": 494106225,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523580",
+        "source_url": "https://sdilej.cz/33523580/zenaty-se-zavazky-s09e20-203-1995-hd-tady-prichazi-neco-jako-larry-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010424",
+        "display_name": "Married… with Children S09E20 Something Larry This Way Comes 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:01:51.685435+00:00"
       }
     },
     "462:9:21": {
@@ -408520,7 +408521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:01:46.924038+00:00",
+  "updated_at": "2026-11-13T08:01:51.685447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
