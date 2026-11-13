@@ -400349,12 +400349,6 @@
     },
     "462:2:14": {
       "episode_key": "ženatý se závazky:s2:e14",
-      "claim": {
-        "worker_id": "7c141750ad7641c6bca790c1af6041d8-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:19:11.232608+00:00",
-        "lease_expires_at": "2026-11-13T09:19:11.232619+00:00"
-      },
       "source": {
         "source_id": "34900070",
         "source_url": "https://sdilej.cz/34900070/zenaty-se-zavazky-s02e14-027-1988-hd-panenky-a-panacci-s-.mp4",
@@ -400379,22 +400373,29 @@
         "display_name": "Married… with Children S02E14 Guys and Dolls 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:19:15.028114+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008573",
-        "size_bytes": 475071624
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008573",
-        "size_bytes": 475071624,
-        "source_bytes_read": 475071624,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008573",
         "source_bytes_read": 475071624,
         "elapsed_seconds": 236.319,
         "finished_at": "2026-11-13T03:23:28.448443+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008573",
+          "size_bytes": 475071624,
+          "source_bytes_read": 475071624,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34900070",
+        "source_url": "https://sdilej.cz/34900070/zenaty-se-zavazky-s02e14-027-1988-hd-panenky-a-panacci-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008573",
+        "display_name": "Married… with Children S02E14 Guys and Dolls 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:23:43.089251+00:00"
       }
     },
     "462:2:15": {
@@ -400475,7 +400476,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:23:39.882517+00:00",
+  "updated_at": "2026-11-13T03:23:43.089266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
