@@ -431599,12 +431599,6 @@
     },
     "1411:1:9": {
       "episode_key": "případy detektiva murdocha:s1:e9",
-      "claim": {
-        "worker_id": "99a7171272b04df2b640a6a8079333bf-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:28:17.832457+00:00",
-        "lease_expires_at": "2026-11-14T04:28:17.832469+00:00"
-      },
       "source": {
         "source_id": "13981646",
         "source_url": "https://sdilej.cz/13981646/pripady-detektiva-murdocha-s01e09-brichomluvec-sd-.mp4",
@@ -431629,22 +431623,29 @@
         "display_name": "Murdoch Mysteries S01E09 Belly Speaker SD CZ Dabing",
         "prepared_at": "2026-11-13T22:28:24.262235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020303",
-        "size_bytes": 228328711
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020303",
-        "size_bytes": 228328711,
-        "source_bytes_read": 228328711,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020303",
         "source_bytes_read": 228328711,
         "elapsed_seconds": 16.036,
         "finished_at": "2026-11-13T22:28:55.882962+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020303",
+          "size_bytes": 228328711,
+          "source_bytes_read": 228328711,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13981646",
+        "source_url": "https://sdilej.cz/13981646/pripady-detektiva-murdocha-s01e09-brichomluvec-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020303",
+        "display_name": "Murdoch Mysteries S01E09 Belly Speaker SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:29:04.446517+00:00"
       }
     }
   },
@@ -431653,7 +431654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:29:01.504429+00:00",
+  "updated_at": "2026-11-13T22:29:04.446541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
