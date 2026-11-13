@@ -409079,12 +409079,6 @@
     },
     "462:10:8": {
       "episode_key": "ženatý se závazky:s10:e8",
-      "claim": {
-        "worker_id": "2ec76df96c5442cfbd7da6bd15de5c9e-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:26:39.175090+00:00",
-        "lease_expires_at": "2026-11-13T14:26:39.175101+00:00"
-      },
       "source": {
         "source_id": "35326765",
         "source_url": "https://sdilej.cz/35326765/zenaty-se-zavazky-s10e08-blondata-a-blondatejsi.mkv",
@@ -409109,22 +409103,29 @@
         "display_name": "Married… with Children S10E08 Blonde and Blonder 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:26:42.638900+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010644",
-        "size_bytes": 335190717
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010644",
-        "size_bytes": 335190717,
-        "source_bytes_read": 335190717,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010644",
         "source_bytes_read": 335190717,
         "elapsed_seconds": 178.936,
         "finished_at": "2026-11-13T08:29:54.300279+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010644",
+          "size_bytes": 335190717,
+          "source_bytes_read": 335190717,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326765",
+        "source_url": "https://sdilej.cz/35326765/zenaty-se-zavazky-s10e08-blondata-a-blondatejsi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010644",
+        "display_name": "Married… with Children S10E08 Blonde and Blonder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:30:01.163523+00:00"
       }
     },
     "462:10:9": {
@@ -409170,7 +409171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:29:57.215756+00:00",
+  "updated_at": "2026-11-13T08:30:01.163539+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
