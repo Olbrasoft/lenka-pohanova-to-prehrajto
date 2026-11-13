@@ -411939,12 +411939,6 @@
     },
     "937:3:2": {
       "episode_key": "misfits: zmetci:s3:e2",
-      "claim": {
-        "worker_id": "0ceaefee3b2b4cc4b072ec096d0b46cc-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T10:41:22.386362+00:00",
-        "lease_expires_at": "2026-11-13T16:41:22.386373+00:00"
-      },
       "source": {
         "source_id": "31074576",
         "source_url": "https://sdilej.cz/31074576/misfits-zmetci-s03e02-dil-2.mkv",
@@ -411969,22 +411963,29 @@
         "display_name": "Misfits S03E02 Episode Two 1080p CZ Dabing",
         "prepared_at": "2026-11-13T10:41:26.542395+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011702",
-        "size_bytes": 737911760
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011702",
-        "size_bytes": 737911760,
-        "source_bytes_read": 737911760,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011702",
         "source_bytes_read": 737911760,
         "elapsed_seconds": 449.736,
         "finished_at": "2026-11-13T10:49:13.520434+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011702",
+          "size_bytes": 737911760,
+          "source_bytes_read": 737911760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31074576",
+        "source_url": "https://sdilej.cz/31074576/misfits-zmetci-s03e02-dil-2.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011702",
+        "display_name": "Misfits S03E02 Episode Two 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T10:49:19.728328+00:00"
       }
     },
     "937:3:3": {
@@ -412114,7 +412115,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T10:49:16.454032+00:00",
+  "updated_at": "2026-11-13T10:49:19.728347+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
