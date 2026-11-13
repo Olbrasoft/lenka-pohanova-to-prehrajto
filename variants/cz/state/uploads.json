@@ -433022,12 +433022,6 @@
     },
     "1411:4:2": {
       "episode_key": "případy detektiva murdocha:s4:e2",
-      "claim": {
-        "worker_id": "490d65e0458442218cc0184d516f1ea1-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:54:04.642439+00:00",
-        "lease_expires_at": "2026-11-14T04:54:04.642450+00:00"
-      },
       "source": {
         "source_id": "14037986",
         "source_url": "https://sdilej.cz/14037986/pripady-detektiva-murdocha-4x02.komando-kommando-.avi",
@@ -433052,22 +433046,29 @@
         "display_name": "Murdoch Mysteries S04E02 Kommando SD CZ Dabing",
         "prepared_at": "2026-11-13T22:54:13.595039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020687",
-        "size_bytes": 412026018
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020687",
-        "size_bytes": 412026018,
-        "source_bytes_read": 412026018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020687",
         "source_bytes_read": 412026018,
         "elapsed_seconds": 20.298,
         "finished_at": "2026-11-13T22:55:06.806331+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020687",
+          "size_bytes": 412026018,
+          "source_bytes_read": 412026018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14037986",
+        "source_url": "https://sdilej.cz/14037986/pripady-detektiva-murdocha-4x02.komando-kommando-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020687",
+        "display_name": "Murdoch Mysteries S04E02 Kommando SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:55:12.513692+00:00"
       }
     },
     "1411:4:3": {
@@ -433126,7 +433127,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:55:06.806356+00:00",
+  "updated_at": "2026-11-13T22:55:12.513709+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
