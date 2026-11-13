@@ -430982,12 +430982,6 @@
     },
     "1021:4:5": {
       "episode_key": "ve jménu našeho pána:s4:e5",
-      "claim": {
-        "worker_id": "fe69f6f252d64c519fc055f4870cdef2-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:23:25.178536+00:00",
-        "lease_expires_at": "2026-11-14T04:23:25.178547+00:00"
-      },
       "source": {
         "source_id": "34149062",
         "source_url": "https://sdilej.cz/34149062/ve-jmenu-naseho-pana-s04e05-09-2025-cz-dab-1080p-pamatuj-na-hospodina.mkv",
@@ -431012,22 +431006,29 @@
         "display_name": "The Righteous Gemstones S04E05 You Shall Remember 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:23:28.499545+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020171",
-        "size_bytes": 930402725
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020171",
-        "size_bytes": 930402725,
-        "source_bytes_read": 930402725,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020171",
         "source_bytes_read": 930402725,
         "elapsed_seconds": 47.103,
         "finished_at": "2026-11-13T22:24:32.017430+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020171",
+          "size_bytes": 930402725,
+          "source_bytes_read": 930402725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149062",
+        "source_url": "https://sdilej.cz/34149062/ve-jmenu-naseho-pana-s04e05-09-2025-cz-dab-1080p-pamatuj-na-hospodina.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020171",
+        "display_name": "The Righteous Gemstones S04E05 You Shall Remember 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:24:39.940854+00:00"
       }
     },
     "1021:4:7": {
@@ -431109,7 +431110,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:24:35.678449+00:00",
+  "updated_at": "2026-11-13T22:24:39.940875+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
