@@ -406937,12 +406937,6 @@
     },
     "462:8:16": {
       "episode_key": "ženatý se závazky:s8:e16",
-      "claim": {
-        "worker_id": "f8e9f0adb88b4c9ebc8d591c10bc9800-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:09:29.802518+00:00",
-        "lease_expires_at": "2026-11-13T13:09:29.802528+00:00"
-      },
       "source": {
         "source_id": "35326695",
         "source_url": "https://sdilej.cz/35326695/zenaty-se-zavazky-s08e16-jak-zelene-bylo-moje-jablko.mkv",
@@ -406967,22 +406961,29 @@
         "display_name": "Married… with Children S08E16 How Green Was My Apple 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:09:33.450120+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010054",
-        "size_bytes": 355742492
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010054",
-        "size_bytes": 355742492,
-        "source_bytes_read": 355742492,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010054",
         "source_bytes_read": 355742492,
         "elapsed_seconds": 210.638,
         "finished_at": "2026-11-13T07:13:16.794738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010054",
+          "size_bytes": 355742492,
+          "source_bytes_read": 355742492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326695",
+        "source_url": "https://sdilej.cz/35326695/zenaty-se-zavazky-s08e16-jak-zelene-bylo-moje-jablko.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010054",
+        "display_name": "Married… with Children S08E16 How Green Was My Apple 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:13:21.848940+00:00"
       }
     },
     "462:8:17": {
@@ -407065,7 +407066,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:13:16.794760+00:00",
+  "updated_at": "2026-11-13T07:13:21.848953+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
