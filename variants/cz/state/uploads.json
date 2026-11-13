@@ -435665,12 +435665,6 @@
     },
     "1411:7:16": {
       "episode_key": "případy detektiva murdocha:s7:e16",
-      "claim": {
-        "worker_id": "b6e7ba33e36b43f6b5931323f40379d7-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:26:07.596212+00:00",
-        "lease_expires_at": "2026-11-14T05:26:07.596224+00:00"
-      },
       "source": {
         "source_id": "22417696",
         "source_url": "https://sdilej.cz/22417696/pripady-detektiva-murdocha-s07e16-czdab.avi",
@@ -435695,22 +435689,29 @@
         "display_name": "Murdoch Mysteries S07E16 Kung Fu Crabtree SD CZ Dabing",
         "prepared_at": "2026-11-13T23:26:11.147782+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021365",
-        "size_bytes": 362321454
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021365",
-        "size_bytes": 362321454,
-        "source_bytes_read": 362321454,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021365",
         "source_bytes_read": 362321454,
         "elapsed_seconds": 63.888,
         "finished_at": "2026-11-13T23:27:35.313008+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021365",
+          "size_bytes": 362321454,
+          "source_bytes_read": 362321454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22417696",
+        "source_url": "https://sdilej.cz/22417696/pripady-detektiva-murdocha-s07e16-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021365",
+        "display_name": "Murdoch Mysteries S07E16 Kung Fu Crabtree SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:27:40.824254+00:00"
       }
     }
   },
@@ -435719,7 +435720,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:27:35.313027+00:00",
+  "updated_at": "2026-11-13T23:27:40.824269+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
