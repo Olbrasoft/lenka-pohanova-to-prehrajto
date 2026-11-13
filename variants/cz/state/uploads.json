@@ -421872,12 +421872,6 @@
     },
     "1051:5:26": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e26",
-      "claim": {
-        "worker_id": "80f85455109e463f8656365b5c96cc27-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:17:08.550187+00:00",
-        "lease_expires_at": "2026-11-13T23:17:08.550198+00:00"
-      },
       "source": {
         "source_id": "33220524",
         "source_url": "https://sdilej.cz/33220524/star-trek-hluboky-vesmir-devet-s05e26-26-1996-cz-dab-volani-do-zbrane.avi",
@@ -421903,22 +421897,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E26 Call to Arms SD CZ Dabing",
         "prepared_at": "2026-11-13T17:17:12.260254+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016573",
-        "size_bytes": 332653998
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016573",
-        "size_bytes": 332653998,
-        "source_bytes_read": 332653998,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016573",
         "source_bytes_read": 332653998,
         "elapsed_seconds": 29.815,
         "finished_at": "2026-11-13T17:18:01.817985+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016573",
+          "size_bytes": 332653998,
+          "source_bytes_read": 332653998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220524",
+        "source_url": "https://sdilej.cz/33220524/star-trek-hluboky-vesmir-devet-s05e26-26-1996-cz-dab-volani-do-zbrane.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016573",
+        "display_name": "Star Trek: Deep Space Nine S05E26 Call to Arms SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:18:12.144483+00:00"
       }
     },
     "1051:6:1": {
@@ -421997,7 +421998,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:18:09.190760+00:00",
+  "updated_at": "2026-11-13T17:18:12.144500+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
