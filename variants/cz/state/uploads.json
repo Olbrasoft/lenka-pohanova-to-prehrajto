@@ -403197,12 +403197,6 @@
     },
     "462:5:14": {
       "episode_key": "ženatý se závazky:s5:e14",
-      "claim": {
-        "worker_id": "71ca9de991084ccab2057939ecf5cf23-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:50:49.961904+00:00",
-        "lease_expires_at": "2026-11-13T10:50:49.961915+00:00"
-      },
       "source": {
         "source_id": "33522759",
         "source_url": "https://sdilej.cz/33522759/zenaty-se-zavazky-s05e14-094-1991-hd-cheescake-s-.mp4",
@@ -403227,22 +403221,29 @@
         "display_name": "Married… with Children S05E14 Look Who's Barking 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:50:55.061681+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009137",
-        "size_bytes": 508592756
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009137",
-        "size_bytes": 508592756,
-        "source_bytes_read": 508592756,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009137",
         "source_bytes_read": 508592756,
         "elapsed_seconds": 265.484,
         "finished_at": "2026-11-13T04:55:37.556320+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009137",
+          "size_bytes": 508592756,
+          "source_bytes_read": 508592756,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522759",
+        "source_url": "https://sdilej.cz/33522759/zenaty-se-zavazky-s05e14-094-1991-hd-cheescake-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009137",
+        "display_name": "Married… with Children S05E14 Look Who's Barking 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:55:42.084770+00:00"
       }
     },
     "462:5:15": {
@@ -403325,7 +403326,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:55:37.556340+00:00",
+  "updated_at": "2026-11-13T04:55:42.084786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
