@@ -414642,12 +414642,6 @@
     },
     "1700:1:16": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e16",
-      "claim": {
-        "worker_id": "fd09926a9645471297fe4a14fcb52131-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T13:04:49.475804+00:00",
-        "lease_expires_at": "2026-11-13T19:04:49.475816+00:00"
-      },
       "source": {
         "source_id": "27779038",
         "source_url": "https://sdilej.cz/27779038/scooby-doo-zahady-s.-r.-o.-s01e16-kudy-kraci-afrodita-1080p-web-dl-cz-dabing.mkv",
@@ -414672,22 +414666,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E16 Where Walks Aphrodite 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:04:53.361289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012675",
-        "size_bytes": 844558206
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012675",
-        "size_bytes": 844558206,
-        "source_bytes_read": 844558206,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012675",
         "source_bytes_read": 844558206,
         "elapsed_seconds": 429.845,
         "finished_at": "2026-11-13T13:12:18.696401+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012675",
+          "size_bytes": 844558206,
+          "source_bytes_read": 844558206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779038",
+        "source_url": "https://sdilej.cz/27779038/scooby-doo-zahady-s.-r.-o.-s01e16-kudy-kraci-afrodita-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012675",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E16 Where Walks Aphrodite 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:12:24.534459+00:00"
       }
     },
     "1700:1:17": {
@@ -414770,7 +414771,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:12:18.696419+00:00",
+  "updated_at": "2026-11-13T13:12:24.534478+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
