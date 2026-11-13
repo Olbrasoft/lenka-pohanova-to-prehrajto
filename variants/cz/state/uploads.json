@@ -400667,12 +400667,6 @@
     },
     "462:2:20": {
       "episode_key": "ženatý se závazky:s2:e20",
-      "claim": {
-        "worker_id": "5b9e96d21020433caee360425b1eaae4-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:28:06.906395+00:00",
-        "lease_expires_at": "2026-11-13T09:28:06.906407+00:00"
-      },
       "source": {
         "source_id": "33522279",
         "source_url": "https://sdilej.cz/33522279/zenaty-se-zavazky-s02e20-033-1988-hd-tv-soutez-s-.mp4",
@@ -400697,22 +400691,29 @@
         "display_name": "Married… with Children S02E20 Just Married… With Children 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:28:10.503557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008624",
-        "size_bytes": 475413010
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008624",
-        "size_bytes": 475413010,
-        "source_bytes_read": 475413010,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008624",
         "source_bytes_read": 475413010,
         "elapsed_seconds": 206.164,
         "finished_at": "2026-11-13T03:31:51.386716+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008624",
+          "size_bytes": 475413010,
+          "source_bytes_read": 475413010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522279",
+        "source_url": "https://sdilej.cz/33522279/zenaty-se-zavazky-s02e20-033-1988-hd-tv-soutez-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008624",
+        "display_name": "Married… with Children S02E20 Just Married… With Children 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:32:00.976734+00:00"
       }
     }
   },
@@ -400721,7 +400722,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:31:57.910288+00:00",
+  "updated_at": "2026-11-13T03:32:00.976749+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
