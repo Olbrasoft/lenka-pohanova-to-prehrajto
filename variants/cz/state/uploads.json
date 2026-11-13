@@ -419929,12 +419929,6 @@
     },
     "1051:3:17": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e17",
-      "claim": {
-        "worker_id": "afb48a28135b4979a120338e7faccbc6-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:36:15.998730+00:00",
-        "lease_expires_at": "2026-11-13T22:36:15.998741+00:00"
-      },
       "source": {
         "source_id": "33220322",
         "source_url": "https://sdilej.cz/33220322/star-trek-hluboky-vesmir-devet-s03e17-26-1994-cz-dab-predtucha.avi",
@@ -419959,22 +419953,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E17 Visionary 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:36:20.790515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015624",
-        "size_bytes": 580749230
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015624",
-        "size_bytes": 580749230,
-        "source_bytes_read": 580749230,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015624",
         "source_bytes_read": 580749230,
         "elapsed_seconds": 28.378,
         "finished_at": "2026-11-13T16:37:09.279419+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015624",
+          "size_bytes": 580749230,
+          "source_bytes_read": 580749230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220322",
+        "source_url": "https://sdilej.cz/33220322/star-trek-hluboky-vesmir-devet-s03e17-26-1994-cz-dab-predtucha.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015624",
+        "display_name": "Star Trek: Deep Space Nine S03E17 Visionary 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:37:14.345828+00:00"
       }
     },
     "1051:3:18": {
@@ -420020,7 +420021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:37:09.279440+00:00",
+  "updated_at": "2026-11-13T16:37:14.345844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
