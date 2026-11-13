@@ -413475,12 +413475,6 @@
     },
     "87:2:2": {
       "episode_key": "legion:s2:e2",
-      "claim": {
-        "worker_id": "4f0aca8cf30b4399a214f161f9f3bec4-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:11:27.411375+00:00",
-        "lease_expires_at": "2026-11-13T18:11:27.411386+00:00"
-      },
       "source": {
         "source_id": "30885680",
         "source_url": "https://sdilej.cz/30885680/legion-2018-s02e02-1080p-cz-dab.mkv",
@@ -413505,22 +413499,29 @@
         "display_name": "Legion S02E02 Chapter 10 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:11:31.218559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012272",
-        "size_bytes": 654351135
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012272",
-        "size_bytes": 654351135,
-        "source_bytes_read": 654351135,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012272",
         "source_bytes_read": 654351135,
         "elapsed_seconds": 305.572,
         "finished_at": "2026-11-13T12:17:02.953913+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012272",
+          "size_bytes": 654351135,
+          "source_bytes_read": 654351135,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30885680",
+        "source_url": "https://sdilej.cz/30885680/legion-2018-s02e02-1080p-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012272",
+        "display_name": "Legion S02E02 Chapter 10 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:17:14.155031+00:00"
       }
     },
     "87:2:3": {
@@ -413631,7 +413632,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:17:11.201277+00:00",
+  "updated_at": "2026-11-13T12:17:14.155047+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
