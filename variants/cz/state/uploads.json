@@ -432447,12 +432447,6 @@
     },
     "1411:2:13": {
       "episode_key": "případy detektiva murdocha:s2:e13",
-      "claim": {
-        "worker_id": "b9bda39ead13486fbdddd014ef2bf9ee-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:39:05.547103+00:00",
-        "lease_expires_at": "2026-11-14T04:39:05.547113+00:00"
-      },
       "source": {
         "source_id": "7852121",
         "source_url": "https://sdilej.cz/7852121/pripady.detektiva.murdocha.s02e13.veskerou.moznou.pomoc.avi",
@@ -432477,22 +432471,29 @@
         "display_name": "Murdoch Mysteries S02E13 Anything You Can Do SD CZ Dabing",
         "prepared_at": "2026-11-13T22:39:12.756510+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020480",
-        "size_bytes": 367603712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020480",
-        "size_bytes": 367603712,
-        "source_bytes_read": 367603712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020480",
         "source_bytes_read": 367603712,
         "elapsed_seconds": 20.252,
         "finished_at": "2026-11-13T22:39:50.508661+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020480",
+          "size_bytes": 367603712,
+          "source_bytes_read": 367603712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852121",
+        "source_url": "https://sdilej.cz/7852121/pripady.detektiva.murdocha.s02e13.veskerou.moznou.pomoc.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020480",
+        "display_name": "Murdoch Mysteries S02E13 Anything You Can Do SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:39:54.501472+00:00"
       }
     },
     "1411:3:1": {
@@ -432538,7 +432539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:39:50.508701+00:00",
+  "updated_at": "2026-11-13T22:39:54.501489+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
