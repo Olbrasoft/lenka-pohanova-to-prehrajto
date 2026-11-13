@@ -399655,12 +399655,6 @@
     },
     "462:1:12": {
       "episode_key": "ženatý se závazky:s1:e12",
-      "claim": {
-        "worker_id": "b3711c28ba7d4c1cafdbe4148cdb2ad5-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:53:34.017163+00:00",
-        "lease_expires_at": "2026-11-13T08:53:34.017173+00:00"
-      },
       "source": {
         "source_id": "27748508",
         "source_url": "https://sdilej.cz/27748508/zenaty-se-zavazky-s01e12.mkv",
@@ -399685,22 +399679,29 @@
         "display_name": "Married… with Children S01E12 Where's the Boss? SD CZ Dabing",
         "prepared_at": "2026-11-13T02:53:37.598953+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008410",
-        "size_bytes": 236342690
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008410",
-        "size_bytes": 236342690,
-        "source_bytes_read": 236342690,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008410",
         "source_bytes_read": 236342690,
         "elapsed_seconds": 101.594,
         "finished_at": "2026-11-13T02:55:35.837384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008410",
+          "size_bytes": 236342690,
+          "source_bytes_read": 236342690,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748508",
+        "source_url": "https://sdilej.cz/27748508/zenaty-se-zavazky-s01e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008410",
+        "display_name": "Married… with Children S01E12 Where's the Boss? SD CZ Dabing",
+        "uploaded_at": "2026-11-13T02:55:42.561959+00:00"
       }
     },
     "462:1:13": {
@@ -399746,7 +399747,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:55:39.280288+00:00",
+  "updated_at": "2026-11-13T02:55:42.561973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
