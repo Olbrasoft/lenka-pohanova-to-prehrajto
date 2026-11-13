@@ -399994,12 +399994,6 @@
     },
     "462:2:6": {
       "episode_key": "ženatý se závazky:s2:e6",
-      "claim": {
-        "worker_id": "4608b22814b64b8eb8b8ca09708ab24c-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T03:05:55.799131+00:00",
-        "lease_expires_at": "2026-11-13T09:05:55.799140+00:00"
-      },
       "source": {
         "source_id": "27748550",
         "source_url": "https://sdilej.cz/27748550/zenaty-se-zavazky-s02e06.mkv",
@@ -400024,22 +400018,29 @@
         "display_name": "Married… with Children S02E06 Girls Just Want to Have Fun (2) SD CZ Dabing",
         "prepared_at": "2026-11-13T03:06:02.849822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008505",
-        "size_bytes": 258474429
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008505",
-        "size_bytes": 258474429,
-        "source_bytes_read": 258474429,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008505",
         "source_bytes_read": 258474429,
         "elapsed_seconds": 115.632,
         "finished_at": "2026-11-13T03:08:16.970935+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008505",
+          "size_bytes": 258474429,
+          "source_bytes_read": 258474429,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748550",
+        "source_url": "https://sdilej.cz/27748550/zenaty-se-zavazky-s02e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008505",
+        "display_name": "Married… with Children S02E06 Girls Just Want to Have Fun (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:08:22.053822+00:00"
       }
     },
     "462:2:7": {
@@ -400085,7 +400086,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:08:16.970956+00:00",
+  "updated_at": "2026-11-13T03:08:22.053836+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
