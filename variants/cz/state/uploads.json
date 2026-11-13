@@ -405664,12 +405664,6 @@
     },
     "462:7:16": {
       "episode_key": "ženatý se závazky:s7:e16",
-      "claim": {
-        "worker_id": "45854277211944979e1fabd8e1dd3de4-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:20:44.074028+00:00",
-        "lease_expires_at": "2026-11-13T12:20:44.074038+00:00"
-      },
       "source": {
         "source_id": "33523183",
         "source_url": "https://sdilej.cz/33523183/zenaty-se-zavazky-s07e16-147-1993-hd-pan-prazdne-kalhoty-s-.mp4",
@@ -405694,22 +405688,29 @@
         "display_name": "Married… with Children S07E16 Mr. Empty Pants 720p CZ Dabing",
         "prepared_at": "2026-11-13T06:20:54.440038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009718",
-        "size_bytes": 505145894
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009718",
-        "size_bytes": 505145894,
-        "source_bytes_read": 505145894,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009718",
         "source_bytes_read": 505145894,
         "elapsed_seconds": 208.843,
         "finished_at": "2026-11-13T06:24:47.436027+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009718",
+          "size_bytes": 505145894,
+          "source_bytes_read": 505145894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523183",
+        "source_url": "https://sdilej.cz/33523183/zenaty-se-zavazky-s07e16-147-1993-hd-pan-prazdne-kalhoty-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009718",
+        "display_name": "Married… with Children S07E16 Mr. Empty Pants 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:24:56.797972+00:00"
       }
     },
     "462:7:15": {
@@ -405769,7 +405770,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:24:53.858440+00:00",
+  "updated_at": "2026-11-13T06:24:56.797987+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
