@@ -429801,12 +429801,6 @@
     },
     "1410:2:49": {
       "episode_key": "phineas a ferb:s2:e49",
-      "claim": {
-        "worker_id": "c35b65753d5e4b478a6850de66dbf99b-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:09:20.631136+00:00",
-        "lease_expires_at": "2026-11-14T04:09:20.631152+00:00"
-      },
       "source": {
         "source_id": "33548621",
         "source_url": "https://sdilej.cz/33548621/phineas.a.ferb.2x49.roboti.rodeo.720p.cz.batmaster.mkv",
@@ -429831,22 +429825,29 @@
         "display_name": "Phineas and Ferb S02E49 Robot Rodeo 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:09:27.968400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019791",
-        "size_bytes": 111378519
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019791",
-        "size_bytes": 111378519,
-        "source_bytes_read": 111378519,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019791",
         "source_bytes_read": 111378519,
         "elapsed_seconds": 8.401,
         "finished_at": "2026-11-13T22:09:55.727119+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019791",
+          "size_bytes": 111378519,
+          "source_bytes_read": 111378519,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548621",
+        "source_url": "https://sdilej.cz/33548621/phineas.a.ferb.2x49.roboti.rodeo.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019791",
+        "display_name": "Phineas and Ferb S02E49 Robot Rodeo 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:10:03.025722+00:00"
       }
     },
     "1410:2:50": {
@@ -429892,7 +429893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:09:58.556885+00:00",
+  "updated_at": "2026-11-13T22:10:03.025743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
