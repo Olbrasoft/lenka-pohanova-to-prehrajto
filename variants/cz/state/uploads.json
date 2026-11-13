@@ -414183,12 +414183,6 @@
     },
     "1700:1:4": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e4",
-      "claim": {
-        "worker_id": "246be579986643ee8187baa7edf8a4bd-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:47:37.535457+00:00",
-        "lease_expires_at": "2026-11-13T18:47:37.535468+00:00"
-      },
       "source": {
         "source_id": "27778992",
         "source_url": "https://sdilej.cz/27778992/scooby-doo-zahady-s.-r.-o.-s01e04-pomsta-krabiho-muze-1080p-web-dl-cz-dabing.mkv",
@@ -414213,22 +414207,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E04 Revenge of the Man Crab 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:47:41.128596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012552",
-        "size_bytes": 857181391
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012552",
-        "size_bytes": 857181391,
-        "source_bytes_read": 857181391,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012552",
         "source_bytes_read": 857181391,
         "elapsed_seconds": 464.269,
         "finished_at": "2026-11-13T12:55:39.488545+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012552",
+          "size_bytes": 857181391,
+          "source_bytes_read": 857181391,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27778992",
+        "source_url": "https://sdilej.cz/27778992/scooby-doo-zahady-s.-r.-o.-s01e04-pomsta-krabiho-muze-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012552",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E04 Revenge of the Man Crab 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:55:46.444844+00:00"
       }
     },
     "1700:1:5": {
@@ -414274,7 +414275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:55:43.481891+00:00",
+  "updated_at": "2026-11-13T12:55:46.444859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
