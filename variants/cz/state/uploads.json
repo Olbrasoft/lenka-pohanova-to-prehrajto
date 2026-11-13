@@ -430931,12 +430931,6 @@
     },
     "1021:4:4": {
       "episode_key": "ve jménu našeho pána:s4:e4",
-      "claim": {
-        "worker_id": "a85085263f204ab48a045c7b7f20f794-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:22:47.618357+00:00",
-        "lease_expires_at": "2026-11-14T04:22:47.618368+00:00"
-      },
       "source": {
         "source_id": "34149070",
         "source_url": "https://sdilej.cz/34149070/ve-jmenu-naseho-pana-s04e04-09-2025-cz-dab-1080p-jde-pred-nimi-do-galileje.mkv",
@@ -430961,22 +430955,29 @@
         "display_name": "The Righteous Gemstones S04E04 He Goeth Before You Into Galilee 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:22:51.025290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020156",
-        "size_bytes": 1222521708
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020156",
-        "size_bytes": 1222521708,
-        "source_bytes_read": 1222521708,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020156",
         "source_bytes_read": 1222521708,
         "elapsed_seconds": 59.239,
         "finished_at": "2026-11-13T22:24:10.270391+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020156",
+          "size_bytes": 1222521708,
+          "source_bytes_read": 1222521708,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149070",
+        "source_url": "https://sdilej.cz/34149070/ve-jmenu-naseho-pana-s04e04-09-2025-cz-dab-1080p-jde-pred-nimi-do-galileje.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020156",
+        "display_name": "The Righteous Gemstones S04E04 He Goeth Before You Into Galilee 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:24:15.493451+00:00"
       }
     },
     "1021:4:5": {
@@ -431059,7 +431060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:24:10.270407+00:00",
+  "updated_at": "2026-11-13T22:24:15.493472+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
