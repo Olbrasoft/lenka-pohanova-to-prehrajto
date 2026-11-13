@@ -409850,12 +409850,6 @@
     },
     "462:10:24": {
       "episode_key": "ženatý se závazky:s10:e24",
-      "claim": {
-        "worker_id": "0c1493f52f18458d819de8d8ea1f27be-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:50:05.739128+00:00",
-        "lease_expires_at": "2026-11-13T14:50:05.739142+00:00"
-      },
       "source": {
         "source_id": "35326794",
         "source_url": "https://sdilej.cz/35326794/zenaty-se-zavazky-s10e24-polibek-kavove-zeny.mkv",
@@ -409880,22 +409874,29 @@
         "display_name": "Married… with Children S10E24 Kiss of the Coffee Woman 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:50:15.790528+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010845",
-        "size_bytes": 357234430
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010845",
-        "size_bytes": 357234430,
-        "source_bytes_read": 357234430,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010845",
         "source_bytes_read": 357234430,
         "elapsed_seconds": 248.671,
         "finished_at": "2026-11-13T08:54:48.151828+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010845",
+          "size_bytes": 357234430,
+          "source_bytes_read": 357234430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326794",
+        "source_url": "https://sdilej.cz/35326794/zenaty-se-zavazky-s10e24-polibek-kavove-zeny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010845",
+        "display_name": "Married… with Children S10E24 Kiss of the Coffee Woman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:54:58.262337+00:00"
       }
     },
     "462:10:25": {
@@ -409992,7 +409993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:54:54.709044+00:00",
+  "updated_at": "2026-11-13T08:54:58.262351+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
