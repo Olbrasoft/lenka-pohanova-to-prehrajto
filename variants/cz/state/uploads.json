@@ -415991,12 +415991,6 @@
     },
     "1700:2:26": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e26",
-      "claim": {
-        "worker_id": "07f59884c9d6464199860477b12de600-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:08:33.342161+00:00",
-        "lease_expires_at": "2026-11-13T20:08:33.342170+00:00"
-      },
       "source": {
         "source_id": "30280502",
         "source_url": "https://sdilej.cz/30280502/scooby-doo-zahady-s.r.o.-s02e26-konec-zla-1080p-25fps-h264-128kbit-aac-.mkv",
@@ -416021,22 +416015,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E26 Come Undone 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:08:38.239798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013262",
-        "size_bytes": 153796608
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013262",
-        "size_bytes": 153796608,
-        "source_bytes_read": 153796608,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013262",
         "source_bytes_read": 153796608,
         "elapsed_seconds": 90.405,
         "finished_at": "2026-11-13T14:10:21.688599+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013262",
+          "size_bytes": 153796608,
+          "source_bytes_read": 153796608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30280502",
+        "source_url": "https://sdilej.cz/30280502/scooby-doo-zahady-s.r.o.-s02e26-konec-zla-1080p-25fps-h264-128kbit-aac-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013262",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E26 Come Undone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:10:26.889143+00:00"
       }
     }
   },
@@ -416045,7 +416046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:10:21.688618+00:00",
+  "updated_at": "2026-11-13T14:10:26.889162+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
