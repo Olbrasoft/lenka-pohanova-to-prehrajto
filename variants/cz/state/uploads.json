@@ -419725,12 +419725,6 @@
     },
     "1051:3:13": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e13",
-      "claim": {
-        "worker_id": "e343d1d46ee14d1f9dc1a326e01ff974-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:32:58.033571+00:00",
-        "lease_expires_at": "2026-11-13T22:32:58.033581+00:00"
-      },
       "source": {
         "source_id": "33220311",
         "source_url": "https://sdilej.cz/33220311/star-trek-hluboky-vesmir-devet-s03e13-26-1994-cz-dab-boj-o-preziti.avi",
@@ -419755,22 +419749,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E13 Life Support 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:33:14.430653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015562",
-        "size_bytes": 622862748
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015562",
-        "size_bytes": 622862748,
-        "source_bytes_read": 622862748,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015562",
         "source_bytes_read": 622862748,
         "elapsed_seconds": 51.062,
         "finished_at": "2026-11-13T16:34:23.522468+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015562",
+          "size_bytes": 622862748,
+          "source_bytes_read": 622862748,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220311",
+        "source_url": "https://sdilej.cz/33220311/star-trek-hluboky-vesmir-devet-s03e13-26-1994-cz-dab-boj-o-preziti.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015562",
+        "display_name": "Star Trek: Deep Space Nine S03E13 Life Support 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:34:35.367822+00:00"
       }
     }
   },
@@ -419779,7 +419780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:34:28.636413+00:00",
+  "updated_at": "2026-11-13T16:34:35.367840+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
