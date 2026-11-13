@@ -409997,12 +409997,6 @@
     },
     "462:11:1": {
       "episode_key": "ženatý se závazky:s11:e1",
-      "claim": {
-        "worker_id": "0eab065809ae4c1099b6e25844679f29-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:55:42.709010+00:00",
-        "lease_expires_at": "2026-11-13T14:55:42.709019+00:00"
-      },
       "source": {
         "source_id": "35326801",
         "source_url": "https://sdilej.cz/35326801/zenaty-se-zavazky-s11e01-tornado.mkv",
@@ -410027,22 +410021,29 @@
         "display_name": "Married… with Children S11E01 Twisted 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:55:46.149479+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010881",
-        "size_bytes": 348567408
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010881",
-        "size_bytes": 348567408,
-        "source_bytes_read": 348567408,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010881",
         "source_bytes_read": 348567408,
         "elapsed_seconds": 207.962,
         "finished_at": "2026-11-13T08:59:30.400982+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010881",
+          "size_bytes": 348567408,
+          "source_bytes_read": 348567408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326801",
+        "source_url": "https://sdilej.cz/35326801/zenaty-se-zavazky-s11e01-tornado.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010881",
+        "display_name": "Married… with Children S11E01 Twisted 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:59:35.744921+00:00"
       }
     },
     "462:11:2": {
@@ -410125,7 +410126,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:59:30.401001+00:00",
+  "updated_at": "2026-11-13T08:59:35.744937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
