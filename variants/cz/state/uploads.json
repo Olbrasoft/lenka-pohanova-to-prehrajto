@@ -428269,12 +428269,6 @@
     },
     "1410:2:1": {
       "episode_key": "phineas a ferb:s2:e1",
-      "claim": {
-        "worker_id": "77259ee1360b443e8ed2d36562f25d97-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:50:52.064649+00:00",
-        "lease_expires_at": "2026-11-14T03:50:52.064659+00:00"
-      },
       "source": {
         "source_id": "33548230",
         "source_url": "https://sdilej.cz/33548230/phineas.a.ferb.2x01.lochneska.prisera.720p.cz.batmaster.mkv",
@@ -428299,22 +428293,29 @@
         "display_name": "Phineas and Ferb S02E01 The Lake Nose Monster 720p CZ Dabing",
         "prepared_at": "2026-11-13T21:51:04.725124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019392",
-        "size_bytes": 238043854
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019392",
-        "size_bytes": 238043854,
-        "source_bytes_read": 238043854,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019392",
         "source_bytes_read": 238043854,
         "elapsed_seconds": 12.86,
         "finished_at": "2026-11-13T21:51:40.314659+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019392",
+          "size_bytes": 238043854,
+          "source_bytes_read": 238043854,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548230",
+        "source_url": "https://sdilej.cz/33548230/phineas.a.ferb.2x01.lochneska.prisera.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019392",
+        "display_name": "Phineas and Ferb S02E01 The Lake Nose Monster 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:51:46.526634+00:00"
       }
     }
   },
@@ -428323,7 +428324,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:51:43.941058+00:00",
+  "updated_at": "2026-11-13T21:51:46.526649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
