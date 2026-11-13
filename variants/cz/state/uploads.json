@@ -402122,12 +402122,6 @@
     },
     "462:4:14": {
       "episode_key": "ženatý se závazky:s4:e14",
-      "claim": {
-        "worker_id": "dc879289552148ceacf139d398aa563d-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:16:21.427392+00:00",
-        "lease_expires_at": "2026-11-13T10:16:21.427403+00:00"
-      },
       "source": {
         "source_id": "33522606",
         "source_url": "https://sdilej.cz/33522606/zenaty-se-zavazky-s04e14-071-1990-hd-prodej-vlasu-s-.mp4",
@@ -402152,22 +402146,29 @@
         "display_name": "Married… with Children S04E14 A Taxing Problem 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:16:37.795735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008914",
-        "size_bytes": 488776875
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008914",
-        "size_bytes": 488776875,
-        "source_bytes_read": 488776875,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008914",
         "source_bytes_read": 488776875,
         "elapsed_seconds": 218.102,
         "finished_at": "2026-11-13T04:20:36.650827+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008914",
+          "size_bytes": 488776875,
+          "source_bytes_read": 488776875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522606",
+        "source_url": "https://sdilej.cz/33522606/zenaty-se-zavazky-s04e14-071-1990-hd-prodej-vlasu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008914",
+        "display_name": "Married… with Children S04E14 A Taxing Problem 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:20:44.878270+00:00"
       }
     },
     "462:4:15": {
@@ -402264,7 +402265,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:20:41.981772+00:00",
+  "updated_at": "2026-11-13T04:20:44.878286+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
