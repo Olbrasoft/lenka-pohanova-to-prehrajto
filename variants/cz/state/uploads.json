@@ -428628,12 +428628,6 @@
     },
     "1021:2:3": {
       "episode_key": "ve jménu našeho pána:s2:e3",
-      "claim": {
-        "worker_id": "b263806847094c30973ded4e82eb37c1-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:57:45.794206+00:00",
-        "lease_expires_at": "2026-11-14T03:57:45.794220+00:00"
-      },
       "source": {
         "source_id": "21683507",
         "source_url": "https://sdilej.cz/21683507/ve.jmenu.naseho.pana.02x03.1080i.hdtv.cz.mkv",
@@ -428658,22 +428652,29 @@
         "display_name": "The Righteous Gemstones S02E03 For He Is a Liar and the Father of Lies 1080p CZ Dabing",
         "prepared_at": "2026-11-13T21:57:57.235029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019524",
-        "size_bytes": 1971773819
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019524",
-        "size_bytes": 1971773819,
-        "source_bytes_read": 1971773819,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019524",
         "source_bytes_read": 1971773819,
         "elapsed_seconds": 84.231,
         "finished_at": "2026-11-13T21:59:42.959278+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019524",
+          "size_bytes": 1971773819,
+          "source_bytes_read": 1971773819,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21683507",
+        "source_url": "https://sdilej.cz/21683507/ve.jmenu.naseho.pana.02x03.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019524",
+        "display_name": "The Righteous Gemstones S02E03 For He Is a Liar and the Father of Lies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:59:52.023497+00:00"
       }
     },
     "1021:2:4": {
@@ -428770,7 +428771,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:59:47.139184+00:00",
+  "updated_at": "2026-11-13T21:59:52.023512+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
