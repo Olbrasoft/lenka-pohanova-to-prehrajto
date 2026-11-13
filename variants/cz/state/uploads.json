@@ -422624,12 +422624,6 @@
     },
     "1051:7:1": {
       "episode_key": "star trek: hluboký vesmír devět:s7:e1",
-      "claim": {
-        "worker_id": "a8178ca777f24649aa2f9280702f0711-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:30:24.876001+00:00",
-        "lease_expires_at": "2026-11-13T23:30:24.876013+00:00"
-      },
       "source": {
         "source_id": "33220596",
         "source_url": "https://sdilej.cz/33220596/star-trek-hluboky-vesmir-devet-s07e01-26-1998-cz-dab-obraz-v-pisku.avi",
@@ -422654,22 +422648,29 @@
         "display_name": "Star Trek: Deep Space Nine S07E01 Image in the Sand 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:30:30.085722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016848",
-        "size_bytes": 566766268
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016848",
-        "size_bytes": 566766268,
-        "source_bytes_read": 566766268,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016848",
         "source_bytes_read": 566766268,
         "elapsed_seconds": 70.405,
         "finished_at": "2026-11-13T17:31:57.347115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016848",
+          "size_bytes": 566766268,
+          "source_bytes_read": 566766268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220596",
+        "source_url": "https://sdilej.cz/33220596/star-trek-hluboky-vesmir-devet-s07e01-26-1998-cz-dab-obraz-v-pisku.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016848",
+        "display_name": "Star Trek: Deep Space Nine S07E01 Image in the Sand 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:32:05.560662+00:00"
       }
     },
     "1051:7:2": {
@@ -422729,7 +422730,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:32:00.398435+00:00",
+  "updated_at": "2026-11-13T17:32:05.560683+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
