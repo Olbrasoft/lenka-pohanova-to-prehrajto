@@ -419623,12 +419623,6 @@
     },
     "1051:3:10": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e10",
-      "claim": {
-        "worker_id": "abdb98fcb57446f9b8bfa8e451f942c7-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:32:20.654326+00:00",
-        "lease_expires_at": "2026-11-13T22:32:20.654336+00:00"
-      },
       "source": {
         "source_id": "29052571",
         "source_url": "https://sdilej.cz/29052571/star-trek-deep-space-nine-03x10-okouzleni.avi",
@@ -419653,22 +419647,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E10 Fascination SD CZ Dabing",
         "prepared_at": "2026-11-13T16:32:25.612200+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015541",
-        "size_bytes": 444379136
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015541",
-        "size_bytes": 444379136,
-        "source_bytes_read": 444379136,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015541",
         "source_bytes_read": 444379136,
         "elapsed_seconds": 22.015,
         "finished_at": "2026-11-13T16:33:06.097718+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015541",
+          "size_bytes": 444379136,
+          "source_bytes_read": 444379136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29052571",
+        "source_url": "https://sdilej.cz/29052571/star-trek-deep-space-nine-03x10-okouzleni.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015541",
+        "display_name": "Star Trek: Deep Space Nine S03E10 Fascination SD CZ Dabing",
+        "uploaded_at": "2026-11-13T16:33:18.061260+00:00"
       }
     },
     "1051:3:12": {
@@ -419747,7 +419748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:33:14.430667+00:00",
+  "updated_at": "2026-11-13T16:33:18.061274+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
