@@ -430668,12 +430668,6 @@
     },
     "1021:3:7": {
       "episode_key": "ve jménu našeho pána:s3:e7",
-      "claim": {
-        "worker_id": "15f767505cfe4192a6155dee8eeaa2a6-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:18:38.851333+00:00",
-        "lease_expires_at": "2026-11-14T04:18:38.851345+00:00"
-      },
       "source": {
         "source_id": "34149052",
         "source_url": "https://sdilej.cz/34149052/ve-jmenu-naseho-pana-s03e07-09-2023-cz-dab-720p-spaleninu-za-spaleninu.mkv",
@@ -430698,22 +430692,29 @@
         "display_name": "The Righteous Gemstones S03E07 Burn for Burn, Wound for Wound, Stripe for Stripe 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:18:55.597915+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020057",
-        "size_bytes": 1093249043
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020057",
-        "size_bytes": 1093249043,
-        "source_bytes_read": 1093249043,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020057",
         "source_bytes_read": 1093249043,
         "elapsed_seconds": 43.466,
         "finished_at": "2026-11-13T22:20:01.008290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020057",
+          "size_bytes": 1093249043,
+          "source_bytes_read": 1093249043,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149052",
+        "source_url": "https://sdilej.cz/34149052/ve-jmenu-naseho-pana-s03e07-09-2023-cz-dab-720p-spaleninu-za-spaleninu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020057",
+        "display_name": "The Righteous Gemstones S03E07 Burn for Burn, Wound for Wound, Stripe for Stripe 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:20:08.295656+00:00"
       }
     },
     "1021:3:9": {
@@ -430773,7 +430774,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:20:04.968626+00:00",
+  "updated_at": "2026-11-13T22:20:08.295674+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
