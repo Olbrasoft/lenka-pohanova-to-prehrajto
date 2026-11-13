@@ -415815,12 +415815,6 @@
     },
     "1700:2:22": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e22",
-      "claim": {
-        "worker_id": "8e72c8a7756240e1a33473d018b39ded-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:02:24.122662+00:00",
-        "lease_expires_at": "2026-11-13T20:02:24.122678+00:00"
-      },
       "source": {
         "source_id": "29046728",
         "source_url": "https://sdilej.cz/29046728/scooby-doo-zahady-s.r.o.-s02e22-nocni-mura-v-rudem-1080p-25fps-h264-128kbit-aac-.mkv",
@@ -415845,22 +415839,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E22 Nightmare in Red 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:02:31.501168+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013208",
-        "size_bytes": 482225253
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013208",
-        "size_bytes": 482225253,
-        "source_bytes_read": 482225253,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013208",
         "source_bytes_read": 482225253,
         "elapsed_seconds": 186.6,
         "finished_at": "2026-11-13T14:06:00.031667+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013208",
+          "size_bytes": 482225253,
+          "source_bytes_read": 482225253,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29046728",
+        "source_url": "https://sdilej.cz/29046728/scooby-doo-zahady-s.r.o.-s02e22-nocni-mura-v-rudem-1080p-25fps-h264-128kbit-aac-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013208",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E22 Nightmare in Red 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:06:08.468351+00:00"
       }
     },
     "1700:2:23": {
@@ -415906,7 +415907,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:06:05.051696+00:00",
+  "updated_at": "2026-11-13T14:06:08.468366+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
