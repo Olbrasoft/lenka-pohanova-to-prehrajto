@@ -414832,12 +414832,6 @@
     },
     "1700:1:20": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e20",
-      "claim": {
-        "worker_id": "02fa0f3e59e243149f8177eef0e553ef-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T13:13:55.471222+00:00",
-        "lease_expires_at": "2026-11-13T19:13:55.471235+00:00"
-      },
       "source": {
         "source_id": "27779536",
         "source_url": "https://sdilej.cz/27779536/scooby-doo-zahady-s.-r.-o.-s01e20-pisen-sireny-1080p-web-dl-cz-dabing.mkv",
@@ -414862,22 +414856,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E20 The Siren's Song 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:14:02.294958+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012757",
-        "size_bytes": 685953987
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012757",
-        "size_bytes": 685953987,
-        "source_bytes_read": 685953987,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012757",
         "source_bytes_read": 685953987,
         "elapsed_seconds": 337.39,
         "finished_at": "2026-11-13T13:19:56.952845+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012757",
+          "size_bytes": 685953987,
+          "source_bytes_read": 685953987,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779536",
+        "source_url": "https://sdilej.cz/27779536/scooby-doo-zahady-s.-r.-o.-s01e20-pisen-sireny-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012757",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E20 The Siren's Song 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:20:06.724991+00:00"
       }
     },
     "1700:1:21": {
@@ -414923,7 +414924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:19:56.952865+00:00",
+  "updated_at": "2026-11-13T13:20:06.725007+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
