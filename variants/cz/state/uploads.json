@@ -434705,12 +434705,6 @@
     },
     "1411:6:10": {
       "episode_key": "případy detektiva murdocha:s6:e10",
-      "claim": {
-        "worker_id": "debe648206de44cabc78be02154b38a8-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:11:25.207854+00:00",
-        "lease_expires_at": "2026-11-14T05:11:25.207868+00:00"
-      },
       "source": {
         "source_id": "18966670",
         "source_url": "https://sdilej.cz/18966670/pripady-detektiva-murdocha-s06e10-zvracene-sestry-sd-.mkv",
@@ -434735,22 +434729,29 @@
         "display_name": "Murdoch Mysteries S06E10 Twisted Sisters 1080p CZ Dabing",
         "prepared_at": "2026-11-13T23:11:29.625545+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021074",
-        "size_bytes": 1036486036
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021074",
-        "size_bytes": 1036486036,
-        "source_bytes_read": 1036486036,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021074",
         "source_bytes_read": 1036486036,
         "elapsed_seconds": 73.925,
         "finished_at": "2026-11-13T23:13:09.728749+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021074",
+          "size_bytes": 1036486036,
+          "source_bytes_read": 1036486036,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18966670",
+        "source_url": "https://sdilej.cz/18966670/pripady-detektiva-murdocha-s06e10-zvracene-sestry-sd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021074",
+        "display_name": "Murdoch Mysteries S06E10 Twisted Sisters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T23:13:18.702471+00:00"
       }
     },
     "1411:6:11": {
@@ -434861,7 +434862,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:13:15.192300+00:00",
+  "updated_at": "2026-11-13T23:13:18.702490+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
