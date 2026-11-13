@@ -398288,12 +398288,6 @@
     },
     "1177:5:2": {
       "episode_key": "batesův motel:s5:e2",
-      "claim": {
-        "worker_id": "9f15a16eb750431b95b451c8132ec5c6-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:00:32.789277+00:00",
-        "lease_expires_at": "2026-11-13T08:00:32.789286+00:00"
-      },
       "source": {
         "source_id": "28647557",
         "source_url": "https://sdilej.cz/28647557/batesuv-motel-bates-motel-s05e02-hd-cz-dabing.mkv",
@@ -398318,22 +398312,29 @@
         "display_name": "Bates Motel S05E02 The Convergence of the Twain 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:00:39.113219+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008073",
-        "size_bytes": 830380390
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008073",
-        "size_bytes": 830380390,
-        "source_bytes_read": 830380390,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008073",
         "source_bytes_read": 830380390,
         "elapsed_seconds": 338.765,
         "finished_at": "2026-11-13T02:06:33.926914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008073",
+          "size_bytes": 830380390,
+          "source_bytes_read": 830380390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28647557",
+        "source_url": "https://sdilej.cz/28647557/batesuv-motel-bates-motel-s05e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008073",
+        "display_name": "Bates Motel S05E02 The Convergence of the Twain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:06:40.318998+00:00"
       }
     }
   },
@@ -398342,7 +398343,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:06:33.926930+00:00",
+  "updated_at": "2026-11-13T02:06:40.319012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
