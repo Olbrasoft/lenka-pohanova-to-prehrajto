@@ -419469,12 +419469,6 @@
     },
     "1051:2:26": {
       "episode_key": "star trek: hluboký vesmír devět:s2:e26",
-      "claim": {
-        "worker_id": "24cd421ca76245d08500beb8126914b7-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:31:09.993677+00:00",
-        "lease_expires_at": "2026-11-13T22:31:09.993688+00:00"
-      },
       "source": {
         "source_id": "33220293",
         "source_url": "https://sdilej.cz/33220293/star-trek-hluboky-vesmir-devet-s02e26-26-1993-cz-dab-jem-hadarove.avi",
@@ -419500,22 +419494,29 @@
         "display_name": "Star Trek: Deep Space Nine S02E26 The Jem'Hadar 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:31:14.694091+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015506",
-        "size_bytes": 621052058
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015506",
-        "size_bytes": 621052058,
-        "source_bytes_read": 621052058,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015506",
         "source_bytes_read": 621052058,
         "elapsed_seconds": 28.832,
         "finished_at": "2026-11-13T16:32:03.176516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015506",
+          "size_bytes": 621052058,
+          "source_bytes_read": 621052058,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220293",
+        "source_url": "https://sdilej.cz/33220293/star-trek-hluboky-vesmir-devet-s02e26-26-1993-cz-dab-jem-hadarove.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015506",
+        "display_name": "Star Trek: Deep Space Nine S02E26 The Jem'Hadar 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:32:07.720994+00:00"
       }
     },
     "1051:3:1": {
@@ -419598,7 +419599,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:32:03.176534+00:00",
+  "updated_at": "2026-11-13T16:32:07.721010+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
