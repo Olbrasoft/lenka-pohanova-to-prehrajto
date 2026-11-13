@@ -424321,12 +424321,6 @@
     },
     "2231:1:12": {
       "episode_key": "star wars: povstalci:s1:e12",
-      "claim": {
-        "worker_id": "e9b8fa436bf54dd7a33f076c2035935e-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T18:57:28.449126+00:00",
-        "lease_expires_at": "2026-11-14T00:57:28.449136+00:00"
-      },
       "source": {
         "source_id": "29131722",
         "source_url": "https://sdilej.cz/29131722/star-wars-povstalci-s01e12-cz.mkv",
@@ -424351,22 +424345,29 @@
         "display_name": "Star Wars Rebels S01E12 Rebel Resolve 1080p CZ Dabing",
         "prepared_at": "2026-11-13T18:57:36.077137+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017877",
-        "size_bytes": 913711490
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017877",
-        "size_bytes": 913711490,
-        "source_bytes_read": 913711490,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017877",
         "source_bytes_read": 913711490,
         "elapsed_seconds": 290.961,
         "finished_at": "2026-11-13T19:02:45.555477+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017877",
+          "size_bytes": 913711490,
+          "source_bytes_read": 913711490,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29131722",
+        "source_url": "https://sdilej.cz/29131722/star-wars-povstalci-s01e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017877",
+        "display_name": "Star Wars Rebels S01E12 Rebel Resolve 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T19:02:50.310095+00:00"
       }
     },
     "2231:1:13": {
@@ -424463,7 +424464,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T19:02:45.555499+00:00",
+  "updated_at": "2026-11-13T19:02:50.310116+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
