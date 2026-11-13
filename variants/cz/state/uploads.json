@@ -415509,12 +415509,6 @@
     },
     "1700:2:13": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e13",
-      "claim": {
-        "worker_id": "a4fddf284ec547799eecfc206daac496-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:50:37.599265+00:00",
-        "lease_expires_at": "2026-11-13T19:50:37.599277+00:00"
-      },
       "source": {
         "source_id": "27779059",
         "source_url": "https://sdilej.cz/27779059/scooby-doo-zahady-s.-r.-o.-s02e13-krampusova-slova-1080p-web-dl-cz-dabing.mkv",
@@ -415539,22 +415533,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E13 Wrath of the Krampus 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:50:51.539484+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013091",
-        "size_bytes": 839265593
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013091",
-        "size_bytes": 839265593,
-        "source_bytes_read": 839265593,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013091",
         "source_bytes_read": 839265593,
         "elapsed_seconds": 317.987,
         "finished_at": "2026-11-13T13:56:32.734921+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013091",
+          "size_bytes": 839265593,
+          "source_bytes_read": 839265593,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779059",
+        "source_url": "https://sdilej.cz/27779059/scooby-doo-zahady-s.-r.-o.-s02e13-krampusova-slova-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013091",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E13 Wrath of the Krampus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:56:42.267158+00:00"
       }
     },
     "1700:2:14": {
@@ -415600,7 +415601,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:56:37.793155+00:00",
+  "updated_at": "2026-11-13T13:56:42.267175+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
