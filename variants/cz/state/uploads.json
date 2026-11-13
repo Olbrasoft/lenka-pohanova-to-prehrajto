@@ -406223,12 +406223,6 @@
     },
     "462:7:26": {
       "episode_key": "ženatý se závazky:s7:e26",
-      "claim": {
-        "worker_id": "cd76088dcdec47cca7b344f7f0cf5255-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:43:14.861402+00:00",
-        "lease_expires_at": "2026-11-13T12:43:14.861413+00:00"
-      },
       "source": {
         "source_id": "35326665",
         "source_url": "https://sdilej.cz/35326665/zenaty-se-zavazky-s07e26-navrh.mkv",
@@ -406253,22 +406247,29 @@
         "display_name": "Married… with Children S07E26 The Proposition 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:43:25.090844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009880",
-        "size_bytes": 333529986
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009880",
-        "size_bytes": 333529986,
-        "source_bytes_read": 333529986,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009880",
         "source_bytes_read": 333529986,
         "elapsed_seconds": 186.102,
         "finished_at": "2026-11-13T06:46:55.250971+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009880",
+          "size_bytes": 333529986,
+          "source_bytes_read": 333529986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326665",
+        "source_url": "https://sdilej.cz/35326665/zenaty-se-zavazky-s07e26-navrh.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009880",
+        "display_name": "Married… with Children S07E26 The Proposition 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:46:59.593288+00:00"
       }
     },
     "462:8:2": {
@@ -406377,7 +406378,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:46:55.250991+00:00",
+  "updated_at": "2026-11-13T06:46:59.593303+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
