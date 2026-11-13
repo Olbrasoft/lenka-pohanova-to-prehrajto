@@ -408096,12 +408096,6 @@
     },
     "462:9:15": {
       "episode_key": "ženatý se závazky:s9:e15",
-      "claim": {
-        "worker_id": "3a7a6712474a4f89adf48bec6bd54e92-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:48:49.121304+00:00",
-        "lease_expires_at": "2026-11-13T13:48:49.121315+00:00"
-      },
       "source": {
         "source_id": "35326734",
         "source_url": "https://sdilej.cz/35326734/zenaty-se-zavazky-s09e15-ted-strili-kelly.mkv",
@@ -408126,22 +408120,29 @@
         "display_name": "Married… with Children S09E15 Kelly Takes a Shot 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:49:08.209313+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010370",
-        "size_bytes": 395065684
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010370",
-        "size_bytes": 395065684,
-        "source_bytes_read": 395065684,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010370",
         "source_bytes_read": 395065684,
         "elapsed_seconds": 165.161,
         "finished_at": "2026-11-13T07:52:13.095679+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010370",
+          "size_bytes": 395065684,
+          "source_bytes_read": 395065684,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326734",
+        "source_url": "https://sdilej.cz/35326734/zenaty-se-zavazky-s09e15-ted-strili-kelly.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010370",
+        "display_name": "Married… with Children S09E15 Kelly Takes a Shot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:52:20.402101+00:00"
       }
     },
     "462:9:16": {
@@ -408201,7 +408202,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:52:17.423395+00:00",
+  "updated_at": "2026-11-13T07:52:20.402117+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
