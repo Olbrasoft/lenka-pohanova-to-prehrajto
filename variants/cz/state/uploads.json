@@ -429393,12 +429393,6 @@
     },
     "1410:2:40": {
       "episode_key": "phineas a ferb:s2:e40",
-      "claim": {
-        "worker_id": "3e5097101b73431ea04f600f4445e74c-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:06:30.416375+00:00",
-        "lease_expires_at": "2026-11-14T04:06:30.416386+00:00"
-      },
       "source": {
         "source_id": "33548554",
         "source_url": "https://sdilej.cz/33548554/phineas.a.ferb.2x40.byl.jsem.robot.stredniho.veku.720p.cz.batmaster.mkv",
@@ -429423,22 +429417,29 @@
         "display_name": "Phineas and Ferb S02E40 I Was a Middle Aged Robot 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:06:36.327414+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019696",
-        "size_bytes": 107752686
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019696",
-        "size_bytes": 107752686,
-        "source_bytes_read": 107752686,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019696",
         "source_bytes_read": 107752686,
         "elapsed_seconds": 6.381,
         "finished_at": "2026-11-13T22:07:00.674558+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019696",
+          "size_bytes": 107752686,
+          "source_bytes_read": 107752686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548554",
+        "source_url": "https://sdilej.cz/33548554/phineas.a.ferb.2x40.byl.jsem.robot.stredniho.veku.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019696",
+        "display_name": "Phineas and Ferb S02E40 I Was a Middle Aged Robot 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:07:09.306221+00:00"
       }
     },
     "1410:2:41": {
@@ -429480,7 +429481,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:07:06.693992+00:00",
+  "updated_at": "2026-11-13T22:07:09.306237+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
