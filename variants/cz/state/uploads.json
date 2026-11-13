@@ -407243,12 +407243,6 @@
     },
     "462:8:22": {
       "episode_key": "ženatý se závazky:s8:e22",
-      "claim": {
-        "worker_id": "75cd43b2ba6b4e29a5af374c5164d2b0-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:21:57.081921+00:00",
-        "lease_expires_at": "2026-11-13T13:21:57.081932+00:00"
-      },
       "source": {
         "source_id": "35326704",
         "source_url": "https://sdilej.cz/35326704/zenaty-se-zavazky-s08e22-zelenejsi-chicago.mkv",
@@ -407273,22 +407267,29 @@
         "display_name": "Married… with Children S08E22 Ride Scare 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:22:01.633876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010146",
-        "size_bytes": 317141971
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010146",
-        "size_bytes": 317141971,
-        "source_bytes_read": 317141971,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010146",
         "source_bytes_read": 317141971,
         "elapsed_seconds": 171.644,
         "finished_at": "2026-11-13T07:25:07.826779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010146",
+          "size_bytes": 317141971,
+          "source_bytes_read": 317141971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326704",
+        "source_url": "https://sdilej.cz/35326704/zenaty-se-zavazky-s08e22-zelenejsi-chicago.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010146",
+        "display_name": "Married… with Children S08E22 Ride Scare 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:25:16.369295+00:00"
       }
     },
     "462:8:24": {
@@ -407370,7 +407371,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:25:11.915220+00:00",
+  "updated_at": "2026-11-13T07:25:16.369313+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
