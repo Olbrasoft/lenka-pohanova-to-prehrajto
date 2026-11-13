@@ -422471,12 +422471,6 @@
     },
     "1051:6:24": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e24",
-      "claim": {
-        "worker_id": "84266ad5fe384ab0a49fdbb4fe06b0c8-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:27:47.267956+00:00",
-        "lease_expires_at": "2026-11-13T23:27:47.267969+00:00"
-      },
       "source": {
         "source_id": "33220587",
         "source_url": "https://sdilej.cz/33220587/star-trek-hluboky-vesmir-devet-s06e24-26-1997-cz-dab-sirotek-casu.avi",
@@ -422501,22 +422495,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E24 Time's Orphan 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:28:02.140733+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016806",
-        "size_bytes": 696241586
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016806",
-        "size_bytes": 696241586,
-        "source_bytes_read": 696241586,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016806",
         "source_bytes_read": 696241586,
         "elapsed_seconds": 77.638,
         "finished_at": "2026-11-13T17:29:38.085379+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016806",
+          "size_bytes": 696241586,
+          "source_bytes_read": 696241586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220587",
+        "source_url": "https://sdilej.cz/33220587/star-trek-hluboky-vesmir-devet-s06e24-26-1997-cz-dab-sirotek-casu.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016806",
+        "display_name": "Star Trek: Deep Space Nine S06E24 Time's Orphan 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:29:43.507164+00:00"
       }
     },
     "1051:6:25": {
@@ -422562,7 +422563,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:29:38.085403+00:00",
+  "updated_at": "2026-11-13T17:29:43.507183+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
