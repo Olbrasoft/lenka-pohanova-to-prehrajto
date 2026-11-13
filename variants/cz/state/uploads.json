@@ -414234,12 +414234,6 @@
     },
     "1700:1:5": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e5",
-      "claim": {
-        "worker_id": "58ad0d60b05744558333c751f4adbe87-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:55:00.275783+00:00",
-        "lease_expires_at": "2026-11-13T18:55:00.275796+00:00"
-      },
       "source": {
         "source_id": "27779106",
         "source_url": "https://sdilej.cz/27779106/scooby-doo-zahady-s.-r.-o.-s01e05-zahadna-pisen-1080p-web-dl-cz-dabing.mkv",
@@ -414264,22 +414258,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E05 The Song of Mystery 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:55:04.033766+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012598",
-        "size_bytes": 824364977
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012598",
-        "size_bytes": 824364977,
-        "source_bytes_read": 824364977,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012598",
         "source_bytes_read": 824364977,
         "elapsed_seconds": 435.943,
         "finished_at": "2026-11-13T13:02:35.898885+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012598",
+          "size_bytes": 824364977,
+          "source_bytes_read": 824364977,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779106",
+        "source_url": "https://sdilej.cz/27779106/scooby-doo-zahady-s.-r.-o.-s01e05-zahadna-pisen-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012598",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E05 The Song of Mystery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:02:40.914540+00:00"
       }
     },
     "1700:1:6": {
@@ -414566,7 +414567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:02:35.898906+00:00",
+  "updated_at": "2026-11-13T13:02:40.914556+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
