@@ -399853,12 +399853,6 @@
     },
     "462:2:4": {
       "episode_key": "ženatý se závazky:s2:e4",
-      "claim": {
-        "worker_id": "4eee360fc5db4927b1a649218940d6c2-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T03:01:44.278738+00:00",
-        "lease_expires_at": "2026-11-13T09:01:44.278748+00:00"
-      },
       "source": {
         "source_id": "27748533",
         "source_url": "https://sdilej.cz/27748533/zenaty-se-zavazky-s02e04.mkv",
@@ -399883,22 +399877,29 @@
         "display_name": "Married… with Children S02E04 Buck Can Do It SD CZ Dabing",
         "prepared_at": "2026-11-13T03:01:59.717301+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008474",
-        "size_bytes": 257460488
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008474",
-        "size_bytes": 257460488,
-        "source_bytes_read": 257460488,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008474",
         "source_bytes_read": 257460488,
         "elapsed_seconds": 115.274,
         "finished_at": "2026-11-13T03:04:10.125909+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008474",
+          "size_bytes": 257460488,
+          "source_bytes_read": 257460488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748533",
+        "source_url": "https://sdilej.cz/27748533/zenaty-se-zavazky-s02e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008474",
+        "display_name": "Married… with Children S02E04 Buck Can Do It SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:04:23.344624+00:00"
       }
     }
   },
@@ -399907,7 +399908,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:04:20.345719+00:00",
+  "updated_at": "2026-11-13T03:04:23.344640+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
