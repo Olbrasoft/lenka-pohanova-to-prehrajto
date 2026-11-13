@@ -423211,12 +423211,6 @@
     },
     "1051:7:18": {
       "episode_key": "star trek: hluboký vesmír devět:s7:e18",
-      "claim": {
-        "worker_id": "aebab3bf3c934b62aaae135f96f1be62-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:41:17.570619+00:00",
-        "lease_expires_at": "2026-11-13T23:41:17.570630+00:00"
-      },
       "source": {
         "source_id": "33220652",
         "source_url": "https://sdilej.cz/33220652/star-trek-hluboky-vesmir-devet-s07e18-26-1998-cz-dab-dokud-nas-smrt-nerozdeli.mkv",
@@ -423241,22 +423235,29 @@
         "display_name": "Star Trek: Deep Space Nine S07E18 'Til Death Do Us Part SD CZ Dabing",
         "prepared_at": "2026-11-13T17:41:23.787914+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017037",
-        "size_bytes": 468147843
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017037",
-        "size_bytes": 468147843,
-        "source_bytes_read": 468147843,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017037",
         "source_bytes_read": 468147843,
         "elapsed_seconds": 32.318,
         "finished_at": "2026-11-13T17:42:13.840973+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017037",
+          "size_bytes": 468147843,
+          "source_bytes_read": 468147843,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220652",
+        "source_url": "https://sdilej.cz/33220652/star-trek-hluboky-vesmir-devet-s07e18-26-1998-cz-dab-dokud-nas-smrt-nerozdeli.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017037",
+        "display_name": "Star Trek: Deep Space Nine S07E18 'Til Death Do Us Part SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:42:23.160576+00:00"
       }
     }
   },
@@ -423265,7 +423266,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:42:20.165569+00:00",
+  "updated_at": "2026-11-13T17:42:23.160593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
