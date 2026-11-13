@@ -406066,12 +406066,6 @@
     },
     "462:7:23": {
       "episode_key": "ženatý se závazky:s7:e23",
-      "claim": {
-        "worker_id": "da87bc1f0b1049a48eaea6deb1153b79-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:38:21.991692+00:00",
-        "lease_expires_at": "2026-11-13T12:38:21.991701+00:00"
-      },
       "source": {
         "source_id": "35326658",
         "source_url": "https://sdilej.cz/35326658/zenaty-se-zavazky-s07e23-predcasny-duchod.mkv",
@@ -406096,22 +406090,29 @@
         "display_name": "Married… with Children S07E23 'Tis Time to Smell the Roses 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:38:34.232079+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009845",
-        "size_bytes": 381703431
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009845",
-        "size_bytes": 381703431,
-        "source_bytes_read": 381703431,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009845",
         "source_bytes_read": 381703431,
         "elapsed_seconds": 205.551,
         "finished_at": "2026-11-13T06:42:24.221593+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009845",
+          "size_bytes": 381703431,
+          "source_bytes_read": 381703431,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326658",
+        "source_url": "https://sdilej.cz/35326658/zenaty-se-zavazky-s07e23-predcasny-duchod.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009845",
+        "display_name": "Married… with Children S07E23 'Tis Time to Smell the Roses 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:42:34.832190+00:00"
       }
     },
     "462:7:24": {
@@ -406221,7 +406222,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:42:29.627162+00:00",
+  "updated_at": "2026-11-13T06:42:34.832204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
