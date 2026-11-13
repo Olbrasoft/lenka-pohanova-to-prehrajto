@@ -420731,12 +420731,6 @@
     },
     "1051:4:8": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e8",
-      "claim": {
-        "worker_id": "91b35f8223c34eb191277f99a36e8dd7-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:00:51.379961+00:00",
-        "lease_expires_at": "2026-11-13T23:00:51.379973+00:00"
-      },
       "source": {
         "source_id": "33220366",
         "source_url": "https://sdilej.cz/33220366/star-trek-hluboky-vesmir-devet-s04e08-25-1995-cz-dab-kahlessuv-mec.avi",
@@ -420761,22 +420755,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E08 The Sword of Kahless SD CZ Dabing",
         "prepared_at": "2026-11-13T17:01:08.676043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016189",
-        "size_bytes": 349854002
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016189",
-        "size_bytes": 349854002,
-        "source_bytes_read": 349854002,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016189",
         "source_bytes_read": 349854002,
         "elapsed_seconds": 47.309,
         "finished_at": "2026-11-13T17:02:17.373298+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016189",
+          "size_bytes": 349854002,
+          "source_bytes_read": 349854002,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220366",
+        "source_url": "https://sdilej.cz/33220366/star-trek-hluboky-vesmir-devet-s04e08-25-1995-cz-dab-kahlessuv-mec.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016189",
+        "display_name": "Star Trek: Deep Space Nine S04E08 The Sword of Kahless SD CZ Dabing",
+        "uploaded_at": "2026-11-13T17:02:22.917717+00:00"
       }
     },
     "1051:4:9": {
@@ -420822,7 +420823,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:02:17.373334+00:00",
+  "updated_at": "2026-11-13T17:02:22.917736+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
