@@ -428920,12 +428920,6 @@
     },
     "1021:3:2": {
       "episode_key": "ve jménu našeho pána:s3:e2",
-      "claim": {
-        "worker_id": "2b62e2eb61ae4155b6694f9a28c99071-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:01:43.261415+00:00",
-        "lease_expires_at": "2026-11-14T04:01:43.261424+00:00"
-      },
       "source": {
         "source_id": "34149032",
         "source_url": "https://sdilej.cz/34149032/ve-jmenu-naseho-pana-s03e02-09-2023-cz-dab-720p-ezau-se-k-nemu-rozbehl.mkv",
@@ -428950,22 +428944,29 @@
         "display_name": "The Righteous Gemstones S03E02 But Esau Ran to Meet Him 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:01:47.791173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019608",
-        "size_bytes": 889395651
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019608",
-        "size_bytes": 889395651,
-        "source_bytes_read": 889395651,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019608",
         "source_bytes_read": 889395651,
         "elapsed_seconds": 40.14,
         "finished_at": "2026-11-13T22:02:43.698087+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019608",
+          "size_bytes": 889395651,
+          "source_bytes_read": 889395651,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149032",
+        "source_url": "https://sdilej.cz/34149032/ve-jmenu-naseho-pana-s03e02-09-2023-cz-dab-720p-ezau-se-k-nemu-rozbehl.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019608",
+        "display_name": "The Righteous Gemstones S03E02 But Esau Ran to Meet Him 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:02:47.721288+00:00"
       }
     },
     "1021:3:3": {
@@ -429011,7 +429012,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:02:43.698112+00:00",
+  "updated_at": "2026-11-13T22:02:47.721310+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
