@@ -242982,24 +242982,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T10:20:19.183588+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T11:27:18.438154+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T12:28:31.771283+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T13:31:00.737865+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "ec452dc438da4254bb26908bfa0b1cde-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:30:39.097626+00:00",
-        "lease_expires_at": "2026-11-13T19:30:39.097639+00:00"
-      }
+      ]
     },
     "1082:2:5": {
       "episode_key": "útěk z vězení:s2:e5",
@@ -415066,7 +415060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:30:54.074480+00:00",
+  "updated_at": "2026-11-13T13:31:00.737896+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -415185,6 +415179,10 @@
         {
           "identity": "1082:1:9",
           "at": "2026-11-13T13:30:54.074442+00:00"
+        },
+        {
+          "identity": "1082:2:4",
+          "at": "2026-11-13T13:31:00.737832+00:00"
         }
       ],
       "retry_after": "2026-11-13T12:38:31.771215+00:00"
