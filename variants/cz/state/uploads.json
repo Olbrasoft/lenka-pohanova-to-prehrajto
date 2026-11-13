@@ -434806,12 +434806,6 @@
     },
     "1411:6:12": {
       "episode_key": "případy detektiva murdocha:s6:e12",
-      "claim": {
-        "worker_id": "be674341843c46c98c27d071ef68e33e-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:11:53.812420+00:00",
-        "lease_expires_at": "2026-11-14T05:11:53.812433+00:00"
-      },
       "source": {
         "source_id": "7852472",
         "source_url": "https://sdilej.cz/7852472/pripady.detektiva.murdocha.s06e12.zlocin.a.trest..avi",
@@ -434836,22 +434830,29 @@
         "display_name": "Murdoch Mysteries S06E12 Crime & Punishment SD CZ Dabing",
         "prepared_at": "2026-11-13T23:11:58.421762+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021087",
-        "size_bytes": 367669248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021087",
-        "size_bytes": 367669248,
-        "source_bytes_read": 367669248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021087",
         "source_bytes_read": 367669248,
         "elapsed_seconds": 29.567,
         "finished_at": "2026-11-13T23:13:02.102381+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021087",
+          "size_bytes": 367669248,
+          "source_bytes_read": 367669248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852472",
+        "source_url": "https://sdilej.cz/7852472/pripady.detektiva.murdocha.s06e12.zlocin.a.trest..avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021087",
+        "display_name": "Murdoch Mysteries S06E12 Crime & Punishment SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:13:15.192279+00:00"
       }
     }
   },
@@ -434860,7 +434861,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:13:09.728775+00:00",
+  "updated_at": "2026-11-13T23:13:15.192300+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
