@@ -409028,12 +409028,6 @@
     },
     "462:10:7": {
       "episode_key": "ženatý se závazky:s10:e7",
-      "claim": {
-        "worker_id": "dad59c7a73b042bf98b4103354942e8a-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:26:14.065259+00:00",
-        "lease_expires_at": "2026-11-13T14:26:14.065271+00:00"
-      },
       "source": {
         "source_id": "35326764",
         "source_url": "https://sdilej.cz/35326764/zenaty-se-zavazky-s10e07-let-cmelaka.mkv",
@@ -409058,22 +409052,29 @@
         "display_name": "Married… with Children S10E07 Flight of the Bumblebee 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:26:17.670053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010641",
-        "size_bytes": 345075548
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010641",
-        "size_bytes": 345075548,
-        "source_bytes_read": 345075548,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010641",
         "source_bytes_read": 345075548,
         "elapsed_seconds": 174.831,
         "finished_at": "2026-11-13T08:29:29.365595+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010641",
+          "size_bytes": 345075548,
+          "source_bytes_read": 345075548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326764",
+        "source_url": "https://sdilej.cz/35326764/zenaty-se-zavazky-s10e07-let-cmelaka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010641",
+        "display_name": "Married… with Children S10E07 Flight of the Bumblebee 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:29:34.436509+00:00"
       }
     },
     "462:10:8": {
@@ -409156,7 +409157,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:29:29.365613+00:00",
+  "updated_at": "2026-11-13T08:29:34.436524+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
