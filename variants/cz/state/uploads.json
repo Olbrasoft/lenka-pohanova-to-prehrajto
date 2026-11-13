@@ -433328,12 +433328,6 @@
     },
     "1411:4:9": {
       "episode_key": "případy detektiva murdocha:s4:e9",
-      "claim": {
-        "worker_id": "c9e3b7f92b9a4a2eb67e1ad15735f663-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:56:55.026272+00:00",
-        "lease_expires_at": "2026-11-14T04:56:55.026293+00:00"
-      },
       "source": {
         "source_id": "7852297",
         "source_url": "https://sdilej.cz/7852297/pripady.detektiva.murdocha.s04e09.cerna.ruka..avi",
@@ -433358,22 +433352,29 @@
         "display_name": "Murdoch Mysteries S04E09 The Black Hand SD CZ Dabing",
         "prepared_at": "2026-11-13T22:57:10.260194+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020752",
-        "size_bytes": 367986688
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020752",
-        "size_bytes": 367986688,
-        "source_bytes_read": 367986688,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020752",
         "source_bytes_read": 367986688,
         "elapsed_seconds": 18.681,
         "finished_at": "2026-11-13T22:57:53.917761+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020752",
+          "size_bytes": 367986688,
+          "source_bytes_read": 367986688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852297",
+        "source_url": "https://sdilej.cz/7852297/pripady.detektiva.murdocha.s04e09.cerna.ruka..avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020752",
+        "display_name": "Murdoch Mysteries S04E09 The Black Hand SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:58:01.700041+00:00"
       }
     },
     "1411:4:10": {
@@ -433470,7 +433471,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:57:57.024115+00:00",
+  "updated_at": "2026-11-13T22:58:01.700071+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
