@@ -401816,12 +401816,6 @@
     },
     "462:4:2": {
       "episode_key": "ženatý se závazky:s4:e2",
-      "claim": {
-        "worker_id": "96c3c6beed07476484ae9521b6eb245c-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:03:23.398568+00:00",
-        "lease_expires_at": "2026-11-13T10:03:23.398579+00:00"
-      },
       "source": {
         "source_id": "27748851",
         "source_url": "https://sdilej.cz/27748851/zenaty-se-zavazky-s04e02.mkv",
@@ -401846,22 +401840,29 @@
         "display_name": "Married… with Children S04E02 Dead Men Don't Do Aerobics SD CZ Dabing",
         "prepared_at": "2026-11-13T04:03:36.577006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008841",
-        "size_bytes": 218813064
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008841",
-        "size_bytes": 218813064,
-        "source_bytes_read": 218813064,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008841",
         "source_bytes_read": 218813064,
         "elapsed_seconds": 102.78,
         "finished_at": "2026-11-13T04:05:38.439611+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008841",
+          "size_bytes": 218813064,
+          "source_bytes_read": 218813064,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748851",
+        "source_url": "https://sdilej.cz/27748851/zenaty-se-zavazky-s04e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008841",
+        "display_name": "Married… with Children S04E02 Dead Men Don't Do Aerobics SD CZ Dabing",
+        "uploaded_at": "2026-11-13T04:05:43.696526+00:00"
       }
     },
     "462:4:3": {
@@ -401944,7 +401945,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:05:38.439630+00:00",
+  "updated_at": "2026-11-13T04:05:43.696543+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
