@@ -421975,12 +421975,6 @@
     },
     "1051:6:12": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e12",
-      "claim": {
-        "worker_id": "8a79c198094944a2949922cef0f674a7-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:18:04.835892+00:00",
-        "lease_expires_at": "2026-11-13T23:18:04.835905+00:00"
-      },
       "source": {
         "source_id": "33220556",
         "source_url": "https://sdilej.cz/33220556/star-trek-hluboky-vesmir-devet-s06e12-26-1997-cz-dab-kdo-truchli-pro-morna.avi",
@@ -422005,22 +421999,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E12 Who Mourns for Morn? 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:18:09.190741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016603",
-        "size_bytes": 658078244
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016603",
-        "size_bytes": 658078244,
-        "source_bytes_read": 658078244,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016603",
         "source_bytes_read": 658078244,
         "elapsed_seconds": 73.335,
         "finished_at": "2026-11-13T17:19:40.101350+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016603",
+          "size_bytes": 658078244,
+          "source_bytes_read": 658078244,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220556",
+        "source_url": "https://sdilej.cz/33220556/star-trek-hluboky-vesmir-devet-s06e12-26-1997-cz-dab-kdo-truchli-pro-morna.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016603",
+        "display_name": "Star Trek: Deep Space Nine S06E12 Who Mourns for Morn? 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:19:51.821500+00:00"
       }
     },
     "1051:6:13": {
@@ -422066,7 +422067,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:19:45.488111+00:00",
+  "updated_at": "2026-11-13T17:19:51.821517+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
