@@ -411735,12 +411735,6 @@
     },
     "937:2:5": {
       "episode_key": "misfits: zmetci:s2:e5",
-      "claim": {
-        "worker_id": "c0d35b5bc6374a4e850758faa292a34f-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T10:05:28.136336+00:00",
-        "lease_expires_at": "2026-11-13T16:05:28.136349+00:00"
-      },
       "source": {
         "source_id": "15955938",
         "source_url": "https://sdilej.cz/15955938/misfits.zmetci.s02e05.1080p.bluray.x264-azaghal-cz-eng.mkv",
@@ -411765,22 +411759,29 @@
         "display_name": "Misfits S02E05 Episode Five 1080p CZ Dabing",
         "prepared_at": "2026-11-13T10:05:36.648837+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011486",
-        "size_bytes": 3585559447
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011486",
-        "size_bytes": 3585559447,
-        "source_bytes_read": 3585559447,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011486",
         "source_bytes_read": 3585559447,
         "elapsed_seconds": 2204.87,
         "finished_at": "2026-11-13T10:42:37.317487+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011486",
+          "size_bytes": 3585559447,
+          "source_bytes_read": 3585559447,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15955938",
+        "source_url": "https://sdilej.cz/15955938/misfits.zmetci.s02e05.1080p.bluray.x264-azaghal-cz-eng.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011486",
+        "display_name": "Misfits S02E05 Episode Five 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T10:42:42.315278+00:00"
       }
     },
     "937:2:6": {
@@ -412016,7 +412017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T10:42:37.317507+00:00",
+  "updated_at": "2026-11-13T10:42:42.315296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
