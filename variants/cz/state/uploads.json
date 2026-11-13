@@ -408671,12 +408671,6 @@
     },
     "462:9:26": {
       "episode_key": "ženatý se závazky:s9:e26",
-      "claim": {
-        "worker_id": "58df0752cb104785a998bba58e2af894-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T08:12:43.452341+00:00",
-        "lease_expires_at": "2026-11-13T14:12:43.452350+00:00"
-      },
       "source": {
         "source_id": "35326751",
         "source_url": "https://sdilej.cz/35326751/zenaty-se-zavazky-s09e26-nezraly-absolvent.mkv",
@@ -408701,22 +408695,29 @@
         "display_name": "Married… with Children S09E26 The Undergraduate 1080p CZ Dabing",
         "prepared_at": "2026-11-13T08:12:53.022102+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010537",
-        "size_bytes": 339288209
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010537",
-        "size_bytes": 339288209,
-        "source_bytes_read": 339288209,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010537",
         "source_bytes_read": 339288209,
         "elapsed_seconds": 170.665,
         "finished_at": "2026-11-13T08:16:01.727430+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010537",
+          "size_bytes": 339288209,
+          "source_bytes_read": 339288209,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326751",
+        "source_url": "https://sdilej.cz/35326751/zenaty-se-zavazky-s09e26-nezraly-absolvent.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010537",
+        "display_name": "Married… with Children S09E26 The Undergraduate 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T08:16:18.745872+00:00"
       }
     },
     "462:10:1": {
@@ -408827,7 +408828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T08:16:15.372421+00:00",
+  "updated_at": "2026-11-13T08:16:18.745888+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
