@@ -402840,12 +402840,6 @@
     },
     "462:5:7": {
       "episode_key": "ženatý se závazky:s5:e7",
-      "claim": {
-        "worker_id": "09e95e8e824e4c3485fdd3dd0e69a3b5-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:37:41.759287+00:00",
-        "lease_expires_at": "2026-11-13T10:37:41.759299+00:00"
-      },
       "source": {
         "source_id": "33522703",
         "source_url": "https://sdilej.cz/33522703/zenaty-se-zavazky-s05e07-087-1990-hd-zenaty-s-mimozemstany-s-.mp4",
@@ -402870,22 +402864,29 @@
         "display_name": "Married… with Children S05E07 Married… with Aliens 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:37:45.289410+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009041",
-        "size_bytes": 508299853
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009041",
-        "size_bytes": 508299853,
-        "source_bytes_read": 508299853,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009041",
         "source_bytes_read": 508299853,
         "elapsed_seconds": 212.372,
         "finished_at": "2026-11-13T04:41:34.019925+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009041",
+          "size_bytes": 508299853,
+          "source_bytes_read": 508299853,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522703",
+        "source_url": "https://sdilej.cz/33522703/zenaty-se-zavazky-s05e07-087-1990-hd-zenaty-s-mimozemstany-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009041",
+        "display_name": "Married… with Children S05E07 Married… with Aliens 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:41:41.851859+00:00"
       }
     },
     "462:5:8": {
@@ -402967,7 +402968,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:41:37.211631+00:00",
+  "updated_at": "2026-11-13T04:41:41.851876+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
