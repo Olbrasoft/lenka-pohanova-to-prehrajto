@@ -418755,12 +418755,6 @@
     },
     "1051:1:18": {
       "episode_key": "star trek: hluboký vesmír devět:s1:e18",
-      "claim": {
-        "worker_id": "604fb53dc98045ce9b6c7c19ba049780-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:18:15.453600+00:00",
-        "lease_expires_at": "2026-11-13T22:18:15.453611+00:00"
-      },
       "source": {
         "source_id": "31405405",
         "source_url": "https://sdilej.cz/31405405/star-trek-deep-space-nine-s01e18-nebezpecny-stav-skyshowtime-.mkv",
@@ -418785,22 +418779,29 @@
         "display_name": "Star Trek: Deep Space Nine S01E18 Duet 1080p CZ Dabing",
         "prepared_at": "2026-11-13T16:18:22.315844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015181",
-        "size_bytes": 3226375216
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015181",
-        "size_bytes": 3226375216,
-        "source_bytes_read": 3226375216,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015181",
         "source_bytes_read": 3226375216,
         "elapsed_seconds": 424.689,
         "finished_at": "2026-11-13T16:25:47.617747+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015181",
+          "size_bytes": 3226375216,
+          "source_bytes_read": 3226375216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31405405",
+        "source_url": "https://sdilej.cz/31405405/star-trek-deep-space-nine-s01e18-nebezpecny-stav-skyshowtime-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015181",
+        "display_name": "Star Trek: Deep Space Nine S01E18 Duet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:25:57.590782+00:00"
       }
     },
     "1051:1:19": {
@@ -419152,7 +419153,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:25:51.334548+00:00",
+  "updated_at": "2026-11-13T16:25:57.590803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
