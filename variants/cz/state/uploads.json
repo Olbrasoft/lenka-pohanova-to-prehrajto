@@ -405058,12 +405058,6 @@
     },
     "462:7:3": {
       "episode_key": "ženatý se závazky:s7:e3",
-      "claim": {
-        "worker_id": "1330cfb2e8eb46e6b9034d27ca5e5ac4-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:51:29.418509+00:00",
-        "lease_expires_at": "2026-11-13T11:51:29.418522+00:00"
-      },
       "source": {
         "source_id": "35326623",
         "source_url": "https://sdilej.cz/35326623/zenaty-se-zavazky-s07e03-kazdy-bunda-ma-narozeniny.mkv",
@@ -405088,22 +405082,29 @@
         "display_name": "Married… with Children S07E03 Every Bundy Has a Birthday 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:51:36.756053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009515",
-        "size_bytes": 432810616
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009515",
-        "size_bytes": 432810616,
-        "source_bytes_read": 432810616,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009515",
         "source_bytes_read": 432810616,
         "elapsed_seconds": 191.019,
         "finished_at": "2026-11-13T05:55:05.273940+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009515",
+          "size_bytes": 432810616,
+          "source_bytes_read": 432810616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326623",
+        "source_url": "https://sdilej.cz/35326623/zenaty-se-zavazky-s07e03-kazdy-bunda-ma-narozeniny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009515",
+        "display_name": "Married… with Children S07E03 Every Bundy Has a Birthday 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:55:12.195601+00:00"
       }
     },
     "462:7:4": {
@@ -405163,7 +405164,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:55:08.486652+00:00",
+  "updated_at": "2026-11-13T05:55:12.195617+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
