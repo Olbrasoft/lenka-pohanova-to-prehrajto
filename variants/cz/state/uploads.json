@@ -397083,12 +397083,6 @@
     },
     "1177:3:2": {
       "episode_key": "batesův motel:s3:e2",
-      "claim": {
-        "worker_id": "03f31af67e814b1bb3d440996eed1b82-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:08:10.998949+00:00",
-        "lease_expires_at": "2026-11-13T07:08:10.998958+00:00"
-      },
       "source": {
         "source_id": "28647444",
         "source_url": "https://sdilej.cz/28647444/batesuv-motel-bates-motel-s03e02-hd-cz-dabing.mkv",
@@ -397113,22 +397107,29 @@
         "display_name": "Bates Motel S03E02 The Arcanum Club 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:08:14.737972+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007779",
-        "size_bytes": 983989275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007779",
-        "size_bytes": 983989275,
-        "source_bytes_read": 983989275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007779",
         "source_bytes_read": 983989275,
         "elapsed_seconds": 393.182,
         "finished_at": "2026-11-13T01:15:02.892108+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007779",
+          "size_bytes": 983989275,
+          "source_bytes_read": 983989275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28647444",
+        "source_url": "https://sdilej.cz/28647444/batesuv-motel-bates-motel-s03e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007779",
+        "display_name": "Bates Motel S03E02 The Arcanum Club 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:15:11.090412+00:00"
       }
     },
     "1177:3:3": {
@@ -397211,7 +397212,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:15:06.810730+00:00",
+  "updated_at": "2026-11-13T01:15:11.090427+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
