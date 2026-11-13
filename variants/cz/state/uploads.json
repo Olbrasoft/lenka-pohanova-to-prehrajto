@@ -433175,12 +433175,6 @@
     },
     "1411:4:6": {
       "episode_key": "případy detektiva murdocha:s4:e6",
-      "claim": {
-        "worker_id": "b99e9bc7ac654a9c838ac8b86a90546a-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:55:33.541166+00:00",
-        "lease_expires_at": "2026-11-14T04:55:33.541181+00:00"
-      },
       "source": {
         "source_id": "7852281",
         "source_url": "https://sdilej.cz/7852281/pripady.detektiva.murdocha.s04e06.slepa.ulicka.avi",
@@ -433205,22 +433199,29 @@
         "display_name": "Murdoch Mysteries S04E06 Dead End Street SD CZ Dabing",
         "prepared_at": "2026-11-13T22:55:47.601003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020719",
-        "size_bytes": 368027648
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020719",
-        "size_bytes": 368027648,
-        "source_bytes_read": 368027648,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020719",
         "source_bytes_read": 368027648,
         "elapsed_seconds": 25.47,
         "finished_at": "2026-11-13T22:56:29.079157+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020719",
+          "size_bytes": 368027648,
+          "source_bytes_read": 368027648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852281",
+        "source_url": "https://sdilej.cz/7852281/pripady.detektiva.murdocha.s04e06.slepa.ulicka.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020719",
+        "display_name": "Murdoch Mysteries S04E06 Dead End Street SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:56:39.326087+00:00"
       }
     },
     "1411:4:7": {
@@ -433315,7 +433316,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:56:34.960563+00:00",
+  "updated_at": "2026-11-13T22:56:39.326106+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
