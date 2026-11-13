@@ -434450,12 +434450,6 @@
     },
     "1411:6:5": {
       "episode_key": "případy detektiva murdocha:s6:e5",
-      "claim": {
-        "worker_id": "5a121b3d142f4aa9afd5be75832583cf-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:08:54.573259+00:00",
-        "lease_expires_at": "2026-11-14T05:08:54.573273+00:00"
-      },
       "source": {
         "source_id": "7852431",
         "source_url": "https://sdilej.cz/7852431/pripady.detektiva.murdocha.s06e05.murdoch.au.naturel.avi",
@@ -434480,22 +434474,29 @@
         "display_name": "Murdoch Mysteries S06E05 Murdoch Au Naturel SD CZ Dabing",
         "prepared_at": "2026-11-13T23:08:59.187827+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021024",
-        "size_bytes": 367964160
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021024",
-        "size_bytes": 367964160,
-        "source_bytes_read": 367964160,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021024",
         "source_bytes_read": 367964160,
         "elapsed_seconds": 15.794,
         "finished_at": "2026-11-13T23:09:39.240274+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021024",
+          "size_bytes": 367964160,
+          "source_bytes_read": 367964160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852431",
+        "source_url": "https://sdilej.cz/7852431/pripady.detektiva.murdocha.s06e05.murdoch.au.naturel.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021024",
+        "display_name": "Murdoch Mysteries S06E05 Murdoch Au Naturel SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:09:48.096329+00:00"
       }
     },
     "1411:6:6": {
@@ -434541,7 +434542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:09:43.498647+00:00",
+  "updated_at": "2026-11-13T23:09:48.096348+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
