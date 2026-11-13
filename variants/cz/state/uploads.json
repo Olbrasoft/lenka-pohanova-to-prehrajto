@@ -436496,12 +436496,6 @@
     },
     "1411:8:14": {
       "episode_key": "případy detektiva murdocha:s8:e14",
-      "claim": {
-        "worker_id": "6173f8c0b9f645ffbb11af0798215efc-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:44:19.088108+00:00",
-        "lease_expires_at": "2026-11-14T05:44:19.088118+00:00"
-      },
       "source": {
         "source_id": "22417809",
         "source_url": "https://sdilej.cz/22417809/pripady-detektiva-murdocha-s08e14-czdab.avi",
@@ -436526,22 +436520,29 @@
         "display_name": "Murdoch Mysteries S08E14 Toronto's Girl Problem SD CZ Dabing",
         "prepared_at": "2026-11-13T23:44:22.444044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021557",
-        "size_bytes": 558874706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021557",
-        "size_bytes": 558874706,
-        "source_bytes_read": 558874706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021557",
         "source_bytes_read": 558874706,
         "elapsed_seconds": 169.54,
         "finished_at": "2026-11-13T23:47:26.037451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021557",
+          "size_bytes": 558874706,
+          "source_bytes_read": 558874706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22417809",
+        "source_url": "https://sdilej.cz/22417809/pripady-detektiva-murdocha-s08e14-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021557",
+        "display_name": "Murdoch Mysteries S08E14 Toronto's Girl Problem SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:47:35.062618+00:00"
       }
     },
     "1411:8:15": {
@@ -436600,7 +436601,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:47:32.361581+00:00",
+  "updated_at": "2026-11-13T23:47:35.062635+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
