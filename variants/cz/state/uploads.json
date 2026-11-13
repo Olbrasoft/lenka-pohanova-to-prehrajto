@@ -405301,12 +405301,6 @@
     },
     "462:7:8": {
       "episode_key": "ženatý se závazky:s7:e8",
-      "claim": {
-        "worker_id": "a5381f3741054576bd546d562c96aaba-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T06:02:39.695052+00:00",
-        "lease_expires_at": "2026-11-13T12:02:39.695065+00:00"
-      },
       "source": {
         "source_id": "33523125",
         "source_url": "https://sdilej.cz/33523125/zenaty-se-zavazky-s07e08-139-1992-hd-servirka-kelly-s-.mp4",
@@ -405331,22 +405325,29 @@
         "display_name": "Married… with Children S07E08 Kelly Doesn't Live Here Anymore 720p CZ Dabing",
         "prepared_at": "2026-11-13T06:02:50.330545+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009597",
-        "size_bytes": 506025271
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009597",
-        "size_bytes": 506025271,
-        "source_bytes_read": 506025271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009597",
         "source_bytes_read": 506025271,
         "elapsed_seconds": 215.684,
         "finished_at": "2026-11-13T06:06:41.440599+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009597",
+          "size_bytes": 506025271,
+          "source_bytes_read": 506025271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523125",
+        "source_url": "https://sdilej.cz/33523125/zenaty-se-zavazky-s07e08-139-1992-hd-servirka-kelly-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009597",
+        "display_name": "Married… with Children S07E08 Kelly Doesn't Live Here Anymore 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:06:51.009329+00:00"
       }
     },
     "462:7:9": {
@@ -405392,7 +405393,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:06:47.894701+00:00",
+  "updated_at": "2026-11-13T06:06:51.009345+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
