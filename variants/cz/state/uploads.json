@@ -417786,12 +417786,6 @@
     },
     "61:4:7": {
       "episode_key": "tudorovci:s4:e7",
-      "claim": {
-        "worker_id": "cb96c97b7ef745c7a2fa44c35e160546-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:34:31.709321+00:00",
-        "lease_expires_at": "2026-11-13T21:34:31.709331+00:00"
-      },
       "source": {
         "source_id": "33855382",
         "source_url": "https://sdilej.cz/33855382/tudorovci-s04e07-sesta-a-posledni-manzelka.mkv",
@@ -417816,22 +417810,29 @@
         "display_name": "The Tudors S04E07 Sixth And The Final Wife 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:34:35.553909+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014306",
-        "size_bytes": 1102230859
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014306",
-        "size_bytes": 1102230859,
-        "source_bytes_read": 1102230859,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014306",
         "source_bytes_read": 1102230859,
         "elapsed_seconds": 48.595,
         "finished_at": "2026-11-13T15:35:44.034031+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014306",
+          "size_bytes": 1102230859,
+          "source_bytes_read": 1102230859,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33855382",
+        "source_url": "https://sdilej.cz/33855382/tudorovci-s04e07-sesta-a-posledni-manzelka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014306",
+        "display_name": "The Tudors S04E07 Sixth And The Final Wife 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T15:35:52.670657+00:00"
       }
     },
     "61:4:9": {
@@ -417914,7 +417915,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:35:48.122965+00:00",
+  "updated_at": "2026-11-13T15:35:52.670674+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
