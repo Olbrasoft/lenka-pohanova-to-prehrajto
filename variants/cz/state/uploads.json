@@ -404995,12 +404995,6 @@
     },
     "462:7:2": {
       "episode_key": "ženatý se závazky:s7:e2",
-      "claim": {
-        "worker_id": "c92957a5bfc745ef9e0fada8a3f563dc-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:49:59.665283+00:00",
-        "lease_expires_at": "2026-11-13T11:49:59.665297+00:00"
-      },
       "source": {
         "source_id": "34792968",
         "source_url": "https://sdilej.cz/34792968/zenaty-se-zavazky-s07e02-133-1992-hd-nceo-jako-cuora-s-.mp4",
@@ -405025,22 +405019,29 @@
         "display_name": "Married… with Children S07E02 T-R-A-Something-Something Spells Tramp 720p CZ Dabing",
         "prepared_at": "2026-11-13T05:50:04.984728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009509",
-        "size_bytes": 506598070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009509",
-        "size_bytes": 506598070,
-        "source_bytes_read": 506598070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009509",
         "source_bytes_read": 506598070,
         "elapsed_seconds": 174.402,
         "finished_at": "2026-11-13T05:53:17.476279+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009509",
+          "size_bytes": 506598070,
+          "source_bytes_read": 506598070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34792968",
+        "source_url": "https://sdilej.cz/34792968/zenaty-se-zavazky-s07e02-133-1992-hd-nceo-jako-cuora-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009509",
+        "display_name": "Married… with Children S07E02 T-R-A-Something-Something Spells Tramp 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:53:23.443031+00:00"
       }
     },
     "462:7:3": {
@@ -405123,7 +405124,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:53:17.476299+00:00",
+  "updated_at": "2026-11-13T05:53:23.443049+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
