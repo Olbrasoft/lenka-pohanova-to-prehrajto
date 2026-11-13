@@ -426106,12 +426106,6 @@
     },
     "2231:3:15": {
       "episode_key": "star wars: povstalci:s3:e15",
-      "claim": {
-        "worker_id": "f2cc08d4c0a648a6877fa1e17ce3c810-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T20:18:21.904882+00:00",
-        "lease_expires_at": "2026-11-14T02:18:21.904894+00:00"
-      },
       "source": {
         "source_id": "29132024",
         "source_url": "https://sdilej.cz/29132024/star-wars-povstalci-s03e15-cz.mkv",
@@ -426136,22 +426130,29 @@
         "display_name": "Star Wars Rebels S03E15 Legacy of Mandalore 1080p CZ Dabing",
         "prepared_at": "2026-11-13T20:18:25.611306+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018514",
-        "size_bytes": 892242383
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018514",
-        "size_bytes": 892242383,
-        "source_bytes_read": 892242383,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018514",
         "source_bytes_read": 892242383,
         "elapsed_seconds": 372.514,
         "finished_at": "2026-11-13T20:24:51.313063+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018514",
+          "size_bytes": 892242383,
+          "source_bytes_read": 892242383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29132024",
+        "source_url": "https://sdilej.cz/29132024/star-wars-povstalci-s03e15-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018514",
+        "display_name": "Star Wars Rebels S03E15 Legacy of Mandalore 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T20:24:55.544362+00:00"
       }
     },
     "2231:3:16": {
@@ -426234,7 +426235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T20:24:51.313086+00:00",
+  "updated_at": "2026-11-13T20:24:55.544383+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
