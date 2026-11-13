@@ -399116,12 +399116,6 @@
     },
     "262:1:9": {
       "episode_key": "oddělení q:s1:e9",
-      "claim": {
-        "worker_id": "75a5d6d878b3470fbb182822b111374b-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:38:38.102968+00:00",
-        "lease_expires_at": "2026-11-13T08:38:38.102979+00:00"
-      },
       "source": {
         "source_id": "31193802",
         "source_url": "https://sdilej.cz/31193802/dept.-q-s01e09-cz-dabing.mp4",
@@ -399146,22 +399140,29 @@
         "display_name": "Dept. Q S01E09 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:38:49.531290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008291",
-        "size_bytes": 1173336889
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008291",
-        "size_bytes": 1173336889,
-        "source_bytes_read": 1173336889,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008291",
         "source_bytes_read": 1173336889,
         "elapsed_seconds": 521.816,
         "finished_at": "2026-11-13T02:47:46.906479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008291",
+          "size_bytes": 1173336889,
+          "source_bytes_read": 1173336889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31193802",
+        "source_url": "https://sdilej.cz/31193802/dept.-q-s01e09-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008291",
+        "display_name": "Dept. Q S01E09 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:47:51.641675+00:00"
       }
     },
     "462:1:1": {
@@ -399346,7 +399347,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:47:46.906497+00:00",
+  "updated_at": "2026-11-13T02:47:51.641689+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
