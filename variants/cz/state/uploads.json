@@ -429852,12 +429852,6 @@
     },
     "1410:2:50": {
       "episode_key": "phineas a ferb:s2:e50",
-      "claim": {
-        "worker_id": "232ade71fe774640a2663b0b0767f11a-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:09:33.729963+00:00",
-        "lease_expires_at": "2026-11-14T04:09:33.729974+00:00"
-      },
       "source": {
         "source_id": "33548634",
         "source_url": "https://sdilej.cz/33548634/phineas.a.ferb.2x50.zobman.720p.cz.batmaster.mkv",
@@ -429882,22 +429876,29 @@
         "display_name": "Phineas and Ferb S02E50 The Beak 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:09:40.030932+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019797",
-        "size_bytes": 200718729
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019797",
-        "size_bytes": 200718729,
-        "source_bytes_read": 200718729,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019797",
         "source_bytes_read": 200718729,
         "elapsed_seconds": 15.609,
         "finished_at": "2026-11-13T22:10:11.336445+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019797",
+          "size_bytes": 200718729,
+          "source_bytes_read": 200718729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548634",
+        "source_url": "https://sdilej.cz/33548634/phineas.a.ferb.2x50.zobman.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019797",
+        "display_name": "Phineas and Ferb S02E50 The Beak 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:10:24.282790+00:00"
       }
     },
     "1410:2:51": {
@@ -429948,7 +429949,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:10:21.282171+00:00",
+  "updated_at": "2026-11-13T22:10:24.282807+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
