@@ -406117,12 +406117,6 @@
     },
     "462:7:24": {
       "episode_key": "ženatý se závazky:s7:e24",
-      "claim": {
-        "worker_id": "bb4aaa9c40df4d878e9c40c20bbc4534-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:38:24.948083+00:00",
-        "lease_expires_at": "2026-11-13T12:38:24.948094+00:00"
-      },
       "source": {
         "source_id": "35326660",
         "source_url": "https://sdilej.cz/35326660/zenaty-se-zavazky-s07e24-kradez-dodge.mkv",
@@ -406147,22 +406141,29 @@
         "display_name": "Married… with Children S07E24 Old Insurance Dodge 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:38:41.127236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009846",
-        "size_bytes": 393510005
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009846",
-        "size_bytes": 393510005,
-        "source_bytes_read": 393510005,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009846",
         "source_bytes_read": 393510005,
         "elapsed_seconds": 206.711,
         "finished_at": "2026-11-13T06:42:29.627148+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009846",
+          "size_bytes": 393510005,
+          "source_bytes_read": 393510005,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326660",
+        "source_url": "https://sdilej.cz/35326660/zenaty-se-zavazky-s07e24-kradez-dodge.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009846",
+        "display_name": "Married… with Children S07E24 Old Insurance Dodge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:42:38.499198+00:00"
       }
     },
     "462:7:25": {
@@ -406222,7 +406223,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:42:34.832204+00:00",
+  "updated_at": "2026-11-13T06:42:38.499215+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
