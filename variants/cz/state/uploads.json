@@ -404383,12 +404383,6 @@
     },
     "462:6:15": {
       "episode_key": "ženatý se závazky:s6:e15",
-      "claim": {
-        "worker_id": "46dbec28829b46c9857ea68a1d89fe29-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:33:56.498576+00:00",
-        "lease_expires_at": "2026-11-13T11:33:56.498589+00:00"
-      },
       "source": {
         "source_id": "33522970",
         "source_url": "https://sdilej.cz/33522970/zenaty-se-zavazky-s06e15-120-1992-hd-obuj-to-s-.mp4",
@@ -404413,22 +404407,29 @@
         "display_name": "Married… with Children S06E15 Just Shoe It 720p CZ Dabing",
         "prepared_at": "2026-11-13T05:34:00.369000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009405",
-        "size_bytes": 506979718
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009405",
-        "size_bytes": 506979718,
-        "source_bytes_read": 506979718,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009405",
         "source_bytes_read": 506979718,
         "elapsed_seconds": 253.185,
         "finished_at": "2026-11-13T05:38:27.832560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009405",
+          "size_bytes": 506979718,
+          "source_bytes_read": 506979718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522970",
+        "source_url": "https://sdilej.cz/33522970/zenaty-se-zavazky-s06e15-120-1992-hd-obuj-to-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009405",
+        "display_name": "Married… with Children S06E15 Just Shoe It 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:38:33.489629+00:00"
       }
     },
     "462:6:16": {
@@ -404511,7 +404512,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:38:27.832580+00:00",
+  "updated_at": "2026-11-13T05:38:33.489647+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
