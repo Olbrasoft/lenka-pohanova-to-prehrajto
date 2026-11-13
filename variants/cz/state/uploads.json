@@ -422281,12 +422281,6 @@
     },
     "1051:6:20": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e20",
-      "claim": {
-        "worker_id": "430d54fa742e40018f1dda026626aabb-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:23:19.474299+00:00",
-        "lease_expires_at": "2026-11-13T23:23:19.474310+00:00"
-      },
       "source": {
         "source_id": "33220577",
         "source_url": "https://sdilej.cz/33220577/star-trek-hluboky-vesmir-devet-s06e20-26-1997-cz-dab-jeho-zpusob.avi",
@@ -422311,22 +422305,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E20 His Way 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:23:26.007260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016729",
-        "size_bytes": 586726470
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016729",
-        "size_bytes": 586726470,
-        "source_bytes_read": 586726470,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016729",
         "source_bytes_read": 586726470,
         "elapsed_seconds": 93.188,
         "finished_at": "2026-11-13T17:25:15.636010+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016729",
+          "size_bytes": 586726470,
+          "source_bytes_read": 586726470,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220577",
+        "source_url": "https://sdilej.cz/33220577/star-trek-hluboky-vesmir-devet-s06e20-26-1997-cz-dab-jeho-zpusob.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016729",
+        "display_name": "Star Trek: Deep Space Nine S06E20 His Way 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:25:23.247145+00:00"
       }
     },
     "1051:6:21": {
@@ -422409,7 +422410,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:25:19.062187+00:00",
+  "updated_at": "2026-11-13T17:25:23.247164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
