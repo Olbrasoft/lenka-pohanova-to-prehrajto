@@ -417990,12 +417990,6 @@
     },
     "1051:1:3": {
       "episode_key": "star trek: hluboký vesmír devět:s1:e3",
-      "claim": {
-        "worker_id": "ea7649ef32c14917929b61ebb24bfb30-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:47:00.154596+00:00",
-        "lease_expires_at": "2026-11-13T21:47:00.154609+00:00"
-      },
       "source": {
         "source_id": "31404334",
         "source_url": "https://sdilej.cz/31404334/star-trek-deep-space-nine-s01e03-osamely-muz-skyshowtime-.mkv",
@@ -418020,22 +418014,29 @@
         "display_name": "Star Trek: Deep Space Nine S01E03 A Man Alone 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:47:04.909671+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014521",
-        "size_bytes": 3223797991
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014521",
-        "size_bytes": 3223797991,
-        "source_bytes_read": 3223797991,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014521",
         "source_bytes_read": 3223797991,
         "elapsed_seconds": 260.718,
         "finished_at": "2026-11-13T15:51:44.365995+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014521",
+          "size_bytes": 3223797991,
+          "source_bytes_read": 3223797991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31404334",
+        "source_url": "https://sdilej.cz/31404334/star-trek-deep-space-nine-s01e03-osamely-muz-skyshowtime-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014521",
+        "display_name": "Star Trek: Deep Space Nine S01E03 A Man Alone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T15:51:55.725834+00:00"
       }
     },
     "1051:1:4": {
@@ -418169,7 +418170,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:51:44.366014+00:00",
+  "updated_at": "2026-11-13T15:51:55.725849+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
