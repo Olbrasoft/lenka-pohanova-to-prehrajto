@@ -430055,12 +430055,6 @@
     },
     "1410:2:58": {
       "episode_key": "phineas a ferb:s2:e58",
-      "claim": {
-        "worker_id": "b6fe367693c742df8e9c86784f66c655-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:11:54.110829+00:00",
-        "lease_expires_at": "2026-11-14T04:11:54.110845+00:00"
-      },
       "source": {
         "source_id": "33548770",
         "source_url": "https://sdilej.cz/33548770/phineas.a.ferb.2x58.damy.a.panove-.max.modem-.720p.cz.batmaster.mkv",
@@ -430085,22 +430079,29 @@
         "display_name": "Phineas and Ferb S02E58 We Call it Maze 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:12:03.621427+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019870",
-        "size_bytes": 110869667
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019870",
-        "size_bytes": 110869667,
-        "source_bytes_read": 110869667,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019870",
         "source_bytes_read": 110869667,
         "elapsed_seconds": 8.35,
         "finished_at": "2026-11-13T22:12:35.827777+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019870",
+          "size_bytes": 110869667,
+          "source_bytes_read": 110869667,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548770",
+        "source_url": "https://sdilej.cz/33548770/phineas.a.ferb.2x58.damy.a.panove-.max.modem-.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019870",
+        "display_name": "Phineas and Ferb S02E58 We Call it Maze 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:12:46.421942+00:00"
       }
     },
     "1410:2:59": {
@@ -430159,7 +430160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:12:41.895920+00:00",
+  "updated_at": "2026-11-13T22:12:46.421962+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
