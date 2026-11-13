@@ -415311,12 +415311,6 @@
     },
     "1700:2:5": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e5",
-      "claim": {
-        "worker_id": "799fa5b96e834445813c361a377123b3-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:39:57.416507+00:00",
-        "lease_expires_at": "2026-11-13T19:39:57.416520+00:00"
-      },
       "source": {
         "source_id": "27779204",
         "source_url": "https://sdilej.cz/27779204/scooby-doo-zahady-s.-r.-o.-s02e05-straslivy-hodag-1080p-web-dl-cz-dabing.mkv",
@@ -415341,22 +415335,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E05 The Hodag of Horror 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:40:00.927187+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012982",
-        "size_bytes": 810144272
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012982",
-        "size_bytes": 810144272,
-        "source_bytes_read": 810144272,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012982",
         "source_bytes_read": 810144272,
         "elapsed_seconds": 353.487,
         "finished_at": "2026-11-13T13:46:08.476457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012982",
+          "size_bytes": 810144272,
+          "source_bytes_read": 810144272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779204",
+        "source_url": "https://sdilej.cz/27779204/scooby-doo-zahady-s.-r.-o.-s02e05-straslivy-hodag-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012982",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E05 The Hodag of Horror 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:46:13.944503+00:00"
       }
     },
     "1700:2:8": {
@@ -415402,7 +415403,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:46:08.476477+00:00",
+  "updated_at": "2026-11-13T13:46:13.944520+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
