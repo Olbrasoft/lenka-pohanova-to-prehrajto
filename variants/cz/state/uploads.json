@@ -434093,12 +434093,6 @@
     },
     "1411:5:11": {
       "episode_key": "případy detektiva murdocha:s5:e11",
-      "claim": {
-        "worker_id": "956c2dd07b3d4b4baeebeeb23f7220ab-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:05:49.420533+00:00",
-        "lease_expires_at": "2026-11-14T05:05:49.420546+00:00"
-      },
       "source": {
         "source_id": "7852390",
         "source_url": "https://sdilej.cz/7852390/pripady.detektiva.murdocha.s05e11.murdoch.v.risi.hracek.avi",
@@ -434123,22 +434117,29 @@
         "display_name": "Murdoch Mysteries S05E11 Murdoch in Toyland SD CZ Dabing",
         "prepared_at": "2026-11-13T23:05:56.163334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020953",
-        "size_bytes": 367917056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020953",
-        "size_bytes": 367917056,
-        "source_bytes_read": 367917056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020953",
         "source_bytes_read": 367917056,
         "elapsed_seconds": 26.037,
         "finished_at": "2026-11-13T23:06:41.124459+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020953",
+          "size_bytes": 367917056,
+          "source_bytes_read": 367917056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7852390",
+        "source_url": "https://sdilej.cz/7852390/pripady.detektiva.murdocha.s05e11.murdoch.v.risi.hracek.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020953",
+        "display_name": "Murdoch Mysteries S05E11 Murdoch in Toyland SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:06:51.208223+00:00"
       }
     },
     "1411:5:12": {
@@ -434184,7 +434185,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:06:48.189958+00:00",
+  "updated_at": "2026-11-13T23:06:51.208239+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
