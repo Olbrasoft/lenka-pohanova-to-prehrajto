@@ -414563,12 +414563,6 @@
     },
     "1700:1:15": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e15",
-      "claim": {
-        "worker_id": "d7938c8bbb5747249aee1b18c081da9d-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T13:02:52.892682+00:00",
-        "lease_expires_at": "2026-11-13T19:02:52.892694+00:00"
-      },
       "source": {
         "source_id": "26115412",
         "source_url": "https://sdilej.cz/26115412/scooby-doo.zahady.s.r.o.s01e15.divoka.snuska.sdtv.x264-nicole.mp4",
@@ -414593,22 +414587,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E15 The Wild Brood SD CZ Dabing",
         "prepared_at": "2026-11-13T13:02:57.147793+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012661",
-        "size_bytes": 151973940
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012661",
-        "size_bytes": 151973940,
-        "source_bytes_read": 151973940,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012661",
         "source_bytes_read": 151973940,
         "elapsed_seconds": 81.128,
         "finished_at": "2026-11-13T13:04:33.008618+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012661",
+          "size_bytes": 151973940,
+          "source_bytes_read": 151973940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115412",
+        "source_url": "https://sdilej.cz/26115412/scooby-doo.zahady.s.r.o.s01e15.divoka.snuska.sdtv.x264-nicole.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012661",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E15 The Wild Brood SD CZ Dabing",
+        "uploaded_at": "2026-11-13T13:04:38.431522+00:00"
       }
     }
   },
@@ -414617,7 +414618,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:04:33.008641+00:00",
+  "updated_at": "2026-11-13T13:04:38.431540+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
