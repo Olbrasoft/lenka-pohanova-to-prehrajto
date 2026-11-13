@@ -427316,12 +427316,6 @@
     },
     "166:1:4": {
       "episode_key": "dexter: original sin:s1:e4",
-      "claim": {
-        "worker_id": "fb09dc8e5919451ea34ce951bbf011ed-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:26:21.129676+00:00",
-        "lease_expires_at": "2026-11-14T03:26:21.129690+00:00"
-      },
       "source": {
         "source_id": "32513087",
         "source_url": "https://sdilej.cz/32513087/dexter-original-sin-s01e04-havarka.mkv",
@@ -427346,22 +427340,29 @@
         "display_name": "Dexter: Original Sin S01E04 Fender Bender 4K CZ Dabing",
         "prepared_at": "2026-11-13T21:26:30.895533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019010",
-        "size_bytes": 2394125263
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019010",
-        "size_bytes": 2394125263,
-        "source_bytes_read": 2394125263,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019010",
         "source_bytes_read": 2394125263,
         "elapsed_seconds": 110.636,
         "finished_at": "2026-11-13T21:28:37.680749+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019010",
+          "size_bytes": 2394125263,
+          "source_bytes_read": 2394125263,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32513087",
+        "source_url": "https://sdilej.cz/32513087/dexter-original-sin-s01e04-havarka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019010",
+        "display_name": "Dexter: Original Sin S01E04 Fender Bender 4K CZ Dabing",
+        "uploaded_at": "2026-11-13T21:28:41.598836+00:00"
       }
     },
     "166:1:5": {
@@ -427458,7 +427459,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:28:37.680769+00:00",
+  "updated_at": "2026-11-13T21:28:41.598855+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
