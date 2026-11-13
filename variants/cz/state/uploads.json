@@ -422587,12 +422587,6 @@
     },
     "1051:6:26": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e26",
-      "claim": {
-        "worker_id": "28bfa7caac3342c1849d57910abaf012-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:29:54.072468+00:00",
-        "lease_expires_at": "2026-11-13T23:29:54.072484+00:00"
-      },
       "source": {
         "source_id": "33220600",
         "source_url": "https://sdilej.cz/33220600/star-trek-hluboky-vesmir-devet-s06e26-26-1997-cz-dab-slzy-proroku.avi",
@@ -422617,22 +422611,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E26 Tears of the Prophets 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:30:01.148916+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016843",
-        "size_bytes": 692144652
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016843",
-        "size_bytes": 692144652,
-        "source_bytes_read": 692144652,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016843",
         "source_bytes_read": 692144652,
         "elapsed_seconds": 166.965,
         "finished_at": "2026-11-13T17:33:11.834883+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016843",
+          "size_bytes": 692144652,
+          "source_bytes_read": 692144652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220600",
+        "source_url": "https://sdilej.cz/33220600/star-trek-hluboky-vesmir-devet-s06e26-26-1997-cz-dab-slzy-proroku.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016843",
+        "display_name": "Star Trek: Deep Space Nine S06E26 Tears of the Prophets 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:33:23.350624+00:00"
       }
     },
     "1051:7:1": {
@@ -422831,7 +422832,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:33:20.354197+00:00",
+  "updated_at": "2026-11-13T17:33:23.350640+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
