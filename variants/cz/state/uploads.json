@@ -404791,12 +404791,6 @@
     },
     "462:6:24": {
       "episode_key": "ženatý se závazky:s6:e24",
-      "claim": {
-        "worker_id": "e0cff211c6a647e1ab5a81367a34833a-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:45:03.118688+00:00",
-        "lease_expires_at": "2026-11-13T11:45:03.118700+00:00"
-      },
       "source": {
         "source_id": "35326613",
         "source_url": "https://sdilej.cz/35326613/zenaty-se-zavazky-s06e24-anglie-1.-cast.mkv",
@@ -404821,22 +404815,29 @@
         "display_name": "Married… with Children S06E24 England Show (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:45:06.796979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009476",
-        "size_bytes": 408147435
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009476",
-        "size_bytes": 408147435,
-        "source_bytes_read": 408147435,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009476",
         "source_bytes_read": 408147435,
         "elapsed_seconds": 164.772,
         "finished_at": "2026-11-13T05:48:05.206237+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009476",
+          "size_bytes": 408147435,
+          "source_bytes_read": 408147435,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326613",
+        "source_url": "https://sdilej.cz/35326613/zenaty-se-zavazky-s06e24-anglie-1.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009476",
+        "display_name": "Married… with Children S06E24 England Show (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:48:10.203149+00:00"
       }
     },
     "462:6:25": {
@@ -404919,7 +404920,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:48:05.206257+00:00",
+  "updated_at": "2026-11-13T05:48:10.203167+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
