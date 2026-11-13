@@ -410201,12 +410201,6 @@
     },
     "462:11:6": {
       "episode_key": "ženatý se závazky:s11:e6",
-      "claim": {
-        "worker_id": "e31b82c3008d416badc8c977efe1979e-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:01:35.214360+00:00",
-        "lease_expires_at": "2026-11-13T15:01:35.214372+00:00"
-      },
       "source": {
         "source_id": "35326809",
         "source_url": "https://sdilej.cz/35326809/zenaty-se-zavazky-s11e06-dikuvzdani-la-bunda.mkv",
@@ -410231,22 +410225,29 @@
         "display_name": "Married… with Children S11E06 A Bundy Thanksgiving 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:01:51.381878+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010949",
-        "size_bytes": 313055373
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010949",
-        "size_bytes": 313055373,
-        "source_bytes_read": 313055373,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010949",
         "source_bytes_read": 313055373,
         "elapsed_seconds": 171.106,
         "finished_at": "2026-11-13T09:05:05.843744+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010949",
+          "size_bytes": 313055373,
+          "source_bytes_read": 313055373,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326809",
+        "source_url": "https://sdilej.cz/35326809/zenaty-se-zavazky-s11e06-dikuvzdani-la-bunda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010949",
+        "display_name": "Married… with Children S11E06 A Bundy Thanksgiving 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:05:17.913152+00:00"
       }
     },
     "462:11:5": {
@@ -410292,7 +410293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:05:14.279314+00:00",
+  "updated_at": "2026-11-13T09:05:17.913169+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
