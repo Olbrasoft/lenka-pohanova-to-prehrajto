@@ -427943,12 +427943,6 @@
     },
     "1021:1:2": {
       "episode_key": "ve jménu našeho pána:s1:e2",
-      "claim": {
-        "worker_id": "570c1c328d8a453fa9d5ed740cd70f6b-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:36:40.980322+00:00",
-        "lease_expires_at": "2026-11-14T03:36:40.980333+00:00"
-      },
       "source": {
         "source_id": "34148974",
         "source_url": "https://sdilej.cz/34148974/ve-jmenu-naseho-pana-s01e02-09-2019-cz-dab-1080p-je-tohle-ten-muz-ktery-zpusobil.mkv",
@@ -427973,22 +427967,29 @@
         "display_name": "The Righteous Gemstones S01E02 Is This the Man Who Made the Earth Tremble 1080p CZ Dabing",
         "prepared_at": "2026-11-13T21:36:47.650086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019170",
-        "size_bytes": 2045072224
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019170",
-        "size_bytes": 2045072224,
-        "source_bytes_read": 2045072224,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019170",
         "source_bytes_read": 2045072224,
         "elapsed_seconds": 157.597,
         "finished_at": "2026-11-13T21:39:44.971737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019170",
+          "size_bytes": 2045072224,
+          "source_bytes_read": 2045072224,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34148974",
+        "source_url": "https://sdilej.cz/34148974/ve-jmenu-naseho-pana-s01e02-09-2019-cz-dab-1080p-je-tohle-ten-muz-ktery-zpusobil.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019170",
+        "display_name": "The Righteous Gemstones S01E02 Is This the Man Who Made the Earth Tremble 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:39:50.602884+00:00"
       }
     },
     "1021:1:3": {
@@ -428034,7 +428035,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:39:44.971757+00:00",
+  "updated_at": "2026-11-13T21:39:50.602901+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
