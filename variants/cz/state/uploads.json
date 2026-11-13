@@ -398117,12 +398117,6 @@
     },
     "1177:4:9": {
       "episode_key": "batesův motel:s4:e9",
-      "claim": {
-        "worker_id": "182f20b6815f48b6bf8d3e9911b52f7f-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:46:34.921525+00:00",
-        "lease_expires_at": "2026-11-13T07:46:34.921534+00:00"
-      },
       "source": {
         "source_id": "28647531",
         "source_url": "https://sdilej.cz/28647531/batesuv-motel-bates-motel-s04e09-hd-cz-dabing.mkv",
@@ -398147,22 +398141,29 @@
         "display_name": "Bates Motel S04E09 Forever 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:46:40.765028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007999",
-        "size_bytes": 901293879
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007999",
-        "size_bytes": 901293879,
-        "source_bytes_read": 901293879,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007999",
         "source_bytes_read": 901293879,
         "elapsed_seconds": 357.189,
         "finished_at": "2026-11-13T01:52:58.991582+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007999",
+          "size_bytes": 901293879,
+          "source_bytes_read": 901293879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28647531",
+        "source_url": "https://sdilej.cz/28647531/batesuv-motel-bates-motel-s04e09-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007999",
+        "display_name": "Bates Motel S04E09 Forever 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:53:07.147045+00:00"
       }
     }
   },
@@ -398171,7 +398172,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:53:02.000913+00:00",
+  "updated_at": "2026-11-13T01:53:07.147061+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
