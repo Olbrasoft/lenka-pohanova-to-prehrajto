@@ -432932,12 +432932,6 @@
     },
     "1411:3:13": {
       "episode_key": "případy detektiva murdocha:s3:e13",
-      "claim": {
-        "worker_id": "a2efbb91fc664ea4a31d468991fe573f-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:43:50.674167+00:00",
-        "lease_expires_at": "2026-11-14T04:43:50.674178+00:00"
-      },
       "source": {
         "source_id": "22417228",
         "source_url": "https://sdilej.cz/22417228/pripady-detektiva-murdocha-s03e13-czdab.avi",
@@ -432962,22 +432956,29 @@
         "display_name": "Murdoch Mysteries S03E13 The Tesla Effect SD CZ Dabing",
         "prepared_at": "2026-11-13T22:43:54.301441+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020550",
-        "size_bytes": 557694622
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020550",
-        "size_bytes": 557694622,
-        "source_bytes_read": 557694622,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020550",
         "source_bytes_read": 557694622,
         "elapsed_seconds": 68.648,
         "finished_at": "2026-11-13T22:45:26.318977+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020550",
+          "size_bytes": 557694622,
+          "source_bytes_read": 557694622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22417228",
+        "source_url": "https://sdilej.cz/22417228/pripady-detektiva-murdocha-s03e13-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020550",
+        "display_name": "Murdoch Mysteries S03E13 The Tesla Effect SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:45:35.889675+00:00"
       }
     }
   },
@@ -432986,7 +432987,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:45:32.853036+00:00",
+  "updated_at": "2026-11-13T22:45:35.889691+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
