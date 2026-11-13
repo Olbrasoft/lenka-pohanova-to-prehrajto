@@ -411874,12 +411874,6 @@
     },
     "937:3:1": {
       "episode_key": "misfits: zmetci:s3:e1",
-      "claim": {
-        "worker_id": "89a6f0bdf66e4336adc4ceacd340e07a-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T10:35:20.127548+00:00",
-        "lease_expires_at": "2026-11-13T16:35:20.127561+00:00"
-      },
       "source": {
         "source_id": "29230407",
         "source_url": "https://sdilej.cz/29230407/misfits-zmetci-s03e01.mkv",
@@ -411904,22 +411898,29 @@
         "display_name": "Misfits S03E01 Episode One 720p CZ Dabing",
         "prepared_at": "2026-11-13T10:35:24.057170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011657",
-        "size_bytes": 579997531
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011657",
-        "size_bytes": 579997531,
-        "source_bytes_read": 579997531,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011657",
         "source_bytes_read": 579997531,
         "elapsed_seconds": 340.616,
         "finished_at": "2026-11-13T10:41:19.160189+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011657",
+          "size_bytes": 579997531,
+          "source_bytes_read": 579997531,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29230407",
+        "source_url": "https://sdilej.cz/29230407/misfits-zmetci-s03e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011657",
+        "display_name": "Misfits S03E01 Episode One 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T10:41:29.885400+00:00"
       }
     },
     "937:3:2": {
@@ -411961,7 +411962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T10:41:26.542412+00:00",
+  "updated_at": "2026-11-13T10:41:29.885415+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
