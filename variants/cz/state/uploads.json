@@ -413016,12 +413016,6 @@
     },
     "937:5:7": {
       "episode_key": "misfits: zmetci:s5:e7",
-      "claim": {
-        "worker_id": "31ad32a75cca4a5a93a003637c91bcce-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T11:48:47.289020+00:00",
-        "lease_expires_at": "2026-11-13T17:48:47.289031+00:00"
-      },
       "source": {
         "source_id": "31074570",
         "source_url": "https://sdilej.cz/31074570/misfits-zmetci-s05e07-dil-7.mkv",
@@ -413046,22 +413040,29 @@
         "display_name": "Misfits S05E07 Episode Seven 1080p CZ Dabing",
         "prepared_at": "2026-11-13T11:48:57.337627+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012123",
-        "size_bytes": 688459908
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012123",
-        "size_bytes": 688459908,
-        "source_bytes_read": 688459908,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012123",
         "source_bytes_read": 688459908,
         "elapsed_seconds": 449.032,
         "finished_at": "2026-11-13T11:56:47.571878+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012123",
+          "size_bytes": 688459908,
+          "source_bytes_read": 688459908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31074570",
+        "source_url": "https://sdilej.cz/31074570/misfits-zmetci-s05e07-dil-7.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012123",
+        "display_name": "Misfits S05E07 Episode Seven 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T11:56:52.917514+00:00"
       }
     },
     "937:5:8": {
@@ -413158,7 +413159,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T11:56:47.571894+00:00",
+  "updated_at": "2026-11-13T11:56:52.917530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
