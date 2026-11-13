@@ -421770,12 +421770,6 @@
     },
     "1051:5:20": {
       "episode_key": "star trek: hluboký vesmír devět:s5:e20",
-      "claim": {
-        "worker_id": "d339ef4ecb6a4f5f9a3867960290b63d-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:15:34.215818+00:00",
-        "lease_expires_at": "2026-11-13T23:15:34.215829+00:00"
-      },
       "source": {
         "source_id": "33220518",
         "source_url": "https://sdilej.cz/33220518/star-trek-hluboky-vesmir-devet-s05e20-26-1996-cz-dab-milostne-vabeni-ferengu.avi",
@@ -421800,22 +421794,29 @@
         "display_name": "Star Trek: Deep Space Nine S05E20 Ferengi Love Songs 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:15:38.093335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016520",
-        "size_bytes": 726119056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016520",
-        "size_bytes": 726119056,
-        "source_bytes_read": 726119056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016520",
         "source_bytes_read": 726119056,
         "elapsed_seconds": 110.697,
         "finished_at": "2026-11-13T17:17:46.333128+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016520",
+          "size_bytes": 726119056,
+          "source_bytes_read": 726119056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220518",
+        "source_url": "https://sdilej.cz/33220518/star-trek-hluboky-vesmir-devet-s05e20-26-1996-cz-dab-milostne-vabeni-ferengu.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016520",
+        "display_name": "Star Trek: Deep Space Nine S05E20 Ferengi Love Songs 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:17:53.674743+00:00"
       }
     },
     "1051:5:25": {
@@ -421950,7 +421951,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:17:49.416553+00:00",
+  "updated_at": "2026-11-13T17:17:53.674761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
