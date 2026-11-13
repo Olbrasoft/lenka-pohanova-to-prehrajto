@@ -417095,12 +417095,6 @@
     },
     "61:3:2": {
       "episode_key": "tudorovci:s3:e2",
-      "claim": {
-        "worker_id": "905d67f01163486b91b0e6585d488c18-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:21:36.097090+00:00",
-        "lease_expires_at": "2026-11-13T21:21:36.097102+00:00"
-      },
       "source": {
         "source_id": "33849160",
         "source_url": "https://sdilej.cz/33849160/tudorovci-2009-s03e02-czdab.1080p-povstani-na-severu.mkv",
@@ -417156,7 +417150,13 @@
             ]
           }
         ]
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-13T15:23:10.631911+00:00",
+          "error": "TargetPending"
+        }
+      ]
     },
     "61:3:3": {
       "episode_key": "tudorovci:s3:e3",
@@ -417229,7 +417229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:23:07.432236+00:00",
+  "updated_at": "2026-11-13T15:23:10.631929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
