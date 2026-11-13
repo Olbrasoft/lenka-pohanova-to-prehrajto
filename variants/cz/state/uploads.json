@@ -433684,12 +433684,6 @@
     },
     "1411:5:3": {
       "episode_key": "případy detektiva murdocha:s5:e3",
-      "claim": {
-        "worker_id": "e2a481a99ddd41e2aeff18b2063cea56-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:59:23.168613+00:00",
-        "lease_expires_at": "2026-11-14T04:59:23.168628+00:00"
-      },
       "source": {
         "source_id": "10890708",
         "source_url": "https://sdilej.cz/10890708/pripady-detektiva-murdocha-s05e03-cz-dabing.avi",
@@ -433714,22 +433708,29 @@
         "display_name": "Murdoch Mysteries S05E03 Evil Eye of Egypt SD CZ Dabing",
         "prepared_at": "2026-11-13T22:59:30.872671+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020804",
-        "size_bytes": 531901760
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020804",
-        "size_bytes": 531901760,
-        "source_bytes_read": 531901760,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020804",
         "source_bytes_read": 531901760,
         "elapsed_seconds": 27.753,
         "finished_at": "2026-11-13T23:00:17.363448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020804",
+          "size_bytes": 531901760,
+          "source_bytes_read": 531901760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10890708",
+        "source_url": "https://sdilej.cz/10890708/pripady-detektiva-murdocha-s05e03-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020804",
+        "display_name": "Murdoch Mysteries S05E03 Evil Eye of Egypt SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:00:34.197467+00:00"
       }
     },
     "1411:5:4": {
@@ -433775,7 +433776,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:00:25.862017+00:00",
+  "updated_at": "2026-11-13T23:00:34.197489+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
