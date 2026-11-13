@@ -398339,12 +398339,6 @@
     },
     "1177:5:3": {
       "episode_key": "batesův motel:s5:e3",
-      "claim": {
-        "worker_id": "18a2f14b5e444882bfba7bc8dd4ea91e-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:12:14.056024+00:00",
-        "lease_expires_at": "2026-11-13T08:12:14.056034+00:00"
-      },
       "source": {
         "source_id": "28647560",
         "source_url": "https://sdilej.cz/28647560/batesuv-motel-bates-motel-s05e03-hd-cz-dabing.mkv",
@@ -398369,22 +398363,29 @@
         "display_name": "Bates Motel S05E03 Bad Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-13T02:12:23.093060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008119",
-        "size_bytes": 843491459
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008119",
-        "size_bytes": 843491459,
-        "source_bytes_read": 843491459,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008119",
         "source_bytes_read": 843491459,
         "elapsed_seconds": 410.338,
         "finished_at": "2026-11-13T02:19:34.114930+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008119",
+          "size_bytes": 843491459,
+          "source_bytes_read": 843491459,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28647560",
+        "source_url": "https://sdilej.cz/28647560/batesuv-motel-bates-motel-s05e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008119",
+        "display_name": "Bates Motel S05E03 Bad Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:19:40.000440+00:00"
       }
     },
     "1177:5:5": {
@@ -398467,7 +398468,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:19:34.114945+00:00",
+  "updated_at": "2026-11-13T02:19:40.000455+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
