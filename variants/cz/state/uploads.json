@@ -428173,12 +428173,6 @@
     },
     "1410:1:25": {
       "episode_key": "phineas a ferb:s1:e25",
-      "claim": {
-        "worker_id": "5c35e38449564e6b856677a19480417f-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:49:48.266629+00:00",
-        "lease_expires_at": "2026-11-14T03:49:48.266638+00:00"
-      },
       "source": {
         "source_id": "33548043",
         "source_url": "https://sdilej.cz/33548043/phineas.a.ferb.1x25.recke.zavody.720p.cz.batmaster.mkv",
@@ -428203,22 +428197,29 @@
         "display_name": "Phineas and Ferb S01E25 Greece Lightning 720p CZ Dabing",
         "prepared_at": "2026-11-13T21:49:51.328430+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019361",
-        "size_bytes": 143790692
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019361",
-        "size_bytes": 143790692,
-        "source_bytes_read": 143790692,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019361",
         "source_bytes_read": 143790692,
         "elapsed_seconds": 7.594,
         "finished_at": "2026-11-13T21:50:17.399847+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019361",
+          "size_bytes": 143790692,
+          "source_bytes_read": 143790692,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548043",
+        "source_url": "https://sdilej.cz/33548043/phineas.a.ferb.1x25.recke.zavody.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019361",
+        "display_name": "Phineas and Ferb S01E25 Greece Lightning 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:50:22.837096+00:00"
       }
     }
   },
@@ -428227,7 +428228,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:50:20.170901+00:00",
+  "updated_at": "2026-11-13T21:50:22.837111+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
