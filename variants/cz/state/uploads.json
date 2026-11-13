@@ -414271,12 +414271,6 @@
     },
     "1700:1:6": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e6",
-      "claim": {
-        "worker_id": "ffa777603f664c7484687ae34ae7fde5-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:56:30.135481+00:00",
-        "lease_expires_at": "2026-11-13T18:56:30.135493+00:00"
-      },
       "source": {
         "source_id": "26115309",
         "source_url": "https://sdilej.cz/26115309/scooby-doo-zahady-s.r.o.-s01e06-legenda-o-alici-mayove-sdtv.x264.mp4",
@@ -414301,22 +414295,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E06 The Legend of Alice May SD CZ Dabing",
         "prepared_at": "2026-11-13T12:56:37.379727+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012609",
-        "size_bytes": 157420291
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012609",
-        "size_bytes": 157420291,
-        "source_bytes_read": 157420291,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012609",
         "source_bytes_read": 157420291,
         "elapsed_seconds": 86.72,
         "finished_at": "2026-11-13T12:58:21.142385+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012609",
+          "size_bytes": 157420291,
+          "source_bytes_read": 157420291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115309",
+        "source_url": "https://sdilej.cz/26115309/scooby-doo-zahady-s.r.o.-s01e06-legenda-o-alici-mayove-sdtv.x264.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012609",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E06 The Legend of Alice May SD CZ Dabing",
+        "uploaded_at": "2026-11-13T12:58:27.467626+00:00"
       }
     },
     "1700:1:7": {
@@ -414375,7 +414376,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:58:24.512551+00:00",
+  "updated_at": "2026-11-13T12:58:27.467641+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
