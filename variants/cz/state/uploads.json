@@ -402026,12 +402026,6 @@
     },
     "462:4:12": {
       "episode_key": "ženatý se závazky:s4:e12",
-      "claim": {
-        "worker_id": "f811e687b6734fbc8b93a06d6ff642de-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:07:46.589945+00:00",
-        "lease_expires_at": "2026-11-13T10:07:46.589956+00:00"
-      },
       "source": {
         "source_id": "33522586",
         "source_url": "https://sdilej.cz/33522586/zenaty-se-zavazky-s04e12-069-1989-hd-bundi-zivot-ii.-s-.mp4",
@@ -402056,22 +402050,29 @@
         "display_name": "Married… with Children S04E12 It's a Bundyful Life (2) 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:07:50.092497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008861",
-        "size_bytes": 454365347
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008861",
-        "size_bytes": 454365347,
-        "source_bytes_read": 454365347,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008861",
         "source_bytes_read": 454365347,
         "elapsed_seconds": 166.626,
         "finished_at": "2026-11-13T04:10:52.636010+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008861",
+          "size_bytes": 454365347,
+          "source_bytes_read": 454365347,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522586",
+        "source_url": "https://sdilej.cz/33522586/zenaty-se-zavazky-s04e12-069-1989-hd-bundi-zivot-ii.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008861",
+        "display_name": "Married… with Children S04E12 It's a Bundyful Life (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:10:59.327657+00:00"
       }
     },
     "462:4:13": {
@@ -402117,7 +402118,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:10:52.636030+00:00",
+  "updated_at": "2026-11-13T04:10:59.327686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
