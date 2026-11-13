@@ -406756,12 +406756,6 @@
     },
     "462:8:13": {
       "episode_key": "ženatý se závazky:s8:e13",
-      "claim": {
-        "worker_id": "395c145a4b794a6da043a79da81152c3-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T06:57:59.517336+00:00",
-        "lease_expires_at": "2026-11-13T12:57:59.517346+00:00"
-      },
       "source": {
         "source_id": "35326690",
         "source_url": "https://sdilej.cz/35326690/zenaty-se-zavazky-s08e13-nejhorsi-vanoce.mkv",
@@ -406786,22 +406780,29 @@
         "display_name": "Married… with Children S08E13 The Worst Noel 1080p CZ Dabing",
         "prepared_at": "2026-11-13T06:58:12.007934+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009982",
-        "size_bytes": 301234940
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009982",
-        "size_bytes": 301234940,
-        "source_bytes_read": 301234940,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009982",
         "source_bytes_read": 301234940,
         "elapsed_seconds": 200.306,
         "finished_at": "2026-11-13T07:01:50.657455+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009982",
+          "size_bytes": 301234940,
+          "source_bytes_read": 301234940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326690",
+        "source_url": "https://sdilej.cz/35326690/zenaty-se-zavazky-s08e13-nejhorsi-vanoce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009982",
+        "display_name": "Married… with Children S08E13 The Worst Noel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:01:56.182000+00:00"
       }
     }
   },
@@ -406810,7 +406811,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:01:50.657470+00:00",
+  "updated_at": "2026-11-13T07:01:56.182014+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
