@@ -421051,12 +421051,6 @@
     },
     "1051:4:16": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e16",
-      "claim": {
-        "worker_id": "ac976ad0f69940a49912c09505d81028-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:05:30.884281+00:00",
-        "lease_expires_at": "2026-11-13T23:05:30.884294+00:00"
-      },
       "source": {
         "source_id": "33220399",
         "source_url": "https://sdilej.cz/33220399/star-trek-hluboky-vesmir-devet-s04e16-25-1995-cz-dab-vyslancuv-navrat.avi",
@@ -421081,22 +421075,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E16 Accession 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:05:35.600785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016298",
-        "size_bytes": 578342378
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016298",
-        "size_bytes": 578342378,
-        "source_bytes_read": 578342378,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016298",
         "source_bytes_read": 578342378,
         "elapsed_seconds": 87.897,
         "finished_at": "2026-11-13T17:07:20.064893+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016298",
+          "size_bytes": 578342378,
+          "source_bytes_read": 578342378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220399",
+        "source_url": "https://sdilej.cz/33220399/star-trek-hluboky-vesmir-devet-s04e16-25-1995-cz-dab-vyslancuv-navrat.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016298",
+        "display_name": "Star Trek: Deep Space Nine S04E16 Accession 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:07:24.840202+00:00"
       }
     },
     "1051:4:17": {
@@ -421179,7 +421180,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:07:20.064917+00:00",
+  "updated_at": "2026-11-13T17:07:24.840217+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
