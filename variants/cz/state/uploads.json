@@ -415444,12 +415444,6 @@
     },
     "1700:2:11": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e11",
-      "claim": {
-        "worker_id": "f28cc04d0fa74db7bcb399fe0c5b934e-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:50:34.483693+00:00",
-        "lease_expires_at": "2026-11-13T19:50:34.483706+00:00"
-      },
       "source": {
         "source_id": "27764051",
         "source_url": "https://sdilej.cz/27764051/scooby-doo-zahady-s.-r.-o.-s02e11-pulnocni-zona-1080p-web-dl-cz-dabing.mkv",
@@ -415474,22 +415468,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E11 The Midnight Zone 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:50:44.340501+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013089",
-        "size_bytes": 768718284
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013089",
-        "size_bytes": 768718284,
-        "source_bytes_read": 768718284,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013089",
         "source_bytes_read": 768718284,
         "elapsed_seconds": 289.254,
         "finished_at": "2026-11-13T13:55:59.488248+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013089",
+          "size_bytes": 768718284,
+          "source_bytes_read": 768718284,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27764051",
+        "source_url": "https://sdilej.cz/27764051/scooby-doo-zahady-s.-r.-o.-s02e11-pulnocni-zona-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013089",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E11 The Midnight Zone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:56:05.398159+00:00"
       }
     },
     "1700:2:13": {
@@ -415535,7 +415536,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:55:59.488268+00:00",
+  "updated_at": "2026-11-13T13:56:05.398176+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
