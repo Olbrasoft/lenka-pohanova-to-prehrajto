@@ -400961,12 +400961,6 @@
     },
     "462:3:6": {
       "episode_key": "ženatý se závazky:s3:e6",
-      "claim": {
-        "worker_id": "449816166f94451c83d6fc2262b7c1d1-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:37:10.717485+00:00",
-        "lease_expires_at": "2026-11-13T09:37:10.717498+00:00"
-      },
       "source": {
         "source_id": "27748685",
         "source_url": "https://sdilej.cz/27748685/zenaty-se-zavazky-s03e06.mkv",
@@ -400991,22 +400985,29 @@
         "display_name": "Married… with Children S03E06 Her Cups Runneth Over SD CZ Dabing",
         "prepared_at": "2026-11-13T03:37:14.552918+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008676",
-        "size_bytes": 235045555
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008676",
-        "size_bytes": 235045555,
-        "source_bytes_read": 235045555,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008676",
         "source_bytes_read": 235045555,
         "elapsed_seconds": 137.947,
         "finished_at": "2026-11-13T03:39:49.123452+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008676",
+          "size_bytes": 235045555,
+          "source_bytes_read": 235045555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748685",
+        "source_url": "https://sdilej.cz/27748685/zenaty-se-zavazky-s03e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008676",
+        "display_name": "Married… with Children S03E06 Her Cups Runneth Over SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:39:57.879401+00:00"
       }
     },
     "462:3:7": {
@@ -401089,7 +401090,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:39:52.438090+00:00",
+  "updated_at": "2026-11-13T03:39:57.879420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
