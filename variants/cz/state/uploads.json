@@ -402585,12 +402585,6 @@
     },
     "462:5:2": {
       "episode_key": "ženatý se závazky:s5:e2",
-      "claim": {
-        "worker_id": "e9ab8a66bd74440d9404f4ea3764b720-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:31:19.230888+00:00",
-        "lease_expires_at": "2026-11-13T10:31:19.230898+00:00"
-      },
       "source": {
         "source_id": "33522675",
         "source_url": "https://sdilej.cz/33522675/zenaty-se-zavazky-s05e02-082-1990-hd-al-s-kelly-s-.mp4",
@@ -402615,22 +402609,29 @@
         "display_name": "Married… with Children S05E02 Al… with Kelly 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:31:22.904407+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008991",
-        "size_bytes": 508445872
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008991",
-        "size_bytes": 508445872,
-        "source_bytes_read": 508445872,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008991",
         "source_bytes_read": 508445872,
         "elapsed_seconds": 253.562,
         "finished_at": "2026-11-13T04:35:57.222925+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008991",
+          "size_bytes": 508445872,
+          "source_bytes_read": 508445872,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522675",
+        "source_url": "https://sdilej.cz/33522675/zenaty-se-zavazky-s05e02-082-1990-hd-al-s-kelly-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008991",
+        "display_name": "Married… with Children S05E02 Al… with Kelly 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:36:09.996890+00:00"
       }
     },
     "462:5:3": {
@@ -402727,7 +402728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:36:07.235260+00:00",
+  "updated_at": "2026-11-13T04:36:09.996908+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
