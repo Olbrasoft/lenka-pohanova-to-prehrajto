@@ -421000,12 +421000,6 @@
     },
     "1051:4:15": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e15",
-      "claim": {
-        "worker_id": "2eaa1c89af2240279044b7b406a8ef06-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:04:53.643422+00:00",
-        "lease_expires_at": "2026-11-13T23:04:53.643437+00:00"
-      },
       "source": {
         "source_id": "33220397",
         "source_url": "https://sdilej.cz/33220397/star-trek-hluboky-vesmir-devet-s04e15-25-1995-cz-dab-barova-asociace.avi",
@@ -421030,22 +421024,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E15 Bar Association 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:04:57.208821+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016274",
-        "size_bytes": 699513902
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016274",
-        "size_bytes": 699513902,
-        "source_bytes_read": 699513902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016274",
         "source_bytes_read": 699513902,
         "elapsed_seconds": 54.612,
         "finished_at": "2026-11-13T17:06:05.780995+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016274",
+          "size_bytes": 699513902,
+          "source_bytes_read": 699513902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220397",
+        "source_url": "https://sdilej.cz/33220397/star-trek-hluboky-vesmir-devet-s04e15-25-1995-cz-dab-barova-asociace.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016274",
+        "display_name": "Star Trek: Deep Space Nine S04E15 Bar Association 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:06:13.564564+00:00"
       }
     },
     "1051:4:16": {
@@ -421124,7 +421125,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:06:09.391136+00:00",
+  "updated_at": "2026-11-13T17:06:13.564582+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
