@@ -400451,12 +400451,6 @@
     },
     "462:2:16": {
       "episode_key": "ženatý se závazky:s2:e16",
-      "claim": {
-        "worker_id": "d441412ccd424b8a8fe038cf46018bba-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:23:20.880625+00:00",
-        "lease_expires_at": "2026-11-13T09:23:20.880637+00:00"
-      },
       "source": {
         "source_id": "33522265",
         "source_url": "https://sdilej.cz/33522265/zenaty-se-zavazky-s02e16-029-1988-hd-panem-moznosti-s-.mp4",
@@ -400481,22 +400475,29 @@
         "display_name": "Married… with Children S02E16 Master the Possibilities 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:23:25.438907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008598",
-        "size_bytes": 475709541
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008598",
-        "size_bytes": 475709541,
-        "source_bytes_read": 475709541,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008598",
         "source_bytes_read": 475709541,
         "elapsed_seconds": 190.774,
         "finished_at": "2026-11-13T03:27:01.102989+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008598",
+          "size_bytes": 475709541,
+          "source_bytes_read": 475709541,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522265",
+        "source_url": "https://sdilej.cz/33522265/zenaty-se-zavazky-s02e16-029-1988-hd-panem-moznosti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008598",
+        "display_name": "Married… with Children S02E16 Master the Possibilities 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:27:13.688381+00:00"
       }
     },
     "462:2:17": {
@@ -400542,7 +400543,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:27:10.738506+00:00",
+  "updated_at": "2026-11-13T03:27:13.688399+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
