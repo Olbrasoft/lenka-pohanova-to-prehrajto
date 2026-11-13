@@ -400090,12 +400090,6 @@
     },
     "462:2:9": {
       "episode_key": "ženatý se závazky:s2:e9",
-      "claim": {
-        "worker_id": "ff49832430cd463594dc9d3801627f64-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:14:10.953604+00:00",
-        "lease_expires_at": "2026-11-13T09:14:10.953615+00:00"
-      },
       "source": {
         "source_id": "27748642",
         "source_url": "https://sdilej.cz/27748642/zenaty-se-zavazky-s02e09.mkv",
@@ -400120,22 +400114,29 @@
         "display_name": "Married… with Children S02E09 Alley of the Dolls SD CZ Dabing",
         "prepared_at": "2026-11-13T03:14:23.320528+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008545",
-        "size_bytes": 258200140
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008545",
-        "size_bytes": 258200140,
-        "source_bytes_read": 258200140,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008545",
         "source_bytes_read": 258200140,
         "elapsed_seconds": 136.097,
         "finished_at": "2026-11-13T03:16:57.566913+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008545",
+          "size_bytes": 258200140,
+          "source_bytes_read": 258200140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748642",
+        "source_url": "https://sdilej.cz/27748642/zenaty-se-zavazky-s02e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008545",
+        "display_name": "Married… with Children S02E09 Alley of the Dolls SD CZ Dabing",
+        "uploaded_at": "2026-11-13T03:17:02.188318+00:00"
       }
     },
     "462:2:10": {
@@ -400218,7 +400219,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:16:57.566933+00:00",
+  "updated_at": "2026-11-13T03:17:02.188336+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
