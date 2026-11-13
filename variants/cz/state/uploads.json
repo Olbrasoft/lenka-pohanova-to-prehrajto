@@ -433073,12 +433073,6 @@
     },
     "1411:4:3": {
       "episode_key": "případy detektiva murdocha:s4:e3",
-      "claim": {
-        "worker_id": "f7b4c37f5423489b973b6b1a7e4f19a7-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:54:07.417166+00:00",
-        "lease_expires_at": "2026-11-14T04:54:07.417177+00:00"
-      },
       "source": {
         "source_id": "10891232",
         "source_url": "https://sdilej.cz/10891232/pripady-detektiva-murdocha-s04e03-cz-dabing.avi",
@@ -433103,22 +433097,29 @@
         "display_name": "Murdoch Mysteries S04E03 Buffalo Shuffle SD CZ Dabing",
         "prepared_at": "2026-11-13T22:54:10.749426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020685",
-        "size_bytes": 506460978
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020685",
-        "size_bytes": 506460978,
-        "source_bytes_read": 506460978,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020685",
         "source_bytes_read": 506460978,
         "elapsed_seconds": 25.121,
         "finished_at": "2026-11-13T22:55:02.558946+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020685",
+          "size_bytes": 506460978,
+          "source_bytes_read": 506460978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10891232",
+        "source_url": "https://sdilej.cz/10891232/pripady-detektiva-murdocha-s04e03-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020685",
+        "display_name": "Murdoch Mysteries S04E03 Buffalo Shuffle SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:55:15.963663+00:00"
       }
     }
   },
@@ -433127,7 +433128,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:55:12.513709+00:00",
+  "updated_at": "2026-11-13T22:55:15.963683+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
