@@ -399481,12 +399481,6 @@
     },
     "462:1:9": {
       "episode_key": "ženatý se závazky:s1:e9",
-      "claim": {
-        "worker_id": "86259cfabc71426db20ec41d5a50f482-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T02:49:48.355071+00:00",
-        "lease_expires_at": "2026-11-13T08:49:48.355082+00:00"
-      },
       "source": {
         "source_id": "33522196",
         "source_url": "https://sdilej.cz/33522196/zenaty-se-zavazky-s01e09-009-1987-hd-peggy-ma-praci-s-.mp4",
@@ -399511,22 +399505,29 @@
         "display_name": "Married… with Children S01E09 Peggy Sue Got Work 720p CZ Dabing",
         "prepared_at": "2026-11-13T02:49:55.251244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008386",
-        "size_bytes": 477954136
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008386",
-        "size_bytes": 477954136,
-        "source_bytes_read": 477954136,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008386",
         "source_bytes_read": 477954136,
         "elapsed_seconds": 200.16,
         "finished_at": "2026-11-13T02:53:30.955857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008386",
+          "size_bytes": 477954136,
+          "source_bytes_read": 477954136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522196",
+        "source_url": "https://sdilej.cz/33522196/zenaty-se-zavazky-s01e09-009-1987-hd-peggy-ma-praci-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008386",
+        "display_name": "Married… with Children S01E09 Peggy Sue Got Work 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T02:53:40.594696+00:00"
       }
     },
     "1402:4:25": {
@@ -399671,7 +399672,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T02:53:37.598969+00:00",
+  "updated_at": "2026-11-13T02:53:40.594710+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
