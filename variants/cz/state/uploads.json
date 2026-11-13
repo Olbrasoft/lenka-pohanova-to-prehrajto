@@ -410762,12 +410762,6 @@
     },
     "462:11:16": {
       "episode_key": "ženatý se závazky:s11:e16",
-      "claim": {
-        "worker_id": "6d285282b54044988229eb6a9321c595-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:30:49.082069+00:00",
-        "lease_expires_at": "2026-11-13T15:30:49.082079+00:00"
-      },
       "source": {
         "source_id": "35326826",
         "source_url": "https://sdilej.cz/35326826/zenaty-se-zavazky-s11e16-rozejit-se-je-snadne-3.-cast.mkv",
@@ -410792,22 +410786,29 @@
         "display_name": "Married… with Children S11E16 Breaking Up Is Easy to Do (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:30:54.242478+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011179",
-        "size_bytes": 306931147
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011179",
-        "size_bytes": 306931147,
-        "source_bytes_read": 306931147,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011179",
         "source_bytes_read": 306931147,
         "elapsed_seconds": 171.312,
         "finished_at": "2026-11-13T09:34:05.519600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011179",
+          "size_bytes": 306931147,
+          "source_bytes_read": 306931147,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326826",
+        "source_url": "https://sdilej.cz/35326826/zenaty-se-zavazky-s11e16-rozejit-se-je-snadne-3.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011179",
+        "display_name": "Married… with Children S11E16 Breaking Up Is Easy to Do (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:34:09.927757+00:00"
       }
     },
     "462:11:17": {
@@ -410890,7 +410891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:34:05.519620+00:00",
+  "updated_at": "2026-11-13T09:34:09.927774+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
