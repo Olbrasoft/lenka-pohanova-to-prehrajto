@@ -402071,12 +402071,6 @@
     },
     "462:4:13": {
       "episode_key": "ženatý se závazky:s4:e13",
-      "claim": {
-        "worker_id": "e9dc051a9f00403cb6de5d24bd5c8fd8-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:08:06.570471+00:00",
-        "lease_expires_at": "2026-11-13T10:08:06.570484+00:00"
-      },
       "source": {
         "source_id": "33522596",
         "source_url": "https://sdilej.cz/33522596/zenaty-se-zavazky-s04e13-070-1990-hd-kdo-zastavi-dest-s-.mp4",
@@ -402101,22 +402095,29 @@
         "display_name": "Married… with Children S04E13 Who'll Stop the Rain 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:08:10.327060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008866",
-        "size_bytes": 488277874
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008866",
-        "size_bytes": 488277874,
-        "source_bytes_read": 488277874,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008866",
         "source_bytes_read": 488277874,
         "elapsed_seconds": 185.681,
         "finished_at": "2026-11-13T04:11:33.327869+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008866",
+          "size_bytes": 488277874,
+          "source_bytes_read": 488277874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522596",
+        "source_url": "https://sdilej.cz/33522596/zenaty-se-zavazky-s04e13-070-1990-hd-kdo-zastavi-dest-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008866",
+        "display_name": "Married… with Children S04E13 Who'll Stop the Rain 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:11:40.824098+00:00"
       }
     }
   },
@@ -402125,7 +402126,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:11:37.898180+00:00",
+  "updated_at": "2026-11-13T04:11:40.824113+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
