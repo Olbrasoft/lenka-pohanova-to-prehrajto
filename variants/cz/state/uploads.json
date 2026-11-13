@@ -428424,12 +428424,6 @@
     },
     "1021:1:8": {
       "episode_key": "ve jménu našeho pána:s1:e8",
-      "claim": {
-        "worker_id": "f35aa9e168be4efbbfbd70ae8a37f9e5-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:54:53.197845+00:00",
-        "lease_expires_at": "2026-11-14T03:54:53.197856+00:00"
-      },
       "source": {
         "source_id": "34149002",
         "source_url": "https://sdilej.cz/34149002/ve-jmenu-naseho-pana-s01e08-09-2019-cz-dab-1080p-ale-spravedlivi-uvidi-svuj-pad.mkv",
@@ -428454,22 +428448,29 @@
         "display_name": "The Righteous Gemstones S01E08 But the Righteous Will See Their Fall 1080p CZ Dabing",
         "prepared_at": "2026-11-13T21:55:05.538842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019464",
-        "size_bytes": 2157436603
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019464",
-        "size_bytes": 2157436603,
-        "source_bytes_read": 2157436603,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019464",
         "source_bytes_read": 2157436603,
         "elapsed_seconds": 86.461,
         "finished_at": "2026-11-13T21:56:54.843353+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019464",
+          "size_bytes": 2157436603,
+          "source_bytes_read": 2157436603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149002",
+        "source_url": "https://sdilej.cz/34149002/ve-jmenu-naseho-pana-s01e08-09-2019-cz-dab-1080p-ale-spravedlivi-uvidi-svuj-pad.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019464",
+        "display_name": "The Righteous Gemstones S01E08 But the Righteous Will See Their Fall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T21:57:00.435163+00:00"
       }
     },
     "1021:1:9": {
@@ -428552,7 +428553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:56:54.843376+00:00",
+  "updated_at": "2026-11-13T21:57:00.435185+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
