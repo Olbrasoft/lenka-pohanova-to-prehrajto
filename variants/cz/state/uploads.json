@@ -413832,12 +413832,6 @@
     },
     "87:2:10": {
       "episode_key": "legion:s2:e10",
-      "claim": {
-        "worker_id": "5409b5388a7344b2a9530f3a41758d3f-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T12:33:34.074884+00:00",
-        "lease_expires_at": "2026-11-13T18:33:34.074896+00:00"
-      },
       "source": {
         "source_id": "14031664",
         "source_url": "https://sdilej.cz/14031664/legion-1080p-cz-s02e10-kapitola-18.mkv",
@@ -413862,22 +413856,29 @@
         "display_name": "Legion S02E10 Chapter 18 1080p CZ Dabing",
         "prepared_at": "2026-11-13T12:33:48.094241+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012456",
-        "size_bytes": 575372505
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012456",
-        "size_bytes": 575372505,
-        "source_bytes_read": 575372505,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012456",
         "source_bytes_read": 575372505,
         "elapsed_seconds": 300.73,
         "finished_at": "2026-11-13T12:39:06.929731+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012456",
+          "size_bytes": 575372505,
+          "source_bytes_read": 575372505,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14031664",
+        "source_url": "https://sdilej.cz/14031664/legion-1080p-cz-s02e10-kapitola-18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012456",
+        "display_name": "Legion S02E10 Chapter 18 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T12:39:12.262705+00:00"
       }
     },
     "87:3:4": {
@@ -413923,7 +413924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T12:39:06.929751+00:00",
+  "updated_at": "2026-11-13T12:39:12.262721+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
