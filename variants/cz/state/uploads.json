@@ -428883,12 +428883,6 @@
     },
     "1021:2:9": {
       "episode_key": "ve jménu našeho pána:s2:e9",
-      "claim": {
-        "worker_id": "890bab6a2506490aa2e4238cc0956e44-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:01:15.234466+00:00",
-        "lease_expires_at": "2026-11-14T04:01:15.234478+00:00"
-      },
       "source": {
         "source_id": "34149050",
         "source_url": "https://sdilej.cz/34149050/ve-jmenu-naseho-pana-s02e09-09-2022-cz-dab-1080p-vypravim-o-vsech-tvych-skutcich.mkv",
@@ -428913,22 +428907,29 @@
         "display_name": "The Righteous Gemstones S02E09 I Will Tell of All Your Deeds 1080p CZ Dabing",
         "prepared_at": "2026-11-13T22:01:18.901373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019600",
-        "size_bytes": 2454748140
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019600",
-        "size_bytes": 2454748140,
-        "source_bytes_read": 2454748140,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019600",
         "source_bytes_read": 2454748140,
         "elapsed_seconds": 97.075,
         "finished_at": "2026-11-13T22:03:18.276014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019600",
+          "size_bytes": 2454748140,
+          "source_bytes_read": 2454748140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149050",
+        "source_url": "https://sdilej.cz/34149050/ve-jmenu-naseho-pana-s02e09-09-2022-cz-dab-1080p-vypravim-o-vsech-tvych-skutcich.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019600",
+        "display_name": "The Righteous Gemstones S02E09 I Will Tell of All Your Deeds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:03:27.769071+00:00"
       }
     },
     "1021:3:2": {
@@ -429112,7 +429113,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:03:24.924028+00:00",
+  "updated_at": "2026-11-13T22:03:27.769087+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
