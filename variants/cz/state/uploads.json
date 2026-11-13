@@ -411517,12 +411517,6 @@
     },
     "937:1:6": {
       "episode_key": "misfits: zmetci:s1:e6",
-      "claim": {
-        "worker_id": "4a14933f395145299cfd2c6a43800619-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T09:54:53.135414+00:00",
-        "lease_expires_at": "2026-11-13T15:54:53.135426+00:00"
-      },
       "source": {
         "source_id": "34472405",
         "source_url": "https://sdilej.cz/34472405/misfits-zmetci-s01e06-nejlepsi-kvalita-cz.mkv",
@@ -411547,22 +411541,29 @@
         "display_name": "Misfits S01E06 Episode Six 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:55:04.815762+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011419",
-        "size_bytes": 386942498
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011419",
-        "size_bytes": 386942498,
-        "source_bytes_read": 386942498,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011419",
         "source_bytes_read": 386942498,
         "elapsed_seconds": 260.422,
         "finished_at": "2026-11-13T09:59:48.560726+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011419",
+          "size_bytes": 386942498,
+          "source_bytes_read": 386942498,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34472405",
+        "source_url": "https://sdilej.cz/34472405/misfits-zmetci-s01e06-nejlepsi-kvalita-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011419",
+        "display_name": "Misfits S01E06 Episode Six 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:59:54.742669+00:00"
       }
     },
     "937:2:1": {
@@ -411608,7 +411609,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:59:48.560747+00:00",
+  "updated_at": "2026-11-13T09:59:54.742686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
