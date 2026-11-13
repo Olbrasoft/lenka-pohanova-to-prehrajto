@@ -419033,12 +419033,6 @@
     },
     "1051:2:5": {
       "episode_key": "star trek: hluboký vesmír devět:s2:e5",
-      "claim": {
-        "worker_id": "eba9426632a4414691d3b3055ac36db6-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:23:15.602264+00:00",
-        "lease_expires_at": "2026-11-13T22:23:15.602275+00:00"
-      },
       "source": {
         "source_id": "33220271",
         "source_url": "https://sdilej.cz/33220271/star-trek-hluboky-vesmir-devet-s02e05-26-1993-cz-dab-cardassiane.avi",
@@ -419063,22 +419057,29 @@
         "display_name": "Star Trek: Deep Space Nine S02E05 Cardassians 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:23:19.381296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015342",
-        "size_bytes": 570195932
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015342",
-        "size_bytes": 570195932,
-        "source_bytes_read": 570195932,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015342",
         "source_bytes_read": 570195932,
         "elapsed_seconds": 55.144,
         "finished_at": "2026-11-13T16:24:34.467396+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015342",
+          "size_bytes": 570195932,
+          "source_bytes_read": 570195932,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220271",
+        "source_url": "https://sdilej.cz/33220271/star-trek-hluboky-vesmir-devet-s02e05-26-1993-cz-dab-cardassiane.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015342",
+        "display_name": "Star Trek: Deep Space Nine S02E05 Cardassians 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:24:40.848416+00:00"
       }
     }
   },
@@ -419087,7 +419088,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:24:34.467415+00:00",
+  "updated_at": "2026-11-13T16:24:40.848431+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
