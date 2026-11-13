@@ -400400,12 +400400,6 @@
     },
     "462:2:15": {
       "episode_key": "ženatý se závazky:s2:e15",
-      "claim": {
-        "worker_id": "57b7e83f72cf4ff9b8046686b3740f36-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:23:18.064873+00:00",
-        "lease_expires_at": "2026-11-13T09:23:18.064885+00:00"
-      },
       "source": {
         "source_id": "34900071",
         "source_url": "https://sdilej.cz/34900071/zenaty-se-zavazky-s02e15-028-1988-hd-postav-si-lepsi-mysi-past-s-.mp4",
@@ -400430,22 +400424,29 @@
         "display_name": "Married… with Children S02E15 Build a Better Mousetrap 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:23:31.466798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008599",
-        "size_bytes": 474671826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008599",
-        "size_bytes": 474671826,
-        "source_bytes_read": 474671826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008599",
         "source_bytes_read": 474671826,
         "elapsed_seconds": 190.286,
         "finished_at": "2026-11-13T03:27:05.781953+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008599",
+          "size_bytes": 474671826,
+          "source_bytes_read": 474671826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34900071",
+        "source_url": "https://sdilej.cz/34900071/zenaty-se-zavazky-s02e15-028-1988-hd-postav-si-lepsi-mysi-past-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008599",
+        "display_name": "Married… with Children S02E15 Build a Better Mousetrap 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:27:10.738489+00:00"
       }
     },
     "462:2:16": {
@@ -400541,7 +400542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:27:05.781976+00:00",
+  "updated_at": "2026-11-13T03:27:10.738506+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
