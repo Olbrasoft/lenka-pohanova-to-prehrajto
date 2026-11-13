@@ -407943,12 +407943,6 @@
     },
     "462:9:11": {
       "episode_key": "ženatý se závazky:s9:e11",
-      "claim": {
-        "worker_id": "d0a43ec54a46461f8ac010b740edc6ef-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:44:17.625909+00:00",
-        "lease_expires_at": "2026-11-13T13:44:17.625920+00:00"
-      },
       "source": {
         "source_id": "35326728",
         "source_url": "https://sdilej.cz/35326728/zenaty-se-zavazky-s09e11-konec-sezony.mkv",
@@ -407973,22 +407967,29 @@
         "display_name": "Married… with Children S09E11 A Man for No Seasons 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:44:28.290898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010329",
-        "size_bytes": 334799237
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010329",
-        "size_bytes": 334799237,
-        "source_bytes_read": 334799237,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010329",
         "source_bytes_read": 334799237,
         "elapsed_seconds": 155.107,
         "finished_at": "2026-11-13T07:47:22.569697+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010329",
+          "size_bytes": 334799237,
+          "source_bytes_read": 334799237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326728",
+        "source_url": "https://sdilej.cz/35326728/zenaty-se-zavazky-s09e11-konec-sezony.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010329",
+        "display_name": "Married… with Children S09E11 A Man for No Seasons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:47:28.382177+00:00"
       }
     },
     "462:9:12": {
@@ -408034,7 +408035,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:47:22.569753+00:00",
+  "updated_at": "2026-11-13T07:47:28.382194+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
