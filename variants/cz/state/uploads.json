@@ -429750,12 +429750,6 @@
     },
     "1410:2:48": {
       "episode_key": "phineas a ferb:s2:e48",
-      "claim": {
-        "worker_id": "9d3bde6c3f3741ff975f3c5dcf421ea9-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:09:06.720111+00:00",
-        "lease_expires_at": "2026-11-14T04:09:06.720123+00:00"
-      },
       "source": {
         "source_id": "33548608",
         "source_url": "https://sdilej.cz/33548608/phineas.a.ferb.2x48.jester.naseptavac.720p.cz.batmaster.mkv",
@@ -429780,22 +429774,29 @@
         "display_name": "Phineas and Ferb S02E48 The Lizard Whisperer 720p CZ Dabing",
         "prepared_at": "2026-11-13T22:09:14.532141+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019781",
-        "size_bytes": 94880893
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019781",
-        "size_bytes": 94880893,
-        "source_bytes_read": 94880893,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019781",
         "source_bytes_read": 94880893,
         "elapsed_seconds": 11.982,
         "finished_at": "2026-11-13T22:09:49.657631+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019781",
+          "size_bytes": 94880893,
+          "source_bytes_read": 94880893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33548608",
+        "source_url": "https://sdilej.cz/33548608/phineas.a.ferb.2x48.jester.naseptavac.720p.cz.batmaster.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019781",
+        "display_name": "Phineas and Ferb S02E48 The Lizard Whisperer 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T22:09:58.556868+00:00"
       }
     },
     "1410:2:49": {
@@ -429891,7 +429892,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:09:55.727139+00:00",
+  "updated_at": "2026-11-13T22:09:58.556885+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
