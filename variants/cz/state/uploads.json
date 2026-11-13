@@ -417429,12 +417429,6 @@
     },
     "61:3:8": {
       "episode_key": "tudorovci:s3:e8",
-      "claim": {
-        "worker_id": "05ca6a50a7e44ba88c4dd3f6320946bb-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:30:04.608306+00:00",
-        "lease_expires_at": "2026-11-13T21:30:04.608317+00:00"
-      },
       "source": {
         "source_id": "29472907",
         "source_url": "https://sdilej.cz/29472907/tudorovci-s03e08-1080p-cz-dabing.mkv",
@@ -417459,22 +417453,29 @@
         "display_name": "The Tudors S03E08 The Undoing of Cromwell 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:30:20.998981+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014224",
-        "size_bytes": 710830520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014224",
-        "size_bytes": 710830520,
-        "source_bytes_read": 710830520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014224",
         "source_bytes_read": 710830520,
         "elapsed_seconds": 53.195,
         "finished_at": "2026-11-13T15:31:35.119670+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014224",
+          "size_bytes": 710830520,
+          "source_bytes_read": 710830520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29472907",
+        "source_url": "https://sdilej.cz/29472907/tudorovci-s03e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014224",
+        "display_name": "The Tudors S03E08 The Undoing of Cromwell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T15:31:41.207404+00:00"
       }
     },
     "61:4:1": {
@@ -417557,7 +417558,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:31:35.119708+00:00",
+  "updated_at": "2026-11-13T15:31:41.207419+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
