@@ -415356,12 +415356,6 @@
     },
     "1700:2:8": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e8",
-      "claim": {
-        "worker_id": "d59171ccf6064d91bab813f39091189e-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T13:41:10.945366+00:00",
-        "lease_expires_at": "2026-11-13T19:41:10.945377+00:00"
-      },
       "source": {
         "source_id": "27779030",
         "source_url": "https://sdilej.cz/27779030/scooby-doo-zahady-s.-r.-o.-s02e08-noc-ve-strasidelnych-horach-1080p-web-dl-cz-dabing.mkv",
@@ -415386,22 +415380,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E08 The Night on Haunted Mountain 1080p CZ Dabing",
         "prepared_at": "2026-11-13T13:41:14.520151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013001",
-        "size_bytes": 846929712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013001",
-        "size_bytes": 846929712,
-        "source_bytes_read": 846929712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013001",
         "source_bytes_read": 846929712,
         "elapsed_seconds": 353.857,
         "finished_at": "2026-11-13T13:47:23.365458+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013001",
+          "size_bytes": 846929712,
+          "source_bytes_read": 846929712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27779030",
+        "source_url": "https://sdilej.cz/27779030/scooby-doo-zahady-s.-r.-o.-s02e08-noc-ve-strasidelnych-horach-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013001",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E08 The Night on Haunted Mountain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T13:47:31.244845+00:00"
       }
     }
   },
@@ -415410,7 +415411,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:47:28.103938+00:00",
+  "updated_at": "2026-11-13T13:47:31.244857+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
