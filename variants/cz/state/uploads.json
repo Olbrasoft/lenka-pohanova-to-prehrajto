@@ -396645,12 +396645,6 @@
     },
     "1177:2:6": {
       "episode_key": "batesův motel:s2:e6",
-      "claim": {
-        "worker_id": "b1465a93c6224b4c9daffe84372a68fa-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:26:26.959086+00:00",
-        "lease_expires_at": "2026-11-13T06:26:26.959096+00:00"
-      },
       "source": {
         "source_id": "33977859",
         "source_url": "https://sdilej.cz/33977859/batesuv-motel-s02e06-cz-dabing-1080p-full-hd.mkv",
@@ -396675,22 +396669,29 @@
         "display_name": "Bates Motel S02E06 Plunge 1080p CZ Dabing",
         "prepared_at": "2026-11-13T00:26:32.064073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007520",
-        "size_bytes": 878605927
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007520",
-        "size_bytes": 878605927,
-        "source_bytes_read": 878605927,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007520",
         "source_bytes_read": 878605927,
         "elapsed_seconds": 442.263,
         "finished_at": "2026-11-13T00:34:13.873977+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007520",
+          "size_bytes": 878605927,
+          "source_bytes_read": 878605927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33977859",
+        "source_url": "https://sdilej.cz/33977859/batesuv-motel-s02e06-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007520",
+        "display_name": "Bates Motel S02E06 Plunge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T00:34:22.020357+00:00"
       }
     },
     "1177:2:7": {
@@ -396750,7 +396751,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T00:34:18.297825+00:00",
+  "updated_at": "2026-11-13T00:34:22.020371+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
