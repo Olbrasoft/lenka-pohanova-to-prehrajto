@@ -404031,12 +404031,6 @@
     },
     "462:6:9": {
       "episode_key": "ženatý se závazky:s6:e9",
-      "claim": {
-        "worker_id": "0d09f48cea744f56aa90180d9d68a0d3-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:26:14.042597+00:00",
-        "lease_expires_at": "2026-11-13T11:26:14.042609+00:00"
-      },
       "source": {
         "source_id": "35326590",
         "source_url": "https://sdilej.cz/35326590/zenaty-se-zavazky-s06e09-kelly-jde-do-hollywoodu-1.-cast.mkv",
@@ -404061,22 +404055,29 @@
         "display_name": "Married… with Children S06E09 Kelly Does Hollywood (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:26:22.967967+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009366",
-        "size_bytes": 366700582
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009366",
-        "size_bytes": 366700582,
-        "source_bytes_read": 366700582,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009366",
         "source_bytes_read": 366700582,
         "elapsed_seconds": 170.061,
         "finished_at": "2026-11-13T05:29:36.705599+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009366",
+          "size_bytes": 366700582,
+          "source_bytes_read": 366700582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326590",
+        "source_url": "https://sdilej.cz/35326590/zenaty-se-zavazky-s06e09-kelly-jde-do-hollywoodu-1.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009366",
+        "display_name": "Married… with Children S06E09 Kelly Does Hollywood (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:29:48.187356+00:00"
       }
     },
     "462:6:11": {
@@ -404136,7 +404137,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:29:45.243481+00:00",
+  "updated_at": "2026-11-13T05:29:48.187377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
