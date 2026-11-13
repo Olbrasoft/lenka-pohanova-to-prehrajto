@@ -59459,24 +59459,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T05:54:18.796748+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T06:56:32.834093+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T07:57:28.578644+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T09:00:20.193384+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "8e3971ffb638445693f98fe6e43c1c6d-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:00:04.432098+00:00",
-        "lease_expires_at": "2026-11-13T15:00:04.432108+00:00"
-      }
+      ]
     },
     "956:2:20": {
       "episode_key": "star trek: nová generace:s2:e20",
@@ -410152,7 +410146,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:00:16.327888+00:00",
+  "updated_at": "2026-11-13T09:00:20.193390+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -410176,6 +410170,10 @@
         {
           "identity": "956:2:14",
           "at": "2026-11-13T09:00:01.040592+00:00"
+        },
+        {
+          "identity": "956:2:19",
+          "at": "2026-11-13T09:00:20.193356+00:00"
         }
       ],
       "retry_after": "2026-11-13T08:07:57.639498+00:00"
