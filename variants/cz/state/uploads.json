@@ -405250,12 +405250,6 @@
     },
     "462:7:7": {
       "episode_key": "ženatý se závazky:s7:e7",
-      "claim": {
-        "worker_id": "63b40c8d9f3a4f24bd7f54e8d5d12bf1-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:56:39.715907+00:00",
-        "lease_expires_at": "2026-11-13T11:56:39.715919+00:00"
-      },
       "source": {
         "source_id": "33523119",
         "source_url": "https://sdilej.cz/33523119/zenaty-se-zavazky-s07e07-138-1992-hd-chicagska-strana-vina-s-.mp4",
@@ -405280,22 +405274,29 @@
         "display_name": "Married… with Children S07E07 The Chicago Wine Party 720p CZ Dabing",
         "prepared_at": "2026-11-13T05:56:46.382728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009551",
-        "size_bytes": 506025547
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009551",
-        "size_bytes": 506025547,
-        "source_bytes_read": 506025547,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009551",
         "source_bytes_read": 506025547,
         "elapsed_seconds": 206.213,
         "finished_at": "2026-11-13T06:00:30.567451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009551",
+          "size_bytes": 506025547,
+          "source_bytes_read": 506025547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33523119",
+        "source_url": "https://sdilej.cz/33523119/zenaty-se-zavazky-s07e07-138-1992-hd-chicagska-strana-vina-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009551",
+        "display_name": "Married… with Children S07E07 The Chicago Wine Party 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T06:00:36.747557+00:00"
       }
     }
   },
@@ -405304,7 +405305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T06:00:30.567475+00:00",
+  "updated_at": "2026-11-13T06:00:36.747579+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
