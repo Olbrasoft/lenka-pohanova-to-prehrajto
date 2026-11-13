@@ -401430,12 +401430,6 @@
     },
     "462:3:14": {
       "episode_key": "ženatý se závazky:s3:e14",
-      "claim": {
-        "worker_id": "394c537119f04d1098afdab45f54c78c-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T03:45:55.580897+00:00",
-        "lease_expires_at": "2026-11-13T09:45:55.580905+00:00"
-      },
       "source": {
         "source_id": "33522373",
         "source_url": "https://sdilej.cz/33522373/zenaty-se-zavazky-s03e14-049-1989-hd-druhy-plat-s-.mp4",
@@ -401460,22 +401454,29 @@
         "display_name": "Married… with Children S03E14 The Harder They Fall 720p CZ Dabing",
         "prepared_at": "2026-11-13T03:46:05.736915+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008725",
-        "size_bytes": 510645830
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008725",
-        "size_bytes": 510645830,
-        "source_bytes_read": 510645830,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008725",
         "source_bytes_read": 510645830,
         "elapsed_seconds": 207.87,
         "finished_at": "2026-11-13T03:49:50.644488+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008725",
+          "size_bytes": 510645830,
+          "source_bytes_read": 510645830,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522373",
+        "source_url": "https://sdilej.cz/33522373/zenaty-se-zavazky-s03e14-049-1989-hd-druhy-plat-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008725",
+        "display_name": "Married… with Children S03E14 The Harder They Fall 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T03:50:01.558690+00:00"
       }
     }
   },
@@ -401484,7 +401485,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T03:49:58.726425+00:00",
+  "updated_at": "2026-11-13T03:50:01.558708+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
