@@ -428576,12 +428576,6 @@
     },
     "1021:2:2": {
       "episode_key": "ve jménu našeho pána:s2:e2",
-      "claim": {
-        "worker_id": "f41b7fb8b8344bd9af02e80f21a68d36-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T21:57:09.338496+00:00",
-        "lease_expires_at": "2026-11-14T03:57:09.338511+00:00"
-      },
       "source": {
         "source_id": "21693019",
         "source_url": "https://sdilej.cz/21693019/ve.jmenu.naseho.pana.02x02.hdtv.cz.avi",
@@ -428606,22 +428600,29 @@
         "display_name": "The Righteous Gemstones S02E02 After I Leave, Savage Wolves Will Come SD CZ Dabing",
         "prepared_at": "2026-11-13T21:57:13.121688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31019510",
-        "size_bytes": 469105564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31019510",
-        "size_bytes": 469105564,
-        "source_bytes_read": 469105564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31019510",
         "source_bytes_read": 469105564,
         "elapsed_seconds": 20.739,
         "finished_at": "2026-11-13T21:57:49.184423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31019510",
+          "size_bytes": 469105564,
+          "source_bytes_read": 469105564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21693019",
+        "source_url": "https://sdilej.cz/21693019/ve.jmenu.naseho.pana.02x02.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31019510",
+        "display_name": "The Righteous Gemstones S02E02 After I Leave, Savage Wolves Will Come SD CZ Dabing",
+        "uploaded_at": "2026-11-13T21:58:00.620770+00:00"
       }
     },
     "1021:2:3": {
@@ -428663,7 +428664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T21:57:57.235058+00:00",
+  "updated_at": "2026-11-13T21:58:00.620787+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
