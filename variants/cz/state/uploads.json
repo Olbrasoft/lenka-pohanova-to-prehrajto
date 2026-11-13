@@ -396828,12 +396828,6 @@
     },
     "9201:1:8": {
       "episode_key": "ranč duttonových:s1:e8",
-      "claim": {
-        "worker_id": "57eb836ea15549f39924fb0497c00d4e-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T00:36:42.419490+00:00",
-        "lease_expires_at": "2026-11-13T06:36:42.419499+00:00"
-      },
       "source": {
         "source_id": "35159732",
         "source_url": "https://sdilej.cz/35159732/ranc-duttonovych-s01e08-2026-cz-dabing-1080p-bedobi.mkv",
@@ -396858,22 +396852,29 @@
         "display_name": "Dutton Ranch S01E08 Whiskey Limits 4K CZ Dabing",
         "prepared_at": "2026-11-13T00:36:48.443608+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007577",
-        "size_bytes": 5250290734
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007577",
-        "size_bytes": 5250290734,
-        "source_bytes_read": 5250290734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007577",
         "source_bytes_read": 5250290734,
         "elapsed_seconds": 2173.392,
         "finished_at": "2026-11-13T01:13:20.288925+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007577",
+          "size_bytes": 5250290734,
+          "source_bytes_read": 5250290734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35159732",
+        "source_url": "https://sdilej.cz/35159732/ranc-duttonovych-s01e08-2026-cz-dabing-1080p-bedobi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007577",
+        "display_name": "Dutton Ranch S01E08 Whiskey Limits 4K CZ Dabing",
+        "uploaded_at": "2026-11-13T01:13:26.636092+00:00"
       }
     },
     "1177:2:8": {
@@ -397160,7 +397161,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:13:20.288944+00:00",
+  "updated_at": "2026-11-13T01:13:26.636107+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
