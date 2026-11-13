@@ -411068,12 +411068,6 @@
     },
     "462:11:22": {
       "episode_key": "ženatý se závazky:s11:e22",
-      "claim": {
-        "worker_id": "43298bdbf7ff4407b05be1b530a6eaf7-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:39:35.354997+00:00",
-        "lease_expires_at": "2026-11-13T15:39:35.355008+00:00"
-      },
       "source": {
         "source_id": "35326834",
         "source_url": "https://sdilej.cz/35326834/zenaty-se-zavazky-s11e22-zajatci.mkv",
@@ -411098,22 +411092,29 @@
         "display_name": "Married… with Children S11E22 The Desperate Half-Hour 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:39:38.931920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011243",
-        "size_bytes": 368482044
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011243",
-        "size_bytes": 368482044,
-        "source_bytes_read": 368482044,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011243",
         "source_bytes_read": 368482044,
         "elapsed_seconds": 241.262,
         "finished_at": "2026-11-13T09:43:58.353758+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011243",
+          "size_bytes": 368482044,
+          "source_bytes_read": 368482044,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326834",
+        "source_url": "https://sdilej.cz/35326834/zenaty-se-zavazky-s11e22-zajatci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011243",
+        "display_name": "Married… with Children S11E22 The Desperate Half-Hour 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:44:03.198889+00:00"
       }
     },
     "462:11:23": {
@@ -411196,7 +411197,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:43:58.353778+00:00",
+  "updated_at": "2026-11-13T09:44:03.198905+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
