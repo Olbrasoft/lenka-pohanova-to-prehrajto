@@ -407484,12 +407484,6 @@
     },
     "462:9:2": {
       "episode_key": "ženatý se závazky:s9:e2",
-      "claim": {
-        "worker_id": "49afed8d82984da691c006338d69b55b-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:29:48.193172+00:00",
-        "lease_expires_at": "2026-11-13T13:29:48.193181+00:00"
-      },
       "source": {
         "source_id": "35326713",
         "source_url": "https://sdilej.cz/35326713/zenaty-se-zavazky-s09e02-ridicak-pro-pana-budku.mkv",
@@ -407514,22 +407508,29 @@
         "display_name": "Married… with Children S09E02 Driving Mr. Boondy 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:29:56.706185+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010210",
-        "size_bytes": 311429566
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010210",
-        "size_bytes": 311429566,
-        "source_bytes_read": 311429566,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010210",
         "source_bytes_read": 311429566,
         "elapsed_seconds": 173.693,
         "finished_at": "2026-11-13T07:33:04.105595+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010210",
+          "size_bytes": 311429566,
+          "source_bytes_read": 311429566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326713",
+        "source_url": "https://sdilej.cz/35326713/zenaty-se-zavazky-s09e02-ridicak-pro-pana-budku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010210",
+        "display_name": "Married… with Children S09E02 Driving Mr. Boondy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:33:08.432193+00:00"
       }
     },
     "462:9:3": {
@@ -407575,7 +407576,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:33:04.105613+00:00",
+  "updated_at": "2026-11-13T07:33:08.432207+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
