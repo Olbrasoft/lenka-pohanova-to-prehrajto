@@ -415866,12 +415866,6 @@
     },
     "1700:2:23": {
       "episode_key": "scooby doo - záhady s.r.o.:s2:e23",
-      "claim": {
-        "worker_id": "de47472c037245378182959752c64cbc-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T14:03:51.432113+00:00",
-        "lease_expires_at": "2026-11-13T20:03:51.432123+00:00"
-      },
       "source": {
         "source_id": "27764126",
         "source_url": "https://sdilej.cz/27764126/scooby-doo-zahady-s.-r.-o.-s02e23-temna-noc-lovcu-1080p-web-dl-cz-dabing.mkv",
@@ -415896,22 +415890,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S02E23 Dark Night of the Hunters 1080p CZ Dabing",
         "prepared_at": "2026-11-13T14:03:55.369658+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31013215",
-        "size_bytes": 855461046
-      },
-      "transfer_receipt": {
-        "target_video_id": "31013215",
-        "size_bytes": 855461046,
-        "source_bytes_read": 855461046,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31013215",
         "source_bytes_read": 855461046,
         "elapsed_seconds": 380.181,
         "finished_at": "2026-11-13T14:10:30.094521+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31013215",
+          "size_bytes": 855461046,
+          "source_bytes_read": 855461046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27764126",
+        "source_url": "https://sdilej.cz/27764126/scooby-doo-zahady-s.-r.-o.-s02e23-temna-noc-lovcu-1080p-web-dl-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31013215",
+        "display_name": "Scooby-Doo! Mystery Incorporated S02E23 Dark Night of the Hunters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T14:10:36.067944+00:00"
       }
     },
     "1700:2:24": {
@@ -416059,7 +416060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T14:10:30.094541+00:00",
+  "updated_at": "2026-11-13T14:10:36.067959+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
