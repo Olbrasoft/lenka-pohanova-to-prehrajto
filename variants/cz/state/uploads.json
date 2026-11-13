@@ -403911,12 +403911,6 @@
     },
     "462:6:7": {
       "episode_key": "ženatý se závazky:s6:e7",
-      "claim": {
-        "worker_id": "1a3bf887bb9240df94f44acd25de813e-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:21:55.421232+00:00",
-        "lease_expires_at": "2026-11-13T11:21:55.421248+00:00"
-      },
       "source": {
         "source_id": "35326586",
         "source_url": "https://sdilej.cz/35326586/zenaty-se-zavazky-s06e07-kdybych-se-tak-mohl-videt.mkv",
@@ -403941,22 +403935,29 @@
         "display_name": "Married… with Children S06E07 If I Could See Me Now 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:21:59.060078+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009339",
-        "size_bytes": 319060869
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009339",
-        "size_bytes": 319060869,
-        "source_bytes_read": 319060869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009339",
         "source_bytes_read": 319060869,
         "elapsed_seconds": 164.655,
         "finished_at": "2026-11-13T05:25:02.176863+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009339",
+          "size_bytes": 319060869,
+          "source_bytes_read": 319060869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326586",
+        "source_url": "https://sdilej.cz/35326586/zenaty-se-zavazky-s06e07-kdybych-se-tak-mohl-videt.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009339",
+        "display_name": "Married… with Children S06E07 If I Could See Me Now 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:25:08.997539+00:00"
       }
     }
   },
@@ -403965,7 +403966,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:25:02.176880+00:00",
+  "updated_at": "2026-11-13T05:25:08.997557+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
