@@ -396574,24 +396574,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T20:43:20.091100+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T21:48:55.726465+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T22:50:44.624190+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-13T23:56:21.940766+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "d071981a0d1c43568e99d2c09dedeac3-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:56:01.882783+00:00",
-        "lease_expires_at": "2026-11-14T05:56:01.882793+00:00"
-      }
+      ]
     },
     "1177:2:4": {
       "episode_key": "batesův motel:s2:e4",
@@ -436608,7 +436602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:56:14.852597+00:00",
+  "updated_at": "2026-11-13T23:56:21.940774+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -436890,9 +436884,13 @@
         {
           "identity": "1402:3:16",
           "at": "2026-11-13T23:56:14.852559+00:00"
+        },
+        {
+          "identity": "1402:4:17",
+          "at": "2026-11-13T23:56:21.940710+00:00"
         }
       ],
-      "retry_after": "2026-11-13T23:50:01.392095+00:00"
+      "retry_after": "2026-11-14T00:06:21.940710+00:00"
     }
   }
 }
