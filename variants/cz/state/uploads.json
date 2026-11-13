@@ -422128,12 +422128,6 @@
     },
     "1051:6:17": {
       "episode_key": "star trek: hluboký vesmír devět:s6:e17",
-      "claim": {
-        "worker_id": "54ed3f669ffd4b819fe1d32e781d6837-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:20:03.564991+00:00",
-        "lease_expires_at": "2026-11-13T23:20:03.565003+00:00"
-      },
       "source": {
         "source_id": "33220564",
         "source_url": "https://sdilej.cz/33220564/star-trek-hluboky-vesmir-devet-s06e17-26-1997-cz-dab-krivdy-temnejsi-nez-noc-nebo-smrt.avi",
@@ -422158,22 +422152,29 @@
         "display_name": "Star Trek: Deep Space Nine S06E17 Wrongs Darker Than Death or Night 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:20:08.011117+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016667",
-        "size_bytes": 525999918
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016667",
-        "size_bytes": 525999918,
-        "source_bytes_read": 525999918,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016667",
         "source_bytes_read": 525999918,
         "elapsed_seconds": 98.757,
         "finished_at": "2026-11-13T17:22:13.379130+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016667",
+          "size_bytes": 525999918,
+          "source_bytes_read": 525999918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220564",
+        "source_url": "https://sdilej.cz/33220564/star-trek-hluboky-vesmir-devet-s06e17-26-1997-cz-dab-krivdy-temnejsi-nez-noc-nebo-smrt.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016667",
+        "display_name": "Star Trek: Deep Space Nine S06E17 Wrongs Darker Than Death or Night 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:22:22.647097+00:00"
       }
     },
     "1051:6:18": {
@@ -422232,7 +422233,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:22:19.187824+00:00",
+  "updated_at": "2026-11-13T17:22:22.647115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
