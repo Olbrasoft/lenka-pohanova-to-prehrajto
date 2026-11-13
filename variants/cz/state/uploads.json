@@ -436315,12 +436315,6 @@
     },
     "1411:8:11": {
       "episode_key": "případy detektiva murdocha:s8:e11",
-      "claim": {
-        "worker_id": "df2acb77b4de4bddab58c7b89838c915-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T23:40:41.141200+00:00",
-        "lease_expires_at": "2026-11-14T05:40:41.141212+00:00"
-      },
       "source": {
         "source_id": "14137729",
         "source_url": "https://sdilej.cz/14137729/pripady-detektiva-murdocha-s08e11-vsechno-co-se-trpyti-sd-.mp4",
@@ -436345,22 +436339,29 @@
         "display_name": "Murdoch Mysteries S08E11 All That Glitters SD CZ Dabing",
         "prepared_at": "2026-11-13T23:40:47.560060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021530",
-        "size_bytes": 193886693
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021530",
-        "size_bytes": 193886693,
-        "source_bytes_read": 193886693,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021530",
         "source_bytes_read": 193886693,
         "elapsed_seconds": 48.519,
         "finished_at": "2026-11-13T23:41:49.140618+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021530",
+          "size_bytes": 193886693,
+          "source_bytes_read": 193886693,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14137729",
+        "source_url": "https://sdilej.cz/14137729/pripady-detektiva-murdocha-s08e11-vsechno-co-se-trpyti-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021530",
+        "display_name": "Murdoch Mysteries S08E11 All That Glitters SD CZ Dabing",
+        "uploaded_at": "2026-11-13T23:41:53.878080+00:00"
       }
     }
   },
@@ -436369,7 +436370,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T23:41:49.140638+00:00",
+  "updated_at": "2026-11-13T23:41:53.878096+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
