@@ -414693,12 +414693,6 @@
     },
     "1700:1:17": {
       "episode_key": "scooby doo - záhady s.r.o.:s1:e17",
-      "claim": {
-        "worker_id": "7d92506f169a4cc6b12cc71b39c3b8cf-worker-0",
-        "run_id": "43400866793",
-        "claimed_at": "2026-11-13T13:10:29.919235+00:00",
-        "lease_expires_at": "2026-11-13T19:10:29.919245+00:00"
-      },
       "source": {
         "source_id": "26115222",
         "source_url": "https://sdilej.cz/26115222/scooby-doo.zahady.s.r.o.s01e17.utek.z.tajemneho.sidla.sdtv.x264-nicole.mp4",
@@ -414723,22 +414717,29 @@
         "display_name": "Scooby-Doo! Mystery Incorporated S01E17 Escape from Mystery Manor SD CZ Dabing",
         "prepared_at": "2026-11-13T13:10:37.060133+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31012723",
-        "size_bytes": 156708396
-      },
-      "transfer_receipt": {
-        "target_video_id": "31012723",
-        "size_bytes": 156708396,
-        "source_bytes_read": 156708396,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31012723",
         "source_bytes_read": 156708396,
         "elapsed_seconds": 88.235,
         "finished_at": "2026-11-13T13:12:28.451680+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31012723",
+          "size_bytes": 156708396,
+          "source_bytes_read": 156708396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26115222",
+        "source_url": "https://sdilej.cz/26115222/scooby-doo.zahady.s.r.o.s01e17.utek.z.tajemneho.sidla.sdtv.x264-nicole.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31012723",
+        "display_name": "Scooby-Doo! Mystery Incorporated S01E17 Escape from Mystery Manor SD CZ Dabing",
+        "uploaded_at": "2026-11-13T13:12:35.390426+00:00"
       }
     },
     "1700:1:18": {
@@ -414784,7 +414785,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T13:12:28.451703+00:00",
+  "updated_at": "2026-11-13T13:12:35.390444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
