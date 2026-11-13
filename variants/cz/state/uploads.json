@@ -410915,12 +410915,6 @@
     },
     "462:11:19": {
       "episode_key": "ženatý se závazky:s11:e19",
-      "claim": {
-        "worker_id": "5edde0219b6e4e3ab8a43d7d292cfe9c-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T09:35:30.134316+00:00",
-        "lease_expires_at": "2026-11-13T15:35:30.134326+00:00"
-      },
       "source": {
         "source_id": "35326830",
         "source_url": "https://sdilej.cz/35326830/zenaty-se-zavazky-s11e19-jeffersonovy-40.-narozeniny.mkv",
@@ -410945,22 +410939,29 @@
         "display_name": "Married… with Children S11E19 Birthday Boy Toy 1080p CZ Dabing",
         "prepared_at": "2026-11-13T09:35:41.934338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31011210",
-        "size_bytes": 364857090
-      },
-      "transfer_receipt": {
-        "target_video_id": "31011210",
-        "size_bytes": 364857090,
-        "source_bytes_read": 364857090,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31011210",
         "source_bytes_read": 364857090,
         "elapsed_seconds": 217.331,
         "finished_at": "2026-11-13T09:39:32.475683+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31011210",
+          "size_bytes": 364857090,
+          "source_bytes_read": 364857090,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326830",
+        "source_url": "https://sdilej.cz/35326830/zenaty-se-zavazky-s11e19-jeffersonovy-40.-narozeniny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31011210",
+        "display_name": "Married… with Children S11E19 Birthday Boy Toy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T09:39:42.068293+00:00"
       }
     },
     "462:11:20": {
@@ -411090,7 +411091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T09:39:38.931936+00:00",
+  "updated_at": "2026-11-13T09:39:42.068308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
