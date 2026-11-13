@@ -398029,12 +398029,6 @@
     },
     "1177:4:7": {
       "episode_key": "batesův motel:s4:e7",
-      "claim": {
-        "worker_id": "ee3c6d31ba0442be92fef04be2251b76-worker-0",
-        "run_id": "43328150352",
-        "claimed_at": "2026-11-13T01:46:29.098250+00:00",
-        "lease_expires_at": "2026-11-13T07:46:29.098260+00:00"
-      },
       "source": {
         "source_id": "33978506",
         "source_url": "https://sdilej.cz/33978506/batesuv-motel-s04e07-cz-dabing-1080p-full-hd.mkv",
@@ -398059,22 +398053,29 @@
         "display_name": "Bates Motel S04E07 There's No Place Like Home 1080p CZ Dabing",
         "prepared_at": "2026-11-13T01:46:37.771790+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31007997",
-        "size_bytes": 885352583
-      },
-      "transfer_receipt": {
-        "target_video_id": "31007997",
-        "size_bytes": 885352583,
-        "source_bytes_read": 885352583,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31007997",
         "source_bytes_read": 885352583,
         "elapsed_seconds": 358.469,
         "finished_at": "2026-11-13T01:52:54.566975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31007997",
+          "size_bytes": 885352583,
+          "source_bytes_read": 885352583,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33978506",
+        "source_url": "https://sdilej.cz/33978506/batesuv-motel-s04e07-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31007997",
+        "display_name": "Bates Motel S04E07 There's No Place Like Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T01:53:02.000897+00:00"
       }
     },
     "1177:4:8": {
@@ -398170,7 +398171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T01:52:58.991600+00:00",
+  "updated_at": "2026-11-13T01:53:02.000913+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
