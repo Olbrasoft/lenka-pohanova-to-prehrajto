@@ -421204,12 +421204,6 @@
     },
     "1051:4:20": {
       "episode_key": "star trek: hluboký vesmír devět:s4:e20",
-      "claim": {
-        "worker_id": "df3c603c1a324e71bd01b67bcdddffd1-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T17:07:36.594025+00:00",
-        "lease_expires_at": "2026-11-13T23:07:36.594034+00:00"
-      },
       "source": {
         "source_id": "33220414",
         "source_url": "https://sdilej.cz/33220414/star-trek-hluboky-vesmir-devet-s04e20-25-1995-cz-dab-muza.avi",
@@ -421234,22 +421228,29 @@
         "display_name": "Star Trek: Deep Space Nine S04E20 The Muse 720p CZ Dabing",
         "prepared_at": "2026-11-13T17:07:41.697001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31016325",
-        "size_bytes": 610174056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31016325",
-        "size_bytes": 610174056,
-        "source_bytes_read": 610174056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31016325",
         "source_bytes_read": 610174056,
         "elapsed_seconds": 60.105,
         "finished_at": "2026-11-13T17:08:58.271373+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31016325",
+          "size_bytes": 610174056,
+          "source_bytes_read": 610174056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220414",
+        "source_url": "https://sdilej.cz/33220414/star-trek-hluboky-vesmir-devet-s04e20-25-1995-cz-dab-muza.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31016325",
+        "display_name": "Star Trek: Deep Space Nine S04E20 The Muse 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T17:09:04.808511+00:00"
       }
     },
     "1051:4:25": {
@@ -421333,7 +421334,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T17:08:58.271395+00:00",
+  "updated_at": "2026-11-13T17:09:04.808531+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
