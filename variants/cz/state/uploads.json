@@ -419878,12 +419878,6 @@
     },
     "1051:3:16": {
       "episode_key": "star trek: hluboký vesmír devět:s3:e16",
-      "claim": {
-        "worker_id": "f45ca42016ac41d89c4099a55db4b694-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T16:35:45.245614+00:00",
-        "lease_expires_at": "2026-11-13T22:35:45.245624+00:00"
-      },
       "source": {
         "source_id": "33220333",
         "source_url": "https://sdilej.cz/33220333/star-trek-hluboky-vesmir-devet-s03e16-26-1994-cz-dab-prorocky-motiv.avi",
@@ -419908,22 +419902,29 @@
         "display_name": "Star Trek: Deep Space Nine S03E16 Prophet Motive 720p CZ Dabing",
         "prepared_at": "2026-11-13T16:35:52.333732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31015614",
-        "size_bytes": 668331376
-      },
-      "transfer_receipt": {
-        "target_video_id": "31015614",
-        "size_bytes": 668331376,
-        "source_bytes_read": 668331376,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31015614",
         "source_bytes_read": 668331376,
         "elapsed_seconds": 43.689,
         "finished_at": "2026-11-13T16:36:59.687896+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31015614",
+          "size_bytes": 668331376,
+          "source_bytes_read": 668331376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33220333",
+        "source_url": "https://sdilej.cz/33220333/star-trek-hluboky-vesmir-devet-s03e16-26-1994-cz-dab-prorocky-motiv.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31015614",
+        "display_name": "Star Trek: Deep Space Nine S03E16 Prophet Motive 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T16:37:05.626192+00:00"
       }
     },
     "1051:3:17": {
@@ -420006,7 +420007,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T16:36:59.687918+00:00",
+  "updated_at": "2026-11-13T16:37:05.626207+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
