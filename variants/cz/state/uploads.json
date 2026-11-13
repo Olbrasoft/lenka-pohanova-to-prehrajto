@@ -431798,12 +431798,6 @@
     },
     "1411:1:13": {
       "episode_key": "případy detektiva murdocha:s1:e13",
-      "claim": {
-        "worker_id": "e181d25b0d40480da03563bdbbd63b6c-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-13T22:31:08.483864+00:00",
-        "lease_expires_at": "2026-11-14T04:31:08.483873+00:00"
-      },
       "source": {
         "source_id": "22416865",
         "source_url": "https://sdilej.cz/22416865/pripady-detektiva-murdocha-s01e13-czdab.avi",
@@ -431828,22 +431822,29 @@
         "display_name": "Murdoch Mysteries S01E13 Annoying Red Planet SD CZ Dabing",
         "prepared_at": "2026-11-13T22:31:11.789046+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31020348",
-        "size_bytes": 368041984
-      },
-      "transfer_receipt": {
-        "target_video_id": "31020348",
-        "size_bytes": 368041984,
-        "source_bytes_read": 368041984,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31020348",
         "source_bytes_read": 368041984,
         "elapsed_seconds": 34.703,
         "finished_at": "2026-11-13T22:31:59.902376+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31020348",
+          "size_bytes": 368041984,
+          "source_bytes_read": 368041984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22416865",
+        "source_url": "https://sdilej.cz/22416865/pripady-detektiva-murdocha-s01e13-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31020348",
+        "display_name": "Murdoch Mysteries S01E13 Annoying Red Planet SD CZ Dabing",
+        "uploaded_at": "2026-11-13T22:32:07.593080+00:00"
       }
     },
     "1411:2:1": {
@@ -431926,7 +431927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T22:32:03.799570+00:00",
+  "updated_at": "2026-11-13T22:32:07.593096+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
