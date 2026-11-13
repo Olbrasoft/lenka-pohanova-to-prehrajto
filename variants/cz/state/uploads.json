@@ -403715,12 +403715,6 @@
     },
     "462:6:3": {
       "episode_key": "ženatý se závazky:s6:e3",
-      "claim": {
-        "worker_id": "f851eb1fabb2443ca77265f30c217110-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:18:09.431607+00:00",
-        "lease_expires_at": "2026-11-13T11:18:09.431617+00:00"
-      },
       "source": {
         "source_id": "35326580",
         "source_url": "https://sdilej.cz/35326580/zenaty-se-zavazky-s06e03-dedovo-kladivo.mkv",
@@ -403745,22 +403739,29 @@
         "display_name": "Married… with Children S06E03 If Al Had a Hammer 1080p CZ Dabing",
         "prepared_at": "2026-11-13T05:18:23.984896+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009317",
-        "size_bytes": 340041386
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009317",
-        "size_bytes": 340041386,
-        "source_bytes_read": 340041386,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009317",
         "source_bytes_read": 340041386,
         "elapsed_seconds": 169.683,
         "finished_at": "2026-11-13T05:21:33.257582+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009317",
+          "size_bytes": 340041386,
+          "source_bytes_read": 340041386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326580",
+        "source_url": "https://sdilej.cz/35326580/zenaty-se-zavazky-s06e03-dedovo-kladivo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009317",
+        "display_name": "Married… with Children S06E03 If Al Had a Hammer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:21:41.160125+00:00"
       }
     },
     "462:6:4": {
@@ -403857,7 +403858,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:21:37.993959+00:00",
+  "updated_at": "2026-11-13T05:21:41.160142+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
