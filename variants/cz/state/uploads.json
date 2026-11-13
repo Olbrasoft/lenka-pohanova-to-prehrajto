@@ -407861,12 +407861,6 @@
     },
     "462:9:9": {
       "episode_key": "ženatý se závazky:s9:e9",
-      "claim": {
-        "worker_id": "0a01b8ac8d3746ae8e160b685251039f-worker-0",
-        "run_id": "43371488891",
-        "claimed_at": "2026-11-13T07:39:48.961843+00:00",
-        "lease_expires_at": "2026-11-13T13:39:48.961851+00:00"
-      },
       "source": {
         "source_id": "35326725",
         "source_url": "https://sdilej.cz/35326725/zenaty-se-zavazky-s09e09-zadny-hrnec-na-hrach.mkv",
@@ -407891,22 +407885,29 @@
         "display_name": "Married… with Children S09E09 No Pot to Pease In 1080p CZ Dabing",
         "prepared_at": "2026-11-13T07:39:52.848564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31010304",
-        "size_bytes": 366631264
-      },
-      "transfer_receipt": {
-        "target_video_id": "31010304",
-        "size_bytes": 366631264,
-        "source_bytes_read": 366631264,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31010304",
         "source_bytes_read": 366631264,
         "elapsed_seconds": 188.209,
         "finished_at": "2026-11-13T07:43:21.139080+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31010304",
+          "size_bytes": 366631264,
+          "source_bytes_read": 366631264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326725",
+        "source_url": "https://sdilej.cz/35326725/zenaty-se-zavazky-s09e09-zadny-hrnec-na-hrach.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31010304",
+        "display_name": "Married… with Children S09E09 No Pot to Pease In 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T07:43:29.513694+00:00"
       }
     }
   },
@@ -407915,7 +407916,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T07:43:26.664684+00:00",
+  "updated_at": "2026-11-13T07:43:29.513707+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
