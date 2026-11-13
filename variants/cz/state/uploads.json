@@ -424984,12 +424984,6 @@
     },
     "2231:2:12": {
       "episode_key": "star wars: povstalci:s2:e12",
-      "claim": {
-        "worker_id": "fca93c71e5844482a905a0ee0f6c4b1b-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T19:26:46.988764+00:00",
-        "lease_expires_at": "2026-11-14T01:26:46.988779+00:00"
-      },
       "source": {
         "source_id": "32003796",
         "source_url": "https://sdilej.cz/32003796/star-wars-povstalci.s02e12-cz-dab-anim.mp4",
@@ -425014,22 +425008,29 @@
         "display_name": "Star Wars Rebels S02E12 Legends of the Lasat 1080p CZ Dabing",
         "prepared_at": "2026-11-13T19:26:56.364849+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31018112",
-        "size_bytes": 490097263
-      },
-      "transfer_receipt": {
-        "target_video_id": "31018112",
-        "size_bytes": 490097263,
-        "source_bytes_read": 490097263,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31018112",
         "source_bytes_read": 490097263,
         "elapsed_seconds": 180.967,
         "finished_at": "2026-11-13T19:30:17.184409+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31018112",
+          "size_bytes": 490097263,
+          "source_bytes_read": 490097263,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32003796",
+        "source_url": "https://sdilej.cz/32003796/star-wars-povstalci.s02e12-cz-dab-anim.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31018112",
+        "display_name": "Star Wars Rebels S02E12 Legends of the Lasat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T19:30:22.917957+00:00"
       }
     },
     "2231:2:13": {
@@ -425112,7 +425113,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T19:30:17.184428+00:00",
+  "updated_at": "2026-11-13T19:30:22.917977+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
