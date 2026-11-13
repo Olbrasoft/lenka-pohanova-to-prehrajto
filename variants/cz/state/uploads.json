@@ -404485,12 +404485,6 @@
     },
     "462:6:17": {
       "episode_key": "ženatý se závazky:s6:e17",
-      "claim": {
-        "worker_id": "57e68800da534f94a42c67bcdef3e0fd-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T05:35:39.538660+00:00",
-        "lease_expires_at": "2026-11-13T11:35:39.538679+00:00"
-      },
       "source": {
         "source_id": "33522985",
         "source_url": "https://sdilej.cz/33522985/zenaty-se-zavazky-s06e17-122-1992-hd-vejce-a-ja-s-.mp4",
@@ -404515,22 +404509,29 @@
         "display_name": "Married… with Children S06E17 The Egg and I 720p CZ Dabing",
         "prepared_at": "2026-11-13T05:35:43.150523+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31009414",
-        "size_bytes": 510500130
-      },
-      "transfer_receipt": {
-        "target_video_id": "31009414",
-        "size_bytes": 510500130,
-        "source_bytes_read": 510500130,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31009414",
         "source_bytes_read": 510500130,
         "elapsed_seconds": 258.885,
         "finished_at": "2026-11-13T05:40:20.464330+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31009414",
+          "size_bytes": 510500130,
+          "source_bytes_read": 510500130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522985",
+        "source_url": "https://sdilej.cz/33522985/zenaty-se-zavazky-s06e17-122-1992-hd-vejce-a-ja-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31009414",
+        "display_name": "Married… with Children S06E17 The Egg and I 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T05:40:31.238870+00:00"
       }
     },
     "462:6:19": {
@@ -404613,7 +404614,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T05:40:26.389077+00:00",
+  "updated_at": "2026-11-13T05:40:31.238890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
