@@ -417582,12 +417582,6 @@
     },
     "61:4:3": {
       "episode_key": "tudorovci:s4:e3",
-      "claim": {
-        "worker_id": "48f3ae5b59074771bc0f84053e3fd4fe-worker-0",
-        "run_id": "43432964628",
-        "claimed_at": "2026-11-13T15:31:59.641493+00:00",
-        "lease_expires_at": "2026-11-13T21:31:59.641505+00:00"
-      },
       "source": {
         "source_id": "29555647",
         "source_url": "https://sdilej.cz/29555647/tudorovci-s04e03-1080p-cz-dabing.mkv",
@@ -417612,22 +417606,29 @@
         "display_name": "The Tudors S04E03 Something For You 1080p CZ Dabing",
         "prepared_at": "2026-11-13T15:32:13.772302+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31014265",
-        "size_bytes": 966568368
-      },
-      "transfer_receipt": {
-        "target_video_id": "31014265",
-        "size_bytes": 966568368,
-        "source_bytes_read": 966568368,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31014265",
         "source_bytes_read": 966568368,
         "elapsed_seconds": 42.297,
         "finished_at": "2026-11-13T15:33:24.119008+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31014265",
+          "size_bytes": 966568368,
+          "source_bytes_read": 966568368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29555647",
+        "source_url": "https://sdilej.cz/29555647/tudorovci-s04e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31014265",
+        "display_name": "The Tudors S04E03 Something For You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T15:33:33.320017+00:00"
       }
     },
     "61:4:4": {
@@ -417723,7 +417724,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T15:33:28.047051+00:00",
+  "updated_at": "2026-11-13T15:33:33.320032+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
