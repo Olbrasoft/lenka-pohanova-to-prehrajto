@@ -402224,12 +402224,6 @@
     },
     "462:4:16": {
       "episode_key": "ženatý se závazky:s4:e16",
-      "claim": {
-        "worker_id": "04cf567778c243c7861167d3a02bab78-worker-0",
-        "run_id": "43351725638",
-        "claimed_at": "2026-11-13T04:16:51.296248+00:00",
-        "lease_expires_at": "2026-11-13T10:16:51.296259+00:00"
-      },
       "source": {
         "source_id": "33522619",
         "source_url": "https://sdilej.cz/33522619/zenaty-se-zavazky-s04e16-073-1990-hd-las-vegas-i.-s-.mp4",
@@ -402254,22 +402248,29 @@
         "display_name": "Married… with Children S04E16 You Gotta Know When to Fold 'Em (1) 720p CZ Dabing",
         "prepared_at": "2026-11-13T04:16:58.112340+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31008917",
-        "size_bytes": 475428561
-      },
-      "transfer_receipt": {
-        "target_video_id": "31008917",
-        "size_bytes": 475428561,
-        "source_bytes_read": 475428561,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31008917",
         "source_bytes_read": 475428561,
         "elapsed_seconds": 228.9,
         "finished_at": "2026-11-13T04:21:01.726007+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31008917",
+          "size_bytes": 475428561,
+          "source_bytes_read": 475428561,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522619",
+        "source_url": "https://sdilej.cz/33522619/zenaty-se-zavazky-s04e16-073-1990-hd-las-vegas-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31008917",
+        "display_name": "Married… with Children S04E16 You Gotta Know When to Fold 'Em (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-13T04:21:08.065162+00:00"
       }
     },
     "462:4:17": {
@@ -402320,7 +402321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T04:21:04.758289+00:00",
+  "updated_at": "2026-11-13T04:21:08.065176+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
