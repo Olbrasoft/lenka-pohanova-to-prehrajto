@@ -424511,12 +424511,6 @@
     },
     "2231:2:3": {
       "episode_key": "star wars: povstalci:s2:e3",
-      "claim": {
-        "worker_id": "9a0a3911a1654eaf9921cd1a4ae4eb98-worker-0",
-        "run_id": "43462046787",
-        "claimed_at": "2026-11-13T19:03:45.549729+00:00",
-        "lease_expires_at": "2026-11-14T01:03:45.549740+00:00"
-      },
       "source": {
         "source_id": "32003593",
         "source_url": "https://sdilej.cz/32003593/star-wars-povstalci.s02e03-cz-dab-anim.mp4",
@@ -424541,22 +424535,29 @@
         "display_name": "Star Wars Rebels S02E03 Always Two There Are 1080p CZ Dabing",
         "prepared_at": "2026-11-13T19:03:55.896269+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31017924",
-        "size_bytes": 362455445
-      },
-      "transfer_receipt": {
-        "target_video_id": "31017924",
-        "size_bytes": 362455445,
-        "source_bytes_read": 362455445,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31017924",
         "source_bytes_read": 362455445,
         "elapsed_seconds": 148.769,
         "finished_at": "2026-11-13T19:06:42.077387+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31017924",
+          "size_bytes": 362455445,
+          "source_bytes_read": 362455445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32003593",
+        "source_url": "https://sdilej.cz/32003593/star-wars-povstalci.s02e03-cz-dab-anim.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31017924",
+        "display_name": "Star Wars Rebels S02E03 Always Two There Are 1080p CZ Dabing",
+        "uploaded_at": "2026-11-13T19:06:48.096306+00:00"
       }
     },
     "2231:2:4": {
@@ -424602,7 +424603,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-13T19:06:42.077408+00:00",
+  "updated_at": "2026-11-13T19:06:48.096334+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
