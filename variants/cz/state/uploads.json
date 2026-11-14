@@ -461396,12 +461396,6 @@
     },
     "2449:5:5": {
       "episode_key": "patty hewes - nebezpečná advokátka:s5:e5",
-      "claim": {
-        "worker_id": "4b3757c9e0e0471181cffefad0a04ef1-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:10:47.398646+00:00",
-        "lease_expires_at": "2026-11-15T00:10:47.398657+00:00"
-      },
       "source": {
         "source_id": "32902364",
         "source_url": "https://sdilej.cz/32902364/patty-hewes-nebezpecna-advokatka-s05e05-10-2012-cz-dab-1080p-neco-se.mp4",
@@ -461426,22 +461420,29 @@
         "display_name": "Damages S05E05 There's Something Wrong with Me 720p CZ Dabing",
         "prepared_at": "2026-11-14T18:10:50.942739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036372",
-        "size_bytes": 673813817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036372",
-        "size_bytes": 673813817,
-        "source_bytes_read": 673813817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036372",
         "source_bytes_read": 673813817,
         "elapsed_seconds": 97.762,
         "finished_at": "2026-11-14T18:12:47.203104+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036372",
+          "size_bytes": 673813817,
+          "source_bytes_read": 673813817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902364",
+        "source_url": "https://sdilej.cz/32902364/patty-hewes-nebezpecna-advokatka-s05e05-10-2012-cz-dab-1080p-neco-se.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036372",
+        "display_name": "Damages S05E05 There's Something Wrong with Me 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:12:57.323072+00:00"
       }
     },
     "2449:5:6": {
@@ -461520,7 +461521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:12:54.207537+00:00",
+  "updated_at": "2026-11-14T18:12:57.323088+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
