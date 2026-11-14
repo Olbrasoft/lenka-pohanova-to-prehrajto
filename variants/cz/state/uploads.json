@@ -452896,12 +452896,6 @@
     },
     "2966:3:1": {
       "episode_key": "vraždy v oxfordu:s3:e1",
-      "claim": {
-        "worker_id": "5743fd37a5ce4caa961d2b3827cc4292-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:11:38.407399+00:00",
-        "lease_expires_at": "2026-11-14T18:11:38.407415+00:00"
-      },
       "source": {
         "source_id": "30182838",
         "source_url": "https://sdilej.cz/30182838/vrazdy-v-oxfordu-03x01-tajemstvi-lasky.mkv",
@@ -452926,22 +452920,29 @@
         "display_name": "Lewis S03E01 Allegory of Love SD CZ Dabing",
         "prepared_at": "2026-11-14T12:11:45.235316+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029048",
-        "size_bytes": 1298836796
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029048",
-        "size_bytes": 1298836796,
-        "source_bytes_read": 1298836796,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029048",
         "source_bytes_read": 1298836796,
         "elapsed_seconds": 139.761,
         "finished_at": "2026-11-14T12:14:19.268975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029048",
+          "size_bytes": 1298836796,
+          "source_bytes_read": 1298836796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30182838",
+        "source_url": "https://sdilej.cz/30182838/vrazdy-v-oxfordu-03x01-tajemstvi-lasky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029048",
+        "display_name": "Lewis S03E01 Allegory of Love SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:14:25.209703+00:00"
       }
     },
     "2966:3:2": {
@@ -453024,7 +453025,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:14:19.269009+00:00",
+  "updated_at": "2026-11-14T12:14:25.209724+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
