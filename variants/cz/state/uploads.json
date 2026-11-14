@@ -441753,12 +441753,6 @@
     },
     "1411:15:11": {
       "episode_key": "případy detektiva murdocha:s15:e11",
-      "claim": {
-        "worker_id": "7d7edd573b5c4dcb9e470710049b1268-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:41:05.146865+00:00",
-        "lease_expires_at": "2026-11-14T08:41:05.146877+00:00"
-      },
       "source": {
         "source_id": "33823979",
         "source_url": "https://sdilej.cz/33823979/pripady-detektiva-murdocha-s15e11-229-2021-fhd-vecer-pred-vanoci-s-.mp4",
@@ -441783,22 +441777,29 @@
         "display_name": "Murdoch Mysteries S15E11 The Night Before Christmas 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:41:22.572016+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022892",
-        "size_bytes": 866960792
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022892",
-        "size_bytes": 866960792,
-        "source_bytes_read": 866960792,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022892",
         "source_bytes_read": 866960792,
         "elapsed_seconds": 206.562,
         "finished_at": "2026-11-14T02:45:06.592708+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022892",
+          "size_bytes": 866960792,
+          "source_bytes_read": 866960792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33823979",
+        "source_url": "https://sdilej.cz/33823979/pripady-detektiva-murdocha-s15e11-229-2021-fhd-vecer-pred-vanoci-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022892",
+        "display_name": "Murdoch Mysteries S15E11 The Night Before Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:45:14.854742+00:00"
       }
     },
     "1411:15:12": {
@@ -441881,7 +441882,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:45:10.554227+00:00",
+  "updated_at": "2026-11-14T02:45:14.854757+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
