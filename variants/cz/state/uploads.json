@@ -467540,12 +467540,6 @@
     },
     "30:5:5": {
       "episode_key": "lucifer:s5:e5",
-      "claim": {
-        "worker_id": "5b716cabe09c46b9af83dd353c288d90-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:42:11.624802+00:00",
-        "lease_expires_at": "2026-11-15T04:42:11.624820+00:00"
-      },
       "source": {
         "source_id": "34984903",
         "source_url": "https://sdilej.cz/34984903/lucifer-s05e05-cz.mkv",
@@ -467569,7 +467563,13 @@
         },
         "display_name": "Lucifer S05E05 Detective Amenadiel 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:42:18.577283+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T22:42:32.586245+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -467577,7 +467577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:42:27.157012+00:00",
+  "updated_at": "2026-11-14T22:42:32.586256+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467880,19 +467880,19 @@
     "30": {
       "recent_failures": [
         {
-          "identity": "30:3:13",
-          "at": "2026-11-14T22:41:55.741214+00:00"
-        },
-        {
           "identity": "30:5:4",
           "at": "2026-11-14T22:42:21.955088+00:00"
         },
         {
           "identity": "30:5:3",
           "at": "2026-11-14T22:42:27.151811+00:00"
+        },
+        {
+          "identity": "30:5:5",
+          "at": "2026-11-14T22:42:32.586180+00:00"
         }
       ],
-      "retry_after": "2026-11-14T22:52:27.151811+00:00"
+      "retry_after": "2026-11-14T22:52:32.586180+00:00"
     }
   }
 }
