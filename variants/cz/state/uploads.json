@@ -447261,12 +447261,6 @@
     },
     "1085:1:3": {
       "episode_key": "policie chicago:s1:e3",
-      "claim": {
-        "worker_id": "05c7f7c1947a494e8eb4d56fbcb24987-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:15:47.127752+00:00",
-        "lease_expires_at": "2026-11-14T15:15:47.127765+00:00"
-      },
       "source": {
         "source_id": "32203949",
         "source_url": "https://sdilej.cz/32203949/chicago-p.d.-policie-chicago-s01e03-czdab-x264.mkv",
@@ -447290,7 +447284,13 @@
         },
         "display_name": "Chicago P.D. S01E03 Chin Check 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:15:55.162062+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:16:07.626605+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:1:4": {
       "episode_key": "policie chicago:s1:e4",
@@ -447364,7 +447364,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:16:04.661760+00:00",
+  "updated_at": "2026-11-14T09:16:07.626612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -447625,6 +447625,14 @@
         }
       ],
       "retry_after": "2026-11-14T09:17:09.658109+00:00"
+    },
+    "1085": {
+      "recent_failures": [
+        {
+          "identity": "1085:1:3",
+          "at": "2026-11-14T09:16:07.626584+00:00"
+        }
+      ]
     }
   }
 }
