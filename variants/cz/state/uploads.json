@@ -451551,12 +451551,6 @@
     },
     "1242:2:4": {
       "episode_key": "mrtví jako já:s2:e4",
-      "claim": {
-        "worker_id": "5c54bf8a127d4b1abd9b1ad1c494b8ee-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:27:46.294887+00:00",
-        "lease_expires_at": "2026-11-14T17:27:46.294901+00:00"
-      },
       "source": {
         "source_id": "31173583",
         "source_url": "https://sdilej.cz/31173583/mrtvi-jako-ja-s02e04-melcina-2004-komedie-fantasy-czdab.mp4",
@@ -451581,22 +451575,29 @@
         "display_name": "Dead Like Me S02E04 The Shallow End SD CZ Dabing",
         "prepared_at": "2026-11-14T11:27:53.394209+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028250",
-        "size_bytes": 340916466
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028250",
-        "size_bytes": 340916466,
-        "source_bytes_read": 340916466,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028250",
         "source_bytes_read": 340916466,
         "elapsed_seconds": 23.723,
         "finished_at": "2026-11-14T11:28:33.844916+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028250",
+          "size_bytes": 340916466,
+          "source_bytes_read": 340916466,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31173583",
+        "source_url": "https://sdilej.cz/31173583/mrtvi-jako-ja-s02e04-melcina-2004-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028250",
+        "display_name": "Dead Like Me S02E04 The Shallow End SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:28:47.130415+00:00"
       }
     },
     "1242:2:5": {
@@ -451642,7 +451643,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:28:42.114169+00:00",
+  "updated_at": "2026-11-14T11:28:47.130430+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
