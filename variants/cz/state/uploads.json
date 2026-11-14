@@ -445017,12 +445017,6 @@
     },
     "1411:18:9": {
       "episode_key": "případy detektiva murdocha:s18:e9",
-      "claim": {
-        "worker_id": "1b40accbbfd246a1906e31cf98527a80-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:47:57.095198+00:00",
-        "lease_expires_at": "2026-11-14T12:47:57.095210+00:00"
-      },
       "source": {
         "source_id": "32870837",
         "source_url": "https://sdilej.cz/32870837/pripady-detektiva-murdocha-s18e09-cz-dabing.mkv",
@@ -445047,22 +445041,29 @@
         "display_name": "Murdoch Mysteries S18E09 When Rubber Meets the Road 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:48:03.845282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024779",
-        "size_bytes": 853608616
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024779",
-        "size_bytes": 853608616,
-        "source_bytes_read": 853608616,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024779",
         "source_bytes_read": 853608616,
         "elapsed_seconds": 444.652,
         "finished_at": "2026-11-14T06:55:44.791743+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024779",
+          "size_bytes": 853608616,
+          "source_bytes_read": 853608616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870837",
+        "source_url": "https://sdilej.cz/32870837/pripady-detektiva-murdocha-s18e09-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024779",
+        "display_name": "Murdoch Mysteries S18E09 When Rubber Meets the Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:55:53.538352+00:00"
       }
     },
     "1411:18:10": {
@@ -445158,7 +445159,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:55:49.181022+00:00",
+  "updated_at": "2026-11-14T06:55:53.538370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
