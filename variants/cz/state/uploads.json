@@ -439152,12 +439152,6 @@
     },
     "1411:11:18": {
       "episode_key": "případy detektiva murdocha:s11:e18",
-      "claim": {
-        "worker_id": "c7d3ab9dfecc443dacf1fdea6343b2f1-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:11:58.614222+00:00",
-        "lease_expires_at": "2026-11-14T07:11:58.614232+00:00"
-      },
       "source": {
         "source_id": "14043772",
         "source_url": "https://sdilej.cz/14043772/pripady-detektiva-murdocha-s11e18-volny-pad.avi",
@@ -439182,22 +439176,29 @@
         "display_name": "Murdoch Mysteries S11E18 Free Falling SD CZ Dabing",
         "prepared_at": "2026-11-14T01:12:05.929107+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022189",
-        "size_bytes": 383559680
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022189",
-        "size_bytes": 383559680,
-        "source_bytes_read": 383559680,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022189",
         "source_bytes_read": 383559680,
         "elapsed_seconds": 116.791,
         "finished_at": "2026-11-14T01:14:18.695360+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022189",
+          "size_bytes": 383559680,
+          "source_bytes_read": 383559680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043772",
+        "source_url": "https://sdilej.cz/14043772/pripady-detektiva-murdocha-s11e18-volny-pad.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022189",
+        "display_name": "Murdoch Mysteries S11E18 Free Falling SD CZ Dabing",
+        "uploaded_at": "2026-11-14T01:14:24.288917+00:00"
       }
     },
     "1411:12:1": {
@@ -439280,7 +439281,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:14:18.695379+00:00",
+  "updated_at": "2026-11-14T01:14:24.288933+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
