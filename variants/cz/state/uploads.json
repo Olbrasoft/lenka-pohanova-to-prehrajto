@@ -437367,12 +437367,6 @@
     },
     "1411:9:15": {
       "episode_key": "případy detektiva murdocha:s9:e15",
-      "claim": {
-        "worker_id": "24ec64dbb999496181e0a884bdd9d5ef-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:21:07.262192+00:00",
-        "lease_expires_at": "2026-11-14T06:21:07.262204+00:00"
-      },
       "source": {
         "source_id": "14119638",
         "source_url": "https://sdilej.cz/14119638/pripady-detektiva-murdocha-s09e15-vrazda-v-chudobinci-sd-.mp4",
@@ -437397,22 +437391,29 @@
         "display_name": "Murdoch Mysteries S09E15 House of Industry SD CZ Dabing",
         "prepared_at": "2026-11-14T00:21:16.914216+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021817",
-        "size_bytes": 174081451
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021817",
-        "size_bytes": 174081451,
-        "source_bytes_read": 174081451,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021817",
         "source_bytes_read": 174081451,
         "elapsed_seconds": 66.901,
         "finished_at": "2026-11-14T00:22:40.182598+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021817",
+          "size_bytes": 174081451,
+          "source_bytes_read": 174081451,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14119638",
+        "source_url": "https://sdilej.cz/14119638/pripady-detektiva-murdocha-s09e15-vrazda-v-chudobinci-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021817",
+        "display_name": "Murdoch Mysteries S09E15 House of Industry SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:22:48.803391+00:00"
       }
     },
     "1411:9:16": {
@@ -437509,7 +437510,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:22:43.993577+00:00",
+  "updated_at": "2026-11-14T00:22:48.803410+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
