@@ -460328,12 +460328,6 @@
     },
     "2449:2:5": {
       "episode_key": "patty hewes - nebezpečná advokátka:s2:e5",
-      "claim": {
-        "worker_id": "6938a1465235490592f3d910bdcd5cef-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:42:12.753950+00:00",
-        "lease_expires_at": "2026-11-14T23:42:12.753965+00:00"
-      },
       "source": {
         "source_id": "33516549",
         "source_url": "https://sdilej.cz/33516549/patty-hewes-nebezpecna-advokatka-s02e05-13-2009-cz-dab-720p-spravne-n.mp4",
@@ -460358,22 +460352,29 @@
         "display_name": "Damages S02E05 I Agree, It Wasn't Funny 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:42:16.363118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035827",
-        "size_bytes": 574112745
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035827",
-        "size_bytes": 574112745,
-        "source_bytes_read": 574112745,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035827",
         "source_bytes_read": 574112745,
         "elapsed_seconds": 86.362,
         "finished_at": "2026-11-14T17:43:56.991496+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035827",
+          "size_bytes": 574112745,
+          "source_bytes_read": 574112745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33516549",
+        "source_url": "https://sdilej.cz/33516549/patty-hewes-nebezpecna-advokatka-s02e05-13-2009-cz-dab-720p-spravne-n.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035827",
+        "display_name": "Damages S02E05 I Agree, It Wasn't Funny 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:44:04.138750+00:00"
       }
     },
     "2449:2:6": {
@@ -460415,7 +460416,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:43:59.874053+00:00",
+  "updated_at": "2026-11-14T17:44:04.138772+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
