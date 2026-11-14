@@ -460700,12 +460700,6 @@
     },
     "1085:2:23": {
       "episode_key": "policie chicago:s2:e23",
-      "claim": {
-        "worker_id": "40961e7e0ee04184bd0237b11ce7f1e4-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:54:03.771719+00:00",
-        "lease_expires_at": "2026-11-14T23:54:03.771731+00:00"
-      },
       "source": {
         "source_id": "27884013",
         "source_url": "https://sdilej.cz/27884013/policie-chicago-02x23.avi",
@@ -460729,7 +460723,13 @@
         },
         "display_name": "Chicago P.D. S02E23 Born Into Bad News SD CZ Dabing",
         "prepared_at": "2026-11-14T17:54:14.336515+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T17:54:27.079312+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2449:3:12": {
       "episode_key": "patty hewes - nebezpečná advokátka:s3:e12",
@@ -460806,7 +460806,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:54:24.020841+00:00",
+  "updated_at": "2026-11-14T17:54:27.079317+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -461087,19 +461087,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:1:10",
-          "at": "2026-11-14T17:53:46.776288+00:00"
-        },
-        {
           "identity": "1085:1:11",
           "at": "2026-11-14T17:53:55.101484+00:00"
         },
         {
           "identity": "1085:1:15",
           "at": "2026-11-14T17:54:00.795370+00:00"
+        },
+        {
+          "identity": "1085:2:23",
+          "at": "2026-11-14T17:54:27.079251+00:00"
         }
       ],
-      "retry_after": "2026-11-14T18:04:00.795370+00:00"
+      "retry_after": "2026-11-14T18:04:27.079251+00:00"
     },
     "1820": {
       "recent_failures": [
