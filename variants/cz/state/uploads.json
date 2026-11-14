@@ -453579,12 +453579,6 @@
     },
     "2966:6:2": {
       "episode_key": "vraždy v oxfordu:s6:e2",
-      "claim": {
-        "worker_id": "c37e85bcd28147e6913a7bab31e8306f-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:33:56.179757+00:00",
-        "lease_expires_at": "2026-11-14T18:33:56.179772+00:00"
-      },
       "source": {
         "source_id": "29919940",
         "source_url": "https://sdilej.cz/29919940/vrazdy-v-oxfordu-s06e02-022-2011-sd-plemeno-zmiji-s-.mp4",
@@ -453609,22 +453603,29 @@
         "display_name": "Lewis S06E02 Generation of Vipers SD CZ Dabing",
         "prepared_at": "2026-11-14T12:34:03.433001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029448",
-        "size_bytes": 1154272426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029448",
-        "size_bytes": 1154272426,
-        "source_bytes_read": 1154272426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029448",
         "source_bytes_read": 1154272426,
         "elapsed_seconds": 244.756,
         "finished_at": "2026-11-14T12:38:26.180894+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029448",
+          "size_bytes": 1154272426,
+          "source_bytes_read": 1154272426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919940",
+        "source_url": "https://sdilej.cz/29919940/vrazdy-v-oxfordu-s06e02-022-2011-sd-plemeno-zmiji-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029448",
+        "display_name": "Lewis S06E02 Generation of Vipers SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:38:32.515645+00:00"
       }
     },
     "2966:6:3": {
@@ -453772,7 +453773,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:38:26.180919+00:00",
+  "updated_at": "2026-11-14T12:38:32.515664+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
