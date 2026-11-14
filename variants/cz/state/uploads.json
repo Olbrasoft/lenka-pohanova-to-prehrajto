@@ -466921,12 +466921,6 @@
     },
     "31:1:4": {
       "episode_key": "orange is the new black:s1:e4",
-      "claim": {
-        "worker_id": "8c2fddbe15c7466eb9de39bb205780c9-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T22:01:59.267099+00:00",
-        "lease_expires_at": "2026-11-15T04:01:59.267116+00:00"
-      },
       "source": {
         "source_id": "27306325",
         "source_url": "https://sdilej.cz/27306325/orange-is-the-new-black-cz-s01e04.mkv",
@@ -466951,22 +466945,29 @@
         "display_name": "Orange Is the New Black S01E04 Imaginary Enemies 1080p CZ Dabing",
         "prepared_at": "2026-11-14T22:02:03.508549+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31040188",
-        "size_bytes": 688598461
-      },
-      "transfer_receipt": {
-        "target_video_id": "31040188",
-        "size_bytes": 688598461,
-        "source_bytes_read": 688598461,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31040188",
         "source_bytes_read": 688598461,
         "elapsed_seconds": 92.196,
         "finished_at": "2026-11-14T22:04:00.182579+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31040188",
+          "size_bytes": 688598461,
+          "source_bytes_read": 688598461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306325",
+        "source_url": "https://sdilej.cz/27306325/orange-is-the-new-black-cz-s01e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31040188",
+        "display_name": "Orange Is the New Black S01E04 Imaginary Enemies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T22:04:11.159665+00:00"
       }
     },
     "31:1:5": {
@@ -467063,7 +467064,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:04:03.895428+00:00",
+  "updated_at": "2026-11-14T22:04:11.159692+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
