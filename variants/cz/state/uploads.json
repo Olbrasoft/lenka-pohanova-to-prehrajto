@@ -449070,12 +449070,6 @@
     },
     "1820:2:12": {
       "episode_key": "vražedné záhady slečny fisherové:s2:e12",
-      "claim": {
-        "worker_id": "d0c6ff91496e4068b7b2b66aca3dff85-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:09:53.678978+00:00",
-        "lease_expires_at": "2026-11-14T16:09:53.678990+00:00"
-      },
       "source": {
         "source_id": "27629187",
         "source_url": "https://sdilej.cz/27629187/vrazedne-zahady-slecny-fisherove-s02e12-25-2013-sd-podivne-zvyky-sd-.mp4",
@@ -449100,22 +449094,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S02E12 Unnatural Habits SD CZ Dabing",
         "prepared_at": "2026-11-14T10:10:06.415497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31026957",
-        "size_bytes": 709709464
-      },
-      "transfer_receipt": {
-        "target_video_id": "31026957",
-        "size_bytes": 709709464,
-        "source_bytes_read": 709709464,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31026957",
         "source_bytes_read": 709709464,
         "elapsed_seconds": 51.936,
         "finished_at": "2026-11-14T10:11:20.902355+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31026957",
+          "size_bytes": 709709464,
+          "source_bytes_read": 709709464,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27629187",
+        "source_url": "https://sdilej.cz/27629187/vrazedne-zahady-slecny-fisherove-s02e12-25-2013-sd-podivne-zvyky-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31026957",
+        "display_name": "Miss Fisher's Murder Mysteries S02E12 Unnatural Habits SD CZ Dabing",
+        "uploaded_at": "2026-11-14T10:11:28.954264+00:00"
       }
     },
     "1820:2:13": {
@@ -449249,7 +449250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:11:24.376491+00:00",
+  "updated_at": "2026-11-14T10:11:28.954281+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
