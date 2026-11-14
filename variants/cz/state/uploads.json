@@ -436908,12 +436908,6 @@
     },
     "1411:9:5": {
       "episode_key": "případy detektiva murdocha:s9:e5",
-      "claim": {
-        "worker_id": "6d39be77b4a343d6bac35b3f9e035072-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:06:25.587141+00:00",
-        "lease_expires_at": "2026-11-14T06:06:25.587156+00:00"
-      },
       "source": {
         "source_id": "18489801",
         "source_url": "https://sdilej.cz/18489801/pripady-detektiva-murdocha-s09e05-24-hodin-do-konce-sveta-sd-.avi",
@@ -436938,22 +436932,29 @@
         "display_name": "Murdoch Mysteries S09E05 24 Hours Til Doomsday SD CZ Dabing",
         "prepared_at": "2026-11-14T00:06:35.727846+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021715",
-        "size_bytes": 456749694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021715",
-        "size_bytes": 456749694,
-        "source_bytes_read": 456749694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021715",
         "source_bytes_read": 456749694,
         "elapsed_seconds": 161.978,
         "finished_at": "2026-11-14T00:09:36.251841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021715",
+          "size_bytes": 456749694,
+          "source_bytes_read": 456749694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18489801",
+        "source_url": "https://sdilej.cz/18489801/pripady-detektiva-murdocha-s09e05-24-hodin-do-konce-sveta-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021715",
+        "display_name": "Murdoch Mysteries S09E05 24 Hours Til Doomsday SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:09:40.739540+00:00"
       }
     },
     "1411:9:6": {
@@ -437036,7 +437037,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:09:36.251862+00:00",
+  "updated_at": "2026-11-14T00:09:40.739559+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
