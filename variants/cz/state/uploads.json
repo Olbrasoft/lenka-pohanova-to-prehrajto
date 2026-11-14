@@ -443997,12 +443997,6 @@
     },
     "1411:17:13": {
       "episode_key": "případy detektiva murdocha:s17:e13",
-      "claim": {
-        "worker_id": "789be57998624b119848e5f4c68ddf43-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:43:44.982537+00:00",
-        "lease_expires_at": "2026-11-14T11:43:44.982550+00:00"
-      },
       "source": {
         "source_id": "29199831",
         "source_url": "https://sdilej.cz/29199831/pripady-detektiva-murdocha-s17e13-cz-hd-vlak-do-nikam.mkv",
@@ -444027,22 +444021,29 @@
         "display_name": "Murdoch Mysteries S17E13 Train to Nowhere 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:43:48.503442+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024354",
-        "size_bytes": 963016746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024354",
-        "size_bytes": 963016746,
-        "source_bytes_read": 963016746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024354",
         "source_bytes_read": 963016746,
         "elapsed_seconds": 416.138,
         "finished_at": "2026-11-14T05:50:58.177482+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024354",
+          "size_bytes": 963016746,
+          "source_bytes_read": 963016746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29199831",
+        "source_url": "https://sdilej.cz/29199831/pripady-detektiva-murdocha-s17e13-cz-hd-vlak-do-nikam.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024354",
+        "display_name": "Murdoch Mysteries S17E13 Train to Nowhere 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:51:02.578354+00:00"
       }
     },
     "1411:17:14": {
@@ -444125,7 +444126,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:50:58.177499+00:00",
+  "updated_at": "2026-11-14T05:51:02.578371+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
