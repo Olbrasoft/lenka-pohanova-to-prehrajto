@@ -460533,12 +460533,6 @@
     },
     "2449:3:9": {
       "episode_key": "patty hewes - nebezpečná advokátka:s3:e9",
-      "claim": {
-        "worker_id": "e75ef3a28fff49dd883256a8af90aee0-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:46:31.193578+00:00",
-        "lease_expires_at": "2026-11-14T23:46:31.193589+00:00"
-      },
       "source": {
         "source_id": "32902294",
         "source_url": "https://sdilej.cz/32902294/patty-hewes-nebezpecna-advokatka-s03e09-13-2010-cz-dab-720p-projed-to.mp4",
@@ -460563,22 +460557,29 @@
         "display_name": "Damages S03E09 Drive It Through Hardcore 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:46:36.268584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035944",
-        "size_bytes": 621948178
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035944",
-        "size_bytes": 621948178,
-        "source_bytes_read": 621948178,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035944",
         "source_bytes_read": 621948178,
         "elapsed_seconds": 110.973,
         "finished_at": "2026-11-14T17:48:42.458751+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035944",
+          "size_bytes": 621948178,
+          "source_bytes_read": 621948178,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902294",
+        "source_url": "https://sdilej.cz/32902294/patty-hewes-nebezpecna-advokatka-s03e09-13-2010-cz-dab-720p-projed-to.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035944",
+        "display_name": "Damages S03E09 Drive It Through Hardcore 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:48:49.230299+00:00"
       }
     },
     "2449:3:10": {
@@ -460638,7 +460639,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:48:42.458772+00:00",
+  "updated_at": "2026-11-14T17:48:49.230317+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
