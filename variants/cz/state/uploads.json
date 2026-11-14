@@ -449762,12 +449762,6 @@
     },
     "1820:3:4": {
       "episode_key": "vražedné záhady slečny fisherové:s3:e4",
-      "claim": {
-        "worker_id": "8ee9ad8622624e2ca65a42a6c586bb96-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:40:49.336057+00:00",
-        "lease_expires_at": "2026-11-14T16:40:49.336068+00:00"
-      },
       "source": {
         "source_id": "13317795",
         "source_url": "https://sdilej.cz/13317795/vrazedne-zahady-slecny-fisherove-s03e04-cz-krev-a-penize-.avi",
@@ -449792,22 +449786,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S03E04 Blood & Money SD CZ Dabing",
         "prepared_at": "2026-11-14T10:40:54.216573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027592",
-        "size_bytes": 562042094
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027592",
-        "size_bytes": 562042094,
-        "source_bytes_read": 562042094,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027592",
         "source_bytes_read": 562042094,
         "elapsed_seconds": 37.272,
         "finished_at": "2026-11-14T10:41:51.398310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027592",
+          "size_bytes": 562042094,
+          "source_bytes_read": 562042094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13317795",
+        "source_url": "https://sdilej.cz/13317795/vrazedne-zahady-slecny-fisherove-s03e04-cz-krev-a-penize-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027592",
+        "display_name": "Miss Fisher's Murder Mysteries S03E04 Blood & Money SD CZ Dabing",
+        "uploaded_at": "2026-11-14T10:41:56.890224+00:00"
       }
     },
     "1820:3:5": {
@@ -449890,7 +449891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:41:51.398330+00:00",
+  "updated_at": "2026-11-14T10:41:56.890239+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
