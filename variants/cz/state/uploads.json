@@ -453870,24 +453870,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-14T16:22:38.420014+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-14T17:29:03.271975+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-14T18:32:24.784969+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-14T20:47:58.556469+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "123f90088d9e49ce9b39beb835235f1e-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:47:37.325685+00:00",
-        "lease_expires_at": "2026-11-15T02:47:37.325702+00:00"
-      }
+      ]
     },
     "2296:1:2": {
       "episode_key": "durrellovi:s1:e2",
@@ -464412,7 +464406,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:47:54.960990+00:00",
+  "updated_at": "2026-11-14T20:47:58.556477+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -464659,6 +464653,10 @@
         {
           "identity": "1085:2:16",
           "at": "2026-11-14T20:47:23.195452+00:00"
+        },
+        {
+          "identity": "1085:2:17",
+          "at": "2026-11-14T20:47:58.556429+00:00"
         }
       ],
       "retry_after": "2026-11-14T20:46:11.960487+00:00"
