@@ -441918,12 +441918,6 @@
     },
     "1411:15:14": {
       "episode_key": "případy detektiva murdocha:s15:e14",
-      "claim": {
-        "worker_id": "9f5388c7067b49a182aa82236569b3e7-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:45:24.131183+00:00",
-        "lease_expires_at": "2026-11-14T08:45:24.131194+00:00"
-      },
       "source": {
         "source_id": "34823950",
         "source_url": "https://sdilej.cz/34823950/pripady-detektiva-murdocha-s15e14-232-2022-fhd-carodejnice-vychodniho-yorku-s-.mp4",
@@ -441948,22 +441942,29 @@
         "display_name": "Murdoch Mysteries S15E14 The Witches of East York 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:45:27.897188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022924",
-        "size_bytes": 864388111
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022924",
-        "size_bytes": 864388111,
-        "source_bytes_read": 864388111,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022924",
         "source_bytes_read": 864388111,
         "elapsed_seconds": 283.977,
         "finished_at": "2026-11-14T02:50:26.063636+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022924",
+          "size_bytes": 864388111,
+          "source_bytes_read": 864388111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34823950",
+        "source_url": "https://sdilej.cz/34823950/pripady-detektiva-murdocha-s15e14-232-2022-fhd-carodejnice-vychodniho-yorku-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022924",
+        "display_name": "Murdoch Mysteries S15E14 The Witches of East York 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:50:35.907012+00:00"
       }
     }
   },
@@ -441972,7 +441973,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:50:32.996888+00:00",
+  "updated_at": "2026-11-14T02:50:35.907026+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
