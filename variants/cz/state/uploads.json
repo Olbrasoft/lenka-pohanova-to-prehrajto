@@ -458001,12 +458001,6 @@
     },
     "951:5:3": {
       "episode_key": "protiúder:s5:e3",
-      "claim": {
-        "worker_id": "7cbbf8f03a09497eae36ac377c037525-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:36:54.807176+00:00",
-        "lease_expires_at": "2026-11-14T22:36:54.807188+00:00"
-      },
       "source": {
         "source_id": "11651817",
         "source_url": "https://sdilej.cz/11651817/strike.back.s05e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -458031,22 +458025,29 @@
         "display_name": "Strike Back S05E03 1080p CZ Dabing",
         "prepared_at": "2026-11-14T16:36:58.429517+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034446",
-        "size_bytes": 1118093722
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034446",
-        "size_bytes": 1118093722,
-        "source_bytes_read": 1118093722,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034446",
         "source_bytes_read": 1118093722,
         "elapsed_seconds": 169.667,
         "finished_at": "2026-11-14T16:40:01.230957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034446",
+          "size_bytes": 1118093722,
+          "source_bytes_read": 1118093722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11651817",
+        "source_url": "https://sdilej.cz/11651817/strike.back.s05e03.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034446",
+        "display_name": "Strike Back S05E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T16:40:06.936558+00:00"
       }
     },
     "951:5:4": {
@@ -458092,7 +458093,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:40:01.230976+00:00",
+  "updated_at": "2026-11-14T16:40:06.936581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
