@@ -448700,12 +448700,6 @@
     },
     "1085:2:1": {
       "episode_key": "policie chicago:s2:e1",
-      "claim": {
-        "worker_id": "d144d820f51d4099a70e41c31ba05a2c-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:55:44.445248+00:00",
-        "lease_expires_at": "2026-11-14T15:55:44.445258+00:00"
-      },
       "source": {
         "source_id": "32203981",
         "source_url": "https://sdilej.cz/32203981/chicago-p.d.-policie-chicago-s02e01-czdab-x264.mkv",
@@ -448729,7 +448723,13 @@
         },
         "display_name": "Chicago P.D. S02E01 Call It Macaroni 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:55:48.169536+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:55:58.785566+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -448737,7 +448737,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:55:51.780406+00:00",
+  "updated_at": "2026-11-14T09:55:58.785571+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -449022,19 +449022,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:1:11",
-          "at": "2026-11-14T09:52:15.568051+00:00"
-        },
-        {
           "identity": "1085:1:10",
           "at": "2026-11-14T09:52:23.342330+00:00"
         },
         {
           "identity": "1085:1:15",
           "at": "2026-11-14T09:55:51.780342+00:00"
+        },
+        {
+          "identity": "1085:2:1",
+          "at": "2026-11-14T09:55:58.785508+00:00"
         }
       ],
-      "retry_after": "2026-11-14T10:05:51.780342+00:00"
+      "retry_after": "2026-11-14T10:05:58.785508+00:00"
     }
   }
 }
