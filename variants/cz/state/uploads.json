@@ -465889,12 +465889,6 @@
     },
     "30:3:11": {
       "episode_key": "lucifer:s3:e11",
-      "claim": {
-        "worker_id": "4adda0242abc4a99aa4fb0de98126bb9-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:40:40.950440+00:00",
-        "lease_expires_at": "2026-11-15T03:40:40.950456+00:00"
-      },
       "source": {
         "source_id": "34807868",
         "source_url": "https://sdilej.cz/34807868/lucifer-s03e11-mesto-andelu.mp4",
@@ -465919,22 +465913,29 @@
         "display_name": "Lucifer S03E11 City of Angels? 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:40:48.569706+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31039652",
-        "size_bytes": 691828408
-      },
-      "transfer_receipt": {
-        "target_video_id": "31039652",
-        "size_bytes": 691828408,
-        "source_bytes_read": 691828408,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31039652",
         "source_bytes_read": 691828408,
         "elapsed_seconds": 62.363,
         "finished_at": "2026-11-14T21:42:08.712479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31039652",
+          "size_bytes": 691828408,
+          "source_bytes_read": 691828408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34807868",
+        "source_url": "https://sdilej.cz/34807868/lucifer-s03e11-mesto-andelu.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31039652",
+        "display_name": "Lucifer S03E11 City of Angels? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T21:42:17.101787+00:00"
       }
     },
     "30:3:12": {
@@ -465980,7 +465981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:42:13.639280+00:00",
+  "updated_at": "2026-11-14T21:42:17.101803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
