@@ -437169,12 +437169,6 @@
     },
     "1411:9:11": {
       "episode_key": "případy detektiva murdocha:s9:e11",
-      "claim": {
-        "worker_id": "ae8a06832f644928976df4b94fd99892-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:13:20.569127+00:00",
-        "lease_expires_at": "2026-11-14T06:13:20.569138+00:00"
-      },
       "source": {
         "source_id": "30757448",
         "source_url": "https://sdilej.cz/30757448/pripady-detektiva-murdocha-s09e11-126-2016-sd-vrazda-podle-pravidel-sd-.mp4",
@@ -437199,22 +437193,29 @@
         "display_name": "Murdoch Mysteries S09E11 A Case of the Yips SD CZ Dabing",
         "prepared_at": "2026-11-14T00:13:27.964842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021762",
-        "size_bytes": 935204278
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021762",
-        "size_bytes": 935204278,
-        "source_bytes_read": 935204278,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021762",
         "source_bytes_read": 935204278,
         "elapsed_seconds": 329.835,
         "finished_at": "2026-11-14T00:19:14.592320+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021762",
+          "size_bytes": 935204278,
+          "source_bytes_read": 935204278,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30757448",
+        "source_url": "https://sdilej.cz/30757448/pripady-detektiva-murdocha-s09e11-126-2016-sd-vrazda-podle-pravidel-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021762",
+        "display_name": "Murdoch Mysteries S09E11 A Case of the Yips SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:19:18.894859+00:00"
       }
     },
     "1411:9:12": {
@@ -437362,7 +437363,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:19:14.592336+00:00",
+  "updated_at": "2026-11-14T00:19:18.894877+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
