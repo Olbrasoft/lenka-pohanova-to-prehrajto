@@ -441198,12 +441198,6 @@
     },
     "1411:14:8": {
       "episode_key": "případy detektiva murdocha:s14:e8",
-      "claim": {
-        "worker_id": "f9d69af7982243128ac5ba4b51171566-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:20:01.092588+00:00",
-        "lease_expires_at": "2026-11-14T08:20:01.092601+00:00"
-      },
       "source": {
         "source_id": "22391260",
         "source_url": "https://sdilej.cz/22391260/pripady-detektiva-murdocha-s14e08-svrchovane-mimico-cz-dabing.avi",
@@ -441228,22 +441222,29 @@
         "display_name": "Murdoch Mysteries S14E08 The Dominion of New South Mimico 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:20:04.823553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022692",
-        "size_bytes": 900760248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022692",
-        "size_bytes": 900760248,
-        "source_bytes_read": 900760248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022692",
         "source_bytes_read": 900760248,
         "elapsed_seconds": 335.169,
         "finished_at": "2026-11-14T02:25:56.139860+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022692",
+          "size_bytes": 900760248,
+          "source_bytes_read": 900760248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22391260",
+        "source_url": "https://sdilej.cz/22391260/pripady-detektiva-murdocha-s14e08-svrchovane-mimico-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022692",
+        "display_name": "Murdoch Mysteries S14E08 The Dominion of New South Mimico 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:26:05.543047+00:00"
       }
     },
     "1411:14:9": {
@@ -441354,7 +441355,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:25:59.260167+00:00",
+  "updated_at": "2026-11-14T02:26:05.543065+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
