@@ -463428,12 +463428,6 @@
     },
     "95:2:8": {
       "episode_key": "wednesday:s2:e8",
-      "claim": {
-        "worker_id": "143e673096944883ab96087843336b0d-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:24:01.883486+00:00",
-        "lease_expires_at": "2026-11-15T02:24:01.883504+00:00"
-      },
       "source": {
         "source_id": "32322371",
         "source_url": "https://sdilej.cz/32322371/wednesday-02x08-cz.mkv",
@@ -463458,22 +463452,29 @@
         "display_name": "Wednesday S02E08 This Means Woe 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:24:12.146274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038378",
-        "size_bytes": 1206961535
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038378",
-        "size_bytes": 1206961535,
-        "source_bytes_read": 1206961535,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038378",
         "source_bytes_read": 1206961535,
         "elapsed_seconds": 304.086,
         "finished_at": "2026-11-14T20:29:35.052731+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038378",
+          "size_bytes": 1206961535,
+          "source_bytes_read": 1206961535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32322371",
+        "source_url": "https://sdilej.cz/32322371/wednesday-02x08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038378",
+        "display_name": "Wednesday S02E08 This Means Woe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:29:41.976546+00:00"
       }
     },
     "2418:1:1": {
@@ -463607,7 +463608,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:29:35.052748+00:00",
+  "updated_at": "2026-11-14T20:29:41.976562+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
