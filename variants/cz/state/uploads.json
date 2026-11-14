@@ -447328,24 +447328,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-14T17:41:21.598218+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-14T18:49:05.542787+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-14T19:53:22.666518+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-14T20:59:53.493032+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "4d9b80f4825a4914ad730b13cd60009c-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:59:37.961032+00:00",
-        "lease_expires_at": "2026-11-15T02:59:37.961047+00:00"
-      }
+      ]
     },
     "1085:1:5": {
       "episode_key": "policie chicago:s1:e5",
@@ -464968,7 +464962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:59:48.784375+00:00",
+  "updated_at": "2026-11-14T20:59:53.493038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -465231,6 +465225,10 @@
         {
           "identity": "1085:1:3",
           "at": "2026-11-14T20:59:27.088527+00:00"
+        },
+        {
+          "identity": "1085:1:4",
+          "at": "2026-11-14T20:59:53.493003+00:00"
         }
       ],
       "retry_after": "2026-11-14T20:58:42.928326+00:00"
