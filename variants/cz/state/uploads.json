@@ -437622,12 +437622,6 @@
     },
     "1411:10:3": {
       "episode_key": "případy detektiva murdocha:s10:e3",
-      "claim": {
-        "worker_id": "75c67b8c12cd455ea6291c8f3b5e495c-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:26:11.120296+00:00",
-        "lease_expires_at": "2026-11-14T06:26:11.120308+00:00"
-      },
       "source": {
         "source_id": "14043598",
         "source_url": "https://sdilej.cz/14043598/pripady-detektiva-murdocha-s10e03-lez-jako-kdyz-tiskne.avi",
@@ -437652,22 +437646,29 @@
         "display_name": "Murdoch Mysteries S10E03 A Study in Pink SD CZ Dabing",
         "prepared_at": "2026-11-14T00:26:14.914743+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021855",
-        "size_bytes": 367706112
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021855",
-        "size_bytes": 367706112,
-        "source_bytes_read": 367706112,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021855",
         "source_bytes_read": 367706112,
         "elapsed_seconds": 126.835,
         "finished_at": "2026-11-14T00:28:36.599119+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021855",
+          "size_bytes": 367706112,
+          "source_bytes_read": 367706112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043598",
+        "source_url": "https://sdilej.cz/14043598/pripady-detektiva-murdocha-s10e03-lez-jako-kdyz-tiskne.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021855",
+        "display_name": "Murdoch Mysteries S10E03 A Study in Pink SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:28:40.859682+00:00"
       }
     },
     "1411:10:4": {
@@ -437750,7 +437751,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:28:36.599142+00:00",
+  "updated_at": "2026-11-14T00:28:40.859698+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
