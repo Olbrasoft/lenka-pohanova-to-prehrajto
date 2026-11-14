@@ -456202,12 +456202,6 @@
     },
     "1812:3:8": {
       "episode_key": "the deuce: špína manhattanu:s3:e8",
-      "claim": {
-        "worker_id": "0dfeca1b870f4a5ca8093c3f0b740af7-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:14:01.911383+00:00",
-        "lease_expires_at": "2026-11-14T21:14:01.911395+00:00"
-      },
       "source": {
         "source_id": "33817220",
         "source_url": "https://sdilej.cz/33817220/the-deuce-s03e08-finish-it.mkv",
@@ -456232,22 +456226,29 @@
         "display_name": "The Deuce S03E08 Finish It 4K CZ Dabing",
         "prepared_at": "2026-11-14T15:14:08.700594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31032527",
-        "size_bytes": 3193958396
-      },
-      "transfer_receipt": {
-        "target_video_id": "31032527",
-        "size_bytes": 3193958396,
-        "source_bytes_read": 3193958396,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31032527",
         "source_bytes_read": 3193958396,
         "elapsed_seconds": 726.976,
         "finished_at": "2026-11-14T15:26:31.446285+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31032527",
+          "size_bytes": 3193958396,
+          "source_bytes_read": 3193958396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33817220",
+        "source_url": "https://sdilej.cz/33817220/the-deuce-s03e08-finish-it.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31032527",
+        "display_name": "The Deuce S03E08 Finish It 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T15:26:37.152614+00:00"
       }
     },
     "951:2:1": {
@@ -456330,7 +456331,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:26:31.446306+00:00",
+  "updated_at": "2026-11-14T15:26:37.152632+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
