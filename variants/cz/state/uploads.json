@@ -462326,12 +462326,6 @@
     },
     "828:1:10": {
       "episode_key": "svědectví:s1:e10",
-      "claim": {
-        "worker_id": "6331c5545dc1425a9001af3855fda6c5-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T19:03:18.083590+00:00",
-        "lease_expires_at": "2026-11-15T01:03:18.083607+00:00"
-      },
       "source": {
         "source_id": "34400475",
         "source_url": "https://sdilej.cz/34400475/svedectvi-s01e10-zahradnicke-nuzky.mkv",
@@ -462356,22 +462350,29 @@
         "display_name": "The Testaments S01E10 Secateurs 4K CZ Dabing",
         "prepared_at": "2026-11-14T19:03:28.923772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31037233",
-        "size_bytes": 2770620198
-      },
-      "transfer_receipt": {
-        "target_video_id": "31037233",
-        "size_bytes": 2770620198,
-        "source_bytes_read": 2770620198,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31037233",
         "source_bytes_read": 2770620198,
         "elapsed_seconds": 382.39,
         "finished_at": "2026-11-14T19:10:10.417816+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31037233",
+          "size_bytes": 2770620198,
+          "source_bytes_read": 2770620198,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400475",
+        "source_url": "https://sdilej.cz/34400475/svedectvi-s01e10-zahradnicke-nuzky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31037233",
+        "display_name": "The Testaments S01E10 Secateurs 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T19:10:24.393183+00:00"
       }
     },
     "1016:1:1": {
@@ -462534,7 +462535,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T19:10:17.772880+00:00",
+  "updated_at": "2026-11-14T19:10:24.393205+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
