@@ -457579,12 +457579,6 @@
     },
     "951:4:6": {
       "episode_key": "protiúder:s4:e6",
-      "claim": {
-        "worker_id": "2208467c663c48479df337fc5e11423b-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:27:24.074696+00:00",
-        "lease_expires_at": "2026-11-14T22:27:24.074710+00:00"
-      },
       "source": {
         "source_id": "11352932",
         "source_url": "https://sdilej.cz/11352932/protiuder-strike-back-s04e06-brrip-czdab.mkv",
@@ -457609,22 +457603,29 @@
         "display_name": "Strike Back S04E06 SD CZ Dabing",
         "prepared_at": "2026-11-14T16:27:40.180538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034278",
-        "size_bytes": 412141089
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034278",
-        "size_bytes": 412141089,
-        "source_bytes_read": 412141089,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034278",
         "source_bytes_read": 412141089,
         "elapsed_seconds": 117.943,
         "finished_at": "2026-11-14T16:29:56.891495+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034278",
+          "size_bytes": 412141089,
+          "source_bytes_read": 412141089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11352932",
+        "source_url": "https://sdilej.cz/11352932/protiuder-strike-back-s04e06-brrip-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034278",
+        "display_name": "Strike Back S04E06 SD CZ Dabing",
+        "uploaded_at": "2026-11-14T16:30:01.471811+00:00"
       }
     },
     "951:4:7": {
@@ -457670,7 +457671,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:29:56.891514+00:00",
+  "updated_at": "2026-11-14T16:30:01.471838+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
