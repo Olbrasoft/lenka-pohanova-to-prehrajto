@@ -438546,12 +438546,6 @@
     },
     "1411:11:6": {
       "episode_key": "případy detektiva murdocha:s11:e6",
-      "claim": {
-        "worker_id": "8125fc4e36d44e9f954cd11d7eec165d-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:47:36.164856+00:00",
-        "lease_expires_at": "2026-11-14T06:47:36.164866+00:00"
-      },
       "source": {
         "source_id": "14043739",
         "source_url": "https://sdilej.cz/14043739/pripady-detektiva-murdocha-s11e06-oko-bere.avi",
@@ -438576,22 +438570,29 @@
         "display_name": "Murdoch Mysteries S11E06 21 Murdoch Street SD CZ Dabing",
         "prepared_at": "2026-11-14T00:47:39.709983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022035",
-        "size_bytes": 367681536
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022035",
-        "size_bytes": 367681536,
-        "source_bytes_read": 367681536,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022035",
         "source_bytes_read": 367681536,
         "elapsed_seconds": 125.791,
         "finished_at": "2026-11-14T00:50:00.554946+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022035",
+          "size_bytes": 367681536,
+          "source_bytes_read": 367681536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043739",
+        "source_url": "https://sdilej.cz/14043739/pripady-detektiva-murdocha-s11e06-oko-bere.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022035",
+        "display_name": "Murdoch Mysteries S11E06 21 Murdoch Street SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:50:08.274438+00:00"
       }
     }
   },
@@ -438600,7 +438601,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:50:03.602204+00:00",
+  "updated_at": "2026-11-14T00:50:08.274454+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
