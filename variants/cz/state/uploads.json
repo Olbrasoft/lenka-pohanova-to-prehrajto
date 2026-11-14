@@ -466805,12 +466805,6 @@
     },
     "31:1:2": {
       "episode_key": "orange is the new black:s1:e2",
-      "claim": {
-        "worker_id": "2d342226e9d344788d304d1f2e3528b4-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:55:53.793855+00:00",
-        "lease_expires_at": "2026-11-15T03:55:53.793869+00:00"
-      },
       "source": {
         "source_id": "27306269",
         "source_url": "https://sdilej.cz/27306269/orange-is-the-new-black-cz-s01e02.mkv",
@@ -466835,22 +466829,29 @@
         "display_name": "Orange Is the New Black S01E02 Tit Punch 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:56:06.997619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31040076",
-        "size_bytes": 656153524
-      },
-      "transfer_receipt": {
-        "target_video_id": "31040076",
-        "size_bytes": 656153524,
-        "source_bytes_read": 656153524,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31040076",
         "source_bytes_read": 656153524,
         "elapsed_seconds": 101.97,
         "finished_at": "2026-11-14T21:58:11.070890+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31040076",
+          "size_bytes": 656153524,
+          "source_bytes_read": 656153524,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306269",
+        "source_url": "https://sdilej.cz/27306269/orange-is-the-new-black-cz-s01e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31040076",
+        "display_name": "Orange Is the New Black S01E02 Tit Punch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T21:58:18.975522+00:00"
       }
     },
     "31:1:3": {
@@ -466896,7 +466897,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:58:11.070907+00:00",
+  "updated_at": "2026-11-14T21:58:18.975537+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
