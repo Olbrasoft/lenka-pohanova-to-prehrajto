@@ -450265,12 +450265,6 @@
     },
     "1421:1:5": {
       "episode_key": "cromwell:s1:e5",
-      "claim": {
-        "worker_id": "0a3c307bf9c24f8089b24736f63adbfa-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:01:52.772552+00:00",
-        "lease_expires_at": "2026-11-14T17:01:52.772563+00:00"
-      },
       "source": {
         "source_id": "34836782",
         "source_url": "https://sdilej.cz/34836782/wolf-hall-s01e05-06-2015-cz-dabing-720p-hd-neprijemnosti.mkv",
@@ -450295,22 +450289,29 @@
         "display_name": "Wolf Hall S01E05 Crows 720p CZ Dabing",
         "prepared_at": "2026-11-14T11:01:56.434634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027940",
-        "size_bytes": 2416192625
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027940",
-        "size_bytes": 2416192625,
-        "source_bytes_read": 2416192625,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027940",
         "source_bytes_read": 2416192625,
         "elapsed_seconds": 681.148,
         "finished_at": "2026-11-14T11:13:33.985675+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027940",
+          "size_bytes": 2416192625,
+          "source_bytes_read": 2416192625,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34836782",
+        "source_url": "https://sdilej.cz/34836782/wolf-hall-s01e05-06-2015-cz-dabing-720p-hd-neprijemnosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027940",
+        "display_name": "Wolf Hall S01E05 Crows 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T11:13:43.967803+00:00"
       }
     }
   },
@@ -450319,7 +450320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:13:40.742821+00:00",
+  "updated_at": "2026-11-14T11:13:43.967818+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
