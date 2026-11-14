@@ -453890,12 +453890,6 @@
     },
     "2296:1:4": {
       "episode_key": "durrellovi:s1:e4",
-      "claim": {
-        "worker_id": "fa77da8d491e4c0d9b7ca5ff44d80f1e-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:43:35.675884+00:00",
-        "lease_expires_at": "2026-11-14T18:43:35.675900+00:00"
-      },
       "source": {
         "source_id": "13362167",
         "source_url": "https://sdilej.cz/13362167/durrellovi-s01e04-2016-cz-serial.avi",
@@ -453920,22 +453914,29 @@
         "display_name": "The Durrells S01E04 SD CZ Dabing",
         "prepared_at": "2026-11-14T12:43:49.133774+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029632",
-        "size_bytes": 475810844
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029632",
-        "size_bytes": 475810844,
-        "source_bytes_read": 475810844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029632",
         "source_bytes_read": 475810844,
         "elapsed_seconds": 64.793,
         "finished_at": "2026-11-14T12:45:11.388739+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029632",
+          "size_bytes": 475810844,
+          "source_bytes_read": 475810844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13362167",
+        "source_url": "https://sdilej.cz/13362167/durrellovi-s01e04-2016-cz-serial.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029632",
+        "display_name": "The Durrells S01E04 SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:45:17.692085+00:00"
       }
     },
     "2296:1:5": {
@@ -453981,7 +453982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:45:11.388759+00:00",
+  "updated_at": "2026-11-14T12:45:17.692104+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
