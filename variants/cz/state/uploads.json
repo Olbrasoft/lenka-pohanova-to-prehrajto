@@ -438948,12 +438948,6 @@
     },
     "1411:11:14": {
       "episode_key": "případy detektiva murdocha:s11:e14",
-      "claim": {
-        "worker_id": "784be55561284657937d0df50e5faf40-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:06:22.549471+00:00",
-        "lease_expires_at": "2026-11-14T07:06:22.549482+00:00"
-      },
       "source": {
         "source_id": "32858291",
         "source_url": "https://sdilej.cz/32858291/pripady-detektiva-murdocha-s11e14-velky-bily-los.avi",
@@ -438978,22 +438972,29 @@
         "display_name": "Murdoch Mysteries S11E14 Great White Moose SD CZ Dabing",
         "prepared_at": "2026-11-14T01:06:26.141898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022148",
-        "size_bytes": 367681536
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022148",
-        "size_bytes": 367681536,
-        "source_bytes_read": 367681536,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022148",
         "source_bytes_read": 367681536,
         "elapsed_seconds": 107.04,
         "finished_at": "2026-11-14T01:08:31.436867+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022148",
+          "size_bytes": 367681536,
+          "source_bytes_read": 367681536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858291",
+        "source_url": "https://sdilej.cz/32858291/pripady-detektiva-murdocha-s11e14-velky-bily-los.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022148",
+        "display_name": "Murdoch Mysteries S11E14 Great White Moose SD CZ Dabing",
+        "uploaded_at": "2026-11-14T01:08:41.131150+00:00"
       }
     },
     "1411:11:15": {
@@ -439076,7 +439077,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:08:37.754557+00:00",
+  "updated_at": "2026-11-14T01:08:41.131164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
