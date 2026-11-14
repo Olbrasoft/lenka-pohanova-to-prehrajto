@@ -468030,12 +468030,6 @@
     },
     "31:2:6": {
       "episode_key": "orange is the new black:s2:e6",
-      "claim": {
-        "worker_id": "5b73bb5d8f7c4f7d84f5eece551a031f-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:56:50.244549+00:00",
-        "lease_expires_at": "2026-11-15T04:56:50.244561+00:00"
-      },
       "source": {
         "source_id": "27306660",
         "source_url": "https://sdilej.cz/27306660/orange-is-the-new-black-cz-s02e06.mkv",
@@ -468060,22 +468054,29 @@
         "display_name": "Orange Is the New Black S02E06 You Also Have a Pizza 1080p CZ Dabing",
         "prepared_at": "2026-11-14T22:56:54.385361+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31041272",
-        "size_bytes": 798348498
-      },
-      "transfer_receipt": {
-        "target_video_id": "31041272",
-        "size_bytes": 798348498,
-        "source_bytes_read": 798348498,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31041272",
         "source_bytes_read": 798348498,
         "elapsed_seconds": 184.43,
         "finished_at": "2026-11-14T23:00:14.213324+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31041272",
+          "size_bytes": 798348498,
+          "source_bytes_read": 798348498,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306660",
+        "source_url": "https://sdilej.cz/27306660/orange-is-the-new-black-cz-s02e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31041272",
+        "display_name": "Orange Is the New Black S02E06 You Also Have a Pizza 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T23:00:39.001831+00:00"
       }
     },
     "31:2:7": {
@@ -468186,7 +468187,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T23:00:35.578094+00:00",
+  "updated_at": "2026-11-14T23:00:39.001847+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
