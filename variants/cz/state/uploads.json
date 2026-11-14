@@ -467290,12 +467290,6 @@
     },
     "30:4:10": {
       "episode_key": "lucifer:s4:e10",
-      "claim": {
-        "worker_id": "1613e1d808384b58bc3a20a48cf40e11-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:29:34.769156+00:00",
-        "lease_expires_at": "2026-11-15T04:29:34.769176+00:00"
-      },
       "source": {
         "source_id": "34908068",
         "source_url": "https://sdilej.cz/34908068/lucifer-s04e10-kdo-je-ten-novy-kral-pekla.mkv",
@@ -467320,22 +467314,29 @@
         "display_name": "Lucifer S04E10 Who's da New King of Hell? 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:29:47.142570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31040779",
-        "size_bytes": 2404606308
-      },
-      "transfer_receipt": {
-        "target_video_id": "31040779",
-        "size_bytes": 2404606308,
-        "source_bytes_read": 2404606308,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31040779",
         "source_bytes_read": 2404606308,
         "elapsed_seconds": 535.192,
         "finished_at": "2026-11-14T22:39:06.677039+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31040779",
+          "size_bytes": 2404606308,
+          "source_bytes_read": 2404606308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34908068",
+        "source_url": "https://sdilej.cz/34908068/lucifer-s04e10-kdo-je-ten-novy-kral-pekla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31040779",
+        "display_name": "Lucifer S04E10 Who's da New King of Hell? 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T22:39:12.957515+00:00"
       }
     },
     "30:5:1": {
@@ -467465,7 +467466,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:39:06.677062+00:00",
+  "updated_at": "2026-11-14T22:39:12.957534+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
