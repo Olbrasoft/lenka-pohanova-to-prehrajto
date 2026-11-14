@@ -441498,12 +441498,6 @@
     },
     "1411:15:4": {
       "episode_key": "případy detektiva murdocha:s15:e4",
-      "claim": {
-        "worker_id": "9125539c006c4977b481b0979137b03c-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:31:55.308736+00:00",
-        "lease_expires_at": "2026-11-14T08:31:55.308748+00:00"
-      },
       "source": {
         "source_id": "30758208",
         "source_url": "https://sdilej.cz/30758208/pripady-detektiva-murdocha-s15e04-222-2021-fhd-krev-na-kolejich-s-.mp4",
@@ -441528,22 +441522,29 @@
         "display_name": "Murdoch Mysteries S15E04 Blood on the Tracks 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:32:04.921102+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022816",
-        "size_bytes": 849590593
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022816",
-        "size_bytes": 849590593,
-        "source_bytes_read": 849590593,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022816",
         "source_bytes_read": 849590593,
         "elapsed_seconds": 294.082,
         "finished_at": "2026-11-14T02:37:15.353085+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022816",
+          "size_bytes": 849590593,
+          "source_bytes_read": 849590593,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30758208",
+        "source_url": "https://sdilej.cz/30758208/pripady-detektiva-murdocha-s15e04-222-2021-fhd-krev-na-kolejich-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022816",
+        "display_name": "Murdoch Mysteries S15E04 Blood on the Tracks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:37:24.532747+00:00"
       }
     },
     "1411:15:5": {
@@ -441639,7 +441640,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:37:19.933475+00:00",
+  "updated_at": "2026-11-14T02:37:24.532764+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
