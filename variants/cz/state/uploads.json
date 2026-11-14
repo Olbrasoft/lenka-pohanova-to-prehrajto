@@ -450308,12 +450308,6 @@
     },
     "1421:1:6": {
       "episode_key": "cromwell:s1:e6",
-      "claim": {
-        "worker_id": "dbcd6e17bc1e474e91113841b69c89be-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:14:15.747812+00:00",
-        "lease_expires_at": "2026-11-14T17:14:15.747822+00:00"
-      },
       "source": {
         "source_id": "34836784",
         "source_url": "https://sdilej.cz/34836784/wolf-hall-s01e06-06-2015-cz-dabing-720p-hd-mistri-prizraku.mkv",
@@ -450338,22 +450332,29 @@
         "display_name": "Wolf Hall S01E06 Master of Phantoms 720p CZ Dabing",
         "prepared_at": "2026-11-14T11:14:24.541235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028082",
-        "size_bytes": 2417996934
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028082",
-        "size_bytes": 2417996934,
-        "source_bytes_read": 2417996934,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028082",
         "source_bytes_read": 2417996934,
         "elapsed_seconds": 353.905,
         "finished_at": "2026-11-14T11:20:37.618900+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028082",
+          "size_bytes": 2417996934,
+          "source_bytes_read": 2417996934,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34836784",
+        "source_url": "https://sdilej.cz/34836784/wolf-hall-s01e06-06-2015-cz-dabing-720p-hd-mistri-prizraku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028082",
+        "display_name": "Wolf Hall S01E06 Master of Phantoms 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T11:20:45.461037+00:00"
       }
     },
     "1242:1:1": {
@@ -450945,7 +450946,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:20:40.674420+00:00",
+  "updated_at": "2026-11-14T11:20:45.461051+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
