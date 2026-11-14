@@ -445068,12 +445068,6 @@
     },
     "1411:18:10": {
       "episode_key": "případy detektiva murdocha:s18:e10",
-      "claim": {
-        "worker_id": "a0afda891be1476cade007df7a89f2e0-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:48:00.224452+00:00",
-        "lease_expires_at": "2026-11-14T12:48:00.224463+00:00"
-      },
       "source": {
         "source_id": "32870840",
         "source_url": "https://sdilej.cz/32870840/pripady-detektiva-murdocha-s18e10-cz-dabing.mkv",
@@ -445098,22 +445092,29 @@
         "display_name": "Murdoch Mysteries S18E10 The Men Who Sold the World 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:48:06.963063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024781",
-        "size_bytes": 861929261
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024781",
-        "size_bytes": 861929261,
-        "source_bytes_read": 861929261,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024781",
         "source_bytes_read": 861929261,
         "elapsed_seconds": 445.464,
         "finished_at": "2026-11-14T06:55:49.180999+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024781",
+          "size_bytes": 861929261,
+          "source_bytes_read": 861929261,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870840",
+        "source_url": "https://sdilej.cz/32870840/pripady-detektiva-murdocha-s18e10-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024781",
+        "display_name": "Murdoch Mysteries S18E10 The Men Who Sold the World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:55:56.532416+00:00"
       }
     },
     "1411:18:11": {
@@ -445159,7 +445160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:55:53.538370+00:00",
+  "updated_at": "2026-11-14T06:55:56.532433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
