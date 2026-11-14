@@ -443538,12 +443538,6 @@
     },
     "1411:17:4": {
       "episode_key": "případy detektiva murdocha:s17:e4",
-      "claim": {
-        "worker_id": "0d3307eaba4a4f56ab6680fcff9ff39a-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:15:17.411848+00:00",
-        "lease_expires_at": "2026-11-14T11:15:17.411859+00:00"
-      },
       "source": {
         "source_id": "29192700",
         "source_url": "https://sdilej.cz/29192700/pripady-detektiva-murdocha-s17e04-cz-hd-na-dne-sudu.mkv",
@@ -443568,22 +443562,29 @@
         "display_name": "Murdoch Mysteries S17E04 Bottom of the Barrel 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:15:21.148636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024146",
-        "size_bytes": 963677589
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024146",
-        "size_bytes": 963677589,
-        "source_bytes_read": 963677589,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024146",
         "source_bytes_read": 963677589,
         "elapsed_seconds": 495.843,
         "finished_at": "2026-11-14T05:23:51.502347+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024146",
+          "size_bytes": 963677589,
+          "source_bytes_read": 963677589,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29192700",
+        "source_url": "https://sdilej.cz/29192700/pripady-detektiva-murdocha-s17e04-cz-hd-na-dne-sudu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024146",
+        "display_name": "Murdoch Mysteries S17E04 Bottom of the Barrel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:23:56.373387+00:00"
       }
     },
     "1411:17:5": {
@@ -443768,7 +443769,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:23:51.502365+00:00",
+  "updated_at": "2026-11-14T05:23:56.373404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
