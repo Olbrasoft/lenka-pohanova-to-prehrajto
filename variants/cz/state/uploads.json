@@ -450600,12 +450600,6 @@
     },
     "1242:1:6": {
       "episode_key": "mrtví jako já:s1:e6",
-      "claim": {
-        "worker_id": "7aeba928ede64443b40cba06b1fb5cf8-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:16:58.105060+00:00",
-        "lease_expires_at": "2026-11-14T17:16:58.105071+00:00"
-      },
       "source": {
         "source_id": "31100927",
         "source_url": "https://sdilej.cz/31100927/mrtvi-jako-ja-s01e06-muj-pokoj-2003-komedie-fantasy-czdab.mp4",
@@ -450630,22 +450624,29 @@
         "display_name": "Dead Like Me S01E06 My Room SD CZ Dabing",
         "prepared_at": "2026-11-14T11:17:01.602031+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028107",
-        "size_bytes": 305891856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028107",
-        "size_bytes": 305891856,
-        "source_bytes_read": 305891856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028107",
         "source_bytes_read": 305891856,
         "elapsed_seconds": 44.609,
         "finished_at": "2026-11-14T11:18:03.125168+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028107",
+          "size_bytes": 305891856,
+          "source_bytes_read": 305891856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31100927",
+        "source_url": "https://sdilej.cz/31100927/mrtvi-jako-ja-s01e06-muj-pokoj-2003-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028107",
+        "display_name": "Dead Like Me S01E06 My Room SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:18:12.400545+00:00"
       }
     },
     "1242:1:7": {
@@ -450690,7 +450691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:18:07.129934+00:00",
+  "updated_at": "2026-11-14T11:18:12.400562+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
