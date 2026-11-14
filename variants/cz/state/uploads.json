@@ -466735,12 +466735,6 @@
     },
     "30:4:4": {
       "episode_key": "lucifer:s4:e4",
-      "claim": {
-        "worker_id": "5df82b4a89584ea49f47af04d1f790bc-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:55:30.488461+00:00",
-        "lease_expires_at": "2026-11-15T03:55:30.488478+00:00"
-      },
       "source": {
         "source_id": "34984699",
         "source_url": "https://sdilej.cz/34984699/lucifer-s04e04-cz.mkv",
@@ -466764,7 +466758,13 @@
         },
         "display_name": "Lucifer S04E04 All About Eve 4K CZ Dabing",
         "prepared_at": "2026-11-14T21:55:37.716977+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T21:55:57.303047+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "31:1:1": {
       "episode_key": "orange is the new black:s1:e1",
@@ -466790,7 +466790,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:55:53.793880+00:00",
+  "updated_at": "2026-11-14T21:55:57.303063+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467109,19 +467109,19 @@
     "30": {
       "recent_failures": [
         {
-          "identity": "30:4:1",
-          "at": "2026-11-14T21:55:14.430625+00:00"
-        },
-        {
           "identity": "30:4:2",
           "at": "2026-11-14T21:55:33.782115+00:00"
         },
         {
           "identity": "30:4:3",
           "at": "2026-11-14T21:55:41.789729+00:00"
+        },
+        {
+          "identity": "30:4:4",
+          "at": "2026-11-14T21:55:57.302658+00:00"
         }
       ],
-      "retry_after": "2026-11-14T22:05:41.789729+00:00"
+      "retry_after": "2026-11-14T22:05:57.302658+00:00"
     }
   }
 }
