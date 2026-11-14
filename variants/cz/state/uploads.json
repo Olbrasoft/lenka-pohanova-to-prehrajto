@@ -455201,12 +455201,6 @@
     },
     "1812:1:6": {
       "episode_key": "the deuce: špína manhattanu:s1:e6",
-      "claim": {
-        "worker_id": "ab124f12124c4787952e7ee05d9855be-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T13:55:36.030607+00:00",
-        "lease_expires_at": "2026-11-14T19:55:36.030623+00:00"
-      },
       "source": {
         "source_id": "33811604",
         "source_url": "https://sdilej.cz/33811604/the-deuce-spina-manhattanu-2017-s01e06-czdab-uhdr-why-me.mkv",
@@ -455231,22 +455225,29 @@
         "display_name": "The Deuce S01E06 Why Me? 4K CZ Dabing",
         "prepared_at": "2026-11-14T13:55:42.943190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31031031",
-        "size_bytes": 2518178140
-      },
-      "transfer_receipt": {
-        "target_video_id": "31031031",
-        "size_bytes": 2518178140,
-        "source_bytes_read": 2518178140,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31031031",
         "source_bytes_read": 2518178140,
         "elapsed_seconds": 460.628,
         "finished_at": "2026-11-14T14:03:42.800345+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31031031",
+          "size_bytes": 2518178140,
+          "source_bytes_read": 2518178140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33811604",
+        "source_url": "https://sdilej.cz/33811604/the-deuce-spina-manhattanu-2017-s01e06-czdab-uhdr-why-me.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31031031",
+        "display_name": "The Deuce S01E06 Why Me? 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T14:03:49.744315+00:00"
       }
     },
     "1812:1:7": {
@@ -455292,7 +455293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T14:03:46.490551+00:00",
+  "updated_at": "2026-11-14T14:03:49.744332+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
