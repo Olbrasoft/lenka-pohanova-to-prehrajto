@@ -444609,12 +444609,6 @@
     },
     "1411:18:1": {
       "episode_key": "případy detektiva murdocha:s18:e1",
-      "claim": {
-        "worker_id": "cb89c07bda844ac7b993a9dbfbb88811-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:09:46.566872+00:00",
-        "lease_expires_at": "2026-11-14T12:09:46.566887+00:00"
-      },
       "source": {
         "source_id": "32870795",
         "source_url": "https://sdilej.cz/32870795/pripady-detektiva-murdocha-s18e01-cz-dabing.mkv",
@@ -444639,22 +444633,29 @@
         "display_name": "Murdoch Mysteries S18E01 The New Recruit 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:09:50.477971+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024553",
-        "size_bytes": 841958387
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024553",
-        "size_bytes": 841958387,
-        "source_bytes_read": 841958387,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024553",
         "source_bytes_read": 841958387,
         "elapsed_seconds": 480.6,
         "finished_at": "2026-11-14T06:18:04.548166+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024553",
+          "size_bytes": 841958387,
+          "source_bytes_read": 841958387,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870795",
+        "source_url": "https://sdilej.cz/32870795/pripady-detektiva-murdocha-s18e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024553",
+        "display_name": "Murdoch Mysteries S18E01 The New Recruit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:18:09.082022+00:00"
       }
     },
     "1411:18:2": {
@@ -444737,7 +444738,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:18:04.548185+00:00",
+  "updated_at": "2026-11-14T06:18:09.082039+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
