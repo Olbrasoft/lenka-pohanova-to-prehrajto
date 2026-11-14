@@ -441280,12 +441280,6 @@
     },
     "1411:14:10": {
       "episode_key": "případy detektiva murdocha:s14:e10",
-      "claim": {
-        "worker_id": "9208298a946c4e699e36257f2c02c02d-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:22:20.918096+00:00",
-        "lease_expires_at": "2026-11-14T08:22:20.918111+00:00"
-      },
       "source": {
         "source_id": "18491845",
         "source_url": "https://sdilej.cz/18491845/pripady-detektiva-murdocha-s14e10-nic-neni-jak-ma-byt-i-sd-.mkv",
@@ -441310,22 +441304,29 @@
         "display_name": "Murdoch Mysteries S14E10 Everything Is Broken (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:22:24.496322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022709",
-        "size_bytes": 503649002
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022709",
-        "size_bytes": 503649002,
-        "source_bytes_read": 503649002,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022709",
         "source_bytes_read": 503649002,
         "elapsed_seconds": 171.333,
         "finished_at": "2026-11-14T02:25:30.621068+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022709",
+          "size_bytes": 503649002,
+          "source_bytes_read": 503649002,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18491845",
+        "source_url": "https://sdilej.cz/18491845/pripady-detektiva-murdocha-s14e10-nic-neni-jak-ma-byt-i-sd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022709",
+        "display_name": "Murdoch Mysteries S14E10 Everything Is Broken (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:25:36.550236+00:00"
       }
     }
   },
@@ -441334,7 +441335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:25:30.621092+00:00",
+  "updated_at": "2026-11-14T02:25:36.550262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
