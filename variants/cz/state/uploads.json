@@ -442671,12 +442671,6 @@
     },
     "1411:16:7": {
       "episode_key": "případy detektiva murdocha:s16:e7",
-      "claim": {
-        "worker_id": "5085b171e8034982a57de6a51476adaa-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T03:31:06.845338+00:00",
-        "lease_expires_at": "2026-11-14T09:31:06.845349+00:00"
-      },
       "source": {
         "source_id": "33824023",
         "source_url": "https://sdilej.cz/33824023/pripady-detektiva-murdocha-s16e07-249-2022-fhd-murdoch-a-sonicky-tresk-s-.mp4",
@@ -442701,22 +442695,29 @@
         "display_name": "Murdoch Mysteries S16E07 Murdoch and the Sonic Boom 1080p CZ Dabing",
         "prepared_at": "2026-11-14T03:31:14.150289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31023299",
-        "size_bytes": 857797745
-      },
-      "transfer_receipt": {
-        "target_video_id": "31023299",
-        "size_bytes": 857797745,
-        "source_bytes_read": 857797745,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31023299",
         "source_bytes_read": 857797745,
         "elapsed_seconds": 368.033,
         "finished_at": "2026-11-14T03:37:41.360343+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31023299",
+          "size_bytes": 857797745,
+          "source_bytes_read": 857797745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824023",
+        "source_url": "https://sdilej.cz/33824023/pripady-detektiva-murdocha-s16e07-249-2022-fhd-murdoch-a-sonicky-tresk-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31023299",
+        "display_name": "Murdoch Mysteries S16E07 Murdoch and the Sonic Boom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T03:37:45.728461+00:00"
       }
     },
     "1411:16:8": {
@@ -442776,7 +442777,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T03:37:41.360362+00:00",
+  "updated_at": "2026-11-14T03:37:45.728478+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
