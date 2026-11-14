@@ -454743,12 +454743,6 @@
     },
     "2296:4:4": {
       "episode_key": "durrellovi:s4:e4",
-      "claim": {
-        "worker_id": "13ae26f575cf4979a98e05fbb4592ed4-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T13:27:09.971965+00:00",
-        "lease_expires_at": "2026-11-14T19:27:09.971983+00:00"
-      },
       "source": {
         "source_id": "34944773",
         "source_url": "https://sdilej.cz/34944773/the.durrells.s04e04.cz.sk.1080p.amzn.web-dl.ddp2.0.h.264-tepes.mkv",
@@ -454773,22 +454767,29 @@
         "display_name": "The Durrells S04E04 1080p CZ Dabing",
         "prepared_at": "2026-11-14T13:27:16.902168+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31030459",
-        "size_bytes": 832307267
-      },
-      "transfer_receipt": {
-        "target_video_id": "31030459",
-        "size_bytes": 832307267,
-        "source_bytes_read": 832307267,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31030459",
         "source_bytes_read": 832307267,
         "elapsed_seconds": 118.69,
         "finished_at": "2026-11-14T13:29:35.097443+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31030459",
+          "size_bytes": 832307267,
+          "source_bytes_read": 832307267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34944773",
+        "source_url": "https://sdilej.cz/34944773/the.durrells.s04e04.cz.sk.1080p.amzn.web-dl.ddp2.0.h.264-tepes.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31030459",
+        "display_name": "The Durrells S04E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T13:29:39.963750+00:00"
       }
     }
   },
@@ -454797,7 +454798,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T13:29:35.097462+00:00",
+  "updated_at": "2026-11-14T13:29:39.963767+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
