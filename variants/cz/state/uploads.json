@@ -446598,12 +446598,6 @@
     },
     "4086:2:6": {
       "episode_key": "pozlacený věk:s2:e6",
-      "claim": {
-        "worker_id": "cef17ebe83684ac1ba631397db0d67c8-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:07:25.440760+00:00",
-        "lease_expires_at": "2026-11-14T15:07:25.440773+00:00"
-      },
       "source": {
         "source_id": "27436260",
         "source_url": "https://sdilej.cz/27436260/pozlaceny-vek-s02e06-cz.mkv",
@@ -446628,22 +446622,29 @@
         "display_name": "The Gilded Age S02E06 Warning Shots 1080p CZ Dabing",
         "prepared_at": "2026-11-14T09:07:37.456813+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025798",
-        "size_bytes": 1226142444
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025798",
-        "size_bytes": 1226142444,
-        "source_bytes_read": 1226142444,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025798",
         "source_bytes_read": 1226142444,
         "elapsed_seconds": 52.938,
         "finished_at": "2026-11-14T09:08:58.584895+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025798",
+          "size_bytes": 1226142444,
+          "source_bytes_read": 1226142444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27436260",
+        "source_url": "https://sdilej.cz/27436260/pozlaceny-vek-s02e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025798",
+        "display_name": "The Gilded Age S02E06 Warning Shots 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:09:10.255011+00:00"
       }
     },
     "4086:2:7": {
@@ -446703,7 +446704,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:09:06.408515+00:00",
+  "updated_at": "2026-11-14T09:09:10.255029+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
