@@ -456873,12 +456873,6 @@
     },
     "951:3:3": {
       "episode_key": "protiúder:s3:e3",
-      "claim": {
-        "worker_id": "2a0d2960edac497297cf592cc958f6a8-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:54:45.334204+00:00",
-        "lease_expires_at": "2026-11-14T21:54:45.334225+00:00"
-      },
       "source": {
         "source_id": "35291357",
         "source_url": "https://sdilej.cz/35291357/protiuder-s03e03.mkv",
@@ -456903,22 +456897,29 @@
         "display_name": "Strike Back S03E03 720p CZ Dabing",
         "prepared_at": "2026-11-14T15:54:55.976864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31033498",
-        "size_bytes": 2144567843
-      },
-      "transfer_receipt": {
-        "target_video_id": "31033498",
-        "size_bytes": 2144567843,
-        "source_bytes_read": 2144567843,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31033498",
         "source_bytes_read": 2144567843,
         "elapsed_seconds": 400.295,
         "finished_at": "2026-11-14T16:01:57.422568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31033498",
+          "size_bytes": 2144567843,
+          "source_bytes_read": 2144567843,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35291357",
+        "source_url": "https://sdilej.cz/35291357/protiuder-s03e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31033498",
+        "display_name": "Strike Back S03E03 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T16:02:03.447705+00:00"
       }
     },
     "951:3:4": {
@@ -457117,7 +457118,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:01:57.422595+00:00",
+  "updated_at": "2026-11-14T16:02:03.447725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
