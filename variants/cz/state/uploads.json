@@ -443079,12 +443079,6 @@
     },
     "1411:16:18": {
       "episode_key": "případy detektiva murdocha:s16:e18",
-      "claim": {
-        "worker_id": "c31f19d1ec4a4ba1bf136034ecfca695-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T04:53:38.427965+00:00",
-        "lease_expires_at": "2026-11-14T10:53:38.427977+00:00"
-      },
       "source": {
         "source_id": "29788530",
         "source_url": "https://sdilej.cz/29788530/pripady-detektiva-murdocha-s16e18-260-2023-fhd-ctnosti-a-neresti-s-.mp4",
@@ -443109,22 +443103,29 @@
         "display_name": "Murdoch Mysteries S16E18 Virtue and Vice 1080p CZ Dabing",
         "prepared_at": "2026-11-14T04:53:45.028575+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024001",
-        "size_bytes": 865309333
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024001",
-        "size_bytes": 865309333,
-        "source_bytes_read": 865309333,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024001",
         "source_bytes_read": 865309333,
         "elapsed_seconds": 414.71,
         "finished_at": "2026-11-14T05:00:57.071148+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024001",
+          "size_bytes": 865309333,
+          "source_bytes_read": 865309333,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29788530",
+        "source_url": "https://sdilej.cz/29788530/pripady-detektiva-murdocha-s16e18-260-2023-fhd-ctnosti-a-neresti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024001",
+        "display_name": "Murdoch Mysteries S16E18 Virtue and Vice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:01:01.515716+00:00"
       }
     },
     "1411:16:19": {
@@ -443309,7 +443310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:00:57.071169+00:00",
+  "updated_at": "2026-11-14T05:01:01.515733+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
