@@ -450345,12 +450345,6 @@
     },
     "1242:1:1": {
       "episode_key": "mrtví jako já:s1:e1",
-      "claim": {
-        "worker_id": "7e5c2015a3aa4e7cabbb43e9bbea5e02-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:14:18.779907+00:00",
-        "lease_expires_at": "2026-11-14T17:14:18.779918+00:00"
-      },
       "source": {
         "source_id": "31100912",
         "source_url": "https://sdilej.cz/31100912/mrtvi-jako-ja-s01e01-pilot-2003-komedie-fantasy-czdab.mp4",
@@ -450375,22 +450369,29 @@
         "display_name": "Dead Like Me S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-14T11:14:28.846309+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028083",
-        "size_bytes": 518417793
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028083",
-        "size_bytes": 518417793,
-        "source_bytes_read": 518417793,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028083",
         "source_bytes_read": 518417793,
         "elapsed_seconds": 47.422,
         "finished_at": "2026-11-14T11:15:37.616574+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028083",
+          "size_bytes": 518417793,
+          "source_bytes_read": 518417793,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31100912",
+        "source_url": "https://sdilej.cz/31100912/mrtvi-jako-ja-s01e01-pilot-2003-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028083",
+        "display_name": "Dead Like Me S01E01 Pilot SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:15:44.657123+00:00"
       }
     },
     "1242:1:2": {
@@ -450450,7 +450451,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:15:41.692729+00:00",
+  "updated_at": "2026-11-14T11:15:44.657138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
