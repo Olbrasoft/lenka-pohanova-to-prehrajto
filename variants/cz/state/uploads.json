@@ -456104,12 +456104,6 @@
     },
     "1812:3:6": {
       "episode_key": "the deuce: špína manhattanu:s3:e6",
-      "claim": {
-        "worker_id": "217ceeda35774f119dcebf41d8bdffbd-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:13:30.195168+00:00",
-        "lease_expires_at": "2026-11-14T21:13:30.195179+00:00"
-      },
       "source": {
         "source_id": "33816626",
         "source_url": "https://sdilej.cz/33816626/the-deuce-spina-manhattanu-2019-s03e06-czdab.uhdr-this-trust-thing.mkv",
@@ -456133,7 +456127,13 @@
         },
         "display_name": "The Deuce S03E06 This Trust Thing 4K CZ Dabing",
         "prepared_at": "2026-11-14T15:13:36.876257+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T15:13:50.168069+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -456141,7 +456141,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:13:45.101137+00:00",
+  "updated_at": "2026-11-14T15:13:50.168073+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -456458,6 +456458,10 @@
         {
           "identity": "1812:3:5",
           "at": "2026-11-14T15:13:45.101109+00:00"
+        },
+        {
+          "identity": "1812:3:6",
+          "at": "2026-11-14T15:13:50.168034+00:00"
         }
       ]
     }
