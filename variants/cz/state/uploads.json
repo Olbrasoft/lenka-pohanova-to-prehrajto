@@ -447006,12 +447006,6 @@
     },
     "4086:3:6": {
       "episode_key": "pozlacený věk:s3:e6",
-      "claim": {
-        "worker_id": "c72c9ac4455c4af39715c743a95ab2c9-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:12:17.724152+00:00",
-        "lease_expires_at": "2026-11-14T15:12:17.724164+00:00"
-      },
       "source": {
         "source_id": "31555904",
         "source_url": "https://sdilej.cz/31555904/pozlaceny-vek-s03e06-cz-dab-1080p-by-pefto-.mkv",
@@ -447036,22 +447030,29 @@
         "display_name": "The Gilded Age S03E06 If You Want to Cook an Omelette 1080p CZ Dabing",
         "prepared_at": "2026-11-14T09:12:21.570042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025876",
-        "size_bytes": 4142625093
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025876",
-        "size_bytes": 4142625093,
-        "source_bytes_read": 4142625093,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025876",
         "source_bytes_read": 4142625093,
         "elapsed_seconds": 169.14,
         "finished_at": "2026-11-14T09:15:25.017971+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025876",
+          "size_bytes": 4142625093,
+          "source_bytes_read": 4142625093,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31555904",
+        "source_url": "https://sdilej.cz/31555904/pozlaceny-vek-s03e06-cz-dab-1080p-by-pefto-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025876",
+        "display_name": "The Gilded Age S03E06 If You Want to Cook an Omelette 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:15:33.251811+00:00"
       }
     },
     "4086:3:7": {
@@ -447250,7 +447251,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:15:29.918199+00:00",
+  "updated_at": "2026-11-14T09:15:33.251828+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
