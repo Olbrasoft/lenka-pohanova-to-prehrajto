@@ -450072,12 +450072,6 @@
     },
     "2322:1:8": {
       "episode_key": "souputníci:s1:e8",
-      "claim": {
-        "worker_id": "62e329ad8667477b87910a1356cd2bb5-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:43:59.047171+00:00",
-        "lease_expires_at": "2026-11-14T16:43:59.047184+00:00"
-      },
       "source": {
         "source_id": "27760720",
         "source_url": "https://sdilej.cz/27760720/souputnici-fellow-travelers-s01e08-ulahcite-si-to-hd-cz-dabing.mkv",
@@ -450102,22 +450096,29 @@
         "display_name": "Fellow Travelers S01E08 Make It Easy 1080p CZ Dabing",
         "prepared_at": "2026-11-14T10:44:02.510279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027649",
-        "size_bytes": 4057612123
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027649",
-        "size_bytes": 4057612123,
-        "source_bytes_read": 4057612123,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027649",
         "source_bytes_read": 4057612123,
         "elapsed_seconds": 487.255,
         "finished_at": "2026-11-14T10:52:23.007627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027649",
+          "size_bytes": 4057612123,
+          "source_bytes_read": 4057612123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27760720",
+        "source_url": "https://sdilej.cz/27760720/souputnici-fellow-travelers-s01e08-ulahcite-si-to-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027649",
+        "display_name": "Fellow Travelers S01E08 Make It Easy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T10:52:29.080286+00:00"
       }
     }
   },
@@ -450126,7 +450127,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:52:23.007647+00:00",
+  "updated_at": "2026-11-14T10:52:29.080301+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
