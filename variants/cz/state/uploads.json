@@ -460276,12 +460276,6 @@
     },
     "2449:1:13": {
       "episode_key": "patty hewes - nebezpečná advokátka:s1:e13",
-      "claim": {
-        "worker_id": "8644e1e43cde4e8cb921d96367298c52-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:41:39.332816+00:00",
-        "lease_expires_at": "2026-11-14T23:41:39.332854+00:00"
-      },
       "source": {
         "source_id": "32902209",
         "source_url": "https://sdilej.cz/32902209/patty-hewes-nebezpecna-advokatka-s01e13-13-2007-cz-dab-720p-protoze-pa.mp4",
@@ -460307,22 +460301,29 @@
         "display_name": "Damages S01E13 Because I Know Patty 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:41:48.912244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035816",
-        "size_bytes": 713132850
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035816",
-        "size_bytes": 713132850,
-        "source_bytes_read": 713132850,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035816",
         "source_bytes_read": 713132850,
         "elapsed_seconds": 90.037,
         "finished_at": "2026-11-14T17:43:39.157199+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035816",
+          "size_bytes": 713132850,
+          "source_bytes_read": 713132850,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902209",
+        "source_url": "https://sdilej.cz/32902209/patty-hewes-nebezpecna-advokatka-s01e13-13-2007-cz-dab-720p-protoze-pa.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035816",
+        "display_name": "Damages S01E13 Because I Know Patty 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:43:43.551324+00:00"
       }
     },
     "2449:2:5": {
@@ -460368,7 +460369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:43:39.157222+00:00",
+  "updated_at": "2026-11-14T17:43:43.551341+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
