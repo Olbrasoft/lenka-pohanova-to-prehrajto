@@ -440178,12 +440178,6 @@
     },
     "1411:13:5": {
       "episode_key": "případy detektiva murdocha:s13:e5",
-      "claim": {
-        "worker_id": "5531ed47ec6b469c8975896b751f0fde-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:39:55.108515+00:00",
-        "lease_expires_at": "2026-11-14T07:39:55.108525+00:00"
-      },
       "source": {
         "source_id": "24278110",
         "source_url": "https://sdilej.cz/24278110/pripady-detektiva-murdocha-s13e05-cz-dabing.mkv",
@@ -440208,22 +440202,29 @@
         "display_name": "Murdoch Mysteries S13E05 Murdoch and the Cursed Caves 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:40:05.691009+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022402",
-        "size_bytes": 455901878
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022402",
-        "size_bytes": 455901878,
-        "source_bytes_read": 455901878,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022402",
         "source_bytes_read": 455901878,
         "elapsed_seconds": 154.527,
         "finished_at": "2026-11-14T01:43:01.808066+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022402",
+          "size_bytes": 455901878,
+          "source_bytes_read": 455901878,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24278110",
+        "source_url": "https://sdilej.cz/24278110/pripady-detektiva-murdocha-s13e05-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022402",
+        "display_name": "Murdoch Mysteries S13E05 Murdoch and the Cursed Caves 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:43:11.263669+00:00"
       }
     },
     "1411:13:6": {
@@ -440269,7 +440270,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:43:08.249767+00:00",
+  "updated_at": "2026-11-14T01:43:11.263685+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
