@@ -452220,12 +452220,6 @@
     },
     "1085:2:14": {
       "episode_key": "policie chicago:s2:e14",
-      "claim": {
-        "worker_id": "9c87b322db9a4f86a93871314836dac2-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T11:40:52.242373+00:00",
-        "lease_expires_at": "2026-11-14T17:40:52.242390+00:00"
-      },
       "source": {
         "source_id": "27884030",
         "source_url": "https://sdilej.cz/27884030/policie-chicago-02x14.avi",
@@ -452249,7 +452243,13 @@
         },
         "display_name": "Chicago P.D. S02E14 Erin's Mom SD CZ Dabing",
         "prepared_at": "2026-11-14T11:40:59.186469+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T11:41:11.450791+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -452257,7 +452257,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:41:06.666981+00:00",
+  "updated_at": "2026-11-14T11:41:11.450796+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -452548,6 +452548,10 @@
         {
           "identity": "1085:1:9",
           "at": "2026-11-14T11:41:06.666937+00:00"
+        },
+        {
+          "identity": "1085:2:14",
+          "at": "2026-11-14T11:41:11.450756+00:00"
         }
       ],
       "retry_after": "2026-11-14T11:37:34.887665+00:00"
