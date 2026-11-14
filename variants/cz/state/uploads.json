@@ -445462,12 +445462,6 @@
     },
     "1411:18:18": {
       "episode_key": "případy detektiva murdocha:s18:e18",
-      "claim": {
-        "worker_id": "8fe270b1cbf84d6f945b58365135ed82-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T07:08:30.469029+00:00",
-        "lease_expires_at": "2026-11-14T13:08:30.469039+00:00"
-      },
       "source": {
         "source_id": "32870871",
         "source_url": "https://sdilej.cz/32870871/pripady-detektiva-murdocha-s18e18-cz-dabing.mkv",
@@ -445492,22 +445486,29 @@
         "display_name": "Murdoch Mysteries S18E18 The Incredible Astonishing Adventures of Constable George Crabtree 1080p CZ Dabing",
         "prepared_at": "2026-11-14T07:08:40.905023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024896",
-        "size_bytes": 848487749
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024896",
-        "size_bytes": 848487749,
-        "source_bytes_read": 848487749,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024896",
         "source_bytes_read": 848487749,
         "elapsed_seconds": 443.41,
         "finished_at": "2026-11-14T07:16:18.921877+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024896",
+          "size_bytes": 848487749,
+          "source_bytes_read": 848487749,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870871",
+        "source_url": "https://sdilej.cz/32870871/pripady-detektiva-murdocha-s18e18-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024896",
+        "display_name": "Murdoch Mysteries S18E18 The Incredible Astonishing Adventures of Constable George Crabtree 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T07:16:31.314678+00:00"
       }
     }
   },
@@ -445516,7 +445517,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T07:16:27.097051+00:00",
+  "updated_at": "2026-11-14T07:16:31.314695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
