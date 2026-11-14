@@ -455144,12 +455144,6 @@
     },
     "1812:1:5": {
       "episode_key": "the deuce: špína manhattanu:s1:e5",
-      "claim": {
-        "worker_id": "3d734a57afe845da98dbf239a68be05e-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T13:48:48.056055+00:00",
-        "lease_expires_at": "2026-11-14T19:48:48.056071+00:00"
-      },
       "source": {
         "source_id": "33812478",
         "source_url": "https://sdilej.cz/33812478/the-deuce-s01e05-what-kind-of-bad.mkv",
@@ -455174,22 +455168,29 @@
         "display_name": "The Deuce S01E05 What Kind of Bad? 4K CZ Dabing",
         "prepared_at": "2026-11-14T13:48:51.926368+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31030920",
-        "size_bytes": 2563766643
-      },
-      "transfer_receipt": {
-        "target_video_id": "31030920",
-        "size_bytes": 2563766643,
-        "source_bytes_read": 2563766643,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31030920",
         "source_bytes_read": 2563766643,
         "elapsed_seconds": 450.969,
         "finished_at": "2026-11-14T13:56:36.694001+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31030920",
+          "size_bytes": 2563766643,
+          "source_bytes_read": 2563766643,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33812478",
+        "source_url": "https://sdilej.cz/33812478/the-deuce-s01e05-what-kind-of-bad.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31030920",
+        "display_name": "The Deuce S01E05 What Kind of Bad? 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T13:56:42.881574+00:00"
       }
     },
     "1812:1:6": {
@@ -455272,7 +455273,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T13:56:36.694021+00:00",
+  "updated_at": "2026-11-14T13:56:42.881594+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
