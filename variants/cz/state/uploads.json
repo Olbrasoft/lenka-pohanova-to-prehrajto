@@ -461808,12 +461808,6 @@
     },
     "6269:1:6": {
       "episode_key": "andělé v americe:s1:e6",
-      "claim": {
-        "worker_id": "8d28fb919e534f22a7f1c9f980714ab9-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:32:48.021020+00:00",
-        "lease_expires_at": "2026-11-15T00:32:48.021035+00:00"
-      },
       "source": {
         "source_id": "27435352",
         "source_url": "https://sdilej.cz/27435352/angels.in.america.s01e06.1080p.hmax.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -461838,22 +461832,29 @@
         "display_name": "Angels in America S01E06 Perestroika: Heaven, I'm in Heaven 1080p CZ Dabing",
         "prepared_at": "2026-11-14T18:32:51.541863+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036792",
-        "size_bytes": 2338346275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036792",
-        "size_bytes": 2338346275,
-        "source_bytes_read": 2338346275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036792",
         "source_bytes_read": 2338346275,
         "elapsed_seconds": 274.952,
         "finished_at": "2026-11-14T18:37:46.661213+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036792",
+          "size_bytes": 2338346275,
+          "source_bytes_read": 2338346275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27435352",
+        "source_url": "https://sdilej.cz/27435352/angels.in.america.s01e06.1080p.hmax.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036792",
+        "display_name": "Angels in America S01E06 Perestroika: Heaven, I'm in Heaven 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:37:55.110732+00:00"
       }
     },
     "828:1:1": {
@@ -462001,7 +462002,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:37:51.055209+00:00",
+  "updated_at": "2026-11-14T18:37:55.110746+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
