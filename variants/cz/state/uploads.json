@@ -444099,12 +444099,6 @@
     },
     "1411:17:15": {
       "episode_key": "případy detektiva murdocha:s17:e15",
-      "claim": {
-        "worker_id": "7250a7dea76d49b9ababf305caca2e78-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:50:20.719341+00:00",
-        "lease_expires_at": "2026-11-14T11:50:20.719355+00:00"
-      },
       "source": {
         "source_id": "29199860",
         "source_url": "https://sdilej.cz/29199860/pripady-detektiva-murdocha-s17e15-cz-hd-murdoch-a-poklad-z-limy.mkv",
@@ -444129,22 +444123,29 @@
         "display_name": "Murdoch Mysteries S17E15 Murdoch and the Treasure of Lima 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:50:24.424075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024415",
-        "size_bytes": 1009222001
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024415",
-        "size_bytes": 1009222001,
-        "source_bytes_read": 1009222001,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024415",
         "source_bytes_read": 1009222001,
         "elapsed_seconds": 423.712,
         "finished_at": "2026-11-14T05:57:41.556328+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024415",
+          "size_bytes": 1009222001,
+          "source_bytes_read": 1009222001,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29199860",
+        "source_url": "https://sdilej.cz/29199860/pripady-detektiva-murdocha-s17e15-cz-hd-murdoch-a-poklad-z-limy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024415",
+        "display_name": "Murdoch Mysteries S17E15 Murdoch and the Treasure of Lima 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:57:46.309778+00:00"
       }
     },
     "1411:17:16": {
@@ -444329,7 +444330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:57:41.556348+00:00",
+  "updated_at": "2026-11-14T05:57:46.309795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
