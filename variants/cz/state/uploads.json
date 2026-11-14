@@ -449956,12 +449956,6 @@
     },
     "1820:3:8": {
       "episode_key": "vražedné záhady slečny fisherové:s3:e8",
-      "claim": {
-        "worker_id": "240457d28bdc4be8bd68027259d5eca4-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:42:52.687933+00:00",
-        "lease_expires_at": "2026-11-14T16:42:52.687942+00:00"
-      },
       "source": {
         "source_id": "22136893",
         "source_url": "https://sdilej.cz/22136893/vrazedne-zahady-slecny-fisherove-s03e08-cz-smrt-nas-rozdeli-sd-.avi",
@@ -449986,22 +449980,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S03E08 Death Do Us Part SD CZ Dabing",
         "prepared_at": "2026-11-14T10:42:56.145952+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027631",
-        "size_bytes": 572441182
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027631",
-        "size_bytes": 572441182,
-        "source_bytes_read": 572441182,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027631",
         "source_bytes_read": 572441182,
         "elapsed_seconds": 33.034,
         "finished_at": "2026-11-14T10:43:44.722674+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027631",
+          "size_bytes": 572441182,
+          "source_bytes_read": 572441182,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22136893",
+        "source_url": "https://sdilej.cz/22136893/vrazedne-zahady-slecny-fisherove-s03e08-cz-smrt-nas-rozdeli-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027631",
+        "display_name": "Miss Fisher's Murder Mysteries S03E08 Death Do Us Part SD CZ Dabing",
+        "uploaded_at": "2026-11-14T10:43:49.755400+00:00"
       }
     },
     "2322:1:6": {
@@ -450047,7 +450048,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:43:44.722693+00:00",
+  "updated_at": "2026-11-14T10:43:49.755416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
