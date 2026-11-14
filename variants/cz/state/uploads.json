@@ -464557,12 +464557,6 @@
     },
     "30:2:2": {
       "episode_key": "lucifer:s2:e2",
-      "claim": {
-        "worker_id": "c44da8ab98d944328d6f96b4cc7b75eb-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:51:16.544740+00:00",
-        "lease_expires_at": "2026-11-15T02:51:16.544824+00:00"
-      },
       "source": {
         "source_id": "34483038",
         "source_url": "https://sdilej.cz/34483038/lucifer-s02e02-fhd-1080p-cz-en-kdo-lze-shori-v-pekle.mkv",
@@ -464587,22 +464581,29 @@
         "display_name": "Lucifer S02E02 Liar, Liar, Slutty Dress on Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:51:27.623628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038859",
-        "size_bytes": 537779156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038859",
-        "size_bytes": 537779156,
-        "source_bytes_read": 537779156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038859",
         "source_bytes_read": 537779156,
         "elapsed_seconds": 100.595,
         "finished_at": "2026-11-14T20:53:30.238366+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038859",
+          "size_bytes": 537779156,
+          "source_bytes_read": 537779156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34483038",
+        "source_url": "https://sdilej.cz/34483038/lucifer-s02e02-fhd-1080p-cz-en-kdo-lze-shori-v-pekle.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038859",
+        "display_name": "Lucifer S02E02 Liar, Liar, Slutty Dress on Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:53:37.830549+00:00"
       }
     },
     "30:2:4": {
@@ -464662,7 +464663,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:53:34.315847+00:00",
+  "updated_at": "2026-11-14T20:53:37.830569+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
