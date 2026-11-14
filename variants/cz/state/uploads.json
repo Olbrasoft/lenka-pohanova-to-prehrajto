@@ -442365,12 +442365,6 @@
     },
     "1411:15:24": {
       "episode_key": "případy detektiva murdocha:s15:e24",
-      "claim": {
-        "worker_id": "ccbe74c7638141ce9ec395ff1060febc-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T03:15:14.879983+00:00",
-        "lease_expires_at": "2026-11-14T09:15:14.879994+00:00"
-      },
       "source": {
         "source_id": "30758371",
         "source_url": "https://sdilej.cz/30758371/pripady-detektiva-murdocha-s15e24-242-2022-fhd-blizka-setkani-s-.mp4",
@@ -442395,22 +442389,29 @@
         "display_name": "Murdoch Mysteries S15E24 Close Encounters 1080p CZ Dabing",
         "prepared_at": "2026-11-14T03:15:18.418163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31023198",
-        "size_bytes": 842760125
-      },
-      "transfer_receipt": {
-        "target_video_id": "31023198",
-        "size_bytes": 842760125,
-        "source_bytes_read": 842760125,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31023198",
         "source_bytes_read": 842760125,
         "elapsed_seconds": 300.445,
         "finished_at": "2026-11-14T03:20:36.333171+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31023198",
+          "size_bytes": 842760125,
+          "source_bytes_read": 842760125,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30758371",
+        "source_url": "https://sdilej.cz/30758371/pripady-detektiva-murdocha-s15e24-242-2022-fhd-blizka-setkani-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31023198",
+        "display_name": "Murdoch Mysteries S15E24 Close Encounters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T03:20:44.489469+00:00"
       }
     },
     "1411:16:1": {
@@ -442456,7 +442457,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T03:20:39.847475+00:00",
+  "updated_at": "2026-11-14T03:20:44.489486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
