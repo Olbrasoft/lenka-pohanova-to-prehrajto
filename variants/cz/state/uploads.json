@@ -448887,12 +448887,6 @@
     },
     "1820:2:11": {
       "episode_key": "vražedné záhady slečny fisherové:s2:e11",
-      "claim": {
-        "worker_id": "c55960446ccc49429a08fbb9cf535c63-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:58:21.940474+00:00",
-        "lease_expires_at": "2026-11-14T15:58:21.940487+00:00"
-      },
       "source": {
         "source_id": "33258490",
         "source_url": "https://sdilej.cz/33258490/vrazedne-zahady-slecny-fisherove-s02e11-13-2013-cz-dab-720p-vrazda-v-radiu.mkv",
@@ -448916,7 +448910,13 @@
         },
         "display_name": "Miss Fisher's Murder Mysteries S02E11 Dead Air 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:58:25.618878+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:58:36.373859+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -448924,7 +448924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:58:25.618894+00:00",
+  "updated_at": "2026-11-14T09:58:36.373866+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -449232,8 +449232,13 @@
         {
           "identity": "1820:2:10",
           "at": "2026-11-14T09:58:13.036985+00:00"
+        },
+        {
+          "identity": "1820:2:11",
+          "at": "2026-11-14T09:58:36.373799+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-14T10:08:36.373799+00:00"
     }
   }
 }
