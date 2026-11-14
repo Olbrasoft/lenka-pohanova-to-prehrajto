@@ -460943,12 +460943,6 @@
     },
     "2449:4:6": {
       "episode_key": "patty hewes - nebezpečná advokátka:s4:e6",
-      "claim": {
-        "worker_id": "d445ee8d44ce4ad687c8dd843b4eabdf-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:56:49.976496+00:00",
-        "lease_expires_at": "2026-11-14T23:56:49.976507+00:00"
-      },
       "source": {
         "source_id": "32902338",
         "source_url": "https://sdilej.cz/32902338/patty-hewes-nebezpecna-advokatka-s04e06-10-2011-cz-dab-1080p-pridejte.mp4",
@@ -460973,22 +460967,29 @@
         "display_name": "Damages S04E06 Add That Little Hopper to Your Stew 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:56:55.039664+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036204",
-        "size_bytes": 753710735
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036204",
-        "size_bytes": 753710735,
-        "source_bytes_read": 753710735,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036204",
         "source_bytes_read": 753710735,
         "elapsed_seconds": 106.638,
         "finished_at": "2026-11-14T17:58:57.294720+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036204",
+          "size_bytes": 753710735,
+          "source_bytes_read": 753710735,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902338",
+        "source_url": "https://sdilej.cz/32902338/patty-hewes-nebezpecna-advokatka-s04e06-10-2011-cz-dab-1080p-pridejte.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036204",
+        "display_name": "Damages S04E06 Add That Little Hopper to Your Stew 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:59:06.617717+00:00"
       }
     },
     "2449:4:7": {
@@ -461034,7 +461035,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:59:03.752393+00:00",
+  "updated_at": "2026-11-14T17:59:06.617733+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
