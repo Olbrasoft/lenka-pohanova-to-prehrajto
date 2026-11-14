@@ -456034,12 +456034,6 @@
     },
     "1812:3:4": {
       "episode_key": "the deuce: špína manhattanu:s3:e4",
-      "claim": {
-        "worker_id": "0b06787da5434884938ddaa6720123b3-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:11:51.448769+00:00",
-        "lease_expires_at": "2026-11-14T21:11:51.448782+00:00"
-      },
       "source": {
         "source_id": "33816484",
         "source_url": "https://sdilej.cz/33816484/the-deuce-spina-manhattanu-2019-s03e04-czdab.uhdr-they-can-never-go-home.mkv",
@@ -456064,22 +456058,29 @@
         "display_name": "The Deuce S03E04 They Can Never Go Home 4K CZ Dabing",
         "prepared_at": "2026-11-14T15:12:04.167771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31032468",
-        "size_bytes": 2632642229
-      },
-      "transfer_receipt": {
-        "target_video_id": "31032468",
-        "size_bytes": 2632642229,
-        "source_bytes_read": 2632642229,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31032468",
         "source_bytes_read": 2632642229,
         "elapsed_seconds": 647.059,
         "finished_at": "2026-11-14T15:23:09.725688+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31032468",
+          "size_bytes": 2632642229,
+          "source_bytes_read": 2632642229,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816484",
+        "source_url": "https://sdilej.cz/33816484/the-deuce-spina-manhattanu-2019-s03e04-czdab.uhdr-they-can-never-go-home.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31032468",
+        "display_name": "The Deuce S03E04 They Can Never Go Home 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T15:23:15.991529+00:00"
       }
     },
     "1812:3:5": {
@@ -456242,7 +456243,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:23:09.725713+00:00",
+  "updated_at": "2026-11-14T15:23:15.991545+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
