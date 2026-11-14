@@ -440070,12 +440070,6 @@
     },
     "1411:13:3": {
       "episode_key": "případy detektiva murdocha:s13:e3",
-      "claim": {
-        "worker_id": "540741b191b245678857887cc78f9b0e-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:35:22.011893+00:00",
-        "lease_expires_at": "2026-11-14T07:35:22.011902+00:00"
-      },
       "source": {
         "source_id": "24278007",
         "source_url": "https://sdilej.cz/24278007/pripady-detektiva-murdocha-s13e03-cz-dabing.mkv",
@@ -440100,22 +440094,29 @@
         "display_name": "Murdoch Mysteries S13E03 Forever Young 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:35:28.613179+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022368",
-        "size_bytes": 456611639
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022368",
-        "size_bytes": 456611639,
-        "source_bytes_read": 456611639,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022368",
         "source_bytes_read": 456611639,
         "elapsed_seconds": 149.775,
         "finished_at": "2026-11-14T01:38:20.395791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022368",
+          "size_bytes": 456611639,
+          "source_bytes_read": 456611639,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24278007",
+        "source_url": "https://sdilej.cz/24278007/pripady-detektiva-murdocha-s13e03-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022368",
+        "display_name": "Murdoch Mysteries S13E03 Forever Young 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:38:27.534003+00:00"
       }
     }
   },
@@ -440124,7 +440125,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:38:20.395812+00:00",
+  "updated_at": "2026-11-14T01:38:27.534019+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
