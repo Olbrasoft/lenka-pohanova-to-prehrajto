@@ -467166,12 +467166,6 @@
     },
     "30:4:5": {
       "episode_key": "lucifer:s4:e5",
-      "claim": {
-        "worker_id": "c8a3d719161e432d927860b297e3aadc-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T22:08:46.265644+00:00",
-        "lease_expires_at": "2026-11-15T04:08:46.265661+00:00"
-      },
       "source": {
         "source_id": "34984728",
         "source_url": "https://sdilej.cz/34984728/lucifer-s04e05-cz.mkv",
@@ -467195,7 +467189,13 @@
         },
         "display_name": "Lucifer S04E05 Expire Erect 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:08:50.309610+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T22:09:02.883809+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -467203,7 +467203,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:08:56.169126+00:00",
+  "updated_at": "2026-11-14T22:09:02.883814+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467504,6 +467504,10 @@
         {
           "identity": "30:3:13",
           "at": "2026-11-14T22:08:22.776509+00:00"
+        },
+        {
+          "identity": "30:4:5",
+          "at": "2026-11-14T22:09:02.883778+00:00"
         }
       ],
       "retry_after": "2026-11-14T22:05:57.302658+00:00"
