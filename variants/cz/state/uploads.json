@@ -466585,12 +466585,6 @@
     },
     "30:3:26": {
       "episode_key": "lucifer:s3:e26",
-      "claim": {
-        "worker_id": "39e5f7ced1964cbd833c49ef47431eea-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:53:21.340754+00:00",
-        "lease_expires_at": "2026-11-15T03:53:21.340770+00:00"
-      },
       "source": {
         "source_id": "33884608",
         "source_url": "https://sdilej.cz/33884608/lucifer-s03e26-1080p-cz-en-bylo-nebylo.mkv",
@@ -466615,22 +466609,29 @@
         "display_name": "Lucifer S03E26 Once Upon a Time 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:53:28.799412+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31040027",
-        "size_bytes": 537779737
-      },
-      "transfer_receipt": {
-        "target_video_id": "31040027",
-        "size_bytes": 537779737,
-        "source_bytes_read": 537779737,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31040027",
         "source_bytes_read": 537779737,
         "elapsed_seconds": 69.206,
         "finished_at": "2026-11-14T21:54:59.046772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31040027",
+          "size_bytes": 537779737,
+          "source_bytes_read": 537779737,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33884608",
+        "source_url": "https://sdilej.cz/33884608/lucifer-s03e26-1080p-cz-en-bylo-nebylo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31040027",
+        "display_name": "Lucifer S03E26 Once Upon a Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T21:55:05.655512+00:00"
       }
     },
     "30:4:1": {
@@ -466672,7 +466673,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:55:02.454038+00:00",
+  "updated_at": "2026-11-14T21:55:05.655530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
