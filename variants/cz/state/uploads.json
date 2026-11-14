@@ -443697,12 +443697,6 @@
     },
     "1411:17:7": {
       "episode_key": "případy detektiva murdocha:s17:e7",
-      "claim": {
-        "worker_id": "2b119abd1df0420c8486edbf0f9bd107-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:21:59.543912+00:00",
-        "lease_expires_at": "2026-11-14T11:21:59.543923+00:00"
-      },
       "source": {
         "source_id": "31385041",
         "source_url": "https://sdilej.cz/31385041/pripady-detektiva-murdocha-s17e07-chladny-milion.mkv",
@@ -443727,22 +443721,29 @@
         "display_name": "Murdoch Mysteries S17E07 Cool Million 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:22:03.227798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024201",
-        "size_bytes": 294945927
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024201",
-        "size_bytes": 294945927,
-        "source_bytes_read": 294945927,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024201",
         "source_bytes_read": 294945927,
         "elapsed_seconds": 156.974,
         "finished_at": "2026-11-14T05:24:53.723957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024201",
+          "size_bytes": 294945927,
+          "source_bytes_read": 294945927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31385041",
+        "source_url": "https://sdilej.cz/31385041/pripady-detektiva-murdocha-s17e07-chladny-milion.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024201",
+        "display_name": "Murdoch Mysteries S17E07 Cool Million 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:25:00.531183+00:00"
       }
     },
     "1411:17:8": {
@@ -443788,7 +443789,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:24:57.273260+00:00",
+  "updated_at": "2026-11-14T05:25:00.531199+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
