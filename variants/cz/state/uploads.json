@@ -455450,12 +455450,6 @@
     },
     "1812:2:3": {
       "episode_key": "the deuce: špína manhattanu:s2:e3",
-      "claim": {
-        "worker_id": "3d06683fdf7f4cc68a1c75bfb6a41b0c-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:25:03.386571+00:00",
-        "lease_expires_at": "2026-11-14T20:25:03.386590+00:00"
-      },
       "source": {
         "source_id": "33818939",
         "source_url": "https://sdilej.cz/33818939/the-deuce-spina-manhattanu-s02e03-cz-dabing-2160p-ultra-hd.mkv",
@@ -455480,22 +455474,29 @@
         "display_name": "The Deuce S02E03 Seven-Fifty 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:25:06.940932+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31031578",
-        "size_bytes": 2570173785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31031578",
-        "size_bytes": 2570173785,
-        "source_bytes_read": 2570173785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31031578",
         "source_bytes_read": 2570173785,
         "elapsed_seconds": 287.656,
         "finished_at": "2026-11-14T14:30:08.303378+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31031578",
+          "size_bytes": 2570173785,
+          "source_bytes_read": 2570173785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33818939",
+        "source_url": "https://sdilej.cz/33818939/the-deuce-spina-manhattanu-s02e03-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31031578",
+        "display_name": "The Deuce S02E03 Seven-Fifty 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T14:30:14.012618+00:00"
       }
     },
     "1812:2:4": {
@@ -455578,7 +455579,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T14:30:08.303398+00:00",
+  "updated_at": "2026-11-14T14:30:14.012639+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
