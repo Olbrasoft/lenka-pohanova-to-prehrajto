@@ -467726,12 +467726,6 @@
     },
     "31:1:13": {
       "episode_key": "orange is the new black:s1:e13",
-      "claim": {
-        "worker_id": "9ce37b640d9a478694fed2c43722a75e-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:45:10.215429+00:00",
-        "lease_expires_at": "2026-11-15T04:45:10.215447+00:00"
-      },
       "source": {
         "source_id": "27306516",
         "source_url": "https://sdilej.cz/27306516/orange-is-the-new-black-cz-s01e13.mkv",
@@ -467756,22 +467750,29 @@
         "display_name": "Orange Is the New Black S01E13 Can't Fix Crazy 1080p CZ Dabing",
         "prepared_at": "2026-11-14T22:45:14.766996+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31041109",
-        "size_bytes": 766205433
-      },
-      "transfer_receipt": {
-        "target_video_id": "31041109",
-        "size_bytes": 766205433,
-        "source_bytes_read": 766205433,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31041109",
         "source_bytes_read": 766205433,
         "elapsed_seconds": 201.547,
         "finished_at": "2026-11-14T22:48:51.818721+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31041109",
+          "size_bytes": 766205433,
+          "source_bytes_read": 766205433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306516",
+        "source_url": "https://sdilej.cz/27306516/orange-is-the-new-black-cz-s01e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31041109",
+        "display_name": "Orange Is the New Black S01E13 Can't Fix Crazy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T22:48:59.906608+00:00"
       }
     },
     "31:2:1": {
@@ -467854,7 +467855,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:48:51.818739+00:00",
+  "updated_at": "2026-11-14T22:48:59.906624+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
