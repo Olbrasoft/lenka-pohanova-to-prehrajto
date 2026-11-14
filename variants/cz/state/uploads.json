@@ -445170,12 +445170,6 @@
     },
     "1411:18:12": {
       "episode_key": "případy detektiva murdocha:s18:e12",
-      "claim": {
-        "worker_id": "b6e52ce90e2642449d2b72fdb9ad8377-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:57:37.457880+00:00",
-        "lease_expires_at": "2026-11-14T12:57:37.457894+00:00"
-      },
       "source": {
         "source_id": "32870846",
         "source_url": "https://sdilej.cz/32870846/pripady-detektiva-murdocha-s18e12-cz-dabing.mkv",
@@ -445200,22 +445194,29 @@
         "display_name": "Murdoch Mysteries S18E12 The Star of Mandalay 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:57:48.032849+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024835",
-        "size_bytes": 853798771
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024835",
-        "size_bytes": 853798771,
-        "source_bytes_read": 853798771,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024835",
         "source_bytes_read": 853798771,
         "elapsed_seconds": 438.729,
         "finished_at": "2026-11-14T07:05:24.447601+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024835",
+          "size_bytes": 853798771,
+          "source_bytes_read": 853798771,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870846",
+        "source_url": "https://sdilej.cz/32870846/pripady-detektiva-murdocha-s18e12-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024835",
+        "display_name": "Murdoch Mysteries S18E12 The Star of Mandalay 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T07:05:28.683432+00:00"
       }
     },
     "1411:18:13": {
@@ -445349,7 +445350,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T07:05:24.447619+00:00",
+  "updated_at": "2026-11-14T07:05:28.683449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
