@@ -458511,12 +458511,6 @@
     },
     "951:6:3": {
       "episode_key": "protiúder:s6:e3",
-      "claim": {
-        "worker_id": "2cdc09517ad54e659bc36a6d7ddcef88-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:49:59.126043+00:00",
-        "lease_expires_at": "2026-11-14T22:49:59.126054+00:00"
-      },
       "source": {
         "source_id": "26097398",
         "source_url": "https://sdilej.cz/26097398/protiuder-s06e03.avi",
@@ -458541,22 +458535,29 @@
         "display_name": "Strike Back S06E03 SD CZ Dabing",
         "prepared_at": "2026-11-14T16:50:07.470072+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034694",
-        "size_bytes": 460144714
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034694",
-        "size_bytes": 460144714,
-        "source_bytes_read": 460144714,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034694",
         "source_bytes_read": 460144714,
         "elapsed_seconds": 37.391,
         "finished_at": "2026-11-14T16:51:01.576578+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034694",
+          "size_bytes": 460144714,
+          "source_bytes_read": 460144714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26097398",
+        "source_url": "https://sdilej.cz/26097398/protiuder-s06e03.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034694",
+        "display_name": "Strike Back S06E03 SD CZ Dabing",
+        "uploaded_at": "2026-11-14T16:51:07.314572+00:00"
       }
     },
     "951:6:4": {
@@ -458639,7 +458640,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:51:01.576600+00:00",
+  "updated_at": "2026-11-14T16:51:07.314589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
