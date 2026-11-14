@@ -446060,12 +446060,6 @@
     },
     "4086:1:5": {
       "episode_key": "pozlacený věk:s1:e5",
-      "claim": {
-        "worker_id": "5be5c0509c5443f0997bf85cedadad91-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T08:07:48.649001+00:00",
-        "lease_expires_at": "2026-11-14T14:07:48.649013+00:00"
-      },
       "source": {
         "source_id": "31330485",
         "source_url": "https://sdilej.cz/31330485/pozlaceny-vek-s01e05-2022-1080p-h265-cz-sk.mkv",
@@ -446090,22 +446084,29 @@
         "display_name": "The Gilded Age S01E05 Charity Has Two Functions 1080p CZ Dabing",
         "prepared_at": "2026-11-14T08:07:55.242402+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025346",
-        "size_bytes": 910103605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025346",
-        "size_bytes": 910103605,
-        "source_bytes_read": 910103605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025346",
         "source_bytes_read": 910103605,
         "elapsed_seconds": 473.168,
         "finished_at": "2026-11-14T08:16:05.227226+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025346",
+          "size_bytes": 910103605,
+          "source_bytes_read": 910103605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31330485",
+        "source_url": "https://sdilej.cz/31330485/pozlaceny-vek-s01e05-2022-1080p-h265-cz-sk.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025346",
+        "display_name": "The Gilded Age S01E05 Charity Has Two Functions 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T08:16:10.424123+00:00"
       }
     }
   },
@@ -446114,7 +446115,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T08:16:05.227247+00:00",
+  "updated_at": "2026-11-14T08:16:10.424140+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
