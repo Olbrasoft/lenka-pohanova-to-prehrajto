@@ -440229,12 +440229,6 @@
     },
     "1411:13:6": {
       "episode_key": "případy detektiva murdocha:s13:e6",
-      "claim": {
-        "worker_id": "ffdb042a0d38483f96e356d7db26abad-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:40:30.708279+00:00",
-        "lease_expires_at": "2026-11-14T07:40:30.708291+00:00"
-      },
       "source": {
         "source_id": "32858119",
         "source_url": "https://sdilej.cz/32858119/pripady.detektiva.murdocha.s13e06.murdoch.a.proklete.jeskyne.mkv",
@@ -440259,22 +440253,29 @@
         "display_name": "Murdoch Mysteries S13E06 The Philately Fatality 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:40:34.261425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022405",
-        "size_bytes": 461214650
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022405",
-        "size_bytes": 461214650,
-        "source_bytes_read": 461214650,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022405",
         "source_bytes_read": 461214650,
         "elapsed_seconds": 156.479,
         "finished_at": "2026-11-14T01:43:29.261681+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022405",
+          "size_bytes": 461214650,
+          "source_bytes_read": 461214650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858119",
+        "source_url": "https://sdilej.cz/32858119/pripady.detektiva.murdocha.s13e06.murdoch.a.proklete.jeskyne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022405",
+        "display_name": "Murdoch Mysteries S13E06 The Philately Fatality 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:43:36.735620+00:00"
       }
     }
   },
@@ -440283,7 +440284,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:43:33.638902+00:00",
+  "updated_at": "2026-11-14T01:43:36.735634+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
