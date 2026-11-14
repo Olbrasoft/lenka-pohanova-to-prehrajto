@@ -441804,12 +441804,6 @@
     },
     "1411:15:12": {
       "episode_key": "případy detektiva murdocha:s15:e12",
-      "claim": {
-        "worker_id": "a64448627f04447c9e3080c0d42c481e-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:44:35.260958+00:00",
-        "lease_expires_at": "2026-11-14T08:44:35.260968+00:00"
-      },
       "source": {
         "source_id": "30758283",
         "source_url": "https://sdilej.cz/30758283/pripady-detektiva-murdocha-s15e12-230-2022-fhd-na-te-mary-neco-je-s-.mp4",
@@ -441834,22 +441828,29 @@
         "display_name": "Murdoch Mysteries S15E12 There's Something About Mary 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:44:38.674318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022915",
-        "size_bytes": 858073159
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022915",
-        "size_bytes": 858073159,
-        "source_bytes_read": 858073159,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022915",
         "source_bytes_read": 858073159,
         "elapsed_seconds": 288.166,
         "finished_at": "2026-11-14T02:49:43.703526+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022915",
+          "size_bytes": 858073159,
+          "source_bytes_read": 858073159,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30758283",
+        "source_url": "https://sdilej.cz/30758283/pripady-detektiva-murdocha-s15e12-230-2022-fhd-na-te-mary-neco-je-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022915",
+        "display_name": "Murdoch Mysteries S15E12 There's Something About Mary 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:49:48.236187+00:00"
       }
     },
     "1411:15:13": {
@@ -441932,7 +441933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:49:43.703545+00:00",
+  "updated_at": "2026-11-14T02:49:48.236204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
