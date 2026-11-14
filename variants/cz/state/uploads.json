@@ -453616,12 +453616,6 @@
     },
     "2966:6:3": {
       "episode_key": "vraždy v oxfordu:s6:e3",
-      "claim": {
-        "worker_id": "3cdb43b0d6e940808090fd604b6de1a8-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:34:21.424891+00:00",
-        "lease_expires_at": "2026-11-14T18:34:21.424909+00:00"
-      },
       "source": {
         "source_id": "29919931",
         "source_url": "https://sdilej.cz/29919931/vrazdy-v-oxfordu-s06e03-023-2011-sd-desiva-symetrie-s-.mp4",
@@ -453646,22 +453640,29 @@
         "display_name": "Lewis S06E03 Fearful Symmetry SD CZ Dabing",
         "prepared_at": "2026-11-14T12:34:25.032831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029451",
-        "size_bytes": 1317015111
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029451",
-        "size_bytes": 1317015111,
-        "source_bytes_read": 1317015111,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029451",
         "source_bytes_read": 1317015111,
         "elapsed_seconds": 131.516,
         "finished_at": "2026-11-14T12:36:52.674877+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029451",
+          "size_bytes": 1317015111,
+          "source_bytes_read": 1317015111,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919931",
+        "source_url": "https://sdilej.cz/29919931/vrazdy-v-oxfordu-s06e03-023-2011-sd-desiva-symetrie-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029451",
+        "display_name": "Lewis S06E03 Fearful Symmetry SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:37:01.296127+00:00"
       }
     },
     "2966:6:4": {
@@ -453707,7 +453708,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:36:56.881895+00:00",
+  "updated_at": "2026-11-14T12:37:01.296147+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
