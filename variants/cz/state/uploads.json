@@ -461490,12 +461490,6 @@
     },
     "2449:5:7": {
       "episode_key": "patty hewes - nebezpečná advokátka:s5:e7",
-      "claim": {
-        "worker_id": "465622f9550b4aeb9c2bb003c99c8abb-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:12:50.586146+00:00",
-        "lease_expires_at": "2026-11-15T00:12:50.586158+00:00"
-      },
       "source": {
         "source_id": "32902371",
         "source_url": "https://sdilej.cz/32902371/patty-hewes-nebezpecna-advokatka-s05e07-10-2012-cz-dab-1080p-boure-se.mp4",
@@ -461520,22 +461514,29 @@
         "display_name": "Damages S05E07 The Storm's Moving In 720p CZ Dabing",
         "prepared_at": "2026-11-14T18:12:54.207518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036416",
-        "size_bytes": 821063056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036416",
-        "size_bytes": 821063056,
-        "source_bytes_read": 821063056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036416",
         "source_bytes_read": 821063056,
         "elapsed_seconds": 120.792,
         "finished_at": "2026-11-14T18:15:12.495099+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036416",
+          "size_bytes": 821063056,
+          "source_bytes_read": 821063056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902371",
+        "source_url": "https://sdilej.cz/32902371/patty-hewes-nebezpecna-advokatka-s05e07-10-2012-cz-dab-1080p-boure-se.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036416",
+        "display_name": "Damages S05E07 The Storm's Moving In 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:15:18.896026+00:00"
       }
     }
   },
@@ -461544,7 +461545,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:15:15.929116+00:00",
+  "updated_at": "2026-11-14T18:15:18.896043+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
