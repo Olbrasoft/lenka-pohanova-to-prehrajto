@@ -437979,12 +437979,6 @@
     },
     "1411:10:11": {
       "episode_key": "případy detektiva murdocha:s10:e11",
-      "claim": {
-        "worker_id": "13526a782c3a413294f1bd74cdaffbb3-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:34:03.348338+00:00",
-        "lease_expires_at": "2026-11-14T06:34:03.348350+00:00"
-      },
       "source": {
         "source_id": "14043626",
         "source_url": "https://sdilej.cz/14043626/pripady-detektiva-murdocha-s10e11-zakopany-pes.avi",
@@ -438009,22 +438003,29 @@
         "display_name": "Murdoch Mysteries S10E11 A Murdog Mystery SD CZ Dabing",
         "prepared_at": "2026-11-14T00:34:23.952938+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021931",
-        "size_bytes": 367699968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021931",
-        "size_bytes": 367699968,
-        "source_bytes_read": 367699968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021931",
         "source_bytes_read": 367699968,
         "elapsed_seconds": 132.086,
         "finished_at": "2026-11-14T00:36:57.958696+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021931",
+          "size_bytes": 367699968,
+          "source_bytes_read": 367699968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043626",
+        "source_url": "https://sdilej.cz/14043626/pripady-detektiva-murdocha-s10e11-zakopany-pes.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021931",
+        "display_name": "Murdoch Mysteries S10E11 A Murdog Mystery SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:37:05.418141+00:00"
       }
     },
     "1411:10:12": {
@@ -438121,7 +438122,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:37:02.287637+00:00",
+  "updated_at": "2026-11-14T00:37:05.418157+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
