@@ -457087,12 +457087,6 @@
     },
     "951:3:7": {
       "episode_key": "protiúder:s3:e7",
-      "claim": {
-        "worker_id": "fa047b09cb2b45fdb510c41a35abacd1-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:59:10.929151+00:00",
-        "lease_expires_at": "2026-11-14T21:59:10.929165+00:00"
-      },
       "source": {
         "source_id": "35291387",
         "source_url": "https://sdilej.cz/35291387/protiuder-s03e07.mkv",
@@ -457117,22 +457111,29 @@
         "display_name": "Strike Back S03E07 720p CZ Dabing",
         "prepared_at": "2026-11-14T15:59:19.420587+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31033592",
-        "size_bytes": 2116040368
-      },
-      "transfer_receipt": {
-        "target_video_id": "31033592",
-        "size_bytes": 2116040368,
-        "source_bytes_read": 2116040368,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31033592",
         "source_bytes_read": 2116040368,
         "elapsed_seconds": 327.524,
         "finished_at": "2026-11-14T16:05:01.890126+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31033592",
+          "size_bytes": 2116040368,
+          "source_bytes_read": 2116040368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35291387",
+        "source_url": "https://sdilej.cz/35291387/protiuder-s03e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31033592",
+        "display_name": "Strike Back S03E07 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T16:05:17.705345+00:00"
       }
     }
   },
@@ -457141,7 +457142,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:05:14.280689+00:00",
+  "updated_at": "2026-11-14T16:05:17.705362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
