@@ -438132,12 +438132,6 @@
     },
     "1411:10:14": {
       "episode_key": "případy detektiva murdocha:s10:e14",
-      "claim": {
-        "worker_id": "9966a34ee7ac4fffba5c669779f77139-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:38:45.955434+00:00",
-        "lease_expires_at": "2026-11-14T06:38:45.955445+00:00"
-      },
       "source": {
         "source_id": "14043638",
         "source_url": "https://sdilej.cz/14043638/pripady-detektiva-murdocha-s10e14-od-murdocha-k-vecnosti.avi",
@@ -438162,22 +438156,29 @@
         "display_name": "Murdoch Mysteries S10E14 From Murdoch to Eternity SD CZ Dabing",
         "prepared_at": "2026-11-14T00:38:57.110404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021968",
-        "size_bytes": 367699968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021968",
-        "size_bytes": 367699968,
-        "source_bytes_read": 367699968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021968",
         "source_bytes_read": 367699968,
         "elapsed_seconds": 118.547,
         "finished_at": "2026-11-14T00:41:14.655991+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021968",
+          "size_bytes": 367699968,
+          "source_bytes_read": 367699968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043638",
+        "source_url": "https://sdilej.cz/14043638/pripady-detektiva-murdocha-s10e14-od-murdocha-k-vecnosti.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021968",
+        "display_name": "Murdoch Mysteries S10E14 From Murdoch to Eternity SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:41:20.447078+00:00"
       }
     },
     "1411:10:15": {
@@ -438260,7 +438261,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:41:14.656011+00:00",
+  "updated_at": "2026-11-14T00:41:20.447094+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
