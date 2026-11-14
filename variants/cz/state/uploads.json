@@ -450395,12 +450395,6 @@
     },
     "1242:1:2": {
       "episode_key": "mrtví jako já:s1:e2",
-      "claim": {
-        "worker_id": "70ac7f92323345ac84992b33a578e0cc-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:14:37.901441+00:00",
-        "lease_expires_at": "2026-11-14T17:14:37.901450+00:00"
-      },
       "source": {
         "source_id": "31100917",
         "source_url": "https://sdilej.cz/31100917/mrtvi-jako-ja-s01e02-ziva-mrtva-divka-2003-komedie-fantasy-czdab.mp4",
@@ -450425,22 +450419,29 @@
         "display_name": "Dead Like Me S01E02 Dead Girl Walking SD CZ Dabing",
         "prepared_at": "2026-11-14T11:14:47.395028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028087",
-        "size_bytes": 286392392
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028087",
-        "size_bytes": 286392392,
-        "source_bytes_read": 286392392,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028087",
         "source_bytes_read": 286392392,
         "elapsed_seconds": 33.123,
         "finished_at": "2026-11-14T11:15:33.357913+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028087",
+          "size_bytes": 286392392,
+          "source_bytes_read": 286392392,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31100917",
+        "source_url": "https://sdilej.cz/31100917/mrtvi-jako-ja-s01e02-ziva-mrtva-divka-2003-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028087",
+        "display_name": "Dead Like Me S01E02 Dead Girl Walking SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:15:41.692712+00:00"
       }
     }
   },
@@ -450449,7 +450450,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:15:37.616596+00:00",
+  "updated_at": "2026-11-14T11:15:41.692729+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
