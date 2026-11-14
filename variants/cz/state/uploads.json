@@ -449645,12 +449645,6 @@
     },
     "1085:2:3": {
       "episode_key": "policie chicago:s2:e3",
-      "claim": {
-        "worker_id": "0a723e2706794777ad2fc5c776a28cda-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:39:40.362036+00:00",
-        "lease_expires_at": "2026-11-14T16:39:40.362048+00:00"
-      },
       "source": {
         "source_id": "30289846",
         "source_url": "https://sdilej.cz/30289846/chicago-p.d.-policie-chicago-s02e03-czdab.mp4",
@@ -449675,22 +449669,29 @@
         "display_name": "Chicago P.D. S02E03 The Weigh Station SD CZ Dabing",
         "prepared_at": "2026-11-14T10:39:53.299443+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027578",
-        "size_bytes": 436845239
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027578",
-        "size_bytes": 436845239,
-        "source_bytes_read": 436845239,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027578",
         "source_bytes_read": 436845239,
         "elapsed_seconds": 24.472,
         "finished_at": "2026-11-14T10:40:37.000568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027578",
+          "size_bytes": 436845239,
+          "source_bytes_read": 436845239,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30289846",
+        "source_url": "https://sdilej.cz/30289846/chicago-p.d.-policie-chicago-s02e03-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027578",
+        "display_name": "Chicago P.D. S02E03 The Weigh Station SD CZ Dabing",
+        "uploaded_at": "2026-11-14T10:40:45.480245+00:00"
       }
     },
     "1085:2:4": {
@@ -449765,7 +449766,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:40:40.650615+00:00",
+  "updated_at": "2026-11-14T10:40:45.480261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
