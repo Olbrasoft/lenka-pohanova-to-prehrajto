@@ -455857,12 +455857,6 @@
     },
     "1812:3:2": {
       "episode_key": "the deuce: špína manhattanu:s3:e2",
-      "claim": {
-        "worker_id": "0d9730a1e0034d76b50ed5c67a6f1bdf-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:51:15.253891+00:00",
-        "lease_expires_at": "2026-11-14T20:51:15.253906+00:00"
-      },
       "source": {
         "source_id": "33819268",
         "source_url": "https://sdilej.cz/33819268/the-deuce-spina-manhattanu-s03e02-cz-dabing-2160p-ultra-hd.mkv",
@@ -455887,22 +455881,29 @@
         "display_name": "The Deuce S03E02 Morta di Fame 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:51:31.243436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31032000",
-        "size_bytes": 2645543033
-      },
-      "transfer_receipt": {
-        "target_video_id": "31032000",
-        "size_bytes": 2645543033,
-        "source_bytes_read": 2645543033,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31032000",
         "source_bytes_read": 2645543033,
         "elapsed_seconds": 487.258,
         "finished_at": "2026-11-14T14:59:56.754190+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31032000",
+          "size_bytes": 2645543033,
+          "source_bytes_read": 2645543033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33819268",
+        "source_url": "https://sdilej.cz/33819268/the-deuce-spina-manhattanu-s03e02-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31032000",
+        "display_name": "The Deuce S03E02 Morta di Fame 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T15:00:10.057851+00:00"
       }
     },
     "1812:3:3": {
@@ -455961,7 +455962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:00:06.915016+00:00",
+  "updated_at": "2026-11-14T15:00:10.057870+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
