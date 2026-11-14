@@ -450151,12 +450151,6 @@
     },
     "1421:1:1": {
       "episode_key": "cromwell:s1:e1",
-      "claim": {
-        "worker_id": "b06fddc650074cee9d5a8efa37aefff7-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:01:22.150511+00:00",
-        "lease_expires_at": "2026-11-14T17:01:22.150522+00:00"
-      },
       "source": {
         "source_id": "34836723",
         "source_url": "https://sdilej.cz/34836723/wolf-hall-s01e01-06-2015-cz-dabing-720p-hd-kouzlo-s-tremi-kartami.mkv",
@@ -450181,22 +450175,29 @@
         "display_name": "Wolf Hall S01E01 Three Card Trick 720p CZ Dabing",
         "prepared_at": "2026-11-14T11:01:28.198434+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027934",
-        "size_bytes": 2626746581
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027934",
-        "size_bytes": 2626746581,
-        "source_bytes_read": 2626746581,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027934",
         "source_bytes_read": 2626746581,
         "elapsed_seconds": 639.37,
         "finished_at": "2026-11-14T11:12:25.930464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027934",
+          "size_bytes": 2626746581,
+          "source_bytes_read": 2626746581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34836723",
+        "source_url": "https://sdilej.cz/34836723/wolf-hall-s01e01-06-2015-cz-dabing-720p-hd-kouzlo-s-tremi-kartami.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027934",
+        "display_name": "Wolf Hall S01E01 Three Card Trick 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T11:12:31.667598+00:00"
       }
     },
     "1421:1:3": {
@@ -450293,7 +450294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:12:25.930485+00:00",
+  "updated_at": "2026-11-14T11:12:31.667615+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
