@@ -467474,12 +467474,6 @@
     },
     "30:5:3": {
       "episode_key": "lucifer:s5:e3",
-      "claim": {
-        "worker_id": "bd13d45fd95c4ccc8e5825ccca4dd800-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:41:59.201031+00:00",
-        "lease_expires_at": "2026-11-15T04:41:59.201043+00:00"
-      },
       "source": {
         "source_id": "34984874",
         "source_url": "https://sdilej.cz/34984874/lucifer-s05e03-cz.mkv",
@@ -467503,7 +467497,13 @@
         },
         "display_name": "Lucifer S05E03 ¡Diablo! 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:42:14.925794+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T22:42:27.156992+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "30:5:4": {
       "episode_key": "lucifer:s5:e4",
@@ -467577,7 +467577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:42:21.955127+00:00",
+  "updated_at": "2026-11-14T22:42:27.157012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467886,9 +467886,13 @@
         {
           "identity": "30:5:4",
           "at": "2026-11-14T22:42:21.955088+00:00"
+        },
+        {
+          "identity": "30:5:3",
+          "at": "2026-11-14T22:42:27.151811+00:00"
         }
       ],
-      "retry_after": "2026-11-14T22:40:36.811880+00:00"
+      "retry_after": "2026-11-14T22:52:27.151811+00:00"
     }
   }
 }
