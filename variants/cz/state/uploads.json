@@ -454355,12 +454355,6 @@
     },
     "2296:3:3": {
       "episode_key": "durrellovi:s3:e3",
-      "claim": {
-        "worker_id": "98695bfa154d473c8db2442ae65243cd-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T13:08:48.201088+00:00",
-        "lease_expires_at": "2026-11-14T19:08:48.201104+00:00"
-      },
       "source": {
         "source_id": "34943800",
         "source_url": "https://sdilej.cz/34943800/the.durrells.s03e03.cz.sk.1080p.amzn.web-dl.ddp2.0.h.264-ethics.mkv",
@@ -454385,22 +454379,29 @@
         "display_name": "The Durrells S03E03 1080p CZ Dabing",
         "prepared_at": "2026-11-14T13:09:04.429772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31030123",
-        "size_bytes": 842505324
-      },
-      "transfer_receipt": {
-        "target_video_id": "31030123",
-        "size_bytes": 842505324,
-        "source_bytes_read": 842505324,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31030123",
         "source_bytes_read": 842505324,
         "elapsed_seconds": 241.474,
         "finished_at": "2026-11-14T13:13:25.586688+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31030123",
+          "size_bytes": 842505324,
+          "source_bytes_read": 842505324,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943800",
+        "source_url": "https://sdilej.cz/34943800/the.durrells.s03e03.cz.sk.1080p.amzn.web-dl.ddp2.0.h.264-ethics.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31030123",
+        "display_name": "The Durrells S03E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T13:13:35.761457+00:00"
       }
     },
     "2296:3:4": {
@@ -454460,7 +454461,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T13:13:32.569797+00:00",
+  "updated_at": "2026-11-14T13:13:35.761473+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
