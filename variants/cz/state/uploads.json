@@ -439552,12 +439552,6 @@
     },
     "1411:12:9": {
       "episode_key": "případy detektiva murdocha:s12:e9",
-      "claim": {
-        "worker_id": "697d043a6d67427885c54d031246319f-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:21:44.783930+00:00",
-        "lease_expires_at": "2026-11-14T07:21:44.783941+00:00"
-      },
       "source": {
         "source_id": "32858203",
         "source_url": "https://sdilej.cz/32858203/pripady-detektiva-murdocha-s12e09.tajemstvi.a.lez.mkv",
@@ -439582,22 +439576,29 @@
         "display_name": "Murdoch Mysteries S12E09 Secrets and Lies 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:21:48.578207+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022272",
-        "size_bytes": 454925419
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022272",
-        "size_bytes": 454925419,
-        "source_bytes_read": 454925419,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022272",
         "source_bytes_read": 454925419,
         "elapsed_seconds": 158.512,
         "finished_at": "2026-11-14T01:24:46.547865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022272",
+          "size_bytes": 454925419,
+          "source_bytes_read": 454925419,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858203",
+        "source_url": "https://sdilej.cz/32858203/pripady-detektiva-murdocha-s12e09.tajemstvi.a.lez.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022272",
+        "display_name": "Murdoch Mysteries S12E09 Secrets and Lies 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:24:53.748220+00:00"
       }
     }
   },
@@ -439606,7 +439607,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:24:50.579438+00:00",
+  "updated_at": "2026-11-14T01:24:53.748235+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
