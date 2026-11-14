@@ -397743,24 +397743,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-13T20:56:38.869451+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-13T22:11:34.413851+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-13T23:14:17.938748+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-14T00:20:54.334659+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "12a87aec814243c0998d6310be2b896d-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:20:39.201063+00:00",
-        "lease_expires_at": "2026-11-14T06:20:39.201081+00:00"
-      }
+      ]
     },
     "1402:4:21": {
       "episode_key": "zákon a pořádek: útvar pro zvláštní oběti:s4:e21",
@@ -437369,7 +437363,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:20:46.199832+00:00",
+  "updated_at": "2026-11-14T00:20:54.334665+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -437599,9 +437593,13 @@
         {
           "identity": "1402:4:12",
           "at": "2026-11-14T00:20:23.661766+00:00"
+        },
+        {
+          "identity": "1402:4:20",
+          "at": "2026-11-14T00:20:54.334595+00:00"
         }
       ],
-      "retry_after": "2026-11-14T00:17:55.794703+00:00"
+      "retry_after": "2026-11-14T00:30:54.334595+00:00"
     }
   }
 }
