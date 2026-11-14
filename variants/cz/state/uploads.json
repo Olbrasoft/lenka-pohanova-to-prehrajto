@@ -460784,12 +460784,6 @@
     },
     "2449:3:13": {
       "episode_key": "patty hewes - nebezpečná advokátka:s3:e13",
-      "claim": {
-        "worker_id": "22522fe8b0bc4b52ac66286bab8847a7-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:54:17.439873+00:00",
-        "lease_expires_at": "2026-11-14T23:54:17.439885+00:00"
-      },
       "source": {
         "source_id": "32902314",
         "source_url": "https://sdilej.cz/32902314/patty-hewes-nebezpecna-advokatka-s03e13-13-2010-cz-dab-720p-ten-dalsi.mp4",
@@ -460814,22 +460808,29 @@
         "display_name": "Damages S03E13 The Next One's Gonna Go in Your Throat 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:54:24.020812+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036163",
-        "size_bytes": 896473302
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036163",
-        "size_bytes": 896473302,
-        "source_bytes_read": 896473302,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036163",
         "source_bytes_read": 896473302,
         "elapsed_seconds": 107.44,
         "finished_at": "2026-11-14T17:56:30.566401+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036163",
+          "size_bytes": 896473302,
+          "source_bytes_read": 896473302,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902314",
+        "source_url": "https://sdilej.cz/32902314/patty-hewes-nebezpecna-advokatka-s03e13-13-2010-cz-dab-720p-ten-dalsi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036163",
+        "display_name": "Damages S03E13 The Next One's Gonna Go in Your Throat 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:56:37.075913+00:00"
       }
     },
     "2449:4:1": {
@@ -460912,7 +460913,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:56:30.566422+00:00",
+  "updated_at": "2026-11-14T17:56:37.075933+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
