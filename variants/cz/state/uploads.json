@@ -468131,12 +468131,6 @@
     },
     "31:2:8": {
       "episode_key": "orange is the new black:s2:e8",
-      "claim": {
-        "worker_id": "7bcecde27f5948209f2e21024d78459c-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:59:37.555598+00:00",
-        "lease_expires_at": "2026-11-15T04:59:37.555612+00:00"
-      },
       "source": {
         "source_id": "28465891",
         "source_url": "https://sdilej.cz/28465891/orange-is-the-new-black-s02e08-kvetinace-cz-480p.mp4",
@@ -468161,22 +468155,29 @@
         "display_name": "Orange Is the New Black S02E08 Appropriately Sized Pots SD CZ Dabing",
         "prepared_at": "2026-11-14T22:59:41.704484+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31041327",
-        "size_bytes": 226558809
-      },
-      "transfer_receipt": {
-        "target_video_id": "31041327",
-        "size_bytes": 226558809,
-        "source_bytes_read": 226558809,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31041327",
         "source_bytes_read": 226558809,
         "elapsed_seconds": 18.388,
         "finished_at": "2026-11-14T23:00:17.665736+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31041327",
+          "size_bytes": 226558809,
+          "source_bytes_read": 226558809,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28465891",
+        "source_url": "https://sdilej.cz/28465891/orange-is-the-new-black-s02e08-kvetinace-cz-480p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31041327",
+        "display_name": "Orange Is the New Black S02E08 Appropriately Sized Pots SD CZ Dabing",
+        "uploaded_at": "2026-11-14T23:00:35.578079+00:00"
       }
     }
   },
@@ -468185,7 +468186,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T23:00:17.665756+00:00",
+  "updated_at": "2026-11-14T23:00:35.578094+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
