@@ -439356,12 +439356,6 @@
     },
     "1411:12:4": {
       "episode_key": "případy detektiva murdocha:s12:e4",
-      "claim": {
-        "worker_id": "2d73924cdb6948d3855b03e3acf9461e-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:17:34.947319+00:00",
-        "lease_expires_at": "2026-11-14T07:17:34.947334+00:00"
-      },
       "source": {
         "source_id": "32858186",
         "source_url": "https://sdilej.cz/32858186/pripady-detektiva-murdocha-s12e04.vyzivna.svatba.v.mimicu.mkv",
@@ -439386,22 +439380,29 @@
         "display_name": "Murdoch Mysteries S12E04 Murdoch Without Borders 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:17:39.965468+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022225",
-        "size_bytes": 463587783
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022225",
-        "size_bytes": 463587783,
-        "source_bytes_read": 463587783,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022225",
         "source_bytes_read": 463587783,
         "elapsed_seconds": 158.468,
         "finished_at": "2026-11-14T01:20:31.713044+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022225",
+          "size_bytes": 463587783,
+          "source_bytes_read": 463587783,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858186",
+        "source_url": "https://sdilej.cz/32858186/pripady-detektiva-murdocha-s12e04.vyzivna.svatba.v.mimicu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022225",
+        "display_name": "Murdoch Mysteries S12E04 Murdoch Without Borders 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:20:36.961148+00:00"
       }
     },
     "1411:12:5": {
@@ -439484,7 +439485,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:20:31.713065+00:00",
+  "updated_at": "2026-11-14T01:20:36.961165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
