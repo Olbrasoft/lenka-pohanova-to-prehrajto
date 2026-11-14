@@ -455768,12 +455768,6 @@
     },
     "1812:2:9": {
       "episode_key": "the deuce: špína manhattanu:s2:e9",
-      "claim": {
-        "worker_id": "09c5f6c4806146d5abe152891cae6ce4-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:38:26.641697+00:00",
-        "lease_expires_at": "2026-11-14T20:38:26.641722+00:00"
-      },
       "source": {
         "source_id": "33814198",
         "source_url": "https://sdilej.cz/33814198/the-deuce-s02e09-inside-the-pretend.mkv",
@@ -455798,22 +455792,29 @@
         "display_name": "The Deuce S02E09 Inside the Pretend 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:38:30.633794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31031756",
-        "size_bytes": 3135836533
-      },
-      "transfer_receipt": {
-        "target_video_id": "31031756",
-        "size_bytes": 3135836533,
-        "source_bytes_read": 3135836533,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31031756",
         "source_bytes_read": 3135836533,
         "elapsed_seconds": 488.242,
         "finished_at": "2026-11-14T14:46:53.446451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31031756",
+          "size_bytes": 3135836533,
+          "source_bytes_read": 3135836533,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33814198",
+        "source_url": "https://sdilej.cz/33814198/the-deuce-s02e09-inside-the-pretend.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31031756",
+        "display_name": "The Deuce S02E09 Inside the Pretend 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T14:47:00.549369+00:00"
       }
     }
   },
@@ -455822,7 +455823,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T14:46:56.592841+00:00",
+  "updated_at": "2026-11-14T14:47:00.549388+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
