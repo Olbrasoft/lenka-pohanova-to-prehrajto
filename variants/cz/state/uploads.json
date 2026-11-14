@@ -453955,12 +453955,6 @@
     },
     "2296:1:5": {
       "episode_key": "durrellovi:s1:e5",
-      "claim": {
-        "worker_id": "ec6bdc49bb9e4eb4944bbc2755155de3-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:43:42.368340+00:00",
-        "lease_expires_at": "2026-11-14T18:43:42.368357+00:00"
-      },
       "source": {
         "source_id": "11169828",
         "source_url": "https://sdilej.cz/11169828/durrellovi.01x05.1080i.hdtv.cz.mkv",
@@ -453985,22 +453979,29 @@
         "display_name": "The Durrells S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-14T12:43:52.423350+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029633",
-        "size_bytes": 2038627924
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029633",
-        "size_bytes": 2038627924,
-        "source_bytes_read": 2038627924,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029633",
         "source_bytes_read": 2038627924,
         "elapsed_seconds": 348.677,
         "finished_at": "2026-11-14T12:49:59.192774+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029633",
+          "size_bytes": 2038627924,
+          "source_bytes_read": 2038627924,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11169828",
+        "source_url": "https://sdilej.cz/11169828/durrellovi.01x05.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029633",
+        "display_name": "The Durrells S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T12:50:10.522369+00:00"
       }
     },
     "2296:2:1": {
@@ -454110,7 +454111,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:50:07.111149+00:00",
+  "updated_at": "2026-11-14T12:50:10.522389+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
