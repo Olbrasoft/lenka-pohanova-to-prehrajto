@@ -447852,12 +447852,6 @@
     },
     "1820:1:9": {
       "episode_key": "vražedné záhady slečny fisherové:s1:e9",
-      "claim": {
-        "worker_id": "52e88a238f154b29abd8f3e8b30d4327-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:24:13.937258+00:00",
-        "lease_expires_at": "2026-11-14T15:24:13.937271+00:00"
-      },
       "source": {
         "source_id": "26195290",
         "source_url": "https://sdilej.cz/26195290/vrazedne-zahady-slecny-fisherove-s01e09-cz-kralovna-kvetin-sd-.mkv",
@@ -447882,22 +447876,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S01E09 Queen of the Flowers 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:24:17.615500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31026052",
-        "size_bytes": 2410872999
-      },
-      "transfer_receipt": {
-        "target_video_id": "31026052",
-        "size_bytes": 2410872999,
-        "source_bytes_read": 2410872999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31026052",
         "source_bytes_read": 2410872999,
         "elapsed_seconds": 376.314,
         "finished_at": "2026-11-14T09:30:48.216282+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31026052",
+          "size_bytes": 2410872999,
+          "source_bytes_read": 2410872999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26195290",
+        "source_url": "https://sdilej.cz/26195290/vrazedne-zahady-slecny-fisherove-s01e09-cz-kralovna-kvetin-sd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31026052",
+        "display_name": "Miss Fisher's Murder Mysteries S01E09 Queen of the Flowers 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:30:56.454805+00:00"
       }
     },
     "1820:1:10": {
@@ -448045,7 +448046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:30:53.482669+00:00",
+  "updated_at": "2026-11-14T09:30:56.454822+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
