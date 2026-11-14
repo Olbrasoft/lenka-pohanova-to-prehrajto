@@ -451332,12 +451332,6 @@
     },
     "1085:2:9": {
       "episode_key": "policie chicago:s2:e9",
-      "claim": {
-        "worker_id": "c4e38532f6154fc89e2eef249c18b64f-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:26:15.189320+00:00",
-        "lease_expires_at": "2026-11-14T17:26:15.189332+00:00"
-      },
       "source": {
         "source_id": "30289874",
         "source_url": "https://sdilej.cz/30289874/chicago-p.d.-policie-chicago-s02e09-czdab.mp4",
@@ -451362,22 +451356,29 @@
         "display_name": "Chicago P.D. S02E09 Called In Dead (1) SD CZ Dabing",
         "prepared_at": "2026-11-14T11:26:19.035771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028226",
-        "size_bytes": 402488662
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028226",
-        "size_bytes": 402488662,
-        "source_bytes_read": 402488662,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028226",
         "source_bytes_read": 402488662,
         "elapsed_seconds": 23.883,
         "finished_at": "2026-11-14T11:26:59.472723+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028226",
+          "size_bytes": 402488662,
+          "source_bytes_read": 402488662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30289874",
+        "source_url": "https://sdilej.cz/30289874/chicago-p.d.-policie-chicago-s02e09-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028226",
+        "display_name": "Chicago P.D. S02E09 Called In Dead (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:27:08.609995+00:00"
       }
     },
     "1085:2:10": {
@@ -451432,7 +451433,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:27:05.619906+00:00",
+  "updated_at": "2026-11-14T11:27:08.610012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
