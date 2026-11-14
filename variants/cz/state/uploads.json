@@ -453704,12 +453704,6 @@
     },
     "2296:1:1": {
       "episode_key": "durrellovi:s1:e1",
-      "claim": {
-        "worker_id": "b88a13e66b394d758be6a2825303da62-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:37:10.792733+00:00",
-        "lease_expires_at": "2026-11-14T18:37:10.792750+00:00"
-      },
       "source": {
         "source_id": "34946713",
         "source_url": "https://sdilej.cz/34946713/the.durrells.s01e01.cz.sk.1080p.bluray.x264-yellowbird.mkv",
@@ -453734,22 +453728,29 @@
         "display_name": "The Durrells S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-14T12:37:14.589052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029507",
-        "size_bytes": 864580545
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029507",
-        "size_bytes": 864580545,
-        "source_bytes_read": 864580545,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029507",
         "source_bytes_read": 864580545,
         "elapsed_seconds": 47.434,
         "finished_at": "2026-11-14T12:38:16.183200+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029507",
+          "size_bytes": 864580545,
+          "source_bytes_read": 864580545,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34946713",
+        "source_url": "https://sdilej.cz/34946713/the.durrells.s01e01.cz.sk.1080p.bluray.x264-yellowbird.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029507",
+        "display_name": "The Durrells S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T12:38:20.627776+00:00"
       }
     }
   },
@@ -453758,7 +453759,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:38:16.183219+00:00",
+  "updated_at": "2026-11-14T12:38:20.627794+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
