@@ -461229,12 +461229,6 @@
     },
     "2449:5:2": {
       "episode_key": "patty hewes - nebezpečná advokátka:s5:e2",
-      "claim": {
-        "worker_id": "c68bf1780c3e4319a163db8789eab8ed-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:03:52.359007+00:00",
-        "lease_expires_at": "2026-11-15T00:03:52.359018+00:00"
-      },
       "source": {
         "source_id": "32902354",
         "source_url": "https://sdilej.cz/32902354/patty-hewes-nebezpecna-advokatka-s05e02-10-2012-cz-dab-1080p-uz-jste.mp4",
@@ -461259,22 +461253,29 @@
         "display_name": "Damages S05E02 Have You Met the Eel Yet? 720p CZ Dabing",
         "prepared_at": "2026-11-14T18:03:56.045986+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036282",
-        "size_bytes": 681418075
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036282",
-        "size_bytes": 681418075,
-        "source_bytes_read": 681418075,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036282",
         "source_bytes_read": 681418075,
         "elapsed_seconds": 79.771,
         "finished_at": "2026-11-14T18:05:35.058056+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036282",
+          "size_bytes": 681418075,
+          "source_bytes_read": 681418075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902354",
+        "source_url": "https://sdilej.cz/32902354/patty-hewes-nebezpecna-advokatka-s05e02-10-2012-cz-dab-1080p-uz-jste.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036282",
+        "display_name": "Damages S05E02 Have You Met the Eel Yet? 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:05:39.542427+00:00"
       }
     },
     "2449:5:3": {
@@ -461320,7 +461321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:05:35.058076+00:00",
+  "updated_at": "2026-11-14T18:05:39.542448+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
