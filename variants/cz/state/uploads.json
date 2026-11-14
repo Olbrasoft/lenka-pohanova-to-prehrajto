@@ -449677,12 +449677,6 @@
     },
     "1085:2:4": {
       "episode_key": "policie chicago:s2:e4",
-      "claim": {
-        "worker_id": "8b5c43ba505b49849c9353eb2cd128aa-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:39:43.437479+00:00",
-        "lease_expires_at": "2026-11-14T16:39:43.437492+00:00"
-      },
       "source": {
         "source_id": "27884047",
         "source_url": "https://sdilej.cz/27884047/policie-chicago-02x04.avi",
@@ -449706,7 +449700,13 @@
         },
         "display_name": "Chicago P.D. S02E04 Chicken, Dynamite, Chainsaw SD CZ Dabing",
         "prepared_at": "2026-11-14T10:39:50.080749+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T10:40:04.717218+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -449714,7 +449714,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:40:00.686414+00:00",
+  "updated_at": "2026-11-14T10:40:04.717223+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -450005,6 +450005,10 @@
         {
           "identity": "1085:2:2",
           "at": "2026-11-14T10:39:57.552904+00:00"
+        },
+        {
+          "identity": "1085:2:4",
+          "at": "2026-11-14T10:40:04.717189+00:00"
         }
       ],
       "retry_after": "2026-11-14T10:31:54.885720+00:00"
