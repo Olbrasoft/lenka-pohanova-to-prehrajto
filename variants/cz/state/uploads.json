@@ -453820,12 +453820,6 @@
     },
     "1085:2:17": {
       "episode_key": "policie chicago:s2:e17",
-      "claim": {
-        "worker_id": "8f6e55625d474178ae9047028cdfaec1-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:43:01.751155+00:00",
-        "lease_expires_at": "2026-11-14T18:43:01.751172+00:00"
-      },
       "source": {
         "source_id": "32204007",
         "source_url": "https://sdilej.cz/32204007/chicago-p.d.-policie-chicago-s02e17-czdab-x264.mkv",
@@ -453849,7 +453843,13 @@
         },
         "display_name": "Chicago P.D. S02E17 Say Her Real Name 720p CZ Dabing",
         "prepared_at": "2026-11-14T12:43:08.156503+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T12:43:19.692263+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -453857,7 +453857,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:43:12.720556+00:00",
+  "updated_at": "2026-11-14T12:43:19.692269+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -454146,19 +454146,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:1:9",
-          "at": "2026-11-14T12:42:43.700761+00:00"
-        },
-        {
           "identity": "1085:2:2",
           "at": "2026-11-14T12:42:46.857389+00:00"
         },
         {
           "identity": "1085:2:15",
           "at": "2026-11-14T12:43:05.077299+00:00"
+        },
+        {
+          "identity": "1085:2:17",
+          "at": "2026-11-14T12:43:19.692190+00:00"
         }
       ],
-      "retry_after": "2026-11-14T12:53:05.077299+00:00"
+      "retry_after": "2026-11-14T12:53:19.692190+00:00"
     },
     "1820": {
       "recent_failures": [
