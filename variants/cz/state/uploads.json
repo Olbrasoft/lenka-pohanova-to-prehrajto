@@ -453104,12 +453104,6 @@
     },
     "2966:4:1": {
       "episode_key": "vraždy v oxfordu:s4:e1",
-      "claim": {
-        "worker_id": "a17cf78a8a7347c5a9e1322eb2ce36c0-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:19:44.588203+00:00",
-        "lease_expires_at": "2026-11-14T18:19:44.588220+00:00"
-      },
       "source": {
         "source_id": "29919922",
         "source_url": "https://sdilej.cz/29919922/vrazdy-v-oxfordu-s04e01-013-2009-sd-smrtici-zima-s-.mp4",
@@ -453134,22 +453128,29 @@
         "display_name": "Lewis S04E01 The Dead of Winter SD CZ Dabing",
         "prepared_at": "2026-11-14T12:19:51.803669+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029232",
-        "size_bytes": 1173484502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029232",
-        "size_bytes": 1173484502,
-        "source_bytes_read": 1173484502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029232",
         "source_bytes_read": 1173484502,
         "elapsed_seconds": 198.039,
         "finished_at": "2026-11-14T12:23:30.750866+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029232",
+          "size_bytes": 1173484502,
+          "source_bytes_read": 1173484502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919922",
+        "source_url": "https://sdilej.cz/29919922/vrazdy-v-oxfordu-s04e01-013-2009-sd-smrtici-zima-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029232",
+        "display_name": "Lewis S04E01 The Dead of Winter SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:23:36.005769+00:00"
       }
     },
     "2966:4:2": {
@@ -453232,7 +453233,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:23:30.750886+00:00",
+  "updated_at": "2026-11-14T12:23:36.005788+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
