@@ -447158,12 +447158,6 @@
     },
     "1085:1:1": {
       "episode_key": "policie chicago:s1:e1",
-      "claim": {
-        "worker_id": "1d4db09bf6a34494a19a51f5a0dcde39-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:14:35.526774+00:00",
-        "lease_expires_at": "2026-11-14T15:14:35.526787+00:00"
-      },
       "source": {
         "source_id": "17333478",
         "source_url": "https://sdilej.cz/17333478/policie-chicago-s01e01-tvrip-720p-czdab.avi",
@@ -447188,22 +447182,29 @@
         "display_name": "Chicago P.D. S01E01 Stepping Stone 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:14:40.048411+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025906",
-        "size_bytes": 526367978
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025906",
-        "size_bytes": 526367978,
-        "source_bytes_read": 526367978,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025906",
         "source_bytes_read": 526367978,
         "elapsed_seconds": 25.583,
         "finished_at": "2026-11-14T09:15:21.861140+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025906",
+          "size_bytes": 526367978,
+          "source_bytes_read": 526367978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17333478",
+        "source_url": "https://sdilej.cz/17333478/policie-chicago-s01e01-tvrip-720p-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025906",
+        "display_name": "Chicago P.D. S01E01 Stepping Stone 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:15:29.918182+00:00"
       }
     },
     "1085:1:2": {
@@ -447249,7 +447250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:15:25.017993+00:00",
+  "updated_at": "2026-11-14T09:15:29.918199+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
