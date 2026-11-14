@@ -453787,12 +453787,6 @@
     },
     "1085:2:16": {
       "episode_key": "policie chicago:s2:e16",
-      "claim": {
-        "worker_id": "038678b0ba9349fcb35cc4b0f2d9d0cc-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:42:58.588457+00:00",
-        "lease_expires_at": "2026-11-14T18:42:58.588476+00:00"
-      },
       "source": {
         "source_id": "27884026",
         "source_url": "https://sdilej.cz/27884026/policie-chicago-02x16.avi",
@@ -453816,7 +453810,13 @@
         },
         "display_name": "Chicago P.D. S02E16 What Puts You on That Ledge SD CZ Dabing",
         "prepared_at": "2026-11-14T12:43:12.720517+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T12:43:27.616044+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:2:17": {
       "episode_key": "policie chicago:s2:e17",
@@ -453866,7 +453866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:43:23.037323+00:00",
+  "updated_at": "2026-11-14T12:43:27.616054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -454155,19 +454155,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:2:2",
-          "at": "2026-11-14T12:42:46.857389+00:00"
-        },
-        {
           "identity": "1085:2:15",
           "at": "2026-11-14T12:43:05.077299+00:00"
         },
         {
           "identity": "1085:2:17",
           "at": "2026-11-14T12:43:19.692190+00:00"
+        },
+        {
+          "identity": "1085:2:16",
+          "at": "2026-11-14T12:43:27.615973+00:00"
         }
       ],
-      "retry_after": "2026-11-14T12:53:19.692190+00:00"
+      "retry_after": "2026-11-14T12:53:27.615973+00:00"
     },
     "1820": {
       "recent_failures": [
