@@ -457746,12 +457746,6 @@
     },
     "951:4:9": {
       "episode_key": "protiúder:s4:e9",
-      "claim": {
-        "worker_id": "752a0ab995004f5a946fad5b1449eb84-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:30:24.552452+00:00",
-        "lease_expires_at": "2026-11-14T22:30:24.552463+00:00"
-      },
       "source": {
         "source_id": "11353379",
         "source_url": "https://sdilej.cz/11353379/protiuder-s04e09-stinova-valka-9.-cast.mkv",
@@ -457776,22 +457770,29 @@
         "display_name": "Strike Back S04E09 720p CZ Dabing",
         "prepared_at": "2026-11-14T16:30:31.782318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034333",
-        "size_bytes": 1063488415
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034333",
-        "size_bytes": 1063488415,
-        "source_bytes_read": 1063488415,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034333",
         "source_bytes_read": 1063488415,
         "elapsed_seconds": 165.91,
         "finished_at": "2026-11-14T16:33:33.681044+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034333",
+          "size_bytes": 1063488415,
+          "source_bytes_read": 1063488415,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11353379",
+        "source_url": "https://sdilej.cz/11353379/protiuder-s04e09-stinova-valka-9.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034333",
+        "display_name": "Strike Back S04E09 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T16:33:39.713844+00:00"
       }
     },
     "951:4:10": {
@@ -457837,7 +457838,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:33:33.681068+00:00",
+  "updated_at": "2026-11-14T16:33:39.713858+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
