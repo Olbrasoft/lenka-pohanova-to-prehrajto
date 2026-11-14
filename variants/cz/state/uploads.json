@@ -466669,12 +466669,6 @@
     },
     "30:4:2": {
       "episode_key": "lucifer:s4:e2",
-      "claim": {
-        "worker_id": "a680c8c29981464e868b95abbbcef2dd-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:55:08.934427+00:00",
-        "lease_expires_at": "2026-11-15T03:55:08.934443+00:00"
-      },
       "source": {
         "source_id": "34984651",
         "source_url": "https://sdilej.cz/34984651/lucifer-s04e02-cz.mkv",
@@ -466698,7 +466692,13 @@
         },
         "display_name": "Lucifer S04E02 Somebody's Been Reading Dante's Inferno 4K CZ Dabing",
         "prepared_at": "2026-11-14T21:55:18.083342+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T21:55:33.782149+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "30:4:3": {
       "episode_key": "lucifer:s4:e3",
@@ -466748,7 +466748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:55:30.488489+00:00",
+  "updated_at": "2026-11-14T21:55:33.782154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467069,6 +467069,10 @@
         {
           "identity": "30:4:1",
           "at": "2026-11-14T21:55:14.430625+00:00"
+        },
+        {
+          "identity": "30:4:2",
+          "at": "2026-11-14T21:55:33.782115+00:00"
         }
       ]
     }
