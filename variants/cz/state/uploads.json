@@ -445680,12 +445680,6 @@
     },
     "1411:18:22": {
       "episode_key": "případy detektiva murdocha:s18:e22",
-      "claim": {
-        "worker_id": "55e41c9bdb074850a015f67115852bcf-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T07:25:47.227438+00:00",
-        "lease_expires_at": "2026-11-14T13:25:47.227454+00:00"
-      },
       "source": {
         "source_id": "31417275",
         "source_url": "https://sdilej.cz/31417275/pripady-detektiva-murdocha-s18e22-o-sve-se-starame.mkv",
@@ -445710,22 +445704,29 @@
         "display_name": "Murdoch Mysteries S18E22 We Take Care of Our Own 1080p CZ Dabing",
         "prepared_at": "2026-11-14T07:25:50.936441+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025019",
-        "size_bytes": 953914608
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025019",
-        "size_bytes": 953914608,
-        "source_bytes_read": 953914608,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025019",
         "source_bytes_read": 953914608,
         "elapsed_seconds": 435.245,
         "finished_at": "2026-11-14T07:33:24.990023+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025019",
+          "size_bytes": 953914608,
+          "source_bytes_read": 953914608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31417275",
+        "source_url": "https://sdilej.cz/31417275/pripady-detektiva-murdocha-s18e22-o-sve-se-starame.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025019",
+        "display_name": "Murdoch Mysteries S18E22 We Take Care of Our Own 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T07:33:30.283421+00:00"
       }
     },
     "1411:19:1": {
@@ -445808,7 +445809,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T07:33:24.990044+00:00",
+  "updated_at": "2026-11-14T07:33:30.283438+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
