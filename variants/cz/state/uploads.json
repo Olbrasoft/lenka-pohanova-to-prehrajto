@@ -439713,12 +439713,6 @@
     },
     "1411:12:13": {
       "episode_key": "případy detektiva murdocha:s12:e13",
-      "claim": {
-        "worker_id": "427522ebd93c4e21b4e21c5763ddbaf7-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:28:00.174522+00:00",
-        "lease_expires_at": "2026-11-14T07:28:00.174535+00:00"
-      },
       "source": {
         "source_id": "32858223",
         "source_url": "https://sdilej.cz/32858223/pripady-detektiva-murdocha-s12e13.neviditelny.muz.mkv",
@@ -439743,22 +439737,29 @@
         "display_name": "Murdoch Mysteries S12E13 Murdoch and the Undetectable Man 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:28:06.457176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022315",
-        "size_bytes": 457595757
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022315",
-        "size_bytes": 457595757,
-        "source_bytes_read": 457595757,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022315",
         "source_bytes_read": 457595757,
         "elapsed_seconds": 154.287,
         "finished_at": "2026-11-14T01:30:56.511649+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022315",
+          "size_bytes": 457595757,
+          "source_bytes_read": 457595757,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858223",
+        "source_url": "https://sdilej.cz/32858223/pripady-detektiva-murdocha-s12e13.neviditelny.muz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022315",
+        "display_name": "Murdoch Mysteries S12E13 Murdoch and the Undetectable Man 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:31:02.769806+00:00"
       }
     },
     "1411:12:14": {
@@ -439841,7 +439842,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:30:56.511668+00:00",
+  "updated_at": "2026-11-14T01:31:02.769823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
