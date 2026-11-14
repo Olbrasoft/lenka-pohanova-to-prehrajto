@@ -467321,12 +467321,6 @@
     },
     "30:5:1": {
       "episode_key": "lucifer:s5:e1",
-      "claim": {
-        "worker_id": "5dc4d5ebba6143469e93558b900eef99-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:30:13.355701+00:00",
-        "lease_expires_at": "2026-11-15T04:30:13.355719+00:00"
-      },
       "source": {
         "source_id": "34984834",
         "source_url": "https://sdilej.cz/34984834/lucifer-s05e01-cz.mkv",
@@ -467350,7 +467344,13 @@
         },
         "display_name": "Lucifer S05E01 Really Sad Devil Guy 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:30:21.772684+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T22:30:36.811944+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "30:5:2": {
       "episode_key": "lucifer:s5:e2",
@@ -467394,7 +467394,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:30:33.348795+00:00",
+  "updated_at": "2026-11-14T22:30:36.811950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467751,9 +467751,13 @@
         {
           "identity": "30:4:5",
           "at": "2026-11-14T22:30:00.390617+00:00"
+        },
+        {
+          "identity": "30:5:1",
+          "at": "2026-11-14T22:30:36.811880+00:00"
         }
       ],
-      "retry_after": "2026-11-14T22:25:27.498027+00:00"
+      "retry_after": "2026-11-14T22:40:36.811880+00:00"
     }
   }
 }
