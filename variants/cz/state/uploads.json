@@ -452163,12 +452163,6 @@
     },
     "4969:1:1": {
       "episode_key": "star wars: příběhy rytířů jedi:s1:e1",
-      "claim": {
-        "worker_id": "7fd2a7d089fe4ad5bd5d6f7801ebc45b-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:34:15.046815+00:00",
-        "lease_expires_at": "2026-11-14T17:34:15.046829+00:00"
-      },
       "source": {
         "source_id": "27971886",
         "source_url": "https://sdilej.cz/27971886/star-wars-pribehy-rytiru-jedi-star-wars-tales-of-the-jedi-s01e01-hd-5.1-cz-dabing.mkv",
@@ -452193,22 +452187,29 @@
         "display_name": "Star Wars: Tales of the Jedi S01E01 Life and Death 1080p CZ Dabing",
         "prepared_at": "2026-11-14T11:34:18.492649+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028334",
-        "size_bytes": 935168594
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028334",
-        "size_bytes": 935168594,
-        "source_bytes_read": 935168594,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028334",
         "source_bytes_read": 935168594,
         "elapsed_seconds": 125.629,
         "finished_at": "2026-11-14T11:36:42.523291+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028334",
+          "size_bytes": 935168594,
+          "source_bytes_read": 935168594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27971886",
+        "source_url": "https://sdilej.cz/27971886/star-wars-pribehy-rytiru-jedi-star-wars-tales-of-the-jedi-s01e01-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028334",
+        "display_name": "Star Wars: Tales of the Jedi S01E01 Life and Death 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T11:36:48.177149+00:00"
       }
     }
   },
@@ -452217,7 +452218,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:36:42.523309+00:00",
+  "updated_at": "2026-11-14T11:36:48.177165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
