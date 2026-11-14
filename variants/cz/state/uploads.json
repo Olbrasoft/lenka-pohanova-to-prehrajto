@@ -467942,12 +467942,6 @@
     },
     "31:2:4": {
       "episode_key": "orange is the new black:s2:e4",
-      "claim": {
-        "worker_id": "c179506a500246d1924d02c953c727a4-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:55:29.314895+00:00",
-        "lease_expires_at": "2026-11-15T04:55:29.314906+00:00"
-      },
       "source": {
         "source_id": "27306613",
         "source_url": "https://sdilej.cz/27306613/orange-is-the-new-black-cz-s02e04.mkv",
@@ -467972,22 +467966,29 @@
         "display_name": "Orange Is the New Black S02E04 A Whole Other Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-14T22:55:33.341611+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31041252",
-        "size_bytes": 490798474
-      },
-      "transfer_receipt": {
-        "target_video_id": "31041252",
-        "size_bytes": 490798474,
-        "source_bytes_read": 490798474,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31041252",
         "source_bytes_read": 490798474,
         "elapsed_seconds": 157.422,
         "finished_at": "2026-11-14T22:58:27.795350+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31041252",
+          "size_bytes": 490798474,
+          "source_bytes_read": 490798474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306613",
+        "source_url": "https://sdilej.cz/27306613/orange-is-the-new-black-cz-s02e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31041252",
+        "display_name": "Orange Is the New Black S02E04 A Whole Other Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T22:58:33.682649+00:00"
       }
     },
     "31:2:5": {
@@ -468070,7 +468071,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:58:27.795367+00:00",
+  "updated_at": "2026-11-14T22:58:33.682665+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
