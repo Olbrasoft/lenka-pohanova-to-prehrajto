@@ -465977,12 +465977,6 @@
     },
     "30:3:13": {
       "episode_key": "lucifer:s3:e13",
-      "claim": {
-        "worker_id": "c7ff8b1a83094e7cba740e5b1a9a9827-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:42:26.638586+00:00",
-        "lease_expires_at": "2026-11-15T03:42:26.638600+00:00"
-      },
       "source": {
         "source_id": "33882084",
         "source_url": "https://sdilej.cz/33882084/lucifer-s03e13-1080p-cz-en-dokud-nas-smrt-nerozdeli.mkv",
@@ -466006,7 +466000,13 @@
         },
         "display_name": "Lucifer S03E13 Til Death Do Us Part 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:42:37.591564+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T21:42:51.918306+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "30:3:14": {
       "episode_key": "lucifer:s3:e14",
@@ -466051,7 +466051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:42:48.510975+00:00",
+  "updated_at": "2026-11-14T21:42:51.918313+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -466348,6 +466348,14 @@
         {
           "identity": "1016:1:4",
           "at": "2026-11-14T20:57:58.057604+00:00"
+        }
+      ]
+    },
+    "30": {
+      "recent_failures": [
+        {
+          "identity": "30:3:13",
+          "at": "2026-11-14T21:42:51.918278+00:00"
         }
       ]
     }
