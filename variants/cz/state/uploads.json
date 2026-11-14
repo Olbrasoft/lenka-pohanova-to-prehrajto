@@ -467624,12 +467624,6 @@
     },
     "31:1:11": {
       "episode_key": "orange is the new black:s1:e11",
-      "claim": {
-        "worker_id": "0e89d47d1f3143c888049d920c7d3bac-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:42:45.550492+00:00",
-        "lease_expires_at": "2026-11-15T04:42:45.550534+00:00"
-      },
       "source": {
         "source_id": "27306477",
         "source_url": "https://sdilej.cz/27306477/orange-is-the-new-black-cz-s01e11.mkv",
@@ -467654,22 +467648,29 @@
         "display_name": "Orange Is the New Black S01E11 Tall Men with Feelings 1080p CZ Dabing",
         "prepared_at": "2026-11-14T22:43:03.813612+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31041093",
-        "size_bytes": 748607571
-      },
-      "transfer_receipt": {
-        "target_video_id": "31041093",
-        "size_bytes": 748607571,
-        "source_bytes_read": 748607571,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31041093",
         "source_bytes_read": 748607571,
         "elapsed_seconds": 152.584,
         "finished_at": "2026-11-14T22:45:58.231297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31041093",
+          "size_bytes": 748607571,
+          "source_bytes_read": 748607571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27306477",
+        "source_url": "https://sdilej.cz/27306477/orange-is-the-new-black-cz-s01e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31041093",
+        "display_name": "Orange Is the New Black S01E11 Tall Men with Feelings 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T22:46:04.778448+00:00"
       }
     },
     "31:1:12": {
@@ -467752,7 +467753,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:45:58.231319+00:00",
+  "updated_at": "2026-11-14T22:46:04.778464+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
