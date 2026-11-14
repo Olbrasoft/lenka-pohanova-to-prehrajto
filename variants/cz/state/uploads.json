@@ -465634,12 +465634,6 @@
     },
     "30:3:6": {
       "episode_key": "lucifer:s3:e6",
-      "claim": {
-        "worker_id": "ecb968bad6734ef6aeb9f2d7d82ddb0f-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:30:11.016930+00:00",
-        "lease_expires_at": "2026-11-15T03:30:11.016946+00:00"
-      },
       "source": {
         "source_id": "32453772",
         "source_url": "https://sdilej.cz/32453772/lucifer-s03e06.mkv",
@@ -465664,22 +465658,29 @@
         "display_name": "Lucifer S03E06 Vegas with Some Radish 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:30:19.889697+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31039427",
-        "size_bytes": 1897677761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31039427",
-        "size_bytes": 1897677761,
-        "source_bytes_read": 1897677761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31039427",
         "source_bytes_read": 1897677761,
         "elapsed_seconds": 447.053,
         "finished_at": "2026-11-14T21:38:04.323440+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31039427",
+          "size_bytes": 1897677761,
+          "source_bytes_read": 1897677761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32453772",
+        "source_url": "https://sdilej.cz/32453772/lucifer-s03e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31039427",
+        "display_name": "Lucifer S03E06 Vegas with Some Radish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T21:38:10.824515+00:00"
       }
     },
     "30:3:7": {
@@ -465813,7 +465814,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:38:04.323460+00:00",
+  "updated_at": "2026-11-14T21:38:10.824531+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
