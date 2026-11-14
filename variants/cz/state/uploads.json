@@ -442824,12 +442824,6 @@
     },
     "1411:16:12": {
       "episode_key": "případy detektiva murdocha:s16:e12",
-      "claim": {
-        "worker_id": "717be7d7f19c47e1ad64f7cc9d99b0e7-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T04:37:16.050336+00:00",
-        "lease_expires_at": "2026-11-14T10:37:16.050354+00:00"
-      },
       "source": {
         "source_id": "33824046",
         "source_url": "https://sdilej.cz/33824046/pripady-detektiva-murdocha-s16e12-254-2023-fhd-porcelanovy-kun-s-.mp4",
@@ -442854,22 +442848,29 @@
         "display_name": "Murdoch Mysteries S16E12 Porcelain Maiden 1080p CZ Dabing",
         "prepared_at": "2026-11-14T04:37:33.896766+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31023837",
-        "size_bytes": 865217648
-      },
-      "transfer_receipt": {
-        "target_video_id": "31023837",
-        "size_bytes": 865217648,
-        "source_bytes_read": 865217648,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31023837",
         "source_bytes_read": 865217648,
         "elapsed_seconds": 407.782,
         "finished_at": "2026-11-14T04:44:46.000113+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31023837",
+          "size_bytes": 865217648,
+          "source_bytes_read": 865217648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824046",
+        "source_url": "https://sdilej.cz/33824046/pripady-detektiva-murdocha-s16e12-254-2023-fhd-porcelanovy-kun-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31023837",
+        "display_name": "Murdoch Mysteries S16E12 Porcelain Maiden 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T04:44:52.939956+00:00"
       }
     },
     "1411:16:14": {
@@ -442971,7 +442972,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T04:44:49.756570+00:00",
+  "updated_at": "2026-11-14T04:44:52.939971+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
