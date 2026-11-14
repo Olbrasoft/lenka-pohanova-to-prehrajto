@@ -464193,12 +464193,6 @@
     },
     "30:1:7": {
       "episode_key": "lucifer:s1:e7",
-      "claim": {
-        "worker_id": "4fb016d4d3df42349271fc5bf6148f67-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:43:32.337845+00:00",
-        "lease_expires_at": "2026-11-15T02:43:32.337861+00:00"
-      },
       "source": {
         "source_id": "35325814",
         "source_url": "https://sdilej.cz/35325814/lucifer-s01e07-parta.mkv",
@@ -464223,22 +464217,29 @@
         "display_name": "Lucifer S01E07 Wingman 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:43:40.247055+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038729",
-        "size_bytes": 535616968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038729",
-        "size_bytes": 535616968,
-        "source_bytes_read": 535616968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038729",
         "source_bytes_read": 535616968,
         "elapsed_seconds": 166.203,
         "finished_at": "2026-11-14T20:46:50.063867+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038729",
+          "size_bytes": 535616968,
+          "source_bytes_read": 535616968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35325814",
+        "source_url": "https://sdilej.cz/35325814/lucifer-s01e07-parta.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038729",
+        "display_name": "Lucifer S01E07 Wingman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:46:56.726515+00:00"
       }
     },
     "30:1:8": {
@@ -464372,7 +464373,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:46:50.063885+00:00",
+  "updated_at": "2026-11-14T20:46:56.726532+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
