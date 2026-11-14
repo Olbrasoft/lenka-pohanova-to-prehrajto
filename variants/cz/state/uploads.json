@@ -446335,12 +446335,6 @@
     },
     "4086:2:1": {
       "episode_key": "pozlacený věk:s2:e1",
-      "claim": {
-        "worker_id": "2c40e79e12cb4b629865f8324d58c784-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T08:32:23.400464+00:00",
-        "lease_expires_at": "2026-11-14T14:32:23.400475+00:00"
-      },
       "source": {
         "source_id": "31287417",
         "source_url": "https://sdilej.cz/31287417/pozlaceny-vek-the-gilded-age-s02e01-2023-1080p-cz.mkv",
@@ -446365,22 +446359,29 @@
         "display_name": "The Gilded Age S02E01 You Don't Even Like Opera 1080p CZ Dabing",
         "prepared_at": "2026-11-14T08:32:27.080809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025525",
-        "size_bytes": 1306135721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025525",
-        "size_bytes": 1306135721,
-        "source_bytes_read": 1306135721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025525",
         "source_bytes_read": 1306135721,
         "elapsed_seconds": 642.924,
         "finished_at": "2026-11-14T08:43:22.734699+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025525",
+          "size_bytes": 1306135721,
+          "source_bytes_read": 1306135721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31287417",
+        "source_url": "https://sdilej.cz/31287417/pozlaceny-vek-the-gilded-age-s02e01-2023-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025525",
+        "display_name": "The Gilded Age S02E01 You Don't Even Like Opera 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T08:43:32.367740+00:00"
       }
     }
   },
@@ -446389,7 +446390,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T08:43:29.178251+00:00",
+  "updated_at": "2026-11-14T08:43:32.367757+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
