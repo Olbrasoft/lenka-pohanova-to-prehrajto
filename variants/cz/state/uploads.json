@@ -448501,12 +448501,6 @@
     },
     "1085:1:11": {
       "episode_key": "policie chicago:s1:e11",
-      "claim": {
-        "worker_id": "6a2ff7b916bc4adcba0370c4c956191a-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:52:01.491169+00:00",
-        "lease_expires_at": "2026-11-14T15:52:01.491180+00:00"
-      },
       "source": {
         "source_id": "32203965",
         "source_url": "https://sdilej.cz/32203965/chicago-p.d.-policie-chicago-s01e11-czdab-x264.mkv",
@@ -448530,7 +448524,13 @@
         },
         "display_name": "Chicago P.D. S01E11 Turn the Light Off 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:52:04.928569+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:52:15.568083+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -448538,7 +448538,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:52:11.140285+00:00",
+  "updated_at": "2026-11-14T09:52:15.568088+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -448821,6 +448821,10 @@
         {
           "identity": "1085:1:9",
           "at": "2026-11-14T09:47:20.613190+00:00"
+        },
+        {
+          "identity": "1085:1:11",
+          "at": "2026-11-14T09:52:15.568051+00:00"
         }
       ],
       "retry_after": "2026-11-14T09:45:14.978170+00:00"
