@@ -448441,12 +448441,6 @@
     },
     "1085:1:9": {
       "episode_key": "policie chicago:s1:e9",
-      "claim": {
-        "worker_id": "ab740226fd3d47ae98a669df1dc82f04-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:47:06.477947+00:00",
-        "lease_expires_at": "2026-11-14T15:47:06.477984+00:00"
-      },
       "source": {
         "source_id": "32203961",
         "source_url": "https://sdilej.cz/32203961/chicago-p.d.-policie-chicago-s01e09-czdab-x264.mkv",
@@ -448470,7 +448464,13 @@
         },
         "display_name": "Chicago P.D. S01E09 A Material Witness 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:47:10.150890+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:47:20.613227+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -448478,7 +448478,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:47:16.861866+00:00",
+  "updated_at": "2026-11-14T09:47:20.613232+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -448751,16 +448751,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:1:4",
-          "at": "2026-11-14T09:34:46.334557+00:00"
-        },
-        {
-          "identity": "1085:1:8",
-          "at": "2026-11-14T09:35:11.850767+00:00"
-        },
-        {
-          "identity": "1085:1:7",
-          "at": "2026-11-14T09:35:14.978170+00:00"
+          "identity": "1085:1:9",
+          "at": "2026-11-14T09:47:20.613190+00:00"
         }
       ],
       "retry_after": "2026-11-14T09:45:14.978170+00:00"
