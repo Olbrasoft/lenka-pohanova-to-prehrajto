@@ -465736,12 +465736,6 @@
     },
     "30:3:8": {
       "episode_key": "lucifer:s3:e8",
-      "claim": {
-        "worker_id": "2807e2aad39a48e39b159ccc8649ea4a-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T21:37:27.877308+00:00",
-        "lease_expires_at": "2026-11-15T03:37:27.877325+00:00"
-      },
       "source": {
         "source_id": "34807858",
         "source_url": "https://sdilej.cz/34807858/lucifer-s03e08-chloe-dela-lucifera.mp4",
@@ -465766,22 +465760,29 @@
         "display_name": "Lucifer S03E08 Chloe Does Lucifer 1080p CZ Dabing",
         "prepared_at": "2026-11-14T21:37:39.625673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31039585",
-        "size_bytes": 628633609
-      },
-      "transfer_receipt": {
-        "target_video_id": "31039585",
-        "size_bytes": 628633609,
-        "source_bytes_read": 628633609,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31039585",
         "source_bytes_read": 628633609,
         "elapsed_seconds": 75.022,
         "finished_at": "2026-11-14T21:39:13.593009+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31039585",
+          "size_bytes": 628633609,
+          "source_bytes_read": 628633609,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34807858",
+        "source_url": "https://sdilej.cz/34807858/lucifer-s03e08-chloe-dela-lucifera.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31039585",
+        "display_name": "Lucifer S03E08 Chloe Does Lucifer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T21:39:24.453241+00:00"
       }
     },
     "30:3:9": {
@@ -465878,7 +465879,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T21:39:19.398078+00:00",
+  "updated_at": "2026-11-14T21:39:24.453256+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
