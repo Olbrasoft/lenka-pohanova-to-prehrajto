@@ -461198,12 +461198,6 @@
     },
     "2449:5:1": {
       "episode_key": "patty hewes - nebezpečná advokátka:s5:e1",
-      "claim": {
-        "worker_id": "19596cc931754fe6a7d39d7f6b5ff383-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:03:46.756350+00:00",
-        "lease_expires_at": "2026-11-15T00:03:46.756362+00:00"
-      },
       "source": {
         "source_id": "32902352",
         "source_url": "https://sdilej.cz/32902352/patty-hewes-nebezpecna-advokatka-s05e01-10-2012-cz-dab-1080p-chces-s.mp4",
@@ -461228,22 +461222,29 @@
         "display_name": "Damages S05E01 You Want to End This Once and for All? 720p CZ Dabing",
         "prepared_at": "2026-11-14T18:04:00.330065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036283",
-        "size_bytes": 762048135
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036283",
-        "size_bytes": 762048135,
-        "source_bytes_read": 762048135,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036283",
         "source_bytes_read": 762048135,
         "elapsed_seconds": 98.785,
         "finished_at": "2026-11-14T18:05:57.620416+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036283",
+          "size_bytes": 762048135,
+          "source_bytes_read": 762048135,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902352",
+        "source_url": "https://sdilej.cz/32902352/patty-hewes-nebezpecna-advokatka-s05e01-10-2012-cz-dab-1080p-chces-s.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036283",
+        "display_name": "Damages S05E01 You Want to End This Once and for All? 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:06:02.619425+00:00"
       }
     },
     "2449:5:2": {
@@ -461340,7 +461341,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:05:57.620438+00:00",
+  "updated_at": "2026-11-14T18:06:02.619442+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
