@@ -446394,12 +446394,6 @@
     },
     "4086:2:2": {
       "episode_key": "pozlacený věk:s2:e2",
-      "claim": {
-        "worker_id": "77d624eecd77461ca2d8e5e49d194367-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T08:52:47.736023+00:00",
-        "lease_expires_at": "2026-11-14T14:52:47.736037+00:00"
-      },
       "source": {
         "source_id": "31287429",
         "source_url": "https://sdilej.cz/31287429/pozlaceny-vek-the-gilded-age-s02e02-2023-1080p-cz.mkv",
@@ -446424,22 +446418,29 @@
         "display_name": "The Gilded Age S02E02 Some Sort of Trick 1080p CZ Dabing",
         "prepared_at": "2026-11-14T08:53:03.758330+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025668",
-        "size_bytes": 1188525696
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025668",
-        "size_bytes": 1188525696,
-        "source_bytes_read": 1188525696,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025668",
         "source_bytes_read": 1188525696,
         "elapsed_seconds": 678.576,
         "finished_at": "2026-11-14T09:04:38.562487+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025668",
+          "size_bytes": 1188525696,
+          "source_bytes_read": 1188525696,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31287429",
+        "source_url": "https://sdilej.cz/31287429/pozlaceny-vek-the-gilded-age-s02e02-2023-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025668",
+        "display_name": "The Gilded Age S02E02 Some Sort of Trick 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:04:47.296162+00:00"
       }
     },
     "4086:2:3": {
@@ -446535,7 +446536,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:04:43.946366+00:00",
+  "updated_at": "2026-11-14T09:04:47.296179+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
