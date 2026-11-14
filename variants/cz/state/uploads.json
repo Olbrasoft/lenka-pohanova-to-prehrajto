@@ -453514,12 +453514,6 @@
     },
     "2966:6:1": {
       "episode_key": "vraždy v oxfordu:s6:e1",
-      "claim": {
-        "worker_id": "3b45e136a91c48e8b1266cfa2df2bbd8-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:31:44.513471+00:00",
-        "lease_expires_at": "2026-11-14T18:31:44.513488+00:00"
-      },
       "source": {
         "source_id": "29919809",
         "source_url": "https://sdilej.cz/29919809/vrazdy-v-oxfordu-s06e01-021-2011-sd-duse-genia-s-.mp4",
@@ -453544,22 +453538,29 @@
         "display_name": "Lewis S06E01 The Soul of Genius SD CZ Dabing",
         "prepared_at": "2026-11-14T12:31:48.246012+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029415",
-        "size_bytes": 1321096117
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029415",
-        "size_bytes": 1321096117,
-        "source_bytes_read": 1321096117,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029415",
         "source_bytes_read": 1321096117,
         "elapsed_seconds": 116.82,
         "finished_at": "2026-11-14T12:33:59.700203+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029415",
+          "size_bytes": 1321096117,
+          "source_bytes_read": 1321096117,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919809",
+        "source_url": "https://sdilej.cz/29919809/vrazdy-v-oxfordu-s06e01-021-2011-sd-duse-genia-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029415",
+        "display_name": "Lewis S06E01 The Soul of Genius SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:34:07.913879+00:00"
       }
     },
     "2966:6:2": {
@@ -453601,7 +453602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:34:03.433020+00:00",
+  "updated_at": "2026-11-14T12:34:07.913898+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
