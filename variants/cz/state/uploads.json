@@ -455909,12 +455909,6 @@
     },
     "1812:3:3": {
       "episode_key": "the deuce: špína manhattanu:s3:e3",
-      "claim": {
-        "worker_id": "546728c119df49138f448ed5b8082c15-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:51:49.503087+00:00",
-        "lease_expires_at": "2026-11-14T20:51:49.503102+00:00"
-      },
       "source": {
         "source_id": "33816465",
         "source_url": "https://sdilej.cz/33816465/the-deuce-spina-manhattanu-2019-s03e03-czdab.uhdr-normal-is-a-lie.mkv",
@@ -455939,22 +455933,29 @@
         "display_name": "The Deuce S03E03 Normal Is a Lie 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:51:53.167729+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31032010",
-        "size_bytes": 2628108485
-      },
-      "transfer_receipt": {
-        "target_video_id": "31032010",
-        "size_bytes": 2628108485,
-        "source_bytes_read": 2628108485,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31032010",
         "source_bytes_read": 2628108485,
         "elapsed_seconds": 477.987,
         "finished_at": "2026-11-14T15:00:06.914988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31032010",
+          "size_bytes": 2628108485,
+          "source_bytes_read": 2628108485,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33816465",
+        "source_url": "https://sdilej.cz/33816465/the-deuce-spina-manhattanu-2019-s03e03-czdab.uhdr-normal-is-a-lie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31032010",
+        "display_name": "The Deuce S03E03 Normal Is a Lie 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T15:00:27.461928+00:00"
       }
     }
   },
@@ -455963,7 +455964,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:00:23.910164+00:00",
+  "updated_at": "2026-11-14T15:00:27.461949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
