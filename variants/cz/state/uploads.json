@@ -449404,12 +449404,6 @@
     },
     "3657:1:5": {
       "episode_key": "čmuchalové:s1:e5",
-      "claim": {
-        "worker_id": "7adcf061ad4341d297b9f2ebbda90f90-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T10:18:49.408088+00:00",
-        "lease_expires_at": "2026-11-14T16:18:49.408101+00:00"
-      },
       "source": {
         "source_id": "33841110",
         "source_url": "https://sdilej.cz/33841110/cmuchalove-s01e05-bloodhounds-2023-1080p-h265-cz.mkv",
@@ -449434,22 +449428,29 @@
         "display_name": "Terriers S01E05 Manifest Destiny 1080p CZ Dabing",
         "prepared_at": "2026-11-14T10:18:53.130844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31027183",
-        "size_bytes": 1272605837
-      },
-      "transfer_receipt": {
-        "target_video_id": "31027183",
-        "size_bytes": 1272605837,
-        "source_bytes_read": 1272605837,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31027183",
         "source_bytes_read": 1272605837,
         "elapsed_seconds": 353.471,
         "finished_at": "2026-11-14T10:25:02.138457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31027183",
+          "size_bytes": 1272605837,
+          "source_bytes_read": 1272605837,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33841110",
+        "source_url": "https://sdilej.cz/33841110/cmuchalove-s01e05-bloodhounds-2023-1080p-h265-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31027183",
+        "display_name": "Terriers S01E05 Manifest Destiny 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T10:25:08.159493+00:00"
       }
     },
     "2322:1:1": {
@@ -449532,7 +449533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T10:25:02.138476+00:00",
+  "updated_at": "2026-11-14T10:25:08.159510+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
