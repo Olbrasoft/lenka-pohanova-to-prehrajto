@@ -441045,12 +441045,6 @@
     },
     "1411:14:5": {
       "episode_key": "případy detektiva murdocha:s14:e5",
-      "claim": {
-        "worker_id": "4c50986abb8f45b2a2a2d682ce12f836-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:15:41.689520+00:00",
-        "lease_expires_at": "2026-11-14T08:15:41.689534+00:00"
-      },
       "source": {
         "source_id": "35153660",
         "source_url": "https://sdilej.cz/35153660/pripady-detektiva-murdocha-s14e05-vrazda-v-hotylku.avi",
@@ -441075,22 +441069,29 @@
         "display_name": "Murdoch Mysteries S14E05 Murder Checks In SD CZ Dabing",
         "prepared_at": "2026-11-14T02:15:52.002020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022660",
-        "size_bytes": 594690336
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022660",
-        "size_bytes": 594690336,
-        "source_bytes_read": 594690336,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022660",
         "source_bytes_read": 594690336,
         "elapsed_seconds": 212.62,
         "finished_at": "2026-11-14T02:19:41.143690+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022660",
+          "size_bytes": 594690336,
+          "source_bytes_read": 594690336,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35153660",
+        "source_url": "https://sdilej.cz/35153660/pripady-detektiva-murdocha-s14e05-vrazda-v-hotylku.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022660",
+        "display_name": "Murdoch Mysteries S14E05 Murder Checks In SD CZ Dabing",
+        "uploaded_at": "2026-11-14T02:19:45.645201+00:00"
       }
     },
     "1411:14:6": {
@@ -441187,7 +441188,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:19:41.143709+00:00",
+  "updated_at": "2026-11-14T02:19:45.645218+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
