@@ -441076,12 +441076,6 @@
     },
     "1411:14:6": {
       "episode_key": "případy detektiva murdocha:s14:e6",
-      "claim": {
-        "worker_id": "58fa324714e648879ee0f24c97806994-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:15:48.073048+00:00",
-        "lease_expires_at": "2026-11-14T08:15:48.073062+00:00"
-      },
       "source": {
         "source_id": "22389062",
         "source_url": "https://sdilej.cz/22389062/pripady-detektiva-murdocha-s14e06-urad-pocestnosti-cz-dabing.avi",
@@ -441106,22 +441100,29 @@
         "display_name": "Murdoch Mysteries S14E06 The Ministry of Virtue SD CZ Dabing",
         "prepared_at": "2026-11-14T02:16:02.245454+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022665",
-        "size_bytes": 408077630
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022665",
-        "size_bytes": 408077630,
-        "source_bytes_read": 408077630,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022665",
         "source_bytes_read": 408077630,
         "elapsed_seconds": 182.177,
         "finished_at": "2026-11-14T02:19:20.451809+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022665",
+          "size_bytes": 408077630,
+          "source_bytes_read": 408077630,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22389062",
+        "source_url": "https://sdilej.cz/22389062/pripady-detektiva-murdocha-s14e06-urad-pocestnosti-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022665",
+        "display_name": "Murdoch Mysteries S14E06 The Ministry of Virtue SD CZ Dabing",
+        "uploaded_at": "2026-11-14T02:19:24.818449+00:00"
       }
     },
     "1411:14:7": {
@@ -441167,7 +441168,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:19:20.451828+00:00",
+  "updated_at": "2026-11-14T02:19:24.818466+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
