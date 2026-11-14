@@ -451755,12 +451755,6 @@
     },
     "1242:2:8": {
       "episode_key": "mrtví jako já:s2:e8",
-      "claim": {
-        "worker_id": "3ab1e130327441e39bb7120a3f14d99b-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:29:40.264648+00:00",
-        "lease_expires_at": "2026-11-14T17:29:40.264662+00:00"
-      },
       "source": {
         "source_id": "31173590",
         "source_url": "https://sdilej.cz/31173590/mrtvi-jako-ja-s02e08-o-vlasek-2004-komedie-fantasy-czdab.mp4",
@@ -451785,22 +451779,29 @@
         "display_name": "Dead Like Me S02E08 The Escape Artist SD CZ Dabing",
         "prepared_at": "2026-11-14T11:29:45.181189+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028279",
-        "size_bytes": 338679592
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028279",
-        "size_bytes": 338679592,
-        "source_bytes_read": 338679592,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028279",
         "source_bytes_read": 338679592,
         "elapsed_seconds": 56.335,
         "finished_at": "2026-11-14T11:30:58.928458+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028279",
+          "size_bytes": 338679592,
+          "source_bytes_read": 338679592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31173590",
+        "source_url": "https://sdilej.cz/31173590/mrtvi-jako-ja-s02e08-o-vlasek-2004-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028279",
+        "display_name": "Dead Like Me S02E08 The Escape Artist SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:31:05.403550+00:00"
       }
     },
     "1242:2:9": {
@@ -451893,7 +451894,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:31:02.498141+00:00",
+  "updated_at": "2026-11-14T11:31:05.403564+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
