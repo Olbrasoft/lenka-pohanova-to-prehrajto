@@ -464653,12 +464653,6 @@
     },
     "30:2:5": {
       "episode_key": "lucifer:s2:e5",
-      "claim": {
-        "worker_id": "4323288cce774ebeacb1a8db7b273a21-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:53:41.434329+00:00",
-        "lease_expires_at": "2026-11-15T02:53:41.434347+00:00"
-      },
       "source": {
         "source_id": "33878329",
         "source_url": "https://sdilej.cz/33878329/lucifer-s02e05-fhd-1080p-cz-en-hra-se-zbranemi.mkv",
@@ -464683,22 +464677,29 @@
         "display_name": "Lucifer S02E05 Weaponizer 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:53:50.356677+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038901",
-        "size_bytes": 539609988
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038901",
-        "size_bytes": 539609988,
-        "source_bytes_read": 539609988,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038901",
         "source_bytes_read": 539609988,
         "elapsed_seconds": 81.923,
         "finished_at": "2026-11-14T20:55:31.773982+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038901",
+          "size_bytes": 539609988,
+          "source_bytes_read": 539609988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33878329",
+        "source_url": "https://sdilej.cz/33878329/lucifer-s02e05-fhd-1080p-cz-en-hra-se-zbranemi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038901",
+        "display_name": "Lucifer S02E05 Weaponizer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:55:40.004985+00:00"
       }
     },
     "30:2:6": {
@@ -464781,7 +464782,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:55:31.774000+00:00",
+  "updated_at": "2026-11-14T20:55:40.005003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
