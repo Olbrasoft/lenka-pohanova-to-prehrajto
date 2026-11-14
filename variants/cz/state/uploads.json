@@ -462012,12 +462012,6 @@
     },
     "828:1:4": {
       "episode_key": "svědectví:s1:e4",
-      "claim": {
-        "worker_id": "a57402e8433545218e33dfa7247f777e-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:37:58.139415+00:00",
-        "lease_expires_at": "2026-11-15T00:37:58.139425+00:00"
-      },
       "source": {
         "source_id": "34400462",
         "source_url": "https://sdilej.cz/34400462/svedectvi-s01e04-zeleny-caj.mkv",
@@ -462042,22 +462036,29 @@
         "display_name": "The Testaments S01E04 Green Tea 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:38:02.900321+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036870",
-        "size_bytes": 1958311352
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036870",
-        "size_bytes": 1958311352,
-        "source_bytes_read": 1958311352,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036870",
         "source_bytes_read": 1958311352,
         "elapsed_seconds": 335.975,
         "finished_at": "2026-11-14T18:43:51.736607+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036870",
+          "size_bytes": 1958311352,
+          "source_bytes_read": 1958311352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400462",
+        "source_url": "https://sdilej.cz/34400462/svedectvi-s01e04-zeleny-caj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036870",
+        "display_name": "The Testaments S01E04 Green Tea 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:43:57.520994+00:00"
       }
     }
   },
@@ -462066,7 +462067,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:43:51.736628+00:00",
+  "updated_at": "2026-11-14T18:43:57.521013+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
