@@ -437060,12 +437060,6 @@
     },
     "1411:9:9": {
       "episode_key": "případy detektiva murdocha:s9:e9",
-      "claim": {
-        "worker_id": "dd13a7b2df8040ea96ab9811ef514dba-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:09:49.924284+00:00",
-        "lease_expires_at": "2026-11-14T06:09:49.924296+00:00"
-      },
       "source": {
         "source_id": "30576898",
         "source_url": "https://sdilej.cz/30576898/pripady-detektiva-murdocha-s09e09-detsky-den.mp4",
@@ -437090,22 +437084,29 @@
         "display_name": "Murdoch Mysteries S09E09 Raised on Robbery 720p CZ Dabing",
         "prepared_at": "2026-11-14T00:09:53.719851+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021732",
-        "size_bytes": 353018677
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021732",
-        "size_bytes": 353018677,
-        "source_bytes_read": 353018677,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021732",
         "source_bytes_read": 353018677,
         "elapsed_seconds": 114.037,
         "finished_at": "2026-11-14T00:12:00.837191+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021732",
+          "size_bytes": 353018677,
+          "source_bytes_read": 353018677,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30576898",
+        "source_url": "https://sdilej.cz/30576898/pripady-detektiva-murdocha-s09e09-detsky-den.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021732",
+        "display_name": "Murdoch Mysteries S09E09 Raised on Robbery 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T00:12:08.615071+00:00"
       }
     },
     "1411:9:10": {
@@ -437151,7 +437152,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:12:03.954469+00:00",
+  "updated_at": "2026-11-14T00:12:08.615087+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
