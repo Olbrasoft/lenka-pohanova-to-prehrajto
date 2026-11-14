@@ -41224,24 +41224,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-14T18:02:56.973257+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-14T19:23:08.873439+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-14T20:51:01.021436+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-14T22:04:42.451961+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "d9b95e5f4c154a25b36cb15728631d86-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T22:04:22.697982+00:00",
-        "lease_expires_at": "2026-11-15T04:04:22.698000+00:00"
-      }
+      ]
     },
     "673:6:6": {
       "episode_key": "městečko south park:s6:e6",
@@ -467070,13 +467064,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:04:39.170978+00:00",
+  "updated_at": "2026-11-14T22:04:42.451966+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:4:1",
           "at": "2026-11-14T22:04:39.170931+00:00"
+        },
+        {
+          "identity": "673:6:5",
+          "at": "2026-11-14T22:04:42.451932+00:00"
         }
       ],
       "retry_after": "2026-11-14T22:02:31.961949+00:00"
