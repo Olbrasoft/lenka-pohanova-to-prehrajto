@@ -463887,12 +463887,6 @@
     },
     "2418:1:10": {
       "episode_key": "jedna ze sester bennetových:s1:e10",
-      "claim": {
-        "worker_id": "08b16f2c66544dfe9eb1f9c750745e5f-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:39:27.175678+00:00",
-        "lease_expires_at": "2026-11-15T02:39:27.175694+00:00"
-      },
       "source": {
         "source_id": "34457571",
         "source_url": "https://sdilej.cz/34457571/jedna-ze-sester-bennetovych-s01e10-2026-1080p-cz.mkv.mkv",
@@ -463917,22 +463911,29 @@
         "display_name": "The Other Bennet Sister S01E10 Chapter 10 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:39:34.544570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038649",
-        "size_bytes": 1299233641
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038649",
-        "size_bytes": 1299233641,
-        "source_bytes_read": 1299233641,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038649",
         "source_bytes_read": 1299233641,
         "elapsed_seconds": 191.504,
         "finished_at": "2026-11-14T20:43:06.473078+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038649",
+          "size_bytes": 1299233641,
+          "source_bytes_read": 1299233641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34457571",
+        "source_url": "https://sdilej.cz/34457571/jedna-ze-sester-bennetovych-s01e10-2026-1080p-cz.mkv.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038649",
+        "display_name": "The Other Bennet Sister S01E10 Chapter 10 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:43:14.380998+00:00"
       }
     },
     "30:1:1": {
@@ -464131,7 +464132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:43:06.473105+00:00",
+  "updated_at": "2026-11-14T20:43:14.381014+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
