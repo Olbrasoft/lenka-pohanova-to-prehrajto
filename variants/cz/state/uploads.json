@@ -444479,12 +444479,6 @@
     },
     "1411:17:23": {
       "episode_key": "případy detektiva murdocha:s17:e23",
-      "claim": {
-        "worker_id": "5d4f1e7cd0a749d7b982de16594bc7bb-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:04:12.489215+00:00",
-        "lease_expires_at": "2026-11-14T12:04:12.489227+00:00"
-      },
       "source": {
         "source_id": "31440254",
         "source_url": "https://sdilej.cz/31440254/pripady-detektiva-murdocha-s17e23.mkv",
@@ -444509,22 +444503,29 @@
         "display_name": "Murdoch Mysteries S17E23 Smoke Gets in Your Eyes 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:04:16.065210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024525",
-        "size_bytes": 295772058
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024525",
-        "size_bytes": 295772058,
-        "source_bytes_read": 295772058,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024525",
         "source_bytes_read": 295772058,
         "elapsed_seconds": 116.57,
         "finished_at": "2026-11-14T06:06:27.043088+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024525",
+          "size_bytes": 295772058,
+          "source_bytes_read": 295772058,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31440254",
+        "source_url": "https://sdilej.cz/31440254/pripady-detektiva-murdocha-s17e23.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024525",
+        "display_name": "Murdoch Mysteries S17E23 Smoke Gets in Your Eyes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:06:32.940344+00:00"
       }
     }
   },
@@ -444533,7 +444534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:06:27.043109+00:00",
+  "updated_at": "2026-11-14T06:06:32.940360+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
