@@ -451863,12 +451863,6 @@
     },
     "1242:2:10": {
       "episode_key": "mrtví jako já:s2:e10",
-      "claim": {
-        "worker_id": "962c4caf593646f29b266c650cdd96e3-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:30:54.268582+00:00",
-        "lease_expires_at": "2026-11-14T17:30:54.268593+00:00"
-      },
       "source": {
         "source_id": "27514769",
         "source_url": "https://sdilej.cz/27514769/mrtvi-jako-ja-02x10-smrti-navzdory.avi",
@@ -451893,22 +451887,29 @@
         "display_name": "Dead Like Me S02E10 Death Defying SD CZ Dabing",
         "prepared_at": "2026-11-14T11:31:02.498124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028295",
-        "size_bytes": 409145344
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028295",
-        "size_bytes": 409145344,
-        "source_bytes_read": 409145344,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028295",
         "source_bytes_read": 409145344,
         "elapsed_seconds": 145.993,
         "finished_at": "2026-11-14T11:33:48.417856+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028295",
+          "size_bytes": 409145344,
+          "source_bytes_read": 409145344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27514769",
+        "source_url": "https://sdilej.cz/27514769/mrtvi-jako-ja-02x10-smrti-navzdory.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028295",
+        "display_name": "Dead Like Me S02E10 Death Defying SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:33:56.404295+00:00"
       }
     },
     "1242:2:11": {
@@ -452121,7 +452122,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:33:53.292674+00:00",
+  "updated_at": "2026-11-14T11:33:56.404311+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
