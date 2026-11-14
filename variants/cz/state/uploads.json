@@ -463165,12 +463165,6 @@
     },
     "95:2:3": {
       "episode_key": "wednesday:s2:e3",
-      "claim": {
-        "worker_id": "55876cceed5740e18c9e17b3ec4a296a-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T19:37:30.204439+00:00",
-        "lease_expires_at": "2026-11-15T01:37:30.204454+00:00"
-      },
       "source": {
         "source_id": "31614579",
         "source_url": "https://sdilej.cz/31614579/wednesday-s02e03-2022.mkv",
@@ -463195,22 +463189,29 @@
         "display_name": "Wednesday S02E03 Call of the Woe 4K CZ Dabing",
         "prepared_at": "2026-11-14T19:37:34.176816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31037714",
-        "size_bytes": 5539881191
-      },
-      "transfer_receipt": {
-        "target_video_id": "31037714",
-        "size_bytes": 5539881191,
-        "source_bytes_read": 5539881191,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31037714",
         "source_bytes_read": 5539881191,
         "elapsed_seconds": 753.866,
         "finished_at": "2026-11-14T19:50:23.488608+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31037714",
+          "size_bytes": 5539881191,
+          "source_bytes_read": 5539881191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31614579",
+        "source_url": "https://sdilej.cz/31614579/wednesday-s02e03-2022.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31037714",
+        "display_name": "Wednesday S02E03 Call of the Woe 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T19:50:35.252169+00:00"
       }
     }
   },
@@ -463219,7 +463220,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T19:50:30.112072+00:00",
+  "updated_at": "2026-11-14T19:50:35.252192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
