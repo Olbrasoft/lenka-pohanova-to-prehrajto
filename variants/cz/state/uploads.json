@@ -460239,12 +460239,6 @@
     },
     "4551:1:8": {
       "episode_key": "nula nula nula:s1:e8",
-      "claim": {
-        "worker_id": "a2ffecc2ee04452f80b4d7dd0221d2e0-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:41:36.455244+00:00",
-        "lease_expires_at": "2026-11-14T23:41:36.455258+00:00"
-      },
       "source": {
         "source_id": "30688476",
         "source_url": "https://sdilej.cz/30688476/zerozerozero-2020-s01e08-1080p-10bit-amzn-webrip-ac3-x265-hevc-ainz-taoe-czaudio-.mkv",
@@ -460269,22 +460263,29 @@
         "display_name": "ZeroZeroZero S01E08 Stesso sangue 1080p CZ Dabing",
         "prepared_at": "2026-11-14T17:41:46.068676+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035813",
-        "size_bytes": 1075002999
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035813",
-        "size_bytes": 1075002999,
-        "source_bytes_read": 1075002999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035813",
         "source_bytes_read": 1075002999,
         "elapsed_seconds": 209.936,
         "finished_at": "2026-11-14T17:45:35.573134+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035813",
+          "size_bytes": 1075002999,
+          "source_bytes_read": 1075002999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30688476",
+        "source_url": "https://sdilej.cz/30688476/zerozerozero-2020-s01e08-1080p-10bit-amzn-webrip-ac3-x265-hevc-ainz-taoe-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035813",
+        "display_name": "ZeroZeroZero S01E08 Stesso sangue 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:45:40.175001+00:00"
       }
     },
     "2449:1:13": {
@@ -460470,7 +460471,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:45:35.573155+00:00",
+  "updated_at": "2026-11-14T17:45:40.175018+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
