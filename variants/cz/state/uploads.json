@@ -444966,12 +444966,6 @@
     },
     "1411:18:8": {
       "episode_key": "případy detektiva murdocha:s18:e8",
-      "claim": {
-        "worker_id": "e0b72f062d05461584b33217f278087a-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:42:14.745094+00:00",
-        "lease_expires_at": "2026-11-14T12:42:14.745109+00:00"
-      },
       "source": {
         "source_id": "32870833",
         "source_url": "https://sdilej.cz/32870833/pripady-detektiva-murdocha-s18e08-cz-dabing.mkv",
@@ -444996,22 +444990,29 @@
         "display_name": "Murdoch Mysteries S18E08 Welcome to Paradise 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:42:19.275277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024743",
-        "size_bytes": 853892334
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024743",
-        "size_bytes": 853892334,
-        "source_bytes_read": 853892334,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024743",
         "source_bytes_read": 853892334,
         "elapsed_seconds": 418.81,
         "finished_at": "2026-11-14T06:49:31.345056+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024743",
+          "size_bytes": 853892334,
+          "source_bytes_read": 853892334,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870833",
+        "source_url": "https://sdilej.cz/32870833/pripady-detektiva-murdocha-s18e08-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024743",
+        "display_name": "Murdoch Mysteries S18E08 Welcome to Paradise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:49:35.697483+00:00"
       }
     },
     "1411:18:9": {
@@ -445094,7 +445095,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:49:31.345078+00:00",
+  "updated_at": "2026-11-14T06:49:35.697500+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
