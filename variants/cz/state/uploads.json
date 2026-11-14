@@ -444252,12 +444252,6 @@
     },
     "1411:17:18": {
       "episode_key": "případy detektiva murdocha:s17:e18",
-      "claim": {
-        "worker_id": "41e50ef18f764855907724feb952438b-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:55:53.489889+00:00",
-        "lease_expires_at": "2026-11-14T11:55:53.489905+00:00"
-      },
       "source": {
         "source_id": "31440232",
         "source_url": "https://sdilej.cz/31440232/pripady-detektiva-murdocha-s17e18.mkv",
@@ -444282,22 +444276,29 @@
         "display_name": "Murdoch Mysteries S17E18 Spirits in the Night 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:55:57.107707+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024463",
-        "size_bytes": 295952323
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024463",
-        "size_bytes": 295952323,
-        "source_bytes_read": 295952323,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024463",
         "source_bytes_read": 295952323,
         "elapsed_seconds": 166.727,
         "finished_at": "2026-11-14T05:58:57.103227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024463",
+          "size_bytes": 295952323,
+          "source_bytes_read": 295952323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31440232",
+        "source_url": "https://sdilej.cz/31440232/pripady-detektiva-murdocha-s17e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024463",
+        "display_name": "Murdoch Mysteries S17E18 Spirits in the Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:59:02.388358+00:00"
       }
     },
     "1411:17:19": {
@@ -444380,7 +444381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:58:57.103247+00:00",
+  "updated_at": "2026-11-14T05:59:02.388375+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
