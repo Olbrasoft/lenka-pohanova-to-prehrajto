@@ -436857,12 +436857,6 @@
     },
     "1411:9:4": {
       "episode_key": "případy detektiva murdocha:s9:e4",
-      "claim": {
-        "worker_id": "74e77174a27f48c3b2c2c7ff57cc29b3-worker-0",
-        "run_id": "43500892913",
-        "claimed_at": "2026-11-14T00:02:35.595955+00:00",
-        "lease_expires_at": "2026-11-14T06:02:35.595983+00:00"
-      },
       "source": {
         "source_id": "13933972",
         "source_url": "https://sdilej.cz/13933972/pripady-detektiva-murdocha-s09e04-obnazene-damy-sd-.avi",
@@ -436887,22 +436881,29 @@
         "display_name": "Murdoch Mysteries S09E04 Barenaked Ladies SD CZ Dabing",
         "prepared_at": "2026-11-14T00:02:44.443865+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021696",
-        "size_bytes": 457966746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021696",
-        "size_bytes": 457966746,
-        "source_bytes_read": 457966746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021696",
         "source_bytes_read": 457966746,
         "elapsed_seconds": 147.579,
         "finished_at": "2026-11-14T00:05:26.143826+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021696",
+          "size_bytes": 457966746,
+          "source_bytes_read": 457966746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13933972",
+        "source_url": "https://sdilej.cz/13933972/pripady-detektiva-murdocha-s09e04-obnazene-damy-sd-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021696",
+        "display_name": "Murdoch Mysteries S09E04 Barenaked Ladies SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:05:30.898728+00:00"
       }
     }
   },
@@ -436911,7 +436912,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:05:26.143847+00:00",
+  "updated_at": "2026-11-14T00:05:30.898745+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
