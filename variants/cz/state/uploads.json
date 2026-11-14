@@ -455297,12 +455297,6 @@
     },
     "1812:1:8": {
       "episode_key": "the deuce: špína manhattanu:s1:e8",
-      "claim": {
-        "worker_id": "aaaaa133fb2f4de7bb1d5df33697cef8-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:12:17.930079+00:00",
-        "lease_expires_at": "2026-11-14T20:12:17.930094+00:00"
-      },
       "source": {
         "source_id": "33811631",
         "source_url": "https://sdilej.cz/33811631/the-deuce-spina-manhattanu-2017-s01e08-czdab-uhdr-my-name-is-ruby.mkv",
@@ -455327,22 +455321,29 @@
         "display_name": "The Deuce S01E08 My Name Is Ruby 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:12:29.441404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31031374",
-        "size_bytes": 3081961585
-      },
-      "transfer_receipt": {
-        "target_video_id": "31031374",
-        "size_bytes": 3081961585,
-        "source_bytes_read": 3081961585,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31031374",
         "source_bytes_read": 3081961585,
         "elapsed_seconds": 817.809,
         "finished_at": "2026-11-14T14:26:28.235096+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31031374",
+          "size_bytes": 3081961585,
+          "source_bytes_read": 3081961585,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33811631",
+        "source_url": "https://sdilej.cz/33811631/the-deuce-spina-manhattanu-2017-s01e08-czdab-uhdr-my-name-is-ruby.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31031374",
+        "display_name": "The Deuce S01E08 My Name Is Ruby 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T14:26:33.360228+00:00"
       }
     },
     "1812:2:1": {
@@ -455476,7 +455477,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T14:26:28.235115+00:00",
+  "updated_at": "2026-11-14T14:26:33.360258+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
