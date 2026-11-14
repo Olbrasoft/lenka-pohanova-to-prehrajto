@@ -445374,12 +445374,6 @@
     },
     "1411:18:16": {
       "episode_key": "případy detektiva murdocha:s18:e16",
-      "claim": {
-        "worker_id": "b059de8fd4d14a01ae2562f5b96ae9b7-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T07:08:06.424278+00:00",
-        "lease_expires_at": "2026-11-14T13:08:06.424292+00:00"
-      },
       "source": {
         "source_id": "32870866",
         "source_url": "https://sdilej.cz/32870866/pripady-detektiva-murdocha-s18e16-cz-dabing.mkv",
@@ -445404,22 +445398,29 @@
         "display_name": "Murdoch Mysteries S18E16 Shakespeare's Beard 1080p CZ Dabing",
         "prepared_at": "2026-11-14T07:08:15.832400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024892",
-        "size_bytes": 863688175
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024892",
-        "size_bytes": 863688175,
-        "source_bytes_read": 863688175,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024892",
         "source_bytes_read": 863688175,
         "elapsed_seconds": 464.882,
         "finished_at": "2026-11-14T07:16:22.462397+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024892",
+          "size_bytes": 863688175,
+          "source_bytes_read": 863688175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870866",
+        "source_url": "https://sdilej.cz/32870866/pripady-detektiva-murdocha-s18e16-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024892",
+        "display_name": "Murdoch Mysteries S18E16 Shakespeare's Beard 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T07:16:27.097033+00:00"
       }
     },
     "1411:18:17": {
@@ -445515,7 +445516,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T07:16:22.462417+00:00",
+  "updated_at": "2026-11-14T07:16:27.097051+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
