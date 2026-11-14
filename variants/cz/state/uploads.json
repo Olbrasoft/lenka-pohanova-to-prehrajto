@@ -453477,12 +453477,6 @@
     },
     "2966:5:4": {
       "episode_key": "vraždy v oxfordu:s5:e4",
-      "claim": {
-        "worker_id": "7d69ba5ba6d84d7fab40d000e09fcf82-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:31:24.048015+00:00",
-        "lease_expires_at": "2026-11-14T18:31:24.048032+00:00"
-      },
       "source": {
         "source_id": "29919978",
         "source_url": "https://sdilej.cz/29919978/vrazdy-v-oxfordu-s05e04-020-2010-sd-lzi-a-tajemstvi-s-.mp4",
@@ -453507,22 +453501,29 @@
         "display_name": "Lewis S05E04 The Gift of Promise SD CZ Dabing",
         "prepared_at": "2026-11-14T12:31:27.922516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029412",
-        "size_bytes": 1317779796
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029412",
-        "size_bytes": 1317779796,
-        "source_bytes_read": 1317779796,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029412",
         "source_bytes_read": 1317779796,
         "elapsed_seconds": 206.101,
         "finished_at": "2026-11-14T12:35:10.607340+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029412",
+          "size_bytes": 1317779796,
+          "source_bytes_read": 1317779796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919978",
+        "source_url": "https://sdilej.cz/29919978/vrazdy-v-oxfordu-s05e04-020-2010-sd-lzi-a-tajemstvi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029412",
+        "display_name": "Lewis S05E04 The Gift of Promise SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:35:16.591804+00:00"
       }
     },
     "2966:6:1": {
@@ -453656,7 +453657,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:35:10.607359+00:00",
+  "updated_at": "2026-11-14T12:35:16.591825+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
