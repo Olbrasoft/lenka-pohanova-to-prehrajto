@@ -444914,12 +444914,6 @@
     },
     "1411:18:7": {
       "episode_key": "případy detektiva murdocha:s18:e7",
-      "claim": {
-        "worker_id": "9094ad066eaf47b5824a852d4e425251-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:40:27.078354+00:00",
-        "lease_expires_at": "2026-11-14T12:40:27.078366+00:00"
-      },
       "source": {
         "source_id": "32870825",
         "source_url": "https://sdilej.cz/32870825/pripady-detektiva-murdocha-s18e07-cz-dabing.mkv",
@@ -444944,22 +444938,29 @@
         "display_name": "Murdoch Mysteries S18E07 Measure of My Dreams 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:40:37.004287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024730",
-        "size_bytes": 859451631
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024730",
-        "size_bytes": 859451631,
-        "source_bytes_read": 859451631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024730",
         "source_bytes_read": 859451631,
         "elapsed_seconds": 396.568,
         "finished_at": "2026-11-14T06:47:35.178131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024730",
+          "size_bytes": 859451631,
+          "source_bytes_read": 859451631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870825",
+        "source_url": "https://sdilej.cz/32870825/pripady-detektiva-murdocha-s18e07-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024730",
+        "display_name": "Murdoch Mysteries S18E07 Measure of My Dreams 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:47:43.325770+00:00"
       }
     },
     "1411:18:8": {
@@ -445005,7 +445006,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:47:39.617825+00:00",
+  "updated_at": "2026-11-14T06:47:43.325786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
