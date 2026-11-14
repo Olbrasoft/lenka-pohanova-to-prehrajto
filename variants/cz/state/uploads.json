@@ -437469,12 +437469,6 @@
     },
     "1411:9:17": {
       "episode_key": "případy detektiva murdocha:s9:e17",
-      "claim": {
-        "worker_id": "022ec736b6024d03b3730081f31fd83e-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:21:54.760659+00:00",
-        "lease_expires_at": "2026-11-14T06:21:54.760670+00:00"
-      },
       "source": {
         "source_id": "7489711",
         "source_url": "https://sdilej.cz/7489711/pripady-detektiva-murdocha.s09e17.srdecne-pozdravy-z-buffala.tvrip.cz.mp4",
@@ -437499,22 +437493,29 @@
         "display_name": "Murdoch Mysteries S09E17 From Buffalo With Love SD CZ Dabing",
         "prepared_at": "2026-11-14T00:21:58.666781+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021826",
-        "size_bytes": 315188012
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021826",
-        "size_bytes": 315188012,
-        "source_bytes_read": 315188012,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021826",
         "source_bytes_read": 315188012,
         "elapsed_seconds": 102.567,
         "finished_at": "2026-11-14T00:23:55.157125+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021826",
+          "size_bytes": 315188012,
+          "source_bytes_read": 315188012,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7489711",
+        "source_url": "https://sdilej.cz/7489711/pripady-detektiva-murdocha.s09e17.srdecne-pozdravy-z-buffala.tvrip.cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021826",
+        "display_name": "Murdoch Mysteries S09E17 From Buffalo With Love SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:24:00.128267+00:00"
       }
     },
     "1411:9:18": {
@@ -437597,7 +437598,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:23:55.157145+00:00",
+  "updated_at": "2026-11-14T00:24:00.128284+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
