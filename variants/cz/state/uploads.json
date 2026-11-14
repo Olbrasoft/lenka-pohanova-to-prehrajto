@@ -458803,12 +458803,6 @@
     },
     "951:6:9": {
       "episode_key": "protiúder:s6:e9",
-      "claim": {
-        "worker_id": "eaf86d47718d471ea8417ce8d5aacd24-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:54:03.883737+00:00",
-        "lease_expires_at": "2026-11-14T22:54:03.883752+00:00"
-      },
       "source": {
         "source_id": "12985844",
         "source_url": "https://sdilej.cz/12985844/protiuder-6x09.avi",
@@ -458833,22 +458827,29 @@
         "display_name": "Strike Back S06E09 SD CZ Dabing",
         "prepared_at": "2026-11-14T16:54:09.828993+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034805",
-        "size_bytes": 392572128
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034805",
-        "size_bytes": 392572128,
-        "source_bytes_read": 392572128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034805",
         "source_bytes_read": 392572128,
         "elapsed_seconds": 32.599,
         "finished_at": "2026-11-14T16:54:59.503699+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034805",
+          "size_bytes": 392572128,
+          "source_bytes_read": 392572128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12985844",
+        "source_url": "https://sdilej.cz/12985844/protiuder-6x09.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034805",
+        "display_name": "Strike Back S06E09 SD CZ Dabing",
+        "uploaded_at": "2026-11-14T16:55:04.734308+00:00"
       }
     },
     "951:6:10": {
@@ -458894,7 +458895,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:54:59.503720+00:00",
+  "updated_at": "2026-11-14T16:55:04.734329+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
