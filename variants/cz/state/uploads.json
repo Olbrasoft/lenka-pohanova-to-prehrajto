@@ -445907,12 +445907,6 @@
     },
     "4086:1:2": {
       "episode_key": "pozlacený věk:s1:e2",
-      "claim": {
-        "worker_id": "76a60e949acd4753b11d44dd14f33e80-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T07:49:42.375081+00:00",
-        "lease_expires_at": "2026-11-14T13:49:42.375100+00:00"
-      },
       "source": {
         "source_id": "31330453",
         "source_url": "https://sdilej.cz/31330453/pozlaceny-vek-s01e02-2022-1080p-h265-cz-sk.mkv",
@@ -445937,22 +445931,29 @@
         "display_name": "The Gilded Age S01E02 Money Isn't Everything 1080p CZ Dabing",
         "prepared_at": "2026-11-14T07:49:46.041425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025175",
-        "size_bytes": 1094194516
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025175",
-        "size_bytes": 1094194516,
-        "source_bytes_read": 1094194516,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025175",
         "source_bytes_read": 1094194516,
         "elapsed_seconds": 599.181,
         "finished_at": "2026-11-14T07:59:58.991722+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025175",
+          "size_bytes": 1094194516,
+          "source_bytes_read": 1094194516,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31330453",
+        "source_url": "https://sdilej.cz/31330453/pozlaceny-vek-s01e02-2022-1080p-h265-cz-sk.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025175",
+        "display_name": "The Gilded Age S01E02 Money Isn't Everything 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T08:00:06.161248+00:00"
       }
     }
   },
@@ -445961,7 +445962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T07:59:58.991741+00:00",
+  "updated_at": "2026-11-14T08:00:06.161264+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
