@@ -450549,12 +450549,6 @@
     },
     "1242:1:5": {
       "episode_key": "mrtví jako já:s1:e5",
-      "claim": {
-        "worker_id": "5def8974f6d249738a02fbca809256a9-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:16:55.086421+00:00",
-        "lease_expires_at": "2026-11-14T17:16:55.086432+00:00"
-      },
       "source": {
         "source_id": "31100925",
         "source_url": "https://sdilej.cz/31100925/mrtvi-jako-ja-s01e05-zmatek-mezi-smrtonosi-2003-komedie-fantasy-czdab.mp4",
@@ -450579,22 +450573,29 @@
         "display_name": "Dead Like Me S01E05 Reaping Havoc SD CZ Dabing",
         "prepared_at": "2026-11-14T11:17:04.605841+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31028111",
-        "size_bytes": 293612549
-      },
-      "transfer_receipt": {
-        "target_video_id": "31028111",
-        "size_bytes": 293612549,
-        "source_bytes_read": 293612549,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31028111",
         "source_bytes_read": 293612549,
         "elapsed_seconds": 21.276,
         "finished_at": "2026-11-14T11:17:41.983267+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31028111",
+          "size_bytes": 293612549,
+          "source_bytes_read": 293612549,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31100925",
+        "source_url": "https://sdilej.cz/31100925/mrtvi-jako-ja-s01e05-zmatek-mezi-smrtonosi-2003-komedie-fantasy-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31028111",
+        "display_name": "Dead Like Me S01E05 Reaping Havoc SD CZ Dabing",
+        "uploaded_at": "2026-11-14T11:17:47.581807+00:00"
       }
     },
     "1242:1:6": {
@@ -450640,7 +450641,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:17:41.983286+00:00",
+  "updated_at": "2026-11-14T11:17:47.581823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
