@@ -461845,12 +461845,6 @@
     },
     "828:1:1": {
       "episode_key": "svědectví:s1:e1",
-      "claim": {
-        "worker_id": "8c432b76b5ad4cabaf9c05fd2cca4b2d-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:33:11.708681+00:00",
-        "lease_expires_at": "2026-11-15T00:33:11.708692+00:00"
-      },
       "source": {
         "source_id": "34400455",
         "source_url": "https://sdilej.cz/34400455/svedectvi-s01e01-vzacne-kvetinky.mkv",
@@ -461875,22 +461869,29 @@
         "display_name": "The Testaments S01E01 Precious Flowers 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:33:18.137506+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036797",
-        "size_bytes": 2004548454
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036797",
-        "size_bytes": 2004548454,
-        "source_bytes_read": 2004548454,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036797",
         "source_bytes_read": 2004548454,
         "elapsed_seconds": 237.415,
         "finished_at": "2026-11-14T18:37:33.139253+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036797",
+          "size_bytes": 2004548454,
+          "source_bytes_read": 2004548454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400455",
+        "source_url": "https://sdilej.cz/34400455/svedectvi-s01e01-vzacne-kvetinky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036797",
+        "display_name": "The Testaments S01E01 Precious Flowers 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:37:39.676744+00:00"
       }
     },
     "828:1:2": {
@@ -461983,7 +461984,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:37:36.728856+00:00",
+  "updated_at": "2026-11-14T18:37:39.676762+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
