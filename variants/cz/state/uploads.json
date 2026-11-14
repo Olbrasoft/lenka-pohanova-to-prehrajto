@@ -464142,12 +464142,6 @@
     },
     "30:1:5": {
       "episode_key": "lucifer:s1:e5",
-      "claim": {
-        "worker_id": "aa2509112a49487da03b05e628230fdf-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:43:18.190755+00:00",
-        "lease_expires_at": "2026-11-15T02:43:18.190772+00:00"
-      },
       "source": {
         "source_id": "35325811",
         "source_url": "https://sdilej.cz/35325811/lucifer-s01e05-hezke-botky.mkv",
@@ -464172,22 +464166,29 @@
         "display_name": "Lucifer S01E05 Sweet Kicks 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:43:24.840797+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038722",
-        "size_bytes": 530758565
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038722",
-        "size_bytes": 530758565,
-        "source_bytes_read": 530758565,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038722",
         "source_bytes_read": 530758565,
         "elapsed_seconds": 46.579,
         "finished_at": "2026-11-14T20:44:39.019693+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038722",
+          "size_bytes": 530758565,
+          "source_bytes_read": 530758565,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35325811",
+        "source_url": "https://sdilej.cz/35325811/lucifer-s01e05-hezke-botky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038722",
+        "display_name": "Lucifer S01E05 Sweet Kicks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:44:45.282340+00:00"
       }
     },
     "30:1:7": {
@@ -464270,7 +464271,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:44:39.019711+00:00",
+  "updated_at": "2026-11-14T20:44:45.282362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
