@@ -453161,12 +453161,6 @@
     },
     "2966:4:2": {
       "episode_key": "vraždy v oxfordu:s4:e2",
-      "claim": {
-        "worker_id": "f9451943d0414cdb8dde737f428cc74d-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:20:13.364741+00:00",
-        "lease_expires_at": "2026-11-14T18:20:13.364756+00:00"
-      },
       "source": {
         "source_id": "33968788",
         "source_url": "https://sdilej.cz/33968788/vrazdy-v-oxfordu-s04e02-smrt-na-observatori.mkv",
@@ -453191,22 +453185,29 @@
         "display_name": "Lewis S04E02 Dark Matter SD CZ Dabing",
         "prepared_at": "2026-11-14T12:20:17.335184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029241",
-        "size_bytes": 843208203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029241",
-        "size_bytes": 843208203,
-        "source_bytes_read": 843208203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029241",
         "source_bytes_read": 843208203,
         "elapsed_seconds": 214.743,
         "finished_at": "2026-11-14T12:24:12.766853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029241",
+          "size_bytes": 843208203,
+          "source_bytes_read": 843208203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33968788",
+        "source_url": "https://sdilej.cz/33968788/vrazdy-v-oxfordu-s04e02-smrt-na-observatori.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029241",
+        "display_name": "Lewis S04E02 Dark Matter SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:24:24.203147+00:00"
       }
     },
     "2966:4:3": {
@@ -453266,7 +453267,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:24:21.031719+00:00",
+  "updated_at": "2026-11-14T12:24:24.203166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
