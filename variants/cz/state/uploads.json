@@ -461586,12 +461586,6 @@
     },
     "2449:5:9": {
       "episode_key": "patty hewes - nebezpečná advokátka:s5:e9",
-      "claim": {
-        "worker_id": "baf97422d35843c6aa402ff4998401ba-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:20:17.073596+00:00",
-        "lease_expires_at": "2026-11-15T00:20:17.073607+00:00"
-      },
       "source": {
         "source_id": "32902379",
         "source_url": "https://sdilej.cz/32902379/patty-hewes-nebezpecna-advokatka-s05e09-10-2012-cz-dab-1080p-libi-se.mp4",
@@ -461616,22 +461610,29 @@
         "display_name": "Damages S05E09 I Like Your Chair 720p CZ Dabing",
         "prepared_at": "2026-11-14T18:20:24.329137+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036529",
-        "size_bytes": 762915964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036529",
-        "size_bytes": 762915964,
-        "source_bytes_read": 762915964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036529",
         "source_bytes_read": 762915964,
         "elapsed_seconds": 78.139,
         "finished_at": "2026-11-14T18:22:02.169921+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036529",
+          "size_bytes": 762915964,
+          "source_bytes_read": 762915964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902379",
+        "source_url": "https://sdilej.cz/32902379/patty-hewes-nebezpecna-advokatka-s05e09-10-2012-cz-dab-1080p-libi-se.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036529",
+        "display_name": "Damages S05E09 I Like Your Chair 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:22:06.736170+00:00"
       }
     },
     "6269:1:1": {
@@ -461677,7 +461678,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:22:02.169943+00:00",
+  "updated_at": "2026-11-14T18:22:06.736188+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
