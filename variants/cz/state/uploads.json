@@ -452997,12 +452997,6 @@
     },
     "2966:3:3": {
       "episode_key": "vraždy v oxfordu:s3:e3",
-      "claim": {
-        "worker_id": "66d329c95e1943b7a00477933693b927-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:12:15.021242+00:00",
-        "lease_expires_at": "2026-11-14T18:12:15.021278+00:00"
-      },
       "source": {
         "source_id": "30183040",
         "source_url": "https://sdilej.cz/30183040/vrazdy-v-oxfordu-03x03-spatna-perspektiva.mkv",
@@ -453027,22 +453021,29 @@
         "display_name": "Lewis S03E03 The Point of Vanishing SD CZ Dabing",
         "prepared_at": "2026-11-14T12:12:22.426076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029068",
-        "size_bytes": 1275150214
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029068",
-        "size_bytes": 1275150214,
-        "source_bytes_read": 1275150214,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029068",
         "source_bytes_read": 1275150214,
         "elapsed_seconds": 228.135,
         "finished_at": "2026-11-14T12:16:27.584697+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029068",
+          "size_bytes": 1275150214,
+          "source_bytes_read": 1275150214,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30183040",
+        "source_url": "https://sdilej.cz/30183040/vrazdy-v-oxfordu-03x03-spatna-perspektiva.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029068",
+        "display_name": "Lewis S03E03 The Point of Vanishing SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:16:36.017673+00:00"
       }
     },
     "2966:3:4": {
@@ -453088,7 +453089,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:16:31.258415+00:00",
+  "updated_at": "2026-11-14T12:16:36.017693+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
