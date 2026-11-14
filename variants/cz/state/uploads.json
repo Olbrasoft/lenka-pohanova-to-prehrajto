@@ -463261,12 +463261,6 @@
     },
     "95:2:5": {
       "episode_key": "wednesday:s2:e5",
-      "claim": {
-        "worker_id": "8e138536d82843e68046f67ea0aa4565-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T19:54:22.853483+00:00",
-        "lease_expires_at": "2026-11-15T01:54:22.853499+00:00"
-      },
       "source": {
         "source_id": "34283260",
         "source_url": "https://sdilej.cz/34283260/wednesday-s02e05-cz-dabing-2160p-uhd.mkv",
@@ -463291,22 +463285,29 @@
         "display_name": "Wednesday S02E05 Hyde and Woe Seek 4K CZ Dabing",
         "prepared_at": "2026-11-14T19:54:26.863173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31037946",
-        "size_bytes": 2336451356
-      },
-      "transfer_receipt": {
-        "target_video_id": "31037946",
-        "size_bytes": 2336451356,
-        "source_bytes_read": 2336451356,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31037946",
         "source_bytes_read": 2336451356,
         "elapsed_seconds": 459.047,
         "finished_at": "2026-11-14T20:02:23.818490+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31037946",
+          "size_bytes": 2336451356,
+          "source_bytes_read": 2336451356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34283260",
+        "source_url": "https://sdilej.cz/34283260/wednesday-s02e05-cz-dabing-2160p-uhd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31037946",
+        "display_name": "Wednesday S02E05 Hyde and Woe Seek 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T20:02:30.523245+00:00"
       }
     },
     "95:2:6": {
@@ -463352,7 +463353,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:02:23.818516+00:00",
+  "updated_at": "2026-11-14T20:02:30.523262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
