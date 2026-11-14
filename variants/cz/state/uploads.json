@@ -463975,12 +463975,6 @@
     },
     "30:1:2": {
       "episode_key": "lucifer:s1:e2",
-      "claim": {
-        "worker_id": "c7fd8c40fa35491bb18ab86b00cab73f-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T20:41:03.511507+00:00",
-        "lease_expires_at": "2026-11-15T02:41:03.511521+00:00"
-      },
       "source": {
         "source_id": "33873827",
         "source_url": "https://sdilej.cz/33873827/lucifer-s01e02-1080p-cz-lucifere-zustan.-hodny-dabel.mkv",
@@ -464005,22 +463999,29 @@
         "display_name": "Lucifer S01E02 Lucifer, Stay. Good Devil. 1080p CZ Dabing",
         "prepared_at": "2026-11-14T20:41:10.689744+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31038681",
-        "size_bytes": 476490633
-      },
-      "transfer_receipt": {
-        "target_video_id": "31038681",
-        "size_bytes": 476490633,
-        "source_bytes_read": 476490633,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31038681",
         "source_bytes_read": 476490633,
         "elapsed_seconds": 39.382,
         "finished_at": "2026-11-14T20:42:09.302119+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31038681",
+          "size_bytes": 476490633,
+          "source_bytes_read": 476490633,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33873827",
+        "source_url": "https://sdilej.cz/33873827/lucifer-s01e02-1080p-cz-lucifere-zustan.-hodny-dabel.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31038681",
+        "display_name": "Lucifer S01E02 Lucifer, Stay. Good Devil. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T20:42:14.560587+00:00"
       }
     },
     "30:1:3": {
@@ -464066,7 +464067,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T20:42:09.302136+00:00",
+  "updated_at": "2026-11-14T20:42:14.560604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
