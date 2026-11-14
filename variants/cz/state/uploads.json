@@ -438233,12 +438233,6 @@
     },
     "1411:10:16": {
       "episode_key": "případy detektiva murdocha:s10:e16",
-      "claim": {
-        "worker_id": "4bae040974ba497e83fc4c41cab9c6b9-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:39:23.114918+00:00",
-        "lease_expires_at": "2026-11-14T06:39:23.114930+00:00"
-      },
       "source": {
         "source_id": "35154136",
         "source_url": "https://sdilej.cz/35154136/pripady-detektiva-murdocha-s10e16-mistr-lovecraft.avi",
@@ -438263,22 +438257,29 @@
         "display_name": "Murdoch Mysteries S10E16 Master Lovecraft SD CZ Dabing",
         "prepared_at": "2026-11-14T00:39:30.448100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021973",
-        "size_bytes": 367702016
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021973",
-        "size_bytes": 367702016,
-        "source_bytes_read": 367702016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021973",
         "source_bytes_read": 367702016,
         "elapsed_seconds": 115.335,
         "finished_at": "2026-11-14T00:41:42.744648+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021973",
+          "size_bytes": 367702016,
+          "source_bytes_read": 367702016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35154136",
+        "source_url": "https://sdilej.cz/35154136/pripady-detektiva-murdocha-s10e16-mistr-lovecraft.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021973",
+        "display_name": "Murdoch Mysteries S10E16 Master Lovecraft SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:41:52.264868+00:00"
       }
     }
   },
@@ -438287,7 +438288,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:41:49.012615+00:00",
+  "updated_at": "2026-11-14T00:41:52.264883+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
