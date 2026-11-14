@@ -444711,12 +444711,6 @@
     },
     "1411:18:3": {
       "episode_key": "případy detektiva murdocha:s18:e3",
-      "claim": {
-        "worker_id": "12a9dac5f0654fa3bc3b252269133e9f-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:15:54.958543+00:00",
-        "lease_expires_at": "2026-11-14T12:15:54.958555+00:00"
-      },
       "source": {
         "source_id": "32870802",
         "source_url": "https://sdilej.cz/32870802/pripady-detektiva-murdocha-s18e03-cz-dabing.mkv",
@@ -444741,22 +444735,29 @@
         "display_name": "Murdoch Mysteries S18E03 What the Dickens?! 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:15:58.618736+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024592",
-        "size_bytes": 844740174
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024592",
-        "size_bytes": 844740174,
-        "source_bytes_read": 844740174,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024592",
         "source_bytes_read": 844740174,
         "elapsed_seconds": 539.759,
         "finished_at": "2026-11-14T06:25:12.107465+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024592",
+          "size_bytes": 844740174,
+          "source_bytes_read": 844740174,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870802",
+        "source_url": "https://sdilej.cz/32870802/pripady-detektiva-murdocha-s18e03-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024592",
+        "display_name": "Murdoch Mysteries S18E03 What the Dickens?! 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:25:17.713009+00:00"
       }
     },
     "1411:18:4": {
@@ -444839,7 +444840,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:25:12.107485+00:00",
+  "updated_at": "2026-11-14T06:25:17.713028+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
