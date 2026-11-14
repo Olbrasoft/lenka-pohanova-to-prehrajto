@@ -455807,12 +455807,6 @@
     },
     "1812:3:1": {
       "episode_key": "the deuce: špína manhattanu:s3:e1",
-      "claim": {
-        "worker_id": "6721fb98be6c4bc69bd70c7ec735d6a2-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T14:51:07.126097+00:00",
-        "lease_expires_at": "2026-11-14T20:51:07.126113+00:00"
-      },
       "source": {
         "source_id": "33819193",
         "source_url": "https://sdilej.cz/33819193/the-deuce-spina-manhattanu-s03e01-cz-dabing-2160p-ultra-hd.mkv",
@@ -455837,22 +455831,29 @@
         "display_name": "The Deuce S03E01 The Camera Loves You 4K CZ Dabing",
         "prepared_at": "2026-11-14T14:51:18.375468+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31031994",
-        "size_bytes": 2622414445
-      },
-      "transfer_receipt": {
-        "target_video_id": "31031994",
-        "size_bytes": 2622414445,
-        "source_bytes_read": 2622414445,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31031994",
         "source_bytes_read": 2622414445,
         "elapsed_seconds": 505.434,
         "finished_at": "2026-11-14T15:00:03.899721+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31031994",
+          "size_bytes": 2622414445,
+          "source_bytes_read": 2622414445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33819193",
+        "source_url": "https://sdilej.cz/33819193/the-deuce-spina-manhattanu-s03e01-cz-dabing-2160p-ultra-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31031994",
+        "display_name": "The Deuce S03E01 The Camera Loves You 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T15:00:23.910144+00:00"
       }
     },
     "1812:3:2": {
@@ -455962,7 +455963,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:00:10.057870+00:00",
+  "updated_at": "2026-11-14T15:00:23.910164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
