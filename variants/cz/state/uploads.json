@@ -455968,12 +455968,6 @@
     },
     "1085:2:18": {
       "episode_key": "policie chicago:s2:e18",
-      "claim": {
-        "worker_id": "c09b18940acd481b944016d1b78ba1d1-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:10:46.444416+00:00",
-        "lease_expires_at": "2026-11-14T21:10:46.444428+00:00"
-      },
       "source": {
         "source_id": "32204008",
         "source_url": "https://sdilej.cz/32204008/chicago-p.d.-policie-chicago-s02e18-czdab-x264.mkv",
@@ -455997,7 +455991,13 @@
         },
         "display_name": "Chicago P.D. S02E18 Get Back to Even 720p CZ Dabing",
         "prepared_at": "2026-11-14T15:10:52.992412+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T15:11:04.149452+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:2:19": {
       "episode_key": "policie chicago:s2:e19",
@@ -456038,7 +456038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:10:58.980526+00:00",
+  "updated_at": "2026-11-14T15:11:04.149458+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -456329,9 +456329,13 @@
         {
           "identity": "1085:2:17",
           "at": "2026-11-14T15:10:55.976666+00:00"
+        },
+        {
+          "identity": "1085:2:18",
+          "at": "2026-11-14T15:11:04.149380+00:00"
         }
       ],
-      "retry_after": "2026-11-14T15:00:58.138068+00:00"
+      "retry_after": "2026-11-14T15:21:04.149380+00:00"
     },
     "1820": {
       "recent_failures": [
