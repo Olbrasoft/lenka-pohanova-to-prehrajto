@@ -440382,12 +440382,6 @@
     },
     "1411:13:9": {
       "episode_key": "případy detektiva murdocha:s13:e9",
-      "claim": {
-        "worker_id": "ae8188273e794a7a982996f33852550c-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:44:01.588997+00:00",
-        "lease_expires_at": "2026-11-14T07:44:01.589008+00:00"
-      },
       "source": {
         "source_id": "32858127",
         "source_url": "https://sdilej.cz/32858127/pripady.detektiva.murdocha.s13e09.smrtelna.davka.mkv",
@@ -440412,22 +440406,29 @@
         "display_name": "Murdoch Mysteries S13E09 The Killing Dose 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:44:15.178576+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022440",
-        "size_bytes": 457094599
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022440",
-        "size_bytes": 457094599,
-        "source_bytes_read": 457094599,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022440",
         "source_bytes_read": 457094599,
         "elapsed_seconds": 192.327,
         "finished_at": "2026-11-14T01:47:40.832366+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022440",
+          "size_bytes": 457094599,
+          "source_bytes_read": 457094599,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32858127",
+        "source_url": "https://sdilej.cz/32858127/pripady.detektiva.murdocha.s13e09.smrtelna.davka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022440",
+        "display_name": "Murdoch Mysteries S13E09 The Killing Dose 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:47:49.210516+00:00"
       }
     }
   },
@@ -440436,7 +440437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:47:45.351416+00:00",
+  "updated_at": "2026-11-14T01:47:49.210533+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
