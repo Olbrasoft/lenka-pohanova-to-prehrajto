@@ -461882,12 +461882,6 @@
     },
     "828:1:2": {
       "episode_key": "svědectví:s1:e2",
-      "claim": {
-        "worker_id": "af512d1c1a8c4fe6baa007cb17eb6d49-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:33:14.716684+00:00",
-        "lease_expires_at": "2026-11-15T00:33:14.716695+00:00"
-      },
       "source": {
         "source_id": "34400457",
         "source_url": "https://sdilej.cz/34400457/svedectvi-s01e02-perfektni-zoubky.mkv",
@@ -461912,22 +461906,29 @@
         "display_name": "The Testaments S01E02 Perfect Teeth 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:33:21.008965+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036800",
-        "size_bytes": 1749161476
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036800",
-        "size_bytes": 1749161476,
-        "source_bytes_read": 1749161476,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036800",
         "source_bytes_read": 1749161476,
         "elapsed_seconds": 218.911,
         "finished_at": "2026-11-14T18:37:15.545463+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036800",
+          "size_bytes": 1749161476,
+          "source_bytes_read": 1749161476,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400457",
+        "source_url": "https://sdilej.cz/34400457/svedectvi-s01e02-perfektni-zoubky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036800",
+        "display_name": "The Testaments S01E02 Perfect Teeth 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:37:21.017664+00:00"
       }
     }
   },
@@ -461936,7 +461937,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:37:15.545484+00:00",
+  "updated_at": "2026-11-14T18:37:21.017683+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
