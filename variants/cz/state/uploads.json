@@ -462067,12 +462067,6 @@
     },
     "828:1:5": {
       "episode_key": "svědectví:s1:e5",
-      "claim": {
-        "worker_id": "b9ddd4584e1c4273bdae8d0bb85b7b54-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T18:50:05.116659+00:00",
-        "lease_expires_at": "2026-11-15T00:50:05.116677+00:00"
-      },
       "source": {
         "source_id": "34400464",
         "source_url": "https://sdilej.cz/34400464/svedectvi-s01e05-ples.mkv",
@@ -462097,22 +462091,29 @@
         "display_name": "The Testaments S01E05 Ball 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:50:09.090303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31037027",
-        "size_bytes": 1896406223
-      },
-      "transfer_receipt": {
-        "target_video_id": "31037027",
-        "size_bytes": 1896406223,
-        "source_bytes_read": 1896406223,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31037027",
         "source_bytes_read": 1896406223,
         "elapsed_seconds": 250.104,
         "finished_at": "2026-11-14T18:54:36.384351+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31037027",
+          "size_bytes": 1896406223,
+          "source_bytes_read": 1896406223,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400464",
+        "source_url": "https://sdilej.cz/34400464/svedectvi-s01e05-ples.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31037027",
+        "display_name": "The Testaments S01E05 Ball 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:54:41.319735+00:00"
       }
     },
     "828:1:6": {
@@ -462195,7 +462196,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:54:36.384369+00:00",
+  "updated_at": "2026-11-14T18:54:41.319752+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
