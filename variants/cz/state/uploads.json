@@ -461961,12 +461961,6 @@
     },
     "828:1:3": {
       "episode_key": "svědectví:s1:e3",
-      "claim": {
-        "worker_id": "a9cf0051fd6b4e729c20193c8814ffcf-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T18:37:30.064363+00:00",
-        "lease_expires_at": "2026-11-15T00:37:30.064377+00:00"
-      },
       "source": {
         "source_id": "34400459",
         "source_url": "https://sdilej.cz/34400459/svedectvi-s01e03-daisy.mkv",
@@ -461991,22 +461985,29 @@
         "display_name": "The Testaments S01E03 Daisy 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:37:36.728834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036863",
-        "size_bytes": 2336675070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036863",
-        "size_bytes": 2336675070,
-        "source_bytes_read": 2336675070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036863",
         "source_bytes_read": 2336675070,
         "elapsed_seconds": 340.216,
         "finished_at": "2026-11-14T18:43:34.147785+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036863",
+          "size_bytes": 2336675070,
+          "source_bytes_read": 2336675070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400459",
+        "source_url": "https://sdilej.cz/34400459/svedectvi-s01e03-daisy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036863",
+        "display_name": "The Testaments S01E03 Daisy 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:43:38.507558+00:00"
       }
     },
     "828:1:4": {
@@ -462052,7 +462053,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:43:34.147806+00:00",
+  "updated_at": "2026-11-14T18:43:38.507579+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
