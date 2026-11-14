@@ -446037,12 +446037,6 @@
     },
     "4086:1:4": {
       "episode_key": "pozlacený věk:s1:e4",
-      "claim": {
-        "worker_id": "9d9cf8ad1c4047489649c85f01dc6ca7-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T08:07:45.642461+00:00",
-        "lease_expires_at": "2026-11-14T14:07:45.642472+00:00"
-      },
       "source": {
         "source_id": "31623389",
         "source_url": "https://sdilej.cz/31623389/pozlaceny-vek-2022-s01e04-czdab-1080p-dlouhy-zebrik.mkv",
@@ -446067,22 +446061,29 @@
         "display_name": "The Gilded Age S01E04 A Long Ladder 1080p CZ Dabing",
         "prepared_at": "2026-11-14T08:07:52.168809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025345",
-        "size_bytes": 2791973980
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025345",
-        "size_bytes": 2791973980,
-        "source_bytes_read": 2791973980,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025345",
         "source_bytes_read": 2791973980,
         "elapsed_seconds": 1426.565,
         "finished_at": "2026-11-14T08:31:58.965925+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025345",
+          "size_bytes": 2791973980,
+          "source_bytes_read": 2791973980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31623389",
+        "source_url": "https://sdilej.cz/31623389/pozlaceny-vek-2022-s01e04-czdab-1080p-dlouhy-zebrik.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025345",
+        "display_name": "The Gilded Age S01E04 A Long Ladder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T08:32:10.507103+00:00"
       }
     },
     "4086:1:5": {
@@ -446317,7 +446318,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T08:32:06.735523+00:00",
+  "updated_at": "2026-11-14T08:32:10.507118+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
