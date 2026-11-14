@@ -457899,12 +457899,6 @@
     },
     "951:5:1": {
       "episode_key": "protiúder:s5:e1",
-      "claim": {
-        "worker_id": "948c4021a3514d9990eae15410591b98-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T16:35:49.663390+00:00",
-        "lease_expires_at": "2026-11-14T22:35:49.663400+00:00"
-      },
       "source": {
         "source_id": "6875292",
         "source_url": "https://sdilej.cz/6875292/protiuder-s05e01-strike-back-webrip-hd720p-czdabing.mkv",
@@ -457929,22 +457923,29 @@
         "display_name": "Strike Back S05E01 720p CZ Dabing",
         "prepared_at": "2026-11-14T16:35:53.114689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31034425",
-        "size_bytes": 624446833
-      },
-      "transfer_receipt": {
-        "target_video_id": "31034425",
-        "size_bytes": 624446833,
-        "source_bytes_read": 624446833,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31034425",
         "source_bytes_read": 624446833,
         "elapsed_seconds": 119.887,
         "finished_at": "2026-11-14T16:38:10.204707+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31034425",
+          "size_bytes": 624446833,
+          "source_bytes_read": 624446833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6875292",
+        "source_url": "https://sdilej.cz/6875292/protiuder-s05e01-strike-back-webrip-hd720p-czdabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31034425",
+        "display_name": "Strike Back S05E01 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T16:38:15.652151+00:00"
       }
     },
     "951:5:2": {
@@ -458027,7 +458028,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T16:38:10.204728+00:00",
+  "updated_at": "2026-11-14T16:38:15.652170+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
