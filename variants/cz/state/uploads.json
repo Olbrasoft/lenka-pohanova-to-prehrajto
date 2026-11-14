@@ -437826,12 +437826,6 @@
     },
     "1411:10:7": {
       "episode_key": "případy detektiva murdocha:s10:e7",
-      "claim": {
-        "worker_id": "021c6e6e2b2f46518464381e90086095-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:29:57.609685+00:00",
-        "lease_expires_at": "2026-11-14T06:29:57.609696+00:00"
-      },
       "source": {
         "source_id": "14043616",
         "source_url": "https://sdilej.cz/14043616/pripady-detektiva-murdocha-s10e07-polibek-smrti.avi",
@@ -437856,22 +437850,29 @@
         "display_name": "Murdoch Mysteries S10E07 Painted Ladies SD CZ Dabing",
         "prepared_at": "2026-11-14T00:30:02.784033+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021887",
-        "size_bytes": 367699968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021887",
-        "size_bytes": 367699968,
-        "source_bytes_read": 367699968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021887",
         "source_bytes_read": 367699968,
         "elapsed_seconds": 131.509,
         "finished_at": "2026-11-14T00:32:30.519586+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021887",
+          "size_bytes": 367699968,
+          "source_bytes_read": 367699968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14043616",
+        "source_url": "https://sdilej.cz/14043616/pripady-detektiva-murdocha-s10e07-polibek-smrti.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021887",
+        "display_name": "Murdoch Mysteries S10E07 Painted Ladies SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:32:35.307309+00:00"
       }
     },
     "1411:10:8": {
@@ -437954,7 +437955,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:32:30.519606+00:00",
+  "updated_at": "2026-11-14T00:32:35.307326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
