@@ -448364,12 +448364,6 @@
     },
     "1820:2:6": {
       "episode_key": "vražedné záhady slečny fisherové:s2:e6",
-      "claim": {
-        "worker_id": "4ecd9fb379b845589c9a1948e1f79c7f-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:41:06.917325+00:00",
-        "lease_expires_at": "2026-11-14T15:41:06.917337+00:00"
-      },
       "source": {
         "source_id": "29405921",
         "source_url": "https://sdilej.cz/29405921/vrazedne-zahady-slecny-fisherove-s02e06-19-2013-sd-odsouzeny-k-smrti-sd-.mp4",
@@ -448394,22 +448388,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S02E06 Marked for Murder SD CZ Dabing",
         "prepared_at": "2026-11-14T09:41:10.448286+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31026336",
-        "size_bytes": 709899117
-      },
-      "transfer_receipt": {
-        "target_video_id": "31026336",
-        "size_bytes": 709899117,
-        "source_bytes_read": 709899117,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31026336",
         "source_bytes_read": 709899117,
         "elapsed_seconds": 88.506,
         "finished_at": "2026-11-14T09:42:54.764040+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31026336",
+          "size_bytes": 709899117,
+          "source_bytes_read": 709899117,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29405921",
+        "source_url": "https://sdilej.cz/29405921/vrazedne-zahady-slecny-fisherove-s02e06-19-2013-sd-odsouzeny-k-smrti-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31026336",
+        "display_name": "Miss Fisher's Murder Mysteries S02E06 Marked for Murder SD CZ Dabing",
+        "uploaded_at": "2026-11-14T09:43:00.648873+00:00"
       }
     }
   },
@@ -448418,7 +448419,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:42:54.764062+00:00",
+  "updated_at": "2026-11-14T09:43:00.648890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
