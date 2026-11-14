@@ -453426,12 +453426,6 @@
     },
     "2966:5:3": {
       "episode_key": "vraždy v oxfordu:s5:e3",
-      "claim": {
-        "worker_id": "c26ca882e2964ea6a77e6693a9b1811b-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:30:03.737926+00:00",
-        "lease_expires_at": "2026-11-14T18:30:03.737943+00:00"
-      },
       "source": {
         "source_id": "13622529",
         "source_url": "https://sdilej.cz/13622529/vrazdy-v-oxfordu-s05e03-mysl-hory-prenasi.avi",
@@ -453456,22 +453450,29 @@
         "display_name": "Lewis S05E03 The Mind Has Mountains SD CZ Dabing",
         "prepared_at": "2026-11-14T12:30:07.481417+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029392",
-        "size_bytes": 1173203768
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029392",
-        "size_bytes": 1173203768,
-        "source_bytes_read": 1173203768,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029392",
         "source_bytes_read": 1173203768,
         "elapsed_seconds": 193.86,
         "finished_at": "2026-11-14T12:33:39.997465+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029392",
+          "size_bytes": 1173203768,
+          "source_bytes_read": 1173203768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13622529",
+        "source_url": "https://sdilej.cz/13622529/vrazdy-v-oxfordu-s05e03-mysl-hory-prenasi.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029392",
+        "display_name": "Lewis S05E03 The Mind Has Mountains SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:33:46.051302+00:00"
       }
     },
     "2966:5:4": {
@@ -453554,7 +453555,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:33:39.997484+00:00",
+  "updated_at": "2026-11-14T12:33:46.051322+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
