@@ -461039,12 +461039,6 @@
     },
     "2449:4:8": {
       "episode_key": "patty hewes - nebezpečná advokátka:s4:e8",
-      "claim": {
-        "worker_id": "05b06bc88da245e8b4c537fbfd5ee030-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:59:15.068877+00:00",
-        "lease_expires_at": "2026-11-14T23:59:15.068889+00:00"
-      },
       "source": {
         "source_id": "32902346",
         "source_url": "https://sdilej.cz/32902346/patty-hewes-nebezpecna-advokatka-s04e08-10-2011-cz-dab-1080p-valka-bu.mp4",
@@ -461069,22 +461063,29 @@
         "display_name": "Damages S04E08 The War Will Go on Forever 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:59:20.794043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31036231",
-        "size_bytes": 688391697
-      },
-      "transfer_receipt": {
-        "target_video_id": "31036231",
-        "size_bytes": 688391697,
-        "source_bytes_read": 688391697,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31036231",
         "source_bytes_read": 688391697,
         "elapsed_seconds": 86.66,
         "finished_at": "2026-11-14T18:01:00.831386+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31036231",
+          "size_bytes": 688391697,
+          "source_bytes_read": 688391697,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902346",
+        "source_url": "https://sdilej.cz/32902346/patty-hewes-nebezpecna-advokatka-s04e08-10-2011-cz-dab-1080p-valka-bu.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31036231",
+        "display_name": "Damages S04E08 The War Will Go on Forever 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T18:01:07.158165+00:00"
       }
     },
     "2449:4:9": {
@@ -461167,7 +461168,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:01:00.831406+00:00",
+  "updated_at": "2026-11-14T18:01:07.158183+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
