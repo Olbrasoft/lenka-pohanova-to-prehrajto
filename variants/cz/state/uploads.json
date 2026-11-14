@@ -447294,12 +447294,6 @@
     },
     "1085:1:4": {
       "episode_key": "policie chicago:s1:e4",
-      "claim": {
-        "worker_id": "07e7480b30034ddda6b981d27f712cf9-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:15:50.934043+00:00",
-        "lease_expires_at": "2026-11-14T15:15:50.934058+00:00"
-      },
       "source": {
         "source_id": "32203951",
         "source_url": "https://sdilej.cz/32203951/chicago-p.d.-policie-chicago-s01e04-czdab-x264.mkv",
@@ -447323,7 +447317,13 @@
         },
         "display_name": "Chicago P.D. S01E04 Now Is Always Temporary 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:15:58.135464+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T09:16:10.648175+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:1:5": {
       "episode_key": "policie chicago:s1:e5",
@@ -447364,7 +447364,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:16:07.626612+00:00",
+  "updated_at": "2026-11-14T09:16:10.648180+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -447631,6 +447631,10 @@
         {
           "identity": "1085:1:3",
           "at": "2026-11-14T09:16:07.626584+00:00"
+        },
+        {
+          "identity": "1085:1:4",
+          "at": "2026-11-14T09:16:10.648142+00:00"
         }
       ]
     }
