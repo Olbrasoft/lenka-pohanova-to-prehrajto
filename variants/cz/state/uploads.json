@@ -447750,12 +447750,6 @@
     },
     "1820:1:7": {
       "episode_key": "vražedné záhady slečny fisherové:s1:e7",
-      "claim": {
-        "worker_id": "1f11dafca34c4a0ba0698b22b2e7b3fe-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:22:25.639746+00:00",
-        "lease_expires_at": "2026-11-14T15:22:25.639756+00:00"
-      },
       "source": {
         "source_id": "33258415",
         "source_url": "https://sdilej.cz/33258415/vrazedne-zahady-slecny-fisherove-s01e07-13-2012-cz-dab-720p-vrazda-v-montparnasse.mkv",
@@ -447780,22 +447774,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S01E07 Murder in Montparnasse 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:22:29.277659+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31026029",
-        "size_bytes": 2412448590
-      },
-      "transfer_receipt": {
-        "target_video_id": "31026029",
-        "size_bytes": 2412448590,
-        "source_bytes_read": 2412448590,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31026029",
         "source_bytes_read": 2412448590,
         "elapsed_seconds": 101.04,
         "finished_at": "2026-11-14T09:24:25.290597+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31026029",
+          "size_bytes": 2412448590,
+          "source_bytes_read": 2412448590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33258415",
+        "source_url": "https://sdilej.cz/33258415/vrazedne-zahady-slecny-fisherove-s01e07-13-2012-cz-dab-720p-vrazda-v-montparnasse.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31026029",
+        "display_name": "Miss Fisher's Murder Mysteries S01E07 Murder in Montparnasse 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:24:33.484114+00:00"
       }
     },
     "1820:1:8": {
@@ -447878,7 +447879,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:24:28.856509+00:00",
+  "updated_at": "2026-11-14T09:24:33.484131+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
