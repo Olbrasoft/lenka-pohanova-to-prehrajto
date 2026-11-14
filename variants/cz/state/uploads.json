@@ -453061,12 +453061,6 @@
     },
     "2966:3:4": {
       "episode_key": "vraždy v oxfordu:s3:e4",
-      "claim": {
-        "worker_id": "985b2c1b76ce49328d3cbc6b250d5e84-worker-0",
-        "run_id": "43589624409",
-        "claimed_at": "2026-11-14T12:14:34.838646+00:00",
-        "lease_expires_at": "2026-11-14T18:14:34.838663+00:00"
-      },
       "source": {
         "source_id": "29919983",
         "source_url": "https://sdilej.cz/29919983/vrazdy-v-oxfordu-s03e04-012-2008-sd-blues-kontrakultury-s-.mp4",
@@ -453091,22 +453085,29 @@
         "display_name": "Lewis S03E04 Counter Culture Blues SD CZ Dabing",
         "prepared_at": "2026-11-14T12:14:38.630855+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31029121",
-        "size_bytes": 1231046733
-      },
-      "transfer_receipt": {
-        "target_video_id": "31029121",
-        "size_bytes": 1231046733,
-        "source_bytes_read": 1231046733,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31029121",
         "source_bytes_read": 1231046733,
         "elapsed_seconds": 248.398,
         "finished_at": "2026-11-14T12:19:00.798709+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31029121",
+          "size_bytes": 1231046733,
+          "source_bytes_read": 1231046733,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29919983",
+        "source_url": "https://sdilej.cz/29919983/vrazdy-v-oxfordu-s03e04-012-2008-sd-blues-kontrakultury-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31029121",
+        "display_name": "Lewis S03E04 Counter Culture Blues SD CZ Dabing",
+        "uploaded_at": "2026-11-14T12:19:14.093701+00:00"
       }
     }
   },
@@ -453115,7 +453116,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T12:19:10.829920+00:00",
+  "updated_at": "2026-11-14T12:19:14.093721+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
