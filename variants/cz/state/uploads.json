@@ -451420,12 +451420,6 @@
     },
     "1085:2:11": {
       "episode_key": "policie chicago:s2:e11",
-      "claim": {
-        "worker_id": "3538d70db1964b00a2e60edb94c36d91-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T11:27:05.619887+00:00",
-        "lease_expires_at": "2026-11-14T17:27:05.619900+00:00"
-      },
       "source": {
         "source_id": "27884037",
         "source_url": "https://sdilej.cz/27884037/policie-chicago-02x11.avi",
@@ -451449,7 +451443,13 @@
         },
         "display_name": "Chicago P.D. S02E11 We Don't Work Together Anymore SD CZ Dabing",
         "prepared_at": "2026-11-14T11:27:12.105613+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T11:27:27.083003+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:2:12": {
       "episode_key": "policie chicago:s2:e12",
@@ -451490,7 +451490,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T11:27:23.838423+00:00",
+  "updated_at": "2026-11-14T11:27:27.083008+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -451761,6 +451761,10 @@
         {
           "identity": "1085:2:5",
           "at": "2026-11-14T11:24:46.713908+00:00"
+        },
+        {
+          "identity": "1085:2:11",
+          "at": "2026-11-14T11:27:27.082973+00:00"
         }
       ],
       "retry_after": "2026-11-14T11:24:21.665183+00:00"
