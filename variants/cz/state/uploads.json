@@ -462169,12 +462169,6 @@
     },
     "828:1:7": {
       "episode_key": "svědectví:s1:e7",
-      "claim": {
-        "worker_id": "26b0b99589a640449313791c9a3f3758-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T18:52:37.507854+00:00",
-        "lease_expires_at": "2026-11-15T00:52:37.507869+00:00"
-      },
       "source": {
         "source_id": "34400467",
         "source_url": "https://sdilej.cz/34400467/svedectvi-s01e07-zavazek.mkv",
@@ -462199,22 +462193,29 @@
         "display_name": "The Testaments S01E07 Commitment 4K CZ Dabing",
         "prepared_at": "2026-11-14T18:52:41.669660+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31037069",
-        "size_bytes": 2150008359
-      },
-      "transfer_receipt": {
-        "target_video_id": "31037069",
-        "size_bytes": 2150008359,
-        "source_bytes_read": 2150008359,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31037069",
         "source_bytes_read": 2150008359,
         "elapsed_seconds": 331.495,
         "finished_at": "2026-11-14T18:58:28.652563+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31037069",
+          "size_bytes": 2150008359,
+          "source_bytes_read": 2150008359,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400467",
+        "source_url": "https://sdilej.cz/34400467/svedectvi-s01e07-zavazek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31037069",
+        "display_name": "The Testaments S01E07 Commitment 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T18:58:35.534942+00:00"
       }
     },
     "828:1:8": {
@@ -462297,7 +462298,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T18:58:28.652579+00:00",
+  "updated_at": "2026-11-14T18:58:35.534959+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
