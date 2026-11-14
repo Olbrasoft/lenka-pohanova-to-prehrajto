@@ -442524,12 +442524,6 @@
     },
     "1411:16:4": {
       "episode_key": "případy detektiva murdocha:s16:e4",
-      "claim": {
-        "worker_id": "9fe3769c0f844da0bb4d4c111ef42911-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T03:22:31.163175+00:00",
-        "lease_expires_at": "2026-11-14T09:22:31.163186+00:00"
-      },
       "source": {
         "source_id": "26416382",
         "source_url": "https://sdilej.cz/26416382/pripady-detektiva-murdocha-s16e04-cz-hd-nadejne-mlade-damy.mkv",
@@ -442554,22 +442548,29 @@
         "display_name": "Murdoch Mysteries S16E04 Promising Young Ladies 1080p CZ Dabing",
         "prepared_at": "2026-11-14T03:22:37.366427+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31023245",
-        "size_bytes": 958793492
-      },
-      "transfer_receipt": {
-        "target_video_id": "31023245",
-        "size_bytes": 958793492,
-        "source_bytes_read": 958793492,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31023245",
         "source_bytes_read": 958793492,
         "elapsed_seconds": 433.401,
         "finished_at": "2026-11-14T03:30:08.820216+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31023245",
+          "size_bytes": 958793492,
+          "source_bytes_read": 958793492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26416382",
+        "source_url": "https://sdilej.cz/26416382/pripady-detektiva-murdocha-s16e04-cz-hd-nadejne-mlade-damy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31023245",
+        "display_name": "Murdoch Mysteries S16E04 Promising Young Ladies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T03:30:16.464586+00:00"
       }
     },
     "1411:16:5": {
@@ -442629,7 +442630,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T03:30:12.987728+00:00",
+  "updated_at": "2026-11-14T03:30:16.464602+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
