@@ -437557,12 +437557,6 @@
     },
     "1411:10:2": {
       "episode_key": "případy detektiva murdocha:s10:e2",
-      "claim": {
-        "worker_id": "399fd7bfdc3e4b8a9b4fc4cafc97daac-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:22:59.287561+00:00",
-        "lease_expires_at": "2026-11-14T06:22:59.287571+00:00"
-      },
       "source": {
         "source_id": "13796208",
         "source_url": "https://sdilej.cz/13796208/pripady-detektiva-murdocha-s10e02-planouci-srdce-2-cz-dabing.avi",
@@ -437587,22 +437581,29 @@
         "display_name": "Murdoch Mysteries S10E02 Great Balls of Fire (2) 720p CZ Dabing",
         "prepared_at": "2026-11-14T00:23:06.762616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021833",
-        "size_bytes": 644928122
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021833",
-        "size_bytes": 644928122,
-        "source_bytes_read": 644928122,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021833",
         "source_bytes_read": 644928122,
         "elapsed_seconds": 241.534,
         "finished_at": "2026-11-14T00:27:24.175881+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021833",
+          "size_bytes": 644928122,
+          "source_bytes_read": 644928122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13796208",
+        "source_url": "https://sdilej.cz/13796208/pripady-detektiva-murdocha-s10e02-planouci-srdce-2-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021833",
+        "display_name": "Murdoch Mysteries S10E02 Great Balls of Fire (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T00:27:28.809829+00:00"
       }
     },
     "1411:10:3": {
@@ -437648,7 +437649,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:27:24.175899+00:00",
+  "updated_at": "2026-11-14T00:27:28.809847+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
