@@ -440790,12 +440790,6 @@
     },
     "1411:13:17": {
       "episode_key": "případy detektiva murdocha:s13:e17",
-      "claim": {
-        "worker_id": "a8dc718aa97e4ea19fc5c300dc006690-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:06:56.924873+00:00",
-        "lease_expires_at": "2026-11-14T08:06:56.924885+00:00"
-      },
       "source": {
         "source_id": "24278506",
         "source_url": "https://sdilej.cz/24278506/pripady-detektiva-murdocha-s13e17-cz-dabing.mkv",
@@ -440820,22 +440814,29 @@
         "display_name": "Murdoch Mysteries S13E17 Things Left Behind 720p CZ Dabing",
         "prepared_at": "2026-11-14T02:07:07.960436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022607",
-        "size_bytes": 457677780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022607",
-        "size_bytes": 457677780,
-        "source_bytes_read": 457677780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022607",
         "source_bytes_read": 457677780,
         "elapsed_seconds": 128.05,
         "finished_at": "2026-11-14T02:09:32.536057+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022607",
+          "size_bytes": 457677780,
+          "source_bytes_read": 457677780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24278506",
+        "source_url": "https://sdilej.cz/24278506/pripady-detektiva-murdocha-s13e17-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022607",
+        "display_name": "Murdoch Mysteries S13E17 Things Left Behind 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:09:37.041737+00:00"
       }
     },
     "1411:14:1": {
@@ -440881,7 +440882,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:09:32.536076+00:00",
+  "updated_at": "2026-11-14T02:09:37.041753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
