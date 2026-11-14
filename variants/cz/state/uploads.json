@@ -442561,12 +442561,6 @@
     },
     "1411:16:5": {
       "episode_key": "případy detektiva murdocha:s16:e5",
-      "claim": {
-        "worker_id": "b534a792da384770ab81557c5a739b7a-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T03:22:56.416017+00:00",
-        "lease_expires_at": "2026-11-14T09:22:56.416028+00:00"
-      },
       "source": {
         "source_id": "33824010",
         "source_url": "https://sdilej.cz/33824010/pripady-detektiva-murdocha-s16e05-247-2022-fhd-s-vrazdou-o-zavod-s-.mp4",
@@ -442591,22 +442585,29 @@
         "display_name": "Murdoch Mysteries S16E05 Murdoch Rides Easy 1080p CZ Dabing",
         "prepared_at": "2026-11-14T03:23:00.207337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31023250",
-        "size_bytes": 871358954
-      },
-      "transfer_receipt": {
-        "target_video_id": "31023250",
-        "size_bytes": 871358954,
-        "source_bytes_read": 871358954,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31023250",
         "source_bytes_read": 871358954,
         "elapsed_seconds": 381.499,
         "finished_at": "2026-11-14T03:29:35.416222+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31023250",
+          "size_bytes": 871358954,
+          "source_bytes_read": 871358954,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824010",
+        "source_url": "https://sdilej.cz/33824010/pripady-detektiva-murdocha-s16e05-247-2022-fhd-s-vrazdou-o-zavod-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31023250",
+        "display_name": "Murdoch Mysteries S16E05 Murdoch Rides Easy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T03:29:42.134156+00:00"
       }
     }
   },
@@ -442615,7 +442616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T03:29:35.416251+00:00",
+  "updated_at": "2026-11-14T03:29:42.134169+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
