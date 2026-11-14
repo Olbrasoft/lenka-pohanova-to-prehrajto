@@ -444768,12 +444768,6 @@
     },
     "1411:18:4": {
       "episode_key": "případy detektiva murdocha:s18:e4",
-      "claim": {
-        "worker_id": "048670b2127c46e3a8deff70cf3b5977-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:19:33.911191+00:00",
-        "lease_expires_at": "2026-11-14T12:19:33.911203+00:00"
-      },
       "source": {
         "source_id": "32870806",
         "source_url": "https://sdilej.cz/32870806/pripady-detektiva-murdocha-s18e04-cz-dabing.mkv",
@@ -444798,22 +444792,29 @@
         "display_name": "Murdoch Mysteries S18E04 Gimme Shelter 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:19:37.771295+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024610",
-        "size_bytes": 849477025
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024610",
-        "size_bytes": 849477025,
-        "source_bytes_read": 849477025,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024610",
         "source_bytes_read": 849477025,
         "elapsed_seconds": 510.834,
         "finished_at": "2026-11-14T06:28:31.357179+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024610",
+          "size_bytes": 849477025,
+          "source_bytes_read": 849477025,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32870806",
+        "source_url": "https://sdilej.cz/32870806/pripady-detektiva-murdocha-s18e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024610",
+        "display_name": "Murdoch Mysteries S18E04 Gimme Shelter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:28:38.372075+00:00"
       }
     },
     "1411:18:5": {
@@ -444859,7 +444860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:28:35.225374+00:00",
+  "updated_at": "2026-11-14T06:28:38.372090+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
