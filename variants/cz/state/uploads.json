@@ -446700,12 +446700,6 @@
     },
     "4086:2:8": {
       "episode_key": "pozlacený věk:s2:e8",
-      "claim": {
-        "worker_id": "3eb08a4b66a94e68994cb0fe6c8871b6-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:09:21.525013+00:00",
-        "lease_expires_at": "2026-11-14T15:09:21.525026+00:00"
-      },
       "source": {
         "source_id": "31287484",
         "source_url": "https://sdilej.cz/31287484/pozlaceny-vek-the-gilded-age-s02e08-2023-1080p-cz.mkv",
@@ -446730,22 +446724,29 @@
         "display_name": "The Gilded Age S02E08 In Terms of Winning and Losing 1080p CZ Dabing",
         "prepared_at": "2026-11-14T09:09:28.135504+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31025831",
-        "size_bytes": 1268171626
-      },
-      "transfer_receipt": {
-        "target_video_id": "31025831",
-        "size_bytes": 1268171626,
-        "source_bytes_read": 1268171626,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31025831",
         "source_bytes_read": 1268171626,
         "elapsed_seconds": 57.493,
         "finished_at": "2026-11-14T09:10:42.292663+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31025831",
+          "size_bytes": 1268171626,
+          "source_bytes_read": 1268171626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31287484",
+        "source_url": "https://sdilej.cz/31287484/pozlaceny-vek-the-gilded-age-s02e08-2023-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31025831",
+        "display_name": "The Gilded Age S02E08 In Terms of Winning and Losing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:10:47.446267+00:00"
       }
     },
     "4086:3:1": {
@@ -446828,7 +446829,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:10:42.292681+00:00",
+  "updated_at": "2026-11-14T09:10:47.446284+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
