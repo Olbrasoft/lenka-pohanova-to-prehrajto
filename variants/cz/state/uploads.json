@@ -437775,12 +437775,6 @@
     },
     "1411:10:6": {
       "episode_key": "případy detektiva murdocha:s10:e6",
-      "claim": {
-        "worker_id": "0aab28fcdc1b41c3b61be57f8e96cc16-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T00:28:50.141803+00:00",
-        "lease_expires_at": "2026-11-14T06:28:50.141814+00:00"
-      },
       "source": {
         "source_id": "20601350",
         "source_url": "https://sdilej.cz/20601350/pripady-detektiva-murdocha-s10e06-dej-fales-jako-brackenreid-sd-.mp4",
@@ -437805,22 +437799,29 @@
         "display_name": "Murdoch Mysteries S10E06 Bend It Like Brackenreid SD CZ Dabing",
         "prepared_at": "2026-11-14T00:28:54.036202+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31021875",
-        "size_bytes": 232687976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31021875",
-        "size_bytes": 232687976,
-        "source_bytes_read": 232687976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31021875",
         "source_bytes_read": 232687976,
         "elapsed_seconds": 83.67,
         "finished_at": "2026-11-14T00:30:33.835743+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31021875",
+          "size_bytes": 232687976,
+          "source_bytes_read": 232687976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20601350",
+        "source_url": "https://sdilej.cz/20601350/pripady-detektiva-murdocha-s10e06-dej-fales-jako-brackenreid-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31021875",
+        "display_name": "Murdoch Mysteries S10E06 Bend It Like Brackenreid SD CZ Dabing",
+        "uploaded_at": "2026-11-14T00:30:38.565527+00:00"
       }
     },
     "1411:10:7": {
@@ -437903,7 +437904,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T00:30:33.835763+00:00",
+  "updated_at": "2026-11-14T00:30:38.565544+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
