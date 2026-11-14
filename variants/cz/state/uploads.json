@@ -444048,12 +444048,6 @@
     },
     "1411:17:14": {
       "episode_key": "případy detektiva murdocha:s17:e14",
-      "claim": {
-        "worker_id": "3928bd1ef0c64378baa121c29295bc92-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T05:46:40.012304+00:00",
-        "lease_expires_at": "2026-11-14T11:46:40.012316+00:00"
-      },
       "source": {
         "source_id": "31385122",
         "source_url": "https://sdilej.cz/31385122/pripady-detektiva-murdocha-s17e14-vrazedny-roj.mkv",
@@ -444078,22 +444072,29 @@
         "display_name": "Murdoch Mysteries S17E14 The Smell of Alarm 1080p CZ Dabing",
         "prepared_at": "2026-11-14T05:46:45.468646+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024378",
-        "size_bytes": 972641290
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024378",
-        "size_bytes": 972641290,
-        "source_bytes_read": 972641290,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024378",
         "source_bytes_read": 972641290,
         "elapsed_seconds": 388.732,
         "finished_at": "2026-11-14T05:53:29.136013+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024378",
+          "size_bytes": 972641290,
+          "source_bytes_read": 972641290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31385122",
+        "source_url": "https://sdilej.cz/31385122/pripady-detektiva-murdocha-s17e14-vrazedny-roj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024378",
+        "display_name": "Murdoch Mysteries S17E14 The Smell of Alarm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T05:53:35.229544+00:00"
       }
     },
     "1411:17:15": {
@@ -444223,7 +444224,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T05:53:32.177983+00:00",
+  "updated_at": "2026-11-14T05:53:35.229565+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
