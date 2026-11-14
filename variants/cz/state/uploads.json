@@ -467507,12 +467507,6 @@
     },
     "30:5:4": {
       "episode_key": "lucifer:s5:e4",
-      "claim": {
-        "worker_id": "2b6c3611c4e24a7abd846d16ac7e48a1-worker-0",
-        "run_id": "43642391332",
-        "claimed_at": "2026-11-14T22:42:03.343404+00:00",
-        "lease_expires_at": "2026-11-15T04:42:03.343416+00:00"
-      },
       "source": {
         "source_id": "34984890",
         "source_url": "https://sdilej.cz/34984890/lucifer-s05e04-cz.mkv",
@@ -467536,7 +467530,13 @@
         },
         "display_name": "Lucifer S05E04 It Never Ends Well for the Chicken 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:42:08.230971+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T22:42:21.955122+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "30:5:5": {
       "episode_key": "lucifer:s5:e5",
@@ -467577,7 +467577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:42:18.577302+00:00",
+  "updated_at": "2026-11-14T22:42:21.955127+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -467882,6 +467882,10 @@
         {
           "identity": "30:3:13",
           "at": "2026-11-14T22:41:55.741214+00:00"
+        },
+        {
+          "identity": "30:5:4",
+          "at": "2026-11-14T22:42:21.955088+00:00"
         }
       ],
       "retry_after": "2026-11-14T22:40:36.811880+00:00"
