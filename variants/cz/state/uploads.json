@@ -440427,12 +440427,6 @@
     },
     "1411:13:10": {
       "episode_key": "případy detektiva murdocha:s13:e10",
-      "claim": {
-        "worker_id": "22f30286c6384dedbb83f303c60afe51-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:48:42.496618+00:00",
-        "lease_expires_at": "2026-11-14T07:48:42.496629+00:00"
-      },
       "source": {
         "source_id": "24278258",
         "source_url": "https://sdilej.cz/24278258/pripady-detektiva-murdocha-s13e10-cz-dabing.mkv",
@@ -440457,22 +440451,29 @@
         "display_name": "Murdoch Mysteries S13E10 Parker in the Rye 720p CZ Dabing",
         "prepared_at": "2026-11-14T01:48:51.949048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022473",
-        "size_bytes": 456770732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022473",
-        "size_bytes": 456770732,
-        "source_bytes_read": 456770732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022473",
         "source_bytes_read": 456770732,
         "elapsed_seconds": 194.498,
         "finished_at": "2026-11-14T01:52:27.934441+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022473",
+          "size_bytes": 456770732,
+          "source_bytes_read": 456770732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24278258",
+        "source_url": "https://sdilej.cz/24278258/pripady-detektiva-murdocha-s13e10-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022473",
+        "display_name": "Murdoch Mysteries S13E10 Parker in the Rye 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:52:35.666986+00:00"
       }
     },
     "1411:13:11": {
@@ -440568,7 +440569,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:52:27.934463+00:00",
+  "updated_at": "2026-11-14T01:52:35.667004+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
