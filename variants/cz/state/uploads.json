@@ -441141,12 +441141,6 @@
     },
     "1411:14:7": {
       "episode_key": "případy detektiva murdocha:s14:e7",
-      "claim": {
-        "worker_id": "bfd057c92b2e462b92ff60ce46699a48-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T02:16:23.714980+00:00",
-        "lease_expires_at": "2026-11-14T08:16:23.714992+00:00"
-      },
       "source": {
         "source_id": "18966723",
         "source_url": "https://sdilej.cz/18966723/pripady-detektiva-murdocha-s14e07-unikova-hra-sd-.mkv",
@@ -441171,22 +441165,29 @@
         "display_name": "Murdoch Mysteries S14E07 Murdoch Escape Room 1080p CZ Dabing",
         "prepared_at": "2026-11-14T02:16:29.020457+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022667",
-        "size_bytes": 769300610
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022667",
-        "size_bytes": 769300610,
-        "source_bytes_read": 769300610,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022667",
         "source_bytes_read": 769300610,
         "elapsed_seconds": 271.109,
         "finished_at": "2026-11-14T02:21:16.280562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022667",
+          "size_bytes": 769300610,
+          "source_bytes_read": 769300610,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18966723",
+        "source_url": "https://sdilej.cz/18966723/pripady-detektiva-murdocha-s14e07-unikova-hra-sd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022667",
+        "display_name": "Murdoch Mysteries S14E07 Murdoch Escape Room 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T02:21:22.135011+00:00"
       }
     },
     "1411:14:8": {
@@ -441269,7 +441270,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T02:21:16.280583+00:00",
+  "updated_at": "2026-11-14T02:21:22.135030+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
