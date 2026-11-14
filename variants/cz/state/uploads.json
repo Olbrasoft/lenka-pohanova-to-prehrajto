@@ -460444,12 +460444,6 @@
     },
     "2449:2:7": {
       "episode_key": "patty hewes - nebezpečná advokátka:s2:e7",
-      "claim": {
-        "worker_id": "35ff705b547148ae936536c2cfd9fdce-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:44:16.574771+00:00",
-        "lease_expires_at": "2026-11-14T23:44:16.574781+00:00"
-      },
       "source": {
         "source_id": "32902234",
         "source_url": "https://sdilej.cz/32902234/patty-hewes-nebezpecna-advokatka-s02e07-13-2009-cz-dab-720p-new-york-j.mp4",
@@ -460474,22 +460468,29 @@
         "display_name": "Damages S02E07 New York Sucks 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:44:19.970371+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035880",
-        "size_bytes": 607964141
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035880",
-        "size_bytes": 607964141,
-        "source_bytes_read": 607964141,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035880",
         "source_bytes_read": 607964141,
         "elapsed_seconds": 106.286,
         "finished_at": "2026-11-14T17:46:22.537354+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035880",
+          "size_bytes": 607964141,
+          "source_bytes_read": 607964141,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902234",
+        "source_url": "https://sdilej.cz/32902234/patty-hewes-nebezpecna-advokatka-s02e07-13-2009-cz-dab-720p-new-york-j.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035880",
+        "display_name": "Damages S02E07 New York Sucks 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:46:27.940400+00:00"
       }
     },
     "2449:2:13": {
@@ -460536,7 +460537,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:46:22.537375+00:00",
+  "updated_at": "2026-11-14T17:46:27.940416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
