@@ -467225,12 +467225,6 @@
     },
     "30:4:9": {
       "episode_key": "lucifer:s4:e9",
-      "claim": {
-        "worker_id": "7f7cf0f5abb444b79c472f7ccdd21cbc-worker-0",
-        "run_id": "43626199431",
-        "claimed_at": "2026-11-14T22:09:17.526998+00:00",
-        "lease_expires_at": "2026-11-15T04:09:17.527015+00:00"
-      },
       "source": {
         "source_id": "32999223",
         "source_url": "https://sdilej.cz/32999223/lucifer-s04e09-zachrante-lucifera.mkv",
@@ -467255,22 +467249,29 @@
         "display_name": "Lucifer S04E09 Save Lucifer 4K CZ Dabing",
         "prepared_at": "2026-11-14T22:09:21.375624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31040304",
-        "size_bytes": 2193739636
-      },
-      "transfer_receipt": {
-        "target_video_id": "31040304",
-        "size_bytes": 2193739636,
-        "source_bytes_read": 2193739636,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31040304",
         "source_bytes_read": 2193739636,
         "elapsed_seconds": 374.388,
         "finished_at": "2026-11-14T22:15:55.963857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31040304",
+          "size_bytes": 2193739636,
+          "source_bytes_read": 2193739636,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32999223",
+        "source_url": "https://sdilej.cz/32999223/lucifer-s04e09-zachrante-lucifera.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31040304",
+        "display_name": "Lucifer S04E09 Save Lucifer 4K CZ Dabing",
+        "uploaded_at": "2026-11-14T22:16:08.919556+00:00"
       }
     }
   },
@@ -467279,7 +467280,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T22:16:02.798651+00:00",
+  "updated_at": "2026-11-14T22:16:08.919574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
