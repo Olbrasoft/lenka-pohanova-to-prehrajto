@@ -444544,12 +444544,6 @@
     },
     "1411:17:24": {
       "episode_key": "případy detektiva murdocha:s17:e24",
-      "claim": {
-        "worker_id": "7acfd1ad56724765ac76b538feae15a1-worker-0",
-        "run_id": "43556303495",
-        "claimed_at": "2026-11-14T06:07:55.665051+00:00",
-        "lease_expires_at": "2026-11-14T12:07:55.665062+00:00"
-      },
       "source": {
         "source_id": "31385100",
         "source_url": "https://sdilej.cz/31385100/pripady-detektiva-murdocha-s17e24-pro-vyssi-dobro.mkv",
@@ -444574,22 +444568,29 @@
         "display_name": "Murdoch Mysteries S17E24 For the Greater Good 1080p CZ Dabing",
         "prepared_at": "2026-11-14T06:07:59.301690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31024543",
-        "size_bytes": 295775716
-      },
-      "transfer_receipt": {
-        "target_video_id": "31024543",
-        "size_bytes": 295775716,
-        "source_bytes_read": 295775716,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31024543",
         "source_bytes_read": 295775716,
         "elapsed_seconds": 150.813,
         "finished_at": "2026-11-14T06:10:43.811511+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31024543",
+          "size_bytes": 295775716,
+          "source_bytes_read": 295775716,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31385100",
+        "source_url": "https://sdilej.cz/31385100/pripady-detektiva-murdocha-s17e24-pro-vyssi-dobro.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31024543",
+        "display_name": "Murdoch Mysteries S17E24 For the Greater Good 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T06:10:48.485067+00:00"
       }
     },
     "1411:18:1": {
@@ -444635,7 +444636,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T06:10:43.811561+00:00",
+  "updated_at": "2026-11-14T06:10:48.485083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
