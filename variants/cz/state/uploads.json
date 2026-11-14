@@ -439050,12 +439050,6 @@
     },
     "1411:11:16": {
       "episode_key": "případy detektiva murdocha:s11:e16",
-      "claim": {
-        "worker_id": "217afa5f5b61464583515f3470973033-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:08:13.461467+00:00",
-        "lease_expires_at": "2026-11-14T07:08:13.461479+00:00"
-      },
       "source": {
         "source_id": "21633377",
         "source_url": "https://sdilej.cz/21633377/pripady-detektiva-murdocha-s11e16-2018-sd-kralovska-hra-sd-.mp4",
@@ -439080,22 +439074,29 @@
         "display_name": "Murdoch Mysteries S11E16 Game of Kings SD CZ Dabing",
         "prepared_at": "2026-11-14T01:08:21.299561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022163",
-        "size_bytes": 849899333
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022163",
-        "size_bytes": 849899333,
-        "source_bytes_read": 849899333,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022163",
         "source_bytes_read": 849899333,
         "elapsed_seconds": 269.701,
         "finished_at": "2026-11-14T01:13:10.831940+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022163",
+          "size_bytes": 849899333,
+          "source_bytes_read": 849899333,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21633377",
+        "source_url": "https://sdilej.cz/21633377/pripady-detektiva-murdocha-s11e16-2018-sd-kralovska-hra-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022163",
+        "display_name": "Murdoch Mysteries S11E16 Game of Kings SD CZ Dabing",
+        "uploaded_at": "2026-11-14T01:13:15.128639+00:00"
       }
     },
     "1411:11:17": {
@@ -439229,7 +439230,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:13:10.831960+00:00",
+  "updated_at": "2026-11-14T01:13:15.128656+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
