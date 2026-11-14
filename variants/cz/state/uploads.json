@@ -460007,12 +460007,6 @@
     },
     "4551:1:4": {
       "episode_key": "nula nula nula:s1:e4",
-      "claim": {
-        "worker_id": "7d83d0b588c241f2a8096ad53b0a8fe3-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:34:58.506642+00:00",
-        "lease_expires_at": "2026-11-14T23:34:58.506654+00:00"
-      },
       "source": {
         "source_id": "13264705",
         "source_url": "https://sdilej.cz/13264705/zerozerozero.-2020-.s01e04.1080p.10bit.amzn.webrip.ac3.x265.hevc-ainz-taoe-czaudio-.mkv",
@@ -460037,22 +460031,29 @@
         "display_name": "ZeroZeroZero S01E04 Il trasbordo 1080p CZ Dabing",
         "prepared_at": "2026-11-14T17:35:01.967060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035663",
-        "size_bytes": 941063863
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035663",
-        "size_bytes": 941063863,
-        "source_bytes_read": 941063863,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035663",
         "source_bytes_read": 941063863,
         "elapsed_seconds": 102.474,
         "finished_at": "2026-11-14T17:36:58.347510+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035663",
+          "size_bytes": 941063863,
+          "source_bytes_read": 941063863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13264705",
+        "source_url": "https://sdilej.cz/13264705/zerozerozero.-2020-.s01e04.1080p.10bit.amzn.webrip.ac3.x265.hevc-ainz-taoe-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035663",
+        "display_name": "ZeroZeroZero S01E04 Il trasbordo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:37:06.249679+00:00"
       }
     }
   },
@@ -460061,7 +460062,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:37:01.552510+00:00",
+  "updated_at": "2026-11-14T17:37:06.249699+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
