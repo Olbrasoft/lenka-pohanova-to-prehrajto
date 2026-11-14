@@ -456001,12 +456001,6 @@
     },
     "1085:2:19": {
       "episode_key": "policie chicago:s2:e19",
-      "claim": {
-        "worker_id": "f9ccf5ada1fa405eb243c2deb155fc18-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:10:49.438905+00:00",
-        "lease_expires_at": "2026-11-14T21:10:49.438915+00:00"
-      },
       "source": {
         "source_id": "32204011",
         "source_url": "https://sdilej.cz/32204011/chicago-p.d.-policie-chicago-s02e19-czdab-x264.mkv",
@@ -456030,7 +456024,13 @@
         },
         "display_name": "Chicago P.D. S02E19 The Three Gs 720p CZ Dabing",
         "prepared_at": "2026-11-14T15:10:58.980509+00:00"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-14T15:11:10.451735+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -456038,7 +456038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:11:04.149458+00:00",
+  "updated_at": "2026-11-14T15:11:10.451740+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -456323,19 +456323,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:2:16",
-          "at": "2026-11-14T15:10:34.043503+00:00"
-        },
-        {
           "identity": "1085:2:17",
           "at": "2026-11-14T15:10:55.976666+00:00"
         },
         {
           "identity": "1085:2:18",
           "at": "2026-11-14T15:11:04.149380+00:00"
+        },
+        {
+          "identity": "1085:2:19",
+          "at": "2026-11-14T15:11:10.451670+00:00"
         }
       ],
-      "retry_after": "2026-11-14T15:21:04.149380+00:00"
+      "retry_after": "2026-11-14T15:21:10.451670+00:00"
     },
     "1820": {
       "recent_failures": [
