@@ -456363,12 +456363,6 @@
     },
     "951:2:3": {
       "episode_key": "protiúder:s2:e3",
-      "claim": {
-        "worker_id": "742cc69377f04cdcb4c9a1f519ab0d86-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T15:26:47.537567+00:00",
-        "lease_expires_at": "2026-11-14T21:26:47.537584+00:00"
-      },
       "source": {
         "source_id": "35291278",
         "source_url": "https://sdilej.cz/35291278/protiuder-s02e03.mkv",
@@ -456393,22 +456387,29 @@
         "display_name": "Strike Back S02E03 1080p CZ Dabing",
         "prepared_at": "2026-11-14T15:26:51.047488+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31032850",
-        "size_bytes": 2410690998
-      },
-      "transfer_receipt": {
-        "target_video_id": "31032850",
-        "size_bytes": 2410690998,
-        "source_bytes_read": 2410690998,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31032850",
         "source_bytes_read": 2410690998,
         "elapsed_seconds": 387.068,
         "finished_at": "2026-11-14T15:33:32.312163+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31032850",
+          "size_bytes": 2410690998,
+          "source_bytes_read": 2410690998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35291278",
+        "source_url": "https://sdilej.cz/35291278/protiuder-s02e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31032850",
+        "display_name": "Strike Back S02E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T15:33:38.022232+00:00"
       }
     },
     "951:2:4": {
@@ -456491,7 +456492,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T15:33:32.312185+00:00",
+  "updated_at": "2026-11-14T15:33:38.022253+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
