@@ -460570,12 +460570,6 @@
     },
     "2449:3:10": {
       "episode_key": "patty hewes - nebezpečná advokátka:s3:e10",
-      "claim": {
-        "worker_id": "5a2340ac4d3e468da8bd0097d9a8ae11-worker-0",
-        "run_id": "43604435317",
-        "claimed_at": "2026-11-14T17:46:39.263162+00:00",
-        "lease_expires_at": "2026-11-14T23:46:39.263176+00:00"
-      },
       "source": {
         "source_id": "32902298",
         "source_url": "https://sdilej.cz/32902298/patty-hewes-nebezpecna-advokatka-s03e10-13-2010-cz-dab-720p-rekni-mi-.mp4",
@@ -460600,22 +460594,29 @@
         "display_name": "Damages S03E10 Tell Me I'm Not Racist 720p CZ Dabing",
         "prepared_at": "2026-11-14T17:46:45.643325+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31035950",
-        "size_bytes": 609345164
-      },
-      "transfer_receipt": {
-        "target_video_id": "31035950",
-        "size_bytes": 609345164,
-        "source_bytes_read": 609345164,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31035950",
         "source_bytes_read": 609345164,
         "elapsed_seconds": 67.568,
         "finished_at": "2026-11-14T17:48:08.602536+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31035950",
+          "size_bytes": 609345164,
+          "source_bytes_read": 609345164,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32902298",
+        "source_url": "https://sdilej.cz/32902298/patty-hewes-nebezpecna-advokatka-s03e10-13-2010-cz-dab-720p-rekni-mi-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31035950",
+        "display_name": "Damages S03E10 Tell Me I'm Not Racist 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T17:48:13.436761+00:00"
       }
     }
   },
@@ -460624,7 +460625,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T17:48:08.602558+00:00",
+  "updated_at": "2026-11-14T17:48:13.436780+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
