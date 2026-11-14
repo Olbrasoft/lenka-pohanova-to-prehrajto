@@ -439203,12 +439203,6 @@
     },
     "1411:12:1": {
       "episode_key": "případy detektiva murdocha:s12:e1",
-      "claim": {
-        "worker_id": "82096edf674945e3a09c4d7d71b2341a-worker-0",
-        "run_id": "43526480385",
-        "claimed_at": "2026-11-14T01:12:01.709450+00:00",
-        "lease_expires_at": "2026-11-14T07:12:01.709460+00:00"
-      },
       "source": {
         "source_id": "12661274",
         "source_url": "https://sdilej.cz/12661274/pripady-detektiva-murdocha-s12e01-murdoch-a-mimozemstane.tvrip.cz.mkv",
@@ -439233,22 +439227,29 @@
         "display_name": "Murdoch Mysteries S12E01 Murdoch Mystery Mansion 1080p CZ Dabing",
         "prepared_at": "2026-11-14T01:12:09.462617+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31022190",
-        "size_bytes": 1260647134
-      },
-      "transfer_receipt": {
-        "target_video_id": "31022190",
-        "size_bytes": 1260647134,
-        "source_bytes_read": 1260647134,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31022190",
         "source_bytes_read": 1260647134,
         "elapsed_seconds": 377.027,
         "finished_at": "2026-11-14T01:18:41.863765+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31022190",
+          "size_bytes": 1260647134,
+          "source_bytes_read": 1260647134,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12661274",
+        "source_url": "https://sdilej.cz/12661274/pripady-detektiva-murdocha-s12e01-murdoch-a-mimozemstane.tvrip.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31022190",
+        "display_name": "Murdoch Mysteries S12E01 Murdoch Mystery Mansion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-14T01:18:51.998293+00:00"
       }
     },
     "1411:12:2": {
@@ -439429,7 +439430,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T01:18:48.955694+00:00",
+  "updated_at": "2026-11-14T01:18:51.998308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
