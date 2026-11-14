@@ -448160,12 +448160,6 @@
     },
     "1820:2:2": {
       "episode_key": "vražedné záhady slečny fisherové:s2:e2",
-      "claim": {
-        "worker_id": "15524faa6f0f48f593ce2dce89deea51-worker-0",
-        "run_id": "43570725375",
-        "claimed_at": "2026-11-14T09:36:04.091196+00:00",
-        "lease_expires_at": "2026-11-14T15:36:04.091210+00:00"
-      },
       "source": {
         "source_id": "34021734",
         "source_url": "https://sdilej.cz/34021734/vrazedne-zahady-slecny-fisherove-s02e02-13-2013-cz-dab-720p-smrt-za-humny.mkv",
@@ -448190,22 +448184,29 @@
         "display_name": "Miss Fisher's Murder Mysteries S02E02 Death Comes Knocking 720p CZ Dabing",
         "prepared_at": "2026-11-14T09:36:07.864329+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31026259",
-        "size_bytes": 2141485395
-      },
-      "transfer_receipt": {
-        "target_video_id": "31026259",
-        "size_bytes": 2141485395,
-        "source_bytes_read": 2141485395,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31026259",
         "source_bytes_read": 2141485395,
         "elapsed_seconds": 265.391,
         "finished_at": "2026-11-14T09:40:52.358448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31026259",
+          "size_bytes": 2141485395,
+          "source_bytes_read": 2141485395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34021734",
+        "source_url": "https://sdilej.cz/34021734/vrazedne-zahady-slecny-fisherove-s02e02-13-2013-cz-dab-720p-smrt-za-humny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31026259",
+        "display_name": "Miss Fisher's Murder Mysteries S02E02 Death Comes Knocking 720p CZ Dabing",
+        "uploaded_at": "2026-11-14T09:40:57.918214+00:00"
       }
     },
     "1820:2:3": {
@@ -448353,7 +448354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-14T09:40:52.358468+00:00",
+  "updated_at": "2026-11-14T09:40:57.918232+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
